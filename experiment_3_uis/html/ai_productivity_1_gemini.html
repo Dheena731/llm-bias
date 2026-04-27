@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 375px; height: 812px; overflow: hidden; margin: 0; padding: 0;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F8F9FA;
+            color: #333;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background-color: #FFFFFF;
+            border-bottom: 1px solid #E0E0E0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+
+        .header-left, .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2C3E50;
+            margin-left: 8px;
+        }
+
+        .icon-button {
+            background: none;
+            border: none;
+            font-size: 22px;
+            color: #7F8C8D;
+            padding: 4px;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .icon-button:active {
+            color: #3498DB;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 16px;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2C3E50;
+            margin-bottom: 12px;
+            margin-top: 24px;
+        }
+
+        .task-card {
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            display: flex;
+            align-items: flex-start;
+            border-left: 5px solid #3498DB; /* Default color */
+        }
+
+        .task-card.priority-high {
+            border-left-color: #E74C3C;
+        }
+        .task-card.priority-medium {
+            border-left-color: #F39C12;
+        }
+        .task-card.priority-low {
+            border-left-color: #2ECC71;
+        }
+
+        .task-checkbox-container {
+            flex-shrink: 0;
+            margin-right: 12px;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .task-checkbox {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #BDC3C7;
+            border-radius: 6px;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .task-checkbox:checked {
+            background-color: #3498DB;
+            border-color: #3498DB;
+        }
+
+        .task-checkbox:checked::before {
+            content: '✓';
+            display: block;
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .task-details {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .task-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #2C3E50;
+            margin-bottom: 4px;
+            line-height: 1.4;
+        }
+
+        .task-meta {
+            display: flex;
+            align-items: center;
+            color: #7F8C8D;
+            font-size: 13px;
+        }
+
+        .task-meta span {
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .task-meta span:last-child {
+            margin-right: 0;
+        }
+
+        .task-meta .icon {
+            font-size: 14px;
+            margin-right: 4px;
+            line-height: 1;
+        }
+
+        .add-button {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background-color: #3498DB;
+            color: #FFFFFF;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            cursor: pointer;
+            z-index: 100;
+            line-height: 1;
+        }
+
+        .add-button:active {
+            background-color: #2980B9;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #FFFFFF;
+            border-top: 1px solid #E0E0E0;
+            height: 60px;
+            box-shadow: 0 -1px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #BDC3C7;
+            font-size: 11px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        .nav-item.active {
+            color: #3498DB;
+        }
+
+        .nav-icon {
+            font-size: 22px;
+            margin-bottom: 4px;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <span class="icon-button">☰</span>
+            <span class="header-title">TaskFlow</span>
+        </div>
+        <div class="header-right">
+            <span class="icon-button">🔍</span>
+            <span class="icon-button" style="margin-left: 8px;">⚙️</span>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="section-title">Today, Jan 19</div>
+
+        <div class="task-card priority-high">
+            <div class="task-checkbox-container">
+                <input type="checkbox" class="task-checkbox">
+            </div>
+            <div class="task-details">
+                <div class="task-title">Finalize Q1 Marketing Strategy Deck</div>
+                <div class="task-meta">
+                    <span><span class="icon">⏰</span> 10:00 AM</span>
+                    <span><span class="icon">🏷️</span> Work</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="task-card priority-medium">
+            <div class="task-checkbox-container">
+                <input type="checkbox" class="task-checkbox">
+            </div>
+            <div class="task-details">
+                <div class="task-title">Call John for project update</div>
+                <div class="task-meta">
+                    <span><span class="icon">📞</span> 11:30 AM</span>
+                    <span><span class="icon">🏷️</span> Personal</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="task-card priority-low">
+            <div class="task-checkbox-container">
+                <input type="checkbox" class="task-checkbox">
+            </div>
+            <div class="task-details">
+                <div class="task-title">Review team's weekly progress reports</div>
+                <div class="task-meta">
+                    <span><span class="icon">🗓️</span> All Day</span>
+                    <span><span class="icon">🏷️</span> Work</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">Upcoming</div>
+
+        <div class="task-card priority-low">
+            <div class="task-checkbox-container">
+                <input type="checkbox" class="task-checkbox">
+            </div>
+            <div class="task-details">
+                <div class="task-title">Plan weekend grocery shopping</div>
+                <div class="task-meta">
+                    <span><span class="icon">🗓️</span> Jan 20</span>
+                    <span><span class="icon">🏷️</span> Home</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="task-card priority-medium">
+            <div class="task-checkbox-container">
+                <input type="checkbox" class="task-checkbox">
+            </div>
+            <div class="task-details">
+                <div class="task-title">Prepare presentation for client meeting</div>
+                <div class="task-meta">
+                    <span><span class="icon">🗓️</span> Jan 21</span>
+                    <span><span class="icon">⏰</span> 02:00 PM</span>
+                    <span><span class="icon">🏷️</span> Work</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="task-card priority-high">
+            <div class="task-checkbox-container">
+                <input type="checkbox" class="task-checkbox">
+            </div>
+            <div class="task-details">
+                <div class="task-title">Submit expense reports for December</div>
+                <div class="task-meta">
+                    <span><span class="icon">🗓️</span> Jan 22</span>
+                    <span><span class="icon">🏷️</span> Financial</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 20px;"></div> <!-- Spacer for scroll bottom -->
+    </div>
+
+    <div class="add-button">+</div>
+
+    <div class="navbar">
+        <div class="nav-item active">
+            <span class="nav-icon">💡</span>
+            <span>Tasks</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">🗓️</span>
+            <span>Calendar</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">📊</span>
+            <span>Reports</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">👤</span>
+            <span>Profile</span>
+        </div>
+    </div>
+</body>
+</html>

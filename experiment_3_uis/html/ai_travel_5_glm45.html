@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelEase - Hotel Booking App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 375px;
+            height: 812px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow: hidden;
+            background-color: #f5f7fa;
+        }
+        
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1E88E5 0%, #00ACC1 100%);
+            color: white;
+            padding: 20px 16px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #1E88E5;
+            cursor: pointer;
+        }
+        
+        .search-section {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .search-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .search-row:last-child {
+            margin-bottom: 0;
+        }
+        
+        .search-icon {
+            width: 20px;
+            margin-right: 12px;
+            color: #666;
+        }
+        
+        .search-input {
+            flex: 1;
+            font-size: 16px;
+            color: #333;
+            border: none;
+            outline: none;
+        }
+        
+        .date-picker {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-top: 1px solid #eee;
+            margin-top: 12px;
+        }
+        
+        .date-section {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .date-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 4px;
+        }
+        
+        .date-value {
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .search-btn {
+            background: linear-gradient(135deg, #FF6B35 0%, #FF8E53 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 16px;
+            transition: transform 0.2s;
+        }
+        
+        .search-btn:active {
+            transform: scale(0.98);
+        }
+        
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0 16px;
+            padding-bottom: 80px;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin: 20px 0 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .see-all {
+            font-size: 14px;
+            color: #1E88E5;
+            font-weight: 500;
+        }
+        
+        .hotel-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+        
+        .hotel-card:active {
+            transform: scale(0.98);
+        }
+        
+        .hotel-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        
+        .hotel-content {
+            padding: 16px;
+        }
+        
+        .hotel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 8px;
+        }
+        
+        .hotel-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.3;
+        }
+        
+        .favorite-btn {
+            width: 32px;
+            height: 32px;
+            background: #f5f7fa;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .favorite-btn:active {
+            background: #e0e6ed;
+        }
+        
+        .hotel-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .stars {
+            color: #FFD700;
+            margin-right: 8px;
+        }
+        
+        .rating-text {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .hotel-location {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+        
+        .hotel-location-icon {
+            margin-right: 6px;
+        }
+        
+        .hotel-price {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+        
+        .price-current {
+            font-size: 20px;
+            font-weight: 700;
+            color: #FF6B35;
+        }
+        
+        .price-original {
+            font-size: 14px;
+            color: #999;
+            text-decoration: line-through;
+            margin-right: 8px;
+        }
+        
+        .price-label {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .destination-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .destination-card:active {
+            transform: scale(0.98);
+        }
+        
+        .destination-image {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+        
+        .destination-info {
+            padding: 12px;
+        }
+        
+        .destination-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        
+        .destination-hotels {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .offer-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #FF6B35;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            z-index: 10;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        
+        .nav-item.active {
+            color: #1E88E5;
+        }
+        
+        .nav-icon {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+        
+        .nav-label {
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <div class="header-top">
+                <div class="logo">TravelEase</div>
+                <div class="user-avatar">👤</div>
+            </div>
+            
+            <div class="search-section">
+                <div class="search-row">
+                    <span class="search-icon">📍</span>
+                    <input type="text" class="search-input" placeholder="Where to?" value="New York City">
+                </div>
+                
+                <div class="search-row">
+                    <span class="search-icon">🏨</span>
+                    <input type="text" class="search-input" placeholder="Property type">
+                </div>
+                
+                <div class="date-picker">
+                    <div class="date-section">
+                        <div class="date-label">Check-in</div>
+                        <div class="date-value">Dec 15</div>
+                    </div>
+                    <div class="date-section">
+                        <div class="date-label">Check-out</div>
+                        <div class="date-value">Dec 18</div>
+                    </div>
+                    <div class="date-section">
+                        <div class="date-label">Guests</div>
+                        <div class="date-value">2 Adults</div>
+                    </div>
+                </div>
+                
+                <button class="search-btn">Search Hotels</button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="section-title">
+                Featured Deals
+                <span class="see-all">See all →</span>
+            </div>
+            
+            <div class="hotel-card">
+                <img src="https://picsum.photos/seed/hotel1/375/180" alt="Hotel" class="hotel-image">
+                <div class="hotel-content">
+                    <div class="hotel-header">
+                        <div class="hotel-name">The Plaza Hotel</div>
+                        <div class="favorite-btn">❤️</div>
+                    </div>
+                    <div class="hotel-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">4.8 (2,341 reviews)</span>
+                    </div>
+                    <div class="hotel-location">
+                        <span class="hotel-location-icon">📍</span>
+                        <span>Midtown Manhattan, New York</span>
+                    </div>
+                    <div class="hotel-price">
+                        <div>
+                            <span class="price-current">$289</span>
+                            <span class="price-original">$425</span>
+                            <span class="price-label">/night</span>
+                        </div>
+                        <div class="offer-badge">32% OFF</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hotel-card">
+                <img src="https://picsum.photos/seed/hotel2/375/180" alt="Hotel" class="hotel-image">
+                <div class="hotel-content">
+                    <div class="hotel-header">
+                        <div class="hotel-name">Marriott Marquis</div>
+                        <div class="favorite-btn">🤍</div>
+                    </div>
+                    <div class="hotel-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">4.5 (1,892 reviews)</span>
+                    </div>
+                    <div class="hotel-location">
+                        <span class="hotel-location-icon">📍</span>
+                        <span>Times Square, New York</span>
+                    </div>
+                    <div class="hotel-price">
+                        <div>
+                            <span class="price-current">$189</span>
+                            <span class="price-original">$275</span>
+                            <span class="price-label">/night</span>
+                        </div>
+                        <div class="offer-badge">31% OFF</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-title">
+                Popular Destinations
+                <span class="see-all">See all →</span>
+            </div>
+            
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/paris/180/120" alt="Paris" class="destination-image">
+                    <div class="destination-info">
+                        <div class="destination-name">Paris, France</div>
+                        <div class="destination-hotels">2,845 hotels</div>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/tokyo/180/120" alt="Tokyo" class="destination-image">
+                    <div class="destination-info">
+                        <div class="destination-name">Tokyo, Japan</div>
+                        <div class="destination-hotels">3,127 hotels</div>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/london/180/120" alt="London" class="destination-image">
+                    <div class="destination-info">
+                        <div class="destination-name">London, UK</div>
+                        <div class="destination-hotels">2,156 hotels</div>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/dubai/180/120" alt="Dubai" class="destination-image">
+                    <div class="destination-info">
+                        <div class="destination-name">Dubai, UAE</div>
+                        <div class="destination-hotels">1,923 hotels</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <div class="nav-icon">🏠</div>
+                <div class="nav-label">Home</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔍</div>
+                <div class="nav-label">Search</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">❤️</div>
+                <div class="nav-label">Saved</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">📋</div>
+                <div class="nav-label">Trips</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <div class="nav-label">Profile</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

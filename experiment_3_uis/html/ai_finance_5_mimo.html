@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nova Finance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            width: 375px;
+            height: 812px;
+            margin: 0 auto;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #1d1d1f;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Main Container */
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background-color: #f5f7fa;
+        }
+
+        /* Header */
+        .header {
+            padding: 50px 20px 20px 20px;
+            background: linear-gradient(135deg, #0071e3 0%, #0047ab 100%);
+            color: white;
+            position: relative;
+            z-index: 10;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            box-shadow: 0 4px 12px rgba(0, 71, 171, 0.2);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .greeting {
+            font-size: 18px;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+
+        .user-status {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .notification-bell {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
+            border: 2px solid rgba(255, 255, 255, 0.4);
+        }
+
+        /* Balance Card */
+        .balance-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 100%);
+            padding: 24px;
+            border-radius: 20px;
+            color: #1d1d1f;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            margin-bottom: -40px; /* Pull content up */
+        }
+
+        .balance-label {
+            font-size: 13px;
+            color: #86868b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .balance-amount {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1d1d1f;
+            letter-spacing: -0.5px;
+            margin-bottom: 16px;
+        }
+
+        .balance-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            color: #515154;
+        }
+
+        .card-type {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+        }
+
+        /* Main Content Scroll Area */
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 55px 20px 20px 20px;
+            scrollbar-width: none; /* Firefox */
+        }
+
+        .main-content::-webkit-scrollbar {
+            display: none; /* Chrome/Safari */
+        }
+
+        /* Quick Actions */
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 16px;
+            margin-top: 8px;
+        }
+
+        .actions-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 28px;
+        }
+
+        .action-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            width: 60px;
+        }
+
+        .action-icon {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            color: #0071e3;
+            transition: transform 0.1s ease;
+        }
+
+        .action-item:active .action-icon {
+            transform: scale(0.95);
+            background-color: #e8f0fe;
+        }
+
+        .action-label {
+            font-size: 12px;
+            color: #515154;
+            font-weight: 500;
+        }
+
+        /* Transactions List */
+        .transaction-list {
+            background-color: white;
+            border-radius: 20px;
+            padding: 8px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+        }
+
+        .transaction-item {
+            display: flex;
+            align-items: center;
+            padding: 14px 20px;
+            border-bottom: 1px solid #f2f2f2;
+            transition: background-color 0.2s;
+        }
+
+        .transaction-item:last-child {
+            border-bottom: none;
+        }
+
+        .transaction-item:active {
+            background-color: #f9f9f9;
+        }
+
+        .trans-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 12px;
+            background-color: #f0f4f8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-right: 14px;
+        }
+
+        .trans-icon.grocery { background-color: #e3f2fd; color: #1976d2; }
+        .trans-icon.dining { background-color: #fce4ec; color: #c2185b; }
+        .trans-icon.transport { background-color: #e8f5e9; color: #388e3c; }
+        .trans-icon.salary { background-color: #e8f5e9; color: #2e7d32; }
+
+        .trans-details {
+            flex: 1;
+        }
+
+        .trans-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 2px;
+        }
+
+        .trans-subtitle {
+            font-size: 13px;
+            color: #86868b;
+        }
+
+        .trans-amount {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .trans-amount.expense {
+            color: #1d1d1f;
+        }
+
+        .trans-amount.income {
+            color: #34c759;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            height: 88px;
+            background-color: white;
+            border-top: 1px solid #e5e5e5;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 20px; /* Safe area */
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: #86868b;
+            text-decoration: none;
+            font-size: 10px;
+            width: 60px;
+        }
+
+        .nav-item span:first-child {
+            font-size: 22px;
+        }
+
+        .nav-item.active {
+            color: #0071e3;
+        }
+
+        .nav-item:active {
+            opacity: 0.7;
+        }
+
+        /* Floating Action Button (Send) */
+        .fab-container {
+            position: absolute;
+            bottom: 100px; /* Above nav */
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            pointer-events: none; /* Let clicks pass through container */
+        }
+
+        .fab {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, #0071e3 0%, #0047ab 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 6px 16px rgba(0, 113, 227, 0.4);
+            pointer-events: auto;
+            cursor: pointer;
+            border: none;
+            margin-top: -28px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-top">
+                <div class="greeting">Good Morning, Alex</div>
+                <div class="user-status">
+                    <div class="notification-bell">🔔</div>
+                    <div class="avatar">AM</div>
+                </div>
+            </div>
+
+            <div class="balance-card">
+                <div class="balance-label">Total Balance</div>
+                <div class="balance-amount">$24,580.00</div>
+                <div class="balance-details">
+                    <div class="card-type">
+                        <span>💳</span> Nova Platinum
+                    </div>
+                    <div>•••• 4281</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Quick Actions -->
+            <div class="section-title">Quick Actions</div>
+            <div class="actions-grid">
+                <div class="action-item">
+                    <div class="action-icon">📤</div>
+                    <span class="action-label">Send</span>
+                </div>
+                <div class="action-item">
+                    <div class="action-icon">📥</div>
+                    <span class="action-label">Request</span>
+                </div>
+                <div class="action-item">
+                    <div class="action-icon">💳</div>
+                    <span class="action-label">Cards</span>
+                </div>
+                <div class="action-item">
+                    <div class="action-icon">📊</div>
+                    <span class="action-label">Stats</span>
+                </div>
+                <div class="action-item">
+                    <div class="action-icon">⋯</div>
+                    <span class="action-label">More</span>
+                </div>
+            </div>
+
+            <!-- Recent Transactions -->
+            <div class="section-title">Recent Activity</div>
+            <div class="transaction-list">
+                
+                <div class="transaction-item">
+                    <div class="trans-icon grocery">🛒</div>
+                    <div class="trans-details">
+                        <div class="trans-title">Whole Foods Market</div>
+                        <div class="trans-subtitle">Today, 10:42 AM</div>
+                    </div>
+                    <div class="trans-amount expense">-$124.50</div>
+                </div>
+
+                <div class="transaction-item">
+                    <div class="trans-icon salary">💼</div>
+                    <div class="trans-details">
+                        <div class="trans-title">Salary Deposit</div>
+                        <div class="trans-subtitle">Yesterday</div>
+                    </div>
+                    <div class="trans-amount income">+$4,250.00</div>
+                </div>
+
+                <div class="transaction-item">
+                    <div class="trans-icon dining">☕</div>
+                    <div class="trans-details">
+                        <div class="trans-title">Blue Bottle Coffee</div>
+                        <div class="trans-subtitle">Yesterday</div>
+                    </div>
+                    <div class="trans-amount expense">-$6.50</div>
+                </div>
+
+                <div class="transaction-item">
+                    <div class="trans-icon transport">🚗</div>
+                    <div class="trans-details">
+                        <div class="trans-title">Uber Trip</div>
+                        <div class="trans-subtitle">Mon, 8:30 PM</div>
+                    </div>
+                    <div class="trans-amount expense">-$24.80</div>
+                </div>
+
+                <div class="transaction-item">
+                    <div class="trans-icon grocery">🛒</div>
+                    <div class="trans-details">
+                        <div class="trans-title">Trader Joe's</div>
+                        <div class="trans-subtitle">Mon, 6:15 PM</div>
+                    </div>
+                    <div class="trans-amount expense">-$86.22</div>
+                </div>
+
+                <div class="transaction-item">
+                    <div class="trans-icon dining">🎬</div>
+                    <div class="trans-details">
+                        <div class="trans-title">Netflix Subscription</div>
+                        <div class="trans-subtitle">Sun, 12:00 AM</div>
+                    </div>
+                    <div class="trans-amount expense">-$15.99</div>
+                </div>
+
+            </div>
+            
+            <!-- Spacer for bottom nav -->
+            <div style="height: 100px;"></div>
+        </main>
+
+        <!-- Floating Action Button -->
+        <div class="fab-container">
+            <button class="fab" aria-label="Transfer">+</button>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span>🏠</span>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span>💳</span>
+                <span>Wallet</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span>📈</span>
+                <span>Analytics</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span>👤</span>
+                <span>Profile</span>
+            </a>
+        </nav>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #F2F2F7;
+        }
+        
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .status-bar {
+            height: 44px;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 24px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .status-bar .time {
+            font-weight: 400;
+        }
+        
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            background-color: #F2F2F7;
+            padding-bottom: 80px;
+        }
+        
+        .messages-header {
+            background-color: #FFFFFF;
+            padding: 16px 20px;
+            border-bottom: 1px solid #E5E5EA;
+        }
+        
+        .messages-header h1 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #000000;
+        }
+        
+        .message {
+            display: flex;
+            padding: 16px 20px;
+            border-bottom: 1px solid #E5E5EA;
+        }
+        
+        .message-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 24px;
+            background-color: #007AFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-weight: 600;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .message-content {
+            flex: 1;
+        }
+        
+        .message-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        
+        .message-name {
+            font-weight: 600;
+            font-size: 17px;
+            color: #000000;
+            margin-right: 8px;
+        }
+        
+        .message-time {
+            font-size: 13px;
+            color: #8E8E93;
+        }
+        
+        .message-text {
+            font-size: 15px;
+            color: #000000;
+            line-height: 20px;
+        }
+        
+        .message-image {
+            margin-top: 8px;
+            width: 200px;
+            height: 150px;
+            background-color: #E1E8ED;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #8E8E93;
+        }
+        
+        .input-area {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #FFFFFF;
+            border-top: 1px solid #E5E5EA;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .input-field {
+            flex: 1;
+            background-color: #E5E5EA;
+            border-radius: 20px;
+            padding: 10px 16px;
+            font-size: 16px;
+            color: #000000;
+        }
+        
+        .input-field::placeholder {
+            color: #8E8E93;
+        }
+        
+        .send-button {
+            width: 36px;
+            height: 36px;
+            background-color: #007AFF;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #FFFFFF;
+            border-top: 1px solid #C6C6C8;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        
+        .nav-icon {
+            font-size: 24px;
+            color: #8E8E93;
+        }
+        
+        .nav-label {
+            font-size: 10px;
+            color: #8E8E93;
+        }
+        
+        .nav-item.active .nav-icon,
+        .nav-item.active .nav-label {
+            color: #007AFF;
+        }
+        
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            padding: 16px 20px;
+            border-bottom: 1px solid #E5E5EA;
+            opacity: 0.8;
+        }
+        
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+        }
+        
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #8E8E93;
+            border-radius: 4px;
+            animation: typing 1.4s infinite;
+        }
+        
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+            }
+            30% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="status-bar">
+            <span>9:41</span>
+            <span>📶 📶 📶 🔋</span>
+        </div>
+        
+        <div class="messages-header">
+            <h1>Messages</h1>
+        </div>
+        
+        <div class="main-content">
+            <div class="message">
+                <div class="message-avatar">JS</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-name">John Smith</span>
+                        <span class="message-time">2:45 PM</span>
+                    </div>
+                    <div class="message-text">Hey! Are we still on for coffee tomorrow at 3?</div>
+                </div>
+            </div>
+            
+            <div class="message">
+                <div class="message-avatar">SJ</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-name">Sarah Johnson</span>
+                        <span class="message-time">1:30 PM</span>
+                    </div>
+                    <div class="message-text">Thanks for the recommendation! That restaurant was amazing 🍕</div>
+                    <div class="message-image">📷 Photo</div>
+                </div>
+            </div>
+            
+            <div class="message">
+                <div class="message-avatar">MB</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-name">Mike Brown</span>
+                        <span class="message-time">Yesterday</span>
+                    </div>
+                    <div class="message-text">The project meeting is scheduled for Friday at 10 AM. Please review the documents beforehand.</div>
+                </div>
+            </div>
+            
+            <div class="typing-indicator">
+                <div class="message-avatar">EC</div>
+                <div class="typing-dots">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+            </div>
+            
+            <div class="message">
+                <div class="message-avatar">EC</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-name">Emma Chen</span>
+                        <span class="message-time">Yesterday</span>
+                    </div>
+                    <div class="message-text">Looking forward to seeing you all at the team dinner tonight! 🎉</div>
+                    <div class="message-image">📍 Location: Downtown Restaurant</div>
+                </div>
+            </div>
+            
+            <div class="message">
+                <div class="message-avatar">DL</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-name">David Lee</span>
+                        <span class="message-time">2 days ago</span>
+                    </div>
+                    <div class="message-text">Great job on the presentation! The client loved it.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <div class="input-field" placeholder="Type a message..."></div>
+            <div class="send-button">➤</div>
+        </div>
+        
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <div class="nav-icon">💬</div>
+                <div class="nav-label">Messages</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔍</div>
+                <div class="nav-label">Discover</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">✉️</div>
+                <div class="nav-label">Inbox</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <div class="nav-label">Profile</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

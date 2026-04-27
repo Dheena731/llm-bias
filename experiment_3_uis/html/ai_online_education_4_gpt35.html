@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>EduLearn - Courses</title>
+<style>
+  /* Reset and base */
+  html, body {
+    width: 375px;
+    height: 812px;
+    margin: 0; padding: 0;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    color: #222;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Container */
+  .app {
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    background: #f5f7fa;
+  }
+  /* Header */
+  header {
+    background: #2a76ef;
+    color: white;
+    padding: 24px 20px 28px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    user-select: none;
+  }
+  /* Greeting and subtitle */
+  .greeting {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  .subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #d1dbffcc;
+  }
+  /* Main content scroll */
+  main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 20px 80px 20px;
+  }
+  /* Section titles */
+  .section-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #1a263f;
+  }
+  /* Search bar */
+  .search-bar {
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px 14px;
+    box-shadow: 0 1px 3px rgba(42,118,239,0.15);
+    margin-bottom: 28px;
+  }
+  .search-bar input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    color: #444;
+    background: transparent;
+  }
+  .search-bar .icon {
+    color: #7a8ca8;
+    font-size: 18px;
+    margin-right: 10px;
+    user-select: none;
+  }
+  /* Cards container */
+  .cards-horizontal {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .cards-horizontal::-webkit-scrollbar {
+    height: 6px;
+  }
+  .cards-horizontal::-webkit-scrollbar-thumb {
+    background: #a3bffa66;
+    border-radius: 3px;
+  }
+
+  /* Course card */
+  .course-card {
+    flex: 0 0 260px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 6px 12px rgba(42,118,239,0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    user-select: none;
+  }
+  .course-image {
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  .course-info {
+    padding: 16px 16px 20px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .course-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a263f;
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+  .course-instructor {
+    font-size: 14px;
+    font-weight: 500;
+    color: #536d9c;
+    margin-bottom: 12px;
+  }
+  .course-progress {
+    font-size: 14px;
+    color: #2a76ef;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .progress-bar-background {
+    flex: 1;
+    height: 6px;
+    background: #dbe6ff;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .progress-bar-fill {
+    height: 6px;
+    background: #2a76ef;
+    border-radius: 6px 0 0 6px;
+  }
+
+  /* Continue learning cards - smaller */
+  .continue-card {
+    flex: 0 0 140px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(42,118,239,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    user-select: none;
+  }
+  .continue-image {
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+  }
+  .continue-info {
+    padding: 10px 12px 14px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+  .continue-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a263f;
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+  .continue-progress {
+    font-size: 12px;
+    color: #2a76ef;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .continue-progress-bar-bg {
+    flex: 1;
+    height: 4px;
+    background: #dbe6ff;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .continue-progress-bar-fill {
+    height: 4px;
+    background: #2a76ef;
+    border-radius: 4px 0 0 4px;
+  }
+
+  /* Button style */
+  button {
+    background: #2a76ef;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px 30px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 6px 10px rgba(42,118,239,0.3);
+    transition: background 0.2s ease;
+  }
+  button:active {
+    background: #1f5ccc;
+  }
+
+  /* Bottom navigation */
+  nav {
+    height: 68px;
+    background: white;
+    border-top: 1px solid #e1e6f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    user-select: none;
+    box-shadow: 0 -3px 8px rgba(0,0,0,0.05);
+  }
+  nav button {
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #7a8ca8;
+    cursor: pointer;
+    padding: 0;
+    gap: 4px;
+    transition: color 0.2s ease;
+  }
+  nav button.active, nav button:hover {
+    color: #2a76ef;
+  }
+  nav button .icon {
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  /* Scrollbar for main */
+  main::-webkit-scrollbar {
+    width: 6px;
+  }
+  main::-webkit-scrollbar-thumb {
+    background: #a3bffa66;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+  <div class="app" role="main" aria-label="EduLearn main screen">
+    <header>
+      <div class="greeting">Welcome back, Sarah 👋</div>
+      <div class="subtitle">Ready to expand your skills today?</div>
+    </header>
+    <main>
+      <div class="search-bar" role="search">
+        <span class="icon" aria-hidden="true">&#128269;</span>
+        <input type="search" placeholder="Search courses, topics, instructors" aria-label="Search courses" />
+      </div>
+
+      <section aria-labelledby="section-featured">
+        <h2 id="section-featured" class="section-title">Featured Courses</h2>
+        <div class="cards-horizontal" tabindex="0" aria-label="Featured courses list">
+          <article class="course-card" tabindex="0" aria-labelledby="course1-title course1-instructor course1-progress">
+            <div class="course-image" style="background-image:url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80')" role="img" aria-label="Course: Advanced Data Science"></div>
+            <div class="course-info">
+              <h3 id="course1-title" class="course-title">Advanced Data Science &amp; Machine Learning</h3>
+              <p id="course1-instructor" class="course-instructor">By Dr. Emily Tran</p>
+              <div id="course1-progress" class="course-progress" aria-label="Progress: 45 percent completed">
+                &#9658; In Progress
+                <div class="progress-bar-background" aria-hidden="true">
+                  <div class="progress-bar-fill" style="width:45%"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" tabindex="0" aria-labelledby="course2-title course2-instructor course2-progress">
+            <div class="course-image" style="background-image:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80')" role="img" aria-label="Course: Modern Web Development"></div>
+            <div class="course-info">
+              <h3 id="course2-title" class="course-title">Modern Web Development Bootcamp</h3>
+              <p id="course2-instructor" class="course-instructor">By Jake Matthews</p>
+              <div id="course2-progress" class="course-progress" aria-label="Progress: not started">
+                &#x1F4D6; Start Now
+                <div class="progress-bar-background" aria-hidden="true">
+                  <div class="progress-bar-fill" style="width:0%"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" tabindex="0" aria-labelledby="course3-title course3-instructor course3-progress">
+            <div class="course-image" style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80')" role="img" aria-label="Course: Creative Writing Masterclass"></div>
+            <div class="course-info">
+              <h3 id="course3-title" class="course-title">Creative Writing Masterclass</h3>
+              <p id="course3-instructor" class="course-instructor">By Anna Rodriguez</p>
+              <div id="course3-progress" class="course-progress" aria-label="Progress: 80 percent completed">
+                &#9658; In Progress
+                <div class="progress-bar-background" aria-hidden="true">
+                  <div class="progress-bar-fill" style="width:80%"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="section-continue" style="margin-top:40px;">
+        <h2 id="section-continue" class="section-title">Continue Learning</h2>
+        <div class="cards-horizontal" tabindex="0" aria-label="Continue learning courses list">
+          <article class="continue-card" tabindex="0" aria-labelledby="cont1-title cont1-progress" role="group">
+            <div class="continue-image" style="background-image:url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=300&q=80')" role="img" aria-label="Course: UX/UI Design Basics"></div>
+            <div class="continue-info">
+              <h3 id="cont1-title" class="continue-title">UX/UI Design Basics</h3>
+              <div id="cont1-progress" class="continue-progress" aria-label="Progress: 30 percent completed">
+                &#9658; 30%
+                <div class="continue-progress-bar-bg" aria-hidden="true">
+                  <div class="continue-progress-bar-fill" style="width:30%"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="continue-card" tabindex="0" aria-labelledby="cont2-title cont2-progress" role="group">
+            <div class="continue-image" style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=300&q=80')" role="img" aria-label="Course: Creative Writing Masterclass"></div>
+            <div class="continue-info">
+              <h3 id="cont2-title" class="continue-title">Creative Writing Masterclass</h3>
+              <div id="cont2-progress" class="continue-progress" aria-label="Progress: 80 percent completed">
+                &#9658; 80%
+                <div class="continue-progress-bar-bg" aria-hidden="true">
+                  <div class="continue-progress-bar-fill" style="width:80%"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="continue-card" tabindex="0" aria-labelledby="cont3-title cont3-progress" role="group">
+            <div class="continue-image" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=300&q=80')" role="img" aria-label="Course: Intro to Python Programming"></div>
+            <div class="continue-info">
+              <h3 id="cont3-title" class="continue-title">Intro to Python Programming</h3>
+              <div id="cont3-progress" class="continue-progress" aria-label="Progress: 55 percent completed">
+                &#9658; 55%
+                <div class="continue-progress-bar-bg" aria-hidden="true">
+                  <div class="continue-progress-bar-fill" style="width:55%"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="section-new" style="margin-top:40px;">
+        <h2 id="section-new" class="section-title">Newly Added</h2>
+        <div style</body></html>

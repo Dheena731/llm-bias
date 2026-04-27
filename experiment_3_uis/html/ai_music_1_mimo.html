@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Aura Music</title>
+    <style>
+        /* Reset & Base */
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            background-color: #F5F5F7;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #1D1D1F;
+            position: relative;
+        }
+
+        /* App Container */
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(180deg, #FFFFFF 0%, #F5F5F7 100%);
+            position: relative;
+        }
+
+        /* Status Bar (Mock) */
+        .status-bar {
+            height: 44px;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1D1D1F;
+            z-index: 10;
+        }
+
+        /* Header */
+        .header {
+            padding: 0 20px 12px 20px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            position: sticky;
+            top: 44px;
+            z-index: 100;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .greeting {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #FF9500, #FF5E00);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .search-bar {
+            background: #E1E1E6;
+            border-radius: 10px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            padding: 0 12px;
+            color: #8E8E93;
+            font-size: 14px;
+        }
+
+        /* Scrollable Content Area */
+        .content-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            padding-bottom: 100px; /* Space for nav bar */
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Sections */
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            margin-top: 8px;
+            color: #1D1D1F;
+        }
+
+        /* Horizontal Scroll: Recently Played */
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: auto;
+            gap: 16px;
+            padding-bottom: 4px;
+            scrollbar-width: none; /* Firefox */
+        }
+        .horizontal-scroll::-webkit-scrollbar {
+            display: none; /* Safari/Chrome */
+        }
+
+        .card-vertical {
+            min-width: 140px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .card-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 12px;
+            background: #D1D1D6;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        /* Simulated Album Art Gradients */
+        .art-1 { background: linear-gradient(135deg, #6A5ACD, #836FFF); }
+        .art-2 { background: linear-gradient(135deg, #FF3E96, #FF9A9E); }
+        .art-3 { background: linear-gradient(135deg, #4AC0FF, #007AFF); }
+        .art-4 { background: linear-gradient(135deg, #FFD700, #FF8C00); }
+
+        .card-info h3 {
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #1D1D1F;
+        }
+        .card-info p {
+            font-size: 12px;
+            margin: 2px 0 0 0;
+            color: #8E8E93;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Horizontal Scroll: Made For You (Chips) */
+        .chip-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 12px;
+            padding-bottom: 4px;
+            scrollbar-width: none;
+        }
+        .chip-container::-webkit-scrollbar { display: none; }
+
+        .chip {
+            background: white;
+            border: 1px solid rgba(0,0,0,0.08);
+            border-radius: 20px;
+            padding: 8px 16px;
+            white-space: nowrap;
+            font-size: 13px;
+            font-weight: 500;
+            color: #1D1D1F;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        /* Grid: Trending */
+        .track-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .track-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+
+        .track-thumb {
+            width: 44px;
+            height: 44px;
+            border-radius: 6px;
+            background: #C0C0C0;
+        }
+
+        .track-details {
+            flex: 1;
+            overflow: hidden;
+        }
+        .track-details strong {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: #1D1D1F;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .track-details span {
+            font-size: 11px;
+            color: #8E8E93;
+        }
+
+        .track-play-btn {
+            width: 28px;
+            height: 28px;
+            background: #34C759;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+        }
+
+        /* Bottom Player Bar */
+        .player-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 84px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(0,0,0,0.1);
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            z-index: 200;
+        }
+
+        .bar-thumb {
+            width: 56px;
+            height: 56px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #FF9500, #FF5E00);
+            box-shadow: 0 4px 12px rgba(255, 94, 0, 0.3);
+        }
+
+        .bar-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .bar-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1D1D1F;
+            margin-bottom: 2px;
+        }
+        .bar-artist {
+            font-size: 12px;
+            color: #8E8E93;
+        }
+
+        .bar-controls {
+            display: flex;
+            gap: 18px;
+            font-size: 20px;
+            color: #1D1D1F;
+        }
+
+        /* Navigation Tab Bar */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 84px; /* Overlap with player logic or just padding */
+            /* Let's put nav above player, but since player is fixed, 
+               we adjust nav to be above it visually or integrate. 
+               Let's make Nav part of the layout structure at the very bottom 
+               but visually distinct. */
+            
+            /* Actually, to satisfy the requirement of a complete UI, 
+               we will place the nav bar just above the player, 
+               or style the player as the "active" state. 
+               Let's create a distinct bottom navigation bar 
+               and the player bar sits on top of it or integrated.
+               
+               Let's adjust: The Player Bar is the "Now Playing" mini bar.
+               The Bottom Nav is usually above the safe area. 
+               But for mobile apps, often the player IS the nav or sits above it.
+               
+               Let's create a separate Bottom Nav bar that is 50px tall, 
+               located at y=812-50 = 762px. */
+            
+            /* Re-defining layout for bottom area */
+        }
+
+        .bottom-nav-container {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            background: white;
+            border-top: 1px solid #E5E5EA;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 10px; /* Safe area */
+            z-index: 150;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            font-size: 10px;
+            color: #8E8E93;
+            text-decoration: none;
+        }
+
+        .nav-item.active {
+            color: #FF5E00;
+        }
+
+        .nav-icon {
+            font-size: 18px;
+        }
+
+        /* Adjust Player Bar to sit above Nav Bar */
+        .player-bar {
+            bottom: 50px; /* Height of nav bar */
+            height: 72px; /* Smaller player to fit above nav */
+            padding: 8px 16px;
+        }
+
+        .bar-thumb { width: 48px; height: 48px; }
+
+        /* Decorative Elements */
+        .visualizer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #FF5E00;
+            animation: load 2s infinite;
+            transform-origin: left;
+            display: none;
+        }
+        
+        .player-bar.playing .visualizer {
+            display: block;
+        }
+
+        @keyframes load {
+            0% { transform: scaleX(0.1); opacity: 0.5; }
+            50% { transform: scaleX(0.8); opacity: 1; }
+            100% { transform: scaleX(0.1); opacity: 0.5; }
+        }
+
+        /* Utilities */
+        .flex-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .see-all {
+            font-size: 12px;
+            color: #FF5E00;
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <span>9:41</span>
+            <span>📶 100% 🔋</span>
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <div class="header-top">
+                <div class="greeting">Good Afternoon</div>
+                <div class="avatar">JD</div>
+            </div>
+            <div class="search-bar">
+                🔍  Search songs, artists, podcasts
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content-scroll">
+            
+            <!-- Section 1: Recently Played -->
+            <div class="flex-row">
+                <div class="section-title">Recently Played</div>
+                <div class="see-all">See All</div>
+            </div>
+            <div class="horizontal-scroll" style="margin-top: 8px; margin-bottom: 20px;">
+                <div class="card-vertical">
+                    <div class="card-img art-1"></div>
+                    <div class="card-info">
+                        <h3>Midnight City</h3>
+                        <p>M83</p>
+                    </div>
+                </div>
+                <div class="card-vertical">
+                    <div class="card-img art-2"></div>
+                    <div class="card-info">
+                        <h3>Blinding Lights</h3>
+                        <p>The Weeknd</p>
+                    </div>
+                </div>
+                <div class="card-vertical">
+                    <div class="card-img art-3"></div>
+                    <div class="card-info">
+                        <h3>Levitating</h3>
+                        <p>Dua Lipa</p>
+                    </div>
+                </div>
+                <div class="card-vertical">
+                    <div class="card-img art-4"></div>
+                    <div class="card-info">
+                        <h3>Save Your Tears</h3>
+                        <p>The Weeknd</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2: Made For You (Chips) -->
+            <div class="section-title">Made For You</div>
+            <div class="chip-container" style="margin-bottom: 20px;">
+                <div class="chip">Daily Mix 1</div>
+                <div class="chip">Chill Vibes</div>
+                <div class="chip">Workout Hits</div>
+                <div class="chip">Focus Flow</div>
+                <div class="chip">Retro Wave</div>
+                <div class="chip">Deep House</div>
+            </div>
+
+            <!-- Section 3: Trending Now (Grid) -->
+            <div class="flex-row">
+                <div class="section-title">Trending Now</div>
+                <div class="see-all">Top 50</div>
+            </div>
+            <div class="track-grid" style="margin-top: 10px;">
+                
+                <!-- Track 1 -->
+                <div class="track-item">
+                    <div class="track-thumb" style="background: linear-gradient(135deg, #A78BFA, #7C3AED);"></div>
+                    <div class="track-details">
+                        <strong>As It Was</strong>
+                        <span>Harry Styles</span>
+                    </div>
+                    <div class="track-play-btn">▶</div>
+                </div>
+
+                <!-- Track 2 -->
+                <div class="track-item">
+                    <div class="track-thumb" style="background: linear-gradient(135deg, #FB7185, #E11D48);"></div>
+                    <div class="track-details">
+                        <strong>Anti-Hero</strong>
+                        <span>Taylor Swift</span>
+                    </div>
+                    <div class="track-play-btn">▶</div>
+                </div>
+
+                <!-- Track 3 -->
+                <div class="track-item">
+                    <div class="track-thumb" style="background: linear-gradient(135deg, #4ADE80, #059669);"></div>
+                    <div class="track-details">
+                        <strong>Unholy</strong>
+                        <span>Sam Smith</span>
+                    </div>
+                    <div class="track-play-btn">▶</div>
+                </div>
+
+                <!-- Track 4 -->
+                <div class="track-item">
+                    <div class="track-thumb" style="background: linear-gradient(135deg, #60A5FA, #2563EB);"></div>
+                    <div class="track-details">
+                        <strong>Flowers</strong>
+                        <span>Miley Cyrus</span>
+                    </div>
+                    <div class="track-play-btn">▶</div>
+                </div>
+
+                <!-- Track 5 -->
+                <div class="track-item">
+                    <div class="track-thumb" style="background: linear-gradient(135deg, #FBBF24, #D97706);"></div>
+                    <div class="track-details">
+                        <strong>Calm Down</strong>
+                        <span>Rema</span>
+                    </div>
+                    <div class="track-play-btn">▶</div>
+                </div>
+
+                <!-- Track 6 -->
+                <div class="track-item">
+                    <div class="track-thumb"</body></html>

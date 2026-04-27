@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 375px; height: 812px; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 0; padding: 0;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+</head>
+<body style="width: 375px; height: 812px; overflow: hidden; margin: 0; padding: 0; background-color: #F8F8F8; display: flex; flex-direction: column;">
+
+    <!-- Top Bar -->
+    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center; background-color: #FFFFFF; border-bottom: 1px solid #EAEAEA;">
+        <div style="font-size: 24px; font-weight: 700; color: #333333;">TaskFlow</div>
+        <div style="display: flex; align-items: center; gap: 16px;">
+            <span style="font-size: 22px; color: #666666;">&#x1F50D;</span> <!-- Search Icon -->
+            <span style="font-size: 22px; color: #666666;">&#x1F514;</span> <!-- Bell/Notification Icon -->
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div style="flex-grow: 1; padding: 16px; overflow-y: auto;">
+
+        <!-- Welcome / Date Section -->
+        <div style="margin-bottom: 24px;">
+            <div style="font-size: 16px; color: #888888; margin-bottom: 4px;">Tuesday, October 26</div>
+            <div style="font-size: 28px; font-weight: 600; color: #333333;">Good Morning, Alex!</div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div style="display: flex; justify-content: space-between; gap: 12px; margin-bottom: 24px;">
+            <div style="flex: 1; background-color: #E2F0FF; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <span style="font-size: 28px; margin-bottom: 8px;">&#x1F4DD;</span> <!-- Pen icon -->
+                <div style="font-size: 14px; font-weight: 500; color: #333333;">New Task</div>
+            </div>
+            <div style="flex: 1; background-color: #E6FFF0; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <span style="font-size: 28px; margin-bottom: 8px;">&#x1F4C5;</span> <!-- Calendar icon -->
+                <div style="font-size: 14px; font-weight: 500; color: #333333;">Schedule</div>
+            </div>
+            <div style="flex: 1; background-color: #FFF0E2; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <span style="font-size: 28px; margin-bottom: 8px;">&#x1F4C1;</span> <!-- Folder icon -->
+                <div style="font-size: 14px; font-weight: 500; color: #333333;">Projects</div>
+            </div>
+        </div>
+
+        <!-- Upcoming Tasks Section -->
+        <div style="margin-bottom: 24px;">
+            <div style="font-size: 20px; font-weight: 600; color: #333333; margin-bottom: 16px;">Upcoming Today</div>
+
+            <!-- Task Card 1 -->
+            <div style="background-color: #FFFFFF; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="font-size: 20px; color: #2196F3; margin-right: 12px;">&#x2B55;</span> <!-- Circle icon -->
+                    <div style="font-size: 16px; font-weight: 500; color: #333333; flex-grow: 1;">Prepare Q4 Marketing Report</div>
+                    <span style="font-size: 14px; color: #888888;">10:00 AM</span>
+                </div>
+                <div style="font-size: 14px; color: #666666; margin-left: 32px;">Review data, create slides, finalize presentation.</div>
+                <div style="display: flex; justify-content: flex-end; margin-top: 12px; gap: 8px;">
+                    <span style="background-color: #E0E0E0; color: #666666; font-size: 12px; padding: 4px 8px; border-radius: 6px;">Work</span>
+                    <span style="background-color: #E0E0E0; color: #666666; font-size: 12px; padding: 4px 8px; border-radius: 6px;">Important</span>
+                </div>
+            </div>
+
+            <!-- Task Card 2 -->
+            <div style="background-color: #FFFFFF; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="font-size: 20px; color: #4CAF50; margin-right: 12px;">&#x2B55;</span> <!-- Circle icon -->
+                    <div style="font-size: 16px; font-weight: 500; color: #333333; flex-grow: 1;">Grocery Shopping</div>
+                    <span style="font-size: 14px; color: #888888;">06:00 PM</span>
+                </div>
+                <div style="font-size: 14px; color: #666666; margin-left: 32px;">Milk, eggs, bread, vegetables.</div>
+                <div style="display: flex; justify-content: flex-end; margin-top: 12px; gap: 8px;">
+                    <span style="background-color: #E0E0E0; color: #666666; font-size: 12px; padding: 4px 8px; border-radius: 6px;">Personal</span>
+                </div>
+            </div>
+
+            <!-- Task Card 3 -->
+            <div style="background-color: #FFFFFF; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="font-size: 20px; color: #FFC107; margin-right: 12px;">&#x2B55;</span> <!-- Circle icon -->
+                    <div style="font-size: 16px; font-weight: 500; color: #333333; flex-grow: 1;">Call John about project feedback</div>
+                    <span style="font-size: 14px; color: #888888;">02:30 PM</span>
+                </div>
+                <div style="font-size: 14px; color: #666666; margin-left: 32px;">Discuss design iterations and next steps.</div>
+                <div style="display: flex; justify-content: flex-end; margin-top: 12px; gap: 8px;">
+                    <span style="background-color: #E0E0E0; color: #666666; font-size: 12px; padding: 4px 8px; border-radius: 6px;">Team</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Completed Tasks Section -->
+        <div style="margin-bottom: 24px;">
+            <div style="font-size: 20px; font-weight: 600; color: #333333; margin-bottom: 16px;">Completed</div>
+
+            <!-- Completed Task Card 1 -->
+            <div style="background-color: #FFFFFF; border-radius: 12px; padding: 16px; margin-bottom: 12px; opacity: 0.7; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="font-size: 20px; color: #4CAF50; margin-right: 12px;">&#x2705;</span> <!-- Checkmark icon -->
+                    <div style="font-size: 16px; font-weight: 500; color: #666666; flex-grow: 1; text-decoration: line-through;">Send weekly team update</div>
+                    <span style="font-size: 14px; color: #888888;">09:00 AM</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Add Task Button -->
+    <div style="position: absolute; bottom: 90px; right: 24px;">
+        <button style="width: 56px; height: 56px; border-radius: 50%; background-color: #2196F3; border: none; color: white; font-size: 32px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(33, 150, 243, 0.4);">
+            &#x2B; <!-- Plus icon -->
+        </button>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div style="height: 80px; background-color: #FFFFFF; border-top: 1px solid #EAEAEA; display: flex; justify-content: space-around; align-items: center;">
+        <div style="display: flex; flex-direction: column; align-items: center; color: #2196F3;">
+            <span style="font-size: 24px; margin-bottom: 4px;">&#x1F4DC;</span> <!-- Task icon -->
+            <span style="font-size: 12px; font-weight: 600;">Tasks</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; color: #AAAAAA;">
+            <span style="font-size: 24px; margin-bottom: 4px;">&#x1F4C5;</span> <!-- Calendar icon -->
+            <span style="font-size: 12px;">Calendar</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; color: #AAAAAA;">
+            <span style="font-size: 24px; margin-bottom: 4px;">&#x1F4CA;</span> <!-- Chart icon -->
+            <span style="font-size: 12px;">Insights</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; color: #AAAAAA;">
+            <span style="font-size: 24px; margin-bottom: 4px;">&#x1F464;</span> <!-- Profile icon -->
+            <span style="font-size: 12px;">Profile</span>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelApp</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .header {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            z-index: 10;
+        }
+
+        .header__left h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        .header__right {
+            display: flex;
+            align-items: center;
+        }
+
+        .header__right .icon {
+            font-size: 22px;
+            color: #555;
+            margin-left: 15px;
+        }
+
+        .search-bar {
+            padding: 15px 20px;
+            background-color: #f8f8f8;
+        }
+
+        .search-input {
+            width: calc(100% - 40px);
+            padding: 12px 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            color: #333;
+            outline: none;
+            display: flex;
+            align-items: center;
+        }
+        .search-input::before {
+            content: "🔍";
+            margin-right: 10px;
+            color: #777;
+        }
+        .search-input span {
+            flex-grow: 1;
+            color: #777;
+        }
+
+
+        .content {
+            flex-grow: 1;
+            overflow-y: scroll;
+            padding: 0 20px 20px;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        .category-scroll {
+            display: flex;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 10px;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+        .category-scroll::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+
+        .category-item {
+            flex-shrink: 0;
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 15px 20px;
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease-in-out;
+        }
+        .category-item:active {
+            transform: scale(0.98);
+        }
+
+        .category-item.active {
+            background-color: #4CAF50; /* A pleasant green */
+            color: #fff;
+        }
+
+        .category-item .icon {
+            font-size: 20px;
+            margin-right: 8px;
+        }
+        .category-item.active .icon {
+            color: #fff;
+        }
+
+        .category-item span {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .category-item.active span {
+            color: #fff;
+        }
+
+
+        .hotel-card {
+            background-color: #fff;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+        }
+        .hotel-card:active {
+            transform: scale(0.98);
+        }
+
+        .hotel-card__image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .hotel-card__details {
+            padding: 15px;
+        }
+
+        .hotel-card__name {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        .hotel-card__location {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .hotel-card__location .icon {
+            margin-right: 5px;
+            font-size: 16px;
+        }
+
+        .hotel-card__info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hotel-card__rating {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            color: #4CAF50;
+            font-weight: 500;
+        }
+        .hotel-card__rating .icon {
+            font-size: 18px;
+            color: #FFD700; /* Gold star */
+            margin-right: 4px;
+        }
+
+        .hotel-card__price {
+            font-size: 18px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+        .hotel-card__price span {
+            font-size: 14px;
+            font-weight: 500;
+            color: #777;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+            background-color: #fff;
+            border-top: 1px solid #eee;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+            z-index: 10;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #999;
+            font-size: 12px;
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+        }
+        .nav-item.active {
+            color: #4CAF50;
+        }
+
+        .nav-item .icon {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+        .nav-item.active .icon {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__left">
+                <h1>Explore</h1>
+            </div>
+            <div class="header__right">
+                <span class="icon">🔔</span>
+                <span class="icon">⚙️</span>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <div class="search-input">
+                <span>Where do you want to go?</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="category-scroll">
+                <div class="category-item active">
+                    <span class="icon">🏨</span>
+                    <span>Hotels</span>
+                </div>
+                <div class="category-item">
+                    <span class="icon">✈️</span>
+                    <span>Flights</span>
+                </div>
+                <div class="category-item">
+                    <span class="icon">🚗</span>
+                    <span>Cars</span>
+                </div>
+                <div class="category-item">
+                    <span class="icon">🏕️</span>
+                    <span>Camping</span>
+                </div>
+                <div class="category-item">
+                    <span class="icon">🚢</span>
+                    <span>Cruises</span>
+                </div>
+            </div>
+
+            <h2 class="section-title">Recommended for you</h2>
+
+            <div class="hotel-card">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbf6db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=375&q=80" alt="Hotel Image" class="hotel-card__image">
+                <div class="hotel-card__details">
+                    <div class="hotel-card__name">Grand Hyatt Dubai</div>
+                    <div class="hotel-card__location">
+                        <span class="icon">📍</span>
+                        <span>Near Dubai Creek, UAE</span>
+                    </div>
+                    <div class="hotel-card__info">
+                        <div class="hotel-card__rating">
+                            <span class="icon">⭐</span>
+                            4.8 (1.2K Reviews)
+                        </div>
+                        <div class="hotel-card__price">
+                            $240<span>/night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=375&q=80" alt="Hotel Image" class="hotel-card__image">
+                <div class="hotel-card__details">
+                    <div class="hotel-card__name">The Ritz-Carlton, Paris</div>
+                    <div class="hotel-card__location">
+                        <span class="icon">📍</span>
+                        <span>Place Vendôme, France</span>
+                    </div>
+                    <div class="hotel-card__info">
+                        <div class="hotel-card__rating">
+                            <span class="icon">⭐</span>
+                            4.9 (980 Reviews)
+                        </div>
+                        <div class="hotel-card__price">
+                            $780<span>/night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="https://images.unsplash.com/photo-1618773959496-e17f7d46c827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=375&q=80" alt="Hotel Image" class="hotel-card__image">
+                <div class="hotel-card__details">
+                    <div class="hotel-card__name">Marina Bay Sands</div>
+                    <div class="hotel-card__location">
+                        <span class="icon">📍</span>
+                        <span>Bayfront Ave, Singapore</span>
+                    </div>
+                    <div class="hotel-card__info">
+                        <div class="hotel-card__rating">
+                            <span class="icon">⭐</span>
+                            4.7 (2.5K Reviews)
+                        </div>
+                        <div class="hotel-card__price">
+                            $399<span>/night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="nav-item active">
+                <span class="icon">🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="nav-item">
+                <span class="icon">🗺️</span>
+                <span>Map</span>
+            </div>
+            <div class="nav-item">
+                <span class="icon">❤️</span>
+                <span>Saved</span>
+            </div>
+            <div class="nav-item">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

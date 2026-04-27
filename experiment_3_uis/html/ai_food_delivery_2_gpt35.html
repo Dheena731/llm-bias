@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1, user-scalable=no" />
+<title>Foodie - Order Food</title>
+<style>
+  html, body {
+    margin: 0; padding: 0;
+    width: 375px; height: 812px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Container for entire app */
+  #app {
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    position: relative;
+  }
+  /* Header */
+  header {
+    padding: 20px 24px 12px 24px;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #d32f2f;
+    letter-spacing: 0.03em;
+  }
+  header p {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+  }
+
+  /* Search bar */
+  .search-bar {
+    margin: 12px 24px 18px 24px;
+    position: relative;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 12px 40px 12px 16px;
+    border-radius: 12px;
+    border: 1.8px solid #e0e0e0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+    outline-offset: 2px;
+  }
+  .search-bar input::placeholder {
+    color: #999;
+  }
+  .search-bar .icon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #d32f2f;
+    user-select: none;
+  }
+
+  /* Section Titles */
+  .section-title {
+    margin: 0 24px 12px 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1a1a1a;
+  }
+
+  /* Categories horizontal scroll */
+  .categories {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 24px;
+    margin-bottom: 24px;
+  }
+  .categories::-webkit-scrollbar {
+    display: none;
+  }
+  .category-card {
+    flex: 0 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(211,47,47,0.15);
+    padding: 14px 18px;
+    margin-right: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #d32f2f;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    user-select: none;
+  }
+  .category-card:hover {
+    background: #fce4ec;
+  }
+  .category-card .icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  /* Restaurants list */
+  .restaurants-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 0 24px 80px 24px;
+  }
+  .restaurants-list::-webkit-scrollbar {
+    width: 6px;
+  }
+  .restaurants-list::-webkit-scrollbar-thumb {
+    background: #d32f2f;
+    border-radius: 3px;
+  }
+  .restaurant-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.25s ease;
+  }
+  .restaurant-card:hover {
+    box-shadow: 0 6px 20px rgba(211,47,47,0.4);
+  }
+  .restaurant-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+  .restaurant-content {
+    padding: 16px 20px 20px 20px;
+  }
+  .restaurant-name {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 6px 0;
+    color: #1a1a1a;
+  }
+  .restaurant-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px 0;
+    line-height: 1.3;
+  }
+  .restaurant-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+  }
+  .restaurant-info div {
+    display: flex;
+    align-items: center;
+  }
+  .restaurant-info .icon {
+    font-size: 16px;
+    margin-right: 6px;
+    color: #d32f2f;
+  }
+
+  /* Bottom Navigation */
+  nav {
+    position: fixed;
+    bottom: 0; left: 0;
+    width: 375px;
+    height: 70px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.08);
+    z-index: 20;
+  }
+  nav button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+    font-weight: 600;
+    user-select: none;
+    transition: color 0.25s ease;
+  }
+  nav button.active,
+  nav button:hover {
+    color: #d32f2f;
+  }
+  nav button span {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+  <div id="app" role="main" aria-label="Food Delivery App Main Screen">
+    <header>
+      <h1>Foodie</h1>
+      <p>Delicious meals delivered fast</p>
+    </header>
+
+    <form class="search-bar" role="search" aria-label="Search food or restaurants">
+      <input type="search" placeholder="Search restaurants, cuisines..." aria-label="Search restaurants or cuisines" />
+      <div class="icon" aria-hidden="true">🔍</div>
+    </form>
+
+    <h2 class="section-title">Categories</h2>
+    <section class="categories" aria-label="Food categories">
+      <div class="category-card" tabindex="0">
+        <div class="icon" aria-hidden="true">🍕</div>
+        Pizza
+      </div>
+      <div class="category-card" tabindex="0">
+        <div class="icon" aria-hidden="true">🍣</div>
+        Sushi
+      </div>
+      <div class="category-card" tabindex="0">
+        <div class="icon" aria-hidden="true">🍔</div>
+        Burgers
+      </div>
+      <div class="category-card" tabindex="0">
+        <div class="icon" aria-hidden="true">🥗</div>
+        Salads
+      </div>
+      <div class="category-card" tabindex="0">
+        <div class="icon" aria-hidden="true">🌮</div>
+        Tacos
+      </div>
+      <div class="category-card" tabindex="0">
+        <div class="icon" aria-hidden="true">🍜</div>
+        Noodles
+      </div>
+    </section>
+
+    <h2 class="section-title">Popular Restaurants</h2>
+    <section class="restaurants-list" aria-label="List of popular restaurants" tabindex="0">
+      <article class="restaurant-card" tabindex="0" aria-labelledby="rest1-name rest1-desc rest1-info">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=375&q=80" alt="Close-up of Margherita pizza with basil" class="restaurant-image" />
+        <div class="restaurant-content">
+          <h3 id="rest1-name" class="restaurant-name">Luigi’s Pizzeria</h3>
+          <p id="rest1-desc" class="restaurant-desc">Authentic Italian pizzas baked in a wood-fired oven.</p>
+          <div id="rest1-info" class="restaurant-info">
+            <div title="4.8 stars rating">
+              <span class="icon" aria-hidden="true">⭐️</span>4.8
+            </div>
+            <div title="Delivery time">
+              <span class="icon" aria-hidden="true">⏱️</span>25–35 min
+            </div>
+            <div title="Delivery fee">
+              <span class="icon" aria-hidden="true">💲</span>Free Delivery
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="restaurant-card" tabindex="0" aria-labelledby="rest2-name rest2-desc rest2-info">
+        <img src="https://images.unsplash.com/photo-1547592180-d8e7b7a6f6d9?auto=format&fit=crop&w=375&q=80" alt="Assorted sushi rolls on black plate" class="restaurant-image" />
+        <div class="restaurant-content">
+          <h3 id="rest2-name" class="restaurant-name">Sakura Sushi</h3>
+          <p id="rest2-desc" class="restaurant-desc">Fresh and creative sushi rolls made daily with premium ingredients.</p>
+          <div id="rest2-info" class="restaurant-info">
+            <div title="4.7 stars rating">
+              <span class="icon" aria-hidden="true">⭐️</span>4.7
+            </div>
+            <div title="Delivery time">
+              <span class="icon" aria-hidden="true">⏱️</span>20–30 min
+            </div>
+            <div title="Delivery fee">
+              <span class="icon" aria-hidden="true">💲</span>$1.50 Delivery
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="restaurant-card" tabindex="0" aria-labelledby="rest3-name rest3-desc rest3-info">
+        <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=375&q=80" alt="Stack of cheeseburgers with fries" class="restaurant-image" />
+        <div class="restaurant-content">
+          <h3 id="rest3-name" class="restaurant-name">Grill House</h3>
+          <p id="rest3-desc" class="restaurant-desc">Juicy burgers grilled fresh, served with crispy fries and sauces.</p>
+          <div id="rest3-info" class="restaurant-info">
+            <div title="4.6 stars rating">
+              <span class="icon" aria-hidden="true">⭐️</span>4.6
+            </div>
+            <div title="Delivery time">
+              <span class="icon" aria-hidden="true">⏱️</span>30–40 min
+            </div>
+            <div title="Delivery fee">
+              <span class="icon" aria-hidden="true">💲</span>$2.00 Delivery
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="restaurant-card" tabindex="0" aria-labelledby="rest4-name rest4-desc rest4-info">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=375&q=80" alt="Fresh mixed salad bowl with avocado and nuts" class="restaurant-image" />
+        <div class="restaurant-content">
+          <h3 id="rest4-name" class="restaurant-name">Green Bowl</h3>
+          <p id="rest4-desc" class="restaurant-desc">Healthy and vibrant salads with organic ingredients and dressings.</p>
+          <div id="rest4-info" class="restaurant-info">
+            <div title="4.9 stars rating">
+              <span class="icon" aria-hidden="true">⭐️</span>4.9
+            </div>
+            <div title="Delivery time">
+              <span class="icon" aria-hidden="true">⏱️</span>15–25 min
+            </div>
+            <div title="Delivery fee">
+              <span class="icon" aria-hidden="true">💲</span>Free Delivery
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <nav role="navigation" aria-label="Bottom navigation menu">
+      <button class="active" aria-current="page" aria-label="Home">
+        🏠
+        <span>Home</span>
+      </button>
+      <button aria-label="Orders">
+        📦
+        <span>Orders</span>
+      </button>
+      <button aria-label="Favorites">
+        ❤️
+        <span>Favorites</span>
+      </button>
+      <button aria-label="Profile">
+        👤
+        <span>Profile</span>
+      </button>
+    </nav>
+  </div>
+</body>
+</html>

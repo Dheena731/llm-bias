@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1.0, user-scalable=no" />
+<title>Finance App</title>
+<style>
+  html, body {
+    margin: 0; padding: 0;
+    width: 375px; height: 812px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #F5F7FA;
+    color: #1B2733;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  /* Container */
+  .app {
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    background: #F5F7FA;
+  }
+
+  /* Header */
+  header {
+    height: 70px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0D47A1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 6px rgb(13 71 161 / 0.3);
+  }
+  header .menu {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  header .profile {
+    width: 36px; height: 36px;
+    background: #1565C0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    user-select: none;
+    box-shadow: 0 2px 5px rgb(21 101 192 / 0.4);
+  }
+
+  /* Scrollable main content */
+  main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Section Title */
+  .section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D47A1;
+    margin-bottom: 16px;
+  }
+
+  /* Balance Card */
+  .balance-card {
+    background: #1565C0;
+    border-radius: 16px;
+    padding: 24px 24px 32px 24px;
+    color: #fff;
+    box-shadow: 0 8px 20px rgb(21 101 192 / 0.3);
+    margin-bottom: 32px;
+  }
+  .balance-card .label {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+    letter-spacing: 0.04em;
+  }
+  .balance-card .amount {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+  }
+  .balance-card .currency {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.85;
+    margin-left: 4px;
+  }
+  .balance-card .card-number {
+    font-size: 14px;
+    letter-spacing: 0.12em;
+    opacity: 0.6;
+    margin-top: 24px;
+  }
+  .balance-card .cardholder {
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    opacity: 0.75;
+    margin-top: 4px;
+  }
+  .balance-card .valid-thru {
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 2px;
+  }
+
+  /* Quick Actions */
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+  }
+  .action-btn {
+    background: #E3F2FD;
+    flex: 1;
+    margin: 0 6px;
+    border-radius: 14px;
+    padding: 16px 0;
+    color: #0D47A1;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 2px 6px rgb(21 101 192 / 0.2);
+    transition: background 0.3s;
+  }
+  .action-btn:first-child {
+    margin-left: 0;
+  }
+  .action-btn:last-child {
+    margin-right: 0;
+  }
+  .action-btn:hover {
+    background: #BBDEFB;
+  }
+  .action-btn .icon {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+
+  /* Transactions List */
+  .transactions {
+    margin-bottom: 80px;
+  }
+  .transactions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .transactions-header h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D47A1;
+  }
+  .transactions-header a {
+    font-size: 14px;
+    color: #1565C0;
+    font-weight: 600;
+    text-decoration: none;
+    user-select: none;
+  }
+  .transaction-item {
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px 20px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0.06);
+  }
+  .transaction-icon {
+    background: #E3F2FD;
+    color: #0D47A1;
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    flex-shrink: 0;
+  }
+  .transaction-details {
+    flex: 1;
+  }
+  .transaction-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #1B2733;
+    margin-bottom: 4px;
+  }
+  .transaction-date {
+    font-size: 12px;
+    color: #8B9CA7;
+  }
+  .transaction-amount {
+    font-weight: 700;
+    font-size: 15px;
+    white-space: nowrap;
+    margin-left: 12px;
+  }
+  .transaction-amount.credit {
+    color: #2E7D32;
+  }
+  .transaction-amount.debit {
+    color: #C62828;
+  }
+
+  /* Bottom Navigation */
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 375px;
+    height: 68px;
+    background: #fff;
+    box-shadow: 0 -1px 10px rgb(0 0 0 / 0.06);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    user-select: none;
+  }
+  nav a {
+    color: #6B7A8F;
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    width: 60px;
+  }
+  nav a.active, nav a:hover {
+    color: #0D47A1;
+  }
+  nav a span {
+    font-size: 11px;
+    margin-top: 2px;
+  }
+
+</style>
+</head>
+<body>
+  <div class="app" role="main" aria-label="Finance App main screen">
+    <header>
+      <div class="menu" aria-label="Menu">☰</div>
+      <div aria-live="polite" aria-atomic="true">My Wallet</div>
+      <div class="profile" aria-label="User Profile">AL</div>
+    </header>
+    <main>
+      <section aria-labelledby="balance-heading" class="balance-card" role="region">
+        <div class="label" id="balance-heading">Current Balance</div>
+        <div class="amount" aria-live="polite" aria-atomic="true">
+          $<span>7,384</span><span class="currency">.52</span>
+        </div>
+        <div class="card-number" aria-label="Card Number">••••  5732  1084  9941</div>
+        <div class="cardholder" aria-label="Cardholder Name">Alexandra Lee</div>
+        <div class="valid-thru" aria-label="Card Valid Thru">Valid Thru 08/26</div>
+      </section>
+
+      <section aria-label="Quick Actions" class="actions">
+        <button class="action-btn" type="button" aria-label="Send Money">
+          <div class="icon" aria-hidden="true">💸</div>
+          Send
+        </button>
+        <button class="action-btn" type="button" aria-label="Pay Bills">
+          <div class="icon" aria-hidden="true">🧾</div>
+          Pay
+        </button>
+        <button class="action-btn" type="button" aria-label="Add Funds">
+          <div class="icon" aria-hidden="true">➕</div>
+          Add
+        </button>
+      </section>
+
+      <section class="transactions" aria-labelledby="transactions-heading" role="region">
+        <div class="transactions-header">
+          <h2 id="transactions-heading">Recent Transactions</h2>
+          <a href="#" tabindex="-1" aria-label="View all transactions">See All</a>
+        </div>
+
+        <article class="transaction-item" aria-label="Transaction to Starbucks, $6.45 debit on June 10, 2024">
+          <div class="transaction-icon" aria-hidden="true">☕</div>
+          <div class="transaction-details">
+            <div class="transaction-title">Starbucks</div>
+            <time class="transaction-date" datetime="2024-06-10">Jun 10</time>
+          </div>
+          <div class="transaction-amount debit">−$6.45</div>
+        </article>
+
+        <article class="transaction-item" aria-label="Salary Deposit, $3,200 credit on June 8, 2024">
+          <div class="transaction-icon" aria-hidden="true">💼</div>
+          <div class="transaction-details">
+            <div class="transaction-title">Salary</div>
+            <time class="transaction-date" datetime="2024-06-08">Jun 8</time>
+          </div>
+          <div class="transaction-amount credit">+$3,200.00</div>
+        </article>
+
+        <article class="transaction-item" aria-label="Transaction to Amazon, $89.99 debit on June 7, 2024">
+          <div class="transaction-icon" aria-hidden="true">📦</div>
+          <div class="transaction-details">
+            <div class="transaction-title">Amazon</div>
+            <time class="transaction-date" datetime="2024-06-07">Jun 7</time>
+          </div>
+          <div class="transaction-amount debit">−$89.99</div>
+        </article>
+
+        <article class="transaction-item" aria-label="Uber Ride, $15.30 debit on June 5, 2024">
+          <div class="transaction-icon" aria-hidden="true">🚗</div>
+          <div class="transaction-details">
+            <div class="transaction-title">Uber</div>
+            <time class="transaction-date" datetime="2024-06-05">Jun 5</time>
+          </div>
+          <div class="transaction-amount debit">−$15.30</div>
+        </article>
+
+        <article class="transaction-item" aria-label="Spotify Subscription, $9.99 debit on June 3, 2024">
+          <div class="transaction-icon" aria-hidden="true">🎵</div>
+          <div class="transaction-details">
+            <div class="transaction-title">Spotify</div>
+            <time class="transaction-date" datetime="2024-06-03">Jun 3</time>
+          </div>
+          <div class="transaction-amount debit">−$9.99</div>
+        </article>
+      </section>
+    </main>
+
+    <nav role="navigation" aria-label="Bottom Navigation">
+      <a href="#" class="active" aria-current="page" aria-label="Home">
+        🏠
+        <span>Home</span>
+      </a>
+      <a href="#" aria-label="Transactions">
+        📊
+        <span>Stats</span>
+      </a>
+      <a href="#" aria-label="Payments">
+        💳
+        <span>Cards</span>
+      </a>
+      <a href="#" aria-label="Settings">
+        ⚙️
+        <span>Settings</span>
+      </a>
+    </nav>
+  </div>
+</body>
+</html>

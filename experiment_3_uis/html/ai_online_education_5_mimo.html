@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LearnPro - Mobile Learning</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #F5F7FA;
+            color: #1A1A1A;
+        }
+
+        /* Status Bar */
+        .status-bar {
+            height: 44px;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #FFFFFF;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1A1A1A;
+            position: relative;
+            z-index: 10;
+        }
+
+        .status-time {
+            font-size: 15px;
+        }
+
+        .status-icons {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+
+        /* Main Container */
+        .app-container {
+            height: calc(100% - 44px);
+            overflow-y: auto;
+            background-color: #F5F7FA;
+            position: relative;
+        }
+
+        /* Header Section */
+        .header {
+            padding: 24px 20px 16px;
+            background: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);
+            color: white;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            box-shadow: 0 4px 20px rgba(79, 70, 229, 0.2);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .user-greeting h1 {
+            font-size: 14px;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-bottom: 2px;
+        }
+
+        .user-greeting span {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        .icon-btn {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: white;
+            backdrop-filter: blur(4px);
+        }
+
+        /* Search Bar */
+        .search-bar {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Content Section */
+        .content {
+            padding: 24px 20px 80px;
+        }
+
+        /* Section Titles */
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1A1A1A;
+        }
+
+        .view-all {
+            font-size: 13px;
+            color: #6366F1;
+            font-weight: 600;
+        }
+
+        /* Horizontal Scroll Container */
+        .scroll-container {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Course Cards */
+        .course-card {
+            min-width: 240px;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            flex-shrink: 0;
+        }
+
+        .card-image {
+            height: 120px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .card-image.design {
+            background: linear-gradient(135deg, #FF9A9E 0%, #FECFEF 100%);
+        }
+
+        .card-image.code {
+            background: linear-gradient(135deg, #A18CD1 0%, #FBC2EB 100%);
+        }
+
+        .card-image.marketing {
+            background: linear-gradient(135deg, #84FAB0 0%, #8FD3F4 100%);
+        }
+
+        .card-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .card-content {
+            padding: 14px;
+        }
+
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+
+        .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: #6B7280;
+            margin-bottom: 10px;
+        }
+
+        .card-progress {
+            height: 4px;
+            background: #E5E7EB;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #6366F1;
+            border-radius: 2px;
+        }
+
+        /* Categories Grid */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .cat-item {
+            background: white;
+            border-radius: 14px;
+            padding: 16px 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            transition: transform 0.1s;
+        }
+
+        .cat-item:active {
+            transform: scale(0.96);
+        }
+
+        .cat-icon {
+            width: 40px;
+            height: 40px;
+            background: #EEF2FF;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            font-size: 18px;
+            color: #6366F1;
+        }
+
+        .cat-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        /* Recommended Section */
+        .recommended-card {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            gap: 14px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        .rec-thumb {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            flex-shrink: 0;
+            background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+        }
+
+        .rec-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .rec-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .rec-meta {
+            font-size: 12px;
+            color: #6B7280;
+            margin-bottom: 8px;
+        }
+
+        .rec-btn {
+            align-self: flex-start;
+            background: #6366F1;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 20px;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 72px;
+            background: white;
+            border-top: 1px solid #E5E7EB;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 10px;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: #9CA3AF;
+            text-decoration: none;
+            font-size: 10px;
+            position: relative;
+            width: 60px;
+        }
+
+        .nav-item.active {
+            color: #6366F1;
+        }
+
+        .nav-item.active::after {
+            content: '';
+            position: absolute;
+            top: -8px;
+            width: 24px;
+            height: 3px;
+            background: #6366F1;
+            border-radius: 2px;
+        }
+
+        .nav-icon {
+            font-size: 22px;
+        }
+
+        /* Bottom Padding for Nav */
+        .bottom-spacer {
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="status-time">9:41</div>
+        <div class="status-icons">
+            <span>📶</span>
+            <span>📶</span>
+            <span>🔋</span>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div class="app-container">
+        <!-- Header with Search -->
+        <header class="header">
+            <div class="header-top">
+                <div class="user-greeting">
+                    <h1>Good Morning, Sarah</h1>
+                    <span>Ready to learn? 👋</span>
+                </div>
+                <div class="header-actions">
+                    <div class="icon-btn">🔔</div>
+                    <div class="icon-btn">👤</div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <span>🔍</span>
+                <span>Search courses, topics, mentors...</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Categories -->
+            <div class="section-header">
+                <div class="section-title">Categories</div>
+            </div>
+            <div class="categories-grid">
+                <div class="cat-item">
+                    <div class="cat-icon">🎨</div>
+                    <div class="cat-name">Design</div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-icon">💻</div>
+                    <div class="cat-name">Coding</div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-icon">📈</div>
+                    <div class="cat-name">Business</div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-icon">📸</div>
+                    <div class="cat-name">Photography</div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-icon">🎵</div>
+                    <div class="cat-name">Music</div>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-icon">✍️</div>
+                    <div class="cat-name">Writing</div>
+                </div>
+            </div>
+
+            <!-- Continue Learning -->
+            <div class="section-header">
+                <div class="section-title">Continue Learning</div>
+                <div class="view-all">See All</div>
+            </div>
+            <div class="scroll-container">
+                <!-- Card 1 -->
+                <div class="course-card">
+                    <div class="card-image design">
+                        <div class="card-tag">UI/UX</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Advanced Figma Masterclass</div>
+                        <div class="card-meta">
+                            <span>▶ 12/24 Lessons</span>
+                            <span>•</span>
+                            <span>4h left</span>
+                        </div>
+                        <div class="card-progress">
+                            <div class="progress-fill" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="course-card">
+                    <div class="card-image code">
+                        <div class="card-tag">Coding</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">React Native Essentials</div>
+                        <div class="card-meta">
+                            <span>▶ 8/18 Lessons</span>
+                            <span>•</span>
+                            <span>6h left</span>
+                        </div>
+                        <div class="card-progress">
+                            <div class="progress-fill" style="width: 35%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="course-card">
+                    <div class="card-image marketing">
+                        <div class="card-tag">Marketing</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Digital Strategy 101</div>
+                        <div class="card-meta">
+                            <span>▶ 5/12 Lessons</span>
+                            <span>•</span>
+                            <span>3h left</span>
+                        </div>
+                        <div class="card-progress">
+                            <div class="progress-fill" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recommended For You -->
+            <div class="section-header" style="margin-top: 24px;">
+                <div class="section-title">Recommended</div>
+                <div class="view-all">More</div>
+            </div>
+
+            <div class="recommended-card">
+                <div class="rec-thumb">🎬</div>
+                <div class="rec-info">
+                    <div class="rec-title">Video Editing with Premiere Pro</div>
+                    <div class="rec-meta">⭐ 4.8 • 2.5k students</div>
+                    <div class="rec-btn">Start Course</div>
+                </div>
+            </div>
+
+            <div class="recommended-card">
+                <div class="rec-thumb" style="background: linear-gradient(135deg, #F093FB 0%, #F5576C 100%);">📊</div>
+                <div class="rec-info">
+                    <div class="rec-title">Data Analytics for Beginners</div>
+                    <div class="rec-meta">⭐ 4.9 • 1.8k students</div>
+                    <div class="rec-btn">Start Course</div>
+                </div>
+            </div>
+
+            <div class="recommended-card">
+                <div class="rec-thumb" style="background: linear-gradient(135deg, #4FACFE 0%, #00F2FE 100%);">🎙️</div>
+                <div class="rec-info">
+                    <div class="rec-title">Podcasting: Audio Production</div>
+                    <div class="rec-meta">⭐ 4.7 • 950 students</div>
+                    <div class="rec-btn">Start Course</div>
+                </div>
+            </div>
+            
+            <div class="bottom-spacer"></div>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📚</span>
+                <span>Courses</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🔍</span>
+                <span>Search</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🏆</span>
+                <span>Progress</span>
+            </a>
+        </nav>
+    </div>
+</body>
+</html>

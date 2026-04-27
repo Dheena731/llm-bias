@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>FitTrack</title>
+<style>
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #121212;
+      color: #e0e0e0;
+    }
+    header, nav {
+      background: #1f1f1f;
+      border-color: #2c2c2c;
+    }
+    .card {
+      background: #1e1e1e;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.9);
+      color: #ddd;
+    }
+    .btn-primary {
+      background: #0a84ff;
+      color: #fff;
+      box-shadow: 0 3px 8px rgb(10 132 255 / 0.7);
+    }
+    .btn-secondary {
+      background: transparent;
+      border: 1.5px solid #0a84ff;
+      color: #0a84ff;
+    }
+    nav a {
+      color: #a0a0a0;
+    }
+    nav a.active {
+      color: #0a84ff;
+    }
+  }
+
+  html, body {
+    margin: 0; padding: 0;
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f9fafc;
+    color: #222222;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header {
+    background: #0a84ff;
+    color: white;
+    padding: 18px 24px 22px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.025em;
+    box-shadow: 0 2px 6px rgb(10 132 255 / 0.25);
+    user-select: none;
+  }
+  main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 24px 88px;
+  }
+  /* Scrollbar for main content */
+  main::-webkit-scrollbar {
+    width: 6px;
+  }
+  main::-webkit-scrollbar-thumb {
+    background: #0a84ff;
+    border-radius: 3px;
+  }
+  .welcome {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+  }
+  .date {
+    font-size: 0.875rem;
+    color: #666666;
+    margin-bottom: 24px;
+  }
+  /* Cards container */
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.08);
+    padding: 20px 24px 24px;
+  }
+  .card h2 {
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin: 0 0 14px;
+    color: #0a84ff;
+  }
+  /* Steps Card */
+  .steps-value {
+    font-size: 2.75rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  .steps-goal {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #888;
+  }
+  .progress-bar {
+    margin-top: 16px;
+    background: #d1eaff;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    background: #0a84ff;
+    width: 78%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+  }
+  /* Heart Rate Card */
+  .heart-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .heart-icon {
+    font-size: 3rem;
+    color: #ff3b30;
+    margin-right: 16px;
+  }
+  .hr-data {
+    flex: 1;
+  }
+  .hr-value {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #d32f2f;
+  }
+  .hr-status {
+    font-size: 0.9rem;
+    color: #b00020;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  /* Sleep Card */
+  .sleep-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sleep-time {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #2a3747;
+  }
+  .sleep-quality {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a90e2;
+  }
+  .sleep-desc {
+    margin-top: 6px;
+    font-size: 0.875rem;
+    color: #555;
+    line-height: 1.3;
+  }
+  /* Buttons Section */
+  .actions {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+  }
+  .btn-primary, .btn-secondary {
+    flex: 1;
+    padding: 14px 0;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+    border: none;
+  }
+  .btn-primary {
+    background: #0a84ff;
+    color: white;
+    box-shadow: 0 3px 8px rgb(10 132 255 / 0.5);
+  }
+  .btn-primary:active {
+    background: #076dda;
+    box-shadow: 0 1px 5px rgb(7 109 218 / 0.7);
+  }
+  .btn-secondary {
+    background: transparent;
+    border: 1.8px solid #0a84ff;
+    color: #0a84ff;
+  }
+  .btn-secondary:active {
+    background: #e6f0ff;
+  }
+  /* Navigation */
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 375px;
+    height: 66px;
+    background: white;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #666666;
+    user-select: none;
+    box-shadow: 0 -2px 8px rgb(0 0 0 / 0.07);
+  }
+  nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #888888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.3s ease;
+  }
+  nav a.active {
+    color: #0a84ff;
+  }
+  nav a span.icon {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  /* Scroll smooth on main for keyboard simulation (not required but nice) */
+  main {
+    -webkit-overflow-scrolling: touch;
+  }
+</style>
+</head>
+<body>
+<header>
+  FitTrack
+</header>
+<main role="main" aria-label="Main dashboard">
+  <div class="welcome" aria-live="polite">Good Morning, Sarah!</div>
+  <div class="date">Tuesday, April 16, 2024</div>
+
+  <section class="cards" aria-label="Health metrics overview">
+
+    <article class="card" aria-labelledby="steps-title" tabindex="0">
+      <h2 id="steps-title">Steps Today 🚶‍♀️</h2>
+      <div class="steps-value" aria-live="polite" aria-atomic="true">7,850</div>
+      <div class="steps-goal">Goal: 10,000 steps</div>
+      <div class="progress-bar" aria-hidden="true">
+        <div class="progress-fill" style="width: 78%;"></div>
+      </div>
+      <div style="margin-top:12px; font-size:0.875rem; color:#666;">Keep it up! You're 2,150 steps away from your goal.</div>
+      <div class="actions">
+        <button class="btn-primary" type="button" aria-label="Log a walk">+ Log Walk</button>
+        <button class="btn-secondary" type="button" aria-label="View step history">📊 History</button>
+      </div>
+    </article>
+
+    <article class="card" aria-labelledby="heart-title" tabindex="0">
+      <h2 id="heart-title">Heart Rate ❤️</h2>
+      <div class="heart-rate">
+        <div class="heart-icon" aria-hidden="true">♥</div>
+        <div class="hr-data">
+          <div class="hr-value" aria-live="polite" aria-atomic="true">72 bpm</div>
+          <div class="hr-status">Resting</div>
+        </div>
+      </div>
+      <div style="margin-top:12px; font-size:0.875rem; color:#666;">
+        Your average resting heart rate has improved by 3 bpm this month.
+      </div>
+      <div class="actions">
+        <button class="btn-primary" type="button" aria-label="Start heart rate monitoring">▶ Start Monitor</button>
+        <button class="btn-secondary" type="button" aria-label="View heart rate trends">📈 Trends</button>
+      </div>
+    </article>
+
+    <article class="card" aria-labelledby="sleep-title" tabindex="0">
+      <h2 id="sleep-title">Last Night's Sleep 🛌</h2>
+      <div class="sleep-info">
+        <div class="sleep-time" aria-live="polite" aria-atomic="true">7h 45m</div>
+        <div class="sleep-quality">Good</div>
+      </div>
+      <p class="sleep-desc">
+        You had 3 cycles of deep sleep and woke up feeling refreshed at 6:30 AM.
+      </p>
+      <div class="actions">
+        <button class="btn-primary" type="button" aria-label="Add sleep notes">+ Add Notes</button>
+        <button class="btn-secondary" type="button" aria-label="View sleep history">🛏️ History</button>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<nav role="navigation" aria-label="Primary navigation">
+  <a href="#" class="active" aria-current="page">
+    <span class="icon" aria-hidden="true">🏠</span>
+    Home
+  </a>
+  <a href="#">
+    <span class="icon" aria-hidden="true">📅</span>
+    Workouts
+  </a>
+  <a href="#">
+    <span class="icon" aria-hidden="true">📊</span>
+    Progress
+  </a>
+  <a href="#">
+    <span class="icon" aria-hidden="true">⚙️</span>
+    Settings
+  </a>
+</nav>
+</body>
+</html>

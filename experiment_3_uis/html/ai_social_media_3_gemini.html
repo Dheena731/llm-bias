@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375px, initial-scale=1.0">
+    <title>Social App</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #f0f2f5; /* Light gray background */
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 16px;
+            background-color: #fff;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+            height: 56px;
+            box-sizing: border-box;
+            z-index: 10;
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .header-icon {
+            font-size: 24px;
+            color: #555;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding-bottom: 60px; /* Space for bottom nav */
+            box-sizing: border-box;
+        }
+
+        .story-section {
+            display: flex;
+            padding: 12px 0;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+        .story-section::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+
+        .story-item {
+            flex-shrink: 0;
+            width: 68px;
+            margin-left: 12px;
+            text-align: center;
+        }
+
+        .story-item:last-child {
+            margin-right: 12px;
+        }
+
+        .story-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border: 2px solid #007bff; /* Accent color for stories */
+            box-sizing: border-box;
+        }
+
+        .story-avatar.add-story {
+            border: 2px dashed #999;
+            background-color: #f2f2f2;
+        }
+
+        .story-avatar.add-story .icon {
+            font-size: 28px;
+            color: #999;
+        }
+
+        .story-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .story-name {
+            font-size: 11px;
+            color: #555;
+            margin-top: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .post-card {
+            background-color: #fff;
+            margin: 10px 0;
+            border-radius: 0; /* No rounded corners for full width */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+        }
+
+        .post-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin-right: 10px;
+            overflow: hidden;
+        }
+
+        .post-info {
+            flex-grow: 1;
+        }
+
+        .post-username {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 15px;
+        }
+
+        .post-time {
+            font-size: 13px;
+            color: #888;
+            margin-top: 2px;
+        }
+
+        .post-options {
+            font-size: 20px;
+            color: #888;
+            padding: 4px;
+        }
+
+        .post-caption {
+            font-size: 15px;
+            color: #333;
+            padding: 0 16px 12px;
+            line-height: 1.4;
+        }
+
+        .post-image-container {
+            width: 100%;
+            padding-bottom: 75%; /* 4:3 aspect ratio */
+            position: relative;
+            background-color: #eee;
+        }
+
+        .post-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .post-actions {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 16px;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            margin-top: 12px;
+        }
+
+        .action-button {
+            display: flex;
+            align-items: center;
+            color: #555;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 6px 8px;
+            border-radius: 8px;
+        }
+        .action-button:hover {
+            background-color: #f5f5f5;
+        }
+
+        .action-button .icon {
+            font-size: 20px;
+            margin-right: 6px;
+            color: #777;
+        }
+
+        .action-button.liked .icon {
+            color: #ff3b30;
+        }
+
+        .post-stats {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 16px;
+            font-size: 13px;
+            color: #777;
+        }
+
+        .post-stats span {
+            font-weight: 500;
+        }
+
+        .bottom-nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 375px;
+            box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.05);
+            z-index: 10;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #888;
+            font-size: 11px;
+            font-weight: 500;
+            text-decoration: none;
+            flex: 1;
+            padding: 6px 0;
+        }
+
+        .nav-item.active {
+            color: #007bff; /* Primary accent color */
+        }
+
+        .nav-icon {
+            font-size: 22px;
+            margin-bottom: 4px;
+        }
+
+        /* Utility classes */
+        .flex { display: flex; }
+        .items-center { align-items: center; }
+        .justify-between { justify-content: space-between; }
+        .mr-auto { margin-right: auto; }
+        .ml-auto { margin-left: auto; }
+        .gap-4 { gap: 16px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <span class="header-title">Connectify</span>
+        <div class="flex items-center gap-4">
+            <span class="header-icon">🔍</span>
+            <span class="header-icon">💬</span>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="story-section">
+            <div class="story-item">
+                <div class="story-avatar add-story">
+                    <span class="icon">+</span>
+                </div>
+                <div class="story-name">Add Story</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">
+                    <img src="https://via.placeholder.com/56/ff6f61/ffffff?text=SJ" alt="Story 1" class="story-img">
+                </div>
+                <div class="story-name">Sophia J.</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">
+                    <img src="https://via.placeholder.com/56/6a8d9f/ffffff?text=MK" alt="Story 2" class="story-img">
+                </div>
+                <div class="story-name">Mark K.</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">
+                    <img src="https://via.placeholder.com/56/a0785a/ffffff?text=EA" alt="Story 3" class="story-img">
+                </div>
+                <div class="story-name">Emily A.</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">
+                    <img src="https://via.placeholder.com/56/6a0572/ffffff?text=DP" alt="Story 4" class="story-img">
+                </div>
+                <div class="story-name">David P.</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">
+                    <img src="https://via.placeholder.com/56/4CAF50/ffffff?text=LM" alt="Story 5" class="story-img">
+                </div>
+                <div class="story-name">Liam M.</div>
+            </div>
+        </div>
+
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar">
+                    <img src="https://via.placeholder.com/40/ff6f61/ffffff?text=SJ" alt="Sophia J." class="story-img">
+                </div>
+                <div class="post-info">
+                    <div class="post-username">Sophia Johnson</div>
+                    <div class="post-time">2 hours ago</div>
+                </div>
+                <span class="post-options">⋯</span>
+            </div>
+            <div class="post-caption">
+                Absolutely breathtaking views from the mountain hike today! Feeling energized and inspired. ⛰️☀️
+            </div>
+            <div class="post-image-container">
+                <img src="https://images.unsplash.com/photo-1519681577535-643093222a76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bW91bnRhaW4saGlrZXx8fHx8fDE2NzY1NDg3MDc&ixlib=rb-4.0.3&q=80&w=700" alt="Mountain hike" class="post-image">
+            </div>
+            <div class="post-actions">
+                <div class="action-button liked">
+                    <span class="icon">❤️</span> <span>Like</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon">💬</span> <span>Comment</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon">📤</span> <span>Share</span>
+                </div>
+            </div>
+            <div class="post-stats">
+                <span>Liked by <b>Alex R.</b> and <b>247 others</b></span>
+                <span><b>18</b> comments</span>
+            </div>
+        </div>
+
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar">
+                    <img src="https://via.placeholder.com/40/6a8d9f/ffffff?text=MK" alt="Mark K." class="story-img">
+                </div>
+                <div class="post-info">
+                    <div class="post-username">Mark Kinsley</div>
+                    <div class="post-time">5 hours ago</div>
+                </div>
+                <span class="post-options">⋯</span>
+            </div>
+            <div class="post-caption">
+                Just finished my morning run! What a great start to the day. Feeling refreshed and ready for anything. 🏃‍♂️💨
+            </div>
+            <div class="post-image-container">
+                <img src="https://images.unsplash.com/photo-1543781216-568d40e94017?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8cnVubmluZyxtb3JuaW5nfHx8fHx8fDE2NzY1NDg3MDc&ixlib=rb-4.0.3&q=80&w=700" alt="Morning run" class="post-image">
+            </div>
+            <div class="post-actions">
+                <div class="action-button">
+                    <span class="icon">🤍</span> <span>Like</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon">💬</span> <span>Comment</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon">📤</span> <span>Share</span>
+                </div>
+            </div>
+            <div class="post-stats">
+                <span>Liked by <b>You</b> and <b>89 others</b></span>
+                <span><b>7</b> comments</span>
+            </div>
+        </div>
+
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar">
+                    <img src="https://via.placeholder.com/40/a0785a/ffffff?text=EA" alt="Emily A." class="story-img">
+                </div>
+                <div class="post-info">
+                    <div class="post-username">Emily Adams</div>
+                    <div class="post-time">1 day ago</div>
+                </div>
+                <span class="post-options">⋯</span>
+            </div>
+            <div class="post-caption">
+                New recipe alert! 🍝 Tried making homemade pasta from scratch, and it turned out amazing. So much fun!
+            </div>
+            <div class="post-image-container">
+                <img src="https://images.unsplash.com/photo-1588166524941-86055171727c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8cGFzdGEsZm9vZHx8fHx8fDE2NzY1NDg3MDc&ixlib=rb-4.0.3&q=80&w=700" alt="Homemade pasta" class="post-image">
+            </div>
+            <div class="post-actions">
+                <div class="action-button liked">
+                    <span class="icon">❤️</span> <span>Like</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon">💬</span> <span>Comment</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon">📤</span> <span>Share</span>
+                </div>
+            </div>
+            <div class="post-stats">
+                <span>Liked by <b>Sarah L.</b> and <b>152 others</b></span>
+                <span><b>12</b> comments</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="#" class="nav</body></html>

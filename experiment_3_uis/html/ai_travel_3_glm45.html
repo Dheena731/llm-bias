@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelStay - Hotel Booking App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #f7fafc;
+        }
+        
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        /* Header */
+        .header {
+            background-color: #1a365d;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .menu-btn {
+            font-size: 24px;
+            cursor: pointer;
+            padding: 4px;
+        }
+        
+        .logo {
+            font-size: 22px;
+            font-weight: 600;
+        }
+        
+        .notification-btn {
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .notification-badge {
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            background-color: #e53e3e;
+            color: white;
+            font-size: 10px;
+            padding: 2px 4px;
+            border-radius: 10px;
+            min-width: 16px;
+            text-align: center;
+        }
+        
+        /* Search Section */
+        .search-section {
+            padding: 20px;
+            background-color: white;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: #f7fafc;
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-bottom: 12px;
+        }
+        
+        .search-icon {
+            margin-right: 12px;
+            font-size: 18px;
+            color: #4a5568;
+        }
+        
+        .search-input {
+            flex: 1;
+            border: none;
+            background: none;
+            font-size: 16px;
+            color: #2d3748;
+        }
+        
+        .search-input::placeholder {
+            color: #a0aec0;
+        }
+        
+        .filter-options {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+        
+        .filter-chip {
+            background-color: #edf2f7;
+            color: #4a5568;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+        
+        .filter-chip.active {
+            background-color: #2c7a7b;
+            color: white;
+        }
+        
+        /* Content Area */
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 80px;
+        }
+        
+        /* Section Headers */
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 20px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+        
+        .section-link {
+            color: #2c7a7b;
+            font-size: 14px;
+            text-decoration: underline;
+        }
+        
+        /* Hotel Cards */
+        .hotel-card {
+            background-color: white;
+            margin: 0 20px 16px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hotel-image {
+            width: 100%;
+            height: 160px;
+            background-color: #cbd5e0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hotel-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hotel-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: rgba(46, 204, 113, 0.9);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .hotel-details {
+            padding: 16px;
+        }
+        
+        .hotel-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 4px;
+        }
+        
+        .hotel-location {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 8px;
+        }
+        
+        .location-icon {
+            margin-right: 4px;
+        }
+        
+        .hotel-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .rating-stars {
+            color: #f6e05e;
+            margin-right: 8px;
+        }
+        
+        .rating-text {
+            font-size: 14px;
+            color: #4a5568;
+        }
+        
+        .hotel-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .price {
+            color: #2c7a7b;
+            font-weight: 600;
+        }
+        
+        .price-value {
+            font-size: 20px;
+        }
+        
+        .price-period {
+            font-size: 14px;
+            color: #718096;
+            font-weight: normal;
+        }
+        
+        .book-btn {
+            background-color: #1a365d;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        /* Popular Destinations */
+        .destination-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            padding: 0 20px;
+        }
+        
+        .destination-card {
+            position: relative;
+            height: 120px;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .destination-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .destination-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            padding: 12px;
+            color: white;
+        }
+        
+        .destination-name {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .destination-hotels {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px 16px;
+            cursor: pointer;
+            color: #718096;
+            font-size: 12px;
+        }
+        
+        .nav-item.active {
+            color: #2c7a7b;
+        }
+        
+        .nav-icon {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+        
+        /* Special Offer Banner */
+        .special-offer {
+            margin: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 16px;
+            border-radius: 12px;
+            color: white;
+        }
+        
+        .offer-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .offer-subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="menu-btn">☰</div>
+            <div class="logo">TravelStay</div>
+            <div class="notification-btn">
+                🔔
+                <span class="notification-badge">3</span>
+            </div>
+        </header>
+        
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="search-bar">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-input" placeholder="Search hotels, cities...">
+            </div>
+            <div class="filter-options">
+                <div class="filter-chip active">All</div>
+                <div class="filter-chip">Luxury</div>
+                <div class="filter-chip">Budget</div>
+                <div class="filter-chip">Beach</div>
+                <div class="filter-chip">City</div>
+                <div class="filter-chip">Mountain</div>
+            </div>
+        </div>
+        
+        <!-- Content -->
+        <div class="content">
+            <!-- Special Offer -->
+            <div class="special-offer">
+                <div class="offer-title">Weekend Getaway Sale</div>
+                <div class="offer-subtitle">Save up to 40% on selected hotels</div>
+            </div>
+            
+            <!-- Featured Hotels -->
+            <div class="section-header">
+                <h2 class="section-title">Featured Hotels</h2>
+                <a href="#" class="section-link">See all</a>
+            </div>
+            
+            <div class="hotel-card">
+                <div class="hotel-image">
+                    <img src="https://picsum.photos/seed/hotel1/335/160.jpg" alt="Grand Plaza Hotel">
+                    <div class="hotel-badge">Best Price</div>
+                </div>
+                <div class="hotel-details">
+                    <h3 class="hotel-name">Grand Plaza Hotel</h3>
+                    <div class="hotel-location">
+                        <span class="location-icon">📍</span>
+                        Manhattan, New York
+                    </div>
+                    <div class="hotel-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">4.8 (2,341 reviews)</span>
+                    </div>
+                    <div class="hotel-footer">
+                        <div class="price">
+                            <span class="price-value">$189</span>
+                            <span class="price-period">/night</span>
+                        </div>
+                        <button class="book-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hotel-card">
+                <div class="hotel-image">
+                    <img src="https://picsum.photos/seed/hotel2/335/160.jpg" alt="Sunset Beach Resort">
+                    <div class="hotel-badge">Popular</div>
+                </div>
+                <div class="hotel-details">
+                    <h3 class="hotel-name">Sunset Beach Resort</h3>
+                    <div class="hotel-location">
+                        <span class="location-icon">📍</span>
+                        Miami Beach, Florida
+                    </div>
+                    <div class="hotel-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">4.9 (1,856 reviews)</span>
+                    </div>
+                    <div class="hotel-footer">
+                        <div class="price">
+                            <span class="price-value">$256</span>
+                            <span class="price-period">/night</span>
+                        </div>
+                        <button class="book-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Popular Destinations -->
+            <div class="section-header">
+                <h2 class="section-title">Popular Destinations</h2>
+                <a href="#" class="section-link">Explore more</a>
+            </div>
+            
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/dest1/170/120.jpg" alt="Paris">
+                    <div class="destination-overlay">
+                        <div class="destination-name">Paris</div>
+                        <div class="destination-hotels">1,234 hotels</div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/dest2/170/120.jpg" alt="Tokyo">
+                    <div class="destination-overlay">
+                        <div class="destination-name">Tokyo</div>
+                        <div class="destination-hotels">987 hotels</div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/dest3/170/120.jpg" alt="Rome">
+                    <div class="destination-overlay">
+                        <div class="destination-name">Rome</div>
+                        <div class="destination-hotels">756 hotels</div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://picsum.photos/seed/dest4/170/120.jpg" alt="Barcelona">
+                    <div class="destination-overlay">
+                        <div class="destination-name">Barcelona</div>
+                        <div class="destination-hotels">632 hotels</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <div class="nav-item active">
+                <div class="nav-icon">🏠</div>
+                <span>Home</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔍</div>
+                <span>Search</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">📅</div>
+                <span>Trips</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">❤️</div>
+                <span>Saved</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <span>Profile</span>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>

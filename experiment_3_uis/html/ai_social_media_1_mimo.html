@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f0f2f5;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            position: relative;
+            color: #1c1e21;
+        }
+
+        /* Status Bar */
+        .status-bar {
+            height: 44px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding-bottom: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+
+        .status-bar .time {
+            font-size: 15px;
+        }
+
+        .status-bar .icons span {
+            margin-left: 8px;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e4e6eb;
+            position: fixed;
+            top: 44px;
+            left: 0;
+            right: 0;
+            z-index: 99;
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1c1e21;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        .header-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #e4e6eb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            margin-top: 100px;
+            margin-bottom: 60px;
+            height: calc(100% - 160px);
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 12px;
+        }
+
+        /* Stories Section */
+        .stories-container {
+            background: white;
+            border-radius: 12px;
+            padding: 12px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .stories-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .stories-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .stories-view {
+            color: #65676b;
+            font-size: 14px;
+        }
+
+        .stories-list {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+
+        .story-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 70px;
+        }
+
+        .story-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            padding: 3px;
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            margin-bottom: 6px;
+            flex-shrink: 0;
+        }
+
+        .story-avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 2px solid white;
+            object-fit: cover;
+            background: #e4e6eb;
+        }
+
+        .story-name {
+            font-size: 12px;
+            color: #65676b;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 70px;
+        }
+
+        /* Post Cards */
+        .post-card {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .post-header {
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .post-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #e4e6eb;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #65676b;
+        }
+
+        .post-info {
+            flex: 1;
+        }
+
+        .post-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: #050505;
+        }
+
+        .post-meta {
+            font-size: 12px;
+            color: #65676b;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .post-content {
+            padding: 0 12px 12px 12px;
+            font-size: 15px;
+            line-height: 1.4;
+            color: #050505;
+        }
+
+        .post-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%);
+            margin-bottom: 8px;
+        }
+
+        .post-stats {
+            padding: 8px 12px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #e4e6eb;
+            font-size: 13px;
+            color: #65676b;
+        }
+
+        .post-actions {
+            display: flex;
+            padding: 4px 0;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #65676b;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .action-btn:hover {
+            background: #f0f2f5;
+            border-radius: 8px;
+        }
+
+        .action-btn span {
+            font-size: 16px;
+        }
+
+        /* Comments Section */
+        .comments-section {
+            background: #f0f2f5;
+            padding: 8px 12px;
+            margin: 8px 12px 12px 12px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .comment-input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            color: #1c1e21;
+        }
+
+        .comment-input::placeholder {
+            color: #65676b;
+        }
+
+        .comment-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .comment-action {
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: white;
+            border-top: 1px solid #e4e6eb;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 8px;
+            z-index: 100;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            height: 100%;
+            cursor: pointer;
+            color: #65676b;
+            position: relative;
+        }
+
+        .nav-item.active {
+            color: #1877f2;
+        }
+
+        .nav-item.active::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 32px;
+            height: 3px;
+            background: #1877f2;
+            border-radius: 0 0 4px 4px;
+        }
+
+        .nav-icon {
+            font-size: 24px;
+            margin-bottom: 2px;
+        }
+
+        .nav-label {
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        /* Notification Badge */
+        .badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 18px;
+            height: 18px;
+            background: #e41e3f;
+            color: white;
+            border-radius: 50%;
+            font-size: 11px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+
+        /* Scrollbar hiding */
+        .main-content::-webkit-scrollbar,
+        .stories-list::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Small placeholder avatars with initials */
+        .avatar-john { background: #e4e6eb; color: #1877f2; }
+        .avatar-sarah { background: #e4e6eb; color: #e91e63; }
+        .avatar-mike { background: #e4e6eb; color: #4caf50; }
+        .avatar-emma { background: #e4e6eb; color: #ff9800; }
+        .avatar-david { background: #e4e6eb; color: #9c27b0; }
+    </style>
+</head>
+<body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="time">9:41</div>
+        <div class="icons">
+            <span>📶</span>
+            <span>📡</span>
+            <span>🔋</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="header-title">Home</div>
+        <div class="header-actions">
+            <div class="header-btn">🔍</div>
+            <div class="header-btn">✉️</div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Stories Section -->
+        <div class="stories-container">
+            <div class="stories-header">
+                <span class="stories-title">Stories</span>
+                <span class="stories-view">See All</span>
+            </div>
+            <div class="stories-list">
+                <div class="story-item">
+                    <div class="story-avatar">
+                        <div class="avatar-john" style="width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:600;">J</div>
+                    </div>
+                    <span class="story-name">John D.</span>
+                </div>
+                <div class="story-item">
+                    <div class="story-avatar">
+                        <div class="avatar-sarah" style="width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:600;">S</div>
+                    </div>
+                    <span class="story-name">Sarah M.</span>
+                </div>
+                <div class="story-item">
+                    <div class="story-avatar">
+                        <div class="avatar-mike" style="width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:600;">M</div>
+                    </div>
+                    <span class="story-name">Mike R.</span>
+                </div>
+                <div class="story-item">
+                    <div class="story-avatar">
+                        <div class="avatar-emma" style="width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:600;">E</div>
+                    </div>
+                    <span class="story-name">Emma L.</span>
+                </div>
+                <div class="story-item">
+                    <div class="story-avatar">
+                        <div class="avatar-david" style="width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:600;">D</div>
+                    </div>
+                    <span class="story-name">David K.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post 1 -->
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar avatar-john">J</div>
+                <div class="post-info">
+                    <div class="post-name">John Davidson</div>
+                    <div class="post-meta">2 hours ago · 🌍 Public</div>
+                </div>
+            </div>
+            <div class="post-content">
+                Just finished my morning hike! The view from the summit was absolutely breathtaking. 🏔️ Nature really has a way of resetting the mind. Who else loves early morning adventures?
+            </div>
+            <div class="post-image"></div>
+            <div class="post-stats">
+                <span>❤️ 248 · 💬 45 shares</span>
+            </div>
+            <div class="post-actions">
+                <div class="action-btn"><span>👍</span> Like</div>
+                <div class="action-btn"><span>💬</span> Comment</div>
+                <div class="action-btn"><span>↗️</span> Share</div>
+            </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar avatar-sarah">S</div>
+                <div class="post-info">
+                    <div class="post-name">Sarah Mitchell</div>
+                    <div class="post-meta">4 hours ago · 👥 Friends</div>
+                </div>
+            </div>
+            <div class="post-content">
+                Just adopted this little guy! 🐱 Meet Luna, the newest member of our family. She's already making herself at home. Any tips for first-time cat owners are welcome!
+            </div>
+            <div class="post-image" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);"></div>
+            <div class="post-stats">
+                <span>❤️ 892 · 💬 127 comments</span>
+            </div>
+            <div class="post-actions">
+                <div class="action-btn"><span>👍</span> Like</div>
+                <div class="action-btn"><span>💬</span> Comment</div>
+                <div class="action-btn"><span>↗️</span> Share</div>
+            </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar avatar-mike">M</div>
+                <div class="post-info">
+                    <div class="post-name">Mike Roberts</div>
+                    <div class="post-meta">Yesterday · 🌐 Public</div>
+                </div>
+            </div>
+            <div class="post-content">
+                Just launched my new portfolio website! 🚀 After months of hard work, it's finally live. Check it out and let me know what you think. Feedback is always appreciated!
+            </div>
+            <div class="post-stats">
+                <span>❤️ 156 · 💬 23 comments</span>
+            </div>
+            <div class="post-actions">
+                <div class="action-btn"><span>👍</span> Like</div>
+                <div class="action-btn"><span>💬</span> Comment</div>
+                <div class="action-btn"><span>↗️</span> Share</div>
+            </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar avatar-emma">E</div>
+                <div class="post-info">
+                    <div class="post-name">Emma Thompson</div>
+                    <div class="post-meta">Yesterday · 🌍 Public</div>
+                </div>
+            </div>
+            <div class="post-content">
+                Weekend vibes at the local farmer's market 🥑🥬🍎 Nothing beats fresh produce and supporting local businesses. Who's joining me next Saturday?
+            </div>
+            <div class="post-image" style="background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);"></div>
+            <div class="post-stats">
+                <span>❤️ 4</body></html>

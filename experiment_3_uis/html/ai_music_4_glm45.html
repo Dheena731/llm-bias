@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamWave - Music Streaming App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            background: #0a0a0a;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #ffffff;
+            position: relative;
+        }
+        
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            padding: 20px 20px 10px;
+            background: linear-gradient(to bottom, #141414, transparent);
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .header .subtitle {
+            font-size: 14px;
+            color: #888;
+        }
+        
+        .scroll-container {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 80px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 0 20px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        
+        .now-playing {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .now-playing::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(138, 43, 226, 0.1), transparent);
+            animation: pulse 4s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.3; }
+        }
+        
+        .now-playing-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .album-art {
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            margin: 0 auto 20px;
+            display: block;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+        
+        .song-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .song-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .artist-name {
+            font-size: 16px;
+            color: #888;
+        }
+        
+        .progress-bar {
+            background: #333;
+            height: 4px;
+            border-radius: 2px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: #8a2be2;
+            height: 100%;
+            width: 35%;
+            border-radius: 2px;
+        }
+        
+        .time-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 25px;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .control-btn {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        
+        .control-btn:hover {
+            transform: scale(1.1);
+        }
+        
+        .play-btn {
+            font-size: 36px;
+            background: #8a2be2;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(138, 43, 226, 0.4);
+        }
+        
+        .play-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        
+        .card {
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+        
+        .card-image {
+            width: 100%;
+            height: 120px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+        
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .card-subtitle {
+            font-size: 14px;
+            color: #888;
+        }
+        
+        .horizontal-scroll {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            scrollbar-width: none;
+        }
+        
+        .horizontal-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .horizontal-item {
+            min-width: 150px;
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 15px;
+            transition: transform 0.2s;
+        }
+        
+        .horizontal-item:hover {
+            transform: scale(1.02);
+        }
+        
+        .horizontal-item-image {
+            width: 100%;
+            height: 150px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+        
+        .horizontal-item-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .horizontal-item-subtitle {
+            font-size: 12px;
+            color: #888;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #0f0f0f;
+            border-top: 1px solid #2a2a2a;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0 20px;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            color: #888;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .nav-item:hover {
+            color: #8a2be2;
+        }
+        
+        .nav-item.active {
+            color: #8a2be2;
+        }
+        
+        .nav-icon {
+            font-size: 24px;
+        }
+        
+        .nav-label {
+            font-size: 12px;
+        }
+        
+        .search-bar {
+            background: #1a1a1a;
+            border-radius: 25px;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .search-icon {
+            color: #888;
+        }
+        
+        .search-input {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 14px;
+            flex: 1;
+            outline: none;
+        }
+        
+        .search-input::placeholder {
+            color: #666;
+        }
+        
+        .mood-section {
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .mood-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .mood-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        
+        .mood-item {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px 10px;
+            text-align: center;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .mood-item:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .mood-icon {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .mood-label {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1>StreamWave</h1>
+            <div class="subtitle">Good afternoon, Sarah</div>
+        </div>
+        
+        <div class="scroll-container">
+            <div class="search-bar">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-input" placeholder="Search songs, artists, podcasts">
+            </div>
+            
+            <div class="now-playing">
+                <div class="now-playing-content">
+                    <img src="https://picsum.photos/seed/album1/200/200" alt="Album Art" class="album-art">
+                    <div class="song-info">
+                        <div class="song-title">Midnight Dreams</div>
+                        <div class="artist-name">Luna Echo</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="time-info">
+                        <span>1:23</span>
+                        <span>3:45</span>
+                    </div>
+                    <div class="controls">
+                        <button class="control-btn">⏮️</button>
+                        <button class="control-btn play-btn">▶️</button>
+                        <button class="control-btn">⏭️</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mood-section">
+                <div class="mood-title">Mood & Activities</div>
+                <div class="mood-grid">
+                    <div class="mood-item">
+                        <div class="mood-icon">😌</div>
+                        <div class="mood-label">Relax</div>
+                    </div>
+                    <div class="mood-item">
+                        <div class="mood-icon">🏃</div>
+                        <div class="mood-label">Workout</div>
+                    </div>
+                    <div class="mood-item">
+                        <div class="mood-icon">🎨</div>
+                        <div class="mood-label">Focus</div>
+                    </div>
+                    <div class="mood-item">
+                        <div class="mood-icon">🚗</div>
+                        <div class="mood-label">Drive</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Recently Played</div>
+                <div class="horizontal-scroll">
+                    <div class="horizontal-item">
+                        <img src="https://picsum.photos/seed/recent1/150/150" alt="Album" class="horizontal-item-image">
+                        <div class="horizontal-item-title">Summer Vibes</div>
+                        <div class="horizontal-item-subtitle">Beach Party Mix</div>
+                    </div>
+                    <div class="horizontal-item">
+                        <img src="https://picsum.photos/seed/recent2/150/150" alt="Album" class="horizontal-item-image">
+                        <div class="horizontal-item-title">Chill Beats</div>
+                        <div class="horizontal-item-subtitle">Lo-fi Collection</div>
+                    </div>
+                    <div class="horizontal-item">
+                        <img src="https://picsum.photos/seed/recent3/150/150" alt="Album" class="horizontal-item-image">
+                        <div class="horizontal-item-title">Rock Classics</div>
+                        <div class="horizontal-item-subtitle">70s Greatest Hits</div>
+                    </div>
+                    <div class="horizontal-item">
+                        <img src="https://picsum.photos/seed/recent4/150/150" alt="Album" class="horizontal-item-image">
+                        <div class="horizontal-item-title">Jazz Lounge</div>
+                        <div class="horizontal-item-subtitle">Smooth Jazz Nights</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Recommended For You</div>
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="https://picsum.photos/seed/rec1/150/120" alt="Album" class="card-image">
+                        <div class="card-title">Indie Mix</div>
+                        <div class="card-subtitle">Based on your taste</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/seed/rec2/150/120" alt="Album" class="card-image">
+                        <div class="card-title">Pop Rising</div>
+                        <div class="card-subtitle">New hits weekly</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/seed/rec3/150/120" alt="Album" class="card-image">
+                        <div class="card-title">Electronic Energy</div>
+                        <div class="card-subtitle">EDM & House</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/seed/rec4/150/120" alt="Album" class="card-image">
+                        <div class="card-title">Acoustic Sessions</div>
+                        <div class="card-subtitle">Unplugged favorites</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Your Playlists</div>
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="https://picsum.photos/seed/playlist1/150/120" alt="Playlist" class="card-image">
+                        <div class="card-title">Morning Coffee</div>
+                        <div class="card-subtitle">23 songs</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/seed/playlist2/150/120" alt="Playlist" class="card-image">
+                        <div class="card-title">Gym Workout</div>
+                        <div class="card-subtitle">45 songs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-bar">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-label">Search</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📋</span>
+                <span class="nav-label">Library</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">👤</span>
+                <span class="nav-label">Profile</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

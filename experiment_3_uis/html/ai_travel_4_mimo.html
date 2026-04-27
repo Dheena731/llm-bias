@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Travel Booking</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            position: relative;
+        }
+
+        /* Header */
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            padding: 50px 20px 20px;
+            color: white;
+            z-index: 10;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .greeting {
+            font-size: 18px;
+            font-weight: 600;
+            opacity: 0.95;
+        }
+
+        .user-status {
+            width: 36px;
+            height: 36px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .search-bar {
+            background: white;
+            border-radius: 12px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #64748b;
+            font-size: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Main Content Area */
+        .scroll-container {
+            height: 100%;
+            overflow-y: auto;
+            padding-top: 130px;
+            padding-bottom: 80px; /* Space for nav */
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Section Titles */
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin: 24px 20px 16px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e293b;
+        }
+
+        .see-all {
+            font-size: 13px;
+            color: #3b82f6;
+            font-weight: 600;
+        }
+
+        /* Horizontal Scroll for Cards */
+        .card-scroll {
+            display: flex;
+            gap: 16px;
+            padding: 0 20px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
+        }
+        .card-scroll::-webkit-scrollbar {
+            display: none; /* Chrome/Safari */
+        }
+
+        /* Destination Card */
+        .dest-card {
+            min-width: 240px;
+            height: 320px;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            flex-shrink: 0;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .dest-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Placeholder images using gradients */
+        .img-bali {
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.6)), 
+                        linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+        }
+        .img-paris {
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.6)), 
+                        linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        }
+        .img-tokyo {
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.6)), 
+                        linear-gradient(to top, #fccb90 0%, #d57eeb 100%);
+        }
+
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            color: white;
+        }
+
+        .card-content h3 {
+            font-size: 18px;
+            margin-bottom: 4px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .card-content p {
+            font-size: 13px;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 8px;
+            font-size: 12px;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(4px);
+            width: fit-content;
+            padding: 4px 8px;
+            border-radius: 8px;
+        }
+
+        /* Hotels List */
+        .hotel-list {
+            padding: 0 20px;
+        }
+
+        .hotel-card {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 16px;
+            display: flex;
+            gap: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        
+        .hotel-card:active {
+            transform: scale(0.98);
+        }
+
+        .hotel-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 12px;
+            flex-shrink: 0;
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            position: relative;
+        }
+
+        .hotel-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .hotel-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e293b;
+            line-height: 1.3;
+        }
+
+        .hotel-location {
+            font-size: 12px;
+            color: #94a3b8;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 4px;
+        }
+
+        .hotel-amenities {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .amenity-tag {
+            font-size: 10px;
+            background: #f1f5f9;
+            color: #64748b;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+
+        .hotel-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 4px;
+        }
+
+        .price-block {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: 800;
+            color: #3b82f6;
+        }
+
+        .price-period {
+            font-size: 11px;
+            color: #94a3b8;
+        }
+
+        /* Navigation Bar */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: white;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 24px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 20px;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.05);
+            z-index: 20;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-item span:first-child {
+            font-size: 20px;
+        }
+
+        .nav-item.active {
+            color: #3b82f6;
+        }
+
+        .nav-item:hover {
+            color: #3b82f6;
+        }
+
+        /* Floating Action Button */
+        .fab {
+            position: absolute;
+            bottom: 90px;
+            right: 20px;
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+            z-index: 15;
+        }
+
+        /* Decorative Elements */
+        .pill-nav {
+            display: flex;
+            gap: 8px;
+            padding: 0 20px 20px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .pill-nav::-webkit-scrollbar { display: none; }
+
+        .pill {
+            background: rgba(255,255,255,0.2);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            white-space: nowrap;
+            font-weight: 500;
+        }
+        
+        .pill.active {
+            background: white;
+            color: #3b82f6;
+            border-color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div>
+                <div class="greeting">Hello, Alex</div>
+                <div style="font-size: 12px; opacity: 0.7;">Find your perfect stay</div>
+            </div>
+            <div class="user-status">👤</div>
+        </div>
+        <div class="search-bar">
+            <span>🔍</span>
+            <span>Search destinations, hotels...</span>
+        </div>
+        
+        <div class="pill-nav" style="position: absolute; bottom: -30px; left: 0; width: 100%;">
+            <div class="pill active">Hotels</div>
+            <div class="pill">Flights</div>
+            <div class="pill">Car Rentals</div>
+            <div class="pill">Tours</div>
+            <div class="pill">Packages</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="scroll-container">
+        
+        <!-- Popular Destinations -->
+        <div class="section-header">
+            <h2 class="section-title">Popular Destinations</h2>
+            <a href="#" class="see-all">View All</a>
+        </div>
+
+        <div class="card-scroll">
+            <!-- Card 1 -->
+            <div class="dest-card">
+                <div class="img-bali" style="width:100%; height:100%;"></div>
+                <div class="card-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Island of the Gods</p>
+                    <div class="rating">★ 4.9 (2.4k)</div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="dest-card">
+                <div class="img-paris" style="width:100%; height:100%;"></div>
+                <div class="card-content">
+                    <h3>Paris, France</h3>
+                    <p>City of Love</p>
+                    <div class="rating">★ 4.8 (3.1k)</div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="dest-card">
+                <div class="img-tokyo" style="width:100%; height:100%;"></div>
+                <div class="card-content">
+                    <h3>Tokyo, Japan</h3>
+                    <p>Neon & Tradition</p>
+                    <div class="rating">★ 4.9 (1.8k)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trending Hotels -->
+        <div class="section-header" style="margin-top: 30px;">
+            <h2 class="section-title">Trending Hotels</h2>
+            <a href="#" class="see-all">See All</a>
+        </div>
+
+        <div class="hotel-list">
+            <!-- Hotel 1 -->
+            <div class="hotel-card">
+                <div class="hotel-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                <div class="hotel-info">
+                    <div>
+                        <div class="hotel-name">The Grand Plaza Hotel</div>
+                        <div class="hotel-location">📍 0.5 km from center</div>
+                        <div class="hotel-amenities">
+                            <span class="amenity-tag">WiFi</span>
+                            <span class="amenity-tag">Pool</span>
+                            <span class="amenity-tag">Spa</span>
+                        </div>
+                    </div>
+                    <div class="hotel-footer">
+                        <div class="rating" style="color:#333; background:#f1f5f9;">★ 4.8</div>
+                        <div class="price-block">
+                            <div class="price">$189</div>
+                            <div class="price-period">/ night</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 2 -->
+            <div class="hotel-card">
+                <div class="hotel-img" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);"></div>
+                <div class="hotel-info">
+                    <div>
+                        <div class="hotel-name">Sunset Beach Resort</div>
+                        <div class="hotel-location">📍 Beachfront</div>
+                        <div class="hotel-amenities">
+                            <span class="amenity-tag">Beach</span>
+                            <span class="amenity-tag">Bar</span>
+                            <span class="amenity-tag">AC</span>
+                        </div>
+                    </div>
+                    <div class="hotel-footer">
+                        <div class="rating" style="color:#333; background:#f1f5f9;">★ 4.6</div>
+                        <div class="price-block">
+                            <div class="price">$245</div>
+                            <div class="price-period">/ night</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 3 -->
+            <div class="hotel-card">
+                <div class="hotel-img" style="background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);"></div>
+                <div class="hotel-info">
+                    <div>
+                        <div class="hotel-name">Urban Loft Suites</div>
+                        <div class="hotel-location">📍 Downtown District</div>
+                        <div class="hotel-amenities">
+                            <span class="amenity-tag">Gym</span>
+                            <span class="amenity-tag">Co-working</span>
+                        </div>
+                    </div>
+                    <div class="hotel-footer">
+                        <div class="rating" style="color:#333; background:#f1f5f9;">★ 4.7</div>
+                        <div class="price-block">
+                            <div class="price">$120</div>
+                            <div class="price-period">/ night</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+             <!-- Hotel 4 -->
+             <div class="hotel-card">
+                <div class="hotel-img" style="background: linear-gradient(135deg, #fccb90 0%, #d57eeb 100%);"></div>
+                <div class="hotel-info">
+                    <div>
+                        <div class="hotel-name">Mountain View Lodge</div>
+                        <div class="hotel-location">📍 Alpine Region</div</body></html>

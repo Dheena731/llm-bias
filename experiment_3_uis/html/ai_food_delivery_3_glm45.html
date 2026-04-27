@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodExpress - Order Food Online</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #FAFAFA;
+        }
+
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #FF6B35 0%, #FF5722 100%);
+            color: white;
+            padding: 20px 16px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .app-name {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .location-selector {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .location-selector::before {
+            content: "📍";
+            margin-right: 6px;
+        }
+
+        /* Search Section */
+        .search-section {
+            padding: 16px;
+            background: white;
+            margin-bottom: 12px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: #F5F5F5;
+            border-radius: 12px;
+            padding: 12px 16px;
+            gap: 12px;
+        }
+
+        .search-bar::before {
+            content: "🔍";
+            font-size: 18px;
+        }
+
+        .search-bar input {
+            flex: 1;
+            border: none;
+            background: none;
+            outline: none;
+            font-size: 16px;
+        }
+
+        /* Categories */
+        .categories {
+            padding: 0 16px;
+            margin-bottom: 20px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .categories::-webkit-scrollbar {
+            display: none;
+        }
+
+        .categories-list {
+            display: flex;
+            gap: 12px;
+            padding-bottom: 8px;
+        }
+
+        .category-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 60px;
+            cursor: pointer;
+        }
+
+        .category-icon {
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .category-name {
+            font-size: 12px;
+            color: #2C3E50;
+        }
+
+        /* Promotions */
+        .promotions {
+            padding: 0 16px;
+            margin-bottom: 20px;
+        }
+
+        .promotion-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            padding: 20px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            height: 120px;
+        }
+
+        .promotion-card::before {
+            content: "🎁";
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            font-size: 36px;
+        }
+
+        .promotion-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .promotion-desc {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* Restaurants */
+        .section-title {
+            padding: 0 16px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #2C3E50;
+        }
+
+        .restaurants {
+            padding: 0 16px;
+            margin-bottom: 20px;
+        }
+
+        .restaurant-card {
+            background: white;
+            border-radius: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .restaurant-header {
+            position: relative;
+            height: 140px;
+        }
+
+        .restaurant-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .restaurant-rating {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background: white;
+            padding: 4px 8px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .restaurant-rating::before {
+            content: "⭐";
+        }
+
+        .restaurant-info {
+            padding: 16px;
+        }
+
+        .restaurant-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2C3E50;
+            margin-bottom: 4px;
+        }
+
+        .restaurant-cuisine {
+            font-size: 14px;
+            color: #7F8C8D;
+            margin-bottom: 8px;
+        }
+
+        .restaurant-details {
+            display: flex;
+            gap: 16px;
+            font-size: 12px;
+            color: #95A5A6;
+        }
+
+        .restaurant-details span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .restaurant-details span::before {
+            content: "⏱️";
+            font-size: 14px;
+        }
+
+        .restaurant-details span:last-child::before {
+            content: "🚚";
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid #E0E0E0;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px 16px;
+            cursor: pointer;
+            color: #7F8C8D;
+        }
+
+        .nav-item.active {
+            color: #FF6B35;
+        }
+
+        .nav-icon {
+            font-size: 24px;
+            margin-bottom: 2px;
+        }
+
+        .nav-label {
+            font-size: 10px;
+        }
+
+        /* Popular Dishes */
+        .dishes {
+            padding: 0 16px;
+            margin-bottom: 80px;
+        }
+
+        .dishes-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .dish-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .dish-image {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        .dish-info {
+            padding: 12px;
+        }
+
+        .dish-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2C3E50;
+            margin-bottom: 4px;
+        }
+
+        .dish-price {
+            font-size: 16px;
+            font-weight: 700;
+            color: #FF6B35;
+        }
+
+        .dish-store {
+            font-size: 12px;
+            color: #95A5A6;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-top">
+                <h1 class="app-name">FoodExpress</h1>
+                <div class="user-avatar">👤</div>
+            </div>
+            <div class="location-selector">
+                Downtown District, City Center
+            </div>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Search restaurants or dishes">
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="categories">
+            <div class="categories-list">
+                <div class="category-item">
+                    <div class="category-icon">🍕</div>
+                    <span class="category-name">Pizza</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍔</div>
+                    <span class="category-name">Burgers</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍜</div>
+                    <span class="category-name">Asian</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🥗</div>
+                    <span class="category-name">Healthy</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍰</div>
+                    <span class="category-name">Desserts</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍔</div>
+                    <span class="category-name">Fast Food</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">☕</div>
+                    <span class="category-name">Coffee</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promotions -->
+        <div class="promotions">
+            <div class="promotion-card">
+                <h3 class="promotion-title">Weekend Special Offer</h3>
+                <p class="promotion-desc">Get 30% off on all orders above $50</p>
+            </div>
+        </div>
+
+        <!-- Restaurants -->
+        <div class="section-title">Top Rated Restaurants</div>
+        <div class="restaurants">
+            <div class="restaurant-card">
+                <div class="restaurant-header">
+                    <img class="restaurant-image" src="https://picsum.photos/seed/italian/375/140.jpg" alt="Bella Italia">
+                    <div class="restaurant-rating">4.8</div>
+                </div>
+                <div class="restaurant-info">
+                    <h3 class="restaurant-name">Bella Italia</h3>
+                    <p class="restaurant-cuisine">Italian • Pizza • Pasta</p>
+                    <div class="restaurant-details">
+                        <span>25-35 min</span>
+                        <span>Free delivery</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="restaurant-header">
+                    <img class="restaurant-image" src="https://picsum.photos/seed/sushi/375/140.jpg" alt="Sakura Sushi">
+                    <div class="restaurant-rating">4.9</div>
+                </div>
+                <div class="restaurant-info">
+                    <h3 class="restaurant-name">Sakura Sushi</h3>
+                    <p class="restaurant-cuisine">Japanese • Sushi • Asian</p>
+                    <div class="restaurant-details">
+                        <span>30-45 min</span>
+                        <span>$2.99 delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Dishes -->
+        <div class="section-title">Popular Near You</div>
+        <div class="dishes">
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img class="dish-image" src="https://picsum.photos/seed/margherita/180/120.jpg" alt="Margherita Pizza">
+                    <div class="dish-info">
+                        <p class="dish-store">Bella Italia</p>
+                        <h4 class="dish-name">Margherita Pizza</h4>
+                        <p class="dish-price">$12.99</p>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-image" src="https://picsum.photos/seed/roll/180/120.jpg" alt="California Roll">
+                    <div class="dish-info">
+                        <p class="dish-store">Sakura Sushi</p>
+                        <h4 class="dish-name">California Roll</h4>
+                        <p class="dish-price">$9.99</p>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-image" src="https://picsum.photos/seed/burger/180/120.jpg" alt="Classic Burger">
+                    <div class="dish-info">
+                        <p class="dish-store">Burger Palace</p>
+                        <h4 class="dish-name">Classic Burger</h4>
+                        <p class="dish-price">$8.99</p>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-image" src="https://picsum.photos/seed/pasta/180/120.jpg" alt="Spaghetti Carbonara">
+                    <div class="dish-info">
+                        <p class="dish-store">Bella Italia</p>
+                        <h4 class="dish-name">Spaghetti Carbonara</h4>
+                        <p class="dish-price">$14.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <div class="nav-icon">🏠</div>
+                <span class="nav-label">Home</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔍</div>
+                <span class="nav-label">Search</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🛒</div>
+                <span class="nav-label">Cart</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">📋</div>
+                <span class="nav-label">Orders</span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <span class="nav-label">Profile</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

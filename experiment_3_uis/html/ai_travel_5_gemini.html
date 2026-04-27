@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Hotel Booking</title>
+    <style>
+        body, html {
+            width: 375px;
+            height: 812px;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow: hidden;
+            background-color: #f8f8f8;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .header {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .header-icon {
+            font-size: 22px;
+            color: #555;
+        }
+
+        .search-bar {
+            padding: 15px 20px;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .search-input {
+            flex-grow: 1;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 12px;
+            background-color: #f0f0f0;
+            font-size: 16px;
+            color: #333;
+            outline: none;
+        }
+
+        .search-input::placeholder {
+            color: #888;
+        }
+
+        .search-icon {
+            font-size: 20px;
+            color: #888;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 0 20px;
+            padding-bottom: 15px; /* Space for scroll */
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .category-scroll {
+            display: flex;
+            overflow-x: scroll;
+            gap: 15px;
+            padding-bottom: 5px;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
+        }
+
+        .category-scroll::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+
+        .category-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            min-width: 70px;
+            text-align: center;
+        }
+
+        .category-icon {
+            background-color: #e0f2f7;
+            border-radius: 15px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: #007bff;
+        }
+
+        .category-text {
+            font-size: 13px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .card-list {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin-bottom: 20px;
+        }
+
+        .hotel-card {
+            background-color: #ffffff;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-content {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            line-height: 1.3;
+        }
+
+        .card-location {
+            font-size: 14px;
+            color: #777;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .card-rating {
+            font-size: 14px;
+            color: #ffa000;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .card-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+            margin-top: 5px;
+        }
+
+        .card-price span {
+            font-size: 14px;
+            font-weight: normal;
+            color: #777;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 65px;
+            background-color: #ffffff;
+            border-top: 1px solid #eee;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #888;
+            font-size: 12px;
+            gap: 4px;
+            padding: 5px 0;
+        }
+
+        .nav-item.active {
+            color: #007bff;
+        }
+
+        .nav-icon {
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="header-icon">☰</span>
+            <span class="header-title">TravelGO</span>
+            <span class="header-icon">🔔</span>
+        </div>
+
+        <div class="search-bar">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="search-input" placeholder="Where do you want to go?">
+        </div>
+
+        <div class="main-content">
+            <div class="section-title">Explore Categories</div>
+            <div class="category-scroll">
+                <div class="category-item">
+                    <div class="category-icon">🏨</div>
+                    <span class="category-text">Hotels</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">✈️</div>
+                    <span class="category-text">Flights</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🏞️</div>
+                    <span class="category-text">Attractions</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🚗</div>
+                    <span class="category-text">Car Rent</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">⛵</div>
+                    <span class="category-text">Cruises</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍜</div>
+                    <span class="category-text">Food</span>
+                </div>
+            </div>
+
+            <div class="section-title">Popular Destinations</div>
+            <div class="card-list">
+                <div class="hotel-card">
+                    <img src="https://via.placeholder.com/335x180/ADD8E6/FFFFFF?text=Paris+Eiffel" alt="Hotel in Paris" class="card-image">
+                    <div class="card-content">
+                        <div class="card-title">Luxury Suite at Champs-Élysées</div>
+                        <div class="card-location">📍 Paris, France</div>
+                        <div class="card-rating">⭐ 4.9 (2,100 reviews)</div>
+                        <div class="card-price">$280 <span>/ night</span></div>
+                    </div>
+                </div>
+
+                <div class="hotel-card">
+                    <img src="https://via.placeholder.com/335x180/F08080/FFFFFF?text=Kyoto+Garden" alt="Ryokan in Kyoto" class="card-image">
+                    <div class="card-content">
+                        <div class="card-title">Traditional Ryokan Stay - Kyoto</div>
+                        <div class="card-location">📍 Kyoto, Japan</div>
+                        <div class="card-rating">⭐ 4.8 (950 reviews)</div>
+                        <div class="card-price">$195 <span>/ night</span></div>
+                    </div>
+                </div>
+
+                <div class="hotel-card">
+                    <img src="https://via.placeholder.com/335x180/90EE90/FFFFFF?text=Bali+Beach" alt="Resort in Bali" class="card-image">
+                    <div class="card-content">
+                        <div class="card-title">Oceanfront Resort - Seminyak</div>
+                        <div class="card-location">📍 Bali, Indonesia</div>
+                        <div class="card-rating">⭐ 4.7 (1,500 reviews)</div>
+                        <div class="card-price">$150 <span>/ night</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="nav-item">
+                <span class="nav-icon">❤️</span>
+                <span>Saved</span>
+            </div>
+            <div class="nav-item">
+                <span class="nav-icon">📅</span>
+                <span>Bookings</span>
+            </div>
+            <div class="nav-item">
+                <span class="nav-icon">👤</span>
+                <span>Profile</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

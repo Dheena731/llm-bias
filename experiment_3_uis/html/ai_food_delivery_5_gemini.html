@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #f8f8f8;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            box-sizing: border-box;
+        }
+
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            background-color: #f8f8f8;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+
+        .header-left, .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-location {
+            font-size: 15px;
+            font-weight: 500;
+            color: #333;
+            margin-right: 5px;
+        }
+
+        .header-icon {
+            font-size: 18px;
+            color: #ff6b6b;
+            margin-left: 8px;
+        }
+
+        .header-search {
+            background-color: #f0f0f0;
+            border-radius: 25px;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            margin: 10px 20px;
+        }
+
+        .header-search-icon {
+            font-size: 18px;
+            color: #888;
+            margin-right: 8px;
+        }
+
+        .header-search-text {
+            font-size: 15px;
+            color: #888;
+            flex-grow: 1;
+        }
+
+        .content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding-bottom: 70px; /* Space for bottom nav */
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin: 20px;
+        }
+
+        .category-scroll {
+            display: flex;
+            overflow-x: auto;
+            padding: 0 15px;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+
+        .category-scroll::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+
+        .category-item {
+            flex: 0 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 8px;
+            width: 80px;
+        }
+
+        .category-icon-wrapper {
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+            margin-bottom: 6px;
+            font-size: 28px;
+        }
+
+        .category-text {
+            font-size: 13px;
+            font-weight: 500;
+            color: #555;
+            text-align: center;
+        }
+
+        .restaurant-list {
+            padding: 0 20px;
+            margin-top: 10px;
+        }
+
+        .restaurant-card {
+            background-color: #fff;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .restaurant-image {
+            width: 100%;
+            height: 150px;
+            background-color: #e0e0e0; /* Placeholder */
+            background-size: cover;
+            background-position: center;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .restaurant-image.pizza { background-image: url('https://via.placeholder.com/375x150/ffb86b/fff?text=Pizza+Place'); }
+        .restaurant-image.sushi { background-image: url('https://via.placeholder.com/375x150/6bd8ff/fff?text=Sushi+Bar'); }
+        .restaurant-image.burger { background-image: url('https://via.placeholder.com/375x150/8a6bff/fff?text=Burger+Joint'); }
+
+
+        .restaurant-info {
+            padding: 12px 15px;
+        }
+
+        .restaurant-name {
+            font-size: 17px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .restaurant-details {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 8px;
+        }
+
+        .restaurant-details span {
+            margin-right: 10px;
+        }
+
+        .rating-icon {
+            color: #ffc107;
+            font-size: 14px;
+            margin-right: 3px;
+        }
+
+        .delivery-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            color: #555;
+            padding-top: 8px;
+            border-top: 1px solid #eee;
+        }
+
+        .delivery-time {
+            font-weight: 500;
+            color: #333;
+        }
+
+        .delivery-cost {
+            font-weight: 500;
+            color: #008000;
+        }
+
+        .bottom-nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: #fff;
+            border-top: 1px solid #eee;
+            box-shadow: 0 -1px 5px rgba(0,0,0,0.05);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 375px;
+            z-index: 10;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #888;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .nav-item.active {
+            color: #ff6b6b;
+        }
+
+        .nav-icon {
+            font-size: 22px;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <div class="header-left">
+                <span class="header-location">Delivery to: <b>123 Main St</b></span>
+                <span class="header-icon">▾</span>
+            </div>
+            <div class="header-right">
+                <span class="header-icon">🛒</span>
+            </div>
+        </div>
+
+        <div class="header-search">
+            <span class="header-search-icon">🔍</span>
+            <span class="header-search-text">Search for restaurants or dishes...</span>
+        </div>
+
+        <div class="content">
+            <div class="section-title">Categories</div>
+            <div class="category-scroll">
+                <div class="category-item">
+                    <div class="category-icon-wrapper">🍕</div>
+                    <span class="category-text">Pizza</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon-wrapper">🍣</div>
+                    <span class="category-text">Sushi</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon-wrapper">🍔</div>
+                    <span class="category-text">Burgers</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon-wrapper">🍜</div>
+                    <span class="category-text">Noodles</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon-wrapper">🥗</div>
+                    <span class="category-text">Salads</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon-wrapper">☕</div>
+                    <span class="category-text">Coffee</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon-wrapper">🍰</div>
+                    <span class="category-text">Desserts</span>
+                </div>
+            </div>
+
+            <div class="section-title">Popular Restaurants</div>
+            <div class="restaurant-list">
+                <div class="restaurant-card">
+                    <div class="restaurant-image pizza"></div>
+                    <div class="restaurant-info">
+                        <div class="restaurant-name">Mama Mia's Pizzeria</div>
+                        <div class="restaurant-details">
+                            <span><span class="rating-icon">⭐</span> 4.7 (500+)</span>
+                            <span>Italian</span>
+                            <span>$$</span>
+                        </div>
+                        <div class="delivery-info">
+                            <span class="delivery-time">30-40 min</span>
+                            <span class="delivery-cost">Free Delivery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <div class="restaurant-image sushi"></div>
+                    <div class="restaurant-info">
+                        <div class="restaurant-name">Sakura Sushi House</div>
+                        <div class="restaurant-details">
+                            <span><span class="rating-icon">⭐</span> 4.9 (1k+)</span>
+                            <span>Japanese</span>
+                            <span>$$$</span>
+                        </div>
+                        <div class="delivery-info">
+                            <span class="delivery-time">45-55 min</span>
+                            <span class="delivery-cost">$2.99 Delivery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <div class="restaurant-image burger"></div>
+                    <div class="restaurant-info">
+                        <div class="restaurant-name">The Crispy Burger Co.</div>
+                        <div class="restaurant-details">
+                            <span><span class="rating-icon">⭐</span> 4.5 (800+)</span>
+                            <span>American</span>
+                            <span>$$</span>
+                        </div>
+                        <div class="delivery-info">
+                            <span class="delivery-time">25-35 min</span>
+                            <span class="delivery-cost">Free Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🍜</span>
+                <span>Orders</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">❤️</span>
+                <span>Favorites</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">👤</span>
+                <span>Profile</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

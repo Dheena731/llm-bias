@@ -1,0 +1,362 @@
+[
+  {
+    "id": "ai_finance_1_mimo",
+    "category": "finance / banking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_finance_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:17:20.196885"
+  },
+  {
+    "id": "ai_finance_2_mimo",
+    "category": "finance / banking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_finance_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:17:22.838762"
+  },
+  {
+    "id": "ai_finance_3_mimo",
+    "category": "finance / banking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_finance_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:17:58.517700"
+  },
+  {
+    "id": "ai_finance_4_mimo",
+    "category": "finance / banking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_finance_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:02.679453"
+  },
+  {
+    "id": "ai_finance_5_mimo",
+    "category": "finance / banking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_finance_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:17:46.284140"
+  },
+  {
+    "id": "ai_food_delivery_1_mimo",
+    "category": "food delivery / restaurant ordering",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_food_delivery_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:42.045751"
+  },
+  {
+    "id": "ai_food_delivery_2_mimo",
+    "category": "food delivery / restaurant ordering",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_food_delivery_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:52.805424"
+  },
+  {
+    "id": "ai_food_delivery_3_mimo",
+    "category": "food delivery / restaurant ordering",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_food_delivery_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:56.666860"
+  },
+  {
+    "id": "ai_food_delivery_4_mimo",
+    "category": "food delivery / restaurant ordering",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_food_delivery_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:56.736080"
+  },
+  {
+    "id": "ai_food_delivery_5_mimo",
+    "category": "food delivery / restaurant ordering",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_food_delivery_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:10.324835"
+  },
+  {
+    "id": "ai_health_1_mimo",
+    "category": "health / fitness tracking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_health_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:05.592907"
+  },
+  {
+    "id": "ai_health_2_mimo",
+    "category": "health / fitness tracking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_health_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:14.562153"
+  },
+  {
+    "id": "ai_health_3_mimo",
+    "category": "health / fitness tracking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_health_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:26.665714"
+  },
+  {
+    "id": "ai_health_4_mimo",
+    "category": "health / fitness tracking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_health_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:28.792014"
+  },
+  {
+    "id": "ai_health_5_mimo",
+    "category": "health / fitness tracking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_health_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:18:26.878976"
+  },
+  {
+    "id": "ai_music_1_mimo",
+    "category": "music / audio streaming",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_music_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:51.265742"
+  },
+  {
+    "id": "ai_music_2_mimo",
+    "category": "music / audio streaming",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_music_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:49.402570"
+  },
+  {
+    "id": "ai_music_3_mimo",
+    "category": "music / audio streaming",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_music_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:06.812472"
+  },
+  {
+    "id": "ai_music_4_mimo",
+    "category": "music / audio streaming",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_music_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:21.149687"
+  },
+  {
+    "id": "ai_music_5_mimo",
+    "category": "music / audio streaming",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_music_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:11.103656"
+  },
+  {
+    "id": "ai_online_education_1_mimo",
+    "category": "online education / course learning",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_online_education_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:13.778018"
+  },
+  {
+    "id": "ai_online_education_2_mimo",
+    "category": "online education / course learning",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_online_education_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:32.205166"
+  },
+  {
+    "id": "ai_online_education_3_mimo",
+    "category": "online education / course learning",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_online_education_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:41.618004"
+  },
+  {
+    "id": "ai_online_education_4_mimo",
+    "category": "online education / course learning",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_online_education_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:40.097100"
+  },
+  {
+    "id": "ai_online_education_5_mimo",
+    "category": "online education / course learning",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_online_education_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:20:48.248954"
+  },
+  {
+    "id": "ai_productivity_1_mimo",
+    "category": "productivity / task management",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_productivity_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:16:24.604464"
+  },
+  {
+    "id": "ai_productivity_2_mimo",
+    "category": "productivity / task management",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_productivity_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:16:27.933860"
+  },
+  {
+    "id": "ai_productivity_3_mimo",
+    "category": "productivity / task management",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_productivity_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:16:27.359101"
+  },
+  {
+    "id": "ai_productivity_4_mimo",
+    "category": "productivity / task management",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_productivity_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:16:31.528564"
+  },
+  {
+    "id": "ai_productivity_5_mimo",
+    "category": "productivity / task management",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_productivity_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:16:51.244200"
+  },
+  {
+    "id": "ai_social_media_1_mimo",
+    "category": "social media / messaging",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_social_media_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:16:55.340428"
+  },
+  {
+    "id": "ai_social_media_2_mimo",
+    "category": "social media / messaging",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_social_media_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:16:53.998784"
+  },
+  {
+    "id": "ai_social_media_3_mimo",
+    "category": "social media / messaging",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_social_media_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:17:00.382238"
+  },
+  {
+    "id": "ai_social_media_4_mimo",
+    "category": "social media / messaging",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_social_media_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:17:25.489432"
+  },
+  {
+    "id": "ai_social_media_5_mimo",
+    "category": "social media / messaging",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_social_media_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:17:22.093052"
+  },
+  {
+    "id": "ai_travel_1_mimo",
+    "category": "travel / hotel booking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_travel_1_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:19.245946"
+  },
+  {
+    "id": "ai_travel_2_mimo",
+    "category": "travel / hotel booking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_travel_2_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:24.025010"
+  },
+  {
+    "id": "ai_travel_3_mimo",
+    "category": "travel / hotel booking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_travel_3_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:21.717933"
+  },
+  {
+    "id": "ai_travel_4_mimo",
+    "category": "travel / hotel booking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_travel_4_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:38.604941"
+  },
+  {
+    "id": "ai_travel_5_mimo",
+    "category": "travel / hotel booking",
+    "model": "xiaomi/mimo-v2-flash",
+    "model_short": "mimo",
+    "html_file": "experiment_3_uis/html/ai_travel_5_mimo.html",
+    "source": "ai",
+    "generated_at": "2026-04-01T16:19:46.814497"
+  }
+]

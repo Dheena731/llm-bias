@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #F2F2F7;
+        }
+        
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .status-bar {
+            background-color: white;
+            padding: 12px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .status-bar .time {
+            color: #000;
+        }
+        
+        .status-bar .icons {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .status-bar .signal, .status-bar .wifi, .status-bar .battery {
+            color: #000;
+        }
+        
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            background-color: #F2F2F7;
+        }
+        
+        .messages-container {
+            padding: 16px;
+        }
+        
+        .message-card {
+            background-color: white;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .message-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 24px;
+            background-color: #007AFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 12px;
+        }
+        
+        .user-info {
+            flex: 1;
+        }
+        
+        .username {
+            font-weight: 600;
+            font-size: 16px;
+            color: #1C1C1E;
+        }
+        
+        .message-time {
+            font-size: 12px;
+            color: #8E8E93;
+        }
+        
+        .message-content {
+            font-size: 16px;
+            line-height: 1.4;
+            color: #1C1C1E;
+            margin-bottom: 12px;
+        }
+        
+        .message-actions {
+            display: flex;
+            gap: 16px;
+            color: #8E8E93;
+            font-size: 14px;
+        }
+        
+        .action-button {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 0;
+            cursor: pointer;
+        }
+        
+        .action-button:hover {
+            color: #007AFF;
+        }
+        
+        .action-button.liked {
+            color: #FF3B30;
+        }
+        
+        .message-image {
+            width: 100%;
+            height: 200px;
+            background-color: #E5E5EA;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8E8E93;
+            font-size: 14px;
+        }
+        
+        .bottom-nav {
+            background-color: white;
+            border-top: 1px solid #E5E5EA;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 16px;
+            cursor: pointer;
+            color: #8E8E93;
+        }
+        
+        .nav-item.active {
+            color: #007AFF;
+        }
+        
+        .nav-item .icon {
+            font-size: 24px;
+        }
+        
+        .nav-item .label {
+            font-size: 11px;
+            font-weight: 500;
+        }
+        
+        .story-card {
+            background-color: white;
+            border-radius: 16px;
+            padding: 12px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .story-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 28px;
+            background: linear-gradient(45deg, #FF9500, #FF2D55);
+            padding: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .story-avatar-inner {
+            width: 52px;
+            height: 52px;
+            border-radius: 26px;
+            background-color: #E5E5EA;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8E8E93;
+            font-weight: bold;
+        }
+        
+        .story-info {
+            flex: 1;
+        }
+        
+        .story-name {
+            font-weight: 600;
+            font-size: 15px;
+            color: #1C1C1E;
+        }
+        
+        .story-time {
+            font-size: 12px;
+            color: #8E8E93;
+        }
+        
+        .story-indicator {
+            width: 8px;
+            height: 8px;
+            background-color: #FF9500;
+            border-radius: 4px;
+        }
+        
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 16px;
+            background-color: white;
+            border-radius: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .typing-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 16px;
+            background-color: #007AFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+        }
+        
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #8E8E93;
+            border-radius: 4px;
+            animation: typing 1.4s infinite ease-in-out;
+        }
+        
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+            }
+            30% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="status-bar">
+            <div class="time">9:41</div>
+            <div class="icons">
+                <span class="signal">📶</span>
+                <span class="wifi">📡</span>
+                <span class="battery">🔋</span>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="messages-container">
+                <div class="story-card">
+                    <div class="story-avatar">
+                        <div class="story-avatar-inner">S</div>
+                    </div>
+                    <div class="story-info">
+                        <div class="story-name">Sarah Chen</div>
+                        <div class="story-time">2 minutes ago</div>
+                    </div>
+                    <div class="story-indicator"></div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-header">
+                        <div class="avatar">MC</div>
+                        <div class="user-info">
+                            <div class="username">Mike Carter</div>
+                            <div class="message-time">1:23 PM</div>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        Hey, are we still on for dinner tonight? I found this amazing new Italian place downtown that just opened. Their pasta looks incredible from the photos!
+                    </div>
+                    <div class="message-image">📷 Photo: Sunset over the city</div>
+                    <div class="message-actions">
+                        <div class="action-button liked">
+                            <span>❤️</span>
+                            <span>24</span>
+                        </div>
+                        <div class="action-button">
+                            <span>💬</span>
+                            <span>8</span>
+                        </div>
+                        <div class="action-button">
+                            <span>↗️</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-header">
+                        <div class="avatar">EW</div>
+                        <div class="user-info">
+                            <div class="username">Emma Wilson</div>
+                            <div class="message-time">12:45 PM</div>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        Just finished my morning yoga session. Feeling so energized and ready to tackle the day! Who else is doing something positive today? 💪
+                    </div>
+                    <div class="message-actions">
+                        <div class="action-button">
+                            <span>❤️</span>
+                            <span>56</span>
+                        </div>
+                        <div class="action-button">
+                            <span>💬</span>
+                            <span>12</span>
+                        </div>
+                        <div class="action-button">
+                            <span>↗️</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="typing-indicator">
+                    <div class="typing-avatar">JD</div>
+                    <div class="typing-dots">
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-header">
+                        <div class="avatar">AL</div>
+                        <div class="user-info">
+                            <div class="username">Alex Liu</div>
+                            <div class="message-time">11:30 AM</div>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        Quick reminder: Team meeting at 2 PM in Conference Room B. Please bring your progress reports and be ready to discuss the Q3 goals. Looking forward to everyone's updates!
+                    </div>
+                    <div class="message-actions">
+                        <div class="action-button">
+                            <span>📎</span>
+                            <span>Report.pdf</span>
+                        </div>
+                        <div class="action-button">
+                            <span>❤️</span>
+                            <span>3</span>
+                        </div>
+                        <div class="action-button">
+                            <span>💬</span>
+                            <span>15</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-header">
+                        <div class="avatar">TR</div>
+                        <div class="user-info">
+                            <div class="username">Taylor Reed</div>
+                            <div class="message-time">Yesterday</div>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        Weekend plans anyone? Thinking of hiking up to Eagle Point on Saturday. The weather forecast looks perfect! Who wants to join? We could grab breakfast afterward at that cute café near the trail.
+                    </div>
+                    <div class="message-image">📷 Photo: Trail map with highlighted route</div>
+                    <div class="message-actions">
+                        <div class="action-button liked">
+                            <span>❤️</span>
+                            <span>31</span>
+                        </div>
+                        <div class="action-button">
+                            <span>💬</span>
+                            <span>9</span>
+                        </div>
+                        <div class="action-button">
+                            <span>↗️</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <div class="icon">💬</div>
+                <div class="label">Chats</div>
+            </div>
+            <div class="nav-item">
+                <div class="icon">📱</div>
+                <div class="label">Calls</div>
+            </div>
+            <div class="nav-item">
+                <div class="icon">✉️</div>
+                <div class="label">Mail</div>
+            </div>
+            <div class="nav-item">
+                <div class="icon">👤</div>
+                <div class="label">Profile</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

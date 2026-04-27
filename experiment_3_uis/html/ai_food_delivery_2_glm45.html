@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodExpress - Order Food Online</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            background-color: #F8F9FA;
+            position: relative;
+        }
+        
+        /* Header */
+        .header {
+            background-color: #FFFFFF;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+        
+        .app-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FF6B35;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #FFE0D6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #FF6B35;
+        }
+        
+        /* Location Bar */
+        .location-bar {
+            background-color: #FFF3E6;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .location-icon {
+            font-size: 16px;
+        }
+        
+        .location-text {
+            font-size: 14px;
+            color: #FF6B35;
+            font-weight: 500;
+        }
+        
+        .change-location {
+            font-size: 12px;
+            color: #636E72;
+            margin-left: auto;
+        }
+        
+        /* Search Bar */
+        .search-container {
+            padding: 16px 20px;
+        }
+        
+        .search-bar {
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        
+        .search-icon {
+            color: #CBD5E0;
+            font-size: 18px;
+        }
+        
+        .search-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            color: #2D3436;
+        }
+        
+        /* Categories */
+        .categories {
+            padding: 0 20px;
+            margin-bottom: 16px;
+        }
+        
+        .category-scroll {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        
+        .category-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .category-card {
+            min-width: 80px;
+            text-align: center;
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        
+        .category-icon {
+            font-size: 28px;
+            margin-bottom: 4px;
+        }
+        
+        .category-name {
+            font-size: 12px;
+            color: #636E72;
+        }
+        
+        /* Restaurant List */
+        .restaurant-list {
+            padding: 0 20px;
+            height: calc(812px - 320px);
+            overflow-y: auto;
+        }
+        
+        .restaurant-card {
+            background-color: #FFFFFF;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            display: flex;
+            gap: 12px;
+        }
+        
+        .restaurant-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            background-color: #F1F2F6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+        }
+        
+        .restaurant-info {
+            flex: 1;
+        }
+        
+        .restaurant-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2D3436;
+            margin-bottom: 4px;
+        }
+        
+        .restaurant-cuisine {
+            font-size: 12px;
+            color: #636E72;
+            margin-bottom: 8px;
+        }
+        
+        .restaurant-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 12px;
+            color: #636E72;
+        }
+        
+        .rating {
+            color: #FF6B35;
+            font-weight: 500;
+        }
+        
+        .delivery-time {
+            color: #00B894;
+        }
+        
+        .delivery-fee {
+            color: #636E72;
+        }
+        
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #FFFFFF;
+            padding: 8px 0;
+            border-top: 1px solid #E0E0E0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        
+        .nav-icon {
+            font-size: 24px;
+            margin-bottom: 4px;
+            color: #CBD5E0;
+        }
+        
+        .nav-item.active .nav-icon {
+            color: #FF6B35;
+        }
+        
+        .nav-label {
+            font-size: 10px;
+            color: #CBD5E0;
+        }
+        
+        .nav-item.active .nav-label {
+            color: #FF6B35;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="app-title">FoodExpress</div>
+        <div class="user-avatar">JD</div>
+    </div>
+    
+    <!-- Location Bar -->
+    <div class="location-bar">
+        <span class="location-icon">📍</span>
+        <span class="location-text">Delivering to Downtown</span>
+        <span class="change-location">Change</span>
+    </div>
+    
+    <!-- Search Bar -->
+    <div class="search-container">
+        <div class="search-bar">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="search-input" placeholder="Search for restaurants or dishes">
+        </div>
+    </div>
+    
+    <!-- Categories -->
+    <div class="categories">
+        <div class="category-scroll">
+            <div class="category-card">
+                <div class="category-icon">🍕</div>
+                <div class="category-name">Pizza</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🍔</div>
+                <div class="category-name">Burger</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🍜</div>
+                <div class="category-name">Asian</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🥗</div>
+                <div class="category-name">Healthy</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🍰</div>
+                <div class="category-name">Desserts</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🍺</div>
+                <div class="category-name">Drinks</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Restaurant List -->
+    <div class="restaurant-list">
+        <div class="restaurant-card">
+            <div class="restaurant-image">🍕</div>
+            <div class="restaurant-info">
+                <div class="restaurant-name">Mario's Italian Kitchen</div>
+                <div class="restaurant-cuisine">Italian • Pizza • Pasta</div>
+                <div class="restaurant-meta">
+                    <span class="rating">⭐ 4.5 (200+)</span>
+                    <span class="delivery-time">🏃 25-35 min</span>
+                    <span class="delivery-fee">Free delivery</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="restaurant-card">
+            <div class="restaurant-image">🍔</div>
+            <div class="restaurant-info">
+                <div class="restaurant-name">Burger Palace</div>
+                <div class="restaurant-cuisine">American • Burgers • Fast Food</div>
+                <div class="restaurant-meta">
+                    <span class="rating">⭐ 4.2 (500+)</span>
+                    <span class="delivery-time">🏃 20-30 min</span>
+                    <span class="delivery-fee">$1.99 delivery</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="restaurant-card">
+            <div class="restaurant-image">🍜</div>
+            <div class="restaurant-info">
+                <div class="restaurant-name">Dragon Wok</div>
+                <div class="restaurant-cuisine">Chinese • Asian • Noodles</div>
+                <div class="restaurant-meta">
+                    <span class="rating">⭐ 4.7 (300+)</span>
+                    <span class="delivery-time">🏃 30-40 min</span>
+                    <span class="delivery-fee">$2.99 delivery</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="restaurant-card">
+            <div class="restaurant-image">🥗</div>
+            <div class="restaurant-info">
+                <div class="restaurant-name">Green Garden Cafe</div>
+                <div class="restaurant-cuisine">Healthy • Salads • Smoothies</div>
+                <div class="restaurant-meta">
+                    <span class="rating">⭐ 4.3 (150+)</span>
+                    <span class="delivery-time">🏃 15-25 min</span>
+                    <span class="delivery-fee">Free delivery</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="restaurant-card">
+            <div class="restaurant-image">🍕</div>
+            <div class="restaurant-info">
+                <div class="restaurant-name">Slice of Heaven</div>
+                <div class="restaurant-cuisine">Pizza • Italian • Casual</div>
+                <div class="restaurant-meta">
+                    <span class="rating">⭐ 4.4 (250+)</span>
+                    <span class="delivery-time">🏃 25-35 min</span>
+                    <span class="delivery-fee">$1.49 delivery</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div class="nav-item active">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-label">Home</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">📋</span>
+            <span class="nav-label">Orders</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">❤️</span>
+            <span class="nav-label">Favorites</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">👤</span>
+            <span class="nav-label">Profile</span>
+        </div>
+    </div>
+</body>
+</html>

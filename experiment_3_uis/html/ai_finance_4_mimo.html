@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Finance App</title>
+    <style>
+        /* Reset & Base */
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #1d1d1f;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Layout Container */
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            background-color: #f5f7fa;
+        }
+
+        /* Header / Status Bar */
+        .status-bar {
+            height: 44px;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+            color: #1d1d1f;
+            z-index: 10;
+            box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+        }
+
+        .time {
+            font-weight: 600;
+        }
+
+        .status-icons {
+            display: flex;
+            gap: 4px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        /* Main Content Scroll Area */
+        .scroll-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            padding-bottom: 90px; /* Space for bottom nav */
+        }
+
+        /* Typography & Colors */
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0 0 4px 0;
+            color: #1d1d1f;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0 0 12px 0;
+            color: #1d1d1f;
+        }
+
+        p {
+            margin: 0;
+            color: #86868b;
+        }
+
+        .amount {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 20px;
+        }
+
+        .amount span {
+            font-size: 16px;
+            font-weight: 400;
+            color: #86868b;
+            margin-right: 4px;
+        }
+
+        /* Cards */
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.03);
+        }
+
+        /* Credit Card Visual */
+        .credit-card-visual {
+            background: linear-gradient(135deg, #2d3436 0%, #000000 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            min-height: 190px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .cc-chip {
+            width: 36px;
+            height: 28px;
+            background: linear-gradient(135deg, #e0cda9 0%, #c5a86a 100%);
+            border-radius: 4px;
+            opacity: 0.9;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .cc-number {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+            margin-top: 10px;
+        }
+
+        .cc-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 12px;
+            text-transform: uppercase;
+            opacity: 0.8;
+            margin-top: auto;
+        }
+
+        .cc-logo {
+            font-weight: 800;
+            font-style: italic;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        /* Quick Actions Grid */
+        .actions-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .action-btn {
+            background: #ffffff;
+            border: 1px solid #e5e5e5;
+            border-radius: 12px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: #1d1d1f;
+            transition: background-color 0.2s;
+        }
+
+        .action-btn:active {
+            background-color: #f0f0f0;
+        }
+
+        .icon-circle {
+            width: 40px;
+            height: 40px;
+            background-color: #f0f9ff;
+            color: #007aff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .action-btn span {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        /* Activity List */
+        .activity-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #f2f2f2;
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        .activity-icon {
+            width: 36px;
+            height: 36px;
+            background-color: #f5f5f7;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 16px;
+        }
+
+        .activity-details {
+            flex: 1;
+        }
+
+        .activity-name {
+            font-weight: 600;
+            font-size: 15px;
+            color: #1d1d1f;
+        }
+
+        .activity-time {
+            font-size: 12px;
+            color: #86868b;
+            margin-top: 2px;
+        }
+
+        .activity-amount {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .activity-amount.expense {
+            color: #ff3b30;
+        }
+
+        .activity-amount.income {
+            color: #34c759;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            height: 84px;
+            background: #ffffff;
+            border-top: 1px solid #f2f2f2;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding-top: 12px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: 20;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+            color: #86868b;
+            width: 50px;
+            font-size: 10px;
+            position: relative;
+        }
+
+        .nav-item.active {
+            color: #007aff;
+        }
+
+        .nav-item .icon {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        .nav-item.active::after {
+            content: '';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 24px;
+            height: 2px;
+            background-color: #007aff;
+            border-radius: 2px;
+        }
+
+        /* Utility */
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .link {
+            color: #007aff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Scrollbar hiding for Webkit */
+        .scroll-content::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <span class="time">9:41</span>
+            <div class="status-icons">
+                <span>📶</span>
+                <span>📡</span>
+                <span>🔋</span>
+            </div>
+        </div>
+
+        <!-- Main Scrollable Content -->
+        <div class="scroll-content">
+            
+            <!-- Welcome & Balance -->
+            <div style="margin-bottom: 24px;">
+                <p>Good morning, James</p>
+                <h1>My Wallet</h1>
+                <div class="amount"><span>$</span>24,850.50</div>
+            </div>
+
+            <!-- Credit Card Visual -->
+            <div class="credit-card-visual">
+                <div class="row">
+                    <div class="cc-chip"></div>
+                    <div class="cc-logo">VISA</div>
+                </div>
+                <div class="cc-number">•••• •••• •••• 4289</div>
+                <div class="cc-info">
+                    <span>James Doe</span>
+                    <span>12/26</span>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <h2>Quick Actions</h2>
+            <div class="actions-grid">
+                <a href="#" class="action-btn">
+                    <div class="icon-circle">⇧</div>
+                    <span>Transfer</span>
+                </a>
+                <a href="#" class="action-btn">
+                    <div class="icon-circle">💳</div>
+                    <span>Pay Bill</span>
+                </a>
+                <a href="#" class="action-btn">
+                    <div class="icon-circle">📱</div>
+                    <span>Top Up</span>
+                </a>
+                <a href="#" class="action-btn">
+                    <div class="icon-circle">⋯</div>
+                    <span>More</span>
+                </a>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="row" style="margin-bottom: 12px; margin-top: 8px;">
+                <h2>Recent Activity</h2>
+                <a href="#" class="link">See All</a>
+            </div>
+
+            <div class="card" style="padding: 0;">
+                <!-- Item 1 -->
+                <div class="activity-item" style="padding-left: 16px; padding-right: 16px;">
+                    <div class="activity-icon" style="background-color: #e8f5e9; color: #2e7d32;">🛒</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Whole Foods Market</div>
+                        <div class="activity-time">Today, 08:30 AM</div>
+                    </div>
+                    <div class="activity-amount expense">-$124.50</div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="activity-item" style="padding-left: 16px; padding-right: 16px;">
+                    <div class="activity-icon" style="background-color: #e3f2fd; color: #1565c0;">☕</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Starbucks Coffee</div>
+                        <div class="activity-time">Yesterday, 07:15 AM</div>
+                    </div>
+                    <div class="activity-amount expense">-$6.40</div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="activity-item" style="padding-left: 16px; padding-right: 16px;">
+                    <div class="activity-icon" style="background-color: #fff3e0; color: #ef6c00;">💼</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Salary Deposit</div>
+                        <div class="activity-time">Oct 28, 09:00 AM</div>
+                    </div>
+                    <div class="activity-amount income">+$3,200.00</div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="activity-item" style="padding-left: 16px; padding-right: 16px; border-bottom: none;">
+                    <div class="activity-icon" style="background-color: #f3e5f5; color: #7b1fa2;">⚡</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Electric Company</div>
+                        <div class="activity-time">Oct 27, 02:30 PM</div>
+                    </div>
+                    <div class="activity-amount expense">-$85.20</div>
+                </div>
+            </div>
+
+            <!-- Promotional Card -->
+            <div class="card" style="background: linear-gradient(to right, #007aff, #0056b3); color: white; border: none;">
+                <div style="font-weight: 700; font-size: 18px; margin-bottom: 8px;">Save & Invest</div>
+                <p style="color: rgba(255,255,255,0.8); font-size: 14px; margin-bottom: 16px;">Open a high-yield savings account today and get a 0.5% bonus.</p>
+                <a href="#" style="background: white; color: #007aff; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 13px; display: inline-block;">Learn More</a>
+            </div>
+
+        </div>
+
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span class="icon">🏠</span>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">📊</span>
+                <span>Stats</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">💳</span>
+                <span>Card</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>

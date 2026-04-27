@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #f5f7fa;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+        }
+        
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 20px 20px 30px;
+            position: relative;
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .greeting {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .notification-icon {
+            font-size: 24px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .notification-badge {
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            background-color: #ff4757;
+            color: white;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        .balance-section {
+            text-align: center;
+        }
+        
+        .balance-label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+        
+        .balance-amount {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .balance-actions {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .balance-action {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+        
+        .balance-action-icon {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+        
+        .balance-action-text {
+            font-size: 12px;
+        }
+        
+        /* Quick Actions */
+        .quick-actions {
+            background-color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .quick-action {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            flex: 1;
+        }
+        
+        .quick-action:not(:last-child) {
+            margin-right: 20px;
+        }
+        
+        .quick-action-icon {
+            font-size: 28px;
+            color: #2a5298;
+            margin-bottom: 8px;
+        }
+        
+        .quick-action-text {
+            font-size: 12px;
+            color: #495057;
+            text-align: center;
+        }
+        
+        /* Recent Transactions */
+        .transactions-section {
+            flex: 1;
+            background-color: #ffffff;
+            overflow-y: auto;
+        }
+        
+        .transactions-header {
+            padding: 20px 20px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .transactions-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #212529;
+        }
+        
+        .transactions-see-all {
+            font-size: 14px;
+            color: #2a5298;
+            cursor: pointer;
+        }
+        
+        .transaction-item {
+            display: flex;
+            align-items: center;
+            padding: 16px 20px;
+            border-bottom: 1px solid #e9ecef;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .transaction-item:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .transaction-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+            font-size: 20px;
+        }
+        
+        .transaction-icon.income {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .transaction-icon.expense {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .transaction-icon.transfer {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+        
+        .transaction-details {
+            flex: 1;
+        }
+        
+        .transaction-name {
+            font-size: 14px;
+            font-weight: 500;
+            color: #212529;
+            margin-bottom: 4px;
+        }
+        
+        .transaction-date {
+            font-size: 12px;
+            color: #6c757d;
+        }
+        
+        .transaction-amount {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .transaction-amount.income {
+            color: #28a745;
+        }
+        
+        .transaction-amount.expense {
+            color: #dc3545;
+        }
+        
+        /* Bottom Navigation */
+        .bottom-nav {
+            background-color: #ffffff;
+            border-top: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0 20px;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            color: #6c757d;
+            transition: color 0.2s;
+        }
+        
+        .nav-item.active {
+            color: #2a5298;
+        }
+        
+        .nav-icon {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+        
+        .nav-text {
+            font-size: 11px;
+        }
+        
+        /* Cards Section */
+        .cards-section {
+            background-color: #f5f7fa;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .cards-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 16px;
+        }
+        
+        .card {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 12px;
+            padding: 20px;
+            color: white;
+            margin-bottom: 16px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card:last-child {
+            margin-bottom: 0;
+        }
+        
+        .card-number {
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        
+        .card-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        
+        .card-holder {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-bottom: 4px;
+        }
+        
+        .card-name {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .card-expiry {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .card-chip {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 32px;
+            background-color: #ffd700;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #333;
+        }
+        
+        /* Floating Action Button */
+        .fab {
+            position: absolute;
+            bottom: 100px;
+            right: 20px;
+            width: 56px;
+            height: 56px;
+            background-color: #2a5298;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s;
+        }
+        
+        .fab:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="header-top">
+                <div class="greeting">Good morning, Sarah</div>
+                <div class="notification-icon">
+                    🔔
+                    <span class="notification-badge">3</span>
+                </div>
+            </div>
+            
+            <div class="balance-section">
+                <div class="balance-label">Total Balance</div>
+                <div class="balance-amount">$12,450.80</div>
+                <div class="balance-actions">
+                    <div class="balance-action">
+                        <div class="balance-action-icon">📊</div>
+                        <div class="balance-action-text">Analytics</div>
+                    </div>
+                    <div class="balance-action">
+                        <div class="balance-action-icon">💳</div>
+                        <div class="balance-action-text">Cards</div>
+                    </div>
+                    <div class="balance-action">
+                        <div class="balance-action-icon">🎯</div>
+                        <div class="balance-action-text">Goals</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Quick Actions -->
+        <div class="quick-actions">
+            <div class="quick-action">
+                <div class="quick-action-icon">💸</div>
+                <div class="quick-action-text">Send</div>
+            </div>
+            <div class="quick-action">
+                <div class="quick-action-icon">📤</div>
+                <div class="quick-action-text">Request</div>
+            </div>
+            <div class="quick-action">
+                <div class="quick-action-icon">💰</div>
+                <div class="quick-action-text">Deposit</div>
+            </div>
+            <div class="quick-action">
+                <div class="quick-action-icon">🏦</div>
+                <div class="quick-action-text">Services</div>
+            </div>
+        </div>
+        
+        <!-- Recent Transactions -->
+        <div class="transactions-section">
+            <div class="transactions-header">
+                <div class="transactions-title">Recent Transactions</div>
+                <div class="transactions-see-all">See all →</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon income">💼</div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Salary Deposit</div>
+                    <div class="transaction-date">Nov 1, 2023</div>
+                </div>
+                <div class="transaction-amount income">+$3,500.00</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon expense">🛒</div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Walmart Shopping</div>
+                    <div class="transaction-date">Oct 30, 2023</div>
+                </div>
+                <div class="transaction-amount expense">-$125.43</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon transfer">🏠</div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Rent Payment</div>
+                    <div class="transaction-date">Oct 28, 2023</div>
+                </div>
+                <div class="transaction-amount expense">-$1,200.00</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon income">🎁</div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Freelance Project</div>
+                    <div class="transaction-date">Oct 25, 2023</div>
+                </div>
+                <div class="transaction-amount income">+$850.00</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon expense">☕</div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Starbucks</div>
+                    <div class="transaction-date">Oct 24, 2023</div>
+                </div>
+                <div class="transaction-amount expense">-$5.75</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon expense">⛽</div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Gas Station</div>
+                    <div class="transaction-date">Oct 23, 2023</div>
+                </div>
+                <div class="transaction-amount expense">-$45.20</div>
+            </div>
+        </div>
+        
+        <!-- Cards Section -->
+        <div class="cards-section">
+            <div class="cards-title">My Cards</div>
+            
+            <div class="card">
+                <div class="card-chip">💳</div>
+                <div class="card-number">4532 1234 5678 9012</div>
+                <div class="card-details">
+                    <div>
+                        <div class="card-holder">Card Holder</div>
+                        <div class="card-name">Sarah Johnson</div>
+                    </div>
+                    <div class="card-expiry">12/24</div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-chip">💳</div>
+                <div class="card-number">4532 1234 5678 9013</div>
+                <div class="card-details">
+                    <div>
+                        <div class="card-holder">Card Holder</div>
+                        <div class="card-name">Sarah Johnson</div>
+                    </div>
+                    <div class="card-expiry">12/25</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Action Button -->
+        <div class="fab">+</div>
+        
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <div class="nav-icon">🏠</div>
+                <div class="nav-text">Home</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">📱</div>
+                <div class="nav-text">Transfers</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">📋</div>
+                <div class="nav-text">Bills</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <div class="nav-text">Profile</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

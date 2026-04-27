@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 375px; height: 812px; overflow: hidden; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; box-sizing: border-box;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker</title>
+</head>
+<body style="width: 100%; height: 100%; margin: 0; padding: 0; background-color: #f8f9fa; display: flex; flex-direction: column; box-sizing: border-box;">
+
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            line-height: 1.5;
+            color: #343a40;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e9ecef;
+            z-index: 10;
+        }
+        .header-left, .header-right {
+            display: flex;
+            align-items: center;
+        }
+        .header-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #212529;
+            margin-left: 8px;
+        }
+        .icon-button {
+            font-size: 24px;
+            color: #495057;
+            padding: 4px;
+            cursor: pointer;
+            line-height: 1;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 16px;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 12px;
+            margin-top: 24px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #212529;
+        }
+        .card-subtitle {
+            font-size: 14px;
+            color: #6c757d;
+        }
+        .progress-bar-container {
+            height: 8px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        .progress-bar-fill {
+            height: 100%;
+            background-color: #5cb85c; /* Green for good progress */
+            border-radius: 4px;
+        }
+        .progress-bar-fill.orange {
+            background-color: #fd7e14; /* Orange for moderate */
+        }
+        .progress-bar-fill.blue {
+            background-color: #007bff; /* Blue for general */
+        }
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .metric-item {
+            display: flex;
+            flex-direction: column;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 12px;
+            border: 1px solid #e9ecef;
+        }
+        .metric-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #6c757d;
+        }
+        .activity-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+        .activity-icon {
+            font-size: 20px;
+            color: #007bff;
+            margin-right: 12px;
+            width: 24px;
+            text-align: center;
+        }
+        .activity-details {
+            flex-grow: 1;
+        }
+        .activity-name {
+            font-size: 15px;
+            font-weight: 500;
+            color: #343a40;
+        }
+        .activity-info {
+            font-size: 13px;
+            color: #6c757d;
+        }
+        .add-button {
+            background-color: #007bff;
+            color: white;
+            font-size: 36px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 80px; /* Above navbar */
+            right: 16px;
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+            cursor: pointer;
+            z-index: 100;
+            line-height: 1;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #ffffff;
+            border-top: 1px solid #e9ecef;
+            height: 60px;
+            padding: 0 8px;
+            z-index: 10;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #6c757d;
+            font-size: 11px;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 4px 0;
+            flex: 1;
+        }
+        .nav-item.active {
+            color: #007bff;
+            font-weight: 600;
+        }
+        .nav-icon {
+            font-size: 22px;
+            margin-bottom: 4px;
+            line-height: 1;
+        }
+    </style>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="header-left">
+            <span class="icon-button">⚙️</span>
+            <span class="header-title">Today</span>
+        </div>
+        <div class="header-right">
+            <span class="icon-button">🔔</span>
+            <span class="icon-button" style="margin-left: 8px;">👤</span>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Daily Goal Summary Card -->
+        <div class="card">
+            <div class="card-header">
+                <div style="display: flex; align-items: center;">
+                    <span style="font-size: 20px; margin-right: 8px;">🎯</span>
+                    <span class="card-title">Daily Goals</span>
+                </div>
+                <span class="card-subtitle">75% Complete</span>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" style="width: 75%;"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 13px; color: #6c757d;">
+                <span>Steps: 6,800/8,000</span>
+                <span>Calories: 1,900/2,200</span>
+                <span>Sleep: 6.5/8 hrs</span>
+            </div>
+        </div>
+
+        <!-- Key Metrics Card -->
+        <h2 class="section-title">Your Progress</h2>
+        <div class="card">
+            <div class="metric-grid">
+                <div class="metric-item">
+                    <span class="metric-value">6,800</span>
+                    <span class="metric-label">Steps Today</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value">1800 kcal</span>
+                    <span class="metric-label">Burned</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value">7 hrs 15 min</span>
+                    <span class="metric-label">Sleep Last Night</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value">2.5 L</span>
+                    <span class="metric-label">Water Intake</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Activities Card -->
+        <h2 class="section-title">Recent Activities</h2>
+        <div class="card">
+            <div class="activity-item">
+                <span class="activity-icon" style="color: #28a745;">🏃‍♀️</span>
+                <div class="activity-details">
+                    <div class="activity-name">Morning Run</div>
+                    <div class="activity-info">30 min • 4.2 km • 350 kcal</div>
+                </div>
+                <span style="font-size: 13px; color: #6c757d;">9:30 AM</span>
+            </div>
+            <div class="activity-item">
+                <span class="activity-icon" style="color: #17a2b8;">💧</span>
+                <div class="activity-details">
+                    <div class="activity-name">Water Intake</div>
+                    <div class="activity-info">500 ml</div>
+                </div>
+                <span style="font-size: 13px; color: #6c757d;">1:00 PM</span>
+            </div>
+            <div class="activity-item">
+                <span class="activity-icon" style="color: #ffc107;">🍎</span>
+                <div class="activity-details">
+                    <div class="activity-name">Lunch</div>
+                    <div class="activity-info">Chicken Salad • 420 kcal</div>
+                </div>
+                <span style="font-size: 13px; color: #6c757d;">12:45 PM</span>
+            </div>
+            <div class="activity-item">
+                <span class="activity-icon" style="color: #6f42c1;">🧘</span>
+                <div class="activity-details">
+                    <div class="activity-name">Meditation</div>
+                    <div class="activity-info">15 min</div>
+                </div>
+                <span style="font-size: 13px; color: #6c757d;">8:00 AM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <div class="add-button">
+        +
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#" class="nav-item active">
+            <span class="nav-icon">📊</span>
+            <span>Dashboard</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">🏋️</span>
+            <span>Workouts</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">🍜</span>
+            <span>Nutrition</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💡</span>
+            <span>Insights</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">👤</span>
+            <span>Profile</span>
+        </a>
+    </div>
+
+</body>
+</html>

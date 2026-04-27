@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Finance App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f2f4f7;
+            color: #1d1d1f;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Status Bar */
+        .status-bar {
+            height: 44px;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            background-color: #ffffff;
+            padding-bottom: 8px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .status-time {
+            color: #1d1d1f;
+        }
+
+        .status-icons {
+            color: #1d1d1f;
+            letter-spacing: 2px;
+        }
+
+        /* Header */
+        .header {
+            padding: 16px 24px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-greeting h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 4px;
+        }
+
+        .header-greeting p {
+            font-size: 13px;
+            color: #86868b;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 16px;
+        }
+
+        .header-btn {
+            width: 40px;
+            height: 40px;
+            background-color: #f2f4f7;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            text-decoration: none;
+            color: #1d1d1f;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            height: 520px;
+            overflow-y: auto;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE */
+        }
+        
+        .main-content::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Card Section */
+        .card-section {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            scrollbar-width: none;
+        }
+
+        .card-section::-webkit-scrollbar {
+            display: none;
+        }
+
+        .card {
+            min-width: 300px;
+            height: 190px;
+            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            border-radius: 16px;
+            padding: 24px;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+
+        .card.gold {
+            background: linear-gradient(135deg, #d4af37 0%, #f7ef8a 50%, #d4af37 100%);
+            color: #4a3b00;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-type {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        .card-icon {
+            font-size: 20px;
+        }
+
+        .card-number {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .card-holder {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        .card-expiry {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        /* Quick Actions */
+        .actions-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .action-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .action-icon {
+            width: 48px;
+            height: 48px;
+            background-color: #ffffff;
+            border-radius: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            color: #007aff;
+        }
+
+        .action-label {
+            font-size: 11px;
+            color: #86868b;
+            font-weight: 500;
+        }
+
+        /* Transactions */
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .view-all {
+            font-size: 13px;
+            color: #007aff;
+            font-weight: 500;
+        }
+
+        .transaction-list {
+            background-color: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        .transaction-item {
+            display: flex;
+            align-items: center;
+            padding: 16px 20px;
+            border-bottom: 1px solid #f2f4f7;
+        }
+
+        .transaction-item:last-child {
+            border-bottom: none;
+        }
+
+        .transaction-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #f2f4f7;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 14px;
+            font-size: 16px;
+        }
+
+        .transaction-details {
+            flex: 1;
+        }
+
+        .transaction-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .transaction-category {
+            font-size: 12px;
+            color: #86868b;
+            margin-top: 2px;
+        }
+
+        .transaction-amount {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .transaction-amount.expense {
+            color: #1d1d1f;
+        }
+
+        .transaction-amount.income {
+            color: #34c759;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            height: 84px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 24px;
+            border-top: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+            color: #86868b;
+            width: 60px;
+        }
+
+        .nav-item.active {
+            color: #007aff;
+        }
+
+        .nav-icon {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        .nav-label {
+            font-size: 10px;
+            font-weight: 500;
+        }
+
+        .nav-item.active .nav-label {
+            font-size: 10px;
+        }
+
+        /* Floating Action Button */
+        .fab {
+            position: absolute;
+            bottom: 100px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, #007aff 0%, #0056b3 100%);
+            border-radius: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 6px 16px rgba(0, 122, 255, 0.4);
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <span class="status-time">9:41</span>
+        <div class="status-icons">☾ ☊ 📶</div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-greeting">
+            <h1>Good Morning</h1>
+            <p>Current Balance</p>
+        </div>
+        <div class="header-actions">
+            <a href="#" class="header-btn">✉</a>
+            <a href="#" class="header-btn">⚙</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <!-- Credit Cards -->
+        <section class="card-section">
+            <!-- Main Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-type">Debit</span>
+                    <span class="card-icon">💳</span>
+                </div>
+                <div class="card-number">•••• •••• •••• 4829</div>
+                <div class="card-footer">
+                    <div class="card-holder">ALEX MORGAN</div>
+                    <div class="card-expiry">09/27</div>
+                </div>
+            </div>
+            
+            <!-- Savings Card -->
+            <div class="card gold">
+                <div class="card-header">
+                    <span class="card-type">Savings</span>
+                    <span class="card-icon">★</span>
+                </div>
+                <div class="card-number">•••• •••• •••• 9102</div>
+                <div class="card-footer">
+                    <div class="card-holder">ALEX MORGAN</div>
+                    <div class="card-expiry">12/25</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Actions -->
+        <section class="actions-grid">
+            <div class="action-item">
+                <div class="action-icon">⬆</div>
+                <span class="action-label">Send</span>
+            </div>
+            <div class="action-item">
+                <div class="action-icon">⬇</div>
+                <span class="action-label">Request</span>
+            </div>
+            <div class="action-item">
+                <div class="action-icon">↺</div>
+                <span class="action-label">Pay</span>
+            </div>
+            <div class="action-item">
+                <div class="action-icon">...</div>
+                <span class="action-label">More</span>
+            </div>
+        </section>
+
+        <!-- Recent Transactions -->
+        <section class="transactions">
+            <div class="section-title">
+                <span>Recent Activity</span>
+                <a href="#" class="view-all">See All</a>
+            </div>
+            
+            <div class="transaction-list">
+                <div class="transaction-item">
+                    <div class="transaction-icon" style="color: #ff3b30; background-color: #ffe5e5;">☕</div>
+                    <div class="transaction-details">
+                        <div class="transaction-name">Starbucks Coffee</div>
+                        <div class="transaction-category">Food & Drink • Today</div>
+                    </div>
+                    <div class="transaction-amount expense">-$5.40</div>
+                </div>
+
+                <div class="transaction-item">
+                    <div class="transaction-icon" style="color: #007aff; background-color: #e5f3ff;">🛒</div>
+                    <div class="transaction-details">
+                        <div class="transaction-name">Whole Foods Market</div>
+                        <div class="transaction-category">Groceries • Yesterday</div>
+                    </div>
+                    <div class="transaction-amount expense">-$124.50</div>
+                </div>
+
+                <div class="transaction-item">
+                    <div class="transaction-icon" style="color: #34c759; background-color: #e5f9e7;">💰</div>
+                    <div class="transaction-details">
+                        <div class="transaction-name">Salary Deposit</div>
+                        <div class="transaction-category">Income • Oct 28</div>
+                    </div>
+                    <div class="transaction-amount income">+$4,250.00</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Floating Action Button -->
+    <div class="fab">+</div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item active">
+            <span class="nav-icon">▣</span>
+            <span class="nav-label">Dashboard</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">◎</span>
+            <span class="nav-label">Cards</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">▦</span>
+            <span class="nav-label">Stats</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">👤</span>
+            <span class="nav-label">Profile</span>
+        </a>
+    </nav>
+
+</body>
+</html>

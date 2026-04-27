@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StreamFlow Music</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body, html {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+        }
+
+        /* Main Container */
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+            position: relative;
+        }
+
+        /* Header */
+        .header {
+            padding: 50px 20px 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .header-text h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .header-text p {
+            font-size: 14px;
+            color: #94a3b8;
+            margin-top: 4px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #f472b6, #818cf8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            border: 2px solid #334155;
+        }
+
+        /* Scrollable Content Area */
+        .content-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0 20px 100px 20px; /* Bottom padding for player bar */
+            scrollbar-width: none; /* Firefox */
+        }
+        .content-area::-webkit-scrollbar {
+            display: none; /* Chrome/Safari */
+        }
+
+        /* Section Titles */
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            margin-top: 10px;
+            color: #f1f5f9;
+        }
+
+        /* Horizontal Scroll for Cards */
+        .scroll-row {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            scrollbar-width: none;
+        }
+        .scroll-row::-webkit-scrollbar { display: none; }
+
+        /* Card Styles */
+        .card {
+            flex: 0 0 140px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 12px;
+            background-color: #334155;
+            margin-bottom: 10px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-info h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #f8fafc;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 4px;
+        }
+
+        .card-info p {
+            font-size: 13px;
+            color: #94a3b8;
+            line-height: 1.3;
+        }
+
+        /* Large Featured Card */
+        .featured-card {
+            flex: 0 0 300px;
+            position: relative;
+        }
+        .featured-card .card-img {
+            width: 300px;
+            height: 200px;
+            border-radius: 16px;
+        }
+        .featured-badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Bottom Navigation */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid #334155;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 20;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #64748b;
+            font-size: 10px;
+            gap: 4px;
+            text-decoration: none;
+        }
+
+        .nav-item span {
+            font-size: 20px;
+        }
+
+        .nav-item.active {
+            color: #818cf8;
+        }
+
+        /* Player Bar */
+        .player-bar {
+            position: absolute;
+            bottom: 60px; /* Above nav bar */
+            left: 10px;
+            right: 10px;
+            height: 60px;
+            background: linear-gradient(90deg, #4f46e5, #7c3aed);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            padding: 0 12px;
+            z-index: 15;
+            box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4);
+        }
+
+        .player-thumb {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background: #e2e8f0;
+            margin-right: 12px;
+        }
+
+        .player-info {
+            flex: 1;
+        }
+
+        .player-info h4 {
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .player-info p {
+            font-size: 11px;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .player-controls {
+            display: flex;
+            gap: 15px;
+            color: white;
+            font-size: 18px;
+        }
+
+        /* Small circular image placeholders using gradients */
+        .img-rock {
+            background: radial-gradient(circle at 30% 30%, #64748b, #1e293b);
+        }
+        .img-pop {
+            background: radial-gradient(circle at 30% 30%, #f472b6, #831843);
+        }
+        .img-chill {
+            background: radial-gradient(circle at 30% 30%, #38bdf8, #075985);
+        }
+        .img-hiphop {
+            background: radial-gradient(circle at 30% 30%, #fbbf24, #b45309);
+        }
+        .img-feature {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"><rect width="300" height="200" fill="%23334155"/><circle cx="150" cy="100" r="50" fill="%234f46e5" opacity="0.5"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="%2394a3b8" font-family="sans-serif" font-size="24">Featured</text></svg>');
+            background-size: cover;
+        }
+
+        /* Fake text overflow ellipsis */
+        .truncate {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- Header -->
+        <div class="header">
+            <div class="header-text">
+                <h1>Good Evening</h1>
+                <p>Discover new music</p>
+            </div>
+            <div class="avatar">JD</div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content-area">
+            
+            <!-- Recently Played -->
+            <div class="section-title">Recently Played</div>
+            <div class="scroll-row">
+                <div class="card">
+                    <div class="card-img img-rock"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Rock Classics</h3>
+                        <p>Queen, AC/DC...</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img img-pop"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Pop Hits 2024</h3>
+                        <p>Dua Lipa, The Weeknd</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img img-chill"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Lo-Fi Beats</h3>
+                        <p>Relax & Study</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img img-hiphop"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Rap Caviar</h3>
+                        <p>Drake, Travis Scott</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Mix -->
+            <div class="section-title">Featured Mix</div>
+            <div class="scroll-row">
+                <div class="card featured-card">
+                    <div class="card-img img-feature">
+                        <div class="featured-badge">New Release</div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="truncate">Midnight Synthwave</h3>
+                        <p>Electronic • 2024</p>
+                    </div>
+                </div>
+                <div class="card featured-card">
+                    <div class="card-img img-rock" style="filter: hue-rotate(45deg);"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Acoustic Mornings</h3>
+                        <p>Folk & Acoustic</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Made For You -->
+            <div class="section-title">Made For You</div>
+            <div class="scroll-row">
+                <div class="card">
+                    <div class="card-img" style="background: linear-gradient(135deg, #ec4899, #8b5cf6);"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Daily Mix 1</h3>
+                        <p>Arctic Monkeys...</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background: linear-gradient(135deg, #10b981, #3b82f6);"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Daily Mix 2</h3>
+                        <p>Daft Punk, Justice</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background: linear-gradient(135deg, #f59e0b, #ef4444);"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Discover Weekly</h3>
+                        <p>Your weekly mixtape</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background: linear-gradient(135deg, #6366f1, #a855f7);"></div>
+                    <div class="card-info">
+                        <h3 class="truncate">Release Radar</h3>
+                        <p>New music for you</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Charts -->
+            <div class="section-title">Top Charts</div>
+            <div class="scroll-row">
+                <div class="card">
+                    <div class="card-img" style="background: #1e1e1e; display: flex; align-items: center; justify-content: center; font-size: 40px; font-weight: bold; color: #333;">1</div>
+                    <div class="card-info">
+                        <h3 class="truncate">Global Top 50</h3>
+                        <p>Streaming Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background: #222; display: flex; align-items: center; justify-content: center; font-size: 40px; font-weight: bold; color: #444;">2</div>
+                    <div class="card-info">
+                        <h3 class="truncate">Viral Hits</h3>
+                        <p>Trending worldwide</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background: #2a2a2a; display: flex; align-items: center; justify-content: center; font-size: 40px; font-weight: bold; color: #555;">3</div>
+                    <div class="card-info">
+                        <h3 class="truncate">Today's Indie</h3>
+                        <p>Alternative Rock</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Player Bar -->
+        <div class="player-bar">
+            <div class="player-thumb"></div>
+            <div class="player-info">
+                <h4>Blinding Lights</h4>
+                <p>The Weeknd</p>
+            </div>
+            <div class="player-controls">
+                <span>▶</span>
+                <span>⏭</span>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="nav-bar">
+            <a href="#" class="nav-item active">
+                <span>⌂</span>
+                Home
+            </a>
+            <a href="#" class="nav-item">
+                <span>🔍</span>
+                Search
+            </a>
+            <a href="#" class="nav-item">
+                <span>♬</span>
+                Library
+            </a>
+            <a href="#" class="nav-item">
+                <span>👤</span>
+                Profile
+            </a>
+        </nav>
+
+    </div>
+
+</body>
+</html>

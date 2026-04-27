@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        body, html {
+            width: 375px;
+            height: 812px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding-bottom: 80px; /* Space for bottom navigation */
+            box-sizing: border-box;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background-color: #fff;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+        .header-location {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            font-weight: 500;
+            color: #555;
+        }
+        .header-location span {
+            margin-right: 6px;
+            font-size: 18px; /* Map pin icon */
+            color: #ff6b6b;
+        }
+        .header-location .address {
+            font-weight: 600;
+            color: #333;
+        }
+        .header-icon {
+            font-size: 22px;
+            color: #555;
+        }
+
+        /* Search Bar */
+        .search-bar {
+            padding: 12px 16px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+        }
+        .search-input {
+            display: flex;
+            align-items: center;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 10px 12px;
+        }
+        .search-input span {
+            font-size: 18px;
+            color: #888;
+            margin-right: 8px;
+        }
+        .search-input input {
+            flex-grow: 1;
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 16px;
+            color: #333;
+            padding: 0;
+        }
+        .search-input input::placeholder {
+            color: #888;
+        }
+
+        /* Content Area */
+        .content {
+            flex-grow: 1;
+            overflow-y: scroll;
+            padding: 0 16px;
+            background-color: #f8f8f8;
+        }
+        .content::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for a cleaner look */
+        }
+        .content {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        /* Section Title */
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            color: #333;
+        }
+
+        /* Categories */
+        .categories {
+            display: flex;
+            overflow-x: scroll;
+            padding-bottom: 10px;
+            -webkit-overflow-scrolling: touch;
+            margin-left: -16px;
+            margin-right: -16px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        .categories::-webkit-scrollbar {
+            display: none;
+        }
+        .category-item {
+            flex-shrink: 0;
+            width: 80px;
+            text-align: center;
+            margin-right: 12px;
+        }
+        .category-icon {
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            margin: 0 auto 8px auto;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            color: #ff6b6b;
+        }
+        .category-text {
+            font-size: 13px;
+            font-weight: 500;
+            color: #555;
+        }
+
+        /* Restaurant Cards */
+        .restaurant-card {
+            background-color: #fff;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .restaurant-image {
+            width: 100%;
+            height: 160px;
+            background-color: #eee;
+            background-size: cover;
+            background-position: center;
+        }
+        .restaurant-info {
+            padding: 14px 16px;
+        }
+        .restaurant-name {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #333;
+        }
+        .restaurant-details {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 8px;
+        }
+        .restaurant-details span {
+            margin-right: 6px;
+            font-size: 16px;
+        }
+        .restaurant-details .rating {
+            font-weight: 600;
+            color: #ffc107; /* Star color */
+        }
+        .restaurant-tags {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background-color: #e6e6e6;
+            color: #555;
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 6px;
+            margin-right: 8px;
+            margin-bottom: 6px;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 70px; /* Increased height for better tap target */
+            background-color: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+            z-index: 20;
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #888;
+            font-size: 12px;
+            font-weight: 500;
+            text-decoration: none;
+            padding-top: 4px;
+            flex: 1;
+            text-align: center;
+        }
+        .nav-item.active {
+            color: #ff6b6b;
+        }
+        .nav-item span {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-location">
+                <span>📍</span>
+                Deliver to: <span class="address">123 Main St, Apt 4B</span>
+            </div>
+            <div class="header-icon">⚙️</div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <div class="search-input">
+                <span>🔍</span>
+                <input type="text" placeholder="Search for restaurants or dishes">
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <div class="section-title">Categories</div>
+            <div class="categories">
+                <div class="category-item">
+                    <div class="category-icon">🍔</div>
+                    <div class="category-text">Burgers</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍕</div>
+                    <div class="category-text">Pizza</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍣</div>
+                    <div class="category-text">Sushi</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍜</div>
+                    <div class="category-text">Noodles</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🥗</div>
+                    <div class="category-text">Salads</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍰</div>
+                    <div class="category-text">Desserts</div>
+                </div>
+            </div>
+
+            <div class="section-title">Popular Restaurants</div>
+
+            <div class="restaurant-card">
+                <div class="restaurant-image" style="background-image: url('https://i.imgur.com/gK9qN20.jpeg');"></div>
+                <div class="restaurant-info">
+                    <div class="restaurant-name">Burger King</div>
+                    <div class="restaurant-details">
+                        <span style="color: #ffc107;">⭐</span> <span class="rating">4.5</span> (500+) &bull; <span>⏱️</span> 20-30 min &bull; <span>$$</span>
+                    </div>
+                    <div class="restaurant-tags">
+                        <div class="tag">Burgers</div>
+                        <div class="tag">Fast Food</div>
+                        <div class="tag">American</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="restaurant-image" style="background-image: url('https://i.imgur.com/K12t3pG.jpeg');"></div>
+                <div class="restaurant-info">
+                    <div class="restaurant-name">Pizza Palace</div>
+                    <div class="restaurant-details">
+                        <span style="color: #ffc107;">⭐</span> <span class="rating">4.8</span> (1.2K+) &bull; <span>⏱️</span> 30-45 min &bull; <span>$$$</span>
+                    </div>
+                    <div class="restaurant-tags">
+                        <div class="tag">Pizza</div>
+                        <div class="tag">Italian</div>
+                        <div class="tag">Vegetarian</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="restaurant-image" style="background-image: url('https://i.imgur.com/s6n5F7T.jpeg');"></div>
+                <div class="restaurant-info">
+                    <div class="restaurant-name">Sushi Delight</div>
+                    <div class="restaurant-details">
+                        <span style="color: #ffc107;">⭐</span> <span class="rating">4.6</span> (800+) &bull; <span>⏱️</span> 25-35 min &bull; <span>$$$$</span>
+                    </div>
+                    <div class="restaurant-tags">
+                        <div class="tag">Sushi</div>
+                        <div class="tag">Japanese</div>
+                        <div class="tag">Healthy</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="restaurant-image" style="background-image: url('https://i.imgur.com/s4n5F7T.jpeg');"></div>
+                <div class="restaurant-info">
+                    <div class="restaurant-name">The Noodle House</div>
+                    <div class="restaurant-details">
+                        <span style="color: #ffc107;">⭐</span> <span class="rating">4.3</span> (300+) &bull; <span>⏱️</span> 35-45 min &bull; <span>$$</span>
+                    </div>
+                    <div class="restaurant-tags">
+                        <div class="tag">Noodles</div>
+                        <div class="tag">Asian</div>
+                        <div class="tag">Spicy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span>🏠</span>
+                Home
+            </a>
+            <a href="#" class="nav-item">
+                <span>🛒</span>
+                Cart
+            </a>
+            <a href="#" class="nav-item">
+                <span>⭐</span>
+                Favorites
+            </a>
+            <a href="#" class="nav-item">
+                <span>👤</span>
+                Profile
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1.0, user-scalable=no" />
+<title>EduLearn</title>
+<style>
+  html, body {
+    margin: 0; padding: 0;
+    width: 375px; height: 812px;
+    overflow: hidden;
+    background: #f9fbfd;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 812px;
+    width: 375px;
+  }
+
+  /* Container for main content, scrollable */
+  main {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 24px 24px 96px 24px;
+    background: #f9fbfd;
+  }
+
+  header {
+    height: 72px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+    position: sticky;
+    top: 0; 
+    z-index: 10;
+  }
+
+  header h1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #0d47a1;
+    user-select: none;
+  }
+
+  header button {
+    background: none;
+    border: none;
+    font-size: 26px;
+    line-height: 1;
+    color: #0d47a1;
+    cursor: pointer;
+    user-select: none;
+    padding: 4px;
+  }
+
+  /* Search bar */
+  .search-container {
+    margin: 16px 0 32px 0;
+    position: relative;
+  }
+
+  .search-container input {
+    width: 100%;
+    height: 44px;
+    border-radius: 12px;
+    border: 1.5px solid #cfd8dc;
+    padding: 10px 44px 10px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #374151;
+    background: #fff;
+    box-sizing: border-box;
+    outline-offset: 2px;
+    transition: border-color 0.2s ease;
+  }
+
+  .search-container input::placeholder {
+    color: #90a4ae;
+  }
+
+  .search-container input:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 6px rgba(25, 118, 210, 0.4);
+  }
+
+  .search-container .icon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #90a4ae;
+    user-select: none;
+  }
+
+  /* Section titles */
+  h2.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    color: #0d47a1;
+  }
+
+  /* Course Cards container */
+  .courses-horizontal {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+  .courses-horizontal::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Single Course Card */
+  .course-card {
+    flex: 0 0 260px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.08);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .course-card:hover {
+    transform: translateY(-6px);
+  }
+
+  .course-image {
+    height: 140px;
+    background: linear-gradient(135deg, #1976d2 0%, #42a5f5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    user-select: none;
+  }
+
+  .course-content {
+    padding: 16px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .course-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    color: #0d47a1;
+    line-height: 1.2;
+  }
+
+  .course-instructor {
+    font-size: 14px;
+    font-weight: 500;
+    color: #607d8b;
+    margin-bottom: 12px;
+  }
+
+  .course-details {
+    margin-top: auto;
+    font-size: 13px;
+    color: #455a64;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+  }
+
+  /* Button style */
+  .button-primary {
+    margin-top: 16px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 0;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 3px 8px rgb(25 118 210 / 0.5);
+    transition: background-color 0.3s ease;
+    user-select: none;
+  }
+  .button-primary:hover {
+    background-color: #1565c0;
+  }
+
+  /* Featured Course Big Card */
+  .featured-card {
+    background: #1e88e5;
+    border-radius: 20px;
+    color: white;
+    padding: 24px 24px 32px 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 8px 20px rgb(30 136 229 / 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .featured-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+  }
+
+  .featured-desc {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    opacity: 0.9;
+  }
+
+  .featured-cta {
+    background: white;
+    color: #1e88e5;
+    border-radius: 14px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 14px 0;
+    box-shadow: 0 4px 9px rgb(255 255 255 / 0.8);
+    user-select: none;
+    cursor: pointer;
+    width: 180px;
+  }
+  .featured-cta:hover {
+    background: #e3f2fd;
+  }
+
+  /* Bottom Navigation Bar */
+  nav {
+    height: 72px;
+    background: white;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 0.08);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: env(safe-area-inset-bottom);
+    user-select: none;
+  }
+
+  nav button {
+    background: none;
+    border: none;
+    color: #607d8b;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    user-select: none;
+    padding: 4px 0 0 0;
+  }
+
+  nav button.active, nav button:hover {
+    color: #1976d2;
+  }
+
+  nav button span {
+    font-size: 11px;
+    line-height: 1;
+    user-select: none;
+  }
+
+  /* Scrollbar adjustment for iOS */
+  main::-webkit-scrollbar {
+    width: 6px;
+  }
+  main::-webkit-scrollbar-thumb {
+    background-color: rgba(25,118,210,0.3);
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <button aria-label="Menu">☰</button>
+  <h1>EduLearn</h1>
+  <button aria-label="Profile">👤</button>
+</header>
+
+<main>
+  <section class="search-container" role="search">
+    <input type="search" placeholder="Search courses, topics, instructors" aria-label="Search courses"/>
+    <div class="icon" aria-hidden="true">🔍</div>
+  </section>
+
+  <section aria-labelledby="featured-course-title">
+    <div class="featured-card" role="region" aria-label="Featured Course: Mastering Python Programming">
+      <h2 class="featured-title" id="featured-course-title">Mastering Python Programming</h2>
+      <p class="featured-desc">Learn from zero to hero with hands-on projects, quizzes, and expert guidance. Perfect your skills for real-world applications.</p>
+      <button class="featured-cta" type="button">Start Now ▶</button>
+    </div>
+  </section>
+
+  <section aria-labelledby="recommended-courses-title">
+    <h2 id="recommended-courses-title" class="section-title">Recommended for You</h2>
+    <div class="courses-horizontal" role="list">
+      <article class="course-card" role="listitem" tabindex="0" aria-label="Data Science Foundations course by Dr. Emily Carter, 28 lessons, 8 hours">
+        <div class="course-image" style="background: linear-gradient(135deg, #8e24aa 0%, #ba68c8 100%);">DS</div>
+        <div class="course-content">
+          <h3 class="course-title">Data Science Foundations</h3>
+          <p class="course-instructor">by Dr. Emily Carter</p>
+          <div class="course-details">
+            <span>28 lessons</span>
+            <span>8 hrs</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" role="listitem" tabindex="0" aria-label="UI/UX Design Essentials course by Mark Thompson, 15 lessons, 5 hours">
+        <div class="course-image" style="background: linear-gradient(135deg, #00796b 0%, #4db6ac 100%);">UX</div>
+        <div class="course-content">
+          <h3 class="course-title">UI/UX Design Essentials</h3>
+          <p class="course-instructor">by Mark Thompson</p>
+          <div class="course-details">
+            <span>15 lessons</span>
+            <span>5 hrs</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card" role="listitem" tabindex="0" aria-label="Advanced JavaScript course by Sofia Martinez, 22 lessons, 7.5 hours">
+        <div class="course-image" style="background: linear-gradient(135deg, #ef6c00 0%, #ffb74d 100%);">JS</div>
+        <div class="course-content">
+          <h3 class="course-title">Advanced JavaScript</h3>
+          <p class="course-instructor">by Sofia Martinez</p>
+          <div class="course-details">
+            <span>22 lessons</span>
+            <span>7.5 hrs</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="continue-learning-title" style="margin-top: 40px;">
+    <h2 id="continue-learning-title" class="section-title">Continue Learning</h2>
+    <article class="course-card" style="flex: none;" role="listitem" tabindex="0" aria-label="React Native Crash Course by James Lee, 10 lessons, 3 hours">
+      <div class="course-image" style="background: linear-gradient(135deg, #1565c0 0%, #64b5f6 100%);">RN</div>
+      <div class="course-content">
+        <h3 class="course-title">React Native Crash Course</h3>
+        <p class="course-instructor">by James Lee</p>
+        <div class="course-details" style="margin-bottom:12px;">
+          <span>10 lessons</span>
+          <span>3 hrs</span>
+        </div>
+        <button class="button-primary" type="button" aria-label="Resume React Native Crash Course">Resume ▶</button>
+      </div>
+    </article>
+  </section>
+</main>
+
+<nav role="navigation" aria-label="Bottom navigation">
+  <button class="active" aria-current="page" aria-label="Home">
+    🏠
+    <span>Home</span>
+  </button>
+  <button aria-label="Courses">
+    📚
+    <span>Courses</span>
+  </button>
+  <button aria-label="Messages">
+    💬
+    <span>Messages</span>
+  </button>
+  <button aria-label="Profile">
+    👤
+    <span>Profile</span>
+  </button>
+</nav>
+
+</body>
+</html>

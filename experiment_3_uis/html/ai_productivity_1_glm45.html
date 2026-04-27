@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Productivity App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            background-color: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #2c3e50;
+        }
+        
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 24px;
+            padding-top: 44px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .app-title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #667eea;
+            font-size: 16px;
+        }
+        
+        .date-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .current-date {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .progress-overview {
+            display: flex;
+            gap: 24px;
+            margin-top: 20px;
+        }
+        
+        .progress-item {
+            flex: 1;
+        }
+        
+        .progress-label {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-bottom: 4px;
+        }
+        
+        .progress-value {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 24px;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Task Cards */
+        .task-card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .task-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .task-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .task-title {
+            font-weight: 600;
+            font-size: 16px;
+            flex: 1;
+            line-height: 1.4;
+        }
+        
+        .task-priority {
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 500;
+            margin-left: 8px;
+        }
+        
+        .priority-high {
+            background-color: #fee2e2;
+            color: #dc2626;
+        }
+        
+        .priority-medium {
+            background-color: #fef3c7;
+            color: #d97706;
+        }
+        
+        .priority-low {
+            background-color: #dbeafe;
+            color: #2563eb;
+        }
+        
+        .task-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 13px;
+            color: #6b7280;
+        }
+        
+        .task-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .task-description {
+            font-size: 14px;
+            color: #4b5563;
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+        
+        /* Quick Actions */
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 24px;
+        }
+        
+        .action-button {
+            background: white;
+            border: none;
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            transition: all 0.2s;
+        }
+        
+        .action-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .action-icon {
+            font-size: 24px;
+        }
+        
+        .action-label {
+            font-size: 13px;
+            color: #4b5563;
+            font-weight: 500;
+        }
+        
+        /* Bottom Navigation */
+        .bottom-nav {
+            background: white;
+            border-top: 1px solid #e5e7eb;
+            padding: 8px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px 16px;
+            color: #9ca3af;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .nav-item.active {
+            color: #667eea;
+        }
+        
+        .nav-icon {
+            font-size: 20px;
+            margin-bottom: 2px;
+        }
+        
+        .nav-label {
+            font-size: 11px;
+        }
+        
+        /* Divider */
+        .divider {
+            height: 1px;
+            background-color: #e5e7eb;
+            margin: 24px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="app-title">TaskFlow</h1>
+                <div class="user-avatar">JD</div>
+            </div>
+            <div class="date-section">
+                <div>
+                    <div class="current-date">Tuesday, March 12</div>
+                    <div style="font-size: 12px; opacity: 0.8; margin-top: 2px;">You're doing great today!</div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px;">
+                    <span style="font-size: 14px;">🔥 5 day streak</span>
+                </div>
+            </div>
+            <div class="progress-overview">
+                <div class="progress-item">
+                    <div class="progress-label">Tasks Done</div>
+                    <div class="progress-value">12</div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label">Remaining</div>
+                    <div class="progress-value">8</div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label">Focus Time</div>
+                    <div class="progress-value">3.5h</div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <h2 class="section-title">
+                <span>📋</span> Today's Tasks
+            </h2>
+            
+            <div class="task-card">
+                <div class="task-header">
+                    <h3 class="task-title">Review quarterly performance metrics</h3>
+                    <span class="task-priority priority-high">High</span>
+                </div>
+                <div class="task-meta">
+                    <div class="task-meta-item">
+                        <span>⏰</span>
+                        <span>9:00 AM</span>
+                    </div>
+                    <div class="task-meta-item">
+                        <span>📌</span>
+                        <span>Work</span>
+                    </div>
+                </div>
+                <p class="task-description">Analyze Q1 results, prepare presentation slides for leadership meeting, and identify key improvement areas.</p>
+            </div>
+            
+            <div class="task-card">
+                <div class="task-header">
+                    <h3 class="task-title">Team standup meeting</h3>
+                    <span class="task-priority priority-medium">Medium</span>
+                </div>
+                <div class="task-meta">
+                    <div class="task-meta-item">
+                        <span>⏰</span>
+                        <span>10:30 AM</span>
+                    </div>
+                    <div class="task-meta-item">
+                        <span>👥</span>
+                        <span>Team Sync</span>
+                    </div>
+                </div>
+                <p class="task-description">Daily sync with development team to discuss progress, blockers, and adjust sprint priorities.</p>
+            </div>
+            
+            <div class="task-card">
+                <div class="task-header">
+                    <h3 class="task-title">Update project documentation</h3>
+                    <span class="task-priority priority-low">Low</span>
+                </div>
+                <div class="task-meta">
+                    <div class="task-meta-item">
+                        <span>⏰</span>
+                        <span>2:00 PM</span>
+                    </div>
+                    <div class="task-meta-item">
+                        <span>📚</span>
+                        <span>Documentation</span>
+                    </div>
+                </div>
+                <p class="task-description">Add new API endpoints to developer docs and update deployment guides for the latest version.</p>
+            </div>
+            
+            <div class="task-card">
+                <div class="task-header">
+                    <h3 class="task-title">Client presentation prep</h3>
+                    <span class="task-priority priority-high">High</span>
+                </div>
+                <div class="task-meta">
+                    <div class="task-meta-item">
+                        <span>⏰</span>
+                        <span>3:30 PM</span>
+                    </div>
+                    <div class="task-meta-item">
+                        <span>💼</span>
+                        <span>Client Meeting</span>
+                    </div>
+                </div>
+                <p class="task-description">Prepare slides and demo for the new client presentation scheduled for Friday. Include case studies and ROI analysis.</p>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <h2 class="section-title">
+                <span>✨</span> Quick Actions
+            </h2>
+            
+            <div class="quick-actions">
+                <button class="action-button" style="background: #f3f4f6;">
+                    <span class="action-icon">➕</span>
+                    <span class="action-label">Add Task</span>
+                </button>
+                <button class="action-button" style="background: #f3f4f6;">
+                    <span class="action-icon">🎯</span>
+                    <span class="action-label">Focus Mode</span>
+                </button>
+                <button class="action-button" style="background: #f3f4f6;">
+                    <span class="action-icon">📊</span>
+                    <span class="action-label">Analytics</span>
+                </button>
+                <button class="action-button" style="background: #f3f4f6;">
+                    <span class="action-icon">🔔</span>
+                    <span class="action-label">Reminders</span>
+                </button>
+            </div>
+        </main>
+        
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📋</span>
+                <span class="nav-label">Tasks</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📅</span>
+                <span class="nav-label">Calendar</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">👤</span>
+                <span class="nav-label">Profile</span>
+            </a>
+        </nav>
+    </div>
+</body>
+</html>

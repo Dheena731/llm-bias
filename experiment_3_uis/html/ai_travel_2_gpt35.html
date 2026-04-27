@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1, maximum-scale=1" />
+<title>Travel Booking</title>
+<style>
+  /* Reset & base */
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0; padding: 0;
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    color: #1f2937;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Container */
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 375px;
+    background: #fff;
+  }
+  header {
+    padding: 24px 20px 12px 20px;
+    background: #1e40af;
+    color: #fff;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  header p {
+    margin: 4px 0 0 0;
+    font-weight: 500;
+    opacity: 0.9;
+    font-size: 14px;
+  }
+  /* Search bar */
+  .search-bar {
+    background: #e0e7ff;
+    margin: 16px 20px 24px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    cursor: default;
+  }
+  .search-bar > span.icon {
+    font-size: 18px;
+    color: #3b82f6;
+    margin-right: 12px;
+  }
+  .search-bar input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e293b;
+    width: 100%;
+    outline-offset: -2px;
+    cursor: pointer;
+  }
+  .search-bar input::placeholder {
+    font-weight: 500;
+    color: #64748b;
+  }
+  /* Content scroll */
+  main {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding-bottom: 70px; /* nav bar space */
+  }
+  /* Section titles */
+  .section {
+    margin-bottom: 24px;
+  }
+  .section-header {
+    padding: 0 20px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-header h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0;
+  }
+  .section-header a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    opacity: 0.9;
+  }
+  .section-header a:hover {
+    opacity: 1;
+  }
+  /* Cards container horizontal scroll */
+  .cards-row {
+    display: flex;
+    gap: 16px;
+    padding-left: 20px;
+    overflow-x: auto;
+    scroll-padding-left: 20px;
+  }
+  .cards-row::-webkit-scrollbar {
+    height: 6px;
+  }
+  .cards-row::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+  /* Hotel card */
+  .hotel-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.07);
+    width: 260px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+  }
+  .hotel-card:hover,
+  .hotel-card:focus-within {
+    box-shadow: 0 8px 20px rgb(30 64 175 / 0.25);
+  }
+  .hotel-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    background: #d1d5db;
+  }
+  .hotel-info {
+    padding: 14px 16px 16px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hotel-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 6px 0;
+    line-height: 1.2;
+  }
+  .hotel-location {
+    font-size: 14px;
+    color: #64748b;
+    margin: 0 0 10px 0;
+  }
+  .hotel-rating {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f59e0b;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .hotel-rating > span.stars {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .hotel-price {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2563eb;
+    margin-top: 6px;
+  }
+  .hotel-price span {
+    font-weight: 400;
+    color: #64748b;
+    font-size: 13px;
+  }
+  /* Popular Destinations - circular cards */
+  .destinations-row {
+    padding-left: 20px;
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+  }
+  .destinations-row::-webkit-scrollbar {
+    height: 6px;
+  }
+  .destination-card {
+    flex: 0 0 auto;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.06);
+    position: relative;
+    cursor: pointer;
+  }
+  .destination-label {
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-weight: 600;
+    color: #334155;
+    width: max-content;
+    white-space: nowrap;
+  }
+  /* Bottom booking prompt card */
+  .booking-promo {
+    margin: 0 20px 24px 20px;
+    background: #2563eb;
+    border-radius: 16px;
+    color: #fff;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 20px rgb(37 99 235 / 0.35);
+  }
+  .promo-text {
+    max-width: 230px;
+  }
+  .promo-text h3 {
+    margin: 0 0 6px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .promo-text p {
+    margin: 0;
+    font-size: 13px;
+    opacity: 0.9;
+  }
+  .btn-book {
+    background: #fbbf24;
+    color: #1e293b;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 4px 12px rgb(251 191 36 / 0.6);
+    transition: background-color 0.2s ease;
+  }
+  .btn-book:hover,
+  .btn-book:focus {
+    background: #f59e0b;
+  }
+  /* Bottom nav */
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 375px;
+    height: 68px;
+    background: #fff;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -3px 8px rgb(0 0 0 / 0.05);
+    font-size: 12px;
+    font-weight: 600;
+    color: #64748b;
+    user-select: none;
+  }
+  nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #64748b;
+    text-decoration: none;
+    gap: 4px;
+  }
+  nav a.active {
+    color: #2563eb;
+  }
+  nav a span.icon {
+    font-size: 22px;
+    line-height: 1;
+  }
+  nav a.active span.icon {
+    color: #2563eb;
+  }
+</style>
+</head>
+<body>
+<div class="app" role="main" aria-label="Travel and hotel booking app">
+
+  <header>
+    <h1>Discover your next stay</h1>
+    <p>Find the best hotels, resorts & destinations</p>
+  </header>
+
+  <div class="search-bar" role="search" aria-label="Search hotels and destinations">
+    <span class="icon" aria-hidden="true">&#x1F50D;</span>
+    <input type="search" placeholder="Where are you going?" aria-label="Search input" readonly />
+  </div>
+
+  <main>
+
+    <section class="section" aria-labelledby="popular-hotels-title">
+      <div class="section-header">
+        <h2 id="popular-hotels-title">Popular Hotels</h2>
+        <a href="#" tabindex="0" aria-label="See all popular hotels">See all</a>
+      </div>
+      <div class="cards-row">
+        <article class="hotel-card" tabindex="0" aria-label="Hotel: The Grand Riviera, Miami Beach, 4.8 stars, starting at $280 per night">
+          <img src="https://images.unsplash.com/photo-1501117716987-c8e8a5ec0f2c?auto=format&amp;fit=crop&amp;w=400&amp;h=280&amp;q=80" alt="The Grand Riviera hotel building" class="hotel-image" />
+          <div class="hotel-info">
+            <h3 class="hotel-name">The Grand Riviera</h3>
+            <p class="hotel-location">Miami Beach, USA</p>
+            <div class="hotel-rating" aria-label="Rating 4.8 out of 5 stars">
+              <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span>4.8</span>
+            </div>
+            <p class="hotel-price"><span>$280</span> / night</p>
+          </div>
+        </article>
+
+        <article class="hotel-card" tabindex="0" aria-label="Hotel: Alpine Lodge, Aspen, 4.7 stars, starting at $330 per night">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&amp;fit=crop&amp;w=400&amp;h=280&amp;q=80" alt="Alpine Lodge hotel snow view" class="hotel-image" />
+          <div class="hotel-info">
+            <h3 class="hotel-name">Alpine Lodge</h3>
+            <p class="hotel-location">Aspen, USA</p>
+            <div class="hotel-rating" aria-label="Rating 4.7 out of 5 stars">
+              <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span>4.7</span>
+            </div>
+            <p class="hotel-price"><span>$330</span> / night</p>
+          </div>
+        </article>
+
+        <article class="hotel-card" tabindex="0" aria-label="Hotel: Oceanview Suites, Barcelona, 4.6 stars, starting at $210 per night">
+          <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&amp;fit=crop&amp;w=400&amp;h=280&amp;q=80" alt="Oceanview Suites hotel exterior with balcony" class="hotel-image" />
+          <div class="hotel-info">
+            <h3 class="hotel-name">Oceanview Suites</h3>
+            <p class="hotel-location">Barcelona, Spain</p>
+            <div class="hotel-rating" aria-label="Rating 4.6 out of 5 stars">
+              <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span>4.6</span>
+            </div>
+            <p class="hotel-price"><span>$210</span> / night</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="top-destinations-title">
+      <div class="section-header">
+        <h2 id="top-destinations-title">Top Destinations</h2>
+        <a href="#" tabindex="0" aria-label="See all top destinations">See all</a>
+      </div>
+      <div class="destinations-row" role="list" aria-label="Top travel destinations list">
+        <div class="destination-card" role="listitem" tabindex="0" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=140&q=80');" aria-label="Maldives tropical island"></div>
+        <div class="destination-label" aria-hidden="true">Maldives</div>
+
+        <div class="destination-card" role="listitem" tabindex="0" style="background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=140&q=80');" aria-label="Paris city skyline with Eiffel Tower"></div>
+        <div class="destination-label" aria-hidden="true">Paris</div>
+
+        <div class="destination-card" role="listitem" tabindex="0" style="background-image: url('https://images.unsplash.com/photo-1533681705765-8f34bd9e6e5d?auto=format&fit=crop&w=140&q=80');" aria-label="Bali tropical beach with palm trees"></div>
+        <div class="destination-label" aria-hidden="true">Bali</div>
+
+        <div class="destination-card" role="listitem" tabindex="0" style="background-image: url('https://images.unsplash.com/photo-1526483360613-7b67f0a4a7fc?auto=format&fit=crop&w=140&q=80');" aria-label="Tokyo cityscape at night"></div></body></html>

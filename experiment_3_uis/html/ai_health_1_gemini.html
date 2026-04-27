@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #F8F9FA; /* Light gray background */
+            display: flex;
+            flex-direction: column;
+            color: #343A40; /* Dark text */
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background-color: #FFFFFF;
+            border-bottom: 1px solid #E9ECEF;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .header-icon {
+            font-size: 24px;
+            color: #6C757D;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 16px;
+            padding-bottom: 80px; /* Space for bottom nav */
+        }
+
+        .welcome-card {
+            background-color: #5C6BC0; /* Primary brand color */
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .welcome-card h2 {
+            margin: 0 0 8px 0;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .welcome-card p {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.4;
+            opacity: 0.9;
+        }
+
+        .welcome-card .button {
+            background-color: #8C9EFF; /* Lighter shade of primary */
+            color: #FFFFFF;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 16px;
+            display: inline-block;
+            align-self: flex-start;
+            text-decoration: none;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #212529;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background-color: #FFFFFF;
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .stat-card .icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+            color: #5C6BC0; /* Primary color */
+        }
+
+        .stat-card .value {
+            font-size: 22px;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 4px;
+        }
+
+        .stat-card .label {
+            font-size: 13px;
+            color: #6C757D;
+            font-weight: 500;
+        }
+
+        .activity-card {
+            background-color: #FFFFFF;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+        }
+
+        .activity-card .icon-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #E8EAF6; /* Lightest primary */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 12px;
+            font-size: 20px;
+            color: #5C6BC0;
+        }
+
+        .activity-details {
+            flex-grow: 1;
+        }
+
+        .activity-details h3 {
+            margin: 0 0 4px 0;
+            font-size: 16px;
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .activity-details p {
+            margin: 0;
+            font-size: 13px;
+            color: #6C757D;
+        }
+
+        .activity-value {
+            font-size: 16px;
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .bottom-nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 12px 0;
+            background-color: #FFFFFF;
+            border-top: 1px solid #E9ECEF;
+            box-shadow: 0 -1px 3px rgba(0,0,0,0.05);
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #ADB5BD; /* Gray for inactive */
+        }
+
+        .nav-item.active {
+            color: #5C6BC0; /* Primary for active */
+        }
+
+        .nav-item-icon {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+
+        .nav-item-label {
+            font-size: 11px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="header-icon">☰</span>
+        <span class="header-title">Dashboard</span>
+        <span class="header-icon">🔔</span>
+    </div>
+
+    <div class="main-content">
+        <div class="welcome-card">
+            <h2>Good morning, Alex!</h2>
+            <p>You're doing great! Keep up the good work and stay hydrated today.</p>
+            <a href="#" class="button">Log Activity</a>
+        </div>
+
+        <h2 class="section-title">Today's Progress</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="icon">👟</span>
+                <span class="value">8,200</span>
+                <span class="label">Steps walked</span>
+            </div>
+            <div class="stat-card">
+                <span class="icon">💧</span>
+                <span class="value">2.1L</span>
+                <span class="label">Water intake</span>
+            </div>
+            <div class="stat-card">
+                <span class="icon">🔥</span>
+                <span class="value">450</span>
+                <span class="label">Calories burned</span>
+            </div>
+            <div class="stat-card">
+                <span class="icon">😴</span>
+                <span class="value">7h 30m</span>
+                <span class="label">Sleep last night</span>
+            </div>
+        </div>
+
+        <h2 class="section-title">Recent Activities</h2>
+        <div class="activity-card">
+            <div class="icon-circle">🏃</div>
+            <div class="activity-details">
+                <h3>Morning Run</h3>
+                <p>30 minutes, 4.5 km</p>
+            </div>
+            <span class="activity-value">310 kcal</span>
+        </div>
+        <div class="activity-card">
+            <div class="icon-circle">🧘</div>
+            <div class="activity-details">
+                <h3>Yoga Session</h3>
+                <p>45 minutes, Vinyasa Flow</p>
+            </div>
+            <span class="activity-value">180 kcal</span>
+        </div>
+        <div class="activity-card">
+            <div class="icon-circle">🥗</div>
+            <div class="activity-details">
+                <h3>Logged Lunch</h3>
+                <p>Chicken salad with avocado</p>
+            </div>
+            <span class="activity-value">420 kcal</span>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="#" class="nav-item active">
+            <span class="nav-item-icon">🏠</span>
+            <span class="nav-item-label">Home</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-item-icon">📈</span>
+            <span class="nav-item-label">Progress</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-item-icon">➕</span>
+            <span class="nav-item-label">Add</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-item-icon">🏆</span>
+            <span class="nav-item-label">Goals</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-item-icon">👤</span>
+            <span class="nav-item-label">Profile</span>
+        </a>
+    </div>
+</body>
+</html>

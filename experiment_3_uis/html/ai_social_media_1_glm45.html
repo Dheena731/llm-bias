@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialApp - Connect with Friends</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #F3F4F6;
+            color: #1F2937;
+        }
+
+        /* Top Navigation */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 44px;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            color: #3B82F6;
+        }
+
+        .top-nav-icons {
+            display: flex;
+            gap: 16px;
+        }
+
+        .top-nav-icons span {
+            font-size: 20px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .top-nav-icons span:hover {
+            opacity: 0.7;
+        }
+
+        /* Stories Section */
+        .stories {
+            position: fixed;
+            top: 44px;
+            left: 0;
+            right: 0;
+            height: 104px;
+            background: white;
+            padding: 12px 16px;
+            overflow-x: auto;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            z-index: 99;
+        }
+
+        .stories-container {
+            display: flex;
+            gap: 12px;
+            min-width: max-content;
+        }
+
+        .story-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+        }
+
+        .story-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #3B82F6;
+            position: relative;
+        }
+
+        .story-avatar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .story-avatar::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            right: -2px;
+            width: 16px;
+            height: 16px;
+            background: white;
+            border-radius: 50%;
+            border: 2px solid #3B82F6;
+        }
+
+        .story-name {
+            font-size: 11px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        /* Main Feed */
+        .feed {
+            margin-top: 148px;
+            padding-bottom: 70px;
+        }
+
+        .post {
+            background: white;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            padding: 14px 16px;
+            gap: 12px;
+        }
+
+        .post-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #E5E7EB;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #6B7280;
+        }
+
+        .post-info {
+            flex: 1;
+        }
+
+        .post-author {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .post-time {
+            font-size: 12px;
+            color: #6B7280;
+        }
+
+        .post-options {
+            cursor: pointer;
+            font-size: 20px;
+            color: #6B7280;
+        }
+
+        .post-content {
+            padding: 0 16px 12px;
+        }
+
+        .post-text {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+
+        .post-image {
+            width: 100%;
+            height: 300px;
+            background: #E5E7EB;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #9CA3AF;
+        }
+
+        .post-stats {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 16px 12px;
+            font-size: 12px;
+            color: #6B7280;
+        }
+
+        .post-actions {
+            display: flex;
+            gap: 16px;
+            padding: 0 16px;
+            border-top: 1px solid #F3F4F6;
+            cursor: pointer;
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            padding: 8px 0;
+            color: #4B5563;
+            transition: color 0.2s;
+        }
+
+        .action-btn:hover {
+            color: #3B82F6;
+        }
+
+        .action-btn.liked {
+            color: #EF4444;
+        }
+
+        .action-btn i {
+            font-size: 20px;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 70px;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 -1px 3px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .nav-item.active {
+            color: #3B82F6;
+        }
+
+        .nav-item span {
+            font-size: 22px;
+        }
+
+        .nav-label {
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #F3F4F6;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #D1D5DB;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <div class="top-nav">
+        <div class="logo">SocialApp</div>
+        <div class="top-nav-icons">
+            <span>🔍</span>
+            <span>💬</span>
+            <span>⚙️</span>
+        </div>
+    </div>
+
+    <!-- Stories Section -->
+    <div class="stories">
+        <div class="stories-container">
+            <div class="story-item">
+                <div class="story-avatar">👤</div>
+                <div class="story-name">Your Story</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">👩</div>
+                <div class="story-name">Sarah</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">👨</div>
+                <div class="story-name">Mike</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">👧</div>
+                <div class="story-name">Emma</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">👦</div>
+                <div class="story-name">James</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">👩‍🦰</div>
+                <div class="story-name">Lisa</div>
+            </div>
+            <div class="story-item">
+                <div class="story-avatar">👨‍🦱</div>
+                <div class="story-name">Tom</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Feed -->
+    <div class="feed">
+        <!-- Post 1 -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post-avatar">S</div>
+                <div class="post-info">
+                    <div class="post-author">Sarah Johnson</div>
+                    <div class="post-time">2 hours ago</div>
+                </div>
+                <div class="post-options">⋯</div>
+            </div>
+            <div class="post-content">
+                <div class="post-text">
+                    Just had the most amazing coffee at this little café downtown ☕️ The atmosphere is so cozy and the barista made the perfect latte art! Highly recommend if you're in the area. #CoffeeLover #GoodVibes
+                </div>
+                <div class="post-image">Post Image</div>
+            </div>
+            <div class="post-stats">
+                <span>❤️ 234 likes</span>
+                <span>💬 42 comments</span>
+            </div>
+            <div class="post-actions">
+                <div class="action-btn">
+                    <span>👍</span>
+                    <span>Like</span>
+                </div>
+                <div class="action-btn">
+                    <span>💬</span>
+                    <span>Comment</span>
+                </div>
+                <div class="action-btn">
+                    <span>↗️</span>
+                    <span>Share</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post-avatar">M</div>
+                <div class="post-info">
+                    <div class="post-author">Mike Chen</div>
+                    <div class="post-time">4 hours ago</div>
+                </div>
+                <div class="post-options">⋯</div>
+            </div>
+            <div class="post-content">
+                <div class="post-text">
+                    Finally finished my weekend hiking trip! The views were absolutely breathtaking at the summit 🏔️ Feeling accomplished and refreshed. Can't wait for the next adventure! 🌲🌄 #Hiking #Nature #WeekendVibes
+                </div>
+                <div class="post-image">Post Image</div>
+            </div>
+            <div class="post-stats">
+                <span>❤️ 567 likes</span>
+                <span>💬 89 comments</span>
+            </div>
+            <div class="post-actions">
+                <div class="action-btn liked">
+                    <span>❤️</span>
+                    <span>Liked</span>
+                </div>
+                <div class="action-btn">
+                    <span>💬</span>
+                    <span>Comment</span>
+                </div>
+                <div class="action-btn">
+                    <span>↗️</span>
+                    <span>Share</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post-avatar">E</div>
+                <div class="post-info">
+                    <div class="post-author">Emma Williams</div>
+                    <div class="post-time">Yesterday</div>
+                </div>
+                <div class="post-options">⋯</div>
+            </div>
+            <div class="post-content">
+                <div class="post-text">
+                    Just adopted this little guy! 🐶 Meet Max, my new best friend. He's already made my apartment feel so much more alive. Can't wait for all the adventures we'll have together! 🐾 #NewPet #DogLover #AdoptDontShop
+                </div>
+                <div class="post-image">Post Image</div>
+            </div>
+            <div class="post-stats">
+                <span>❤️ 892 likes</span>
+                <span>💬 156 comments</span>
+            </div>
+            <div class="post-actions">
+                <div class="action-btn">
+                    <span>👍</span>
+                    <span>Like</span>
+                </div>
+                <div class="action-btn">
+                    <span>💬</span>
+                    <span>Comment</span>
+                </div>
+                <div class="action-btn">
+                    <span>↗️</span>
+                    <span>Share</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post-avatar">J</div>
+                <div class="post-info">
+                    <div class="post-author">James Rodriguez</div>
+                    <div class="post-time">2 days ago</div>
+                </div>
+                <div class="post-options">⋯</div>
+            </div>
+            <div class="post-content">
+                <div class="post-text">
+                    Launched my new project today after 6 months of hard work! So proud of what our team has accomplished. Feeling motivated to keep building amazing things. 💪 #StartupLife #Tech #Entrepreneurship
+                </div>
+                <div class="post-image">Post Image</div>
+            </div>
+            <div class="post-stats">
+                <span>❤️ 423 likes</span>
+                <span>💬 67 comments</span>
+            </div>
+            <div class="post-actions">
+                <div class="action-btn">
+                    <span>👍</span>
+                    <span>Like</span>
+                </div>
+                <div class="action-btn">
+                    <span>💬</span>
+                    <span>Comment</span>
+                </div>
+                <div class="action-btn">
+                    <span>↗️</span>
+                    <span>Share</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div class="nav-item active">
+            <span>🏠</span>
+            <div class="nav-label">Home</div>
+        </div>
+        <div class="nav-item">
+            <span>🔍</span>
+            <div class="nav-label">Explore</div>
+        </div>
+        <div class="nav-item">
+            <span>✉️</span>
+            <div class="nav-label">Messages</div>
+        </div>
+        <div class="nav-item">
+            <span>📷</span>
+            <div class="nav-label">Create</div>
+        </div>
+        <div class="nav-item">
+            <span>👤</span>
+            <div class="nav-label">Profile</div>
+        </div>
+    </div>
+</body>
+</html>

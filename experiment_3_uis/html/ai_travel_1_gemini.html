@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelApp</title>
+    <style>
+        body, html {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #f8f8f8;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            z-index: 10;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333333;
+            margin: 0;
+        }
+
+        .header .icon-btn {
+            font-size: 20px;
+            color: #666666;
+            text-decoration: none;
+        }
+
+        /* Search Bar */
+        .search-bar {
+            padding: 12px 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .search-input {
+            width: calc(100% - 40px);
+            padding: 12px 15px;
+            border: none;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            font-size: 16px;
+            color: #333333;
+            outline: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-input::placeholder {
+            color: #999999;
+        }
+
+        .search-input span {
+            margin-right: 8px;
+            color: #999999;
+            font-size: 18px;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 16px 20px;
+            background-color: #f8f8f8;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333333;
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+
+        .card-scroll-wrapper {
+            display: flex;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .card-scroll-wrapper::-webkit-scrollbar {
+            display: none;
+        }
+
+        .city-card {
+            flex-shrink: 0;
+            width: 150px;
+            height: 180px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            margin-right: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            position: relative;
+        }
+
+        .city-card img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .city-card-info {
+            padding: 10px;
+        }
+
+        .city-card-info h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #333333;
+            margin: 0 0 4px 0;
+        }
+
+        .city-card-info p {
+            font-size: 13px;
+            color: #777777;
+            margin: 0;
+        }
+
+        .hotel-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            overflow: hidden;
+            height: 120px;
+        }
+
+        .hotel-card-image {
+            width: 120px;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .hotel-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hotel-card-info {
+            flex-grow: 1;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .hotel-card-info h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333333;
+            margin: 0;
+        }
+
+        .hotel-card-info p {
+            font-size: 13px;
+            color: #777777;
+            margin: 4px 0 0 0;
+        }
+
+        .hotel-card-rating {
+            font-size: 13px;
+            color: #FFC107;
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+        }
+
+        .hotel-card-rating span {
+            margin-right: 4px;
+            color: #FFC107;
+        }
+
+        .hotel-card-price {
+            font-size: 16px;
+            font-weight: 700;
+            color: #007AFF;
+            text-align: right;
+            margin-top: auto;
+        }
+
+        .hotel-card-price small {
+            font-size: 12px;
+            font-weight: 500;
+            color: #999999;
+        }
+
+        /* Navigation Bar */
+        .nav-bar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: #ffffff;
+            border-top: 1px solid #eeeeee;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.03);
+            z-index: 10;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #999999;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .nav-item.active {
+            color: #007AFF;
+        }
+
+        .nav-item .icon {
+            font-size: 22px;
+            margin-bottom: 4px;
+        }
+
+        .nav-item.active .icon {
+            color: #007AFF;
+        }
+
+        .nav-item:not(.active) .icon {
+            color: #999999;
+        }
+
+        /* Utility classes for flex items */
+        .d-flex {
+            display: flex;
+        }
+        .justify-content-between {
+            justify-content: space-between;
+        }
+        .align-items-center {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Explore</h1>
+            <a href="#" class="icon-btn">⚙️</a>
+        </div>
+
+        <div class="search-bar">
+            <div class="search-input">
+                <span>🔍</span> Where do you want to go?
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="section-title">Popular Destinations</div>
+            <div class="card-scroll-wrapper">
+                <div class="city-card">
+                    <img src="https://via.placeholder.com/150x100/A7D9FD/ffffff?text=Paris" alt="Paris skyline">
+                    <div class="city-card-info">
+                        <h3>Paris</h3>
+                        <p>France</p>
+                    </div>
+                </div>
+                <div class="city-card">
+                    <img src="https://via.placeholder.com/150x100/FFDDC1/ffffff?text=Tokyo" alt="Tokyo cityscape">
+                    <div class="city-card-info">
+                        <h3>Tokyo</h3>
+                        <p>Japan</p>
+                    </div>
+                </div>
+                <div class="city-card">
+                    <img src="https://via.placeholder.com/150x100/D1F7C4/ffffff?text=Rome" alt="Rome Colosseum">
+                    <div class="city-card-info">
+                        <h3>Rome</h3>
+                        <p>Italy</p>
+                    </div>
+                </div>
+                <div class="city-card">
+                    <img src="https://via.placeholder.com/150x100/FDC1D1/ffffff?text=London" alt="London bridge">
+                    <div class="city-card-info">
+                        <h3>London</h3>
+                        <p>UK</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">Recommended Hotels</div>
+            <div class="hotel-card">
+                <div class="hotel-card-image">
+                    <img src="https://via.placeholder.com/120x120/E6F0F8/ffffff?text=Hotel+A" alt="Hotel room view">
+                </div>
+                <div class="hotel-card-info">
+                    <h3>Grand Hyatt Paris</h3>
+                    <p>Champs-Élysées, Paris</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="hotel-card-rating">
+                            <span>⭐</span> 4.8 (2,100 reviews)
+                        </div>
+                        <div class="hotel-card-price">
+                            $320 <small>/ night</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-card-image">
+                    <img src="https://via.placeholder.com/120x120/F0E6F8/ffffff?text=Hotel+B" alt="Luxury hotel lobby">
+                </div>
+                <div class="hotel-card-info">
+                    <h3>The Tokyo Palace</h3>
+                    <p>Shinjuku, Tokyo</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="hotel-card-rating">
+                            <span>⭐</span> 4.9 (1,850 reviews)
+                        </div>
+                        <div class="hotel-card-price">
+                            $450 <small>/ night</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-card-image">
+                    <img src="https://via.placeholder.com/120x120/F8EBE6/ffffff?text=Hotel+C" alt="Hotel pool area">
+                </div>
+                <div class="hotel-card-info">
+                    <h3>Rome Boutique Suites</h3>
+                    <p>Near Colosseum, Rome</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="hotel-card-rating">
+                            <span>⭐</span> 4.7 (1,500 reviews)
+                        </div>
+                        <div class="hotel-card-price">
+                            $280 <small>/ night</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-bar">
+            <a href="#" class="nav-item active">
+                <span class="icon">🏠</span>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">✈️</span>
+                <span>Flights</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">🏨</span>
+                <span>Hotels</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">❤️</span>
+                <span>Saved</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Productivity App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            background-color: #F2F2F7;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .header {
+            background-color: #FFFFFF;
+            padding: 20px 16px 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .app-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #000000;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .search-bar {
+            background-color: #F2F2F7;
+            border-radius: 10px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .search-icon {
+            color: #8E8E93;
+            font-size: 18px;
+        }
+        
+        .search-input {
+            flex: 1;
+            border: none;
+            background: none;
+            font-size: 16px;
+            color: #000000;
+        }
+        
+        .search-input::placeholder {
+            color: #8E8E93;
+        }
+        
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+            padding-bottom: 80px;
+        }
+        
+        .category-tabs {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .category-tab {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #8E8E93;
+            background-color: rgba(0, 122, 255, 0.1);
+            border: 1px solid rgba(0, 122, 255, 0.2);
+        }
+        
+        .category-tab.active {
+            background-color: #007AFF;
+            color: white;
+            border-color: #007AFF;
+        }
+        
+        .task-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .task-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .task-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .task-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        
+        .task-checkbox {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #E5E5EA;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .task-checkbox.checked {
+            background-color: #34C759;
+            border-color: #34C759;
+        }
+        
+        .task-checkbox.checked::after {
+            content: "✓";
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .task-info {
+            flex: 1;
+        }
+        
+        .task-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 4px;
+        }
+        
+        .task-title.completed {
+            color: #8E8E93;
+            text-decoration: line-through;
+        }
+        
+        .task-meta {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+        
+        .task-due {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            color: #8E8E93;
+        }
+        
+        .priority-high {
+            color: #FF3B30;
+        }
+        
+        .priority-medium {
+            color: #FF9500;
+        }
+        
+        .priority-low {
+            color: #34C759;
+        }
+        
+        .task-project {
+            font-size: 13px;
+            color: #007AFF;
+            font-weight: 500;
+        }
+        
+        .floating-button {
+            position: fixed;
+            bottom: 88px;
+            right: 20px;
+            width: 56px;
+            height: 56px;
+            background-color: #007AFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .floating-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 122, 255, 0.4);
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            border-top: 1px solid #E5E5EA;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .nav-item:hover {
+            color: #007AFF;
+        }
+        
+        .nav-icon {
+            font-size: 20px;
+        }
+        
+        .nav-label {
+            font-size: 11px;
+            font-weight: 500;
+        }
+        
+        .nav-item.active {
+            color: #007AFF;
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        
+        .stat-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 4px;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #8E8E93;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-top">
+                <h1 class="app-title">TaskFlow</h1>
+                <div class="user-avatar">JD</div>
+            </div>
+            <div class="search-bar">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-input" placeholder="Search tasks...">
+            </div>
+        </header>
+        
+        <main class="content">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-value">12</div>
+                    <div class="stat-label">Today</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">28</div>
+                    <div class="stat-label">This Week</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">85%</div>
+                    <div class="stat-label">Done</div>
+                </div>
+            </div>
+            
+            <div class="category-tabs">
+                <div class="category-tab active">Today</div>
+                <div class="category-tab">Upcoming</div>
+                <div class="category-tab">Completed</div>
+            </div>
+            
+            <div class="task-list">
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-checkbox"></div>
+                        <div class="task-info">
+                            <div class="task-title">Review Q4 marketing strategy with team</div>
+                            <div class="task-meta">
+                                <div class="task-due priority-high">
+                                    <span>⏰</span>
+                                    <span>Due today, 2:00 PM</span>
+                                </div>
+                                <div class="task-project">Marketing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-checkbox checked"></div>
+                        <div class="task-info">
+                            <div class="task-title completed">Update project documentation</div>
+                            <div class="task-meta">
+                                <div class="task-due priority-low">
+                                    <span>⏰</span>
+                                    <span>Completed</span>
+                                </div>
+                                <div class="task-project">Development</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-checkbox"></div>
+                        <div class="task-info">
+                            <div class="task-title">Prepare presentation for client meeting</div>
+                            <div class="task-meta">
+                                <div class="task-due priority-high">
+                                    <span>⏰</span>
+                                    <span>Due today, 5:00 PM</span>
+                                </div>
+                                <div class="task-project">Sales</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-checkbox"></div>
+                        <div class="task-info">
+                            <div class="task-title">Code review for feature branch</div>
+                            <div class="task-meta">
+                                <div class="task-due priority-medium">
+                                    <span>⏰</span>
+                                    <span>Tomorrow, 10:00 AM</span>
+                                </div>
+                                <div class="task-project">Engineering</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-checkbox"></div>
+                        <div class="task-info">
+                            <div class="task-title">Schedule team building event</div>
+                            <div class="task-meta">
+                                <div class="task-due priority-low">
+                                    <span>⏰</span>
+                                    <span>Due in 3 days</span>
+                                </div>
+                                <div class="task-project">HR</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-checkbox"></div>
+                        <div class="task-info">
+                            <div class="task-title">Analyze user feedback from surveys</div>
+                            <div class="task-meta">
+                                <div class="task-due priority-medium">
+                                    <span>⏰</span>
+                                    <span>Due in 2 days</span>
+                                </div>
+                                <div class="task-project">Product</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <div class="floating-button">+</div>
+        
+        <nav class="bottom-nav">
+            <div class="nav-item active">
+                <div class="nav-icon">📋</div>
+                <div class="nav-label">Tasks</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">📊</div>
+                <div class="nav-label">Stats</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👥</div>
+                <div class="nav-label">Team</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">⚙️</div>
+                <div class="nav-label">Settings</div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>

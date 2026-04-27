@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StreamWave</title>
+    <style>
+        /* RESET & BASE STYLES */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            position: relative;
+            /* Subtle dark gradient background */
+            background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
+        }
+
+        /* SCROLLABLE AREAS */
+        .scroll-container {
+            height: calc(100% - 180px); /* Leave space for player and nav */
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 20px;
+        }
+
+        /* Hide scrollbar for cleaner look */
+        .scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* HEADER */
+        .header {
+            padding: 50px 20px 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(18,18,18,0) 100%);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .header-icons span {
+            font-size: 20px;
+            margin-left: 15px;
+            opacity: 0.7;
+        }
+
+        /* GREETING SECTION */
+        .greeting {
+            padding: 10px 20px;
+            margin-bottom: 10px;
+        }
+        .greeting p {
+            font-size: 15px;
+            color: #b3b3b3;
+        }
+        .greeting h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        /* SECTION TITLES */
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 25px 20px 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .section-title span {
+            font-size: 13px;
+            color: #b3b3b3;
+            font-weight: 500;
+        }
+
+        /* CARD GRID (Playlists) */
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 10px 0 20px;
+            gap: 16px;
+        }
+
+        .playlist-card {
+            width: 145px;
+            background-color: #181818;
+            border-radius: 8px;
+            padding: 12px;
+            position: relative;
+            transition: background-color 0.2s;
+        }
+        
+        /* Simulate hover effect for touch */
+        .playlist-card:active {
+            background-color: #282828;
+        }
+
+        .card-img {
+            width: 121px;
+            height: 121px;
+            background-color: #333;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+
+        /* Mock Images using gradients */
+        .img-1 { background: linear-gradient(135deg, #E13300, #E8115B); }
+        .img-2 { background: linear-gradient(135deg, #1E3264, #4CAF50); }
+        .img-3 { background: linear-gradient(135deg, #8D67AB, #503750); }
+        .img-4 { background: linear-gradient(135deg, #E91429, #BC5900); }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 4px;
+        }
+        .card-desc {
+            font-size: 12px;
+            color: #b3b3b3;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* BIG PLAY BUTTON ON CARD */
+        .play-btn-card {
+            position: absolute;
+            bottom: 100px; /* Adjusted relative to card */
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: #1db954;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+        }
+        
+        .playlist-card:hover .play-btn-card {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Just for HTML/CSS demo without JS, we use the checkbox hack to simulate interaction */
+        .card-interaction {
+            position: absolute;
+            bottom: 100px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: #1db954;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        .playlist-card:hover .card-interaction {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .card-interaction span {
+            font-size: 16px;
+            color: #000;
+            margin-left: 2px;
+        }
+
+        /* HORIZONTAL SCROLL SECTION */
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: auto;
+            padding: 0 20px 20px 20px;
+            gap: 16px;
+        }
+        .horizontal-scroll::-webkit-scrollbar { display: none; }
+
+        .artist-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 90px;
+        }
+        .artist-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: #333;
+            margin-bottom: 8px;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #282828;
+        }
+        .artist-img::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 60%, rgba(0,0,0,0.5) 100%);
+        }
+        
+        /* Artist Image Mocks */
+        .art-1 { background: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop') center/cover; }
+        .art-2 { background: url('https://images.unsplash.com/photo-1516280440614-6697288d5d38?w=200&h=200&fit=crop') center/cover; }
+        .art-3 { background: url('https://images.unsplash.com/photo-1514525253440-b393452e8d26?w=200&h=200&fit=crop') center/cover; }
+        .art-4 { background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=200&h=200&fit=crop') center/cover; }
+
+        .artist-name {
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        /* PLAYER BAR (BOTTOM) */
+        .player-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 88px;
+            background: linear-gradient(0deg, rgba(30,30,30,1) 0%, rgba(30,30,30,0.95) 100%);
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: 0 16px;
+            display: flex;
+            align-items: center;
+            z-index: 20;
+        }
+
+        .player-track-img {
+            width: 56px;
+            height: 56px;
+            border-radius: 4px;
+            background: linear-gradient(135deg, #450af5, #c4efd9);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        .player-info {
+            flex: 1;
+            margin-left: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .player-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 2px;
+        }
+
+        .player-artist {
+            font-size: 11px;
+            color: #b3b3b3;
+        }
+
+        .player-actions {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .player-actions span {
+            font-size: 20px;
+            color: #b3b3b3;
+            cursor: pointer;
+        }
+        
+        .player-actions .like-active {
+            color: #1db954;
+        }
+
+        /* NAV BAR (BOTTOM) */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 88px;
+            background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(24,24,24,0.95) 100%);
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding-top: 12px;
+            z-index: 21;
+            /* Masking effect to blend with player */
+            mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            width: 60px;
+        }
+
+        .nav-icon {
+            font-size: 22px;
+            opacity: 0.5;
+            transition: opacity 0.2s;
+        }
+
+        .nav-item.active .nav-icon {
+            opacity: 1;
+        }
+        
+        .nav-item.active::after {
+            content: '';
+            width: 4px;
+            height: 4px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin-top: 2px;
+        }
+
+        .nav-label {
+            font-size: 10px;
+            color: #b3b3b3;
+            font-weight: 400;
+        }
+
+        /* OVERLAY TO SIMULATE BOTTOM BLUR */
+        .bottom-fade {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            background: linear-gradient(0deg, #121212 0%, transparent 100%);
+            pointer-events: none;
+            z-index: 5;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Good evening</h1>
+        <div class="header-icons">
+            <span>🔔</span> <!-- Bell icon -->
+            <span>🕘</span> <!-- History icon -->
+            <span>⚙️</span> <!-- Settings icon -->
+        </div>
+    </header>
+
+    <!-- Main Scrollable Content -->
+    <div class="scroll-container">
+        
+        <div class="greeting">
+            <p>Recently played</p>
+            <h2>Discover Weekly</h2>
+        </div>
+
+        <!-- Playlist Grid -->
+        <div class="card-grid">
+            <div class="playlist-card">
+                <div class="card-img img-1"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">Today's Top Hits</div>
+                <div class="card-desc">The hottest 50 tracks right now.</div>
+            </div>
+            <div class="playlist-card">
+                <div class="card-img img-2"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">RapCaviar</div>
+                <div class="card-desc">New music from Drake, Travis Scott...</div>
+            </div>
+            <div class="playlist-card">
+                <div class="card-img img-3"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">All Out 2010s</div>
+                <div class="card-desc">The biggest songs of the 2010s.</div>
+            </div>
+            <div class="playlist-card">
+                <div class="card-img img-4"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">Rock Classics</div>
+                <div class="card-desc">Rock legends & icons.</div>
+            </div>
+        </div>
+
+        <!-- Section Title -->
+        <div class="section-title">
+            Made For You <span>See all</span>
+        </div>
+
+        <!-- Horizontal Scroll Artists -->
+        <div class="horizontal-scroll">
+            <div class="artist-card">
+                <div class="artist-img art-1"></div>
+                <span class="artist-name">Daily Mix 1</span>
+            </div>
+            <div class="artist-card">
+                <div class="artist-img art-2"></div>
+                <span class="artist-name">Daily Mix 2</span>
+            </div>
+            <div class="artist-card">
+                <div class="artist-img art-3"></div>
+                <span class="artist-name">Daily Mix 3</span>
+            </div>
+            <div class="artist-card">
+                <div class="artist-img art-4"></div>
+                <span class="artist-name">Daily Mix 4</span>
+            </div>
+        </div>
+
+        <!-- Section Title -->
+        <div class="section-title">
+            Popular Artists <span>See all</span>
+        </div>
+
+        <!-- Playlist Grid 2 -->
+        <div class="card-grid">
+            <div class="playlist-card">
+                <div class="card-img img-3"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">Chill Hits</div>
+                <div class="card-desc">Kick back to the best chill music.</div>
+            </div>
+            <div class="playlist-card">
+                <div class="card-img img-1"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">Mood Booster</div>
+                <div class="card-desc">Get happy with today's mood booster.</div>
+            </div>
+            <div class="playlist-card">
+                <div class="card-img img-2"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">Fresh Finds</div>
+                <div class="card-desc">Catch the newest releases.</div>
+            </div>
+            <div class="playlist-card">
+                <div class="card-img img-4"></div>
+                <div class="card-interaction"><span>▶</span></div>
+                <div class="card-title">Release Radar</div>
+                <div class="card-desc">Catch all the latest music.</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Player Bar (Floating at bottom) -->
+    <div class="player-bar">
+        <div class="player-track-img"></div>
+        <div class="player-info">
+            <div class="player-title">Blinding Lights</div>
+            <div class="player-artist">The Weeknd</div>
+        </div>
+        <div class="player-actions">
+            <span>♡</span> <!-- Heart -->
+            <span>▶</span> <!-- Play/Pause -->
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <div class</body></html>

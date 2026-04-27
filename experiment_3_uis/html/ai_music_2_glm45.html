@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #121212;
+            color: #FFFFFF;
+        }
+        
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Header */
+        .header {
+            padding: 16px 16px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #2A2A2A;
+        }
+        
+        .menu-icon {
+            font-size: 24px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        
+        .search-bar {
+            flex: 1;
+            margin: 0 16px;
+            position: relative;
+        }
+        
+        .search-bar input {
+            width: 100%;
+            padding: 8px 16px 8px 36px;
+            background-color: #2A2A2A;
+            border: none;
+            border-radius: 20px;
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+        
+        .search-bar::before {
+            content: "🔍";
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .profile-icon {
+            font-size: 24px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        
+        /* Content */
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 80px;
+        }
+        
+        /* Section Headers */
+        .section-header {
+            padding: 16px 16px 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .see-all {
+            font-size: 14px;
+            color: #1DB954;
+            cursor: pointer;
+        }
+        
+        /* Featured Playlists */
+        .featured-playlists {
+            padding: 8px 16px;
+        }
+        
+        .playlist-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        
+        .playlist-card {
+            background-color: #2A2A2A;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .playlist-card:hover {
+            transform: scale(1.02);
+        }
+        
+        .playlist-image {
+            width: 100%;
+            height: 120px;
+            background-color: #1A1A1A;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+        
+        .playlist-info {
+            padding: 8px 12px;
+        }
+        
+        .playlist-name {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .playlist-creator {
+            font-size: 12px;
+            color: #B3B3B3;
+        }
+        
+        /* Recently Played */
+        .recently-played {
+            padding: 16px;
+        }
+        
+        .recent-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+        }
+        
+        .recent-card {
+            cursor: pointer;
+        }
+        
+        .recent-image {
+            width: 100%;
+            aspect-ratio: 1;
+            background-color: #2A2A2A;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 4px;
+        }
+        
+        .recent-name {
+            font-size: 12px;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        /* Recommended */
+        .recommended {
+            padding: 16px;
+        }
+        
+        .track-list {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        
+        .track-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            border-radius: 8px;
+            padding-left: 8px;
+        }
+        
+        .track-item:hover {
+            background-color: #1A1A1A;
+        }
+        
+        .track-number {
+            width: 24px;
+            text-align: center;
+            font-size: 14px;
+            color: #B3B3B3;
+        }
+        
+        .track-info {
+            flex: 1;
+            margin-left: 12px;
+        }
+        
+        .track-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+        
+        .track-artist {
+            font-size: 12px;
+            color: #B3B3B3;
+        }
+        
+        .track-duration {
+            font-size: 12px;
+            color: #B3B3B3;
+            margin-right: 12px;
+        }
+        
+        .play-icon {
+            font-size: 16px;
+            color: #1DB954;
+            cursor: pointer;
+        }
+        
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background-color: #121212;
+            border-top: 1px solid #2A2A2A;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-bottom: 20px;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        
+        .nav-item:hover {
+            opacity: 0.8;
+        }
+        
+        .nav-icon {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+        
+        .nav-label {
+            font-size: 11px;
+            color: #B3B3B3;
+        }
+        
+        .nav-item.active .nav-icon {
+            color: #1DB954;
+        }
+        
+        .nav-item.active .nav-label {
+            color: #FFFFFF;
+        }
+        
+        /* Now Playing Bar */
+        .now-playing-bar {
+            position: fixed;
+            bottom: 80px;
+            left: 0;
+            right: 0;
+            height: 64px;
+            background-color: #1A1A1A;
+            border-top: 1px solid #2A2A2A;
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            z-index: 10;
+        }
+        
+        .now-playing-info {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .now-playing-image {
+            width: 48px;
+            height: 48px;
+            background-color: #2A2A2A;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        
+        .now-playing-details {
+            flex: 1;
+        }
+        
+        .now-playing-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+        
+        .now-playing-artist {
+            font-size: 12px;
+            color: #B3B3B3;
+        }
+        
+        .now-playing-controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        
+        .control-btn {
+            font-size: 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        
+        .control-btn:hover {
+            opacity: 0.8;
+        }
+        
+        .play-pause-btn {
+            font-size: 24px;
+            color: #1DB954;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="menu-icon">☰</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search artists, songs, or podcasts">
+            </div>
+            <div class="profile-icon">👤</div>
+        </header>
+        
+        <!-- Content -->
+        <div class="content">
+            <!-- Featured Playlists -->
+            <section class="featured-playlists">
+                <div class="section-header">
+                    <h2 class="section-title">Made for You</h2>
+                    <span class="see-all">SEE ALL</span>
+                </div>
+                <div class="playlist-grid">
+                    <div class="playlist-card">
+                        <div class="playlist-image">🎵</div>
+                        <div class="playlist-info">
+                            <div class="playlist-name">Daily Mix 1</div>
+                            <div class="playlist-creator">Because you liked Imagine Dragons</div>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-image">🎧</div>
+                        <div class="playlist-info">
+                            <div class="playlist-name">Discover Weekly</div>
+                            <div class="playlist-creator">New music for you</div>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-image">🎼</div>
+                        <div class="playlist-info">
+                            <div class="playlist-name">Release Radar</div>
+                            <div class="playlist-creator">Your weekly update</div>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-image">🎤</div>
+                        <div class="playlist-info">
+                            <div class="playlist-name">Chill Hits</div>
+                            <div class="playlist-creator">Your low-key favorites</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Recently Played -->
+            <section class="recently-played">
+                <div class="section-header">
+                    <h2 class="section-title">Recently Played</h2>
+                    <span class="see-all">SEE ALL</span>
+                </div>
+                <div class="recent-grid">
+                    <div class="recent-card">
+                        <div class="recent-image">🎸</div>
+                        <div class="recent-name">Rock Classics</div>
+                    </div>
+                    <div class="recent-card">
+                        <div class="recent-image">🎹</div>
+                        <div class="recent-name">Jazz Vibes</div>
+                    </div>
+                    <div class="recent-card">
+                        <div class="recent-image">🎺</div>
+                        <div class="recent-name">Workout Motivation</div>
+                    </div>
+                    <div class="recent-card">
+                        <div class="recent-image">🥁</div>
+                        <div class="recent-name">Ambient Sounds</div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Recommended -->
+            <section class="recommended">
+                <div class="section-header">
+                    <h2 class="section-title">Recommended Songs</h2>
+                    <span class="see-all">SEE ALL</span>
+                </div>
+                <div class="track-list">
+                    <div class="track-item">
+                        <div class="track-number">1</div>
+                        <div class="track-info">
+                            <div class="track-title">Blinding Lights</div>
+                            <div class="track-artist">The Weeknd</div>
+                        </div>
+                        <div class="track-duration">3:20</div>
+                        <div class="play-icon">▶️</div>
+                    </div>
+                    <div class="track-item">
+                        <div class="track-number">2</div>
+                        <div class="track-info">
+                            <div class="track-title">Save Your Tears</div>
+                            <div class="track-artist">The Weeknd</div>
+                        </div>
+                        <div class="track-duration">3:35</div>
+                        <div class="play-icon">▶️</div>
+                    </div>
+                    <div class="track-item">
+                        <div class="track-number">3</div>
+                        <div class="track-info">
+                            <div class="track-title">Watermelon Sugar</div>
+                            <div class="track-artist">Harry Styles</div>
+                        </div>
+                        <div class="track-duration">2:54</div>
+                        <div class="play-icon">▶️</div>
+                    </div>
+                    <div class="track-item">
+                        <div class="track-number">4</div>
+                        <div class="track-info">
+                            <div class="track-title">Levitating</div>
+                            <div class="track-artist">Dua Lipa</div>
+                        </div>
+                        <div class="track-duration">3:23</div>
+                        <div class="play-icon">▶️</div>
+                    </div>
+                    <div class="track-item">
+                        <div class="track-number">5</div>
+                        <div class="track-info">
+                            <div class="track-title">Good 4 U</div>
+                            <div class="track-artist">Olivia Rodrigo</div>
+                        </div>
+                        <div class="track-duration">2:58</div>
+                        <div class="play-icon">▶️</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Now Playing Bar -->
+        <div class="now-playing-bar">
+            <div class="now-playing-info">
+                <div class="now-playing-image">🎵</div>
+                <div class="now-playing-details">
+                    <div class="now-playing-title">Heat Waves</div>
+                    <div class="now-playing-artist">Glass Animals</div>
+                </div>
+            </div>
+            <div class="now-playing-controls">
+                <div class="control-btn">⏮️</div>
+                <div class="control-btn play-pause-btn">⏸️</div>
+                <div class="control-btn">⏭️</div>
+            </div>
+        </div>
+        
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <div class="nav-item active">
+                <div class="nav-icon">🏠</div>
+                <div class="nav-label">Home</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔍</div>
+                <div class="nav-label">Search</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">📚</div>
+                <div class="nav-label">Library</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔥</div>
+                <div class="nav-label">Premium</div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>

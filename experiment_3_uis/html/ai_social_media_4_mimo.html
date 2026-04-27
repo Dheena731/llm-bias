@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Social App</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+            position: relative;
+        }
+
+        /* App Container */
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            position: relative;
+        }
+
+        /* Header */
+        .header {
+            height: 88px;
+            padding-top: 44px; /* Status bar */
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-bottom: 10px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 0.5px solid rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+
+        .header-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1c1e21;
+            letter-spacing: -0.5px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 16px;
+        }
+
+        .icon-btn {
+            font-size: 20px;
+            color: #1c1e21;
+            background: none;
+            border: none;
+            padding: 4px;
+            cursor: pointer;
+        }
+
+        /* Main Scrollable Content */
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 80px; /* Space for nav bar */
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Stories / Horizontal Scroll */
+        .stories-section {
+            padding: 12px 0 12px 16px;
+            background: #fff;
+            border-bottom: 8px solid #f0f2f5;
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
+        }
+        .stories-section::-webkit-scrollbar {
+            display: none; /* Chrome/Safari */
+        }
+
+        .story-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 72px;
+        }
+
+        .story-ring {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #1877f2, #42b72a);
+            padding: 2px;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .story-ring-inner {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #fff;
+            padding: 2px;
+        }
+
+        .story-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: #e4e6eb;
+            background-size: cover;
+            background-position: center;
+            border: 2px solid #fff;
+        }
+
+        /* Avatar backgrounds (CSS patterns) */
+        .av-1 { background-image: linear-gradient(135deg, #FF9A9E 0%, #FAD0C4 99%, #FAD0C4 100%); }
+        .av-2 { background-image: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%); }
+        .av-3 { background-image: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%); }
+        .av-4 { background-image: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%); }
+        .av-5 { background-image: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+
+        .story-name {
+            font-size: 11px;
+            color: #65676b;
+            width: 72px;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .story-name.add {
+            color: #1877f2;
+            font-weight: 600;
+            position: relative;
+        }
+        .story-name.add::before {
+            content: "+";
+            font-size: 24px;
+            line-height: 1;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        /* Feed Posts */
+        .feed {
+            background-color: #f0f2f5;
+        }
+
+        .post-card {
+            background: #fff;
+            margin-bottom: 8px;
+            padding: 12px;
+            border-top: 1px solid #e4e6eb;
+            border-bottom: 1px solid #e4e6eb;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .post-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background-color: #e4e6eb;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .post-meta {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .post-author {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1c1e21;
+        }
+
+        .post-time {
+            font-size: 11px;
+            color: #65676b;
+        }
+
+        .post-text {
+            font-size: 14px;
+            line-height: 20px;
+            color: #1c1e21;
+            margin-bottom: 8px;
+        }
+
+        .post-image {
+            width: 100%;
+            height: 180px;
+            background-color: #e4e6eb;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .post-stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #65676b;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e4e6eb;
+        }
+
+        .post-actions {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 6px;
+        }
+
+        .post-action-btn {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 0;
+            font-size: 13px;
+            font-weight: 600;
+            color: #65676b;
+            gap: 6px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .post-action-btn:hover {
+            background-color: #f0f2f5;
+            border-radius: 6px;
+        }
+
+        /* Navigation Bar */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 54px; /* Home bar height */
+            background-color: #ffffff;
+            border-top: 0.5px solid rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 10px; /* Home bar spacing */
+            z-index: 20;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #65676b;
+            gap: 2px;
+            cursor: pointer;
+            width: 50px;
+            height: 40px;
+        }
+
+        .nav-item span:first-child {
+            font-size: 20px;
+        }
+
+        .nav-item.active {
+            color: #1877f2;
+        }
+
+        /* Composer / Floating Button Area */
+        .composer-btn {
+            position: absolute;
+            bottom: 70px;
+            right: 16px;
+            width: 44px;
+            height: 44px;
+            background-color: #1877f2;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 4px 12px rgba(24, 119, 242, 0.4);
+            z-index: 15;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Scroll Fade Effect (Pure CSS Simulation) */
+        .main-content::after {
+            content: "";
+            position: absolute;
+            bottom: 54px; /* Above nav bar */
+            left: 0;
+            width: 100%;
+            height: 20px;
+            background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+            pointer-events: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- Header -->
+        <div class="header">
+            <div class="header-title">SocialFeed</div>
+            <div class="header-actions">
+                <button class="icon-btn">🔍</button>
+                <button class="icon-btn">🔔</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            
+            <!-- Stories Section -->
+            <div class="stories-section">
+                <!-- Add Story -->
+                <div class="story-item">
+                    <div class="story-ring">
+                        <div class="story-ring-inner">
+                            <div class="story-avatar av-1" style="opacity: 0.8;"></div>
+                        </div>
+                    </div>
+                    <div class="story-name add">Add Story</div>
+                </div>
+                
+                <!-- User Stories -->
+                <div class="story-item">
+                    <div class="story-ring">
+                        <div class="story-ring-inner">
+                            <div class="story-avatar av-2"></div>
+                        </div>
+                    </div>
+                    <div class="story-name">Sarah Jenkins</div>
+                </div>
+
+                <div class="story-item">
+                    <div class="story-ring">
+                        <div class="story-ring-inner">
+                            <div class="story-avatar av-3"></div>
+                        </div>
+                    </div>
+                    <div class="story-name">Mike Ross</div>
+                </div>
+
+                <div class="story-item">
+                    <div class="story-ring">
+                        <div class="story-ring-inner">
+                            <div class="story-avatar av-4"></div>
+                        </div>
+                    </div>
+                    <div class="story-name">Design Team</div>
+                </div>
+
+                <div class="story-item">
+                    <div class="story-ring">
+                        <div class="story-ring-inner">
+                            <div class="story-avatar av-5"></div>
+                        </div>
+                    </div>
+                    <div class="story-name">TechNews</div>
+                </div>
+            </div>
+
+            <!-- Feed -->
+            <div class="feed">
+                
+                <!-- Post 1 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-avatar av-2" style="background-image: linear-gradient(135deg, #FF9A9E 0%, #FAD0C4 99%, #FAD0C4 100%);"></div>
+                        <div class="post-meta">
+                            <div class="post-author">Sarah Jenkins</div>
+                            <div class="post-time">2 hrs ago · 🌍 Public</div>
+                        </div>
+                    </div>
+                    <div class="post-text">
+                        Just wrapped up the quarterly review! Huge thanks to the entire team for hitting our targets. The new UI kit is looking absolutely stunning. Can't wait to share more details next week! 🚀✨
+                    </div>
+                    <div class="post-image" style="background-image: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);"></div>
+                    <div class="post-stats">
+                        <span>👍 245 Likes</span>
+                        <span>12 Comments</span>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-btn">👍 Like</button>
+                        <button class="post-action-btn">💬 Comment</button>
+                        <button class="post-action-btn">↗ Share</button>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-avatar av-4" style="background-image: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);"></div>
+                        <div class="post-meta">
+                            <div class="post-author">Tech Daily</div>
+                            <div class="post-time">4 hrs ago · 🏢 Page</div>
+                        </div>
+                    </div>
+                    <div class="post-text">
+                        Apple just announced the new M3 chips. Performance gains are looking insane. Are you planning to upgrade your setup this year? Let us know in the comments below! 🖥️
+                    </div>
+                    <div class="post-stats">
+                        <span>👍 1.2k Likes</span>
+                        <span>89 Comments</span>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-btn">👍 Like</button>
+                        <button class="post-action-btn">💬 Comment</button>
+                        <button class="post-action-btn">↗ Share</button>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-avatar av-3" style="background-image: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);"></div>
+                        <div class="post-meta">
+                            <div class="post-author">Mike Ross</div>
+                            <div class="post-time">Yesterday at 8:42 PM</div>
+                        </div>
+                    </div>
+                    <div class="post-text">
+                        Weekend vibes. 🌅
+                    </div>
+                    <div class="post-image" style="background-image: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); height: 140px;"></div>
+                    <div class="post-stats">
+                        <span>👍 430 Likes</span>
+                        <span>15 Comments</span>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-btn">👍 Like</button>
+                        <button class="post-action-btn">💬 Comment</button>
+                        <button class="post-action-btn">↗ Share</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Floating Action Button -->
+        <button class="composer-btn">+</button>
+
+        <!-- Navigation Bar -->
+        <div class="nav-bar">
+            <div class="nav-item active">
+                <span>🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="nav-item">
+                <span>👥</span>
+                <span>Groups</span>
+            </div>
+            <div class="nav-item">
+                <span>▶️</span>
+                <span>Watch</span>
+            </div>
+            <div class="nav-item">
+                <span>🛒</span>
+                <span>Market</span>
+            </div>
+            <div class="nav-item">
+                <span>🔔</span>
+                <span>Alerts</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnSphere</title>
+    <style>
+        /* Reset & Core Layout */
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            background-color: #F5F7FA;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #1A1A1A;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* --- Header Area --- */
+        .header {
+            padding: 20px 20px 10px 20px;
+            background: #FFFFFF;
+            flex-shrink: 0;
+        }
+
+        .top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .greeting {
+            font-size: 14px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .user-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0F172A;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            background: #E0E7FF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #4F46E5;
+            font-size: 14px;
+            border: 2px solid #EEF2FF;
+        }
+
+        .search-bar {
+            background: #F1F5F9;
+            border-radius: 12px;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #94A3B8;
+            font-size: 14px;
+        }
+
+        /* --- Scrollable Content Area --- */
+        .content-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 80px; /* Space for nav */
+        }
+
+        /* --- Sections --- */
+        .section {
+            padding: 10px 20px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1E293B;
+        }
+
+        .view-all {
+            font-size: 12px;
+            color: #4F46E5;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        /* --- Horizontal Scroll (Categories) --- */
+        .categories {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            scrollbar-width: none; /* Firefox */
+        }
+        .categories::-webkit-scrollbar { display: none; }
+
+        .chip {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            white-space: nowrap;
+            font-size: 13px;
+            font-weight: 500;
+            color: #475569;
+            transition: all 0.2s;
+        }
+
+        .chip.active {
+            background: #4F46E5;
+            color: #FFFFFF;
+            border-color: #4F46E5;
+        }
+
+        /* --- Course Cards --- */
+        .course-card {
+            background: #FFFFFF;
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            border: 1px solid #F1F5F9;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 140px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(4px);
+            color: #FFFFFF;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .card-content {
+            padding: 16px;
+        }
+
+        .course-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0F172A;
+            line-height: 1.3;
+            margin-bottom: 6px;
+        }
+
+        .course-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            color: #64748B;
+            margin-bottom: 12px;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background: #E2E8F0;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 45%; /* 45% complete */
+            background: linear-gradient(90deg, #4F46E5, #7C3AED);
+            border-radius: 3px;
+        }
+
+        /* --- Continue Learning (Large Card) --- */
+        .continue-card {
+            background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+            border-radius: 16px;
+            padding: 20px;
+            color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+        }
+
+        .continue-tag {
+            background: rgba(255,255,255,0.2);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .continue-title {
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .continue-sub {
+            font-size: 13px;
+            opacity: 0.8;
+            margin-bottom: 16px;
+        }
+
+        .continue-btn {
+            background: #4F46E5;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* --- Bottom Navigation --- */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: #FFFFFF;
+            border-top: 1px solid #F1F5F9;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 10px;
+            z-index: 100;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+            color: #94A3B8;
+            font-size: 10px;
+            font-weight: 500;
+            width: 60px;
+        }
+
+        .nav-item span {
+            font-size: 20px;
+            line-height: 1;
+        }
+
+        .nav-item.active {
+            color: #4F46E5;
+        }
+
+        .nav-item.active .icon-bg {
+            background: #EEF2FF;
+        }
+
+        .icon-bg {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2px;
+        }
+
+        /* --- Background Images (CSS Gradients to simulate images) --- */
+        .bg-1 { background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); }
+        .bg-2 { background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+        .bg-3 { background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="top-row">
+            <div>
+                <div class="greeting">Welcome back,</div>
+                <div class="user-name">Alex Morrison</div>
+            </div>
+            <div class="avatar">AM</div>
+        </div>
+        <div class="search-bar">
+            <span>🔍</span> Search for courses...
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-scroll">
+        
+        <!-- Categories -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-title">Topics</span>
+                <a href="#" class="view-all">See All</a>
+            </div>
+            <div class="categories">
+                <div class="chip active">All</div>
+                <div class="chip">Design</div>
+                <div class="chip">Development</div>
+                <div class="chip">Business</div>
+                <div class="chip">Marketing</div>
+            </div>
+        </div>
+
+        <!-- Continue Learning (Hero) -->
+        <div class="section">
+            <div class="continue-card">
+                <div class="continue-tag">Continue Learning</div>
+                <div class="continue-title">Advanced UI Design Patterns</div>
+                <div class="continue-sub">Lesson 4: Micro-interactions • 12 min left</div>
+                <button class="continue-btn">Resume ▶</button>
+            </div>
+        </div>
+
+        <!-- Trending Courses -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-title">Trending Now</span>
+                <a href="#" class="view-all">View</a>
+            </div>
+
+            <!-- Card 1 -->
+            <div class="course-card">
+                <div class="card-image bg-1">
+                    <div class="badge">Bestseller</div>
+                </div>
+                <div class="card-content">
+                    <div class="course-title">Complete React Developer Guide</div>
+                    <div class="course-meta">
+                        <div class="meta-item"><span>👨‍💻</span> 12.5k Students</div>
+                        <div class="meta-item"><span>⭐</span> 4.9</div>
+                    </div>
+                    <div class="course-meta" style="margin-top: -4px;">
+                        <div class="meta-item"><span>🎥</span> 36 Videos</div>
+                        <div class="meta-item"><span>📝</span> 8 Articles</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="course-card">
+                <div class="card-image bg-2">
+                    <div class="badge" style="background: rgba(16, 185, 129, 0.9);">New</div>
+                </div>
+                <div class="card-content">
+                    <div class="course-title">Data Science Fundamentals with Python</div>
+                    <div class="course-meta">
+                        <div class="meta-item"><span>👨‍💻</span> 8.2k Students</div>
+                        <div class="meta-item"><span>⭐</span> 4.8</div>
+                    </div>
+                    <div class="course-meta" style="margin-top: -4px;">
+                        <div class="meta-item"><span>🎥</span> 24 Videos</div>
+                        <div class="meta-item"><span>🏆</span> Certificate</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 (In Progress) -->
+            <div class="course-card">
+                <div class="card-image bg-3"></div>
+                <div class="card-content">
+                    <div class="course-title">Digital Marketing Masterclass 2024</div>
+                    <div class="course-meta">
+                        <div class="meta-item"><span>⏳</span> 45% Complete</div>
+                        <div class="meta-item"><span>🕒</span> 4h 12m left</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 45%;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="course-card">
+                <div class="card-image bg-1" style="filter: hue-rotate(45deg);"></div>
+                <div class="card-content">
+                    <div class="course-title">Figma Mastery: From Beginner to Pro</div>
+                    <div class="course-meta">
+                        <div class="meta-item"><span>👨‍💻</span> 24k Students</div>
+                        <div class="meta-item"><span>⭐</span> 5.0</div>
+                    </div>
+                    <div class="course-meta" style="margin-top: -4px;">
+                        <div class="meta-item"><span>🎨</span> Design</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <a href="#" class="nav-item active">
+            <div class="icon-bg">🏠</div>
+            Home
+        </a>
+        <a href="#" class="nav-item">
+            <div class="icon-bg">📚</div>
+            Courses
+        </a>
+        <a href="#" class="nav-item">
+            <div class="icon-bg">🧭</div>
+            Explore
+        </a>
+        <a href="#" class="nav-item">
+            <div class="icon-bg">👤</div>
+            Profile
+        </a>
+    </div>
+
+</body>
+</html>

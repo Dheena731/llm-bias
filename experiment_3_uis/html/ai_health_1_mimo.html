@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FitTrack Pro</title>
+    <style>
+        /* --- RESET & BASE STYLES --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            background-color: #f4f7f6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #1d1d1f;
+        }
+
+        /* --- LAYOUT CONTAINER --- */
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            position: relative;
+        }
+
+        /* --- HEADER AREA --- */
+        .header {
+            padding: 50px 20px 20px 20px;
+            background: linear-gradient(135deg, #0071e3 0%, #0077ed 100%);
+            color: white;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            box-shadow: 0 4px 12px rgba(0, 113, 227, 0.2);
+            flex-shrink: 0;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .user-info h1 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .user-info p {
+            font-size: 13px;
+            opacity: 0.85;
+            font-weight: 500;
+        }
+
+        .header-icon {
+            font-size: 22px;
+            background: rgba(255, 255, 255, 0.2);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(5px);
+        }
+
+        /* --- SCROLLABLE CONTENT AREA --- */
+        .content-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            padding-bottom: 100px; /* Space for nav bar */
+        }
+
+        /* --- CARDS --- */
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #333;
+        }
+
+        .card-action {
+            font-size: 12px;
+            color: #0071e3;
+            font-weight: 600;
+        }
+
+        /* --- STATS ROW --- */
+        .stats-row {
+            display: flex;
+            gap: 12px;
+        }
+
+        .stat-pill {
+            flex: 1;
+            background: #f0f4f8;
+            border-radius: 12px;
+            padding: 12px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-pill::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: #0071e3;
+            opacity: 0.3;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #0071e3;
+            margin-bottom: 2px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #666;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- ACTIVITY LOG --- */
+        .activity-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .activity-item:first-child {
+            padding-top: 0;
+        }
+
+        .activity-icon {
+            width: 40px;
+            height: 40px;
+            background: #e3f2fd;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-right: 12px;
+            color: #0071e3;
+        }
+
+        .activity-details {
+            flex: 1;
+        }
+
+        .activity-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .activity-meta {
+            font-size: 12px;
+            color: #888;
+            margin-top: 2px;
+        }
+
+        .activity-badge {
+            font-size: 11px;
+            font-weight: 700;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 4px 8px;
+            border-radius: 6px;
+        }
+
+        /* --- CHART VISUAL (CSS ONLY) --- */
+        .chart-container {
+            height: 80px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 12%;
+            gap: 4px;
+        }
+
+        .bar {
+            width: 100%;
+            background: #0071e3;
+            border-radius: 4px;
+            opacity: 0.2;
+            transition: height 0.3s;
+        }
+
+        .bar.active {
+            opacity: 1;
+            background: #0071e3;
+        }
+
+        .day-label {
+            font-size: 10px;
+            color: #888;
+            font-weight: 600;
+        }
+
+        /* --- NAVIGATION BAR --- */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 88px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding-top: 12px;
+            z-index: 10;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #999;
+            font-size: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            gap: 4px;
+            width: 50px;
+        }
+
+        .nav-item span {
+            font-size: 20px;
+        }
+
+        .nav-item.active {
+            color: #0071e3;
+        }
+
+        .nav-item.active .nav-indicator {
+            width: 24px;
+            height: 3px;
+            background: #0071e3;
+            border-radius: 2px;
+        }
+
+        .nav-indicator {
+            width: 24px;
+            height: 3px;
+            border-radius: 2px;
+            background: transparent;
+        }
+
+        /* --- FAB BUTTON --- */
+        .fab {
+            position: absolute;
+            bottom: 54px; /* sits above the nav bar */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, #0071e3 0%, #005bb5 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+            box-shadow: 0 6px 16px rgba(0, 113, 227, 0.4);
+            border: none;
+            cursor: pointer;
+            z-index: 20;
+        }
+
+        /* --- FLOATING HEADER LOGO (Subtle) --- */
+        .logo-tag {
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            background: rgba(255,255,255,0.15);
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- Header -->
+        <div class="header">
+            <div class="header-top">
+                <div class="user-info">
+                    <span class="logo-tag">FITTRACK PRO</span>
+                    <h1>Good Morning, Alex</h1>
+                    <p>Monday, Oct 24 • 07:42 AM</p>
+                </div>
+                <div class="header-icon">🔔</div>
+            </div>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div class="content-scroll">
+            
+            <!-- Summary Stats -->
+            <div class="card">
+                <div class="card-title">
+                    Today's Progress
+                    <span class="card-action">82% Goal</span>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-pill">
+                        <div class="stat-value">5,842</div>
+                        <div class="stat-label">Steps</div>
+                    </div>
+                    <div class="stat-pill">
+                        <div class="stat-value">28</div>
+                        <div class="stat-label">Min</div>
+                    </div>
+                    <div class="stat-pill">
+                        <div class="stat-value">1,020</div>
+                        <div class="stat-label">Cal</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weekly Activity Chart -->
+            <div class="card">
+                <div class="card-title">
+                    Weekly Activity
+                    <span class="card-action">View Report</span>
+                </div>
+                <div class="chart-container">
+                    <div class="bar-group">
+                        <div class="bar" style="height: 40%"></div>
+                        <div class="day-label">M</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 65%"></div>
+                        <div class="day-label">T</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 30%"></div>
+                        <div class="day-label">W</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar active" style="height: 85%"></div>
+                        <div class="day-label">T</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 55%"></div>
+                        <div class="day-label">F</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 20%"></div>
+                        <div class="day-label">S</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 0%"></div>
+                        <div class="day-label">S</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Activity Log -->
+            <div class="card">
+                <div class="card-title">
+                    Recent Activity
+                    <span class="card-action">History</span>
+                </div>
+                
+                <div class="activity-item">
+                    <div class="activity-icon">🏃‍♂️</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Morning Run</div>
+                        <div class="activity-meta">5.2 km • 28 min</div>
+                    </div>
+                    <div class="activity-badge">PR</div>
+                </div>
+
+                <div class="activity-item">
+                    <div class="activity-icon">💧</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Hydration</div>
+                        <div class="activity-meta">1.5L / 3.0L</div>
+                    </div>
+                </div>
+
+                <div class="activity-item">
+                    <div class="activity-icon">🧘</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Yoga Flow</div>
+                        <div class="activity-meta">15 min • Beginner</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nutrition Card -->
+            <div class="card">
+                <div class="card-title">
+                    Nutrition
+                    <span class="card-action">Log Meal</span>
+                </div>
+                <div class="activity-item" style="padding: 8px 0;">
+                    <div class="activity-icon" style="background: #fff3cd; color: #e6a700;">🍳</div>
+                    <div class="activity-details">
+                        <div class="activity-name">Breakfast</div>
+                        <div class="activity-meta">Oatmeal, Blueberries, Almonds • 340 Cal</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Workout Plans -->
+            <div class="card" style="background: #1d1d1f; color: white; border: none;">
+                <div class="card-title" style="color: white;">
+                    Premium Plans
+                    <span class="card-action" style="color: #4d9eff;">Upgrade</span>
+                </div>
+                <p style="font-size: 13px; opacity: 0.8; line-height: 1.4; margin-top: 8px;">
+                    Unlock AI-generated workouts and detailed analytics to reach your goals 2x faster.
+                </p>
+                <button style="margin-top: 16px; background: white; color: #1d1d1f; border: none; padding: 10px; border-radius: 8px; font-weight: 700; font-size: 13px; width: 100%;">
+                    Start 7-Day Free Trial
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Floating Action Button -->
+        <button class="fab">+</button>
+
+        <!-- Navigation Bar -->
+        <div class="nav-bar">
+            <a href="#" class="nav-item active">
+                <span>🏠</span>
+                Home
+                <div class="nav-indicator"></div>
+            </a>
+            <a href="#" class="nav-item">
+                <span>📊</span>
+                Stats
+                <div class="nav-indicator"></div>
+            </a>
+            <a href="#" class="nav-item">
+                <span>📅</span>
+                Plan
+                <div class="nav-indicator"></div>
+            </a>
+            <a href="#" class="nav-item">
+                <span>👤</span>
+                Profile
+                <div class="nav-indicator"></div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>

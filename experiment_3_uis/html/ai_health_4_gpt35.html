@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>HealthFit Tracker</title>
+<style>
+  /* Reset & base */
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0; padding: 0;
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f7f9fc;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Container */
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Header */
+  header {
+    padding: 20px 24px 16px 24px;
+    background: #2a9d8f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+    user-select: none;
+  }
+  header .date {
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.85;
+    margin-top: 2px;
+  }
+
+  /* Scrollable main content */
+  main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 24px 80px 24px;
+  }
+
+  /* Section Titles */
+  h2.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #264653;
+  }
+
+  /* Stats summary cards container */
+  .stats-cards {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .card {
+    flex: 1;
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px 18px 22px 18px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-icon {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #2a9d8f;
+  }
+  .card-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555f68;
+    margin-bottom: 6px;
+  }
+  .card-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #142f36;
+    line-height: 1.1;
+  }
+  .card-unit {
+    font-weight: 500;
+    font-size: 14px;
+    color: #2a9d8f;
+    margin-left: 4px;
+  }
+
+  /* Activity Feed - List of cards */
+  .activity-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .activity-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 16px 20px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .activity-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .activity-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #264653;
+    margin-bottom: 4px;
+  }
+  .activity-details {
+    font-size: 14px;
+    color: #606c76;
+  }
+  .activity-metrics {
+    text-align: right;
+    font-weight: 600;
+    color: #2a9d8f;
+    font-size: 16px;
+    min-width: 72px;
+  }
+  .activity-metrics span.unit {
+    font-weight: 500;
+    font-size: 13px;
+    color: #2a9d8f;
+    margin-left: 2px;
+  }
+
+  /* Buttons */
+  button.primary-btn {
+    background: #2a9d8f;
+    border: none;
+    border-radius: 32px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 14px 0;
+    width: 100%;
+    box-shadow: 0 4px 12px rgb(42 157 143 / 0.4);
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease;
+  }
+  button.primary-btn:active {
+    background: #238b7e;
+  }
+
+  /* Bottom Navigation */
+  nav.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 375px;
+    height: 64px;
+    background: #fff;
+    border-top: 1px solid #d9e2ec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 8px rgb(0 0 0 / 0.05);
+    user-select: none;
+  }
+
+  nav.bottom-nav button.nav-btn {
+    background: none;
+    border: none;
+    color: #8898a9;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 0 2px 0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    width: 64px;
+  }
+  nav.bottom-nav button.nav-btn.active,
+  nav.bottom-nav button.nav-btn:hover {
+    color: #2a9d8f;
+  }
+  nav.bottom-nav button.nav-btn span.label {
+    font-size: 10px;
+    margin-top: 2px;
+    font-weight: 600;
+  }
+
+  /* Scrollbar styling for main */
+  main::-webkit-scrollbar {
+    width: 6px;
+  }
+  main::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  main::-webkit-scrollbar-thumb {
+    background-color: rgba(42, 157, 143, 0.4);
+    border-radius: 3px;
+  }
+
+</style>
+</head>
+<body>
+  <div class="app" role="main" aria-label="Health and Fitness Tracking App">
+    <header>
+      HealthFit Tracker
+      <div class="date" aria-live="polite">Thursday, April 18, 2024</div>
+    </header>
+    <main>
+      <section aria-labelledby="stats-summary-title">
+        <h2 id="stats-summary-title" class="section-title">Today's Summary</h2>
+        <div class="stats-cards">
+          <article class="card" aria-label="Steps taken today">
+            <div class="card-icon" aria-hidden="true">👣</div>
+            <div class="card-label">Steps</div>
+            <div class="card-value" tabindex="0">8,742 <span class="card-unit">steps</span></div>
+          </article>
+          <article class="card" aria-label="Calories burned today">
+            <div class="card-icon" aria-hidden="true">🔥</div>
+            <div class="card-label">Calories</div>
+            <div class="card-value" tabindex="0">1,430 <span class="card-unit">kcal</span></div>
+          </article>
+          <article class="card" aria-label="Active minutes today">
+            <div class="card-icon" aria-hidden="true">⏱️</div>
+            <div class="card-label">Active Minutes</div>
+            <div class="card-value" tabindex="0">46 <span class="card-unit">min</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="heart-rate-title">
+        <h2 id="heart-rate-title" class="section-title">Heart Rate</h2>
+        <div class="card" aria-label="Current heart rate and resting heart rate">
+          <div style="display:flex; align-items:center; gap:18px;">
+            <div class="card-icon" style="font-size:32px; color:#e76f51;" aria-hidden="true">❤️</div>
+            <div>
+              <div style="font-weight:700; font-size:28px; color:#e76f51;" tabindex="0" aria-live="polite">78 bpm</div>
+              <div style="font-size:14px; color:#555f68; margin-top:4px;">Resting: 62 bpm</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="activity-feed-title" style="margin-top:28px;">
+        <h2 id="activity-feed-title" class="section-title">Recent Activities</h2>
+        <div class="activity-feed" role="list">
+          <article role="listitem" class="activity-card" aria-label="Morning Run, 5.2 kilometers, 32 minutes">
+            <div class="activity-info">
+              <div class="activity-title">🏃‍♂️ Morning Run</div>
+              <div class="activity-details">5.2 km · 32 min · 6:10 /km pace</div>
+            </div>
+            <div class="activity-metrics" aria-hidden="true">320 <span class="unit">kcal</span></div>
+          </article>
+
+          <article role="listitem" class="activity-card" aria-label="Cycling Session, 14.8 kilometers, 45 minutes">
+            <div class="activity-info">
+              <div class="activity-title">🚴‍♀️ Cycling Session</div>
+              <div class="activity-details">14.8 km · 45 min · Moderate effort</div>
+            </div>
+            <div class="activity-metrics" aria-hidden="true">510 <span class="unit">kcal</span></div>
+          </article>
+
+          <article role="listitem" class="activity-card" aria-label="Evening Yoga, 25 minutes">
+            <div class="activity-info">
+              <div class="activity-title">🧘‍♀️ Evening Yoga</div>
+              <div class="activity-details">25 min · Flexibility & balance</div>
+            </div>
+            <div class="activity-metrics" aria-hidden="true">110 <span class="unit">kcal</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section style="margin-top: 32px;" aria-label="Add new activity button">
+        <button class="primary-btn" type="button" aria-label="Add new activity">＋ Add Activity</button>
+      </section>
+
+    </main>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Primary navigation">
+      <button class="nav-btn active" aria-current="page" aria-label="Home">
+        🏠
+        <span class="label">Home</span>
+      </button>
+      <button class="nav-btn" aria-label="Statistics">
+        📊
+        <span class="label">Stats</span>
+      </button>
+      <button class="nav-btn" aria-label="Add Activity">
+        ➕
+        <span class="label">Add</span>
+      </button>
+      <button class="nav-btn" aria-label="Profile">
+        👤
+        <span class="label">Profile</span>
+      </button>
+    </nav>
+  </div>
+</body>
+</html>

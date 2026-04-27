@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Travel Booking App</title>
+<style>
+  /* Reset and base */
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0; padding: 0;
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #1A1A1A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 812px;
+    width: 375px;
+  }
+
+  /* Container for all */
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: #f9fafb;
+  }
+
+  /* Header */
+  header {
+    padding: 24px 24px 12px 24px;
+    background: #0077cc;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    user-select: none;
+  }
+
+  /* Search bar */
+  .search-bar {
+    margin: 0 24px 20px 24px;
+    display: flex;
+    background: #e1e7ef;
+    border-radius: 12px;
+    padding: 12px 16px;
+    align-items: center;
+    color: #555f68;
+    font-size: 16px;
+  }
+  .search-bar span {
+    font-size: 18px;
+    margin-right: 12px;
+  }
+  .search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1A1A1A;
+    font-family: inherit;
+  }
+
+  /* Section titles */
+  .section-title {
+    margin: 0 24px 12px 24px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+  }
+
+  /* Popular Destinations - horizontal scroll */
+  .destinations {
+    padding-left: 24px;
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    margin-bottom: 32px;
+  }
+  .destinations::-webkit-scrollbar {
+    height: 6px;
+  }
+  .destinations::-webkit-scrollbar-thumb {
+    background: #0077cc44;
+    border-radius: 3px;
+  }
+  .destination-card {
+    min-width: 140px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 1.5px 6px rgba(0,0,0,0.12);
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    flex-shrink: 0;
+  }
+  .destination-img {
+    width: 100%;
+    height: 96px;
+    object-fit: cover;
+    display: block;
+  }
+  .destination-info {
+    padding: 12px 12px 16px 12px;
+  }
+  .destination-name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #111;
+  }
+  .destination-country {
+    font-size: 13px;
+    color: #555f68;
+  }
+
+  /* Featured Hotels */
+  .hotels-list {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 0 24px 80px 24px;
+  }
+  .hotel-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 1.5px 6px rgba(0,0,0,0.12);
+    margin-bottom: 24px;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    transition: box-shadow 0.2s ease;
+  }
+  .hotel-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+  .hotel-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px 0 0 16px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .hotel-info {
+    padding: 14px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hotel-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: #111;
+    margin-bottom: 4px;
+  }
+  .hotel-location {
+    font-size: 13px;
+    color: #666e7a;
+    margin-bottom: 8px;
+  }
+  .hotel-rating-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hotel-rating {
+    background: #0077cc;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 4px 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    user-select: none;
+  }
+  .hotel-rating span {
+    font-size: 18px;
+  }
+  .hotel-price {
+    font-weight: 700;
+    font-size: 16px;
+    color: #222;
+  }
+  .hotel-price small {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666e7a;
+  }
+
+  /* Bottom Navigation Bar */
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 375px;
+    height: 72px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    user-select: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #666e7a;
+  }
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    padding: 8px 0 4px 0;
+    transition: color 0.2s ease;
+  }
+  nav a.active, nav a:hover {
+    color: #0077cc;
+  }
+  nav a .icon {
+    font-size: 22px;
+    line-height: 1;
+  }
+</style>
+</head>
+<body>
+  <div class="app">
+    <header>Explore Your Next Trip</header>
+
+    <div class="search-bar" role="search">
+      <span aria-hidden="true">🔍</span>
+      <input type="search" placeholder="Search cities, hotels, or resorts" aria-label="Search destinations" />
+    </div>
+
+    <h2 class="section-title">Popular Destinations</h2>
+    <div class="destinations" role="list" aria-label="Popular Destinations">
+      <article class="destination-card" role="listitem" tabindex="0" aria-label="Paris, France">
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=140&q=80" alt="Eiffel Tower in Paris" class="destination-img" loading="lazy" />
+        <div class="destination-info">
+          <div class="destination-name">Paris</div>
+          <div class="destination-country">France</div>
+        </div>
+      </article>
+
+      <article class="destination-card" role="listitem" tabindex="0" aria-label="Tokyo, Japan">
+        <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=140&q=80" alt="Tokyo skyline at night" class="destination-img" loading="lazy" />
+        <div class="destination-info">
+          <div class="destination-name">Tokyo</div>
+          <div class="destination-country">Japan</div>
+        </div>
+      </article>
+
+      <article class="destination-card" role="listitem" tabindex="0" aria-label="New York City, USA">
+        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=140&q=80" alt="New York City skyline" class="destination-img" loading="lazy" />
+        <div class="destination-info">
+          <div class="destination-name">New York City</div>
+          <div class="destination-country">USA</div>
+        </div>
+      </article>
+
+      <article class="destination-card" role="listitem" tabindex="0" aria-label="Sydney, Australia">
+        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=140&q=80" alt="Sydney Opera House" class="destination-img" loading="lazy" />
+        <div class="destination-info">
+          <div class="destination-name">Sydney</div>
+          <div class="destination-country">Australia</div>
+        </div>
+      </article>
+
+      <article class="destination-card" role="listitem" tabindex="0" aria-label="Rome, Italy">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=140&q=80" alt="Colosseum in Rome" class="destination-img" loading="lazy" />
+        <div class="destination-info">
+          <div class="destination-name">Rome</div>
+          <div class="destination-country">Italy</div>
+        </div>
+      </article>
+    </div>
+
+    <h2 class="section-title">Featured Hotels</h2>
+    <section class="hotels-list" aria-label="Featured Hotels">
+      <article class="hotel-card" tabindex="0" aria-label="Hotel Le Meurice, Paris, rating 4.8, price 350 dollars per night">
+        <img class="hotel-img" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=120&q=80" alt="Luxurious hotel room at Hotel Le Meurice" loading="lazy" />
+        <div class="hotel-info">
+          <div>
+            <div class="hotel-name">Hotel Le Meurice</div>
+            <div class="hotel-location">Paris, France</div>
+          </div>
+          <div class="hotel-rating-price">
+            <div class="hotel-rating" aria-label="Rating 4.8 out of 5">
+              <span>★</span> 4.8
+            </div>
+            <div class="hotel-price">$350<small>/night</small></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="hotel-card" tabindex="0" aria-label="Park Hyatt Tokyo, Tokyo, rating 4.7, price 420 dollars per night">
+        <img class="hotel-img" src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=120&q=80" alt="Elegant hotel room at Park Hyatt Tokyo" loading="lazy" />
+        <div class="hotel-info">
+          <div>
+            <div class="hotel-name">Park Hyatt Tokyo</div>
+            <div class="hotel-location">Tokyo, Japan</div>
+          </div>
+          <div class="hotel-rating-price">
+            <div class="hotel-rating" aria-label="Rating 4.7 out of 5">
+              <span>★</span> 4.7
+            </div>
+            <div class="hotel-price">$420<small>/night</small></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="hotel-card" tabindex="0" aria-label="The Plaza, New York City, rating 4.5, price 390 dollars per night">
+        <img class="hotel-img" src="https://images.unsplash.com/photo-1501117716987-c8e9d8d1d7dc?auto=format&fit=crop&w=120&q=80" alt="Stylish hotel room at The Plaza" loading="lazy" />
+        <div class="hotel-info">
+          <div>
+            <div class="hotel-name">The Plaza</div>
+            <div class="hotel-location">New York City, USA</div>
+          </div>
+          <div class="hotel-rating-price">
+            <div class="hotel-rating" aria-label="Rating 4.5 out of 5">
+              <span>★</span> 4.5
+            </div>
+            <div class="hotel-price">$390<small>/night</small></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="hotel-card" tabindex="0" aria-label="Four Seasons Hotel, Sydney, rating 4.6, price 310 dollars per night">
+        <img class="hotel-img" src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=120&q=80" alt="Modern hotel room at Four Seasons Hotel Sydney" loading="lazy" />
+        <div class="hotel-info">
+          <div>
+            <div class="hotel-name">Four Seasons Hotel</div>
+            <div class="hotel-location">Sydney, Australia</div>
+          </div>
+          <div class="hotel-rating-price">
+            <div class="hotel-rating" aria-label="Rating 4.6 out of 5">
+              <span>★</span> 4.6
+            </div>
+            <div class="hotel-price">$310<small>/night</small></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="hotel-card" tabindex="0" aria-label="Hotel Eden, Rome, rating 4.4, price 280 dollars per night">
+        <img class="hotel-img" src="https://images.unsplash.com/photo-1560448074-d1e36b9e7e0b?auto=format&fit=crop&w=120&q=80" alt="Cozy hotel room at Hotel Eden" loading="lazy" />
+        <div class="hotel-info">
+          <div>
+            <div class="hotel-name">Hotel Eden</div>
+            <div class="hotel-location">Rome, Italy</div>
+          </div>
+          <div class="hotel-rating-price">
+            <div class="hotel-rating" aria-label="Rating 4.4 out of 5">
+              <span>★</span> 4.4
+            </div>
+            <div class="hotel-price">$280<small>/night</small></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <nav role="navigation" aria-label="Main Navigation">
+      <a href="#" class="active" aria-current="page">
+        <span class="icon" aria</body></html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=375, height=812, initial-scale=1, user-scalable=no" />
+<title>TaskFlow</title>
+<style>
+  /* Reset and base */
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin:0; padding:0;
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #F7F9FB;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  /* Container */
+  .app {
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Header */
+  header {
+    background: #1E88E5;
+    color: white;
+    padding: 36px 24px 20px 24px;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    user-select: none;
+    position: relative;
+  }
+  header .profile {
+    position: absolute;
+    top: 36px;
+    right: 24px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #1565C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #BBDEFB;
+    box-shadow: 0 0 6px rgb(21 101 192 / 0.4);
+    user-select: none;
+  }
+  /* Greeting & date */
+  .subheader {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-top: 4px;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+  }
+  /* Content scroll area */
+  main {
+    flex: 1;
+    padding: 20px 24px 80px 24px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* Section Titles */
+  h2.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 14px;
+  }
+  /* Task Card */
+  .task-card {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.06);
+    padding: 18px 20px 20px 20px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+  }
+  .task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+  .task-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #111;
+    max-width: 260px;
+    line-height: 1.2;
+  }
+  .task-priority {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    user-select: none;
+  }
+  .priority-high {
+    background: #FDECEA;
+    color: #D93025;
+  }
+  .priority-medium {
+    background: #FFF4E5;
+    color: #F57C00;
+  }
+  .priority-low {
+    background: #E6F4EA;
+    color: #388E3C;
+  }
+  .task-desc {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    margin-bottom: 14px;
+  }
+  .task-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #777;
+    user-select: none;
+  }
+  .task-footer .due {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .task-footer .due::before {
+    content: "📅";
+    font-size: 15px;
+  }
+  .task-footer .tags {
+    display: flex;
+    gap: 6px;
+  }
+  .tag {
+    background: #E1E8ED;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    user-select: none;
+  }
+  /* New Task Button */
+  .new-task-btn {
+    position: fixed;
+    bottom: 72px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    background: #1E88E5;
+    border-radius: 50%;
+    box-shadow: 0 6px 15px rgb(30 136 229 / 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    transition: background-color 0.25s ease;
+  }
+  .new-task-btn:active {
+    background-color: #1565C0;
+  }
+  /* Bottom Nav */
+  nav.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 375px;
+    height: 56px;
+    background: white;
+    border-top: 1px solid #E0E3E8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    user-select: none;
+  }
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #667085;
+    cursor: pointer;
+    transition: color 0.25s ease;
+    font-weight: 600;
+  }
+  .nav-item.active, .nav-item:hover {
+    color: #1E88E5;
+  }
+  .nav-item span.icon {
+    font-size: 22px;
+    margin-bottom: 2px;
+    line-height: 1;
+  }
+  /* Scrollbar styling for main content (optional) */
+  main::-webkit-scrollbar {
+    width: 6px;
+  }
+  main::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  main::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 136, 229, 0.3);
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+  <div class="app" role="main" aria-label="TaskFlow Productivity App Main Screen">
+    <header>
+      TaskFlow
+      <div class="profile" aria-label="User profile initials">JM</div>
+      <div class="subheader" aria-live="polite">Good afternoon, Jessica! Thursday, June 13</div>
+    </header>
+    <main>
+      <section aria-labelledby="today-tasks-title">
+        <h2 id="today-tasks-title" class="section-title">Today's Tasks</h2>
+
+        <article class="task-card" tabindex="0" aria-describedby="task1-desc task1-due task1-tags" aria-label="Task: Prepare Q2 Sales Report, high priority">
+          <div class="task-header">
+            <h3 class="task-title" id="task1-title">Prepare Q2 Sales Report</h3>
+            <div class="task-priority priority-high" aria-label="High priority task">High</div>
+          </div>
+          <p class="task-desc" id="task1-desc">Compile and analyze sales data for April to June, include charts and insights.</p>
+          <div class="task-footer">
+            <div class="due" id="task1-due" aria-label="Due date: Today at 5 PM">Due Today, 5:00 PM</div>
+            <div class="tags" id="task1-tags" aria-label="Tags: Work, Sales">
+              <span class="tag">Work</span>
+              <span class="tag">Sales</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="task-card" tabindex="0" aria-describedby="task2-desc task2-due task2-tags" aria-label="Task: Team Meeting - project kickoff, medium priority">
+          <div class="task-header">
+            <h3 class="task-title" id="task2-title">Team Meeting - Project Kickoff</h3>
+            <div class="task-priority priority-medium" aria-label="Medium priority task">Medium</div>
+          </div>
+          <p class="task-desc" id="task2-desc">Discuss project goals, timelines, and assign initial tasks to team members.</p>
+          <div class="task-footer">
+            <div class="due" id="task2-due" aria-label="Due date: Today at 3 PM">Due Today, 3:00 PM</div>
+            <div class="tags" id="task2-tags" aria-label="Tags: Meeting, Planning">
+              <span class="tag">Meeting</span>
+              <span class="tag">Planning</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="task-card" tabindex="0" aria-describedby="task3-desc task3-due task3-tags" aria-label="Task: Buy groceries, low priority">
+          <div class="task-header">
+            <h3 class="task-title" id="task3-title">Buy groceries</h3>
+            <div class="task-priority priority-low" aria-label="Low priority task">Low</div>
+          </div>
+          <p class="task-desc" id="task3-desc">Milk, eggs, bread, avocados, and fresh vegetables for the week.</p>
+          <div class="task-footer">
+            <div class="due" id="task3-due" aria-label="Due date: Today at 7 PM">Due Today, 7:00 PM</div>
+            <div class="tags" id="task3-tags" aria-label="Tags: Personal, Errands">
+              <span class="tag">Personal</span>
+              <span class="tag">Errands</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section aria-labelledby="upcoming-tasks-title">
+        <h2 id="upcoming-tasks-title" class="section-title">Upcoming</h2>
+
+        <article class="task-card" tabindex="0" aria-describedby="task4-desc task4-due task4-tags" aria-label="Task: Submit tax documents, high priority">
+          <div class="task-header">
+            <h3 class="task-title" id="task4-title">Submit Tax Documents</h3>
+            <div class="task-priority priority-high" aria-label="High priority task">High</div>
+          </div>
+          <p class="task-desc" id="task4-desc">Gather all necessary financial records for tax filing by end of the week.</p>
+          <div class="task-footer">
+            <div class="due" id="task4-due" aria-label="Due date: Friday, June 15">Due Fri, Jun 15</div>
+            <div class="tags" id="task4-tags" aria-label="Tags: Finance, Important">
+              <span class="tag">Finance</span>
+              <span class="tag">Important</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="task-card" tabindex="0" aria-describedby="task5-desc task5-due task5-tags" aria-label="Task: Design website wireframes, medium priority">
+          <div class="task-header">
+            <h3 class="task-title" id="task5-title">Design Website Wireframes</h3>
+            <div class="task-priority priority-medium" aria-label="Medium priority task">Medium</div>
+          </div>
+          <p class="task-desc" id="task5-desc">Create wireframe layouts for the new client website project.</p>
+          <div class="task-footer">
+            <div class="due" id="task5-due" aria-label="Due date: Monday, June 18">Due Mon, Jun 18</div>
+            <div class="tags" id="task5-tags" aria-label="Tags: Design, Client">
+              <span class="tag">Design</span>
+              <span class="tag">Client</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="task-card" tabindex="0" aria-describedby="task6-desc task6-due task6-tags" aria-label="Task: Call mom, low priority">
+          <div class="task-header">
+            <h3 class="task-title" id="task6-title">Call Mom</h3>
+            <div class="task-priority priority-low" aria-label="Low priority task">Low</div>
+          </div>
+          <p class="task-desc" id="task6-desc">Check in and catch up with mom this weekend.</p>
+          <div class="task-footer">
+            <div class="due" id="task6-due" aria-label="Due date: Sunday, June 17">Due Sun, Jun 17</div>
+            <div class="tags" id="task6-tags" aria-label="Tags: Personal, Family">
+              <span class="tag">Personal</span>
+              <span class="tag">Family</span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <button class="new-task-btn" aria-label="Add new task" tabindex="0" type="button">＋</button>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-item active" tabindex="0" aria-current="page">
+        <span class="icon" aria-hidden="true">🗒️</span>
+        Tasks
+      </div>
+      <div class="nav-item" tabindex="0">
+        <span class="icon" aria-hidden="true">📅</span>
+        Calendar
+      </div>
+      <div class="nav-item" tabindex="0">
+        <span class="icon" aria-hidden="true">📊</span>
+        Stats
+      </div>
+      <div class="nav-item" tabindex="0">
+        <span class="icon" aria-hidden="true">⚙️</span>
+        Settings
+      </div>
+    </nav>
+  </div>
+</body>
+</html>

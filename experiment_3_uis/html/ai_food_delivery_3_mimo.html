@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=375">
+<style>* {margin:0;padding:0;box-sizing:border-box} body {width:375px;height:812px;overflow:hidden;font-family:-apple-system,sans-serif}</style>
+</head><body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FoodieGo - Order Food</title>
+    <style>
+        /* RESET & BASE STYLES */
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #1d1d1f;
+        }
+
+        /* APP CONTAINER */
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background: #fff;
+            position: relative;
+        }
+
+        /* SCROLLABLE CONTENT AREA */
+        .scroll-content {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 80px; /* Space for nav bar */
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* HEADER */
+        .header {
+            padding: 16px 16px 8px 16px;
+            background: #fff;
+        }
+        .location-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        .location-text {
+            font-size: 12px;
+            color: #666;
+            font-weight: 500;
+        }
+        .location-icon {
+            font-size: 18px;
+            margin-right: 4px;
+        }
+        .profile-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+        .search-bar {
+            background: #f0f0f0;
+            border-radius: 10px;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        /* CATEGORIES */
+        .category-scroll {
+            display: flex;
+            overflow-x: auto;
+            padding: 8px 16px;
+            gap: 12px;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE */
+        }
+        .category-scroll::-webkit-scrollbar {
+            display: none; /* Safari/Chrome */
+        }
+        .category-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 64px;
+            gap: 6px;
+        }
+        .cat-icon {
+            width: 56px;
+            height: 56px;
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            transition: transform 0.1s;
+        }
+        .cat-icon:active {
+            transform: scale(0.95);
+            background: #fff0f0;
+            border-color: #ff6600;
+        }
+        .cat-name {
+            font-size: 11px;
+            font-weight: 600;
+            color: #444;
+            white-space: nowrap;
+        }
+
+        /* BANNER */
+        .banner {
+            margin: 8px 16px;
+            height: 120px;
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            border-radius: 12px;
+            padding: 16px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .banner h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .banner p {
+            margin: 4px 0 0 0;
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        .banner-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: rgba(255,255,255,0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 700;
+        }
+
+        /* RESTAURANT LIST */
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 16px 16px 8px 16px;
+            color: #1d1d1f;
+        }
+        .restaurant-list {
+            padding: 0 16px 16px 16px;
+        }
+        .rest-card {
+            background: #fff;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            border: 1px solid #f0f0f0;
+        }
+        .rest-image {
+            width: 100%;
+            height: 160px;
+            background-color: #e0e0e0;
+            position: relative;
+            overflow: hidden;
+        }
+        /* Simulated images using gradients/patterns */
+        .img-1 { background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.3)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%23d1d1d1" width="100" height="100"/><circle cx="50" cy="50" r="20" fill="%23e0e0e0"/></svg>'); background-size: cover; }
+        .img-2 { background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.3)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%23c0c0c0" width="100" height="100"/><rect x="20" y="20" width="60" height="60" fill="%23d0d0d0"/></svg>'); background-size: cover; }
+        .img-3 { background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.3)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%23b0b0b0" width="100" height="100"/><polygon points="50,15 90,85 10,85" fill="%23c0c0c0"/></svg>'); background-size: cover; }
+        
+        .rest-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255,255,255,0.95);
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #111;
+        }
+        .rest-info {
+            padding: 12px;
+        }
+        .rest-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 4px;
+        }
+        .rest-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: #111;
+            margin: 0;
+        }
+        .rest-rating {
+            display: flex;
+            align-items: center;
+            background: #006400;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .rest-cuisine {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 4px;
+        }
+        .rest-meta {
+            font-size: 12px;
+            color: #888;
+            display: flex;
+            gap: 8px;
+        }
+        .dot {
+            width: 2px;
+            height: 2px;
+            background: #888;
+            border-radius: 50%;
+            align-self: center;
+            margin-top: 2px;
+        }
+
+        /* BOTTOM NAVIGATION */
+        .nav-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: #fff;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 10px;
+            z-index: 100;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: #999;
+            font-size: 10px;
+            font-weight: 500;
+            text-decoration: none;
+            width: 60px;
+        }
+        .nav-item span:first-child {
+            font-size: 20px;
+        }
+        .nav-item.active {
+            color: #ff6600;
+        }
+        .nav-item:active {
+            opacity: 0.7;
+        }
+
+        /* CART INDICATOR */
+        .cart-badge {
+            position: absolute;
+            top: -2px;
+            right: 10px;
+            background: #1d1d1f;
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            width: 16px;
+            height: 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* STICKY BOTTOM BANNER (Promo) */
+        .sticky-banner {
+            background: #1d1d1f;
+            color: white;
+            padding: 8px 16px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            display: none; /* Hidden on load, purely visual logic */
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    
+    <!-- Header Section -->
+    <div class="header">
+        <div class="location-row">
+            <div style="display: flex; align-items: center;">
+                <span class="location-icon">📍</span>
+                <div>
+                    <div class="location-text">DELIVER TO</div>
+                    <div style="font-weight: 700; font-size: 15px;">123 Tech Park, Sec 42</div>
+                </div>
+            </div>
+            <div class="profile-btn">👤</div>
+        </div>
+        <div class="search-bar">
+            <span>🔍</span>
+            <span>Search "Pizza, Burgers..."</span>
+        </div>
+    </div>
+
+    <!-- Scrollable Content -->
+    <div class="scroll-content">
+        
+        <!-- Categories -->
+        <div class="category-scroll">
+            <div class="category-item">
+                <div class="cat-icon">🍔</div>
+                <div class="cat-name">Burgers</div>
+            </div>
+            <div class="category-item">
+                <div class="cat-icon">🍕</div>
+                <div class="cat-name">Pizza</div>
+            </div>
+            <div class="category-item">
+                <div class="cat-icon">🥗</div>
+                <div class="cat-name">Healthy</div>
+            </div>
+            <div class="category-item">
+                <div class="cat-icon">🌮</div>
+                <div class="cat-name">Mexican</div>
+            </div>
+            <div class="category-item">
+                <div class="cat-icon">🍜</div>
+                <div class="cat-name">Asian</div>
+            </div>
+            <div class="category-item">
+                <div class="cat-icon">🍰</div>
+                <div class="cat-name">Desserts</div>
+            </div>
+            <div class="category-item">
+                <div class="cat-icon">☕</div>
+                <div class="cat-name">Coffee</div>
+            </div>
+        </div>
+
+        <!-- Promo Banner -->
+        <div class="banner">
+            <div class="banner-badge">FREE DELIVERY</div>
+            <h3>Get 30% OFF</h3>
+            <p>On first 3 orders. Use code: TASTY30</p>
+        </div>
+
+        <!-- Restaurant List -->
+        <div class="section-title">Nearby Favorites</div>
+        
+        <div class="restaurant-list">
+            
+            <!-- Card 1 -->
+            <div class="rest-card">
+                <div class="rest-image img-1">
+                    <div class="rest-tag">35 mins</div>
+                </div>
+                <div class="rest-info">
+                    <div class="rest-top">
+                        <h4 class="rest-name">Burger King</h4>
+                        <div class="rest-rating">4.5 ★</div>
+                    </div>
+                    <div class="rest-cuisine">Burgers, Fast Food, American</div>
+                    <div class="rest-meta">
+                        <span>2.4 km</span>
+                        <div class="dot"></div>
+                        <span>₹200 for two</span>
+                        <div class="dot"></div>
+                        <span>Pro</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="rest-card">
+                <div class="rest-image img-2">
+                    <div class="rest-tag">25 mins</div>
+                </div>
+                <div class="rest-info">
+                    <div class="rest-top">
+                        <h4 class="rest-name">Domino's Pizza</h4>
+                        <div class="rest-rating">4.2 ★</div>
+                    </div>
+                    <div class="rest-cuisine">Pizza, Italian, Pastas</div>
+                    <div class="rest-meta">
+                        <span>1.8 km</span>
+                        <div class="dot"></div>
+                        <span>₹350 for two</span>
+                        <div class="dot"></div>
+                        <span>Deal</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="rest-card">
+                <div class="rest-image img-3">
+                    <div class="rest-tag">40 mins</div>
+                </div>
+                <div class="rest-info">
+                    <div class="rest-top">
+                        <h4 class="rest-name">Salad Culture</h4>
+                        <div class="rest-rating">4.8 ★</div>
+                    </div>
+                    <div class="rest-cuisine">Healthy, Salad, Bowl</div>
+                    <div class="rest-meta">
+                        <span>3.2 km</span>
+                        <div class="dot"></div>
+                        <span>₹250 for two</span>
+                        <div class="dot"></div>
+                        <span>Fresh</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="rest-card">
+                <div class="rest-image img-1" style="filter: hue-rotate(45deg);">
+                    <div class="rest-tag">30 mins</div>
+                </div>
+                <div class="rest-info">
+                    <div class="rest-top">
+                        <h4 class="rest-name">Taco Bell</h4>
+                        <div class="rest-rating">4.0 ★</div>
+                    </div>
+                    <div class="rest-cuisine">Mexican, Tex-Mex</div>
+                    <div class="rest-meta">
+                        <span>2.1 km</span>
+                        <div class="dot"></div>
+                        <span>₹180 for two</span>
+                        <div class="dot"></div>
+                        <span>Crunch</span>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Card 5 -->
+             <div class="rest-card">
+                <div class="rest-image img-2" style="filter: hue-rotate(90deg);">
+                    <div class="rest-tag">20 mins</div>
+                </div>
+                <div class="rest-info">
+                    <div class="rest-top">
+                        <h4 class="rest-name">Starbucks</h4>
+                        <div class="rest-rating">4.6 ★</div>
+                    </div>
+                    <div class="rest-cuisine">Coffee, Cafe, Beverages</div>
+                    <div class="rest-meta">
+                        <span>0.8 km</span>
+                        <div class="dot"></div>
+                        <span>₹400 for two</span>
+                        <div class="dot"></div>
+                        <span>Wi-Fi</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Spacer for bottom nav -->
+        <div style="height: 20px;"></div>
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="nav-bar">
+        <a href="#" class="nav-item active"></body></html>

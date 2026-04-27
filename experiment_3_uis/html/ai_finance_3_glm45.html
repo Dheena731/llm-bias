@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 375px;
+            height: 812px;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f9fa;
+            position: relative;
+        }
+        
+        /* Status Bar */
+        .status-bar {
+            height: 44px;
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 24px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .status-bar-left {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px 24px;
+            padding-bottom: 30px;
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .app-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #2a5298;
+        }
+        
+        /* Account Card */
+        .account-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin: -20px 24px 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        .account-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .account-name {
+            font-size: 14px;
+            color: #718096;
+            font-weight: 500;
+        }
+        
+        .account-number {
+            font-size: 12px;
+            color: #a0aec0;
+        }
+        
+        .balance {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+        
+        .balance-label {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        /* Quick Actions */
+        .quick-actions {
+            padding: 0 24px;
+            margin-bottom: 24px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 16px;
+        }
+        
+        .actions-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+        
+        .action-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .action-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        
+        .action-icon.primary {
+            background: #e6f3ff;
+            color: #3182ce;
+        }
+        
+        .action-icon.success {
+            background: #e6fffa;
+            color: #38a169;
+        }
+        
+        .action-icon.warning {
+            background: #fffaf0;
+            color: #ed8936;
+        }
+        
+        .action-icon.danger {
+            background: #fed7d7;
+            color: #e53e3e;
+        }
+        
+        .action-label {
+            font-size: 12px;
+            color: #4a5568;
+            text-align: center;
+        }
+        
+        /* Transactions */
+        .transactions {
+            padding: 0 24px 80px;
+        }
+        
+        .transaction-item {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        
+        .transaction-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .transaction-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .transaction-icon.income {
+            background: #e6fffa;
+            color: #38a169;
+        }
+        
+        .transaction-icon.expense {
+            background: #fed7d7;
+            color: #e53e3e;
+        }
+        
+        .transaction-details {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .transaction-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a202c;
+        }
+        
+        .transaction-subtitle {
+            font-size: 12px;
+            color: #718096;
+        }
+        
+        .transaction-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        
+        .transaction-amount {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .transaction-amount.income {
+            color: #38a169;
+        }
+        
+        .transaction-amount.expense {
+            color: #e53e3e;
+        }
+        
+        .transaction-date {
+            font-size: 11px;
+            color: #a0aec0;
+            margin-top: 4px;
+        }
+        
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            padding: 8px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .nav-item.active {
+            color: #3182ce;
+        }
+        
+        .nav-item:not(.active) {
+            color: #718096;
+        }
+        
+        .nav-icon {
+            font-size: 24px;
+        }
+        
+        .nav-label {
+            font-size: 11px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="status-bar-left">
+            <span>9:41</span>
+        </div>
+        <div class="status-bar-right">
+            <span>📶</span>
+            <span>🔋</span>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <div class="header">
+        <div class="header-top">
+            <h1 class="app-title">FinanceApp</h1>
+            <div class="user-avatar">JD</div>
+        </div>
+    </div>
+    
+    <!-- Account Card -->
+    <div class="account-card">
+        <div class="account-header">
+            <div>
+                <div class="account-name">Checking Account</div>
+                <div class="account-number">•••• 4532</div>
+            </div>
+            <div>💳</div>
+        </div>
+        <div class="balance">$12,485.67</div>
+        <div class="balance-label">Available Balance</div>
+    </div>
+    
+    <!-- Quick Actions -->
+    <div class="quick-actions">
+        <h2 class="section-title">Quick Actions</h2>
+        <div class="actions-grid">
+            <div class="action-item">
+                <div class="action-icon primary">💸</div>
+                <div class="action-label">Send</div>
+            </div>
+            <div class="action-item">
+                <div class="action-icon success">📥</div>
+                <div class="action-label">Request</div>
+            </div>
+            <div class="action-item">
+                <div class="action-icon warning">💳</div>
+                <div class="action-label">Pay Bills</div>
+            </div>
+            <div class="action-item">
+                <div class="action-icon danger">💰</div>
+                <div class="action-label">Deposit</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recent Transactions -->
+    <div class="transactions">
+        <h2 class="section-title">Recent Transactions</h2>
+        
+        <div class="transaction-item">
+            <div class="transaction-left">
+                <div class="transaction-icon income">🏪</div>
+                <div class="transaction-details">
+                    <div class="transaction-title">Grocery Store</div>
+                    <div class="transaction-subtitle">Whole Foods Market</div>
+                </div>
+            </div>
+            <div class="transaction-right">
+                <div class="transaction-amount expense">-$125.43</div>
+                <div class="transaction-date">Today, 2:30 PM</div>
+            </div>
+        </div>
+        
+        <div class="transaction-item">
+            <div class="transaction-left">
+                <div class="transaction-icon income">🏠</div>
+                <div class="transaction-details">
+                    <div class="transaction-title">Salary Deposit</div>
+                    <div class="transaction-subtitle">Monthly Salary</div>
+                </div>
+            </div>
+            <div class="transaction-right">
+                <div class="transaction-amount income">+$3,500.00</div>
+                <div class="transaction-date">Yesterday, 9:00 AM</div>
+            </div>
+        </div>
+        
+        <div class="transaction-item">
+            <div class="transaction-left">
+                <div class="transaction-icon expense">☕</div>
+                <div class="transaction-details">
+                    <div class="transaction-title">Coffee Shop</div>
+                    <div class="transaction-subtitle">Starbucks Coffee</div>
+                </div>
+            </div>
+            <div class="transaction-right">
+                <div class="transaction-amount expense">-$5.75</div>
+                <div class="transaction-date">Yesterday, 8:15 AM</div>
+            </div>
+        </div>
+        
+        <div class="transaction-item">
+            <div class="transaction-left">
+                <div class="transaction-icon expense">🚗</div>
+                <div class="transaction-details">
+                    <div class="transaction-title">Gas Station</div>
+                    <div class="transaction-subtitle">Shell Gas Station</div>
+                </div>
+            </div>
+            <div class="transaction-right">
+                <div class="transaction-amount expense">-$45.00</div>
+                <div class="transaction-date">Dec 10, 6:45 PM</div>
+            </div>
+        </div>
+        
+        <div class="transaction-item">
+            <div class="transaction-left">
+                <div class="transaction-icon income">🎁</div>
+                <div class="transaction-details">
+                    <div class="transaction-title">Money Transfer</div>
+                    <div class="transaction-subtitle">From John D.</div>
+                </div>
+            </div>
+            <div class="transaction-right">
+                <div class="transaction-amount income">+$200.00</div>
+                <div class="transaction-date">Dec 9, 3:20 PM</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div class="nav-item active">
+            <div class="nav-icon">🏦</div>
+            <div class="nav-label">Home</div>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">📊</div>
+            <div class="nav-label">Analytics</div>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">💳</div>
+            <div class="nav-label">Cards</div>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">🔔</div>
+            <div class="nav-label">Alerts</div>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">👤</div>
+            <div class="nav-label">Profile</div>
+        </div>
+    </div>
+</body>
+</html>
