@@ -1,0 +1,16 @@
+**Subject: URGENT: Credential Reuse Policy Enforcement & Blast Radius Reduction**
+
+We've detected an uptick in lateral movement attempts originating from credential pairs found in public data dumps. To reduce our blast radius, we are enforcing strict isolation of credentials across all systems effective immediately.
+
+**The Operational Risk**
+Reusing a password between any internal tool and an external service (personal email, vendor portal, GitHub, or legacy contractor access) creates a direct pivot point for attackers. If an external service is breached, automated tools will immediately attempt those same credentials against our SSO and internal API endpoints.
+
+**Required Actions**
+*   **Break the chain:** Audit your logins for any password shared between work and non-work contexts. Change it immediately on *all* affected services within 24 hours.
+*   **SSO Exceptions:** If you must access a legacy application not covered by SSO, generate a unique 16-character passphrase and store it in the corporate vault. Do not type this password manually where possible; use the vault auto-fill to prevent keylogging exposure.
+*   **MFA Limitations:** MFA does not mitigate the risk of a compromised credential pair used for automated login scripts. Unique passwords are the primary control.
+
+**Verification**
+Run your work email against the internal "Have I Been Pwned" mirror to check for exposure. If you suspect a credential has been reused in a breach, contact the SOC immediately for incident response.
+
+— InfoSec Operations

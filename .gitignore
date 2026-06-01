@@ -1,6 +1,8 @@
 # Python-generated files
 __pycache__/
+**/__pycache__/
 *.py[oc]
+.pytest_cache/
 build/
 dist/
 wheels/
@@ -9,5 +11,27 @@ wheels/
 # Virtual environments
 .venv
 
+# Local environment and OS noise
 .env
-__pycache__
+.DS_Store
+
+# Paper build products
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+
+# Experiment runtime logs
+experiment_artifacts/logs/
+
+# Non-canonical generated artifact bulk for this TIST package
+artifact/aisec2026_anonymous/
+experiment_artifacts/exp7_images/
+experiment_artifacts/exp7_text/
+experiment_artifacts/exp7_ui/
+experiment_artifacts/exp8_text/raw/6e5e2e0fa956/
+experiment_artifacts/exp8_text/raw/b3dd18b8bb4f/exp8_20260601_002652/
+experiment_artifacts/exp8_text/raw/d1a27ec3ad12/
+experiment_data/exp8_post_training_priors_20260601_001606.csv
+experiment_data/exp8_post_training_priors_20260601_002652.csv

@@ -1,0 +1,3 @@
+Filter Tooltips: 
+
+"Apply filters to refine your dataset. Select conditions from the dropdown to show only data that matches your criteria, then click apply to update the display."

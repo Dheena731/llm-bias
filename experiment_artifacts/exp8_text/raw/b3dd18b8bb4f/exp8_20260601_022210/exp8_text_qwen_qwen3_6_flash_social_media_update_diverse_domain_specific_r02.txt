@@ -1,0 +1,17 @@
+Since you didn't specify a domain, I've written this for a **Project Management / Collaboration Tool**. It targets a specific user behavior (notification fatigue) and avoids all the usual "thrilled to announce" or "game-changer" phrasing.
+
+**Copy:**
+
+> We know the notification ping is the first thing to break during a sprint.
+>
+> **Batch Digest** now routes non-critical mentions into a single summary at 2 PM. You can still flag items as "Urgent" for instant alerts, but the rest waits until the end of the block.
+>
+> It's live in Settings > Notifications. Enable it and let the backend work stay in the background.
+
+**Why this works:**
+*   **Specific Pain Point:** Addresses the "ping" breaking flow during sprints, not just generic "stress."
+*   **Concrete Mechanics:** Mentions a specific time (2 PM), a specific action (flagging "Urgent"), and the exact location (Settings > Notifications).
+*   **Voice:** Uses dry, practical language ("backend work stay in the background") rather than hype.
+*   **No Stock Traps:** Zero emojis, no "revolutionize," no "click the link," no "game-changer."
+
+*If you provide your specific domain and feature, I can tailor the technical details and tone to match your exact audience.*

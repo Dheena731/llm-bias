@@ -1,0 +1,5 @@
+Latency refers to the delay between the time a user interacts with a web application and the time it takes for the application to respond. This delay can be caused by a variety of factors, including the time it takes for data to travel from the user's device to the server and back, the time it takes for the server to process the request, and the time it takes for the application to render the response. 
+
+High latency can be frustrating for users, as it makes the application feel slow and unresponsive. This can lead to a poor user experience, which can in turn drive users away from the application. In addition, high latency can also affect the application's ability to handle a large number of users, as each user's request takes longer to process. 
+
+As a result, reducing latency is a key goal for developers of web applications, as it can improve the user experience and increase the application's scalability. This can be achieved through a variety of techniques, such as optimizing server performance, reducing the amount of data that needs to be transferred, and using caching to store frequently accessed data.

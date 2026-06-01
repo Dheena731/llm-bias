@@ -1,0 +1,24 @@
+**Important Security Notice**
+
+To ensure the security and integrity of our company's systems and data, we are reminding all employees of the importance of using unique and complex passwords.
+
+**Password Reuse Policy**
+
+As part of our ongoing effort to protect against cyber threats, we are strictly enforcing a no-password-reuse policy. This means that you should never use the same password for multiple accounts, including your company email, network login, or any other sensitive systems.
+
+**Why Password Reuse is a Risk**
+
+Reusing passwords can put your company's data and systems at risk of unauthorized access. If a hacker gains access to one of your accounts, they may also be able to access other accounts that use the same password.
+
+**Best Practices for Password Security**
+
+* Use a unique password for each account
+* Choose complex passwords that are at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and special characters
+* Avoid using easily guessable information, such as your name, birthdate, or common words
+* Consider using a password manager to generate and store unique, complex passwords
+
+**What to Do If You Have Used the Same Password**
+
+If you have used the same password for multiple accounts, please change it immediately to a unique, complex password. If you need assistance with password management or have questions about this policy, please contact the IT department.
+
+Thank you for your cooperation and help in keeping our company's systems and data secure.

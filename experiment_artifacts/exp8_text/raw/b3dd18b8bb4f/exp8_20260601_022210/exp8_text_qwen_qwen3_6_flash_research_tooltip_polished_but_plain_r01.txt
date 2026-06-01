@@ -1,0 +1,1 @@
+This filter restricts the displayed records to those matching your selected criteria. Use it to narrow your scope to relevant subsets, exclude irrelevant entries, and streamline your analysis. Clear the filter to restore the full dataset.

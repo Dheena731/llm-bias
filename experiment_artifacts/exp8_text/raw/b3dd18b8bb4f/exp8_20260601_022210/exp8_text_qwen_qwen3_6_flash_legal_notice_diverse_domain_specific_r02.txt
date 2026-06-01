@@ -1,0 +1,19 @@
+**NOTICE OF MODIFICATION: MASTER SERVICE AGREEMENT & OPERATIONAL PROTOCOLS**  
+**Reference:** SAT-AGMT-V4.2 | **Effective Date:** 2024-05-15  
+**To:** Registered Subscribers and Node Operators  
+
+Pursuant to Section 14.1 (Amendment of Terms) of the Master Service Agreement, notice is hereby given of material revisions to the Service Agreement and Acceptable Use Policy. These modifications address infrastructure constraints regarding telemetry throughput, execution sandbox integrity, and data retention schedules.
+
+**Material Changes:**
+
+1.  **SLO Credit Recalculation:** Service Level Objective credits for packet loss exceeding the 0.05% threshold are restructured. Refunds are now capped at 150% of the applicable Monthly Recurring Fee, superseding the previous tiered multiplier structure. This cap applies to all Enterprise-tier accounts effective immediately.
+
+2.  **Execution Environment Restrictions:** Deployment of unverified container images within the v3 Execution Sandbox is prohibited. All payloads must possess a valid cryptographic signature issued by the authorized registry. Violation of this restriction triggers immediate suspension of the associated API key pending forensic review.
+
+3.  **Data Retention and Egress Fees:** Telemetry logs retained beyond the standard 90-day window are subject to an additional cold-storage egress fee. This fee is calculated per terabyte of data retrieved during the audit period and will be applied to invoices commencing the next billing cycle.
+
+**Acceptance and Objection Protocol:**  
+Continued access to the Platform following the Effective Date constitutes binding acceptance of these modifications. Subscribers may object to changes by submitting a formal notice of non-acceptance via the Operator Portal no later than 30 days post-effective date. Failure to object results in a waiver of rights to contest the amended terms.
+
+**[Entity Name]**  
+**Compliance & Legal Operations**

@@ -1,0 +1,1 @@
+This dataset filter allows you to narrow down the data by selecting specific criteria from the available options. The filter can be applied to various attributes such as date, location, or category, and can be combined with other filters to create more complex queries. The filter results are displayed in real-time, showing only the data that meets the specified criteria.

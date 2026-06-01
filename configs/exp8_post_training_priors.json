@@ -1,0 +1,124 @@
+{
+  "description": "Experiment 8 measures route-labeled presentation priors in current OpenRouter text-generation routes. Base-model routes require a separate HF/local collector.",
+  "routes": [
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "model_family": "llama",
+      "route_stage_label": "instruct_candidate",
+      "stage_provenance": "openrouter_models_2026-06-01_exact_id_hf_meta_llama_Llama-3.3-70B-Instruct"
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "model_family": "llama",
+      "route_stage_label": "instruct_candidate",
+      "stage_provenance": "openrouter_models_2026-06-01_exact_id_hf_meta_llama_Llama-3.1-8B-Instruct"
+    },
+    {
+      "model": "qwen/qwen-2.5-7b-instruct",
+      "model_family": "qwen",
+      "route_stage_label": "instruct_candidate",
+      "stage_provenance": "openrouter_models_2026-06-01_exact_id_hf_Qwen_Qwen2.5-7B-Instruct"
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "model_family": "qwen",
+      "route_stage_label": "chat_or_instruct",
+      "stage_provenance": "openrouter_models_2026-06-01_exact_id_no_hf_stage_proof_chat_completion_route"
+    }
+  ],
+  "tracks": {
+    "text": {
+      "full_repeats": 10,
+      "smoke_repeats": 1,
+      "api_parameters": {
+        "temperature": 0.8,
+        "max_tokens": 768,
+        "timeout": 60
+      }
+    }
+  },
+  "conditions": {
+    "neutral": {
+      "label": "Neutral prompt",
+      "suffix": ""
+    },
+    "no_emoji": {
+      "label": "No emoji",
+      "suffix": "Do not use emoji."
+    },
+    "plain_no_markdown": {
+      "label": "Plain no Markdown",
+      "suffix": "Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links."
+    },
+    "diverse_domain_specific": {
+      "label": "Diverse domain-specific",
+      "suffix": "Make the writing specific to the domain and distinct from generic AI-generated examples. Avoid stock launch-copy language."
+    },
+    "polished_but_plain": {
+      "label": "Polished but plain",
+      "suffix": "Make the writing polished and useful, but keep it as plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links."
+    }
+  },
+  "prompt_families": [
+    {
+      "id": "social_media_update",
+      "domain": "social_media",
+      "prompt": "Write a short social media update announcing a new feature."
+    },
+    {
+      "id": "marketing_launch_note",
+      "domain": "marketing",
+      "prompt": "Write a short marketing launch note for a small business app."
+    },
+    {
+      "id": "recipe_tip",
+      "domain": "recipe",
+      "prompt": "Write a short cooking tip for preparing a weeknight dinner."
+    },
+    {
+      "id": "technical_explanation",
+      "domain": "technical",
+      "prompt": "Write a short explanation of why latency matters in web applications."
+    },
+    {
+      "id": "legal_notice",
+      "domain": "legal",
+      "prompt": "Write a short legal-style notice about changes to account terms."
+    },
+    {
+      "id": "academic_feedback",
+      "domain": "academic",
+      "prompt": "Write a short academic feedback note on a draft literature review."
+    },
+    {
+      "id": "security_notice",
+      "domain": "security",
+      "prompt": "Write a short workplace security notice about password reuse."
+    },
+    {
+      "id": "finance_update",
+      "domain": "finance",
+      "prompt": "Write a short update explaining a new monthly spending summary."
+    },
+    {
+      "id": "public_service_notice",
+      "domain": "public_service",
+      "prompt": "Write a short public-service notice about library opening hours."
+    },
+    {
+      "id": "health_reminder",
+      "domain": "health",
+      "prompt": "Write a short reminder for users to review their weekly fitness progress."
+    },
+    {
+      "id": "enterprise_admin_message",
+      "domain": "enterprise",
+      "prompt": "Write a short admin message about a scheduled dashboard maintenance window."
+    },
+    {
+      "id": "research_tooltip",
+      "domain": "research",
+      "prompt": "Write a concise tooltip explaining a dataset filter in a research tool."
+    }
+  ]
+}

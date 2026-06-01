@@ -1,0 +1,1 @@
+This filter allows you to narrow the dataset to specific values or ranges of a particular variable. By selecting a value or range from the dropdown menu, you can isolate the subset of data that meets the specified criteria. This enables you to focus on specific patterns, trends, or relationships within the dataset, making it easier to draw meaningful conclusions from the data.

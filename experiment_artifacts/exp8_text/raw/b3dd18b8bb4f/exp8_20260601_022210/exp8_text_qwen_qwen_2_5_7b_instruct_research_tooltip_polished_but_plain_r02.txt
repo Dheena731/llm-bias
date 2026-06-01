@@ -1,0 +1,1 @@
+This dataset filter allows you to narrow down your search by specifying criteria such as date range, category, or value thresholds. Use it to focus on the data most relevant to your analysis.

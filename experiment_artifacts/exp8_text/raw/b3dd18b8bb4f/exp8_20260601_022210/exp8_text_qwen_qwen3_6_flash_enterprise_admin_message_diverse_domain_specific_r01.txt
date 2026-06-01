@@ -1,0 +1,9 @@
+**Subject:** Maintenance Window: Dashboard Offline [Day], [Date] [Time–Time] [Timezone]
+
+The dashboard will be unavailable during the stated window for backend maintenance. We’re moving the query engine to a new compute instance to resolve recurring timeout errors and reduce report generation latency.
+
+All active sessions will terminate. Do not leave ad-hoc reports open or scheduled exports queued past the start time. The interface will return to normal once migration completes, though initial authentication latency may spike for 5–10 minutes as services reinitialize.
+
+Progress will be posted on [Status Page/Channel]. If you cannot access the dashboard after the end time, submit a ticket to [Support Channel] with your user ID and any console/network errors.
+
+No settings or integrations require updates. Save work ahead of the window.

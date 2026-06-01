@@ -1,0 +1,35 @@
+Here is a concise and professional admin message template. You can copy and paste this, filling in the bracketed details.
+
+**Subject:** Scheduled Maintenance: Dashboard Update on [Date]
+
+**Message:**
+
+Hello Team,
+
+Please be advised that we will be performing scheduled maintenance on the dashboard to improve performance and stability.
+
+**Maintenance Window:**
+📅 **Date:** [Date, e.g., Saturday, October 28]
+⏰ **Time:** [Start Time] – [End Time] [Time Zone]
+
+**Impact:**
+The dashboard will be unavailable during this window. Please save any work and plan accordingly. We expect the system to be back online by the end time listed above.
+
+Thank you for your patience.
+
+Best regards,
+
+[Your Name/Admin Team]
+[Contact Info/Support Link]
+
+***
+
+**💡 Tip:** If you're posting this in a chat channel (Slack/Teams), you can use this shorter version:
+
+> 🚧 **Scheduled Maintenance Alert** 🚧
+>
+> The dashboard will be down for maintenance on **[Date]** between **[Start Time]** and **[End Time] [Time Zone]**.
+>
+> 📉 **Impact:** Dashboard unavailable.
+>
+> Please plan your work accordingly. Thanks! 🔧

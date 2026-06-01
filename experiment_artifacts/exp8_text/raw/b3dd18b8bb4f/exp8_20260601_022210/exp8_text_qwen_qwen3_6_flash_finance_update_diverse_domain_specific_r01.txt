@@ -1,0 +1,12 @@
+**Subject: Monthly Spend Summary: Variance tracking and budget mapping added**
+
+We've updated the Monthly Spend Summary to align with your end-of-month close workflow. The view now links transaction data to your active budget rows, allowing you to track variance without leaving the dashboard.
+
+**Changes:**
+*   **Budget vs. Actuals:** New columns display spend against approved budget per category, including variance percentages and conditional formatting for overages.
+*   **Category Drill-down:** Click any category row to view the top vendors, transaction dates, and unallocated costs for the month.
+*   **Export format:** The CSV export now includes the variance columns, matching the structure used in your month-end reconciliation checklists.
+
+Existing automated reports remain unchanged. If your budget categories don't map correctly after this update, use the Category Mapping tool in **Settings > Data Source** to realign.
+
+Update rolled out at 04:00 UTC. Reply to this thread if you encounter data gaps.

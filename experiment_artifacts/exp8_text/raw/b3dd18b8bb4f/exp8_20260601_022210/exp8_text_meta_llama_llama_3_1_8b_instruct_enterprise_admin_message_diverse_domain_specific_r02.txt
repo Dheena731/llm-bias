@@ -1,0 +1,13 @@
+Here's a short admin message about a scheduled dashboard maintenance window:
+
+"Important: Dashboard Maintenance Window - February 17th, 8pm-10pm PST
+
+As we continue to enhance the performance and security of our trading platform, we will be performing scheduled maintenance on the dashboard tonight. During this time, you may experience brief disruptions to the platform, including:
+
+* Temporary loss of access to real-time data
+* Delayed updates to order and position tracking
+* Intermittent issues with charting and analytics tools
+
+We apologize for any inconvenience this may cause and appreciate your understanding as we work to improve the overall user experience. Our team will be available to assist with any issues that may arise during this time.
+
+If you have any questions or concerns, please reach out to our support team at [support email]. Thank you for your patience and cooperation."

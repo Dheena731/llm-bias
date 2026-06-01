@@ -1,0 +1,15 @@
+Subject: Scheduled Dashboard Maintenance - Service Disruption Notice
+
+Dear Users,
+
+We would like to inform you that we will be performing routine maintenance on our dashboard application on [Date and Time]. During this period, some functionalities may be temporarily unavailable.
+
+Please save your current work as the dashboard might experience interruptions or become inaccessible for up to [duration of maintenance]. We apologize for any inconvenience this may cause and appreciate your understanding.
+
+If you have any questions or need assistance, please contact our support team at [support email or phone number].
+
+Thank you for your cooperation.
+
+Best regards,
+[Your Name]
+Admin Team

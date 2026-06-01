@@ -1,0 +1,33 @@
+{
+  "description": "Small manual audit set for checking feature extractor behavior before paper-grade claims.",
+  "samples": [
+    {
+      "sample_id": "text_plain_prose",
+      "track": "text",
+      "content": "Plain prose without decorative formatting.",
+      "expected": {
+        "has_markdown": false,
+        "has_format_default": false
+      }
+    },
+    {
+      "sample_id": "text_markdown_heading_list",
+      "track": "text",
+      "content": "## Launch note\n- Account filters are available now.",
+      "expected": {
+        "has_markdown": true,
+        "has_format_default": true
+      }
+    },
+    {
+      "sample_id": "ui_blue_centered_card",
+      "track": "ui",
+      "content": "<section class=\"card\" style=\"color:#2563EB; text-align: center; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.12)\"><h1>Status</h1></section>",
+      "expected": {
+        "has_purple_or_blue": true,
+        "has_centered_layout": true,
+        "has_shadow": true
+      }
+    }
+  ]
+}

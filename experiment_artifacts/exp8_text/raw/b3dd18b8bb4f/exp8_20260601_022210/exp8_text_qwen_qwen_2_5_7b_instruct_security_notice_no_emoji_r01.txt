@@ -1,0 +1,17 @@
+Workplace Security Notice: Password Reuse
+
+Effective immediately, all employees are prohibited from reusing passwords across different systems and applications within the company network. This policy is critical to enhancing our overall security posture and protecting sensitive company data.
+
+Password reuse can lead to a significant security vulnerability, as a compromise in one system can result in unauthorized access to other systems where the same password is used. To comply with this policy:
+
+1. Ensure each application or system has unique passwords.
+2. Utilize a password manager to securely store and manage your passwords.
+3. Regularly update your passwords according to our established guidelines.
+4. Enable multi-factor authentication (MFA) wherever available.
+
+If you have any questions or concerns regarding this policy, please contact the IT Security Team at [IT Security Team Contact Information].
+
+Thank you for your cooperation in maintaining the security of our company's network.
+
+[Company Name]
+[Date]

@@ -1,0 +1,9 @@
+**Domain:** CLI tool for managing bare-metal Kubernetes clusters.
+
+metalctl v2.1 is live.
+
+Added `--force-gpu-reset` for stuck NVIDIA drivers on headless nodes. Patched the etcd backup race condition dropping WAL segments under heavy I/O. If your backups were flaking last week, this resolves it.
+
+brew upgrade metalctl
+
+#k8s #baremetal #ops

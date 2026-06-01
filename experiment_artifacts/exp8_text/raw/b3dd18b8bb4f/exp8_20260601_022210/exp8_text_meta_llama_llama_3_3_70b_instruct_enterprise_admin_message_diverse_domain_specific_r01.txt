@@ -1,0 +1,7 @@
+**Scheduled Dashboard Maintenance Notification**
+
+On Saturday, March 18th, from 10:00 PM to 1:00 AM EST, our dashboard will be undergoing routine maintenance to ensure optimal performance and security. During this 3-hour window, users may experience intermittent access issues or brief outages. Our development team will be implementing updates to our data visualization libraries, enhancing reporting functionality, and performing system checks to guarantee seamless integration with our API services.
+
+To minimize disruptions, we recommend that users save any unsaved work and log out of the dashboard prior to the maintenance window. If you have any critical tasks scheduled during this time, please make necessary arrangements to complete them beforehand.
+
+We appreciate your understanding and cooperation as we work to improve our platform. If you have any questions or concerns, please don't hesitate to reach out to our support team. We'll be monitoring the maintenance process closely and will notify you once the dashboard is available again.

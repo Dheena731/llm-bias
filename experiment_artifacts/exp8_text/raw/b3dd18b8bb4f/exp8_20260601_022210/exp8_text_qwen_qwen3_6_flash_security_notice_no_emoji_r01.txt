@@ -1,0 +1,19 @@
+**Subject: Security Notice: Risks of Password Reuse**
+
+Team,
+
+To protect company data and systems, we are reinforcing the policy regarding password reuse.
+
+Using the same password across multiple accounts, particularly mixing work and personal services, significantly increases the risk of unauthorized access. If a password is compromised in a breach outside of the organization, attackers may use those credentials to access corporate systems.
+
+Please adhere to the following guidelines immediately:
+
+1. Unique Credentials: Create a distinct, strong password for every work account.
+2. No Work/Personal Mix: Never use your work password for personal accounts, and vice versa.
+3. Password Management: Utilize the approved corporate password manager to generate and store complex passwords securely.
+
+If you have reused passwords previously, please update them as soon as possible. For assistance, contact the IT Help Desk.
+
+Thank you for your cooperation in maintaining our security posture.
+
+IT Security Team

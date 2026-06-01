@@ -1,0 +1,16 @@
+**Important: Protecting Our Network and Systems**
+
+As we continue to work with sensitive data and collaborate with external partners, it's essential that we prioritize password security. Recently, we've noticed a concerning trend of password reuse across multiple accounts. This practice can put our entire network at risk, as a compromised password in one system can potentially grant unauthorized access to others.
+
+To mitigate this risk, we're reminding all employees to adhere to our password management policies. This includes:
+
+* Using unique, complex passwords for each system and application
+* Avoiding the use of easily guessable information, such as birthdays, names, or common words
+* Enabling two-factor authentication (2FA) whenever possible
+* Regularly updating and rotating passwords to prevent unauthorized access
+
+Our IT department will be conducting regular audits to identify and address password reuse. If you're found to be using the same password across multiple accounts, you'll receive a notification to update your credentials.
+
+Let's work together to maintain the security and integrity of our systems. If you have any questions or concerns about password management, please don't hesitate to reach out to our IT team.
+
+**Remember: Your password is your first line of defense. Keep it unique, keep it safe.**

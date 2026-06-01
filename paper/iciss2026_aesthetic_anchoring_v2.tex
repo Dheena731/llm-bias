@@ -1,0 +1,334 @@
+\documentclass[runningheads,a4paper]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{url}
+
+\graphicspath{{../analysis_output/}}
+
+\begin{document}
+
+\title{Aesthetic Anchoring: Measuring Stylistic Instruction Failures in Large Language Models}
+\titlerunning{Aesthetic Anchoring in Large Language Models}
+
+\author{Anonymous Author(s)}
+\authorrunning{Anonymous}
+\institute{Anonymous Institution(s)}
+
+\maketitle
+
+\begin{abstract}
+Large language models (LLMs) exhibit persistent stylistic defaults, which we call \emph{aesthetic anchoring}: learned associations between content domains and output forms that activate before explicit user instructions are processed. These defaults are often treated as cosmetic annoyances, such as unwanted emojis, gradients, markdown, or decorative formatting. In security and compliance workflows, however, stylistic non-compliance can become an output-policy failure: generated notices, evidence summaries, training messages, and rendered artifacts may violate organizational constraints while still appearing fluent and trustworthy. We present a corrected empirical study of aesthetic anchoring across 13,512 clean LLM responses from three controlled experiments. In the emoji experiment, topic context is the strongest predictor of emoji insertion: social-media prompts trigger emojis in 96.1\% of clean baseline responses, while legal and technical prompts are fully compliant even without explicit suppression. A single polite no-emoji instruction increases overall compliance from 77.3\% to 98.7\%, showing that the strongest anchoring lies in default activation rather than universal override resistance. In the color experiment, we reject a broad ``purple bias'' claim, finding only two purple/pink instances across 1,350 responses, but identify model-specific gradient persistence in Gemini and MiMo outputs. In the multi-constraint experiment, corrected measured-only scoring shows high compliance for surface-format constraints, with remaining violations concentrated in word limits and markdown emphasis. We argue that aesthetic anchoring should be evaluated separately from semantic instruction following and mitigated through validators, renderer sanitization, retry policies, and model-specific compliance tests.
+
+\keywords{Large language models \and Instruction following \and Security in AI/ML \and Prompt governance \and Compliance automation}
+\end{abstract}
+
+\section{Introduction}
+
+When users instruct a large language model to write a social media post without emojis, the model may still produce decorative, enthusiastic output. When the same no-emoji expectation is applied to an academic or legal topic, the model often complies without being asked. This gap reveals a class of behavior we call \emph{aesthetic anchoring}: learned associations between content domains and output styles that shape the model's default response before the user attempts to override them.
+
+The phenomenon is familiar to practitioners. Product teams building LLM-based tools encounter persistent emojis, unsolicited bullet points, bold headers, marketing-like tone, decorative separators, gradients in generated CSS, and other recognizable output signatures. In ordinary drafting workflows these may be minor irritations. In security and compliance workflows, they become more serious because output style can be part of the control boundary. A generated policy notice may be required to avoid emojis or marketing language. A compliance evidence summary may need plain text without unsupported claims. A rendered markdown or HTML artifact may need to avoid links, inline styles, or unapproved formatting. If an LLM violates these constraints while producing polished prose, the failure can be easy to miss.
+
+Prior instruction-following work has focused largely on semantic constraints: factual accuracy, reasoning steps, safety compliance, and multi-instruction task completion. Stylistic constraints differ. They are surface-form requirements that are often easy to state, easy to validate mechanically, and yet unevenly obeyed across domains and models. Treating them as trivial hides a practical deployment problem: many real-world LLM systems depend on prompt instructions to enforce formatting and presentation rules.
+
+This paper reports an evidence-corrected, security-relevant account of aesthetic anchoring. We use only the main comparable dataset: 13,512 clean responses from three controlled experiments. A 240-row Qwen pilot is excluded from the main results because it contains only two runs per condition and is therefore not comparable to the 30-run full-model design.
+
+We make three contributions:
+
+\begin{itemize}
+    \item We introduce aesthetic anchoring as an instruction-control failure mode for LLM-generated artifacts, especially when formatting and presentation constraints carry security or compliance meaning.
+    \item We provide corrected measurements of emoji persistence, color/gradient persistence, and multi-constraint formatting compliance across 13,512 clean responses.
+    \item We distinguish stylistic compliance from semantic compliance and derive practical mitigations for deployment: validators, retry loops, renderer sanitization, and constraint-specific model evaluation.
+\end{itemize}
+
+\section{Related Work}
+
+\paragraph{Format bias in LLMs.}
+Recent work has shown that model outputs vary systematically with requested or implicit formats. Long et al.~\cite{long2024format} evaluate output-format bias and mitigation strategies across LLMs. Zhang et al.~\cite{zhang2025format} argue that reward models can encode preferences for particular surface forms such as lists, headers, and decorative markers. Our work extends this line by measuring not only whether format defaults exist, but how they respond to explicit suppression instructions across topics and models.
+
+\paragraph{Multi-instruction compliance.}
+He et al.~\cite{he2025curse} describe a ``curse of instructions'' in which models degrade as simultaneous instructions accumulate. Our multi-constraint results show that surface-format constraints can behave differently from semantic constraints. Avoiding emojis, headers, or markdown is not equivalent to simultaneously satisfying factual, reasoning, and audience constraints. We therefore argue that stylistic and semantic instruction following should be evaluated separately.
+
+\paragraph{Reward hacking, sycophancy, and alignment signals.}
+RLHF-style training can reward outputs that appear warm, polished, or helpful even when those surface features conflict with a user's instruction. Denison et al.~\cite{denison2024sycophancy} discuss reward tampering and related alignment failures. Wen et al.~\cite{wen2024rluf} examine feedback loops from human or user signals. Aesthetic anchoring is consistent with the possibility that style markers become associated with perceived helpfulness or engagement.
+
+\paragraph{Instruction hierarchy and negation.}
+Instruction hierarchies attempt to resolve conflicts among system, developer, and user instructions~\cite{wu2024hierarchy}. Negation is also known to be difficult for pretrained models in probing contexts~\cite{kassner2020negation}. In stylistic prompts, telling a model not to use a feature can still activate the feature concept. Our color experiment includes a restricted condition designed to test whether prohibited visual styles persist after explicit negation.
+
+\paragraph{Security in AI/ML systems.}
+ICISS explicitly includes security in AI/ML, prompt injection, RLHF strategies, and formal methods for AI/ML applications in scope. Aesthetic anchoring is not a prompt-injection attack, but it touches the same deployment question: when can prompt instructions be relied on as controls, and when must they be backed by external validation?
+
+\section{Methodology}
+
+\subsection{Models and Data Selection}
+
+The main comparable dataset uses four model identities across three experiments, though no single experiment uses all four. Experiment~1 uses Gemini 2.5 Flash, GPT-3.5-Turbo, and GLM-4.5 Air. Experiment~2 uses Gemini 2.5 Flash, GPT-3.5-Turbo, and MiMo v2 Flash. Experiment~3 uses Gemini 2.5 Flash, GPT-3.5-Turbo, and GLM-4.5 Air.
+
+Table~\ref{tab:scale} summarizes the corrected scale. We exclude two later GLM-only multi-constraint reruns to avoid double counting. We also exclude a recovered Qwen pilot from the main results: it has 240 clean responses, but only two runs per condition, while the main design uses 30 runs per condition.
+
+\begin{table}
+\caption{Corrected experimental scale for the main comparable dataset.}
+\label{tab:scale}
+\centering
+\begin{tabularx}{\textwidth}{lrrrX}
+\toprule
+Experiment & Total rows & Clean rows & Models & Notes \\
+\midrule
+Emoji persistence & 10,800 & 9,658 & 3 & Gemini, GPT-3.5, GLM; 1,142 error rows excluded. \\
+Color/gradient bias & 1,350 & 1,350 & 3 & Gemini, GPT-3.5, MiMo; two source CSVs combined. \\
+Multi-constraint stress & 3,600 & 2,504 & 3 & Gemini, GPT-3.5, GLM; canonical file only. \\
+\midrule
+Main total & 15,750 & 13,512 & 4 unique & Qwen pilot and GLM-only reruns excluded. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Experiment 1: Emoji Persistence}
+
+Experiment~1 crosses five instruction intensity levels with six topic categories. The intensity levels are: L0 baseline with no emoji restriction, L1 polite request, L2 explicit prohibition, L3 emphatic command, and L4 contextual pressure. The topic categories are social media, marketing, recipe, technical, legal, and academic, with formality scores ranging from 2 to 9. Each topic includes four prompt variants, and each condition is run 30 times in the main full-run data.
+
+Evaluation uses automated Unicode emoji detection. A response is compliant if no emoji character is detected. We analyze compliance by topic, intensity level, and model.
+
+\subsection{Experiment 2: Color and Gradient Bias}
+
+Experiment~2 prompts models to suggest color schemes for five company types under three variants: baseline design, explicit restriction against purple/pink and gradients, and CSS generation. Hex colors are extracted and converted to HSL. Hue values from 270 to 330 degrees with saturation above 15\% are classified as purple/pink. CSS gradient keywords are detected by string matching.
+
+\subsection{Experiment 3: Multi-Constraint Stress Test}
+
+The paper-facing third experiment corresponds to the repository's canonical multi-constraint data. It applies formatting constraints progressively and in combined settings: no emojis, no bullets, no headers, no markdown bold/italic, and a word limit. Aggregate scores use only constraints with measured binary violation columns. Active but unmeasured constraints are excluded from measured compliance rather than counted as successes or failures.
+
+\section{Experiment 1: Emoji Persistence}
+
+\subsection{Topic Context Dominates Default Style}
+
+The strongest predictor of emoji insertion is topic category. At baseline, social-media prompts are compliant in only 3.9\% of clean responses; equivalently, they trigger emojis in 96.1\% of responses. Marketing prompts are 64.2\% compliant. Recipe prompts are 97.5\% compliant, academic prompts 98.3\%, and legal and technical prompts 100.0\%.
+
+This pattern supports the core aesthetic anchoring hypothesis. The model appears to infer an expected genre from the topic and then activates a learned style. A social-media prompt invites enthusiasm, decoration, and emoji-like warmth markers; a legal prompt activates a formal genre in which emojis are absent even without instruction.
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{exp1_baseline_heatmap.png}
+\caption{Baseline emoji compliance by model and topic. Informal topics trigger the strongest stylistic defaults.}
+\label{fig:baseline-heatmap}
+\end{figure}
+
+\subsection{The Override Transition is Sharp}
+
+The compliance increase from L0 to L1 is the critical transition. A single polite no-emoji instruction improves compliance from 77.3\% to 98.7\%. Explicit prohibition improves it to 99.7\%, and the two strongest instructions reach 100.0\% in the clean local data. This means the strongest evidence is not that all stylistic defaults resist override. Rather, the evidence shows that defaults are strong before suppression is signaled, and that the first suppression signal carries most of the effect.
+
+\begin{table}
+\caption{Emoji compliance by instruction intensity.}
+\label{tab:emoji-intensity}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Instruction level & Clean rows & Compliant rows & Compliance \\
+\midrule
+L0: baseline & 2,158 & 1,668 & 77.3\% \\
+L1: polite request & 2,141 & 2,114 & 98.7\% \\
+L2: explicit prohibition & 2,124 & 2,118 & 99.7\% \\
+L3: emphatic command & 1,795 & 1,795 & 100.0\% \\
+L4: contextual pressure & 1,440 & 1,440 & 100.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{exp1_topic_intensity.png}
+\caption{Topic and intensity effects in Experiment~1. The largest transition is from baseline to the first explicit suppression request.}
+\label{fig:topic-intensity}
+\end{figure}
+
+\subsection{Cross-Model Variation}
+
+GLM-4.5 Air has the highest overall non-compliance rate in the main comparable Experiment~1 data: 10.7\%, compared with 3.7\% for Gemini and 3.6\% for GPT-3.5. This does not by itself prove a training-pipeline cause, but it shows that stylistic anchoring profiles are model-dependent.
+
+\begin{table}
+\caption{Experiment~1 non-compliance by model.}
+\label{tab:emoji-model}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Model & Clean rows & Non-compliant rows & Non-compliance \\
+\midrule
+Gemini 2.5 Flash & 3,600 & 132 & 3.7\% \\
+GPT-3.5-Turbo & 3,600 & 129 & 3.6\% \\
+GLM-4.5 Air & 2,458 & 262 & 10.7\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{exp1_compliance_by_model.png}
+\caption{Emoji compliance by model and instruction intensity. GLM retains more non-compliance through the weaker instruction levels.}
+\label{fig:emoji-model}
+\end{figure}
+
+\subsection{Emoji Clusters Indicate Mode Switching}
+
+Across the 523 non-compliant clean Experiment~1 responses, emojis are not distributed randomly. The most frequent characters are concentrated in a technology and marketing-like cluster: sparkles, rocket, pointing-down, party popper, check mark, and related symbols. This suggests a mode switch into an enthusiastic promotional register rather than occasional single-character leakage.
+
+\section{Experiment 2: Color and Gradient Bias}
+
+\subsection{The Broad Purple-Bias Claim is Unsupported}
+
+The corrected Experiment~2 data does not support a broad claim that LLMs prefer purple or pink. Across 1,350 responses, only two contain colors in the purple/pink detector range: one from Gemini and one from MiMo. GPT-3.5 produces no purple/pink instances in this dataset. The result is useful precisely because it corrects a popular intuition: community narratives about AI style should be tested empirically.
+
+\subsection{Gradient Persistence is Model-Specific}
+
+Gradients are more interesting than purple/pink hues. Gemini produces 26 gradient instances out of 450 responses (5.8\%), and MiMo produces 18 out of 450 (4.0\%). GPT-3.5 produces none. This makes gradient persistence a model-specific style default rather than a universal LLM property.
+
+\begin{table}
+\caption{Experiment~2 color and gradient violations by model.}
+\label{tab:color-model}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Model & Rows & Purple/pink instances & Gradient instances \\
+\midrule
+Gemini 2.5 Flash & 450 & 1 & 26 \\
+GPT-3.5-Turbo & 450 & 0 & 0 \\
+MiMo v2 Flash & 450 & 1 & 18 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{exp2_color_bias.png}
+\caption{Experiment~2 corrected color and gradient analysis. Purple/pink is negligible; gradient persistence is model-specific.}
+\label{fig:color-bias}
+\end{figure}
+
+\subsection{Why This Matters for Security}
+
+Gradient syntax is not inherently unsafe. The security relevance appears when CSS, HTML, or markdown is generated for systems with renderer policies. If a workflow requires flat colors, no inline styles, no external links, or no unapproved markup, prompt-level restrictions should not be treated as sufficient controls. The artifact should be validated as code or rendered content.
+
+\section{Experiment 3: Multi-Constraint Stress Test}
+
+\subsection{Corrected Measured-Only Scoring}
+
+Measured-only scoring supports a more conservative interpretation than a broad ``constraint synergy'' claim. Surface-format compliance is high: emoji, bullet, and header constraints are fully satisfied when active. Markdown emphasis has 3 violations out of 1,528 active cases, and the word-limit constraint has 14 violations out of 628 active cases.
+
+\begin{table}
+\caption{Measured multi-constraint compliance when each constraint is active.}
+\label{tab:constraint-compliance}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Constraint & Active rows & Violations & Compliance \\
+\midrule
+No emojis & 2,504 & 0 & 100.0\% \\
+No bullet points & 2,176 & 0 & 100.0\% \\
+No headers & 1,849 & 0 & 100.0\% \\
+No markdown bold/italic & 1,528 & 3 & 99.8\% \\
+Word limit & 628 & 14 & 97.8\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{exp4_decay_curve.png}
+\caption{Measured compliance as active constraints accumulate. Active but unmeasured constraints are excluded from aggregate scoring.}
+\label{fig:constraint-decay}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.8\textwidth]{exp4_constraint_breakdown.png}
+\caption{Measured constraint breakdown. Remaining violations concentrate in markdown emphasis and word-limit checks.}
+\label{fig:constraint-breakdown}
+\end{figure}
+
+\subsection{Stylistic and Semantic Compliance Should Not Be Aggregated Blindly}
+
+The corrected results still support a conceptual distinction from semantic multi-instruction failures. Surface-format constraints are often mechanically detectable and can reinforce each other by pushing the model toward simpler prose. Semantic constraints, by contrast, can compete for reasoning, factual grounding, or audience adaptation. Benchmarks that combine both into one aggregate score risk hiding different failure modes.
+
+\section{Discussion}
+
+\subsection{Aesthetic Anchoring as a Control Problem}
+
+The main deployment lesson is that prompts are weak control boundaries. A no-emoji prompt may work well in most cases, but that does not generalize to all output policies, models, or renderer contexts. Security and compliance systems should treat stylistic requirements as testable output policies.
+
+\subsection{Practical Mitigations}
+
+We recommend four controls for LLM-mediated security and compliance workflows:
+
+\begin{enumerate}
+    \item \textbf{Deterministic validators} for Unicode classes, markdown tokens, HTML tags, CSS gradients, URLs, word limits, required disclaimers, and unsupported claims.
+    \item \textbf{Reject-and-retry loops} that feed validator failures back to the model and record both failed and final outputs.
+    \item \textbf{Renderer sanitization} before generated markdown, HTML, or CSS is displayed or published.
+    \item \textbf{Model-specific output-policy evaluations} because style failures cluster differently by model and artifact type.
+\end{enumerate}
+
+\subsection{Implications for Benchmarks}
+
+Current instruction-following benchmarks often mix stylistic and semantic constraints. Our results suggest that stylistic compliance should be reported separately. A model that is excellent at surface-form compliance but weak at factual policy constraints should not receive the same interpretation as a model with the opposite profile.
+
+\subsection{Extending the Research}
+
+The strongest extension is an output-policy compliance benchmark for security and compliance artifacts. Future experiments should generate policy notices, SOC~2 or ISO~27001 evidence summaries, phishing-awareness training messages, incident-status updates, and markdown or HTML snippets. Conditions should compare baseline prompting, explicit policy prompting, system-level policy prompting, validator-only rejection, validator-guided retry, template-constrained generation, and renderer sanitization. Metrics should include per-policy violation rate, full artifact compliance, retries required, and retained utility.
+
+\section{Limitations}
+
+This study has four main limitations. First, it does not include frontier models such as GPT-4o or Claude in the main comparable data. Second, the Qwen data recovered during audit is only a 240-row pilot and is excluded from the balanced results. Third, the multi-constraint experiment measures only constraints with available binary detectors; unmeasured constraints are excluded from aggregate scores. Fourth, the study measures surface-form compliance rather than deeper semantic policy correctness.
+
+\section{Ethics, Privacy, and Disclosure}
+
+The experiments use synthetic prompts and model outputs. This draft does not claim completed human-subject results. If a later version includes a human UI-detection study, the manuscript must state IRB or ethics status and participant privacy handling. The current work does not identify vulnerabilities in a deployed third-party system, so responsible disclosure is not applicable unless future experiments expose provider-specific exploitable behavior. Gen-AI use in drafting, code generation, or analysis assistance should be declared through the submission system.
+
+\section{Conclusion}
+
+We introduced aesthetic anchoring as a framework for understanding persistent stylistic defaults in LLMs. The corrected evidence yields six findings. First, topic context is the primary driver of emoji defaults: social-media prompts trigger emojis in 96.1\% of clean baseline responses. Second, explicit suppression works sharply for emojis, with compliance rising from 77.3\% at baseline to 98.7\% under a polite request. Third, the broad purple-bias claim is unsupported, while gradient persistence appears in specific models. Fourth, measured multi-constraint compliance is high when surface-format constraints are scored correctly, with remaining violations concentrated in word limits and markdown emphasis. Fifth, model-specific anchoring profiles matter. Sixth, stylistic compliance and semantic compliance should be measured separately.
+
+For practitioners, the implication is concrete: do not rely on prompts alone as policy enforcement. For researchers, aesthetic anchoring provides a tractable way to study how learned output norms interact with user constraints. For secure deployment, validators, retries, sanitizers, and model-specific evaluations are the practical path from observation to control.
+
+\begin{thebibliography}{9}
+\bibitem{bai2025implicit}
+Yifan Bai et al.
+Measuring implicit bias in explicitly unbiased large language models.
+Proceedings of the National Academy of Sciences, 2025.
+
+\bibitem{denison2024sycophancy}
+Carson Denison et al.
+Sycophancy to subterfuge: Investigating reward tampering in language models.
+arXiv preprint arXiv:2406.10162, 2024.
+
+\bibitem{he2025curse}
+Yufei He et al.
+Curse of instructions: Large language models cannot follow multiple instructions at once.
+In Proceedings of the International Conference on Learning Representations, 2025.
+
+\bibitem{kassner2020negation}
+Nora Kassner and Hinrich Sch{\"u}tze.
+Negated and misprimed probes for pretrained language models: Birds can talk, but cannot fly.
+In Proceedings of the Association for Computational Linguistics, 2020.
+
+\bibitem{long2024format}
+Do Xuan Long, Hai Nguyen, Tiviatis Sim, Hieu Dao, Shafiq Joty, Kenji Kawaguchi, Nancy F. Chen, and Min-Yen Kan.
+LLMs are biased towards output formats: Systematically evaluating and mitigating output format bias of LLMs.
+arXiv preprint arXiv:2408.08656, 2024.
+
+\bibitem{wen2024rluf}
+Yifei Wen et al.
+From reinforcement learning from human feedback to reinforcement learning from user feedback.
+arXiv preprint, 2024.
+
+\bibitem{wu2024hierarchy}
+Eric Wu and Eric Wallace.
+An instruction hierarchy for large language models.
+In Proceedings of the International Conference on Learning Representations, 2024.
+
+\bibitem{zhang2025format}
+Yuqing Zhang, Yifei Xie, Biao Li, et al.
+From lists to emojis: How format bias affects model alignment.
+In Proceedings of the Association for Computational Linguistics, 2025.
+\end{thebibliography}
+
+\end{document}

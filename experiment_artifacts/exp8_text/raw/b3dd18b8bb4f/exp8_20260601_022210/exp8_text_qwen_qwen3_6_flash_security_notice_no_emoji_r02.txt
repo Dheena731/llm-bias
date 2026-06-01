@@ -1,0 +1,20 @@
+**SECURITY NOTICE: PASSWORD REUSE POLICY**
+
+**Date:** October 26, 2023
+**To:** All Employees
+**From:** Information Security Team
+**Subject:** Requirement for Unique Passwords
+
+To safeguard organizational assets, all staff must adhere to the following password standards effective immediately:
+
+1. **No Password Reuse:** You must never use the same password for a corporate account that is also used on a personal email, social media, or third-party service. A compromise of a personal account can lead to unauthorized access to company systems via credential stuffing attacks.
+
+2. **Unique Credentials:** Each work account must have a distinct, complex password. Do not reuse passwords across different company applications.
+
+3. **Password Management:** Employees are required to use the approved enterprise password manager to store and generate credentials securely.
+
+4. **Reporting:** If you suspect any account compromise, or if you have used the same password for work and personal accounts in the past, submit a ticket to the IT Help Desk immediately for remediation.
+
+Compliance with this policy is mandatory. Failure to adhere to these requirements may result in disciplinary action. Thank you for your cooperation in maintaining our security posture.
+
+**IT Security Operations**

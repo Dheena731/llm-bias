@@ -1,0 +1,11 @@
+**Subject:** Stop reusing passwords across work and external accounts
+
+When you use the same password for your corporate SSO, a vendor portal, or a personal email, you’re not protecting multiple accounts—you’re wiring them to a single point of failure. External breaches routinely surface credential lists that automated scripts immediately test against major service providers. If your work password appears on those lists, it gets submitted to our login endpoints. That’s how a compromised shipping vendor or retail loyalty program can lead to unauthorized access to our project trackers, HR files, or client databases.
+
+Going forward:
+• Each system you access (SSO, CRM, payroll, partner portals, cloud apps) requires a unique password.
+• Use 12+ characters with mixed case, numbers, and symbols. Let the company password vault generate and store them.
+• Enable multi-factor authentication on every account that supports it.
+• If you’ve been reusing passwords, rotate them at your next scheduled login. Submit a Helpdesk ticket if you’re unsure which internal systems share a credential.
+
+We won’t audit individual accounts for reuse unless the pattern creates a direct access risk. If you receive an MFA prompt, password-reset email, or login alert you didn’t initiate, report it within 24 hours by replying to this notice or calling the security desk. Password reuse is the most common bridge between external incidents and internal breaches. Keep your credentials isolated and your vault active.

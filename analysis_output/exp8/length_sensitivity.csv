@@ -1,0 +1,17 @@
+condition,delta_length_component,group_label,group_type,model_family,n,polish_default_rate,polish_without_length_rate,route_stage_label
+,0.21458333333333332,all,all,,480,0.48125,0.26666666666666666,
+diverse_domain_specific,0.3541666666666667,llama|instruct_candidate|diverse_domain_specific,stage_condition,llama,48,0.75,0.3958333333333333,instruct_candidate
+neutral,0.2708333333333333,llama|instruct_candidate|neutral,stage_condition,llama,48,0.6875,0.4166666666666667,instruct_candidate
+no_emoji,0.0625,llama|instruct_candidate|no_emoji,stage_condition,llama,48,0.22916666666666666,0.16666666666666666,instruct_candidate
+plain_no_markdown,0.1875,llama|instruct_candidate|plain_no_markdown,stage_condition,llama,48,0.3125,0.125,instruct_candidate
+polished_but_plain,0.3333333333333333,llama|instruct_candidate|polished_but_plain,stage_condition,llama,48,0.5208333333333334,0.1875,instruct_candidate
+diverse_domain_specific,0.4583333333333333,qwen|chat_or_instruct|diverse_domain_specific,stage_condition,qwen,24,0.5416666666666666,0.08333333333333333,chat_or_instruct
+neutral,0.041666666666666664,qwen|chat_or_instruct|neutral,stage_condition,qwen,24,0.625,0.5833333333333334,chat_or_instruct
+no_emoji,0.0,qwen|chat_or_instruct|no_emoji,stage_condition,qwen,24,0.08333333333333333,0.08333333333333333,chat_or_instruct
+plain_no_markdown,0.08333333333333333,qwen|chat_or_instruct|plain_no_markdown,stage_condition,qwen,24,0.20833333333333334,0.125,chat_or_instruct
+polished_but_plain,0.25,qwen|chat_or_instruct|polished_but_plain,stage_condition,qwen,24,0.3333333333333333,0.08333333333333333,chat_or_instruct
+diverse_domain_specific,0.4166666666666667,qwen|instruct_candidate|diverse_domain_specific,stage_condition,qwen,24,0.9166666666666666,0.5,instruct_candidate
+neutral,0.3333333333333333,qwen|instruct_candidate|neutral,stage_condition,qwen,24,0.9166666666666666,0.5833333333333334,instruct_candidate
+no_emoji,0.125,qwen|instruct_candidate|no_emoji,stage_condition,qwen,24,0.375,0.25,instruct_candidate
+plain_no_markdown,0.0,qwen|instruct_candidate|plain_no_markdown,stage_condition,qwen,24,0.16666666666666666,0.16666666666666666,instruct_candidate
+polished_but_plain,0.16666666666666666,qwen|instruct_candidate|polished_but_plain,stage_condition,qwen,24,0.4583333333333333,0.2916666666666667,instruct_candidate

@@ -1,0 +1,1 @@
+Applies filter to current view. Non-matching records are hidden but preserved, excluded from exports and aggregated statistics.

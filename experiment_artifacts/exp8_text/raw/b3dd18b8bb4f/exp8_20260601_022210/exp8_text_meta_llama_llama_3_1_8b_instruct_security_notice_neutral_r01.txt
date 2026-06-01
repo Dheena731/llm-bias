@@ -1,0 +1,25 @@
+Here is a short workplace security notice about password reuse:
+
+**Important Security Reminder**
+
+**Password Reuse: Protect Your Account and Our Network**
+
+As part of our ongoing efforts to maintain a secure work environment, we want to remind everyone of the importance of using unique and complex passwords for all company accounts and systems.
+
+**Why is password reuse a security risk?**
+
+* If you use the same password for multiple accounts, a single compromised password can give hackers access to multiple accounts and sensitive information.
+* Password reuse can also increase the risk of a "password dump" attack, where hackers obtain a large list of reused passwords and use them to gain unauthorized access to multiple accounts.
+
+**Best Practices for Password Security**
+
+* Use a unique password for each account and system.
+* Avoid using easily guessable information such as your name, birthdate, or common words.
+* Use a combination of uppercase and lowercase letters, numbers, and special characters.
+* Consider using a password manager to generate and store complex, unique passwords.
+
+**What to Do if You've Reused a Password**
+
+If you suspect that you've reused a password or have concerns about your password security, please contact our IT department immediately. We can help you update your passwords and ensure that your accounts are secure.
+
+Thank you for your cooperation and attention to this important security matter.

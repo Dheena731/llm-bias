@@ -1,0 +1,1 @@
+This filter allows you to narrow the dataset by applying specific criteria such as date range, source type, or subject keywords. Only the records that match your selected conditions will be visible in the results.

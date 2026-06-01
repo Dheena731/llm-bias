@@ -1,0 +1,16 @@
+Dear Colleagues,
+
+In an effort to enhance our workplace security, we would like to remind everyone of the importance of not reusing passwords across different accounts. While it might be convenient to use the same password for multiple systems, doing so can pose significant risks in case your password is compromised.
+
+Reusing passwords increases vulnerability because if one account is breached, attackers can access other accounts using the same credentials. To maintain strong security practices, we recommend:
+
+1. Using unique and complex passwords for each important system.
+2. Enabling two-factor authentication wherever possible.
+3. Regularly updating your passwords, especially after any security incidents.
+
+If you have concerns about managing multiple passwords or need assistance setting up two-factor authentication, please contact the IT support team. Together, we can help protect our company’s data and ensure a secure work environment.
+
+Thank you for your cooperation.
+
+Best regards,
+[Your Company Name]

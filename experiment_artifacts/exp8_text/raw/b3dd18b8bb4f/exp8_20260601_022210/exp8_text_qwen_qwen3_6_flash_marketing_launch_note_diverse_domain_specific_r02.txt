@@ -1,0 +1,34 @@
+Since you didn't specify the industry, I've written this for a **Mobile Auto Detailer** to demonstrate the level of specificity and voice required to bypass generic AI fluff.
+
+This copy works because it uses domain-intimate language, addresses "hidden" pain points (gas, route efficiency, client quirks), and adopts a peer-to-peer tone rather than a corporate announcer tone.
+
+**Subject:** Your digital shop foreman is here.
+
+Most scheduling apps treat a mobile business like a salon chair. They don't get that your "office" is a van, the inventory weight matters, and a client no-show costs you gas, not just time.
+
+We built **[App Name]** for operators who are tired of tools designed by accountants.
+
+**What it actually does:**
+
+*   **Route-bundling logic:** Groups jobs by zip code automatically. If you're already at the industrial park, the app won't send you across town for a quick wipe-down.
+*   **Material tracking:** Log gallons used per job. Know exactly when your water tank needs a refill and how much that last deep-dive cost in product.
+*   **The "Annoyance" profile:** Client notes that matter. "Hates cold air in the cab." "Dog is in the backseat." "Prefers cash."
+*   **Deposit lock:** The calendar doesn't hold a slot until the card swipes. No more "I'll be there in 5 minutes" at 6 AM when you're already waxing a sedan three blocks away.
+
+We launched this morning. It's not a beta. It's the tool we needed to keep our margins up while we detailed.
+
+[Link to App Store / Website]
+
+Get back to the towel work.
+
+— [Founder Name]
+
+***
+
+### Why this avoids generic AI traps:
+1.  **Specific Jargon:** Uses terms like *route-bundling*, *water tank*, *deep-dive*, and *towel work* that signal insider knowledge.
+2.  **Pain-Point Precision:** Addresses the cost of gas and "Annoyance profiles" rather than generic "efficiency" or "customer satisfaction."
+3.  **Anti-Fluff Voice:** Short sentences, no exclamation marks, no words like "revolutionize," "unlock," or "game-changer." It sounds like a business owner talking to another business owner.
+4.  **Feature-to-Benefit Translation:** Features are described by how they solve a real problem (e.g., deposit lock preventing the "5 minutes away" lie) rather than just listing capabilities.
+
+**To adapt this for your domain:** Replace the bracketed details with your specific jargon, your unique workflow constraints, and the exact frustrations your customers complain about in reviews.

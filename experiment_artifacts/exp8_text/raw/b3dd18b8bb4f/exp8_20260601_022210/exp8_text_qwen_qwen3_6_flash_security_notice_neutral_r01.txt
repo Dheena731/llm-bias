@@ -1,0 +1,21 @@
+**Subject: 🔒 Security Notice: Avoid Password Reuse to Protect Company Data**
+
+**To:** All Employees  
+**From:** IT Security Team  
+**Date:** [Insert Date]
+
+**Why This Matters**  
+Reusing passwords across work and personal accounts creates a single point of failure. If your personal email or a third-party service is breached, attackers often use those same credentials to access company systems (**Credential Stuffing**). One compromised personal account can jeopardize sensitive company data.
+
+**Action Required**  
+*   **Use Unique Passwords:** Ensure every account has a distinct, strong password. Never reuse a work password on personal sites.
+*   **Use a Password Manager:** Utilize our approved password manager to generate and store complex passwords automatically.
+*   **Enable MFA:** Turn on Multi-Factor Authentication for all accounts where available. It adds a critical layer of defense even if a password is stolen.
+*   **Audit Your Accounts:** Review any work accounts linked to personal email for potential password reuse and update immediately.
+
+**Need Help?**  
+If you need assistance resetting a password, setting up a password manager, or enabling MFA, please contact the IT HelpDesk at [Phone/Email] or visit [Link to Portal].
+
+Thank you for your vigilance in keeping our workplace secure.
+
+**IT Security Team**

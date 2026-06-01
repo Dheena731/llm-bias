@@ -1,0 +1,42 @@
+**Secure Access Notice**
+
+To: All Valued Employees of NovaTech Solutions
+
+As a leading provider of cutting-edge energy management systems, NovaTech Solutions takes the security of our network and sensitive information extremely seriously. In an effort to protect our clients' data and prevent unauthorized access, we are reminding all employees of the importance of using unique and strong passwords across all company systems.
+
+**Why is password reuse a concern?**
+
+When an employee uses the same password across multiple systems, it increases the risk of a single compromised password being used to gain access to other sensitive areas of our network. This is particularly concerning given the industry we operate in and the high value of our clients' data.
+
+**What does this mean for you?**
+
+As of today, all employees are required to use unique and strong passwords for the following systems:
+
+* Email
+* Network login
+* Project management tools (e.g. Asana, Trello)
+* Client-facing applications (e.g. data analytics tools, API interfaces)
+
+**Best practices for creating and managing passwords:**
+
+* Use a minimum of 12 characters, including uppercase and lowercase letters, numbers, and special characters.
+* Avoid using easily guessable information such as your name, birthdate, or common words.
+* Change your passwords every 60 days.
+* Use a password manager to securely store and generate unique passwords.
+
+**What if I'm having trouble remembering multiple passwords?**
+
+Don't worry! Our IT department is here to help. We recommend using a password manager like LastPass or 1Password to securely store and generate unique passwords for each system. If you need assistance setting up a password manager or have questions about password policies, please reach out to our IT support team.
+
+**Your role in maintaining NovaTech Solutions' security:**
+
+We rely on the vigilance and cooperation of all employees to maintain the highest standards of security. By following these guidelines and taking proactive steps to protect our network, we can ensure the confidentiality, integrity, and availability of our clients' data.
+
+If you have any questions or concerns about password reuse or our security policies, please don't hesitate to reach out to our IT department or your supervisor.
+
+Thank you for your attention to this matter.
+
+Best regards,
+
+[Your Name]
+NovaTech Solutions Security Team

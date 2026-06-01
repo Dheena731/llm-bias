@@ -1,0 +1,1 @@
+Filter: Use this feature to narrow down your dataset by applying specific conditions. Enter criteria to include or exclude data based on column values, enhancing precision for analysis.
