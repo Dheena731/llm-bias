@@ -38,7 +38,7 @@ The journal identity is separate from the ICISS security/compliance draft and th
 | Study 4: Exp8 route-labeled text probe | First-pass model-run evidence complete: 480/480 rows | Journal technical extension, route-labeled only. |
 | Study 5: Exp7 cross-modal extension | Checkpoint evidence | Secondary feasibility extension only. |
 | Text baselines | Small hand-authored baseline layer | Validity support, not final human-vs-model contrast. |
-| UI/image baselines | Not complete | Required before strong homogenization claims. |
+| UI/image baselines | Small reference layer added | Feature-calibration support only; balanced baselines still required before strong homogenization claims. |
 
 ## Exp8 First-Pass Evidence
 
@@ -81,14 +81,13 @@ Latest verifier output:
 | --- | --- |
 | status | `ok` |
 | python_version | `3.12.11` |
-| git_commit | `6af72bf6bee493c40190f56d1b44617bce3f2f58` |
 | csv_sha256 | `90c88bd0741d66cad0a3872bcc967f44f1d4926306feabd751a17597ca1779b2` |
 | raw_dir_sha256 | `c99c8b318d45e9a004301a050bfd499eae2a58cfa70b4a0b93d48550899bd742` |
 | analysis_manifest_sha256 | `1cc0b61b868d23cc1a8b43070e4080b686063e948a61e57ebabba0719774670a` |
 
 Git note:
 
-The current package files must be added to a commit before an external reviewer can recover this exact package from Git. The verifier records the current `HEAD`, but many package files are still untracked in the working tree.
+The verifier records the current `HEAD` at run time, but the manifest does not pin a repository commit hash because that metadata is process-specific and should not appear in a double-blind review package.
 
 ## Tracked Canonical Package Set
 
@@ -112,16 +111,19 @@ Exp8 code, config, and tests:
 - `experiment8_collect_text.py`
 - `analyze_post_training_priors.py`
 - `analyze_text_baselines.py`
+- `analyze_cross_modal_baselines.py`
 - `validate_feature_audit_samples.py`
 - `verify_tist_package.py`
 - `configs/exp8_post_training_priors.json`
 - `configs/text_baselines.json`
+- `configs/ui_image_baselines.json`
 - `configs/feature_validity_audit_samples.json`
 - `tests/__init__.py`
 - `tests/test_exp8_task_matrix.py`
 - `tests/test_exp8_fake_collectors.py`
 - `tests/test_exp8_analysis.py`
 - `tests/test_baseline_feature_audit.py`
+- `tests/test_cross_modal_baselines.py`
 
 Canonical outputs:
 
@@ -130,6 +132,12 @@ Canonical outputs:
 - `analysis_output/exp8/`
 - `analysis_output/baselines/text_baseline_rows.csv`
 - `analysis_output/baselines/text_baseline_summary.csv`
+- `analysis_output/baselines/ui_baseline_rows.csv`
+- `analysis_output/baselines/ui_baseline_summary.csv`
+- `analysis_output/baselines/image_baseline_rows.csv`
+- `analysis_output/baselines/image_baseline_summary.csv`
+- `analysis_output/baselines/cross_modal_homogenization_summary.csv`
+- `analysis_output/baselines/generated_images/`
 
 Dependency and package support:
 
@@ -166,6 +174,15 @@ Current text baseline outputs:
 - `analysis_output/baselines/text_baseline_rows.csv`
 - `analysis_output/baselines/text_baseline_summary.csv`
 
+Current cross-modal reference baseline outputs:
+
+- `analysis_output/baselines/ui_baseline_rows.csv`
+- `analysis_output/baselines/ui_baseline_summary.csv`
+- `analysis_output/baselines/image_baseline_rows.csv`
+- `analysis_output/baselines/image_baseline_summary.csv`
+- `analysis_output/baselines/cross_modal_homogenization_summary.csv`
+- `analysis_output/baselines/generated_images/`
+
 Current feature-audit command:
 
 ```bash
@@ -174,7 +191,7 @@ uv run python validate_feature_audit_samples.py
 
 Current limitation:
 
-The hand-authored text baseline layer is small and should be described as a validity check. It is not yet strong enough for broad human-vs-model baseline claims.
+The hand-authored text baseline layer and the UI/image reference baseline layer are small and should be described as validity checks. They are not yet strong enough for broad human-vs-model or design-system-vs-model baseline claims.
 
 ## Reproduction Commands
 
@@ -184,9 +201,10 @@ Core verification:
 uv run python experiment8_collect_text.py --dry-run
 uv run python analyze_post_training_priors.py --input experiment_data/exp8_post_training_priors_20260601_022210.csv --expected-runs-per-cell 2
 uv run python analyze_text_baselines.py
+uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
 uv run python verify_tist_package.py
 ```
@@ -230,17 +248,17 @@ Ready now:
 - Separate TIST-style manuscript draft exists.
 - Exp8 first pass is complete and self-auditing.
 - Required Exp8 analysis files exist, including prompt-family-clustered paired condition contrasts.
-- Text baseline and manual audit scripts run.
-- Manual TIST bibliography has been converted to ACM BibTeX sources.
-- Tectonic compiles the ACM draft to a 10-page PDF; remaining warnings are one underfull page-break box and a Tectonic BibTeX rerun notice, not missing references.
+- Text, UI reference, image reference, and manual audit scripts run.
+- Manual TIST bibliography has been converted to ACM BibTeX sources and first-pass metadata fixes are applied.
+- Tectonic compiles the ACM draft to a 10-page PDF; the current log has no overfull/underfull box warnings and no missing-reference warnings. Remaining warnings are font-request messages and a Tectonic BibTeX rerun notice.
 - Claim boundaries are explicit.
 
 Still required before a journal submission:
 
-- Polish the remaining underfull page-break warning for the final PDF, if venue formatting review requires it.
-- Verify final bibliography metadata against publisher pages before external submission.
+- Recheck the TeX warning log during final venue formatting review.
+- Recheck final bibliography metadata against publisher pages before external submission.
 - Add or cite final figures/tables generated from the artifact pipeline.
-- Expand UI/design-system and image baselines before homogenization claims.
+- Expand UI/design-system and image baselines beyond the current small reference layer before homogenization claims.
 - Add model-based route-stage inference if route-stage claims are strengthened; current clustered contrasts support condition-level robustness screening, not route-stage causality.
 - Increase Exp8 repeats or clearly label the current result as first-pass evidence.
 - Run a final anonymity and local-path check before external review.

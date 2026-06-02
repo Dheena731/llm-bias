@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 from analyze_text_baselines import analyze_baseline_records, write_baseline_outputs
-from validate_feature_audit_samples import validate_audit_samples
+from validate_feature_audit_samples import load_audit_samples, validate_audit_samples
 
 
 class TextBaselineTests(unittest.TestCase):
@@ -65,6 +65,15 @@ class FeatureAuditSampleTests(unittest.TestCase):
         result = validate_audit_samples(samples)
 
         self.assertEqual(result["checked"], 2)
+        self.assertEqual(result["failures"], [])
+
+    def test_default_feature_audit_config_covers_text_ui_and_image(self):
+        samples = load_audit_samples()
+        tracks = {sample["track"] for sample in samples}
+
+        self.assertEqual(tracks, {"text", "ui", "image"})
+
+        result = validate_audit_samples(samples)
         self.assertEqual(result["failures"], [])
 
 

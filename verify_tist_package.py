@@ -12,6 +12,8 @@ from pathlib import Path
 
 
 EXPECTED_ROWS = 480
+EXPECTED_UI_BASELINE_ROWS = 4
+EXPECTED_IMAGE_BASELINE_ROWS = 4
 EXPECTED_RUN_ID = "exp8_20260601_022210"
 EXPECTED_CONFIG_HASH = "b3dd18b8bb4f9863836a8905009630f66e786c1aba0efb8dd923387ca173a7dd"
 CANONICAL_CSV = Path("experiment_data/exp8_post_training_priors_20260601_022210.csv")
@@ -32,10 +34,21 @@ REQUIRED_FILES = [
     Path("analysis_output/exp8/missingness_summary.csv"),
     Path("analysis_output/baselines/text_baseline_rows.csv"),
     Path("analysis_output/baselines/text_baseline_summary.csv"),
+    Path("analysis_output/baselines/ui_baseline_rows.csv"),
+    Path("analysis_output/baselines/ui_baseline_summary.csv"),
+    Path("analysis_output/baselines/image_baseline_rows.csv"),
+    Path("analysis_output/baselines/image_baseline_summary.csv"),
+    Path("analysis_output/baselines/cross_modal_homogenization_summary.csv"),
     Path("paper/tist2027_presentation_priors.tex"),
     Path("paper/tist2027_presentation_priors_refs.bib"),
     Path("paper/haips2026_refs.bib"),
     Path("paper/tist2027_journal_package_manifest.md"),
+]
+ANONYMITY_SCAN_FILES = [
+    Path("paper/tist2027_presentation_priors.tex"),
+    Path("paper/tist2027_journal_package_manifest.md"),
+    Path("paper/README.md"),
+    Path("EXPERIMENT8_PROTOCOL.md"),
 ]
 SENSITIVE_PATTERNS = [
     re.compile(pattern, re.IGNORECASE)
@@ -45,6 +58,17 @@ SENSITIVE_PATTERNS = [
         r"\bBearer\s+[A-Za-z0-9._~+/=-]+",
         r"\b(?:OPENROUTER_API_KEY|OPENAI_API_KEY|ANTHROPIC_API_KEY|GOOGLE_API_KEY)\s*=\s*[^\s,;]+",
         r"(?:X-API-Key|OpenRouter-API-Key|api-key):\s*[A-Za-z0-9._~+/=-]+",
+    ]
+]
+LOCAL_ID_PATTERNS = [
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in [
+        r"/Users/[A-Za-z0-9._-]+\b",
+        r"file://",
+        r"\bAdhi\b",
+        r"\badhit\b",
+        r"\bAxonome\b",
+        r"gmail\.com",
     ]
 ]
 
@@ -101,6 +125,16 @@ def scan_sensitive(paths: list[Path]) -> list[str]:
     return sorted(set(hits))
 
 
+def scan_patterns(paths: list[Path], patterns: list[re.Pattern]) -> list[str]:
+    hits = []
+    for path in paths:
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        for line_number, line in enumerate(text.splitlines(), start=1):
+            if any(pattern.search(line) for pattern in patterns):
+                hits.append(f"{path}:{line_number}")
+    return hits
+
+
 def verify() -> dict:
     for path in REQUIRED_FILES:
         assert_condition(path.exists(), f"missing required file: {path}")
@@ -132,8 +166,25 @@ def verify() -> dict:
     assert_condition(manifest["errored_rows_after_dedupe"] == 0, "manifest reports errored rows")
     assert_condition(manifest["unexpected_artifact_ids"] == 0, "manifest reports unexpected artifacts")
 
-    sensitive_hits = scan_sensitive([CANONICAL_CSV, CANONICAL_RAW_DIR, Path("analysis_output/exp8")])
+    ui_baseline_rows = read_csv(Path("analysis_output/baselines/ui_baseline_rows.csv"))
+    image_baseline_rows = read_csv(Path("analysis_output/baselines/image_baseline_rows.csv"))
+    assert_condition(
+        len(ui_baseline_rows) == EXPECTED_UI_BASELINE_ROWS,
+        f"expected {EXPECTED_UI_BASELINE_ROWS} UI baseline rows, found {len(ui_baseline_rows)}",
+    )
+    assert_condition(
+        len(image_baseline_rows) == EXPECTED_IMAGE_BASELINE_ROWS,
+        f"expected {EXPECTED_IMAGE_BASELINE_ROWS} image baseline rows, found {len(image_baseline_rows)}",
+    )
+    image_paths = [Path(row["image_path"]) for row in image_baseline_rows]
+    assert_condition(all(path.exists() for path in image_paths), "one or more image baseline outputs are missing")
+
+    sensitive_hits = scan_sensitive(
+        [CANONICAL_CSV, CANONICAL_RAW_DIR, Path("analysis_output/exp8"), Path("analysis_output/baselines")]
+    )
     assert_condition(not sensitive_hits, f"sensitive-looking tokens found in: {sensitive_hits}")
+    local_id_hits = scan_patterns(ANONYMITY_SCAN_FILES, LOCAL_ID_PATTERNS)
+    assert_condition(not local_id_hits, f"local identifying strings found in: {local_id_hits}")
 
     return {
         "status": "ok",

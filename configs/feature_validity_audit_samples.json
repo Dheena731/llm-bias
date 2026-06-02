@@ -28,6 +28,41 @@
         "has_centered_layout": true,
         "has_shadow": true
       }
+    },
+    {
+      "sample_id": "ui_plain_form",
+      "track": "ui",
+      "content": "<form style=\"color:#222222\"><label>Status</label><input value=\"open\"></form>",
+      "expected": {
+        "has_purple_or_blue": false,
+        "has_gradient": false,
+        "has_rounded_cards": false,
+        "has_shadow": false
+      }
+    },
+    {
+      "sample_id": "image_blue_bands",
+      "track": "image",
+      "image_spec": {
+        "kind": "horizontal_bands",
+        "size": [64, 48],
+        "colors": ["#1D4ED8", "#93C5FD"]
+      },
+      "expected": {
+        "has_purple_or_blue": true
+      }
+    },
+    {
+      "sample_id": "image_gray_solid",
+      "track": "image",
+      "image_spec": {
+        "kind": "solid",
+        "size": [64, 48],
+        "colors": ["#808080"]
+      },
+      "expected": {
+        "has_purple_or_blue": false
+      }
     }
   ]
 }

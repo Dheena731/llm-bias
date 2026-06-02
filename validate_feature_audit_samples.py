@@ -4,9 +4,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import tempfile
 from pathlib import Path
 
 from aesthetic_features import extract_image_features, extract_text_features, extract_ui_features
+from analyze_cross_modal_baselines import render_image_spec
 
 
 DEFAULT_SAMPLES = "configs/feature_validity_audit_samples.json"
@@ -25,6 +27,10 @@ def extract_sample_features(sample: dict) -> dict:
     if track == "ui":
         return extract_ui_features(sample.get("content", ""))
     if track == "image":
+        if "image_spec" in sample:
+            with tempfile.TemporaryDirectory() as tmp:
+                path = render_image_spec(sample["image_spec"], Path(tmp) / f"{sample['sample_id']}.png")
+                return extract_image_features(path)
         return extract_image_features(sample["path"])
     raise ValueError(f"Unknown audit sample track: {track}")
 

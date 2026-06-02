@@ -148,6 +148,7 @@ Text baseline outputs:
 
 ```bash
 uv run python analyze_text_baselines.py
+uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
 ```
 
