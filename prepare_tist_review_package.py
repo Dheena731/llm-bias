@@ -1,0 +1,311 @@
+"""Prepare the anonymous TIST external-review package."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import shutil
+import subprocess
+import sys
+import zipfile
+from pathlib import Path
+from typing import Any
+
+from verify_tist_package import (
+    CANONICAL_RAW_DIR,
+    LOCAL_ID_PATTERNS,
+    REQUIRED_PACKAGE_FILES,
+    SCAN_FIXTURE_FILES,
+    SENSITIVE_PATTERNS,
+    scan_text_paths,
+)
+
+
+DEFAULT_OUTPUT_DIR = Path("artifact/tist2027_external_review")
+DEFAULT_ARCHIVE_PATH = DEFAULT_OUTPUT_DIR.with_suffix(".zip")
+EXPORT_DIRECTORIES = [
+    CANONICAL_RAW_DIR,
+    Path("analysis_output/baselines/generated_images"),
+]
+EXCLUDED_PATHS = [
+    Path(".git"),
+    Path(".env"),
+    Path(".pytest_cache"),
+    Path("artifact/aisec2026_anonymous"),
+    Path("experiment_artifacts/logs"),
+    Path("experiment_artifacts/exp7_images"),
+    Path("experiment_artifacts/exp7_text"),
+    Path("experiment_artifacts/exp7_ui"),
+    Path("experiment_artifacts/exp8_text/raw/6e5e2e0fa956"),
+    Path("experiment_artifacts/exp8_text/raw/b3dd18b8bb4f/exp8_20260601_002652"),
+    Path("experiment_artifacts/exp8_text/raw/d1a27ec3ad12"),
+    Path("experiment_data/exp8_post_training_priors_20260601_001606.csv"),
+    Path("experiment_data/exp8_post_training_priors_20260601_002652.csv"),
+]
+EXCLUDED_NAME_PARTS = {"__pycache__", ".DS_Store"}
+DISALLOWED_EXPORT_SUFFIXES = {".pdf", ".zip", ".tar", ".tgz", ".gz", ".jpg", ".jpeg"}
+CLAIM_BOUNDARY_PATTERNS = [
+    "rlhf causes",
+    "post-training causes",
+    "post training causes",
+    "purple bias",
+    "ui homogenization",
+    "image homogenization",
+    "generated ui is unusually homogeneous",
+]
+CLAIM_BOUNDARY_NEGATION_MARKERS = [
+    "not ",
+    "without",
+    "require",
+    "avoid",
+    "unsafe",
+    "claim boundary",
+]
+CLAIM_BOUNDARY_FILES = [
+    Path("paper/tist2027_presentation_priors.tex"),
+    Path("paper/tist2027_journal_package_manifest.md"),
+    Path("paper/README.md"),
+]
+
+
+def iter_export_inputs() -> list[Path]:
+    return sorted(set(REQUIRED_PACKAGE_FILES + EXPORT_DIRECTORIES))
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def _copy_file(src: Path, dest_root: Path) -> Path:
+    dest = dest_root / src
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dest)
+    return dest
+
+
+def _copy_directory(src: Path, dest_root: Path) -> list[Path]:
+    if not src.exists():
+        raise FileNotFoundError(f"missing required directory: {src}")
+    copied = []
+    for path in sorted(item for item in src.rglob("*") if item.is_file()):
+        copied.append(_copy_file(path, dest_root))
+    return copied
+
+
+def write_export_readme(dest_root: Path) -> Path:
+    path = dest_root / "README.md"
+    path.write_text(
+        """# Anonymous TIST 2027 External Review Package
+
+This package preserves repository-relative paths so the local verifier can run
+from the package root without path rewriting.
+
+## Offline Reproduction
+
+```bash
+uv run python experiment8_collect_text.py --dry-run
+uv run python analyze_post_training_priors.py --input experiment_data/exp8_post_training_priors_20260601_022210.csv --expected-runs-per-cell 2
+uv run python analyze_text_baselines.py
+uv run python analyze_cross_modal_baselines.py
+uv run python validate_feature_audit_samples.py
+uv run python verify_tist_bibliography.py --write-audit
+uv run python generate_tist_artifact_tables.py
+uv run python verify_tist_package.py
+```
+
+The checked evidence is the fixed 480-row Exp8 first pass. Live collection is
+not required to reproduce the package tables or verifier result.
+
+## Optional Live Collection
+
+The following command can incur provider/API cost and should be used only after
+reviewing `EXPERIMENT8_PROTOCOL.md` and setting the required API credentials:
+
+```bash
+uv run python experiment8_collect_text.py --full --confirm-full --runs-per-cell 2 --max-workers 4
+```
+
+## Contents
+
+- `paper/`: anonymous ACM-style manuscript, bibliography, package notes, and claim audit.
+- `experiment_data/`: canonical Exp8 CSV.
+- `experiment_artifacts/`: canonical run-scoped raw Exp8 outputs.
+- `analysis_output/`: deterministic analysis outputs, table fragments, and reference baselines.
+- `tests/`: focused package, analysis, bibliography, and baseline tests.
+- `MANIFEST.sha256`: SHA-256 hashes for every bundled file except this manifest.
+- `PACKAGE_SCAN.json`: export-tree anonymity, secret, excluded-path, and claim-boundary scan result.
+
+Do not add author names, affiliations, acknowledgements, local paths, API keys,
+or noncanonical experiment artifacts to this anonymous review package.
+""",
+        encoding="utf-8",
+    )
+    return path
+
+
+def prepare_package(output_dir: Path = DEFAULT_OUTPUT_DIR) -> dict[str, Any]:
+    if output_dir.exists():
+        shutil.rmtree(output_dir)
+    output_dir.mkdir(parents=True)
+
+    copied = []
+    for src in iter_export_inputs():
+        if src.is_dir():
+            copied.extend(_copy_directory(src, output_dir))
+        elif src.exists():
+            copied.append(_copy_file(src, output_dir))
+        else:
+            raise FileNotFoundError(f"missing required file: {src}")
+    copied.append(write_export_readme(output_dir))
+    manifest = write_sha256_manifest(output_dir)
+    scan_result = scan_export_tree(output_dir)
+    scan_path = output_dir / "PACKAGE_SCAN.json"
+    scan_path.write_text(json.dumps(scan_result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    write_sha256_manifest(output_dir)
+    return {
+        "output_dir": output_dir.as_posix(),
+        "copied_files": len(copied),
+        "manifest": manifest.as_posix(),
+        "scan": scan_path.as_posix(),
+        "scan_status": scan_result["status"],
+    }
+
+
+def write_sha256_manifest(root: Path) -> Path:
+    lines = []
+    for path in sorted(item for item in root.rglob("*") if item.is_file()):
+        if path.name == "MANIFEST.sha256":
+            continue
+        relative = path.relative_to(root).as_posix()
+        lines.append(f"{sha256_file(path)}  {relative}")
+    manifest = root / "MANIFEST.sha256"
+    manifest.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return manifest
+
+
+def _relative_hits(root: Path, hits: list[str]) -> list[str]:
+    relative_hits = []
+    root_text = root.as_posix()
+    for hit in hits:
+        relative_hits.append(hit.replace(root_text + "/", ""))
+    return relative_hits
+
+
+def _excluded_path_hits(root: Path) -> list[str]:
+    hits = []
+    for path in EXCLUDED_PATHS:
+        if (root / path).exists():
+            hits.append(path.as_posix())
+    for path in root.rglob("*"):
+        if any(part in EXCLUDED_NAME_PARTS for part in path.parts):
+            hits.append(path.relative_to(root).as_posix())
+    return sorted(set(hits))
+
+
+def _claim_boundary_hits(root: Path) -> list[str]:
+    hits = []
+    for rel in CLAIM_BOUNDARY_FILES:
+        path = root / rel
+        if not path.exists():
+            continue
+        lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+        for line_number, line in enumerate(lines, start=1):
+            line_lower = line.lower()
+            context = "\n".join(lines[max(0, line_number - 3) : line_number]).lower()
+            if any(marker in context for marker in CLAIM_BOUNDARY_NEGATION_MARKERS):
+                continue
+            if any(pattern in line_lower for pattern in CLAIM_BOUNDARY_PATTERNS):
+                hits.append(f"{rel}:{line_number}")
+    return hits
+
+
+def _disallowed_binary_hits(root: Path) -> list[str]:
+    return sorted(
+        path.relative_to(root).as_posix()
+        for path in root.rglob("*")
+        if path.is_file() and path.suffix.lower() in DISALLOWED_EXPORT_SUFFIXES
+    )
+
+
+def scan_export_tree(root: Path) -> dict[str, Any]:
+    text_roots = [root]
+    local_hits = _filter_fixture_hits(_relative_hits(root, scan_text_paths(text_roots, LOCAL_ID_PATTERNS)))
+    secret_hits = _filter_fixture_hits(_relative_hits(root, scan_text_paths(text_roots, SENSITIVE_PATTERNS)))
+    excluded_hits = _excluded_path_hits(root)
+    claim_hits = _claim_boundary_hits(root)
+    binary_hits = _disallowed_binary_hits(root)
+    failures = {}
+    if local_hits:
+        failures["local_identifier_scan"] = local_hits
+    if secret_hits:
+        failures["source_secret_scan"] = secret_hits
+    if excluded_hits:
+        failures["excluded_path_scan"] = excluded_hits
+    if claim_hits:
+        failures["claim_boundary_scan"] = claim_hits
+    if binary_hits:
+        failures["binary_payload_scan"] = binary_hits
+    return {
+        "status": "ok" if not failures else "fail",
+        "failures": failures,
+        "text_files_scanned": len([path for path in root.rglob("*") if path.is_file() and path.suffix.lower() != ".png"]),
+    }
+
+
+def _filter_fixture_hits(hits: list[str]) -> list[str]:
+    filtered = []
+    fixture_prefixes = tuple(path.as_posix() + ":" for path in SCAN_FIXTURE_FILES)
+    for hit in hits:
+        if hit.startswith(fixture_prefixes):
+            continue
+        filtered.append(hit)
+    return filtered
+
+
+def create_zip(output_dir: Path = DEFAULT_OUTPUT_DIR, archive_path: Path = DEFAULT_ARCHIVE_PATH) -> Path:
+    if archive_path.exists():
+        archive_path.unlink()
+    archive_path.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(archive_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for path in sorted(item for item in output_dir.rglob("*") if item.is_file()):
+            archive.write(path, path.relative_to(output_dir))
+    return archive_path
+
+
+def run_bundle_verifier(output_dir: Path) -> dict[str, Any]:
+    command = [sys.executable, "verify_tist_package.py"]
+    completed = subprocess.run(command, cwd=output_dir, text=True, capture_output=True, check=True)
+    return json.loads(completed.stdout)
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Prepare anonymous TIST external-review package")
+    parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
+    parser.add_argument("--archive-path", default=str(DEFAULT_ARCHIVE_PATH))
+    parser.add_argument("--skip-zip", action="store_true")
+    parser.add_argument("--verify", action="store_true", help="Run verify_tist_package.py inside the package")
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> None:
+    args = parse_args(argv)
+    output_dir = Path(args.output_dir)
+    archive_path = Path(args.archive_path)
+    result = prepare_package(output_dir)
+    if result["scan_status"] != "ok":
+        raise SystemExit(json.dumps(result, indent=2, sort_keys=True))
+    if args.verify:
+        result["bundle_verifier"] = run_bundle_verifier(output_dir)
+    if not args.skip_zip:
+        result["archive_path"] = create_zip(output_dir, archive_path).as_posix()
+        result["archive_sha256"] = sha256_file(archive_path)
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()

@@ -49,6 +49,41 @@ class TistBibliographyVerifierTests(unittest.TestCase):
         self.assertEqual(result["cited_keys"], sorted(EXPECTED_CITED_METADATA))
         self.assertEqual(result["metadata_failures"], [])
 
+    def test_audit_rejects_stale_audit_markdown_when_sync_required(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            tex = root / "paper.tex"
+            bib = root / "refs.bib"
+            audit = root / "audit.md"
+            tex.write_text(r"\cite{alpha}", encoding="utf-8")
+            bib.write_text(
+                "@misc{alpha,\n"
+                "  author={Unit Author},\n"
+                "  title={Unit Title},\n"
+                "  year={2026},\n"
+                "  url={https://example.com/unit}\n"
+                "}\n",
+                encoding="utf-8",
+            )
+            audit.write_text("stale\n", encoding="utf-8")
+
+            result = audit_bibliography(
+                tex,
+                [bib],
+                expected_metadata={
+                    "alpha": {
+                        "entry_type": "misc",
+                        "url": "https://example.com/unit",
+                        "source": "Unit Source",
+                    }
+                },
+                audit_markdown_path=audit,
+                require_audit_sync=True,
+            )
+
+        self.assertEqual(result["status"], "fail")
+        self.assertEqual(result["audit_markdown_failures"], ["bibliography audit markdown out of sync"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -2,11 +2,13 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from generate_tist_artifact_tables import DEFAULT_SOURCES as TIST_TABLE_SOURCES
 from verify_tist_package import (
     LOCAL_ID_PATTERNS,
     PACKAGE_SOURCE_FILES,
     REQUIRED_FILES,
     REVIEW_METADATA_PATTERNS,
+    SENSITIVE_PATTERNS,
     SOURCE_SECRET_SCAN_PATHS,
     TIST_TABLE_INPUTS,
     USER_HOME_PREFIX,
@@ -87,6 +89,8 @@ class TistPackageVerifierTests(unittest.TestCase):
 
     def test_source_secret_scan_excludes_known_redaction_fixture(self):
         self.assertNotIn(Path("tests/test_exp8_fake_collectors.py"), SOURCE_SECRET_SCAN_PATHS)
+        self.assertNotIn(Path("tests/test_tist_package_verifier.py"), SOURCE_SECRET_SCAN_PATHS)
+        self.assertNotIn(Path("tests/test_tist_review_package.py"), SOURCE_SECRET_SCAN_PATHS)
 
     def test_package_source_files_include_bibliography_audit_gate(self):
         self.assertIn(Path("verify_tist_bibliography.py"), PACKAGE_SOURCE_FILES)
@@ -97,9 +101,15 @@ class TistPackageVerifierTests(unittest.TestCase):
         self.assertIn(Path("generate_tist_artifact_tables.py"), PACKAGE_SOURCE_FILES)
         self.assertIn(Path("tests/test_tist_artifact_tables.py"), PACKAGE_SOURCE_FILES)
 
+    def test_package_source_files_include_tist_review_package_gate(self):
+        self.assertIn(Path("prepare_tist_review_package.py"), PACKAGE_SOURCE_FILES)
+        self.assertIn(Path("tests/test_tist_review_package.py"), PACKAGE_SOURCE_FILES)
+
     def test_required_files_include_generated_tist_table_artifacts(self):
         required_paths = set(REQUIRED_FILES)
 
+        for source in TIST_TABLE_SOURCES:
+            self.assertIn(source, required_paths)
         self.assertIn(Path("analysis_output/tist_package/tist_artifact_manifest.json"), required_paths)
         self.assertIn(Path("analysis_output/tist_package/table_exp8_completeness.tex"), required_paths)
         self.assertIn(Path("analysis_output/tist_package/table_exp8_stage_summary.tex"), required_paths)
@@ -130,6 +140,32 @@ class TistPackageVerifierTests(unittest.TestCase):
             failures = validate_analysis_manifest_inputs(manifest, csv_path)
 
         self.assertEqual(failures, ["analysis manifest input_file_sha256 mismatch"])
+
+    def test_secret_scan_catches_common_assignment_and_token_forms(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "leak.txt"
+            path.write_text(
+                "api_key = abcdefghijklmnop\n"
+                "github_pat_abcdefghijklmnopqrstuvwxyz\n",
+                encoding="utf-8",
+            )
+
+            hits = scan_text_paths([path], SENSITIVE_PATTERNS)
+
+        self.assertEqual(hits, [f"{path}:1", f"{path}:2"])
+
+    def test_local_identifier_scan_catches_common_build_paths(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "paths.txt"
+            path.write_text(
+                "/private/var/folders/unit/build\n"
+                "C:\\\\Users\\\\reviewer\\\\project\n",
+                encoding="utf-8",
+            )
+
+            hits = scan_text_paths([path], LOCAL_ID_PATTERNS)
+
+        self.assertEqual(hits, [f"{path}:1", f"{path}:2"])
 
 
 if __name__ == "__main__":

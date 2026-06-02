@@ -27,6 +27,8 @@ experiment_artifacts/logs/
 
 # Non-canonical generated artifact bulk for this TIST package
 artifact/aisec2026_anonymous/
+artifact/tist2027_external_review/
+artifact/tist2027_external_review.zip
 experiment_artifacts/exp7_images/
 experiment_artifacts/exp7_text/
 experiment_artifacts/exp7_ui/

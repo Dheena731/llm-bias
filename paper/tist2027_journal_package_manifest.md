@@ -60,7 +60,9 @@ Analysis outputs:
 - `analysis_output/exp8/post_training_priors_report.md`
 - `analysis_output/exp8/analysis_manifest.json`
 - `analysis_output/exp8/matrix_completeness.csv`
+- `analysis_output/exp8/stage_summary.csv`
 - `analysis_output/exp8/stage_condition_summary.csv`
+- `analysis_output/exp8/condition_summary.csv`
 - `analysis_output/exp8/confidence_intervals.csv`
 - `analysis_output/exp8/planned_contrasts_fdr.csv`
 - `analysis_output/exp8/paired_condition_delta_summary.csv`
@@ -95,6 +97,16 @@ Latest verifier output:
 | tist_artifact_manifest_sha256 | `e5cc2ed5578090a90adbe09a4c615fa472ea8954f839c883b15d7295e98ff0f7` |
 | external_review_scan | anonymous manuscript, bibliography metadata, generated table artifacts, generated table inputs, local identifier, review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf`. |
 
+Latest external-review package export:
+
+| Field | Value |
+| --- | --- |
+| export_dir | `artifact/tist2027_external_review` |
+| archive | `artifact/tist2027_external_review.zip` |
+| archive_sha256 | Printed by `prepare_tist_review_package.py --verify`; not embedded here to avoid self-referential archive-hash drift. |
+| package_scan | `ok`; 547 text files scanned, no local identifier, source secret, excluded-path, binary-payload, or claim-boundary failures |
+| bundle_verifier | `ok` when run from inside the exported package root |
+
 Git note:
 
 The verifier records the current `HEAD` at run time, but the manifest does not pin a repository commit hash because that metadata is process-specific and should not appear in a double-blind review package.
@@ -125,6 +137,7 @@ Exp8 code, config, and tests:
 - `analyze_cross_modal_baselines.py`
 - `validate_feature_audit_samples.py`
 - `generate_tist_artifact_tables.py`
+- `prepare_tist_review_package.py`
 - `verify_tist_package.py`
 - `verify_tist_bibliography.py`
 - `configs/exp8_post_training_priors.json`
@@ -138,6 +151,7 @@ Exp8 code, config, and tests:
 - `tests/test_baseline_feature_audit.py`
 - `tests/test_cross_modal_baselines.py`
 - `tests/test_tist_artifact_tables.py`
+- `tests/test_tist_review_package.py`
 - `tests/test_tist_package_verifier.py`
 - `tests/test_tist_bibliography_verifier.py`
 
@@ -222,9 +236,10 @@ uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
 uv run python verify_tist_bibliography.py --write-audit
 uv run python generate_tist_artifact_tables.py
+uv run python prepare_tist_review_package.py --verify
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
 uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_review_package.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
 uv run python verify_tist_package.py
 ```
@@ -275,13 +290,13 @@ Ready now:
 - Manual TIST bibliography has been converted to ACM BibTeX sources, first-pass metadata fixes are applied, and cited entries pass the local bibliography metadata audit.
 - Tectonic compiles the ACM draft to a 10-page PDF; the current log has no overfull/underfull box warnings and no missing-reference warnings. Remaining warnings are font-request messages and a Tectonic BibTeX rerun notice.
 - The package verifier now includes external-review gates for anonymous manuscript metadata, bibliography metadata, local identifiers, stale review metadata, source secret scans, and compiled-PDF metadata scanning; the current compiled PDF passes the `--pdf` scan.
+- The external-review exporter writes a self-contained anonymous bundle, scans the export tree, writes `MANIFEST.sha256` and `PACKAGE_SCAN.json`, creates a zip archive, and verifies the package from inside the exported root.
 - Claim boundaries are explicit.
 
 Still required before a journal submission:
 
 - Recheck the TeX warning log during final venue formatting review.
 - Recheck bibliography metadata against publisher pages after any reference changes and during final copyediting.
-- Add or cite final figures/tables generated from the artifact pipeline.
 - Expand UI/design-system and image baselines beyond the current small reference layer before homogenization claims.
 - Add model-based route-stage inference if route-stage claims are strengthened; current clustered contrasts support condition-level robustness screening, not route-stage causality.
 - Increase Exp8 repeats or clearly label the current result as first-pass evidence.

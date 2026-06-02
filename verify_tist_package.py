@@ -47,7 +47,9 @@ REQUIRED_FILES = [
     MANIFEST,
     Path("analysis_output/exp8/post_training_priors_report.md"),
     Path("analysis_output/exp8/matrix_completeness.csv"),
+    Path("analysis_output/exp8/stage_summary.csv"),
     Path("analysis_output/exp8/stage_condition_summary.csv"),
+    Path("analysis_output/exp8/condition_summary.csv"),
     Path("analysis_output/exp8/confidence_intervals.csv"),
     Path("analysis_output/exp8/planned_contrasts_fdr.csv"),
     Path("analysis_output/exp8/paired_condition_delta_summary.csv"),
@@ -86,6 +88,7 @@ PACKAGE_SOURCE_FILES = [
     Path("analyze_cross_modal_baselines.py"),
     Path("validate_feature_audit_samples.py"),
     Path("generate_tist_artifact_tables.py"),
+    Path("prepare_tist_review_package.py"),
     Path("verify_tist_package.py"),
     Path("verify_tist_bibliography.py"),
     Path("configs/exp8_post_training_priors.json"),
@@ -99,6 +102,7 @@ PACKAGE_SOURCE_FILES = [
     Path("tests/test_baseline_feature_audit.py"),
     Path("tests/test_cross_modal_baselines.py"),
     Path("tests/test_tist_artifact_tables.py"),
+    Path("tests/test_tist_review_package.py"),
     Path("tests/test_tist_package_verifier.py"),
     Path("tests/test_tist_bibliography_verifier.py"),
     AUDIT_MARKDOWN,
@@ -124,8 +128,16 @@ EXTERNAL_REVIEW_SCAN_PATHS = [
     Path("analysis_output/baselines"),
     TIST_ARTIFACT_OUTPUT_DIR,
 ]
+SCAN_FIXTURE_FILES = {
+    Path("tests/test_exp8_fake_collectors.py"),
+    Path("tests/test_tist_package_verifier.py"),
+    Path("tests/test_tist_review_package.py"),
+}
 SOURCE_SECRET_SCAN_PATHS = [
-    path for path in EXTERNAL_REVIEW_SCAN_PATHS if path != Path("tests/test_exp8_fake_collectors.py")
+    path for path in EXTERNAL_REVIEW_SCAN_PATHS if path not in SCAN_FIXTURE_FILES
+]
+LOCAL_IDENTIFIER_SCAN_PATHS = [
+    path for path in EXTERNAL_REVIEW_SCAN_PATHS if path not in SCAN_FIXTURE_FILES
 ]
 REVIEW_METADATA_SCAN_FILES = [
     Path("paper/tist2027_journal_package_manifest.md"),
@@ -140,6 +152,13 @@ SENSITIVE_PATTERNS = [
         r"\bBearer\s+[A-Za-z0-9._~+/=-]+",
         r"\b(?:OPENROUTER_API_KEY|OPENAI_API_KEY|ANTHROPIC_API_KEY|GOOGLE_API_KEY)\s*=\s*[^\s,;]+",
         r"(?:X-API-Key|OpenRouter-API-Key|api-key):\s*[A-Za-z0-9._~+/=-]+",
+        r"\bsk-[A-Za-z0-9_-]{20,}\b",
+        r"\bghp_[A-Za-z0-9_]{20,}\b",
+        r"\bgithub_pat_[A-Za-z0-9_]{20,}\b",
+        r"\bAIza[0-9A-Za-z_-]{20,}\b",
+        r"\bAKIA[0-9A-Z]{16}\b",
+        r"\bnpm_[A-Za-z0-9]{20,}\b",
+        r"\b(?:api[_-]?key|token|secret|password)\b\s*[:=]\s*[\"']?[A-Za-z0-9._~+/=-]{12,}",
     ]
 ]
 LOCAL_ID_PATTERNS = [
@@ -151,6 +170,10 @@ LOCAL_ID_PATTERNS = [
         r"\b" + re.escape(PERSONAL_HANDLE) + r"\b",
         r"\b" + re.escape(ORG_NAME) + r"\b",
         PERSONAL_EMAIL_DOMAIN,
+        r"/private" + r"/var/[^\s\"']+",
+        r"/var" + r"/folders/[^\s\"']+",
+        r"/opt" + r"/homebrew/[^\s\"']+",
+        r"C:" + r"\\\\Users\\\\[A-Za-z0-9._-]+",
     ]
 ]
 REVIEW_METADATA_PATTERNS = [
@@ -359,7 +382,7 @@ def verify(pdf_path: str | Path | None = None) -> dict:
     assert_condition(not sensitive_hits, f"sensitive-looking tokens found in: {sensitive_hits}")
     source_sensitive_hits = scan_text_paths(SOURCE_SECRET_SCAN_PATHS, SENSITIVE_PATTERNS)
     assert_condition(not source_sensitive_hits, f"sensitive-looking tokens found in package text: {source_sensitive_hits}")
-    local_id_hits = scan_text_paths(EXTERNAL_REVIEW_SCAN_PATHS, LOCAL_ID_PATTERNS)
+    local_id_hits = scan_text_paths(LOCAL_IDENTIFIER_SCAN_PATHS, LOCAL_ID_PATTERNS)
     assert_condition(not local_id_hits, f"local identifying strings found in: {local_id_hits}")
     review_metadata_hits = scan_text_paths(REVIEW_METADATA_SCAN_FILES, REVIEW_METADATA_PATTERNS)
     assert_condition(not review_metadata_hits, f"stale review metadata found in: {review_metadata_hits}")

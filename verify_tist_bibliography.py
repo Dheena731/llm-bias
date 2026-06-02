@@ -160,6 +160,8 @@ def audit_bibliography(
     tex_path: Path = TIST_TEX,
     bib_paths: list[Path] = TIST_BIB_FILES,
     expected_metadata: dict[str, dict[str, str]] = EXPECTED_CITED_METADATA,
+    audit_markdown_path: Path = AUDIT_MARKDOWN,
+    require_audit_sync: bool = False,
 ) -> dict[str, Any]:
     cited_keys = parse_citation_keys(tex_path.read_text(encoding="utf-8"))
     parsed = parse_bib_entries(bib_paths)
@@ -173,9 +175,8 @@ def audit_bibliography(
     expected_missing = sorted(set(cited_keys) - set(expected_metadata))
     expected_unreferenced = sorted(set(expected_metadata) - set(cited_keys))
     unused_entries = sorted(set(parsed.entries) - set(cited_keys))
-    failures = parsed.duplicate_keys + missing_entries + metadata_failures + expected_missing + expected_unreferenced
-    return {
-        "status": "ok" if not failures else "fail",
+    audit_markdown_failures = []
+    result = {
         "bib_entry_count": len(parsed.entries),
         "cited_entry_count": len(cited_keys),
         "cited_keys": cited_keys,
@@ -186,9 +187,27 @@ def audit_bibliography(
         "expected_metadata_unreferenced": expected_unreferenced,
         "unused_entries": unused_entries,
     }
+    if require_audit_sync:
+        expected_audit = render_audit_markdown({**result, "status": "ok"}, expected_metadata)
+        if not audit_markdown_path.exists() or audit_markdown_path.read_text(encoding="utf-8") != expected_audit:
+            audit_markdown_failures.append("bibliography audit markdown out of sync")
+    failures = (
+        parsed.duplicate_keys
+        + missing_entries
+        + metadata_failures
+        + expected_missing
+        + expected_unreferenced
+        + audit_markdown_failures
+    )
+    result["status"] = "ok" if not failures else "fail"
+    result["audit_markdown_failures"] = audit_markdown_failures
+    return result
 
 
-def write_audit_markdown(result: dict[str, Any], output_path: Path = AUDIT_MARKDOWN) -> None:
+def render_audit_markdown(
+    result: dict[str, Any],
+    expected_metadata: dict[str, dict[str, str]] = EXPECTED_CITED_METADATA,
+) -> str:
     lines = [
         "# TIST Bibliography Metadata Audit",
         "",
@@ -202,7 +221,7 @@ def write_audit_markdown(result: dict[str, Any], output_path: Path = AUDIT_MARKD
         "| --- | --- | --- | --- |",
     ]
     for key in result["cited_keys"]:
-        expected = EXPECTED_CITED_METADATA[key]
+        expected = expected_metadata[key]
         lines.append(
             f"| `{key}` | {expected['source']} | {expected.get('doi', '')} | {expected.get('url', '')} |"
         )
@@ -219,9 +238,13 @@ def write_audit_markdown(result: dict[str, Any], output_path: Path = AUDIT_MARKD
         ]
     )
     for key in result["cited_keys"]:
-        expected = EXPECTED_CITED_METADATA[key]
+        expected = expected_metadata[key]
         lines.append(f"- `{key}`: {expected.get('url', '')}")
-    output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return "\n".join(lines) + "\n"
+
+
+def write_audit_markdown(result: dict[str, Any], output_path: Path = AUDIT_MARKDOWN) -> None:
+    output_path.write_text(render_audit_markdown(result), encoding="utf-8")
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -232,7 +255,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
-    result = audit_bibliography()
+    result = audit_bibliography(require_audit_sync=not args.write_audit)
     if args.write_audit:
         write_audit_markdown(result)
     print(json.dumps(result, indent=2, sort_keys=True))
