@@ -11,6 +11,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+from generate_tist_artifact_tables import (
+    DEFAULT_ARTIFACTS as TIST_TABLE_ARTIFACTS,
+    DEFAULT_OUTPUT_DIR as TIST_ARTIFACT_OUTPUT_DIR,
+    verify_artifact_manifest,
+)
 from verify_tist_bibliography import AUDIT_MARKDOWN, audit_bibliography
 
 
@@ -22,6 +27,15 @@ EXPECTED_CONFIG_HASH = "b3dd18b8bb4f9863836a8905009630f66e786c1aba0efb8dd923387c
 CANONICAL_CSV = Path("experiment_data/exp8_post_training_priors_20260601_022210.csv")
 CANONICAL_RAW_DIR = Path("experiment_artifacts/exp8_text/raw/b3dd18b8bb4f/exp8_20260601_022210")
 MANIFEST = Path("analysis_output/exp8/analysis_manifest.json")
+TIST_ARTIFACT_MANIFEST = TIST_ARTIFACT_OUTPUT_DIR / "tist_artifact_manifest.json"
+TIST_TABLE_ARTIFACT_FILES = [
+    TIST_ARTIFACT_OUTPUT_DIR / artifact["path"]
+    for artifact in TIST_TABLE_ARTIFACTS
+]
+TIST_TABLE_INPUTS = [
+    r"\input{../" + (TIST_ARTIFACT_OUTPUT_DIR / artifact["path"]).as_posix() + "}"
+    for artifact in TIST_TABLE_ARTIFACTS
+]
 USER_HOME_PREFIX = "/" + "Users"
 FILE_URI_PREFIX = "file" + "://"
 PERSONAL_NAME = "A" + "dhi"
@@ -48,6 +62,8 @@ REQUIRED_FILES = [
     Path("analysis_output/baselines/image_baseline_rows.csv"),
     Path("analysis_output/baselines/image_baseline_summary.csv"),
     Path("analysis_output/baselines/cross_modal_homogenization_summary.csv"),
+    TIST_ARTIFACT_MANIFEST,
+    *TIST_TABLE_ARTIFACT_FILES,
     Path("paper/tist2027_presentation_priors.tex"),
     Path("paper/tist2027_presentation_priors_refs.bib"),
     Path("paper/haips2026_refs.bib"),
@@ -69,6 +85,7 @@ PACKAGE_SOURCE_FILES = [
     Path("analyze_text_baselines.py"),
     Path("analyze_cross_modal_baselines.py"),
     Path("validate_feature_audit_samples.py"),
+    Path("generate_tist_artifact_tables.py"),
     Path("verify_tist_package.py"),
     Path("verify_tist_bibliography.py"),
     Path("configs/exp8_post_training_priors.json"),
@@ -81,6 +98,7 @@ PACKAGE_SOURCE_FILES = [
     Path("tests/test_exp8_analysis.py"),
     Path("tests/test_baseline_feature_audit.py"),
     Path("tests/test_cross_modal_baselines.py"),
+    Path("tests/test_tist_artifact_tables.py"),
     Path("tests/test_tist_package_verifier.py"),
     Path("tests/test_tist_bibliography_verifier.py"),
     AUDIT_MARKDOWN,
@@ -104,6 +122,7 @@ EXTERNAL_REVIEW_SCAN_PATHS = [
     *PACKAGE_SUPPORT_FILES,
     Path("analysis_output/exp8"),
     Path("analysis_output/baselines"),
+    TIST_ARTIFACT_OUTPUT_DIR,
 ]
 SOURCE_SECRET_SCAN_PATHS = [
     path for path in EXTERNAL_REVIEW_SCAN_PATHS if path != Path("tests/test_exp8_fake_collectors.py")
@@ -252,6 +271,22 @@ def scan_pdf_metadata(path: Path) -> list[str]:
     return hits
 
 
+def validate_analysis_manifest_inputs(manifest: dict, canonical_csv: Path = CANONICAL_CSV) -> list[str]:
+    failures = []
+    canonical_input = canonical_csv.as_posix()
+    if manifest.get("input_files") != [canonical_input]:
+        failures.append("analysis manifest input_files mismatch")
+    input_hashes = manifest.get("input_file_sha256", {})
+    if input_hashes.get(canonical_input) != sha256_file(canonical_csv):
+        failures.append("analysis manifest input_file_sha256 mismatch")
+    return failures
+
+
+def validate_tist_table_inputs(path: Path) -> list[str]:
+    text = path.read_text(encoding="utf-8")
+    return [table_input for table_input in TIST_TABLE_INPUTS if table_input not in text]
+
+
 def verify(pdf_path: str | Path | None = None) -> dict:
     for path in REQUIRED_PACKAGE_FILES:
         assert_condition(path.exists(), f"missing required file: {path}")
@@ -282,6 +317,22 @@ def verify(pdf_path: str | Path | None = None) -> dict:
     assert_condition(manifest["missing_expected_rows"] == 0, "manifest reports missing expected rows")
     assert_condition(manifest["errored_rows_after_dedupe"] == 0, "manifest reports errored rows")
     assert_condition(manifest["unexpected_artifact_ids"] == 0, "manifest reports unexpected artifacts")
+    analysis_input_failures = validate_analysis_manifest_inputs(manifest, CANONICAL_CSV)
+    assert_condition(
+        not analysis_input_failures,
+        f"analysis manifest input provenance failures: {analysis_input_failures}",
+    )
+
+    artifact_table_failures = verify_artifact_manifest(TIST_ARTIFACT_OUTPUT_DIR, verify_regeneration=True)
+    assert_condition(
+        not artifact_table_failures,
+        f"generated TIST table artifact manifest failures: {artifact_table_failures}",
+    )
+    missing_table_inputs = validate_tist_table_inputs(Path("paper/tist2027_presentation_priors.tex"))
+    assert_condition(
+        not missing_table_inputs,
+        f"manuscript missing generated TIST table inputs: {missing_table_inputs}",
+    )
 
     ui_baseline_rows = read_csv(Path("analysis_output/baselines/ui_baseline_rows.csv"))
     image_baseline_rows = read_csv(Path("analysis_output/baselines/image_baseline_rows.csv"))
@@ -297,7 +348,13 @@ def verify(pdf_path: str | Path | None = None) -> dict:
     assert_condition(all(path.exists() for path in image_paths), "one or more image baseline outputs are missing")
 
     sensitive_hits = scan_sensitive(
-        [CANONICAL_CSV, CANONICAL_RAW_DIR, Path("analysis_output/exp8"), Path("analysis_output/baselines")]
+        [
+            CANONICAL_CSV,
+            CANONICAL_RAW_DIR,
+            Path("analysis_output/exp8"),
+            Path("analysis_output/baselines"),
+            TIST_ARTIFACT_OUTPUT_DIR,
+        ]
     )
     assert_condition(not sensitive_hits, f"sensitive-looking tokens found in: {sensitive_hits}")
     source_sensitive_hits = scan_text_paths(SOURCE_SECRET_SCAN_PATHS, SENSITIVE_PATTERNS)
@@ -326,11 +383,14 @@ def verify(pdf_path: str | Path | None = None) -> dict:
         "csv_sha256": sha256_file(CANONICAL_CSV),
         "raw_dir_sha256": directory_digest(CANONICAL_RAW_DIR),
         "analysis_manifest_sha256": sha256_file(MANIFEST),
+        "tist_artifact_manifest_sha256": sha256_file(TIST_ARTIFACT_MANIFEST),
         "rows": len(rows),
         "run_id": EXPECTED_RUN_ID,
         "config_hash": EXPECTED_CONFIG_HASH,
         "external_review_scan": {
             "bibliography_metadata": "ok",
+            "generated_table_artifacts": "ok",
+            "generated_table_inputs": "ok",
             "anonymous_manuscript": "ok",
             "local_identifier_scan": "ok",
             "review_metadata_scan": "ok",

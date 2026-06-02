@@ -69,6 +69,14 @@ Analysis outputs:
 - `analysis_output/exp8/length_sensitivity.csv`
 - `analysis_output/exp8/missingness_summary.csv`
 
+Generated manuscript table artifacts:
+
+- `analysis_output/tist_package/tist_artifact_manifest.json`
+- `analysis_output/tist_package/table_exp8_completeness.tex`
+- `analysis_output/tist_package/table_exp8_stage_summary.tex`
+- `analysis_output/tist_package/table_exp8_condition_summary.tex`
+- `analysis_output/tist_package/table_exp8_ci_contrasts.tex`
+
 Current deterministic package check:
 
 ```bash
@@ -83,8 +91,9 @@ Latest verifier output:
 | python_version | `3.12.11` |
 | csv_sha256 | `90c88bd0741d66cad0a3872bcc967f44f1d4926306feabd751a17597ca1779b2` |
 | raw_dir_sha256 | `c99c8b318d45e9a004301a050bfd499eae2a58cfa70b4a0b93d48550899bd742` |
-| analysis_manifest_sha256 | `1cc0b61b868d23cc1a8b43070e4080b686063e948a61e57ebabba0719774670a` |
-| external_review_scan | anonymous manuscript, bibliography metadata, local identifier, review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf`. |
+| analysis_manifest_sha256 | `c9c25356956b2d034f041922bc4bf2fc9de883ec04b483d05c9c3191135d7ee3` |
+| tist_artifact_manifest_sha256 | `e5cc2ed5578090a90adbe09a4c615fa472ea8954f839c883b15d7295e98ff0f7` |
+| external_review_scan | anonymous manuscript, bibliography metadata, generated table artifacts, generated table inputs, local identifier, review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf`. |
 
 Git note:
 
@@ -115,6 +124,7 @@ Exp8 code, config, and tests:
 - `analyze_text_baselines.py`
 - `analyze_cross_modal_baselines.py`
 - `validate_feature_audit_samples.py`
+- `generate_tist_artifact_tables.py`
 - `verify_tist_package.py`
 - `verify_tist_bibliography.py`
 - `configs/exp8_post_training_priors.json`
@@ -127,6 +137,7 @@ Exp8 code, config, and tests:
 - `tests/test_exp8_analysis.py`
 - `tests/test_baseline_feature_audit.py`
 - `tests/test_cross_modal_baselines.py`
+- `tests/test_tist_artifact_tables.py`
 - `tests/test_tist_package_verifier.py`
 - `tests/test_tist_bibliography_verifier.py`
 
@@ -135,6 +146,7 @@ Canonical outputs:
 - `experiment_data/exp8_post_training_priors_20260601_022210.csv`
 - `experiment_artifacts/exp8_text/raw/b3dd18b8bb4f/exp8_20260601_022210/`
 - `analysis_output/exp8/`
+- `analysis_output/tist_package/`
 - `analysis_output/baselines/text_baseline_rows.csv`
 - `analysis_output/baselines/text_baseline_summary.csv`
 - `analysis_output/baselines/ui_baseline_rows.csv`
@@ -209,12 +221,15 @@ uv run python analyze_text_baselines.py
 uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
 uv run python verify_tist_bibliography.py --write-audit
+uv run python generate_tist_artifact_tables.py
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
 uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
 uv run python verify_tist_package.py
 ```
+
+Regenerate `analysis_output/tist_package/` after any change to the Exp8 analysis manifest, stage summary, condition summary, confidence intervals, or planned-contrasts outputs. The package verifier checks the generated table manifest hashes, byte-compares against a temporary regeneration, and fails on stale, incomplete, or manually edited table artifacts. The Exp8 analysis manifest records the canonical CSV hash, and the package verifier checks that hash before accepting the analysis outputs.
 
 Cost-controlled rerun:
 
@@ -255,6 +270,7 @@ Ready now:
 - Separate TIST-style manuscript draft exists.
 - Exp8 first pass is complete and self-auditing.
 - Required Exp8 analysis files exist, including prompt-family-clustered paired condition contrasts.
+- Generated TIST table fragments are built from the checked Exp8 analysis outputs and verified by source/artifact hashes.
 - Text, UI reference, image reference, and manual audit scripts run.
 - Manual TIST bibliography has been converted to ACM BibTeX sources, first-pass metadata fixes are applied, and cited entries pass the local bibliography metadata audit.
 - Tectonic compiles the ACM draft to a 10-page PDF; the current log has no overfull/underfull box warnings and no missing-reference warnings. Remaining warnings are font-request messages and a Tectonic BibTeX rerun notice.

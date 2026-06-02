@@ -773,6 +773,14 @@ def _matrix_counts(matrix_rows: list[dict]) -> dict[str, int]:
     }
 
 
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
 def write_manifest(
     paths: list[str],
     rows: list[dict],
@@ -783,6 +791,7 @@ def write_manifest(
     counts = _matrix_counts(matrix_rows)
     manifest = {
         "input_files": paths,
+        "input_file_sha256": {path: sha256_file(Path(path)) for path in paths},
         "source_file_count": len(paths),
         "raw_rows_after_dedupe": len(raw_rows),
         "clean_analyzed_rows": len(rows),

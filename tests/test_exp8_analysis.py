@@ -1,4 +1,5 @@
 import csv
+import hashlib
 import json
 import tempfile
 import unittest
@@ -266,6 +267,11 @@ class Exp8AnalysisTests(unittest.TestCase):
                 "post_training_priors_report.md",
             }
             self.assertTrue(expected.issubset({path.name for path in output_dir.iterdir()}))
+            manifest = json.loads((output_dir / "analysis_manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual(
+                manifest["input_file_sha256"][str(input_csv)],
+                hashlib.sha256(input_csv.read_bytes()).hexdigest(),
+            )
 
     def test_run_analysis_reports_incomplete_expected_matrix(self):
         config = {

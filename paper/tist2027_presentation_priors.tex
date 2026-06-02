@@ -228,81 +228,21 @@ The current routes are Llama 3.3 70B Instruct, Llama 3.1 8B Instruct, Qwen 2.5 7
 \paragraph{Completeness.}
 The analyzer writes a manifest and matrix-completeness CSV. For this first pass, the manifest reports 480 expected rows, 480 observed expected rows, 0 missing expected rows, 0 errored rows after dedupe, and 0 unexpected artifact IDs.
 
-\begin{table}[t]
-\centering
-\caption{Experiment 8 first-pass completeness.}
-\label{tab:exp8-completeness}
-\begin{tabular}{lr}
-\toprule
-Artifact & Count \\
-\midrule
-Expected matrix rows & 480 \\
-Observed expected rows & 480 \\
-Missing expected rows & 0 \\
-Errored rows after dedupe & 0 \\
-Unexpected artifact IDs & 0 \\
-\bottomrule
-\end{tabular}
-\end{table}
+\input{../analysis_output/tist_package/table_exp8_completeness.tex}
 
 \paragraph{Route-label summary.}
 Table~\ref{tab:exp8-stage-summary} reports the top-level route-label summary. Because the labels are imbalanced, with three \path{instruct_candidate} routes and one \path{chat_or_instruct} route, these rows are descriptive aggregates rather than balanced stage effects.
 
-\begin{table}[t]
-\centering
-\caption{Experiment 8 route-label summary.}
-\label{tab:exp8-stage-summary}
-\begin{tabular}{lrrrrr}
-\toprule
-Route-stage label & $n$ & Format default & Polish default & Emoji & Markdown \\
-\midrule
-\texttt{chat\_or\_instruct} & 120 & 40.0\% & 35.8\% & 10.8\% & 40.0\% \\
-\texttt{instruct\_candidate} & 360 & 34.7\% & 52.2\% & 3.1\% & 33.3\% \\
-\bottomrule
-\end{tabular}
-\end{table}
+\input{../analysis_output/tist_package/table_exp8_stage_summary.tex}
 
 \paragraph{Condition summary.}
 The condition-level result is clearer and easier to interpret. Neutral prompts produce format defaults in 80.2\% of outputs and Markdown in 78.1\%. Plain-no-Markdown prompts reduce both to 2.1\%. Polished-but-plain prompts keep format defaults low at 6.2\% while leaving a higher polish-default rate of 45.8\%, consistent with the intended conflict between polished wording and plain output.
 
-\begin{table}[t]
-\centering
-\caption{Experiment 8 condition summary across 480 clean outputs.}
-\label{tab:exp8-condition-summary}
-\begin{tabular}{lrrrrr}
-\toprule
-Condition & $n$ & Format default & Polish default & Emoji & Markdown \\
-\midrule
-\texttt{neutral} & 96 & 80.2\% & 72.9\% & 19.8\% & 78.1\% \\
-\texttt{no\_emoji} & 96 & 27.1\% & 22.9\% & 0.0\% & 27.1\% \\
-\texttt{plain\_no\_markdown} & 96 & 2.1\% & 25.0\% & 0.0\% & 2.1\% \\
-\texttt{diverse\_domain\_specific} & 96 & 64.6\% & 74.0\% & 5.2\% & 61.5\% \\
-\texttt{polished\_but\_plain} & 96 & 6.2\% & 45.8\% & 0.0\% & 6.2\% \\
-\bottomrule
-\end{tabular}
-\end{table}
+\input{../analysis_output/tist_package/table_exp8_condition_summary.tex}
 
 Table~\ref{tab:exp8-ci-contrast} adds uncertainty and planned-contrast evidence for selected condition-level results. Wilson intervals are shown for the condition rates, and the q-values are Benjamini-Hochberg adjusted condition-vs-neutral screening contrasts. The same paired condition deltas are also computed by route, prompt family, domain, and repeat; for example, plain-no-Markdown reduces format defaults by 0.781 and Markdown by 0.760 relative to matched neutral units.
 
-\begin{table}[t]
-\centering
-\caption{Experiment 8 selected intervals and planned contrasts.}
-\label{tab:exp8-ci-contrast}
-\begin{tabular}{lrrrr}
-\toprule
-Condition/feature & Rate & 95\% CI & Delta vs. neutral & FDR q \\
-\midrule
-Neutral format default & 80.2\% & [71.1, 86.9]\% & -- & -- \\
-Neutral Markdown & 78.1\% & [68.9, 85.2]\% & -- & -- \\
-Neutral emoji & 19.8\% & [13.1, 28.9]\% & -- & -- \\
-No-emoji emoji & 0.0\% & [0.0, 3.8]\% & -0.198 & $2.58\times10^{-6}$ \\
-Plain-no-Markdown format default & 2.1\% & [0.6, 7.3]\% & -0.781 & $<10^{-12}$ \\
-Plain-no-Markdown Markdown & 2.1\% & [0.6, 7.3]\% & -0.760 & $<10^{-12}$ \\
-Polished-but-plain format default & 6.2\% & [2.9, 13.0]\% & -0.740 & $<10^{-12}$ \\
-Polished-but-plain polish default & 45.8\% & [36.2, 55.8]\% & -0.271 & $3.63\times10^{-4}$ \\
-\bottomrule
-\end{tabular}
-\end{table}
+\input{../analysis_output/tist_package/table_exp8_ci_contrasts.tex}
 
 Prompt-family-clustered paired contrasts provide a stricter condition-level robustness screen. Plain-no-Markdown reduces format defaults by 0.781 after pairing against neutral within model family, route label, model, prompt family, domain, and repeat; no-emoji reduces format defaults by 0.531; and polished-but-plain reduces format defaults by 0.740. These three reductions remain significant after prompt-family cluster sign-flip testing and FDR correction. The diversity condition reduces format defaults by 0.156, but that reduction does not survive the clustered screen. These results strengthen the condition-level suppression claim without supporting route-stage causal inference.
 

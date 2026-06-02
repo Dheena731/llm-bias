@@ -23,12 +23,13 @@ uv run python analyze_text_baselines.py
 uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
 uv run python verify_tist_bibliography.py --write-audit
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
+uv run python generate_tist_artifact_tables.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
 uv run python verify_tist_package.py
 ```
 
-The current Exp8 first-pass evidence is `480/480` clean rows with `0` missing expected rows in `analysis_output/exp8/analysis_manifest.json`. Analysis from the fixed CSV is reproducible; exact live collection reruns are not deterministic because they use current API routes.
+The current Exp8 first-pass evidence is `480/480` clean rows with `0` missing expected rows in `analysis_output/exp8/analysis_manifest.json`. Analysis from the fixed CSV is reproducible; exact live collection reruns are not deterministic because they use current API routes. The analysis manifest records the canonical CSV hash. The manuscript's Exp8 tables are generated from the checked analysis outputs into `analysis_output/tist_package/`; rerun `generate_tist_artifact_tables.py` after changing any source analysis CSV or manifest. The package verifier checks those table hashes and byte-compares them against a temporary regeneration.
 
 Compile target for journal draft:
 

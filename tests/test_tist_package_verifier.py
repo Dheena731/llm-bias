@@ -5,11 +5,16 @@ from pathlib import Path
 from verify_tist_package import (
     LOCAL_ID_PATTERNS,
     PACKAGE_SOURCE_FILES,
+    REQUIRED_FILES,
     REVIEW_METADATA_PATTERNS,
     SOURCE_SECRET_SCAN_PATHS,
+    TIST_TABLE_INPUTS,
     USER_HOME_PREFIX,
+    EXTERNAL_REVIEW_SCAN_PATHS,
     scan_pdf_metadata,
     scan_text_paths,
+    validate_analysis_manifest_inputs,
+    validate_tist_table_inputs,
     validate_anonymous_manuscript,
 )
 
@@ -87,6 +92,44 @@ class TistPackageVerifierTests(unittest.TestCase):
         self.assertIn(Path("verify_tist_bibliography.py"), PACKAGE_SOURCE_FILES)
         self.assertIn(Path("paper/tist2027_bibliography_audit.md"), PACKAGE_SOURCE_FILES)
         self.assertIn(Path("tests/test_tist_bibliography_verifier.py"), PACKAGE_SOURCE_FILES)
+
+    def test_package_source_files_include_tist_artifact_table_gate(self):
+        self.assertIn(Path("generate_tist_artifact_tables.py"), PACKAGE_SOURCE_FILES)
+        self.assertIn(Path("tests/test_tist_artifact_tables.py"), PACKAGE_SOURCE_FILES)
+
+    def test_required_files_include_generated_tist_table_artifacts(self):
+        required_paths = set(REQUIRED_FILES)
+
+        self.assertIn(Path("analysis_output/tist_package/tist_artifact_manifest.json"), required_paths)
+        self.assertIn(Path("analysis_output/tist_package/table_exp8_completeness.tex"), required_paths)
+        self.assertIn(Path("analysis_output/tist_package/table_exp8_stage_summary.tex"), required_paths)
+        self.assertIn(Path("analysis_output/tist_package/table_exp8_condition_summary.tex"), required_paths)
+        self.assertIn(Path("analysis_output/tist_package/table_exp8_ci_contrasts.tex"), required_paths)
+
+    def test_external_review_scan_includes_generated_tist_package_outputs(self):
+        self.assertIn(Path("analysis_output/tist_package"), EXTERNAL_REVIEW_SCAN_PATHS)
+
+    def test_validate_tist_table_inputs_reports_missing_generated_fragment_inputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tex = Path(tmp) / "paper.tex"
+            tex.write_text("\n".join(TIST_TABLE_INPUTS[:-1]) + "\n", encoding="utf-8")
+
+            failures = validate_tist_table_inputs(tex)
+
+        self.assertEqual(failures, [TIST_TABLE_INPUTS[-1]])
+
+    def test_validate_analysis_manifest_inputs_checks_canonical_csv_hash(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            csv_path = Path(tmp) / "exp8.csv"
+            csv_path.write_text("artifact_id\nunit\n", encoding="utf-8")
+            manifest = {
+                "input_files": [csv_path.as_posix()],
+                "input_file_sha256": {csv_path.as_posix(): "stale"},
+            }
+
+            failures = validate_analysis_manifest_inputs(manifest, csv_path)
+
+        self.assertEqual(failures, ["analysis manifest input_file_sha256 mismatch"])
 
 
 if __name__ == "__main__":
