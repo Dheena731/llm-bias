@@ -84,6 +84,7 @@ Latest verifier output:
 | csv_sha256 | `90c88bd0741d66cad0a3872bcc967f44f1d4926306feabd751a17597ca1779b2` |
 | raw_dir_sha256 | `c99c8b318d45e9a004301a050bfd499eae2a58cfa70b4a0b93d48550899bd742` |
 | analysis_manifest_sha256 | `1cc0b61b868d23cc1a8b43070e4080b686063e948a61e57ebabba0719774670a` |
+| external_review_scan | anonymous manuscript, local identifier, review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf`. |
 
 Git note:
 
@@ -124,6 +125,7 @@ Exp8 code, config, and tests:
 - `tests/test_exp8_analysis.py`
 - `tests/test_baseline_feature_audit.py`
 - `tests/test_cross_modal_baselines.py`
+- `tests/test_tist_package_verifier.py`
 
 Canonical outputs:
 
@@ -204,7 +206,8 @@ uv run python analyze_text_baselines.py
 uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py
+uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_package_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
 uv run python verify_tist_package.py
 ```
@@ -251,6 +254,7 @@ Ready now:
 - Text, UI reference, image reference, and manual audit scripts run.
 - Manual TIST bibliography has been converted to ACM BibTeX sources and first-pass metadata fixes are applied.
 - Tectonic compiles the ACM draft to a 10-page PDF; the current log has no overfull/underfull box warnings and no missing-reference warnings. Remaining warnings are font-request messages and a Tectonic BibTeX rerun notice.
+- The package verifier now includes external-review gates for anonymous manuscript metadata, local identifiers, stale review metadata, source secret scans, and compiled-PDF metadata scanning; the current compiled PDF passes the `--pdf` scan.
 - Claim boundaries are explicit.
 
 Still required before a journal submission:
@@ -261,4 +265,4 @@ Still required before a journal submission:
 - Expand UI/design-system and image baselines beyond the current small reference layer before homogenization claims.
 - Add model-based route-stage inference if route-stage claims are strengthened; current clustered contrasts support condition-level robustness screening, not route-stage causality.
 - Increase Exp8 repeats or clearly label the current result as first-pass evidence.
-- Run a final anonymity and local-path check before external review.
+- Re-run the external-review verifier, including `--pdf`, after any final manuscript or PDF-generation change.

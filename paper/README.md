@@ -22,7 +22,7 @@ uv run python analyze_post_training_priors.py --input experiment_data/exp8_post_
 uv run python analyze_text_baselines.py
 uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_package_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
 uv run python verify_tist_package.py
 ```
@@ -32,10 +32,11 @@ The current Exp8 first-pass evidence is `480/480` clean rows with `0` missing ex
 Compile target for journal draft:
 
 ```bash
-cd paper && pdflatex tist2027_presentation_priors.tex
+tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
+uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf
 ```
 
-This requires ACM's `acmart.cls`, which is not bundled in this repository.
+This requires ACM's `acmart.cls`. The verifier's default run checks the source package; the `--pdf` form additionally scans the compiled PDF bytes for author metadata, local identifiers, and sensitive-looking tokens.
 
 ## ICISS Draft Notes
 

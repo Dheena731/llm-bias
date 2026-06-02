@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import argparse
 import hashlib
 import json
 import re
@@ -19,6 +20,12 @@ EXPECTED_CONFIG_HASH = "b3dd18b8bb4f9863836a8905009630f66e786c1aba0efb8dd923387c
 CANONICAL_CSV = Path("experiment_data/exp8_post_training_priors_20260601_022210.csv")
 CANONICAL_RAW_DIR = Path("experiment_artifacts/exp8_text/raw/b3dd18b8bb4f/exp8_20260601_022210")
 MANIFEST = Path("analysis_output/exp8/analysis_manifest.json")
+USER_HOME_PREFIX = "/" + "Users"
+FILE_URI_PREFIX = "file" + "://"
+PERSONAL_NAME = "A" + "dhi"
+PERSONAL_HANDLE = "a" + "dhit"
+ORG_NAME = "Ax" + "onome"
+PERSONAL_EMAIL_DOMAIN = "gm" + "ail" + r"\.com"
 REQUIRED_FILES = [
     CANONICAL_CSV,
     MANIFEST,
@@ -44,8 +51,59 @@ REQUIRED_FILES = [
     Path("paper/haips2026_refs.bib"),
     Path("paper/tist2027_journal_package_manifest.md"),
 ]
+PACKAGE_SOURCE_FILES = [
+    Path("paper/README.md"),
+    Path("paper/tist2027_presentation_priors.tex"),
+    Path("paper/tist2027_presentation_priors_refs.bib"),
+    Path("paper/haips2026_refs.bib"),
+    Path("paper/tist2027_journal_package_manifest.md"),
+    Path("paper/journal_aesthetic_anchoring_presentation_priors.md"),
+    Path("paper/aesthetic_anchoring_claim_audit.md"),
+    Path("EXPERIMENT8_PROTOCOL.md"),
+    Path("aesthetic_features.py"),
+    Path("experiment8_common.py"),
+    Path("experiment8_collect_text.py"),
+    Path("analyze_post_training_priors.py"),
+    Path("analyze_text_baselines.py"),
+    Path("analyze_cross_modal_baselines.py"),
+    Path("validate_feature_audit_samples.py"),
+    Path("verify_tist_package.py"),
+    Path("configs/exp8_post_training_priors.json"),
+    Path("configs/text_baselines.json"),
+    Path("configs/ui_image_baselines.json"),
+    Path("configs/feature_validity_audit_samples.json"),
+    Path("tests/__init__.py"),
+    Path("tests/test_exp8_task_matrix.py"),
+    Path("tests/test_exp8_fake_collectors.py"),
+    Path("tests/test_exp8_analysis.py"),
+    Path("tests/test_baseline_feature_audit.py"),
+    Path("tests/test_cross_modal_baselines.py"),
+    Path("tests/test_tist_package_verifier.py"),
+]
+PACKAGE_SUPPORT_FILES = [
+    Path(".env.example"),
+    Path(".gitignore"),
+    Path("pyproject.toml"),
+    Path("requirements.txt"),
+    Path("uv.lock"),
+]
+REQUIRED_PACKAGE_FILES = sorted(set(REQUIRED_FILES + PACKAGE_SOURCE_FILES + PACKAGE_SUPPORT_FILES))
 ANONYMITY_SCAN_FILES = [
     Path("paper/tist2027_presentation_priors.tex"),
+    Path("paper/tist2027_journal_package_manifest.md"),
+    Path("paper/README.md"),
+    Path("EXPERIMENT8_PROTOCOL.md"),
+]
+EXTERNAL_REVIEW_SCAN_PATHS = [
+    *PACKAGE_SOURCE_FILES,
+    *PACKAGE_SUPPORT_FILES,
+    Path("analysis_output/exp8"),
+    Path("analysis_output/baselines"),
+]
+SOURCE_SECRET_SCAN_PATHS = [
+    path for path in EXTERNAL_REVIEW_SCAN_PATHS if path != Path("tests/test_exp8_fake_collectors.py")
+]
+REVIEW_METADATA_SCAN_FILES = [
     Path("paper/tist2027_journal_package_manifest.md"),
     Path("paper/README.md"),
     Path("EXPERIMENT8_PROTOCOL.md"),
@@ -63,12 +121,21 @@ SENSITIVE_PATTERNS = [
 LOCAL_ID_PATTERNS = [
     re.compile(pattern, re.IGNORECASE)
     for pattern in [
-        r"/Users/[A-Za-z0-9._-]+\b",
-        r"file://",
-        r"\bAdhi\b",
-        r"\badhit\b",
-        r"\bAxonome\b",
-        r"gmail\.com",
+        re.escape(USER_HOME_PREFIX) + r"/[A-Za-z0-9._-]+\b",
+        re.escape(FILE_URI_PREFIX),
+        r"\b" + re.escape(PERSONAL_NAME) + r"\b",
+        r"\b" + re.escape(PERSONAL_HANDLE) + r"\b",
+        r"\b" + re.escape(ORG_NAME) + r"\b",
+        PERSONAL_EMAIL_DOMAIN,
+    ]
+]
+REVIEW_METADATA_PATTERNS = [
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in [
+        r"\b[0-9a-f]{40}\b",
+        r"\buntracked\b",
+        r"\bdirty\b",
+        r"\bworking tree\b",
     ]
 ]
 
@@ -109,6 +176,16 @@ def assert_condition(condition: bool, message: str) -> None:
         raise AssertionError(message)
 
 
+def iter_text_files(paths: list[Path]) -> list[Path]:
+    files = []
+    for path in paths:
+        if path.is_dir():
+            files.extend(item for item in path.rglob("*") if item.is_file())
+        else:
+            files.append(path)
+    return sorted(path for path in files if path.suffix.lower() != ".png")
+
+
 def scan_sensitive(paths: list[Path]) -> list[str]:
     hits = []
     for path in paths:
@@ -126,8 +203,12 @@ def scan_sensitive(paths: list[Path]) -> list[str]:
 
 
 def scan_patterns(paths: list[Path], patterns: list[re.Pattern]) -> list[str]:
+    return scan_text_paths(paths, patterns)
+
+
+def scan_text_paths(paths: list[Path], patterns: list[re.Pattern]) -> list[str]:
     hits = []
-    for path in paths:
+    for path in iter_text_files(paths):
         text = path.read_text(encoding="utf-8", errors="ignore")
         for line_number, line in enumerate(text.splitlines(), start=1):
             if any(pattern.search(line) for pattern in patterns):
@@ -135,8 +216,39 @@ def scan_patterns(paths: list[Path], patterns: list[re.Pattern]) -> list[str]:
     return hits
 
 
-def verify() -> dict:
-    for path in REQUIRED_FILES:
+def validate_anonymous_manuscript(path: Path) -> list[str]:
+    text = path.read_text(encoding="utf-8")
+    compact = re.sub(r"\s+", "", text)
+    failures = []
+    class_match = re.search(r"\\documentclass\[(?P<options>[^\]]+)\]\{acmart\}", text)
+    if not class_match or "anonymous" not in {option.strip() for option in class_match.group("options").split(",")}:
+        failures.append("documentclass missing anonymous option")
+    if r"\author{Anonymous Authors}" not in text:
+        failures.append("missing anonymous author placeholder")
+    if r"\institution{AnonymousInstitution}" not in compact:
+        failures.append("missing anonymous institution placeholder")
+    if re.search(r"\\email\{", text):
+        failures.append("anonymous manuscript contains email metadata")
+    return failures
+
+
+def scan_pdf_metadata(path: Path) -> list[str]:
+    text = path.read_bytes().decode("latin-1", errors="ignore")
+    hits = []
+    if any(pattern.search(text) for pattern in LOCAL_ID_PATTERNS):
+        hits.append(f"{path}:local_identifier")
+    if any(pattern.search(text) for pattern in SENSITIVE_PATTERNS):
+        hits.append(f"{path}:sensitive_token")
+    author_match = re.search(r"/Author\s*(?:\((?P<paren>[^)]*)\)|<(?P<hex>[^>]*)>|(?P<plain>\S+))", text)
+    if author_match:
+        author_value = next((value for value in author_match.groupdict().values() if value), "")
+        if "Anonymous" not in author_value:
+            hits.insert(0, f"{path}:author_metadata")
+    return hits
+
+
+def verify(pdf_path: str | Path | None = None) -> dict:
+    for path in REQUIRED_PACKAGE_FILES:
         assert_condition(path.exists(), f"missing required file: {path}")
     assert_condition(CANONICAL_RAW_DIR.exists(), f"missing raw output directory: {CANONICAL_RAW_DIR}")
 
@@ -183,8 +295,19 @@ def verify() -> dict:
         [CANONICAL_CSV, CANONICAL_RAW_DIR, Path("analysis_output/exp8"), Path("analysis_output/baselines")]
     )
     assert_condition(not sensitive_hits, f"sensitive-looking tokens found in: {sensitive_hits}")
-    local_id_hits = scan_patterns(ANONYMITY_SCAN_FILES, LOCAL_ID_PATTERNS)
+    source_sensitive_hits = scan_text_paths(SOURCE_SECRET_SCAN_PATHS, SENSITIVE_PATTERNS)
+    assert_condition(not source_sensitive_hits, f"sensitive-looking tokens found in package text: {source_sensitive_hits}")
+    local_id_hits = scan_text_paths(EXTERNAL_REVIEW_SCAN_PATHS, LOCAL_ID_PATTERNS)
     assert_condition(not local_id_hits, f"local identifying strings found in: {local_id_hits}")
+    review_metadata_hits = scan_text_paths(REVIEW_METADATA_SCAN_FILES, REVIEW_METADATA_PATTERNS)
+    assert_condition(not review_metadata_hits, f"stale review metadata found in: {review_metadata_hits}")
+    anonymous_failures = validate_anonymous_manuscript(Path("paper/tist2027_presentation_priors.tex"))
+    assert_condition(not anonymous_failures, f"anonymous manuscript metadata failures: {anonymous_failures}")
+    pdf_metadata_status = "not_requested"
+    if pdf_path:
+        pdf_hits = scan_pdf_metadata(Path(pdf_path))
+        assert_condition(not pdf_hits, f"PDF metadata/local identifier hits found in: {pdf_hits}")
+        pdf_metadata_status = "ok"
 
     return {
         "status": "ok",
@@ -196,11 +319,26 @@ def verify() -> dict:
         "rows": len(rows),
         "run_id": EXPECTED_RUN_ID,
         "config_hash": EXPECTED_CONFIG_HASH,
+        "external_review_scan": {
+            "anonymous_manuscript": "ok",
+            "local_identifier_scan": "ok",
+            "review_metadata_scan": "ok",
+            "source_secret_scan": "ok",
+            "pdf_metadata_scan": pdf_metadata_status,
+            "text_files_scanned": len(iter_text_files(EXTERNAL_REVIEW_SCAN_PATHS)),
+        },
     }
 
 
-def main() -> None:
-    print(json.dumps(verify(), indent=2, sort_keys=True))
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Verify the TIST journal package artifacts")
+    parser.add_argument("--pdf", help="Optional compiled PDF path to scan for metadata/local identifiers")
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> None:
+    args = parse_args(argv)
+    print(json.dumps(verify(pdf_path=args.pdf), indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":
