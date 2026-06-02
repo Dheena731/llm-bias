@@ -6,11 +6,11 @@ hash inside exported files would make the archive hash self-referential.
 
 ## Current Snapshot
 
-- Exported package source commit: `acb2dbb Update TIST package scan count`
+- Exported package source commit: `9b97294 Make TIST review archive deterministic`
 - Handoff note commit: tracked separately after export; this file is not in the archive
 - Export directory: `artifact/tist2027_external_review/`
 - Export archive: `artifact/tist2027_external_review.zip`
-- Archive SHA-256: `8d89c04e8d07690050239e446cee6a6e9014f84b6c7648376aa48d0be8604d51`
+- Archive SHA-256: `aa5bb2b058cc67710ebc58586c3d66e860c941624f6bfef2eab3f86d0c71a6e4`
 - Package scan status: `ok`
 - Package scan text files: `548`
 - Canonical Exp8 rows: `480`
