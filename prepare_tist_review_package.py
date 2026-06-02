@@ -26,6 +26,7 @@ from verify_tist_package import (
 
 DEFAULT_OUTPUT_DIR = Path("artifact/tist2027_external_review")
 DEFAULT_ARCHIVE_PATH = DEFAULT_OUTPUT_DIR.with_suffix(".zip")
+DETERMINISTIC_ZIP_TIMESTAMP = (1980, 1, 1, 0, 0, 0)
 EXPORT_DIRECTORIES = [
     CANONICAL_RAW_DIR,
     Path("analysis_output/baselines/generated_images"),
@@ -212,6 +213,8 @@ def remove_generated_export_state(root: Path) -> None:
 
 def refresh_export_scan(output_dir: Path) -> dict[str, Any]:
     remove_generated_export_state(output_dir)
+    (output_dir / "PACKAGE_SCAN.json").touch(exist_ok=True)
+    (output_dir / "MANIFEST.sha256").touch(exist_ok=True)
     scan_result = scan_export_tree(output_dir)
     scan_path = output_dir / "PACKAGE_SCAN.json"
     scan_path.write_text(json.dumps(scan_result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -340,7 +343,11 @@ def create_zip(output_dir: Path = DEFAULT_OUTPUT_DIR, archive_path: Path = DEFAU
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(archive_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(item for item in output_dir.rglob("*") if item.is_file()):
-            archive.write(path, path.relative_to(output_dir))
+            relative = path.relative_to(output_dir).as_posix()
+            info = zipfile.ZipInfo(relative, DETERMINISTIC_ZIP_TIMESTAMP)
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            archive.writestr(info, path.read_bytes())
     return archive_path
 
 

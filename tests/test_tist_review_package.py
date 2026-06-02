@@ -1,3 +1,4 @@
+import os
 import tempfile
 import unittest
 import zipfile
@@ -112,6 +113,25 @@ class TistReviewPackageTests(unittest.TestCase):
 
             with zipfile.ZipFile(archive_path) as archive:
                 self.assertNotIn("__pycache__/module.cpython-312.pyc", archive.namelist())
+
+    def test_create_zip_is_deterministic_across_mtime_changes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "package"
+            root.mkdir()
+            source = root / "README.md"
+            source.write_text("anonymous\n", encoding="utf-8")
+
+            first_archive = create_zip(root, Path(tmp) / "first.zip")
+            first_bytes = first_archive.read_bytes()
+
+            os.utime(source, (1_700_000_000, 1_700_000_000))
+            second_archive = create_zip(root, Path(tmp) / "second.zip")
+            second_bytes = second_archive.read_bytes()
+
+            self.assertEqual(first_bytes, second_bytes)
+            with zipfile.ZipFile(second_archive) as archive:
+                for info in archive.infolist():
+                    self.assertEqual(info.date_time, (1980, 1, 1, 0, 0, 0))
 
     def test_scan_export_tree_reports_unbounded_claim_boundary_phrases(self):
         with tempfile.TemporaryDirectory() as tmp:
