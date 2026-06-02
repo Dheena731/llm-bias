@@ -6,7 +6,8 @@ hash inside exported files would make the archive hash self-referential.
 
 ## Current Snapshot
 
-- Commit prepared for package source: `915466c Harden TIST bibliography and claim scans`
+- Exported package source commit: `915466c Harden TIST bibliography and claim scans`
+- Handoff note commit: tracked separately after export; this file is not in the archive
 - Export directory: `artifact/tist2027_external_review/`
 - Export archive: `artifact/tist2027_external_review.zip`
 - Archive SHA-256: `589e08847a97514a7e8d354c7f2a2622c8282d6f1a4ade245dbfd3d295fe0cb1`
