@@ -1,12 +1,15 @@
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 from prepare_tist_review_package import (
     DEFAULT_ARCHIVE_PATH,
     DEFAULT_OUTPUT_DIR,
     EXPORT_DIRECTORIES,
+    create_zip,
     iter_export_inputs,
+    remove_generated_export_state,
     scan_export_tree,
     write_sha256_manifest,
 )
@@ -61,6 +64,54 @@ class TistReviewPackageTests(unittest.TestCase):
             result = scan_export_tree(root)
 
         self.assertEqual(result["failures"]["binary_payload_scan"], ["paper.pdf"])
+
+    def test_scan_export_tree_reports_generated_bytecode_payloads(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cache = root / "__pycache__"
+            cache.mkdir()
+            (cache / "module.cpython-312.pyc").write_bytes(b"bytecode")
+
+            result = scan_export_tree(root)
+
+        self.assertIn("__pycache__", result["failures"]["excluded_path_scan"])
+        self.assertEqual(result["failures"]["binary_payload_scan"], ["__pycache__/module.cpython-312.pyc"])
+
+    def test_remove_generated_export_state_deletes_bytecode_before_archive(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cache = root / "__pycache__"
+            cache.mkdir()
+            (cache / "module.cpython-312.pyc").write_bytes(b"bytecode")
+            (root / "README.md").write_text("anonymous\n", encoding="utf-8")
+
+            remove_generated_export_state(root)
+
+            self.assertFalse(cache.exists())
+
+    def test_create_zip_refuses_dirty_generated_state(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "package"
+            root.mkdir()
+            (root / "README.md").write_text("anonymous\n", encoding="utf-8")
+            (root / "paper.pdf").write_bytes(b"%PDF\n")
+
+            with self.assertRaises(AssertionError):
+                create_zip(root, Path(tmp) / "package.zip")
+
+    def test_create_zip_excludes_bytecode_after_cleanup(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "package"
+            root.mkdir()
+            cache = root / "__pycache__"
+            cache.mkdir()
+            (cache / "module.cpython-312.pyc").write_bytes(b"bytecode")
+            (root / "README.md").write_text("anonymous\n", encoding="utf-8")
+
+            archive_path = create_zip(root, Path(tmp) / "package.zip")
+
+            with zipfile.ZipFile(archive_path) as archive:
+                self.assertNotIn("__pycache__/module.cpython-312.pyc", archive.namelist())
 
     def test_scan_export_tree_reports_unbounded_claim_boundary_phrases(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -123,6 +174,130 @@ class TistReviewPackageTests(unittest.TestCase):
             paper = root / "paper" / "tist2027_presentation_priors.tex"
             paper.parent.mkdir()
             paper.write_text("Models broadly prefer purple/pink aesthetics.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_scans_markdown_control_docs_outside_named_list(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            report = root / "analysis_output" / "exp8" / "post_training_priors_report.md"
+            report.parent.mkdir(parents=True)
+            report.write_text("RLHF is responsible for the defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(
+            result["failures"]["claim_boundary_scan"],
+            ["analysis_output/exp8/post_training_priors_report.md:1"],
+        )
+
+    def test_scan_export_tree_rejects_safe_phrase_from_prior_sentence(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("This is not evidence yet. RLHF causes emoji defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_route_label_training_stage_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Route labels reveal training-stage effects.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_route_label_base_instruct_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Route labels separate base and instruct behavior.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_rlhf_shape_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("RLHF shapes presentation defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_defaults_arise_from_post_training_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Defaults arise from post-training.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_purple_palette_dominance_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Purple dominates generated palettes.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_cross_modal_similarity_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Cross-modal artifact similarity is unusually high.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_rejects_without_prefix_loophole(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Without verified base routes, post-training causes defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_rejects_requires_prefix_loophole(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Requires stronger evidence, but RLHF causes defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_generated_ui_convergence_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Generated UI outputs converge on a homogeneous style.\n", encoding="utf-8")
 
             result = scan_export_tree(root)
 

@@ -38,7 +38,7 @@ The journal identity is separate from the ICISS security/compliance draft and th
 | Study 4: Exp8 route-labeled text probe | First-pass model-run evidence complete: 480/480 rows | Journal technical extension, route-labeled only. |
 | Study 5: Exp7 cross-modal extension | Checkpoint evidence | Secondary feasibility extension only. |
 | Text baselines | Small hand-authored baseline layer | Validity support, not final human-vs-model contrast. |
-| UI/image baselines | Small reference layer added | Feature-calibration support only; balanced baselines still required before strong homogenization claims. |
+| UI/image baselines | Small reference layer added | Feature-calibration support only; balanced baselines still required before strong cross-modal similarity claims. |
 
 ## Exp8 First-Pass Evidence
 
@@ -192,11 +192,11 @@ Exclude stale or non-TIST generated material unless a separate package intention
 
 Safe Exp8 claim:
 
-> In a complete 480-row first pass, route-labeled presentation-prior features are measurable and condition-sensitive. Neutral prompts produce high format-default and Markdown rates; explicit plain-output instructions strongly suppress Markdown and emoji. These are route-labeled OpenRouter results, not causal training-stage evidence.
+> In a complete 480-row first pass, route-labeled presentation-prior features are measurable and condition-sensitive. Neutral prompts produce high format-default and Markdown rates; explicit plain-output instructions strongly suppress Markdown and emoji. These are route-labeled OpenRouter results, not causal evidence about training provenance.
 
 Unsafe Exp8 claim:
 
-> RLHF or post-training causes the observed defaults.
+> Unsupported causal attribution to RLHF/post-training.
 
 ## Baseline and Validity Layer
 
@@ -273,9 +273,9 @@ Keep:
 
 Avoid:
 
-- RLHF/post-training causality without verified base-model routes.
-- Broad purple-bias framing.
-- Generated UI/image homogenization claims without balanced baselines.
+- Causal attribution to RLHF/post-training without verified base-model routes.
+- Broad color-bias framing from the bounded purple/pink result.
+- Claims about cross-modal artifact similarity without balanced baselines.
 - Merging ICISS, IUI, and TIST identities.
 
 ## Submission Readiness Gates
@@ -304,7 +304,7 @@ Still required before a journal submission:
 
 - Recheck the TeX warning log during final venue formatting review.
 - Recheck bibliography metadata against publisher pages after any reference changes and during final copyediting.
-- Do not make broad UI/design-system or image homogenization claims until baselines are expanded beyond the current small reference layer.
-- Do not strengthen route-stage claims until model-based route/provenance analysis is added; current clustered contrasts support condition-level robustness screening, not causal route-stage evidence.
+- Do not make broad cross-modal similarity claims until baselines are expanded beyond the current small reference layer.
+- Do not strengthen route-label provenance claims until model-based route/provenance analysis is added; current clustered contrasts support condition-level robustness screening, not causal route evidence.
 - Increase Exp8 repeats or clearly label the current result as first-pass evidence.
 - Re-run the external-review verifier, including `--pdf`, after any final manuscript or PDF-generation change.

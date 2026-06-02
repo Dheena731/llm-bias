@@ -145,11 +145,11 @@ Use:
 
 Avoid:
 
-> LLMs are biased toward purple.
+> Broad color-bias framing from the bounded color result.
 
 Avoid:
 
-> RLHF causes emoji/purple/style bias.
+> Causal attribution to RLHF/post-training for emoji, color, or style defaults.
 
 Avoid:
 

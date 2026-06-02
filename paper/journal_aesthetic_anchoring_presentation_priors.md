@@ -31,11 +31,11 @@ Canonical term: use **presentation priors** for the general phenomenon. Use **ae
 
 ## Abstract Draft
 
-Generative models do more than answer prompts; they also choose presentation forms when users leave style underspecified. We call this behavior aesthetic anchoring: topic- and route-labeled presentation priors in generated text, UI code, and image artifacts. This paper synthesizes controlled text experiments with a new route-labeled probe and a bounded cross-modal extension. In older text experiments, emoji use is strongly topic-conditioned and mostly suppressed by the first explicit no-emoji instruction; text color-suggestion tasks do not support a broad purple-bias claim; and measured surface-format constraints behave differently from semantic instruction-following benchmarks. Experiment 8 extends the analysis by measuring Markdown, emoji, decorative symbols, stock-polish phrases, and length inflation across current OpenRouter instruction/chat route labels. Exp7 provides checkpoint evidence that similar measurement can be applied to generated UI and image artifacts, but those claims remain bounded until balanced baselines are added. We argue that presentation priors are a distinct evaluation target: not always harmful, not reducible to instruction failure, and not causally attributable to post-training without verified base-model evidence.
+Generative models do more than answer prompts; they also choose presentation forms when users leave style underspecified. We call this behavior aesthetic anchoring: topic-conditioned presentation priors across text, UI code, and image artifacts, plus route-labeled text priors in Experiment 8. This paper synthesizes controlled text experiments with a new route-labeled probe and a bounded cross-modal extension. In older text experiments, emoji use is strongly topic-conditioned and mostly suppressed by the first explicit no-emoji instruction; text color-suggestion tasks show negative or blue-dominant results rather than broad color-preference evidence centered on purple/pink; and measured surface-format constraints behave differently from semantic instruction-following benchmarks. Experiment 8 extends the analysis by measuring Markdown, emoji, decorative symbols, stock-polish phrases, and length inflation across current OpenRouter instruction/chat route labels. Exp7 provides checkpoint evidence that similar measurement can be applied to generated UI and image artifacts, but those claims remain bounded until balanced baselines are added. We argue that presentation priors are a distinct evaluation target: not always harmful, not reducible to instruction failure, and not causally attributable to post-training without verified base-model evidence.
 
 ## Paper Spine
 
-1. Introduction: define aesthetic anchoring as presentation-prior bias, not purple bias or universal instruction failure.
+1. Introduction: define aesthetic anchoring as presentation-prior bias, not a color-trope paper or universal instruction failure.
 2. Definitions: presentation prior, aesthetic anchoring, surface-form compliance, and prior-plus-override curve.
 3. Related work: instruction following, output-format bias, post-training side effects, generated UI, text-to-image bias, and creative-output convergence.
 4. Study 1: old Exp1 emoji anchoring across topics and suppression levels.
@@ -43,7 +43,7 @@ Generative models do more than answer prompts; they also choose presentation for
 6. Study 3: old Exp4 measured multi-constraint surface-form compliance.
 7. Study 4: Exp8 route-labeled presentation-prior probe.
 8. Study 5: Exp7 cross-modal extension, explicitly checkpoint-bounded.
-9. Baselines and validity: hand-authored text baselines now; do not make stronger UI or image homogenization claims until balanced baselines are added.
+9. Baselines and validity: hand-authored text baselines now; do not make stronger cross-modal similarity claims until balanced baselines are added.
 10. Discussion and limitations: defaults can be useful conventions, route labels are not causal proof, and feature extractors require validation.
 
 For an ACM TIST-style journal draft, expand this spine into: Abstract; Introduction; Definitions and Problem Formulation; Related Work; Study Overview and Common Method; Studies 1-5; Baselines, Measurement Validity, and Reviewer-Robustness; Discussion; Limitations, Ethics, Artifact Availability, and AI Disclosure; Conclusion.
@@ -88,9 +88,9 @@ Text baselines must provide:
 
 ## Claims To Avoid
 
-- Do not claim RLHF or post-training caused the behavior unless base-model evidence and route provenance are verified.
-- Do not claim models are biased toward purple.
-- Do not claim generated UI is unusually homogeneous until human or design-system baselines are analyzed.
+- Do not make RLHF/post-training causal attributions unless base-model evidence and route provenance are verified.
+- Keep color findings negative, blue-dominant, or task-bounded rather than using broad color-bias framing.
+- Keep cross-modal similarity language bounded until human or design-system baselines are analyzed.
 - Do not merge this journal synthesis with the ICISS or IUI paper identities.
 
 ## Current Implementation Hooks
@@ -111,4 +111,4 @@ For a cost-controlled OpenRouter route-labeled pass, run:
 uv run python experiment8_collect_text.py --full --confirm-full --runs-per-cell 2 --max-workers 4
 ```
 
-For base-vs-instruct claims, add a separate HF/local collector for base routes before strengthening the causal mechanism story.
+For base-vs-instruct claims, add a separate HF/local collector for base routes before strengthening any route-provenance account.

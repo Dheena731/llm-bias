@@ -11,7 +11,7 @@ Status: `ok`
 | `bianchi2022t2i` | ACM Digital Library | 10.1145/3593013.3594095 | https://doi.org/10.1145/3593013.3594095 |
 | `friedrich2024fairness` | Springer Nature | 10.1007/s43681-024-00531-5 | https://link.springer.com/article/10.1007/s43681-024-00531-5 |
 | `jiang2024followbench` | ACL Anthology | 10.18653/v1/2024.acl-long.257 | https://aclanthology.org/2024.acl-long.257/ |
-| `kong2026macaron` | arXiv |  | https://arxiv.org/abs/2605.24830 |
+| `kong2026macaron` | arXiv | 10.48550/arXiv.2605.24830 | https://arxiv.org/abs/2605.24830 |
 | `long2025format` | ACL Anthology | 10.18653/v1/2025.naacl-long.15 | https://aclanthology.org/2025.naacl-long.15/ |
 | `ouyang2022training` | NeurIPS Proceedings |  | https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html |
 | `wu2024uicoder` | ACL Anthology | 10.18653/v1/2024.naacl-long.417 | https://aclanthology.org/2024.naacl-long.417/ |

@@ -30,7 +30,7 @@ Unexpected artifact IDs: 0
 
 ## Claim Boundary
 
-Stage labels are route metadata, not proof of a training mechanism. Use causal RLHF or post-training language only after route provenance is verified.
+Route labels are provenance metadata, not proof of a training mechanism. Causal claims about RLHF or post-training require verified route provenance.
 Clustered condition contrasts pair each condition against neutral within model family, route label, model, prompt family, domain, and run; they resample prompt-family clusters and include route-level consistency diagnostics.
 
 Required companion outputs: `confidence_intervals.csv`, `planned_contrasts_fdr.csv`, `paired_condition_delta_summary.csv`, `cluster_paired_condition_contrasts.csv`, `prompt_family_holdout.csv`, `length_sensitivity.csv`, `missingness_summary.csv`, `matrix_completeness.csv`, and `analysis_manifest.json`.

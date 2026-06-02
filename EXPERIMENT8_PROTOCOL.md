@@ -8,19 +8,19 @@ The target claim is deliberately narrow:
 
 > Generative models exhibit measurable presentation priors under underspecified prompts. These priors can be compared across model family, route label, prompt family, and intervention condition.
 
-This experiment must not claim that RLHF caused a behavior unless the compared routes have verified base/instruct/chat provenance. The current OpenRouter matrix should be reported as `route_stage_label`, not causal training stage.
+This experiment must not make RLHF/post-training causal attributions unless the compared routes have verified base/instruct/chat provenance. The current OpenRouter matrix should be reported as `route_stage_label`, not as causal evidence about training provenance.
 
 ## Why This Exists
 
-The older Aesthetic Anchoring paper has stronger text evidence than Exp7: repeated trials, cleaner suppression results, and a useful surface-form-versus-semantic distinction. Exp7 adds cross-modal scope, but its current evidence is a checkpoint. Experiment 8 makes the journal version more technical by directly testing route-labeled presentation priors in text first. It should be treated as causal-adjacent evidence until verified base-model routes exist.
+The older Aesthetic Anchoring paper has stronger text evidence than Exp7: repeated trials, cleaner suppression results, and a useful surface-form-versus-semantic distinction. Exp7 adds cross-modal scope, but its current evidence is a checkpoint. Experiment 8 makes the journal version more technical by directly testing route-labeled presentation priors in text first. It should be treated as route-labeled descriptive evidence until verified base-model routes exist.
 
 ## Research Questions
 
 1. Do current instruction/chat routes produce Markdown, emoji, headings, bullets, stock-polish phrases, and length inflation under underspecified prompts?
 2. Are these defaults topic-conditioned, as in the older emoji experiment?
-3. Do anti-default and plain-output conditions suppress defaults equally across route stages?
+3. Do anti-default and plain-output conditions suppress defaults equally across route labels?
 4. Are diversity or "polished" prompts confounded with formatting defaults?
-5. Which feature classes are stage-sensitive versus prompt-family-sensitive?
+5. Which feature classes are route-label-sensitive versus prompt-family-sensitive?
 
 ## Planned Matrix
 
@@ -68,7 +68,7 @@ Derived indicators:
 ## Required Analysis Before Journal Use
 
 1. Wilson confidence intervals for binary feature rates.
-2. Stage-condition tables by model family.
+2. Route-label-condition tables by model family.
 3. Prompt-family-held-out robustness.
 4. Sensitivity analysis excluding length-derived features.
 5. FDR correction across feature tests.
@@ -107,9 +107,9 @@ Base-model extension:
 
 ```text
 The OpenRouter chat-completions runner does not currently provide valid base routes for
-meta-llama/Llama-3.1-8B or Qwen/Qwen2.5-7B. Do not make post-training
-mechanism claims or base-vs-instruct claims without a separate HF/local collector
-and verified route provenance.
+meta-llama/Llama-3.1-8B or Qwen/Qwen2.5-7B. Do not make causal route-provenance
+claims or base-vs-instruct claims without a separate HF/local collector and
+verified route provenance.
 ```
 
 Analysis:
@@ -155,4 +155,4 @@ uv run python validate_feature_audit_samples.py
 
 ## Publication Boundary
 
-For the journal paper, Exp8 should be the causal-adjacent technical experiment. The older Aesthetic Anchoring data remains the robust empirical backbone. Exp7 should be described as cross-modal extension evidence until it is scaled with repeated cells and balanced image routes.
+For the journal paper, Exp8 should be the route-labeled technical experiment. The older Aesthetic Anchoring data remains the robust empirical backbone. Exp7 should be described as cross-modal extension evidence until it is scaled with repeated cells and balanced image routes.

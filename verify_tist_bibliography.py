@@ -17,47 +17,75 @@ AUDIT_MARKDOWN = Path("paper/tist2027_bibliography_audit.md")
 EXPECTED_CITED_METADATA: dict[str, dict[str, str]] = {
     "bianchi2022t2i": {
         "entry_type": "inproceedings",
+        "booktitle": "Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency",
+        "pages": "1493--1504",
+        "year": "2023",
         "doi": "10.1145/3593013.3594095",
         "url": "https://doi.org/10.1145/3593013.3594095",
         "source": "ACM Digital Library",
     },
     "friedrich2024fairness": {
         "entry_type": "article",
+        "journal": "AI and Ethics",
+        "volume": "5",
+        "pages": "2103--2123",
+        "year": "2025",
         "doi": "10.1007/s43681-024-00531-5",
         "url": "https://link.springer.com/article/10.1007/s43681-024-00531-5",
         "source": "Springer Nature",
     },
     "jiang2024followbench": {
         "entry_type": "inproceedings",
+        "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "month": "August",
+        "pages": "4667--4688",
+        "year": "2024",
         "doi": "10.18653/v1/2024.acl-long.257",
         "url": "https://aclanthology.org/2024.acl-long.257/",
         "source": "ACL Anthology",
     },
     "kong2026macaron": {
         "entry_type": "misc",
+        "year": "2026",
+        "doi": "10.48550/arXiv.2605.24830",
         "eprint": "2605.24830",
         "url": "https://arxiv.org/abs/2605.24830",
         "source": "arXiv",
     },
     "long2025format": {
         "entry_type": "inproceedings",
+        "author": "Long, Do Xuan and Nguyen, Ngoc-Hai and Sim, Tiviatis and Dao, Hieu and Joty, Shafiq and Kawaguchi, Kenji and Chen, Nancy F. and Kan, Min-Yen",
+        "booktitle": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+        "month": "April",
+        "pages": "299--330",
+        "year": "2025",
         "doi": "10.18653/v1/2025.naacl-long.15",
         "url": "https://aclanthology.org/2025.naacl-long.15/",
         "source": "ACL Anthology",
     },
     "ouyang2022training": {
         "entry_type": "inproceedings",
+        "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and Schulman, John and Hilton, Jacob and Kelton, Fraser and Miller, Luke and Simens, Maddie and Askell, Amanda and Welinder, Peter and Christiano, Paul F. and Leike, Jan and Lowe, Ryan",
+        "booktitle": "Advances in Neural Information Processing Systems",
+        "volume": "35",
+        "pages": "27730--27744",
+        "year": "2022",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html",
         "source": "NeurIPS Proceedings",
     },
     "wu2024uicoder": {
         "entry_type": "inproceedings",
+        "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+        "month": "June",
+        "pages": "7511--7525",
+        "year": "2024",
         "doi": "10.18653/v1/2024.naacl-long.417",
         "url": "https://aclanthology.org/2024.naacl-long.417/",
         "source": "ACL Anthology",
     },
     "zhou2023ifeval": {
         "entry_type": "misc",
+        "year": "2023",
         "doi": "10.48550/arXiv.2311.07911",
         "eprint": "2311.07911",
         "url": "https://arxiv.org/abs/2311.07911",
@@ -147,7 +175,7 @@ def _metadata_failures_for_entry(key: str, entry: BibEntry, expected: dict[str, 
     expected_type = expected.get("entry_type")
     if expected_type and entry.entry_type != expected_type:
         failures.append(f"{key} expected entry type {expected_type}, found {entry.entry_type}")
-    for field in ["doi", "url", "eprint"]:
+    for field in ["author", "booktitle", "journal", "volume", "pages", "year", "month", "doi", "url", "eprint"]:
         expected_value = expected.get(field)
         if expected_value and fields.get(field) != expected_value:
             failures.append(f"{key} expected {field} {expected_value}, found {fields.get(field, '<missing>')}")

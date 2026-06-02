@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -45,20 +46,35 @@ EXCLUDED_PATHS = [
     Path("experiment_data/exp8_post_training_priors_20260601_002652.csv"),
 ]
 EXCLUDED_NAME_PARTS = {"__pycache__", ".DS_Store"}
-DISALLOWED_EXPORT_SUFFIXES = {".pdf", ".zip", ".tar", ".tgz", ".gz", ".jpg", ".jpeg"}
+DISALLOWED_EXPORT_SUFFIXES = {".pdf", ".zip", ".tar", ".tgz", ".gz", ".jpg", ".jpeg", ".pyc"}
 CLAIM_BOUNDARY_PATTERNS = [
     re.compile(pattern, re.IGNORECASE)
     for pattern in [
-        r"\bRLHF\b.{0,50}\b(causes?|explains?|drives?|induces?|mechanism)\b",
-        r"\b(caused|explained|driven|induced)\s+by\b.{0,50}\bRLHF\b",
+        r"\bRLHF\b.{0,60}\b(causes?|explains?|drives?|induces?|mechanism|responsible for|attributable to|accounts for|source of)\b",
+        r"\bRLHF\b.{0,60}\b(shapes?|produces?|creates?|yields?|results? in|leads to)\b",
+        r"\b(caused|explained|driven|induced|attributable)\s+by\b.{0,50}\bRLHF\b",
         r"\bmechanism\s+(?:is|:)\s+(?:RLHF|post[- ]training)\b",
-        r"\bpost[- ]training\b.{0,50}\b(causes?|explains?|drives?|induces?|mechanism)\b",
+        r"\bpost[- ]training\b.{0,60}\b(causes?|explains?|drives?|induces?|mechanism|responsible for|attributable to|accounts for|source of)\b",
+        r"\bpost[- ]training\b.{0,40}\b(source|origin)\s+of\b",
+        r"\b(defaults?|behaviou?r|presentation priors?)\b.{0,60}\b(results?|arises?|stems?)\s+from\b.{0,40}\b(RLHF|post[- ]training)\b",
+        r"\bevidence\b.{0,40}\b(supports?|shows?|establishes?)\b.{0,40}\bpost[- ]training causality\b",
         r"\b(base[-/ ]?instruct[-/ ]?chat|base[- ]vs[- ]instruct)\b.{0,50}\b(route[- ]stage|probe|evidence|effect)\b",
         r"\broute[- ]stage\b.{0,50}\b(causal|causality|effect|mechanism|inference)\b",
+        r"\broute labels?\b.{0,50}\b(reveal|show|identify|explain).{0,30}\btraining[- ]stage\b",
+        r"\broute labels?\b.{0,50}\b(demonstrate|imply|separate|distinguish|differentiate)\b.{0,40}\b(training[- ]stage|base|instruct)\b",
+        r"\btraining[- ]stage\b.{0,40}\b(effect|effects|mechanism|inference|causality)\b",
         r"\b(purple[- ]bias|biased toward purple|models? prefer purple|purple preference)\b",
+        r"\b(broad|universal|general)\s+purple/pink\s+bias\b",
         r"\bmodels?\b.{0,40}\bprefer\b.{0,30}\b(purple|pink|purple/pink)\b",
+        r"\bmodels?\b.{0,40}\bfavou?rs?\b.{0,30}\b(purple|pink|purple/pink)\b",
+        r"\b(purple|pink|purple/pink)\b.{0,30}\bdominates?\b.{0,30}\b(palettes?|colors?)\b",
         r"\b(UI|image|human[- ]vs[- ]model|design[- ]system[- ]vs[- ]model).{0,60}\bhomogeni[sz]ation\b",
         r"\bgenerated (UI|artifacts?).{0,50}\bunusually homogeneous\b",
+        r"\bgenerated (UI|image|artifacts?|outputs?).{0,60}\b(converge|converges|converged|convergent|similarity|same look|homogeneous style)\b",
+        r"\bgenerated images?\b.{0,50}\bshare\b.{0,30}\bsame style\b",
+        r"\bgenerated UI outputs?\b.{0,50}\b(highly similar|same style|same look)\b",
+        r"\bUI artifacts?\b.{0,50}\b(converge|converges|converged)\b.{0,30}\bsame style\b",
+        r"\bcross[- ]modal artifact similarity\b.{0,40}\b(unusually high|strong|homogeneous)\b",
     ]
 ]
 CLAIM_BOUNDARY_SAFE_PREFIX_PATTERNS = [
@@ -74,14 +90,7 @@ CLAIM_BOUNDARY_SAFE_PREFIX_PATTERNS = [
         r"\bneeded before\b",
     ]
 ]
-CLAIM_BOUNDARY_FILES = [
-    Path("paper/tist2027_presentation_priors.tex"),
-    Path("paper/tist2027_journal_package_manifest.md"),
-    Path("paper/README.md"),
-    Path("paper/aesthetic_anchoring_claim_audit.md"),
-    Path("paper/journal_aesthetic_anchoring_presentation_priors.md"),
-    Path("EXPERIMENT8_PROTOCOL.md"),
-]
+CLAIM_BOUNDARY_FILE_SUFFIXES = {".md", ".tex", ".txt"}
 
 
 def iter_export_inputs() -> list[Path]:
@@ -191,6 +200,25 @@ def prepare_package(output_dir: Path = DEFAULT_OUTPUT_DIR) -> dict[str, Any]:
     }
 
 
+def remove_generated_export_state(root: Path) -> None:
+    for path in sorted(root.rglob("*"), key=lambda item: len(item.parts), reverse=True):
+        if path.name == "__pycache__" and path.is_dir():
+            shutil.rmtree(path)
+        elif path.name == ".DS_Store" and path.is_file():
+            path.unlink()
+        elif path.suffix.lower() == ".pyc" and path.is_file():
+            path.unlink()
+
+
+def refresh_export_scan(output_dir: Path) -> dict[str, Any]:
+    remove_generated_export_state(output_dir)
+    scan_result = scan_export_tree(output_dir)
+    scan_path = output_dir / "PACKAGE_SCAN.json"
+    scan_path.write_text(json.dumps(scan_result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    write_sha256_manifest(output_dir)
+    return scan_result
+
+
 def write_sha256_manifest(root: Path) -> Path:
     lines = []
     for path in sorted(item for item in root.rglob("*") if item.is_file()):
@@ -224,10 +252,10 @@ def _excluded_path_hits(root: Path) -> list[str]:
 
 def _claim_boundary_hits(root: Path) -> list[str]:
     hits = []
-    for rel in CLAIM_BOUNDARY_FILES:
-        path = root / rel
-        if not path.exists():
+    for path in sorted(item for item in root.rglob("*") if item.is_file()):
+        if path.suffix.lower() not in CLAIM_BOUNDARY_FILE_SUFFIXES:
             continue
+        rel = path.relative_to(root)
         lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
         in_code_block = False
         for line_number, line in enumerate(lines, start=1):
@@ -239,7 +267,7 @@ def _claim_boundary_hits(root: Path) -> list[str]:
             for pattern in CLAIM_BOUNDARY_PATTERNS:
                 for match in pattern.finditer(line):
                     if not _is_bounded_claim_context(lines, line_number, match.start(), match.end()):
-                        hits.append(f"{rel}:{line_number}")
+                        hits.append(f"{rel.as_posix()}:{line_number}")
                         break
                 else:
                     continue
@@ -249,9 +277,8 @@ def _claim_boundary_hits(root: Path) -> list[str]:
 
 def _is_bounded_claim_context(lines: list[str], line_number: int, span_start: int, span_end: int) -> bool:
     line = lines[line_number - 1].lower()
-    prefix_segment = re.split(r"[.;!?]\s+", line[:span_start])[-1]
-    match_window = line[max(0, span_start - 80) : min(len(line), span_end + 80)]
-    if any(pattern.search(prefix_segment) or pattern.search(match_window) for pattern in CLAIM_BOUNDARY_SAFE_PREFIX_PATTERNS):
+    prefix_segment = re.split(r"[.;!?,:]\s+", line[:span_start])[-1]
+    if any(pattern.search(prefix_segment) for pattern in CLAIM_BOUNDARY_SAFE_PREFIX_PATTERNS):
         return True
     previous = [item.strip().lower() for item in lines[max(0, line_number - 4) : line_number - 1]]
     if any(item.rstrip(":") in {"avoid", "unsafe exp8 claim", "do not claim", "do not use"} for item in previous):
@@ -305,6 +332,9 @@ def _filter_fixture_hits(hits: list[str]) -> list[str]:
 
 
 def create_zip(output_dir: Path = DEFAULT_OUTPUT_DIR, archive_path: Path = DEFAULT_ARCHIVE_PATH) -> Path:
+    scan_result = refresh_export_scan(output_dir)
+    if scan_result["status"] != "ok":
+        raise AssertionError(f"refusing to archive package with scan failures: {scan_result['failures']}")
     if archive_path.exists():
         archive_path.unlink()
     archive_path.parent.mkdir(parents=True, exist_ok=True)
@@ -316,7 +346,9 @@ def create_zip(output_dir: Path = DEFAULT_OUTPUT_DIR, archive_path: Path = DEFAU
 
 def run_bundle_verifier(output_dir: Path) -> dict[str, Any]:
     command = [sys.executable, "verify_tist_package.py", "--mode", "review"]
-    completed = subprocess.run(command, cwd=output_dir, text=True, capture_output=True, check=True)
+    env = dict(os.environ)
+    env["PYTHONDONTWRITEBYTECODE"] = "1"
+    completed = subprocess.run(command, cwd=output_dir, env=env, text=True, capture_output=True, check=True)
     return json.loads(completed.stdout)
 
 
@@ -338,6 +370,10 @@ def main(argv: list[str] | None = None) -> None:
         raise SystemExit(json.dumps(result, indent=2, sort_keys=True))
     if args.verify:
         result["bundle_verifier"] = run_bundle_verifier(output_dir)
+        final_scan = refresh_export_scan(output_dir)
+        result["scan_status"] = final_scan["status"]
+        if final_scan["status"] != "ok":
+            raise SystemExit(json.dumps(result, indent=2, sort_keys=True))
     if not args.skip_zip:
         result["archive_path"] = create_zip(output_dir, archive_path).as_posix()
         result["archive_sha256"] = sha256_file(archive_path)

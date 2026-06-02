@@ -47,7 +47,7 @@ We make four contributions:
   \item We define presentation priors as a measurable class of surface-form defaults, separate from semantic correctness, safety policy compliance, and subjective design quality.
   \item We synthesize corrected evidence from three older text studies: topic-conditioned emoji activation, a negative result for broad purple/pink color-suggestion bias, and measured surface-form compliance.
   \item We add a reproducible Experiment 8 route-labeled probe with 480 clean first-pass outputs, matrix-completeness artifacts, uncertainty intervals, planned contrasts, paired deltas, holdout summaries, length sensitivity, and missingness reporting.
-  \item We state the claim boundary for cross-modal and causal interpretation: current OpenRouter evidence supports route-labeled comparisons, not base-vs-instruct or RLHF causality; UI/image homogenization claims require stronger baselines.
+  \item We state the claim boundary for cross-modal and causal interpretation: current OpenRouter evidence supports route-labeled comparisons, not base-vs-instruct or RLHF causality; claims about cross-modal artifact similarity require stronger baselines.
 \end{itemize}
 
 \section{Definitions and Problem Formulation}
@@ -62,7 +62,7 @@ Aesthetic anchoring is default activation plus an override curve. A prompt conte
 Surface-form compliance is satisfaction of mechanically detectable presentation constraints such as ``no emoji,'' ``no Markdown,'' ``no bullet list,'' or ``under a word limit.'' It should not be collapsed with semantic instruction following, factuality, or reasoning success.
 
 \paragraph{Route-stage label.}
-A route-stage label is observed provenance metadata about a model route, such as \path{instruct_candidate} or \path{chat_or_instruct}. In this paper, route-stage labels are not treated as proof of training stage. They are analysis labels attached to current API routes.
+A route-stage label is observed provenance metadata about a model route, such as \path{instruct_candidate} or \path{chat_or_instruct}. In this paper, route labels are not treated as proof of training provenance. They are analysis labels attached to current API routes.
 
 \paragraph{Prior-plus-override curve.}
 A prior-plus-override curve reports the feature rate under a neutral prompt and under one or more suppression or redirection conditions. For example, the curve may compare neutral, no-emoji, plain-no-Markdown, diverse-domain-specific, and polished-but-plain prompts.
@@ -79,7 +79,7 @@ Prior work on multi-instruction compliance often studies semantic, reasoning, sa
 Human-feedback and preference optimization can reward outputs that appear helpful, warm, or polished \cite{ouyang2022training}. Our evidence is compatible with that possibility but does not establish it. Without verified base routes or controlled training-stage comparisons, we avoid causal claims about RLHF or post-training.
 
 \paragraph{Generative UI and image defaults.}
-Systems that generate UI code or images from prompts make many aesthetic decisions on behalf of users. Prior work on UI generation and image-generation bias motivates audits that go beyond task success \cite{wu2024uicoder,kong2026macaron,bianchi2022t2i,friedrich2024fairness}. Our cross-modal evidence is intentionally bounded: it demonstrates measurement feasibility and extractor calibration against small reference baselines. It does not claim that generated UI or images are unusually homogeneous relative to human baselines.
+Systems that generate UI code or images from prompts make many aesthetic decisions on behalf of users. Prior work on UI generation and image-generation bias motivates audits that go beyond task success \cite{wu2024uicoder,kong2026macaron,bianchi2022t2i,friedrich2024fairness}. Our cross-modal evidence is intentionally bounded: it demonstrates measurement feasibility and extractor calibration against small reference baselines, not a strong similarity result relative to human baselines.
 
 \section{Study Overview and Common Method}
 
@@ -176,7 +176,7 @@ Model differences remain descriptive rather than causal. GLM-4.5 Air has the hig
 
 Study 2 does not support the common narrative that models broadly prefer purple or pink aesthetics. In the corrected text color-suggestion task, that broad claim is unsupported. Across 1,350 responses, only two contain colors in the purple/pink detector range: one Gemini response and one MiMo response. GPT-3.5 produces no purple/pink instances in this dataset.
 
-Gradient persistence is more informative than hue preference. Gemini produces 26 gradient instances out of 450 responses, and MiMo produces 18 out of 450. GPT-3.5 produces none. The result is therefore not evidence of universal purple bias; it is a model-specific gradient signal.
+Gradient persistence is more informative than hue preference. Gemini produces 26 gradient instances out of 450 responses, and MiMo produces 18 out of 450. GPT-3.5 produces none. The result is therefore not evidence of a universal color-bias claim centered on purple; it is a model-specific gradient signal.
 
 \begin{table}[t]
 \centering
@@ -244,7 +244,7 @@ Table~\ref{tab:exp8-ci-contrast} adds uncertainty and planned-contrast evidence 
 
 \input{../analysis_output/tist_package/table_exp8_ci_contrasts.tex}
 
-Prompt-family-clustered paired contrasts provide a stricter condition-level robustness screen. Plain-no-Markdown reduces format defaults by 0.781 after pairing against neutral within model family, route label, model, prompt family, domain, and repeat; no-emoji reduces format defaults by 0.531; and polished-but-plain reduces format defaults by 0.740. These three reductions remain significant after prompt-family cluster sign-flip testing and FDR correction. The diversity condition reduces format defaults by 0.156, but that reduction does not survive the clustered screen. These results strengthen the condition-level suppression claim without supporting route-stage causal inference.
+Prompt-family-clustered paired contrasts provide a stricter condition-level robustness screen. Plain-no-Markdown reduces format defaults by 0.781 after pairing against neutral within model family, route label, model, prompt family, domain, and repeat; no-emoji reduces format defaults by 0.531; and polished-but-plain reduces format defaults by 0.740. These three reductions remain significant after prompt-family cluster sign-flip testing and FDR correction. The diversity condition reduces format defaults by 0.156, but that reduction does not survive the clustered screen. These results strengthen the condition-level suppression claim without supporting causal claims about route provenance.
 
 The prompt-family holdout analysis shows that the feature signal is not confined to one prompt family. Held-out format-default rates range from 12.5\% for research-tooltip prompts to 60.0\% for legal-notice prompts; held-out polish-default rates range from 30.0\% for academic feedback, legal notices, and security notices to 85.0\% for social-media updates. The length sensitivity analysis shows that the overall polish-default rate falls from 48.1\% to 26.7\% when the length component is removed, so length-driven polish should be treated as a proxy component rather than as direct evidence of stock phrasing. Missingness reporting shows the first-pass matrix is complete, with 480 expected rows, 480 observed rows, and 0 missing rows.
 
@@ -275,7 +275,7 @@ Image & Seedream 4.5 & 55 & 25.5\% \\
 \end{tabular}
 \end{table}
 
-The most defensible cross-modal interpretation is methodological: feature extraction can be made reproducible across modalities, and some defaults respond unevenly to counter-instructions. The UI composite is nearly saturated, so feature-level UI results such as blue-specific color use, shadows, cards, and centered layout are more informative than the composite. Current UI and image color signals are blue-dominant rather than purple-dominant. Image evidence also carries recovered-PNG metadata limits for the Seedream slice. This is not yet a strong homogenization claim. The current package adds small UI/design-system and synthetic-image reference baselines for feature calibration, but balanced human-production or design-system baselines are still needed before claiming generated artifacts are unusually homogeneous relative to alternatives.
+The most defensible cross-modal interpretation is methodological: feature extraction can be made reproducible across modalities, and some defaults respond unevenly to counter-instructions. The UI composite is nearly saturated, so feature-level UI results such as blue-specific color use, shadows, cards, and centered layout are more informative than the composite. Current UI and image color signals are blue-dominant rather than purple-dominant. Image evidence also carries recovered-PNG metadata limits for the Seedream slice. This is not yet a broad cross-modal similarity result. The current package adds small UI/design-system and synthetic-image reference baselines for feature calibration, but balanced human-production or design-system baselines are still needed before making strong similarity claims relative to alternatives.
 
 \section{Baselines, Measurement Validity, and Reviewer-Robustness}
 
@@ -296,7 +296,7 @@ The present contrasts are appropriate as planned first-pass summaries. The promp
 
 \section{Discussion}
 
-The five studies support a narrower and stronger theory than the original ``stylistic instruction failure'' framing. Presentation priors are not a single preference for one color, emoji, or visual trope. They are a family of measurable defaults that activate under underspecified prompts and respond unevenly to interventions.
+The five studies support a narrower and more testable account than the original ``stylistic instruction failure'' framing. Presentation priors are not a single preference for one color, emoji, or visual trope. They are a family of measurable defaults that activate under underspecified prompts and respond unevenly to interventions.
 
 The practical implication is that prompt instructions should not be treated as the only control boundary for presentation policy. In low-stakes writing, a default list or emoji may be acceptable. In workflow software, compliance notices, generated UI, or rendered artifacts, presentation choices can carry operational meaning. Validators, renderers, retry policies, and explicit style controls should handle surface-form requirements outside the prompt alone.
 
@@ -325,7 +325,7 @@ The repository contains the source manuscripts, collection scripts, analysis scr
 
 \section{Conclusion}
 
-Generative systems silently complete presentation choices. Across corrected text experiments, a new route-labeled first pass, and a bounded cross-modal extension, those choices are measurable and condition-sensitive. The evidence supports the central claim that presentation priors vary by topic, model, and intervention condition, and that they are often partly suppressible; Experiment 8 additionally reports route labels as provenance metadata. It does not support a broad purple-bias story or a causal RLHF mechanism claim. The next step is to scale the route-labeled evidence, add balanced baselines, and formalize mixed-effect analyses before promoting stronger venue-facing claims.
+Generative systems silently complete presentation choices. Across corrected text experiments, a new route-labeled first pass, and a bounded cross-modal extension, those choices are measurable and condition-sensitive. The evidence supports the central claim that presentation priors vary by topic, model, and intervention condition, and that they are often partly suppressible; Experiment 8 additionally reports route labels as provenance metadata. It supports neither broad color-bias framing nor a causal mechanism account for RLHF/post-training. The next step is to scale the route-labeled evidence, add balanced baselines, and formalize mixed-effect analyses before promoting stronger venue-facing claims.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{haips2026_refs,tist2027_presentation_priors_refs}

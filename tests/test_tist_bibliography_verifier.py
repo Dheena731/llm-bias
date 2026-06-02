@@ -42,6 +42,45 @@ class TistBibliographyVerifierTests(unittest.TestCase):
         self.assertIn("alpha missing required field author", result["metadata_failures"])
         self.assertIn("alpha missing required field booktitle", result["metadata_failures"])
 
+    def test_audit_rejects_curated_field_mismatch(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tex = Path(tmp) / "paper.tex"
+            bib = Path(tmp) / "refs.bib"
+            tex.write_text(r"\cite{alpha}", encoding="utf-8")
+            bib.write_text(
+                "@inproceedings{alpha,\n"
+                "  author={Initials, A. B.},\n"
+                "  title={Unit Title},\n"
+                "  booktitle={Short Proceedings},\n"
+                "  pages={1--2},\n"
+                "  year={2026},\n"
+                "  publisher={Unit Publisher},\n"
+                "  url={https://example.com/unit}\n"
+                "}\n",
+                encoding="utf-8",
+            )
+
+            result = audit_bibliography(
+                tex,
+                [bib],
+                expected_metadata={
+                    "alpha": {
+                        "entry_type": "inproceedings",
+                        "author": "Full, Alice B.",
+                        "booktitle": "Official Proceedings",
+                        "url": "https://example.com/unit",
+                        "source": "Unit Source",
+                    }
+                },
+            )
+
+        self.assertEqual(result["status"], "fail")
+        self.assertIn("alpha expected author Full, Alice B., found Initials, A. B.", result["metadata_failures"])
+        self.assertIn(
+            "alpha expected booktitle Official Proceedings, found Short Proceedings",
+            result["metadata_failures"],
+        )
+
     def test_real_tist_bibliography_matches_curated_metadata(self):
         result = audit_bibliography()
 
