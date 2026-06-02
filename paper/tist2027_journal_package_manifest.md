@@ -104,7 +104,7 @@ Latest external-review package export:
 | export_dir | `artifact/tist2027_external_review` |
 | archive | `artifact/tist2027_external_review.zip` |
 | archive_sha256 | Printed by `prepare_tist_review_package.py --verify`; not embedded here to avoid self-referential archive-hash drift. |
-| package_scan | `ok`; 547 text files scanned, no local identifier, source secret, excluded-path, binary-payload, or claim-boundary failures |
+| package_scan | `ok`; 548 text files scanned, no local identifier, source secret, excluded-path, binary-payload, or claim-boundary failures |
 | bundle_verifier | `ok` when run from inside the exported package root |
 
 Git note:
