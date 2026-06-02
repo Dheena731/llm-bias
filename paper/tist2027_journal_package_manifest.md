@@ -82,7 +82,7 @@ Generated manuscript table artifacts:
 Current deterministic package check:
 
 ```bash
-uv run python verify_tist_package.py
+uv run python verify_tist_package.py --mode review
 ```
 
 Latest verifier output:
@@ -95,7 +95,7 @@ Latest verifier output:
 | raw_dir_sha256 | `c99c8b318d45e9a004301a050bfd499eae2a58cfa70b4a0b93d48550899bd742` |
 | analysis_manifest_sha256 | `c9c25356956b2d034f041922bc4bf2fc9de883ec04b483d05c9c3191135d7ee3` |
 | tist_artifact_manifest_sha256 | `e5cc2ed5578090a90adbe09a4c615fa472ea8954f839c883b15d7295e98ff0f7` |
-| external_review_scan | anonymous manuscript, bibliography metadata, generated table artifacts, generated table inputs, local identifier, review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf`. |
+| external_review_scan | review-mode ACM metadata, anonymous manuscript metadata, bibliography metadata, generated table artifacts, generated table inputs, local identifier, stale review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf --mode review`. |
 
 Latest external-review package export:
 
@@ -238,10 +238,10 @@ uv run python verify_tist_bibliography.py --write-audit
 uv run python generate_tist_artifact_tables.py
 uv run python prepare_tist_review_package.py --verify
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
-uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf
+uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf --mode review
 PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_review_package.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
-uv run python verify_tist_package.py
+uv run python verify_tist_package.py --mode review
 ```
 
 Regenerate `analysis_output/tist_package/` after any change to the Exp8 analysis manifest, stage summary, condition summary, confidence intervals, or planned-contrasts outputs. The package verifier checks the generated table manifest hashes, byte-compares against a temporary regeneration, and fails on stale, incomplete, or manually edited table artifacts. The Exp8 analysis manifest records the canonical CSV hash, and the package verifier checks that hash before accepting the analysis outputs.
@@ -293,11 +293,18 @@ Ready now:
 - The external-review exporter writes a self-contained anonymous bundle, scans the export tree, writes `MANIFEST.sha256` and `PACKAGE_SCAN.json`, creates a zip archive, and verifies the package from inside the exported root.
 - Claim boundaries are explicit.
 
+Camera-ready: not ready:
+
+- Remove the `review` and `anonymous` document-class options.
+- Replace anonymous author, affiliation, country, and email placeholders with final submission metadata.
+- Add final ACM DOI, copyright/rights statement, volume, number, article, page, year/month, and any venue-required metadata.
+- Re-run a future `uv run python verify_tist_package.py --mode camera-ready`; it should fail until those fields are intentionally replaced.
+
 Still required before a journal submission:
 
 - Recheck the TeX warning log during final venue formatting review.
 - Recheck bibliography metadata against publisher pages after any reference changes and during final copyediting.
-- Expand UI/design-system and image baselines beyond the current small reference layer before homogenization claims.
-- Add model-based route-stage inference if route-stage claims are strengthened; current clustered contrasts support condition-level robustness screening, not route-stage causality.
+- Do not make broad UI/design-system or image homogenization claims until baselines are expanded beyond the current small reference layer.
+- Do not strengthen route-stage claims until model-based route/provenance analysis is added; current clustered contrasts support condition-level robustness screening, not causal route-stage evidence.
 - Increase Exp8 repeats or clearly label the current result as first-pass evidence.
 - Re-run the external-review verifier, including `--pdf`, after any final manuscript or PDF-generation change.

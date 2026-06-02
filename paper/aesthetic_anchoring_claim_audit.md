@@ -4,7 +4,7 @@
 
 The older Aesthetic Anchoring experiments are useful and should not be discarded. They are the strongest empirical backbone currently in the repo because they contain repeated runs, corrected row accounting, and a clearer surface-form compliance task than Exp7.
 
-The journal paper should use the older experiments as the main text evidence, then use Exp7 as a cross-modal extension and Exp8 as the post-training-prior mechanism probe.
+The journal paper should use the older experiments as the main text evidence, then use Exp7 as a cross-modal extension and Exp8 as a route-labeled presentation-prior probe. Exp8 should not be framed as mechanism evidence without verified base-route comparisons.
 
 ## Claims To Keep
 
@@ -128,12 +128,12 @@ Required:
 
 ## Recommended Paper Architecture
 
-1. Introduction: post-training presentation priors.
+1. Introduction: presentation priors.
 2. Definitions: aesthetic anchoring, surface-form compliance, presentation priors.
 3. Study 1: old Exp1 emoji topic and suppression evidence.
 4. Study 2: old Exp2 color/gradient negative and model-specific result.
 5. Study 3: old Exp4 measured multi-constraint surface-form compliance.
-6. Study 4: Exp8 base/instruct/chat route-stage probe.
+6. Study 4: Exp8 route-labeled presentation-prior probe.
 7. Study 5: Exp7 cross-modal extension, explicitly labeled as checkpoint evidence unless scaled.
 8. Discussion: why surface-form priors are not the same as semantic bias, but still matter for generated artifacts.
 

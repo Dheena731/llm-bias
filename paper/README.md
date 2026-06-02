@@ -27,7 +27,7 @@ uv run python generate_tist_artifact_tables.py
 uv run python prepare_tist_review_package.py --verify
 PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_review_package.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
-uv run python verify_tist_package.py
+uv run python verify_tist_package.py --mode review
 ```
 
 The current Exp8 first-pass evidence is `480/480` clean rows with `0` missing expected rows in `analysis_output/exp8/analysis_manifest.json`. Analysis from the fixed CSV is reproducible; exact live collection reruns are not deterministic because they use current API routes. The analysis manifest records the canonical CSV hash. The manuscript's Exp8 tables are generated from the checked analysis outputs into `analysis_output/tist_package/`; rerun `generate_tist_artifact_tables.py` after changing any source analysis CSV or manifest. The package verifier checks those table hashes and byte-compares them against a temporary regeneration.
@@ -36,7 +36,7 @@ Compile target for journal draft:
 
 ```bash
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
-uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf
+uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf --mode review
 ```
 
 This requires ACM's `acmart.cls`. The verifier's default run checks the source package; the `--pdf` form additionally scans the compiled PDF bytes for author metadata, local identifiers, and sensitive-looking tokens. The external-review exporter writes `artifact/tist2027_external_review/` and `artifact/tist2027_external_review.zip`; both are generated artifacts and are ignored by git.

@@ -79,7 +79,7 @@ Prior work on multi-instruction compliance often studies semantic, reasoning, sa
 Human-feedback and preference optimization can reward outputs that appear helpful, warm, or polished \cite{ouyang2022training}. Our evidence is compatible with that possibility but does not establish it. Without verified base routes or controlled training-stage comparisons, we avoid causal claims about RLHF or post-training.
 
 \paragraph{Generative UI and image defaults.}
-Systems that generate UI code or images from prompts make many aesthetic decisions on behalf of users. Prior work on UI generation and image-generation bias motivates audits that go beyond task success \cite{wu2024uicoder,kong2026macaron,bianchi2022t2i,friedrich2024fairness}. Our cross-modal evidence is intentionally bounded: it demonstrates measurement feasibility and extractor calibration against small reference baselines, not a final claim that generated UI or images are unusually homogeneous relative to human baselines.
+Systems that generate UI code or images from prompts make many aesthetic decisions on behalf of users. Prior work on UI generation and image-generation bias motivates audits that go beyond task success \cite{wu2024uicoder,kong2026macaron,bianchi2022t2i,friedrich2024fairness}. Our cross-modal evidence is intentionally bounded: it demonstrates measurement feasibility and extractor calibration against small reference baselines. It does not claim that generated UI or images are unusually homogeneous relative to human baselines.
 
 \section{Study Overview and Common Method}
 
@@ -174,9 +174,9 @@ Model differences remain descriptive rather than causal. GLM-4.5 Air has the hig
 
 \section{Study 2: Color and Gradient Suggestions}
 
-Study 2 tests a common narrative about generative style: that models broadly prefer purple or pink aesthetics. In the corrected text color-suggestion task, that broad claim is unsupported. Across 1,350 responses, only two contain colors in the purple/pink detector range: one Gemini response and one MiMo response. GPT-3.5 produces no purple/pink instances in this dataset.
+Study 2 does not support the common narrative that models broadly prefer purple or pink aesthetics. In the corrected text color-suggestion task, that broad claim is unsupported. Across 1,350 responses, only two contain colors in the purple/pink detector range: one Gemini response and one MiMo response. GPT-3.5 produces no purple/pink instances in this dataset.
 
-Gradient persistence is more informative than hue preference. Gemini produces 26 gradient instances out of 450 responses, and MiMo produces 18 out of 450. GPT-3.5 produces none. The result is therefore a model-specific gradient signal rather than a universal purple-bias result.
+Gradient persistence is more informative than hue preference. Gemini produces 26 gradient instances out of 450 responses, and MiMo produces 18 out of 450. GPT-3.5 produces none. The result is therefore not evidence of universal purple bias; it is a model-specific gradient signal.
 
 \begin{table}[t]
 \centering
@@ -292,7 +292,7 @@ The text feature extractor is transparent and auditable, but it is still a proxy
 Experiment 8 must be analyzed from exact input CSVs, not by globbing every historical Exp8 CSV. The package now writes \texttt{analysis\_manifest.json} and \texttt{matrix\_completeness.csv} to prevent partial runs from passing silently.
 
 \paragraph{Statistical model limits.}
-The present contrasts are appropriate as planned first-pass summaries. The prompt-family-clustered paired contrasts improve the condition-level robustness check, but they do not replace model-based route-stage inference. Route-stage inference remains descriptive until a model accounts for prompt family, route, and repeated runs, and until verified base routes are available.
+The present contrasts are appropriate as planned first-pass summaries. The prompt-family-clustered paired contrasts improve the condition-level robustness check, but they do not support causal stage/provenance inference. Current route labels remain descriptive until a model accounts for prompt family, route, and repeated runs, and until verified base routes are available.
 
 \section{Discussion}
 
@@ -306,7 +306,7 @@ The research implication is that surface-form evaluation should be separated fro
 
 This paper reports computational measurements, not human-subject perception studies. We do not claim that users perceive the outputs as biased, harmful, or low quality. We also do not make demographic claims from generated images.
 
-The route-labeled Experiment 8 evidence does not establish post-training causality. Current OpenRouter routes do not provide balanced base-model comparisons for the intended model families. A separate HF/local collector is required before the paper can claim base-vs-instruct or RLHF mechanism evidence.
+The route-labeled Experiment 8 evidence does not establish post-training causality. Current OpenRouter routes do not provide balanced base-model comparisons for the intended model families. Do not claim base-vs-instruct or RLHF mechanism evidence unless a separate HF/local collector and verified route provenance are added.
 
 The color findings are bounded. Study 2 does not support a broad purple/pink claim in text color-suggestion tasks. Experiment 7 UI and image color signals are currently blue-dominant. Purple should not be used as the central framing.
 

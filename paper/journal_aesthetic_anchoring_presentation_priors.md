@@ -37,13 +37,13 @@ Generative models do more than answer prompts; they also choose presentation for
 
 1. Introduction: define aesthetic anchoring as presentation-prior bias, not purple bias or universal instruction failure.
 2. Definitions: presentation prior, aesthetic anchoring, surface-form compliance, and prior-plus-override curve.
-3. Related work: instruction following, output-format bias, post-training side effects, generated UI, text-to-image bias, and homogenization.
+3. Related work: instruction following, output-format bias, post-training side effects, generated UI, text-to-image bias, and creative-output convergence.
 4. Study 1: old Exp1 emoji anchoring across topics and suppression levels.
 5. Study 2: old Exp2 color/gradient results, with purple framed as a negative or limited finding.
 6. Study 3: old Exp4 measured multi-constraint surface-form compliance.
 7. Study 4: Exp8 route-labeled presentation-prior probe.
 8. Study 5: Exp7 cross-modal extension, explicitly checkpoint-bounded.
-9. Baselines and validity: hand-authored text baselines now; UI and image baselines required before stronger homogenization claims.
+9. Baselines and validity: hand-authored text baselines now; do not make stronger UI or image homogenization claims until balanced baselines are added.
 10. Discussion and limitations: defaults can be useful conventions, route labels are not causal proof, and feature extractors require validation.
 
 For an ACM TIST-style journal draft, expand this spine into: Abstract; Introduction; Definitions and Problem Formulation; Related Work; Study Overview and Common Method; Studies 1-5; Baselines, Measurement Validity, and Reviewer-Robustness; Discussion; Limitations, Ethics, Artifact Availability, and AI Disclosure; Conclusion.

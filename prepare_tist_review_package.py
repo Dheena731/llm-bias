@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -46,26 +47,40 @@ EXCLUDED_PATHS = [
 EXCLUDED_NAME_PARTS = {"__pycache__", ".DS_Store"}
 DISALLOWED_EXPORT_SUFFIXES = {".pdf", ".zip", ".tar", ".tgz", ".gz", ".jpg", ".jpeg"}
 CLAIM_BOUNDARY_PATTERNS = [
-    "rlhf causes",
-    "post-training causes",
-    "post training causes",
-    "purple bias",
-    "ui homogenization",
-    "image homogenization",
-    "generated ui is unusually homogeneous",
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in [
+        r"\bRLHF\b.{0,50}\b(causes?|explains?|drives?|induces?|mechanism)\b",
+        r"\b(caused|explained|driven|induced)\s+by\b.{0,50}\bRLHF\b",
+        r"\bmechanism\s+(?:is|:)\s+(?:RLHF|post[- ]training)\b",
+        r"\bpost[- ]training\b.{0,50}\b(causes?|explains?|drives?|induces?|mechanism)\b",
+        r"\b(base[-/ ]?instruct[-/ ]?chat|base[- ]vs[- ]instruct)\b.{0,50}\b(route[- ]stage|probe|evidence|effect)\b",
+        r"\broute[- ]stage\b.{0,50}\b(causal|causality|effect|mechanism|inference)\b",
+        r"\b(purple[- ]bias|biased toward purple|models? prefer purple|purple preference)\b",
+        r"\bmodels?\b.{0,40}\bprefer\b.{0,30}\b(purple|pink|purple/pink)\b",
+        r"\b(UI|image|human[- ]vs[- ]model|design[- ]system[- ]vs[- ]model).{0,60}\bhomogeni[sz]ation\b",
+        r"\bgenerated (UI|artifacts?).{0,50}\bunusually homogeneous\b",
+    ]
 ]
-CLAIM_BOUNDARY_NEGATION_MARKERS = [
-    "not ",
-    "without",
-    "require",
-    "avoid",
-    "unsafe",
-    "claim boundary",
+CLAIM_BOUNDARY_SAFE_PREFIX_PATTERNS = [
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in [
+        r"\bdo not\b.{0,40}\b(claim|make|frame|treat|use|generalize)\b",
+        r"\bdoes not\b.{0,30}\b(show|support|prove|establish|identify|claim)\b",
+        r"\bnot\b.{0,20}\b(evidence|proof|causal|causality|causally|supported|attributable|claim|bias)\b",
+        r"\bunsupported\b",
+        r"\brather than\b",
+        r"\bwithout\b.{0,40}\b(verified|balanced|stronger|direct|base|route|provenance|baselines|evidence)\b",
+        r"\brequires?\b.{0,40}\b(verified|balanced|stronger|direct|base|route|provenance|baselines|evidence)\b",
+        r"\bneeded before\b",
+    ]
 ]
 CLAIM_BOUNDARY_FILES = [
     Path("paper/tist2027_presentation_priors.tex"),
     Path("paper/tist2027_journal_package_manifest.md"),
     Path("paper/README.md"),
+    Path("paper/aesthetic_anchoring_claim_audit.md"),
+    Path("paper/journal_aesthetic_anchoring_presentation_priors.md"),
+    Path("EXPERIMENT8_PROTOCOL.md"),
 ]
 
 
@@ -115,7 +130,7 @@ uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
 uv run python verify_tist_bibliography.py --write-audit
 uv run python generate_tist_artifact_tables.py
-uv run python verify_tist_package.py
+uv run python verify_tist_package.py --mode review
 ```
 
 The checked evidence is the fixed 480-row Exp8 first pass. Live collection is
@@ -214,14 +229,36 @@ def _claim_boundary_hits(root: Path) -> list[str]:
         if not path.exists():
             continue
         lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+        in_code_block = False
         for line_number, line in enumerate(lines, start=1):
-            line_lower = line.lower()
-            context = "\n".join(lines[max(0, line_number - 3) : line_number]).lower()
-            if any(marker in context for marker in CLAIM_BOUNDARY_NEGATION_MARKERS):
+            if line.strip().startswith("```"):
+                in_code_block = not in_code_block
                 continue
-            if any(pattern in line_lower for pattern in CLAIM_BOUNDARY_PATTERNS):
-                hits.append(f"{rel}:{line_number}")
+            if in_code_block:
+                continue
+            for pattern in CLAIM_BOUNDARY_PATTERNS:
+                for match in pattern.finditer(line):
+                    if not _is_bounded_claim_context(lines, line_number, match.start(), match.end()):
+                        hits.append(f"{rel}:{line_number}")
+                        break
+                else:
+                    continue
+                break
     return hits
+
+
+def _is_bounded_claim_context(lines: list[str], line_number: int, span_start: int, span_end: int) -> bool:
+    line = lines[line_number - 1].lower()
+    prefix_segment = re.split(r"[.;!?]\s+", line[:span_start])[-1]
+    match_window = line[max(0, span_start - 80) : min(len(line), span_end + 80)]
+    if any(pattern.search(prefix_segment) or pattern.search(match_window) for pattern in CLAIM_BOUNDARY_SAFE_PREFIX_PATTERNS):
+        return True
+    previous = [item.strip().lower() for item in lines[max(0, line_number - 4) : line_number - 1]]
+    if any(item.rstrip(":") in {"avoid", "unsafe exp8 claim", "do not claim", "do not use"} for item in previous):
+        return True
+    if line.lstrip().startswith((">", "-", "*")) and any("unsafe" in item or item.rstrip(":") == "avoid" for item in previous):
+        return True
+    return False
 
 
 def _disallowed_binary_hits(root: Path) -> list[str]:
@@ -278,7 +315,7 @@ def create_zip(output_dir: Path = DEFAULT_OUTPUT_DIR, archive_path: Path = DEFAU
 
 
 def run_bundle_verifier(output_dir: Path) -> dict[str, Any]:
-    command = [sys.executable, "verify_tist_package.py"]
+    command = [sys.executable, "verify_tist_package.py", "--mode", "review"]
     completed = subprocess.run(command, cwd=output_dir, text=True, capture_output=True, check=True)
     return json.loads(completed.stdout)
 

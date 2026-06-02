@@ -161,21 +161,27 @@ SENSITIVE_PATTERNS = [
         r"\b(?:api[_-]?key|token|secret|password)\b\s*[:=]\s*[\"']?[A-Za-z0-9._~+/=-]{12,}",
     ]
 ]
-LOCAL_ID_PATTERNS = [
+LOCAL_PATH_PATTERNS = [
     re.compile(pattern, re.IGNORECASE)
     for pattern in [
         re.escape(USER_HOME_PREFIX) + r"/[A-Za-z0-9._-]+\b",
         re.escape(FILE_URI_PREFIX),
-        r"\b" + re.escape(PERSONAL_NAME) + r"\b",
-        r"\b" + re.escape(PERSONAL_HANDLE) + r"\b",
-        r"\b" + re.escape(ORG_NAME) + r"\b",
-        PERSONAL_EMAIL_DOMAIN,
         r"/private" + r"/var/[^\s\"']+",
         r"/var" + r"/folders/[^\s\"']+",
         r"/opt" + r"/homebrew/[^\s\"']+",
         r"C:" + r"\\\\Users\\\\[A-Za-z0-9._-]+",
     ]
 ]
+REVIEW_IDENTITY_PATTERNS = [
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in [
+        r"\b" + re.escape(PERSONAL_NAME) + r"\b",
+        r"\b" + re.escape(PERSONAL_HANDLE) + r"\b",
+        r"\b" + re.escape(ORG_NAME) + r"\b",
+        PERSONAL_EMAIL_DOMAIN,
+    ]
+]
+LOCAL_ID_PATTERNS = LOCAL_PATH_PATTERNS + REVIEW_IDENTITY_PATTERNS
 REVIEW_METADATA_PATTERNS = [
     re.compile(pattern, re.IGNORECASE)
     for pattern in [
@@ -268,7 +274,8 @@ def validate_anonymous_manuscript(path: Path) -> list[str]:
     compact = re.sub(r"\s+", "", text)
     failures = []
     class_match = re.search(r"\\documentclass\[(?P<options>[^\]]+)\]\{acmart\}", text)
-    if not class_match or "anonymous" not in {option.strip() for option in class_match.group("options").split(",")}:
+    options = {option.strip() for option in class_match.group("options").split(",")} if class_match else set()
+    if "anonymous" not in options:
         failures.append("documentclass missing anonymous option")
     if r"\author{Anonymous Authors}" not in text:
         failures.append("missing anonymous author placeholder")
@@ -279,15 +286,56 @@ def validate_anonymous_manuscript(path: Path) -> list[str]:
     return failures
 
 
-def scan_pdf_metadata(path: Path) -> list[str]:
+def validate_review_mode_metadata(path: Path) -> list[str]:
+    text = path.read_text(encoding="utf-8")
+    failures = []
+    class_match = re.search(r"\\documentclass\[(?P<options>[^\]]+)\]\{acmart\}", text)
+    options = {option.strip() for option in class_match.group("options").split(",")} if class_match else set()
+    if "review" not in options:
+        failures.append("documentclass missing review option")
+    if r"\setcopyright{none}" not in text:
+        failures.append("review manuscript must use setcopyright none")
+    if r"\settopmatter{printacmref=false}" not in text:
+        failures.append("review manuscript must suppress ACM reference block")
+    for field in ["acmVolume", "acmNumber", "acmArticle"]:
+        if not re.search(rf"\\{field}\{{0\}}", text):
+            failures.append(f"review manuscript missing placeholder {field}=0")
+    return failures
+
+
+def validate_camera_ready_metadata(path: Path) -> list[str]:
+    text = path.read_text(encoding="utf-8")
+    failures = []
+    class_match = re.search(r"\\documentclass\[(?P<options>[^\]]+)\]\{acmart\}", text)
+    options = {option.strip() for option in class_match.group("options").split(",")} if class_match else set()
+    if "review" in options:
+        failures.append("camera-ready metadata still has review option")
+    if "anonymous" in options:
+        failures.append("camera-ready metadata still has anonymous option")
+    if r"\author{Anonymous Authors}" in text:
+        failures.append("camera-ready metadata still uses anonymous author placeholder")
+    if r"\setcopyright{none}" in text:
+        failures.append("camera-ready metadata still has setcopyright none")
+    if r"\settopmatter{printacmref=false}" in text:
+        failures.append("camera-ready metadata still suppresses ACM reference block")
+    for field in ["acmVolume", "acmNumber", "acmArticle"]:
+        if re.search(rf"\\{field}\{{0\}}", text):
+            failures.append(f"camera-ready metadata still has placeholder {field}=0")
+    if not re.search(r"\\email\{[^}]+\}", text):
+        failures.append("camera-ready metadata missing author email")
+    return failures
+
+
+def scan_pdf_metadata(path: Path, mode: str = "review") -> list[str]:
     text = path.read_bytes().decode("latin-1", errors="ignore")
     hits = []
-    if any(pattern.search(text) for pattern in LOCAL_ID_PATTERNS):
+    identifier_patterns = LOCAL_ID_PATTERNS if mode == "review" else LOCAL_PATH_PATTERNS
+    if any(pattern.search(text) for pattern in identifier_patterns):
         hits.append(f"{path}:local_identifier")
     if any(pattern.search(text) for pattern in SENSITIVE_PATTERNS):
         hits.append(f"{path}:sensitive_token")
     author_match = re.search(r"/Author\s*(?:\((?P<paren>[^)]*)\)|<(?P<hex>[^>]*)>|(?P<plain>\S+))", text)
-    if author_match:
+    if mode == "review" and author_match:
         author_value = next((value for value in author_match.groupdict().values() if value), "")
         if "Anonymous" not in author_value:
             hits.insert(0, f"{path}:author_metadata")
@@ -310,7 +358,7 @@ def validate_tist_table_inputs(path: Path) -> list[str]:
     return [table_input for table_input in TIST_TABLE_INPUTS if table_input not in text]
 
 
-def verify(pdf_path: str | Path | None = None) -> dict:
+def verify(pdf_path: str | Path | None = None, mode: str = "review") -> dict:
     for path in REQUIRED_PACKAGE_FILES:
         assert_condition(path.exists(), f"missing required file: {path}")
     assert_condition(CANONICAL_RAW_DIR.exists(), f"missing raw output directory: {CANONICAL_RAW_DIR}")
@@ -382,12 +430,23 @@ def verify(pdf_path: str | Path | None = None) -> dict:
     assert_condition(not sensitive_hits, f"sensitive-looking tokens found in: {sensitive_hits}")
     source_sensitive_hits = scan_text_paths(SOURCE_SECRET_SCAN_PATHS, SENSITIVE_PATTERNS)
     assert_condition(not source_sensitive_hits, f"sensitive-looking tokens found in package text: {source_sensitive_hits}")
-    local_id_hits = scan_text_paths(LOCAL_IDENTIFIER_SCAN_PATHS, LOCAL_ID_PATTERNS)
+    local_identifier_patterns = LOCAL_ID_PATTERNS if mode == "review" else LOCAL_PATH_PATTERNS
+    local_id_hits = scan_text_paths(LOCAL_IDENTIFIER_SCAN_PATHS, local_identifier_patterns)
     assert_condition(not local_id_hits, f"local identifying strings found in: {local_id_hits}")
     review_metadata_hits = scan_text_paths(REVIEW_METADATA_SCAN_FILES, REVIEW_METADATA_PATTERNS)
     assert_condition(not review_metadata_hits, f"stale review metadata found in: {review_metadata_hits}")
-    anonymous_failures = validate_anonymous_manuscript(Path("paper/tist2027_presentation_priors.tex"))
-    assert_condition(not anonymous_failures, f"anonymous manuscript metadata failures: {anonymous_failures}")
+    manuscript_path = Path("paper/tist2027_presentation_priors.tex")
+    metadata_status_key = "review_mode_metadata" if mode == "review" else "camera_ready_metadata"
+    if mode == "review":
+        anonymous_failures = validate_anonymous_manuscript(manuscript_path)
+        assert_condition(not anonymous_failures, f"anonymous manuscript metadata failures: {anonymous_failures}")
+        review_mode_failures = validate_review_mode_metadata(manuscript_path)
+        assert_condition(not review_mode_failures, f"review-mode ACM metadata failures: {review_mode_failures}")
+    elif mode == "camera-ready":
+        camera_ready_failures = validate_camera_ready_metadata(manuscript_path)
+        assert_condition(not camera_ready_failures, f"camera-ready ACM metadata failures: {camera_ready_failures}")
+    else:
+        raise AssertionError(f"unsupported verifier mode: {mode}")
     bibliography_audit = audit_bibliography()
     assert_condition(
         bibliography_audit["status"] == "ok",
@@ -395,7 +454,7 @@ def verify(pdf_path: str | Path | None = None) -> dict:
     )
     pdf_metadata_status = "not_requested"
     if pdf_path:
-        pdf_hits = scan_pdf_metadata(Path(pdf_path))
+        pdf_hits = scan_pdf_metadata(Path(pdf_path), mode=mode)
         assert_condition(not pdf_hits, f"PDF metadata/local identifier hits found in: {pdf_hits}")
         pdf_metadata_status = "ok"
 
@@ -410,11 +469,12 @@ def verify(pdf_path: str | Path | None = None) -> dict:
         "rows": len(rows),
         "run_id": EXPECTED_RUN_ID,
         "config_hash": EXPECTED_CONFIG_HASH,
+        "mode": mode,
         "external_review_scan": {
             "bibliography_metadata": "ok",
             "generated_table_artifacts": "ok",
             "generated_table_inputs": "ok",
-            "anonymous_manuscript": "ok",
+            metadata_status_key: "ok",
             "local_identifier_scan": "ok",
             "review_metadata_scan": "ok",
             "source_secret_scan": "ok",
@@ -427,12 +487,13 @@ def verify(pdf_path: str | Path | None = None) -> dict:
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Verify the TIST journal package artifacts")
     parser.add_argument("--pdf", help="Optional compiled PDF path to scan for metadata/local identifiers")
+    parser.add_argument("--mode", choices=["review", "camera-ready"], default="review")
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
-    print(json.dumps(verify(pdf_path=args.pdf), indent=2, sort_keys=True))
+    print(json.dumps(verify(pdf_path=args.pdf, mode=args.mode), indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":

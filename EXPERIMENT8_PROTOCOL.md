@@ -107,8 +107,9 @@ Base-model extension:
 
 ```text
 The OpenRouter chat-completions runner does not currently provide valid base routes for
-meta-llama/Llama-3.1-8B or Qwen/Qwen2.5-7B. Add a separate HF/local collector before
-making base-vs-instruct or post-training mechanism claims.
+meta-llama/Llama-3.1-8B or Qwen/Qwen2.5-7B. Do not make post-training
+mechanism claims or base-vs-instruct claims without a separate HF/local collector
+and verified route provenance.
 ```
 
 Analysis:

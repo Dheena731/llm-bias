@@ -5,9 +5,11 @@ from pathlib import Path
 from generate_tist_artifact_tables import DEFAULT_SOURCES as TIST_TABLE_SOURCES
 from verify_tist_package import (
     LOCAL_ID_PATTERNS,
+    LOCAL_PATH_PATTERNS,
     PACKAGE_SOURCE_FILES,
     REQUIRED_FILES,
     REVIEW_METADATA_PATTERNS,
+    REVIEW_IDENTITY_PATTERNS,
     SENSITIVE_PATTERNS,
     SOURCE_SECRET_SCAN_PATHS,
     TIST_TABLE_INPUTS,
@@ -16,6 +18,8 @@ from verify_tist_package import (
     scan_pdf_metadata,
     scan_text_paths,
     validate_analysis_manifest_inputs,
+    validate_camera_ready_metadata,
+    validate_review_mode_metadata,
     validate_tist_table_inputs,
     validate_anonymous_manuscript,
 )
@@ -78,6 +82,44 @@ class TistPackageVerifierTests(unittest.TestCase):
 
         self.assertEqual(failures, [])
 
+    def test_validate_review_mode_metadata_requires_review_placeholders(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tex = Path(tmp) / "paper.tex"
+            tex.write_text(
+                "\\documentclass[acmsmall,screen,anonymous]{acmart}\n"
+                "\\setcopyright{none}\n"
+                "\\settopmatter{printacmref=false}\n"
+                "\\acmJournal{TIST}\n"
+                "\\acmVolume{0}\n"
+                "\\acmNumber{0}\n"
+                "\\acmArticle{0}\n",
+                encoding="utf-8",
+            )
+
+            failures = validate_review_mode_metadata(tex)
+
+        self.assertIn("documentclass missing review option", failures)
+
+    def test_validate_camera_ready_metadata_rejects_review_placeholders(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tex = Path(tmp) / "paper.tex"
+            tex.write_text(
+                "\\documentclass[acmsmall,screen,review,anonymous]{acmart}\n"
+                "\\setcopyright{none}\n"
+                "\\settopmatter{printacmref=false}\n"
+                "\\acmVolume{0}\n"
+                "\\acmNumber{0}\n"
+                "\\acmArticle{0}\n"
+                "\\author{Anonymous Authors}\n",
+                encoding="utf-8",
+            )
+
+            failures = validate_camera_ready_metadata(tex)
+
+        self.assertIn("camera-ready metadata still has review option", failures)
+        self.assertIn("camera-ready metadata still has anonymous option", failures)
+        self.assertIn("camera-ready metadata still uses anonymous author placeholder", failures)
+
     def test_pdf_metadata_scan_catches_local_path_and_author_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:
             pdf = Path(tmp) / "paper.pdf"
@@ -86,6 +128,26 @@ class TistPackageVerifierTests(unittest.TestCase):
             hits = scan_pdf_metadata(pdf)
 
         self.assertEqual(hits, [f"{pdf}:author_metadata", f"{pdf}:local_identifier"])
+
+    def test_pdf_metadata_scan_camera_ready_allows_named_author_but_keeps_path_scan(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            pdf = Path(tmp) / "paper.pdf"
+            pdf.write_bytes(b"%PDF\n/Author (Named Author)\n")
+
+            hits = scan_pdf_metadata(pdf, mode="camera-ready")
+
+        self.assertEqual(hits, [])
+
+    def test_local_path_patterns_do_not_include_author_identity_patterns(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "identity.txt"
+            path.write_text("Contact: author@example.gmail.com from Axonome\n", encoding="utf-8")
+
+            path_hits = scan_text_paths([path], LOCAL_PATH_PATTERNS)
+            review_hits = scan_text_paths([path], REVIEW_IDENTITY_PATTERNS)
+
+        self.assertEqual(path_hits, [])
+        self.assertEqual(review_hits, [f"{path}:1"])
 
     def test_source_secret_scan_excludes_known_redaction_fixture(self):
         self.assertNotIn(Path("tests/test_exp8_fake_collectors.py"), SOURCE_SECRET_SCAN_PATHS)

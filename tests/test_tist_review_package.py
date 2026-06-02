@@ -62,6 +62,72 @@ class TistReviewPackageTests(unittest.TestCase):
 
         self.assertEqual(result["failures"]["binary_payload_scan"], ["paper.pdf"])
 
+    def test_scan_export_tree_reports_unbounded_claim_boundary_phrases(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("RLHF causes the observed defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_allows_explicitly_negated_claim_boundary_examples(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("We do not claim that post-training causes the observed defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertNotIn("claim_boundary_scan", result["failures"])
+
+    def test_scan_export_tree_rejects_unrelated_negation_before_unsafe_claim(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("The data is not noisy; RLHF causes defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_rejects_without_doubt_as_bounding_language(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Without doubt, post-training causes the defaults.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_reversed_causal_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("The defaults are caused by RLHF.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
+    def test_scan_export_tree_reports_adverbial_purple_preference_claims(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = root / "paper" / "tist2027_presentation_priors.tex"
+            paper.parent.mkdir()
+            paper.write_text("Models broadly prefer purple/pink aesthetics.\n", encoding="utf-8")
+
+            result = scan_export_tree(root)
+
+        self.assertEqual(result["failures"]["claim_boundary_scan"], ["paper/tist2027_presentation_priors.tex:1"])
+
 
 if __name__ == "__main__":
     unittest.main()
