@@ -11,6 +11,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from verify_tist_bibliography import AUDIT_MARKDOWN, audit_bibliography
+
 
 EXPECTED_ROWS = 480
 EXPECTED_UI_BASELINE_ROWS = 4
@@ -68,6 +70,7 @@ PACKAGE_SOURCE_FILES = [
     Path("analyze_cross_modal_baselines.py"),
     Path("validate_feature_audit_samples.py"),
     Path("verify_tist_package.py"),
+    Path("verify_tist_bibliography.py"),
     Path("configs/exp8_post_training_priors.json"),
     Path("configs/text_baselines.json"),
     Path("configs/ui_image_baselines.json"),
@@ -79,6 +82,8 @@ PACKAGE_SOURCE_FILES = [
     Path("tests/test_baseline_feature_audit.py"),
     Path("tests/test_cross_modal_baselines.py"),
     Path("tests/test_tist_package_verifier.py"),
+    Path("tests/test_tist_bibliography_verifier.py"),
+    AUDIT_MARKDOWN,
 ]
 PACKAGE_SUPPORT_FILES = [
     Path(".env.example"),
@@ -303,6 +308,11 @@ def verify(pdf_path: str | Path | None = None) -> dict:
     assert_condition(not review_metadata_hits, f"stale review metadata found in: {review_metadata_hits}")
     anonymous_failures = validate_anonymous_manuscript(Path("paper/tist2027_presentation_priors.tex"))
     assert_condition(not anonymous_failures, f"anonymous manuscript metadata failures: {anonymous_failures}")
+    bibliography_audit = audit_bibliography()
+    assert_condition(
+        bibliography_audit["status"] == "ok",
+        f"bibliography metadata audit failed: {bibliography_audit}",
+    )
     pdf_metadata_status = "not_requested"
     if pdf_path:
         pdf_hits = scan_pdf_metadata(Path(pdf_path))
@@ -320,6 +330,7 @@ def verify(pdf_path: str | Path | None = None) -> dict:
         "run_id": EXPECTED_RUN_ID,
         "config_hash": EXPECTED_CONFIG_HASH,
         "external_review_scan": {
+            "bibliography_metadata": "ok",
             "anonymous_manuscript": "ok",
             "local_identifier_scan": "ok",
             "review_metadata_scan": "ok",

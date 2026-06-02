@@ -4,6 +4,7 @@ from pathlib import Path
 
 from verify_tist_package import (
     LOCAL_ID_PATTERNS,
+    PACKAGE_SOURCE_FILES,
     REVIEW_METADATA_PATTERNS,
     SOURCE_SECRET_SCAN_PATHS,
     USER_HOME_PREFIX,
@@ -81,6 +82,11 @@ class TistPackageVerifierTests(unittest.TestCase):
 
     def test_source_secret_scan_excludes_known_redaction_fixture(self):
         self.assertNotIn(Path("tests/test_exp8_fake_collectors.py"), SOURCE_SECRET_SCAN_PATHS)
+
+    def test_package_source_files_include_bibliography_audit_gate(self):
+        self.assertIn(Path("verify_tist_bibliography.py"), PACKAGE_SOURCE_FILES)
+        self.assertIn(Path("paper/tist2027_bibliography_audit.md"), PACKAGE_SOURCE_FILES)
+        self.assertIn(Path("tests/test_tist_bibliography_verifier.py"), PACKAGE_SOURCE_FILES)
 
 
 if __name__ == "__main__":

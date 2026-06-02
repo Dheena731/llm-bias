@@ -84,7 +84,7 @@ Latest verifier output:
 | csv_sha256 | `90c88bd0741d66cad0a3872bcc967f44f1d4926306feabd751a17597ca1779b2` |
 | raw_dir_sha256 | `c99c8b318d45e9a004301a050bfd499eae2a58cfa70b4a0b93d48550899bd742` |
 | analysis_manifest_sha256 | `1cc0b61b868d23cc1a8b43070e4080b686063e948a61e57ebabba0719774670a` |
-| external_review_scan | anonymous manuscript, local identifier, review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf`. |
+| external_review_scan | anonymous manuscript, bibliography metadata, local identifier, review metadata, source secret, and compiled-PDF metadata scans `ok` when run with `--pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf`. |
 
 Git note:
 
@@ -101,6 +101,7 @@ Package docs and manuscript:
 - `paper/tist2027_presentation_priors_refs.bib`
 - `paper/haips2026_refs.bib`
 - `paper/tist2027_journal_package_manifest.md`
+- `paper/tist2027_bibliography_audit.md`
 - `paper/journal_aesthetic_anchoring_presentation_priors.md`
 - `paper/aesthetic_anchoring_claim_audit.md`
 - `EXPERIMENT8_PROTOCOL.md`
@@ -115,6 +116,7 @@ Exp8 code, config, and tests:
 - `analyze_cross_modal_baselines.py`
 - `validate_feature_audit_samples.py`
 - `verify_tist_package.py`
+- `verify_tist_bibliography.py`
 - `configs/exp8_post_training_priors.json`
 - `configs/text_baselines.json`
 - `configs/ui_image_baselines.json`
@@ -126,6 +128,7 @@ Exp8 code, config, and tests:
 - `tests/test_baseline_feature_audit.py`
 - `tests/test_cross_modal_baselines.py`
 - `tests/test_tist_package_verifier.py`
+- `tests/test_tist_bibliography_verifier.py`
 
 Canonical outputs:
 
@@ -205,9 +208,10 @@ uv run python analyze_post_training_priors.py --input experiment_data/exp8_post_
 uv run python analyze_text_baselines.py
 uv run python analyze_cross_modal_baselines.py
 uv run python validate_feature_audit_samples.py
+uv run python verify_tist_bibliography.py --write-audit
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
 uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_package_verifier.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
 PYTHONDONTWRITEBYTECODE=1 uv run python -m unittest discover
 uv run python verify_tist_package.py
 ```
@@ -252,15 +256,15 @@ Ready now:
 - Exp8 first pass is complete and self-auditing.
 - Required Exp8 analysis files exist, including prompt-family-clustered paired condition contrasts.
 - Text, UI reference, image reference, and manual audit scripts run.
-- Manual TIST bibliography has been converted to ACM BibTeX sources and first-pass metadata fixes are applied.
+- Manual TIST bibliography has been converted to ACM BibTeX sources, first-pass metadata fixes are applied, and cited entries pass the local bibliography metadata audit.
 - Tectonic compiles the ACM draft to a 10-page PDF; the current log has no overfull/underfull box warnings and no missing-reference warnings. Remaining warnings are font-request messages and a Tectonic BibTeX rerun notice.
-- The package verifier now includes external-review gates for anonymous manuscript metadata, local identifiers, stale review metadata, source secret scans, and compiled-PDF metadata scanning; the current compiled PDF passes the `--pdf` scan.
+- The package verifier now includes external-review gates for anonymous manuscript metadata, bibliography metadata, local identifiers, stale review metadata, source secret scans, and compiled-PDF metadata scanning; the current compiled PDF passes the `--pdf` scan.
 - Claim boundaries are explicit.
 
 Still required before a journal submission:
 
 - Recheck the TeX warning log during final venue formatting review.
-- Recheck final bibliography metadata against publisher pages before external submission.
+- Recheck bibliography metadata against publisher pages after any reference changes and during final copyediting.
 - Add or cite final figures/tables generated from the artifact pipeline.
 - Expand UI/design-system and image baselines beyond the current small reference layer before homogenization claims.
 - Add model-based route-stage inference if route-stage claims are strengthened; current clustered contrasts support condition-level robustness screening, not route-stage causality.
