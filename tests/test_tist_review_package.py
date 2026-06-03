@@ -1,3 +1,4 @@
+import json
 import os
 import tempfile
 import unittest
@@ -11,7 +12,9 @@ from prepare_tist_review_package import (
     create_zip,
     iter_export_inputs,
     remove_generated_export_state,
+    resolve_source_commit,
     scan_export_tree,
+    write_package_provenance,
     write_sha256_manifest,
 )
 from verify_tist_package import CANONICAL_RAW_DIR
@@ -43,6 +46,19 @@ class TistReviewPackageTests(unittest.TestCase):
 
         self.assertIn("paper/paper.tex", text)
         self.assertNotIn(str(root), text)
+
+    def test_write_package_provenance_accepts_explicit_source_commit(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+
+            path = write_package_provenance(root, "0123456789abcdef0123456789abcdef01234567")
+            provenance = json.loads(path.read_text(encoding="utf-8"))
+
+        self.assertEqual(provenance["git_commit"], "0123456789abcdef0123456789abcdef01234567")
+        self.assertEqual(provenance["canonical_exp8_rows"], 480)
+
+    def test_resolve_source_commit_falls_back_to_literal_when_not_a_git_commit(self):
+        self.assertEqual(resolve_source_commit("unit-test-source"), "unit-test-source")
 
     def test_scan_export_tree_reports_local_identifiers_and_sensitive_tokens(self):
         with tempfile.TemporaryDirectory() as tmp:

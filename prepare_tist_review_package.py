@@ -178,20 +178,29 @@ or noncanonical experiment artifacts to this anonymous review package.
     return path
 
 
-def write_package_provenance(dest_root: Path) -> Path:
+def resolve_source_commit(source_commit: str | None = None) -> str:
+    commit = source_commit or os.environ.get("TIST_REVIEW_SOURCE_COMMIT") or git_commit()
+    try:
+        return subprocess.check_output(["git", "rev-parse", commit], text=True).strip()
+    except (OSError, subprocess.CalledProcessError):
+        return commit
+
+
+def write_package_provenance(dest_root: Path, source_commit: str | None = None) -> Path:
     path = dest_root / PACKAGE_PROVENANCE_PATH
+    resolved_source_commit = resolve_source_commit(source_commit)
     provenance = {
         "archive_sha256_location": "tracked outside the archive in TIST_EXTERNAL_REVIEW_HANDOFF.md",
         "canonical_exp8_rows": EXPECTED_ROWS,
         "canonical_exp8_run_id": EXPECTED_RUN_ID,
-        "git_commit": git_commit(),
+        "git_commit": resolved_source_commit,
         "package": "tist2027_external_review",
     }
     path.write_text(json.dumps(provenance, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return path
 
 
-def prepare_package(output_dir: Path = DEFAULT_OUTPUT_DIR) -> dict[str, Any]:
+def prepare_package(output_dir: Path = DEFAULT_OUTPUT_DIR, source_commit: str | None = None) -> dict[str, Any]:
     if output_dir.exists():
         shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True)
@@ -205,7 +214,7 @@ def prepare_package(output_dir: Path = DEFAULT_OUTPUT_DIR) -> dict[str, Any]:
         else:
             raise FileNotFoundError(f"missing required file: {src}")
     copied.append(write_export_readme(output_dir))
-    copied.append(write_package_provenance(output_dir))
+    copied.append(write_package_provenance(output_dir, source_commit))
     manifest = write_sha256_manifest(output_dir)
     scan_result = scan_export_tree(output_dir)
     scan_path = output_dir / "PACKAGE_SCAN.json"
@@ -382,6 +391,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Prepare anonymous TIST external-review package")
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
     parser.add_argument("--archive-path", default=str(DEFAULT_ARCHIVE_PATH))
+    parser.add_argument(
+        "--source-commit",
+        help="Commit recorded in PACKAGE_PROVENANCE.json; use this after committing outside-archive handoff docs.",
+    )
     parser.add_argument("--skip-zip", action="store_true")
     parser.add_argument("--verify", action="store_true", help="Run verify_tist_package.py inside the package")
     return parser.parse_args(argv)
@@ -391,7 +404,7 @@ def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
     output_dir = Path(args.output_dir)
     archive_path = Path(args.archive_path)
-    result = prepare_package(output_dir)
+    result = prepare_package(output_dir, source_commit=args.source_commit)
     if result["scan_status"] != "ok":
         raise SystemExit(json.dumps(result, indent=2, sort_keys=True))
     if args.verify:
