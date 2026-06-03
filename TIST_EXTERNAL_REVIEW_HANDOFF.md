@@ -6,11 +6,11 @@ hash inside exported files would make the archive hash self-referential.
 
 ## Current Snapshot
 
-- Exported package source commit: `fd211f0 Add TIST review handoff provenance verifier`
+- Exported package source commit: `9c65791 Stabilize TIST provenance source commit`
 - Handoff note commit: tracked separately after export; this file is not in the archive
 - Export directory: `artifact/tist2027_external_review/`
 - Export archive: `artifact/tist2027_external_review.zip`
-- Archive SHA-256: `24e473d3f4c5e56f58143974e9de97dace0b84f5c4aefff6a7bbba7bca3e2c54`
+- Archive SHA-256: `312d6590c75b72090909c89f34b2a18ef21cf55b35056dc9ef3dc16c6da72308`
 - Package scan status: `ok`
 - Package scan text files: `549`
 - Package provenance: `PACKAGE_PROVENANCE.json`
@@ -24,7 +24,7 @@ Do not force-add them unless the repository policy changes.
 ## Regenerate
 
 ```bash
-uv run python prepare_tist_review_package.py --verify
+uv run python prepare_tist_review_package.py --verify --source-commit 9c65791
 uv run python verify_tist_external_review_handoff.py
 shasum -a 256 artifact/tist2027_external_review.zip
 zipinfo -1 artifact/tist2027_external_review.zip | rg '__pycache__|\\.pyc$|\\.DS_Store'
