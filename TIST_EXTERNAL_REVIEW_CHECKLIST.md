@@ -8,7 +8,7 @@ kept outside the exported archive so the archive SHA remains stable.
 - Manuscript: `paper/tist2027_presentation_priors.tex`
 - Export directory: `artifact/tist2027_external_review/`
 - Export archive: `artifact/tist2027_external_review.zip`
-- Archive SHA-256: `312d6590c75b72090909c89f34b2a18ef21cf55b35056dc9ef3dc16c6da72308`
+- Archive SHA-256: `4d843384ca2057f5ef1ca4eadb49c4cb1892148f5535aae645fef82ec429bf22`
 - Canonical Exp8 CSV: `experiment_data/exp8_post_training_priors_20260601_022210.csv`
 - Canonical Exp8 rows: `480`
 - Live paid/API collection required for review: no
@@ -72,7 +72,7 @@ Review these sections in order:
 Run these from the repository root. They should not launch paid/API collection.
 
 ```bash
-uv run python prepare_tist_review_package.py --verify --source-commit 9c65791
+uv run python prepare_tist_review_package.py --verify --source-commit 494d4e3
 uv run python verify_tist_external_review_handoff.py
 shasum -a 256 artifact/tist2027_external_review.zip
 zipinfo -1 artifact/tist2027_external_review.zip | rg '__pycache__|\\.pyc$|\\.DS_Store'
@@ -89,7 +89,7 @@ Expected current results:
 - Publisher/registry bibliography source check: `2026-06-03`
 - Focused TIST test slice: `101 passed`
 - Archive SHA-256:
-  `312d6590c75b72090909c89f34b2a18ef21cf55b35056dc9ef3dc16c6da72308`
+  `4d843384ca2057f5ef1ca4eadb49c4cb1892148f5535aae645fef82ec429bf22`
 - Archive hygiene grep: no matches; `rg` exit status `1` is expected when
   there are no matches.
 
