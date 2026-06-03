@@ -297,6 +297,8 @@ def validate_review_mode_metadata(path: Path) -> list[str]:
         failures.append("review manuscript must use setcopyright none")
     if r"\settopmatter{printacmref=false}" not in text:
         failures.append("review manuscript must suppress ACM reference block")
+    if r"\renewcommand\footnotetextcopyrightpermission[1]{}" not in text:
+        failures.append("review manuscript must suppress ACM copyright footnote")
     for field in ["acmVolume", "acmNumber", "acmArticle"]:
         if not re.search(rf"\\{field}\{{0\}}", text):
             failures.append(f"review manuscript missing placeholder {field}=0")
@@ -318,6 +320,8 @@ def validate_camera_ready_metadata(path: Path) -> list[str]:
         failures.append("camera-ready metadata still has setcopyright none")
     if r"\settopmatter{printacmref=false}" in text:
         failures.append("camera-ready metadata still suppresses ACM reference block")
+    if r"\renewcommand\footnotetextcopyrightpermission[1]{}" in text:
+        failures.append("camera-ready metadata still suppresses ACM copyright footnote")
     for field in ["acmVolume", "acmNumber", "acmArticle"]:
         if re.search(rf"\\{field}\{{0\}}", text):
             failures.append(f"camera-ready metadata still has placeholder {field}=0")

@@ -89,6 +89,7 @@ class TistPackageVerifierTests(unittest.TestCase):
                 "\\documentclass[acmsmall,screen,anonymous]{acmart}\n"
                 "\\setcopyright{none}\n"
                 "\\settopmatter{printacmref=false}\n"
+                "\\renewcommand\\footnotetextcopyrightpermission[1]{}\n"
                 "\\acmJournal{TIST}\n"
                 "\\acmVolume{0}\n"
                 "\\acmNumber{0}\n"
@@ -107,6 +108,7 @@ class TistPackageVerifierTests(unittest.TestCase):
                 "\\documentclass[acmsmall,screen,review,anonymous]{acmart}\n"
                 "\\setcopyright{none}\n"
                 "\\settopmatter{printacmref=false}\n"
+                "\\renewcommand\\footnotetextcopyrightpermission[1]{}\n"
                 "\\acmVolume{0}\n"
                 "\\acmNumber{0}\n"
                 "\\acmArticle{0}\n"
@@ -119,6 +121,7 @@ class TistPackageVerifierTests(unittest.TestCase):
         self.assertIn("camera-ready metadata still has review option", failures)
         self.assertIn("camera-ready metadata still has anonymous option", failures)
         self.assertIn("camera-ready metadata still uses anonymous author placeholder", failures)
+        self.assertIn("camera-ready metadata still suppresses ACM copyright footnote", failures)
 
     def test_pdf_metadata_scan_catches_local_path_and_author_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:
