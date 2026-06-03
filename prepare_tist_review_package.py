@@ -16,16 +16,20 @@ from typing import Any
 
 from verify_tist_package import (
     CANONICAL_RAW_DIR,
+    EXPECTED_ROWS,
+    EXPECTED_RUN_ID,
     LOCAL_ID_PATTERNS,
     REQUIRED_PACKAGE_FILES,
     SCAN_FIXTURE_FILES,
     SENSITIVE_PATTERNS,
+    git_commit,
     scan_text_paths,
 )
 
 
 DEFAULT_OUTPUT_DIR = Path("artifact/tist2027_external_review")
 DEFAULT_ARCHIVE_PATH = DEFAULT_OUTPUT_DIR.with_suffix(".zip")
+PACKAGE_PROVENANCE_PATH = Path("PACKAGE_PROVENANCE.json")
 DETERMINISTIC_ZIP_TIMESTAMP = (1980, 1, 1, 0, 0, 0)
 EXPORT_DIRECTORIES = [
     CANONICAL_RAW_DIR,
@@ -162,6 +166,7 @@ uv run python experiment8_collect_text.py --full --confirm-full --runs-per-cell 
 - `experiment_artifacts/`: canonical run-scoped raw Exp8 outputs.
 - `analysis_output/`: deterministic analysis outputs, table fragments, and reference baselines.
 - `tests/`: focused package, analysis, bibliography, and baseline tests.
+- `PACKAGE_PROVENANCE.json`: source commit and canonical run identifiers for this export.
 - `MANIFEST.sha256`: SHA-256 hashes for every bundled file except this manifest.
 - `PACKAGE_SCAN.json`: export-tree anonymity, secret, excluded-path, and claim-boundary scan result.
 
@@ -170,6 +175,19 @@ or noncanonical experiment artifacts to this anonymous review package.
 """,
         encoding="utf-8",
     )
+    return path
+
+
+def write_package_provenance(dest_root: Path) -> Path:
+    path = dest_root / PACKAGE_PROVENANCE_PATH
+    provenance = {
+        "archive_sha256_location": "tracked outside the archive in TIST_EXTERNAL_REVIEW_HANDOFF.md",
+        "canonical_exp8_rows": EXPECTED_ROWS,
+        "canonical_exp8_run_id": EXPECTED_RUN_ID,
+        "git_commit": git_commit(),
+        "package": "tist2027_external_review",
+    }
+    path.write_text(json.dumps(provenance, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return path
 
 
@@ -187,6 +205,7 @@ def prepare_package(output_dir: Path = DEFAULT_OUTPUT_DIR) -> dict[str, Any]:
         else:
             raise FileNotFoundError(f"missing required file: {src}")
     copied.append(write_export_readme(output_dir))
+    copied.append(write_package_provenance(output_dir))
     manifest = write_sha256_manifest(output_dir)
     scan_result = scan_export_tree(output_dir)
     scan_path = output_dir / "PACKAGE_SCAN.json"

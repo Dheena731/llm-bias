@@ -104,7 +104,7 @@ Latest external-review package export:
 | export_dir | `artifact/tist2027_external_review` |
 | archive | `artifact/tist2027_external_review.zip` |
 | archive_sha256 | Printed by `prepare_tist_review_package.py --verify`; not embedded here to avoid self-referential archive-hash drift. |
-| package_scan | `ok`; 548 text files scanned, no local identifier, source secret, excluded-path, binary-payload, or claim-boundary failures |
+| package_scan | `ok`; 549 text files scanned, no local identifier, source secret, excluded-path, binary-payload, or claim-boundary failures |
 | bundle_verifier | `ok` when run from inside the exported package root |
 
 Git note:
@@ -290,7 +290,7 @@ Ready now:
 - Manual TIST bibliography has been converted to ACM BibTeX sources, first-pass metadata fixes are applied, and cited entries pass the local bibliography metadata audit.
 - Tectonic compiles the ACM draft to an 11-page PDF; the current fixed-rerun log has no overfull/underfull box warnings and no missing-reference warnings. Remaining warnings are font-request messages and review-mode ACM metadata notices.
 - The package verifier now includes external-review gates for anonymous manuscript metadata, bibliography metadata, local identifiers, stale review metadata, source secret scans, and compiled-PDF metadata scanning; the current compiled PDF passes the `--pdf` scan.
-- The external-review exporter writes a self-contained anonymous bundle, scans the export tree, writes `MANIFEST.sha256` and `PACKAGE_SCAN.json`, creates a zip archive, and verifies the package from inside the exported root.
+- The external-review exporter writes a self-contained anonymous bundle, records deterministic source provenance in `PACKAGE_PROVENANCE.json`, scans the export tree, writes `MANIFEST.sha256` and `PACKAGE_SCAN.json`, creates a zip archive, and verifies the package from inside the exported root.
 - Claim boundaries are explicit.
 
 Camera-ready: not ready:
