@@ -12,6 +12,8 @@ kept outside the exported archive so the archive SHA remains stable.
 - Canonical Exp8 CSV: `experiment_data/exp8_post_training_priors_20260601_022210.csv`
 - Canonical Exp8 rows: `480`
 - Live paid/API collection required for review: no
+- Reviewer worksheet: `TIST_EXTERNAL_REVIEW_WORKSHEET.md`
+- Response log: `TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md`
 
 ## Reviewer Priorities
 
@@ -87,7 +89,7 @@ Expected current results:
 - Package verifier status: `ok`
 - Bibliography verifier status: `ok`
 - Publisher/registry bibliography source check: `2026-06-03`
-- Focused TIST test slice: `101 passed`
+- Focused TIST test slice: `102 passed`
 - Archive SHA-256:
   `4d843384ca2057f5ef1ca4eadb49c4cb1892148f5535aae645fef82ec429bf22`
 - Archive hygiene grep: no matches; `rg` exit status `1` is expected when
@@ -108,6 +110,7 @@ Expected current results:
 
 Ask reviewers to return:
 
+- A completed `TIST_EXTERNAL_REVIEW_WORKSHEET.md` copy.
 - Any sentence that appears to overclaim causality, color preference, or
   cross-modal similarity.
 - Any place where the paper reads like a stitched conference draft rather than a

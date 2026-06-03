@@ -17,6 +17,8 @@ hash inside exported files would make the archive hash self-referential.
 - Canonical Exp8 rows: `480`
 - Paid/API collection after this snapshot: none
 - Human review checklist: `TIST_EXTERNAL_REVIEW_CHECKLIST.md`
+- Human review worksheet: `TIST_EXTERNAL_REVIEW_WORKSHEET.md`
+- Review response log: `TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md`
 
 The export directory and zip are generated artifacts and are ignored by git.
 Do not force-add them unless the repository policy changes.

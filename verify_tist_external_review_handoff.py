@@ -17,6 +17,8 @@ from verify_tist_package import LOCAL_ID_PATTERNS, SENSITIVE_PATTERNS, scan_text
 
 DEFAULT_HANDOFF_PATH = Path("TIST_EXTERNAL_REVIEW_HANDOFF.md")
 DEFAULT_CHECKLIST_PATH = Path("TIST_EXTERNAL_REVIEW_CHECKLIST.md")
+DEFAULT_WORKSHEET_PATH = Path("TIST_EXTERNAL_REVIEW_WORKSHEET.md")
+DEFAULT_RESPONSE_LOG_PATH = Path("TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md")
 ARCHIVE_SHA_PATTERN = re.compile(r"Archive SHA-256:\s*(?:\n\s*)?`([0-9a-f]{64})`", re.IGNORECASE)
 SOURCE_COMMIT_PATTERN = re.compile(
     r"Exported package source commit:\s*`([0-9a-f]{7,40})(?:\s+([^`]+))?`",
@@ -77,17 +79,20 @@ def verify_handoff(
     handoff_path: Path = DEFAULT_HANDOFF_PATH,
     checklist_path: Path = DEFAULT_CHECKLIST_PATH,
     archive_path: Path = DEFAULT_ARCHIVE_PATH,
+    worksheet_path: Path = DEFAULT_WORKSHEET_PATH,
+    response_log_path: Path = DEFAULT_RESPONSE_LOG_PATH,
 ) -> dict[str, Any]:
     failures: dict[str, Any] = {}
-    docs = [handoff_path, checklist_path]
-    for path in docs + [archive_path]:
+    docs_with_archive_sha = [handoff_path, checklist_path]
+    review_control_docs = [handoff_path, checklist_path, worksheet_path, response_log_path]
+    for path in review_control_docs + [archive_path]:
         if not path.exists():
             failures.setdefault("missing_files", []).append(path.as_posix())
     if failures:
         return {"status": "fail", "failures": failures}
 
     archive_sha256 = sha256_file(archive_path)
-    documented_shas = _documented_archive_shas(docs)
+    documented_shas = _documented_archive_shas(docs_with_archive_sha)
     bad_sha_docs = {
         path: values
         for path, values in documented_shas.items()
@@ -118,10 +123,10 @@ def verify_handoff(
     if package_scan.get("status") != "ok":
         failures["package_scan"] = package_scan
 
-    local_hits = scan_text_paths(docs, LOCAL_ID_PATTERNS)
+    local_hits = scan_text_paths(review_control_docs, LOCAL_ID_PATTERNS)
     if local_hits:
         failures["handoff_local_identifier_scan"] = local_hits
-    secret_hits = scan_text_paths(docs, SENSITIVE_PATTERNS)
+    secret_hits = scan_text_paths(review_control_docs, SENSITIVE_PATTERNS)
     if secret_hits:
         failures["handoff_secret_scan"] = secret_hits
 
@@ -137,6 +142,7 @@ def verify_handoff(
         "package_provenance": provenance,
         "package_scan_status": package_scan.get("status"),
         "package_scan_text_files": package_scan.get("text_files_scanned"),
+        "review_control_docs": [path.as_posix() for path in review_control_docs],
         "export_dir": DEFAULT_OUTPUT_DIR.as_posix(),
         "failures": failures,
     }
@@ -146,13 +152,21 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Verify TIST external-review handoff metadata")
     parser.add_argument("--handoff", default=str(DEFAULT_HANDOFF_PATH))
     parser.add_argument("--checklist", default=str(DEFAULT_CHECKLIST_PATH))
+    parser.add_argument("--worksheet", default=str(DEFAULT_WORKSHEET_PATH))
+    parser.add_argument("--response-log", default=str(DEFAULT_RESPONSE_LOG_PATH))
     parser.add_argument("--archive", default=str(DEFAULT_ARCHIVE_PATH))
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
-    result = verify_handoff(Path(args.handoff), Path(args.checklist), Path(args.archive))
+    result = verify_handoff(
+        Path(args.handoff),
+        Path(args.checklist),
+        Path(args.archive),
+        Path(args.worksheet),
+        Path(args.response_log),
+    )
     print(json.dumps(result, indent=2, sort_keys=True))
     if result["status"] != "ok":
         raise SystemExit(1)
