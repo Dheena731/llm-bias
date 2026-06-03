@@ -8,7 +8,7 @@ kept outside the exported archive so the archive SHA remains stable.
 - Manuscript: `paper/tist2027_presentation_priors.tex`
 - Export directory: `artifact/tist2027_external_review/`
 - Export archive: `artifact/tist2027_external_review.zip`
-- Archive SHA-256: `45ac8ff059821c6ce6724910d1faccecb303681710c6610924bb147b116d61cc`
+- Archive SHA-256: `24e473d3f4c5e56f58143974e9de97dace0b84f5c4aefff6a7bbba7bca3e2c54`
 - Canonical Exp8 CSV: `experiment_data/exp8_post_training_priors_20260601_022210.csv`
 - Canonical Exp8 rows: `480`
 - Live paid/API collection required for review: no
@@ -73,21 +73,22 @@ Run these from the repository root. They should not launch paid/API collection.
 
 ```bash
 uv run python prepare_tist_review_package.py --verify
+uv run python verify_tist_external_review_handoff.py
 shasum -a 256 artifact/tist2027_external_review.zip
 zipinfo -1 artifact/tist2027_external_review.zip | rg '__pycache__|\\.pyc$|\\.DS_Store'
 tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
 uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf --mode review
 uv run python verify_tist_bibliography.py
-PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_review_package.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_review_package.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py tests/test_tist_external_review_handoff.py
 ```
 
 Expected current results:
 
 - Package verifier status: `ok`
 - Bibliography verifier status: `ok`
-- Focused TIST test slice: `95 passed`
+- Focused TIST test slice: `99 passed`
 - Archive SHA-256:
-  `45ac8ff059821c6ce6724910d1faccecb303681710c6610924bb147b116d61cc`
+  `24e473d3f4c5e56f58143974e9de97dace0b84f5c4aefff6a7bbba7bca3e2c54`
 - Archive hygiene grep: no matches; `rg` exit status `1` is expected when
   there are no matches.
 
