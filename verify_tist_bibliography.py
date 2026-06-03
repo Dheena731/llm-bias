@@ -13,6 +13,7 @@ from typing import Any
 TIST_TEX = Path("paper/tist2027_presentation_priors.tex")
 TIST_BIB_FILES = [Path("paper/haips2026_refs.bib"), Path("paper/tist2027_presentation_priors_refs.bib")]
 AUDIT_MARKDOWN = Path("paper/tist2027_bibliography_audit.md")
+SOURCE_CHECK_DATE = "2026-06-03"
 
 EXPECTED_CITED_METADATA: dict[str, dict[str, str]] = {
     "bianchi2022t2i": {
@@ -241,7 +242,7 @@ def render_audit_markdown(
         "",
         "Scope: cited entries in `paper/tist2027_presentation_priors.tex`.",
         "",
-        "Source check date: 2026-06-02.",
+        f"Source check date: {SOURCE_CHECK_DATE}.",
         "",
         f"Status: `{result['status']}`",
         "",
@@ -258,10 +259,12 @@ def render_audit_markdown(
             "",
             "Notes:",
             "",
-            "- The audit is a local metadata gate over cited entries, not a replacement for final publisher-side proofing.",
+            "- Publisher/registry source pages were checked for the cited entries on the date above.",
+            "- The audit is a local metadata gate over cited entries; recheck source pages after any reference changes.",
+            "- The Friedrich et al. entry intentionally uses the AI and Ethics volume citation year, while the article page also reports a 2024 online publication date.",
             "- Unused entries in shared bibliography files are reported by the script but are not package blockers.",
             "",
-            "Primary source pages checked:",
+            "Primary publisher/registry pages checked:",
             "",
         ]
     )

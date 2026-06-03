@@ -287,7 +287,7 @@ Ready now:
 - Required Exp8 analysis files exist, including prompt-family-clustered paired condition contrasts.
 - Generated TIST table fragments are built from the checked Exp8 analysis outputs and verified by source/artifact hashes.
 - Text, UI reference, image reference, and manual audit scripts run.
-- Manual TIST bibliography has been converted to ACM BibTeX sources, first-pass metadata fixes are applied, and cited entries pass the local bibliography metadata audit.
+- Manual TIST bibliography has been converted to ACM BibTeX sources, cited entries pass the local bibliography metadata audit, and cited-entry publisher/registry pages were source-checked on 2026-06-03.
 - Tectonic compiles the ACM draft to an 11-page PDF; the current fixed-rerun log has no overfull/underfull box warnings and no missing-reference warnings. Remaining warnings are font-request messages and review-mode ACM metadata notices.
 - The package verifier now includes external-review gates for anonymous manuscript metadata, bibliography metadata, local identifiers, stale review metadata, source secret scans, and compiled-PDF metadata scanning; the current compiled PDF passes the `--pdf` scan.
 - The external-review exporter writes a self-contained anonymous bundle, records deterministic source provenance in `PACKAGE_PROVENANCE.json`, scans the export tree, writes `MANIFEST.sha256` and `PACKAGE_SCAN.json`, creates a zip archive, and verifies the package from inside the exported root.

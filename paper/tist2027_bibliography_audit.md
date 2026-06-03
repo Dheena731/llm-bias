@@ -2,7 +2,7 @@
 
 Scope: cited entries in `paper/tist2027_presentation_priors.tex`.
 
-Source check date: 2026-06-02.
+Source check date: 2026-06-03.
 
 Status: `ok`
 
@@ -19,10 +19,12 @@ Status: `ok`
 
 Notes:
 
-- The audit is a local metadata gate over cited entries, not a replacement for final publisher-side proofing.
+- Publisher/registry source pages were checked for the cited entries on the date above.
+- The audit is a local metadata gate over cited entries; recheck source pages after any reference changes.
+- The Friedrich et al. entry intentionally uses the AI and Ethics volume citation year, while the article page also reports a 2024 online publication date.
 - Unused entries in shared bibliography files are reported by the script but are not package blockers.
 
-Primary source pages checked:
+Primary publisher/registry pages checked:
 
 - `bianchi2022t2i`: https://doi.org/10.1145/3593013.3594095
 - `friedrich2024fairness`: https://link.springer.com/article/10.1007/s43681-024-00531-5

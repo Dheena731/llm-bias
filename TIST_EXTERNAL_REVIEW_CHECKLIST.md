@@ -86,6 +86,7 @@ Expected current results:
 
 - Package verifier status: `ok`
 - Bibliography verifier status: `ok`
+- Publisher/registry bibliography source check: `2026-06-03`
 - Focused TIST test slice: `101 passed`
 - Archive SHA-256:
   `312d6590c75b72090909c89f34b2a18ef21cf55b35056dc9ef3dc16c6da72308`
