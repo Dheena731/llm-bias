@@ -8,7 +8,7 @@ kept outside the exported archive so the archive SHA remains stable.
 - Manuscript: `paper/tist2027_presentation_priors.tex`
 - Export directory: `artifact/tist2027_external_review/`
 - Export archive: `artifact/tist2027_external_review.zip`
-- Archive SHA-256: `aa5bb2b058cc67710ebc58586c3d66e860c941624f6bfef2eab3f86d0c71a6e4`
+- Archive SHA-256: `45ac8ff059821c6ce6724910d1faccecb303681710c6610924bb147b116d61cc`
 - Canonical Exp8 CSV: `experiment_data/exp8_post_training_priors_20260601_022210.csv`
 - Canonical Exp8 rows: `480`
 - Live paid/API collection required for review: no
@@ -87,7 +87,7 @@ Expected current results:
 - Bibliography verifier status: `ok`
 - Focused TIST test slice: `95 passed`
 - Archive SHA-256:
-  `aa5bb2b058cc67710ebc58586c3d66e860c941624f6bfef2eab3f86d0c71a6e4`
+  `45ac8ff059821c6ce6724910d1faccecb303681710c6610924bb147b116d61cc`
 - Archive hygiene grep: no matches; `rg` exit status `1` is expected when
   there are no matches.
 
@@ -97,8 +97,9 @@ Expected current results:
   `anonymous` metadata.
 - The ACM reference block is intentionally suppressed in review mode.
 - CCS concepts and final ACM metadata are camera-ready tasks.
-- Tectonic may emit a BibTeX rerun notice; the package verifier is the gate for
-  review-mode package acceptance.
+- The current fixed-rerun Tectonic build has no overfull/underfull box warnings
+  and no missing-reference warnings; remaining log noise is ACM review-mode
+  metadata notices and font-request messages.
 - UI/image baseline evidence is calibration-only at this stage.
 
 ## Reviewer Output Requested

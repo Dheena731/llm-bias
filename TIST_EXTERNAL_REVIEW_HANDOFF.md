@@ -6,11 +6,11 @@ hash inside exported files would make the archive hash self-referential.
 
 ## Current Snapshot
 
-- Exported package source commit: `9b97294 Make TIST review archive deterministic`
+- Exported package source commit: `4c8dec8 Refresh TIST proof metadata`
 - Handoff note commit: tracked separately after export; this file is not in the archive
 - Export directory: `artifact/tist2027_external_review/`
 - Export archive: `artifact/tist2027_external_review.zip`
-- Archive SHA-256: `aa5bb2b058cc67710ebc58586c3d66e860c941624f6bfef2eab3f86d0c71a6e4`
+- Archive SHA-256: `45ac8ff059821c6ce6724910d1faccecb303681710c6610924bb147b116d61cc`
 - Package scan status: `ok`
 - Package scan text files: `548`
 - Canonical Exp8 rows: `480`
@@ -39,9 +39,10 @@ tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
 uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf --mode review
 ```
 
-The current Tectonic build writes the PDF successfully but still emits the known
-BibTeX rerun notice. Treat that as a formatting-review item, not a package
-verification failure, while the verifier remains `ok`.
+The current fixed-rerun Tectonic build writes the PDF successfully with no
+overfull or underfull box warnings and no missing-reference warnings. Remaining
+log noise is limited to ACM review-mode metadata notices and font-request
+messages; the PDF-aware package verifier remains the review gate.
 
 ## Claim Boundary
 
