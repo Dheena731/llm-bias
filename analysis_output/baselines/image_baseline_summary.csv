@@ -1,0 +1,5 @@
+design_family,domain,has_purple_or_blue_rate,mean_blue_pixel_ratio,mean_center_brightness_score,mean_color_entropy,mean_mean_lightness,mean_mean_saturation,mean_pixel_sample_count,mean_purple_or_blue_pixel_ratio,mean_purple_pixel_ratio,n,source_type,track
+blue_bands,cool_blocks,1.0,1.0,1.1009596424345998,1.6518366088253944,0.7483660130718954,0.7099502067368213,12288.0,1.0,0.0,1,synthetic_reference,image
+green_bands,green_blocks,0.0,0.0,1.2012724348062331,1.6384058752687025,0.6360753676470589,0.45895920062088247,12288.0,0.0078125,0.0078125,1,synthetic_reference,image
+grayscale_bands,neutral_blocks,0.0,0.0,1.0,1.7187107169296327,0.5019607843137255,0.0,12288.0,0.0,0.0,1,synthetic_reference,image
+center_square,warm_blocks,0.0,0.0,0.49001425194929354,0.9388219008218744,0.7807945899714052,0.4655024066593484,12288.0,0.0,0.0,1,synthetic_reference,image

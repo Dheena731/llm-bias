@@ -1,0 +1,2 @@
+Tooltip: Filter Dataset  
+Select criteria to narrow down your dataset, such as date range, location, or variable thresholds. Adjust these parameters to focus on subsets relevant for your analysis. Click "Apply" to update your view with filtered data.

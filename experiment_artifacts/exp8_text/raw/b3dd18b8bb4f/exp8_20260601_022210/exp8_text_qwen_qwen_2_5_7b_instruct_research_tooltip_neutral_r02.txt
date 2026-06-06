@@ -1,0 +1,3 @@
+Filter Tooltip: 
+
+"Apply filters to refine your dataset. Select criteria like date range, category, or value thresholds to focus on specific data subsets. Click to add or adjust filters, then Apply to update results."

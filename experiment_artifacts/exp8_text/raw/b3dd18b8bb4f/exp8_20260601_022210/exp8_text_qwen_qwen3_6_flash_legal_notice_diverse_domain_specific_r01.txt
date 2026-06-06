@@ -1,0 +1,36 @@
+**DOMAIN:** Industrial IoT / Sensor Telemetry Network  
+**DOCUMENT TYPE:** Notice of Material Amendment  
+**STATUS:** Final Draft
+
+***
+
+**NOTICE OF AMENDMENT: VERIDION INDUSTRIAL MESH TERMS OF SERVICE & DATA PROTOCOL**
+
+**EFFECTIVE DATE:** 14 NOVEMBER 2024  
+**REFERENCE:** Section 14.3 (Modification of Terms), Veridion Master Agreement v4.2
+
+**PARTIES:** Veridion Systems, Inc. ("Provider") and Account Holder ("User").
+
+**1. SUMMARY OF MATERIAL CHANGES**
+Pursuant to Section 14.3, the following amendments to the Terms of Service and Data Use Policy shall supersede prior provisions effective 14 November 2024. Changes are limited to data retention parameters, liability calibration, and credential management protocols.
+
+**2. SPECIFIC AMENDMENTS**
+
+*   **2.1 Telemetry Retention & Egress (Section 4.2 Revised)**  
+    Raw sensor data retention is restricted to a 72-hour rolling window post-ingestion. Extended archival storage requires execution of Addendum D-9 (Encrypted Data Vault). Egress fees apply to datasets exceeding 5 TB per calendar month. Cross-border transmission of sensor metadata is restricted to jurisdictions with recognized adequacy standards.
+
+*   **2.2 Liability Cap & Force Majeure (Section 8.1 Revised)**  
+    The aggregate liability cap for non-critical infrastructure nodes is fixed at $50,000 USD per qualifying incident. Force majeure events are hereby expanded to include ISP backbone routing failures, regulatory mandates affecting edge-compute processing, and kinetic interference with physical gateways.
+
+*   **2.3 Credential Rotation Policy (Section 11.4 Added)**  
+    API keys associated with write-access endpoints must be rotated at 90-day intervals. Static keys inactive for >180 days will be automatically revoked. Failure to comply with rotation schedules triggers immediate scope reduction to read-only access for the affected endpoint.
+
+**3. ACCEPTANCE & OPT-OUT**
+Continued operation of connected nodes or submission of data to Provider servers after the Effective Date constitutes binding acceptance of these amendments. User may opt-out by providing 30 days' written notice via secure channel and initiating the hardware return protocol for proprietary gateways.
+
+**4. CONTACT FOR CORRESPONDENCE**
+Legal Operations: legal-ops@veridion.mesh  
+Data Protection Officer: dpo@veridion.mesh  
+All notices must include Account ID [INSERT_ID] in the subject line.
+
+***

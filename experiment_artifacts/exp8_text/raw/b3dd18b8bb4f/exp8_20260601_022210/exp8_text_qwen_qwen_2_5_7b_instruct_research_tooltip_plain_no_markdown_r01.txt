@@ -1,0 +1,1 @@
+This filter helps you narrow down your data view by selecting specific criteria. Choose from options like date range, category, or value to focus on particular aspects of the dataset.

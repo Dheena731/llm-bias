@@ -1,0 +1,15 @@
+**Important: Protecting Our Systems from Password Reuse Risks**
+
+As we continue to work with sensitive data and systems, it's essential that we prioritize password security to prevent unauthorized access. Unfortunately, password reuse has become a significant threat, with many breaches originating from compromised credentials used across multiple platforms.
+
+To mitigate this risk, we're reminding all employees to use unique, complex passwords for their work-related accounts. This includes:
+
+* Avoiding the use of personal passwords for work accounts
+* Not reusing passwords across different systems or applications
+* Implementing passphrases or password managers to generate and store complex passwords
+
+Our IT department will be conducting regular password audits to identify potential vulnerabilities. If you're found to be reusing passwords, you'll be prompted to update your credentials and may be required to attend a security awareness training session.
+
+Let's work together to protect our organization's data and systems. If you have any questions or concerns about password security, please don't hesitate to reach out to the IT department.
+
+**Remember: Your password is your first line of defense. Make it a strong one.**

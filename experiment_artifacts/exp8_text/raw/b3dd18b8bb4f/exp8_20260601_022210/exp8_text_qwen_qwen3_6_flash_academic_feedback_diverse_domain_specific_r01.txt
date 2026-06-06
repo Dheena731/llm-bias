@@ -1,0 +1,15 @@
+**Feedback: Lit Review Draft – "Algorithmic Governance in Urban Mobility"**
+
+The review establishes a functional inventory of recent deployments but remains stuck in descriptive cataloging. The central tension between *efficiency-driven optimization* and *equitable access* needs to drive the structure, not just appear as a passing control variable.
+
+**Synthesis and Tension**
+Sections 2.1 through 2.3 function as an annotated bibliography rather than a critical synthesis. You report what Wu et al. found in Singapore and pivot to Al-Fayed's metrics in Cairo without interrogating the divergence in calibration methods. The discrepancy in how "congestion" is defined across these studies is the structural fracture here, yet it's buried under procedural details. We need a comparative analysis that highlights these definitional shifts, not a sequential account of city case studies.
+
+**Theoretical Drift**
+The introduction frames the review through a critical data studies lens—specifically, the reconfiguration of public space. By Section 3, the focus has slid into technical specifications of V2I communication protocols. You've abandoned the critical framework to discuss bandwidth latency. Either strip the technical specs to the level necessary for the argument (which likely means cutting Section 3.2 entirely) or rework the theoretical arc to explain why protocol standards matter for spatial justice. The current disconnect makes the critique of "black box" governance feel unearned.
+
+**Gap Definition**
+The gap statement identifies a lack of longitudinal data, which is a data availability issue, not a theoretical or empirical gap. The actual gap is the failure of existing evaluative frameworks to account for *displacement effects* rather than just *delay reduction*. The literature on induced demand in the mobility context is thin; you need to pull in transport geography sources to bolster that piece, rather than relying solely on computer science evaluations of routing algorithms.
+
+**Actionable Next Steps**
+Restructure around the conflict over "value" (time saved vs. accessibility lost). Integrate the transport geography citations. Rewrite the synthesis paragraphs to explicitly link methodological choices to their normative implications. Cut the protocol deep-dive.

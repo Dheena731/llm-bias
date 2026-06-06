@@ -1,0 +1,24 @@
+{
+  "clean_analyzed_rows": 480,
+  "completeness_status": "complete",
+  "config_hashes": [
+    "b3dd18b8bb4f9863836a8905009630f66e786c1aba0efb8dd923387ca173a7dd"
+  ],
+  "errored_expected_rows": 0,
+  "errored_rows_after_dedupe": 0,
+  "expected_matrix_rows": 480,
+  "input_file_sha256": {
+    "experiment_data/exp8_post_training_priors_20260601_022210.csv": "90c88bd0741d66cad0a3872bcc967f44f1d4926306feabd751a17597ca1779b2"
+  },
+  "input_files": [
+    "experiment_data/exp8_post_training_priors_20260601_022210.csv"
+  ],
+  "missing_expected_rows": 0,
+  "observed_expected_rows": 480,
+  "raw_rows_after_dedupe": 480,
+  "run_ids": [
+    "exp8_20260601_022210"
+  ],
+  "source_file_count": 1,
+  "unexpected_artifact_ids": 0
+}

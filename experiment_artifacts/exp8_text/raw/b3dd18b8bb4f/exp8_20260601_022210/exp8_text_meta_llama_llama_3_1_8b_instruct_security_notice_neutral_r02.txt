@@ -1,0 +1,28 @@
+Here is a short workplace security notice about password reuse:
+
+**Important: Protect Your Company's Digital Assets**
+
+**Password Reuse: A Security Risk**
+
+To ensure the confidentiality, integrity, and availability of our company's digital assets, we remind all employees to use unique and strong passwords for each of their accounts.
+
+**Why is password reuse a security risk?**
+
+* If one account is compromised, all other accounts with the same password are also vulnerable to unauthorized access.
+* Password reuse can lead to a single point of failure, allowing an attacker to gain access to multiple systems and sensitive data.
+
+**Best Practices for Password Security:**
+
+* Use a unique and complex password for each account.
+* Avoid using easily guessable information such as your name, birthdate, or common words.
+* Change your passwords regularly (every 60-90 days).
+* Consider using a password manager to generate and store unique, complex passwords.
+
+**What happens if you reuse passwords?**
+
+* You may be subject to disciplinary action, up to and including termination of employment.
+* The company may take steps to reset all passwords and re-secure compromised accounts.
+
+**If you have any questions or concerns about password security, please reach out to the IT department.**
+
+Thank you for your attention to this important security matter.

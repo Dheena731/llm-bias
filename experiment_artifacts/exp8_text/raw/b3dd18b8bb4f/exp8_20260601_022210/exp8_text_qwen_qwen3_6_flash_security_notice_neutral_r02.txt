@@ -1,0 +1,26 @@
+**Security Notice: Avoid Password Reuse**
+
+**Date:** [Insert Date]  
+**To:** All Employees  
+**From:** IT Security Team  
+
+**Subject: Protect Company Data by Using Unique Passwords**
+
+To protect our company network and sensitive data, we are issuing a reminder regarding password best practices. **Reusing passwords across different accounts poses a significant security risk.**
+
+**Why this matters:**  
+If a hacker compromises a password from a personal account (e.g., social media or a retail site), they may attempt to use that same credential to access company systems. One outside breach could lead to unauthorized access to our internal data.
+
+**Action Required:**  
+✅ **Use a unique password** for every work and personal account.  
+✅ **Enable Multi-Factor Authentication (MFA)** wherever available.  
+✅ **Use our approved password manager** to generate and store complex, unique passwords securely.  
+✅ **Change passwords immediately** if you suspect any account has been compromised.
+
+Please review your accounts today and update any reused passwords. Your vigilance is our first line of defense.
+
+**Questions?** Contact the IT Help Desk at [Extension/Email] or visit [Link to Security Policy].
+
+Thank you for helping keep our workplace secure.
+
+**IT Security Team**

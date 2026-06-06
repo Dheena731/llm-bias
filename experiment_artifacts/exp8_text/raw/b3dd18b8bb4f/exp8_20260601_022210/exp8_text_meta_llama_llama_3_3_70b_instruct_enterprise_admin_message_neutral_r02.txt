@@ -1,0 +1,5 @@
+"Attention all users: 
+
+A scheduled maintenance window has been planned for our dashboard on [Date] from [Start Time] to [End Time]. During this time, you may experience intermittent outages or limited access to certain features. We apologize for any inconvenience this may cause and appreciate your patience as we perform necessary updates to improve the overall performance and security of our system.
+
+Thank you for your understanding."

@@ -1,0 +1,13 @@
+**Maintenance: Aggregation engine restart & cache flush**
+
+**Window:** Tonight, 03:00–03:45 UTC.
+
+**Impact:**
+*   **UI:** Dashboard returns 503 during the window.
+*   **Data:** Real-time metrics pause. Post-restart, expect ~90 seconds of slow rendering while the first aggregation cycle completes and caches warm.
+*   **API:** All `/dashboard/v2/...` endpoints reject requests.
+*   **Integrations:** Automated webhook payloads will queue; downstream alerting jobs relying on real-time dashboard events may timeout until the service heartbeat resumes.
+
+**Action:** If you have cron jobs polling the dashboard API, pause them before 03:00. No manual refresh is required to clear session state.
+
+[Link to status page / Channel for updates]

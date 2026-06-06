@@ -1,0 +1,1 @@
+"Apply a dataset filter to refine your research by selectively including or excluding data points based on specific variables, such as demographic characteristics, experimental conditions, or measurement ranges. This enables you to focus on subsets of the data that are most relevant to your hypothesis or research question, increasing the precision and validity of your findings."

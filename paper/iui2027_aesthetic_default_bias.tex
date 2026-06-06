@@ -1,0 +1,288 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{url}
+
+\graphicspath{{../analysis_output/exp7/figures/}}
+
+\definecolor{linkblue}{HTML}{1F5A7A}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkblue,
+  citecolor=linkblue,
+  urlcolor=linkblue
+}
+
+\title{Aesthetic Default Bias Across Generated Text, Interfaces, and Images}
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Generative AI systems are increasingly used to produce interface copy, application screens, and visual assets from short natural-language prompts. Although these systems appear flexible, their outputs may converge toward recurring aesthetic defaults. We present a computational measurement study of aesthetic default bias across generated text, interface code, and images. Across multiple model families, prompt domains, and intervention conditions, we quantify defaults such as emoji and Markdown polish in text, blue and occasional purple color use in interface code, rounded-card and hero-section layouts, and color-composition cues in images. We further test whether explicit counter-instructions and alternative-style prompts reduce these defaults, and measure homogenization through color-palette entropy, CSS-token diversity, DOM-structure features, perceptual image hashes, and surface-form text features. At the current checkpoint, we analyze 698 clean artifacts: 192 generated text outputs, 144 generated UI-code artifacts rendered to screenshots, and 362 generated images. Anti-default prompts reduce text composite defaults from 70.8\% to 20.8\% and UI blue-or-purple use from 69.4\% to 36.1\%, but UI layout defaults remain near-universal and image-level defaults remain feature-specific. The results characterize aesthetic default bias as a measurable property of generative systems rather than a subjective design preference. We release a reproducible benchmark and analysis pipeline for auditing visual, textual, and structural defaults in AI-generated artifacts.
+\end{abstract}
+
+\section{Introduction}
+
+Short natural-language prompts are becoming a common interface for generating product copy, application screens, and visual assets. This shift gives non-specialists and designers a powerful new mode of creation, but it also changes how aesthetic decisions are made. When a user asks a model to ``write a launch note,'' ``create a mobile dashboard,'' or ``generate a product photo,'' many visual and textual choices are left underspecified. The model fills those gaps with learned defaults.
+
+This paper studies those defaults as a measurable behavior. We use \emph{aesthetic default bias} to describe recurring surface-form and structural choices that appear when generative systems complete underspecified creative tasks. Examples include emoji and Markdown in short text, blue or purple accent colors in generated UI code, rounded cards and centered layout scaffolds in interface screens, and color/composition cues in generated images. These defaults are not always harmful. A blue interface or a card layout may be appropriate in many contexts. The risk is that repeated defaults can narrow output diversity, make generated artifacts look more similar than the prompt implies, and obscure how much aesthetic choice the system has silently made on the user's behalf.
+
+Prior work has studied instruction following and output-format bias in language models \cite{zhou2023ifeval,jiang2024followbench,long2025format}, UI-code generation with automated feedback \cite{wu2024uicoder}, and bias in text-to-image generation \cite{bianchi2022t2i,friedrich2024fairness}. Our contribution is complementary. Rather than measuring task accuracy, social representation, or code compilation, we measure recurring aesthetic defaults across text, interface code, and images using a unified benchmark and feature-extraction pipeline.
+
+We make three contributions:
+\begin{itemize}
+  \item We define a practical measurement framework for aesthetic default bias across generated text, UI code, and images.
+  \item We introduce Experiment 7, a reproducible benchmark with shared prompt conditions, feature extractors, and artifact manifests.
+  \item We report a checkpoint analysis showing that defaults are condition-sensitive in text, structurally persistent in UI code, and measurable but currently model-imbalanced in images.
+\end{itemize}
+
+The scope of this paper is intentionally narrow. We do not claim model provenance, authorship attribution, security enforcement, or human-preference evidence. We also do not claim that ``purple'' alone explains AI-generated aesthetics. The stronger claim is that recurring aesthetic choices can be measured, compared, and stress-tested with prompt interventions.
+
+\section{Related Work}
+
+\paragraph{Instruction following and output format bias.}
+Instruction tuning and human-feedback methods made natural-language control central to current language-model interfaces \cite{ouyang2022instructgpt}. Instruction-following benchmarks such as IFEval and FollowBench evaluate whether language models satisfy explicit constraints \cite{zhou2023ifeval,jiang2024followbench}. Long et al. show that LLMs exhibit output-format bias and that format-following ability can affect measured performance \cite{long2025format}. Our work extends this line from formal output formats into aesthetic and structural defaults. We ask not only whether a model follows a requested format, but also which unrequested forms it adds when prompts leave style underspecified.
+
+\paragraph{Generative UI and UI-code generation.}
+Recent work explores models that generate user interfaces, UI code, or UI actions from natural language. UICoder studies automated feedback for improving UI-code generation \cite{wu2024uicoder}. More recent generative-UI work frames dynamic interface synthesis as an interaction layer for personal agents \cite{kong2026macaron}. These systems motivate the need for evaluation beyond syntactic validity. If models generate interface structures directly, then recurring visual defaults such as cards, shadows, centered layouts, and color palettes become part of the user experience.
+
+\paragraph{Bias and defaults in generated images.}
+Text-to-image work has documented demographic and fairness risks in generated images \cite{bianchi2022t2i,friedrich2024fairness}. That literature focuses on representational harm and mitigation. Our image track is narrower and lower-stakes: we measure visual surface defaults such as blue/purple pixel share, saturation, center brightness, color entropy, and perceptual hashes. We explicitly treat the image results as a pilot extension until the image-model coverage is balanced.
+
+\paragraph{Design homogenization.}
+Practitioners and researchers increasingly worry that generative systems can homogenize creative outputs by reproducing high-probability conventions. Our benchmark operationalizes one part of that concern by measuring repeated textual, visual, and structural features. It does not replace human design critique, but it provides a reproducible way to detect when a model repeatedly fills unspecified design choices with the same family of defaults.
+
+\section{Benchmark Design}
+
+\subsection{Tracks and Conditions}
+
+Experiment 7 has three tracks. The text track asks models to produce short user-facing messages across twelve prompt families, such as product launch notes, workplace security notices, travel alerts, and public-service notices. The UI track asks models to generate complete self-contained HTML/CSS mobile interfaces across twelve app domains, such as task management, banking, public-library service, municipal transport, and research dataset exploration. The image track asks image models to generate visual artifacts for thirty prompts, including product scenes, public-service settings, workplaces, and a small set of person/action prompts.
+
+Each track uses four prompt conditions:
+\begin{itemize}
+  \item \textbf{Neutral}: a natural underspecified prompt with no aesthetic constraints.
+  \item \textbf{Anti-default}: a prompt that explicitly forbids common generative defaults such as emoji, Markdown polish, blue/purple gradients, cinematic glow, generic SaaS styling, and rounded-card sameness.
+  \item \textbf{Diversity}: a prompt requesting non-generic, domain-specific variation.
+  \item \textbf{Alternative style}: a rotating style prompt, such as government service, editorial newspaper, low-bandwidth NGO, enterprise administration, brutalist utility, accessibility-first, regional public-service, and print-inspired.
+\end{itemize}
+
+\subsection{Current Checkpoint}
+
+The full planned benchmark is larger than the present checkpoint. We therefore report the current evidence conservatively. The analyzed checkpoint contains 698 clean artifacts after excluding abandoned UI pilot rows: 192 text outputs, 144 UI-code outputs, and 362 images. The text track includes OpenAI GPT-4.1 mini, Gemini 2.5 Flash, Llama 3.3 70B, and Qwen 3.6 Flash. The UI track includes OpenAI GPT-4.1 mini, Gemini 2.5 Flash, and Llama 3.3 70B. The image track contains 307 Sourceful Riverflow V2 Fast images and 55 recovered Seedream 4.5 images. Recovered image rows are reconstructed from generated PNG files already present on disk, so we use them for image-feature measurement but not for request-metadata or timing claims. Broad image-model coverage remains imbalanced, but a matched product-photo slice contains 48 images per image model.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Current Experiment 7 checkpoint after excluding abandoned UI pilot rows.}
+\label{tab:checkpoint}
+\begin{tabular}{llrr}
+\toprule
+Track & Model & Clean rows & Composite default rate \\
+\midrule
+Text & OpenAI GPT-4.1 mini & 48 & 52.1\% \\
+Text & Gemini 2.5 Flash & 48 & 81.2\% \\
+Text & Llama 3.3 70B & 48 & 58.3\% \\
+Text & Qwen 3.6 Flash & 48 & 68.8\% \\
+UI & OpenAI GPT-4.1 mini & 48 & 100.0\% \\
+UI & Gemini 2.5 Flash & 48 & 100.0\% \\
+UI & Llama 3.3 70B & 48 & 97.9\% \\
+Image & Riverflow V2 Fast & 307 & 58.3\% \\
+Image & Seedream 4.5 & 55 & 25.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Feature Extraction}
+
+The text extractor measures emoji count, decorative Unicode, Markdown headings and bullets, links, exclamation marks, word count, and stock-polish phrases. The UI extractor parses generated HTML/CSS for hex colors, blue/purple hue ranges, gradients, border radii, shadows, blur/glass effects, hero-section cues, centered layout properties, CSS-token entropy, and DOM-token entropy. The image extractor uses Pillow to estimate blue/purple pixel ratios, saturation, lightness, color entropy, center-brightness score, and perceptual hashes.
+
+We define a composite default indicator for each track. For text, the composite fires when an output contains emoji, Markdown, stock-polish phrases, or decorative symbols. For UI, it fires when an output contains blue-or-purple colors, gradients, rounded-card structure, shadows, hero-section cues, or centered layout. For images, it fires when an output has a blue-or-purple hit, high center brightness, or high saturation. These composites are useful for high-level comparison, but they are not equally informative in every modality. In particular, the UI composite is nearly saturated, so feature-level UI rates are the primary result.
+
+\section{Results}
+\label{sec:results}
+
+This section reports the current Experiment~7 checkpoint after excluding abandoned UI pilot rows. The analyzed corpus contains 698 clean artifacts: 192 text outputs, 144 UI-code outputs, and 362 images. The text slice covers four models across 12 prompt families and four prompt conditions. The UI slice covers three models across 12 interface domains and four prompt conditions. The image slice is imbalanced overall, but includes a matched product-photo subset with 48 images per image model.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{exp7_generated_artifact_examples.pdf}
+\caption{Representative generated artifacts from Experiment~7. Panel A shows generated text snippets from text routes, Panel B shows generated UI screenshots across UI-generating text routes, and Panel C shows generated image outputs from the image track. Text snippets are truncated for display only; their content is not edited or injected. Quantitative aggregate rates are reported in Figures~\ref{fig:model-default-rates}--\ref{fig:image-matched-product-photo} and Tables~\ref{tab:checkpoint}--\ref{tab:feature-rates}.}
+\label{fig:generated-artifact-examples}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.95\linewidth]{exp7_model_default_rates.pdf}
+\caption{Composite default rates by model for text and UI. UI composite rates are near-saturated, so later UI interpretation uses feature-level rates.}
+\label{fig:model-default-rates}
+\end{figure}
+
+\subsection{Aesthetic Defaults Appear Across Modalities}
+
+Aesthetic defaults appear in all three tracks, but the measurable signal differs by modality. Table~\ref{tab:feature-rates} reports selected feature-level rates by condition, separating text, UI, and image evidence rather than collapsing all artifacts into one score. In text, the composite default indicator ranges from 52.1\% for OpenAI GPT-4.1 mini to 81.2\% for Gemini 2.5 Flash. Qwen 3.6 Flash is 68.8\%, and Llama 3.3 70B is 58.3\%. These rates are not driven only by emoji: Markdown formatting is the dominant text default, with neutral prompts producing Markdown in 64.6\% of outputs and emoji in 22.9\%. Figure~\ref{fig:text-emoji-family} breaks the emoji result down by prompt family. Neutral product-launch and finance-update prompts contain emoji in 50.0\% of outputs, while anti-default prompts suppress emoji to 0.0\% in every prompt family at this checkpoint.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.95\linewidth]{exp7_text_emoji_by_family_condition.pdf}
+\caption{Emoji rate by text prompt family and condition in Exp7. Each cell contains four generated outputs, one per text model. The figure is computed from generated text artifacts, not manually injected examples.}
+\label{fig:text-emoji-family}
+\end{figure}
+
+UI outputs show stronger structural convergence. The composite UI default rate is saturated: OpenAI and Gemini are at 100.0\%, while Llama is at 97.9\%. Because the composite is nearly always positive, we treat feature-level rates as the primary UI result. Under neutral prompts, 69.4\% of UIs contain blue or purple colors, 55.6\% contain rounded-card structure, 80.6\% use shadows, and 100.0\% use centered layout cues. This color signal is mostly blue, not purple: neutral UIs have a 69.4\% blue-specific hit rate and a 0.0\% purple-specific hit rate, while purple-specific hits reach only 8.3\% in the diversity condition. Gradients are comparatively rare at 5.6\%, so the strongest UI result is not simply gradient bias; it is a broader pattern of centered, card-like, shadowed, blue-accented interface construction.
+
+Images also show measurable defaults, but the full image evidence is less balanced across models. Sourceful Riverflow V2 Fast accounts for 307 clean image artifacts and has a composite default rate of 58.3\%; Seedream 4.5 contributes 55 recovered clean images with a composite default rate of 25.5\%. Neutral image prompts have a 27.2\% blue-or-purple hit rate and a mean blue-or-purple pixel ratio of 13.8\%. As with UI, the image color signal is blue-dominant in this checkpoint: purple-specific image hits are 0.0\% under the current threshold in all four conditions. Because Seedream coverage is narrower than Sourceful coverage, and because those rows are recovered from existing PNG outputs, we do not treat the full image-model totals as a fair ranking. Instead, Figure~\ref{fig:image-matched-product-photo} reports a matched product-photo slice with 12 images per condition per model.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{exp7_image_model_matched_product_photo.pdf}
+\caption{Matched image-model comparison for product-photo prompts only. Each bar summarizes 12 generated images per condition per model. This is a narrow feature-level comparison, not a full image-model ranking across all prompts.}
+\label{fig:image-matched-product-photo}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{exp7_condition_feature_rates.pdf}
+\caption{Feature-level default rates by prompt condition. Anti-default prompts strongly reduce text defaults and reduce UI color defaults, but UI layout features persist. Blue and purple are separated here because the combined color signal is blue-dominant in this checkpoint.}
+\label{fig:condition-feature-rates}
+\end{figure}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Selected condition-level feature results across generated text, UI code, and images. Rates are percentages except where marked as a mean.}
+\label{tab:feature-rates}
+\begin{tabular}{lrrrr}
+\toprule
+Feature & Neutral & Anti-default & Diversity & Alt. style \\
+\midrule
+Text composite default & 70.8 & 20.8 & 87.5 & 81.3 \\
+Text Markdown & 64.6 & 16.7 & 85.4 & 79.2 \\
+Text emoji & 22.9 & 0.0 & 8.3 & 2.1 \\
+Text word count (mean) & 92.2 & 63.2 & 98.2 & 111.4 \\
+\midrule
+UI composite default & 100.0 & 100.0 & 100.0 & 97.2 \\
+UI blue & 69.4 & 36.1 & 69.4 & 52.8 \\
+UI purple & 0.0 & 2.8 & 8.3 & 2.8 \\
+UI rounded cards & 55.6 & 47.2 & 61.1 & 47.2 \\
+UI shadows & 80.6 & 77.8 & 77.8 & 52.8 \\
+UI centered layout & 100.0 & 94.4 & 100.0 & 88.9 \\
+\midrule
+Image composite default & 54.4 & 56.0 & 44.7 & 57.8 \\
+Image blue hit & 27.2 & 19.8 & 18.8 & 27.7 \\
+Image purple hit & 0.0 & 0.0 & 0.0 & 0.0 \\
+Image blue pixels (mean) & 13.6 & 5.8 & 7.8 & 9.5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Counter-Instructions Help Unevenly}
+
+Counter-instructions help in text and partially help in UI and images, but they do not eliminate defaults.
+
+In text, the anti-default condition has the clearest effect. The composite default rate falls from 70.8\% under neutral prompts to 20.8\% under anti-default prompts. Emoji disappears in the anti-default condition: 0.0\% of anti-default outputs contain emoji compared with 22.9\% under neutral prompting. Markdown also falls from 64.6\% to 16.7\%. This supports the claim that explicit counter-instructions can suppress some surface defaults in generated copy.
+
+The diversity condition behaves differently. Rather than reducing surface defaults, it increases the text composite default rate to 87.5\% and Markdown use to 85.4\%. This suggests that ``make it distinct'' can itself invite polished formatting conventions. For this benchmark, diversity-oriented wording is not equivalent to default avoidance.
+
+In UI, anti-default prompts reduce some visual cues but leave the structural template largely intact. Blue-or-purple use falls from 69.4\% under neutral prompts to 36.1\% under anti-default prompts. Rounded-card use drops from 55.6\% to 47.2\%, and shadows remain high, falling only from 80.6\% to 77.8\%. Centered layout remains near-universal at 94.4\%. The anti-default prompt therefore suppresses color defaults more than layout defaults.
+
+In images, anti-default prompts reduce the mean blue-or-purple pixel ratio from 13.8\% to 6.0\%, and the blue-or-purple hit rate from 27.2\% to 19.8\%. However, the composite image default rate does not improve: it is 54.4\% for neutral and 56.0\% for anti-default. This happens because the image composite also includes saturation and center-brightness cues. The result should be interpreted as feature-specific mitigation rather than broad removal of image defaults.
+
+\subsection{Generated Artifacts Are Not Simple Duplicates}
+
+The measured defaults do not mean that the systems are copying identical artifacts. Text length varies by condition, with anti-default prompts producing shorter responses on average (63.2 words) than neutral prompts (92.2 words), diversity prompts (98.2 words), or alternative-style prompts (111.4 words). UI CSS-token entropy is similar across conditions, ranging from 4.48 to 4.59, which suggests that layout convergence can coexist with lexical variation in the generated code. In images, the unique perceptual-hash rate is 100.0\% in each condition at this checkpoint. The image outputs are visually distinct files, yet still share measurable color and composition tendencies. This distinction matters: aesthetic default bias is a convergence of features, not literal duplication.
+
+\subsection{Defaults Are Model-Specific}
+
+Defaults are model-specific, especially in text. Gemini has the highest text composite default rate at 81.2\%, followed by Qwen at 68.8\%, Llama at 58.3\%, and OpenAI at 52.1\%. These differences justify reporting model-level results instead of pooling all text models into one average.
+
+For UI, model-level differences are much smaller under the current feature set because the composite indicator is saturated. OpenAI and Gemini are at 100.0\%, while Llama is at 97.9\%. We therefore avoid presenting UI composite rates as a subtle model comparison and focus instead on feature-level UI behavior such as blue and purple use, card structure, shadows, and centered layout.
+
+For images, broad model-specific ranking should be deferred because model coverage differs by prompt family. Sourceful has 307 clean artifacts across the current image checkpoint, while the recovered Seedream set has 55 clean artifacts concentrated in product-photo prompts. We therefore report only the matched product-photo comparison in Figure~\ref{fig:image-matched-product-photo}. In that slice, both models have 48 images, and the result should be read as a narrow feature-level comparison rather than a claim about general image-model behavior.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.74\linewidth]{exp7_ui_screenshot_contact_sheet.pdf}
+\caption{Neutral UI screenshots for four domains across three text-to-UI routes. The examples illustrate both model differences and recurring UI structure, including centered panels, card-like groupings, and blue-accented interface conventions.}
+\label{fig:ui-contact-sheet}
+\end{figure}
+
+\subsection{Summary}
+
+The core finding is not that every model always uses one particular color or visual trope. The stronger claim is that underspecified generation tasks invite recurring defaults, and those defaults are measurable across surface text, interface structure, and visual composition. The most robust present results are: text defaults are condition-sensitive; diversity prompts can increase surface polish rather than reduce defaults; UI defaults are structural as much as chromatic; and image defaults are measurable, with broad cross-model ranking deferred except for the matched product-photo slice.
+
+\section{Discussion}
+
+The results show that aesthetic default bias is not one feature. It is a family of behaviors. Text defaults are relatively responsive to direct counter-instructions, especially for emoji and Markdown. UI defaults are more persistent because they are encoded in layout structure as well as color. Image defaults are measurable with lightweight visual features, but model coverage must be balanced across prompt families before making strong cross-provider claims.
+
+This has practical implications for generative design tools. A user may believe that a short prompt leaves style open, but the system often fills that openness with a recognizable interface or communication pattern. Anti-default prompting helps, but it does not fully remove structural defaults. Tool builders should therefore expose style controls, measure output diversity, and consider default-audit checks before presenting generated artifacts as broad creative alternatives.
+
+\section{Limitations and Ethics}
+
+This is a computational measurement study, not a human-subject study. We do not evaluate whether users perceive the outputs as biased, whether designers prefer or reject the generated artifacts, or whether the defaults cause downstream harm in a deployed design workflow. Those are important next steps, but they require separate study design and ethics review.
+
+The feature extractors are heuristic. They intentionally favor transparent, reproducible signals over opaque judgments of beauty or quality. This makes the audit inspectable, but it also means the metrics do not capture all forms of aesthetic convergence. The image track is also not yet balanced across image models and prompt families; only the product-photo slice is matched across the two image routes. Recovered image rows preserve generated PNG artifacts and deterministic artifact IDs, but they do not carry the same complete request metadata as primary manifest rows.
+
+We avoid demographic claims in this draft. Person-image prompts are present in the broader protocol, but the current paper does not rely on automated apparent-gender, skin-tone, age, nationality, or identity labels. This keeps the first paper focused on aesthetic defaults rather than demographic classification.
+
+\section{Conclusion}
+
+Generative systems do not merely follow short prompts; they also complete unspecified aesthetic choices. In the current Experiment 7 checkpoint, those defaults are measurable across generated text, interface code, and images. Anti-default prompting can reduce some surface forms, especially in text, but UI structure remains highly persistent. Aesthetic default bias should therefore be treated as an auditable property of generative systems and design tools, not only as a subjective complaint about style.
+
+\section*{Generative AI Usage Statement}
+
+Generative AI tools were used as research assistance for code development, reviewer-style critique, experiment planning, and drafting support. The reported experiments, scripts, figures, and numerical results were checked against local artifacts by the authors. No confidential peer-review material was shared with external AI tools.
+
+\begin{thebibliography}{9}
+
+\bibitem{bianchi2022t2i}
+Federico Bianchi, Pratyusha Kalluri, Esin Durmus, Faisal Ladhak, Myra Cheng, Debora Nozza, Tatsunori Hashimoto, Dan Jurafsky, James Zou, and Aylin Caliskan.
+\newblock Easily accessible text-to-image generation amplifies demographic stereotypes at large scale.
+\newblock \emph{arXiv preprint arXiv:2211.03759}, 2022.
+
+\bibitem{friedrich2024fairness}
+Felix Friedrich, Manuel Brack, Lukas Struppek, Dominik Hintersdorf, Patrick Schramowski, Sasha Luccioni, and Kristian Kersting.
+\newblock Auditing and instructing text-to-image generation models on fairness.
+\newblock \emph{AI and Ethics}, 5:2103--2123, 2025.
+
+\bibitem{jiang2024followbench}
+Yuxin Jiang, Yufei Wang, Xiaogeng Zeng, Wanjun Zhong, Liangyou Li, Fei Mi, Lifeng Shang, Xin Jiang, Qun Liu, and Wei Wang.
+\newblock FollowBench: A multi-level fine-grained constraints following benchmark for large language models.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics}, pages 4667--4688, 2024.
+
+\bibitem{kong2026macaron}
+Fancy Kong, Congjie Zheng, Murphy Zhuang, Rio Yang, Sueky Zhang, Hao Fu, Gene Jin, Song Cao, Kaijie Chen, Andrew Chen, and Pony Ma.
+\newblock Macaron-A2UI: A model for generative UI in personal agents.
+\newblock \emph{arXiv preprint arXiv:2605.24830}, 2026.
+
+\bibitem{long2025format}
+Do Xuan Long, Ngoc-Hai Nguyen, Tiviatis Sim, Hieu Dao, Shafiq Joty, Kenji Kawaguchi, Nancy F. Chen, and Min-Yen Kan.
+\newblock LLMs are biased towards output formats! Systematically evaluating and mitigating output format bias of LLMs.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies}, pages 299--330, 2025.
+
+\bibitem{ouyang2022instructgpt}
+Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, and others.
+\newblock Training language models to follow instructions with human feedback.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume 35, pages 27730--27744, 2022.
+
+\bibitem{wu2024uicoder}
+Jason Wu, Eldon Schoop, Alan Leung, Titus Barik, Jeffrey P. Bigham, and Jeffrey Nichols.
+\newblock UICoder: Finetuning large language models to generate user interface code through automated feedback.
+\newblock \emph{arXiv preprint arXiv:2406.07739}, 2024.
+
+\bibitem{zhou2023ifeval}
+Jeffrey Zhou, Tianjian Lu, Swaroop Mishra, Siddhartha Brahma, Sujoy Basu, Yi Luan, Denny Zhou, and Le Hou.
+\newblock Instruction-following evaluation for large language models.
+\newblock \emph{arXiv preprint arXiv:2311.07911}, 2023.
+
+\end{thebibliography}
+
+\end{document}

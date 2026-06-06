@@ -1,0 +1,7 @@
+In web applications, latency refers to the delay between a user's input and the corresponding response from the server. This delay can have a significant impact on the user experience, particularly in applications where real-time interaction is crucial.
+
+For example, in a web-based stock trading platform, latency can mean the difference between a profitable trade and a missed opportunity. If a user's buy or sell order is delayed by even a few milliseconds, it can result in a significant loss of value. In this context, latency is not just a nuisance, but a critical factor in determining the platform's overall reliability and competitiveness.
+
+Similarly, in a collaborative editing tool, latency can lead to conflicts and inconsistencies between users' work. If one user's updates are not reflected in real-time, it can cause frustration and errors, ultimately undermining the productivity of the team.
+
+In both cases, latency is not just a technical issue, but a business concern. It can lead to lost revenue, damaged reputation, and decreased user satisfaction. As a result, web application developers must prioritize latency reduction as a key performance indicator (KPI) to ensure their applications remain competitive and user-friendly.

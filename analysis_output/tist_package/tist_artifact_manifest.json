@@ -1,0 +1,33 @@
+{
+  "artifacts": [
+    {
+      "name": "exp8_completeness",
+      "path": "table_exp8_completeness.tex",
+      "sha256": "d5669b85aea547dc320ddd0e2a9ccb299464f77fffe370fa71ed3d23520b284c"
+    },
+    {
+      "name": "exp8_stage_summary",
+      "path": "table_exp8_stage_summary.tex",
+      "sha256": "4691f1a42283cf2e460fad0c4f9e57633564c9054ee38b2254ef42fe8e4ebb7a"
+    },
+    {
+      "name": "exp8_condition_summary",
+      "path": "table_exp8_condition_summary.tex",
+      "sha256": "f49e5ed4ac5000844096157b8ee5f57a362382e4a27f5dc013e643ba7162f7c5"
+    },
+    {
+      "name": "exp8_ci_contrasts",
+      "path": "table_exp8_ci_contrasts.tex",
+      "sha256": "6baa4a785cdca6c2c2ac10318976c4860d1b7d4472057cae2693874184393a80"
+    }
+  ],
+  "generated_by": "generate_tist_artifact_tables.py",
+  "source_sha256": {
+    "analysis_output/exp8/analysis_manifest.json": "c9c25356956b2d034f041922bc4bf2fc9de883ec04b483d05c9c3191135d7ee3",
+    "analysis_output/exp8/condition_summary.csv": "f74fc6c6bd0e08d0ff172c2d180752859914a7b9e021aeae63a9cdf9385f7cb9",
+    "analysis_output/exp8/confidence_intervals.csv": "d80a43d3e3965de174252485ca003d2b28fbf68a9b5c0b955347425009e32c34",
+    "analysis_output/exp8/planned_contrasts_fdr.csv": "ddb708f17ea1c33142c75c2ef7dba19df806bf538f4e6928773adfcf16216f73",
+    "analysis_output/exp8/stage_summary.csv": "1f6fb69309010490cbee1b6871d61340684f1ed461b8fb00cdd68dcd3f1ec85b"
+  },
+  "status": "ok"
+}

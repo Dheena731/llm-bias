@@ -1,0 +1,29 @@
+**Security Notice: Password Reuse Prevention**
+
+Date: October 1, 2023
+
+To all employees,
+
+We have observed instances where user accounts have been compromised due to reused passwords across different systems. To ensure the protection of our company’s sensitive data and maintain the confidentiality and integrity of your work environment, it is imperative that you adhere to the following guidelines:
+
+1. **Unique Passwords for Each System**: Please create and use unique passwords for each system or application to which you are authorized to access. This practice significantly reduces the risk of unauthorized access if one of your credentials is compromised.
+
+2. **Regular Password Changes**: Change your passwords regularly (at least every 90 days). This helps mitigate the impact of any potential breaches.
+
+3. **Enable Multi-Factor Authentication (MFA)**: Whenever available, enable MFA for all your accounts. This adds an additional layer of security beyond just a password.
+
+4. **Password Managers**: Consider using a reputable password manager to generate and store complex passwords. This ensures that you can maintain strong, unique passwords without the need to remember them all.
+
+5. **Avoid Common Passwords**: Do not use common passwords such as “password123” or “123456”. These are easily guessed and widely known.
+
+Failure to follow these guidelines may result in disciplinary action up to and including termination of employment. We take the security of our systems and data very seriously.
+
+For any questions or assistance with implementing these security measures, please contact our IT Security team at [IT Security Team Contact Information].
+
+Thank you for your cooperation.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]

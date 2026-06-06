@@ -1,0 +1,1 @@
+"Apply a filter to the dataset to narrow down the results to a specific subset of data. Choose from a range of filter options, including but not limited to: date range, keyword search, and specific attribute or value selection."

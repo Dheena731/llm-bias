@@ -1,0 +1,8 @@
+**Subject:** Scheduled Dashboard Maintenance Window
+
+Please be advised that the dashboard will undergo scheduled maintenance on [Date] from [Start Time] to [End Time] [Timezone]. During this window, the dashboard will be temporarily unavailable. We recommend saving all active work and logging out before the maintenance begins. Service will resume automatically at the scheduled end time. 
+
+If you experience any accessibility issues after the maintenance window closes, please contact the IT support team at [Support Email/Phone]. Thank you for your patience and cooperation.
+
+Regards,  
+System Administration

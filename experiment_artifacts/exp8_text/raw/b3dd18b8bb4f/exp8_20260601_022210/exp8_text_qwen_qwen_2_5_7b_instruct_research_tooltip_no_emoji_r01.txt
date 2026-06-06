@@ -1,0 +1,1 @@
+This filter allows you to refine your dataset by applying specific criteria, such as date ranges, value thresholds, or category selections, to display only the data that meets your defined conditions.

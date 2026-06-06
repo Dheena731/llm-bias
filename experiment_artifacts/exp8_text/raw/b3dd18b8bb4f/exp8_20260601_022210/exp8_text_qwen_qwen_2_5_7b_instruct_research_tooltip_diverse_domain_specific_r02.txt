@@ -1,0 +1,2 @@
+Tooltip for Dataset Filter:
+"Apply filters to refine your data view by selecting categories, keywords, or time periods. This helps you focus on specific subsets of your dataset for detailed analysis."

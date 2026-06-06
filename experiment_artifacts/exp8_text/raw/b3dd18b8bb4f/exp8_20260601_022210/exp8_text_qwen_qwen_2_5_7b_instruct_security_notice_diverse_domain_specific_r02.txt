@@ -1,0 +1,20 @@
+**Security Notice: Password Reuse Policy**
+
+Dear Team,
+
+As we continue to enhance our cybersecurity measures, it’s crucial that each of us maintains strong passwords and adheres to our password management policies. One of the most significant risks in data security is the reuse of passwords across different systems and applications. This practice can lead to vulnerabilities if a single password is compromised.
+
+To protect our company’s sensitive information and maintain a secure work environment:
+
+- **Do not use the same password for multiple accounts**. If one account is compromised, all your other accounts become at risk.
+- **Use unique, strong passwords** for each system or application you access. Strong passwords should be at least 12 characters long, include a mix of uppercase and lowercase letters, numbers, and symbols.
+- **Enable multi-factor authentication (MFA)** wherever possible. MFA adds an extra layer of security beyond just your password.
+- **Regularly update your passwords**, especially after any potential security breaches.
+
+If you have any questions or need assistance with creating secure passwords, please contact our IT support team. Together, we can ensure our data remains protected.
+
+Best regards,
+
+[Your Name]  
+IT Security Officer  
+[Your Company]

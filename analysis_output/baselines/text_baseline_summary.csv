@@ -1,0 +1,7 @@
+domain,has_emoji_rate,has_format_default_rate,has_markdown_rate,has_polish_default_rate,has_stock_phrase_rate,mean_word_count,n,source_type
+legal,0.0,0.0,0.0,0.0,0.0,22.0,1,hand_authored
+marketing,0.0,0.0,0.0,0.0,0.0,16.0,1,hand_authored
+public_service,0.0,0.0,0.0,0.0,0.0,17.0,1,hand_authored
+research,0.0,0.0,0.0,0.0,0.0,15.0,1,hand_authored
+social_media,0.0,0.0,0.0,0.0,0.0,19.0,1,hand_authored
+technical,0.0,0.0,0.0,0.0,0.0,24.0,1,hand_authored

@@ -1,0 +1,19 @@
+NOTICE OF AMENDMENT TO ACCOUNT TERMS AND CONDITIONS
+
+To all holders of registered accounts with CryptoVault Inc. ("CryptoVault" or "we"), a Delaware corporation with its principal place of business at 123 Main Street, Wilmington, DE 19801,
+
+PLEASE BE ADVISED that we are amending certain terms and conditions governing your use of our cryptocurrency trading and storage services, as set forth in our Terms of Service ("TOS") and User Agreement ("UA"). These amendments will take effect on January 15, 2023, at 12:00 AM Eastern Standard Time ("Effective Date").
+
+The amendments modify our policies regarding:
+
+1. **Cold Storage Requirements**: We are introducing new minimum balance requirements for accounts eligible for cold storage services. Accounts with balances below 1 Bitcoin (BTC) will no longer be eligible for cold storage, and existing accounts below this threshold will be transitioned to our hot wallet storage solution.
+2. **Transaction Fee Schedule**: We are revising our transaction fee schedule to reflect changes in cryptocurrency market conditions. Fees for transactions exceeding $10,000 will increase by 0.5% of the transaction value.
+3. **Know-Your-Customer (KYC) and Anti-Money Laundering (AML) Procedures**: We are enhancing our KYC and AML procedures to comply with evolving regulatory requirements. Users may be required to provide additional identification documentation and information to maintain account access.
+
+The amended TOS and UA will be available for review on our website at [www.cryptovault.com](http://www.cryptovault.com) on the Effective Date. By continuing to use our services after the Effective Date, you acknowledge that you have read, understand, and agree to be bound by the amended terms.
+
+If you have any questions or concerns regarding these amendments, please contact our customer support team at [support@cryptovault.com](mailto:support@cryptovault.com).
+
+BY ORDER OF THE MANAGEMENT OF CRYPTОВАULT INC.
+
+Dated: December 20, 2022

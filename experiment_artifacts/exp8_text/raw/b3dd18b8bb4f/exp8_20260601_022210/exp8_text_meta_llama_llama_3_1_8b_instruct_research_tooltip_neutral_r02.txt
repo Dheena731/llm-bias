@@ -1,0 +1,3 @@
+**Dataset Filter:**
+
+"Apply filters to your dataset by selecting specific criteria from the available parameters. Choose from a range of options, including numerical ranges, categorical values, and date intervals, to refine your results and focus on relevant data."

@@ -1,0 +1,3 @@
+**Dataset Filter**
+
+Applies conditions to a dataset to exclude or prioritize specific data points. Filters can be based on attributes such as date, value, category, or other relevant criteria, allowing for the refinement of data to focus on specific areas of interest.

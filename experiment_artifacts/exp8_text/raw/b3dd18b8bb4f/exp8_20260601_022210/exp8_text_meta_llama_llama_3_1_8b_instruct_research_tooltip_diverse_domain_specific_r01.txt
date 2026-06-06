@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining a dataset filter in a research tool, tailored to a specific domain:
+
+**Filter by "Region of Origin":**
+
+"Apply filters to view only studies conducted in specific regions of the world. Select one or multiple countries or regions from the dropdown menu to narrow your results and explore research trends specific to your area of interest."

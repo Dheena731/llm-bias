@@ -1,0 +1,41 @@
+{
+  "description": "Hand-authored, license-clean text baselines for Exp8 presentation-prior feature extraction.",
+  "records": [
+    {
+      "baseline_id": "human_social_media_plain",
+      "source_type": "hand_authored",
+      "domain": "social_media",
+      "text": "The new project view is available today. It groups recent updates, open tasks, and account notices in one place."
+    },
+    {
+      "baseline_id": "human_marketing_launch_plain",
+      "source_type": "hand_authored",
+      "domain": "marketing",
+      "text": "The small business app now includes monthly summaries, account filters, and export controls for routine bookkeeping."
+    },
+    {
+      "baseline_id": "human_technical_explanation_plain",
+      "source_type": "hand_authored",
+      "domain": "technical",
+      "text": "Latency matters because each delay adds time between a user action and the system response. Lower latency usually makes an interface easier to operate."
+    },
+    {
+      "baseline_id": "human_legal_notice_plain",
+      "source_type": "hand_authored",
+      "domain": "legal",
+      "text": "Account terms will be updated on July 1. Continued use of the service after that date is subject to the revised terms."
+    },
+    {
+      "baseline_id": "human_public_service_notice_plain",
+      "source_type": "hand_authored",
+      "domain": "public_service",
+      "text": "The library will open at ten on Monday because of scheduled maintenance. Regular hours resume on Tuesday."
+    },
+    {
+      "baseline_id": "human_research_tooltip_plain",
+      "source_type": "hand_authored",
+      "domain": "research",
+      "text": "Use this filter to limit the dataset to records that match the selected collection period."
+    }
+  ]
+}

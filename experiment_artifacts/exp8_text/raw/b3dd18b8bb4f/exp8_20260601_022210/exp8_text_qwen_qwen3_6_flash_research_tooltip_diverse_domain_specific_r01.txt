@@ -1,0 +1,16 @@
+Since you didn't specify the domain, here are three examples demonstrating how to write concise, technically precise tooltips that avoid generic fluff. Choose the one matching your context or adapt the structure.
+
+**Genomics / Bioinformatics**
+> "Apply VAF threshold. Excludes variants with depth <30. Impacts downstream heterozygosity metrics and cohort prevalence calculations."
+
+**Quantitative Finance / Risk**
+> "Filter by bid-ask spread > 5bps. Removes illiquid instruments from the universe. Adjusts turnover assumptions in backtest simulation."
+
+**NLP / LLM Evaluation**
+> "Filter by P99 latency > 200ms. Excludes tail-latency outliers. Alters aggregate throughput distribution; review P50/P99 shift after applying."
+
+**Key structural notes for research tooltips:**
+*   **State the action immediately:** "Apply..." or "Filter by..."
+*   **Define the exclusion consequence:** Research tools require transparency on data loss (e.g., "Excludes variants...", "Removes illiquid...").
+*   **Flag downstream effects:** Warn how the filter changes derived metrics (e.g., "Impacts...", "Adjusts...").
+*   **Use native terminology:** Use domain standards (VAF, bps, P99) rather than generic terms like "high quality" or "fast."
