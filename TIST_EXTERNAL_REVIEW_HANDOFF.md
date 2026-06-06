@@ -19,6 +19,8 @@ hash inside exported files would make the archive hash self-referential.
 - Human review checklist: `TIST_EXTERNAL_REVIEW_CHECKLIST.md`
 - Human review worksheet: `TIST_EXTERNAL_REVIEW_WORKSHEET.md`
 - Review response log: `TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md`
+- GitHub tracking issue: `https://github.com/Dheena731/llm-bias/issues/1`
+- GitHub Pages source docs: `docs/`
 
 The export directory and zip are generated artifacts and are ignored by git.
 Do not force-add them unless the repository policy changes.

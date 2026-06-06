@@ -14,6 +14,8 @@ kept outside the exported archive so the archive SHA remains stable.
 - Live paid/API collection required for review: no
 - Reviewer worksheet: `TIST_EXTERNAL_REVIEW_WORKSHEET.md`
 - Response log: `TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md`
+- GitHub tracking issue: `https://github.com/Dheena731/llm-bias/issues/1`
+- GitHub Pages source docs: `docs/`
 
 ## Reviewer Priorities
 

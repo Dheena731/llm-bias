@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Review Workflow</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <div class="brand">
+          <strong>TIST Presentation Priors</strong>
+          <span>External review coordination</span>
+        </div>
+        <nav class="nav" aria-label="Documentation">
+          <a href="index.html">Status</a>
+          <a href="review.html">Review Workflow</a>
+          <a href="reproducibility.html">Reproducibility</a>
+          <a href="claim-boundaries.html">Claim Boundaries</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <h1>Human Review Workflow</h1>
+        <p class="lede">
+          The review pass is designed to catch overclaims, stitched-manuscript
+          seams, reproducibility drift, and camera-ready confusion before the
+          package leaves the repository.
+        </p>
+      </section>
+
+      <section class="panel">
+        <h2>Reviewer Inputs</h2>
+        <ul>
+          <li><code>TIST_EXTERNAL_REVIEW_HANDOFF.md</code></li>
+          <li><code>TIST_EXTERNAL_REVIEW_CHECKLIST.md</code></li>
+          <li><code>TIST_EXTERNAL_REVIEW_WORKSHEET.md</code></li>
+          <li><code>TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md</code></li>
+          <li><code>paper/tist2027_presentation_priors.tex</code></li>
+          <li><code>paper/tist2027_journal_package_manifest.md</code></li>
+        </ul>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Step 1</h2>
+          <p>Verify the archive SHA and run the reproduction commands listed in the checklist.</p>
+        </article>
+        <article class="card">
+          <h2>Step 2</h2>
+          <p>Read the abstract, introduction, study overview, Study 4, Study 5, limitations, and artifact availability sections.</p>
+        </article>
+        <article class="card">
+          <h2>Step 3</h2>
+          <p>Complete one copy of <code>TIST_EXTERNAL_REVIEW_WORKSHEET.md</code> with pass/fail marks and concrete locations.</p>
+        </article>
+        <article class="card">
+          <h2>Step 4</h2>
+          <p>Log blocker and major findings in <code>TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md</code> and resolve them before submission.</p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Review Priorities</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Priority</th>
+              <th>Question</th>
+              <th>Failure Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Claim boundary</td>
+              <td>Does the paper avoid RLHF or route-stage causal claims?</td>
+              <td>Any sentence saying route labels prove training stage.</td>
+            </tr>
+            <tr>
+              <td>Journal spine</td>
+              <td>Do Studies 1-5 read as one synthesis?</td>
+              <td>Conference-draft framing that contradicts the TIST thesis.</td>
+            </tr>
+            <tr>
+              <td>Baselines</td>
+              <td>Are UI/image baselines framed as calibration-only?</td>
+              <td>Broad claims that generated artifacts are unusually homogeneous.</td>
+            </tr>
+            <tr>
+              <td>Reproducibility</td>
+              <td>Do commands, paths, hashes, and row counts line up?</td>
+              <td>Archive SHA drift, missing artifact paths, or failing verifier commands.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">Track execution in GitHub Issue #1.</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reproducibility</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <div class="brand">
+          <strong>TIST Presentation Priors</strong>
+          <span>External review coordination</span>
+        </div>
+        <nav class="nav" aria-label="Documentation">
+          <a href="index.html">Status</a>
+          <a href="review.html">Review Workflow</a>
+          <a href="reproducibility.html">Reproducibility</a>
+          <a href="claim-boundaries.html">Claim Boundaries</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <h1>Reproducibility Commands</h1>
+        <p class="lede">
+          These commands are expected to run without launching paid/API
+          collection. They validate the archive, handoff, bibliography, and
+          focused package tests.
+        </p>
+      </section>
+
+      <section class="panel">
+        <h2>Canonical Commands</h2>
+        <pre><code>uv run python prepare_tist_review_package.py --verify --source-commit 494d4e3
+uv run python verify_tist_external_review_handoff.py
+shasum -a 256 artifact/tist2027_external_review.zip
+zipinfo -1 artifact/tist2027_external_review.zip | rg '__pycache__|\.pyc$|\.DS_Store'
+tectonic --outdir /tmp/tist2027_build paper/tist2027_presentation_priors.tex
+uv run python verify_tist_package.py --pdf /tmp/tist2027_build/tist2027_presentation_priors.pdf --mode review
+uv run python verify_tist_bibliography.py
+PYTHONDONTWRITEBYTECODE=1 uv run pytest -q -p no:cacheprovider tests/test_exp8_task_matrix.py tests/test_exp8_fake_collectors.py tests/test_exp8_analysis.py tests/test_baseline_feature_audit.py tests/test_cross_modal_baselines.py tests/test_tist_artifact_tables.py tests/test_tist_review_package.py tests/test_tist_package_verifier.py tests/test_tist_bibliography_verifier.py tests/test_tist_external_review_handoff.py</code></pre>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Expected Results</h2>
+          <ul>
+            <li>Archive SHA: <code>4d843384ca2057f5ef1ca4eadb49c4cb1892148f5535aae645fef82ec429bf22</code></li>
+            <li>Package verifier: <code>ok</code></li>
+            <li>Bibliography verifier: <code>ok</code></li>
+            <li>Handoff verifier: <code>ok</code></li>
+            <li>Focused tests: <code>102 passed</code></li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>Cost Boundary</h2>
+          <p>
+            The review commands use the fixed 480-row Exp8 first pass and local
+            deterministic analyses. They do not require live provider calls.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Archive Hygiene</h2>
+        <p>
+          The archive hygiene grep should return no matches. An empty result
+          with <code>rg</code> exit status 1 is the expected clean state.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">The generated archive is ignored by git; do not force-add it.</div>
+    </footer>
+  </body>
+</html>

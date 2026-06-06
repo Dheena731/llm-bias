@@ -8,6 +8,8 @@ exported anonymous archive so response tracking does not change the package SHA.
 - Handoff: `TIST_EXTERNAL_REVIEW_HANDOFF.md`
 - Checklist: `TIST_EXTERNAL_REVIEW_CHECKLIST.md`
 - Worksheet: `TIST_EXTERNAL_REVIEW_WORKSHEET.md`
+- Tracking issue: `https://github.com/Dheena731/llm-bias/issues/1`
+- GitHub Pages source docs: `docs/`
 - Current status: awaiting human external review
 
 ## Findings Ledger

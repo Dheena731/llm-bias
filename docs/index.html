@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TIST Presentation Priors Review Package</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <div class="brand">
+          <strong>TIST Presentation Priors</strong>
+          <span>External review coordination</span>
+        </div>
+        <nav class="nav" aria-label="Documentation">
+          <a href="index.html">Status</a>
+          <a href="review.html">Review Workflow</a>
+          <a href="reproducibility.html">Reproducibility</a>
+          <a href="claim-boundaries.html">Claim Boundaries</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <h1>Journal Package Review Dashboard</h1>
+        <p class="lede">
+          This site summarizes the current anonymous TIST review package for
+          <em>Aesthetic Anchoring as Presentation-Prior Bias</em>. It is a
+          coordination surface; the canonical review package remains the
+          generated archive tracked in the repository handoff.
+        </p>
+        <div class="status">
+          <span class="pill good">Package verifier ok</span>
+          <span class="pill good">Bibliography verifier ok</span>
+          <span class="pill good">Handoff verifier ok</span>
+          <span class="pill warn">Human review pending</span>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Current Snapshot</h2>
+          <p><strong>Archive SHA-256</strong></p>
+          <p><code>4d843384ca2057f5ef1ca4eadb49c4cb1892148f5535aae645fef82ec429bf22</code></p>
+          <p><strong>Package source commit</strong></p>
+          <p><code>494d4e3 Mark TIST bibliography source check complete</code></p>
+          <p><strong>Canonical Exp8 rows</strong>: 480</p>
+          <p><strong>Paid/API collection required</strong>: no</p>
+        </article>
+
+        <article class="card">
+          <h2>Tracking</h2>
+          <p>
+            Human review is tracked in
+            <a href="https://github.com/Dheena731/llm-bias/issues/1">GitHub Issue #1</a>.
+          </p>
+          <p>
+            Reviewers should return a completed
+            <code>TIST_EXTERNAL_REVIEW_WORKSHEET.md</code>. Findings are tracked
+            in <code>TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md</code>.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Acceptance Gate</h2>
+          <p>
+            The package is locally reproducible and source-checked. It should
+            not be treated as ready for external submission until at least one
+            independent human worksheet is complete and all blocker or major
+            findings are resolved.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Kanban</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Item</th>
+              <th>Evidence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Done</td>
+              <td>Canonical anonymous review package</td>
+              <td>Deterministic archive and package provenance are in place.</td>
+            </tr>
+            <tr>
+              <td>Done</td>
+              <td>Reproducibility gates</td>
+              <td>Package, bibliography, handoff, archive hygiene, and focused tests pass locally.</td>
+            </tr>
+            <tr>
+              <td>In progress</td>
+              <td>Human external review</td>
+              <td>Issue #1 is open and the worksheet/response log are available.</td>
+            </tr>
+            <tr>
+              <td>Pending</td>
+              <td>Camera-ready metadata</td>
+              <td>Anonymous ACM review metadata remains intentional for this package.</td>
+            </tr>
+            <tr>
+              <td>Pending</td>
+              <td>Stronger cross-modal baselines</td>
+              <td>Current UI/image baselines are calibration-only.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">Generated documentation for repository review coordination.</div>
+    </footer>
+  </body>
+</html>
