@@ -16,6 +16,10 @@ kept outside the exported archive so the archive SHA remains stable.
 - Response log: `TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md`
 - GitHub tracking issue: `https://github.com/Dheena731/llm-bias/issues/1`
 - GitHub Pages source docs: `docs/`
+- GitHub Pages enablement issue: `https://github.com/Dheena731/llm-bias/issues/4`
+
+The Pages docs are ready in-repo, but the live site remains blocked until a
+repository admin enables GitHub Pages with GitHub Actions as the source.
 
 ## Reviewer Priorities
 

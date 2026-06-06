@@ -21,6 +21,11 @@ hash inside exported files would make the archive hash self-referential.
 - Review response log: `TIST_EXTERNAL_REVIEW_RESPONSE_LOG.md`
 - GitHub tracking issue: `https://github.com/Dheena731/llm-bias/issues/1`
 - GitHub Pages source docs: `docs/`
+- GitHub Pages enablement issue: `https://github.com/Dheena731/llm-bias/issues/4`
+
+GitHub Pages publication is staged in the repository, but the live Pages site
+still requires repository admin enablement. Until Issue #4 is resolved, use
+`docs/` as the static documentation fallback.
 
 The export directory and zip are generated artifacts and are ignored by git.
 Do not force-add them unless the repository policy changes.

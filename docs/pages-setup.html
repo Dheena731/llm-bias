@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GitHub Pages Setup</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <div class="brand">
+          <strong>TIST Presentation Priors</strong>
+          <span>External review coordination</span>
+        </div>
+        <nav class="nav" aria-label="Documentation">
+          <a href="index.html">Status</a>
+          <a href="review.html">Review Workflow</a>
+          <a href="reproducibility.html">Reproducibility</a>
+          <a href="claim-boundaries.html">Claim Boundaries</a>
+          <a href="pages-setup.html">Pages Setup</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <h1>GitHub Pages Setup</h1>
+        <p class="lede">
+          The static review site and Pages workflow are committed. Initial
+          publication is blocked until a repository admin enables GitHub Pages
+          for this private repository.
+        </p>
+        <div class="status">
+          <span class="pill good">Static docs merged</span>
+          <span class="pill good">Workflow merged</span>
+          <span class="pill warn">Repository setting blocked</span>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Current Evidence</h2>
+          <p><strong>Workflow file</strong></p>
+          <p><code>.github/workflows/pages.yml</code></p>
+          <p><strong>Pages source</strong></p>
+          <p><code>docs/</code></p>
+          <p><strong>Tracking issue</strong></p>
+          <p><a href="https://github.com/Dheena731/llm-bias/issues/4">GitHub Issue #4</a></p>
+        </article>
+
+        <article class="card">
+          <h2>Observed Failure</h2>
+          <p>
+            Run <a href="https://github.com/Dheena731/llm-bias/actions/runs/27064405084">27064405084</a>
+            reached <code>actions/configure-pages@v5</code> with
+            <code>enablement: true</code>, then failed while creating the Pages
+            site.
+          </p>
+          <p>
+            The repository API reported <code>has_pages: false</code>. The
+            current authenticated account has write/push permission, not admin
+            permission.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Admin Action Required</h2>
+        <ol>
+          <li>Open the repository settings for <code>Dheena731/llm-bias</code>.</li>
+          <li>Enable GitHub Pages.</li>
+          <li>Set the Pages source to GitHub Actions.</li>
+          <li>Rerun the <code>Publish GitHub Pages</code> workflow on <code>main</code>.</li>
+          <li>Update Issue #1 with the published Pages URL once deployment succeeds.</li>
+        </ol>
+      </section>
+
+      <section class="panel">
+        <h2>Verification Commands</h2>
+        <pre><code>gh api repos/Dheena731/llm-bias/pages
+gh workflow run pages.yml --repo Dheena731/llm-bias --ref main
+gh run watch &lt;run-id&gt; --repo Dheena731/llm-bias --exit-status</code></pre>
+        <p>
+          The first command should return Pages metadata instead of
+          <code>404 Not Found</code>. The workflow should deploy the static
+          files from <code>docs/</code> without launching any paid/API
+          experiment run.
+        </p>
+      </section>
+
+      <section class="panel">
+        <h2>Fallback</h2>
+        <p>
+          Until Pages is enabled, reviewers can read the same content directly
+          from the repository under <code>docs/</code>. The canonical review
+          package remains the generated archive tracked in
+          <code>TIST_EXTERNAL_REVIEW_HANDOFF.md</code>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">Pages setup is an infrastructure gate, not a paper-claim gate.</div>
+    </footer>
+  </body>
+</html>
