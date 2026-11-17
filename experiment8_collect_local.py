@@ -26,36 +26,56 @@ def ensure_safetensors(model_id: str) -> str:
     if any(name.endswith(".safetensors") for name in list_repo_files(model_id)):
         return model_id
     target = CONVERTED_DIR / model_id.replace("/", "__")
-    if (target / "model.safetensors").exists():
+    if (target / "converted.ok").exists():
         return str(target)
     import torch
     from safetensors.torch import save_file
 
     source = Path(snapshot_download(model_id, allow_patterns=["*.json", "*.bin", "*.txt", "*.model", "tokenizer*"]))
     target.mkdir(parents=True, exist_ok=True)
-    state = torch.load(source / "pytorch_model.bin", map_location="cpu", weights_only=True, mmap=True)
-    # save_file rejects tensors that share storage (tied embeddings); clone only those, so a 7B checkpoint
-    # is not held in memory twice.
-    seen, tensors = set(), {}
-    for name, tensor in state.items():
-        pointer = tensor.untyped_storage().data_ptr()
-        tensors[name] = tensor.contiguous().clone() if pointer in seen else tensor.contiguous()
-        seen.add(pointer)
-    save_file(tensors, target / "model.safetensors", metadata={"format": "pt"})
+    shards = sorted(source.glob("pytorch_model*.bin"))  # one file, or several for 7B checkpoints
+    for index, shard in enumerate(shards, start=1):
+        state = torch.load(shard, map_location="cpu", weights_only=True, mmap=True)
+        # save_file rejects tensors that share storage (tied embeddings); clone only those, so a checkpoint
+        # is not held in memory twice.
+        seen, tensors = set(), {}
+        for name, tensor in state.items():
+            pointer = tensor.untyped_storage().data_ptr()
+            tensors[name] = tensor.contiguous().clone() if pointer in seen else tensor.contiguous()
+            seen.add(pointer)
+        save_file(tensors, target / f"model-{index:05d}-of-{len(shards):05d}.safetensors", metadata={"format": "pt"})
+        del state, tensors
+        shard.resolve().unlink()  # free each downloaded shard as soon as it is converted
     for path in source.iterdir():
-        if path.suffix != ".bin":
+        if path.suffix != ".bin" and path.name != "pytorch_model.bin.index.json" and path.exists():
             shutil.copy(path, target / path.name)
-    (source / "pytorch_model.bin").resolve().unlink()  # free the 3 GB download once converted
+    (target / "converted.ok").touch()
     return str(target)
 
 
-def quantized(model_path: str, model_id: str, bits: int) -> str:
-    """Quantize once (all stages of a family get the same treatment); 7B fp32/bf16 weights do not fit 32 GB RAM."""
+def free_cached(model_id: str) -> None:
+    """Remove a checkpoint from the Hugging Face cache and any unquantized converted copy."""
+    from huggingface_hub import scan_cache_dir
+
+    for repo in scan_cache_dir().repos:
+        if repo.repo_id == model_id:
+            shutil.rmtree(repo.repo_path, ignore_errors=True)
+    shutil.rmtree(CONVERTED_DIR / model_id.replace("/", "__"), ignore_errors=True)
+
+
+def quantized_path(model_id: str, bits: int) -> Path:
+    return CONVERTED_DIR / f"{model_id.replace('/', '__')}-q{bits}"
+
+
+def quantized(model_id: str, bits: int) -> str:
+    """Quantize once (all stages of a family get the same treatment); 7B weights do not fit 32 GB RAM unquantized.
+    The unquantized weights are freed right after, since the disk cannot hold several 7B copies."""
     from mlx_lm import convert
 
-    target = CONVERTED_DIR / f"{model_id.replace('/', '__')}-q{bits}"
+    target = quantized_path(model_id, bits)
     if not (target / "config.json").exists():
-        convert(hf_path=model_path, mlx_path=str(target), quantize=True, q_bits=bits)
+        convert(hf_path=ensure_safetensors(model_id), mlx_path=str(target), quantize=True, q_bits=bits)
+        free_cached(model_id)
     return str(target)
 
 
@@ -63,9 +83,8 @@ def make_model_fn(model_id: str, is_base: bool, params: dict):
     from mlx_lm import generate, load
     from mlx_lm.sample_utils import make_sampler
 
-    path = ensure_safetensors(model_id)
-    if params.get("quantize_bits"):
-        path = quantized(path, model_id, int(params["quantize_bits"]))
+    bits = params.get("quantize_bits")
+    path = quantized(model_id, int(bits)) if bits else ensure_safetensors(model_id)
     model, tokenizer = load(path)
     sampler = make_sampler(temp=float(params.get("temperature", 0.8)))
     max_tokens = int(params.get("max_tokens", 768))
@@ -121,14 +140,10 @@ def main() -> None:
     run_text_tasks(tasks, output, raw_dir, model_fn=model_fn, max_workers=1)  # MLX generation is not thread-safe
     print(f"Saved results to {output} ({time.time() - started:.0f}s)")
     if args.delete_after:
-        from huggingface_hub import scan_cache_dir
-
-        for repo in scan_cache_dir().repos:
-            if repo.repo_id == args.model:
-                shutil.rmtree(repo.repo_path)
-                print(f"Deleted cached {args.model}")
+        free_cached(args.model)
         for converted in CONVERTED_DIR.glob(f"{args.model.replace('/', '__')}*"):
             shutil.rmtree(converted, ignore_errors=True)
+        print(f"Deleted cached {args.model}")
 
 
 if __name__ == "__main__":

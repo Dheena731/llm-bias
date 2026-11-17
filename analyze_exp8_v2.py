@@ -25,7 +25,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from presentation_features import markdown_kinds
+from presentation_features import markdown_kinds, strip_wrappers
 
 OUT = Path("analysis_output/exp8_v2")
 HOSTED_GLOB = "experiment_data/exp8_v2_presentation_priors_*.csv"
@@ -61,6 +61,8 @@ def load(pattern: str) -> list[dict]:
         row["m"] = {k: float(features[k]) for k in ("has_markdown", "has_emoji", "has_polish_without_length", "word_count")}
         row["m"].update({k: float(v) for k, v in markdown_kinds(text).items()})
         row["m"]["has_placeholder"] = float(bool(PLACEHOLDER.search(text)))
+        # Sensitivity: markup in the deliverable only, without lead-ins and closing notes to the user.
+        row["m"]["has_markup_body"] = float(markdown_kinds(strip_wrappers(text))["has_markup"])
     return rows
 
 
@@ -192,6 +194,32 @@ def hosted_tables(hosted: list[dict], controls: list[dict], write_table) -> dict
     return out
 
 
+def robustness(hosted: list[dict], controls: list[dict], write_table) -> dict:
+    """Wrapper sensitivity, per-family neutral rates, and a placement equivalence check (margin 5 points)."""
+    out = {"wrapper_max_change": max(abs(rate(select(hosted, model=m, condition=c), "has_markup")
+                                         - rate(select(hosted, model=m, condition=c), "has_markup_body"))
+                                     for m in {r["model"] for r in hosted} for c in {r["condition"] for r in hosted}),
+           "markup_flag_changed": sum(r["m"]["has_markup"] != r["m"]["has_markup_body"] for r in hosted),
+           "families": {}, "placement": {}}
+    body = []
+    for family in sorted({r["prompt_family"] for r in hosted}):
+        neutral = select(hosted, prompt_family=family, condition="neutral")
+        cells = {k: rate(neutral, k) for k in ("has_markup", "has_list", "has_emoji")}
+        out["families"][family] = cells
+        body.append([family.replace("_", " "), *[f"{100 * cells[k]:.1f}" for k in ("has_markup", "has_list", "has_emoji")]])
+    write_table(OUT / "table_v2_families.tex",
+                "Study 1 neutral rates (\\%) by prompt family, pooled over the seven models (105 outputs per family).",
+                "tab:v2-families", ["Prompt family", "Markup", "Lists", "Emoji"], body, "lrrr", size=r"\footnotesize")
+    for m in sorted({r["model"] for r in controls}):
+        for sys_c, user_c, metric in (("system_no_emoji", "no_emoji", "has_emoji"), ("system_no_markdown", "no_markdown", "has_markup")):
+            diffs = family_diffs(select(controls, model=m, condition=sys_c), select(hosted, model=m, condition=user_c), metric)
+            rng = random.Random(5)
+            boot = sorted(mean(rng.choice(diffs) for _ in diffs) for _ in range(4000))
+            out["placement"][f"{short(m)}|{metric}"] = {"delta": mean(diffs), "ci90_low": boot[200], "ci90_high": boot[3799],
+                                                         "equivalent_5pt": -0.05 < boot[200] and boot[3799] < 0.05}
+    return out
+
+
 def stage_tables(local: list[dict], label: str, write_table) -> dict:
     stages = [s for s in STAGES if select(local, route_stage_label=s)]
     out = {"neutral": {}, "vs_neutral": {}, "adjacent": {}, "length_bins": {}}
@@ -258,8 +286,12 @@ def main() -> None:
 
     OUT.mkdir(parents=True, exist_ok=True)
     hosted, controls, local, local7b = load(HOSTED_GLOB), load(CONTROLS_GLOB), load(LOCAL_GLOB), load(LOCAL7B_GLOB)
+    # Extra 1B repeats (runs 2-3) enter only once every stage has them, so stages stay comparable.
+    if not {r["route_stage_label"] for r in local if int(r["run"]) > 1} >= set(STAGES):
+        local = [r for r in local if int(r["run"]) == 1]
     summary = {"rows": {"hosted": len(hosted), "controls": len(controls), "local_1b": len(local), "local_7b": len(local7b)}}
     summary.update(hosted_tables(hosted, controls, write_table))
+    summary["robustness"] = robustness(hosted, controls, write_table)
     families = {"1B": stage_tables(local, "", write_table)}
     if {r["route_stage_label"] for r in local7b} >= set(STAGES):  # only once all four 7B stages are collected
         families["7B"] = stage_tables(local7b, "_7b", write_table)

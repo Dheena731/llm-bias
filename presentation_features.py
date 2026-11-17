@@ -20,6 +20,23 @@ MARKUP_PATTERNS = {
 LIST_LINE = re.compile(r"^\s*(?:[-*+•]|\d{1,2}[.)])\s+\S", re.MULTILINE)
 
 
+LEAD_IN = re.compile(r"^\W*(sure|certainly|of course|absolutely|here(?:'s|’s| is| are)|below is)\b", re.IGNORECASE)
+CLOSING = re.compile(r"^\W*(note\b|feel free|let me know|i hope|would you like|you can (?:adjust|customi[sz]e|tweak|edit)|"
+                     r"if you(?:'d|’d| would) like|want me to)", re.IGNORECASE)
+SEPARATOR = re.compile(r"^\s*(?:-{3,}|\*{3,}|_{3,})\s*$")
+
+
+def strip_wrappers(text: str) -> str:
+    """Drop a conversational lead-in line ("Here's a draft:") and closing notes to the user, keeping the deliverable."""
+    lines = (text or "").strip().split("\n")
+    first = lines[0].rstrip() if lines else ""
+    if len(lines) > 1 and LEAD_IN.match(first) and (first.endswith(":") or len(first.split()) <= 12):
+        lines = lines[1:]
+    while lines and (not lines[-1].strip() or CLOSING.match(lines[-1]) or SEPARATOR.match(lines[-1])):
+        lines = lines[:-1]
+    return "\n".join(lines).strip()
+
+
 def markdown_kinds(text: str) -> dict[str, bool]:
     text = text or ""
     tables = len(MARKUP_PATTERNS["table"].findall(text)) >= 2  # one pipe line is not a table
@@ -41,4 +58,7 @@ if __name__ == "__main__":
     for text, expected in cases.items():
         got = markdown_kinds(text)
         assert (got["has_markup"], got["has_list"]) == expected, (text, got)
+    wrapped = "Here's a short note:\n\nThe library opens at 9.\n\n---\n*Note: adjust the hours as needed.*"
+    assert strip_wrappers(wrapped) == "The library opens at 9.", strip_wrappers(wrapped)
+    assert strip_wrappers("Here is the plan for Monday and the full schedule that follows below today") != ""
     print("ok")

@@ -98,6 +98,7 @@ REQUIRED_FILES = [
     Path("analysis_output/exp8_v2/summary.json"),
     Path("analysis_output/exp8_v2/table_v2_controls.tex"),
     Path("analysis_output/exp8_v2/table_v2_length.tex"),
+    Path("analysis_output/exp8_v2/table_v2_families.tex"),
     Path("analysis_output/exp8_v2/hosted_rates.csv"),
     Path("analysis_output/exp8_v2/controls_rates.csv"),
     Path("analysis_output/exp8_v2/local_1b_rates.csv"),
