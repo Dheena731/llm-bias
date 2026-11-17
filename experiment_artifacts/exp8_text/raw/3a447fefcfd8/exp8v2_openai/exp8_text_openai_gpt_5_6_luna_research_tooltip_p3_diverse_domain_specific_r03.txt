@@ -1,0 +1,1 @@
+What domain is this for—for example, payroll, bookings, analytics, or medical records? The tooltip should reflect what the selected dates control.

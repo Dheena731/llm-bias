@@ -1,0 +1,13 @@
+**Caching** speeds up a website by saving copies of its files in a temporary storage location so they don’t have to be generated or downloaded from scratch every time a page is requested.
+
+Normally, when you visit a webpage, your browser must send a request across the internet to a remote web server. That server has to process the request, retrieve data from a database, assemble the page, and send the files (images, text, code) back to your device. This process takes time, especially if the server is geographically far away or handling heavy traffic.
+
+With caching, static parts of that page are saved after the first load—either directly on your device (browser cache), on nearby proxy servers (Content Delivery Networks, or CDNs), or on the website's server itself. 
+
+The next time you visit:
+
+1. **Reduced travel time:** Your browser loads images and scripts directly from its own memory or a nearby local server, drastically cutting down physical data travel time.
+2. **Reduced server workload:** The website's main server doesn’t have to repeatedly process code or query databases for identical requests.
+3. **Saved bandwidth:** Less data needs to be transferred over the internet.
+
+**In short:** Think of caching like keeping a reference book on your desk instead of walking to the library every time you need to look something up. By eliminating unnecessary trips and repeated work, web pages load significantly faster.

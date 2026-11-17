@@ -1,0 +1,7 @@
+**SECURITY NOTICE: Strict Policy Against Password Reuse**
+
+All staff members are required to maintain unique passwords for every digital account accessed within the organization. Reusing passwords across personal email, social media, third-party services, and corporate systems is strictly prohibited.
+
+Credential stuffing attacks exploit reused passwords to gain unauthorized entry into company networks. If a password appears on a compromised list from an external breach, attackers will attempt that same combination against internal resources. Protecting organizational data requires that work credentials remain completely isolated from any other login history.
+
+Employees should verify their current passwords and update any duplicates immediately. Utilize the approved enterprise password manager to generate strong, distinct secrets for each application. The IT Security department remains available to assist with authentication tools and best practices.

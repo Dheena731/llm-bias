@@ -1,0 +1,19 @@
+**Password Reuse Security Notice**
+
+To ensure the integrity and security of our organization's systems and data, we are implementing a policy to prevent password reuse across all company resources.
+
+**What this means for you:**
+
+* You are prohibited from using the same password for multiple accounts, including but not limited to, email, network login, and application access.
+* You are required to use a unique password for each account, ensuring that a compromised password does not provide unauthorized access to other sensitive areas of our systems.
+* Our security software will be configured to detect and prevent password reuse, and you may receive notifications if a reused password is detected.
+
+**Why this policy is in place:**
+
+Password reuse can leave our organization vulnerable to attacks, as a single compromised password can provide access to multiple areas of our systems. By preventing password reuse, we can reduce the risk of unauthorized access and protect our sensitive data.
+
+**What to do if you are unable to comply:**
+
+If you are experiencing difficulty creating and managing multiple passwords, please contact our IT department for assistance. They can provide guidance and resources to help you create and manage unique passwords for each account.
+
+Thank you for your cooperation in this matter. If you have any questions or concerns, please do not hesitate to reach out to our IT department.

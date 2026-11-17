@@ -1,0 +1,3 @@
+Here is a short admin message about a scheduled dashboard maintenance window:
+
+"DASHBOARD MAINTENANCE SCHEDULED - Our dashboard will be unavailable on [date] from [time] to [time] for scheduled maintenance. During this time, users may experience downtime. We apologize for any inconvenience this may cause and appreciate your patience as we work to improve our services."

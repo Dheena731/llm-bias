@@ -1,0 +1,18 @@
+**Subject:** Scheduled Dashboard Maintenance on [Date]
+
+**Dear Dashboard Users,**
+
+Please be advised that the dashboard will undergo scheduled maintenance to apply necessary updates and improvements.
+
+**Maintenance Details:**
+*   **Date:** [Date]
+*   **Time:** [Start Time] – [End Time] ([Timezone])
+*   **Impact:** The dashboard will be unavailable during this window.
+
+Please save all unsaved work before the maintenance begins. Service will resume automatically once the updates are complete.
+
+Thank you for your patience.
+
+Best regards,
+
+The Administration Team

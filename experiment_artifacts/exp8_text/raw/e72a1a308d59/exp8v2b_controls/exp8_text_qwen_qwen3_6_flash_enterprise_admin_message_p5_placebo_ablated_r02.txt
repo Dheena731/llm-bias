@@ -1,0 +1,12 @@
+**Subject:** Upcoming Email System Migration – Important Notice
+
+Dear Team,
+
+Our company email system will migrate to a new platform on [Date] beginning at [Time]. You may experience a brief service interruption during the transition. 
+
+All existing messages, contacts, and calendar events will transfer automatically. No action is required before the migration date. Once the switch is complete, please sign in with your usual username and password, and verify that your folders and settings appear correctly.
+
+For assistance or if you notice any issues after [Date], please contact IT Support at [email address] or [phone number]. Thank you for your cooperation as we upgrade our email services.
+
+Best regards,  
+[Your Name/IT Department]

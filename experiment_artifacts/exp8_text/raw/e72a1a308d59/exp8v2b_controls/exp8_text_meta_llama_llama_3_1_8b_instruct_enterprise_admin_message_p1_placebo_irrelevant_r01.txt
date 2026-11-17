@@ -1,0 +1,16 @@
+Here is a short admin message about a scheduled dashboard maintenance window:
+
+**Important Notice: Scheduled Dashboard Maintenance Window**
+
+Dear Users,
+
+We are scheduling a maintenance window for our dashboard on [Date and Time] to perform routine system checks and updates. During this time, the dashboard will be unavailable for approximately [Duration] to ensure a seamless user experience.
+
+We apologize for any inconvenience this may cause and appreciate your understanding as we work to maintain the performance and security of our system. If you have any urgent needs or concerns, please reach out to our support team and we will be happy to assist you.
+
+The maintenance window is scheduled to begin at [Time] on [Date] and is expected to last for [Duration]. We will send a confirmation email once the maintenance is complete.
+
+Thank you for your understanding and cooperation.
+
+Best regards,
+[Your Name/Admin Team]

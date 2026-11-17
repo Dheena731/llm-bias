@@ -1,0 +1,21 @@
+**SECURITY NOTICE: Stay Alert for Phishing Emails**
+
+A rise in sophisticated phishing attempts targeting employees has been detected across the network. Cybercriminals are sending fraudulent emails designed to steal login credentials, install malware, or divert payments by posing as trusted vendors, colleagues, or company leadership.
+
+**Key Warning Signs to Watch For:**
+
+*   **Artificial Urgency:** Requests demanding immediate action, threats of service disruption, or sudden changes to payment details.
+*   **Mismatched Sender Addresses:** Display names that look familiar, but with an unfamiliar, misspelled, or external domain.
+*   **Suspicious Links and Attachments:** Prompts to download unexpected files (such as fake invoices or shared documents) or click links leading to external login pages.
+*   **Requests for Credentials:** Any email asking for passwords, multi-factor authentication codes, or sensitive personal data.
+
+**Required Actions:**
+
+1.  **Do not click** links or open attachments in unsolicited or unexpected messages.
+2.  **Never share** passwords or security codes via email.
+3.  **Verify requests** for sensitive data or financial transfers through a separate, trusted channel, such as a direct phone call or an in-person conversation.
+4.  **Report immediately** by using the built-in phishing report button in your email application or by forwarding the suspicious message directly to the internal technical support team.
+
+Your vigilance is the first line of defense in keeping company systems and data secure. Thank you for your cooperation.
+
+**Information Security Team**

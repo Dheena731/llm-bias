@@ -1,0 +1,3 @@
+**Quarterly Access Review**
+
+Administrators must review user access to systems, applications, and shared resources each quarter. Confirm that permissions remain appropriate, remove unnecessary access, and report any discrepancies to the security team promptly. Please complete the review by the end of the current quarter.

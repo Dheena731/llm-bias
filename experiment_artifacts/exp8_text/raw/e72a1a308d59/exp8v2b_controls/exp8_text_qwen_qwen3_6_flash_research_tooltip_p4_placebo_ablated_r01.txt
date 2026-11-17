@@ -1,0 +1,1 @@
+Indicates that the value is unavailable, unknown, or not recorded. This marker denotes the absence of data, not a value of zero.

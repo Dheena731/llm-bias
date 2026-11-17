@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter:
+
+"Filter by Category: Select specific data points to view based on predefined categories. This allows for the exclusion or inclusion of data based on relevant criteria, facilitating focused analysis and comparison of subsets within the dataset."

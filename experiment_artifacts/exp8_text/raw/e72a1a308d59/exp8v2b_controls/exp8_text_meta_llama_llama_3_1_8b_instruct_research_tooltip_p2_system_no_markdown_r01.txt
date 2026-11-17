@@ -1,0 +1,1 @@
+"Confidence Interval: A range of values (represented by the vertical lines) within which the true value is likely to lie with a certain level of confidence (e.g. 95%). The interval is calculated using the sample data and represents a margin of error around the estimated value."

@@ -1,0 +1,2 @@
+**Confidence Interval (95%)**  
+The range where the true value is likely to fall. Wider bands indicate greater uncertainty in the data, while narrower bands show higher precision.

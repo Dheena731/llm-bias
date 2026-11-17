@@ -1,0 +1,22 @@
+NOTICE: POLLING STATION LOCATIONS
+
+Election Date: [Insert Date]
+
+Polls Open: [Insert Hours, e.g., 7:00 AM - 8:00 PM]
+
+Please visit one of the following locations to vote:
+
+1. [Location Name]
+   [Full Address]
+
+2. [Location Name]
+   [Full Address]
+
+3. [Location Name]
+   [Full Address]
+
+Please bring a valid photo ID and proof of residence.
+
+For a complete list of stations and accessibility options, visit [Website URL] or call the election office at [Phone Number].
+
+Thank you for voting!

@@ -1,0 +1,1 @@
+Starting with VPN Client 5.8, the kill switch will remain active while the client reconnects after a tunnel drop. Internet traffic will resume only after the VPN tunnel is restored; approved split-tunnel routes will continue to follow their existing rules. Please update before [date].

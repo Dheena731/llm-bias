@@ -1,0 +1,6 @@
+**Missing value**
+No data was recorded for this field. It may not have been collected, not applied, or was lost. This is different from zero or an empty entry.
+
+A shorter version, if space is tight:
+
+**Missing value:** No data available for this field. This is not the same as zero.

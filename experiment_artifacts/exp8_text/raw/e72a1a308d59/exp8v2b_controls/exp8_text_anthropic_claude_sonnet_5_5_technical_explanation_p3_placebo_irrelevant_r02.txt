@@ -1,0 +1,13 @@
+Software updates matter because they keep your devices secure, reliable, and useful.
+
+**Security.** Most updates include patches for vulnerabilities that attackers actively exploit. Once a flaw becomes public, criminals often race to take advantage of it, and anyone who hasn't updated is an easy target. Many large-scale breaches and ransomware attacks have succeeded through weaknesses for which fixes already existed.
+
+**Stability and bug fixes.** Updates correct crashes, data-loss errors, battery drain, and other problems that developers discover after release. Staying current usually means fewer frustrating glitches.
+
+**Compatibility.** Apps, operating systems, and hardware change constantly. An outdated program may stop working with newer file formats, websites, or peripherals, while an updated one keeps pace.
+
+**New features and performance.** Updates often bring improvements you'd otherwise miss, from faster performance and better efficiency to new tools and accessibility options.
+
+**End of support.** Software eventually stops receiving updates altogether. Running unsupported versions leaves known flaws permanently unpatched, which is why upgrading before that point is important.
+
+Updates can be inconvenient, since they interrupt your work and occasionally introduce new quirks. Still, the risks of skipping them are generally much greater. Enabling automatic updates and restarting when prompted is one of the simplest and most effective ways to protect your data and keep your technology running well.

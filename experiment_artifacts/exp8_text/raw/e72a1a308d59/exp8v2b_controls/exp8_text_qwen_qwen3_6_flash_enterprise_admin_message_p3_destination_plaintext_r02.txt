@@ -1,0 +1,9 @@
+IMPORTANT NOTICE: VPN CLIENT UPDATE
+
+We are deploying an updated version of the VPN client to all connected devices. This release improves connection stability, strengthens security protocols, and optimizes overall network performance.
+
+The update will install automatically within the next 48 hours. Please restart your computer once to ensure the changes take full effect.
+
+If you encounter any connectivity issues after the update, contact IT Support at [insert contact info] or visit our internal help portal.
+
+Thank you for your prompt attention to this update.

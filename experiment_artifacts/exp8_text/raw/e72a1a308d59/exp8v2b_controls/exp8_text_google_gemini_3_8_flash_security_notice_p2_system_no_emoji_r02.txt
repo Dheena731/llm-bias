@@ -1,0 +1,25 @@
+**SECURITY NOTICE: Stay Alert for Phishing Emails**
+
+**To:** All Staff  
+**From:** IT Security  
+**Date:** October 24, 2023  
+**Subject:** Recognizing and Reporting Phishing Attempts  
+
+Please remain vigilant when reviewing incoming emails. Cybercriminals frequently impersonate company leadership, vendors, or IT support to gain unauthorized access to company systems and sensitive data.
+
+**Key Warning Signs of Phishing:**
+*   **Urgent or threatening language:** Demands for immediate action, wire transfers, or gift card purchases.
+*   **Mismatched sender addresses:** Display names that do not match the actual email domain (e.g., John.Doe@company-support-mail.com instead of our official domain).
+*   **Unexpected attachments:** Files claiming to be invoices, shipping notices, or payroll updates you were not anticipating.
+*   **Requests for credentials:** Any prompt asking you to "verify" your password or login details via an external link.
+
+**What to Do:**
+1.  **Do not click** on any links or download attachments from suspicious or unverified emails.
+2.  **Do not reply** to the sender.
+3.  **Report the email immediately** using the "Report Phishing" button in your email client, or forward the message to it-security@company.com.
+
+When in doubt, verify requests directly with the sender through a separate, known communication channel (such as Teams, Slack, or a phone call).
+
+Thank you for helping keep our network secure.
+
+IT Security Team

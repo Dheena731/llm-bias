@@ -1,0 +1,3 @@
+**"Narrow results by criteria such as publication date, methodology, sample size, or access type."**
+
+*(Alternative if the filter specifically toggles dataset availability: **"Show only studies that include open, downloadable raw data."**)*

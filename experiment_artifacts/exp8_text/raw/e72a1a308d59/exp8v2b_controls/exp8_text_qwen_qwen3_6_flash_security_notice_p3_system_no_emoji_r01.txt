@@ -1,0 +1,16 @@
+NOTICE: WORKSTATION SECURITY REMINDER
+
+All staff are reminded to lock their computer screens immediately whenever leaving their desk, regardless of how brief the absence. Unlocked workstations create unnecessary security risks and may expose sensitive company and client data.
+
+Recommended locking methods:
+- Windows: Press the Windows key + L
+- macOS: Press Control + Command + Q
+- Mobile/Tablet devices: Enable automatic screen lock in system settings
+
+Please also configure your devices to activate auto-lock after 5 minutes of inactivity. Verify that these settings are enabled at your earliest convenience.
+
+Compliance with this procedure is mandatory for all company-issued equipment. For technical assistance or reporting issues, contact the IT Help Desk at extension 5000 or submit a ticket through the internal portal.
+
+Thank you for your cooperation in maintaining a secure work environment.
+
+Information Security Team

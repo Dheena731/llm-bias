@@ -1,0 +1,21 @@
+**Subject: Security Notice: Do Not Reuse Passwords**
+
+Team,
+
+We are reminding everyone to avoid reusing passwords across work and personal accounts. When a password is used on multiple sites, a breach at any one of them can expose our systems to attackers.
+
+**Please follow these practices:**
+
+- **Use a unique password** for every work account.
+- **Never reuse** a work password on personal sites, email, or social media.
+- **Use the company password manager** to generate and store strong passwords.
+- **Enable multi-factor authentication (MFA)** wherever it is available.
+- **Report suspicious activity** immediately, including unexpected login prompts or password reset emails you did not request.
+
+If you think a password you use for work may have been exposed, change it right away and contact the IT Security team at [contact information].
+
+Thank you for helping keep our systems and data secure.
+
+[Name]
+[Title]
+IT Security

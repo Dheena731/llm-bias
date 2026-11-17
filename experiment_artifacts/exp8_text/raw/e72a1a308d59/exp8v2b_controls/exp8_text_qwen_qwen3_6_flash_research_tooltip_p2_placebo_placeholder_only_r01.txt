@@ -1,0 +1,1 @@
+This range estimates where the true population value likely falls, accounting for natural sampling variation. Wider intervals indicate greater uncertainty around the central measurement.

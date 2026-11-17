@@ -1,0 +1,21 @@
+**Subject: Quarterly Access Review: Action Required by [Date]**
+
+Hello all,
+
+This is a reminder that the quarterly access review for [System/Application Name] begins on [Start Date] and must be completed by [Deadline].
+
+**What you need to do:**
+1. Review the access list for your team, available in [location/tool].
+2. Confirm that each user still requires their current permissions.
+3. Flag any access that is no longer needed or appears incorrect.
+4. Submit your review by [Deadline] through [submission method].
+
+Access that is not confirmed by the deadline may be suspended until the review is complete.
+
+If you have questions, contact [name/team] at [email or extension].
+
+Thank you for your prompt attention to this task.
+
+[Your Name]
+[Title]
+[Department]

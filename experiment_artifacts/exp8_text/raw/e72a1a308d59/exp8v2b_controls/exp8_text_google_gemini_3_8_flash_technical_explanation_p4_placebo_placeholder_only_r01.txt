@@ -1,0 +1,11 @@
+Caching speeds up a website by storing copies of frequently accessed files and data in temporary, high-speed storage locations so the server does not have to recreate or retransmit them for every visit.
+
+When a user visits an uncached website, the hosting server must process the request from scratch: it executes code, runs database queries, gathers images, and transmits all the data across the internet to the user's screen. This process consumes processing power and creates network delays.
+
+With caching implemented, this workflow is streamlined at multiple points:
+
+*   **Browser Caching:** The visitor's web browser saves static elements—such as images, stylesheets, and scripts—directly on their computer or mobile device. When returning to the site or browsing new pages that share those assets, the browser loads the files instantly from local storage instead of downloading them again.
+*   **Edge/CDN Caching:** Copies of the website are distributed to servers geographically closer to users around the world. Because the data has a shorter physical distance to travel across the network, latency drops significantly.
+*   **Server-Side Caching:** The origin server saves fully rendered pages or common database query results in its memory. When requests arrive, the server delivers the pre-built content instantly instead of re-running resource-heavy calculations.
+
+By cutting down data travel distance, eliminating repetitive processing, and reducing network bandwidth, caching allows web pages to load almost instantly for returning visitors and reduces the strain on the primary server.

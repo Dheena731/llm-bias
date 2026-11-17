@@ -1,0 +1,9 @@
+**Dataset filter**
+
+Narrow the results to records from specific datasets. Select one or more to include them. Leave all unselected to search across every available dataset. Changes apply immediately and can be cleared with "Reset filters."
+
+---
+
+**Shorter alternative (for tight spaces):**
+
+Limit results to selected datasets. If none are selected, all datasets are included.

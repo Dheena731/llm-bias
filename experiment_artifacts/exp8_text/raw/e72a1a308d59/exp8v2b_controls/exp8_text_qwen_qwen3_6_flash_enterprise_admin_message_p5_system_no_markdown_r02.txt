@@ -1,0 +1,8 @@
+Subject: Upcoming Email Migration Notice
+
+Dear Team,
+
+Please note that our email system will be migrating to a new platform on [Date] between [Start Time] and [End Time]. During this maintenance window, you may experience brief interruptions in sending and receiving messages. All existing emails, contacts, and calendar data will be securely transferred with no changes to your login credentials. Once the update is complete, you can simply continue using your usual email client. Should you encounter any issues during or after the transition, please reach out to the IT helpdesk at [Support Email or Phone Number]. We appreciate your cooperation as we upgrade to a faster and more secure messaging system.
+
+Sincerely,
+[Your Name or Department]

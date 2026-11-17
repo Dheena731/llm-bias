@@ -1,0 +1,22 @@
+Subject: Upcoming VPN Client Update
+
+Hello everyone,
+
+We are updating our VPN client to the latest version, which will roll out on Thursday, June 12, beginning at 8:00 PM. The update improves connection stability, speeds up reconnection after network interruptions, and includes important security patches.
+
+What you need to do:
+- Save your work and disconnect from the VPN before 8:00 PM on Thursday.
+- After the update, restart your computer if prompted. The new client will install automatically on company-managed devices.
+- Personal devices will need to download the new client from the IT portal.
+
+What to expect:
+- Your existing login credentials and settings will carry over.
+- The VPN may be briefly unavailable for about 30 minutes during the rollout.
+- The older client version will stop working after Monday, June 16.
+
+If you run into any problems connecting after the update, please contact the IT Help Desk at helpdesk@yourcompany.com or call extension 4357, and we will be glad to help.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+IT Support Team

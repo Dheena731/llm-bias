@@ -1,0 +1,26 @@
+**Feedback Note: Draft Literature Review (Section 2, "Remote Work and Employee Productivity")**
+
+**Overall impression:** The draft shows a clear grasp of the core debate and a sound selection of foundational studies. The main task now is to move from describing the literature to evaluating it and building a coherent argument from it.
+
+**Strengths**
+- The opening paragraph defines the key constructs (productivity, remote work, hybrid arrangements) and justifies the scope.
+- The inclusion of both pre-pandemic field experiments and post-2020 survey research is useful and well chosen.
+- The writing is clear, and most paragraphs have a clear topic sentence.
+
+**Key issues**
+1. **Summary rather than synthesis.** Several paragraphs proceed study by study ("Smith (2019) found... Jones (2021) found..."). Group studies by theme, mechanism, or methodological approach, and state what the body of work collectively shows.
+2. **Limited critical evaluation.** The review reports findings but rarely assesses them. Consider sample representativeness, self-reported productivity measures, and the confounding effect of the pandemic period. Where studies conflict, explain why.
+3. **Unclear gap.** The concluding paragraph says more research is needed but does not specify which gap your study addresses. State the gap explicitly and connect it to your research question.
+4. **Uneven coverage.** Almost all cited work comes from knowledge-work settings and high-income countries. Either acknowledge this as a limitation or bring in relevant studies from other contexts.
+
+**Minor points**
+- Check that all in-text citations appear in the reference list and vice versa; two entries are missing publication years.
+- Replace "very" and "a lot of" with more precise language.
+- The paragraph on hybrid models repeats material from the introduction; consolidate it.
+
+**Suggested next steps**
+- Restructure Section 2 into three thematic subsections: (a) measured productivity outcomes, (b) mediating factors such as autonomy and communication, and (c) methodological limitations.
+- Add a short synthesis paragraph at the end of each subsection.
+- Revise the closing paragraph to state the specific gap and how your study addresses it.
+
+I would be glad to review the full draft if you share it.

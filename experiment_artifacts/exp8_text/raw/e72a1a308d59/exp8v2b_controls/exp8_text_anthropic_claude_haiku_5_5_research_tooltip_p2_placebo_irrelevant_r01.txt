@@ -1,0 +1,1 @@
+A 95% confidence interval shows the range where the true value likely falls. If the study were repeated many times, about 95% of such ranges would contain the real average.

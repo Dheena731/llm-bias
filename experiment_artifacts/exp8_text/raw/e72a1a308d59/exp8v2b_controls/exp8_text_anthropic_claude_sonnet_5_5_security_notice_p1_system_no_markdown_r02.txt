@@ -1,0 +1,19 @@
+SECURITY NOTICE: Do Not Reuse Passwords
+
+To: All Employees
+From: Information Security Team
+Subject: Password Reuse Puts Our Company at Risk
+
+Reusing the same password across multiple accounts is one of the most common ways attackers gain access to company systems. When a password from a personal website or app is exposed in a data breach, criminals try it on work email, VPNs, and cloud services. If you have reused it, one breach can become many.
+
+What we need you to do:
+
+Use a unique password for every work account, and never use your work password on a personal account. Make passwords long, ideally a passphrase of four or more unrelated words. Store them in the company-approved password manager rather than in a notebook, spreadsheet, or browser. Turn on multi-factor authentication wherever it is available. Change any password immediately if you suspect it has been exposed.
+
+If you receive a breach alert about a personal account that may share a password with a work account, contact the IT Help Desk right away so we can help secure your credentials.
+
+Questions or need help setting up the password manager? Reach out to the IT Help Desk at helpdesk@company.example or ext. 4357.
+
+Thank you for helping keep our company and our colleagues safe.
+
+Information Security Team

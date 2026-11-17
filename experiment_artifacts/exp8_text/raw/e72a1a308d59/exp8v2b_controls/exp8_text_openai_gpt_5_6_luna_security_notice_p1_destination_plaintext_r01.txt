@@ -1,0 +1,1 @@
+Security Notice: Never reuse your work password for personal accounts or other services. Use a unique, strong password for every account and store them in an approved password manager. Enable multi-factor authentication where available. If you have reused your work password, change it immediately and notify IT.

@@ -1,0 +1,13 @@
+**Notice: How to Report a Lost or Stolen Company Laptop**
+
+If you lose a company laptop or believe it has been stolen, report it to the IT Service Desk immediately, even if you are not certain it is gone. Prompt reporting lets IT lock the device and protect company and customer data.
+
+**What to do:**
+
+1. **Report right away.** Contact the IT Service Desk by phone or through the internal ticketing system. Do not wait to see if the laptop turns up.
+2. **Tell your manager.** Let your direct manager know as soon as possible.
+3. **Provide key details.** Include the asset tag or serial number if you have it, when and where you last had the laptop, and whether it was stolen or simply lost.
+4. **File a police report if it was stolen.** Keep the report number and send it to the IT Service Desk.
+5. **Do not try to recover data yourself.** Leave the security steps to IT.
+
+IT will work to remotely lock or wipe the device and will review any data exposure. Please cooperate fully with any follow-up questions. Reporting a loss promptly is an important part of keeping company information secure.

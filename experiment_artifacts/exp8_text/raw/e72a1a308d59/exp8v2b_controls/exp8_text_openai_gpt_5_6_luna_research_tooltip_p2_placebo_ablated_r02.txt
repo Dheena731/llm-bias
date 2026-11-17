@@ -1,0 +1,1 @@
+**Confidence interval:** The shaded range shows uncertainty around the estimate. A 95% interval is designed so that, across many similar samples, 95% of intervals would contain the true value.

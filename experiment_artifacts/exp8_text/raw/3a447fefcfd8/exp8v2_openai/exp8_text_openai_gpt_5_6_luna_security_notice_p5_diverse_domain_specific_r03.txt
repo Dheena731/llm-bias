@@ -1,0 +1,5 @@
+**Lost Company Laptop — Report Immediately**
+
+If a company laptop is missing, contact the IT Service Desk and your manager as soon as you notice—do not wait until the end of the day. Include the laptop’s asset tag, your last known location and time, and whether it may have been stolen.
+
+IT will suspend access, revoke active sessions, and attempt a remote lock or wipe. Do not try to recover the device yourself or disclose company data to anyone who claims to have found it. If theft is suspected, file a police report and send the report number to Information Security.

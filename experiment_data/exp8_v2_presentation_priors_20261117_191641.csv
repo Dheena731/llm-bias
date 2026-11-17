@@ -1,0 +1,1 @@
+artifact_id,timestamp,run_id,config_hash,track,model,provider,model_family,route_stage_label,stage_provenance,prompt_family,domain,condition,run,prompt,raw_output_path,error,feature_json,prompt_id,system_prompt,served_provider,finish_reason,reasoning_tokens,max_tokens_used

@@ -1,0 +1,1 @@
+"This shaded area represents a 95% confidence interval, which means that if we repeated this study many times, we would expect the true value to fall within this range about 95% of the time. It gives an estimate of the uncertainty around the displayed average value."

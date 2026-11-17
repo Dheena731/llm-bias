@@ -1,0 +1,25 @@
+**IMPORTANT: Protecting Yourself From Phishing Emails**
+
+Phishing emails are designed to trick you into revealing passwords, financial details, or other sensitive information, or into clicking malicious links and opening infected attachments. They often look like they come from a colleague, a manager, IT, a bank, or a familiar vendor.
+
+**Watch for these warning signs:**
+- Urgent or threatening language, such as "Your account will be closed today"
+- Requests for passwords, login details, or payment changes
+- Unexpected attachments or links
+- Sender addresses that are slightly off (for example, "support@micros0ft-help.com")
+- Greetings that are generic, such as "Dear user"
+- Typos or unusual formatting
+
+**What to do:**
+- Do not click links or open attachments in suspicious emails.
+- Verify any unusual request by contacting the sender through a known phone number or in person, not by replying to the email.
+- Report suspicious emails to the IT Service Desk using the "Report Phishing" button or by forwarding them to [IT security address].
+- If you have already clicked a link or entered credentials, report it immediately. Quick reporting limits the damage.
+
+IT will never ask for your password by email. When in doubt, ask first and click later.
+
+Thank you for helping keep our organization secure.
+
+[Name]
+[Title]
+[Department]

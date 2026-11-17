@@ -3,8 +3,8 @@
     "nonpictographic_only_noncompliant": 14,
     "noncompliant_total": 523,
     "social_l0_emoji_rate_by_model": {
-      "Gemini 2.5 Flash": 0.975,
       "GLM-4.5 Air": 0.9416666666666667,
+      "Gemini 2.5 Flash": 0.975,
       "GPT-3.5-Turbo": 0.9666666666666667
     },
     "cells": [
@@ -536,7 +536,7 @@
   },
   "spillover": [
     {
-      "study": "Study 4",
+      "study": "Pilot",
       "model": "Llama 3.1 8B",
       "control": "Do not use emoji.",
       "n_each": 24,
@@ -548,7 +548,7 @@
       "words_control": 117.08333333333333
     },
     {
-      "study": "Study 4",
+      "study": "Pilot",
       "model": "Llama 3.3 70B",
       "control": "Do not use emoji.",
       "n_each": 24,
@@ -560,7 +560,7 @@
       "words_control": 87.625
     },
     {
-      "study": "Study 4",
+      "study": "Pilot",
       "model": "Qwen 2.5 7B",
       "control": "Do not use emoji.",
       "n_each": 24,
@@ -572,7 +572,7 @@
       "words_control": 107.95833333333333
     },
     {
-      "study": "Study 4",
+      "study": "Pilot",
       "model": "Qwen 3.6 Flash",
       "control": "Do not use emoji.",
       "n_each": 24,

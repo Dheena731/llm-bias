@@ -1,0 +1,18 @@
+**Notice: Turn On Two-Factor Authentication (2FA)**
+
+**Action required:** Please enable two-factor authentication on your account by **[date]**.
+
+**What it is:** Two-factor authentication adds a second step when you sign in. After entering your password, you will also enter a one-time code or approve a prompt on your phone. This means that someone who learns your password still cannot get into your account.
+
+**How to enable it:**
+1. Sign in and open **Account Settings**.
+2. Select **Security**, then **Two-Factor Authentication**.
+3. Choose how you want to receive your second step: an authenticator app (recommended) or text message.
+4. Follow the on-screen instructions to confirm your choice.
+5. Save the backup codes shown at the end and store them somewhere safe, such as a password manager or a locked drawer. You can use them to sign in if you lose your phone.
+
+**What to expect:** Setup takes about five minutes. After that, you will be asked for your second step when you sign in on a new device or after you have been signed out.
+
+**Need help?** Contact the Help Desk at **[email/phone]**. We will never ask you for your password or your one-time codes, so do not share them with anyone.
+
+Thank you for helping keep your account secure.

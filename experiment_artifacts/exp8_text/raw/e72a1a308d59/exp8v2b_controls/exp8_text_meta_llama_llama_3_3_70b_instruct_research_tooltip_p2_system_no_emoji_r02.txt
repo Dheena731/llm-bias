@@ -1,0 +1,1 @@
+"This range represents the confidence interval, indicating the probability that the true value falls within this interval. In this case, we are [X]% confident that the true [value/measure] lies between [lower bound] and [upper bound]."

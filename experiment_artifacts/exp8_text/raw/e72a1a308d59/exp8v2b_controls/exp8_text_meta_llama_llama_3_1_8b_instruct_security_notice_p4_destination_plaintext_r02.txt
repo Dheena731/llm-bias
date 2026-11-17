@@ -1,0 +1,3 @@
+Here is a short notice about enabling two-factor authentication that can be pasted into a plain-text field:
+
+"Enabling two-factor authentication (2FA) is a simple step to add an extra layer of security to your account. To enable 2FA, go to your account settings and follow the instructions to set up a secondary form of verification, such as a code sent to your phone or a biometric scan. This will require a second step to log in to your account, making it much harder for unauthorized users to access your account even if they have your password. We highly recommend enabling 2FA to protect your account and sensitive information."

@@ -1,0 +1,1 @@
+“Shows the 95% confidence interval: the range where we’re 95% confident the true value falls. Wider intervals indicate greater uncertainty.”

@@ -1,0 +1,5 @@
+**Expense approval workflow update**
+
+Effective **[date]**, all employee expenses must be submitted in **[expense system]** within **10 business days** of purchase. Receipts are required for expenses over **$25**. Requests will route first to the employee’s **cost-center manager**, then to **Finance** when they exceed the department approval threshold.
+
+Please do not email receipts or request reimbursement outside the system. Expenses submitted under the old process may be returned for resubmission.

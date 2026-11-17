@@ -1,0 +1,4 @@
+Here is a concise tooltip explaining what a missing-value marker means:
+
+Missing-value marker: 
+Indicates a data point that has not been recorded or is unknown. This marker is used in place of the actual value to preserve the integrity of the data set and to avoid incorrect calculations or inferences.

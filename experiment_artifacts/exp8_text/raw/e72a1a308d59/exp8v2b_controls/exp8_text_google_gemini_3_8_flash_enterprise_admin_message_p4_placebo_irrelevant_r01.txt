@@ -1,0 +1,29 @@
+**Subject: ACTION REQUIRED: Q3 User Access Review Begins Today**
+
+**To:** All System Owners, Department Heads, and People Managers  
+**From:** IT Security & Compliance  
+**Date:** October 1, 2024  
+**Deadline:** Friday, October 18, 2024, at 5:00 PM EST  
+
+---
+
+As part of our ongoing commitment to security and regulatory compliance, the **Q3 User Access Review** is now officially open. 
+
+Periodic access reviews ensure that employees, contractors, and third parties have only the permissions necessary to perform their current job duties (Principle of Least Privilege).
+
+### What You Need to Do:
+
+1. **Access the Review Portal:** Log in to the [Access Management Dashboard](https://example.com) to view your pending reviews.
+2. **Review Permissions:** Examine the list of users currently assigned to your team or system(s).
+3. **Approve or Revoke:** 
+   * **Approve** users who still require their current level of access.
+   * **Revoke** or flag access for individuals who have changed roles, transferred departments, or no longer need the system.
+4. **Submit:** Confirm and submit your review before the deadline.
+
+### Key Reminders:
+* **Failure to Review:** Per company policy, unconfirmed access may be temporarily suspended after the deadline until verified.
+* **Transfers & Terminations:** Please ensure any offboarding or role-change requests not previously reported are addressed immediately.
+
+If you have questions, need to delegate review responsibilities, or encounter issues with the portal, please contact the IT Security team at **security@example.com** or via Slack at **#it-security-help**.
+
+Thank you for your prompt attention to maintaining our organization’s security.

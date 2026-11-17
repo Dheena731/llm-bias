@@ -1,0 +1,1 @@
+Select a start and end date to show data only for that period. Both dates are included.

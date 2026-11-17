@@ -1,0 +1,1 @@
+A confidence interval shows the range where the true average likely falls. Narrower bars mean more precise estimates; wider bars mean more uncertainty.

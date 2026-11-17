@@ -1,0 +1,2 @@
+**Confidence Interval**  
+The estimated range where the true value is expected to fall. A wider range indicates greater uncertainty in the data.

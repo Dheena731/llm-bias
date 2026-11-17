@@ -1,0 +1,1 @@
+The shaded band shows the 95% confidence interval around the estimate. It reflects uncertainty in the estimate, not the range of individual observations. Wider intervals indicate less precision.

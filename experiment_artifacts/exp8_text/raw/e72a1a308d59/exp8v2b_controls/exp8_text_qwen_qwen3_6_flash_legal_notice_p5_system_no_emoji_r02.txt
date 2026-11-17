@@ -1,0 +1,14 @@
+NOTICE OF ACCEPTABLE USE FOR SHARED NETWORK INFRASTRUCTURE
+
+This Notice governs the authorized use of the shared network system and all associated digital resources. Access, connection, or utilization of this network constitutes explicit consent to the terms outlined herein.
+
+Authorized Use. Network privileges are granted exclusively for lawful activities consistent with institutional or organizational objectives, including legitimate professional communication, data processing, and educational functions. Bandwidth allocation is intended for reasonable, task-related usage.
+
+Prohibited Conduct. Users shall not engage in activities that compromise system integrity, circumvent security controls, distribute malicious software, harvest unauthorized data, consume excessive bandwidth for non-essential purposes, or transmit material that violates applicable federal, state, or local law. Unauthorized credential sharing, configuration tampering, and commercial resale of network access are strictly forbidden.
+
+Monitoring and Privacy. The network administrator retains full authority to inspect, log, filter, and record all traffic and communications traversing this infrastructure for security, compliance, and operational maintenance. Users acknowledge that shared network environments do not confer a reasonable expectation of privacy.
+
+Enforcement and Liability. Violations may result in immediate termination of network access, administrative discipline, civil recovery of damages, and referral for criminal prosecution where statutory thresholds are met. Continued use following publication of this Notice signifies unconditional acceptance of its provisions.
+
+Effective Date: [Insert Date]
+Policy Administration: [Insert IT/Compliance Office Contact]

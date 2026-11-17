@@ -1,0 +1,25 @@
+**Enhance Your Account Security with Two-Factor Authentication**
+
+To add an extra layer of protection to your account, we're reminding you to enable two-factor authentication (2FA). This feature adds an additional step to the login process, requiring you to provide a verification code sent to your registered device or phone, in addition to your password.
+
+**Why Enable 2FA?**
+
+*   Enhance account security and reduce the risk of unauthorized access
+*   Prevent identity theft and cyber attacks
+*   Comply with industry standards and regulations for data protection
+
+**How to Enable 2FA:**
+
+1.  Log in to your account and navigate to the account settings or security options
+2.  Look for the 2FA section and follow the prompts to set up the feature
+3.  Choose a verification method: authenticator app, SMS, or voice call
+4.  Enter the verification code sent to your registered device or phone
+
+**What to Expect:**
+
+*   A second step in the login process, requiring a verification code
+*   A more secure account with reduced risk of unauthorized access
+
+**Need Help?**
+
+If you have any questions or need assistance with setting up 2FA, please contact our support team for guidance. We're here to help you enhance your account security and protect your data.

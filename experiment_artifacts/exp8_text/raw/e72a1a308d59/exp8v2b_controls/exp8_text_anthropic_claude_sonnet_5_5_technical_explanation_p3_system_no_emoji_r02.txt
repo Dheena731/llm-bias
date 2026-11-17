@@ -1,0 +1,15 @@
+Software updates matter for several practical reasons.
+
+**Security.** Most updates include patches for vulnerabilities that attackers could exploit to steal data, install malware, or take control of a device. Once a flaw is publicly known, unpatched systems become easy targets.
+
+**Bug fixes.** Updates correct errors that cause crashes, data loss, or odd behavior, which makes the software more reliable and stable.
+
+**Performance.** Developers often optimize code over time, which can improve speed, reduce battery drain, and make better use of system resources.
+
+**New features.** Updates can add capabilities or refine the interface, so you get more value from the software without buying anything new.
+
+**Compatibility.** As operating systems, hardware, and web standards change, older software can stop working properly. Updates keep applications working with the other tools you rely on.
+
+**Continued support.** Vendors eventually stop supporting old versions. Staying current ensures you still receive fixes and help when problems arise.
+
+Delaying updates may feel convenient, but it leaves known weaknesses open and can make later upgrades more disruptive. Enabling automatic updates is usually the simplest way to stay protected.

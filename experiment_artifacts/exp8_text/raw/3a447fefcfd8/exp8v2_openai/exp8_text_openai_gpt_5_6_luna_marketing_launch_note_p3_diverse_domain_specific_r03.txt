@@ -1,0 +1,5 @@
+**New: A budgeting spreadsheet built for real paychecks**
+
+This template helps you plan around paydays—not just calendar months. Enter your income, fixed bills, variable spending, debt payments, and sinking funds in one place, then see what’s safe to spend before the next deposit. It includes automatic category rollovers, irregular-expense tracking, a debt payoff view, and a monthly dashboard that compares your plan with actual spending.
+
+Works in Google Sheets and Excel.

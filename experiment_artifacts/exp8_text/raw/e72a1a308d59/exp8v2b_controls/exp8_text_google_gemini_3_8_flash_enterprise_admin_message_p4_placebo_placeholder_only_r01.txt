@@ -1,0 +1,13 @@
+**Subject:** Action Required: Quarterly Access Review
+
+The quarterly access review cycle is now open. In accordance with organizational security policies, all team managers and system administrators must audit and recertify system permissions for their personnel.
+
+Please log in to the access management dashboard to review all assigned roles, privileges, and active accounts under your supervision. During this review:
+
+* Confirm that current access levels match each user’s existing job responsibilities.
+* Flag and revoke permissions that are no longer required.
+* Identify and disable any inactive or orphan accounts.
+
+Complete and submit your access certifications within two weeks of receiving this notice. Timely completion is required to satisfy regulatory and compliance standards. Accounts with unconfirmed access past this deadline may be subject to administrative suspension.
+
+Contact the Information Security team with any questions regarding the review process.

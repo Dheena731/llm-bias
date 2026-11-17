@@ -1,0 +1,1 @@
+Never reuse your work password for personal accounts or other services. If one account is compromised, attackers may use the same password to access company systems. Use a unique password for every account and store passwords securely in an approved password manager.

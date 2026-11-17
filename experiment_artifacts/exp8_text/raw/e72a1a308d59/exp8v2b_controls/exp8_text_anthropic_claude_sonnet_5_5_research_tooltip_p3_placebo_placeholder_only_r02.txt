@@ -1,0 +1,2 @@
+**Date range**
+Choose a start and end date to filter results. Click one date, then another to set the range. The start and end dates are both included. To clear the range, select Reset.

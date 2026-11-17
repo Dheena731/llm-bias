@@ -1,0 +1,3 @@
+Subject: Notice: Scheduled Email Migration
+
+Please be advised that our email system will undergo a scheduled migration on [Date] between [Start Time] and [End Time]. During this window, you may experience brief interruptions to email delivery, syncing, or web access. We recommend saving any unsent drafts and verifying your login credentials once services are restored. If you encounter any issues after the migration, please contact the IT Help Desk at [Contact Information]. Thank you for your patience as we upgrade our communication infrastructure.

@@ -1,0 +1,22 @@
+**Subject: Action Required: Enable Two-Factor Authentication (2FA)**
+
+**Dear [Team/Users],**
+
+To enhance account security and protect sensitive data, **two-factor authentication (2FA) is now required for all accounts.**
+
+Please enable 2FA on your profile by **[Date/Time]**. This additional verification step ensures that only authorized users can access your account, significantly reducing the risk of unauthorized access.
+
+**How to Set Up 2FA:**
+1. Log in to your account and go to **Settings > Security**.
+2. Select **Enable Two-Factor Authentication**.
+3. Follow the prompts to scan the QR code with your authenticator app or register your mobile number.
+
+**Need Help?**
+If you have trouble setting this up, please visit our [Quick Start Guide Link] or contact [IT Support/Help Desk] at [Email/Phone].
+
+Thank you for your cooperation in keeping our systems secure.
+
+Best regards,
+
+**[Your Name/Department]**  
+[Organization Name]

@@ -1,0 +1,21 @@
+**Subject: Scheduled Dashboard Maintenance This Saturday**
+
+Hello everyone,
+
+The analytics dashboard will be offline for scheduled maintenance this Saturday from 10:00 PM to 12:00 AM UTC. During this window, we'll be applying performance upgrades and security patches.
+
+**What to expect:**
+- The dashboard will be unavailable for the full two hours.
+- Scheduled reports set to run during this time will be delayed and will run automatically once service resumes.
+- Data collection will continue in the background, so no data will be lost.
+
+**What you need to do:**
+- Export or save any work in progress before 10:00 PM UTC on Saturday.
+- Plan any urgent reporting needs around this window.
+
+We'll post a confirmation in the admin channel as soon as the dashboard is back online. If you notice any issues after maintenance ends, please contact the support team and include a brief description and a screenshot if possible.
+
+Thank you for your patience as we keep the platform fast and secure.
+
+Best regards,
+The Platform Administration Team

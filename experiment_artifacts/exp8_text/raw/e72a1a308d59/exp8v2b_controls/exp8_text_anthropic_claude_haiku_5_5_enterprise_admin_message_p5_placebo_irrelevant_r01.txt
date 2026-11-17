@@ -1,0 +1,20 @@
+Here's a short message you could send to staff about an upcoming email migration:
+
+**Subject: Upcoming Email System Migration**
+
+Hello everyone,
+
+We will be migrating our email system to a new platform on **Saturday, March 15, starting at 6:00 PM**. The process is expected to take about four hours, and email may be unavailable or delayed during that time.
+
+**What you need to do:**
+- Save any drafts and finish sending urgent emails before 6:00 PM on March 15.
+- Log out of email on all devices before the migration begins.
+- Once the migration is complete, you'll receive an email with instructions for logging into the new system.
+
+Your existing contacts, calendar entries, and folders will be transferred automatically. If you notice any issues after the migration, please contact the IT Help Desk at helpdesk@example.com or extension 4357.
+
+Thank you for your patience as we upgrade our systems.
+
+Best regards,
+[Your Name]
+IT Department

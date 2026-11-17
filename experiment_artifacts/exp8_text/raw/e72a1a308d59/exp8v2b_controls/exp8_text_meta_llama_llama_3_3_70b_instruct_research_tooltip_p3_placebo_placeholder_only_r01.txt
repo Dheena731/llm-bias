@@ -1,0 +1,1 @@
+Select a start and end date to define a range. Click on the calendar to choose dates, or use the navigation arrows to move between months. The selected range will be applied to filter the data.

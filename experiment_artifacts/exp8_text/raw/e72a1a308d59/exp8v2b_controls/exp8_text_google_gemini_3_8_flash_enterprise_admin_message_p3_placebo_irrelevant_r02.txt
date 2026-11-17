@@ -1,0 +1,19 @@
+**Subject:** Action Required: Upgrading to our new VPN client by [Date]
+
+Hi Team,
+
+To improve connection stability and enhance our security, we are transitioning from [Current VPN Client] to **[New VPN Client Name]**, effective **[Date]**. 
+
+After this date, the old VPN client will no longer be supported.
+
+**What you need to do:**
+1. **Install:** Open [Company Portal / Software Center] on your device and install **[New VPN Client Name]**. 
+2. **Log in:** Launch the app and sign in using your standard company credentials (SSO).
+3. **Test:** Connect to the VPN to ensure everything works properly before the deadline.
+
+For step-by-step instructions, please see our [Installation Guide Link]. 
+
+If you encounter any issues during setup, reach out to the IT Support team at [Help Desk Contact/Email].
+
+Best regards,  
+**IT Operations Team**

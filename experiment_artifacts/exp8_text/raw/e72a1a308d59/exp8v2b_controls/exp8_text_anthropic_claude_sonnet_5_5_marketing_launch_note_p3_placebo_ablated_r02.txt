@@ -1,0 +1,26 @@
+# Introducing the Simple Monthly Budget Template
+
+Do you finish each month wondering where your money went? The Simple Monthly Budget Template is a ready-made spreadsheet that helps you plan your spending and see how your actual spending compares.
+
+**How it works**
+1. Enter your monthly income.
+2. Set a planned amount for each spending category, such as rent, groceries, transportation, and savings.
+3. Record your expenses as they happen.
+4. Check the summary tab to see how much you have left in each category.
+
+**What's included**
+- A monthly budget sheet with categories you can rename, add, or delete
+- An expense log for recording each purchase
+- A summary that updates automatically as you add expenses
+- A yearly overview showing your totals month by month
+
+**Who it's for**
+Anyone who wants a clear picture of their personal or household spending. No accounting or spreadsheet experience is needed, because the formulas are already built in.
+
+**Works with**
+Google Sheets and Microsoft Excel.
+
+**Availability**
+The template is available now at [link]. Download it, make a copy, and start your first budget today.
+
+Questions? Contact us at [email address].

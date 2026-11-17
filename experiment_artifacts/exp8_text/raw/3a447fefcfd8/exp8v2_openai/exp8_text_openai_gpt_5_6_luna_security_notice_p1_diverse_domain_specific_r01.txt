@@ -1,0 +1,5 @@
+**Password reuse can expose more than email**
+
+A password stolen from a personal shopping or social-media account may also unlock our email, VPN, project-management system, or payroll portal if you use the same one at work.
+
+Use a unique password for every work account. Store passwords in the company-approved password manager rather than in a spreadsheet or browser note. If you have reused a password, change the work account first and contact IT if you notice unexpected sign-ins or password-reset emails.

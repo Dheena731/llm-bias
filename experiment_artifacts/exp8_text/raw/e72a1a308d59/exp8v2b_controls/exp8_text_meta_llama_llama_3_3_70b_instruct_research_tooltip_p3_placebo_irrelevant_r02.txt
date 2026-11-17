@@ -1,0 +1,1 @@
+"Select a start and end date to define a range. Click on the calendar to choose dates, or use the arrows to navigate months. Your selected range will be used to filter [insert context, e.g. data, results, etc.]."

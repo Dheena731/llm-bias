@@ -1,0 +1,1 @@
+A confidence interval shows the range where the true value likely falls. Narrower intervals indicate greater precision.

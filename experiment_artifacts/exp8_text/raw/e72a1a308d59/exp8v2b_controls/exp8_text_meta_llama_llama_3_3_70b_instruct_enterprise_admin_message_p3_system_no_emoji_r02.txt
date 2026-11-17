@@ -1,0 +1,10 @@
+Dear All,
+
+We are writing to inform you that an update to the VPN client will be implemented on [date]. The new version will provide improved security and performance, and will be required for all remote access to the company network.
+
+Please note that you will be prompted to install the update when you next connect to the VPN. If you have any questions or concerns, please do not hesitate to reach out to the IT department for assistance.
+
+Thank you for your cooperation.
+
+Best regards,
+[Your Name]

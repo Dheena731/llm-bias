@@ -1,0 +1,1 @@
+"A confidence interval (shown as a shaded range) indicates the likely range of values within which a population parameter lies. In this chart, the interval suggests that we are 95% confident that the true value falls between the lower and upper bounds, giving you a sense of the estimate's precision."

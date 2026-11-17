@@ -1,0 +1,16 @@
+**Introducing BudgetBase: A Simple Spreadsheet for Taking Control of Your Money**
+
+We're excited to announce BudgetBase, a free, ready-to-use budgeting spreadsheet template designed for individuals and households who want a clear picture of where their money goes each month.
+
+BudgetBase comes preloaded with the essentials. Enter your monthly income, list your expenses by category, and the template calculates your totals and shows how much you have left over. You don't need any spreadsheet experience: just fill in the highlighted cells and the rest updates automatically.
+
+Key features include:
+
+- **Monthly income and expense tracking** with categories for housing, food, transportation, utilities, and savings.
+- **Automatic totals** that show your remaining balance at a glance.
+- **A savings tracker** to help you set a goal and monitor your progress toward it.
+- **Easy customization** so you can rename categories or add new ones to match your life.
+
+BudgetBase works in Google Sheets, Microsoft Excel, and Apple Numbers. Download it today and spend your first ten minutes setting up your budget. Once it's in place, updating it takes only a few minutes a week.
+
+**Get BudgetBase free at [link].**

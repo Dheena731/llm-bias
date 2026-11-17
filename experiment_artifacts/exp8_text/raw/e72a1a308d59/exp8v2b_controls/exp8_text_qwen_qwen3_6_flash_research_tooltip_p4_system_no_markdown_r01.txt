@@ -1,0 +1,1 @@
+Indicates that data for this point is unknown, unavailable, or intentionally omitted. Represents an absence of information rather than a zero value.

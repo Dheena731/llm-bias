@@ -1,0 +1,5 @@
+**Quarterly Access Review — Q2**
+
+Application owners must review user and group access in the identity portal by **June 28**. Confirm that each employee, contractor, and service account still requires its assigned roles—especially privileged access to production, finance, and customer-data systems.
+
+Remove access that is no longer needed and add a note for any exceptions. Managers will receive review tasks for their teams; unresolved items will be escalated after the deadline.

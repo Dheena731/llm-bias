@@ -1,0 +1,1 @@
+"Filter: Apply specific conditions to the data to narrow the selection. Select a column, choose an operator (e.g. 'is equal to', 'contains', etc.), and enter a value to create a custom filter."

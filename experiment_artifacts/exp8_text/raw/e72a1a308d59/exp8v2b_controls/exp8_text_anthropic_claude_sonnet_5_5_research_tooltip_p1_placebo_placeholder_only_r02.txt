@@ -1,0 +1,3 @@
+**Peer-reviewed only**
+
+Shows only records from journals that use independent expert review before publication. Preprints, conference abstracts, theses, and editorials are hidden. Turn this on for studies with established methodology; turn it off to include emerging work that hasn't yet been formally reviewed. Applying this filter may reduce your result count.

@@ -1,0 +1,20 @@
+Subject: Action Required: Quarterly User Access Review
+
+All System Owners and Department Managers,
+
+The quarterly user access review is now underway. In accordance with our security and compliance policies, all designated reviewers must audit user permissions within their respective departments and systems.
+
+Action Required:
+- Log in to the Access Management Portal.
+- Review current access levels for all direct reports and system users.
+- Approve valid access or submit revocation requests for individuals who have changed roles or left the company.
+
+Deadline: Please complete all reviews by Friday, October 20, at 5:00 PM.
+
+Timely completion is critical. Any unverified access after the deadline will be subject to temporary suspension. 
+
+If you have questions or require assistance, please contact the IT Security Helpdesk.
+
+Thank you for your support in keeping our systems secure.
+
+IT Security and Compliance Team

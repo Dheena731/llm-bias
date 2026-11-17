@@ -1,0 +1,18 @@
+Subject: Scheduled Dashboard Maintenance: Saturday, March 15, 2025
+
+Hello team,
+
+We will be performing scheduled maintenance on the dashboard platform this Saturday, March 15, from 10:00 PM to 1:00 AM (EST). During this window, the dashboard will be unavailable.
+
+What to expect:
+- Dashboard access will be offline for the duration of the maintenance window.
+- Scheduled data reports will be delayed and will run once the system is back online.
+- No action is required on your part.
+
+Please save any unsaved work and plan around this window. If you experience issues after maintenance is complete, contact the IT help desk at helpdesk@company.com.
+
+Thank you for your patience.
+
+Best regards,
+[Your Name]
+System Administration Team

@@ -1,0 +1,32 @@
+**Security Notice: Stop Reusing Passwords**
+
+**From:** Information Security Team
+**To:** All Employees
+
+**Why this matters**
+
+Reusing the same password across multiple accounts is one of the most common ways attackers gain access to company systems. When a password is exposed in a breach at an outside website, attackers automatically try that same email and password combination on corporate email, VPN, and cloud services. If you have reused it, they get in.
+
+**What we ask of you**
+
+- **Use a unique password for every account.** Never use your work password for personal accounts such as shopping, social media, or streaming services.
+- **Make passwords long.** A passphrase of four or more unrelated words is stronger and easier to remember than a short, complex string.
+- **Use the company-approved password manager.** It generates and stores unique passwords so you do not have to memorize them.
+- **Turn on multi-factor authentication** wherever it is available, especially for email and any system that holds customer or financial data.
+- **Change a password immediately** if you suspect it has been exposed, and report it to the Security Team right away.
+
+**What to avoid**
+
+- Adding a number or symbol to an old password and treating it as new
+- Saving passwords in spreadsheets, sticky notes, or unprotected files
+- Sharing passwords with colleagues, even people you trust
+
+**Reporting concerns**
+
+If you receive a suspicious login alert, a password reset you did not request, or a notice that your credentials appeared in a breach, contact the IT Help Desk or email the Security Team without delay. Reporting quickly limits damage, and no one will be penalized for raising a concern in good faith.
+
+Protecting our systems is a shared responsibility, and unique passwords are one of the simplest and most effective steps each of us can take.
+
+Thank you for your cooperation.
+
+*Information Security Team*

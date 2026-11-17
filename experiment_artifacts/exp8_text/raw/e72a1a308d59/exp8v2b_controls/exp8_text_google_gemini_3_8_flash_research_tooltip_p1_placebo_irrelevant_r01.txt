@@ -1,0 +1,13 @@
+Here are a few concise options depending on how specific the filter is:
+
+**General Filter (Best all-around):**
+> "Narrow results by study type, sample size, date range, or file format."
+
+**Data Availability Filter:**
+> "Show only studies with publicly accessible raw data files."
+
+**Date/Timeframe Filter:**
+> "Limit results to datasets collected or published within a specific date range." 
+
+*Microcopy tip (under 6 words):*
+> "Filter results by methodology and format."

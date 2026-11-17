@@ -1,0 +1,26 @@
+**Subject: Upcoming Email Migration – What You Need to Know**
+
+Hi everyone,
+
+We're migrating our email system to a new platform on **[date]**. Here's what to expect:
+
+**What's happening**
+- Migration will begin at **[time]** and should finish by **[time]**.
+- Your existing emails, folders, and calendar events will be transferred automatically.
+
+**What you need to do**
+- Before the migration: Clean out any unneeded emails and make sure you're signed out of mobile devices.
+- After the migration: Log in with your current username. You may be asked to reset your password and set up multi-factor authentication.
+- Re-add your account on your phone and any email apps.
+
+**Things to keep in mind**
+- You may experience brief delays in sending or receiving mail during the transition.
+- Shared mailboxes and distribution lists will be migrated as well.
+
+If you run into any issues, contact the IT Help Desk at **[email/phone]**. We'll also have extra support available on **[date]**.
+
+Thank you for your patience as we make this change.
+
+Best regards,
+**[Your Name]**
+[Your Title/Department]

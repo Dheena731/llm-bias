@@ -1,0 +1,1 @@
+Filters the dataset to show only records matching your selected criteria. This changes the current view, not the underlying data.

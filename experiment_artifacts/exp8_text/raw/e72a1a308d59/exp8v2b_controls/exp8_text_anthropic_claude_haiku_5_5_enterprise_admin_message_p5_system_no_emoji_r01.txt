@@ -1,0 +1,17 @@
+Subject: Upcoming Email Migration
+
+Hello team,
+
+We are migrating our email system to a new platform on [date]. Here is what you need to know:
+
+- **Timing:** The migration will begin at [time] and is expected to finish by [time]. Email may be unavailable during this window.
+- **Action required:** Please save any drafts and clear your outbox before the start time. No other action is needed on your part.
+- **After migration:** Your email address will stay the same. You may need to sign in again on your phone and other devices.
+
+If you have questions or notice any issues after the switch, contact the IT help desk at [contact information].
+
+Thank you for your patience as we make this change.
+
+Best regards,
+[Your name]
+[Your title]

@@ -1,0 +1,3 @@
+**Confidence Interval:** 
+
+Shows the range where the true value is likely to fall, accounting for statistical uncertainty. A narrower range indicates a more precise estimate.

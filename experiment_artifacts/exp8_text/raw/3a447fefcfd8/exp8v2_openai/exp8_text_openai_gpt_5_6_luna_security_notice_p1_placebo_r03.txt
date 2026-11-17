@@ -1,0 +1,5 @@
+**Security Notice: Don’t Reuse Passwords**
+
+Use a unique password for every work account and never reuse your work password on personal websites or other services. If one password is exposed, reused passwords can put multiple accounts at risk.
+
+Use an approved password manager to create and store strong, unique passwords. If you think a password has been exposed, change it immediately and report the issue to the IT or security team.

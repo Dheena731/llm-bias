@@ -1,0 +1,17 @@
+**Subject: Update on Delayed Payment Processing**
+
+Hi everyone,
+
+We're aware that some payments are currently taking longer than usual to process. The delay is due to a backlog in our payment system that developed after [recent event or system change]. Our team is working to clear the queue, and we expect payments to return to normal processing times by [date].
+
+In the meantime:
+- Payments submitted since [date] may take up to [X] business days to appear.
+- No payments have been lost, and all transactions are being tracked.
+- If a payment is overdue by more than [X] days, please contact [team/email] with the transaction reference number.
+
+We'll send another update by [date] or sooner if the situation changes. Thank you for your patience while we resolve this.
+
+Best regards,
+[Name]
+[Title]
+[Team]

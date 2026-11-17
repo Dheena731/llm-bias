@@ -1,0 +1,6 @@
+**Tooltip (example: "Peer-reviewed only" filter)**
+
+> **Peer-reviewed only**
+> Shows only datasets linked to an article published in a peer-reviewed journal. Datasets with no linked article, or linked only to preprints (papers not yet reviewed), are hidden. Turn off to see all datasets.
+
+You didn't specify a filter, so I used this one as an example. If you tell me the actual filter, who uses the tool, and what it does to results, I can tailor the tooltip.

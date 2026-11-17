@@ -1,0 +1,9 @@
+NOTICE: QUARTERLY ACCESS REVIEW REQUIRED
+
+All administrators must complete their scheduled quarterly access review by [Insert Deadline Date]. This mandatory review ensures that all user permissions align with current job functions and organizational security policies.
+
+To complete your review, log in to the Identity and Access Management portal at [Insert URL], select Pending Reviews from the dashboard, and verify the access levels for each assigned user, group, or resource. Approve, adjust, or revoke permissions as appropriate, then submit your certification.
+
+Reviews not completed by the deadline will trigger automatic access suspension for compliance purposes. If you receive an assignment in error or require technical assistance, contact the IT Security Helpdesk at [Insert Email/Phone] before the cutoff date.
+
+Thank you for promptly fulfilling this critical security responsibility.

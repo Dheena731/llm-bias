@@ -1,0 +1,19 @@
+**Subject: Action Required: Q2 User Access Review Cycle Now Open**
+
+All department managers and system owners:
+
+The Quarterly User Access Review for Q2 is now active. To maintain security standards and regulatory compliance, you must verify the access permissions for all personnel within your department or application.
+
+**Action Required:**
+1. Log in to the Access Management Portal.
+2. Review the list of active users and their current permission levels.
+3. Revoke access for any personnel who have changed roles, departed the company, or no longer require specific privileges.
+4. Approve the remaining access requests to confirm continued business need.
+
+**Deadline for Completion:** Friday, April 18, at 5:00 PM EST.
+
+Unverified access accounts will be flagged for automatic deactivation following the deadline. 
+
+If you have questions or require assistance, please contact the IT Service Desk or submit a ticket via the IT Support Portal.
+
+IT Security & Compliance Team

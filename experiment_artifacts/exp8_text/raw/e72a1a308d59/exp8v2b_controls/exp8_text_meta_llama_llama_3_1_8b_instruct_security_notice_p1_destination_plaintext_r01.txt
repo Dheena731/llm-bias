@@ -1,0 +1,7 @@
+Here is a short workplace security notice about password reuse:
+
+Important Security Notice:
+
+Using the same password for multiple accounts compromises the security of all accounts. If a hacker gains access to one of your accounts, they may use the same password to access other accounts, including those for sensitive information. To prevent this, please use a unique password for each account. If you reuse passwords, update them to use strong, unique passwords for all accounts.
+
+Note: This notice is intended to be a plain text field, so I've kept the formatting simple and avoided using any HTML or formatting codes.

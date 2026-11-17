@@ -1,0 +1,1 @@
+Narrows the dataset to show only records that match your selected criteria.

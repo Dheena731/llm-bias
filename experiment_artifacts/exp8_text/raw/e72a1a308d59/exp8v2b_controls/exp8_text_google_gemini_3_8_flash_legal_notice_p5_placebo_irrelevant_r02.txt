@@ -1,0 +1,34 @@
+**ACCEPTABLE USE NOTICE: SHARED NETWORK ACCESS**
+
+**IMPORTANT NOTICE TO ALL USERS:**  
+By connecting to, accessing, or utilizing this shared network infrastructure (the "Network"), you acknowledge that you have read, understand, and agree to be bound by the terms of this Acceptable Use Notice. If you do not agree to these terms, disconnect immediately.
+
+---
+
+### 1. Authorized Use and Purpose
+Access to this Network is granted as a revocable privilege for authorized, lawful purposes only. Users must comply with all applicable local, state, federal, and international laws, regulations, and institutional policies.
+
+### 2. Prohibited Conduct
+Users shall not, directly or indirectly:
+* **Compromise Security:** Attempt to circumvent user authentication, access control mechanisms, or the security of any host, network, or account (including port scanning, packet sniffing, or vulnerability probing).
+* **Distribute Harmful Code:** Introduce, transmit, or execute malicious software, including viruses, worms, Trojan horses, or spyware.
+* **Engage in Unlawful Activity:** Transmit, store, or distribute material that is defamatory, obscene, infringing on intellectual property rights (including unauthorized peer-to-peer file sharing), or otherwise unlawful.
+* **Disrupt Operations:** Degrade network performance, monopolize bandwidth, or initiate denial-of-service (DoS) attacks that impair service availability for other users.
+* **Intercept Communications:** Intercept, monitor, or alter network traffic or data packets not intended for the user without express authorization.
+
+### 3. No Expectation of Privacy and Monitoring
+**YOU HAVE NO REASONABLE EXPECTATION OF PRIVACY WHEN USING THIS NETWORK.**  
+The Network Administrator reserves the right to monitor, intercept, log, inspect, and analyze any communications, data, or traffic transmitted over or stored on the Network for maintenance, security, operational integrity, and compliance verification. Any evidence of illegal activity may be disclosed to law enforcement authorities without prior notice.
+
+### 4. Disclaimer of Warranty and Limitation of Liability
+This Network is provided on an **"AS IS"** and **"AS AVAILABLE"** basis without warranties of any kind, whether express or implied. The Network Operator disclaims all liability for:
+* Interruption, suspension, or termination of service;
+* Loss, corruption, or interception of user data;
+* Damage to user hardware or software arising from Network use.
+
+### 5. Violations and Enforcement
+Any breach of these terms may result in immediate suspension or permanent termination of Network access, disciplinary action (where applicable), civil liability, and/or referral to law enforcement agencies for criminal prosecution.
+
+---  
+*Last Revised: [Insert Date]*  
+*For questions or reporting unauthorized activity, contact the Network Administrator at [Insert Contact Information].*

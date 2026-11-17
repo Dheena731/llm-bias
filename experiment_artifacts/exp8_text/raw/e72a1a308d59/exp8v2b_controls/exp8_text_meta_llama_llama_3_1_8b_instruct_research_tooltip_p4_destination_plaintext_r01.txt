@@ -1,0 +1,1 @@
+A missing-value marker, often denoted by a special symbol or code, is used to indicate that a data point is absent or unrecorded.

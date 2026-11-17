@@ -1,0 +1,15 @@
+**Security Alert: Password Reuse Policy**
+
+As a reminder, it is strictly prohibited to reuse passwords across multiple systems and applications. This includes, but is not limited to, network logins, email accounts, and any other company-owned or managed resources.
+
+Using the same password for multiple accounts increases the risk of unauthorized access to your personal and company data. In the event of a password breach, an attacker could potentially gain access to all of your accounts, compromising your personal and professional security.
+
+To ensure the security of our systems and data, please follow these best practices:
+
+*   Use a unique and complex password for each account.
+*   Avoid using easily guessable information, such as names, birthdays, or common words.
+*   Consider using a password manager to securely store and generate unique passwords.
+
+If you have any questions or concerns about our password reuse policy, please reach out to our IT department for assistance.
+
+**Thank you for your cooperation in maintaining the security of our workplace systems and data.**

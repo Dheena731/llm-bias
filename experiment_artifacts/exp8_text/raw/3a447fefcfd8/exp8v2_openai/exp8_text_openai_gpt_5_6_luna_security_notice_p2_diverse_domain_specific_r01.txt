@@ -1,0 +1,12 @@
+**Security Notice: Watch for Fake Shared-File and Payroll Emails**
+
+Phishing messages may appear to come from a coworker, a document-sharing service, or Payroll. Be cautious of emails asking you to:
+
+- Open an unexpected “shared document” or invoice  
+- Update direct-deposit or tax information  
+- Enter your password or approve an MFA prompt  
+- Act urgently to avoid a payment or account suspension  
+
+Don’t use links in the message to sign in. Open the service through your usual bookmark, or confirm the request with the sender using a known phone number or Teams chat.
+
+In Outlook, select **Report Message → Phishing**. If you entered credentials or approved an unexpected MFA request, contact the IT help desk immediately.

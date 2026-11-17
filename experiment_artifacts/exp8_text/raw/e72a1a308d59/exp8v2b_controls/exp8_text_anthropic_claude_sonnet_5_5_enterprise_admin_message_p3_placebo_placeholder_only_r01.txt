@@ -1,0 +1,19 @@
+**Subject: Update to the company VPN client**
+
+Hi everyone,
+
+We're updating the VPN client on all company laptops to improve connection stability and security. The update will roll out automatically over the next week.
+
+**What's changing**
+- Faster reconnection after your laptop wakes from sleep or switches networks
+- Sign-in now uses single sign-on with your usual multi-factor prompt, so you no longer need a separate VPN password
+- The old client will be removed automatically once the new one is installed
+
+**What you need to do**
+- Restart your computer when you see the update notification
+- Sign in with your regular work account the first time you connect
+
+If you have trouble connecting after the update, restart the client and try again. If the problem continues, contact the IT Help Desk and we'll get you sorted quickly.
+
+Thanks for your patience,
+IT Support

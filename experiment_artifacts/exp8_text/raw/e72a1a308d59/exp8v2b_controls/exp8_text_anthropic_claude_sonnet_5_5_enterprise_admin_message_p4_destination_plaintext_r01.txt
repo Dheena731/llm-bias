@@ -1,0 +1,32 @@
+Subject: Quarterly Access Reviews: Action Required
+
+Hello everyone,
+
+It is time for the quarterly access review. This process helps us confirm that each person has the right level of access to our systems and data, and nothing more.
+
+WHAT YOU NEED TO DO
+
+1. Managers: Review the access list for each of your team members and confirm that every account and permission is still needed for their current role.
+2. System owners: Review the list of users with access to your systems and flag any accounts that should be removed or changed.
+3. All employees: If you notice access you no longer need, please tell your manager or the IT Help Desk.
+
+KEY DATES
+
+- Review opens: [start date]
+- Review deadline: [due date]
+- Access changes completed: [completion date]
+
+HOW TO COMPLETE YOUR REVIEW
+
+Access review lists will be sent by email from [sender/system name]. Mark each entry as "Keep," "Remove," or "Modify," and return the completed list by the deadline. Include a brief note for any change you request.
+
+WHY THIS MATTERS
+
+Regular reviews reduce security risk, support audit and compliance requirements, and keep our systems tidy. Reviews that are not completed on time may be escalated to department leadership, and unreviewed access may be suspended.
+
+If you have questions or need help, contact the IT Help Desk at [email/phone] or visit [link/location].
+
+Thank you for your prompt attention and cooperation.
+
+[Name]
+[Title/Department]

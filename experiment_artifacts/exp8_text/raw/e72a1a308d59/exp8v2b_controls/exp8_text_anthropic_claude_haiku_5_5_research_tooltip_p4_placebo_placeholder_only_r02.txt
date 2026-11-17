@@ -1,0 +1,1 @@
+A missing-value marker indicates that no data was recorded for this field, so the value is unknown rather than zero or empty.

@@ -1,0 +1,10 @@
+Caching speeds up a website by saving copies of frequently accessed files—such as images, code, and web pages—in temporary storage locations so they do not have to be generated or downloaded from scratch every time.
+
+Normally, when you open a webpage, your browser sends a request across the internet to the main web server. The server must process the request, query its database, build the page, and send the data back. This process takes time, especially if the server is geographically far away or handling a lot of traffic.
+
+With caching, this data is saved closer to the user:
+
+*   **Browser Caching:** Your own computer or phone saves files after your first visit. When you return to the site, your browser loads those files instantly from your local hard drive instead of downloading them again.
+*   **CDN and Server Caching:** Networks of proxy servers (Content Delivery Networks) store copies of the site in data centers around the world. Users can download content from a server physically located in their own city rather than a main server halfway across the globe.
+
+By cutting out the need for repetitive data processing and drastically reducing the distance information has to travel, caching allows web pages to load almost instantly.

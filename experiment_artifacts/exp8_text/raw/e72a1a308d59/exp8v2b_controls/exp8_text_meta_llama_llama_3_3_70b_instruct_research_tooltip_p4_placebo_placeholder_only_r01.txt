@@ -1,0 +1,1 @@
+A missing-value marker indicates that no data is available for a particular field or cell, and may be represented by a specific symbol, such as a blank space, a dash, or an asterisk, to distinguish it from a zero or other numeric value.

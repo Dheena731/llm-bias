@@ -1,0 +1,17 @@
+**Subject:** Action Required: Update Your VPN Client by [Date]
+
+Hi Team,
+
+We are rolling out an update to the company VPN client to **[brief reason, e.g., enhance security protocols / improve connection stability]**.
+
+**What you need to do:**
+*   **Action:** [e.g., Accept the automatic update notification OR Download the latest installer here: Link]
+*   **Deadline:** Please complete this update by **[Date/Time]** to avoid service interruptions.
+
+A quick restart may be required after installation. If you have trouble updating or experience connectivity issues afterward, please contact [Help Desk Email/Phone].
+
+Thank you for your cooperation.
+
+Best regards,
+
+IT Department

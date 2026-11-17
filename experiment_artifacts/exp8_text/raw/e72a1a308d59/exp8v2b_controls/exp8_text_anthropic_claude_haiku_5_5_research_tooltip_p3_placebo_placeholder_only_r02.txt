@@ -1,0 +1,1 @@
+Select a start and end date to filter results to that period. Dates outside the range are hidden.

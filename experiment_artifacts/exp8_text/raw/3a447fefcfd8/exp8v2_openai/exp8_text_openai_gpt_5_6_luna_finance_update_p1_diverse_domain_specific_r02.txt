@@ -1,0 +1,1 @@
+The monthly spending summary now groups posted card and bank transactions by category, separates recurring bills from one-time purchases, and shows refunds as credits rather than negative spending. You can compare each category with the previous month and see which merchants drove the biggest changes. Transfers between your own accounts are excluded from the total.

@@ -1,0 +1,24 @@
+**Subject: Email migration on [date]: what you need to know**
+
+Hello everyone,
+
+On **[date]**, we will move all company email accounts from [current system] to [new system].
+
+**What to expect**
+- The move starts at [time] and should be finished by [time]. During this window, you may not be able to send or receive email.
+- Messages sent to you during the move will be delivered once it is complete.
+- Your email address, password, existing messages, and folders will not change.
+
+**What to do**
+- Before the move: nothing.
+- After the move: open [new system link] and sign in as usual. If email on your phone or another app stops working, remove your work account from that app and add it again.
+
+If you have questions or problems, contact [support name/team] at [email or phone].
+
+Thank you for your patience.
+
+[Your name]
+[Team]
+
+---
+*Before sending, fill in the bracketed items and check that the "What stays the same" and "delivered once complete" statements match your actual migration plan.*

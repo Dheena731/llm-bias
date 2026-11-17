@@ -1,0 +1,14 @@
+ADMIN NOTICE: QUARTERLY ACCESS REVIEW NOW OPEN
+
+The quarterly access review cycle is now underway. All managers and system owners must review the access levels and permissions for their teams to maintain security compliance and the principle of least privilege.
+
+Action Required:
+1. Log in to the Access Management portal.
+2. Review the permissions assigned to your direct reports.
+3. Approve necessary access or submit revocation requests for unneeded permissions.
+
+Deadline: Please complete all reviews by Friday, [Insert Date], at 5:00 PM. 
+
+Accounts with pending reviews after the deadline may be subject to temporary access restrictions. 
+
+If you have questions or need assistance, please contact the IT Support team at [Insert Contact Info].

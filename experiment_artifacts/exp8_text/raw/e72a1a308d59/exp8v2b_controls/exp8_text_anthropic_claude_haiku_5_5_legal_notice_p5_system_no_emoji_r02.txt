@@ -1,0 +1,35 @@
+**ACCEPTABLE USE NOTICE FOR SHARED NETWORK RESOURCES**
+
+**1. Purpose and Scope**
+This Notice governs the use of the network, computing systems, internet access, email, and related resources (collectively, the "Network") provided by [Organization Name] (the "Organization"). It applies to all users, including employees, contractors, students, and visitors who are granted access.
+
+**2. Authorized Use**
+The Network is provided for legitimate business, academic, and administrative purposes. Limited personal use is permitted provided it does not interfere with work, consume excessive resources, or violate this Notice.
+
+**3. Prohibited Activities**
+Users shall not use the Network to:
+(a) access, store, or transmit unlawful, harassing, defamatory, obscene, or discriminatory material;
+(b) infringe any copyright, trademark, patent, or other intellectual property right;
+(c) attempt to gain unauthorized access to any system, account, or data;
+(d) introduce malware, or disable, circumvent, or interfere with security controls;
+(e) share credentials or permit others to use an account assigned to another person;
+(f) conduct unauthorized commercial activity, cryptocurrency mining, or bandwidth-intensive activity not approved by the Organization; or
+(g) transmit unsolicited bulk messages or engage in spam.
+
+**4. Account Security**
+Users are responsible for all activity conducted under their credentials. Passwords must be kept confidential and changed when required. Suspected compromises must be reported immediately to [IT Department / Contact].
+
+**5. No Expectation of Privacy**
+To the extent permitted by law, the Organization may monitor, log, and review Network activity to maintain security, enforce this Notice, and comply with legal obligations. Users should have no expectation of privacy in data stored on or transmitted through Network resources.
+
+**6. Reporting Violations**
+Suspected violations should be reported to [Contact]. The Organization will investigate reports in accordance with its applicable policies.
+
+**7. Enforcement**
+Violations of this Notice may result in suspension or termination of access, disciplinary action up to and including dismissal or expulsion, and referral to law enforcement where appropriate. The Organization reserves the right to remove content and restrict access as necessary to protect the Network.
+
+**8. Acknowledgment**
+By accessing the Network, users acknowledge that they have read, understood, and agree to comply with this Notice. This Notice may be updated periodically, and continued use constitutes acceptance of any revisions.
+
+**Effective Date:** [Date]
+**Issued by:** [Name, Title, Organization]

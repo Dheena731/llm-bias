@@ -1,0 +1,11 @@
+A database index is a data structure that improves the efficiency of data retrieval and manipulation by the database. It is essentially a map or a shortcut that helps the database locate specific data quickly.
+
+When a database query is executed, the database uses the index to determine the location of the relevant data. This allows the database to bypass the need to scan through the entire dataset, which can be a time-consuming process, especially for large datasets.
+
+In essence, an index helps the database to:
+
+* Speed up query execution times
+* Reduce the number of rows that need to be scanned
+* Improve overall database performance
+
+Common types of indexes include B-tree indexes, hash indexes, and inverted indexes. The specific type of index used depends on the database management system and the type of data being stored.

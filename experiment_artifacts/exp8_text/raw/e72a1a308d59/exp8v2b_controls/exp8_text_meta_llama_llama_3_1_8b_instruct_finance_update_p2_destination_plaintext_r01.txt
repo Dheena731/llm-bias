@@ -1,0 +1,3 @@
+Here is a short note explaining a change to card transaction fees:
+
+Effective immediately, we are introducing a new fee structure for card transactions. A 2.5% fee will be applied to all transactions processed. This fee will be charged to the merchant.

@@ -1,0 +1,1 @@
+**Confidence interval:** The shaded range shows values consistent with the data around the estimate. Wider intervals indicate greater uncertainty.

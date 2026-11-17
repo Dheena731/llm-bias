@@ -1,0 +1,14 @@
+**Update: Delayed Payment Processing**
+
+We're currently experiencing delays in processing some payments. Transactions submitted recently may take longer than usual to complete, and some may appear as pending in your account.
+
+**What happened:** A technical issue with one of our payment processing systems is slowing down transaction handling. Our engineering team has identified the cause and is actively working on a fix.
+
+**What this means for you:**
+- Payments are not lost. All submitted transactions are safely queued and will be processed once the issue is resolved.
+- You do not need to resubmit a payment. Doing so could result in a duplicate charge.
+- Pending payments should clear automatically, and you'll receive a confirmation when they do.
+
+**Next steps:** We'll share another update as soon as processing returns to normal. If a payment still hasn't gone through after you receive that update, please contact our support team and we'll look into it right away.
+
+We apologize for the inconvenience and appreciate your patience while we resolve this.

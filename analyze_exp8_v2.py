@@ -1,6 +1,10 @@
-"""Analyze Experiment 8 v2: per-route condition rates, prompt-clustered paired contrasts, and the OLMo 2 stage trend.
+"""Analyze Experiment 8 v2 (Studies 4 and 5): condition rates, family-clustered paired contrasts, placebo controls,
+and the OLMo 2 training-stage comparison.
 
-Merges every exp8_v2 CSV (main pass plus retry passes) keeping one clean row per artifact.
+Merges every CSV for a collection (main pass plus retry passes), keeping one clean row per artifact.
+Outcomes split Markdown into markup syntax (headings, emphasis, code, links, tables) and list structure.
+Inference: differences are computed within prompt, averaged within each of the 12 prompt families, and tested with
+an exact sign-flip test over families; Holm correction is applied within each table.
 Run: uv run python analyze_exp8_v2.py
 """
 
@@ -8,35 +12,37 @@ from __future__ import annotations
 
 import csv
 import glob
+import itertools
 import json
 import random
+import re
 from collections import defaultdict
 from pathlib import Path
-from statistics import mean
+from statistics import mean, median
 
 import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+from presentation_features import markdown_kinds
+
 OUT = Path("analysis_output/exp8_v2")
 HOSTED_GLOB = "experiment_data/exp8_v2_presentation_priors_*.csv"
+CONTROLS_GLOB = "experiment_data/exp8_v2b_controls_*.csv"
 LOCAL_GLOB = "experiment_data/exp8_v2_local_stagewise_*.csv"
-METRICS = ["has_format_default", "has_markdown", "has_emoji", "has_polish_without_length", "word_count", "md_per_100w"]
-CONDITIONS = ["neutral", "no_emoji", "no_markdown", "plain_no_markdown", "placebo", "diverse_domain_specific",
-              "polished_but_plain", "system_plain"]
-# (condition, baseline): what each contrast isolates.
-CONTRASTS = [
-    ("placebo", "neutral", "generic instruction effect (spillover)"),
-    ("plain_no_markdown", "placebo", "content-specific effect of the plain instruction"),
-    ("plain_no_markdown", "neutral", "total effect of the plain instruction"),
-    ("no_emoji", "neutral", "emoji-only prohibition"),
-    ("no_markdown", "neutral", "Markdown-only prohibition"),
-    ("system_plain", "plain_no_markdown", "system vs user placement of the plain instruction"),
-    ("diverse_domain_specific", "neutral", "diversity request"),
-]
+LOCAL7B_GLOB = "experiment_data/exp8_v2_olmo7b_stagewise_*.csv"
+METRICS = ["has_markup", "has_list", "has_markdown", "has_emoji", "has_placeholder", "has_polish_without_length",
+           "word_count"]
 STAGES = ["base", "sft", "dpo", "instruct_rlvr"]
 STAGE_NAMES = {"base": "Base", "sft": "SFT", "dpo": "DPO", "instruct_rlvr": "Instruct (RLVR)"}
+NAMES = {"claude-sonnet-5.5": "Claude Sonnet 5.5", "claude-haiku-5.5": "Claude Haiku 5.5", "gemini-3.8-flash": "Gemini 3.8 Flash",
+         "qwen3.6-flash": "Qwen 3.6 Flash", "gpt-5.6-luna": "GPT-5.6 Luna", "llama-3.1-8b-instruct": "Llama 3.1 8B",
+         "llama-3.3-70b-instruct": "Llama 3.3 70B"}
+# Bracketed or braced fill-ins such as [Feature Name] or {product}: marks a template rather than a finished text.
+PLACEHOLDER = re.compile(r"\[[A-Z][^\]\n]{0,40}\]|\{[A-Za-z_ ]{2,30}\}")
+# Conditions that do not target Markdown; used for the length-stratified stage comparison.
+NON_MARKDOWN_CONDITIONS = {"neutral", "no_emoji", "placebo", "diverse_domain_specific"}
 
 
 def load(pattern: str) -> list[dict]:
@@ -51,9 +57,10 @@ def load(pattern: str) -> list[dict]:
     rows = [row for row in best.values() if not row["error"].strip()]
     for row in rows:
         features = json.loads(row["feature_json"])
-        row["m"] = {k: float(features[k]) for k in METRICS if k in features}
-        # Density separates "uses Markdown" from "writes longer" (base and DPO outputs are much longer).
-        row["m"]["md_per_100w"] = 100 * float(features["markdown_marker_count"]) / max(float(features["word_count"]), 1.0)
+        text = Path(row["raw_output_path"]).read_text(encoding="utf-8")
+        row["m"] = {k: float(features[k]) for k in ("has_markdown", "has_emoji", "has_polish_without_length", "word_count")}
+        row["m"].update({k: float(v) for k, v in markdown_kinds(text).items()})
+        row["m"]["has_placeholder"] = float(bool(PLACEHOLDER.search(text)))
     return rows
 
 
@@ -61,145 +68,214 @@ def short(model: str) -> str:
     return model.split("/")[-1]
 
 
-def paired_contrast(rows: list[dict], route: str, condition: str, baseline: str, metric: str,
-                    iterations: int = 4000, seed: int = 11) -> dict:
-    """Mean paired difference over prompts (repeats averaged within prompt), with prompt-cluster bootstrap CI
-    and a sign-flip p-value over prompts."""
-    by_prompt = defaultdict(lambda: defaultdict(list))
-    for row in rows:
-        if row["model"] == route and row["condition"] in (condition, baseline):
-            by_prompt[row["prompt_id"]][row["condition"]].append(row["m"][metric])
-    diffs = [mean(v[condition]) - mean(v[baseline]) for v in by_prompt.values() if v[condition] and v[baseline]]
+def holm(pvalues: list[float]) -> list[float]:
+    order = sorted(range(len(pvalues)), key=lambda i: pvalues[i])
+    adjusted, running = [0.0] * len(pvalues), 0.0
+    for rank, i in enumerate(order):
+        running = max(running, min(1.0, (len(pvalues) - rank) * pvalues[i]))
+        adjusted[i] = running
+    return adjusted
+
+
+def family_diffs(a_rows: list[dict], b_rows: list[dict], metric: str) -> list[float]:
+    """Per-family mean of within-prompt differences (a minus b), repeats averaged within prompt."""
+    a, b, family = defaultdict(list), defaultdict(list), {}
+    for row in a_rows:
+        a[row["prompt_id"]].append(row["m"][metric])
+        family[row["prompt_id"]] = row["prompt_family"]
+    for row in b_rows:
+        b[row["prompt_id"]].append(row["m"][metric])
+        family[row["prompt_id"]] = row["prompt_family"]
+    by_family = defaultdict(list)
+    for prompt in set(a) & set(b):
+        by_family[family[prompt]].append(mean(a[prompt]) - mean(b[prompt]))
+    return [mean(v) for v in by_family.values()]
+
+
+def contrast(a_rows: list[dict], b_rows: list[dict], metric: str, seed: int = 11) -> dict:
+    diffs = family_diffs(a_rows, b_rows, metric)
     if not diffs:
         return {}
-    rng = random.Random(seed)
     observed = mean(diffs)
-    boot = sorted(mean(rng.choice(diffs) for _ in diffs) for _ in range(iterations))
-    extreme = sum(abs(mean(d * rng.choice((1, -1)) for d in diffs)) >= abs(observed) - 1e-12 for _ in range(iterations))
-    return {"route": short(route), "condition": condition, "baseline": baseline, "metric": metric, "prompts": len(diffs),
-            "delta": observed, "ci_low": boot[int(0.025 * iterations)], "ci_high": boot[int(0.975 * iterations) - 1],
-            "p_signflip": (extreme + 1) / (iterations + 1)}
+    flips = [abs(sum(d * s for d, s in zip(diffs, signs)) / len(diffs)) for signs in itertools.product((1, -1), repeat=len(diffs))]
+    p = sum(f >= abs(observed) - 1e-12 for f in flips) / len(flips)
+    rng = random.Random(seed)
+    boot = sorted(mean(rng.choice(diffs) for _ in diffs) for _ in range(4000))
+    return {"delta": observed, "ci_low": boot[100], "ci_high": boot[3899], "p": p, "families": len(diffs)}
 
 
-def rate_table(rows: list[dict], key: str) -> list[dict]:
-    cells = defaultdict(list)
-    for row in rows:
-        cells[(row[key], row["condition"])].append(row["m"])
-    return [{key: short(k) if key == "model" else k, "condition": c, "n": len(v),
-             **{metric: mean(m[metric] for m in v) for metric in METRICS}}
-            for (k, c), v in sorted(cells.items())]
+def select(rows: list[dict], **keys) -> list[dict]:
+    return [r for r in rows if all(r[k] == v for k, v in keys.items())]
 
 
-def write_csv(path: Path, data: list[dict]) -> None:
-    if not data:
-        return
-    with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(data[0]))
-        writer.writeheader()
-        writer.writerows(data)
+def rate(rows: list[dict], metric: str) -> float:
+    return mean(r["m"][metric] for r in rows) if rows else float("nan")
 
 
-def stage_contrasts(local: list[dict], iterations: int = 4000, seed: int = 13) -> list[dict]:
-    """Adjacent training stages compared on the same prompts (neutral condition), sign-flip test over prompts."""
-    out = []
-    for earlier, later in zip(STAGES, STAGES[1:]):
-        for metric in ("has_markdown", "md_per_100w", "has_emoji", "word_count"):
-            value = {(r["route_stage_label"], r["prompt_id"]): r["m"][metric] for r in local if r["condition"] == "neutral"}
-            diffs = [value[(later, p)] - value[(earlier, p)] for (s, p) in value if s == later and (earlier, p) in value]
-            if not diffs:
-                continue
-            rng = random.Random(seed)
-            observed = mean(diffs)
-            extreme = sum(abs(mean(d * rng.choice((1, -1)) for d in diffs)) >= abs(observed) - 1e-12 for _ in range(iterations))
-            out.append({"from": earlier, "to": later, "metric": metric, "prompts": len(diffs), "delta": observed,
-                        "p_signflip": (extreme + 1) / (iterations + 1)})
+def fmt_p(p: float) -> str:
+    return "<0.001" if p < 0.001 else f"{p:.3f}"
+
+
+def cell(c: dict, adjusted_p: float, scale: float = 100) -> str:
+    star = "*" if adjusted_p < 0.05 else ""
+    return f"{scale * c['delta']:+.1f}{star}"
+
+
+def hosted_tables(hosted: list[dict], controls: list[dict], write_table) -> dict:
+    models = sorted({r["model"] for r in hosted}, key=lambda m: -rate(select(hosted, model=m, condition="neutral"), "has_markup"))
+    spec = [("no_emoji", "has_markup"), ("no_markdown", "has_markup"), ("plain_no_markdown", "has_markup"),
+            ("placebo", "has_markup"), ("placebo", "has_emoji")]
+    results, flat = {}, []
+    for m in models:
+        neutral = select(hosted, model=m, condition="neutral")
+        for condition, metric in spec:
+            c = contrast(select(hosted, model=m, condition=condition), neutral, metric)
+            results[(m, condition, metric)] = c
+            flat.append((m, condition, metric))
+    adjusted = dict(zip(flat, holm([results[k]["p"] for k in flat])))
+    body = []
+    for m in models:
+        neutral = select(hosted, model=m, condition="neutral")
+        body.append([NAMES.get(short(m), short(m)), f"{100 * rate(neutral, 'has_markup'):.1f}", f"{100 * rate(neutral, 'has_list'):.1f}",
+                     f"{100 * rate(neutral, 'has_emoji'):.1f}"] + [cell(results[(m, c, k)], adjusted[(m, c, k)]) for c, k in spec])
+    write_table(OUT / "table_v2_routes.tex",
+                "Study 1 (60 prompts in 12 families, 3 repeats per cell). Neutral rates (\\%) for markup syntax (headings, "
+                "emphasis, code, links, tables), list lines, and emoji. Other columns: change versus neutral in percentage "
+                "points, computed within prompt and averaged within family; * marks Holm-adjusted $p<0.05$ (exact sign-flip "
+                "test over the 12 families, 35 tests). NE, NM, Plain: markup change under the no-emoji, bare no-Markdown, and "
+                "enumerated plain-prose instructions; P: mk and P: em: markup and emoji change under the placebo.",
+                "tab:v2-routes", ["Model", "Markup", "Lists", "Emoji", "NE", "NM", "Plain", "P: mk", "P: em"], body, "lrrrrrrrr",
+                size=r"\footnotesize")
+    out = {"routes": {f"{short(m)}|{c}|{k}": {**results[(m, c, k)], "p_holm": adjusted[(m, c, k)]} for m, c, k in flat}}
+
+    if controls:
+        cspec = [("placebo", "has_emoji", "hosted"), ("placebo_irrelevant", "has_emoji", "controls"),
+                 ("placebo_ablated", "has_emoji", "controls"), ("placebo_placeholder_only", "has_emoji", "controls"),
+                 ("placebo", "has_markup", "hosted"), ("placebo_irrelevant", "has_markup", "controls"),
+                 ("placebo_ablated", "has_markup", "controls"), ("placebo_placeholder_only", "has_markup", "controls"),
+                 ("destination_plaintext", "has_markup", "controls")]
+        cmodels = [m for m in models if select(controls, model=m)]
+        cres, cflat = {}, []
+        for m in cmodels:
+            neutral = select(hosted, model=m, condition="neutral")
+            for condition, metric, source in cspec:
+                pool = hosted if source == "hosted" else controls
+                cres[(m, condition, metric)] = contrast(select(pool, model=m, condition=condition), neutral, metric)
+                cflat.append((m, condition, metric))
+            for condition, user, metric in (("system_no_emoji", "no_emoji", "has_emoji"), ("system_no_markdown", "no_markdown", "has_markup")):
+                cres[(m, condition, metric)] = contrast(select(controls, model=m, condition=condition),
+                                                        select(hosted, model=m, condition=user), metric)
+                cflat.append((m, condition, metric))
+        cadj = dict(zip(cflat, holm([cres[k]["p"] for k in cflat])))
+        body = [[NAMES.get(short(m), short(m))] + [cell(cres[(m, c, k)], cadj[(m, c, k)]) for c, k, _ in cspec]
+                + [cell(cres[(m, "system_no_emoji", "has_emoji")], cadj[(m, "system_no_emoji", "has_emoji")]),
+                   cell(cres[(m, "system_no_markdown", "has_markup")], cadj[(m, "system_no_markdown", "has_markup")])]
+                for m in cmodels]
+        write_table(OUT / "table_v2_controls.tex",
+                    "Placebo and placement controls (change in percentage points; Holm-adjusted * as in Table~\\ref{tab:v2-routes}). "
+                    "Placebo columns compare with neutral: the original placebo (Orig.), a content-irrelevant instruction (Irr.), "
+                    "the original without its placeholder and invent-facts clauses (Abl.), and the placeholder clause alone (Ph.). "
+                    "Dest.: the prompt names a plain-text destination. Sys: the bare prohibition in the system prompt minus the "
+                    "same prohibition in the user prompt.",
+                    "tab:v2-controls", ["Model", "Orig.", "Irr.", "Abl.", "Ph.", "Orig.", "Irr.", "Abl.", "Ph.", "Dest.",
+                                        "Sys: emoji", "Sys: markup"], body, "l" + "r" * 11, size=r"\scriptsize")
+        out["controls"] = {f"{short(m)}|{c}|{k}": {**cres[(m, c, k)], "p_holm": cadj[(m, c, k)]} for m, c, k in cflat}
+
+    # Templates versus finished texts: how much of each neutral feature sits in placeholder outputs.
+    out["placeholder"] = {short(m): {"neutral_placeholder_rate": rate(select(hosted, model=m, condition="neutral"), "has_placeholder"),
+                                     "placebo_placeholder_rate": rate(select(hosted, model=m, condition="placebo"), "has_placeholder"),
+                                     **{f"neutral_{k}_{tag}": rate([r for r in select(hosted, model=m, condition="neutral")
+                                                                     if r["m"]["has_placeholder"] == flag], k)
+                                        for k in ("has_emoji", "has_markup") for tag, flag in (("template", 1.0), ("finished", 0.0))},
+                                     **{f"placebo_{k}": rate(select(hosted, model=m, condition="placebo"), k) for k in ("has_emoji", "has_markup")}}
+                          for m in models}
     return out
 
 
-def pct(value: float) -> str:
-    return f"{100 * value:.1f}"
-
-
-def write_tex_tables(hosted_rates: list[dict], local_rates: list[dict], contrasts: list[dict]) -> None:
-    from analyze_tist_revision import write_table
-
-    def rate(rows, key, name, condition, metric):
-        return next(r[metric] for r in rows if r[key] == name and r["condition"] == condition)
-
-    def contrast(route, condition, baseline, metric):
-        c = next(c for c in contrasts if c["route"] == route and c["condition"] == condition and c["baseline"] == baseline
-                 and c["metric"] == metric)
-        stars = "*" if c["p_signflip"] < 0.05 else ""
-        return f"{100 * c['delta']:+.1f}{stars}"
-
-    routes = sorted({r["model"] for r in hosted_rates}, key=lambda m: -rate(hosted_rates, "model", m, "neutral", "has_markdown"))
-    names = {"claude-sonnet-5.5": "Claude Sonnet 5.5", "claude-haiku-5.5": "Claude Haiku 5.5", "gemini-3.8-flash": "Gemini 3.8 Flash",
-             "qwen3.6-flash": "Qwen 3.6 Flash", "llama-3.1-8b-instruct": "Llama 3.1 8B", "llama-3.3-70b-instruct": "Llama 3.3 70B"}
-    body = [[names.get(r, r), pct(rate(hosted_rates, "model", r, "neutral", "has_markdown")), pct(rate(hosted_rates, "model", r, "neutral", "has_emoji")),
-             contrast(r, "placebo", "neutral", "has_markdown"), contrast(r, "placebo", "neutral", "has_emoji"),
-             contrast(r, "no_emoji", "neutral", "has_markdown"), contrast(r, "plain_no_markdown", "placebo", "has_markdown"),
-             contrast(r, "system_plain", "plain_no_markdown", "has_markdown")] for r in routes]
-    write_table(OUT / "table_v2_routes.tex",
-                "Study 4 (60 prompts $\\times$ 3 repeats per cell). MD and Emoji: neutral rates in \\%. Remaining columns are paired "
-                "differences in percentage points, averaged within prompt: placebo minus neutral (P: MD, P: Emoji), no-emoji minus "
-                "neutral (NE: MD), plain minus placebo (Plain$-$P), and system minus user placement of the plain instruction "
-                "(Sys$-$User). * marks $p<0.05$ in a sign-flip test over the 60 prompts.",
-                "tab:v2-routes", ["Model", "MD", "Emoji", "P: MD", "P: Emoji", "NE: MD", "Plain$-$P", "Sys$-$User"], body,
-                "lrrrrrrr", size=r"\small")
-    stages = [s for s in STAGES if any(r["route_stage_label"] == s for r in local_rates)]
+def stage_tables(local: list[dict], label: str, write_table) -> dict:
+    stages = [s for s in STAGES if select(local, route_stage_label=s)]
+    out = {"neutral": {}, "vs_neutral": {}, "adjacent": {}, "length_bins": {}}
+    for s in stages:
+        neutral = select(local, route_stage_label=s, condition="neutral")
+        out["neutral"][s] = {k: rate(neutral, k) for k in ("has_markup", "has_list", "has_emoji", "word_count")}
+        out["neutral"][s]["median_words"] = median(r["m"]["word_count"] for r in neutral)
+        for condition in ("plain_no_markdown", "no_markdown", "use_markdown"):
+            rows = select(local, route_stage_label=s, condition=condition)
+            if rows:
+                out["vs_neutral"][f"{s}|{condition}"] = contrast(rows, neutral, "has_markup")
+    for earlier, later in zip(stages, stages[1:]):
+        out["adjacent"][f"{earlier}->{later}"] = contrast(select(local, route_stage_label=later, condition="neutral"),
+                                                          select(local, route_stage_label=earlier, condition="neutral"), "has_markup")
+    bins = [(0, 100), (100, 150), (150, 250), (250, 10**6)]
+    pool = [r for r in local if r["condition"] in NON_MARKDOWN_CONDITIONS]
+    for lo, hi in bins:
+        out["length_bins"][f"{lo}-{hi}"] = {s: {"markup": rate([r for r in pool if r["route_stage_label"] == s and lo <= r["m"]["word_count"] < hi], "has_markup"),
+                                                "n": len([r for r in pool if r["route_stage_label"] == s and lo <= r["m"]["word_count"] < hi])}
+                                            for s in stages}
+    conditions = ["plain_no_markdown", "no_markdown"] + (["use_markdown"] if select(local, condition="use_markdown") else [])
     body = []
     for s in stages:
-        cells = [STAGE_NAMES[s]]
-        for condition in ("neutral", "placebo", "plain_no_markdown"):
-            cells += [pct(rate(local_rates, "route_stage_label", s, condition, "has_markdown")),
-                      pct(rate(local_rates, "route_stage_label", s, condition, "has_emoji"))]
-        cells.append(f"{rate(local_rates, 'route_stage_label', s, 'neutral', 'md_per_100w'):.1f}")
-        cells.append(f"{rate(local_rates, 'route_stage_label', s, 'neutral', 'word_count'):.0f}")
-        body.append(cells)
-    write_table(OUT / "table_v2_stages.tex",
-                "Study 5: OLMo 2 1B checkpoints by training stage (60 prompts, one output each per condition). "
-                "Rates in \\%; MD/100w (Markdown markers per 100 words) and words are neutral-condition means.",
-                "tab:v2-stages", ["Stage", "Neutral MD", "Emoji", "Placebo MD", "Emoji", "Plain MD", "Emoji", "MD/100w", "Words"],
-                body, "lrrrrrrrr", size=r"\small")
+        n = out["neutral"][s]
+        row = [STAGE_NAMES[s], f"{100 * n['has_markup']:.1f}", f"{100 * n['has_list']:.1f}", f"{100 * n['has_emoji']:.1f}", f"{n['median_words']:.0f}"]
+        for condition in conditions:
+            c = out["vs_neutral"].get(f"{s}|{condition}")
+            row.append("--" if not c or s == "base" else f"{100 * c['delta']:+.1f} ({fmt_p(c['p'])})")
+        body.append(row)
+    names = {"plain_no_markdown": ("Plain", "the plain-prose instruction"), "no_markdown": ("No-MD", "the bare no-Markdown instruction"),
+             "use_markdown": ("Use MD", "an instruction to use Markdown")}
+    write_table(OUT / f"table_v2_stages{label}.tex",
+                f"Study 3{' (7B, 4-bit)' if label else ''}: OLMo 2 checkpoints by training stage. Neutral rates (\\%) and median "
+                "words; then change in markup versus neutral (percentage points, exact family sign-flip $p$) for "
+                + ", ".join(names[c][1] for c in conditions) + ". The base checkpoint is excluded from these contrasts because "
+                "it continues the prompt rather than completing a task.",
+                f"tab:v2-stages{label}", ["Stage", "Markup", "Lists", "Emoji", "Words", *[names[c][0] for c in conditions]],
+                body, "lrrrr" + "r" * len(conditions), size=r"\footnotesize")
+    body = [[f"{lo}--{hi if hi < 10**6 else ''}"] + [f"{100 * out['length_bins'][f'{lo}-{hi}'][s]['markup']:.1f} ({out['length_bins'][f'{lo}-{hi}'][s]['n']})"
+                                                  for s in stages] for lo, hi in bins]
+    write_table(OUT / f"table_v2_length{label}.tex",
+                "Markup rate (\\%, with $n$) by output length in words and training stage, pooled over the conditions that do "
+                "not target Markdown (neutral, no-emoji, placebo, diverse).",
+                f"tab:v2-length{label}", ["Words", *[STAGE_NAMES[s] for s in stages]], body, "l" + "r" * len(stages), size=r"\footnotesize")
+    return out
+
+
+def stage_figure(families: dict[str, dict]) -> None:
+    fig, ax = plt.subplots(figsize=(5.2, 3))
+    for label, out in families.items():
+        stages = list(out["neutral"])
+        for metric, style in (("has_markup", "-"), ("has_list", "--")):
+            ax.plot([STAGE_NAMES[s] for s in stages], [100 * out["neutral"][s][metric] for s in stages], style, marker="o",
+                    label=f"{label} {'markup' if metric == 'has_markup' else 'lists'}")
+    ax.set_ylabel("Neutral outputs with feature (%)")
+    ax.legend(fontsize=7, frameon=False)
+    fig.tight_layout()
+    fig.savefig(OUT / "olmo_stage_trend.png", dpi=300)
+    plt.close(fig)
 
 
 def main() -> None:
-    OUT.mkdir(parents=True, exist_ok=True)
-    hosted, local = load(HOSTED_GLOB), load(LOCAL_GLOB)
-    hosted_rates, local_rates = rate_table(hosted, "model"), rate_table(local, "route_stage_label")
-    write_csv(OUT / "hosted_route_condition.csv", hosted_rates)
-    write_csv(OUT / "local_stage_condition.csv", local_rates)
-    contrasts = []
-    for rows in (hosted, local):
-        for route in sorted({row["model"] for row in rows}):
-            for condition, baseline, _ in CONTRASTS:
-                for metric in ("has_emoji", "has_markdown", "has_format_default", "word_count"):
-                    result = paired_contrast(rows, route, condition, baseline, metric)
-                    if result:
-                        contrasts.append(result)
-    write_csv(OUT / "paired_contrasts.csv", contrasts)
-    write_csv(OUT / "stage_contrasts.csv", stage_contrasts(local))
-    write_tex_tables(hosted_rates, local_rates, contrasts)
+    from analyze_tist_revision import write_table
 
-    # Stage trend under the neutral prompt (OLMo 2 1B, one family of checkpoints).
-    stage_rates = {s: {m: mean(r["m"][m] for r in local if r["route_stage_label"] == s and r["condition"] == "neutral")
-                       for m in METRICS} for s in STAGES if any(r["route_stage_label"] == s for r in local)}
-    if stage_rates:
-        fig, ax = plt.subplots(figsize=(5, 3))
-        for metric, label in [("has_markdown", "Markdown"), ("has_emoji", "Emoji"), ("has_polish_without_length", "Polish (no length)")]:
-            ax.plot([STAGE_NAMES[s] for s in stage_rates], [stage_rates[s][metric] * 100 for s in stage_rates], marker="o", label=label)
-        ax.set_ylabel("Neutral outputs with feature (%)")
-        ax.set_title("OLMo 2 1B by training stage", fontsize=9)
-        ax.legend(fontsize=7, frameon=False)
-        fig.tight_layout()
-        fig.savefig(OUT / "olmo_stage_trend.png", dpi=300)
-        plt.close(fig)
-    summary = {"hosted_rows": len(hosted), "local_rows": len(local),
-               "hosted_routes": sorted({short(r["model"]) for r in hosted}),
-               "local_stages": sorted({r["route_stage_label"] for r in local}),
-               "neutral_stage_rates": stage_rates}
-    (OUT / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    print(json.dumps({k: v for k, v in summary.items() if k != "neutral_stage_rates"}))
+    OUT.mkdir(parents=True, exist_ok=True)
+    hosted, controls, local, local7b = load(HOSTED_GLOB), load(CONTROLS_GLOB), load(LOCAL_GLOB), load(LOCAL7B_GLOB)
+    summary = {"rows": {"hosted": len(hosted), "controls": len(controls), "local_1b": len(local), "local_7b": len(local7b)}}
+    summary.update(hosted_tables(hosted, controls, write_table))
+    families = {"1B": stage_tables(local, "", write_table)}
+    if {r["route_stage_label"] for r in local7b} >= set(STAGES):  # only once all four 7B stages are collected
+        families["7B"] = stage_tables(local7b, "_7b", write_table)
+    summary["stages"] = families
+    stage_figure(families)
+    for name, rows in (("hosted", hosted), ("controls", controls), ("local_1b", local), ("local_7b", local7b)):
+        cells = defaultdict(list)
+        for r in rows:
+            cells[(short(r["model"]), r["condition"])].append(r["m"])
+        with (OUT / f"{name}_rates.csv").open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.writer(handle)
+            writer.writerow(["model", "condition", "n", *METRICS])
+            for (m, c), v in sorted(cells.items()):
+                writer.writerow([m, c, len(v), *[f"{mean(x[k] for x in v):.4f}" for k in METRICS]])
+    (OUT / "summary.json").write_text(json.dumps(summary, indent=2, default=str), encoding="utf-8")
+    print(json.dumps(summary["rows"]))
 
 
 if __name__ == "__main__":

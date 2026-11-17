@@ -1,0 +1,50 @@
+# Cookie Notice
+
+**Last updated: [Date]**
+
+## 1. What Are Cookies?
+
+Cookies are small text files placed on your device when you visit a website. They help the site function properly, remember your preferences, and understand how visitors use it.
+
+## 2. How We Use Cookies
+
+By continuing to use [Website Name] (the "Site"), you acknowledge that we use the following categories of cookies:
+
+| Category | Purpose | Consent Required |
+|---|---|---|
+| **Strictly Necessary** | Enable core functions such as security, page navigation, and shopping cart operation. The Site cannot function properly without them. | No |
+| **Preference** | Remember your settings, such as language or region. | Yes |
+| **Analytics** | Collect aggregated, anonymized data on how visitors interact with the Site so we can improve it. | Yes |
+| **Marketing** | Track browsing activity to deliver relevant advertising, including through third-party providers. | Yes |
+
+## 3. Consent
+
+Except for strictly necessary cookies, we will place cookies on your device only after you have given your consent through our cookie banner. You may accept all cookies, reject non-essential cookies, or customize your selections.
+
+## 4. Third-Party Cookies
+
+Some cookies are set by third parties, such as analytics or advertising providers, that appear on our pages. We do not control these cookies. Please consult the relevant third party's privacy policy for details.
+
+## 5. Managing and Withdrawing Consent
+
+You may change or withdraw your consent at any time by selecting "Cookie Settings" in the footer of the Site. You may also block or delete cookies through your browser settings. Please note that disabling certain cookies may affect the functionality of the Site.
+
+## 6. Retention
+
+Session cookies expire when you close your browser. Persistent cookies remain on your device for up to [12] months, unless deleted earlier by you.
+
+## 7. Changes to This Notice
+
+We may update this Cookie Notice from time to time. Material changes will be indicated by revising the "Last updated" date above.
+
+## 8. Contact Us
+
+For questions about this Notice or our use of cookies, please contact:
+
+[Company Name]
+[Address]
+[Email]
+
+---
+
+*This template is provided for general informational purposes and does not constitute legal advice. Requirements vary by jurisdiction (e.g., GDPR, ePrivacy Directive, CCPA), so please have it reviewed by qualified counsel before publication.*

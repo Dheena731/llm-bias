@@ -1,0 +1,1 @@
+Select a start and end date to filter results to that period. Click a date to begin, then click another to finish. Both dates are included in the range. To change it, click the field again and pick new dates.

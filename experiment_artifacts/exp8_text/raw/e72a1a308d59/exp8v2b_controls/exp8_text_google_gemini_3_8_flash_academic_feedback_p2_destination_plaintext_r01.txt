@@ -1,0 +1,10 @@
+Overall, you have a solid foundation here, and the general sequence of your procedure is easy to follow. 
+
+To ensure your study is fully replicable, please address a few key areas in your next draft:
+
+1. Add specific details about your sample, including the exact participant count, recruitment methods, and relevant demographics.
+2. Clearly define your operational variables and explicitly state how each one was measured.
+3. Mention the specific tools, materials, and software versions used, along with the exact statistical tests planned for analysis.
+4. Briefly justify why you selected this particular design over alternative approaches.
+
+With these extra technical details in place, the section will be much stronger and ready for your final submission. Keep up the good work!

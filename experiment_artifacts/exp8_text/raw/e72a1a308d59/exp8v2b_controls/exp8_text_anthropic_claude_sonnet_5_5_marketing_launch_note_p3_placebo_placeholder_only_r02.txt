@@ -1,0 +1,21 @@
+# Introducing Tidy Ledger: The Budgeting Spreadsheet That Does the Math for You
+
+Tidy Ledger is a budgeting template for people who want a clear picture of their money without building a system from scratch.
+
+**What's inside**
+
+- **Monthly dashboard:** See income, spending, and savings on one screen, with color-coded progress bars for each category.
+- **Automatic categorization:** Type in an expense and Tidy Ledger sorts it into the right category and updates your totals instantly.
+- **Bill calendar:** Track due dates for rent, utilities, and subscriptions so nothing slips through.
+- **Savings goal tracker:** Set a target, and the template shows how much to set aside each month to reach it.
+- **Year-in-review tab:** Compare all twelve months side by side to spot trends and trim what isn't working.
+
+**Works where you do**
+
+Tidy Ledger runs in Excel, Google Sheets, and Numbers. There are no macros, add-ons, or accounts to set up. Open it, enter your numbers, and you're done in about ten minutes.
+
+**Availability**
+
+Tidy Ledger is available today for an introductory price of $12 through the end of the month. It includes a one-page quick-start guide and free updates for life.
+
+Stop wondering where your money went. Start telling it where to go.

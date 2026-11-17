@@ -1,0 +1,1 @@
+The shaded band shows the 95% confidence interval: the range in which the true value likely falls. A wider band means more uncertainty. If the bands of two lines overlap, the difference between them may not be meaningful.

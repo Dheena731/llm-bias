@@ -1,0 +1,4 @@
+Here is a concise tooltip explaining what a missing-value marker means:
+
+**Missing-Value Marker**
+A missing-value marker indicates that a data point is unknown or not applicable, and is often represented by a blank cell or a specific symbol (such as "NA" or "-").

@@ -1,0 +1,6 @@
+**Tooltip text:**
+
+> **Export results**
+> Run your query, then select **Export** and choose a file format (for example, CSV). The file downloads to your device.
+
+**Note:** I assumed the button is labeled "Export" and that CSV is one of the formats. Adjust these to match your product. If exports have limits, such as a maximum row count, add a short line saying so.

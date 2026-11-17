@@ -1,0 +1,17 @@
+To enable two-factor authentication, please follow these steps:
+
+1. Log in to your account.
+2. Go to your account settings.
+3. Locate the two-factor authentication option.
+4. Click to enable it.
+5. A verification code will be sent to your registered phone number.
+6. Enter the code and confirm.
+
+Alternatively, you can also enable two-factor authentication through your account's settings page. To do this:
+
+1. Go to your account's settings page.
+2. Look for the two-factor authentication option.
+3. Click to enable it.
+4. Follow the on-screen instructions to complete the setup.
+
+Enabling two-factor authentication will add an extra layer of security to your account, making it more difficult for others to access your account even if they have your password.

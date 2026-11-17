@@ -1,0 +1,1 @@
+This range shows where the actual underlying value likely falls. The stated confidence level means that if this analysis were repeated many times, that percentage of such ranges would capture the true value. Wider intervals indicate greater uncertainty in your estimate.

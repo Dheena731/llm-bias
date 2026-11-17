@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a confidence interval in a chart:
+
+"A confidence interval represents the range of values within which a population parameter is likely to lie. It is a measure of uncertainty, typically expressed as a percentage (e.g. 95%), that reflects the margin of error in the sample mean. In this chart, the confidence interval indicates the range of possible values for the population mean, with the sample mean marked by a vertical line."

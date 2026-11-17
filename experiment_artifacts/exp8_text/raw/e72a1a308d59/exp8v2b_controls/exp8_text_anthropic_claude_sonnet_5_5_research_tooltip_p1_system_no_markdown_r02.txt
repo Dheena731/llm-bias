@@ -1,0 +1,9 @@
+Filter datasets by license type
+
+Show only datasets whose license permits your intended use. Select "Open" for unrestricted reuse, "Attribution required" for datasets that must be credited, or "Restricted" for those that need permission or have limits on commercial use. Datasets with no stated license are hidden by default.
+
+If you meant a different filter (date range, data type, sample size, and so on), tell me which one and I'll adapt the tooltip. Here is a second example for reference:
+
+Peer-reviewed only
+
+Limits results to datasets linked to published, peer-reviewed studies. Preprints and unpublished collections are excluded, so you may see fewer results.

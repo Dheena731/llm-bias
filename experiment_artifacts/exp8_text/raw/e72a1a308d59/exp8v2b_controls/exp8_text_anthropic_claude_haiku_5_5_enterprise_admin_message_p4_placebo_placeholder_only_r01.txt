@@ -1,0 +1,9 @@
+**Notice: Quarterly Access Review**
+
+All system owners and department managers are reminded that the quarterly access review is now open. Each reviewer must confirm that every user listed under their systems or teams still needs the access they currently hold, and must remove or modify any access that is no longer required.
+
+Please complete your review within 10 business days of receiving this notice. Reviews are carried out in the Identity Management portal under "Access Certifications," where you will find a list of accounts assigned to your systems. For each account, select Approve, Revoke, or Modify, and add a brief comment for any revocation or change.
+
+Accounts with no review decision by the deadline will be flagged for escalation to your department head and may be suspended until the review is complete.
+
+Questions about the process can be directed to the IT Security team through the service desk. Thank you for keeping our access controls current and our systems secure.

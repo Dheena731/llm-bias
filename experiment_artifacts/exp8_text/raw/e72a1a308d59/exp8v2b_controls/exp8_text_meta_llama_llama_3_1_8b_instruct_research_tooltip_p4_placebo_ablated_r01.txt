@@ -1,0 +1,4 @@
+Here is a concise tooltip that explains what a missing-value marker means:
+
+**Missing-value marker (e.g., "NA"):**
+Indicates that a data value is unknown or missing. This marker is used to distinguish between actual data and empty or missing information, allowing for more accurate analysis and interpretation of data sets.

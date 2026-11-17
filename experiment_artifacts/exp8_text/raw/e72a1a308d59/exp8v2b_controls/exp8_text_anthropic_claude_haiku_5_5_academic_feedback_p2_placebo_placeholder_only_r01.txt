@@ -1,0 +1,12 @@
+**Feedback on Methods Section**
+
+Your methods section is clear and easy to follow, and the participant description is especially good. Stating that you recruited 84 undergraduates from two introductory psychology courses, with the inclusion criteria and the reason for excluding 6 participants who did not finish the sleep diary, makes the sample transparent.
+
+A few areas need work:
+
+1. **Procedure order.** The paragraph on the reaction-time task describes the practice trials after the main trials. Reordering these would help readers reproduce the study.
+2. **Measurement details.** You write that sleep was "self-reported," but you don't say which instrument you used or how duration was calculated. Name the diary format and explain how you converted bedtime and wake time into hours.
+3. **Analysis justification.** You report a mixed-effects model but don't explain why it suits your repeated-measures design or which random effects you included. One or two sentences would resolve this.
+4. **Consistency.** You use "participants" in one paragraph and "subjects" in another. Choose "participants," which is the current APA convention.
+
+Overall, this is a solid draft. Address the first three points and the section should be ready for your supervisor's review.

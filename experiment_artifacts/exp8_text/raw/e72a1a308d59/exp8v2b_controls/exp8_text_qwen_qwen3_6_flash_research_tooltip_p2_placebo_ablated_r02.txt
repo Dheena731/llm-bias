@@ -1,0 +1,1 @@
+This range shows where the true value likely falls. If the same measurement were repeated many times, 95% of similar intervals would capture the actual value. Wider intervals indicate greater uncertainty in the estimate.

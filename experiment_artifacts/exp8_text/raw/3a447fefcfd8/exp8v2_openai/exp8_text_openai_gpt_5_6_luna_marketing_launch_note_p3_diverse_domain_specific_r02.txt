@@ -1,0 +1,7 @@
+### A budgeting spreadsheet for the bills that don’t arrive neatly
+
+This template helps you plan around real-life expenses: annual renewals, quarterly utilities, school costs, car repairs, and other “surprise” bills that aren’t actually surprises.
+
+Enter your paydays and fixed expenses, assign money to sinking funds, and track planned versus actual spending month by month. The dashboard shows what’s available now, what’s already committed, and which categories are drifting over budget.
+
+Built for Google Sheets and Excel, with no subscriptions, bank connections, or complicated setup.

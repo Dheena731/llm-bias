@@ -1,0 +1,1 @@
+"This filter allows you to narrow down the dataset by selecting specific variables, such as age, location, or demographic characteristics, to focus on a particular subgroup and analyze their trends and patterns in more detail."

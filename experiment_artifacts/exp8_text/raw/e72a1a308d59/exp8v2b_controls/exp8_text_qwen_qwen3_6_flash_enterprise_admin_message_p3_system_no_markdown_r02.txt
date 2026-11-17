@@ -1,0 +1,17 @@
+Subject: Important Update Regarding Your VPN Client
+
+Dear Team,
+
+We are rolling out a new version of our VPN client on [Date]. This update delivers faster connection speeds, enhanced security protocols, and a simplified user interface.
+
+Please install the updated client using the link below before [Deadline Date]. After this date, the previous version will no longer connect to our network, which may interrupt your remote access.
+
+Download Link: [URL]
+Installation Guide: [URL]
+
+If you need assistance or run into any problems, please contact IT Support at [Email/Phone].
+
+Thank you for your prompt attention to this update.
+
+Sincerely,
+IT Security Team

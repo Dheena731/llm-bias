@@ -133,7 +133,7 @@ def study1(summary: dict) -> None:
             nonpict_only += bool(chars) and chars <= NON_PICTOGRAPHIC
     write_csv(OUT / "study1_model_level.csv", out)
     write_table(OUT / "table_study1_model_level.tex",
-                "Study 1 emoji-free rate by model and instruction level, with 95\\% intervals from a prompt-cluster "
+                "E1: emoji-free rate by model and instruction level, with 95\\% intervals from a prompt-cluster "
                 "bootstrap. Missing rows are HTTP 429 rate-limit failures on the free GLM route; GLM has no L4 rows and "
                 "its L3 rows cover only academic, legal, and technical prompts.",
                 "tab:study1-model-level", ["Model", "Level", "Clean", "Missing", "Emoji-free \\% [95\\% CI]"],
@@ -165,7 +165,7 @@ def study2(summary: dict) -> None:
         figure_data[SHORT[model]] = counts.most_common(8)
     write_csv(OUT / "study2_baseline_palette.csv", out)
     write_table(OUT / "table_study2_palette.tex",
-                "Study 2 primary colors in the unrestricted baseline variant (150 responses per model, 5 company types). "
+                "E2: primary colors in the unrestricted baseline variant (150 responses per model, 5 company types). "
                 "Blue: saturated-blue primaries, defined as hue 190--260$^\\circ$, saturation $\\geq$30\\%, lightness 20--90\\%.",
                 "tab:study2-palette", ["Model", "Blue", "Distinct", "Top-3 primaries (count)", "Purple"], body, "lrrlr",
                 size=r"\small")
@@ -200,7 +200,7 @@ def study3(summary: dict) -> None:
     glm_conditions = sorted({r["condition"] for r in data if "glm" in r["model"]})
     write_csv(OUT / "study3_model_constraints.csv", out)
     write_table(OUT / "table_study3_model.tex",
-                "Study 3 violations / active rows by model. GLM retains 104 of 1,200 rows after connection errors and has "
+                "E3: violations / active rows by model. GLM retains 104 of 1,200 rows after connection errors and has "
                 "no rows in progressive conditions 4--7; its 28 word-limit rows all come from the full-constraint condition.",
                 "tab:study3-model", ["Constraint", *[SHORT[m] for m in models]], body, "l" + "r" * len(models))
     summary["study3"] = {"cells": out, "glm_clean_rows": sum("glm" in r["model"] for r in data),
@@ -228,7 +228,7 @@ def exp8(summary: dict) -> None:
                          pct(entry["polish_without_length"]), f"{entry['mean_words']:.0f}"])
     write_csv(OUT / "exp8_route_condition.csv", out)
     write_table(OUT / "table_exp8_routes.tex",
-                "Study 4 rates (\\%) by route and condition ($n=24$ per cell: 12 prompt families $\\times$ 2 repeats). "
+                "Pilot rates (\\%) by route and condition ($n=24$ per cell: 12 prompt families $\\times$ 2 repeats). "
                 "Polish excludes the length component.",
                 "tab:exp8-routes", ["Route", "Condition", "Format", "Markdown", "Emoji", "Polish", "Words"], body,
                 "llrrrrr")
@@ -255,7 +255,7 @@ def spillover(summary: dict) -> None:
     for route in sorted({e["route"] for e in exp8_rows}):
         neutral = next(e for e in exp8_rows if e["route"] == route and e["condition"] == "neutral")
         no_emoji = next(e for e in exp8_rows if e["route"] == route and e["condition"] == "no_emoji")
-        out.append({"study": "Study 4", "model": route, "control": "Do not use emoji.", "n_each": neutral["n"],
+        out.append({"study": "Pilot", "model": route, "control": "Do not use emoji.", "n_each": neutral["n"],
                     "emoji_neutral": neutral["emoji"], "emoji_control": no_emoji["emoji"],
                     "markdown_neutral": neutral["markdown"], "markdown_control": no_emoji["markdown"],
                     "words_neutral": neutral["mean_words"], "words_control": no_emoji["mean_words"]})
@@ -277,9 +277,10 @@ def spillover(summary: dict) -> None:
                      f"{e['words_neutral']:.0f} $\\to$ {e['words_control']:.0f}"])
     write_csv(OUT / "spillover.csv", out)
     write_table(OUT / "table_spillover.tex",
-                "Instruction spillover: neutral $\\to$ control condition. Study 4's control forbids only emoji; the spillover-set "
-                "control adds an equally long instruction that forbids no presentation feature. Rates in \\%; words are means.",
-                "tab:spillover", ["Source", "Model", "$n$ each", "Emoji", "Markdown", "Words"], body, "llrrrr")
+                "Earlier collections, neutral $\\to$ control. Pilot rows: the control forbids only emoji. Spillover-set rows: the companion "
+                "study's equally long instruction that forbids no presentation feature. Undivided Markdown; rates in \\%; words are means.",
+                "tab:spillover", ["Source", "Model", "$n$ each", "Emoji", "Markdown", "Words"], body, "llrrrr",
+                size=r"\small")
     summary["spillover"] = out
 
 

@@ -1,0 +1,20 @@
+**Subject: Quarterly Access Review: Action Required by [Deadline Date]**
+
+**To:** Managers, application owners, and designated access approvers
+
+The quarterly access review for [system or department name] is now open. Please confirm that each person on your team still needs the access they currently have.
+
+**What you need to do:**
+
+1. Log in to the access review portal at [link] by [deadline date].
+2. For each user listed, select **Keep** if the access is still needed for their current role, or **Remove** if it is not.
+3. Submit your review before the deadline.
+
+Access marked **Remove** will be revoked within [number] business days of submission. Reviews not completed by [deadline date] will be escalated to [name or role].
+
+Keeping access limited to what people currently need protects our data and supports our audit requirements. If you have questions about a specific user or system, contact [team name] at [email address].
+
+Thank you for completing this on time.
+
+[Sender name]
+[Title], [Department]

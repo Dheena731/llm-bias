@@ -1,0 +1,1 @@
+"Confidence Interval: The shaded range around the estimate, showing the likely range of the true value. In this case, we are [X]% confident that the true value falls within this range, giving an indication of the estimate's precision and reliability."

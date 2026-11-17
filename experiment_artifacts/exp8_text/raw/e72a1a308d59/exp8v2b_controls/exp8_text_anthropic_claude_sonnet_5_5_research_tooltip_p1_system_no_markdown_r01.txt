@@ -1,0 +1,3 @@
+Peer-reviewed only: Show only datasets linked to published studies that passed formal peer review. Turn this off to include preprints, technical reports, and unpublished data, which may not have been independently validated.
+
+If you tell me which filter you have in mind (date range, data type, license, sample size, and so on), I can tailor the wording and length to fit your interface.

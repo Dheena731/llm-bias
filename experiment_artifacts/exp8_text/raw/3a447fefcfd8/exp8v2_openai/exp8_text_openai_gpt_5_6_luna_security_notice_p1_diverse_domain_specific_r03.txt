@@ -1,0 +1,5 @@
+**Security notice: Don’t reuse passwords across clinic systems**
+
+Your EHR, e-prescribing account, scheduling system, and payroll login must each have a unique password. If a password from a personal site or vendor portal is exposed, attackers may use it to access patient records or send unauthorized prescriptions.
+
+Use the organization’s password manager to create and store unique passwords. Never share your password with coworkers or enter it into an unfamiliar sign-in page. Report suspected reuse or a suspicious login to IT immediately.

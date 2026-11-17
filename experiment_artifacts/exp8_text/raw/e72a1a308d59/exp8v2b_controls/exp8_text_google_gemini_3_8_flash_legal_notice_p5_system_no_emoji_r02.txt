@@ -1,0 +1,18 @@
+**ACCEPTABLE USE NOTICE: SHARED NETWORK ACCESS**
+
+**1. Applicability and Acceptance**
+By connecting to or utilizing this shared network infrastructure, you ("User") acknowledge and agree to comply with the terms of this Acceptable Use Notice. Access to the network is a revocable privilege, not a right.
+
+**2. Permitted and Prohibited Use**
+This network is provided strictly for lawful and authorized communications. Users are expressly prohibited from:
+* Engaging in any activity that violates federal, state, local, or international law;
+* Transmitting, distributing, or storing any material that is defamatory, infringing, obscene, or harmful;
+* Introducing malicious software, viruses, worms, or executing denial-of-service (DoS) attempts;
+* Intercepting, accessing, or modifying data or traffic belonging to other network users without express authorization;
+* Consuming disproportionate network resources or bandwidth that degrades network performance for other users.
+
+**3. Monitoring and Privacy Disclaimer**
+Users have no reasonable expectation of privacy regarding any communication or data transmitted across or stored on this network. Network administrators reserve the right to monitor, intercept, log, and inspect any network traffic or connected devices at any time, without prior notice, to maintain system integrity, verify compliance, and protect network assets.
+
+**4. Enforcement and Remedies**
+Violation of these terms may result in the immediate suspension or termination of network access, administrative disciplinary action, and referral to appropriate law enforcement authorities. The network operator reserves the right to seek all available legal and equitable remedies, including damages and injunctive relief.

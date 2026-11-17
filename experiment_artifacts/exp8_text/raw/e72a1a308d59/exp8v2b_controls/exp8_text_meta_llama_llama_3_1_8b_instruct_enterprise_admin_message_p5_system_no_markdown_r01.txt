@@ -1,0 +1,13 @@
+"Dear all,
+
+We are writing to inform you that our email system will be undergoing a migration in the near future. This change will affect the way you send and receive emails, and we recommend that you take a few moments to review the following information:
+
+* Your email address will remain the same, but you may need to update your account settings in your email client or mobile app.
+* You may need to re-enter your password or update your two-factor authentication settings.
+* The new system will have some minor changes to the user interface and features.
+
+If you have any questions or concerns, please don't hesitate to reach out to our IT department. We will send out more detailed instructions and a timeline for the migration in the coming weeks.
+
+Thank you for your cooperation and understanding.
+
+Best regards, [Your Name]"

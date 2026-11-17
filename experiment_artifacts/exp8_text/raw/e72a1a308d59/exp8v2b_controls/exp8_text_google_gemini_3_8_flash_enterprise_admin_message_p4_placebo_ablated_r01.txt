@@ -1,0 +1,19 @@
+**Subject:** Action Required: Quarterly Access Review Now Open
+
+**To:** All People Managers and System Owners
+
+The quarterly access review is now open. 
+
+To maintain system security and ensure that employees have only the permissions necessary to perform their current jobs, you are required to review access permissions for your teams and systems.
+
+**Please complete the following actions by [Insert Deadline, e.g., Friday, November 15, at 5:00 PM]:**
+
+1. Review the list of users and their assigned permissions for your direct reports or systems.
+2. Confirm permissions that are still required.
+3. Flag or remove any permissions that are no longer needed (such as access for transferred employees or completed projects).
+4. Submit your completed review via [Insert Tool/Portal Link].
+
+Prompt completion is required to keep our systems secure and compliant. If you have questions or encounter any issues, please contact the IT Support Desk at [Insert Contact Info].
+
+Thank you,  
+**Information Security Team**

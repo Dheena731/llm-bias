@@ -1,0 +1,27 @@
+**Subject: Quarterly Access Reviews Begin Next Week**
+
+Hello everyone,
+
+Quarterly access reviews begin Monday and must be completed within two weeks. These reviews confirm that each person has the right level of access to our systems, applications, and shared data, and nothing more.
+
+**What you need to do**
+
+- Managers: Review the access list for each of your direct reports in the identity management portal. Approve access that is still needed, and flag anything that should be removed or changed.
+- System owners: Confirm that the list of users for your applications is accurate, including any service accounts and external collaborators.
+- All employees: Check your email for a review notification. If you receive one, respond promptly if any of your permissions look incorrect or unfamiliar.
+
+**Key points**
+
+- Access that is not confirmed by the end of the review window will be suspended automatically. It can be restored once a manager approves it.
+- Accounts for departed employees or completed projects should be flagged for removal immediately rather than waiting for the review deadline.
+- Privileged and administrator accounts will receive additional scrutiny and require sign-off from a senior manager.
+
+**Why this matters**
+
+Regular reviews reduce security risk, support compliance requirements, and keep our systems tidy. Most reviews take only 15 to 30 minutes per team.
+
+If you have questions or need help using the portal, contact the IT Service Desk through the helpdesk portal or by replying to this message.
+
+Thank you for your cooperation.
+
+IT Security and Administration Team

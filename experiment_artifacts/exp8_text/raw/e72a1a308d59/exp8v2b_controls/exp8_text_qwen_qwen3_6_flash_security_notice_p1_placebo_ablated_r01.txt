@@ -1,0 +1,18 @@
+**SECURITY NOTICE: PASSWORD REUSE POLICY**  
+**To:** All Employees and Contractors  
+**Effective:** Immediately  
+
+To protect company systems and your personal accounts, **you must never reuse passwords**. This means using a different password for every work application, your personal email, and any third-party service. 
+
+Reusing passwords creates a direct chain of risk: if a password is stolen from any site—whether through a phishing email, a data breach, or accidental exposure—attackers will try it across all your other accounts. A single weak link can compromise sensitive company data and your private information.
+
+**Required Actions:**
+• Create a unique, strong password for every work system and personal account.  
+• Never use work login credentials on non-company websites or apps.  
+• Save and generate passwords only through the organization’s approved password management tool.  
+• Notify IT Security immediately if you suspect any account has been accessed without authorization.
+
+Compliance with this policy is mandatory. Failure to follow these guidelines may result in disciplinary action and exposes the entire organization to preventable threats. For setup assistance or policy questions, contact IT Support at [internal phone/email] or visit the security resource page.
+
+Thank you for taking your role in keeping our workplace secure.  
+**Information Security Team**

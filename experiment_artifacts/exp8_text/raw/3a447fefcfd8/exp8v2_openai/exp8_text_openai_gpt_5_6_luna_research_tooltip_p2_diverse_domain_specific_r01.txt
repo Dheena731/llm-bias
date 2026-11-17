@@ -1,0 +1,1 @@
+What domain and confidence level should the tooltip reflect—for example, a 95% interval around estimated treatment effects, forecasted sales, or survey results?

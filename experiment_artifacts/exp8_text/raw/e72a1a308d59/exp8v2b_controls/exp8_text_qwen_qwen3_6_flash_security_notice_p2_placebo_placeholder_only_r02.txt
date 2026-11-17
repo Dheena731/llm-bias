@@ -1,0 +1,22 @@
+Subject: Important Security Reminder: Identifying and Reporting Phishing Emails
+
+All Employees,
+
+Cybersecurity threats are evolving, and phishing attempts remain a significant risk to our organization. Please review the following guidelines to protect company data and your personal accounts.
+
+**Recognizing Phishing:**
+- Be cautious of unsolicited emails requesting sensitive information such as passwords, login credentials, or financial details.
+- Verify the sender's email address carefully; attackers often use addresses that look similar to legitimate domains but contain subtle spelling errors or unusual extensions.
+- Do not click on links or download attachments from unexpected sources. Hover over links to preview the actual destination URL before clicking.
+- Watch for urgent language demanding immediate action, as this is a common tactic used to bypass critical thinking.
+
+**If You Receive a Suspicious Email:**
+- Do not reply, click any links, or open attachments.
+- Forward the email immediately to the IT Help Desk.
+- Report the incident promptly so the security team can investigate and block the threat.
+
+Your vigilance is essential to maintaining a secure work environment. When in doubt, always verify requests through established communication channels rather than responding directly to the suspicious message.
+
+Thank you for your cooperation.
+
+IT Security Team

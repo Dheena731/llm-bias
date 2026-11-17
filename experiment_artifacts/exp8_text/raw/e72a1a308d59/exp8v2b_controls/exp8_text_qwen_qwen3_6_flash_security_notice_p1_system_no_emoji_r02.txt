@@ -1,0 +1,18 @@
+**SECURITY NOTICE: PROHIBITION ON PASSWORD REUSE**
+
+To protect company systems, client data, and operational continuity, all employees are reminded that reusing passwords across personal accounts, third-party services, or different company systems is strictly prohibited.
+
+When a single credential is reused and one account is compromised, threat actors can leverage that same password to access additional platforms, escalate privileges, or exfiltrate sensitive information. A single weak point can undermine the security of the entire network.
+
+**Required Actions:**
+- Assign a unique, complex password to every work-related account and device.
+- Use the organization-approved password manager to generate and store credentials securely.
+- Enable multi-factor authentication on all supported systems.
+- Report any suspected unauthorized access to IT Security immediately so affected accounts can be reset.
+
+For assistance with password management, account recovery, or to request security training, contact the IT Security Team at security@company.com or submit a request via the employee helpdesk portal.
+
+This policy is effective immediately. Compliance is mandatory for all personnel with access to company resources. Thank you for your prompt attention to this critical security requirement.
+
+IT Security Department  
+[Date]

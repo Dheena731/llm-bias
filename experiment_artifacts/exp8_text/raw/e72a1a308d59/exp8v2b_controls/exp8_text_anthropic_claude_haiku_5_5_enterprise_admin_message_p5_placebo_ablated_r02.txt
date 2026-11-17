@@ -1,0 +1,19 @@
+**Subject: Email system upgrade on [date]**
+
+Dear all,
+
+On [date], between [start time] and [end time], we will move everyone's email to a new system. Email may be unavailable for up to [X hours] during this window.
+
+**What you need to do:**
+- Before [date], save any drafts you want to keep and finish sending messages that are in your outbox.
+- After the move, sign in with your usual username and password. You do not need to set anything up again.
+- If your email app shows an error after [date], close it, restart it, and sign in again. If the problem continues, contact IT.
+
+**What will not change:** your email address, your folder names, and your contacts.
+
+Questions can go to [IT contact name] at [email or phone number]. We will send a confirmation once the move is complete.
+
+Thank you for your patience.
+
+[Your name]
+[Your role]

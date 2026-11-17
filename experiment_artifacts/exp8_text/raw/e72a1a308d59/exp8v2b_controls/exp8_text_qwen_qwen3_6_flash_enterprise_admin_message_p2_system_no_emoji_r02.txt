@@ -1,0 +1,23 @@
+Subject: Implementation of New Expense Approval Workflow
+
+Dear Team,
+
+Please be advised that we will be transitioning to a revised expense approval workflow, effective [Date]. This update aims to streamline submission processing, enhance visibility into pending requests, and align our procedures with current financial policies.
+
+Key changes include:
+• All expense reports must now be submitted through [System/Platform Name].
+• Approvers will receive automatic notifications and are expected to action requests within three business days.
+• Supporting documentation and receipt uploads are mandatory for all submissions.
+• Multi-tier approvals will be automatically routed based on amount and department, eliminating manual routing errors.
+
+Comprehensive instructions, system access guides, and a quick-reference checklist are available on the internal finance portal. We recommend reviewing these materials prior to submitting future expenses.
+
+For technical support or policy clarifications, please contact the Finance Operations team at [Email Address] or [Phone Number]. 
+
+Thank you for your attention and cooperation during this transition.
+
+Best regards,
+
+[Your Name]
+[Title]
+[Department]

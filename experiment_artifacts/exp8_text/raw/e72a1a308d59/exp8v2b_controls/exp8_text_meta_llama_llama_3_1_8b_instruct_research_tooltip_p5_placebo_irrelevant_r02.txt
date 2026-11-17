@@ -1,0 +1,12 @@
+Here is a concise tooltip explaining how to export query results:
+
+**Exporting Query Results**
+
+To export your query results, follow these steps:
+
+1. Click on the "Export" button (or use the keyboard shortcut Ctrl + E).
+2. Choose a file format (e.g. CSV, Excel, JSON).
+3. Select the desired data to export (e.g. all rows, current page, specific columns).
+4. Click "Export" to save the results to a file on your computer.
+
+**Note:** Depending on your browser or application settings, you may need to allow pop-ups or downloads to proceed with the export.

@@ -1,0 +1,1 @@
+Starting Monday, VPN Client 6.4 will automatically reconnect after brief Wi‑Fi or network changes, so you won’t need to sign in again. Your existing VPN profiles and MFA settings remain unchanged. Please install the update before your next remote session.

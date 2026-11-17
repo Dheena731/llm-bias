@@ -1,0 +1,32 @@
+**Subject: New Expense Approval Workflow, Effective Monday, [Date]**
+
+Hello team,
+
+Starting [Date], we are introducing a new workflow for expense approvals. The change is intended to speed up reimbursements and make spending easier to track.
+
+**What is changing**
+
+- All expense reports must be submitted through [Expense Tool] rather than by email.
+- Receipts must be attached to each line item at the time of submission.
+- Reports under $500 will go to your direct manager for approval.
+- Reports of $500 or more will require approval from your manager and the Finance team.
+
+**Timeline**
+
+- Submit expenses within 30 days of the purchase date.
+- Managers should review and approve or decline within 3 business days.
+- Approved expenses will be reimbursed in the next scheduled payroll cycle.
+
+**What you need to do**
+
+1. Log in to [Expense Tool] and confirm your account is active.
+2. Review the quick-start guide at [Link].
+3. Submit any outstanding expenses under the old process by [Cutoff Date].
+
+If you have questions or run into access issues, contact [Name] at [Email] or post in [Channel]. We will also hold a short walkthrough on [Date and Time] for anyone who would like a demo.
+
+Thank you for your help with the transition.
+
+Best regards,
+[Name]
+[Title]

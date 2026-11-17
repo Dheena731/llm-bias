@@ -1,0 +1,5 @@
+**Security Notice: Enable Two-Factor Authentication**
+
+Please enable two-factor authentication on your account to add an extra layer of security. In addition to your password, you’ll use a second verification step when signing in, helping protect your account if your password is compromised.
+
+You can enable it in your account’s security settings.

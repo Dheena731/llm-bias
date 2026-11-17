@@ -1,0 +1,21 @@
+SUBJECT: ACTION REQUIRED: New Expense Approval Workflow Starting [Date]
+
+Hi Team,
+
+We are updating the expense approval process to streamline submissions and ensure policy compliance. These changes go into effect on [Effective Date].
+
+Key Updates:
+1. System Change: All expenses must now be submitted via [Name of Tool/Portal].
+2. Receipt Requirement: Digital receipts are mandatory for all expenses, regardless of amount.
+3. Approval Thresholds: Expenses over [Amount] will now route to [Role/Person] for final sign-off.
+4. Timeliness: Submissions must be made within [Number] days of the expense date.
+
+Please review the full policy guidelines here: [Link]
+
+For help with the new system, visit our FAQ at [Link] or contact the Finance team at [Email/Phone].
+
+Thank you for your cooperation.
+
+Best regards,
+
+[Your Name/Admin Team]

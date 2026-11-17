@@ -1,0 +1,17 @@
+**Subject: Quarterly Access Reviews: Action Required by [Date]**
+
+**To:** System administrators and application access owners
+**From:** [Name], IT Security
+
+Beginning this quarter, we will review user access to [systems/applications] every three months. Each review confirms that every user still has only the access their current role requires.
+
+**What you need to do:**
+
+1. **By [date],** export the current user access list for each system you manage. IT will provide the template.
+2. **Mark each account** as Keep, Change, or Remove.
+3. **Return the completed list** to the IT Security team by [date].
+4. **Remove access** for anyone who has left the organization or changed roles by [date].
+
+Reviews not returned by [date] will be escalated to your department head.
+
+Questions can be sent to [contact name and email].

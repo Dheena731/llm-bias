@@ -1,0 +1,30 @@
+**Subject: Quarterly Access Review: Action Required**
+
+**Date:** [Insert Date]
+**From:** IT Security and Compliance
+**To:** All Department Managers and System Owners
+
+**Overview**
+
+The quarterly access review for user accounts and system permissions begins on [start date] and must be completed by [due date]. These reviews help us maintain security, meet audit requirements, and ensure employees have only the access they need for their current roles.
+
+**What You Need to Do**
+
+1. Review the access report sent to your inbox by [date].
+2. Confirm that each listed user still requires their current level of access.
+3. Flag any accounts that should be modified or removed, including those belonging to employees who have changed roles, transferred, or left the organization.
+4. Return the completed review through [portal/form/email] by the due date.
+
+**Key Points**
+
+- Access that is not confirmed by the deadline may be suspended until review is complete.
+- Privileged and administrative accounts will receive additional scrutiny.
+- Shared accounts and service accounts must have a named owner.
+
+**Questions**
+
+Contact the IT Service Desk at [email/phone] or visit [intranet link] for guidance and instructions.
+
+Thank you for your prompt attention. Timely completion of these reviews is essential to protecting company data and systems.
+
+**IT Security and Compliance**

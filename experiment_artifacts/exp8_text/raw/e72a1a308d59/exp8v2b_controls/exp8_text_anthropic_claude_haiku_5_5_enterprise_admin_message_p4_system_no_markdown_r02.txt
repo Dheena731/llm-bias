@@ -1,0 +1,20 @@
+Subject: Quarterly Access Review: Action Required by [Date]
+
+Dear Team,
+
+As part of our ongoing security and compliance efforts, the quarterly access review for [System/Department] is now underway. Please review the access permissions for your team members and confirm that each user still needs their current level of access.
+
+Please complete the following by [Date]:
+
+Review the list of users and permissions assigned to your team in the access review portal.
+Confirm access that is still required for each person's role.
+Flag any access that is no longer needed, such as access for employees who have changed roles or left the organization.
+
+If you have questions or need help accessing the review tool, contact [IT Support contact] at [email or extension].
+
+Timely completion helps us maintain compliance and protect company data. Thank you for your prompt attention.
+
+Regards,
+[Your Name]
+[Your Title]
+[Department]

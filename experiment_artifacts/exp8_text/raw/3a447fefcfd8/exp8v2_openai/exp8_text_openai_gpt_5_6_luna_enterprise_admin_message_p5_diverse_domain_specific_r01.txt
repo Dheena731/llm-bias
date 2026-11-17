@@ -1,0 +1,7 @@
+**Subject: Email migration on 14 June**
+
+On 14 June, we’ll move company mailboxes from our current mail server to Microsoft 365. Your email address, mailbox contents, folders, and calendar will remain unchanged.
+
+Outlook and mobile users may need to sign in again after the cutover. Please keep Outlook open during the migration and avoid changing passwords that morning. Email access may be intermittent between 7:00–9:00 a.m.
+
+If messages or folders appear to be missing afterward, contact IT at **it@example.com** rather than deleting or recreating the account.

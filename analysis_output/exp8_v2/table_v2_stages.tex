@@ -1,16 +1,16 @@
 \begin{table}[t]
 \centering
-\small
-\caption{Study 5: OLMo 2 1B checkpoints by training stage (60 prompts, one output each per condition). Rates in \%; MD/100w (Markdown markers per 100 words) and words are neutral-condition means.}
+\footnotesize
+\caption{Study 3: OLMo 2 checkpoints by training stage. Neutral rates (\%) and median words; then change in markup versus neutral (percentage points, exact family sign-flip $p$) for the plain-prose instruction, the bare no-Markdown instruction. The base checkpoint is excluded from these contrasts because it continues the prompt rather than completing a task.}
 \label{tab:v2-stages}
-\begin{tabular}{lrrrrrrrr}
+\begin{tabular}{lrrrrrr}
 \toprule
-Stage & Neutral MD & Emoji & Placebo MD & Emoji & Plain MD & Emoji & MD/100w & Words \\
+Stage & Markup & Lists & Emoji & Words & Plain & No-MD \\
 \midrule
-Base & 33.3 & 0.0 & 41.7 & 0.0 & 45.0 & 3.3 & 1.9 & 297 \\
-SFT & 13.3 & 1.7 & 10.0 & 1.7 & 21.7 & 5.0 & 0.6 & 75 \\
-DPO & 50.0 & 6.7 & 73.3 & 6.7 & 28.3 & 3.3 & 3.2 & 189 \\
-Instruct (RLVR) & 53.3 & 6.7 & 75.0 & 8.3 & 10.0 & 0.0 & 2.6 & 168 \\
+Base & 0.0 & 33.3 & 0.0 & 236 & -- & -- \\
+SFT & 3.3 & 11.7 & 1.7 & 58 & +1.7 (1.000) & +0.0 (1.000) \\
+DPO & 50.0 & 40.0 & 6.7 & 172 & -35.0 (0.002) & -28.3 (<0.001) \\
+Instruct (RLVR) & 46.7 & 46.7 & 6.7 & 141 & -40.0 (0.002) & -36.7 (0.006) \\
 \bottomrule
 \end{tabular}
 \end{table}

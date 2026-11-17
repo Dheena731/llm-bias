@@ -1,0 +1,11 @@
+Here is a short admin notice about quarterly access reviews:
+
+**Quarterly Access Review Notice**
+
+As part of our ongoing effort to maintain the security and integrity of our systems, we will be conducting our quarterly access review on [insert date]. This review is a routine process to ensure that all users have the appropriate level of access to our systems and data.
+
+During this review, we will be verifying user access and permissions to ensure they are up-to-date and align with current job responsibilities. This review will also help us to identify and remove any unnecessary access that may pose a security risk.
+
+If you are a system administrator or manager, please review the access lists for your team and verify that all users have the correct level of access. Any changes or updates should be submitted to the IT department by [insert date] to ensure they are implemented prior to the review.
+
+If you have any questions or concerns about the quarterly access review, please don't hesitate to reach out to the IT department. We appreciate your cooperation and help in maintaining the security of our systems.

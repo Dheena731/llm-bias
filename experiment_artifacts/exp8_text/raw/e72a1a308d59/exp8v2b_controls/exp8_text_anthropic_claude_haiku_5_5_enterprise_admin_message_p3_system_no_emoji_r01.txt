@@ -1,0 +1,16 @@
+**Subject: VPN Client Update: [Version Number] Now Available**
+
+Hi team,
+
+We've released version [X.X] of the VPN client, which is now available for download on [Windows/macOS/Linux]. This update includes:
+
+- [Key change or new feature]
+- [Performance or stability improvement]
+- [Security fix or other change]
+
+**Action required:** Please update your client by [date]. After that date, older versions will no longer connect to the network.
+
+To update, [brief instructions, such as "open the app and select Check for Updates" or "download the installer from the IT portal"]. If you run into problems, contact [IT support contact or channel].
+
+Thanks,
+[Your name / IT Team]

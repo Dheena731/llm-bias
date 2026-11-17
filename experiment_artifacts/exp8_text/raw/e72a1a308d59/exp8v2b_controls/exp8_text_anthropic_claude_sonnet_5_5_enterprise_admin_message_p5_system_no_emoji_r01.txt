@@ -1,0 +1,23 @@
+**Subject: Upcoming Email Migration**
+
+Hello everyone,
+
+We will be migrating our email system to a new platform on **Saturday, [date], beginning at 8:00 PM**. The process is expected to take approximately 6 to 8 hours.
+
+**What to expect:**
+- Email access may be intermittent during the migration window.
+- Messages sent to you during this time will be delivered once the migration is complete.
+- Your existing emails, folders, and contacts will be transferred automatically.
+
+**What you need to do:**
+- Log out of all email applications and devices before the migration begins.
+- On Monday morning, log in using your current username and password. You may be prompted to set up your mobile devices again.
+- Delete any unneeded emails beforehand to help the process run smoothly.
+
+If you notice any missing messages or have trouble signing in after the migration, please contact the IT Help Desk at [email/phone] and we will assist you promptly.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+[Name]
+IT Department

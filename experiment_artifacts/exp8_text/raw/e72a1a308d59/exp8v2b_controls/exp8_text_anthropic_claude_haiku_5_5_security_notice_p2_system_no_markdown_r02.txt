@@ -1,0 +1,23 @@
+ATTENTION ALL STAFF: Be Alert to Phishing Emails
+
+Phishing emails are fraudulent messages designed to trick you into clicking malicious links, opening infected attachments, or revealing passwords and personal information. They often look like they come from trusted sources such as colleagues, IT support, banks, or senior management.
+
+Watch for these warning signs:
+- Urgent requests to act immediately or face consequences
+- Unexpected requests for login details, passwords, or payment information
+- Sender addresses that are slightly misspelled or do not match the company's domain
+- Generic greetings such as "Dear Customer" or "Dear User"
+- Links that lead to unfamiliar or mismatched web addresses
+- Unexpected attachments, especially zip files or documents asking you to enable macros
+
+What to do:
+- Do not click links or open attachments in suspicious emails
+- Verify unusual requests by contacting the sender through a known phone number or in person
+- Report suspicious emails to the IT Service Desk immediately using the Report Phishing button or by forwarding them to security@company.com
+- Do not delete suspicious emails until IT has reviewed them
+
+If you think you may have clicked a malicious link or entered your password, contact IT right away. Prompt reporting helps us protect the entire organization.
+
+Thank you for staying vigilant.
+
+IT Security Team

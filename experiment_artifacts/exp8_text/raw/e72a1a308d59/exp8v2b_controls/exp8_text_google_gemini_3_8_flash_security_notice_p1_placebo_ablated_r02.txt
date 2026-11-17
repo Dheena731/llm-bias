@@ -1,0 +1,15 @@
+**Subject: Security Notice: Do Not Reuse Passwords Across Accounts**
+
+**To:** All Employees  
+**From:** IT Security  
+
+Please remember that you must use a unique password for every account. Never reuse passwords across multiple systems, and never use your personal passwords for workplace accounts.
+
+When you use the same password in more than one place, a security breach at a single external website puts your company account at risk. If an unauthorized person acquires your login details from one compromised site, they can use those exact details to access our company network and sensitive data.
+
+**What you should do:**
+* Ensure your workplace password is completely unique and not used for any other account.
+* If you currently use your work password on any other platform, change it immediately.
+* Create passwords that are long and difficult for others to guess.
+
+Thank you for your cooperation in keeping our organization safe.

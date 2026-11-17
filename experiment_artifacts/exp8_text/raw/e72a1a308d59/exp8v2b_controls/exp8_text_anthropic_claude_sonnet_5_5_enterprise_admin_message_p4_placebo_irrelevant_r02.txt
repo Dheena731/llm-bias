@@ -1,0 +1,31 @@
+**Subject: Action Required: Q3 Quarterly Access Review**
+
+**To:** All Department Managers and System Owners
+**From:** IT Security & Compliance
+**Date:** [Insert Date]
+**Deadline:** [Insert Date, 10 business days from notice]
+
+Hello,
+
+The quarterly user access review for this period begins on **[start date]**. This review confirms that employees, contractors, and vendors have only the access they need to do their jobs.
+
+**What you need to do**
+
+1. **Review your access reports.** You will receive a report listing everyone with access to the systems and applications you own or manage.
+2. **Confirm or revoke.** Mark each user's access as *Approved* or *Remove*. Please flag anyone who has changed roles, left the team, or no longer needs access.
+3. **Check privileged accounts.** Pay particular attention to admin-level and shared accounts, and confirm each one is still justified.
+4. **Submit your review.** Return the completed report through the [access review portal / ticketing system] by the deadline above.
+
+**Important notes**
+
+- Access that is not reviewed by the deadline may be suspended until the review is complete.
+- Revocations approved during the review will be processed within 5 business days.
+- Your review decisions are retained as audit records, so please be accurate and thorough.
+
+**Questions or support**
+
+Contact the IT Security & Compliance team at [email address] or [extension]. We are also holding office hours on **[date/time]** for anyone who would like help with the process.
+
+Thank you for helping keep our systems and data secure.
+
+IT Security & Compliance

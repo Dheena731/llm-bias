@@ -1,0 +1,10 @@
+IMPORTANT: SCHEDULED DASHBOARD MAINTENANCE
+
+Notice: The dashboard will undergo scheduled maintenance on [DATE] from [START TIME] to [END TIME] [TIMEZONE].
+
+During this window, the dashboard may be temporarily unavailable. Please save all work and log out before the maintenance begins to prevent data loss.
+
+We apologize for any inconvenience and appreciate your patience. For urgent inquiries, please contact [SUPPORT EMAIL OR PHONE].
+
+Thank you,
+System Administration

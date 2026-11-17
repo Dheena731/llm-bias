@@ -1,0 +1,1 @@
+To export query results, select **Export**, choose a file format, and download the file.

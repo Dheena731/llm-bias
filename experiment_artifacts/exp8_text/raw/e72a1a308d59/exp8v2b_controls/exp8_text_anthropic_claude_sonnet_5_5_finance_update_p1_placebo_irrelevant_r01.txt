@@ -1,0 +1,20 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a new feature to help you understand where your money goes: the Monthly Spending Summary.
+
+**What it is**
+At the start of each month, you'll receive a clear overview of your previous month's spending. It groups your transactions into categories such as groceries, dining, transportation, and subscriptions, so you can see your habits at a glance.
+
+**What's included**
+- **Total spending** for the month, with a comparison to the month before
+- **Category breakdown** showing where most of your money went
+- **Top merchants** you spent the most with
+- **Unusual activity**, like a large purchase or a sudden jump in a category
+
+**How to access it**
+You'll find your summary under the *Insights* tab in the app, and we'll send a notification when a new one is ready. If you'd rather get it by email, you can turn that on in *Settings > Notifications*.
+
+**Why we built it**
+Many of you told us that tracking spending felt tedious. This summary does the work for you, so you can spot patterns, catch surprise charges, and make informed decisions about your budget.
+
+Your first summary will arrive on the 1st of next month. We'd love to hear what you think, so please send feedback through the app's Help section.

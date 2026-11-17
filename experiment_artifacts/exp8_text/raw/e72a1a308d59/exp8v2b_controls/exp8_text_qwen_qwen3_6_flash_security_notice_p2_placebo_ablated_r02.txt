@@ -1,0 +1,20 @@
+**Subject: Important Security Reminder: Identifying and Reporting Phishing Emails**
+
+Dear Team,
+
+Please remain vigilant against phishing attempts. Phishing refers to fraudulent emails designed to trick you into revealing sensitive information, such as passwords or financial details, or into installing harmful software.
+
+To protect our data, please follow these guidelines:
+
+*   **Verify the Sender:** Check the email address carefully. Attackers often use addresses that resemble official ones but contain slight spelling errors or unfamiliar domains.
+*   **Inspect Links:** Do not click links in unexpected emails. Hover your mouse cursor over a link to view the actual destination address before clicking. If the address looks unfamiliar or incorrect, do not click.
+*   **Question Urgency:** Be cautious of messages that demand immediate action or threaten negative consequences. Legitimate requests usually allow time for standard verification.
+*   **Report Suspicious Emails:** If you receive a suspicious message, do not reply or click any content. Report it immediately by forwarding it to **[Insert IT Security Email]** or using the **"Report Phishing"** button in your email client.
+
+If you have already clicked a link or entered information, contact IT Support immediately.
+
+Thank you for helping keep our workplace secure.
+
+Sincerely,
+
+IT Security Department

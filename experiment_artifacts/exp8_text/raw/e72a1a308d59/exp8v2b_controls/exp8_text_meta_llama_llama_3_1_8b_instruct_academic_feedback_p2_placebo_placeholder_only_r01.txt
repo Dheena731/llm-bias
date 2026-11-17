@@ -1,0 +1,10 @@
+Here is a sample feedback note on a student's methods section:
+
+The methods section is clear and well-organized, effectively communicating the approach and design of the study. However, a few suggestions for improvement include:
+
+* Providing more detail on the sample size and power calculations would strengthen the section.
+* It would be helpful to include a diagram or flowchart to illustrate the sampling strategy, particularly for the recruitment process.
+* Consider adding a brief discussion on the potential biases and limitations of the study design.
+* Some of the statistical methods used are not clearly explained; consider adding a brief explanation of the rationale behind the choice of method and the assumptions made.
+
+Overall, the methods section is well-written and easy to follow, but could benefit from a bit more detail and clarity in certain areas.

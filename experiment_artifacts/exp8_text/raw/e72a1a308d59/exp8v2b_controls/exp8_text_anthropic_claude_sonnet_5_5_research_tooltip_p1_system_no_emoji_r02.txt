@@ -1,0 +1,9 @@
+**Dataset filter**
+
+Narrow the results to records from specific datasets. Select one or more to include only matching entries; clear all selections to search across every available dataset. Filters combine with your other search criteria.
+
+---
+
+**Shorter version (for tight spaces):**
+
+Limit results to selected datasets. Leave empty to search all.

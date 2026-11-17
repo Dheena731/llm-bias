@@ -285,6 +285,51 @@ EXPECTED_CITED_METADATA: dict[str, dict[str, str]] = {
         "url": "https://aclanthology.org/N16-1014/",
         "source": "ACL Anthology",
     },
+    "jiang2025hivemind": {
+        "entry_type": "inproceedings",
+        "year": "2025",
+        "url": "https://openreview.net/forum?id=saDOrrnNTz",
+        "eprint": "2510.22954",
+        "source": "OpenReview",
+    },
+    "murthy2025alignment": {
+        "entry_type": "inproceedings",
+        "year": "2025",
+        "doi": "10.18653/v1/2025.naacl-long.561",
+        "source": "publisher page",
+    },
+    "liu2025rmbench": {
+        "entry_type": "inproceedings",
+        "year": "2025",
+        "url": "https://openreview.net/forum?id=QEHrmQPBdd",
+        "eprint": "2410.16184",
+        "source": "OpenReview",
+    },
+    "salinas2024butterfly": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "doi": "10.18653/v1/2024.findings-acl.275",
+        "source": "publisher page",
+    },
+    "castricato2024pink": {
+        "entry_type": "misc",
+        "year": "2024",
+        "eprint": "2402.07896",
+        "source": "publisher page",
+    },
+    "geng2026control": {
+        "entry_type": "inproceedings",
+        "year": "2026",
+        "doi": "10.1609/aaai.v40i36.40339",
+        "eprint": "2502.15851",
+        "source": "AAAI (Crossref)",
+    },
+    "openai2024modelspec": {
+        "entry_type": "misc",
+        "year": "2024",
+        "url": "https://cdn.openai.com/spec/model-spec-2024-05-08.html",
+        "source": "OpenAI",
+    },
 }
 
 

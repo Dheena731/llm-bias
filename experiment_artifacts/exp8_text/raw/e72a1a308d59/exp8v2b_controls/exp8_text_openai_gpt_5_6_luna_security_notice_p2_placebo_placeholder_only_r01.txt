@@ -1,0 +1,9 @@
+**Stay Alert for Phishing Emails**
+
+Phishing emails are designed to trick you into revealing passwords, financial information, or other sensitive data.
+
+- Be cautious with unexpected messages, urgent requests, unfamiliar senders, and suspicious links or attachments.
+- Do not click links, open attachments, or enter credentials unless you have verified the message.
+- Check the sender’s address carefully and confirm unusual requests through a trusted channel.
+- Report suspected phishing using your organization’s email reporting tool or contact the IT Help Desk.
+- If you clicked a suspicious link or shared information, notify the IT Help Desk immediately.

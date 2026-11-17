@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter by: Select specific data points to view within your results. Use criteria such as 'Age', 'Region', or 'Category' to narrow your search and focus on relevant information."
+
+This tooltip is short and to the point, explaining the purpose of the filter in a clear and concise manner. It also uses specific examples to illustrate how the filter can be used, making it easy for users to understand and apply.

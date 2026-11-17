@@ -1,0 +1,1 @@
+"A missing-value marker indicates that data is absent or unknown for a particular field or entry, and is often represented by a symbol such as 'NA' or a blank space."

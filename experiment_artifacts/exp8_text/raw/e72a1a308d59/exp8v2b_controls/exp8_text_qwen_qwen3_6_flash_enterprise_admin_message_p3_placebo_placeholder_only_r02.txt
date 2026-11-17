@@ -1,0 +1,15 @@
+**Subject: Important Update: New Version of the VPN Client Available**
+
+Hello everyone,
+
+We have deployed a significant update to the corporate VPN client. This release enhances connection stability and strengthens security protocols across all devices.
+
+All employees are required to install the new version to maintain uninterrupted remote access. Please navigate to the software center or click the notification banner within your current application to download and install the update automatically. Once installed, you will be prompted to restart your device.
+
+For assistance with the upgrade, please consult the knowledge base article titled "VPN Client Installation Guide" available on the intranet.
+
+Thank you for helping us keep our digital infrastructure secure.
+
+Regards,
+
+Information Technology Department

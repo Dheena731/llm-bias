@@ -1,0 +1,16 @@
+Since I don't have the student's actual text, here is a general feedback note you can adapt. If you paste the section, I can tailor it to the specific work.
+
+Dear [Student name],
+
+Thank you for your methods section. You have clearly put thought into your study design, and the overall structure is easy to follow. Your description of the participants and the sequence of procedures is a particular strength, and the rationale for your sampling approach comes through well.
+
+The main area for improvement is replicability. A reader should be able to repeat your study from this section alone, but several details are missing or vague. For example, specify how you measured your key variables, including the instruments used, their reliability or validity, and how scores were calculated. Also state the exact criteria for inclusion and exclusion, and the software and versions used for analysis.
+
+Next, connect your choices to your research questions more explicitly. For each major decision, such as your sample size, measures, or statistical tests, add a sentence explaining why it suits the question you are asking. Where relevant, acknowledge limitations of your approach, such as potential sources of bias, and explain how you addressed them.
+
+Finally, tighten the writing. Keep to the past tense, avoid mixing results or interpretation into this section, and cut sentences that repeat information from your introduction. Check that you have included ethical approval and consent details if human participants were involved.
+
+With these revisions, your methods section will be much stronger. Please feel free to come see me if you would like to talk through any of these points.
+
+Best regards,
+[Your name]

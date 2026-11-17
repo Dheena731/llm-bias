@@ -1,0 +1,1 @@
+Shaded band: the range where the true value likely falls, based on the data. A 95% confidence interval means that if the study were repeated many times, about 95% of such intervals would contain the true value.

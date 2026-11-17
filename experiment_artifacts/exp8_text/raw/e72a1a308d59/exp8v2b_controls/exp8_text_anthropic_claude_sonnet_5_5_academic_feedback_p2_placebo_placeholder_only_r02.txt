@@ -1,0 +1,20 @@
+I haven't seen the student's actual text, so this note is written around a plausible scenario: a methods section for a survey study on sleep and exam performance in undergraduates. If you paste the real section, I can tailor it.
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for this draft. Your methods section is organized logically, and your description of the survey instrument is clear. Naming the sleep-quality scale and explaining how it was scored will help readers evaluate your measures.
+
+**Strengths**
+- The order of subsections (participants, materials, procedure, analysis) is easy to follow.
+- You justify your choice of a correlational design instead of simply stating it.
+
+**Areas to strengthen**
+1. **Replicability.** The procedure says participants "completed the survey in a quiet setting," but it doesn't say whether this was online or in person, how long it took, or who supervised. Someone repeating your study would need these details.
+2. **Sampling.** Explain how participants were recruited and why that method suits your question. If you used a convenience sample, say so and note the limitation.
+3. **Analysis plan.** You mention "statistical tests" but never name them. State which tests you used, what you were comparing, and your significance threshold. Briefly justify each choice, such as why Pearson's correlation fits your data.
+4. **Ethics.** Add a sentence on informed consent, anonymity, and any ethics approval.
+5. **Tense and voice.** A few sentences slip into the present tense. Methods should consistently describe what was done, in the past tense.
+
+**Next step:** Revise with these points in mind, and keep the section concise. Include only what a reader needs to understand and reproduce your work. I'm happy to look at a second draft.

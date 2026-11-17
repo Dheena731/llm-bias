@@ -1,0 +1,21 @@
+**Subject: New VPN client required by [date]**
+
+Hello everyone,
+
+We are replacing our current VPN client, [old client name], with [new client name]. The old client will stop working on [date], so please switch before then.
+
+**What you need to do**
+1. Download [new client name] from [link or location, e.g., the company software portal].
+2. Install it and sign in with your usual work username and password.
+3. Uninstall [old client name] once you've confirmed the new one connects.
+
+Installation takes about [X] minutes. Your login details and the resources you can access will not change.
+
+**Need help?** Contact the IT Help Desk at [email/phone/ticket link] or see the setup guide at [link]. Help is available [hours].
+
+Thank you,
+[Name]
+[Team]
+
+---
+*I didn't have the specifics, so the bracketed items are placeholders. I wrote it for employees who use the VPN. If your audience is different (for example, IT staff or customers), tell me and I'll adjust it.*

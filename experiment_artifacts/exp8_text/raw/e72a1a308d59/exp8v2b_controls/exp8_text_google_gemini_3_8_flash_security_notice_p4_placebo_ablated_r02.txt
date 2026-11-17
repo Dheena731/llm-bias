@@ -1,0 +1,12 @@
+**Security Notice: Protect Your Account with Two-Factor Authentication**
+
+To help keep your personal information secure, we strongly encourage all users to turn on two-factor authentication.
+
+Two-factor authentication is an added layer of account security. When this feature is active, logging in requires two steps instead of one: your standard password and a temporary verification code sent to your personal device. This prevents unauthorized access to your account, even if someone learns your password.
+
+**How to turn it on:**
+1. Log in to your account and go to **Settings**.
+2. Select **Security**.
+3. Choose **Two-Factor Authentication** and follow the setup instructions on your screen.
+
+Please take a few minutes to complete this setup today to ensure your account remains safe and protected.

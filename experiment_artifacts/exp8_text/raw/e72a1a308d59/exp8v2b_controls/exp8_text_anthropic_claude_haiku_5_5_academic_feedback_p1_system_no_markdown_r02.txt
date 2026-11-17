@@ -1,0 +1,13 @@
+Feedback on Draft Literature Review: "Remote Work and Employee Wellbeing Since 2020"
+
+Thank you for sharing this draft. You have gathered a solid body of relevant sources, and your chronological structure, moving from pre-pandemic studies to recent post-2020 work, makes the field's development easy to follow. The writing is generally clear and the tone is appropriately measured.
+
+The main weakness is that the review currently summarizes studies one after another rather than synthesizing them. Paragraphs often open with "Smith (2021) found... Jones (2022) found..." without explaining how the findings relate, where they agree, or where they conflict. A stronger review would group studies by theme, such as autonomy, work-family boundaries, or social isolation, and then compare findings within each theme. Your discussion of the conflicting results on productivity and wellbeing in Section 3 is a good example of this kind of synthesis, and I would like to see more of it throughout.
+
+Second, the review needs a clearer argument about the gap it addresses. The introduction states that "more research is needed," but it does not specify what kind of research is missing. Is the gap methodological, since most studies are cross-sectional? Is it contextual, since the samples are dominated by knowledge workers in North America and Western Europe? Naming the gap precisely will give the review a purpose and justify your own study's design.
+
+Third, several claims need citations or qualification. The statement that remote work "clearly improves wellbeing" in the second paragraph overstates what the cited evidence shows, since the studies you mention report mixed and context-dependent effects. Please also check that all in-text citations appear in the reference list and that the publication years match.
+
+Finally, consider shortening the methodological descriptions of individual studies. Sample sizes and survey instruments are useful when they bear on the conclusions, but much of the current detail could be condensed so that the analysis has more space.
+
+Overall, this is a promising draft. If you reorganize around themes, state the gap explicitly, and tighten the claims, it will be a strong foundation for your study. I am happy to review a revised version.

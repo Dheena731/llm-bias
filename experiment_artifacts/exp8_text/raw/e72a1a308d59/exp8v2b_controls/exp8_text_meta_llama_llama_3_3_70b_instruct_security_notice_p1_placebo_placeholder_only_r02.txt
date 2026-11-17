@@ -1,0 +1,16 @@
+Important Security Notice: Password Reuse
+
+As part of our ongoing efforts to protect company assets and sensitive information, we want to remind all employees of the importance of password security. Reusing passwords across multiple accounts, including personal and work-related accounts, poses a significant risk to our organization's security.
+
+If a password is compromised on one account, an attacker may attempt to use it to access other accounts, potentially gaining unauthorized access to company systems and data. To mitigate this risk, it is essential that all employees use unique and complex passwords for their work-related accounts.
+
+We strongly advise against reusing passwords used for personal accounts, such as social media or online banking, for any work-related accounts. Additionally, passwords should never be shared with colleagues or written down in an insecure location.
+
+To ensure the security of our systems and data, we recommend that all employees follow best practices for password management, including:
+
+* Using a password manager to generate and store unique, complex passwords
+* Changing passwords regularly, or when prompted by the system
+* Avoiding the use of easily guessable information, such as birthdays or common words
+* Being cautious when clicking on links or providing login credentials, especially when working remotely or using public Wi-Fi networks
+
+If you have any questions or concerns about password security, or if you suspect that your account has been compromised, please contact the IT department immediately.

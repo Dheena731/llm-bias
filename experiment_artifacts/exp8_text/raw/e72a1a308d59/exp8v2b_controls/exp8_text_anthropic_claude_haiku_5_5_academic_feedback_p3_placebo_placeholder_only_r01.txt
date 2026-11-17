@@ -1,0 +1,5 @@
+**Reviewer comment on the research question**
+
+The central research question, "How does social media affect teenagers' well-being?", is too broad to guide the study design or the analysis. "Social media," "affect," and "well-being" are each left undefined. The manuscript does not say which platforms, what kind of use (time spent, active posting, passive scrolling), or which outcomes (depressive symptoms, life satisfaction, sleep, self-esteem) are of interest. The phrase "affect" also implies a causal claim, but the design is cross-sectional, so the authors need to clarify whether they are testing causation or association.
+
+I would ask the authors to restate the question with a specific exposure, a specific outcome, a defined population, and an expected direction or comparison. For example, a question of the form "Is daily time spent on image-based platforms associated with higher self-reported depressive symptoms among 13- to 16-year-olds in secondary schools?" would let readers judge whether the methods and the measures fit the question. The hypotheses and the analysis plan should then follow directly from that revised question.

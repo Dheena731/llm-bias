@@ -1,0 +1,19 @@
+**Subject:** IT Security Reminder: The Dangers of Password Reuse
+
+**Team,**
+
+As part of our ongoing commitment to keeping our systems and data secure, we want to remind everyone about the critical risk of **password reuse**.
+
+Reusing the same password across multiple accounts—especially between personal and work platforms—is one of the most common ways organizations experience security breaches. If an external service you use is compromised, attackers routinely attempt to use those exposed credentials to access company systems.
+
+**Best Practices to Keep in Mind:**
+* **Never use your work password for personal accounts** (e.g., social media, personal email, streaming services).
+* **Use a unique password for every system:** If one account is breached, the others remain safe.
+* **Leverage our approved password manager:** Use the company-provided password manager to generate, store, and auto-fill complex, unique passwords.
+* **Protect your MFA:** Never approve a Multi-Factor Authentication (MFA) prompt you didn’t initiate.
+
+If you suspect any of your credentials have been compromised, or if you need assistance setting up your password manager, please contact the IT Helpdesk immediately at [Helpdesk Contact Info].
+
+Thank you for your vigilance in keeping our workplace secure.
+
+**The IT Security Team**

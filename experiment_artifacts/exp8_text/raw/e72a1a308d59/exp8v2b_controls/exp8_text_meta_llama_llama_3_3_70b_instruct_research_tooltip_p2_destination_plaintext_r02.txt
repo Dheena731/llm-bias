@@ -1,0 +1,1 @@
+A confidence interval is a range of values within which a population parameter is likely to lie, giving a margin of error around a statistic, such as a mean or proportion, to indicate the reliability of the estimate.

@@ -1,0 +1,14 @@
+**IMPORTANT NOTICE: ENFORCE TWO-FACTOR AUTHENTICATION**
+
+To strengthen account security and protect sensitive information, all users are required to enable two-factor authentication (2FA) on their accounts. This additional verification step significantly reduces the risk of unauthorized access.
+
+Please activate 2FA using the following steps:
+1. Log into your account and navigate to Account Settings.
+2. Select the Security tab.
+3. Choose "Enable Two-Factor Authentication" and follow the setup prompts. You may use an authenticator application or SMS verification.
+
+All accounts must be configured by [Insert Deadline Date]. Failure to comply may result in restricted access until 2FA is activated.
+
+If you need assistance or encounter technical difficulties, contact the IT Help Desk at [Insert Email/Phone] or visit [Insert Support Link].
+
+Thank you for your immediate attention to this mandatory security update.

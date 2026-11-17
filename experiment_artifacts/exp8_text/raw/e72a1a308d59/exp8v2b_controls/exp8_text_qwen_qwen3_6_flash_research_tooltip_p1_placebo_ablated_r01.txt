@@ -1,0 +1,1 @@
+Narrows the dataset to records matching your selected criteria. Use this to exclude irrelevant entries and focus your analysis on the most relevant data.

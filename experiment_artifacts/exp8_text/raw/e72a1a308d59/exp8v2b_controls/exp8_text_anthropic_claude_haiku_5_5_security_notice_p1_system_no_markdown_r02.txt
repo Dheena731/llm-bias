@@ -1,0 +1,19 @@
+Subject: Reminder: Do Not Reuse Passwords
+
+Team,
+
+We are reminding everyone to avoid reusing passwords across work and personal accounts. When a password is used in more than one place, a breach at any one of those services can give attackers access to our systems.
+
+Please follow these guidelines:
+
+- Use a unique password for every work account.
+- Do not reuse work passwords on personal websites, apps, or email.
+- Use a password manager approved by IT to create and store strong passwords.
+- Enable multi-factor authentication wherever it is available.
+- Report any suspected account compromise to the Security team immediately.
+
+If you are unsure whether a password you use has been exposed in a data breach, contact the IT Help Desk for guidance. Do not send passwords by email, chat, or any other channel.
+
+Thank you for helping keep our organization and our data secure.
+
+IT Security Team

@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining how to export query results in plain text:
+
+"To export query results, right-click the result set and select 'Export Results' (or use keyboard shortcut). Choose your desired format (e.g., CSV, Excel) and save the file."

@@ -1,0 +1,3 @@
+Export query results
+
+Click **Export** to download the results as CSV, Excel, or JSON.

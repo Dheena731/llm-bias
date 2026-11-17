@@ -1,0 +1,1 @@
+Indicates that no value is available or was recorded for this field.

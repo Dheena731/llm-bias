@@ -1,0 +1,5 @@
+**Quarterly Access Review — Q2**
+
+Application owners must review user and service-account access for their assigned systems in the access-certification portal by **June 28**. Confirm that each role still matches the person’s current responsibilities, remove dormant or excessive access, and add a comment for any exception.
+
+Reviews include production, VPN, administrative, and shared-service accounts. Uncompleted reviews will be escalated to the system owner’s director on **July 1**.

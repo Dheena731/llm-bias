@@ -1,0 +1,24 @@
+**SECURITY NOTICE: Stay Alert for Phishing Emails**
+
+**To:** All Staff  
+**From:** IT & Information Security Team  
+**Subject:** Recognizing and Reporting Phishing Attempts  
+
+We have recently seen an increase in sophisticated phishing emails targeting our organization. Phishing is an attempt by cybercriminals to steal sensitive information (such as login credentials or financial data) by posing as trusted sources.
+
+**Common Red Flags to Watch For:**
+* **Sense of Urgency:** Demands for immediate action, wire transfers, or threats of account suspension.
+* **Suspicious Senders:** Email addresses that don't match the sender's name or contain slight misspellings (e.g., `@cornpany.com` instead of `@company.com`).
+* **Unsolicited Links or Attachments:** Unexpected invoices, password reset requests, or files with unusual extensions (.exe, .zip).
+* **Requests for Sensitive Info:** We will **never** ask for your password via email.
+
+**What You Should Do:**
+1. **Think before you click:** Hover over links to preview the actual destination URL before clicking.
+2. **Verify independently:** If an email from a colleague or vendor seems unusual, contact them via Slack, phone, or a new email thread to confirm.
+3. **Report it:** Click the **"Report Phishing"** button in Outlook/Gmail, or forward the message directly to **security@company.com**.
+4. **When in doubt, don't open it.**
+
+Thank you for helping keep our company data and systems secure. 
+
+**IT Security Team**  
+*Ext. 4400 | security@company.com*

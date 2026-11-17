@@ -1,0 +1,25 @@
+I don't see the student's methods section in your message, so I can't comment on its specifics. Here is a short feedback note you can adapt. Replace the bracketed parts with details from the draft.
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for your draft. The section has a clear structure, and [specific strength, e.g., your description of the sampling procedure is easy to follow]. Below are the main areas to strengthen.
+
+**What's working well**
+- [e.g., The study design is clearly identified and fits your research question.]
+- [e.g., Your measures are described with enough detail to understand what was collected.]
+
+**Areas to revise**
+1. **Replicability:** A reader should be able to repeat your study from this section alone. Add missing details such as [sample size and recruitment, software and versions, instrument settings, or timeline].
+2. **Justification:** Explain *why* you chose these methods, not just what you did. For example, why [method X] rather than [alternative]?
+3. **Analysis plan:** State how you will analyze the data, including any statistical tests or coding procedures, and link each one to a specific research question or hypothesis.
+4. **Ethics and limitations:** Briefly note consent, approval, or data protection where relevant, and acknowledge any methodological limitations that could affect your findings.
+5. **Style and tense:** Use past tense consistently, and avoid mixing in results or interpretation. Tighten any sentences that are wordy or ambiguous.
+
+**Next steps**
+Revise with the points above in mind, paying particular attention to #1 and #3. I'm happy to look at a second draft or discuss this in office hours.
+
+---
+
+If you paste in the student's text, I can tailor the note to what they actually wrote, and adjust the tone (encouraging, rigorous, or concise) and the level (undergraduate, master's, or doctoral).

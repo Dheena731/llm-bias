@@ -1,0 +1,5 @@
+In web applications, latency is the time delay between a user taking an action—such as clicking a button—and the application responding. 
+
+Latency matters primarily because human perception is acutely sensitive to delay. Even a pause of a few tenths of a second makes an application feel sluggish, broken, or frustrating to use. When users experience this friction, they quickly lose patience, abandon tasks, and leave for faster alternatives. 
+
+As a result, keeping latency low is essential. A fast, responsive application keeps users engaged, builds trust, and directly protects business outcomes like customer retention and sales.

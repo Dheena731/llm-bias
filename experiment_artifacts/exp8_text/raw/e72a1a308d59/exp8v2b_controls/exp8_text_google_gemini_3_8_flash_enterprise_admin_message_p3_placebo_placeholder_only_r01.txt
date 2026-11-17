@@ -1,0 +1,12 @@
+**Subject: Important: Upgrade to the New VPN Client**
+
+Hello Team,
+
+We are upgrading our remote access system to improve connection stability and enhance security. All staff members are required to transition to the updated VPN client, which is now available for installation.
+
+Please open the managed software portal on your company computer, select the new VPN application, and follow the on-screen prompts to complete the setup. Once installed, sign in using your standard single sign-on credentials. 
+
+The previous VPN client will be deactivated at the end of this week. If you encounter any issues during installation or have trouble connecting, please contact the IT Help Desk for assistance.
+
+Thank you,  
+The IT Department

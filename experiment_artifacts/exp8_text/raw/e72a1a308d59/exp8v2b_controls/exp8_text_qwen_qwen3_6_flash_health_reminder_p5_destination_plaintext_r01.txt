@@ -1,0 +1,9 @@
+Prescription Refill Reminder
+
+Your prescription for [Medication Name] is due for a refill.
+
+Please contact your pharmacy or use the patient portal to request your refill by [Date].
+
+If you have any questions, please call us at [Phone Number].
+
+Thank you!

@@ -1,0 +1,9 @@
+An API rate limit refers to the maximum number of requests that can be made to an Application Programming Interface (API) within a given time period. It is a measure of how frequently an API can be queried or accessed without being restricted or blocked by the API provider. The rate limit is usually expressed in terms of the number of requests per minute, hour, or day.
+
+API rate limits are implemented to prevent abuse, ensure fair usage, and prevent excessive resource consumption. If an application exceeds the rate limit, it may result in one of the following:
+
+* A temporary block or ban
+* A reduced response rate or quota
+* An error message or 429 response
+
+API rate limits can be subject to change and are often tiered, allowing for more requests from high-paying or authenticated users. The rate limits can be applied to various aspects of an API, such as the total number of requests, the number of concurrent requests, or the number of requests for specific endpoints or resources.

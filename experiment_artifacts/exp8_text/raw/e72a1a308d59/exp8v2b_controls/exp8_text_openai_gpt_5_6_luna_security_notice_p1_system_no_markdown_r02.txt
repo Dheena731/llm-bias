@@ -1,0 +1,1 @@
+Security Notice: Never reuse your work password for personal accounts or other services. If one account is compromised, reused passwords could give attackers access to company systems and data. Use a unique password for your work account and enable multi-factor authentication when available.

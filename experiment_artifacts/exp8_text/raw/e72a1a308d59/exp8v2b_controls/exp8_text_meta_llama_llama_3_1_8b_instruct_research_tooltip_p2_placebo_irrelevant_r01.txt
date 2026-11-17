@@ -1,0 +1,4 @@
+Here is a concise tooltip explaining a confidence interval in a chart:
+
+**Confidence Interval:**
+This range of values (from [lower bound] to [upper bound]) represents a margin of error around the estimated value, accounting for random sampling variability. With a [confidence level] percentage confidence, we can expect the true value to lie within this interval [number]% of the time.

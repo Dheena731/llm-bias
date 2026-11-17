@@ -1,0 +1,26 @@
+**Subject: ACTION REQUIRED: Quarterly Access Review – Q[Number] [Year]**
+
+**To:** All Managers and Department Heads  
+**From:** IT Administration / Security Team  
+**Date:** [Current Date]  
+
+Hi Team,
+
+The Quarterly Access Review period is now open. As part of our ongoing commitment to security and compliance, please review and validate the access privileges for all personnel under your supervision.
+
+**Action Required:**
+1.  **Log in** to the Access Management Portal: [Insert Link]
+2.  **Review** the list of users assigned to you.
+3.  **Approve** valid access or **Revoke** unnecessary permissions.
+4.  **Submit** your responses by **[Deadline Date, Time]**.
+
+**Please Note:**
+*   **Inactivity Policy:** Users with no response by the deadline may have their access automatically revoked to protect system integrity.
+*   **Questions:** If you encounter missing users or access discrepancies, please contact [IT Support Email/Ticket Link].
+
+Thank you for helping us maintain a secure and compliant environment.
+
+Best regards,
+
+[Your Name/Title]  
+[Department Name]

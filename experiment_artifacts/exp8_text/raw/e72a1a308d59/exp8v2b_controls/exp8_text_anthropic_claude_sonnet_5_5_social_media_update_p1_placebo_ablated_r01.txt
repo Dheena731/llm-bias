@@ -1,0 +1,29 @@
+I don't know your product or feature, so here is a ready-to-use example with an invented app, followed by a fill-in version.
+
+**Example**
+
+> 🎉 New in Tasklane: Shared Lists!
+>
+> You can now invite friends, family, or teammates to a to-do list and check off tasks together. Everyone sees changes as they happen, so nobody has to ask, "Did you already do that?"
+>
+> To try it, open any list, tap **Share**, and enter an email address.
+>
+> Available now for all Tasklane users. Update the app to get it.
+
+**Fill-in template**
+
+> 🎉 New in [Product]: [Feature name]!
+>
+> You can now [what it lets people do] so that [main benefit].
+>
+> To try it, [one-sentence steps].
+>
+> Available now for [who can use it]. [Any action needed, such as updating the app].
+
+**Checks I applied**
+- **Main point first:** the feature and its purpose appear in the first two lines.
+- **Consistent:** the feature is available to everyone and works the same way throughout.
+- **No jargon:** it uses plain words such as "list," "share," and "update."
+- **Right audience:** it speaks to current users and tells them what to do next.
+
+If you tell me your product, the feature, and who it's for, I can tailor the post to your platform and tone.

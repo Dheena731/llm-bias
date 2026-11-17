@@ -1,0 +1,1 @@
+"Confidence Interval: Displays the range of values within which the true population mean is likely to lie, with a given level of certainty (typically 95%), based on the sample mean and standard deviation."

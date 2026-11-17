@@ -1,0 +1,21 @@
+PHISHING EMAIL ALERT
+
+Please be on the lookout for suspicious emails. Phishing emails are designed to trick you into clicking malicious links, opening infected attachments, or sharing passwords and personal information.
+
+Watch for these warning signs:
+- Urgent or threatening language, such as "Your account will be suspended" or "Immediate action required"
+- Requests for passwords, login details, or payment information
+- Sender addresses that look slightly off, such as "it-support@examp1e.com" instead of "@example.com"
+- Unexpected attachments or links, especially from people you don't normally hear from
+- Greetings that are generic, such as "Dear User," instead of your name
+- Spelling or grammar errors
+
+What to do if you receive a suspicious email:
+1. Do not click any links or open any attachments.
+2. Do not reply or forward the message.
+3. Report it to the IT Service Desk immediately.
+4. If you already clicked a link or entered your password, contact IT right away so we can secure your account.
+
+When in doubt, verify the request by contacting the sender through a known phone number or in person. IT will never ask for your password by email.
+
+Thank you for helping keep our organization secure.

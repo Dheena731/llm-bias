@@ -1,0 +1,27 @@
+Here's a short workplace security notice about password reuse:
+
+**Important: Password Security Reminder**
+
+As part of our ongoing efforts to maintain a secure and protected work environment, we would like to remind all employees of the importance of using unique and complex passwords for all of their online accounts.
+
+**Password Reuse: A Security Risk**
+
+Reusing the same password across multiple accounts is a significant security risk. If a hacker gains access to one of your accounts (e.g. email, social media, or company network), they may be able to use the same password to access other accounts, potentially compromising sensitive company information or even your personal identity.
+
+**Best Practices**
+
+To protect yourself and the company, please follow these best practices:
+
+* Use a unique and complex password for each of your online accounts.
+* Avoid using easily guessable information such as your name, birthdate, or common words.
+* Consider using a password manager to generate and store unique, complex passwords.
+* Never write down or share your passwords with others.
+
+**Reminders and Resources**
+
+If you have any questions or concerns about password security, please don't hesitate to reach out to our IT department. We are here to help and can provide additional guidance and support.
+
+Thank you for your attention to this important security reminder.
+
+Sincerely,
+[Your Company Name] IT Department

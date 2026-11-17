@@ -1,0 +1,31 @@
+# Introducing the Simple Budget Planner: Your Money, Finally Organized
+
+We're excited to announce the launch of the **Simple Budget Planner**, a spreadsheet template designed to make managing your money clear, quick, and stress-free.
+
+**Why we built it**
+
+Most budgeting tools are either too complicated or too rigid. This template gives you structure without the headache. Enter your income and expenses, and the planner does the math for you.
+
+**What's included**
+
+- **Monthly dashboard:** See income, spending, and savings at a glance with automatic charts
+- **Expense tracker:** Log transactions by category with built-in dropdown menus
+- **Savings goals tab:** Set targets and watch your progress update in real time
+- **Debt payoff calculator:** Compare strategies and see your projected payoff date
+- **Annual summary:** Review your full year of spending and spot trends
+
+**Who it's for**
+
+Whether you're building your first budget, paying down debt, or saving for something big, the planner adapts to your situation. No accounting background needed.
+
+**Works where you do**
+
+Compatible with Google Sheets, Microsoft Excel, and Numbers. Fully customizable, so rename categories, change colors, and make it your own.
+
+**Launch offer**
+
+Get the Simple Budget Planner for **$12** (regular price $19) through the end of the month. Includes a quick-start guide and free updates.
+
+**[Get your copy today]**
+
+Take control of your money, one row at a time.

@@ -1,0 +1,16 @@
+**Subject: VPN Client Update: [New Version] Now Available**
+
+Hi team,
+
+We're rolling out version [X.X] of the VPN client on [date]. This update [brief summary of key change, e.g., improves connection stability and adds support for macOS 15].
+
+**What you need to do:**
+- Download the update from [link or portal location].
+- Restart your device after installing.
+- Contact [IT support contact or channel] if you run into issues.
+
+Your existing settings and credentials will carry over. [Optional: The previous version will stop working on [date], so please update before then.]
+
+Thanks,
+[Name]
+[Team/Department]

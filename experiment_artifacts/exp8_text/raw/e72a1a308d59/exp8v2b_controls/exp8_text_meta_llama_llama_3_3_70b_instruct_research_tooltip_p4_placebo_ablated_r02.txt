@@ -1,0 +1,1 @@
+"A missing-value marker indicates that data is not available or has not been recorded for a particular field or observation, and is often represented by a specific symbol, such as 'NA' or '?'."

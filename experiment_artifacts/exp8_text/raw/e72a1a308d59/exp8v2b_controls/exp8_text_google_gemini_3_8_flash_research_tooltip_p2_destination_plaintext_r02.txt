@@ -1,0 +1,1 @@
+This range shows the estimated interval where the true value is likely to fall. A narrower range indicates greater certainty in the data.

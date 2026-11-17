@@ -1,0 +1,25 @@
+Here's a sample feedback note you can adapt:
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for your methods section. You describe your sampling procedure and data collection clearly, and the step-by-step order makes the study easy to follow.
+
+**Strengths:**
+- The participant criteria are stated explicitly, so a reader knows who was included.
+- You justify your choice of survey instrument, which shows you considered alternatives.
+
+**Areas to strengthen:**
+- **Replicability:** Some procedures, such as the timing of data collection and the exact wording of the consent process, are missing. Add enough detail that another researcher could repeat the study.
+- **Variables:** Define your key variables and explain how each was measured. At present, "engagement" is used without an operational definition.
+- **Limitations:** Briefly acknowledge constraints such as sample size, self-selection, or instrument reliability. Stating these strengthens your credibility.
+- **Tense and voice:** Use past tense for completed procedures (e.g., "Participants completed..." rather than "Participants will complete...").
+
+**Priority for revision:** Start with the variable definitions and replicability details, since these most affect whether the results can be interpreted.
+
+Overall, this is a solid foundation. With these additions, your methods will be considerably more rigorous.
+
+---
+
+If you share the actual methods section, I can tailor the note to its specific content and discipline.

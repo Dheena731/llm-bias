@@ -1,0 +1,16 @@
+**Subject:** Action Required: Quarterly User Access Review
+
+**To:** All People Managers and System Owners  
+
+Our quarterly user access review is now underway. The purpose of this review is to ensure that all employees and contractors have only the system access permissions required for their current roles.
+
+**Required Actions:**
+1. Access your review dashboard at **[Insert Link]**.
+2. Review the list of individuals with access to your systems or team folders.
+3. Confirm access for those who still require it, and mark access for removal for anyone who has changed roles, departed the organization, or no longer needs it.
+
+**Deadline:** Please complete all reviews by **Friday, [Insert Date], at 5:00 PM**. 
+
+Unverified access permissions may be temporarily suspended after the deadline to maintain system security. 
+
+If you have questions or need assistance, please contact the IT Help Desk at **[Insert Contact Information]**.

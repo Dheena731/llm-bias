@@ -1,0 +1,17 @@
+Here is a short admin message about a new expense approval workflow:
+
+"Hello Team,
+
+As part of our ongoing efforts to streamline and improve our financial processes, we are introducing a new expense approval workflow. Starting immediately, all employee expenses will need to be submitted through our online portal, where they will be reviewed and approved by department managers and finance staff.
+
+The new workflow is designed to increase efficiency, reduce errors, and provide greater transparency into our expense management process. Key features of the new system include:
+
+* Electronic submission and approval of expense reports
+* Automated routing and notification of approvals and rejections
+* Real-time tracking and reporting of expenses
+
+To access the new system, please visit [insert link] and follow the prompts to log in and submit your expenses. If you have any questions or need assistance with the new workflow, please don't hesitate to reach out to the finance team.
+
+Thank you for your cooperation and understanding as we implement this new process.
+
+Best regards, [Your Name]"

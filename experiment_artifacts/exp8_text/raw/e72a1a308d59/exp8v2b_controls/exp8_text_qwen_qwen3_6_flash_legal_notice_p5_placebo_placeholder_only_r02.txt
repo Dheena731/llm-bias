@@ -1,0 +1,11 @@
+**NOTICE OF ACCEPTABLE USE FOR SHARED NETWORK INFRASTRUCTURE**
+
+Access to the shared network constitutes a conditional privilege subject to strict adherence to the following terms. All authorized personnel, registered devices, and connected endpoints shall operate exclusively within the parameters defined herein.
+
+Network resources are intended solely for lawful operational, administrative, and programmatic functions aligned with institutional objectives. Users must maintain current security patches, utilize approved authentication protocols, and refrain from any activity that degrades performance, compromises data integrity, or exposes internal systems to external risk.
+
+Strictly prohibited conduct includes, but is not limited to: unauthorized intrusion attempts; transmission or storage of malicious code; deliberate bandwidth saturation; circumvention of firewalls or content filters; hosting of unapproved servers, routers, or wireless access points; and violation of intellectual property, export control, or data privacy statutes. Cryptographic tunneling, proxy relay usage, and manual port forwarding are expressly forbidden without prior written authorization.
+
+The network administration reserves unconditional rights to monitor, log, filter, and audit all traffic traversing the infrastructure. Connected parties expressly waive any expectation of privacy regarding data flowing through these systems. All sessions may be captured, retained, and disclosed for security verification, regulatory compliance, asset recovery, or enforcement proceedings.
+
+Violation of these provisions will trigger immediate suspension of connectivity, permanent endpoint restriction, and escalation to appropriate administrative, civil, or criminal authorities as warranted. Continued operation of equipment on this network serves as definitive acknowledgment of consent to these conditions. This notice remains in full force until formally amended or rescinded by the governing network authority.

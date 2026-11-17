@@ -1,0 +1,15 @@
+**Subject:** Important: Action Required for Upcoming VPN Upgrade
+
+Hello Team,
+
+On **[Date]**, we will replace our current Virtual Private Network (VPN) software with a new, more reliable client. 
+
+To maintain remote access to company systems, you must install the new application before **[Date]**, as the current VPN will stop working after that time. 
+
+Please follow the step-by-step setup guide here: **[Link to Instructions]**.
+
+If you need assistance with the installation, please contact the IT Help Desk at **[Help Desk Contact Information]**. 
+
+Thank you for your cooperation,
+
+**IT Support Team**

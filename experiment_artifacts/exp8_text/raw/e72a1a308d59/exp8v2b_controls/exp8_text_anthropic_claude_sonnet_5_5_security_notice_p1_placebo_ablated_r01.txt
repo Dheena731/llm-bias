@@ -1,0 +1,32 @@
+# Security Notice: Do Not Reuse Passwords
+
+**To:** All employees
+**From:** IT Security Team
+
+## The Issue
+
+Using the same password for more than one account is one of the most common security mistakes, and one of the most dangerous. If you reuse a password and any one of those accounts is breached, attackers can use that password to try to access your other accounts, including your work accounts.
+
+## Why It Matters
+
+When a website or service is hacked, stolen passwords are often shared or sold online. Attackers then try those same passwords on other services, such as email, banking, and company systems. If your work password matches one used elsewhere, a breach outside our company can become a breach inside it.
+
+## What You Must Do
+
+1. **Use a unique password for every account.** This applies most of all to your work accounts, which must never share a password with any personal account.
+2. **Make each password long.** Aim for at least 14 characters. A passphrase of several unrelated words is a good option and is easier to remember.
+3. **Use the company-approved password manager** to create and store your passwords, so you don't have to memorize them.
+4. **Turn on multi-factor authentication (an extra step, such as a code sent to your phone, that you complete after entering your password)** wherever it is offered.
+5. **Change any reused password now.** Start with your work accounts, then your email and financial accounts.
+
+## If You Think a Password Was Exposed
+
+Change it right away and report it to the IT Security Team at security@company.example or ext. 5555. Reporting promptly helps us protect you and the company. You will not be penalized for reporting in good faith.
+
+## The Bottom Line
+
+One password, one account. Never reuse a password, especially between work and personal accounts.
+
+Thank you for helping keep our company secure.
+
+*IT Security Team*

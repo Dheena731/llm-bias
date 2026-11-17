@@ -1,0 +1,20 @@
+Subject: Upcoming Email Migration: What You Need to Know
+
+Hi everyone,
+
+We are migrating our email system to a new platform on [date]. The migration will begin at [time] and is expected to be completed by [time]. During this window, email access may be intermittent or unavailable.
+
+What you need to do:
+- Save any important emails or attachments before [date].
+- Log out of email on all devices before the migration begins.
+- After the switch, you may need to re-enter your password and update settings on your phone or other devices. Instructions will be shared on [link or location].
+
+Emails sent to our domain during the migration will be queued and delivered once the process is complete, so no messages should be lost.
+
+If you have questions or run into problems, contact [IT contact or help desk] at [email or phone].
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+[Your name]
+[Your title]

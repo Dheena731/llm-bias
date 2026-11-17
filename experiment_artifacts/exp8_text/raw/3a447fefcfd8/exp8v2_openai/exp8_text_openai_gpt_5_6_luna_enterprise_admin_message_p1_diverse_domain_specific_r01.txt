@@ -1,0 +1,3 @@
+**Scheduled Dashboard Maintenance**
+
+The Operations Dashboard will be unavailable on **[date] from [start–end time, timezone]** while we apply database indexing and refresh pipeline updates. During this window, dashboard tiles may be blank and reported metrics may lag until the next scheduled refresh. No action is required from users.

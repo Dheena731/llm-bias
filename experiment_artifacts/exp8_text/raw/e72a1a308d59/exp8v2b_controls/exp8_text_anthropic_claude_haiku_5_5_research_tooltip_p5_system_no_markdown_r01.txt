@@ -1,0 +1,1 @@
+Click "Export" to download the results as a CSV file. Use the dropdown to choose another format, such as Excel or JSON.

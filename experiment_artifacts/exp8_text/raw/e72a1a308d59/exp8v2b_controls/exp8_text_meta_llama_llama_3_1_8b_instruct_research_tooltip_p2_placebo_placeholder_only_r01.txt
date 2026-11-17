@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a confidence interval in a chart:
+
+"This confidence interval shows the range of values within which the true population value is likely to lie. It's based on a sample of data and is calculated to account for random error. With a 95% confidence level, there's a 5% chance that the true population value falls outside of this interval."

@@ -1,0 +1,27 @@
+# Introducing the Simple Budget Planner
+
+**A spreadsheet template that shows where your money goes each month, so you can plan it with confidence.**
+
+If you've ever reached the end of the month wondering where your paycheck went, the Simple Budget Planner is for you. It's a ready-made spreadsheet. Enter your income and spending, and it does the math for you.
+
+**What it does**
+- **Monthly budget:** Set a spending limit for each category, such as rent, groceries, transportation, and savings.
+- **Expense tracking:** Record what you spend, and the template compares it to your limits.
+- **Clear summary:** One page shows how much you earned, how much you spent, and how much is left.
+- **Yearly view:** See all 12 months side by side to spot patterns over time.
+
+**Who it's for**
+Anyone who wants a straightforward way to manage personal or household money. No finance or spreadsheet experience is needed. Every cell you need to fill in is highlighted, and the rest calculates automatically.
+
+**What you need**
+Google Sheets or Microsoft Excel. The template works in both.
+
+**How to get started**
+1. Download the template and open it in your spreadsheet app.
+2. Enter your monthly income and your spending limits.
+3. Add your expenses as you go and check the summary page.
+
+**Availability**
+The Simple Budget Planner is available now at [price] at [link].
+
+Questions? Contact us at [email address].

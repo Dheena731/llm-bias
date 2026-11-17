@@ -1,0 +1,3 @@
+**Notice: Enable Two-Factor Authentication**
+
+Please enable two-factor authentication (2FA) on your account to add an extra layer of security. After you enter your password, you’ll also verify your identity with a second method, such as an authentication app or security code. Enable 2FA in your account security settings.

@@ -1,0 +1,1 @@
+"Confidence Interval: A range of values (x - y) that, with a given probability (e.g. 95%), contains the true population parameter. It's a measure of how sure we are about the true value based on a sample."

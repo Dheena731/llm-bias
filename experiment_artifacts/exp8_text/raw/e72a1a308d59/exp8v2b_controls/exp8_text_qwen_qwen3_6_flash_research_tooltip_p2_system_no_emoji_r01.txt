@@ -1,0 +1,1 @@
+This range estimates where the true population value likely falls. At a 95% confidence level, repeating this analysis many times would include the actual value in 95% of calculated intervals. Wider ranges indicate greater uncertainty.

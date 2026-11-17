@@ -1,0 +1,3 @@
+Latency matters because users experience a web application as a sequence of waits: opening a dashboard, filtering a table, saving a form, or moving to the next checkout step. A 200 ms delay may be barely noticeable once, but repeated delays while loading dependent API calls can make an app feel sluggish and disrupt the user’s flow.
+
+Latency also affects system behavior, not just perception. Slow requests occupy browser connections, application workers, and database resources longer, increasing the chance of timeouts and queueing during traffic spikes. Measuring percentiles such as p95 or p99 is important because a small group of users—often those on mobile networks or far from the server—may otherwise bear most of the delay.

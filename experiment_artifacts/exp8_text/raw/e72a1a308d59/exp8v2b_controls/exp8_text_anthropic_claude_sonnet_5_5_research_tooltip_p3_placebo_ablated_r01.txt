@@ -1,0 +1,11 @@
+**Date range**
+
+Choose a start and end date to filter the data shown. Click a start date, then an end date. Both dates are included. To change the range, click either date again, or select a preset such as "Last 7 days."
+
+---
+
+A few notes on the choices, in case you need to adapt it:
+
+- **Audience:** It's written for ordinary end users of the interface, so it uses no technical terms.
+- **Main point:** The selector limits what data you see to a chosen period.
+- **Assumptions:** I assumed the end date is inclusive and that presets exist. If your selector doesn't have presets or treats the end date differently, remove or change those sentences.

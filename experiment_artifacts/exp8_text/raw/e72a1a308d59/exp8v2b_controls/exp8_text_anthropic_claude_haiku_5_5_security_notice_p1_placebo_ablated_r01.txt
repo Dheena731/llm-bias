@@ -1,0 +1,18 @@
+**Subject: Stop Reusing Passwords**
+
+To all employees,
+
+Do not use the same password for more than one account. This applies to work systems, personal email, online shopping, and any other service. When a website is breached, attackers try the stolen username and password on other sites, including work accounts. Password reuse is one of the most common ways company accounts are compromised.
+
+To protect yourself and the company:
+
+- Use a unique password for every work account.
+- Never use a work password on a personal account.
+- Create and store passwords with the company-approved password manager.
+- Turn on two-step verification wherever it is offered. This requires a code from your phone or app in addition to your password when you sign in.
+
+If you think a password you use at work has been exposed on another site, change it immediately and contact the IT Service Desk at [phone number or email].
+
+Thank you for helping keep our systems and data secure.
+
+IT Security Team

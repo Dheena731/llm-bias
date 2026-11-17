@@ -1,0 +1,3 @@
+**Expense approval update**
+
+Starting **[date]**, all employee expenses must be submitted through **[system]** within **10 business days** of purchase. Attach the itemized receipt and select the correct project or cost center. Requests under **$500** route to your manager; requests of **$500 or more** also require Finance approval. Finance will return incomplete submissions rather than process them manually. Direct questions to **[Finance contact]**.

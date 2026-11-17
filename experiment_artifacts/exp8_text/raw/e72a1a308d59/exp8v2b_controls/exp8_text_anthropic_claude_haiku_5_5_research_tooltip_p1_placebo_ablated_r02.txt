@@ -1,0 +1,1 @@
+**Date range:** Shows only records dated within the selected start and end years, including both years. Records with no date are hidden while this filter is on. To see all records, clear the filter.

@@ -1,0 +1,16 @@
+Here is a short message about an upcoming email migration:
+
+"Important Update: Email Migration Ahead
+
+We are writing to inform you that our organization will be undergoing an email migration in the coming weeks. This change will bring new features and improvements to our email system, but it may also require some adjustments on your part.
+
+The migration is scheduled to take place on [insert date] and is expected to be completed by [insert date]. During this time, you may experience some downtime or disruptions to your email service.
+
+To ensure a smooth transition, we recommend that you take a few minutes to review our email migration guide, which will be sent to you separately. This guide will provide you with step-by-step instructions on what to expect and how to access your new email account.
+
+If you have any questions or concerns, please don't hesitate to reach out to our IT support team. We are here to help and want to make this transition as seamless as possible.
+
+Thank you for your understanding and cooperation.
+
+Best regards,
+[Your Name]"

@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining how to export query results:
+
+**Exporting Query Results**
+
+To export query results, click on the "Export" button at the top right corner of the query results table. Select the desired format (e.g. CSV, Excel, PDF) and choose a location to save the file. You can also use the keyboard shortcut "Ctrl + C" to copy the results and "Ctrl + V" to paste them into a spreadsheet or word document.

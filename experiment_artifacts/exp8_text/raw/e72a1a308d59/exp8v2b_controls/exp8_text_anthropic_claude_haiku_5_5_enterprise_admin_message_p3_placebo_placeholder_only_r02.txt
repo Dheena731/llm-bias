@@ -1,0 +1,17 @@
+**Subject: VPN client update: new sign-in flow and version 4.2**
+
+Hi everyone,
+
+Starting Monday, June 9, the VPN client will update automatically to version 4.2. Most of you won't notice much, but there's one change to know about.
+
+**What's changing:**
+- **Sign-in uses single sign-on.** You'll log in with your work account and approve the request in the authenticator app. Separate VPN passwords are no longer needed.
+- **Auto-reconnect is on by default.** The client reconnects after brief network drops, such as switching from Wi-Fi to a mobile hotspot.
+
+**What you need to do:**
+- If you're asked to sign in again after the update, use your work account and approve the prompt on your phone.
+- If the client doesn't connect after updating, restart your laptop once. That fixes it in nearly all cases.
+
+If you still have trouble, contact the IT help desk at help@yourcompany.com or call ext. 4400. Thanks for your patience while we roll this out.
+
+IT Operations

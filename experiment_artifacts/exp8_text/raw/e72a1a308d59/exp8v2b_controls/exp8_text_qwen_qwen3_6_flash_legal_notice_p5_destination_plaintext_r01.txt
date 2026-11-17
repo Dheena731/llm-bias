@@ -1,0 +1,11 @@
+NOTICE OF ACCEPTABLE USE POLICY FOR SHARED NETWORK SERVICES
+
+This notice establishes the terms governing access to and utilization of the shared network infrastructure. By connecting to, accessing, or transmitting data through this network, you explicitly acknowledge and agree to comply with all provisions outlined herein.
+
+AUTHORIZED USE: Network resources are provided exclusively for lawful, authorized, and organization-approved purposes. All activity must conform to applicable local, state, federal, and international laws and regulations.
+
+PROHIBITED ACTIVITIES: Unauthorized conduct includes, but is not limited to: illegal reproduction or distribution of copyrighted content; creation, transmission, or propagation of malware, ransomware, or deceptive code; unauthorized intrusion into restricted systems, accounts, or data repositories; intentional congestion, bandwidth hoarding, or disruption of service; unlicensed commercial exploitation of network capacity; and any action that compromises system security, data integrity, or operational performance.
+
+MONITORING AND PRIVACY DISCLAIMER: The organization retains the right to monitor, log, record, inspect, and audit all network traffic, connection metadata, and data transmissions for security, compliance, maintenance, and investigative purposes. Users expressly waive any reasonable expectation of privacy while utilizing this network.
+
+ENFORCEMENT AND LIABILITY: Violation of this policy may

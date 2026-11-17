@@ -1,0 +1,1 @@
+Indicates that data for this entry is unavailable, unknown, or intentionally omitted. Distinct from zero or explicitly empty values.

@@ -1,0 +1,15 @@
+ADMIN NOTICE: Quarterly User Access Review
+
+The Q[X] User Access Review is now underway. All people managers and application owners are required to review and certify access permissions for their direct reports and systems.
+
+Action Required:
+1. Log in to [Portal URL/Access Management Tool].
+2. Review active user permissions, roles, and administrative privileges.
+3. Revoke access for any personnel who have changed roles, departed, or no longer require it.
+4. Approve valid access requests and submit the review.
+
+Deadline: [Date, Time, Timezone]
+
+Failure to complete this review by the deadline may result in the automatic revocation of unverified accounts to maintain security compliance.
+
+If you have questions or need assistance, contact IT Support at [Email/Helpdesk Link].

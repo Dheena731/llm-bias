@@ -1,0 +1,14 @@
+Subject: Quarterly Access Review Reminder
+
+All department heads and system administrators,
+
+This is a reminder that the quarterly access review period begins on [Start Date]. As part of our ongoing commitment to security and compliance, all user permissions for critical systems must be verified and updated before the close of this quarter.
+
+Please log in to the identity management portal, navigate to your assigned review queue, and confirm or revoke access for each listed account. Any changes must be documented with a brief business justification. The complete review cycle closes on [Deadline Date] at 5:00 PM EST.
+
+If you encounter technical issues or require access to additional systems for this review, contact the IT Security team at support@company.com or extension 4500.
+
+Thank you for your prompt attention to this mandatory security procedure.
+
+Regards,
+Information Technology Administration

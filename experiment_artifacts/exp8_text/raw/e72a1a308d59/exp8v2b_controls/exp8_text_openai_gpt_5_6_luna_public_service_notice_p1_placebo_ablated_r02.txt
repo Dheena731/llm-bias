@@ -1,0 +1,9 @@
+**Library Opening Hours**
+
+The library is open:
+
+- **Monday–Friday:** [opening time]–[closing time]  
+- **Saturday:** [opening time]–[closing time]  
+- **Sunday:** [closed/open, with hours]
+
+Please check the library’s website for holiday closures or changes to these hours.

@@ -1,0 +1,22 @@
+**Subject: Action Required: Q3 2024 Quarterly Access Review**
+
+**To:** Department Managers and Supervisors  
+**From:** IT Security & Compliance  
+**Date:** [Current Date]  
+
+As part of our ongoing security and compliance commitments, we are conducting the scheduled quarterly access review. This process ensures that every employee retains only the system permissions required for their current responsibilities, minimizing risk and maintaining operational accuracy.
+
+Please log into the Access Review Portal using your departmental credentials and complete the following steps for your direct reports:
+1. Verify each user’s current system access against their active job duties.
+2. Remove or adjust any permissions that are no longer necessary.
+3. Approve or flag accounts for further review as needed.
+
+All reviews must be finalized and submitted by **Friday, [Date], at 5:00 PM [Time Zone]**. Incomplete reviews will automatically escalate to senior leadership and may trigger temporary access restrictions pending verification.
+
+If you encounter technical issues or need clarification on specific permission sets, contact the IT Security team at [email] or call [phone number]. Detailed step-by-step instructions are available on the intranet under “Security > Access Reviews.”
+
+Thank you for your prompt attention to this mandatory process. Timely completion protects both our systems and our teams.
+
+Regards,  
+[Your Name/Title]  
+IT Security & Compliance

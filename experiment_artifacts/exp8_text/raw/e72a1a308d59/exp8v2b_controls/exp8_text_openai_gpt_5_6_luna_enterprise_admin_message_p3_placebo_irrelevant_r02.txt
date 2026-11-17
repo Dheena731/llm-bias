@@ -1,0 +1,3 @@
+**VPN Client Update**
+
+A new version of the VPN client is now available. Please update at your earliest convenience to access the latest security, performance, and stability improvements. Restart the client after updating to complete the installation.

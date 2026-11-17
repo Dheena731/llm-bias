@@ -1,0 +1,1 @@
+Latency is the time between a user’s action and the web application’s response. It matters because even small delays can make an application feel slow, interrupt a user’s flow, and increase the chance that they abandon a task. Lower latency makes interactions feel more responsive, helping users complete tasks efficiently and improving overall satisfaction.

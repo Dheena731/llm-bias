@@ -1,0 +1,5 @@
+A database index works like the index at the back of a printed book. Instead of scanning every single page to find a specific topic, you can look up the term in the index, find the exact page number, and jump directly to the relevant content.
+
+In a database, an index is a specialized data structure that keeps a sorted copy of key information from a table, paired with pointers to the original rows. When a query is run, the database engine searches the index to locate the requested records instantly, avoiding the need to read through the entire table row by row. 
+
+While indexes dramatically speed up data retrieval, they require additional storage space and can slightly slow down data entry and updates, because the index must be recalculated whenever rows are added, modified, or deleted.

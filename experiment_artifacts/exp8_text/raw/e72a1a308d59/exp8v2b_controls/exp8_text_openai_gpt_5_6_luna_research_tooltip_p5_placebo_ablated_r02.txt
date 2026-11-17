@@ -1,0 +1,1 @@
+Run the query, then select **Export** to download the results as a CSV file.

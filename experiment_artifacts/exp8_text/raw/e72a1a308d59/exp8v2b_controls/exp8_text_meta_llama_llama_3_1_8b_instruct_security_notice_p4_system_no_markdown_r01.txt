@@ -1,0 +1,13 @@
+**Enabling Two-Factor Authentication**
+
+To enhance the security of your account, we highly recommend enabling two-factor authentication (2FA). This additional layer of protection requires both your password and a verification code sent to your registered phone or email to log in.
+
+To enable 2FA:
+
+1. Go to your account settings.
+2. Look for the "Security" or "Authentication" section.
+3. Follow the prompts to enable two-factor authentication.
+4. You will be asked to provide a phone number or email address for receiving verification codes.
+5. You will also be prompted to set up an authenticator app, if desired.
+
+Enabling 2FA will significantly reduce the risk of unauthorized access to your account.

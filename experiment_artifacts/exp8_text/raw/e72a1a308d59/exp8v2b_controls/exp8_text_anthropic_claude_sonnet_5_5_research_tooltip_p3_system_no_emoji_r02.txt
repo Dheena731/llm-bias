@@ -1,0 +1,6 @@
+**Date range selector**
+
+Choose a start and end date to filter results to that period. Click a date to set the start, then click another to set the end. Both dates are included in the range. To change the range, select new dates or use a preset such as "Last 7 days" or "This month."
+
+**Shorter version:**
+Select a start and end date to filter results. Both dates are included.

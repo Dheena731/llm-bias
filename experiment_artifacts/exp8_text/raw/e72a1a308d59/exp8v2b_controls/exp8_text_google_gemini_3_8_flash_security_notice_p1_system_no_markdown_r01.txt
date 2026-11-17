@@ -1,0 +1,15 @@
+SECURITY NOTICE: THE RISK OF PASSWORD REUSE
+
+Reusing passwords across multiple accounts is one of the leading causes of security breaches. When you use the same password for both work and personal services, a data leak on any external website directly puts our entire company network at risk.
+
+Please keep our systems secure by following these standards:
+
+1. Never use your workplace password for personal accounts.
+2. Ensure every business application has a unique, complex password.
+3. Use the company-approved password manager to safely generate and store your credentials.
+
+If you suspect any of your passwords have been compromised, please change them immediately and contact the IT Security Team.
+
+Thank you for your diligence in protecting our data.
+
+IT Security Team

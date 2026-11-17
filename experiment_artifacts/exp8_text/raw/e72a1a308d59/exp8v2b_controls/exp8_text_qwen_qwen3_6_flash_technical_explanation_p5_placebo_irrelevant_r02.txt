@@ -1,0 +1,8 @@
+An **API rate limit** is a restriction that controls how frequently a client can send requests to a server within a specific timeframe. 
+
+Rate limits serve three main purposes:
+1.  **Protection:** They prevent server overload and crashes caused by excessive traffic.
+2.  **Fairness:** They ensure equitable access so that one user cannot monopolize resources and degrade performance for others.
+3.  **Security:** They help mitigate malicious activities, such as brute-force attacks or denial-of-service attempts.
+
+When a client exceeds their allowed limit, the server typically rejects further requests—often responding with an HTTP `429 Too Many Requests` status code—and may include headers indicating how long the client must wait before retrying.

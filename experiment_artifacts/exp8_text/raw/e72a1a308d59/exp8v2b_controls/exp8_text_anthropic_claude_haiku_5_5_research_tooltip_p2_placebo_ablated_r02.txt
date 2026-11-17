@@ -1,0 +1,1 @@
+**Confidence interval:** The range where the true value is likely to fall, based on this data. Narrow bars indicate a precise estimate; wide bars indicate more uncertainty.

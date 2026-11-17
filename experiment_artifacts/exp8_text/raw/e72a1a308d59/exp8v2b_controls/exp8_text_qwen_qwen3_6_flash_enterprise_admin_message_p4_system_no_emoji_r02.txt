@@ -1,0 +1,9 @@
+**ADMIN NOTICE: QUARTERLY ACCESS REVIEW**
+
+As part of our ongoing security and compliance protocols, we are initiating the scheduled quarterly access review. All department managers and system owners are required to verify user access permissions for their assigned resources by [Insert Deadline Date].
+
+Please log in to the Access Management Portal, navigate to the Q[Quarter] Review queue, and confirm that each listed user retains only the access level necessary for their current responsibilities. Any redundant, expired, or excessive permissions must be revoked or adjusted before final submission.
+
+Completed reviews must be submitted no later than [Insert Deadline Date]. If you require guidance on appropriate access tiers or encounter technical issues, please contact IT Security at [Email Address] or submit a ticket through the internal help desk.
+
+Thank you for your prompt attention to this mandatory security procedure.

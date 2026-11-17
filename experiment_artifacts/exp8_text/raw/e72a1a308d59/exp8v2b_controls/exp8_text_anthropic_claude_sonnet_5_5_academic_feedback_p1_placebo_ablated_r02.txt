@@ -1,0 +1,28 @@
+*No draft was attached, so this is a model note with bracketed placeholders. Replace them with details from the actual draft before sending.*
+
+---
+
+**Feedback on Draft Literature Review: [Title]**
+
+Dear [Author's name],
+
+Thank you for the draft. It shows wide reading, and your summaries of individual sources are accurate and clear. My main comment concerns how the review is organized and what it is for.
+
+**Main point: the review summarizes sources but does not yet build an argument.**
+At present, most paragraphs describe one study after another ("Smith (2018) found… Jones (2020) found…"). A literature review should instead group sources by idea, compare them, and explain what the body of work shows as a whole. It should also lead the reader to your research question by showing what is unresolved, disputed, or missing in existing work, and why that matters. Right now the reader must infer this, and the review ends without stating it.
+
+**How to revise**
+1. **State your purpose first.** Write one or two sentences saying what the review will show and how it leads to your research question. Use them as the opening of the review.
+2. **Organize by theme, not by source.** Identify three or four central questions or debates (for example, [Theme A], [Theme B], [Theme C]). Make each a section, and discuss the relevant studies together within it.
+3. **Compare and evaluate.** For each theme, say where studies agree, where they conflict, and why, for instance because of differences in method, sample, or context. Note the limits of the evidence where relevant.
+4. **End with the unresolved question.** Close by stating plainly what existing work leaves unanswered and how your project addresses it.
+
+**Smaller points**
+- Use fewer long direct quotations; paraphrase and keep only those whose exact wording matters.
+- Check that citation formatting follows [required style] consistently.
+- Several paragraphs are long. Starting each with a sentence that states its main claim would help readers follow.
+
+**Next step:** Please submit a revised outline, with the theme headings and a one-sentence claim for each, before rewriting the full text. I am happy to review it quickly and discuss it with you.
+
+Best regards,
+[Reviewer's name]

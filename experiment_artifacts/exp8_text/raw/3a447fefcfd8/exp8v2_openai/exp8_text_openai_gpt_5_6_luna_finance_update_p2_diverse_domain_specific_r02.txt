@@ -1,0 +1,5 @@
+**Subject: Update to card transaction fees**
+
+Effective **[date]**, the fee for **card-not-present transactions** processed through **[processor/platform]** will change from **[old rate]** to **[new rate]** per transaction. This applies to online and keyed-in payments; in-person chip and contactless transactions are not affected.
+
+The change reflects updated card-network assessment and interchange costs for these transaction types. Your monthly statements will show the revised fee beginning with the **[month]** billing cycle. No action is required, though you may review the affected transactions under the **“Card-not-present”** line item on your statement.

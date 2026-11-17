@@ -1,0 +1,16 @@
+**Subject:** Scheduled Maintenance Notice: System Dashboard
+
+Hello everyone,
+
+Please be aware that we will be performing scheduled maintenance on the dashboard to implement performance and security updates. 
+
+* **Date:** [Insert Date]
+* **Time:** [Start Time] – [End Time] [Time Zone]
+* **Expected Impact:** The dashboard will be temporarily inaccessible during this window. Ongoing background processes and data collection will not be affected.
+
+Please save any critical work and export needed reports prior to the start of the maintenance window. 
+
+We apologize for any inconvenience this may cause and appreciate your patience as we work to improve our systems. If you have any questions, please reach out to the support team at [Support Email/Channel].
+
+Best regards,  
+**[Your Name / System Administration Team]**

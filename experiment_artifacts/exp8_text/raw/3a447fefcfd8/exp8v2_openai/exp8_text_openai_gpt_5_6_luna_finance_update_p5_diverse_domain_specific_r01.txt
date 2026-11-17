@@ -1,0 +1,1 @@
+Payment processing is currently delayed for some ACH and card transactions. Payments may remain in “processing” longer than usual, but no duplicate charges are being created. Our processor is working through the backlog, and we’ll update affected accounts as transactions settle.

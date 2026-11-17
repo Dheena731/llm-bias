@@ -1,0 +1,1 @@
+Apply selection criteria to narrow the dataset. Only matching records will appear, streamlining analysis and removing irrelevant entries.

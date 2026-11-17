@@ -1,0 +1,14 @@
+Subject: Quarterly Access Review Notice
+
+Hello everyone,
+
+As part of our ongoing security and compliance efforts, the quarterly user access review will begin on the first Monday of next month and must be completed within two weeks.
+
+Managers and system owners will receive a list of the users and permissions under their responsibility. Please review each entry and confirm that the access is still needed, update permissions that no longer match a person's role, and flag accounts belonging to anyone who has left the team or changed positions.
+
+Reviewers who have not responded by the deadline will receive a reminder, and unresolved items will be escalated to department leadership. Access that is not confirmed may be suspended until it is verified.
+
+If you have questions about the process or need help interpreting a permission, contact the IT Security team at the helpdesk. Thank you for your prompt attention. Regular reviews help keep our systems and data secure.
+
+Thank you,
+IT Administration

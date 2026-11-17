@@ -1,0 +1,5 @@
+**Subject: Update to card transaction fees**
+
+Starting **[effective date]**, card transactions processed through **[platform/product]** will be charged **[new fee]**, replacing the current **[old fee]**. This applies to **[credit/debit, domestic/international, online/in-person]** transactions; ACH and other non-card payments are unchanged.
+
+The new rate will appear on settlement reports as a separate **card processing fee** line item. No action is required, but please update any margin or pricing calculations that use the current card rate.

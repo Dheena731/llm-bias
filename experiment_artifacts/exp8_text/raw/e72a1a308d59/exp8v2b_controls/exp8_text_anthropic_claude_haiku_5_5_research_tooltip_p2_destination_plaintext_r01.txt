@@ -1,0 +1,1 @@
+The shaded band shows a 95% confidence interval: if we repeated this study many times, about 95 out of 100 resulting intervals would contain the true value.

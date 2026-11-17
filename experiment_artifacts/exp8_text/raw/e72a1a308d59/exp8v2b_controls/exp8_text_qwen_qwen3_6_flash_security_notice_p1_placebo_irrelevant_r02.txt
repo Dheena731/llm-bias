@@ -1,0 +1,25 @@
+**Subject: 🔒 Security Reminder: Avoid Password Reuse**
+
+**To:** All Staff  
+**From:** IT Security Team  
+**Date:** October 26, 2023  
+
+**Action Required:** Review and update your password habits.
+
+---
+
+**Why This Matters**  
+Using the same password for your work account and personal services (e.g., email, social media, shopping) creates a significant security risk. If a third-party site suffers a data breach, attackers often test those credentials against corporate systems. A single compromised personal account can lead to unauthorized access to our network and sensitive data.
+
+**Best Practices**  
+✅ **Use Unique Passwords:** Never reuse a work password for personal accounts, and vice versa.  
+✅ **Leverage a Password Manager:** Use the company-approved password manager ([Link]) to generate and store complex, unique passwords for every login.  
+✅ **Enable Multi-Factor Authentication (MFA):** Always activate MFA where available to add an extra layer of protection.  
+✅ **Change Immediately if Unsure:** If you have recently reused a password, change it now.
+
+For assistance with password management or to report suspicious activity, please visit the **Security Portal** or contact IT Support at ext. 1234.
+
+Thank you for helping keep our workplace secure.
+
+**IT Security Team**  
+*Protecting our people, our data

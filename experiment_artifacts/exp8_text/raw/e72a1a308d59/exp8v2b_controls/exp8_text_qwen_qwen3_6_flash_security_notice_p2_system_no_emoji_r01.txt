@@ -1,0 +1,18 @@
+NOTICE: PHISHING EMAIL AWARENESS
+
+All employees are advised to exercise heightened caution with incoming emails. Phishing attempts remain a primary cybersecurity threat and may compromise company systems, financial records, and confidential client data.
+
+How to Identify Suspicious Messages:
+- Unexpected attachments or unverified hyperlinks
+- Requests for passwords, payment details, or sensitive information
+- Urgent or threatening language demanding immediate action
+- Sender addresses that appear altered, misspelled, or unrelated to your organization
+
+Required Actions:
+Do not click links, open attachments, or reply to questionable emails. Forward the complete message, including full headers, to IT Security at security@company.com and delete the original. If you suspect you have already engaged with a phishing email, report it to IT immediately so containment measures can be initiated.
+
+Your vigilance is essential to protecting our network and operational continuity. For additional guidance or reporting assistance, contact the IT Help Desk at extension 5000 or consult the internal cybersecurity portal.
+
+Thank you for your cooperation.
+
+IT Security Department

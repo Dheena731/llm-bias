@@ -1,0 +1,1 @@
+Date Range Selector: Select two dates to define a specific period. First date: (YYYY-MM-DD), Second date: (YYYY-MM-DD)

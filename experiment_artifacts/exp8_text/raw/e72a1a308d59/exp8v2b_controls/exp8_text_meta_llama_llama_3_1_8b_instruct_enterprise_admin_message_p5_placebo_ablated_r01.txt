@@ -1,0 +1,14 @@
+Here is a short message about an upcoming email migration:
+
+"Important Update: Email Migration Scheduled
+
+On [Date], our email system will be migrated to a new platform. This change will bring improved reliability, security, and features to our email services. During the migration, email services may be unavailable for a short period. We apologize for any inconvenience this may cause and appreciate your patience as we complete this update.
+
+If you have any questions or concerns, please reach out to the IT department. We will provide further information and updates as necessary."
+
+I aimed to:
+
+* Clearly state the main point (the email migration)
+* Avoid contradicting myself or leaving out important information
+* Avoid undefined jargon (I used simple, clear language)
+* Address the correct audience ( likely IT or administrative staff, who will be responsible for communicating with end-users)

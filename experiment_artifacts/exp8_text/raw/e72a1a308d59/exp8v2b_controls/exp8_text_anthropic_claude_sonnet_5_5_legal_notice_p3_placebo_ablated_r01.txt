@@ -1,0 +1,26 @@
+# Cookie Notice
+
+**Last updated:** [date]
+
+**1. Scope.** This notice explains how [Company Name] ("we", "us") uses cookies on [website address] (the "Website"). It is written for visitors to the Website ("you").
+
+**2. What cookies are.** Cookies are small text files that a website stores on your device when you visit it. They allow the website to recognize your device and remember information about your visit.
+
+**3. Cookies we use.**
+
+- **Essential cookies** are necessary for the Website to work, for example to keep your session secure or remember items in your basket. We set these automatically. If you block them in your browser, parts of the Website may not work.
+- **Analytics cookies** collect information about how visitors use the Website, such as which pages are visited, so that we can improve it. We set these **only if you consent**.
+- **Marketing cookies** are used to show you advertising that is more relevant to you and to measure how well it performs. We set these **only if you consent**.
+
+**4. Your choices.** When you first visit the Website, a banner lets you accept or reject analytics and marketing cookies. Until you choose, we set essential cookies only. You can change your choice at any time through the "Cookie Settings" link at the bottom of every page. Withdrawing consent does not affect our use of cookies before you withdrew it. You can also delete or block cookies in your browser settings, but blocking essential cookies may stop parts of the Website from working.
+
+**5. How long cookies last.** Session cookies are deleted when you close your browser. Persistent cookies stay on your device until they expire or you delete them, and none lasts longer than [12 months].
+
+**6. Third-party cookies.** Some analytics and marketing cookies are set by other companies, including [list providers]. Those companies' own policies govern how they use the information they collect.
+
+**7. Personal data.** Where cookies collect information that identifies you, we handle it as described in our Privacy Policy at [link].
+
+**8. Changes and contact.** We may update this notice and will change the "Last updated" date when we do. Questions can be sent to [contact email].
+
+---
+*Drafting note (not part of the notice): Delete any cookie category you do not actually use, and fill in all bracketed items. Have a qualified lawyer confirm the notice meets the laws that

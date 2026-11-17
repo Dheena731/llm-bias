@@ -1,0 +1,29 @@
+I don't have your draft, so this note is a template built on common poster problems. Replace the bracketed parts with specifics from your poster and delete any points that don't apply.
+
+---
+
+**Feedback on your poster draft**
+
+Hi [Name],
+
+Thanks for sharing the draft. **My main suggestion is to make your central finding obvious within about five seconds of someone walking up.** Right now, [the finding is buried in the Results section / the title describes the topic but not the result]. Try stating it as one plain sentence, such as "[Method X reduced Y by Z%]," and put it in the title or in a highlighted box at the top.
+
+**What's working**
+- [The figure on the left clearly shows the main comparison.]
+- [The layout flows in a sensible order from question to conclusion.]
+
+**Suggestions, in priority order**
+1. **Cut the text.** Aim for roughly 300 to 500 words in total. Replace paragraphs with short bullets, and move details to a handout or to what you say aloud.
+2. **Make figures carry the story.** Each figure needs a one-line takeaway as its title (for example, "Accuracy rises with sample size"), plus labeled axes and units. Make sure the text is readable from about two meters away.
+3. **Define terms and abbreviations on first use.** Visitors may come from neighboring fields, so spell out any shorthand the first time it appears.
+4. **Tighten the conclusions.** Limit them to two or three points that follow directly from your results, and add one sentence on limitations or next steps.
+5. **Check the visual basics.** Use consistent fonts and colors, leave white space between sections, and add contact details or a QR code linking to the paper or data.
+
+Once you've made these changes, I'm happy to look at a second draft.
+
+Best,
+[Your name]
+
+---
+
+If you send the actual poster or a description of it, I can tailor the note to it.

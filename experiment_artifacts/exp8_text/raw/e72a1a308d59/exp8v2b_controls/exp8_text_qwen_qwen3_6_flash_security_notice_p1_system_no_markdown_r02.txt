@@ -1,0 +1,24 @@
+SECURITY NOTICE: CRITICAL REMINDER ON PASSWORD REUSE POLICY
+
+TO: All Employees
+FROM: IT Security Department
+SUBJECT: Prohibition of Password Reuse
+
+We are issuing this notice to reinforce the company policy regarding password security. The practice of reusing passwords across multiple accounts is strictly prohibited due to the high risk of credential compromise.
+
+Why this matters:
+If you use the same password for personal accounts, social media, or third-party vendors and that service suffers a data breach, attackers can use those credentials to access your corporate email, files, and systems. This puts all company data at risk through a technique known as credential stuffing.
+
+Required Actions:
+1. Unique Passwords: Ensure every work account has a distinct, complex password.
+2. Personal Accounts: Never use your corporate password for any personal online service.
+3. Password Manager: Utilize the approved enterprise password manager to generate and store unique credentials.
+4. Immediate Review: Audit your accounts today. If you discover any reused passwords, update them immediately.
+
+Compliance with this policy is mandatory. Ignorance of this risk does not exempt employees from accountability.
+
+For support, please contact the IT Helpdesk at ext. 5555 or visit the security portal on the intranet.
+
+Thank you for your commitment to maintaining a secure workplace.
+
+IT Security Team

@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+**Filtering Options:**
+
+"Apply filters to narrow down your results. Select from pre-defined categories or create custom filters to exclude or prioritize specific data points. This helps you focus on relevant information, reducing clutter and enhancing the accuracy of your research."

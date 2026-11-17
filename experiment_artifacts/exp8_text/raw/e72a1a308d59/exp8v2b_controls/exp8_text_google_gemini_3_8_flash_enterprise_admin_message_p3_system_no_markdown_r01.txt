@@ -1,0 +1,12 @@
+Attention Team,
+
+We are updating our remote access tools. Starting on [Date], we will be transitioning to a new VPN client, [New VPN Name], to provide better security and faster connection speeds.
+
+Action Required:
+Please install the new client before [Deadline]. Step-by-step setup instructions are available at [Insert Link]. After the deadline, the current VPN client will be retired and will no longer connect to company resources.
+
+If you have any questions or need assistance with the installation, please contact the IT Help Desk at [Email/Phone/Portal].
+
+Thank you for your cooperation,
+
+IT Support Team

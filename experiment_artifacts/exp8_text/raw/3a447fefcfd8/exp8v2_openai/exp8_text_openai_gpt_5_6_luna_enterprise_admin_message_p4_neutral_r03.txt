@@ -1,0 +1,5 @@
+**Quarterly Access Review**
+
+Administrators must complete the quarterly review of user access permissions by **[deadline]**. Please verify that all access is appropriate for each user’s current role and promptly remove any unnecessary or outdated permissions.
+
+Contact **[IT/Security contact]** with questions or issues.

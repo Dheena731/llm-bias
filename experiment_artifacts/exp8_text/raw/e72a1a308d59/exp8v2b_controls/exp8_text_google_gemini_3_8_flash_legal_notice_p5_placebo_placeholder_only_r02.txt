@@ -1,0 +1,23 @@
+**SHARED NETWORK ACCEPTABLE USE NOTICE**
+
+By accessing or connecting to this shared network, you acknowledge and agree to comply with the terms set forth in this notice. Continued use of this network constitutes binding acceptance of these provisions.
+
+**1. Authorized and Lawful Use**  
+Access is granted as a revocable privilege for lawful purposes only. Users shall not utilize this network to transmit, distribute, store, or view material that violates any applicable local, state, federal, or international law, regulation, or intellectual property rights. 
+
+**2. Prohibited Conduct**  
+Users are strictly prohibited from engaging in any activity that compromises the security, availability, or integrity of the network or any connected systems. Prohibited conduct includes, but is not limited to:
+* Attempting unauthorized access to any system, device, network, or data;
+* Distributing or executing viruses, malware, trojans, or malicious code;
+* Intercepting, monitoring, or tampering with data not intended for the user;
+* Executing network-disrupting actions, including denial-of-service attacks or excessive bandwidth consumption that impairs access for other users;
+* Transmitting unsolicited commercial communications, defamatory content, or harassing materials.
+
+**3. Monitoring and Privacy Disclaimer**  
+Users possess no expectation of privacy concerning communications, data, or activity transmitted through or stored on this network. Network administrators reserve the right to monitor, inspect, log, and audit network traffic at any time to preserve operational integrity, verify compliance, or satisfy legal obligations. 
+
+**4. Limitation of Liability**  
+This network is provided strictly on an "as is" and "as available" basis without warranties of any kind, whether express or implied. The network provider disclaims all liability for any damages, losses, unauthorized data interception, or security breaches arising from or related to the use of this service.
+
+**5. Violations and Enforcement**  
+Failure to adhere to these terms will result in the immediate and permanent revocation of network access. In cases of suspected unlawful activity, the network provider reserves the right to report incidents and disclose relevant user logs to appropriate law enforcement authorities.

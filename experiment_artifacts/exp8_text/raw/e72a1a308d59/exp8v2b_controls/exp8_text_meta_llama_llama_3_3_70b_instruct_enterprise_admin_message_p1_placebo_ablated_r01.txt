@@ -1,0 +1,9 @@
+"Dear Users,
+
+We have scheduled a maintenance window for our dashboard on [Date] from [Start Time] to [End Time]. During this time, the dashboard will be unavailable as our team performs routine updates and maintenance to ensure its continued stability and performance.
+
+We apologize for any inconvenience this may cause and appreciate your patience as we work to improve our systems. If you have any questions or concerns, please don't hesitate to reach out to our support team.
+
+Thank you for your understanding.
+
+Best regards, [Admin]"

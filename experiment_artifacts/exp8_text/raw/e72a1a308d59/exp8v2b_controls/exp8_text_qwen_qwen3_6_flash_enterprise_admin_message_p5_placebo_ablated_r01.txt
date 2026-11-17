@@ -1,0 +1,9 @@
+**Subject: Important Notice: Upcoming Email System Migration**
+
+Dear Team,
+
+We will be migrating our email platform on Thursday, November 16, between 8:00 PM and 11:00 PM Eastern Time. During this window, you will be unable to send or receive emails. Please save any unfinished messages before leaving work on Wednesday. All existing emails, contacts, and calendar events will transfer automatically, and no action is required on your part. After the migration, log in to your usual email address using your current password. If you cannot access your account or notice missing data, please contact the IT Support team at helpdesk@company.com or call ext. 5555. Thank you for your patience as we upgrade to a faster, more secure email service.
+
+Best regards,  
+[Your Name/Title]  
+[Department]

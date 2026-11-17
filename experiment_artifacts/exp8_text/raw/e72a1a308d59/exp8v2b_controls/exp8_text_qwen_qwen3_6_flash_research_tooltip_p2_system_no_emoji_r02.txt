@@ -1,0 +1,1 @@
+Indicates the range where the true population value likely falls, with 95% confidence. Reflects statistical uncertainty around the observed estimate.

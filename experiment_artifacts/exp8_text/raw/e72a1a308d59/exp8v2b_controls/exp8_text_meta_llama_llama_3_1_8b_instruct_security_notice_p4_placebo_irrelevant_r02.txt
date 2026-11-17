@@ -1,0 +1,21 @@
+Here is a short notice about enabling two-factor authentication:
+
+**Secure Your Account with Two-Factor Authentication (2FA)**
+
+To protect your account from unauthorized access, we highly recommend enabling Two-Factor Authentication (2FA). This additional layer of security requires you to provide a second form of verification, in addition to your password, whenever you log in.
+
+**How to Enable 2FA:**
+
+1. Log in to your account as you normally would.
+2. Click on your profile picture or username in the top right corner of the screen.
+3. Select "Account Settings" or "Security Settings" from the dropdown menu.
+4. Look for the "Two-Factor Authentication" or "2FA" section and click on the "Enable" button.
+5. Follow the prompts to set up 2FA using a authenticator app (e.g. Google Authenticator) or a physical token (e.g. a USB drive).
+
+**Why 2FA is Important:**
+
+Two-Factor Authentication adds an extra level of security to your account, making it much more difficult for hackers to gain access. Even if someone manages to obtain your password, they will still need the second form of verification to access your account.
+
+**Get Started with 2FA Today:**
+
+Protect your account and sensitive information by enabling Two-Factor Authentication today. If you have any questions or need help with the setup process, feel free to contact our support team.

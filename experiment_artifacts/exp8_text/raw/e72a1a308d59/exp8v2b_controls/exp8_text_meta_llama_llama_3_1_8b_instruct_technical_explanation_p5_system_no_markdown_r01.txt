@@ -1,0 +1,5 @@
+An API rate limit is a mechanism that restricts the number of requests that can be made to an API within a certain time frame. This is done to prevent abuse, ensure fair usage, and protect the API's infrastructure from being overwhelmed.
+
+Think of it like a traffic light at a busy intersection. If too many cars were allowed to pass through the light at the same time, it would cause congestion and potentially lead to accidents. In a similar way, API rate limits regulate the flow of requests to prevent the API from becoming overwhelmed, which could lead to errors, slow responses, or even a complete outage.
+
+API rate limits typically specify a maximum number of requests per unit of time (e.g., per second, per minute, or per hour). Once the limit is reached, the API may respond with an error message, such as "Rate limit exceeded" or "Too many requests," to prevent further requests until the limit is reset. This helps to maintain the stability and performance of the API, ensuring that it can continue to function smoothly and accurately for all users.

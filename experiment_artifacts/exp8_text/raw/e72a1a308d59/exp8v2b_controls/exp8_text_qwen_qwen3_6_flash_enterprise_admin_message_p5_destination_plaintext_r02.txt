@@ -1,0 +1,21 @@
+Subject: NOTICE: Upcoming Email Migration on [Date]
+
+Dear Team,
+
+Please be advised that we will be migrating our email infrastructure on [Date] from [Start Time] to [End Time].
+
+IMPACT:
+- You may experience a brief interruption in email access.
+- All existing emails, contacts, and calendar events will be preserved.
+- Drafts must be saved or sent before the migration window.
+
+ACTION REQUIRED:
+Please ensure all open email drafts are saved prior to [Start Time]. Upon completion, simply log in again using your usual credentials.
+
+For assistance, contact the IT Help Desk at [Phone Number/Email].
+
+Thank you for your cooperation.
+
+Regards,
+
+IT Department

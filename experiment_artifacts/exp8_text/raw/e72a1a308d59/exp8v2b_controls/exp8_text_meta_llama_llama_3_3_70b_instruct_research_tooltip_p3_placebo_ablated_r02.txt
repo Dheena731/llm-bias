@@ -1,0 +1,1 @@
+"Select a start and end date to choose a range of dates. Click on the calendar to pick the first and last day of your desired period. The selected dates will be included in the range."

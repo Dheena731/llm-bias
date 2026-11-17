@@ -1,0 +1,1 @@
+Restricts the displayed data to records matching your selected criteria. Use to isolate relevant studies, time periods, or variable ranges for focused analysis.

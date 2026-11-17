@@ -1,0 +1,17 @@
+SECURITY NOTICE: PROHIBITION OF PASSWORD REUSE
+
+To protect company data and systems, all employees must use a unique password for every account and service. Do not reuse passwords across work and personal accounts, nor across different platforms.
+
+RISK:
+Password reuse creates a critical vulnerability. Attackers often use credentials stolen from third-party breaches to attempt access to our internal systems. If a reused password is compromised on any site, your other accounts are at immediate risk.
+
+ACTION REQUIRED:
+- Create a strong, unique password for every login.
+- Use the company-approved password manager to generate and store credentials securely.
+- Enable Multi-Factor Authentication (MFA) on all supported accounts.
+- Immediately change any password that has been reused or shared.
+
+REPORTING:
+If you suspect your credentials have been exposed or notice suspicious activity, report it immediately to the IT Security team.
+
+Thank you for helping maintain a secure work environment.

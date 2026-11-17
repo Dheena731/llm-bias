@@ -1,0 +1,1 @@
+What domain does the chart cover (e.g., clinical trials, revenue forecasting, polling, or A/B testing)? The tooltip should name the measured outcome and what the interval represents.

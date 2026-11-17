@@ -1,0 +1,5 @@
+**Subject: Email migration on 14 June**
+
+On 14 June, we’ll move all **@company.com** mailboxes from the current mail platform to Microsoft 365. Email addresses, folders, calendars, and contacts will carry over. Mail delivery may be delayed for up to 30 minutes while DNS records update.
+
+Please keep Outlook closed during the move and sign in again when prompted. If messages or folders appear to be missing afterward, contact IT rather than recreating them.

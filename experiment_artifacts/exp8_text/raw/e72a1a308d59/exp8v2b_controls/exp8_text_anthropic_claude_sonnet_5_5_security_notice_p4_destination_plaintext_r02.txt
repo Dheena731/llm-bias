@@ -1,0 +1,15 @@
+Security Notice: Enable Two-Factor Authentication
+
+To help keep your account safe, we strongly recommend turning on two-factor authentication (2FA). With 2FA, signing in requires both your password and a second verification step, such as a code from an authenticator app or a text message. This means that even if someone obtains your password, they still cannot access your account.
+
+How to enable 2FA:
+
+1. Sign in to your account and go to Settings.
+2. Select Security, then choose Two-Factor Authentication.
+3. Pick your preferred verification method (an authenticator app is the most secure option).
+4. Follow the on-screen instructions to link your device.
+5. Save your backup codes in a safe place in case you lose access to your device.
+
+Setup takes only a few minutes and adds a powerful layer of protection. If you need help, please contact our support team.
+
+Thank you for helping us keep your information secure.

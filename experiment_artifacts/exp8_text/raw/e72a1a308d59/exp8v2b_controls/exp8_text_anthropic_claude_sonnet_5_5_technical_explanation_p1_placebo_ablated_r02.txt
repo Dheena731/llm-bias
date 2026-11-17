@@ -1,0 +1,16 @@
+**Why latency matters in web applications**
+
+Latency is the delay between a user's action, such as clicking a button or loading a page, and the moment the application responds. It is usually measured in milliseconds. It includes the time for the request to travel across the network to a server, for the server to do its work, and for the response to travel back.
+
+**The main point:** users experience latency as how fast or slow an application feels, and that feeling strongly affects whether they keep using it.
+
+**Why this matters in practice:**
+
+- **Responsiveness shapes user perception.** Responses under about 100 milliseconds feel nearly instant. As delays grow to a second or more, users notice the wait, lose focus, and become frustrated.
+- **Delays lead to abandonment.** People are more likely to leave a slow page or app, which hurts engagement, sales, and sign-ups.
+- **Delays add up.** A single page often needs many requests, and some must finish before others can start. A small delay on each one can combine into a long total wait.
+- **Interactive features depend on it.** Search suggestions, chat, collaborative editing, and online games only work well when responses arrive quickly enough to feel like a conversation.
+
+Latency is different from bandwidth, which is how much data can be transferred per second. A connection can have high bandwidth and still feel slow if each request takes a long time to get a response.
+
+Because of this, developers try to reduce latency by placing servers closer to users, sending less data, reusing earlier results, and avoiding unnecessary requests.

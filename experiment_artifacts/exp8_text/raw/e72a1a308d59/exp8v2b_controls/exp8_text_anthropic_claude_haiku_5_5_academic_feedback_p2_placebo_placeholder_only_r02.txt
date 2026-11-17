@@ -1,0 +1,19 @@
+**Feedback on Methods Section: Reading Intervention Study**
+
+Maya, this is a clear and well-organized draft, and the description of your participants is especially good. Stating the school, year group, and inclusion criteria up front makes the sample easy to picture.
+
+Here are the main points to address before your next draft:
+
+1. **Justify your sample size.** You report 64 students but don't explain how you arrived at that number. A brief power calculation, or a statement of the minimum effect size you wanted to detect, would strengthen this considerably.
+
+2. **Describe the comprehension test more fully.** Name the instrument, state whether it is standardized, and report its reliability (for example, Cronbach's alpha from the literature or your pilot). Readers need this to judge whether your outcome measure is trustworthy.
+
+3. **Clarify the allocation process.** The sentence "Students were then placed into groups" doesn't say how. Did you randomize, use existing classes, or match on baseline scores? This is central to your causal claims.
+
+4. **Add ethics approval and consent.** I couldn't find a statement about ethical approval or parental consent. Even if it appears elsewhere in your report, it belongs in the methods.
+
+5. **Specify your analysis.** Name the statistical test, the software and version used, and your significance threshold. "Data were analyzed using ANOVA" is a good start, but the reader should know the exact model.
+
+6. **Keep tense consistent.** Use past tense for what you did ("Students completed the test") and avoid switching to present tense when describing procedures.
+
+Overall, you have the bones of a strong methods section. Tightening the points above will make it reproducible, which is the main goal here. Happy to look at a revised draft.

@@ -1,0 +1,17 @@
+**Subject: Stop Reusing Passwords**
+
+**To:** All employees
+**From:** IT Security Team
+
+Please do not use the same password for more than one account, whether it is a work account, a personal email, a shopping site, or a social media login. If one site is breached, attackers try that same password on other sites, including company systems.
+
+**What to do:**
+
+- Give every account its own unique password.
+- Use the company-approved password manager to create and store passwords. You do not need to memorize them.
+- If you have already reused a work password elsewhere, change it on both accounts now.
+- Report any suspected account compromise to the IT Help Desk right away.
+
+Questions? Contact the IT Help Desk.
+
+Thank you for helping keep our systems and data secure.

@@ -1,0 +1,1 @@
+"Select a date range by clicking and dragging the handles on the calendar to set the start and end dates. You can also enter specific dates manually."

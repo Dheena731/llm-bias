@@ -1,0 +1,20 @@
+Subject: New Expense Approval Workflow Starting [Date]
+
+Hello team,
+
+Starting [Date], we are introducing a new expense approval workflow to make reimbursements faster and more transparent.
+
+Here is what is changing:
+
+1. All expense claims must be submitted through [System Name] by the [X] day of each month.
+2. Claims under [$Amount] will be approved by your direct manager.
+3. Claims above [$Amount] will require approval from [Department/Finance Team].
+4. You will receive an email notification when your claim is approved, rejected, or needs more information.
+
+Please review the full guide at [Link] and contact [Name/Email] with any questions. Training sessions are scheduled for [Dates].
+
+Thank you for your cooperation.
+
+Best regards,
+[Your Name]
+[Title]

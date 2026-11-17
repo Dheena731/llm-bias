@@ -1,0 +1,23 @@
+**Security Notice: Do Not Reuse Passwords**
+
+**To:** All employees
+**From:** IT Security Team
+
+**What's happening**
+When a website or service suffers a data breach, attackers collect the stolen usernames and passwords and try them on other sites, including company systems. If you use the same password in more than one place, one breach can give an attacker access to all of those accounts.
+
+**What we ask you to do**
+- **Use a unique password for every account**, both work and personal. Never use your work password anywhere else.
+- **Make each password long.** A passphrase of four or more unrelated words (for example, "candle-river-mango-train") is stronger and easier to remember than a short, complex password.
+- **Use the company-approved password manager** to create and store your passwords, so you don't have to memorize them or write them down.
+- **Turn on multi-factor authentication (MFA)** wherever it is available. MFA asks for a second proof of identity, such as a code sent to your phone, in addition to your password. It can stop an attacker even if your password has been stolen.
+- **Change a password immediately** if you suspect it has been exposed, or if you have ever used it on more than one account.
+
+**What to avoid**
+- Reusing a password with small changes, such as adding a number or symbol.
+- Sharing passwords by email, chat, or sticky notes.
+
+**Need help?**
+If you think your password has been compromised, or you need help setting up the password manager or MFA, contact the IT Help Desk right away. You will not be penalized for reporting a mistake promptly.
+
+Thank you for helping keep our company and our colleagues safe.

@@ -1,0 +1,32 @@
+**Feedback on Draft Literature Review: "Hybrid Work and Employee Well-Being Since 2020"**
+
+**Overall impression**
+
+The draft shows a clear grasp of the core debate: whether flexible work arrangements improve or erode psychological well-being, and whether the answer depends on autonomy, boundary management, or job type. The organisation into three thematic sections (autonomy, work-family boundaries, and social isolation) is sensible. In its current form, however, the review reads more as a sequence of summaries than as an argument, and it needs a stronger analytical spine.
+
+**Strengths**
+
+- The opening paragraph frames the question precisely and justifies why pre-2020 findings may not transfer to the hybrid context.
+- The discussion of job demands-resources theory in the autonomy section is well integrated and gives the reader a useful lens.
+- Your use of longitudinal studies alongside cross-sectional surveys is a good methodological touch, and you flag their limitations in several places.
+
+**Main concerns**
+
+1. **Summary rather than synthesis.** Most paragraphs follow the pattern "Smith found X; Jones found Y." Instead, group studies by what they disagree about and explain why. For example, why do some studies find isolation effects only among employees under 30? Answering questions like this would turn the review into an argument.
+
+2. **Limited critical evaluation.** Sample characteristics, measurement of well-being, and reliance on self-report are mentioned only briefly. Several key studies draw on samples from a single national survey, which matters for generalisability, but this is not discussed. Evaluate the evidence, not just its content.
+
+3. **Unclear search strategy.** The methods note lists databases but not search terms, date ranges, inclusion criteria, or how grey literature was handled. Even in a narrative review, a transparent account of how sources were selected is expected.
+
+4. **Gap in the conclusion.** The closing section restates findings but does not identify the specific gap your study addresses. State what is still unknown and why it matters for the research question.
+
+5. **Minor issues.** Several citations in the isolation section are missing page numbers for direct quotations, and two references appear in the reference list but not in the text.
+
+**Priority revisions**
+
+- Restructure the middle sections around competing explanations rather than individual studies.
+- Add a short paragraph on the strengths and weaknesses of the evidence base in each section.
+- Expand the methods note with search terms and selection criteria.
+- Rewrite the conclusion to state the specific gap your project will address.
+
+With these changes, the review will move from a competent overview to a contribution that shows you can judge the field's evidence. I am happy to look at a revised draft of the autonomy section if that would help.

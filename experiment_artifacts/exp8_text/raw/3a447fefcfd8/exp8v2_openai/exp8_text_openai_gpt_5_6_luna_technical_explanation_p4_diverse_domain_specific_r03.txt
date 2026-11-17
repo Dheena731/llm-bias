@@ -1,0 +1,1 @@
+For a local news website, caching lets frequently requested pages—such as the homepage, weather report, and election results—be served from a nearby CDN instead of rebuilding them from the server and database each time. Readers get the page faster, while the origin server has more capacity for breaking-news updates and live traffic spikes.

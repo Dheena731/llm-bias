@@ -55,6 +55,7 @@ def run_single_text_task(
         else:
             text = model_fn(task)
             raw_path.write_text(text, encoding="utf-8")
+            row.update(task.get("response_meta", {}))
         row["raw_output_path"] = str(raw_path)
         row["feature_json"] = json.dumps(extract_text_features(text), sort_keys=True)
     except Exception as exc:

@@ -1,0 +1,1 @@
+The confidence interval shows the range of values likely to contain the true estimate. Wider intervals indicate greater uncertainty.

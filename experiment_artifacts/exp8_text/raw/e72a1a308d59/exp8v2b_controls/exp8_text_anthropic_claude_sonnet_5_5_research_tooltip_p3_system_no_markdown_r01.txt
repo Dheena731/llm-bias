@@ -1,0 +1,1 @@
+Choose the start and end dates to filter results to that period. Click a date to set the start, then click another to set the end. Both dates are included. Select a preset such as Last 7 days for a quick range, or click Clear to reset.

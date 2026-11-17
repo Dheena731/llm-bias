@@ -1,0 +1,1 @@
+Showing only studies published between the selected start and end years. Studies with no recorded publication year are excluded.

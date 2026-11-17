@@ -1,0 +1,21 @@
+Subject: Scheduled Dashboard Maintenance on Saturday, June 14
+
+Hello team,
+
+We will be performing scheduled maintenance on the analytics dashboard this Saturday, June 14, from 10:00 PM to 1:00 AM Eastern Time (Sunday morning).
+
+What to expect:
+- The dashboard will be unavailable for the full maintenance window.
+- Scheduled reports and automated exports will pause and resume once maintenance is complete.
+- Data collection will continue in the background, so no data will be lost.
+
+What you need to do:
+- Save or export any reports you need before 10:00 PM on Saturday.
+- Avoid scheduling time-sensitive tasks that rely on the dashboard during this window.
+
+We will send a confirmation message as soon as the dashboard is back online. If you notice any issues afterward, please contact the IT help desk at helpdesk@example.com.
+
+Thank you for your patience as we work to keep our systems fast and reliable.
+
+Best regards,
+The Systems Administration Team

@@ -1,0 +1,11 @@
+**New Feature: Monthly Spending Summary**
+
+We are introducing a new Monthly Spending Summary to help you better track and understand your finances. 
+
+Starting this month, you will receive an automated overview at the end of each billing cycle. This report includes:
+
+* A breakdown of your top spending categories
+* Month-over-month comparison trends
+* Key insights into recurring subscriptions and unusual charges
+
+You can view your current summary now by navigating to the "Insights" tab in your account dashboard. Adjust your notification preferences at any time in your account settings.

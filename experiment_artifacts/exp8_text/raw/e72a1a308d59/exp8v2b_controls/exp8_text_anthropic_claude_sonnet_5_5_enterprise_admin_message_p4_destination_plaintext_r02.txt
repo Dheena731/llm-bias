@@ -1,0 +1,26 @@
+Subject: Quarterly Access Review: Action Required
+
+Hello all,
+
+It is time for the quarterly review of user access across our systems. This review helps us confirm that everyone has the right level of access for their current role and that no unnecessary permissions remain.
+
+What is happening
+Starting Monday, system owners and department managers will receive a list of users and permissions for the systems they oversee. Each manager is asked to review the list and confirm or flag any changes.
+
+What we need from you
+1. Review the access list sent to you.
+2. Confirm access that is still needed.
+3. Flag any access that should be removed or changed, including accounts for former employees, contractors, or people who have changed roles.
+4. Return your completed review to the IT Security team by the end of the second week of the quarter.
+
+Important notes
+- Access that is not confirmed by the deadline may be suspended until a review is completed.
+- Privileged and administrator accounts will receive extra scrutiny, so please check these carefully.
+- If you are unsure whether someone still needs access, please ask before approving.
+
+Questions
+If you need help or have questions about your list, contact the IT Security team at the help desk or reply to this message.
+
+Thank you for helping keep our systems and data secure.
+
+IT Security Team

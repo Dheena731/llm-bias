@@ -1,0 +1,32 @@
+Since I haven't seen your draft, this note responds to an illustrative one: a literature review on social media use and adolescent well-being. The feedback is concrete, so you can adapt it to your own draft.
+
+---
+
+**Feedback on Draft Literature Review**
+
+**Overall impression**
+This is a solid draft. It shows broad reading and a clear interest in the topic. The writing is generally clear, and the section on theoretical frameworks is the strongest part. The main weakness is that the review reads more as a series of summaries than as an argument. The revisions below should help it synthesize the literature and show why your own study is needed.
+
+**Strengths**
+- The coverage of key studies from the past decade is wide, and it includes both longitudinal and experimental work.
+- The distinction between passive and active use is well explained and gives the review a useful organizing idea.
+- Your handling of terminology is careful, particularly where you separate "screen time" from "platform-specific use."
+
+**Areas for improvement**
+
+1. **Synthesis over summary.** Several paragraphs describe one study after another ("Smith found... Jones found..."). Group studies by theme, then explain where they agree, where they conflict, and why. For example, the conflicting findings on social comparison could be reconciled by looking at differences in sample age and measurement tools.
+
+2. **Critical evaluation.** Most sources are presented as equally credible. Comment on methodological limits such as reliance on self-reported usage, small effect sizes, and the lack of causal designs. This will make your judgments about the evidence more convincing.
+
+3. **Gap and rationale.** The final section announces a gap but doesn't build toward it. State explicitly what remains unresolved, and connect it directly to your research question.
+
+4. **Structure and transitions.** The move from the theoretical section to the empirical findings is abrupt. Add short linking sentences or subheadings that signal how each section serves your argument.
+
+5. **Sources.** Some claims, especially in the introduction, rely on news articles or organizational reports. Replace these with peer-reviewed sources where possible, and check that citation formatting is consistent.
+
+**Suggested next steps**
+- Make a simple table or map of the studies, sorted by theme, method, and finding, to help you spot patterns and gaps.
+- Rewrite one section as a model of synthesis, then apply the same approach to the others.
+- Tighten the conclusion to a single paragraph that links the evidence to your research question.
+
+With these changes, the review should move from a competent overview to a focused argument that sets up your study well.

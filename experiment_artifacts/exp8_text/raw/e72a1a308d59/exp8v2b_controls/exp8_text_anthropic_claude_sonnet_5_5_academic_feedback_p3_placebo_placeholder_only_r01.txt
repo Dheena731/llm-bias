@@ -1,0 +1,14 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is difficult to identify and, where it can be inferred, remains ambiguous. The introduction gestures at several related aims: understanding how remote work affects productivity, how it shapes employee wellbeing, and how organizations should respond. It never commits to a single, focused question. The abstract frames the study as exploratory, while the methods section tests specific directional hypotheses. These framings are not compatible.
+
+Several terms are also left undefined. "Productivity" is used variously to mean self-reported output, supervisor ratings, and company-level performance, and it is unclear which the authors intend to explain. The population is similarly vague. It is not stated whether the claims apply to all remote workers, to knowledge workers only, or to the specific firms sampled.
+
+I recommend that the authors:
+
+1. State one primary research question in a single sentence at the end of the introduction.
+2. Define each key construct and specify how it is operationalized.
+3. Clarify whether the study is exploratory or confirmatory, and align the hypotheses, analyses, and conclusions accordingly.
+4. Identify secondary questions explicitly as such, so readers can distinguish the core contribution from supporting analyses.
+
+Without these revisions, I cannot judge whether the design and data are adequate to answer the question, since the question itself is not yet well specified. The underlying topic is worthwhile, and I believe a sharper framing would substantially strengthen the paper.

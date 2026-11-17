@@ -1,0 +1,1 @@
+Starting Monday, the VPN client will reconnect automatically after brief network changes—such as switching from Wi‑Fi to cellular—without requiring you to sign in again. Please update to version 5.4 before then; older versions will continue to work but won’t receive the reconnect fix.

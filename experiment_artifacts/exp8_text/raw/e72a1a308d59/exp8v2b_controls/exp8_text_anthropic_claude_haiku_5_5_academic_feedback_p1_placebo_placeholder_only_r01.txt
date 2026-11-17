@@ -1,0 +1,31 @@
+**Feedback on Draft Literature Review: Hybrid Working and Team Cohesion**
+
+**Overall assessment**
+
+The draft shows a clear command of the core literature on hybrid work and team cohesion, and the organisation by theme (communication channels, psychological safety, and leadership practices) is sensible. The main weakness is that the review describes studies more than it evaluates and integrates them. At present it reads as a sequence of summaries rather than an argument about what the field knows and where it falls short.
+
+**Strengths**
+
+- The thematic structure gives the reader a logical route through a large body of work.
+- Your treatment of the shift from co-located to hybrid teams in the introduction is concise and places the review in its context well.
+- You use recent empirical studies alongside foundational theory on group cohesion, which is an appropriate balance.
+
+**Priority revisions**
+
+1. **Synthesise within themes.** Each thematic section currently moves from one study to the next. Open each section with a claim that the studies collectively support or contest, then use the individual studies as evidence for that claim. For example, the section on psychological safety should state whether the evidence points in one direction and, if not, explain what accounts for the disagreement.
+
+2. **Evaluate methods.** Most of the cited studies rely on self-reported cohesion measures collected at a single time point. Note this where it matters, and consider whether the contradictory findings in the leadership section might be explained by differences in design rather than by real differences in effect.
+
+3. **Sharpen the gap statement.** The conclusion says that "further research is needed" without specifying which research. Identify the gap the evidence leaves open, such as longitudinal designs tracking cohesion over multiple hybrid cycles, or studies in sectors beyond large technology firms. The gap should follow directly from the synthesis.
+
+4. **Connect back to your research question.** The review does not yet explain how the literature motivates your specific question. A short paragraph at the end of the review linking the identified gap to your study would make the rationale explicit.
+
+**Minor points**
+
+- Several paragraphs begin with "Smith et al. found" or similar. Vary the structure and foreground the finding or argument instead.
+- The definition of "team cohesion" appears in the introduction but is used in two different senses later on, once as a shared affective bond and once as task commitment. Choose one working definition or explicitly distinguish the two.
+- Check that every in-text citation appears in the reference list, as two of the cited works are currently missing.
+
+**Next steps**
+
+Revise the thematic sections using the synthesis-first structure, then redraft the conclusion around a specific gap. Once those changes are made, the review should be in a strong position for the next round of feedback. I am happy to read the revised leadership section first, since it currently contains the most unresolved tensions.

@@ -1,0 +1,1 @@
+**Filter the dataset by selected criteria. Only matching records are shown; the underlying data is unchanged.**

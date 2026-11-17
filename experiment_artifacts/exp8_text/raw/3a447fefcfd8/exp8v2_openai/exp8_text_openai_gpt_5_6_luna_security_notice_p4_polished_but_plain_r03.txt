@@ -1,0 +1,1 @@
+Two-factor authentication is now available to help protect your account. Please enable it in your security settings by following the setup instructions. After activation, you will need both your password and a verification code when signing in. Store your recovery codes securely in case you lose access to your authentication method.

@@ -1,0 +1,1 @@
+Excludes records with missing values in the selected fields. Turn this off to include all records, even those with incomplete data.

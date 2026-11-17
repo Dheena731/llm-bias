@@ -1,0 +1,28 @@
+**NOTICE TO VOTERS: Polling Station Locations**
+
+**Election date:** [date]
+**Polling stations are open:** [opening time] to [closing time]
+
+**Where to vote:** You must vote at the polling station assigned to your home address. Your assigned station is printed on your voter card, which was mailed to you on or before [date]. You can also look it up at [website] or by calling [phone number].
+
+**Please check your location, even if you have voted before.** Some polling stations have moved since the last election. The following locations have changed:
+
+- [Old location] → now at [New location, address]
+- [Old location] → now at [New location, address]
+
+**Polling stations in [town/district]:**
+
+| Area | Polling station | Address |
+|---|---|---|
+| [Area 1] | [Name] | [Address] |
+| [Area 2] | [Name] | [Address] |
+| [Area 3] | [Name] | [Address] |
+
+**Accessibility:** All polling stations listed above have step-free entrances. If you need help, ask a polling station worker or call [phone number] before election day.
+
+**What to bring:** [Required identification, e.g., "your voter card and a photo ID"].
+
+**Questions?** Contact [office name] at [phone number] or [email].
+
+---
+*Note: Items in square brackets are placeholders. Fill them in with your local details, and delete the "changed locations" and "accessibility" lines if they do not apply.*

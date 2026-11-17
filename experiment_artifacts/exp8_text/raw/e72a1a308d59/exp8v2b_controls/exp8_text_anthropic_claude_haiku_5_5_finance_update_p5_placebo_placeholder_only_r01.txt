@@ -1,0 +1,14 @@
+**Subject: Update on Delayed Payment Processing**
+
+We're aware that some payments are taking longer than usual to process. Our team identified a slowdown in our payment pipeline and is working to restore normal processing speeds.
+
+**What this means for you:**
+- Payments submitted since the slowdown began may show as pending longer than usual.
+- No payments have been lost, and no duplicate charges have been created.
+- You do not need to resubmit any transactions.
+
+**What we're doing:**
+- Engineers are rolling out a fix and monitoring the payment queue.
+- Queued payments are being processed in order as capacity recovers.
+
+We'll post another update once processing is back to normal. If a payment hasn't cleared after that, contact support and include the order reference from your confirmation so we can trace it.

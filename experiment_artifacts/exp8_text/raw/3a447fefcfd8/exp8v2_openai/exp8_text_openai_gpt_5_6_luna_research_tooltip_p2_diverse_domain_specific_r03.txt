@@ -1,0 +1,1 @@
+What domain and metric does the chart show? For example: **“95% confidence interval for monthly hospital readmission rates, indicating the range of values consistent with the observed sample.”**

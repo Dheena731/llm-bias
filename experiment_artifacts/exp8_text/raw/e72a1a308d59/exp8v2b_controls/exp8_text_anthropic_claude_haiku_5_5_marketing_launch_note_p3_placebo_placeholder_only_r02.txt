@@ -1,0 +1,11 @@
+Introducing the Monthly Budget Planner: a free, ready-to-use spreadsheet that takes the guesswork out of managing your money.
+
+Set up your income and expenses once, and the planner does the rest. It groups your spending into categories like housing, groceries, transportation, and savings, then compares what you planned against what you actually spent. A built-in summary shows your remaining balance at a glance, so you always know where you stand before the month is over.
+
+Key features:
+- Automatic totals and running balances, with no formulas to write
+- Color-coded alerts that flag any category going over budget
+- A year-at-a-glance tab showing trends across all twelve months
+- Works in Excel, Google Sheets, and Apple Numbers
+
+Download the Monthly Budget Planner today and spend your next month with a plan instead of a question mark.

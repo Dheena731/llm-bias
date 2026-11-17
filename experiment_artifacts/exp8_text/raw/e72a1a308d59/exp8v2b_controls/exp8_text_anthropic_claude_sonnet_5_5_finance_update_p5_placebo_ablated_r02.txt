@@ -1,0 +1,23 @@
+**Subject: Update: Delayed payment processing**
+
+Hello,
+
+Payments are currently taking longer than usual to process. Payments made since [date/time] may take up to [X hours/days] to complete, instead of the usual [normal timeframe].
+
+**What this means for you**
+- Your payment will still be processed. It will just take longer to show as completed.
+- Your account may not show the payment right away, and any related order or service may be held until it completes.
+
+**What you should do**
+- Please don't submit the payment again, as this could result in a duplicate charge.
+- If a payment hasn't completed after [X hours/days], contact us at [support contact].
+
+**What we're doing**
+We are working with [payment provider/bank] to resolve the issue. We will send another update by [date/time], or sooner if the delay is resolved.
+
+We apologize for the inconvenience and appreciate your patience.
+
+[Name/Team]
+
+---
+*Note: I assumed this is for customers. The bracketed items are details I don't have. If your audience is internal staff or finance, let me know and I'll adjust it.*

@@ -1,0 +1,26 @@
+Subject: Scheduled Maintenance: Dashboard Downtime on Friday, November 17
+
+Hello everyone,
+
+Please be advised that our dashboard will undergo scheduled maintenance to apply system updates and enhance performance.
+
+During this window, the dashboard will be temporarily unavailable for login and report generation.
+
+**Maintenance Window:**
+Date: Friday, November 17, 2024
+Time: 2:00 AM – 4:00 AM Eastern Time (ET)
+Duration: Approximately 2 hours
+
+What to Expect:
+- You will receive a maintenance banner upon attempting to access the dashboard.
+- Background data processing will pause until services are fully restored.
+
+No action is required from your side. We recommend scheduling any critical exports or deep-dive analyses outside of this timeframe.
+
+If you encounter persistent access issues after 4:15 AM ET, please contact the IT helpdesk for assistance.
+
+Thank you for your cooperation.
+
+Best regards,
+
+System Administration Team

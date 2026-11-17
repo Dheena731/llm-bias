@@ -1,0 +1,18 @@
+**Subject: Action Required: Please Enable Two-Factor Authentication**
+
+Dear User,
+
+To protect your account and personal information, we require all users to turn on two-factor authentication.
+
+**What is two-factor authentication?**
+It is an extra layer of security that requires two steps to log in: your standard password and a temporary verification code sent to your phone or email. This ensures that only you can access your account, even if someone else discovers your password.
+
+**How to turn it on:**
+1. Log in to your account.
+2. Go to **Settings** and select **Security**.
+3. Select **Two-Factor Authentication** and follow the on-screen instructions to complete setup.
+
+Please enable this feature today to ensure your account remains safe and accessible. If you need assistance, please contact our support team.
+
+Thank you,  
+The Account Security Team

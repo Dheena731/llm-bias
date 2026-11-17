@@ -1,0 +1,1 @@
+Please do not reuse your work password for personal accounts or across different systems. If one password is exposed, reused passwords can give attackers access to multiple accounts. Create a unique, strong password for each service and use the company-approved password manager to store them. Never share your password, and report suspected compromise to IT immediately.

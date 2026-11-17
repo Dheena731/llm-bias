@@ -1,0 +1,14 @@
+Reviewer Comment: Clarity of the Research Question
+
+The manuscript's central research question is difficult to identify. The introduction describes several related topics, including the broader context of the field, prior inconsistencies in the literature, and the potential applications of the findings, but it never states a single, focused question. The abstract frames the aim as "exploring" the relationship between the key variables, while the final paragraph of the introduction instead refers to "understanding the factors that influence" the outcome. These are not equivalent, and neither specifies what is being tested.
+
+This ambiguity carries through the rest of the paper. Without a clearly defined question, it is hard to judge whether the study design, sample, and analyses are appropriate. The results section reports many findings, but it is unclear which of them address the main objective and which are exploratory. It is also unclear whether the study is meant to be descriptive, explanatory, or predictive.
+
+I recommend that the authors:
+
+1. State the primary research question explicitly at the end of the introduction, in one or two sentences.
+2. Specify any hypotheses or sub-questions that follow from it, and indicate whether they were defined in advance.
+3. Make sure the abstract, introduction, methods, and discussion all refer to the same question using consistent wording.
+4. Clearly separate confirmatory analyses from exploratory ones.
+
+Clarifying these points would greatly improve the manuscript and allow readers to evaluate whether the conclusions are supported by the evidence.

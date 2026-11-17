@@ -1,0 +1,12 @@
+**Reviewer comment on the research question (Section 1.2):**
+
+The research question, "How does social media affect adolescent well-being?", is too broad to guide the study design or analysis. "Social media" covers platforms with very different features, "affect" does not specify a direction or mechanism, and "well-being" is not operationalized. As written, it is unclear what result would confirm or refute the question.
+
+I suggest the authors narrow the question by specifying:
+
+1. The exposure, such as time spent on a particular platform type or a specific behavior like passive scrolling.
+2. The outcome, with a named measure (e.g., depressive symptoms on the PHQ-A).
+3. The population and setting.
+4. The expected direction or comparison, such as whether heavier use is associated with higher symptom scores than matched lighter use.
+
+A sharper question would also make the hypotheses in Section 1.3 easier to test. The current hypotheses restate the broad question and do not identify measurable predictions. I would be glad to review a revised version.

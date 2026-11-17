@@ -1,0 +1,26 @@
+**NOTICE TO ALL STAFF: Beware of Phishing Emails**
+
+**Date:** [Insert date]
+**From:** [IT Department / Security Team]
+
+**What is happening**
+Phishing emails are fake messages that look like they come from a trusted sender, such as a coworker, a manager, a bank, or a well-known company. Their goal is to trick you into clicking a harmful link, opening an infected attachment, or giving away passwords or other sensitive information. We have seen an increase in these emails, and anyone in the company can be targeted.
+
+**Warning signs**
+- The message creates urgency or threatens consequences ("Act now or your account will be closed").
+- The sender's address looks slightly wrong or does not match the name shown.
+- The email asks for your password, payment details, or other personal information.
+- There are unexpected attachments or links, or the greeting is generic.
+- The message contains spelling or formatting errors.
+
+**What you should do**
+1. **Stop and check** before you click anything or open any attachment.
+2. **Do not reply**, and do not enter your login details on any page you reached through an email link.
+3. **Report it.** Forward the suspicious email to [security@yourcompany.com] or use the "Report Phishing" button in your email program, then delete it.
+4. **If you already clicked a link or shared information,** contact IT immediately at [phone/extension] and change your password. Reporting quickly limits the damage, and no one will be penalized for reporting a mistake.
+
+**Remember:** IT will never ask for your password by email. If you are unsure whether a message is genuine, contact the sender using a phone number or address you already know, not one given in the email.
+
+Thank you for helping keep our company secure.
+
+*[Name], [Title]*

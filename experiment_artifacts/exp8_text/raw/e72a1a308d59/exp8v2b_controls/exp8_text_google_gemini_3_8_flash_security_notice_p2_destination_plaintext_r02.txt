@@ -1,0 +1,18 @@
+SECURITY NOTICE: Be on Alert for Phishing Emails
+
+We have recently seen an increase in phishing attempts targeting workplace inboxes. Phishing emails often impersonate trusted colleagues, vendors, or IT support in an attempt to steal login credentials and sensitive company information.
+
+Please watch for these common red flags:
+- Urgent requests for passwords, financial transfers, or gift cards.
+- Sender email addresses that are slightly misspelled or unfamiliar.
+- Unexpected attachments (like invoices or shipping updates) or generic greetings.
+- Links directing you to unfamiliar login pages.
+
+What you should do:
+- Do not click on suspicious links or download unexpected attachments.
+- Never share your login credentials or multi-factor authentication codes.
+- Report any questionable messages immediately using the Report Phishing button in your email toolbar, or forward them to the IT Help Desk.
+
+When in doubt, verify the request through a separate, trusted channel (such as a direct phone call or quick message). Thank you for helping keep our systems secure.
+
+IT Security Team

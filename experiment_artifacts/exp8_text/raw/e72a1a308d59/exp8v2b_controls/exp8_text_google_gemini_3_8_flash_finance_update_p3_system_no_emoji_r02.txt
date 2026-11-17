@@ -1,0 +1,11 @@
+**New Feature: Savings Goals**
+
+We are excited to announce the launch of Savings Goals, designed to help you plan, track, and reach your financial targets with ease. 
+
+Whether you are building an emergency fund, planning a vacation, or saving for a down payment, you can now:
+
+* **Set Custom Targets:** Choose an amount and set a target date for each goal.
+* **Track Visual Progress:** Monitor your journey with real-time progress bars and milestone alerts.
+* **Automate Contributions:** Schedule recurring transfers to fund your goals automatically without thinking about it.
+
+To get started, update to the latest version of the app, navigate to the Accounts tab, and select "Add a Goal."

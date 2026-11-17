@@ -1,0 +1,1 @@
+Security Notice: Do not reuse passwords across workplace systems or personal accounts. If one password is compromised, attackers may use it to access other accounts. Use a unique, strong password for every account, store passwords in an approved password manager, and enable multifactor authentication whenever available. Report suspected password exposure to IT immediately.

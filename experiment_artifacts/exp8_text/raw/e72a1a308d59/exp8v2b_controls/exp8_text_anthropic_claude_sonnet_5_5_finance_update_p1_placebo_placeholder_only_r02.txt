@@ -1,0 +1,23 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a new feature that gives you a clear picture of where your money goes each month. Starting this week, your Monthly Spending Summary will appear at the top of your dashboard and arrive in your inbox on the first day of every month.
+
+**What's included**
+
+- **Total spending:** See everything you spent in the previous month, with a comparison to the month before.
+- **Category breakdown:** Spending is automatically grouped into categories such as groceries, dining, transportation, utilities, and entertainment.
+- **Top merchants:** Quickly spot the places where you spend most often.
+- **Trends over time:** A simple chart shows how your spending has changed over the past six months.
+- **Unusual activity:** Charges that are noticeably higher than your typical spending are flagged for review.
+
+**Why we built it**
+
+Many of you told us that checking individual transactions made it hard to see the bigger picture. The summary pulls everything together so you can spot patterns, catch surprises, and make adjustments without digging through statements.
+
+**Customizing your summary**
+
+You can change how transactions are categorized by selecting any entry and choosing a different category. The summary will remember your preference for similar purchases in the future. To turn off the email version, go to Settings, then Notifications, and switch off Monthly Summary. The dashboard version will remain available.
+
+**What's next**
+
+We're working on budget targets that you can set for each category, so the summary can show how you're tracking against your goals. We'd love to hear your feedback in the meantime, so please use the feedback option in the app to tell us what would make this feature more useful.

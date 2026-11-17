@@ -1,0 +1,19 @@
+Hi [Student name],
+
+Thank you for submitting your methods section. Here is my feedback.
+
+Strengths: Your description of the study design is clear, and the order of the steps is easy to follow. I also appreciate that you explained why you chose your main approach rather than only describing what you did.
+
+Areas to strengthen:
+1) Replicability. Add the details someone would need to repeat your study, such as sample size and how participants or materials were selected, the exact instruments or software (with versions), and key settings or parameters.
+2) Justification. For each major choice, such as your sampling method, measures, or analysis, add a sentence on why it suits your research question and what its limitations are.
+3) Analysis plan. State which statistical or analytical techniques you used and how you checked their assumptions. Make sure each one links back to a specific research question or hypothesis.
+4) Ethics and bias. Briefly note ethical approval, consent, and any steps you took to reduce bias or control confounding variables.
+5) Style. Use past tense and a consistent, concise voice. Cut any results or discussion that slipped in, and save them for the later sections.
+
+Next steps: Revise with the points above in mind, paying particular attention to replicability and justification, since they will make the biggest difference. I'm happy to look at a second draft or talk through any of this during office hours.
+
+Best,
+[Your name]
+
+If you paste the student's actual text, I can tailor this note to their specific strengths and gaps.

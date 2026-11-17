@@ -1,0 +1,13 @@
+Here is a short message about an upcoming email migration:
+
+"Dear All,
+
+As part of our ongoing efforts to improve our technology infrastructure, we will be migrating to a new email system on [Date]. This change will affect all employees and will provide a more modern and secure platform for our email communications.
+
+During the migration, you may experience a brief interruption to your email service, but we expect minimal disruption to your work. You will receive a separate email with instructions on how to access your new email account and any necessary next steps.
+
+If you have any questions or concerns, please don't hesitate to reach out to the IT department. We will be happy to assist you with the transition.
+
+Thank you for your understanding and cooperation.
+
+Best regards, [Your Name]"

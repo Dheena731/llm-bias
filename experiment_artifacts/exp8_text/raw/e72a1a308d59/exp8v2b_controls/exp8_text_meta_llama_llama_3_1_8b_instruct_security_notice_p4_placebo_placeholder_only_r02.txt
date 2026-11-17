@@ -1,0 +1,21 @@
+**Enabling Two-Factor Authentication**
+
+Two-factor authentication (2FA) adds an extra layer of security to your account by requiring a second form of verification in addition to your password. This feature helps protect your account from unauthorized access, even if someone has obtained your password.
+
+To enable 2FA, follow these steps:
+
+1. Log in to your account.
+2. Go to the Account Settings or Security Settings page.
+3. Look for the 2FA section and click on it.
+4. Select a 2FA method: you can choose from authenticator apps like Google Authenticator or Microsoft Authenticator, or SMS/voice verification.
+5. Follow the instructions to set up your chosen 2FA method.
+
+Once you've enabled 2FA, you'll need to enter your password and the 2FA code every time you log in to your account. This will ensure that only you can access your account, even if someone has obtained your password.
+
+**Why enable 2FA?**
+
+* It significantly reduces the risk of account compromise.
+* It provides an additional layer of security, making it much harder for attackers to gain unauthorized access.
+* It helps protect your sensitive information and prevent financial losses due to unauthorized transactions.
+
+By enabling 2FA, you're taking a crucial step towards securing your account and protecting your online identity.

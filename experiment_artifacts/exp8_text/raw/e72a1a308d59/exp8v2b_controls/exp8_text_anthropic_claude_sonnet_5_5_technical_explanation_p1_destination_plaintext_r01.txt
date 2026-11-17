@@ -1,0 +1,13 @@
+Latency is the delay between a user's action, such as clicking a link or submitting a form, and the moment the application responds. It matters for several reasons.
+
+First, it shapes how users perceive quality. People notice delays of even a few hundred milliseconds, and once a response takes more than a second, the application begins to feel sluggish. Interactions that feel instant build trust, while slow ones create frustration and doubt.
+
+Second, it affects business results. Studies from companies like Amazon, Google, and Akamai have repeatedly linked higher latency to lower conversion rates, fewer page views, and higher bounce rates. Even small slowdowns can translate into lost revenue, because impatient users abandon pages or switch to competitors.
+
+Third, it influences search visibility. Search engines factor page speed into rankings, and metrics such as Largest Contentful Paint and Interaction to Next Paint are part of Google's Core Web Vitals. A slow site can therefore be harder to find.
+
+Fourth, latency compounds. A single page load often involves many sequential steps, including DNS lookups, TLS handshakes, API calls, and database queries. Delay at each step adds up, so a modest slowdown in one backend service can noticeably degrade the whole experience.
+
+Finally, latency matters most for users on mobile networks or in distant regions, where connections are slower and less reliable. Reducing it improves accessibility and makes an application usable for a wider audience.
+
+Common ways to reduce latency include using content delivery networks, caching, compressing assets, minimizing the number of network requests, optimizing database queries, and placing servers closer to users.

@@ -1,0 +1,10 @@
+A database index works much like the **index at the back of a book**. 
+
+Without an index, finding a specific piece of information requires the database to scan every single row in a table from start to finish—a slow process known as a **full table scan**. 
+
+With an index, the database creates a separate, sorted data structure (most commonly a B-Tree) that holds a copy of specific columns along with pointers to where the complete rows are physically stored. When you run a query, the database searches this streamlined, sorted structure to jump directly to the exact location of the data, dramatically speeding up search times.
+
+### The Trade-off
+While indexes make data retrieval (reading) significantly faster, they come with two main costs:
+1. **Storage:** Indexes take up additional disk space and memory.
+2. **Write performance:** Every time you add, update, or delete data (`INSERT`, `UPDATE`, `DELETE`), the database must also update the index, which can slow down write operations.

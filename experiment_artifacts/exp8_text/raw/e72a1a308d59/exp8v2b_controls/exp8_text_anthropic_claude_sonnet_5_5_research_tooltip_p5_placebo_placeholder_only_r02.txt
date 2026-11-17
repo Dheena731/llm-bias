@@ -1,0 +1,1 @@
+**Export results:** Run your query, then click **Export** above the results table. Choose a format (CSV, JSON, or Excel) and click **Download**. Exports include all matching rows, not just the rows currently visible on screen.

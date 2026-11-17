@@ -1,0 +1,29 @@
+Here's a sample feedback note. No draft came with your request, so I've written it for a hypothetical literature review on remote work and employee wellbeing. If you share the actual draft, I can tailor the note to it.
+
+---
+
+**Feedback on Draft Literature Review: "Remote Work and Employee Wellbeing: A Review of Recent Evidence"**
+
+**Overall impression:** The draft shows a clear grasp of the core debate and a sensible organising structure, moving from conceptual definitions to empirical findings to gaps. The synthesis is strongest in the middle sections, where you compare studies directly. The introduction and conclusion need work to make the review's contribution explicit.
+
+**Strengths**
+- The thematic organisation (autonomy, social isolation, work-life boundaries) gives the reader a usable map of the field.
+- You consistently note methodological differences between studies, such as cross-sectional versus longitudinal designs, which adds analytical value.
+- The critique of self-report wellbeing measures in section 3 is well judged.
+
+**Priority revisions**
+1. **State your review question and scope early.** The introduction describes the topic but doesn't say what question the review answers or why the time window (2015 onward) was chosen. A sentence or two on inclusion criteria would help.
+2. **Move from description to synthesis.** Several paragraphs summarise individual studies in sequence ("Smith (2019) found... Jones (2021) found..."). Group findings by claim and say where they agree, conflict, or are unresolved.
+3. **Address conflicting evidence more directly.** The discussion of the isolation theme cites two studies with opposite conclusions but doesn't explain the discrepancy. Differences in sample, measurement, or context may account for it, and that explanation is itself a finding.
+4. **Tighten the gap statement.** The claimed gap ("little research on hybrid arrangements") is plausible but needs support. Show briefly how many studies you reviewed that addressed hybrid work and what they lacked.
+
+**Minor points**
+- Check that all in-text citations appear in the reference list. Two entries (Park 2020; Okafor & Lind 2022) appear to be missing.
+- Some sentences in section 2 run past 40 words and could be split.
+- Define "wellbeing" once, early, since the draft uses it to mean both psychological distress and job satisfaction.
+
+**Next step:** Revise the introduction and gap statement first, since they frame everything else. A revised draft addressing points 1 to 4 would be ready for a second review.
+
+---
+
+If you paste in your actual draft or tell me the topic and length requirements, I can write feedback specific to it.

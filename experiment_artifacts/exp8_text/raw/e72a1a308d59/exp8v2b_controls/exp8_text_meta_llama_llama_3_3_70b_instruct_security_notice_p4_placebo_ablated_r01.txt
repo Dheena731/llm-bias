@@ -1,0 +1,7 @@
+**Important Security Notice**
+
+To add an extra layer of protection to your account, we recommend enabling two-factor authentication (2FA). This security feature requires you to provide a second form of verification, in addition to your password, when logging in to your account.
+
+By enabling 2FA, you will be prompted to enter a verification code sent to your registered phone or email, or to use an authenticator app, after entering your password. This helps ensure that only you can access your account, even if someone else knows your password.
+
+To enable 2FA, please log in to your account and follow the instructions in the account settings section. If you have any questions or need assistance, please contact our support team.

@@ -1,0 +1,14 @@
+Dear [Student Name],
+
+Overall, your methods section provides a logical and well-structured overview of your research design. The chronological flow makes it easy to understand the steps you took.
+
+To improve the section before the final submission, please focus on the following:
+
+1. **Replicability:** Include more specific details regarding your sample size, recruitment criteria, and the exact software versions used for data analysis. Another researcher should be able to duplicate your study based solely on this description.
+2. **Justification:** Briefly explain *why* you chose this specific approach over common alternatives, rather than just describing what you did.
+3. **Tone and Precision:** Maintain a past-tense, objective tone throughout, and eliminate vague quantifiers (e.g., replace "several trials" with the exact number).
+
+You have built a solid foundation here; adding these technical specifics will make it much stronger. 
+
+Best regards,  
+[Instructor Name]

@@ -1,0 +1,7 @@
+Reviewer comment: Clarity of the research question
+
+The manuscript does not clearly state its central research question. The introduction describes several related aims, including understanding the factors that influence student engagement, evaluating the new intervention, and exploring differences across demographic groups. It is unclear which of these is the primary focus. The phrasing also shifts between sections. The abstract refers to "the effect of" the intervention, while the discussion frames the study as an exploration of "how" engagement develops. These imply different designs, analyses, and standards of evidence.
+
+Because the question is vague, I could not judge whether the methods are appropriate or whether the conclusions follow from the results. For example, it is not clear whether the subgroup analyses are meant to test prior hypotheses or are post hoc explorations.
+
+I recommend that the authors state a single, specific research question, or a small set of clearly ranked questions, at the end of the introduction. Each should specify the population, the variables of interest, and the expected relationship, and the methods, results, and discussion should be organized around it. If some analyses are exploratory, they should be labeled as such. A sharper question would substantially strengthen the paper's coherence and make its contribution easier to evaluate.

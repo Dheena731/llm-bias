@@ -1,0 +1,20 @@
+SECURITY NOTICE: THE RISKS OF PASSWORD REUSE
+
+To all employees,
+
+Please remember that using the same password for multiple accounts is one of the most common causes of data breaches. 
+
+When you reuse your work password for personal accounts, social media, or other external services, you put our entire organization at risk. If any of those third-party services suffer a security breach, attackers can easily use your exposed credentials to gain unauthorized access to our company systems and sensitive data.
+
+To keep our workplace secure, please follow these guidelines:
+
+1. Use a unique password for your work account that is completely different from any personal password.
+2. Never share your credentials or write them down where others can see them.
+3. Use a company-approved password manager to generate and securely store complex passwords.
+4. Ensure multi-factor authentication (MFA) is active on your accounts.
+
+If you suspect your password has been exposed in an external breach, change it immediately and contact the IT Help Desk.
+
+Thank you for your cooperation in keeping our data safe.
+
+IT Security Team

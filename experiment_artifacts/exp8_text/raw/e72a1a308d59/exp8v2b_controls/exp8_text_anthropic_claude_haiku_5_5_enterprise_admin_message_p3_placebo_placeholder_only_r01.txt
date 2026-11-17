@@ -1,0 +1,14 @@
+**Subject: VPN client update 4.2 rolls out Monday, March 3**
+
+Starting Monday, March 3, the VPN client will automatically update to version 4.2. The update takes about two minutes and requires a restart of the client.
+
+What's changing:
+
+- **Faster reconnects:** If your connection drops, the client now reconnects within 5 seconds instead of 30.
+- **Split tunneling:** You can now choose which apps use the VPN from the Settings menu. Internal tools still route through the VPN by default.
+- **Retired login method:** Password-only sign-in is no longer supported. You'll be prompted to approve sign-ins with the authenticator app on your phone the first time you connect after the update.
+
+If you have trouble after the update, restart your computer and try again. If it still fails, contact the IT Help Desk at helpdesk@company.com or extension 4357.
+
+Thanks,
+IT Infrastructure Team

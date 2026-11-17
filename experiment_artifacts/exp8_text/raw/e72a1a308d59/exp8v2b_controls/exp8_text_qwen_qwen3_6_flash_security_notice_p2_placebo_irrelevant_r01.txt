@@ -1,0 +1,16 @@
+**Subject: ⚠️ Security Reminder: Identifying and Reporting Phishing Emails**
+
+Hi Team,
+
+Please stay alert to phishing attempts targeting our organization. Malicious actors frequently impersonate colleagues, vendors, or trusted services to compromise accounts or install malware.
+
+**How to Spot a Phishing Email:**
+*   **Sender:** Check for misspellings, strange formatting, or domains that don't match the claimed source.
+*   **Urgency:** Be wary of messages demanding immediate action (e.g., "Your account will be suspended").
+*   **Requests:** Legitimate teams rarely ask for passwords, sensitive data, or wire transfers via email.
+*   **Links & Attachments:** Hover over links to preview the actual URL before clicking. Never open unexpected attachments.
+
+**What to Do:**
+*   **Do not click** links, download attachments, or reply to suspicious emails.
+*   **Report immediately** by forwarding the email to `[IT Security Email]` or using the `Report Phishing` button.
+*   **Verify:** If you're unsure, confirm the request via a different channel (e.g

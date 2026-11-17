@@ -1,0 +1,13 @@
+Latency is the delay between a user's action and the application's response. In web applications, it matters for several reasons.
+
+First, it shapes how users perceive quality. People notice delays of even a few hundred milliseconds, and once a page or interaction takes more than a second or so, it starts to feel sluggish. Interfaces that respond quickly feel reliable and polished, while slow ones feel broken, even when they work correctly.
+
+Second, it affects business outcomes. Studies from large companies have repeatedly linked higher load times to lower conversion rates, fewer page views, and higher bounce rates. Users who get frustrated often leave and may not return, which directly costs revenue and engagement.
+
+Third, it compounds across requests. A single page often depends on many round trips for HTML, scripts, stylesheets, API calls, and third-party services. Each one adds network delay, and because some requests must wait for others, small delays add up to a noticeably slow experience. This is especially painful on mobile networks, where latency is higher and less predictable than bandwidth alone would suggest.
+
+Fourth, it influences search visibility. Search engines factor page speed and related metrics, such as Core Web Vitals, into rankings, so slow sites can be harder to find.
+
+Finally, it affects system design. Latency is limited by physical distance and network hops, so teams use techniques like content delivery networks, caching, connection reuse, efficient database queries, and asynchronous loading to reduce it. Treating latency as a first-class concern early on is much easier than fixing it after an architecture is set.
+
+In short, bandwidth determines how much data you can move, but latency determines how fast an application feels, and that feeling often decides whether users stay.

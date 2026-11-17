@@ -1,0 +1,25 @@
+I don't have your actual draft, so this note covers the points that matter most on nearly any conference poster. If you share the text or an image, I can make it specific.
+
+---
+
+**Feedback on Poster Draft**
+
+Thanks for sharing the draft. Here are my main impressions and suggestions.
+
+**What's working**
+- The overall structure follows a logical path from background to methods, results, and conclusions, which makes it easy to scan.
+- Figures are the strongest way to carry a poster, so keep them central and generously sized.
+
+**Suggestions**
+1. **Lead with the takeaway.** Someone walking past should grasp your main finding within ten seconds. Consider a one-sentence conclusion near the top, in larger type than the body text.
+2. **Cut the text.** Aim for roughly 250 to 400 words in total. Convert dense paragraphs to short bullets, and move fine methodological detail to a handout or to conversation.
+3. **Make figures self-explanatory.** Each one should have a clear title, labeled axes with readable font sizes, and a one-line interpretation beneath it. Avoid legends that require squinting.
+4. **Check readability from a distance.** Titles should be legible from about two meters away, and body text should be no smaller than 24 pt.
+5. **Guide the eye.** Use consistent alignment, ample white space, and a restrained color palette. Numbered sections or arrows can make the reading order obvious.
+6. **Tighten the conclusions.** Limit them to two or three points that follow directly from your results, and add one line on limitations or next steps.
+7. **Add contact details.** A QR code linking to the paper, data, or your contact information makes follow-up easy.
+
+**Final thought**
+Treat the poster as a conversation starter rather than a full paper. If it draws people in and leaves them with one clear idea, it has done its job.
+
+Happy to look at a revised version.

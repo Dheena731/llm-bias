@@ -1,0 +1,1 @@
+This range shows the estimated margins for the true value based on the data. A wider interval indicates greater uncertainty, while a narrower interval indicates a more precise estimate.

@@ -1,0 +1,3 @@
+**Quarterly Access Review**
+
+Administrators and system owners must review user access each quarter to confirm that permissions are still appropriate. Remove or request changes to any access that is no longer needed, and report completion according to your organization’s established process.

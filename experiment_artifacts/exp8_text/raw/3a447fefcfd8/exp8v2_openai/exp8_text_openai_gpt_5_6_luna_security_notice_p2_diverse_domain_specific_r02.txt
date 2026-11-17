@@ -1,0 +1,12 @@
+**Security notice: watch for fake payroll and document requests**
+
+We are seeing phishing emails that appear to come from managers, payroll, or shared-drive services. Common examples include requests to:
+
+- Confirm bank or tax information  
+- Review a “salary adjustment” document  
+- Buy gift cards or make an urgent payment  
+- Approve a new sign-in or MFA request  
+
+Do not use links in unexpected messages or reply with passwords, codes, or financial details. Open the payroll or document system from your usual bookmark instead. If a request involves money or account changes, verify it using a known phone number or Teams contact—not the details in the email.
+
+Report suspicious messages through the **“Report phishing”** button in Outlook.

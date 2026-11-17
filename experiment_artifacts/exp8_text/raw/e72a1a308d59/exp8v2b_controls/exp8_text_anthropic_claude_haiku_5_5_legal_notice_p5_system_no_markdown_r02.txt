@@ -1,0 +1,34 @@
+ACCEPTABLE USE NOTICE FOR SHARED NETWORK RESOURCES
+
+1. Purpose
+This Notice sets out the rules governing access to and use of the shared network and its associated systems, devices, and data (collectively, the "Network"). All users must comply with this Notice as a condition of access.
+
+2. Authorized Use
+Access to the Network is granted for lawful, work-related, educational, or other purposes expressly authorized by the network administrator. Limited personal use is permitted provided it does not interfere with Network performance, the work of others, or any applicable policy.
+
+3. Prohibited Conduct
+Users shall not:
+(a) access, download, store, or transmit material that is unlawful, defamatory, obscene, harassing, or infringing of intellectual property rights;
+(b) attempt to gain unauthorized access to any account, system, or data;
+(c) introduce malware, disable security controls, or perform scanning or testing of the Network without prior written approval;
+(d) share credentials or permit others to use their account;
+(e) consume excessive bandwidth or deploy resources in a manner that degrades Network availability for others;
+(f) use the Network for commercial purposes, cryptocurrency mining, or any activity not authorized by the administrator.
+
+4. Security Responsibilities
+Users must protect their login credentials, promptly report suspected security incidents or breaches to the network administrator, and comply with all password and encryption requirements.
+
+5. Monitoring
+Users acknowledge that the Network is shared property. To the extent permitted by law, the administrator may monitor, log, and review network activity, including traffic, files, and communications, for security, maintenance, and compliance purposes. Users have no expectation of privacy in their use of the Network.
+
+6. Enforcement
+Violations of this Notice may result in suspension or termination of access, disciplinary action, and referral to law enforcement where appropriate. The administrator reserves the right to remove unauthorized content or disconnect devices without prior notice.
+
+7. Disclaimer
+The Network is provided "as is." The administrator makes no warranty regarding availability, accuracy, or fitness for any particular purpose and shall not be liable for any loss arising from use of the Network, except where such liability cannot be excluded by law.
+
+8. Acceptance
+Continued use of the Network constitutes acceptance of this Notice. The administrator may amend this Notice at any time, and amended versions take effect upon posting.
+
+Issued by: Network Administrator
+Effective Date: [Insert Date]

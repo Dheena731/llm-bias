@@ -1,0 +1,1 @@
+Indicates that data for this field is unavailable, uncollected, or not applicable. Treat it as undefined rather than zero or an empty value when processing or analyzing.

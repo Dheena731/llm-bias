@@ -1,0 +1,5 @@
+**Export results**
+Click **Export** above the results table, choose a format (CSV, JSON, or Excel), then select **Download**. Only the rows matching your current query and filters are exported.
+
+**Shorter version:**
+Click **Export**, pick a format, and download your current results.

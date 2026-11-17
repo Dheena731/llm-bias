@@ -1,0 +1,1 @@
+**Study population:** Limits results to participants with the selected baseline ICD-10 diagnoses; all of their follow-up visits remain included.

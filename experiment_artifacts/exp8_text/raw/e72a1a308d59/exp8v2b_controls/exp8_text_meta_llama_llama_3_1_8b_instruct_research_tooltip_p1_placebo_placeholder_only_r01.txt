@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter:
+
+"Dataset Filter: Limits the display of data to a specific subset of records based on pre-defined criteria, allowing for more focused analysis of the remaining data."

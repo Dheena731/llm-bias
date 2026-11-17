@@ -1,0 +1,14 @@
+**Update: Delayed Payment Processing**
+
+We're currently experiencing delays in processing some payments. Transactions submitted over the past 24 hours may take longer than usual to appear in your account, and some may show as pending for up to three business days.
+
+**What happened:** A technical issue with one of our banking partners has slowed the transfer of funds. Our engineering team has identified the cause and is working with the partner to resolve it.
+
+**What this means for you:**
+- Your payment has not been lost. All submitted transactions are being queued and will be processed in the order they were received.
+- You will not be charged late fees on any payment that was delayed by this issue.
+- There is no need to resubmit a payment, as doing so could result in a duplicate charge.
+
+**What's next:** We expect processing to return to normal within the next 48 hours. We will send a follow-up message once all delayed payments have been cleared.
+
+If you have an urgent concern about a specific transaction, please contact our support team through the help center or by replying to this message. We apologize for the inconvenience and appreciate your patience.

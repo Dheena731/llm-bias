@@ -1,0 +1,18 @@
+**Introducing Savings Goals**
+
+You can now set a savings goal in the app and track your progress toward it.
+
+**How it works**
+1. Open the **Savings** tab and tap **New Goal**.
+2. Name your goal (for example, "Vacation") and enter the amount you want to save.
+3. Optionally, choose a target date. If you do, we'll show how much you'd need to save each month to reach your goal on time.
+4. Add money to your goal whenever you like. A progress bar shows how close you are.
+
+**Good to know**
+- You can create more than one goal.
+- You can edit or delete a goal at any time.
+
+Give it a try today, and let us know what you think through the **Feedback** option in Settings.
+
+---
+*I didn't have details about your product, so I assumed a consumer app with a Savings tab. If your audience or features differ (for example, automatic transfers or a web-only release), tell me and I'll adjust the update.*

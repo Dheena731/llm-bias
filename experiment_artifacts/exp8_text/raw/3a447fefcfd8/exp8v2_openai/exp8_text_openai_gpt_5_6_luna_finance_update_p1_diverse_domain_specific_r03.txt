@@ -1,0 +1,1 @@
+Starting this month, the spending summary groups card and bank activity by category and shows how each total changed from the previous month. It also separates recurring charges, refunds, and pending transactions, so the monthly total reflects cleared spending rather than every authorization. You can review the underlying transactions or export the summary from the Reports tab.

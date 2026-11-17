@@ -1,0 +1,9 @@
+This is a solid draft that outlines the research design with good logical flow. The description of the primary instruments and variables provides a clear foundation for the study.
+
+To strengthen this section, focus on replicability:
+
+* **Participant Selection:** Provide more detail on the recruitment process, including the specific inclusion and exclusion criteria applied during sampling.
+* **Procedural Detail:** Walk the reader through the data collection process step-by-step. Clarify the timeline, the physical or digital setting where the study occurred, and how potential confounding variables were controlled.
+* **Data Analysis:** Explicitly link each research question to the corresponding analytical technique or statistical test rather than providing a general overview of the software used.
+
+Addressing these points will ensure another researcher could duplicate the procedure accurately. This is a very promising start; please reach out if you would like to talk through any of these revisions.

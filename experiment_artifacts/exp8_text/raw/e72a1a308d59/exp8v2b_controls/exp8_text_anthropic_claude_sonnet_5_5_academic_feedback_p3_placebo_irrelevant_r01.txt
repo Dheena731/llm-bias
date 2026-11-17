@@ -1,0 +1,16 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript does not state its central research question clearly, which makes it difficult to judge whether the study design, analysis, and conclusions are appropriate.
+
+The Introduction describes the general topic and reviews relevant literature, but it never states what the study is trying to answer. The aims are described in several different ways. The abstract refers to "exploring the relationship" between the key variables, the final paragraph of the Introduction speaks of "understanding the factors" involved, and the Discussion suggests the study tested a specific causal mechanism. These are different aims, and each would call for a different design and analytic approach. It is also unclear whether the work is exploratory or hypothesis-driven. No hypotheses are stated, yet the Results are framed in terms of confirming or rejecting expected effects.
+
+This ambiguity affects the rest of the paper. Without a defined question, I cannot tell whether the sample size, choice of covariates, and statistical tests are suited to the study's purpose. The conclusions also appear broader than the data can support, partly because there is no clear benchmark against which to judge them.
+
+**Recommendations:**
+
+1. State a single, explicit research question (or a small set of clearly related questions) at the end of the Introduction, and make sure the abstract and Discussion use the same wording.
+2. Specify whether the study is exploratory or confirmatory. If confirmatory, state the hypotheses and the predicted direction of effects.
+3. Revise the Methods and Discussion so that every analysis and conclusion maps directly onto the stated question.
+4. Remove or clearly label as post hoc any analyses that do not address the central question.
+
+Once the research question is defined, I would be glad to reassess whether the design and conclusions are adequate. At present, the lack of focus is a significant barrier to evaluating the paper's contribution.

@@ -1,0 +1,13 @@
+Subject: Upcoming Email Migration: Maintenance Window on November 12
+
+Hello Team,
+
+We are upgrading our email infrastructure to enhance security and performance. Our email servers will be offline for migration on Friday, November 12.
+
+Expected downtime: 9:00 PM PST, November 12 to 7:00 AM PST, November 13.
+
+Please save any draft emails and ensure important messages are sent before the maintenance window begins. All existing data, including contacts and calendar events, will migrate automatically.
+
+After the migration, you may need to re-authenticate your email apps on mobile devices. If you encounter login errors, restart your application or contact IT support at extension 4400.
+
+Thank you for your patience as we improve our communication tools

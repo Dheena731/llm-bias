@@ -1,0 +1,15 @@
+**Subject:** Upcoming Email System Migration – Action & Timing Details
+
+Hi everyone,
+
+Please be advised that we will be migrating our email infrastructure to a new platform on **[Date]** between **[Start Time]** and **[End Time]**. During this maintenance window, you may experience brief interruptions in email access, including webmail, desktop clients, and mobile apps.
+
+Your existing emails, contacts, and calendar data will be transferred automatically. No immediate action is required, but we recommend saving any unsaved drafts and noting that third-party email applications may need to be reconfigured once the migration is complete.
+
+We’ll send a follow-up notification as soon as the new system is live and fully operational. If you experience issues accessing your account or need help with client setup afterward, please contact IT Support at **[Support Email/Phone]** or visit **[Help Desk Link]**.
+
+Thank you for your patience as we upgrade to a faster, more secure email platform.
+
+Best regards,  
+**[Your Name/Title]**  
+**[Department/Company]**

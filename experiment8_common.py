@@ -9,7 +9,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
-from experiment7_common import call_openrouter_chat, provider_from_model, slugify
+import os
+
+from experiment7_common import provider_from_model, slugify
 
 
 DEFAULT_CONFIG = "configs/exp8_post_training_priors.json"
@@ -34,6 +36,10 @@ FIELDNAMES = [
     "feature_json",
     "prompt_id",
     "system_prompt",
+    "served_provider",
+    "finish_reason",
+    "reasoning_tokens",
+    "max_tokens_used",
 ]
 REQUIRED_ROUTE_FIELDS = {"model", "model_family", "route_stage_label", "stage_provenance"}
 REQUIRED_PROMPT_FIELDS = {"id", "domain"}  # plus "prompt" (one prompt) or "prompts" (several)
@@ -129,6 +135,8 @@ def build_exp8_tasks(config: dict, mode: str = "full", local: bool = False) -> l
     conditions = [condition_id for condition_id in config["conditions"] if condition_id not in excluded]
     repeat_key = "smoke_repeats" if mode == "smoke" else ("local_repeats" if local else "full_repeats")
     repeats = int(track.get(repeat_key, track["full_repeats"]))
+    # A run offset adds repeats to an earlier collection without reusing its artifact ids.
+    start = 0 if mode == "smoke" else int(track.get("local_run_offset" if local else "run_offset", 0))
     params = track.get("local_parameters" if local else "api_parameters", {})
     digest = config_hash(config)
 
@@ -142,7 +150,7 @@ def build_exp8_tasks(config: dict, mode: str = "full", local: bool = False) -> l
                 for condition_id in conditions:
                     condition = config["conditions"][condition_id]
                     prompt = build_prompt(base_prompt, condition.get("suffix", ""))
-                    for run in range(1, repeats + 1):
+                    for run in range(start + 1, start + repeats + 1):
                         artifact_id = "exp8_text_{model}_{family}{tag}_{condition}_r{run:02d}".format(
                             model=model_slug(route["model"]),
                             family=slugify(family["id"]),
@@ -210,15 +218,31 @@ def write_csv_rows(path: str | Path, rows: Iterable[dict]) -> None:
 
 
 def call_exp8_text_model(task: dict) -> str:
+    """Call OpenRouter and keep response metadata (served provider, finish reason, reasoning tokens) on the task."""
+    from openai import OpenAI
+
+    api_key = os.getenv("OPENROUTER_API_KEY")
+    if not api_key:
+        raise RuntimeError("OPENROUTER_API_KEY is required for Exp8 collection")
     params = task.get("api_parameters", {})
-    text = call_openrouter_chat(
-        task["model"],
-        task["prompt"],
-        max_tokens=int(params.get("max_tokens", 768)),
+    max_tokens = int(params.get("max_tokens", 768))
+    client = OpenAI(api_key=api_key, base_url="https://openrouter.ai/api/v1", timeout=float(params.get("timeout", 60.0)))
+    messages = [{"role": "system", "content": task["system_prompt"]}] if task.get("system_prompt") else []
+    response = client.chat.completions.create(
+        model=task["model"],
+        messages=messages + [{"role": "user", "content": task["prompt"]}],
+        max_tokens=max_tokens,
         temperature=float(params.get("temperature", 0.8)),
-        timeout=float(params.get("timeout", 60.0)),
-        system=task.get("system_prompt") or None,
     )
+    choice = response.choices[0]
+    details = getattr(response.usage, "completion_tokens_details", None)
+    task["response_meta"] = {
+        "served_provider": (response.model_extra or {}).get("provider", ""),
+        "finish_reason": choice.finish_reason or "",
+        "reasoning_tokens": getattr(details, "reasoning_tokens", None) or "",
+        "max_tokens_used": max_tokens,
+    }
+    text = choice.message.content or ""
     if not text.strip():
         # Raise before the raw file is written so --only-missing retries it (e.g. reasoning used the token budget).
         raise RuntimeError("empty response")

@@ -1,0 +1,26 @@
+**Subject: Our email is moving to [new system] on [date]**
+
+Hello everyone,
+
+On **[date]**, we will move our company email from [current system] to [new system]. The move will begin at [time] and should finish by [time]. During this window, you may not be able to send or receive email.
+
+**What stays the same**
+- Your email address
+- Your existing emails, folders, and contacts, which will be copied over automatically
+
+**What you need to do**
+1. Before [date], make sure you know your current email password.
+2. After the move, sign in at [web address] using your usual email address and password.
+3. If you check email on your phone, you may be asked to sign in again.
+
+You do not need to back up or move any emails yourself.
+
+If you have trouble signing in or notice missing messages, contact [IT contact name or team] at [email/phone] or visit [help page].
+
+Thank you for your patience while we make this change.
+
+[Name]
+[Team/Department]
+
+---
+*I wrote this for general staff and used bracketed placeholders for details I don't have. If you tell me the audience, the systems involved, and whether any action is required, I can tailor it.*

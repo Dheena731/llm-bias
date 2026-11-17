@@ -1,0 +1,19 @@
+NOTICE: QUARTERLY ACCESS REVIEW
+
+ATTENTION ADMINISTRATORS:
+
+The quarterly access review period begins today. Per information security policy, all administrators must validate user permissions for systems, applications, and groups under their management.
+
+PLEASE COMPLETE THE FOLLOWING BY [DUE DATE]:
+1. Log in to the Identity Management Portal.
+2. Navigate to the Quarterly Reviews dashboard.
+3. Verify, approve, or remove access for each listed account.
+4. Escalate unfamiliar accounts or complex permission changes to the IT Security team before modifying anything.
+
+INCOMPLETE OR DELAYED REVIEWS WILL RESULT IN AUTOMATED ACCESS REVOCACTIONS AND MAY TRIGGER COMPLIANCE FLAGS FOR YOUR DEPARTMENT. 
+
+For detailed instructions, visit [INTERNAL LINK OR PATH]. For technical assistance, contact [SUPPORT EMAIL OR PHONE NUMBER].
+
+Thank you for your prompt attention to this mandatory process.
+
+IT ADMINISTRATION TEAM

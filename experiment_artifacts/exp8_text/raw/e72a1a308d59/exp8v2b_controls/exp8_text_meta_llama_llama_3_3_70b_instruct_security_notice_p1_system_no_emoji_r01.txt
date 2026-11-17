@@ -1,0 +1,13 @@
+To: All Staff
+
+As part of our ongoing efforts to protect the security of our workplace systems and data, we would like to remind everyone of the importance of password security. 
+
+One of the most significant risks to our security is password reuse, which is the practice of using the same password for multiple accounts. If a password is compromised in one system, an attacker may be able to use it to gain access to other systems where the same password is used.
+
+To minimize this risk, we require all staff to use unique and complex passwords for their work accounts. This means avoiding the use of the same password for multiple accounts, and choosing passwords that are difficult for others to guess.
+
+We also recommend that staff use a password manager to securely store and generate complex passwords. Additionally, we encourage staff to be cautious when using public computers or public Wi-Fi to access work accounts, as these may be more vulnerable to security threats.
+
+If you have any questions or concerns about password security, or if you need help choosing a secure password, please do not hesitate to contact the IT department.
+
+Thank you for your cooperation in helping to protect our workplace systems and data.

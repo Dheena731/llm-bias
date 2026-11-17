@@ -1,0 +1,13 @@
+**Important Security Notice**
+
+To add an extra layer of protection to your account, we highly recommend enabling two-factor authentication (2FA). This simple step helps prevent unauthorized access by requiring a second form of verification, in addition to your password, when logging in.
+
+Enabling 2FA is easy and only takes a few minutes. To get started, follow these steps:
+
+1. Log in to your account settings
+2. Click on "Security" or "Account Security"
+3. Select "Two-Factor Authentication" and follow the prompts to set up your preferred 2FA method (e.g. SMS, authenticator app, or email verification)
+
+By enabling 2FA, you'll significantly reduce the risk of your account being compromised. If you have any questions or need assistance, please don't hesitate to contact our support team.
+
+**Stay secure and protect your account today!**

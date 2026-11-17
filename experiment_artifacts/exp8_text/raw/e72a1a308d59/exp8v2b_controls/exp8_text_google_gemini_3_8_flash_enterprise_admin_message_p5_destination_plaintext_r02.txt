@@ -1,0 +1,15 @@
+Subject: Upcoming Email System Migration
+
+Hello,
+
+Please be aware that we will be migrating our email system on [Date] starting at [Time]. The maintenance window is scheduled to end by [Date/Time].
+
+During this period, access to your email may be temporarily unavailable. Incoming messages will not be lost; they will be queued and delivered once the migration is complete.
+
+After the migration, you may be prompted to re-enter your password to reconnect your email on your computer and mobile devices. We will share detailed instructions prior to the maintenance window. 
+
+If you have any questions or experience issues after the cutover, please contact the IT Help Desk at [Contact Info].
+
+Thank you for your patience,
+
+[Your Name / IT Department]

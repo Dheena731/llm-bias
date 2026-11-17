@@ -1,0 +1,21 @@
+NOTICE: ENABLE TWO-FACTOR AUTHENTICATION
+
+Dear User,
+
+We are writing to inform you that Two-Factor Authentication (2FA) is now required for all accounts to ensure maximum security.
+
+Please enable 2FA in your account settings by [Insert Deadline Date]. Accounts without 2FA enabled after this date may be subject to restrictions.
+
+Enabling 2FA adds an extra layer of protection by requiring a second form of verification, such as a code from an authenticator app or SMS, in addition to your password. This safeguards your account even if your password is compromised.
+
+To set up 2FA:
+1. Log in to your account.
+2. Navigate to Settings > Security.
+3. Follow the prompts to enable Two-Factor Authentication.
+
+If you have questions or need assistance, please contact our Support team.
+
+Thank you for helping us keep your information secure.
+
+Sincerely,
+Security Team

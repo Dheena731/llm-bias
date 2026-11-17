@@ -1,0 +1,27 @@
+# NOTICE OF POLLING STATION LOCATIONS
+
+**[Name of Election], [Date]**
+**Polls open from [7:00 a.m.] to [8:00 p.m.]**
+
+Voters must cast their ballots at the polling station assigned to their address. Please check your voter registration card or the [Election Office/Website] to confirm your location.
+
+| **Precinct/Ward** | **Polling Station** | **Address** |
+|---|---|---|
+| Ward 1 | [Community Center] | [123 Main Street] |
+| Ward 2 | [Public Library] | [45 Oak Avenue] |
+| Ward 3 | [Lincoln Elementary School] | [78 Maple Road] |
+| Ward 4 | [Town Hall] | [200 Civic Plaza] |
+
+**Please note:**
+- All polling stations are wheelchair accessible. Assistance is available on request.
+- Bring a valid photo ID and your voter registration card, if you have one.
+- Some locations have changed since the last election. Please confirm yours before you travel.
+- If you are in line when the polls close, you will still be allowed to vote.
+
+**Questions?** Contact the Election Office at **[phone number]**, **[email address]**, or visit **[website]**.
+
+*Issued by [Name], [Title], [Date]*
+
+---
+
+Send me your election details (location, date, and polling sites) and I can fill in the placeholders for you.

@@ -1,0 +1,17 @@
+Here is a short message about an upcoming email migration:
+
+"Dear All,
+
+We are writing to inform you that our organization will be migrating to a new email system on [Date]. This change will affect all employees and will provide a more secure and efficient way of managing our emails. You will receive a separate email with detailed instructions on what to expect and how to prepare for the migration. If you have any questions or concerns, please don't hesitate to reach out to our IT department.
+
+Thank you for your cooperation and understanding.
+
+Best regards, [Your Name]"
+
+I made sure to:
+
+* Clearly state the main point (email migration)
+* Avoid using undefined jargon
+* Address the correct audience (all employees)
+* Provide a clear call to action (reach out to IT department with questions)
+* Avoid contradictions and ambiguities. Let me know if you need any changes!

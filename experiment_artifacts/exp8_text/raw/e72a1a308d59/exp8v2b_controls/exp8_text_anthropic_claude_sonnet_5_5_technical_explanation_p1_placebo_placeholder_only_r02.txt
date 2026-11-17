@@ -1,0 +1,15 @@
+Latency is the delay between a user's action and the application's response. In web applications, it shapes almost every part of the experience.
+
+**User perception and satisfaction.** People notice delays quickly. Responses under about 100 milliseconds feel instantaneous, while delays beyond a second interrupt a person's train of thought. Once a page takes several seconds to respond, many users give up and leave.
+
+**Business impact.** Slow applications lose money. Studies from large companies have repeatedly shown that even small increases in load time reduce conversion rates, page views, and customer retention. Search engines also factor speed into rankings, so high latency can reduce traffic before users even arrive.
+
+**Compounding effects.** A single page load often involves many sequential steps: DNS lookup, TCP and TLS handshakes, server processing, database queries, and downloads of scripts, styles, and images. Each step adds delay, and because some depend on others, small delays add up. A modest 50 ms delay repeated across a chain of dependent requests can turn into a noticeably sluggish page.
+
+**Interactivity.** Applications such as chat, collaborative editors, dashboards, and online games depend on rapid round trips. High latency makes them feel unresponsive or out of sync, and it can cause conflicts when multiple users edit shared data.
+
+**Mobile and global users.** Users on cellular networks or far from your servers experience higher latency because of physical distance and less reliable connections. Bandwidth improvements do not fix this, since latency is limited by factors like the speed of light and the number of network hops.
+
+**Common ways to reduce it:** use content delivery networks to serve content closer to users, cache aggressively, reduce the number of requests, optimize database queries, compress assets, and use modern protocols such as HTTP/2 or HTTP/3.
+
+In short, latency directly affects how fast an application feels, how many people continue to use it, and how well it performs for users everywhere.

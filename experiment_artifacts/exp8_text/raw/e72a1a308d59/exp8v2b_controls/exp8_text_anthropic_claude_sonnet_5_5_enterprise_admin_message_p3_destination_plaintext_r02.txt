@@ -1,0 +1,17 @@
+Subject: VPN Client Update Coming on [Date]
+
+Hello everyone,
+
+We are updating our VPN client to [new client name/version] on [date]. The update improves security and connection reliability.
+
+What you need to do:
+- Before [date]: Save your work and note any open connections.
+- After [date]: Install the new client from [location/link]. The old client will stop working on [cutoff date].
+- Sign in with your usual company credentials. You may be asked to set up multi-factor authentication again.
+
+Need help? Contact the IT Help Desk at [email/phone] or visit [help page link]. Setup guides are available at [link].
+
+Thank you for your cooperation.
+
+[Name]
+[Team/Department]

@@ -1,0 +1,21 @@
+Hi [Name],
+
+Thanks for sharing your poster draft. Here is my feedback.
+
+What works well:
+The title is clear and the topic is easy to grasp. The overall layout follows a logical flow from background to methods to results to conclusions, and the main figure is a strong visual anchor.
+
+Suggestions:
+1. Lead with the takeaway. Add a one- or two-sentence main message near the top or in a highlighted box so viewers get the point in under 10 seconds.
+2. Cut the text. Aim for around 300 to 500 words total. Turn long paragraphs into short phrases, and move detail to what you say aloud or to a handout.
+3. Check readability. Body text should be legible from about 1.5 meters away (24 pt or larger), and figure labels and axis text should be bigger than they are now.
+4. Simplify the figures. Remove extra gridlines and legends where you can, use consistent colors, and give each figure a short title that states its finding.
+5. Tighten the methods. Keep only what is needed to understand the results, and consider a small diagram instead of text.
+6. Strengthen the conclusions. Limit them to three or four clear points tied directly to your results, and add one line on next steps or implications.
+7. Polish the layout. Align the sections, keep the white space balanced, and make sure the reading order is obvious, with numbers or arrows if needed.
+8. Add contact details. A QR code linking to the paper, data, or your contact information would be helpful, along with your affiliation and funding acknowledgments.
+
+Overall, the content is solid. With a sharper main message and less text, the poster will be much easier to take in at a glance. I'm happy to look at another version before you print.
+
+Best,
+[Your name]

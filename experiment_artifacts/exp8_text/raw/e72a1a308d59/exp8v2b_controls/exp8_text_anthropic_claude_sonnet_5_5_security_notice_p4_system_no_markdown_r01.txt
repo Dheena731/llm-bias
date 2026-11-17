@@ -1,0 +1,24 @@
+Subject: Action Required: Enable Two-Factor Authentication
+
+Dear Team,
+
+To keep our accounts and data secure, we are asking everyone to turn on two-factor authentication (2FA) for their work accounts by Friday, June 14.
+
+Two-factor authentication adds a second step to your login. After entering your password, you will confirm your identity with a code from an authenticator app or a text message. Even if someone obtains your password, they will not be able to access your account without that second step.
+
+How to enable it:
+
+1. Sign in to your account and open Settings.
+2. Select Security, then choose Two-Factor Authentication.
+3. Pick your preferred method. An authenticator app is recommended over text messages.
+4. Follow the on-screen prompts to link your device.
+5. Save your backup codes in a secure place, such as a password manager.
+
+The setup takes about five minutes. If you run into any problems or need help, please contact the IT Help Desk at helpdesk@example.com or ext. 1234.
+
+Accounts without 2FA after the deadline may have access restricted until setup is complete.
+
+Thank you for helping us keep our systems and information safe.
+
+Best regards,
+IT Security Team

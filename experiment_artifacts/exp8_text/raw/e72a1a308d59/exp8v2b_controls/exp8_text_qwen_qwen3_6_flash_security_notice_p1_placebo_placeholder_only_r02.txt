@@ -1,0 +1,9 @@
+**WORKPLACE SECURITY NOTICE: PROHIBITION AGAINST PASSWORD REUSE**
+
+All personnel must maintain unique credentials for every company system, application, and authorized external service. Reusing passwords across different platforms creates a critical vulnerability. When a single account is compromised, attackers routinely test identical credentials against internal networks, email systems, and cloud applications, enabling rapid lateral movement and unauthorized data access.
+
+Effective immediately, every employee is required to assign a distinct password to each work-related account. Credentials must be a minimum of twelve characters and combine uppercase letters, lowercase letters, numbers, and special symbols. Login information must never be shared, written down in unsecured locations, or stored in personal browsers or devices.
+
+The organization provides an approved enterprise password manager to securely generate and store unique credentials. Staff members who recognize that a previously used password has appeared in a known breach must change affected accounts immediately. Any suspected credential compromise should be reported through the standard incident notification portal.
+
+Adherence to this policy is mandatory. Accounts found to contain reused passwords will be temporarily locked until a unique credential is established. Technical assistance is available through the IT Security Operations team. Your cooperation is essential to maintaining the integrity of our digital infrastructure.

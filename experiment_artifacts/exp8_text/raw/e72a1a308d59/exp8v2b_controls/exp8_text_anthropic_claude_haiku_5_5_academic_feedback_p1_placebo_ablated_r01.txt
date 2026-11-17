@@ -1,0 +1,16 @@
+**Feedback on Draft Literature Review: "Remote Work and Employee Productivity"**
+
+**Main point:** The draft collects a useful set of sources, but it currently reads as a sequence of summaries rather than an argument. Each paragraph describes one study, and the reader is left to work out how the studies relate to each other and to your research question. The next revision should organize the review around the disagreements and gaps in the literature, and say what those gaps mean for your study.
+
+**Strengths:**
+- The coverage is broad. You have included both recent empirical studies and earlier theoretical work.
+- Your citations are accurate and consistently formatted.
+- The opening paragraph states the topic clearly.
+
+**Main concerns:**
+1. **Lack of synthesis.** Paragraphs 3 to 7 each follow the pattern "Author X found Y." Group the studies by theme, such as measurement of productivity, differences by job type, or effects of management practices, and compare their findings within each group.
+2. **Little critical evaluation.** The draft rarely comments on method. Several studies rely on self-reported productivity, and the sample sizes vary widely. Note where findings are strong, where they are weak, and where they conflict.
+3. **Unclear gap statement.** The final paragraph says more research is needed but does not say which research or why. Identify a specific unanswered question that your study addresses.
+4. **Scope drift.** The section on office design is interesting but does not connect to your research question. Either link it explicitly or cut it.
+
+**Suggested next step:** Before rewriting, draft one sentence stating the main finding that the literature supports and one sentence stating the main disagreement. Build your thematic sections around those two points.

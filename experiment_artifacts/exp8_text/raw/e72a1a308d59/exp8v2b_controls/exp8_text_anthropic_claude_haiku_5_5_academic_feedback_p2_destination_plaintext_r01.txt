@@ -1,0 +1,16 @@
+Hi Maya,
+
+Thanks for sending your methods section. You've laid out the overall design clearly, and the participant recruitment description is detailed enough that someone could follow it. Your choice of a mixed-methods approach is well justified in the opening paragraph.
+
+There are a few areas to strengthen before submission:
+
+1. The data analysis subsection jumps from collecting the survey responses straight to reporting the regression results. Please add a sentence or two on how you checked the assumptions for the regression, such as normality of residuals and multicollinearity, and what you did if they weren't met.
+
+2. The instrument description mentions a "modified" version of the scale but doesn't say what was changed. Briefly note which items were removed or reworded and why, and whether you re-checked reliability after the changes.
+
+3. Consider adding the time frame for data collection. Readers will want to know whether responses were gathered over one week or several months, especially if there were any events during that period that could affect responses.
+
+Overall, this is a solid draft. Once these points are addressed, the section should be easy for a reader to replicate. Let me know if you'd like to talk through the analysis subsection together.
+
+Best,
+Dr. Okafor

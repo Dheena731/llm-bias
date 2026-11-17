@@ -1,0 +1,1 @@
+We’re sorry for the disruption. Between 10:42 and 10:58 UTC, requests to our API and customer dashboard timed out for some users. Service has been restored, and we’re monitoring the systems closely while we complete a review of the incident.

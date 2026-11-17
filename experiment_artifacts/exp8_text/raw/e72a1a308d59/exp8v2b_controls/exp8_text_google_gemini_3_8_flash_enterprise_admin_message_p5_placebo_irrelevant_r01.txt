@@ -1,0 +1,21 @@
+**Subject:** Notice: Upcoming Email Migration on [Date]
+
+Hi team,
+
+We will be migrating our company email system to [New Platform, e.g., Microsoft 365 / Google Workspace] on **[Date]**, starting at **[Time, e.g., 6:00 PM]**. 
+
+The migration process is scheduled to be completed by **[Time, e.g., 10:00 PM]**.
+
+**What you need to know:**
+* **Email access:** You may experience brief interruptions in sending or receiving emails during the maintenance window.
+* **Data safety:** All of your existing emails, folders, contacts, and calendar events will be transferred automatically.
+* **Action required:** No preparation is needed right now. On **[Date/Day after migration]**, you will simply need to log in using [specific instruction, e.g., your standard credentials / a new portal link]. 
+
+We will send a follow-up guide with quick login instructions before the cutover. 
+
+If you have any questions or urgent concerns, please reach out to the IT Helpdesk at [Email/Slack Channel/Extension].
+
+Thank you for your patience as we upgrade our systems!
+
+Best regards,  
+[Your Name / IT Department]

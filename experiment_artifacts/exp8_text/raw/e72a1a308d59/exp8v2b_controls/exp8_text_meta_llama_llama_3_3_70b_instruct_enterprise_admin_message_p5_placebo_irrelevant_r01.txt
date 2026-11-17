@@ -1,0 +1,15 @@
+Here is a short message about an upcoming email migration:
+
+"Important Update: Email Migration Ahead
+
+As part of our ongoing efforts to improve our technology infrastructure, we will be migrating to a new email system on [Date]. This change will bring new features and enhancements to your email experience, including improved security and reliability.
+
+What to expect:
+
+* Your email address will remain the same
+* You will need to update your email client settings to connect to the new system
+* You may experience a brief period of downtime during the migration window
+
+We will provide detailed instructions and support to ensure a smooth transition. If you have any questions or concerns, please don't hesitate to reach out to our IT department.
+
+Thank you for your understanding and cooperation."

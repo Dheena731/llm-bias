@@ -1,0 +1,21 @@
+**NOTICE: Protecting Our Workplace Against Phishing Emails**
+
+**To:** All Employees  
+**From:** IT Support  
+**Date:** October 24, 2023  
+
+Please stay alert to phishing emails. Phishing is a type of cyber attack where scammers send fake emails that look like legitimate messages from trusted colleagues, clients, or companies. Their goal is to trick you into revealing sensitive information (such as passwords) or clicking links that can compromise our network.
+
+**Common Warning Signs:**
+* **Unusual urgency:** Demands for immediate action, wire transfers, or gift card purchases.
+* **Suspicious sender details:** Sender names that do not match the actual email address, or addresses with slight misspellings.
+* **Unexpected links or attachments:** Prompts to download files or log into accounts you did not request to access.
+
+**What to Do:**
+1. **Do not click** any links or open any attachments in suspicious emails.
+2. **Do not reply** to the sender or attempt to contact them using the details provided in the suspicious email.
+3. **Report the email** immediately using the "Report Phishing" button in your email toolbar, or forward it to security@company.com.
+
+If an email seems unusual—even if it appears to come from someone you know—verify it by contacting the person directly through a separate, trusted channel (such as a phone call or our internal chat system). 
+
+Thank you for your cooperation in keeping our company’s data secure.

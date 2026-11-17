@@ -1,0 +1,18 @@
+**Subject:** Scheduled Maintenance Window – Dashboard Platform
+
+Dear Users,
+
+Please be advised that our dashboard will be temporarily unavailable due to a planned maintenance window aimed at improving system performance and security.
+
+📅 **Date:** [Insert Date]  
+⏰ **Time:** [Start Time] – [End Time] [Timezone]  
+🔧 **Impact:** Login access and real-time reporting will be offline during this period. No data loss is expected; all configurations and historical records will be preserved.
+
+We apologize for any inconvenience and appreciate your patience as we implement these improvements. If you have urgent concerns or require assistance before or after the window, please reach out to IT Support at [email/address] or submit a ticket via [link/portals].
+
+Thank you for your cooperation.
+
+Best regards,  
+[Your Name/Title]  
+[Department/Team]  
+[Contact Information]

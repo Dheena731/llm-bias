@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Markdown and emoji in the OLMo 2 1B preference mix used for DPO. Rates are the share of chosen and rejected responses with the feature; the last column counts pairs where only the chosen (or only the rejected) response has it. Length-matched pairs differ in length by at most 25\%.}
+\label{tab:preference-markdown}
+\begin{tabular}{llrrrr}
+\toprule
+Pairs & Feature & $n$ & Chosen \% & Rejected \% & Chosen-only / rejected-only \\
+\midrule
+All pairs & Markup & 377,531 & 44.2 & 34.7 & 74,785 / 38,813 \\
+All pairs & List lines & 377,531 & 44.0 & 38.2 & 62,583 / 40,697 \\
+All pairs & Emoji & 377,531 & 0.9 & 0.8 & 2,171 / 1,857 \\
+Length-matched & Markup & 104,275 & 49.1 & 42.8 & 15,876 / 9,380 \\
+Length-matched & List lines & 104,275 & 46.8 & 44.7 & 10,707 / 8,484 \\
+Length-matched & Emoji & 104,275 & 0.8 & 0.8 & 462 / 452 \\
+\bottomrule
+\end{tabular}
+\end{table}

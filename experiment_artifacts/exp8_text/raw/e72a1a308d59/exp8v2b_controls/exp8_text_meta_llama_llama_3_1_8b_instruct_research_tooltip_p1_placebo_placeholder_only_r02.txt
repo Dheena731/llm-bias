@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter by Attribute: Apply a filter to the data based on a specific attribute. Select a attribute from the dropdown menu to view data that meets the specified criteria."

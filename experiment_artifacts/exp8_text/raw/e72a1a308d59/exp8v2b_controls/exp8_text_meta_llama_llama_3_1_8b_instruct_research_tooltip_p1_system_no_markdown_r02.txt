@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter: Apply conditions to the dataset to narrow down the results. Select a field to filter by, choose an operator (e.g. equals, greater than), and enter a value to refine your search."

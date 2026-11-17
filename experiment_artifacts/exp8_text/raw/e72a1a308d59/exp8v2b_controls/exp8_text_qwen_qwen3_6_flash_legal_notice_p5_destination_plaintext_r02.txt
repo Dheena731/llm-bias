@@ -1,0 +1,11 @@
+NOTICE: ACCEPTABLE USE POLICY FOR SHARED NETWORK ACCESS
+
+This shared network infrastructure is provided for authorized use only. By connecting to or utilizing this network, you acknowledge that you have read, understood, and agree to comply with the following terms.
+
+PROHIBITED ACTIVITIES: Unauthorized access to restricted systems, data exfiltration, distribution of malware, excessive bandwidth consumption that impairs service for other users, hosting or transmitting illegal content, violation of intellectual property rights, spamming, phishing, unauthorized network scanning, and any activity that compromises system integrity or security.
+
+MONITORING AND PRIVACY: This network is a shared resource managed by designated administrators. All traffic, logs, and metadata may be monitored, recorded, inspected, and retained for security, operational, and compliance purposes. Users should have no expectation of privacy while using this network. Information may be disclosed to management, legal counsel, or law enforcement when required by applicable law or in response to a suspected policy violation.
+
+ENFORCEMENT AND CONSEQUENCES: Violations of this policy will result in immediate remediation, which may include throttling, temporary suspension, or permanent revocation of network privileges. Disciplinary proceedings may follow under applicable organizational rules. Criminal or civil liability may apply for unlawful activities conducted via this network.
+
+CONTINUED USE OF THIS NETWORK CONSTITUTES YOUR ACCEPTANCE OF THESE TERMS. THE ADMINISTRATOR RESERVES THE RIGHT TO MODIFY THIS POLICY AT ANY TIME WITHOUT PRIOR NOTICE. FOR QUESTIONS OR SECURITY INCIDENTS, CONTACT THE NETWORK OPERATIONS TEAM AT SUPPORT@EXAMPLE.COM. EFFECTIVE IMMEDIATELY.

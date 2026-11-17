@@ -1,0 +1,17 @@
+# Why Latency Matters in Web Applications
+
+Latency is the delay between a user's action and the application's response. It includes network travel time, server processing, and rendering. Even small delays can have an outsized effect on how people experience and use a product.
+
+**User experience.** People perceive responses under about 100 milliseconds as instant. Beyond a second, they notice the wait and their focus starts to drift. Past several seconds, many users give up. Interfaces that lag feel broken or untrustworthy, even when they work correctly.
+
+**Business outcomes.** Latency affects conversion rates, engagement, and retention. Studies from companies like Amazon, Google, and Walmart have repeatedly linked small increases in load time to measurable drops in sales and traffic. Slow sites also tend to rank lower in search results, since search engines factor in page speed.
+
+**Compounding effects.** Modern applications make many requests per page or action: APIs, images, scripts, and third-party services. Each one adds its own delay, and dependencies between them (one request waiting on another) make the total much larger than any single piece suggests.
+
+**Real-world conditions.** Developers often test on fast networks and powerful machines, but users may be on congested mobile connections, far from the server, or on older devices. Latency that seems negligible in development can be painful in practice.
+
+**Interactivity and real-time features.** Chat, collaborative editing, gaming, and live dashboards depend on low latency to feel responsive. High delays cause out-of-sync data, awkward interactions, and conflicts.
+
+**Reducing it.** Common strategies include using CDNs to serve content closer to users, caching, compressing and optimizing assets, minimizing request chains, using efficient database queries, and deploying servers in multiple regions.
+
+In short, latency shapes whether an application feels fast, reliable, and pleasant to use, and that directly influences whether people keep using it.

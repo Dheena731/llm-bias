@@ -1,0 +1,28 @@
+NOTICE TO ALL STAFF: BEWARE OF PHISHING EMAILS
+
+Date: [Insert Date]
+From: IT Security Team
+
+We have recently seen an increase in phishing emails targeting our employees. These messages are designed to look legitimate but aim to steal login credentials, financial details, or other sensitive information.
+
+Warning signs to watch for:
+
+- Unexpected messages that create urgency, such as "Your account will be locked in 24 hours"
+- Sender addresses that look slightly off or do not match the company name
+- Generic greetings like "Dear User" instead of your name
+- Links that do not match the website they claim to lead to (hover over a link to check it before clicking)
+- Unexpected attachments, especially zip files or documents asking you to enable macros
+- Requests for passwords, payment details, or gift card purchases
+
+What you should do:
+
+- Do not click links or open attachments in suspicious emails
+- Do not reply to the sender or forward the message to colleagues
+- Report the email using the "Report Phishing" button in your mail client, or send it to security@yourcompany.com
+- If you have already clicked a link or entered your details, contact IT immediately at ext. 1234 and change your password
+
+Remember: IT will never ask for your password by email. When in doubt, verify the request by contacting the sender through a known phone number or in person.
+
+Thank you for helping keep our company and our data safe.
+
+IT Security Team

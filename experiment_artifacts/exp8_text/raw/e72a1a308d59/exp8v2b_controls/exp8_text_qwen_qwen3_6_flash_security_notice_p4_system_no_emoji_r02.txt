@@ -1,0 +1,18 @@
+**NOTICE: MANDATORY TWO-FACTOR AUTHENTICATION ENABLEMENT**
+
+To enhance account security and protect sensitive data, all users must enable two-factor authentication (2FA) on their accounts. This additional verification step significantly reduces the risk of unauthorized access.
+
+Please complete setup by [Insert Date]. Follow these steps:
+1. Log in to your account portal.
+2. Navigate to Account Settings > Security.
+3. Select "Enable Two-Factor Authentication."
+4. Choose your preferred method (authenticator app or SMS) and follow the prompts to verify.
+
+Accounts without active 2FA enabled after the deadline will be subject to temporary login restrictions until compliance is confirmed. 
+
+If you require assistance or encounter technical difficulties, contact the IT Help Desk at [email address] or [phone number] prior to the deadline.
+
+Your prompt action is required to maintain uninterrupted access to system resources. Thank you for your cooperation.
+
+[Issuing Department/Company Name]
+[Date]

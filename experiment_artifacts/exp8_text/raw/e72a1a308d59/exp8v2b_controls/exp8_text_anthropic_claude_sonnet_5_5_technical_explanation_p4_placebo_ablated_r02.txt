@@ -1,0 +1,15 @@
+**How caching speeds up a website**
+
+Caching means saving a copy of something after it has been fetched or created once, so the copy can be reused later instead of repeating the work. Reusing a saved copy is faster than rebuilding it or downloading it again.
+
+Without caching, every page visit can involve a lot of work: the website's main server may look up information in a database, assemble the page, and send files such as images and stylesheets across the internet. Each step takes time. Caching lets some of those steps be skipped.
+
+Caching can happen in several places:
+
+- **In your browser:** Your browser keeps files like logos and stylesheets on your device. When you revisit the site, it uses these local copies instead of downloading them again.
+- **On a content delivery network (CDN):** A CDN is a group of servers in many locations that store copies of a site's files. Visitors download from a server near them instead of from the site's distant main server, which shortens the trip.
+- **On the website's own server:** The site can store the result of a slow task, such as a database lookup or a fully built page, and give that stored result to later visitors without redoing the task.
+
+The tradeoff is that a saved copy can become out of date if the original changes. Websites handle this by giving each copy an expiration time or by replacing it when the content is updated.
+
+The result is that pages load faster for visitors, and the main server has less work to do.

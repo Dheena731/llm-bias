@@ -1,0 +1,9 @@
+**Security Notice**
+
+Reusing passwords for personal accounts can compromise your work account security.
+
+If you use the same password for personal and work accounts, a data breach of your personal account could give an unauthorized user access to your work account. This can lead to unauthorized access to sensitive information and potential security threats to the company.
+
+To protect your work account, please use unique and strong passwords for all accounts, including personal and work accounts. Consider using a password manager to generate and store complex passwords.
+
+If you have any concerns or need assistance with password management, please contact the IT department.
