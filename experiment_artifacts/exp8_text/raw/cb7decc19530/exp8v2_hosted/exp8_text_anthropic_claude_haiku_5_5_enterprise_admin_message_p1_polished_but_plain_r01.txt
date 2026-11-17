@@ -1,0 +1,14 @@
+Subject: Scheduled Dashboard Maintenance This Saturday
+
+Dear team,
+
+We will be performing scheduled maintenance on the analytics dashboard this Saturday, March 14, from 10:00 p.m. to 1:00 a.m. Eastern Time. During this window, the dashboard will be unavailable, and reports will not refresh. Data collected during the downtime will be backfilled automatically once the system is back online, so no information will be lost.
+
+Please plan accordingly if you normally rely on the dashboard for weekend reporting or scheduled exports. If you have a time-sensitive task, we recommend completing it before 10:00 p.m. Friday or waiting until Sunday morning, when the system will be fully stable.
+
+The work includes a database upgrade and security patches that are required to keep the platform running reliably. We expect the maintenance to finish on time, but we will send an update if the timeline changes. If you experience any issues after the window closes, please contact the IT help desk and reference this maintenance notice.
+
+Thank you for your patience and cooperation.
+
+Best regards,
+The Systems Administration Team

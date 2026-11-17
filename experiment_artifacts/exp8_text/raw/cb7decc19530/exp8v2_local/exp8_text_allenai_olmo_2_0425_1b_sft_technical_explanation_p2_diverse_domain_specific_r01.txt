@@ -1,0 +1,5 @@
+A database index is a structured collection of data that is used to enhance the performance of database queries. It works by storing the most common values in a table in a separate column, known as the index, which allows the database to find and return the desired data more quickly and efficiently.
+
+When a user queries the database for specific data, the index allows the database to retrieve the most commonly requested records first, rather than having to scan through every single record in the table. This can significantly reduce the amount of data that needs to be processed, saving valuable processing time and resources. 
+
+Additionally, an index can also improve the speed at which a database operates in general, as it can help in managing database queries, maintaining query efficiency, and optimizing data retrieval processes.

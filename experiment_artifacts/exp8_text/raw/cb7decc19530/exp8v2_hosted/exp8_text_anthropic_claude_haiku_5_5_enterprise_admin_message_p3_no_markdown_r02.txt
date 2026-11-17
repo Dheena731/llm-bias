@@ -1,0 +1,14 @@
+Subject: VPN Client Update Coming on Monday, June 10
+
+Hello team,
+
+We are updating the VPN client on all company laptops starting Monday, June 10. The new version, 4.2, improves connection speed, adds automatic reconnection when your network changes, and fixes an issue that caused disconnects on some home Wi-Fi networks.
+
+What you need to do:
+Save your work before 9:00 a.m. Monday, when the update will begin. The update takes about 10 minutes and will restart the VPN client automatically. If you use a personal device with the VPN, you will need to download version 4.2 from the IT portal.
+
+Your existing login credentials will not change. If you have trouble connecting after the update, contact the IT help desk at extension 4400 or email helpdesk@company.com.
+
+Thank you for your patience as we roll out these improvements.
+
+IT Department

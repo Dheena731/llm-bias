@@ -1,0 +1,9 @@
+Latency is the time delay between a user’s action and the web application’s response. In web development, it is a critical performance metric because human perception is extremely sensitive to delays. 
+
+Latency matters primarily for three reasons:
+
+* **User Experience and Engagement:** Users expect web applications to feel as responsive as local desktop software. Delays as short as 100 milliseconds are noticeable, and delays exceeding one second disrupt a user's flow of thought. High latency causes frustration, reduces engagement, and leads to high bounce rates as users abandon sluggish interfaces.
+* **Business Impact and Revenue:** Performance directly correlates with financial outcomes. In e-commerce and SaaS platforms, faster response times lead to higher conversion rates. Major tech companies have repeatedly demonstrated that every fraction of a second added to page load time directly decreases sales and overall usage.
+* **Search Engine Optimization (SEO):** Search engines, particularly Google, factor site speed and responsiveness (such as Core Web Vitals) into their ranking algorithms. High latency not only degrades the experience for existing users but also harms organic search visibility, resulting in less incoming traffic.
+
+Minimizing latency is not merely a technical preference; it is a core business requirement that determines whether users adopt, trust, and continue using an application.

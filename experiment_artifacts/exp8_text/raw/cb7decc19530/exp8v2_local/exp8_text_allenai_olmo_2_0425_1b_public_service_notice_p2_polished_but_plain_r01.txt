@@ -1,0 +1,27 @@
+Provide contact information and a link to directions in case someone needs to know where to report the incident.
+
+Do not publish private information, such as your contact information or a list of the roads closed.
+
+Make information available to all users and authorized users only.
+
+Do not provide information about the severity of the road closure.
+
+Do not provide information about the duration of the closure.
+
+Do not provide information about the causes of the closure.
+
+Do not provide information about the reason the road has been closed.
+
+Do not provide information about when the road will be open again.
+
+Do not provide any information about the name of the road.
+
+Do not provide any information about the name of the road.
+
+Do not provide any information about the road.
+
+Do not provide any information about the cause of the closure.
+
+Do not provide any information about when the road will be open again.
+
+Make sure that other users can read your information. Do not use plain text or Markdown.

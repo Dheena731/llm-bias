@@ -1,0 +1,12 @@
+Here are a few options:
+
+**Option 1**
+"95% CI: The 95% confidence interval represents the range of values within which the true population mean is likely to lie, with 95% certainty."
+
+**Option 2**
+"CI: A confidence interval is a range of values that likely contains the true population parameter, with a specified level of certainty (e.g., 95%)."
+
+**Option 3**
+"Confidence Interval: The range of values within which we expect the true population mean to lie, with a specified level of confidence (e.g., 95%)."
+
+Choose the one that best fits your chart's design and audience!

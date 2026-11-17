@@ -1,0 +1,7 @@
+**Payment Settlement Delay – Clearing Layer & Velocity Review Backlog**
+
+Today’s transaction flow is experiencing a 14–18 hour settlement delay stemming from a queue buildup in the ACH clearing layer, compounded by extended velocity threshold checks on recently onboarded merchant accounts. Any transaction routed after 15:30 UTC will hold until the next clearing window (06:00 UTC tomorrow). The gateway is now emitting `SETTLEMENT_DEFERRED` in webhook payloads; older SDK versions may still surface `PROCESSING`.
+
+The capture ledger remains balanced. Funds are authorized and stored, but net settlement to issuing networks is paused until the batch clears. If your model depends on same-day or instant disbursement, adjust payout schedules accordingly. You can monitor queue depth via the `/batch/status` endpoint or filter transaction exports using `hold_reason: velocity_review`.
+
+Operations has already applied temporary rate limits to inbound routes to prevent cascading holds. We’ll post a confirmation once throughput returns to baseline. For critical liquidity needs, open a priority ticket through the merchant portal; our settlement desk will manually flag qualifying batches for early release during the next window.

@@ -1,0 +1,1 @@
+This range indicates where the true value is expected to fall based on the data. Narrower intervals reflect higher precision, while wider intervals signal greater uncertainty.

@@ -1,0 +1,1 @@
+Dataset filter: Limit your results to records from specific datasets. Select one or more datasets to narrow your search, or leave the filter empty to search all available data. Changing this filter updates your results immediately and may affect counts and summary statistics elsewhere in the tool.

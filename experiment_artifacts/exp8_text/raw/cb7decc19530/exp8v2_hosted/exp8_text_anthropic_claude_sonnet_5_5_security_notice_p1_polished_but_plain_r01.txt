@@ -1,0 +1,17 @@
+Subject: Please Stop Reusing Passwords
+
+Colleagues,
+
+Over the past quarter, our security team has seen a steady rise in account compromises that trace back to a single habit: using the same password on more than one service. When a password from an outside website is exposed in a data breach, attackers routinely try it against corporate email, file storage, and other business systems. If your work password matches one you have used elsewhere, a breach at an unrelated retailer or forum can become a breach here.
+
+The risk is not limited to the person whose account is taken. Once inside, an attacker can read internal messages, impersonate staff in convincing requests, and look for ways to reach shared systems and customer data. A single reused password can therefore affect the whole organization.
+
+The most practical solution is to give every account its own unique password and let a password manager remember them. The company-approved password manager is available at no cost and can generate strong passwords, fill them in automatically, and warn you when one has appeared in a known breach. For work accounts, aim for long passphrases of at least fourteen characters, such as a string of several unrelated words, rather than short passwords with substituted symbols. Length matters far more than cleverness.
+
+Please also turn on multi-factor authentication wherever it is offered. Even if a password is stolen, a second verification step can stop an attacker from getting in. Avoid using your work email address to register for personal services, since it makes your credentials easier to find and target.
+
+Within the next two weeks, we ask that you change your work password if it is similar to any personal password, and that you review your most important personal accounts for the same problem. If you suspect that a password has been exposed, change it immediately and report it to the IT Security Desk so we can check for unusual activity. You will not be penalized for reporting a mistake promptly; early reports are what allow us to contain problems.
+
+If you need help setting up the password manager or multi-factor authentication, the IT Service Desk is happy to assist. Thank you for helping keep our systems and our colleagues safe.
+
+IT Security Team

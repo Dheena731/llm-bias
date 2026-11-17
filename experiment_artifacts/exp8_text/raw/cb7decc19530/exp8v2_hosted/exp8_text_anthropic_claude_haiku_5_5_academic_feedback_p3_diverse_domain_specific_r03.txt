@@ -1,0 +1,7 @@
+**Reviewer 2, Comment on Research Question (Section 1.3)**
+
+The central question, "Does daylighting urban streams improve ecological health?", can't yet be answered or falsified as written. "Ecological health" is never operationalized. The authors measure macroinvertebrate EPT richness, periphyton chlorophyll-a, and riparian canopy cover, and each could be read as a health indicator, but they don't say which one would count as success or what change would count as failure. Some of these metrics may move in opposite directions after restoration. Riparian shading, for example, typically lowers periphyton while sometimes raising detritus-based taxa.
+
+The design also leaves the comparison unclear. Sites were sampled once before and once after culverts were removed, but the manuscript doesn't say whether there is a reference reach, whether any sites lack restoration, or how the 2019 flood affects the post-period. Without a stated contrast, the reader can't tell whether the question is about change over time, difference from reference condition, or both.
+
+I'd ask the authors to restate the question with a named response variable, a predicted direction, and the comparison it depends on. Something like "Does removing the culvert increase EPT richness relative to upstream reference reaches within two years?" would let the rest of the analysis be evaluated against a concrete claim.

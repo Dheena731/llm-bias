@@ -1,0 +1,18 @@
+Here's a short message you could send:
+
+**Subject: Upcoming Email Migration – What You Need to Know**
+
+Hi team,
+
+We're migrating our email system to [new platform] on [date]. Here's what to expect:
+
+- **Timing:** Email may be unavailable for up to [X] hours starting at [time].
+- **Your data:** Your emails, contacts, and calendar will be transferred automatically.
+- **Action needed:** Please [log in / update your mobile device settings / back up any local files] before [date].
+
+If you have questions or run into issues after the switch, contact [IT contact or help desk] at [email or phone].
+
+Thanks for your patience as we make this change.
+
+Best,
+[Your name]

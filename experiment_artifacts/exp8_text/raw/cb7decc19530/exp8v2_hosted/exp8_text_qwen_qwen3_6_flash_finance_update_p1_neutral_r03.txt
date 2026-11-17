@@ -1,0 +1,13 @@
+**Introducing Your New Monthly Spending Summary**
+
+We’ve upgraded your financial overview with a brand-new **Monthly Spending Summary**—designed to make tracking your expenses simpler and more actionable.
+
+Instead of scrolling through raw transactions, you’ll now get an automatic breakdown by category, clear month-over-month trends, and at-a-glance insights highlighting your top spending areas. Whether you're sticking to a budget, planning for big purchases, or just keeping tabs on your cash flow, this summary gives you the clarity you need in seconds.
+
+🔹 **Where to find it:** `Dashboard → Reports → "Monthly Summary"`  
+🔹 **First available:** `[Month]` data will be ready by `[Date]`
+
+Give it a try and let us know what you think! Visit our Help Center for a quick walkthrough, or reply directly with feedback or suggestions.
+
+Thanks for helping us build a better experience together—your smarter spending starts here.  
+— The `[Product/Team]` Team

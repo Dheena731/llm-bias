@@ -1,0 +1,6 @@
+**Tooltip (example: "Publication date" filter)**
+
+> **Publication date**
+> Show only datasets published within the date range you select. Clear the range to see datasets from all dates.
+
+**Note:** You didn't say which filter or tool this is for, so I used a common filter and avoided claims about behavior I can't know, such as how datasets with missing dates are handled. If you tell me the filter's name and what it does, including any edge cases, I can write the exact tooltip.

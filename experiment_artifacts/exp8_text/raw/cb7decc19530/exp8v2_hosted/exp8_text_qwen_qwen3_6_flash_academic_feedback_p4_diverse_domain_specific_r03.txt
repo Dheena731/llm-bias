@@ -1,0 +1,9 @@
+**Subject: Poster Draft v3 – Targeted Edits Before Submission**
+
+The overall architecture works, but the central workflow panel needs decoupling. Steps 3–5 are currently compressed into a single schematic, which obscures the filtering cascade. Separate them: left panel for read alignment & duplicate marking, center for joint calling, right for genotype quality thresholds. Add brief arrow annotations showing where samples drop below the QD ≥ 2.0 cutoff; reviewers will otherwise assume the pass rate includes all raw calls.
+
+Fig. 2’s confusion matrix is informative but unreadable at poster distance. Swap the current categorical labels for binned coverage ranges (≤15x, 15–30x, >30x), and add a normalized color bar with explicit delta values. The current red-to-green mapping implies directionality that isn’t defined in the caption. If you’re comparing against GIAB NA24385, state that explicitly in the figure legend rather than burying it in the methods paragraph.
+
+Results text over-explains established steps. Trim the variant filtration rationale by roughly 40% and move hardware specifications, software versions, and reference genome build details to a compact footnote. Replace the “Impact” callout with a single line on how your threshold adjusts false-positive rates for tumor-only WES, plus the exact minimum depth you’d enforce before flagging a heterozygous somatic call.
+
+Run the draft through a colleague unfamiliar with the pipeline before printing. If they can’t trace the sample flow in under 15 seconds, the central diagram still needs tighter hierarchy.

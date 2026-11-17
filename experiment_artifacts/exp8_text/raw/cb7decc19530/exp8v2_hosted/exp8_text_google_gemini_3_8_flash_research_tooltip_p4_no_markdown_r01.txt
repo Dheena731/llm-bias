@@ -1,0 +1,1 @@
+Indicates that data is not available, recorded, or applicable for this field.

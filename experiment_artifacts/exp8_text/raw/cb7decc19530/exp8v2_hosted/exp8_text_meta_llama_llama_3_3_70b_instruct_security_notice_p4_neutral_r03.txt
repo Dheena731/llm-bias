@@ -1,0 +1,5 @@
+**Important Security Notice**
+
+To enhance the security of your account, we strongly recommend enabling two-factor authentication (2FA). This additional layer of protection will help prevent unauthorized access to your account by requiring a second form of verification, such as a code sent to your phone or email, in addition to your password.
+
+**Enable 2FA now to protect your account and sensitive information.**

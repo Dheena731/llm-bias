@@ -1,0 +1,20 @@
+ • 4
+    $\begingroup$ This looks like a good start! I particularly like your examples. $\endgroup$ – Dmitry Branger May 27 '18 at 14:12
+  • $\begingroup$ Thank you Dmitry! This is my first attempt, and I'd like to improve it. If this is a good one, it may be good as a starting point. I cannot post this as an answer because I am not a community member yet. $\endgroup$ – smile May 27 '18 at 14:13
+
+I thought of another example that may work for you:
+
+1) Prototype, a service that provides repair services and is provided by independent professionals.
+
+2) Make the text feel more human with a proper names and a meaningful sentence structure.
+
+3) Use in the following format to feel less like a bullet list:
+
+
+Key Takeaway:
+
+  • Explain what you do and why you do it (a specific example of the value proposition of your product or service).
+  • Explain the nature and scope of your business (how big is it and what is its target market)
+  • Explain why other people should care (what value does your service provide to them and what are they missing out on)
+
+Your Answer

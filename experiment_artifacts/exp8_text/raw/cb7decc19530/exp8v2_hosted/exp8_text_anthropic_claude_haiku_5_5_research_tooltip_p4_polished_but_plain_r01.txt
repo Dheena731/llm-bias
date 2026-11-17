@@ -1,0 +1,1 @@
+A missing-value marker indicates that no data was recorded for this field. The gap may be due to a skipped entry, an unavailable measurement, or a value that does not apply. Treat it as unknown rather than as zero or an empty result.

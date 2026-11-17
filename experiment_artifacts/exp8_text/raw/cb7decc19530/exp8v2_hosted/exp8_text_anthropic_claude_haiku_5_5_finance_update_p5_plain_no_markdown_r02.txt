@@ -1,0 +1,5 @@
+Payment processing is running behind schedule, and some transactions submitted over the past two days have not yet completed. The delay began when our payment provider experienced a service interruption on Monday afternoon, which created a backlog in the queue that handles incoming payments. Engineering teams have identified the cause and restored partial service, and the backlog is now decreasing, though full processing times may remain elevated for the next several hours.
+
+Customers whose payments are still pending should not resubmit them, since duplicate charges may result and would need to be reversed manually. Any payment that remains unresolved by the end of the business day will be flagged automatically, and our support team will contact affected accounts directly with confirmation or next steps.
+
+We expect normal processing speeds to return by tomorrow morning. We will post another update once the backlog is cleared, and we apologize for the inconvenience this has caused. Questions can be directed to the support team through the usual channels.

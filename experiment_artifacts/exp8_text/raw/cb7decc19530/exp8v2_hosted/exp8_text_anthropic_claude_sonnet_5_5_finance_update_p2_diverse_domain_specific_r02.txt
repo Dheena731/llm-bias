@@ -1,0 +1,22 @@
+**Subject: Online card fees going up 5¢ per transaction on March 1**
+
+Hello,
+
+Starting with transactions settled on **March 1**, the fixed fee on card-not-present payments (online checkout, payment links, keyed-in orders) goes from **30¢ to 35¢**. The percentage stays at 2.9%.
+
+**What isn't changing:**
+- In-person tap, chip, and swipe: still 2.6% + 10¢
+- Chargeback fee: still $15
+- Monthly fee: still $0
+
+**Why:** The card networks raised their per-item charges on card-not-present volume last spring. We covered the difference for about ten months, but at current volumes that's no longer sustainable. The 5¢ is less than the increase we're absorbing, so we're not marking it up.
+
+**What it looks like:** On a $60 online order, the fee goes from $2.04 to $2.09. If you process 1,200 online orders a month, that's about $60 more per month. Merchants with mostly in-person sales will see little or no difference.
+
+**What you can do:** If your average online ticket is under $15, the fixed fee takes a larger share of each sale, and it may be worth setting a minimum order or steering small purchases to in-person or bundled options. Your March statement will show card-present and card-not-present fees on separate lines so you can see the split.
+
+If you'd rather move to interchange-plus pricing, reply to this message and we'll run your last three months of volume through both models so you can compare the actual numbers.
+
+Dana Okafor
+Merchant Billing, Tallgrass Payments
+billing@tallgrasspay.example

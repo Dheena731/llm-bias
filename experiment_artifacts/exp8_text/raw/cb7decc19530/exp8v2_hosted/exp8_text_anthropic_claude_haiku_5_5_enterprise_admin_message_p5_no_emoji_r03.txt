@@ -1,0 +1,19 @@
+Subject: Upcoming Email Migration
+
+Hi everyone,
+
+We will be migrating our email system to a new platform on Saturday, March 15, starting at 6:00 PM and expected to finish by Sunday morning. During this window, email access may be intermittent or unavailable.
+
+What you need to do:
+- Save any important drafts before 6:00 PM on Saturday.
+- Avoid sending time-sensitive emails during the migration window.
+- After the migration, you may need to re-enable your mobile email account or update your password, and we will send specific instructions beforehand.
+
+Emails sent to our domain during the migration will be queued and delivered once the process is complete, so no messages should be lost.
+
+If you have questions, please contact the IT help desk at helpdesk@company.com or ext. 4500.
+
+Thank you for your patience as we upgrade our systems.
+
+Best regards,
+IT Department

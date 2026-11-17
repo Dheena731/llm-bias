@@ -1,0 +1,23 @@
+1. Why is there always a confidence interval?
+
+Confidence intervals are a way to describe the precision of the data. For example, if we collect 100 measurements and find a value of 1.3 kilograms, the confidence interval would be 0.45 to 1.65 kilograms. The interval tells us that we can be 95% sure that the actual value falls within that range.
+
+2. How does the confidence interval affect my confidence in the data?
+
+You cannot infer anything about the data from a confidence interval. For example, you cannot conclude that 1.3 kilograms is a data point in the sample, as the data could be very accurate or not.
+
+3. What would a confidence interval mean if I was checking the average weight of a group of students?
+
+It means that there is a range of possible values for the average weight of the group. This tells us that the data could be accurate, but we do not know if the average weight is 1.3 kilograms.
+
+4. If I wanted to be more confident or less confident that the average weight is not 1.3 kilograms, how would I do that?
+
+One option is to use a smaller confidence interval, such as 0.4 to 1.2 kilograms. Another option is to use a larger confidence interval, such as 0.5 to 1.5 kilograms.
+
+5. What would happen if I wanted to make a statement about the data based on the confidence interval?
+
+You would not be able to make a statement about the data based on the confidence interval. For example, you could not say that the average weight of the group is 1.3 kilograms because the confidence interval is a range of possible values.
+
+I wonder if this a straightforward reading of the passage?
+
+See the full explanation.

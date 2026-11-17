@@ -1,0 +1,14 @@
+**Notice: Active spear-phishing attempts targeting vendor accounts and SSO logins**
+
+Over the past week, IT intercepted two distinct phishing campaigns that bypassed initial spam filtering:
+
+1. **Spoofed subcontractor payment updates:** Emails mimicking active engineering partners requesting updated ACH/wire instructions ahead of the mid-month billing run. The display names match legitimate contacts, but the reply-to address is hosted on lookalike domains (e.g., replacing `.com` with `.co` or adding an extraneous `-inc`).
+2. **Document review notices:** Messages formatted as standard DocuSign or SharePoint notifications that lead to a spoofed Okta sign-in page designed to harvest corporate credentials and session tokens.
+
+**Required steps:**
+
+* **Verify payment changes out-of-band:** Do not update banking, routing, or remittance details based on an email thread alone. Call the contact directly using the phone number already listed in our ERP/vendor master—not the phone number in the email signature or attached PDF.
+* **Inspect authentication prompts:** If an external link prompts you for an Okta MFA push you did not directly trigger, deny the request immediately. 
+* **Reporting:** Use the **Report Message** button in the Outlook ribbon. Do not forward suspicious emails to coworkers or the general Slack channels, as this strips the header metadata IT needs to block the sender tenant.
+
+Questions should go directly to the internal IT Helpdesk (ext. 4402).

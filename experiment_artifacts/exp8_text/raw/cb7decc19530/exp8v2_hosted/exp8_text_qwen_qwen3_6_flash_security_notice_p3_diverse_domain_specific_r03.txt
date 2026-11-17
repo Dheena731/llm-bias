@@ -1,0 +1,9 @@
+**Notice: Manual Screen Lock Required**
+
+Leaving your desk? Lock it. 
+
+One keystroke (`Win + L` / `⌃ + ⌘ + Q`) closes the gap between your chair being empty and your session being accessible. Automatic timeouts are inconsistent across lab terminals, VDI boxes, and remote clients. An unlocked workstation triggers audit flags, forces helpdesk intervention, and exposes your active directory session to whoever walks past. If your machine defaults to longer than 5 minutes of inactivity, change it—but don’t rely on it. 
+
+Manual lock is the only reliable control. Secure it before you step away, every time.
+
+*IT Operations*

@@ -1,0 +1,1 @@
+Click the Export button above the results table, then choose a file format such as CSV or Excel. The export includes all rows returned by the current query, not only those visible on screen.

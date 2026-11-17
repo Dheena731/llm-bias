@@ -1,0 +1,19 @@
+**SECURITY NOTICE: Stay Alert for Phishing Emails**
+
+**To All Staff,**
+
+We have recently seen an increase in targeted phishing attempts designed to compromise company data and credentials. Please remain vigilant when reviewing your inbox.
+
+**Common Red Flags:**
+* **Artificial Urgency:** Demands for immediate action, wire transfers, or gift cards (often pretending to be from executives).
+* **Mismatched Senders:** The sender name looks familiar, but the actual email address is unusual or misspelled.
+* **Suspicious Links or Attachments:** Unexpected invoices, password reset prompts, or links disguised as legitimate login portals.
+
+**What You Should Do:**
+1. **Think before you click:** Never click links or download attachments from unverified or unexpected sources.
+2. **Verify independently:** If a request seems unusual, contact the sender through a separate, known channel (like phone or Slack).
+3. **Report it:** Do not forward suspicious emails to colleagues. Use the **[Report Phishing]** button in your email client or notify IT immediately at **[IT Email/Extension]**.
+
+Thank you for helping keep our workplace secure.
+
+**The IT Security Team**

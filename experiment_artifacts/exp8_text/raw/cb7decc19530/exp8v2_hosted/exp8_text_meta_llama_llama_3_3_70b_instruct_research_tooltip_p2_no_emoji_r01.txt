@@ -1,0 +1,1 @@
+"A confidence interval represents the range of values within which a population parameter is likely to lie. It provides a margin of error around the estimated value, indicating the level of uncertainty in the measurement. For example, a 95% confidence interval means that if the study were repeated many times, the true value would fall within this range 95% of the time."

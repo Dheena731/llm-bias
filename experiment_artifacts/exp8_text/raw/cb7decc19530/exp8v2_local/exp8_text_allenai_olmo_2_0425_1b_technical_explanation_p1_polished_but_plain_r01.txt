@@ -1,0 +1,37 @@
+Don't apologize. Don't vouch for the content. Don't pretend that this is an official document and only the expert should read it. Don't try to cover every situation and edge case. Don't make assumptions about your audience or their knowledge.
+
+You can always add a link to your explanation that points to more background.
+
+If you want to see some examples of good and bad writing in web development, you can check out some of the out-of-print books I have reviewed:
+
+You can also check out the Stack Overflow documentation to get a good idea of the style of an answer.
+
+
+Many developers are familiar with the menu button on a web browser, and they will know how to get to it. A reader will not know the URL of the menu button or how to get to it.
+
+The text menu button is often just a link to a page containing the menu button.
+
+  • 1
+    "Many developers are familiar with the menu button on a web browser, and they will know how to get to it." Most developers will also understand that if this is the only place the menu button is, it's not there for the options it gives. – Amedee Van Gasse Feb 15 '19 at 5:39
+  • 1
+    @AmedeeVanGasse The "menu button" is an ambiguous term. It could be a link to a menu, a pop-up menu or a menu bar, and can refer to a number of features that are not generally considered menu buttons. I have edited the text to remove the ambiguity. – Beofett Feb 15 '19 at 14:40
+
+All web applications should be designed as flexible and extensible. This is a key principle in the 'web application' part of the 'web' domain.
+
+If a user doesn't like the implementation, the user should be able to change it. The same applies to design - it should be flexible and extensible. This is a core tenet of modern accessibility design.
+
+If a user cannot change the solution (or the design doesn't allow them to change it) then it isn't an acceptable solution.
+
+
+Just got to the bottom of the scrollbar. Do I have to scroll up all the way to the top of the page text to read and understand what the page is about?
+
+Yes, that is what it means to have a scollable page.
+
+If scollable pages are useless, then I suggest you stop with the "web" domain, and just stick with "user interface".
+
+
+What is the first thing that comes to mind when I read this sentence?
+
+See this XKCD comic: https://xkcd.com/1623/
+
+Your Answer

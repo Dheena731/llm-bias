@@ -1,0 +1,111 @@
+IRC Client
+
+Use the "IRC" tag to declare your IRC client.
+
+Do not use Markdown formatting.
+
+Private Pages
+
+You can have private pages that are not linked from the main piano website. The URLs for these pages will end in "private.html".
+
+Do not use Markdown formatting.
+
+Image Links
+
+Use the "Image Links" tag to declare the images you want to create.
+
+Do not use Markdown formatting.
+
+Emoticons and IM Icons
+
+You can use HTML smileys and IM icons for the people in your group.
+
+To create a smiley, start with a ":". Next, put the character you want to use as a smiley for the person. The middle number is the "weight" of the smiley. You can make it lighter or darker by using negative numbers. End the tag with a :.
+
+To create an IM icon, start with an @. The weight is not important.
+
+Rhythm Music
+
+You can write out textbook rhythm charts and play them back. For the rhythms you want to put in, use the "Rhythm Music" tag.
+
+Do not use Markdown formatting.
+
+List of Characters and Groups
+
+You can create a list of characters and groups if you would like to use it. To create a list, start with an asterisk. Next, give the number of characters or groups that will be in the list. For groups, there is a space between the "g" and the number.
+
+Do not use Markdown formatting.
+
+Wiki (Piano Wiki)
+
+Use the "Wiki" tag to create a Wiki document related to your piano.
+
+Do not use Markdown formatting.
+
+Links Within the Site
+
+Use "URL" to create links within the site. You don't have to end the link with the URL. You can also click the "Add URL" button to add other URLs.
+
+Do not use Markdown formatting.
+
+Private Pages
+
+You can have private pages that are not linked from the main piano website. The URL for these pages will end in "private.html".
+
+Do not use Markdown formatting.
+
+Image Links
+
+You can use HTML smileys and IM icons for the people in your group.
+
+To create a smiley, start with a ":". Next, put the character you want to use as a smiley for the person. The middle number is the "weight" of the smiley. You can make it lighter or darker by using negative numbers. End the tag with a :.
+
+To create an IM icon, start with an @. The weight is not important.
+
+
+To add RSS feeds, you must use the "[RSS] Tag" to declare the RSS feeds.
+
+Do not use Markdown formatting.
+
+Wiki (Piano Wiki)
+
+Use "Wiki" to create a Wiki document related to your piano.
+
+Do not use Markdown formatting.
+
+Command Line
+
+Create a command for any command that you want to use. You must use the commands "Set" and "Do" to do what you want.
+
+Do not use Markdown formatting.
+
+Emoticons and IM Icons
+
+Use HTML smileys and IM icons for the people in your group.
+
+
+Use the "[IT] Tag" to declare your IM client.
+
+Do not use Markdown formatting.
+
+List of Characters and Groups
+
+You can create a list of characters and groups if you would like to use it. To create a list, start with an asterisk. Next, give the number of characters or groups that will be in the list. For groups, there is a space between the "g" and the number.
+
+Do not use Markdown formatting.
+
+Wiki (Piano Wiki)
+
+You can use "Wiki" to create a Wiki document related to your piano.
+
+Do not use Markdown formatting.
+
+Command Line
+
+Create a command for your command line.
+
+Do not use Markdown formatting.
+
+Emoticons and IM Icons
+
+Use HTML smileys and IM icons for the people

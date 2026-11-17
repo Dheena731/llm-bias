@@ -1,0 +1,16 @@
+**Security Reminder: Stop the Domino Effect—Don’t Reuse Passwords**
+
+**Did you know?** Reusing the same password across multiple accounts is one of the easiest ways for cybercriminals to compromise our company network. 
+
+If a personal website you use (like a shopping or social media site) experiences a data breach, attackers will immediately try those same login details on your work email and internal accounts. **One breach shouldn't unlock everything.**
+
+**Best Practices to Keep Us Secure:**
+* **Keep work and personal separate:** Never use your work email or password for personal accounts.
+* **Make them unique:** Every account must have its own distinct password or passphrase.
+* **Use a Password Manager:** Don't rely on memory or sticky notes. Use the company-approved password manager (*[Insert Tool Name, e.g., 1Password / Bitwarden]*) to generate and store complex passwords safely.
+
+If you suspect one of your passwords has been compromised, please change it immediately and report it to the IT Security Team at **[Contact Info]**.
+
+Thank you for doing your part to keep our workplace secure!
+
+**— IT & Information Security Team**

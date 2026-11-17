@@ -1,0 +1,1 @@
+This range shows the margin of uncertainty around the estimate, indicating where the true value is likely to fall based on the data. A narrower range reflects greater certainty.

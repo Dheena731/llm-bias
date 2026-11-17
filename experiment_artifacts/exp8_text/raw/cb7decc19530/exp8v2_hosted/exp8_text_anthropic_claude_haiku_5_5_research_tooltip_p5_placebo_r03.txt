@@ -1,0 +1,1 @@
+**Export results:** Select **Export**, choose a file format such as CSV, and the file downloads with the results of the current query.

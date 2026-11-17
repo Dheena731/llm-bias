@@ -1,0 +1,1 @@
+This date-range selector allows you to choose a specific period of time. By selecting a start and end date, you can narrow down your search or filter your results to a particular time frame.

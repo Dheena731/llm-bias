@@ -1,0 +1,1 @@
+Indicates that data is missing, unknown, or not applicable.

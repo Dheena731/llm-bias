@@ -1,0 +1,12 @@
+**Update: Changes to expense routing live Monday**
+
+To fix the approval bottlenecks holding up month-end close, we’ve updated the routing rules in the expense portal starting Monday, October 14. 
+
+Here is what changes for submitters and approvers:
+
+* **Under $1,000:** Routes only to your direct manager. No finance sign-off required if an itemized receipt and cost center are attached.
+* **$1,000 – $7,500:** Direct manager, then automatically routed to your department head.
+* **Software & subscriptions (any amount):** Now automatically flags IT Procurement for duplicate license checks before hitting Finance.
+* **48-hour auto-escalation:** If a manager doesn’t review a report within two business days, it skips to their direct skip-level so reimbursements don’t stall during PTO.
+
+**Cutover note:** Any reports submitted before 5:00 PM this Friday will process under the legacy workflow. Unsubmitted drafts will need to be re-saved on Monday to pick up the new cost-center fields.

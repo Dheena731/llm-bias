@@ -1,0 +1,1 @@
+This date-range selector allows you to choose a specific period of time for filtering or other purposes. By selecting a start date and an end date, you can narrow down the data or results to the time frame you need. The dates can be set using the calendar or by manually entering them in the format MM/DD/YYYY.

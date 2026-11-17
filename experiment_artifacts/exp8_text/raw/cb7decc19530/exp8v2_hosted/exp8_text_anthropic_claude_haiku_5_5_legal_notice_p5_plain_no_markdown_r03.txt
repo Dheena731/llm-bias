@@ -1,0 +1,15 @@
+ACCEPTABLE USE NOTICE FOR THE SHARED NETWORK
+
+This notice governs access to and use of the shared network provided by the organization to its employees, contractors, students, and other authorized users (each, a "User"). By connecting a device to the network or using any network resource, a User agrees to comply with this notice in full.
+
+The network is provided for lawful, work-related, educational, and other purposes authorized by the organization. Limited personal use is permitted so long as it does not interfere with the network's performance, the work of others, or the User's professional responsibilities, and so long as it does not violate any provision of this notice or applicable law.
+
+Users must not use the network to access, store, transmit, or distribute material that is unlawful, defamatory, harassing, obscene, or that infringes the intellectual property or privacy rights of any person. Users must not attempt to bypass security controls, probe or scan other systems, introduce malicious software, or access accounts, files, or data belonging to others without authorization. Users must not engage in activities that degrade network performance for other users, including excessive bandwidth consumption, unauthorized file sharing, or running unapproved servers.
+
+Users are responsible for safeguarding their login credentials and must not share them with any other person. Users must report any suspected security incident, lost device, or unauthorized access to the designated information technology contact without delay.
+
+The organization may monitor, log, and review network activity, including traffic, stored files, and communications transmitted over its systems, to the extent permitted by law and for purposes of security, maintenance, legal compliance, and enforcement of this notice. Users should have no expectation of privacy in their use of organization-owned network resources.
+
+Violation of this notice may result in suspension of network access, disciplinary action up to and including termination of employment or enrollment, and referral to law enforcement or other authorities where appropriate. The organization reserves the right to amend this notice at any time, and continued use of the network following notice of an amendment constitutes acceptance of the amended terms.
+
+Questions regarding this notice should be directed to the information technology department. This notice is effective as of its date of publication and supersedes all prior acceptable use policies for the shared network.

@@ -1,0 +1,14 @@
+Subject: Scheduled Dashboard Maintenance This Saturday
+
+Hello team,
+
+We will be performing scheduled maintenance on the analytics dashboard this Saturday, May 17, from 10:00 PM to 1:00 AM (UTC). During this window, the dashboard will be unavailable while we apply system updates and performance improvements.
+
+Please plan accordingly and save any work in progress before the maintenance begins. Scheduled reports will be delayed but will not be lost, and they will run automatically once the system is back online.
+
+If you experience any issues after the maintenance window, please contact the IT Help Desk at helpdesk@company.com or extension 4500.
+
+Thank you for your patience and understanding.
+
+Best regards,
+System Administration Team

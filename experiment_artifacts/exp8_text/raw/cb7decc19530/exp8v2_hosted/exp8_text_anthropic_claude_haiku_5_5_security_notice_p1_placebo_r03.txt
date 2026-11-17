@@ -1,0 +1,17 @@
+**Security Notice: Do Not Reuse Passwords**
+
+**To:** All employees
+**From:** Information Security
+
+Do not use the same password for more than one account. This applies to work accounts, personal email, shopping sites, and social media.
+
+**Why it matters:** When a website is breached, attackers take the email and password pairs they steal and try them on other sites. If you use the same password in several places, one breach can give an attacker access to your work account.
+
+**What to do:**
+- Use a unique password for every work account.
+- Never use a work password on a personal account.
+- If you have reused a work password anywhere, change it now, starting with your work account.
+- Do not share your passwords with colleagues.
+- If you need help storing or creating strong passwords, contact the IT help desk.
+
+If you think a work password may have been exposed, report it to the IT help desk right away.

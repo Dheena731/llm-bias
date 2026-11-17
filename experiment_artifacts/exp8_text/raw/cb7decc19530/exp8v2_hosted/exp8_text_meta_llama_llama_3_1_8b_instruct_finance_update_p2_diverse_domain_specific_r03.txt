@@ -1,0 +1,18 @@
+Here is a note explaining a change to card transaction fees, tailored to a specific domain and written in a clear and distinct voice:
+
+**Important Update: Card Transaction Fees for Online Education Platform Providers**
+
+As of [effective date], we are implementing a change to our card transaction fees for online education platform providers who use our payment gateway. This update affects all providers who process payments through our system.
+
+**Current Rate:** Our current rate for card transaction fees is [current rate], which is applied to all transactions processed through our platform.
+
+**New Rate:** As of [effective date], our new rate for card transaction fees will be [new rate]. This new rate will apply to all transactions processed through our platform, effective immediately.
+
+**What This Means:** This change will result in a [briefly describe the impact of the rate change, e.g. "small decrease" or "moderate increase"] in the fees you pay for each transaction. We believe this new rate better reflects the costs associated with processing card transactions and will allow us to continue investing in our platform to support your online education initiatives.
+
+**No Action Required:** If you are currently using our payment gateway, you do not need to take any action to update your account information. Our system will automatically apply the new rate to all transactions processed after [effective date].
+
+If you have any questions or concerns, please don't hesitate to reach out to our support team. We're always here to help.
+
+Best regards,
+[Your Name/Company]

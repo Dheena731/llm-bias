@@ -1,0 +1,81 @@
+Before we get started, it would be wise to remind them of the points we noted a few pages back.
+
+To remind them of the points above.
+
+Start by telling them, “At the end of this section, you will be able to see all of your athletic progress in the table.”
+
+In the table, we will have two axes, left to right and top to bottom. The key concepts we want to highlight for our end users are:
+
+  • Overall Athletic Progress (Overall Average and Overall Percent)
+  • Bench Press Progress (Beck Press, Bench Press, Bench Press Percent)
+
+We will then explain:
+
+
+Now that we know what we are aiming to show to our users, let’s look at the table structure.
+
+table structure
+
+As you can see, the table is a stacked bar chart. In a basic bar chart, the data is displayed as separate bars all stacked on top of each other.
+
+In the case of a stacked bar chart, the labels are placed below and parallel to the axis. The data is still calculated based on the total values in the range.
+
+The difference between stacked and regular bar charts is that in a regular bar chart, the values are shown as separate bars with the bar height representing the value.
+
+In a stacked bar chart, the bars are still connected to the axis, but the value is represented by the height of the bar. This allows us to show a greater range of values on a single graph.
+
+
+Below is what the table would look like for the above example.
+
+table structure
+
+To create the table structure, we first need to create a new template.
+
+We create the template using the following guidelines:
+
+  1. Make sure to change the template name to match the name you gave to your dataset.
+    • Note that the dataset name is case sensitive. Make sure that the name you give to your dataset is the same as the template name.
+  2. Set the “General” category to be the value you want to sum up for each row.
+  3. Set the “Label” category to be the name of your dataset.
+  4. Set the “Report” category to be the name of your dataset.
+  5. Set the “Display” category to be the name of your dataset.
+
+To create the table structure for the example above, we need:
+
+  • 4 rows
+  • 4 columns
+  • 4 categories (General, Label, Report, Display)
+
+Below is what the table structure would look like for the above example.
+
+table structure
+
+Instead of telling the user what the categories are, we’ll actually show the categories in the table by using a percentage.
+
+To do so, we’ll need to create a custom theme. First, we’ll create a new theme:
+
+To create a custom theme, we’ll need to use the following guidelines:
+
+  1. Make sure your new theme name is the same as the name you gave to your dataset.
+  2. Set the “General” category to be the value you want to sum up for each row.
+  3. Set the “Label” category to be the name of your dataset.
+  4. Set the “Report” category to be the name of your dataset.
+  5. Set the “Display” category to be the name of your dataset.
+
+Below is what the table structure would look like for the example above, but using a percentage instead of a label.
+
+table structure
+
+Below is the table structure we used for the above example.
+
+table structure
+
+Let’s look at the table structure we used for the above example.
+
+table structure
+
+Let’s look at the table structure we used for the above example, but using a percentage instead of a label.
+
+table structure
+
+Let’s look at the table structure we used for the above

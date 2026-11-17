@@ -1,0 +1,59 @@
+Here are a few options depending on the nature of the change. Choose the one that best fits your situation and fill in the bracketed information.
+
+### Option 1: Standard Update (Improved features/security)
+
+**Subject:** 🚀 Update: New VPN Client Release Available
+
+Hi Team,
+
+We are rolling out an update to the company VPN client (**Version [X.X]**). This update includes improved connection stability, enhanced security protocols, and performance optimizations.
+
+**Action Required:**
+Please download and install the latest version by **[Date/Time]**. You can find the installer here: **[Link to Download]**.
+
+If you experience any issues after updating, please contact **[Support Email/Ticket Link]**.
+
+Thank you,
+**[Your Name/IT Department]**
+
+***
+
+### Option 2: Mandatory Migration (Old version being retired)
+
+**Subject:** ⚠️ Action Required: VPN Client Migration by [Date]
+
+Hi Everyone,
+
+As part of our ongoing security upgrades, we are deprecating the current VPN client. All users must migrate to the new client, **[Name of New Client]**, effective **[Date]**.
+
+The old client will cease to function on **[Date]**.
+
+**Next Steps:**
+1. Download the new client: **[Link to Download]**.
+2. Install and log in using your existing credentials.
+3. Verify your connection before the deadline.
+
+For assistance, visit **[Knowledge Base Link]** or reply to this email.
+
+Best regards,
+**[Your Name/IT Department]**
+
+***
+
+### Option 3: Short/Internal Chat Announcement (Slack/Teams)
+
+**Header:** 📢 **VPN Client Update**
+
+Team, a new version of the VPN client is available! This update fixes **[briefly mention key fix, e.g., the connectivity issue]** and boosts speed.
+
+👉 **Download here:** [Link]
+🔄 **Please update by:** [Date/Time]
+
+Let us know if you hit any snags! 💻🔒
+
+***
+
+**💡 Tips for sending:**
+*   **Include the OS versions:** Mention if the update applies to Windows, macOS, Linux, or mobile devices.
+*   **Highlight the "Why":** Users are more likely to act quickly if they know how the change benefits them (security vs. speed).
+*   **Provide support links:** Ensure the help desk info is prominent to reduce ticket volume.

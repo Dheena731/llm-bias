@@ -1,0 +1,9 @@
+**Subject: Action Required: Transition to New VPN Client**
+
+Please be advised that we are upgrading our remote access system to a new VPN client, [New VPN Client Name]. 
+
+Effective [Date], the current client ([Old VPN Client Name]) will be decommissioned and will no longer connect to the corporate network. 
+
+Please install and set up the new client prior to the deadline by following the instructions available here: [Link to Guide]
+
+If you encounter any issues during the installation process, please submit a ticket to the IT Help Desk at [Contact Information].

@@ -1,0 +1,12 @@
+Every uncached request makes your server redo work it has already done. A product page might need three SQL queries, a call to a pricing service, and a template render, about 300 ms in total. If 10,000 people ask for that page in an hour and nothing has changed, the server has produced the same HTML 10,000 times. Caching keeps the first result and hands it back.
+
+It happens at several layers, each saving a different cost:
+
+- **Browser cache.** A response with `Cache-Control: max-age=31536000` on a fingerprinted file like `app.3f9a1c.js` is never requested again. There is no network round trip at all, which is the fastest outcome possible. For files that might change, an `ETag` lets the browser ask "still the same?" and get a tiny `304 Not Modified` instead of the full file.
+- **CDN or edge cache.** A copy of the page sits in a data center near the visitor. A user in Lagos gets it from a nearby node instead of waiting on a 150 ms trip to your origin in Virginia, and your origin never sees the request.
+- **Application cache.** Redis or Memcached holds expensive results, such as a rendered sidebar or the output of a slow aggregate query, so they are computed once and reused for the next few minutes.
+- **Database cache.** The database keeps frequently read pages in memory, so repeated queries skip the disk.
+
+Besides lowering response time, this reduces load. When most requests are answered before they reach the origin, a small server can survive a traffic spike that would otherwise knock it over.
+
+The cost is staleness. A cached copy is correct only until the underlying data changes, so you have to choose between short expiry times, explicit purging when content is edited, or accepting that some users see old prices for a few minutes. Most real caching problems come from this tradeoff, not from the caching itself.

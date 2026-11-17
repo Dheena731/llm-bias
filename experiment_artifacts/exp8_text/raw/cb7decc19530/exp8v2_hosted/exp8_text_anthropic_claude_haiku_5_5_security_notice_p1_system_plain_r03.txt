@@ -1,0 +1,11 @@
+Subject: Reminder to Avoid Password Reuse
+
+All staff are reminded not to use the same password for work accounts and personal accounts, and never to reuse a password across multiple work systems. When one service suffers a data breach, attackers routinely test leaked credentials against other sites and applications. A password that is reused in even one place can give an attacker a path into company systems and sensitive information.
+
+Please create a unique password for every work account. A passphrase of four or more random words, or a password generated and stored in the approved password manager, meets our standard. Do not write passwords on paper, save them in browsers on shared machines, or send them by email or chat.
+
+Enable multi-factor authentication wherever it is offered, particularly for email, VPN access, and any system that holds customer or financial data. If you believe a password has been exposed or used elsewhere, change it immediately and report the incident to the IT Security team at once.
+
+Questions about approved tools or setup assistance can be directed to the IT Service Desk.
+
+IT Security Team

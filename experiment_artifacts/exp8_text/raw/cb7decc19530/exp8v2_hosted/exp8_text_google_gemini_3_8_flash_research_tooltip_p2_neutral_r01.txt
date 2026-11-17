@@ -1,0 +1,13 @@
+Here is a concise tooltip for a general audience:
+
+> **Confidence Interval:** The range where the true value is likely to fall, accounting for uncertainty.
+
+***
+
+**Alternative options based on your audience:**
+
+* **Plain English (Ultra-short):**  
+  *“The expected range for this value based on the margin of error.”*
+
+* **Slightly more technical (95% standard):**  
+  *“We are 95% confident the true value falls within this range.”*

@@ -1,0 +1,1 @@
+This shaded area represents a confidence interval, indicating the range of values within which we expect the true value to lie with a certain level of probability, in this case 95 percent, giving an idea of the reliability of the estimate.

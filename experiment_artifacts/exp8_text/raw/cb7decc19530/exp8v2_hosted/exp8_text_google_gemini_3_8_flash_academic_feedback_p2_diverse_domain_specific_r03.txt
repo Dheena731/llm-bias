@@ -1,0 +1,8 @@
+Maya—the overall experimental logic is sound, but this reads too much like a bench protocol and not enough like an archival methods section. A few technical corrections needed before you submit the revision:
+
+1. **Antibody reporting:** In the immunocytochemistry subsection, you cite "anti-GFAP (1:500)" and "anti-NeuN (1:1000)." You must include the host species, clonality (and clone ID if monoclonal), manufacturer, and catalog/RRID numbers. Without these, no one can replicate the staining. 
+2. **Replicate ambiguity:** In paragraph 3, you write that conditions were "tested in triplicate." Be explicit about whether these were technical replicates within a single plate or true biological replicates drawn from distinct litters/harvests ($N$ vs. $n$). This directly impacts the validity of the two-way ANOVA you ran later.
+3. **Volume vs. concentration:** Drop the lab-manual phrasing (e.g., *"added 15 µL of stop solution"*). State final working concentrations and actual vessel parameters instead. Volumes alone are meaningless without the culture surface area and total well volume.
+4. **Fixation parameters:** Specify temperature and duration for the 4% PFA step. An ambient 15-minute fix yields different antigen availability than an overnight fix at 4°C, which matters for the nuclear targets you're probing.
+
+Tighten the passive voice, cut the step-by-step instructional tone, and send me the revised text once the antibody specs are filled in.

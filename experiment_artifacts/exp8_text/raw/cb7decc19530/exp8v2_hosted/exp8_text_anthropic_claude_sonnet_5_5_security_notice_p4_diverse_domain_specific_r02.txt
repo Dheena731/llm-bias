@@ -1,0 +1,20 @@
+**Subject: Two-factor sign-in required for firm email, starting March 17**
+
+Starting **Monday, March 17**, you'll need a six-digit code in addition to your password when you sign in to firm email from a new device or browser. Accounts not enrolled by then will be locked until they are. Nothing is lost, but you'll need to call us to get back in.
+
+**Set it up (about five minutes)**
+
+1. Install an authenticator app on your phone. Microsoft Authenticator, Google Authenticator, and 1Password all work.
+2. On your computer, go to **account.harlowpike.example/security** and choose **Add sign-in method**.
+3. Scan the QR code with the app, then type in the code it shows to confirm.
+4. Download your **recovery codes** and print them. Keep the printout somewhere other than your inbox, since you'd need the inbox to find them.
+
+**Please avoid text-message codes** unless you don't have a smartphone. Phone numbers can be hijacked through the carrier, and we've seen it happen to clients.
+
+**Before you replace or reset a phone**, move the authenticator account to the new one first. Both apps above have a transfer option. If you wipe the old phone first, you'll need a recovery code.
+
+**Lost your phone or locked out?** Call the help desk at ext. 214. We'll call you back on the number we have on file before resetting anything. We will never ask for a code over email or chat, and neither should anyone claiming to be from IT.
+
+Questions or trouble with setup? Stop by the IT desk on Thursdays between 10 and 12, or write to helpdesk@harlowpike.example.
+
+— Dana Okafor, IT

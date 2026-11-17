@@ -1,0 +1,5 @@
+Overall, this is a strong draft. You have laid out the experimental procedure clearly and in logical chronological order, which makes the general workflow easy to follow. 
+
+To improve this section, focus on replicability. Please add more specific details regarding your sample selection criteria and sample size justification. Additionally, be sure to explicitly state the software and statistical tests you will use to analyze the collected data. Addressing these gaps will ensure another researcher could duplicate your study accurately. 
+
+Keep up the good work.

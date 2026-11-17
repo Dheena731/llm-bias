@@ -1,0 +1,14 @@
+**Subject: Card-not-present pricing moves to interchange-plus on 1 March**
+
+Starting with transactions settled on or after 1 March, online, keyed, and invoice-link payments will move from our flat 2.9% + 30¢ to interchange-plus. You'll pay the card network's interchange and assessment fees at cost, plus 0.50% + 15¢ from us. In-person card-present pricing is not changing, and neither is the $15 dispute fee.
+
+**Why we're changing it**
+
+A flat rate only works if your card mix stays average. Over the past year, most of your volume has shifted to debit and other low-interchange cards. Regulated debit costs roughly 0.05% + 22¢ in interchange, while premium rewards and corporate cards run well above 2%. Under the flat rate, the cheap cards were covering the expensive ones. Interchange-plus stops that, and it lets you see what each card type actually costs.
+
+**What it looks like on an $80 sale**
+
+| Card type | Flat rate (now) | Interchange-plus (from 1 March) |
+|---|---|---|
+| Regulated debit | $2.62 | about $0.92 |
+|

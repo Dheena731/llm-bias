@@ -1,0 +1,18 @@
+**Lost or Stolen Laptop: Report It Within 2 Hours**
+
+If you can't find your company laptop, or think it's been stolen, report it to IT right away. Every hour it stays unreported is an hour someone could try to reach our network or the files on it.
+
+**Do this now:**
+
+1. **Call the IT Service Desk at x4417** (24/7). Don't wait until you've searched the office again. Email is fine for follow-up, but the call starts the device lock.
+2. **Have these details ready:**
+   - Asset tag (the white sticker on the underside, format LT-XXXX)
+   - Last place and time you had it
+   - Whether you were logged in, and whether you were on VPN
+   - Anything on it that's not synced to OneDrive or SharePoint
+3. **If it was stolen,** file a police report and get the case number. We need it for the insurance claim and the asset write-off.
+4. **Don't try to wipe it yourself.** IT will issue a remote wipe and revoke your sessions. Doing it on your own can break the audit trail we need.
+
+**What happens next:** IT will lock the device and disable its certificates within 30 minutes of your call. If the laptop is recovered, bring it to the service desk unopened so we can check it before it's reissued. Your manager will get a copy of the incident ticket.
+
+Questions about this process: itsupport@northlinegroup.com

@@ -1,0 +1,7 @@
+**Introducing: LedgerSheet Budget Template**
+
+Most budget spreadsheets fracture the moment you insert a transaction row or try to cross-check against a bank statement. They also lock you into rigid categories that don’t match how you actually spend.
+
+LedgerSheet is built for people who track their own numbers and refuse to outsource the math. The workbook uses structured tables and dynamic named ranges so formulas automatically adjust when you add months, merge accounts, or reclassify expenses. Committed costs sit separate from discretionary cash, with automatic month-end rollover that shows spendable balance before the next cycle starts. A dedicated reconciliation tab flags mismatches between your logged entries and statement totals, while sinking fund and debt payoff trackers calculate progress from actual principal paid down, not aspirational targets. Everything runs on transparent, auditable formulas. No macros, no third-party connectors, no hidden logic.
+
+Open the sheet, paste your last statement, swap the default names for your accounts, and see exactly where your take-home pay lands each month. Licensed for personal use. Grab the copy-ready file here: [link]

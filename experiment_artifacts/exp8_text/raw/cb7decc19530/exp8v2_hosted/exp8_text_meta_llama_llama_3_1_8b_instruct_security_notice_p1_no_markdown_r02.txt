@@ -1,0 +1,15 @@
+**Important Security Reminder**
+
+As part of our ongoing efforts to maintain the security and integrity of our company's data, we would like to remind all employees of the importance of maintaining unique and strong passwords.
+
+Using the same password across multiple accounts, also known as password reuse, poses a significant risk to our organization's security. If one of your accounts is compromised, an attacker could potentially gain access to all of your accounts that use the same password.
+
+To help protect our company's data, please take the following steps:
+
+* Use a unique password for each account, including your network login, email, and any other sensitive systems.
+* Avoid using easily guessable information, such as your name, birthdate, or common words.
+* Consider using a password manager to generate and store unique, complex passwords.
+
+If you have any questions or concerns about password security, please reach out to our IT department for assistance.
+
+Thank you for your cooperation and help in maintaining the security of our company's data.

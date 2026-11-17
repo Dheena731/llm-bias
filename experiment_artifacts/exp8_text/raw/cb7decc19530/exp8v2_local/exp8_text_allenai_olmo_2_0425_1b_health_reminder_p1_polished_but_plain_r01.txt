@@ -1,0 +1,3 @@
+Do not use headings, bold text, or italics for emphasis within code, or for titles. You may use bold and italic text for highlighting code.
+
+Do not use images in your posts. If you feel the need to include raw code, use a monotype font and bullet points. Try to create good quality images by using the “Insert image” button in the editor. Make sure to put the code where it will be visible to users.

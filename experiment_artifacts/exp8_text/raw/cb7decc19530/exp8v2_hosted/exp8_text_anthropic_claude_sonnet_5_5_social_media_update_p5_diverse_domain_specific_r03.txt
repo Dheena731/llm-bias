@@ -1,0 +1,13 @@
+**Tabletop status update**
+
+From 6:12 to 6:49 p.m. ET tonight, the reservation book wouldn't load for hosts, and some diners saw "no tables available" on a Friday night. That's our fault, and we know what it costs you at the door.
+
+The cause was a database change we pushed at 6:00 p.m. that locked the bookings table far longer than it did in testing. We rolled it back at 6:41.
+
+No confirmed reservations were lost or double-booked. Any bookings that failed during the window are under **Activity → Retry** so you can re-send them to guests.
+
+We're no longer running migrations during service hours. A full write-up will be posted Monday.
+
+---
+
+I assumed a restaurant reservation platform since you didn't name a domain. Tell me the product and audience (payroll, ticketing, a game server, etc.) and I'll rework the details and tone to fit.

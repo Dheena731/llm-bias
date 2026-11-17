@@ -1,0 +1,62 @@
+   As mentioned above, if the monthly spending summary is merely giving a breakdown of the previous months' spending, with a few new line items, this is not an official spending summary. Rather, this is a month-to-month spending budget, which is the most basic form of a spending budget.
+
+  2. Add a column to your monthly spending summary to allow for a line item for a recurring monthly spending.
+
+  3. Add a column to your monthly spending summary to allow for a line item for variable monthly spending.
+
+  4. Add a column to your monthly spending summary to allow for a line item for immediate spending.
+    Add one column to your monthly spending summary to allow for a line item for immediate spending. You can name the column any way you choose, but this example uses the column name "Immediate Spending" to refer to the line items that fall under this heading. This is a very simple column to add to your monthly spending summary. To add this column:
+
+    1. Log into your Money Dashboard account.
+
+    2. Click the "Spending" tab.
+
+    3. Click the "Spending Summary" button.
+
+    4. Create a new column by clicking the "Add a column" button next to the "Income" heading.
+
+    5. Name your column "Immediate Spending" (or whatever you'd like).
+
+    6. Click "Save". Your new column is now available on the monthly spending summary.
+
+  5. Add a column for fixed variable monthly spending. Add a column for variable monthly spending.
+
+  6. Add a column for variable immediate spending. Add a column for immediate spending.
+
+  7. Add a column for fixed immediate spending. Add a column for immediate spending.
+
+    1. Log into your Money Dashboard account.
+
+    2. Click the "Spending" tab.
+
+    3. Click the "Spending Summary" button.
+
+    4. Click "Add a column" next to the "Immediate Spending" heading.
+
+    5. Name the column "Immediate Spending" (or whatever you'd like), and click "Save".
+
+    6. Repeat this process for all three columns you added above.
+
+Once you have all your columns in place, you can monitor your spending in real time.
+
+Monitor your monthly spending summary in real time
+
+This section will outline how you can monitor your spending in real time using your monthly spending summary. The specific steps for this will differ slightly depending on which method you use to generate your monthly spending summary.
+
+  1. Generate your monthly spending summary. As explained above, you can view your monthly spending summary in one of two ways:
+
+    • Annual Spending Summary option: Generate an annual spending summary and then click "View" to see a monthly version of the summary. This is the most basic way to view your spending in real time.
+
+    • Monthly Spending Summary option: This option generates monthly spending summaries directly in the Money Dashboard. You can download the summary to your computer, or it can be viewed using third-party online tools such as a spreadsheet program.
+
+  2. View your spending in real time. Once your monthly spending summary is generated, you can instantly view your spending in real time by clicking the weekly summary button on the left-hand side of the page. The summary will be refreshed each time you click the button. You can use the summary to monitor your spending in real time.
+
+  3. Monitor your spending in real time. To monitor your spending in real time:
+
+    1. Click the "View" button below the summary.
+
+    2. If you are viewing your monthly spending summary, click the weekly button.
+
+    3. If you are viewing your annual spending summary, click the weekly button.
+
+    

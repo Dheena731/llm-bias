@@ -1,0 +1,19 @@
+**Monthly spending summary: what it is and how it counts**
+
+On the 1st of each month, you'll now get a one-page summary of the month that just ended. A few details on how it works:
+
+**What's counted**
+- Credit card payments and transfers between your own accounts are left out of "total spent." Otherwise a $1,200 card payment would count on top of the purchases it covers.
+- Refunds are subtracted from the category of the original purchase, not shown as income. A returned $80 jacket reduces Clothing by $80.
+- Transactions still pending at midnight on the last day move to the next summary and are marked as carried over.
+
+**What you'll see**
+- Your five largest categories, compared with your median for the previous three months rather than last month alone. One annual insurance bill shouldn't make every other month look cheap.
+- Recurring charges (rent, subscriptions, utilities) separated from one-off spending, so you can see what's fixed and what isn't.
+- Up to three items under "Worth a look": a merchant you haven't paid before, a recurring charge that went up, or two charges from the same place within a week.
+
+**What it doesn't do**
+It doesn't grade you, assign a score, or suggest a budget. It's a record of the month.
+
+**If something looks off**
+Recategorizing a transaction updates that month's summary until the 5th. After that, the summary is frozen so the numbers don't change after you've read them. You can change the delivery day or turn the summary off under Settings → Notifications.

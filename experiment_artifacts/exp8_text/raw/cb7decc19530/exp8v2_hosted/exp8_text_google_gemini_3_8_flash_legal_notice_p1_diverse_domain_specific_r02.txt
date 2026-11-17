@@ -1,0 +1,28 @@
+**NOTICE OF UNILATERAL AMENDMENT TO MASTER SERVICES AGREEMENT (ENTERPRISE DATA INFRASTRUCTURE)**
+
+**To:** Commercial Account Administrators and Authorized Representatives  
+**Effective Date:** November 14, 2024  
+**Governing Instrument:** Master Infrastructure Services Agreement (MISA), Rev. 2022-B  
+
+Pursuant to Section 18.3 (*Modifications; Regulatory and Technical Addenda*) of the MISA, notice is hereby given that Apex Routing Systems, Inc. (“Apex”) is updating the operational and financial terms governing all provisioned Edge Ingestion, High-Concurrency Transit, and Cold Partition Accounts.
+
+The following revisions take effect automatically on the Effective Date:
+
+### 1. Ingress Overflow and Throttling Protocols (Amending Schedule B, § 4.2)
+The permitted burst-allowance threshold across dedicated ingress nodes is revised from 140% to 115% of contracted baseline throughput per sliding 60-minute window. Data ingress exceeding 115% will no longer be buffered down-pipe; excess payloads will receive immediate `429 Too Many Requests` status codes unless the Account has active, written pre-authorization under an Enterprise Scaled Rider.
+
+### 2. Billing Cycle Compression for Metered Compute (Amending Schedule D, § 2.1)
+For accounts utilizing dynamic elasticity clusters, the post-billing reconciliation window is reduced from forty-five (45) calendar days to twenty (20) calendar days following month-end close. Disputed metered utilization line items must be formally lodged via a signed Statement of Exceptions within ten (10) business days of invoice transmission; failure to timely file constitutes an irrevocable waiver of disputation for that billing cycle.
+
+### 3. Ephemeral Cache Retention and Deprecation (Amending Appendix E, § 1.8)
+Hot-state transient cache retention SLA is reduced from seventy-two (72) hours to twenty-four (24) hours across all shared tier topologies. Apex disclaims all liability for down-stream processing failures resulting from third-party reliance on unpersisted cache beyond the 24-hour horizon.
+
+---
+
+### Action Required; Deemed Acceptance
+If you object to these amended terms, you must deliver written notice of termination under Section 12.2 of the MISA to `contracts-administration@apexrouting.internal` no later than 23:59 UTC on November 13, 2024. 
+
+**Continued transmission of API payloads, invocation of routing endpoints, or maintenance of provisioned compute reservations on or after the Effective Date constitutes unconditional acceptance of the revised terms.**
+
+*Apex Routing Systems, Inc.  
+Office of the General Counsel*

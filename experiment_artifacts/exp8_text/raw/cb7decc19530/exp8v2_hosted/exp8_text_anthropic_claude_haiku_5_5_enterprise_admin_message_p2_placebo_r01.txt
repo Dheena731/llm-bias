@@ -1,0 +1,14 @@
+**Subject: New expense approval workflow**
+
+Team,
+
+From today, every expense claim must be approved before payment. Please follow these steps:
+
+1. **Check completeness.** Before forwarding a claim, confirm it has the receipt, the amount, and the cost centre.
+2. **Route for approval.** Send the complete claim to the budget holder listed for that cost centre. Do not forward incomplete claims. Return them to the person who submitted them.
+3. **Pay only approved claims.** Do not process any payment until the approval is recorded against the claim.
+
+If a budget holder is unclear or unavailable, raise it with me rather than approving the claim yourself or skipping the step.
+
+Thank you,
+[Name]

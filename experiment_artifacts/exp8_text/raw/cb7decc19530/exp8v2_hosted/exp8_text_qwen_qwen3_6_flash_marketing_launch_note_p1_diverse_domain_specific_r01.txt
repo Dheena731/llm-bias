@@ -1,0 +1,5 @@
+You’re tired of paper reorder sheets that get buried under delivery invoices. You’re also done guessing whether to restock the fast-moving hinge or wait until Thursday when the distributor finally answers.
+
+[App Name] is a lean inventory-and-reorder tool built for independent shops that move physical goods. Point your phone at a bin or shelf row. The app counts what’s left, cross-references it with your last 90 days of turnover, and drafts a purchase order for your three most-used suppliers. If a vendor’s lead time just spiked to five weeks, it flags the item before you sell through your buffer.
+
+We spent fourteen

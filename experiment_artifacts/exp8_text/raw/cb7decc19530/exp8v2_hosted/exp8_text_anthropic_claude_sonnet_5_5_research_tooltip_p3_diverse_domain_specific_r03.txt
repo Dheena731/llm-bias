@@ -1,0 +1,15 @@
+**Bank transactions view (assumed domain):**
+
+> **Posting date range.** Both end dates are included. Pending transactions have no posting date, so they won't appear here. Ranges are limited to 18 months.
+
+If your product is in a different domain, the same pattern applies: say which date field is used, how the endpoints behave, and what gets left out.
+
+**Ad reporting:**
+
+> **Click date, account time zone (PT).** Conversions are credited back to the click, so the last 7 days may still increase.
+
+**Freight tracking:**
+
+> **Pickup date, not delivery date.** Shipments picked up in range but still in transit are included. Times are local to the origin terminal.
+
+If you tell me the actual product, I can tailor it further.

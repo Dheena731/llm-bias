@@ -1,0 +1,6 @@
+**Domain:** B2B Experimentation Platform (A/B Test Metric Lift)
+
+***
+
+**95% CI [–0.42% to +1.18%]**  
+The plausible range of true conversion lift given current sample volume. Because this band spans zero, the observed +0.38% delta cannot yet be distinguished from baseline traffic variance.

@@ -1,0 +1,31 @@
+NOTICE OF ACCEPTABLE USE POLICY FOR SHARED NETWORK ACCESS
+
+LAST UPDATED: [DATE]
+
+1. PURPOSE AND SCOPE
+This Notice establishes the terms governing the use of the shared network infrastructure provided herein. Access to these resources is granted as a conditional privilege and may be revoked at any time. By connecting to, accessing, or utilizing this network, you acknowledge that you have read, understood, and agreed to abide by the terms set forth below.
+
+2. PERMITTED USE
+Authorized usage is restricted to lawful activities consistent with the intended purpose of the network. Users must utilize network resources responsibly and shall not engage in conduct that disrupts service for other users or compromises network security.
+
+3. PROHIBITED CONDUCT
+The following actions are strictly prohibited and constitute a violation of this Notice:
+a) Engaging in illegal activities, including but not limited to copyright infringement, fraud, or distribution of illicit materials.
+b) Introducing malware, viruses, worms, or any code designed to damage, disable, or compromise network systems.
+c) Attempting unauthorized access to restricted areas, other users' devices, or administrative controls.
+d) Consuming an unreasonable amount of bandwidth that degrades performance for other users.
+e) Misrepresenting identity or utilizing forged headers to conceal the source of communications.
+
+4. MONITORING AND PRIVACY
+The network administrator reserves the right to monitor, intercept, and record network traffic and activity to ensure compliance, maintain security, and troubleshoot technical issues. Users should have no reasonable expectation of privacy regarding data transmitted over or stored on this shared network.
+
+5. DISCLAIMERS AND LIABILITY
+THIS NETWORK IS PROVIDED ON AN AS-IS BASIS WITHOUT WARRANTIES OF ANY KIND. THE PROVIDER DISCLAIMS ALL LIABILITY FOR DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF THIS NETWORK, INCLUDING DATA LOSS, SERVICE INTERRUPTIONS, OR SECURITY BREACHES. USERS ARE SOLELY RESPONSIBLE FOR BACKING UP THEIR DATA AND IMPLEMENTING ADEQUATE SECURITY MEASURES.
+
+6. ENFORCEMENT
+Violation of this Notice may result in immediate suspension or termination of network access without prior notice. Furthermore, the provider reserves the right to report unlawful activities to relevant law enforcement authorities or regulatory bodies.
+
+7. MODIFICATIONS
+The provider reserves the right to amend this Notice at any time. Continued use following such changes constitutes acceptance of the revised terms.
+
+FOR INQUIRIES OR REPORTING VIOLATIONS, CONTACT: [ADMINISTRATOR EMAIL/PHONE]

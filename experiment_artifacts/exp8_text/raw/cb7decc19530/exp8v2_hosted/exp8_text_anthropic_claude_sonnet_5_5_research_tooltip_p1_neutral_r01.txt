@@ -1,0 +1,7 @@
+**Filter datasets**
+Narrow results by criteria such as year, data type, license, or sample size. Multiple filters work together (AND), and selecting several options within one filter shows datasets matching any of them (OR). Click **Clear all** to reset.
+
+**Shorter version (for tight spaces):**
+Refine datasets by year, type, license, or size. Combined filters narrow results further.
+
+If you tell me which filter this is for (date range, data source, license, etc.), I can make it more specific.

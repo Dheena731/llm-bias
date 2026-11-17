@@ -1,0 +1,15 @@
+**NOTICE OF AMENDMENTS TO ACCOUNT TERMS & CONDITIONS**
+
+**Effective Date:** [Insert Date]  
+**Governing Agreement:** Your existing Service Agreement dated [Original Date] (the “Agreement”)
+
+This notice delivers material amendments to Sections 4 (Account Verification & Session Management), 6 (Billing Cycle & Payment Processing), 9 (Audit Logs & Data Retention), and 18 (Limitation of Liability). Provisions outside these sections remain unchanged.
+
+**Summary of Modifications:**
+• Primary account holders must bind a verified contact method to enable two-step authentication. Accounts failing to comply within thirty (30) days of this effective date will be placed in read-only mode until resolved.
+• Invoicing transitions from calendar-month alignment to issuance-date synchronization. A seven-day cure window applies before service suspension for overdue balances.
+• Default storage for raw access logs and session tokens is reduced from ninety (90) to forty-five (45) days. Extended retention requires execution of Addendum B and additional licensing fees.
+• The aggregate liability cap for unauthorized credential misuse is recalibrated to $[Amount] per occurrence, expressly excluding breaches resulting from provider negligence or statutory noncompliance.
+
+**Acceptance & Recordkeeping:**  
+Pursuant to Section 22.3 of the Agreement, continued use of authenticated credentials following the effective date constitutes acceptance. The complete revised terms are maintained at [Internal Portal

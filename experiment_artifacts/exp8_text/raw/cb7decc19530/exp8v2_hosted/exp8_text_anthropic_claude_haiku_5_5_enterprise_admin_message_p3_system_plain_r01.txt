@@ -1,0 +1,9 @@
+Hello everyone,
+
+We are writing to let you know about an upcoming change to the VPN client. Starting next Monday, the client will be updated to version 4.2, which includes faster connection times, improved stability on unreliable networks, and a simplified login screen. Your existing settings and saved connections will carry over automatically, so no action is needed for most users.
+
+Before the update rolls out, please save any work and disconnect from the VPN. The installer will open automatically the first time you launch the client after the update, and it should take about two minutes to complete. If you run into any problems during installation or cannot connect afterward, please contact the IT help desk at extension 4400 or send an email to helpdesk@company.com.
+
+Thank you for your patience as we make these improvements.
+
+IT Support Team

@@ -1,0 +1,1 @@
+Click Export to download the current query results as a CSV file. The export includes all rows returned by the query, not just those shown on screen, and it uses the column order displayed in the table.

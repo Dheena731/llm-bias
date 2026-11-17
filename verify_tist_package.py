@@ -66,6 +66,36 @@ REQUIRED_FILES = [
     Path("analysis_output/baselines/cross_modal_homogenization_summary.csv"),
     TIST_ARTIFACT_MANIFEST,
     *TIST_TABLE_ARTIFACT_FILES,
+    Path("analysis_output/tist_revision/summary.json"),
+    Path("analysis_output/tist_revision/table_study1_model_level.tex"),
+    Path("analysis_output/tist_revision/table_study2_palette.tex"),
+    Path("analysis_output/tist_revision/table_study3_model.tex"),
+    Path("analysis_output/tist_revision/table_exp8_routes.tex"),
+    Path("analysis_output/tist_revision/table_spillover.tex"),
+    Path("analysis_output/tist_revision/figures/study2_primary_colors.png"),
+    Path("analysis_output/tist_revision/figures/exp8_route_condition.png"),
+    Path("experiment_data/exp1_emoji_persistence_20260227_111102.csv"),
+    Path("experiment_data/exp2_color_bias_20260331_110130.csv"),
+    Path("experiment_data/exp2_color_bias_20260401_182557.csv"),
+    Path("experiment_data/exp4_multi_constraint_20260326_154209.csv"),
+    Path("experiment_data/exp7_phase_b/exp7_text_defaults_20260706_102517.csv"),
+    Path("experiment_data/exp8_v2_local_stagewise_base_20261117_054656.csv"),
+    Path("experiment_data/exp8_v2_local_stagewise_base_20261117_101143.csv"),
+    Path("experiment_data/exp8_v2_local_stagewise_dpo_20261117_041946.csv"),
+    Path("experiment_data/exp8_v2_local_stagewise_instruct_rlvr_20261117_050701.csv"),
+    Path("experiment_data/exp8_v2_local_stagewise_sft_20261117_035020.csv"),
+    Path("experiment_data/exp8_v2_presentation_priors_20261117_035401.csv"),
+    Path("experiment_data/exp8_v2_presentation_priors_20261117_052749.csv"),
+    Path("experiment_data/exp8_v2_presentation_priors_20261117_053332.csv"),
+    Path("configs/exp8_v2_presentation_priors.json"),
+    Path("analysis_output/exp8_v2/table_v2_routes.tex"),
+    Path("analysis_output/exp8_v2/table_v2_stages.tex"),
+    Path("analysis_output/exp8_v2/olmo_stage_trend.png"),
+    Path("analysis_output/exp8_v2/paired_contrasts.csv"),
+    Path("analysis_output/exp8_v2/stage_contrasts.csv"),
+    Path("analysis_output/exp8_v2/summary.json"),
+    Path("analysis_output/exp8_v2/hosted_route_condition.csv"),
+    Path("analysis_output/exp8_v2/local_stage_condition.csv"),
     Path("paper/tist2027_presentation_priors.tex"),
     Path("paper/tist2027_presentation_priors_refs.bib"),
     Path("paper/haips2026_refs.bib"),
@@ -88,6 +118,13 @@ PACKAGE_SOURCE_FILES = [
     Path("analyze_cross_modal_baselines.py"),
     Path("validate_feature_audit_samples.py"),
     Path("generate_tist_artifact_tables.py"),
+    Path("analyze_tist_revision.py"),
+    Path("analyze_exp8_v2.py"),
+    Path("experiment8_collect_local.py"),
+    Path("experiment7_common.py"),
+    Path("analyze_results.py"),
+    Path("experiment_runner.py"),
+    Path("experiment5_policy_compliance.py"),
     Path("prepare_tist_review_package.py"),
     Path("verify_tist_package.py"),
     Path("verify_tist_bibliography.py"),
@@ -105,6 +142,8 @@ PACKAGE_SOURCE_FILES = [
     Path("tests/test_tist_review_package.py"),
     Path("tests/test_tist_package_verifier.py"),
     Path("tests/test_tist_bibliography_verifier.py"),
+    Path("tests/test_tist_revision.py"),
+    Path("tests/test_exp8_v2_tasks.py"),
     AUDIT_MARKDOWN,
 ]
 PACKAGE_SUPPORT_FILES = [
@@ -127,11 +166,18 @@ EXTERNAL_REVIEW_SCAN_PATHS = [
     Path("analysis_output/exp8"),
     Path("analysis_output/baselines"),
     TIST_ARTIFACT_OUTPUT_DIR,
+    Path("analysis_output/tist_revision"),
+    Path("analysis_output/exp8_v2"),
 ]
 SCAN_FIXTURE_FILES = {
     Path("tests/test_exp8_fake_collectors.py"),
     Path("tests/test_tist_package_verifier.py"),
     Path("tests/test_tist_review_package.py"),
+    # Raw model outputs that the scanner misreads: OLMo base hallucinates a stranger's home paths and an invented
+    # HTTP auth header; Gemini's prose explains token-based auth. No real identities or secrets.
+    Path("experiment_artifacts/exp8_text/raw/cb7decc19530/exp8v2_local/exp8_text_allenai_olmo_2_0425_1b_research_tooltip_p4_no_emoji_r01.txt"),
+    Path("experiment_artifacts/exp8_text/raw/cb7decc19530/exp8v2_local/exp8_text_allenai_olmo_2_0425_1b_technical_explanation_p1_no_markdown_r01.txt"),
+    Path("experiment_artifacts/exp8_text/raw/cb7decc19530/exp8v2_hosted/exp8_text_google_gemini_3_8_flash_technical_explanation_p5_diverse_domain_specific_r03.txt"),
 }
 SOURCE_SECRET_SCAN_PATHS = [
     path for path in EXTERNAL_REVIEW_SCAN_PATHS if path not in SCAN_FIXTURE_FILES
@@ -158,13 +204,15 @@ SENSITIVE_PATTERNS = [
         r"\bAIza[0-9A-Za-z_-]{20,}\b",
         r"\bAKIA[0-9A-Z]{16}\b",
         r"\bnpm_[A-Za-z0-9]{20,}\b",
-        r"\b(?:api[_-]?key|token|secret|password)\b\s*[:=]\s*[\"']?[A-Za-z0-9._~+/=-]{12,}",
+        r"\b(?:api[_-]?key|token|secret|password)\b\s*[:=]\s*(?!os\.(?:environ|getenv))[\"']?[A-Za-z0-9._~+/=-]{12,}",
     ]
 ]
 LOCAL_PATH_PATTERNS = [
+    # Case-sensitive: macOS home paths are "/Users/...", while model text often says "customers/users/community".
+    re.compile(re.escape(USER_HOME_PREFIX) + r"/[A-Za-z0-9._-]+\b"),
+] + [
     re.compile(pattern, re.IGNORECASE)
     for pattern in [
-        re.escape(USER_HOME_PREFIX) + r"/[A-Za-z0-9._-]+\b",
         re.escape(FILE_URI_PREFIX),
         r"/private" + r"/var/[^\s\"']+",
         r"/var" + r"/folders/[^\s\"']+",

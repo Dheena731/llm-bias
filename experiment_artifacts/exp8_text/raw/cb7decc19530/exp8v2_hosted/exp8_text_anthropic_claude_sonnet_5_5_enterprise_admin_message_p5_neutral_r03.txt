@@ -1,0 +1,23 @@
+**Subject: Upcoming Email Migration – What You Need to Know**
+
+Hi everyone,
+
+We're migrating our email system to a new platform on **[date]**. The goal is better security, more storage, and improved reliability.
+
+**What to expect:**
+- **Migration window:** [start time] to [end time]. Email may be delayed or briefly unavailable during this period.
+- **Your data:** All existing emails, folders, contacts, and calendars will be transferred automatically.
+- **Login:** You'll use the same username and password. You may be asked to sign in again on your devices.
+
+**What you should do:**
+1. Make sure your mailbox is under [size limit] by deleting unneeded messages.
+2. Save any urgent or time-sensitive items before the migration begins.
+3. After the migration, restart your email app and re-add your account on mobile devices if prompted.
+
+If you notice missing messages or have trouble signing in, contact the IT Help Desk at [email/phone] and we'll get you sorted quickly.
+
+Thank you for your patience while we make this upgrade.
+
+Best regards,
+[Name]
+[Team/Department]

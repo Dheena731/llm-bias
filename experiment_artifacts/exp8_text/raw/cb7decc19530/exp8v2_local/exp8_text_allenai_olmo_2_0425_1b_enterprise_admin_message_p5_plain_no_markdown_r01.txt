@@ -1,0 +1,7 @@
+I'm sorry about the formatting :) as my first post, but I'm not sure how to get it right.
+
+My problem is I have to perform this data migration on my website, and I don't know how to do it. I've seen people with php, but I'm not really familiar with it. I'm thinking of using python or maybe a java solution to get it done. I want to know if there is any way to do this migration using pure javascript. I have my server running on Ubuntu 16.04. I need to migrate all the data from what is on my server to my new server. All the data is going to be stored in Postgres
+
+If I have to use php and make a migration file, I would have to create all the tables, make sure they match, and fill them with data. It would be really annoying, but I guess I'll have to do it. I'm also going to have to write a much larger script. I don't know if I can do this all in javascript. The reason I say I'm not really familiar with php is because I'm not very good at programming. I might be able to do it if I use php to make a file. I just would like to know the best way to migrate data between databases.
+
+Thanks!

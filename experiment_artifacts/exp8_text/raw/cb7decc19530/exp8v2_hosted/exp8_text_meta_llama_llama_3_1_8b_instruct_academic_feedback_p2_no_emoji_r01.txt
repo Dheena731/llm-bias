@@ -1,0 +1,3 @@
+Here is a sample feedback note on a student's methods section:
+
+"Overall, your methods section is clear and well-organized. However, I suggest adding more detail about how the sample was selected and how the data was collected. Additionally, it would be helpful to specify the software or tools used for data analysis. Consider also including a description of the data cleaning and quality control procedures to ensure the integrity of the results. With a few revisions, this section will be even more effective in supporting the rest of the report."

@@ -1,0 +1,15 @@
+**Savings goals are now in the app (v4.12)**
+
+You can now set a target amount and a date, and the app works out what to set aside each pay period.
+
+Say you want $2,400 for a January move-in deposit and you're paid biweekly. Starting in mid-September, that's $184.62 per paycheck. If you're paid on the 1st and 15th, it's $200. The app reads your deposit pattern from the last 90 days to pick the schedule, and you can override it.
+
+**Details worth knowing**
+- Money assigned to a goal is subtracted from your "available to spend" balance, but it stays in your account and keeps earning the same interest. Nothing moves to a separate account.
+- If you skip a contribution, the remaining amount is spread over the remaining paychecks. You'll see a new per-paycheck figure, not a "behind schedule" warning.
+- Withdrawing from a goal early takes you to a screen showing how far the target date slips. It doesn't block the withdrawal.
+- You can have up to 10 active goals.
+
+**Not included yet:** joint goals for shared accounts, and round-up contributions. Both are in progress, and joint goals are first.
+
+To start, open **Accounts → Goals → New goal**.

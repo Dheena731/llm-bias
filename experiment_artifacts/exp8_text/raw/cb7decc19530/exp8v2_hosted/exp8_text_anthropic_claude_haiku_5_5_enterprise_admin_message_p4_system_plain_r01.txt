@@ -1,0 +1,9 @@
+Subject: Quarterly Access Review Begins Next Week
+
+All system administrators and department managers are reminded that the quarterly access review is scheduled to begin on Monday, the 14th. During this review, each manager will receive a list of user accounts and permissions for their team through the identity management portal. Please verify that each listed employee still requires the access shown, and mark any accounts that are no longer needed for removal.
+
+Reviews must be completed by Friday, the 25th. Any accounts not confirmed by that date will be temporarily suspended until the owning manager submits approval. If you have questions about the process or need access to the portal, contact the IT Security team at least two business days before the start date.
+
+Thank you for helping us keep our systems secure.
+
+IT Security Team

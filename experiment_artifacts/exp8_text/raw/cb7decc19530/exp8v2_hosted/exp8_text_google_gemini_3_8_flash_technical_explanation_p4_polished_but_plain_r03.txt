@@ -1,0 +1,5 @@
+When a visitor accesses a website, their web browser normally sends a request to a remote origin server. That server must process the code, query a database, assemble the requested page, and send the data back across the internet. Caching accelerates this entire sequence by saving temporary copies of that data in locations that are much faster and easier to reach. 
+
+Instead of rebuilding the webpage from scratch for every single visit, the system simply retrieves the pre-assembled copy. This storage happens at multiple levels. On the user's end, the browser caches static assets like logos, fonts, and stylesheets on the local device, meaning a returning visitor does not need to download the same elements twice. On the network level, content delivery networks store copies of pages across a global grid of servers, allowing users to fetch content from a data center nearby rather than from a single server on the other side of the world. 
+
+By eliminating redundant server calculations, reducing database queries, and cutting down the physical distance data must travel, caching minimizes network latency and allows web pages to load almost instantly.

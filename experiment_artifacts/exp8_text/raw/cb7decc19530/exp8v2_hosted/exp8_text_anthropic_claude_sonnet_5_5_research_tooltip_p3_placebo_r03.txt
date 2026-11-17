@@ -1,0 +1,6 @@
+**Tooltip:**
+
+> **Date range**
+> Choose a start date and an end date to show only results from that period.
+
+I kept it generic because I don't know your product's details. If they apply, you could add one short line, such as "The end date is included" or "Select the same date twice for a single day." I left these out so the tooltip doesn't claim behavior that may not be true.

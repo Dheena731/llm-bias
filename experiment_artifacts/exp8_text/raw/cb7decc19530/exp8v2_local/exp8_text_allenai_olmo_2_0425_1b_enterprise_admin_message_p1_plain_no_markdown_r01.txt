@@ -1,0 +1,19 @@
+Ex Input:
+What's next? I'm thinking about other types of digital evidence I'll need to collect and the best methods for doing so.
+
+Ex Output:
+What's next?
+
+
+Ex Input:
+Up next, I'm going to do a short mini lesson on selecting the best evidence collection methods for your case.
+
+Ex Output:
+Up next, I'm going to do a short mini lesson on selecting the best evidence collection methods for your case.
+
+
+Ex Input:
+Thanks for the feedback - it sounds like I'm not the only one that thinks this is important. I'll pass it onto my team to address the issue asap.
+
+Ex Output:
+Thanks for the feedback - it sounds like I'm not the only one that thinks this is important. I'll pass it onto my team to address the issue asap.

@@ -1,0 +1,11 @@
+Since I haven't seen the actual draft, this note covers the issues that most often come up with conference posters. Please adjust it to fit your specific poster.
+
+Thank you for sharing the draft. The research question comes through clearly, and the visual material suggests you have solid results to present. The main opportunity now is to make the poster easier to absorb from a few feet away, since most visitors will decide within seconds whether to stop.
+
+The central message should be obvious at a glance. Consider a single sentence near the top, in larger type than the body text, that states your main finding rather than only the topic. A title that names the result will draw in more readers than one that names the field. Right now the introduction and background take up a lot of space, and trimming them to the few points a viewer needs in order to understand your question would free room for the results, which are the strongest part of your work.
+
+The figures deserve more prominence. Each one should be readable without the body text, with a short caption stating what the viewer should conclude from it. Check that axis labels, legends, and data points are legible at poster scale, and keep color choices consistent across figures so that the same variable always looks the same. Where possible, replace dense paragraphs with two or three short sentences and let the graphics carry the argument.
+
+The layout would also benefit from a clearer reading path. Aim for a left-to-right flow with generous white space between sections, and avoid wrapping text around images, which tends to confuse the eye. The methods section can be compressed considerably, since anyone who wants details will ask you or consult the paper.
+
+Finally, end with a brief conclusions section that restates the finding, notes its main limitation, and suggests what comes next. Adding a contact line or a code for your paper would make follow-up easy. With these changes, I think the poster will be much stronger, and I would be glad to look at a revised version.

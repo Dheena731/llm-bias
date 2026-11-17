@@ -1,0 +1,15 @@
+**NOTICE OF AMENDMENT TO ACCOUNT SERVICE TERMS**  
+**Ref:** Contract ID #[Number] | Version 4.2 → 4.3  
+**Effective:** November 1, 2024, 00:00 UTC  
+
+Pursuant to Section 11.4 (Amendments) of the Master Service Agreement executed on [Date], notice is hereby given that the following provisions shall replace existing language within the Account Terms. This notice carries the same contractual force as the original agreement and incorporates by reference all unchanged sections.
+
+**AMENDED PROVISIONS**  
+1. **Section 5.2 (Storage Lifecycle & Egress Pricing)**  
+   Objects remaining idle in cold-tier buckets for ≥180 consecutive days shall be transitioned to archive class automatically. Early retrieval requests before day 365 will incur a minimum 1 GB transaction fee per request, regardless of actual bytes returned. Egress fees for cross-region replication now apply to all public endpoints, including those previously marked exempt under legacy routing rules.
+
+2. **Section 8.1 (Service Level & Remediation Windows)**  
+   Credit eligibility for unplanned downtime will calculate based on trailing 30-day rolling availability rather than calendar-month boundaries. Claims must be filed within 14 days of incident closure via the operations dashboard; oral or email submissions will not satisfy the submission threshold.
+
+3. **Section 10.3 (Data Residency & Access Control)**  
+   Tenant data stored in the EU-West node cluster shall remain geofenced to that region unless explicit cross-border migration flags are togg

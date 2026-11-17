@@ -1,0 +1,7 @@
+Here is a concise tooltip explaining a confidence interval in a chart specific to the domain of medical research:
+
+**Tooltip:**
+
+"95% CI: This interval represents the range of possible values for the mean disease incidence rate in the target population with 95% confidence. It is estimated from a random sample of 1,000 patients and is adjusted for the sampling error. The interval was constructed using a non-parametric bootstrap method to account for the skewed distribution of incidence rates."
+
+This tooltip is specific to the domain of medical research, and it uses technical terms and concepts that are relevant to the field, such as "non-parametric bootstrap method" and "skewed distribution of incidence rates". It also provides a clear explanation of what the confidence interval represents, and how it was constructed.

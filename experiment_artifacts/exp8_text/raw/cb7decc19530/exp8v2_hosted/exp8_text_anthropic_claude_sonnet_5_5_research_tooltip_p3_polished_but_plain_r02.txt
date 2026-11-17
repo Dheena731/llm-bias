@@ -1,0 +1,1 @@
+Choose a start and end date to filter results to that period. Click a date to set the start, then click another to set the end, and both days are included. To analyze a single day, select the same date twice. Dates outside the available data range appear dimmed and cannot be selected. Changes apply once you confirm your selection.

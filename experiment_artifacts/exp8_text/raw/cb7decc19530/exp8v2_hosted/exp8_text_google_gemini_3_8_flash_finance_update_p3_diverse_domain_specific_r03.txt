@@ -1,0 +1,12 @@
+**Release Notes — v4.12: Balance Allocations**
+
+You can now carve out dedicated targets inside your primary cash balance without opening separate sub-accounts or fragmenting your APY. 
+
+Here is what’s changing in the ledger view:
+
+* **Earmarked balances:** Assign cash to specific targets (e.g., *Q3 Estimated Taxes*, *Emergency Fund*). Earmarked cash is subtracted from your "Safe to Spend" figure so it isn’t pulled into recurring subscription charges or debit card authorizations.
+* **Direct deposit routing:** Set auto-sweep rules. When payroll clears via ACH, the system diverts specified dollar amounts or percentages straight to your targets before updating your available balance.
+* **Shared interest accrual:** Target balances remain in the same underlying high-yield sweep network. Interest accrues across the entire aggregate balance daily and deposits into your unallocated cash at month-end.
+* **Auto-liquidity fallback:** If an unexpected bill triggers a deficit in your primary checking, the system can automatically draw from your lowest-priority target to prevent returned item fees. (This can be toggled off in target settings if you want absolute hard-locks).
+
+Available now on iOS, Android, and web under **Accounts > Cash > Allocations**.

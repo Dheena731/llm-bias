@@ -1,0 +1,5 @@
+Starting this month, you'll receive a monthly spending summary that gives you a clear picture of where your money went over the previous thirty days. The summary groups your transactions into categories such as groceries, dining, transportation, and subscriptions, and shows how each compares to the month before. It also highlights any charges that are unusually large or that recur without your expecting them, so you can catch surprises early.
+
+You can find the summary in the Reports section of your account. It arrives on the first business day of each month, and you can also generate one at any time for a custom date range. If a category looks wrong, you can recategorize a transaction, and the summary will update to reflect the change.
+
+We built this in response to requests from many of you who wanted a simple overview without having to export data and build your own spreadsheets. We'll keep refining it based on your feedback, so please send any thoughts through the support form in the app.

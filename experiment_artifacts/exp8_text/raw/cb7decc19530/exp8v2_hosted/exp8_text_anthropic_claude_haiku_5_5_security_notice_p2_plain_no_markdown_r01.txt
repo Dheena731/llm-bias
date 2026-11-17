@@ -1,0 +1,13 @@
+Subject: Phishing Email Alert
+
+Team,
+
+We have seen an increase in phishing emails targeting our staff. These messages often look like they come from a trusted colleague, a vendor, IT support, or a well-known company, and they usually ask you to click a link, open an attachment, reset a password, or share account details urgently.
+
+Before you act on any unexpected email, take a moment to check it. Look closely at the sender's address, not just the display name. Be wary of requests that create pressure to act quickly, and of greetings that feel generic or messages with spelling and formatting errors. If you are unsure whether a request is genuine, contact the sender through a phone number or channel you already know is correct, not one provided in the email.
+
+Never enter your password or other credentials after following a link in an email. Our IT team will never ask for your password by email. If you receive a suspicious message, do not click anything or reply. Report it to the IT service desk right away, and if you have already clicked a link or entered information, report that immediately as well so we can act quickly.
+
+Thank you for staying alert. Your vigilance helps protect our organization and everyone's data.
+
+IT Security Team

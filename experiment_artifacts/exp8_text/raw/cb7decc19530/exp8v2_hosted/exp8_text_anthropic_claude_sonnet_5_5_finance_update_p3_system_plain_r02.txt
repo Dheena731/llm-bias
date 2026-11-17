@@ -1,0 +1,7 @@
+We've added a new savings goals feature to the app, and it's available to everyone starting today. You can now create a goal for anything you're saving toward, whether that's a vacation, an emergency fund, or a new laptop. Give each goal a name, a target amount, and an optional date, and the app will show you how much you need to set aside each week or month to get there on time.
+
+Once a goal is set up, you can fund it manually or choose to move money automatically on a schedule that suits you. A progress bar on your home screen shows how close you are, and you'll get a gentle notification when you reach key milestones like 25, 50, and 75 percent. If your plans change, you can adjust the target, pause contributions, or move funds between goals at any time without fees.
+
+We built this feature after hearing from many of you that you wanted a simpler way to separate your everyday spending from the things you're working toward. Your goals are kept apart from your main balance, which makes it easier to see what's truly available to spend.
+
+To try it, open the app, tap the Goals tab, and select the option to create a new goal. It takes less than a minute. We'd love to hear what you think, so please send us your feedback through the Help section, and let us know what you'd like to see next.

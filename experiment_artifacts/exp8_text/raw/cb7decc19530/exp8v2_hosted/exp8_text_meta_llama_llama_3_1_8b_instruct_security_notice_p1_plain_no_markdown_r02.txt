@@ -1,0 +1,9 @@
+Security Notice: Password Reuse
+
+Password reuse is a serious security risk. Reusing passwords means that if one account is compromised, all other accounts that use the same password can also be accessed by the unauthorized person. This can put all employees and the company at risk of identity theft and other security breaches.
+
+The company has a policy against password reuse. Employees are expected to create unique and complex passwords for each of their accounts. If an employee's password is compromised, they should immediately change it to a new, unique password.
+
+If an employee has reused a password and it is discovered that one of their accounts has been compromised, the employee may face disciplinary action. The company takes password security seriously and expects all employees to do the same.
+
+If you have any questions about password reuse or have concerns about your account security, please contact the IT department.

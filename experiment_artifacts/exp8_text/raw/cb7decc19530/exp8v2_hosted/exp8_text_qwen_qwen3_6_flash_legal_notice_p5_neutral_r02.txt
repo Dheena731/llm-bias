@@ -1,0 +1,20 @@
+**NOTICE OF ACCEPTABLE USE FOR SHARED NETWORK RESOURCES**
+
+**Effective Date:** [Insert Date]  
+**Issuing Authority:** [Insert Organization/Department Name]
+
+**1. AUTHORIZATION AND ACCEPTANCE**  
+Access to the [Insert Network Name] ("the Network") is a privilege granted solely for authorized purposes. By connecting to, accessing, or using the Network, the user ("User") acknowledges receipt of this Notice and agrees to comply with all terms herein. Non-compliance may result in immediate revocation of access.
+
+**2. PERMITTED USE**  
+The Network shall be used strictly for lawful purposes consistent with applicable local, state, federal, and international laws. Use is restricted to [insert scope, e.g., personal communication, business operations, educational research] as defined by the Issuing Authority.
+
+**3. PROHIBITED CONDUCT**  
+Users are strictly prohibited from engaging in the following activities:
+*   **Illegal Activity:** Committing any act that violates applicable laws or regulations.
+*   **Security Violations:** Attempting to gain unauthorized access to the Network, other systems, or data; transmitting malicious code (e.g., viruses, worms, ransomware); or bypassing security measures.
+*   **Resource Misuse:** Consuming excessive bandwidth, disrupting network performance, or interfering with the operation of the Network and connected devices.
+*   **Harmful Content:** Transmitting material that is harassing, threatening, defamatory, obscene, or infringes upon the intellectual property rights of others.
+
+**4. MONITORING AND PRIVACY WAIVER**  
+Users acknowledge that the Network is a shared resource. The Issuing Authority reserves the right to monitor, log, filter, and inspect all traffic, data, and usage patterns to ensure security, maintain system integrity, and enforce compliance. **Users have no reasonable expectation of

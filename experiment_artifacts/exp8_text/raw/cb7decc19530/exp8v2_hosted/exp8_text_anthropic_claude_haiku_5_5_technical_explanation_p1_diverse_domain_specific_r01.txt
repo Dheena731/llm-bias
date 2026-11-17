@@ -1,0 +1,5 @@
+Latency compounds in ways that are easy to miss when you only look at average response times. A page that makes six sequential API calls over a connection with a 150 ms round trip spends close to a second waiting on the network before any server work happens. Each call also pays for DNS, TLS, and queuing, so the real cost is often higher than the arithmetic suggests.
+
+Tail latency matters more than averages. If a product page fans out to twenty backend services, and each one is slow 1% of the time, roughly one in five page loads hits at least one slow service. Users experience the p99, not the mean, and the worst moments are often the ones they remember.
+
+Latency also changes behavior. People double-click submit buttons that seem unresponsive, which can create duplicate orders or retries that add load. They abandon a checkout after a spinner that lasts a few seconds, and they reopen a search box and retype their query. Published experiments from Google and Amazon in the late 2000s reported measurable drops in traffic and revenue from delays of a few hundred milliseconds, though the exact figures depend heavily on the product and should be read as directional.

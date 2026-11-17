@@ -1,0 +1,17 @@
+**Subject: VPN client update Tuesday: split tunneling is now on**
+
+On Tuesday, Oct 14, the VPN client updates to 6.3 on managed laptops. It installs on its own and asks for a restart.
+
+**What changes**
+- Only traffic to internal ranges (10.0.0.0/8 and 172.20.0.0/16) goes through the tunnel. Teams, Zoom, and Windows/macOS updates now go straight out over your own connection. The gateway was maxing out around 9:30 every morning, mostly from video calls, and this should fix it.
+- The vendor SFTP and allowlisted SaaS tools that expect our office IP are still routed through the tunnel. You don't need to do anything for them.
+- The client now reconnects on its own after sleep. You'll still get an MFA prompt once every 12 hours, down from every login.
+
+**What might break**
+- If an internal hostname stops resolving, disconnect and reconnect. If it still fails, send us the hostname.
+- Some home routers use 172.20.x.x, which now conflicts with ours. If you can't reach anything internal, check your router's address range first.
+- If the client says "Profile not found" after the update, reinstall it from vpn.example.com/client. Your settings aren't lost.
+
+Questions or problems: #it-help, or helpdesk@example.com. Please include your client version (Help → About).
+
+— Network Team

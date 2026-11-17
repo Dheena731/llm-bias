@@ -1,0 +1,9 @@
+To enhance the security of your account, two-factor authentication can be enabled. This adds an additional layer of protection by requiring not only your password, but also a verification code from a trusted device, to access your account.
+
+To enable two-factor authentication, follow these steps: 
+
+First, log in to your account as you normally would. Then, navigate to the account settings page. Look for the option to enable two-factor authentication and select it. You will be prompted to set up a recovery method in case you lose access to your verification code.
+
+Once two-factor authentication is enabled, you will be required to enter a verification code in addition to your password whenever you log in. This verification code will be sent to the trusted device you specified during setup. If you do not have access to your trusted device, you can use the recovery method to regain access to your account.
+
+Enabling two-factor authentication will significantly increase the security of your account. It is highly recommended that you take this step to protect your account from unauthorized access.

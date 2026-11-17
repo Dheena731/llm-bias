@@ -1,0 +1,7 @@
+Caching speeds up a website by storing copies of data or files so they don't have to be fetched or generated from scratch every time someone visits. Here's how it works:
+
+- **Reduces server work:** Instead of running database queries or building a page on every request, the server can return a saved copy of the result.
+- **Cuts down on network travel:** Browser caching stores images, CSS, and JavaScript on the visitor's device, so repeat visits don't re-download them. CDNs (content delivery networks) keep copies on servers closer to users geographically, shortening the distance data must travel.
+- **Speeds up repeat requests:** Frequently requested content, like a popular product page, can be served instantly from memory (for example, with Redis or Memcached) rather than recalculated each time.
+
+The result is faster page loads, lower server load, and a better experience for visitors, especially during traffic spikes.

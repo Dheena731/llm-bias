@@ -1,0 +1,7 @@
+We've added a monthly spending summary to help you see where your money went without digging through individual transactions. At the start of each month, you'll receive a short report covering the previous month, including your total spending, how it compares with the month before, and which categories took up the largest share of your budget.
+
+The summary also points out anything unusual, such as a category that jumped sharply or a recurring charge that is new or has changed in price. If you have set budgets, it shows how close you came to each one so you can adjust your plans for the month ahead.
+
+You can view the summary inside the app under the Reports section, and you can also choose to have a copy sent to your email. If you would rather not receive it, you can turn it off in your notification settings at any time. The summary uses the transactions and categories already in your account, so if you recategorize a purchase, the numbers will update the next time you open the report.
+
+We built this to make it easier to notice patterns and make small changes before they add up. We would like to hear what you think, so please send feedback through the support form, especially if there is something you would like the summary to include in future updates.

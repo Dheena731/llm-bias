@@ -1,0 +1,19 @@
+**Re: Methods draft (Section 2), stream nitrate and benthic macroinvertebrates**
+
+Maya,
+
+The sampling rationale is clear, and the choice to pair each nitrate reach with a reference reach upstream of the farm outflow is sound. A few things need attention before this goes to Dr. Okafor.
+
+1. **Kick-net effort.** You write "three kick samples per site," but not how long each kick lasted or what area was covered. Without a fixed effort (e.g., 1 m² over 60 seconds), your richness counts aren't comparable across sites with different substrate. Please state the protocol you actually followed.
+
+2. **Replication.** Your three kicks are combined into one sample per site, which is fine, but then the analysis section treats the 14 riffles as independent while two of them share a single reach. Clarify the unit of replication, and if reaches are nested within streams, say so.
+
+3. **Timing.** The sampling dates span October 3 to October 19, and the field log notes a rain event on the 11th. Mention this in the methods, and say whether high-flow days were excluded or flagged. A storm can scour the riffles you're sampling.
+
+4. **Taxonomic resolution.** You identify taxa "to family where possible." Report which groups were pushed to genus (Chironomidae were almost certainly not) and who did the identification. This matters for the richness metric.
+
+5. **Missing specifics.** Give the mesh size of the net, the preservative and its concentration, and the method for nitrate measurement (instrument, detection limit, whether samples were filtered).
+
+The overall structure is good. Once the effort, replication, and timing details are in, the design will be easy to evaluate. Send me a revised draft and I'll go through it again.
+
+Ian

@@ -1,0 +1,49 @@
+Here are a few options, depending on who you are writing to:
+
+### Option 1: To Business Clients / Merchants (e.g., from a payment processor or platform)
+
+**Subject: Important update regarding your card transaction fees**
+
+Dear [Client/Partner Name],
+
+We are writing to let you know about an upcoming change to our payment processing fees. 
+
+Effective **[Date]**, our card transaction fee will change from **[Old Rate, e.g., 2.5% + $0.20]** to **[New Rate, e.g., 2.7% + $0.20]** per transaction. 
+
+This adjustment reflects recent increases in interchange rates and network costs, and will allow us to continue providing secure, reliable payment processing and support for your business. 
+
+No action is required on your part; the new rate will automatically apply to all card transactions processed on or after **[Date]**. 
+
+You can review your updated fee schedule in your dashboard [here/link]. If you have any questions, please reach out to our team at [Support Email/Phone].
+
+Thank you for your continued partnership.
+
+Best regards,  
+[Your Name/Company]
+
+***
+
+### Option 2: To Everyday Customers (e.g., from a retail store or service introducing a surcharge)
+
+**Notice: Update to Card Payment Fees**
+
+To Our Valued Customers,
+
+Starting **[Date]**, a transaction fee of **[X]%** will be applied to all credit card payments. 
+
+Rising payment processing costs have led us to make this change so we can continue keeping our product/service prices as low as possible. 
+
+**Fee-free payment options:**  
+You can avoid this fee by paying with **[Cash / Debit / ACH / Bank Transfer]**. 
+
+We appreciate your understanding and continued support. Please feel free to speak with a team member if you have any questions.
+
+Sincerely,  
+[Your Business Name]
+
+***
+
+### Option 3: Short / In-App Notification (Concise)
+
+**Payment Fee Update**  
+Starting **[Date]**, our card transaction fee will be updated to **[New Rate]** per transaction to align with rising network processing costs. [Click here] to view the updated terms, or contact support with any questions.

@@ -1,0 +1,17 @@
+Subject: Quarterly Access Reviews Begin Next Week
+
+Dear colleagues,
+
+As part of our ongoing commitment to protecting company systems and data, the quarterly access review will begin on Monday and close at the end of the business day on Friday of the following week. This review confirms that every employee, contractor, and service account has only the access needed for their current role.
+
+Department managers will receive an email from the IT Security team containing a list of the people on their team and the systems, applications, and shared folders each person can reach. Managers are asked to review each entry carefully and confirm that it is still appropriate. Where access is no longer needed, for example after a change in role, a completed project, or the end of a contract, please mark it for removal. If you believe someone needs additional access, submit a separate request through the standard service desk process rather than noting it in the review.
+
+System owners will also be asked to verify the list of administrators and privileged accounts for the platforms they oversee. Because these accounts carry the greatest risk, we ask that you give them particular attention and confirm that each one has a clear business justification.
+
+Reviews that remain incomplete after the deadline will be escalated to the relevant department head, and access that has not been confirmed may be suspended until the review is finished. We would much rather avoid disruption, so please plan time in your calendar now. Most managers find that the review takes less than an hour.
+
+If you have questions about the process, or if you do not receive your review email by Tuesday, please contact the IT Security team at the service desk. Thank you for your prompt attention to this important task.
+
+Kind regards,
+
+IT Security and Administration

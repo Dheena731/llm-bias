@@ -1,0 +1,32 @@
+**Subject: Lost or stolen laptop: report it within one hour**
+
+If you can't find your company laptop, tell us first and keep looking second. Every hour it's missing is an hour its sessions and saved credentials stay usable.
+
+**Report it to:**
+- Security desk: security@company.example or ext. 4411 (24 hours)
+- After hours, or if you're traveling: +1 555 0142
+
+A phone call is fine. Don't wait for a ticket to be acknowledged.
+
+**Have this ready, but don't hold the report for it:**
+- Asset tag or serial number (on the underside, or in the asset portal under *My Devices*)
+- Where and when you last had it
+- Whether it was shut down, asleep, or locked
+- Anything stored only on the laptop, such as local exports, client files, or unsynced work
+- Whether a security key, badge, or token was in the same bag
+
+**What we'll do:**
+1. Revoke your sign-in sessions and tokens and reset your password.
+2. Check the encryption status (BitLocker/FileVault) and last check-in.
+3. Send a lock or wipe command through MDM. If the laptop is offline, the command runs at its next connection.
+4. Decide whether the loss needs to go to Legal or Compliance. Only we make that call.
+
+**What we need from you:**
+- If it was stolen, file a police report and send us the report number.
+- If you lost it abroad, tell us which country.
+- Don't try to remotely access it, and don't ask a colleague to.
+- Expect to be signed out of everything on all your devices. That's intentional.
+
+Reports made promptly are treated as routine and carry no penalty. Late reports are the ones that turn a lost laptop into an incident.
+
+*IT Security*

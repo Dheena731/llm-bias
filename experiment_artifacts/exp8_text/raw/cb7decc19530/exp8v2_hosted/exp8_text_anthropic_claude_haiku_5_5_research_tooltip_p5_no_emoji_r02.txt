@@ -1,0 +1,1 @@
+Click **Export** to download results as CSV or Excel. Exports include all rows matching your current filters.

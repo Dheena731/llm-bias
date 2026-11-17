@@ -1,0 +1,13 @@
+**NOTICE: REFUND ELIGIBILITY AND ADJUSTMENT PROTOCOL**  
+*Applicable to: Enterprise Data Processing & Provisioned Compute Subscriptions*
+
+A monetary adjustment under this Agreement shall be processed only when the following conditions are satisfied concurrently:
+
+(a) The relevant billing cycle closed within the preceding thirty (30) calendar days;  
+(b) Actual consumption of provisioned resources (vCPU-hours, egress volume, or allocated storage) did not exceed seventy-five percent (75%) of the contracted baseline;  
+(c) No custom runtime parameters, third-party connector licenses, or escalated support tiers were instantiated during the period; and  
+(d) A written claim is filed via the designated reconciliation endpoint, accompanied by exported telemetry logs and the originating invoice reference.
+
+Adjustments shall be computed on a prorated basis against the net invoice amount, excluding applicable VAT, data residency surcharges, and transit fees. Credits issued under the Service Level Annex, along with charges for data export, backup retention, or architectural consulting, are expressly excluded from this protocol.
+
+Adjudication relies on automated audit matching and may be denied where usage spikes, quota modifications, or mid-cycle tier alterations are recorded. All determinations are final, non-transferable, and operate

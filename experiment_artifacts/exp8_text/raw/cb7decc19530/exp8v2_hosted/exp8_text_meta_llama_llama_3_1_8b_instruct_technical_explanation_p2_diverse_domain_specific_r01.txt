@@ -1,0 +1,5 @@
+In the context of a relational database, an index is a data structure that enables fast lookup of specific data within a table. Think of it like a catalog card in a library: just as a catalog card helps you quickly locate a book on a shelf, a database index helps the database engine quickly locate a specific record or set of records.
+
+When a database engine queries a table, it typically scans the entire table to find the desired data. This process, called a table scan, can be time-consuming, especially for large tables. To mitigate this, the database engine creates an index, which is essentially a pre-computed, sorted list of key values (such as a primary key or a unique identifier) that point to the corresponding records in the table.
+
+By using an index, the database engine can quickly locate the desired data by traversing the index, rather than scanning the entire table. This significantly reduces the query time and improves overall performance. In essence, a database index acts as a shortcut, allowing the database engine to jump directly to the relevant data, much like a bookmark in a book.

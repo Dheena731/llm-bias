@@ -1,0 +1,1 @@
+"A missing-value marker indicates that data is not available or was not recorded for a particular field or entry."

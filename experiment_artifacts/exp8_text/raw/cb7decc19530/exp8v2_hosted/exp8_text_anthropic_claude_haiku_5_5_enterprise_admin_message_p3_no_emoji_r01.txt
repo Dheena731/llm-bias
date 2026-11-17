@@ -1,0 +1,15 @@
+**Subject: VPN Client Update to Version 3.2**
+
+Hello everyone,
+
+We are releasing version 3.2 of the company VPN client, starting [date]. The update improves connection stability and reduces reconnect times after a network change. It also adds support for the new multi-factor sign-in flow.
+
+**What you need to do:**
+- The client will update automatically the next time you restart your computer.
+- If you use a managed device, no action is needed.
+- If you have a personal device, download the installer from [internal link] before [date].
+
+If you run into problems connecting after the update, contact IT Support at [email or extension] and include your client version number.
+
+Thank you,
+IT Department

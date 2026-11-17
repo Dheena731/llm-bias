@@ -1,0 +1,1 @@
+A confidence interval represents the range of values within which a population parameter is likely to lie, with a certain level of confidence, in this case 95%. The wider the interval, the less precise the estimate, and the narrower the interval, the more precise the estimate.

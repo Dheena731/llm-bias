@@ -1,0 +1,29 @@
+Here is a short workplace security notice about password reuse:
+
+**Important Security Notice**
+
+**Password Reuse: A Threat to Workplace Security**
+
+Reusing passwords across multiple accounts is a significant security risk that can compromise the confidentiality and integrity of our organization's data. Password reuse allows unauthorized individuals to gain access to sensitive information and systems, putting our company's reputation and assets at risk.
+
+**Why is password reuse a problem?**
+
+*   If you use the same password for multiple accounts, a single breach can grant access to all accounts.
+*   Password reuse can make it difficult to detect and respond to security incidents.
+*   It can also lead to regulatory non-compliance and reputational damage.
+
+**Best Practices**
+
+*   Use a unique, strong password for each account.
+*   Consider using a password manager to generate and store complex passwords.
+*   Regularly update and change passwords for sensitive accounts.
+
+**Report Suspicious Activity**
+
+If you suspect that your account or system has been compromised, please report it to the IT department immediately.
+
+**Protect Our Organization's Security**
+
+Your cooperation in maintaining strong passwords is crucial to protecting our organization's data and assets. If you have any questions or concerns about password security, please reach out to the IT department.
+
+Thank you for your attention to this important security notice.

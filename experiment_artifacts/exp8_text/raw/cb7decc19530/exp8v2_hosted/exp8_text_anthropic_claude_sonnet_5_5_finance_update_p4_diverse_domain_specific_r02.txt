@@ -1,0 +1,16 @@
+**Subject: Your 2024 consolidated 1099 is ready, and a few things worth checking**
+
+Your tax statement is now in Documents. It combines your 1099-DIV, 1099-INT, and 1099-B into one PDF, so you may see several forms under one cover page.
+
+**Where the numbers come from**
+- **1099-DIV, Box 1a vs. 1b:** Box 1a is all ordinary dividends. Box 1b is the portion taxed at the lower qualified rate. Don't add them together.
+- **1099-B:** This lists every sale. "Covered" lots (most shares bought after 2011) include cost basis reported to the IRS. For "noncovered" lots, the basis shown is informational, so check it against your own records.
+- **Wash sales:** If you sold at a loss and bought the same security within 30 days before or after, the loss is disallowed for now. It appears as a code W adjustment in column 1g and carries into the new shares' basis.
+
+**Timing**
+Some funds and REITs reclassify distributions after year-end, which can change your 1099-DIV. If that happens, we'll send a corrected statement, usually in March. If you're close to filing, you may want to wait until mid-March.
+
+**If something looks wrong**
+Compare the sale dates and share counts on the 1099-B to your trade confirmations first. If they don't match, message us with the ticker and trade date, and we'll look into it.
+
+We can't give tax advice, but a preparer can work directly from this PDF.

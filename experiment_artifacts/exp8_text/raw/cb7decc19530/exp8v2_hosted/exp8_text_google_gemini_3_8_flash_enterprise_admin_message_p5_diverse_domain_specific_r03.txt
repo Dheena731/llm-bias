@@ -1,0 +1,16 @@
+**Subject:** Mail platform cutover scheduled for Friday, Oct 24 (21:00 EST)
+
+Team,
+
+We are moving our primary mail routing from Google Workspace to Exchange Online this Friday evening. The MX records flip at 21:00 EST, after which new inbound mail will land in the Microsoft tenant.
+
+What this means for your workflow:
+
+* **Inbound delivery:** External senders will not bounce; mail will queue at sending MTAs during propagation, but expect sporadic delivery delays of 1–3 hours over the weekend while DNS records update globally.
+* **The delta sync:** Mailboxes were pre-seeded through last Sunday. A final delta sync will pull over everything received this week once the cutover begins. Large attachments received late Friday afternoon may take until Saturday morning to appear in your archive.
+* **Local clients:** Native desktop clients (Apple Mail, Outlook desktop) will prompt for credentials or fail to authenticate once the legacy IMAP/routing endpoints drop. Do not attempt to reconfigure your profiles over the weekend. Use webmail (`outlook.office.com`) for anything urgent until Monday.
+* **Things that will not carry over:** Message rules/filters, shared calendar delegate permissions, and locally stored client signatures. Plan on re-establishing those manually next week.
+
+Full reconfiguration guides for mobile and desktop profiles will go out Monday at 07:00 EST.
+
+— Systems & Infrastructure

@@ -1,0 +1,19 @@
+**Subject: Mail moves to the new server Saturday night, March 14**
+
+Team,
+
+Our mailboxes move from the old Exchange server to Microsoft 365 starting at 9:00 p.m. Saturday, March 14. Email, calendars, and contacts will be unavailable for roughly three hours while the final sync runs. Your address stays the same (firstname.lastname@brightwaterlaw.com).
+
+Most of you won't need to do anything. Monday morning, Outlook may ask you to re-enter your password once. If your phone still shows the old account, remove it and add it again using the Microsoft 365 option, not "Exchange."
+
+Things to check before Saturday:
+
+- **Drafts and outbox:** Send anything sitting in your Outbox by Friday at 5 p.m.
+- **Local PST files:** If you keep one on your desktop, tell me by Thursday so I can confirm it's copied over.
+- **Shared mailboxes:** Intake@ and billing@ will switch Monday. Let Dana know if you use either from a personal profile.
+
+If something looks wrong Monday, call the help desk at ext. 4410 rather than recreating the account yourself. Recreating it is the most common way people lose a week of mail.
+
+Thanks,
+Marcus Oyelaran
+IT Operations

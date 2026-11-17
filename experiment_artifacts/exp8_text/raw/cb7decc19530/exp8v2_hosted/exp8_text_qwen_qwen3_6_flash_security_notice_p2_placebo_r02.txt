@@ -1,0 +1,14 @@
+NOTICE: PHISHING EMAIL AWARENESS
+
+To all employees, recent monitoring indicates an increase in phishing attempts directed at our organization. Phishing is a type of social engineering attack in which fraudsters send deceptive messages that mimic legitimate senders to trick recipients into sharing confidential data or installing harmful software.
+
+Please adhere to the following procedures:
+• Treat any unsolicited request for passwords, financial information, or personal details as highly suspicious.
+• Inspect the sender’s full email address for subtle misspellings, extra characters, or unfamiliar domains.
+• Hover your mouse pointer over embedded links before clicking to verify the actual web address displayed.
+• Do not open unexpected attachments, regardless of the file type or apparent source.
+• Immediately forward any suspected phishing message to your organization’s IT security team and delete it from your inbox. Never reply, click, or provide information through such messages.
+
+Your consistent vigilance is the first line of defense in protecting company data and network integrity. Thank you for applying these precautions to your daily communications.
+
+Information Technology Security Team

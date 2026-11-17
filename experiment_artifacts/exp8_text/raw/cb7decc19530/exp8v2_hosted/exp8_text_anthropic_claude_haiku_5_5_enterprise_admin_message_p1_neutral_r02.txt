@@ -1,0 +1,25 @@
+Here's a short admin message you can adapt:
+
+---
+
+**Subject: Scheduled Dashboard Maintenance – Saturday, March 15, 10:00 PM – 1:00 AM EST**
+
+Hello everyone,
+
+We will be performing scheduled maintenance on the dashboard system on **Saturday, March 15, from 10:00 PM to 1:00 AM EST**. During this window, the dashboard will be unavailable while we apply updates and improve performance.
+
+**What you need to do:**
+- Save any open work before 10:00 PM.
+- Plan around the downtime if you need dashboard access during this time.
+
+If you experience issues after the maintenance window, please contact the IT Help Desk at [email/extension].
+
+Thank you for your patience.
+
+Best regards,
+[Your Name]
+[Your Title]
+
+---
+
+Let me know if you'd like it adjusted for a different tone, audience, or length.

@@ -1,0 +1,1 @@
+This interval indicates the range within which the true value is expected to fall with a specified level of confidence. It quantifies the uncertainty of the estimate, with narrower ranges suggesting greater precision.

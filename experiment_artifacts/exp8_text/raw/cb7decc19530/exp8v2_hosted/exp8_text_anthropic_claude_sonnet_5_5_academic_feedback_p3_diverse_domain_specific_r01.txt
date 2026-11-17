@@ -1,0 +1,11 @@
+**Reviewer comment: Major concern 1 (research question)**
+
+The Introduction ends with the aim "to understand how cover cropping influences soil microbial communities and ecosystem function." I could not tell from this, or from the Methods, what the study is meant to answer, and the ambiguity affects how I read the results.
+
+First, "influences" covers at least three different questions: whether cover cropping changes alpha diversity, whether it shifts community composition (e.g., copiotroph/oligotroph balance, fungal:bacterial ratio), or whether it alters rates of a specific process. The analyses mix all three, and the Discussion moves between them without saying which one the study was built to test.
+
+Second, "ecosystem function" is never defined. The only function-related data are PICRUSt2 predictions from 16S amplicons, which are inferred potential, not measured activity. If the question concerns N cycling, the authors should either report potential nitrification or net mineralization assays or restrict the claim to community structure.
+
+Third, the design does not match a general question. With one site, two sampling dates, and cereal rye as the only cover crop, the data can address a narrower question, such as whether rye changes bacterial composition in the 0–10 cm layer at this site in the first two seasons after termination. That is a legitimate question, but it is not the one posed.
+
+I ask the authors to state one primary, testable question, with the response variable, depth, and time frame named, and to label the remaining analyses as exploratory. The title, abstract, and conclusions should then be scaled to that question. Without this, I cannot judge whether the PERMANOVA results (R² = 0.09, p = 0.04) support the conclusions drawn from them.

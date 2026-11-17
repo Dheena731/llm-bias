@@ -1,0 +1,7 @@
+Code does not oxidize, but its environment never stops shifting. A software update is fundamentally an alignment mechanism against three technical realities:
+
+1. **Ecosystem Drift:** Code never runs in isolation; it depends on an underlying stack of kernel interfaces, TLS cipher suites, compiler runtimes, and external APIs. When those layers evolve to address performance or architectural standards, an unmaintained binary degrades. It eventually fails not because its logic changed, but because the assumptions it made about its host environment no longer hold true.
+2. **The Post-Disclosure Threat Model:** When a vulnerability is assigned a CVE, its mechanics become public knowledge. Automated scanners immediately index the internet for unpatched versions. Updating is the process of closing the window between public documentation and automated exploitation; running legacy code means operating against an adversary who has the source blueprint to your system's edge-case failures.
+3. **Compound Migration Debt:** Software infrastructure resists large, discrete leaps. Skipping incremental versions allows dependency graphs to rot and database schemas to diverge. When an update is finally forced—often because a critical vendor deprecates an API or a hardware architecture phases out support—reconciling years of breaking changes simultaneously creates massive operational risk. 
+
+An update is rarely just about new capability; it is the recurring cost of keeping a system compatible with the reality of modern computing.

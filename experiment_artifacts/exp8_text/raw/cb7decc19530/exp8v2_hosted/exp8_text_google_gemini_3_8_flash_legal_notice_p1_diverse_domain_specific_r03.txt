@@ -1,0 +1,19 @@
+**NOTICE OF AMENDMENT TO MASTER SERVICES AGREEMENT: SCHEDULE C (METERED COMPUTE & EGRESS TERMS)**
+
+**Date of Issuance:** March 28, 2024  
+**Effective Date:** May 1, 2024  
+**Applies to:** Production Accounts under Enterprise MSA (Rev. 2021 or later)
+
+Pursuant to Section 14.3 (*Unilateral Modifications to Operational Schedules*) of your Enterprise Master Services Agreement, this notice details binding modifications to your infrastructure consumption and billing terms. 
+
+Effective May 1, 2024, the following revisions to Schedule C shall supersede all prior iterations:
+
+1. **Sub-Second Burst Allocation (§ 3.2):** Sustained consumption exceeding 140% of contracted baseline provisioned IOPS for more than ninety (90) consecutive seconds will automatically transition to Secondary Tier spot pricing. Workloads will no longer be soft-throttled; automated capacity adjustments will trigger incremental billing at the rate specified in Appendix 2.
+2. **Inter-Region Transit and Settlement (§ 6.1):** Egress fee reconciliation will shift from a calendar-month aggregate to a per-diem rolling balance. Cross-zone queries that do not terminate within the primary tenancy zone within sixty (60) seconds of execution will accrue transit surcharges at the standard secondary-hop rate ($0.042/GB transferred).
+3. **Audit and Discrepancy Windows (§ 8.4):** The objection window for disputed telemetry counters and automated node-allocation charges is reduced from sixty (60) days to twenty-one (21) calendar days following electronic invoice delivery. Failure to lodge an itemized log manifest within this period constitutes irrevocable acceptance of the metered usage metrics.
+
+**Action Required**
+
+Your continued execution of authenticated API requests, deployment of compute containers, or transmission of ingress traffic through our edge-routing layer on or after May 1, 2024, constitutes affirmative acceptance of these amended terms. 
+
+If you do not agree to these revisions, you must provide written notice of non-renewal to `settlements@platform-infra.net` on or before April 20, 2024. Upon receipt of notice, your account will enter a transitional thirty-day data egress window at current contract rates, terminating on May 31, 2024, without early termination penalties under Section 11.2.

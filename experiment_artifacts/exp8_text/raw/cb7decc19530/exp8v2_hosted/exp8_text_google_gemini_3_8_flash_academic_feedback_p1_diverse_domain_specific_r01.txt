@@ -1,0 +1,18 @@
+**To:** Julian  
+**From:** Dr. Aris Thorne  
+**Date:** March 14  
+**Subject:** Notes on Chapter 2 draft (Lit Review: Microplastics in Benthic Biota)
+
+Julian,
+
+This draft shows clear progress on cataloging the empirical work, but the chapter currently reads as a sequential summary rather than an evaluative framework. It needs restructuring before it can serve as a foundation for your methodology. A few targeted issues to address:
+
+1. **Analytical sorting over chronological cataloging:** In Section 2.3, you move author-by-author through ingestion rates in estuarine amphipods. Group these studies by exposure route instead (water-column suspension vs. porewater/sediment-associated). The central tension in the current literature isn't *who* found microplastics first; it's the discrepancy between idealized laboratory concentrations (spherical virgin polystyrene at $>10^4$ particles/L) and field-recovered weathered fibers. Emphasize that mismatch explicitly—it justifies your planned sampling design.
+
+2. **Methodological caveats are missing:** You cite Van Cauwenberghe et al. and several subsequent bivalve uptake assays without interrogating their digestion protocols. A significant portion of the pre-2019 papers you lean on used high-concentration $\text{HNO}_3$ without verifying polymer degradation via $\mu\text{-FTIR}$ or Raman. You cannot treat those recovery rates as directly comparable to recent enzymatic or KOH digestions. Add a dedicated sub-section evaluating how analytical recovery techniques have bounded the reliability of older baseline data.
+
+3. **Trophic transfer:** The transition between benthic primary consumers and secondary demersal predators (Section 2.5) drops off abruptly. Integrate the gut-retention and egestion half-life models—specifically looking at how gut residence time varies with sediment organic matter content. If sediment organic carbon outcompetes synthetic polymers for ingestion, say so; right now, you treat plastic availability as independent of sediment geochemistry.
+
+Cut the narrative overview of global plastic production in the introduction down to two paragraphs. Assume your committee knows the macro context; we need to see your command of the benthic partitioning mechanics.
+
+Bring an updated thematic outline to our supervisory meeting on Thursday.

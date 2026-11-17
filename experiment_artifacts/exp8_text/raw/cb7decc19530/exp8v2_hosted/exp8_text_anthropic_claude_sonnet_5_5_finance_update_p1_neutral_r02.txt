@@ -1,0 +1,20 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a new Monthly Spending Summary to help you see where your money goes, without digging through individual transactions.
+
+**What it shows**
+- **Total spending** for the month, compared with the previous month
+- **Category breakdown** (groceries, dining, transportation, subscriptions, and more)
+- **Top merchants** where you spent the most
+- **Trends** that highlight unusual increases or decreases
+
+**How it works**
+Your summary is generated automatically on the first day of each month and covers the previous month's activity. You'll get a notification when it's ready, and you can view past summaries anytime in the **Insights** tab.
+
+**Why it matters**
+A quick monthly snapshot makes it easier to spot habits, catch forgotten subscriptions, and adjust your budget before small leaks become big ones.
+
+**Getting started**
+No setup is required. If you'd like to customize categories or turn off notifications, go to **Settings > Insights**.
+
+We'd love your feedback. Let us know what else you'd like to see in future versions.

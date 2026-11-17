@@ -1,0 +1,5 @@
+Here are a few concise options, depending on where the tooltip appears:
+
+* **Direct & actionable:** "Click to download your results as CSV, Excel, or JSON."
+* **Ultra-short (best for an icon hover):** "Export results to CSV or Excel."
+* **Instructional:** "Select a format to download your query results."

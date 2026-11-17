@@ -1,0 +1,5 @@
+We will soon be migrating our email system to a new platform to enhance security, reliability, and collaboration across the organization. This transition is scheduled to take place over the upcoming weekend, beginning Friday evening at eight o'clock and concluding by Sunday afternoon. 
+
+During the maintenance window, you may experience brief interruptions when accessing your inbox or sending messages. All existing emails, folders, contacts, and calendar events will transfer automatically to the new system. Any incoming messages sent during this period will be held securely in a queue and delivered to your inbox as soon as the cutover is complete. 
+
+When you log in on Monday morning, you will simply need to sign in using your standard credentials. Step-by-step guidance for reconnecting your mobile devices and desktop applications will be shared before the weekend. If you encounter any issues or have questions regarding the switch, please reach out directly to the IT help desk for assistance.

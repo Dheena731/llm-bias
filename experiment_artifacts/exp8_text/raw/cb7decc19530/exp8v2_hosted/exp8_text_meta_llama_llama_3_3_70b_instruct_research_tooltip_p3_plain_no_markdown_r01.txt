@@ -1,0 +1,1 @@
+Select a start and end date to choose a range of dates, you can click and drag to select a range or click on specific dates to set the start and end of the range, the selected dates will be used to filter the data.

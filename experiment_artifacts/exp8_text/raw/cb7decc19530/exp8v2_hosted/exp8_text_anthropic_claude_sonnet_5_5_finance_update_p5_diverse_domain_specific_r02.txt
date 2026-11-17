@@ -1,0 +1,16 @@
+**Status: Payouts delayed (Tuesday, March 11, 15:40 UTC)**
+
+Daily USD payouts for card transactions captured Monday have not reached merchant bank accounts. The payments themselves succeeded, and your dashboard balance is correct. The money is held, not lost.
+
+**Cause:** A schema change we deployed Monday evening put a malformed date field in the header record of the payout file. Our sponsor bank rejected the 06:00 UTC batch on validation. We found it at 08:15, when reconciliation showed 0 of 4,212 payout instructions acknowledged. We should have caught it sooner, and we're adding an alert for unacknowledged batches.
+
+**Current state:** We resubmitted a corrected file at 14:55 UTC, and the bank accepted it. That was after the same-day ACH cutoff, so most payouts will land Wednesday, March 12. Some credit unions and smaller banks post a day later, so expect Thursday for those.
+
+**Not affected:** Weekly and monthly payout schedules, ACH debits, refunds, and disputes.
+
+**What to do:**
+- Nothing, if Wednesday or Thursday works for you.
+- If a payroll run or supplier payment depends on today's payout, reply to this thread with your account ID. For balances over $10,000 we can send a manual wire today.
+- Please don't cover shortfalls with refunds or reversals. Your balance is intact.
+
+Next update at 20:00 UTC, or sooner once the bank confirms the file has been processed. A full write-up will follow within three business days.

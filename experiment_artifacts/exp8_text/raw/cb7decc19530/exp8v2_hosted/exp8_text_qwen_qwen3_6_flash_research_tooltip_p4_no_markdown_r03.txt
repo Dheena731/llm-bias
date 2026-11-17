@@ -1,0 +1,1 @@
+Indicates that data for this entry is unavailable, unknown, or was not recorded. This marker represents a data gap, not a zero value.

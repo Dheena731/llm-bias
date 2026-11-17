@@ -1,0 +1,1 @@
+`Marked as structurally absent. This value skips aggregation, excludes from statistical calculations, and won’t trigger automatic imputation.`

@@ -1,0 +1,8 @@
+**Subject:** Q3 Entitlement Review: Verify Team Permissions by [Date]
+
+This quarter’s access validation covers core role assignments, shared service identities, and elevated project credentials. Department leads must review the attached permission matrix for your groups. Focus on:
+• Separated or reassigned staff (revoke immediately)
+• Privileges that extend past active sprints or deliverables
+• Machine/service accounts with overdue credential rotations
+
+Approve, modify, or log exceptions via the identity management portal. Rows flagged as inactive for >30 days will be scoped to read-only after the cutoff. Route role-mapping or justification questions to sec-ops@; standard account resets go through ITSM. Every action is captured for audit retention. Complete verification before [Date] to avoid automated downgrade.

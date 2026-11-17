@@ -1,0 +1,1 @@
+As of today, a new expense approval workflow is now in place. All expenses submitted will be automatically routed to a manager for review and approval. This change is intended to improve the efficiency and accuracy of the expense approval process.

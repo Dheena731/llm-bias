@@ -1,0 +1,19 @@
+**Feedback on Draft Literature Review: "Social Meaning in /aw/ Monophthongization among Pittsburgh Teenagers"**
+
+Maya,
+
+The strongest section is 2.3, where you separate the Pittsburgh /aw/ monophthongization findings from the more general Appalachian-influenced features. That distinction does real work, and you should lean on it later.
+
+**1. Organizing by decade is hiding your argument.** Sections 2.1 to 2.4 run Labov (1960s), then the 1980s–90s, then enregisterment work, and each reads as "X found Y." Your actual question is whether /aw/ carries local identity meaning for adolescents who don't live in the traditional neighborhoods. Regroup around that: (a) work treating variation as demographic correlation, (b) work treating it as stylistic practice, (c) work on Pittsburgh specifically. Right now (b) is nearly absent.
+
+**2. "Speech community" and "community of practice" are used interchangeably** on pp. 6–8. They aren't interchangeable, and your design depends on which you choose. If you are sampling by school and neighborhood, that's closer to the Labovian model. If you're interested in how students position themselves through friendship groups, you need Eckert's *Linguistic Variation as Social Practice* (2000) and Bucholtz's "Why be normal?" (1999). Pick one framework and say why.
+
+**3. The enregisterment claim is too strong.** You write that Johnstone et al. (2006) "proved" local speakers associate /aw/ monophthongization with Pittsburgh identity. Their evidence is largely metapragmatic: commentary, merchandise, and ideology. It does not show how teenagers use the variant. Reword this, and flag it as the gap your study addresses.
+
+**4. Methods leak into the review.** The paragraph on Lobanov normalization versus Watt–Fabricius belongs in your methods chapter. In the review, discuss only whether earlier studies' normalization choices limit comparison across them. Several of the ones you cite use unnormalized Hz.
+
+**5. Missing:** anything on the ANAE's treatment of Pittsburgh, and any post-2010 work on adolescent speakers.
+
+Revise the structure first. The citation gaps are secondary.
+
+Dr. Alvarez

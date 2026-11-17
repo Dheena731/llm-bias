@@ -1,0 +1,1 @@
+Choose start and end dates to anchor your reporting window. Records group by posting date, and selections past the current close are disabled to preserve period integrity.

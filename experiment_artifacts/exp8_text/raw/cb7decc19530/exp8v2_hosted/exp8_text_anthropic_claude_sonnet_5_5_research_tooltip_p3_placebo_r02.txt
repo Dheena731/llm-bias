@@ -1,0 +1,10 @@
+**Tooltip:**
+
+> **Date range**
+> Choose a start date and an end date to show only items from that period. To change the range, select new dates.
+
+**Shorter version (for tight spaces):**
+
+> Choose a start and end date to filter results to that period.
+
+I assumed the selector filters displayed data, which is the most common use. If yours does something else, such as scheduling or booking, or if it has presets or limits, tell me and I'll adjust the wording.

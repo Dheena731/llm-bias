@@ -1,0 +1,30 @@
+NOTICE TO ALL STAFF: BEWARE OF PHISHING EMAILS
+
+Date: [Insert Date]
+From: IT Security Team
+
+We have recently seen an increase in phishing emails targeting employees. These messages are designed to trick you into sharing passwords, financial details, or other sensitive information, or into installing harmful software.
+
+Warning signs to watch for:
+
+- Unexpected requests for passwords, payment, or personal information
+- Urgent or threatening language, such as "Act now or your account will be closed"
+- Sender addresses that look slightly off or do not match the company name
+- Generic greetings instead of your name
+- Unexpected attachments or links, especially from unfamiliar senders
+- Spelling and grammar errors
+
+What you should do:
+
+1. Do not click links or open attachments in suspicious emails.
+2. Do not reply to the sender or forward the message to colleagues.
+3. Report the email to the IT Security Team at [security@company.com] or use the Report Phishing button in your email program.
+4. Delete the message after reporting it.
+5. If you have already clicked a link or shared information, contact IT immediately and change your password.
+
+Remember: IT will never ask for your password by email. When in doubt, verify the request by contacting the sender through a known phone number or in person.
+
+Thank you for helping keep our company secure.
+
+IT Security Team
+[Phone Extension]

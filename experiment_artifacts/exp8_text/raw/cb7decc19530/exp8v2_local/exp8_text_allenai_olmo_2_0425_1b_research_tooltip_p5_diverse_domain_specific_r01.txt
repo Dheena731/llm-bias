@@ -1,0 +1,27 @@
+Our mouse Alzheimer’s test has yielded 0/107 of the correct answers!
+
+1. The test with the highest sensitivity is the mouse Alzheimer’s test (Comprehensive MIAI).
+
+2. The test with the highest specificity is the mouse Alzheimer’s test (CR).
+  • Previous research: only 5% of people with Alzheimer’s have positive results on the mouse Alzheimer’s test. (See the source below.) The false positive rate is 0.02% with a sensitivity of 97%.
+  • 106 tests performed on 107 people with Alzheimer’s were all positive. These tests were drawn from the Comprehensible MIAI dataset.
+
+3. A sensitivity of 97% and a specificity of 0.02% yield a positive predictive value of 0.9%.
+
+4. 106 Comprehensible MIAI tests were performed on 107 people with Alzheimer’s. All 107 tests were positive.
+
+5. 106 Comprehensible MIAI tests were performed on 107 people with Alzheimer’s. All 106 tests were negative.
+
+6. The specificity of a test is the probability of negative results when a patient’s condition is negative. In this case, the specificity would be 1 - sensitivity = 1-0.02 = 99.98%. This implies that a patient with Alzheimer’s has a 99.98% chance of having a negative result.
+
+7. The specificity of the full set of tests (including MRIs) is 100%. This means that a patient with Alzheimer’s has a 100% chance of having a negative test result.
+
+8. A patient with Alzheimer’s would be expected to get a positive result if they have Alzheimer’s on only 1/106 of the tests. This is unlikely, but not completely impossible.
+
+9. The specificity of a test is the probability of negative results when a patient’s condition is negative. In this case, the specificity would be 1 - sensitivity = 1-0.02 = 99.98%. This implies that a patient with Alzheimer’s has a 99.98% chance of having a negative result. This does not mean that a patient with Alzheimer’s will get a negative result on every Comprehensible MIAI test. It just means that the probability of the test being positive is 0.02%. This is called a specificity.
+
+10. The specificity of a test is the probability of negative results when a patient’s condition is negative. In this case, the specificity would be 1 - sensitivity = 1-0.02 = 99.98%. This implies that a patient with Alzheimer’s has a 99.98% chance of having a negative result. This does not mean that a patient with Alzheimer’s will get a negative result on every Comprehensible MIAI test. It just means that the probability of the test being positive is 0.02%. This is called a specificity.
+
+11. The specificity of a test is the probability of negative results when a patient’s condition is negative. In this case, the specificity would be 1 - sensitivity = 1-0.02 = 99.98%. This implies that a patient with Alzheimer’s has a 99.98% chance of having a negative result. This does not mean that a patient with Alzheimer’s will get a negative result on every Comprehensible MIAI test. It just means that the probability of the test being positive is 0.02%. This is called a specificity.
+
+12. The specificity of a test is the probability of negative results when a patient’s condition is negative. In this case, the specificity would be 1 - sensitivity = 1-0.02 = 99.98%. This implies that a patient with Alzheimer’s has a

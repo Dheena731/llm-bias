@@ -1,0 +1,9 @@
+Hi [Author],
+
+Thanks for circulating the draft. The sampling framework is sound, but the current composition requires readers to reverse-engineer the experimental design before reaching the main findings. Adjustments needed before final export:
+
+• **Top Banner:** Drop the opening clause (“novel insights into…”). Start directly with system + temporal scope: “Benthic community turnover across hypoxic gradients in the NW Atlantic.”  
+• **Fig 2 (PCoA):** Axes must display % variance explained. Swap the default sequential palette for a perceptually uniform diverging scale (cool-warm) so the O₂ gradient reads as continuous, not ordinal.  
+• **Methods → Diversity Metrics:** Clarify whether rarefaction used `phyloseq::rarefy_even_depth()` or custom subsampling. State iterations, random seed, and whether Chao1/Shannon were calculated pre- or post-normalization. Unmatched depths will invalidate the PERMANOVA contrasts.  
+• **Clustering Heatmap:** Log-ratio (clr) transform the relative abundance matrix before agglomerative clustering. Zero-inflation is currently collapsing unrelated taxa into artificial branches. Trim to top 12 genera and move the full OTU table to appendix.  
+• **Layout/Print:** Body text drops below 9pt at standard poster

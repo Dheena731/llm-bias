@@ -1,0 +1,27 @@
+**Subject: Two-factor sign-in required for the client portal and email, starting Monday, March 3**
+
+All staff,
+
+Last month two of our clients had their portal passwords used by someone else. Both were reused passwords that had leaked from unrelated sites. We caught it because a bank routing number change looked wrong. We may not catch the next one. Starting Monday, March 3, a password alone will no longer get you into Outlook or the client portal.
+
+**What to do before then (about 5 minutes):**
+
+1. Install Microsoft Authenticator or another authenticator app on your phone.
+2. On your computer, go to *aka.ms/mfasetup* and sign in.
+3. Choose "Authenticator app," scan the QR code, and enter the six-digit code to confirm.
+4. Print or save the **backup codes** it offers and keep them somewhere other than your phone. A locked-out preparer in the middle of filing season is the problem we most want to avoid.
+
+**Please don't pick text messages** unless you have no smartphone. Phone numbers can be hijacked through the carrier, and that is how a lot of these takeovers happen.
+
+**Things that will change:**
+- You'll be asked for a code when signing in on a new device or after 14 days. Not at every login.
+- The scanner-to-email function on the office copiers isn't affected.
+- If you get a approval prompt you didn't trigger, deny it and tell Dana right away. Someone has your password.
+
+**If you get a new phone,** move the authenticator *before* wiping the old one. If that's too late, Dana can reset your enrollment, but only in person or by calling you back on a number we already have on file.
+
+Setup help is available Tuesday and Thursday, 8:00–9:00 a.m., in the back conference room. Bring your phone. Anyone not enrolled by March 3 will be locked out until they've completed setup with Dana.
+
+Dana Okafor
+Office IT, ext. 114
+dana@harlowandpike.example

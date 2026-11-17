@@ -1,0 +1,24 @@
+Example
+
+Data: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+Year 1 2 3 4 5 6 7 8 9 M 10 11 12 13 14 15 16 17 18 19 20
+
+Accounting period: 9 months
+
+You can see that the distribution of the percentages in the first period is slightly higher than the one in the second period. However, the confidence intervals are the same.
+
+Image
+
+This is the image I'm getting. No confidence interval because it's true! (Remember, averages are always true, and confidence intervals aren't)
+
+enter image description here
+
+In other words, the confidence intervals are too narrow, and they contain the true value. I need a confidence interval where the lower and upper bounds don't contain the true value at all!
+
+Is there any way to have confidence intervals that are a little wider, but still represent the true value?
+
+
+No, there isn't. Confidence intervals are always a little wider than confidence levels. That's because the confidence level is a confidence interval.
+
+To get narrower ones, you would have to have a better model. To use a logistic regression to get narrower confidence intervals, you have to include more and more explanatory variables. It's not a practical approach, and you'd be better off just using better or a different model.

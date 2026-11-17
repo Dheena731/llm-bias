@@ -1,0 +1,16 @@
+Subject: Staying Alert to Phishing Emails
+
+Colleagues,
+
+Over the past few weeks, we have seen an increase in phishing emails aimed at our staff. These messages are designed to look like they come from trusted sources, such as senior managers, the IT department, payroll, or well-known vendors, and they try to trick recipients into sharing passwords, clicking harmful links, or opening infected attachments. A single careless click can expose company data and put our clients and coworkers at risk, so we ask everyone to remain watchful.
+
+Phishing messages often share certain traits. They may create a sense of urgency, threaten consequences if you do not act immediately, or promise an unexpected reward. The sender's address may look almost right but contain a small misspelling or an unfamiliar domain. Greetings may be generic, the wording may feel slightly off, and requests may be unusual for the person supposedly sending them, such as a sudden demand for gift cards, a change to banking details, or a login on an unfamiliar page.
+
+Before you act on any email you were not expecting, pause and examine it. Hover over links to see where they actually lead, and do not open attachments you did not request. If a message claims to come from a colleague or supplier, confirm it by calling a number you already have on file or speaking with the person directly, rather than replying to the email itself. Never share your password or authentication codes with anyone, including people who say they work in IT, because our team will never ask for them by email or message.
+
+If you suspect an email is a phishing attempt, do not reply, forward it to coworkers, or delete it right away. Report it using the report phishing button in your email program, or send it as an attachment to the IT help desk so the team can investigate and block similar messages. If you have already clicked a link or entered your credentials, tell IT immediately. Quick reporting limits the damage, and no one will be criticized for raising a concern in good faith.
+
+Thank you for helping keep our organization secure. When something looks suspicious, a moment of caution is always worth the time.
+
+Sincerely,
+The IT Security Team

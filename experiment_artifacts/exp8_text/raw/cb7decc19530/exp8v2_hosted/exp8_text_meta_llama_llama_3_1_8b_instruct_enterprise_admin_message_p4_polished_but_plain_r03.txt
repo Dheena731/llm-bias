@@ -1,0 +1,11 @@
+Notice to All Users
+
+As part of our ongoing efforts to ensure the security and integrity of our systems, we are conducting quarterly access reviews. These reviews are a routine process designed to verify that each user's access to our resources is still necessary and relevant to their job functions.
+
+The purpose of these reviews is to prevent unauthorized access to sensitive data and to ensure that each user's access privileges are up-to-date. During the review, our administrators will examine each user's access levels and make adjustments as necessary.
+
+Users will be notified if any changes are made to their access privileges. If you have any questions or concerns about your access or would like to request changes, please contact the system administrator.
+
+Please be aware that failing to respond to access review notifications or requesting changes to your access privileges does not guarantee approval. The decision to grant or deny access will be made on a case-by-case basis.
+
+If you have any questions about the access review process or need further information, please contact the system administrator.

@@ -1,0 +1,16 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is not clearly articulated, which makes it difficult to evaluate whether the study design, analyses, and conclusions are appropriate.
+
+The Introduction describes the general topic and notes several gaps in the literature, but it never states a specific, testable question. The aims shift across sections. The abstract frames the study as exploratory ("examining factors associated with engagement"), the Introduction implies a causal question ("how does X influence Y"), and the Discussion treats the findings as evidence for a particular theoretical mechanism. These are distinct questions that call for different designs and analytic approaches.
+
+Key constructs are also left undefined. "Engagement" and "success" are used broadly, and it is unclear whether they refer to the same outcome or to separate ones. The population and context to which the question applies are not specified either.
+
+**Recommendations:**
+
+1. State the primary research question explicitly, ideally in one or two sentences at the end of the Introduction.
+2. Specify whether the study is exploratory, descriptive, or confirmatory, and align the hypotheses (if any) accordingly.
+3. Define the key constructs and the target population.
+4. Ensure the Methods, Results, and Discussion all address this same question, and clearly label any secondary or post hoc analyses.
+
+Until the research question is clarified, I cannot judge whether the evidence supports the authors' conclusions. I would be glad to review a revised version.

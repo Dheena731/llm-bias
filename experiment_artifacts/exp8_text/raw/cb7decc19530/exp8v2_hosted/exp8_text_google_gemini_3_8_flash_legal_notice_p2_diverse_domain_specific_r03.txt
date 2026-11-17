@@ -1,0 +1,25 @@
+**NOTICE OF AMENDMENT TO DATA PROCESSING ADDENDUM & GENOMIC PRIVACY POLICY**
+
+**Effective Date:** November 1, 2024  
+**Applies To:** Accredited Sequencing Partners, Clinical Investigators, and Registered Donors (Variant Database Tier II)
+
+Pursuant to Section 11.4 of the Master Research & Diagnostic Services Agreement, Horizon Omics Inc. has amended its Clinical Genomics Privacy Policy to address revised regulatory frameworks governing synthetic sequencing reads, secondary research use, and cross-border variant data exchange.
+
+### Summary of Material Amendments:
+
+1. **Processing of Raw FastQ and BAM Files (Section 3.2):**  
+   Raw sequencing telemetries are now categorized separately from annotated phenotypic profiles. Unaligned read data will automatically transition to cold storage thirty (30) days post-variant-calling and will be excluded from real-time federated research querying, except where express consent for deep re-alignment has been executed under Protocol S-9.
+
+2. **De-Identification and Re-Identification Risk Management (Section 6.1):**  
+   In compliance with updated NIST SP 800-88 (Rev. 1) guidelines and ISO/IEC 27701 controls, germline variant panels exceeding 50 single-nucleotide polymorphisms (SNPs) will no longer be distributed as "de-identified" under Safe Harbor standards. Access to high-density sequencing cohorts will be restricted exclusively to credentialed research institutions via managed, zero-egress cryptographic computational environments (Secure Research Enclaves).
+
+3. **Statutory Retention vs. Right to Erasure (Section 9.4):**  
+   We have clarified the interaction between individual data deletion requests and mandatory analytical compliance. Where state clinical laboratory regulations (e.g., CLIA/CAP mandates) require archival of underlying sequence validations for diagnostic reporting, physical data will be pseudonymized and retained for the minimum statutory period (seven years from assay completion) but permanently purged from downstream prospective cohort indices.
+
+### Action Required:
+
+* **Clinical Partners:** Continued submission of biological specimens or sequencing manifests after **November 1, 2024**, constitutes institutional acceptance of these amended terms. If your Institutional Review Board (IRB) or Data Protection Officer requires an executed copy of the updated Data Processing Addendum (DPA v4.2), submit a request to `compliance@horizon-omics.internal`.
+* **Individual Donors / Data Subjects:** You may exercise the option to withdraw consent for secondary, non-diagnostic commercial research without impacting your clinical diagnostic reports by modifying your parameters under **Specimen Governance Settings** in the patient portal prior to **October 31, 2024**.
+
+*Horizon Omics Regulatory & Legal Affairs Group*  
+*Reference: HZO-REV-2024-V4*

@@ -1,0 +1,10 @@
+**SecOps Notice: Lock your workstations when stepping away**
+
+If you leave your desk for any reason—coffee, the restroom, or a quick hallway chat—lock your screen. 
+
+We have external visitors, facilities staff, and contractors on the floor daily. An unattended, unlocked terminal bypasses our MFA controls and creates a direct compliance failure during our SOC 2 physical walk-throughs.
+
+*   **Mac:** `Ctrl + Cmd + Q`
+*   **Windows:** `Win + L`
+
+SecOps will continue random floor audits. Unattended unlocked machines will be locked manually, and the incident will be logged against the workstation's asset tag.

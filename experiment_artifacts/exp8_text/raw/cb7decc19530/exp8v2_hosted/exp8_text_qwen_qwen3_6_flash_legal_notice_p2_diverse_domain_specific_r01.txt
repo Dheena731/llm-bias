@@ -1,0 +1,12 @@
+**NOTICE OF PRIVACY POLICY AMENDMENT**  
+**Effective Date:** [Insert Date]  
+
+This communication documents material revisions to the Privacy Policy governing the [Platform Name] remote care ecosystem (“Service”), previously issued on [Original Policy Date]. The amended policy supersedes all prior iterations and applies to all personal data, protected health information, and device-derived metrics processed through the Service, including synchronous teleconsultations, asynchronous symptom logging, and data ingested from Class II/III connected medical peripherals.
+
+**Material Revisions Include:**  
+• Retention schedules for continuous physiological streams (e.g., CGM, ambulatory ECG), recalibrated to satisfy clinical documentation standards under 45 CFR § 164.530(j) and state record-keeping mandates.  
+• Disclosure pathways for secondary processing of de-identified biometric cohorts in peer-reviewed trials, with retained participant opt-out functionality and IRB-compliant data stripping protocols.  
+• Revised subcontractor controls regarding transatlantic transfer of patient-originating vitals, now governed by Commission Decision 2021/914 Standard Contractual Clauses and supplemental transfer impact assessments.  
+• Consolidated exercise channels for statutory rights under CPRA, Utah CDPPA, and Virginia CDPA, including tiered identity verification procedures and 45-day response windows.  
+
+This notice satisfies the conspicuous communication requirement set forth in

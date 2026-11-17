@@ -1,0 +1,21 @@
+**SECURITY NOTICE: Stay Alert for Phishing Emails**
+
+Please remain vigilant regarding suspicious emails targeting company inboxes. Phishing attacks often disguise themselves as legitimate communications from senior leadership, internal departments (like HR or IT), or trusted vendors.
+
+**Key Warning Signs to Watch For:**
+* High-pressure or urgent requests demanding immediate action.
+* Unprompted requests for passwords, multi-factor authentication (MFA) codes, or financial transactions.
+* Mismatched sender addresses (the display name may look familiar, but the actual email domain does not match).
+* Generic greetings, unusual phrasing, or poor spelling and grammar.
+* Unexpected attachments or links prompting you to log in.
+
+**What to Do:**
+1. **Do not click** any links, open attachments, or reply to the sender.
+2. **Do not forward** the email to colleagues.
+3. Report the message immediately using the "Report Phishing" button in your email client, or contact the IT Help Desk directly.
+
+When in doubt, verify the request with the sender through a separate, trusted channel, such as a direct phone call or internal chat. 
+
+Thank you for helping keep our systems secure.
+
+IT Security Team

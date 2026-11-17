@@ -1,0 +1,7 @@
+**Enhancing Account Security: Two-Factor Authentication Now Available**
+
+As part of our ongoing commitment to protecting your sensitive information and research data, we are introducing two-factor authentication (2FA) for all domain accounts. This additional security layer will help safeguard against unauthorized access and phishing attempts, ensuring the integrity of your work and collaborations.
+
+Starting immediately, you can enable 2FA on your account through the account settings page. This will require a one-time setup of a authentication app or SMS verification, which will then prompt a secondary verification step each time you log in from a new device or location.
+
+By enabling 2FA, you will significantly reduce the risk of account compromise and help maintain the trust and security of our research community. If you have any questions or concerns about the 2FA setup process, please don't hesitate to reach out to our support team for assistance.

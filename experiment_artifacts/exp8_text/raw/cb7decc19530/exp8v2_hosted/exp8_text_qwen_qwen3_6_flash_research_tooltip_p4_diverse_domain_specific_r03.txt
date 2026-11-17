@@ -1,0 +1,1 @@
+Indicates a deliberately empty cell where no data was recorded or applicable. Excluded from aggregations and calculations by default.

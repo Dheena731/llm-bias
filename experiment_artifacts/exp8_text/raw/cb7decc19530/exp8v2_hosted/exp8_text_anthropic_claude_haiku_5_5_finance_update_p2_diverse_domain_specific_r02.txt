@@ -1,0 +1,15 @@
+**To:** Merchant account holders, Harbor Street Payments
+**Re:** Change to processing fees for card-present sales, effective March 1
+
+Starting with statements dated March 1, the processing rate on in-person card sales will go from 2.60% + $0.10 to 2.75% + $0.10. Online and keyed-in transactions are not changing.
+
+Most of the increase comes from card network assessment fees, which Visa and Mastercard adjusted in January. Those fees are passed through to merchants at cost and are not a markup by us. The remaining 0.05% is our own change, which covers the expanded fraud screening we added to terminals last fall.
+
+Some practical notes:
+
+- If you run a high volume of small-ticket sales, the flat $0.10 is the bigger share of your cost. A $4 coffee now costs about $0.21 to process, up from $0.20.
+- Refunds and voids are not charged a fee.
+- Amex rates are set by American Express and are not affected by this change.
+- If you want to see your effective rate on last month's batches, the statement breakdown in the dashboard now shows network fees on their own line.
+
+If the change affects your margins enough to justify a conversation about pricing or a different terminal plan, call the merchant desk at 800-555-0147 before March 1 and we can run your last quarter's volume against both structures.

@@ -1,0 +1,13 @@
+**NOTICE OF ACCEPTABLE USE CONDITIONS – SHARED NETWORK INFRASTRUCTURE**  
+**Effective:** [Date] | **Policy ID:** NET-AUP-2024-09  
+
+1. **Scope & Conditionality**  
+Access to the shared network designated [Network Name/SSID/VLAN] is provisional. Connection grants no ownership interest in bandwidth, addressing space, or routing priority. The operator may suspend, throttle, or terminate sessions at any time to preserve structural integrity or comply with external directives.
+
+2. **Permitted Traffic & Allocation**  
+Users may transmit standard application-layer sessions (TLS 1.2+, UDP-based voice/media, DNS, NTP, and authenticated email) within established fair-use thresholds. Traffic shaping and queue management remain active; prioritization requires explicit provisioning. Cross-tenant communication is restricted to approved inter-VLAN routes.
+
+3. **Prohibited Network Behaviors**  
+The following actions constitute material breach:  
+a) Attempting to bypass QoS limits, spoof IP/MAC identifiers, or operate unregistered gateways, NAT devices, or wireless repeaters.  
+b) Hosting persistent listeners, cryptocurrency mining rigs, Bit

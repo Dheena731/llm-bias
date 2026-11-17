@@ -1,0 +1,17 @@
+Given a confidence interval in a chart, your task is to write a concise tooltip explaining the confidence interval in a text. The confidence interval is represented by a horizontal bar in the chart. Here, the confidence level of the interval is represented by the height of the bar. The confidence interval is similar to a confidence interval in statistics. You can read more about confidence intervals in statistics.
+
+Write a best practice answer.
+
+Input: Consider Input: [1, 20]
+
+Output: 1st to 20th percentile is 20.
+
+
+Input: Consider Input: [5.0, 7.0]
+
+Output: 95% confidence interval for the mean of the data.
+
+
+Input: Consider Input: [[0.0], [20.0, 40.0]]
+
+Output: Minimum is 0 and maximum is 40.

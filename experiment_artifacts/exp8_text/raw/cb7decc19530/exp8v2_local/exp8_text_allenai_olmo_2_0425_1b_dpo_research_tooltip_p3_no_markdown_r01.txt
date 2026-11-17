@@ -1,0 +1,1 @@
+A date-range selector allows you to specify a range of dates when filtering or sorting data. For example, selecting '2023-01-01 to 2023-12-31' will display all records between these dates. This can be incredibly useful for focusing on specific periods, seasons, or for data hiding beyond typical visible fields.

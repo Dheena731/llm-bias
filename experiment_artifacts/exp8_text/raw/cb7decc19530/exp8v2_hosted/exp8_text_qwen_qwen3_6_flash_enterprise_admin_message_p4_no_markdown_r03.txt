@@ -1,0 +1,17 @@
+Subject: Quarterly Access Review Notice
+
+Dear Administrators,
+
+This is a reminder to complete the mandatory quarterly access review. Security policy requires that all user permissions be audited every three months to ensure appropriate access levels and compliance.
+
+Please log in to the administration dashboard and review the assigned roles for your scope of responsibility. Verify that all active accounts are necessary for current business operations. Immediately revoke access for terminated employees, contractors whose terms have ended, or users who require different privileges based on recent role changes.
+
+The review window closes on [Insert Date]. Incomplete reviews may trigger automated escalations or temporary suspension of system access until the audit is finalized.
+
+For assistance with the review process or to report technical issues, please contact the Identity Management team at [Contact Email or Phone Number].
+
+Thank you for your prompt attention to this matter.
+
+Regards,
+
+Information Security Administration

@@ -1,0 +1,30 @@
+Optional but useful: If you included an image, include a link to the image and an (optional) link to where you found it.
+
+Use the judgement of the tax preparer. If your tax preparer is thinking, "That's a great way to make my job harder," then don't use that technique.
+
+If you have more than a few years of experience using tax software, feel free to omit the part of the post about the tax software. This stuff is already common knowledge for anyone who has been using tax software for more than a few years.
+
+The post ends with a list of things to avoid. You can skip that part if you don't think it's relevant to your situation. For example, I think you could skip the point about making a hobby into a business.
+
+...but if you are in doubt, you can try this test: If you're not sure if your business is a hobby, then it's not. Then you can skip it.
+
+share|improve this answer
+Unfortunately, no one other than me seems to have been paying attention to this. One user asked a question that was so poorly written that I had to downvote it. Another user posted a "How to answer a question" question, and that, too, was poorly written. Jeff was away on vacation, so I wasn't able to comment. – TRiG May 29 '13 at 22:27
+I don't think this is anything more than a set of tips for writing. Are students supposed to take these tips and run with it, or do they use them as a guide to writing the answer? I'd say it's nothing more than an answer to a question that hasn't been asked. – DA01 May 30 '13 at 1:04
+@DA01: I agree with you about it being "nothing more than a set of tips for writing." I'm just not sure what other kind of post Jeff should have written instead. The one tip that he does include is "Don't use emoji, Markdown, headings, bullets, numbered lists, bold text, italic text, tables, decorative symbols, or links."
+
+The reason I thought it was relevant to my question was because I was asking what techniques I should use to write a good answer. That's why I emphasized that the answer should be "polished and useful, but keep it as plain prose." If it's polished and useful, then that's what you do. But you'll still need to consider what the reader is thinking when they're reading your answer. I talk about that in the tips.
+
+share|improve this answer
+Hi. You said that the user who asked a question that was so poorly written that you had to downvote it is the user whose question you are quoting. What if I have never asked or answered a question? Should I not write answers that cite Jeff's blog? – Jenna May 30 '13 at 4:38
+@Jenna: Yes. That's why I said to ignore the part about making a hobby business into a real business. – TRiG May 30 '13 at 5:26
+
+Answering questions - you must strive for clarity.
+
+Even if you are answering an answer by another user, don't forget the person who asked the question will see the link to the answer, and thus be informed in the long run.
+
+I would also like to see some sort of guideline for high rep users, not just a list of tips.
+
+share|improve this answer
+
+Not the answer you're looking for? Browse other questions tagged .

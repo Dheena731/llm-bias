@@ -1,0 +1,10 @@
+**Tooltip:**
+
+> **Export results**
+> Open **⋮ › Download** and choose CSV or JSON. The file includes every row the query returns, not just the 1,000 shown in the grid. If you've edited the SQL, re-run it first, since exports use the last executed query.
+
+I assumed a SQL editor with a paginated grid and a menu-based export. If your product differs, swap in the real limits, formats, and menu path. Those details are what make a tooltip useful.
+
+**Shorter version, for a hover label:**
+
+> Download as CSV or JSON (⋮ › Download). Exports all rows from the last run, not just the visible page.

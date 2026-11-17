@@ -1,0 +1,20 @@
+**Cookie Notice: Halvard & Peck Tool Supply**
+*Last changed 3 March 2025*
+
+**1. What we store and why**
+
+We group the cookies this site sets into three categories.
+
+*Required for checkout.* `hp_cart` keeps your basket for 14 days. `hp_sess` ends when you close your browser. `AWSALB` is a load-balancing cookie that lasts seven days. The cart and checkout cannot function without these, so they are not subject to your choice.
+
+*Measurement, with consent.* If you accept analytics, we use Google Analytics 4 (`_ga` and `_ga_` followed by our container ID, retained up to 13 months). We use these cookies to count visits and to see which product pages customers leave before ordering. We have not enabled Google Signals or advertising features.
+
+*Preferences.* `hp_units` remembers whether you chose metric or imperial on our size charts. It lasts one year.
+
+**2. Third-party content**
+
+Product reviews load from Yotpo when you open the reviews panel, and Yotpo sets its own cookies at that point. The payment step is hosted by Stripe, which places cookies for fraud screening. We do not control how long Stripe or Yotpo retain these. Their notices are linked from the footer.
+
+**3. Your choices**
+
+On your first visit, a banner offers *Accept all*, *Necessary only*, or *Choose*. Your selection is saved in `hp_consent` for 12 months. You can change it at any time through *

@@ -1,0 +1,15 @@
+Most trade shops don’t lose money on labor. They lose it on the second trip to the supply house that never made it onto the final invoice, or the three-week delay between finishing a rough-in and finally sitting down at a laptop to bill it.
+
+We built Camber because a five-person crew doesn’t need enterprise construction software designed for commercial general contractors with full-time estimators. 
+
+Here is what Camber actually does:
+
+* **Receipt capture that ties to the job:** Snap a photo of a counter slip at the wholesaler; the materials cost attaches to the active work order before you start the engine.
+* **Frictionless time logging:** Crew members tap into a job site from their own phones—no mandatory selfies, no invasive battery-draining GPS pings.
+* **Driveway billing:** Turn field notes into a clean, itemized invoice and text it to the homeowner for payment before your truck leaves the curb.
+
+No Gantt charts. No mandatory 45-minute onboarding calls. 
+
+Camber is live today on iOS and Android. It’s free for your first three active jobs—take it out to the field tomorrow morning and see how much Friday-night paperwork disappears.
+
+[Download Camber]

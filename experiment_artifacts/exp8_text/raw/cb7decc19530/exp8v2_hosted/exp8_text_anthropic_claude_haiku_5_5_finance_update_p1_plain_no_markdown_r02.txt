@@ -1,0 +1,7 @@
+We have added a monthly spending summary to your account. At the start of each month, you will receive a short overview of how you spent money during the previous month. The summary groups your transactions into categories such as groceries, dining, transportation, and bills, and shows how each category compares with the month before. It also lists your largest individual purchases so you can spot anything unusual.
+
+You can find the summary in the Insights section of your dashboard. If you prefer not to receive it by email, you can turn off the notification in your settings under Notifications. Turning off the email does not remove the summary from the dashboard, so you can still review it there whenever you like.
+
+The categories are assigned automatically based on merchant names and transaction details. If a purchase appears in the wrong category, you can change it, and future purchases from the same merchant will follow your choice. Your edits are saved only to your account and do not affect anyone else's summaries.
+
+We expect to refine the summary over the coming months based on feedback. If you have suggestions or notice an error, please contact our support team through the Help menu.

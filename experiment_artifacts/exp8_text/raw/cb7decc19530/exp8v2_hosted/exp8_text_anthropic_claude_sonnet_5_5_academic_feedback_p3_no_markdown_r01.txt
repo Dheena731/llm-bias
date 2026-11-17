@@ -1,0 +1,9 @@
+Reviewer Comment: Clarity of the Research Question
+
+The manuscript does not state its central research question clearly, and this weakens the paper as a whole. The introduction describes a broad topic area and lists several related concerns, but it never says what the study is trying to find out. In places the aim appears to be explaining why the observed pattern occurs. Elsewhere it appears to be testing whether an intervention works, and the abstract frames it as a general exploration of "factors related to" the outcome. These are different questions that call for different designs, analyses, and standards of evidence.
+
+The vagueness causes several problems. First, it is difficult to judge whether the methods are appropriate, because I cannot tell what they are meant to answer. Second, the hypotheses, where they appear, are not clearly derived from the stated background and are not mapped onto specific analyses. Third, the discussion draws conclusions about causation that do not follow from what appears to be an exploratory design.
+
+I ask the authors to state one clear, focused research question, ideally in a single sentence near the end of the introduction. They should then specify the hypotheses or sub-questions that follow from it and show how each is addressed by the data and analyses. Defining the key constructs, population, and outcome of interest would also help. Once the question is clear, the authors should revisit the abstract, methods, and conclusions so that they all address it consistently.
+
+I believe the underlying work may be valuable, but the contribution cannot be fairly assessed until the question is sharpened.

@@ -1,0 +1,1 @@
+A missing-value marker shows that no data was recorded for this field. It does not mean zero, blank text, or "not applicable." The information may have been left out, unavailable at the time, or lost during import. Treat the entry as unknown, and check the original source before using it in calculations or comparisons.

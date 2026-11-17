@@ -1,0 +1,1 @@
+A missing-value marker is a symbol or indicator used to represent a value that is not available or has not been reported. It is often used in data visualizations, such as charts and graphs, to denote missing or unknown data points.

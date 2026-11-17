@@ -1,0 +1,14 @@
+**Subject: VPN Client Update: New Version Available**
+
+Hello everyone,
+
+We have released an updated version of the VPN client (version 4.2). The update improves connection stability, reduces reconnect times after a network change, and fixes an issue where the client could fail to start on some laptops.
+
+To update, open the VPN client and select **Check for Updates**, or download the latest installer from the IT portal. The update takes about two minutes and requires a restart of the client.
+
+Please update by **Friday, March 14**. After that date, older versions will no longer be able to connect to the corporate network.
+
+If you run into problems, contact the IT Help Desk at helpdesk@example.com or extension 4400.
+
+Thank you,
+IT Department

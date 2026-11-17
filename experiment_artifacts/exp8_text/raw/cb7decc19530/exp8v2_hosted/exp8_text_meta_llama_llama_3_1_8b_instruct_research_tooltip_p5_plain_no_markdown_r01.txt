@@ -1,0 +1,1 @@
+To export query results, select the desired rows and go to the 'Export' option in the 'Query' menu. Choose the format you prefer, such as CSV or Excel, and select the columns you wish to include. The query results will then be saved to your computer.

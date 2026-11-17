@@ -1,0 +1,9 @@
+Attention Dashboard Admins: 
+We are scheduling a maintenance window during the hours of 12 PM - 2 PM today to address critical updates and bugfixes to your dashboard. Please ensure all critical functionalities are at peak performance before the window begins. Rest assured, this maintenance is brief and should not impact regular user access.
+
+During the maintenance window, we do not support any new feature requests or updates to existing features. Your dashboard will return to its optimal performance post-maintenance at 2 PM.
+
+Thank you for your cooperation and understanding. Let's keep our dashboards running smoothly!
+
+Best regards,
+The Dashboard Admin Team

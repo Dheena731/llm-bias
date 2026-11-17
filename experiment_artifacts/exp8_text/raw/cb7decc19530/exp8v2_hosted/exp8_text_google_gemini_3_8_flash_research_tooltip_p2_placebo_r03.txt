@@ -1,0 +1,1 @@
+This range shows where the true value is likely to fall, reflecting the uncertainty of the estimate. A wider range indicates greater uncertainty in the data.

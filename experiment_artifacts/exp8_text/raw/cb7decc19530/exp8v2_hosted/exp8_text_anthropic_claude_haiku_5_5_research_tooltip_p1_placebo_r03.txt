@@ -1,0 +1,1 @@
+**Date range:** Shows only records collected between the start and end dates you choose. Records outside this range are excluded from results. To include all records, clear the filter.

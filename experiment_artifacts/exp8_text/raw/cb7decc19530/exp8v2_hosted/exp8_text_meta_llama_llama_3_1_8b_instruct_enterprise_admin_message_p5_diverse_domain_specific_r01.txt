@@ -1,0 +1,16 @@
+Here's a sample message:
+
+"Hello Faculty and Staff,
+
+As part of our ongoing efforts to improve the university's technology infrastructure, we will be migrating our email services to a new platform in the coming weeks. This change will bring several benefits, including enhanced security features, improved spam filtering, and better integration with other university systems.
+
+Over the next two weeks, you will receive instructions on how to update your email settings to ensure a seamless transition. You will be able to access your email as usual, but you may notice some temporary disruptions to service.
+
+If you have any questions or concerns about the migration, please don't hesitate to reach out to the IT Help Desk at [insert contact information]. We will be happy to assist you.
+
+Thank you for your patience and cooperation as we work to enhance our email services.
+
+Best regards,
+[Your Name]"
+
+This message is specific to a university setting and takes into account the unique needs and concerns of faculty and staff in that environment. It also avoids generic language and focuses on the specific details of the migration.

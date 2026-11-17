@@ -1,0 +1,16 @@
+ADMIN NOTICE: Quarterly User Access Review
+
+The quarterly access review is now officially underway. All department managers, team leads, and system owners are required to review and certify the access permissions for their staff.
+
+Action Required:
+1. Log in to the Access Management Portal.
+2. Review the active permissions, roles, and software licenses for your team members.
+3. Confirm appropriate access, adjust roles where necessary, and flag any accounts that should be revoked.
+
+Deadline: Please complete all reviews by Friday, October 20, at 5:00 PM. 
+
+Timely completion is required to maintain our security and compliance standards. Accounts that are not certified by the deadline may be subject to temporary suspension.
+
+If you have questions or experience any issues accessing the portal, please contact the IT Help Desk or the Security Team at security@company.com.
+
+Thank you for your cooperation in keeping our systems secure.

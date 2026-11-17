@@ -1,0 +1,15 @@
+**NOTICE OF ACCEPTABLE USE POLICY FOR SHARED NETWORK INFRASTRUCTURE**
+
+THIS NOTICE GOVERNS THE ACCESS AND UTILIZATION OF THE SHARED NETWORK PROVIDED BY [ORGANIZATION/ENTITY] (THE “NETWORK”). BY CONNECTING TO, ACCESSING, OR TRANSFERRING DATA VIA THE NETWORK, USERS HEREBY ACKNOWLEDGE AND AGREE TO BE BOUND BY THE TERMS SET FORTH HEREIN.
+
+1. PERMITTED USE. The Network shall be utilized solely for lawful, authorized, and operational purposes consistent with its intended function. All usage must comply with applicable local, state, provincial, and federal laws and regulations.
+
+2. PROHIBITED ACTIVITIES. Without limiting the foregoing, users are strictly prohibited from:
+   a. Attempting to bypass, disable, or circumvent network security, authentication, or filtering mechanisms;
+   b. Engaging in unauthorized access, data interception, packet sniffing, or denial-of-service activities;
+   c. Distributing malware, spam, or conducting port scanning/network probing without explicit written authorization;
+   d. Hosting, transmitting, or storing unlawful, infringing, defamatory, or obscene content;
+   e. Exceeding reasonable bandwidth thresholds for personal, commercial, or non-operational streaming, bulk downloading, or cryptocurrency mining;
+   f. Reselling, leasing, or transferring network access rights to unauthorized third parties.
+
+3. MONITORING AND ENFORCEMENT. The Network Administrator reserves the right to monitor, log, inspect, and record network

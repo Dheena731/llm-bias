@@ -1,0 +1,1 @@
+Includes both the start and end day, in your account time zone. Dates after today are disabled.

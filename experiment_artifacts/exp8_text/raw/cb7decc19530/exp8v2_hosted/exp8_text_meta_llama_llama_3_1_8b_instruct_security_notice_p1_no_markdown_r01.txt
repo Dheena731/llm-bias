@@ -1,0 +1,23 @@
+**Workplace Security Notice**
+
+**Password Reuse: A Security Risk**
+
+To all employees,
+
+As part of our ongoing efforts to maintain a secure work environment, we would like to remind everyone of the importance of using unique and complex passwords. Password reuse, where the same password is used across multiple accounts, is a significant security risk that can leave our company vulnerable to unauthorized access.
+
+If you reuse the same password across multiple accounts, including personal and work-related ones, it is not only a security risk but also a breach of our company's security policies. In the event of a data breach, an attacker may be able to gain access to all accounts that share the same password, putting sensitive information at risk.
+
+To minimize this risk, we recommend that you:
+
+* Use a unique password for each account
+* Change your passwords regularly (every 60-90 days)
+* Use a password manager to generate and store complex passwords
+* Avoid using easily guessable information, such as names, dates, or common words
+
+If you are unsure about the security of your passwords or have any questions, please contact our IT department for guidance and support.
+
+Thank you for your cooperation in maintaining a secure work environment.
+
+Best regards,
+[Your Name/Company]

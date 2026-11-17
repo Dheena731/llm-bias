@@ -1,0 +1,1 @@
+A missing-value marker, also known as a placeholder or no-data symbol, signifies an area in a dataset or analysis where data was not available or did not meet specified criteria. It’s a crucial concept in data science and statistics, helping to identify regions that require special attention or additional information to complete the analysis accurately.

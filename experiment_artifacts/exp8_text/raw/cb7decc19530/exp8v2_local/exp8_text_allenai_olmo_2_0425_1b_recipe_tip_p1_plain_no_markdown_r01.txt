@@ -1,0 +1,36 @@
+Avoid using all capital letters, exclamation points (!), or numbers (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) as it may affect readability.
+
+Format your main text with the following Markdown style:
+
+Use single line breaks to indicate a new paragraph. Use two line breaks to indicate a code comment block.
+
+Code comments should be indented:
+
+  1. Code
+  2. Code
+
+You can also use multi-line comments. For example:
+
+  • Single line comment
+  • Multi-line comment
+
+You can also use Markdown lists:
+
+
+
+
+Using our example menu previously, the post might look as follows:
+
+Assorted lentils to use up, or to make a quick and healthy salad.
+
+  • Green lentils
+  • Red lentils
+  • Yellow lentils
+  • Black lentils
+
+
+Using this method, you can create a pre-formatted newsletter with a body, heading and footer.
+
+Customize the layout
+
+If you want to display additional information in the sidebar or footer, you can do this using Markdown. You can also use links for email newsletters.

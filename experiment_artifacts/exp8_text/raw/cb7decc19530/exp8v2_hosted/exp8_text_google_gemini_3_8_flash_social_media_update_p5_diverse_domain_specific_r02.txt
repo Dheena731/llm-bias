@@ -1,0 +1,5 @@
+Payout webhook dispatches stalled for about 18 minutes this morning (09:12–09:30 UTC) due to a deadlocked consumer group during a routine Redis failover. 
+
+Direct API calls stayed green, but we know delayed events wreck downstream order states and morning reconciliation runs. Queues have fully drained, and backfilled events have landed. 
+
+We messed up the migration sequencing on our end. Short root-cause writeup will be up on the status page by 14:00.

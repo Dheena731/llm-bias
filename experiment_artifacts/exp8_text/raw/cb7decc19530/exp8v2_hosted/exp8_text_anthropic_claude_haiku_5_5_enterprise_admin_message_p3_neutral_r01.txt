@@ -1,0 +1,16 @@
+**Subject: Important Update to the VPN Client**
+
+Hello team,
+
+We're releasing version [X.X] of the VPN client on [date]. The update includes [brief description of key change, e.g., improved connection stability and faster reconnection].
+
+**What you need to do:**
+- Install the update by [deadline], or it will install automatically on [date].
+- Restart your computer after installing.
+- Contact [IT support contact or channel] if you have trouble connecting.
+
+Thank you for your help as we roll out these improvements.
+
+Best regards,
+[Your name]
+[Your team]

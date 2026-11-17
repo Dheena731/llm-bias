@@ -1,0 +1,1 @@
+This dataset filter allows you to choose which dataset fields (columns) are shown in the results. By clicking the filter icon you can select or unselect specific fields, enabling you to focus on only relevant information for your analysis.

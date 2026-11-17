@@ -1,0 +1,25 @@
+**Subject: Mail moves to Microsoft 365 this weekend. Expect Outlook to ask you to sign in Monday**
+
+Hi all,
+
+Starting Friday at 6 p.m., we're moving everyone's mailbox from our old Exchange server (the one in the supply closet) to Microsoft 365. The cutover is scheduled to finish by Sunday afternoon.
+
+**What happens Friday night through Sunday**
+- Mail sent to you during the move will be delayed, not lost. It may take up to a few hours to show up after we switch MX records Saturday at 9 p.m.
+- Please don't delete or reorganize large folders before then. It slows the copy.
+
+**What you'll need to do Monday**
+1. Open Outlook. It will say it needs to reconnect. Sign in with your full email address and your usual password, then approve the Authenticator prompt.
+2. If Outlook hangs on "Updating profile" for more than 10 minutes, close it and call the help desk. Don't create a new profile yourself.
+3. On your phone, delete the old work account and re-add it. The old connection won't carry over.
+
+**Things that won't move on their own**
+- Local .pst files on your desktop or the shared drive. If you rely on one, tell us by Thursday and we'll import it.
+- Auto-complete suggestions. Outlook should rebuild them within a few days, but not always completely.
+- The scanner at the front desk. It uses an old SMTP login, and we're switching it to a new relay. Until Tuesday, scan to the shared folder instead.
+
+Shared mailboxes (billing@, support@) and calendar delegates are being moved with their permissions, but check yours Monday morning and tell us if something is missing.
+
+If something looks wrong, email helpdesk@ourcompany.example or call 555-0142. Those will keep working throughout.
+
+— Dana, IT

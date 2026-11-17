@@ -1,0 +1,2 @@
+**Export results**  
+Download the full, unpaginated result set as CSV, TSV, or Parquet—bypassing the 500-row preview limit. Large queries (>100k rows) will run as a background job.

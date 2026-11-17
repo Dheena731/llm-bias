@@ -1,0 +1,1 @@
+Select a range of dates to filter the data. Click on the start date and then click on the end date to choose the range. You can also use the calendar navigation to move to a different month or year. The selected date range will be applied to the data once you confirm your selection.

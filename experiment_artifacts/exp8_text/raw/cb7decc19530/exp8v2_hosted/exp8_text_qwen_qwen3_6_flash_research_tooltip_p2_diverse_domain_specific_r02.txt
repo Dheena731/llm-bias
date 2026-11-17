@@ -1,0 +1,1 @@
+This band shows the 95% confidence interval around the plotted metric. It quantifies sampling uncertainty: under identical experimental conditions, 95% of such ranges would contain the true population value. Read it as a precision indicator for your estimate, not a hard boundary.

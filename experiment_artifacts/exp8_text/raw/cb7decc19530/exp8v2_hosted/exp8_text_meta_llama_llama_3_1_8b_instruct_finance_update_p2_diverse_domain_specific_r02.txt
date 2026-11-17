@@ -1,0 +1,24 @@
+Here's a short note explaining a change to card transaction fees, tailored to the domain:
+
+**Important Update to Card Transaction Fees for Merchants**
+
+As of [Effective Date], our bank will be introducing a new fee structure for card transaction processing. The revised fee schedule is designed to better reflect the costs associated with processing card transactions and to provide a more transparent fee model for merchants.
+
+**Key Changes:**
+
+* A new tiered fee structure will be implemented, with lower fees for merchants processing a higher volume of transactions.
+* The interchange fee for Mastercard transactions will increase by 0.5% to [new rate].
+* The settlement fee for Visa transactions will decrease by 0.2% to [new rate].
+
+**Why the Change?**
+
+We're making these changes to ensure our merchants are better equipped to manage the costs associated with processing card transactions. By introducing a tiered fee structure, we're incentivizing merchants to increase their transaction volumes, which in turn benefits the entire payment ecosystem.
+
+**What Does This Mean for You?**
+
+If you're a merchant processing card transactions with us, you may see a change in your monthly fees. We recommend reviewing your current processing volumes and adjusting your business strategy accordingly. If you have any questions or concerns, please don't hesitate to reach out to our dedicated merchant support team.
+
+We appreciate your understanding as we continue to evolve and improve our services to better meet the needs of our merchants.
+
+Best regards,
+[Your Bank's Name]

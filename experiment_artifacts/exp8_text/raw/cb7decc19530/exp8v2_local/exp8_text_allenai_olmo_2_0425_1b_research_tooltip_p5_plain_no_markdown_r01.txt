@@ -1,0 +1,96 @@
+Use the CSS classes specified in the API documentation to style your tooltip: tooltip, tooltip, tooltip-default.
+
+The tooltip() function returns the HTML of the tooltip, which you should generate in memory and then save to the data table. You can use the unlink() function to store the tooltip to the data table.
+
+The API documentation also describes the attributes of the tooltip Element.
+
+Pls show me the example of creating a table and writing the values in one column then show me how to use the tooltip function to display the selected data and the values written in one column?
+
+
+You can use the following code to create a simple table and select data from it:
+
+document.querySelector('.col').addEventListener('click', function() {
+  const table = this.parentNode.querySelector('table');
+  const tr = table.querySelector('tr');
+  const td = table.querySelector('td');
+
+  const first = new Date();
+  const second = new Date(new Date().getTime() + 5 * 1000);
+  const third = new Date(new Date().getTime() + 5 * 1000 + 1000);
+  const fourth = new Date(new Date().getTime() + 5 * 1000 + 1000 + 1000);
+
+  tr.addEventListener('click', function() {
+    td.innerHTML = first.toLocaleString() + ' ago';
+    td.innerHTML = second.toLocaleString() + ' ago';
+    td.innerHTML = third.toLocaleString() + ' ago';
+    td.innerHTML = fourth.toLocaleString() + ' ago';
+  });
+
+  table.appendChild(tr);
+  table.appendChild(td);
+});
+  col {
+    width: 100px;
+  }
+  .col {
+    margin-right: 30px;
+  }
+  .row {
+    display: table-row;
+  }
+  .td {
+    height: 30px;
+  }
+  .td:last-child {
+    margin-right: 0;
+  }
+  .td span {
+    color: silver;
+  }
+  .td {
+    width: 100%;
+    text-align: center;
+    display: table-cell;
+  }
+  .row td {
+    padding: 4px;
+  }
+  .row .cell {
+    padding: 4px 0;
+    text-align: center;
+    background-color: ${td.style.backgroundColor};
+    border-radius: 8px;
+    border: 1px solid black;
+    display: table-cell;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.25);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 5px;
+    vertical-align: middle;
+    color: ${td.style.color};
+    opacity: ${td.style.opacity};
+    transition: all .2s;
+  }
+  .cell:hover {
+    box-shadow: 2px 3px 4px 0 rgba(0,0,0,0.25);
+  }
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/filterfly/2.0.4/jquery.filterfly.min.css">
+<form>
+  <table id="table" class="col">
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>First date:</td>
+        <td>2nd date:</td>
+        <td>3rd date:</td>
+        <td>4th date:</td>
+      </tr>
+    </tbody>

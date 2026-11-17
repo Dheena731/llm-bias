@@ -1,0 +1,35 @@
+**Feedback on Draft Literature Review**
+
+**Draft:** "Digital Nudging and Pro-Environmental Consumer Behaviour: A Review" (approx. 3,000 words)
+
+**Overall comment:** This is a promising draft with a clear research question and a sound grasp of the core literature on nudging. The main task now is to move from describing studies to evaluating them and building a argument about where the field stands.
+
+**Strengths**
+- The research question is clearly stated in the introduction and the scope is reasonable for a review of this length.
+- The section on default effects is well organised and accurately represents the key experimental findings.
+- Your use of recent sources (2019 onward) shows you are engaging with the current debate.
+
+**Priority areas for revision**
+
+1. **Synthesis over summary.** Most paragraphs follow a "Author A found X; Author B found Y" pattern. Group studies by theme, mechanism, or methodology, and state what the pattern of findings suggests. For example, do lab and field studies yield different effect sizes?
+
+2. **Critical evaluation.** The review currently accepts findings at face value. Comment on sample sizes, measurement of behaviour (self-report versus observed), replication status, and publication bias. Even one sentence per key study adds considerable value.
+
+3. **Search strategy and inclusion criteria.** The method is not described. State the databases searched, search terms, date range, and inclusion/exclusion criteria. Without this, readers cannot judge whether the review is systematic or selective.
+
+4. **Identifying the gap.** The conclusion asserts that "little research exists" on digital nudges in household settings, but the review does not show this. Either map the existing household studies explicitly or narrow the claim.
+
+5. **Structure.** Section 3 and Section 4 overlap substantially on the discussion of social norms. Consider merging them, and add a short signposting paragraph at the end of the introduction.
+
+**Minor points**
+- Several in-text citations lack page numbers where you quote directly.
+- Define "nudge" once, early, using a standard definition, and use the term consistently.
+- Check the reference list for inconsistent formatting between journal articles and book chapters.
+- The abstract should be shortened to around 150 words.
+
+**Suggested next steps**
+- Restructure the central sections thematically before adding new sources.
+- Add a short methods section.
+- Revise the gap statement once the thematic mapping is complete.
+
+I'm happy to look at a revised version once these changes are made.

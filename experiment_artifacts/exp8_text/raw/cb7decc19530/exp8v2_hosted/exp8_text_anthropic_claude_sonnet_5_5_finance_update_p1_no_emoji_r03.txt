@@ -1,0 +1,17 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a new Monthly Spending Summary to help you understand where your money goes each month. It's available now in your account dashboard.
+
+**What it includes**
+- **Total spending:** A clear view of everything you spent during the month, compared with the previous month.
+- **Category breakdown:** Spending grouped into categories such as groceries, transportation, dining, and bills, so you can spot your biggest expenses at a glance.
+- **Trends and highlights:** Notes on categories where your spending rose or fell significantly.
+- **Recurring charges:** A list of subscriptions and regular payments, making it easier to catch anything you no longer need.
+
+**How to access it**
+Open the Insights tab and select Monthly Summary. A new summary is generated at the start of each month, and past summaries remain available for review. You can also turn on email delivery in Settings if you'd like to receive it automatically.
+
+**Why we built it**
+Many of you told us that tracking spending was time-consuming and hard to make sense of. The summary brings your information together in one place, so you can make informed decisions without digging through individual transactions.
+
+If you have feedback or suggestions for improving the summary, please send them through the Help section. We're glad to hear what would make it more useful.

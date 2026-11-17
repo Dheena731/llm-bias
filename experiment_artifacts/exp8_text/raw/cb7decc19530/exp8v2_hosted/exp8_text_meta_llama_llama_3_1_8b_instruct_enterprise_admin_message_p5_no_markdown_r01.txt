@@ -1,0 +1,13 @@
+Here's a short message about an upcoming email migration:
+
+"Important Update: Email Migration
+
+As part of our ongoing efforts to improve our email system, we will be migrating our email services to a new platform. This change will occur on [Date] and is expected to be completed by the end of the day.
+
+During this time, you may experience some disruptions to your email services, including temporary outages or delays in receiving and sending emails. We apologize for any inconvenience this may cause and appreciate your patience and understanding.
+
+If you have any questions or concerns, please don't hesitate to reach out to our IT department. We will provide updates and reminders leading up to the migration, and we are confident that this change will ultimately improve the overall performance and security of our email system.
+
+Thank you for your cooperation and understanding."
+
+Note: You can replace [Date] with the actual date of the migration.

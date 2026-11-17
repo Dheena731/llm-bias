@@ -1,0 +1,9 @@
+**Subject: Mail migration – Oct 17–18**
+
+We’re shifting our email server this Friday evening. All case correspondence, client threads, and filing logs will migrate by Saturday 6 a.m. Webmail and mobile sync will be offline overnight. If you’re prepping regulatory submissions or waiting on site-report confirmations, save drafts locally until Monday.
+
+Your username and password stay unchanged. After the switch, first-time web access requires SSO verification. Messages sent after Friday 4 p.m. may briefly route through the legacy system; we’ll monitor deliveries through Monday noon.
+
+Reply to this thread or contact ops@firmname.com for routing issues. Do not purge your Sent folder before Friday—we’re preserving timestamps for compliance audits.
+
+A live status update will post here Sunday night.

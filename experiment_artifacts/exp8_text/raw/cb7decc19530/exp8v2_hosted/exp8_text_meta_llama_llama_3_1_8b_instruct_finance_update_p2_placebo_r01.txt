@@ -1,0 +1,23 @@
+Here is a short note explaining a change to card transaction fees:
+
+**Important Update on Card Transaction Fees**
+
+As of January 1, 2023, we are implementing a new fee structure for card transactions. This change affects all merchants who accept debit and credit cards as a form of payment.
+
+**Key Changes:**
+
+* The interchange fee for debit card transactions will decrease from 1.5% to 1.25% of the transaction amount.
+* The interchange fee for credit card transactions will remain unchanged at 2.5% of the transaction amount.
+* A new processing fee of $0.25 per transaction will be applied to all card transactions, regardless of type.
+
+**Why is this change happening?**
+
+This change is designed to promote a more transparent and efficient payment processing system. The decrease in debit card interchange fees is intended to reduce costs for merchants and enhance the overall consumer experience.
+
+**What do I need to do?**
+
+To ensure a smooth transition, we recommend that all merchants review their payment processing systems and update their point-of-sale (POS) terminals and online payment gateways accordingly. If you have any questions or concerns, please contact our customer support team at [insert contact information].
+
+Thank you for your cooperation and understanding as we work to improve the card transaction fee structure.
+
+**Note:** This change applies to all merchants who accept card payments in the United States. If you have any specific questions or concerns, please do not hesitate to reach out to us.

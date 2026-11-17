@@ -1,0 +1,5 @@
+A deadlocked schema migration choked our connection pooler between 14:10 and 14:24 UTC, dropping incoming write queries across `us-east-1`. 
+
+Traffic is back to normal, queues have fully drained, and zero data was lost. 
+
+You pay us so you don't have to babysit databases, and we blew your Tuesday morning deploy window. We’re sorry. A full root-cause

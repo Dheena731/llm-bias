@@ -1,0 +1,6 @@
+**Domain:** Growth & Experimentation (A/B Test Results)
+
+***
+
+> **95% Confidence Interval: [-0.4% to +3.8%]**  
+> Given current traffic volume and checkout variance, the true impact sits within this spread. Because the band crosses zero, the observed +1.7% lift is not yet distinguishable from random sample noise. Keep the test running.

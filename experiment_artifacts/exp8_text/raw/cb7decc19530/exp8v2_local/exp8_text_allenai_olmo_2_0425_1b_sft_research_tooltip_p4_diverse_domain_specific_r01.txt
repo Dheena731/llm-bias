@@ -1,0 +1,1 @@
+A missing-value marker, also known as a "stopword" or "stopword token," is a keyword or term that the model ignores when generating text. It is used to train the model to understand the context of the text and recognize specific information, without getting influenced by irrelevant words or phrases. This method helps improve the accuracy and relevance of the text generation.

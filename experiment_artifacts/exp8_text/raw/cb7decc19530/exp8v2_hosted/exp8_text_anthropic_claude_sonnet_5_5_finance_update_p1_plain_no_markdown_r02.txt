@@ -1,0 +1,7 @@
+We've added a monthly spending summary to help you see where your money goes without digging through individual transactions. At the start of each month, you'll find a recap of the previous month in your account, showing your total spending, how it compares with the month before, and how it breaks down across categories such as groceries, transportation, dining, and bills.
+
+The summary also points out a few details that tend to get overlooked, including your largest single purchase, the categories that changed the most from one month to the next, and any recurring charges that appeared. If something looks wrong, such as a charge in the wrong category, you can correct it directly from the summary, and the totals will update right away.
+
+The summary is turned on by default, and you can choose whether to receive a notification when a new one is ready. Your first summary will appear at the beginning of next month, based on the transactions already in your account. If you'd rather not see it, you can hide it from the settings page at any time.
+
+We built this feature based on your feedback, and we'd like to keep improving it. If you have ideas for categories, comparisons, or other details you'd like to see, please let us know through the feedback form in the app.

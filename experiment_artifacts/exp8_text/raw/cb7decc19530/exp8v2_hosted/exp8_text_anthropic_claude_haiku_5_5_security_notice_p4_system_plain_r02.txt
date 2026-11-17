@@ -1,0 +1,7 @@
+Two-Factor Authentication Is Now Available
+
+We are pleased to announce that two-factor authentication (2FA) can now be enabled on your account. This added layer of security helps protect your information by requiring a second verification step when you sign in, in addition to your password.
+
+To turn it on, sign in to your account and open the Security section of your account settings. Select "Enable two-factor authentication" and follow the prompts to link an authenticator app or receive a verification code by text message. Be sure to save the backup codes you are given, as they allow you to regain access if you lose your phone.
+
+We strongly recommend enabling this feature. Accounts protected by two-factor authentication are far less likely to be compromised, even if a password is exposed elsewhere. If you have questions or run into trouble during setup, please contact our support team, and we will be glad to help.

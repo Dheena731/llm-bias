@@ -1,0 +1,14 @@
+PUBLIC NOTICE: HEAT ADVISORY
+
+A Heat Advisory is in effect for [Region/City] from [Start Time] on [Start Date] through [End Time] on [End Date]. Maximum temperatures are forecast to reach [Number] degrees Fahrenheit.
+
+Residents are urged to take the following precautions:
+
+- Drink plenty of water even if not thirsty.
+- Limit outdoor exertion and seek shade or air conditioning.
+- Check on vulnerable individuals, including the elderly and young children.
+- Never leave people or pets in parked vehicles.
+
+For emergency assistance, dial 911. For non-emergency updates, visit [Website URL] or contact [Phone Number].
+
+Issued by [Agency Name].

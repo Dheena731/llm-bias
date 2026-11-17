@@ -1,0 +1,30 @@
+NOTICE: ENABLE TWO-FACTOR AUTHENTICATION
+
+Dear Users,
+
+To enhance the security of your account, we are implementing a requirement for all users to enable Two-Factor Authentication (2FA).
+
+Two-Factor Authentication adds an essential layer of protection to your login process. By requiring a second verification step in addition to your password, we can significantly reduce the risk of unauthorized access, even if your credentials are compromised.
+
+ACTION REQUIRED:
+
+Please enable 2FA on your account as soon as possible. Follow these steps:
+
+1. Log in to your profile settings.
+2. Navigate to the Security tab.
+3. Select Two-Factor Authentication and activate the feature.
+4. Choose your preferred verification method, such as an authenticator app or SMS text message.
+
+DEADLINE:
+
+All accounts must have 2FA enabled by December 1, 2024. Failure to comply may result in temporary suspension of access until the measure is applied.
+
+SUPPORT:
+
+If you need assistance with setup or have questions, please contact the IT Help Desk at support@company.com or dial extension 5555.
+
+Thank you for your prompt attention to this important security update.
+
+Sincerely,
+
+IT Security Department

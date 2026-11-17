@@ -1,0 +1,1 @@
+**Confidence interval (95%):** The range where the true average most likely falls, based on this data. A wider range means more uncertainty.

@@ -1,0 +1,24 @@
+**Important Security Notice**
+
+As part of our ongoing efforts to protect our company's sensitive information and systems, we want to remind all employees of the risks associated with password reuse.
+
+**What is password reuse?**
+Password reuse occurs when an individual uses the same password for multiple accounts, such as their work login, email, or personal social media accounts.
+
+**Why is password reuse a security risk?**
+If an attacker gains access to one of your accounts, they may be able to use the same password to gain unauthorized access to other accounts, including your work login. This can put our company's confidential data and systems at risk.
+
+**Best practices to avoid password reuse:**
+
+* Use unique and complex passwords for each account
+* Avoid using easily guessable information, such as your name, birthdate, or common words
+* Consider using a password manager to generate and store strong, unique passwords
+* Change your passwords regularly, especially if you suspect any of your accounts may have been compromised
+
+**What we're doing to help:**
+Our IT department will be implementing additional security measures to detect and prevent password reuse. We will also be providing regular security awareness training and resources to help you protect your accounts and our company's data.
+
+**Your role in maintaining security:**
+We rely on each and every one of you to take password security seriously and follow best practices to avoid password reuse. If you have any questions or concerns, please don't hesitate to reach out to our IT department.
+
+Thank you for your attention to this important matter and for your ongoing commitment to maintaining a secure work environment.

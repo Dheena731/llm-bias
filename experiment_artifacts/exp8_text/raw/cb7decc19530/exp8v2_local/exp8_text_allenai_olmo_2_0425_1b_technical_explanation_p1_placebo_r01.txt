@@ -1,0 +1,9 @@
+Focus on the specific issue. This is also valuable for different reasons. First, it triggers the concept of the architecture of the software that you want to present, which allows you to use it as an argumentative tool, just like any other argument. Second, it forces you to focus on the topic.
+
+Define the problem and your reasoning. This statement can be very useful in the middle of the code overview. Here you can define the problem (a particular performance issue, a problem in security, a problem in scalability, etc.) and explain why the provided solution is needed.
+
+Do not be afraid to back up your arguments with facts, evidence, and statistics. This page even provides a special template to provide those facts, evidence, and statistics.
+
+Pay attention to the quality of the prose. It is important to understand that this is the only way to show that you understand the issue. For example, it is a bad idea to highlight that the provided solution will solve the problem to the last detail by providing a technical explanation of how it works in the implementation. Use logic.
+
+Try to provide concrete figures to support your arguments. This is especially important when, for example, it is necessary to compare the performance of two solutions to the same problem. It is also useful to use statistics to show that the solution is well-tested and supported by the community.

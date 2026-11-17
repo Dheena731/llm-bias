@@ -1,0 +1,22 @@
+**Feedback on Methods, Litter Decomposition Chapter (draft 2)**
+
+Maya,
+
+The site description is clear, and I like that you give the canopy openness readings for each reach. Most of my comments are about the litterbag work.
+
+**Mesh size.** You say "coarse mesh" but never give the aperture. Is it 5 mm or 10 mm? Your argument about shredder contribution depends on this, so state it and cite what you based it on. If you only used one mesh size, say plainly that you can't separate invertebrate from microbial breakdown.
+
+**Initial mass.** You air-dried the *Alnus* leaves, but you don't say whether you corrected for moisture or for leaching loss. A handful of extra bags taken to the stream and straight back (handling controls) would let you correct for this. If you ran them, say so. If not, say that too, and mention it in the limitations.
+
+**Time.** Retrieval at days 7, 14, 28, 56 is fine, but the streams differ by about 4 °C in mean temperature. Report decay as k per degree-day alongside k per day, or a reader will wonder whether the "riparian effect" is just a temperature effect.
+
+**Replication.** You treat the 5 bags per reach as independent replicates. They aren't. They share a reach, and the reach is your real experimental unit. Fit reach as a random effect, or average bags within reach, and rewrite the stats paragraph to match.
+
+**Smaller items.** Give the ashing temperature and duration for AFDM. Also, "leaves were collected locally" needs a date and location.
+
+Send me the revised stats paragraph before you rerun anything.
+
+—Dr. Okafor
+
+---
+*I invented the student and the study, since none was provided. If you share a real methods section or tell me the field, I can tailor the note.*

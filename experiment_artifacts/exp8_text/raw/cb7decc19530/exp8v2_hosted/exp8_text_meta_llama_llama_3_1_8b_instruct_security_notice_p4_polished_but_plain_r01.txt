@@ -1,0 +1,13 @@
+To enhance the security of your account, we are now requiring two-factor authentication (2FA) to be enabled. This added layer of protection will help prevent unauthorized access to your account.
+
+To enable 2FA, please follow these steps: 
+
+1. Log in to your account as you normally would.
+2. Navigate to the account settings page.
+3. Look for the 2FA option and follow the instructions to set it up.
+
+The 2FA process involves verifying your identity with both your password and a unique code sent to your registered phone or email address. This code must be entered in addition to your password to complete the login process.
+
+If you are experiencing difficulties with setting up 2FA, our support team is available to assist you. We recommend enabling 2FA as soon as possible to ensure the continued security and integrity of your account.
+
+Please note that 2FA is now a mandatory requirement for all users. If you do not enable 2FA, your account may be temporarily locked or access restricted.

@@ -1,0 +1,1 @@
+Dataset Filter allows you to quickly and easily apply essential statistical filters to your data, enabling you to focus on only the relevant variables needed for your analysis. By applying this filter, you can efficiently narrow down the dataset to only the most relevant information while preserving the balance between algorithmic accuracy and the integrity of the original data.

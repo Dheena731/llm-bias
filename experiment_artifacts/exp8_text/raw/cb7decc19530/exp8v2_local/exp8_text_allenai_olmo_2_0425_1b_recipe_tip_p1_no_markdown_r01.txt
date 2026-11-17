@@ -1,0 +1,4 @@
+Edit this page
+To submit a patch, edit the page, click the "Edit" button above, then select "Patches" from the "Edit" menu.
+
+To report a bug, edit the page, click the "Report a bug" link above, then select "Bugs" from the "Edit" menu.

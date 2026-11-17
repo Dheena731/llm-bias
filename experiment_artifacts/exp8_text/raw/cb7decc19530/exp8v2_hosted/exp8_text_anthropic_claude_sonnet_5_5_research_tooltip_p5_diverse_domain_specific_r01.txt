@@ -1,0 +1,10 @@
+**Tooltip text:**
+
+> **Export results**
+> Choose **Download ▾** and pick CSV or JSON. The file contains every row the query returns, not just the 1,000 previewed here, and keeps your current column order and sort.
+
+**Shorter version, for tight spaces:**
+
+> Download all returned rows as CSV or JSON, not just the preview.
+
+I assumed a 1,000-row preview limit and CSV/JSON formats. Swap in your product's actual limit, formats, and button label so the tooltip matches what users see.

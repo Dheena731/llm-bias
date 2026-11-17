@@ -1,0 +1,25 @@
+(?) I want to reiterate that I have written and spoken to the VA & my doctor, and my doctor now states that she wants to follow-up with my wife and I. I do not want to use Code 2.71 again as I am currently becoming physically ill. However, I work in a medical facility where the patients are mostly elderly, and my wife's medical history is not up to date. I don't want to force my wife into anything that will exacerbate her current condition.
+
+So, I would appreciate it if, other than the above, you could tell me if you think I am over-reacting by using Code 2.71 and if there's anything I should be doing to myself before I return to my doctor for a refill of my prescription.
+
+(!) [Michael] The latest "official" list is available on-line in the form of a table.
+The code is the first number in the column "The code for this medication as described in the United States Pharmacopoeia or the National Formulary".
+For example, 5 is listed as "Code 5": 5.1 - 5.10 - 5.12.
+The "1" etc. are the rationales why that code was assigned.
+You should be aware, that there are different national standards and that some of the codes are special cases. Some of the special cases are: 1.4 - 1.6 - 1.7 - 1.8 - 1.9 - 1.11 - 1.12 - 1.14 - 1.15.
+If you can read German or a translation to German is available, then I would suggest you take a look at this:
+(If you cannot read German, then either a translation to English is available or you could try email the list, asking for a translation. I will volunteer to do a translation to English if you let me know the list of medications that you need translated.)
+Update: The German version of the rules can be found here:
+
+(?) I am not sure if you can use the list to determine the code for your medication without the actual name. I must admit that I'm not familiar with all the codes, but I would have thought that some were self-explanatory?
+
+(!) [Michael] We'll have to see. I have a copy of the list that is about 50 pages long so you have to look at "names" for a lot of medications to see if you can figure out the code by yourself.
+I will ask my friend who is a pharmacist if there are any "obvious" reasons. I would have thought that code 5 was the most obvious, but you have to look at the rules to find that out.
+
+(?) Thank you very much for taking the time to respond. I really appreciate your help with this.
+
+(!) [Michael] You are welcome.
+
+Copyright © 2005
+Copying license
+Published in Issue 97 of Linux Gazette, October 2005

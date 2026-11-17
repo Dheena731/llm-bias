@@ -1,0 +1,15 @@
+ACCEPTABLE USE NOTICE FOR THE SHARED NETWORK
+
+This notice sets out the terms under which users may access and use the shared network provided by the organization. By connecting any device to the network or using its resources, you agree to comply with this notice and with all applicable laws and policies. Access is a privilege granted for lawful, work-related, and educational purposes, and it may be limited, suspended, or withdrawn at any time.
+
+Users must use the network only for authorized purposes and in a manner that does not interfere with the work of others. Limited personal use is tolerated where it is minimal, does not consume a meaningful share of resources, does not violate this notice, and does not expose the organization to risk. Users must not use the network to access, create, store, or transmit material that is unlawful, defamatory, harassing, obscene, discriminatory, or threatening, or that infringes the intellectual property rights of any person.
+
+Each user is responsible for safeguarding his or her credentials. Passwords and access tokens must not be shared, written in plain view, or transmitted through insecure channels. Users must not attempt to access accounts, files, or systems belonging to others, bypass authentication or security controls, probe for vulnerabilities without written authorization, or install software or devices that alter network configuration without approval. Users must promptly report suspected security incidents, lost devices, phishing attempts, and unauthorized access to the designated information technology contact.
+
+The network is a shared resource, and users must avoid conduct that degrades service for others. This includes running unauthorized servers, mining cryptocurrency, conducting bandwidth-intensive transfers without approval, distributing malware, or sending unsolicited bulk messages. Users must keep devices patched and protected by current security software before connecting them.
+
+The organization may monitor network traffic, system logs, and stored data to maintain security, manage performance, investigate incidents, and ensure compliance with this notice. Users should not expect privacy in communications sent over the network to the extent permitted by law. Monitoring will be conducted in accordance with applicable data protection requirements and internal policies.
+
+Violations of this notice may result in restriction or termination of network access, disciplinary action up to and including dismissal or expulsion, and referral to law enforcement where appropriate. The organization reserves the right to take immediate action where necessary to protect the network, its data, or other users.
+
+Questions about this notice should be directed to the information technology department before any uncertain activity is undertaken. The organization may amend this notice at any time, and continued use of the network following publication of an amendment constitutes acceptance of the revised terms.

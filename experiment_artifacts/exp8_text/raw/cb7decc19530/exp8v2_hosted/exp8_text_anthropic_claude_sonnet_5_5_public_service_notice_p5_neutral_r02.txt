@@ -1,0 +1,23 @@
+# Notice: Polling Station Locations
+
+**Election Day: [Date]**
+**Polling Hours: 7:00 a.m. – 8:00 p.m.**
+
+Voters should go to the polling station assigned to their residential address. Locations are listed below.
+
+| Ward / Precinct | Polling Station | Address |
+|---|---|---|
+| Precinct 1 | Central Library | 120 Main Street |
+| Precinct 2 | Riverside Community Center | 45 River Road |
+| Precinct 3 | Oakwood Elementary School | 310 Oak Avenue |
+| Precinct 4 | Town Hall, Council Chamber | 1 Civic Plaza |
+
+**Before you go:**
+- Bring a valid photo ID and your voter registration card, if you have one.
+- All polling stations are wheelchair accessible. Curbside voting is available on request.
+- Check your assigned precinct at **[website]** or call **[phone number]**.
+- If you are in line when polls close, you may still vote.
+
+*Note: Locations above are examples. Please replace them with your jurisdiction's official polling places.*
+
+**Issued by:** [Election Office Name]

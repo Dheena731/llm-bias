@@ -1,0 +1,8 @@
+Caching speeds up a website by storing copies of data or content so it doesn't have to be generated or fetched from scratch every time someone visits. Here's how it helps:
+
+- **Less work for the server:** Instead of running database queries and building a page for each request, the server can return a saved copy.
+- **Shorter distance for data:** Cached content can be stored close to the user, such as in a browser or on a CDN (content delivery network) edge server, so it travels a shorter network path.
+- **Fewer repeated downloads:** Browsers keep files like images, stylesheets, and scripts locally, so returning visitors don't need to download them again.
+- **Faster responses under load:** With many visitors, serving cached pages reduces strain on the server, keeping response times low.
+
+The result is faster page loads, lower bandwidth and server costs, and a smoother experience for users. Caches are typically given expiration times or are cleared when content changes, so visitors still see up-to-date information.

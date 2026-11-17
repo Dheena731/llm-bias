@@ -1,0 +1,32 @@
+"Dear All,
+
+I apologize for the slow update, I've been hit with a serious bug. 
+
+I've been experiencing an issue whereby I cannot access my google calendar from my iPhone or iPad. I've tried to check google using other browsers and it has proven to be a consistent problem.
+
+I've tried resetting the device multiple times and it still doesn't work. 
+
+The good news is, I've been working on this issue for the last week and I've managed to resolve the problem. 
+
+This means that if you are experiencing the same issue, you should be able to access your Google Calendar from your iPad and iPhone. 
+
+We'll keep you updated soon."
+
+This update addressed a bug in the Google Calendar API causing some users to experience issues with their calendars on their devices. By resetting the device, the user was able to resolve the problem. 
+
+This is an example of where users and developers interact in the following way:
+
+  • User: Status: Bug Report (we disagree with your findings -- a response to your statement)
+  • Developer: Status: Bug Fix (We have found a solution to your bug.)
+
+In this case, the developer fixed the problem and the user was able to resolve the issue. 
+
+In general, bugs are a common occurrence, but they can be resolved when people engage. This interaction is key to resolving issues that may not have been resolved otherwise. 
+
+The interaction between the user and the developer is a great example of how users and developers work together to build the services we use every day.
+
+If you're looking for great ideas for your next app or website, check out Mashable's list of 14 Free Web Apps that Developers Can Learn From.
+
+The interaction between these two parties is an example of how both parties can learn from each other.
+
+This interaction is an example of how our apps can help people learn from each other.

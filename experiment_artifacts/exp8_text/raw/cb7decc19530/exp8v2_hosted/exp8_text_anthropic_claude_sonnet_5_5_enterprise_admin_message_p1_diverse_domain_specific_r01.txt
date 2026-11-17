@@ -1,0 +1,24 @@
+**Subject: Ops Dashboard read-only Sat 14 June, 22:00–01:00 UTC**
+
+Hi all,
+
+The Ops Dashboard will be read-only from **22:00 Saturday 14 June to about 01:00 Sunday 15 June (UTC)**. We're moving the `shipments_daily` rollup tables to a new Postgres instance and rebuilding the materialized views that feed the on-time-delivery and dwell-time tiles.
+
+**What you'll see**
+- Dashboards load, but the data is frozen at the 21:45 UTC snapshot.
+- Filters, saved views, and annotations are disabled during the window.
+- The "Last refreshed" timestamp will stop at 21:45. That's expected, not a stalled job.
+
+**What's affected**
+- The 23:00 scheduled CSV export to the carrier-performance mailing list will be skipped. We'll send it manually by 08:00 Sunday.
+- Alerts based on dwell time (>6 h at a dock) will not fire during the window. If you run a weekend shift, check the yard board directly.
+
+**What's not affected**
+- Read-only API tokens keep working, but they'll return the frozen snapshot.
+- Saved views and user permissions carry over unchanged.
+
+If the rebuild runs long, we'll post in #ops-data-status at 00:30 UTC with a new estimate. If tiles still look stale after 02:00 UTC, send the dashboard name and a screenshot of the "Last refreshed" stamp to data-platform@yourcompany.example.
+
+Thanks,
+Priya Nandakumar
+Data Platform

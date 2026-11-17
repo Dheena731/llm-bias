@@ -1,0 +1,24 @@
+**Subject: Q3 access reviews open Mon Sept 8, decisions due Fri Sept 19, 5 p.m. PT**
+
+Quarterly user access reviews start Monday. If you manage people or own a role or group in any system below, you'll get an email from Okta Identity Governance with your review list.
+
+**In scope:** NetSuite, Salesforce, Workday, Snowflake, GitHub org, AWS production accounts, and the Finance shared drive.
+
+**What we need from you:** For each line, choose Keep, Remove, or Modify. Review the entitlement, not just the person. These are the usual misses:
+
+- People who changed teams and kept their old access
+- Contractors past their end date
+- Admin roles granted "temporarily" during an incident
+- Service accounts with no named owner (assign one or flag for retirement)
+
+**If there's no decision by Sept 19:**
+- Unreviewed privileged access (admin, finance approver, prod write) is removed Monday, Sept 22.
+- Standard access stays in place, and the open items go to your director.
+
+**Please don't bulk-approve.** Auditors sampled last quarter's reviews, and several large lists had been cleared in under a minute. Those items were re-opened, and we'd rather not repeat that.
+
+**Evidence:** Only decisions made in the Okta tool count. Replies by email or Slack are not accepted as audit evidence. Timestamps and reviewer IDs are exported to the SOC 2 folder when the cycle closes.
+
+**Help:** Post in #it-access or email access-review@northwind.example. Office hours are Wednesday, Sept 10 at 2 p.m. in the IT Ops channel.
+
+IT Security & Compliance

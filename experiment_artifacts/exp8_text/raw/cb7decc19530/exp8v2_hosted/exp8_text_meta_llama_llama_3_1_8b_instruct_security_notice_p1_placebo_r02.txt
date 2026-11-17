@@ -1,0 +1,13 @@
+**Important Security Reminder**
+
+To all employees,
+
+We would like to remind everyone that password reuse is a significant security risk for our organization. According to recent statistics, a staggering 70% of employees reuse passwords across multiple company systems. This can lead to a breach of sensitive information and put our entire network at risk.
+
+Our IT department has implemented a robust system to monitor and detect password reuse. To minimize the risk of a security incident, please do not reuse passwords across different company platforms, including email, intranet, and applications.
+
+ Failure to comply with this policy may result in disciplinary action, including possible termination.
+
+If you have any questions or concerns, please contact our IT department at [security@company.com](mailto:security@company.com).
+
+Thank you for your cooperation and commitment to maintaining a secure work environment.

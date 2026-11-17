@@ -1,0 +1,27 @@
+Give a brief explanation of why you want to limit access to the VPN client to the VPN server. Explain that you will lock the VPN client to the VPN server so that the user cannot modify the VPN client. (You may want to point out that you will not revoke, reset, or uninstall the VPN client, because doing this would likely cause the user no end of grief when they attempted to reconnect to the VPN.)
+
+After they have completed the VPN client configuration, have the user change their passwords on the VPN server, and then program the VPN authentication token on the server.
+
+After the user has changed their passwords, either:
+
+  1. Let the user know that they need to change their passwords on the VPN server, and give them the password for the VPN server admin account.
+
+  2. Let the user know that the VPN server admin account has been disabled, and have them change their passwords on the VPN server.
+
+If you choose option 2, you may want to also log them in as a normal user on the server when they change their passwords, so that you can send them a message via email or IM to remind them of the next steps.
+
+To program the VPN authentication token on the server, have the user do the following:
+
+  1. Log in as the administrator of the VPN server.
+
+  2. Copy the authentication token from the VPN client into a text file on the server.
+
+  3. Close the text file.
+
+  4. Use a password to unlock the text file. This will mark it as open.
+
+  5. Remove the original authentication token from the text file.
+
+  6. Close the text file.
+
+That is all that is needed. For those users who cannot set up VPN clients, you could also create a policy to always require encryption of the traffic, and to enforce a minimum encryption level, both on the client and the server.

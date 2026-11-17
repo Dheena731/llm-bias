@@ -1,0 +1,22 @@
+Next, declare the named entity “scheduled maintenance window” and set the scope to Local Scope.
+
+
+  • RecordID: A unique identifier of the record that contains the scheduled maintenance window.
+
+  • Type: Specifies the type of the scheduled maintenance window.
+
+  • Location: Specifies the location at which the scheduled maintenance window starts.
+
+  • Date: Specifies the date on which the scheduled maintenance window is due to run.
+
+  • Start: Specifies the time at which the scheduled maintenance window starts.
+
+  • End: Specifies the time at which the scheduled maintenance window ends.
+
+  • Scheduled Maintenance Window: Specifies the date and time for the scheduled maintenance window.
+
+  • Start Type: Specifies the start type. Options are Container-Based, Scheduled, and One Time.
+
+  • End Type: Specifies the end type.
+
+  • Message: A message string returned to the user when the scheduled maintenance window is run.

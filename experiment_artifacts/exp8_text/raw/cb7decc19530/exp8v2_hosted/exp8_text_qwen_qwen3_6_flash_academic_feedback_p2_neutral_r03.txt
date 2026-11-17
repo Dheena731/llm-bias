@@ -1,0 +1,7 @@
+**Feedback Note: Methods Section**
+
+Your methods section presents a clear, logical outline of your research process, and your attention to procedural detail demonstrates strong experimental planning. The step-by-step breakdown is well-structured, making it easy to follow your approach, and you effectively justify key methodological choices.
+
+To strengthen reproducibility and academic rigor, consider adding more precise specifications (e.g., equipment models, software versions, exact concentrations, temperature ranges, or parameter settings). Where you’ve used or adapted established protocols, replace descriptive explanations with proper citations to acknowledge prior work. Finally, tightening transitions between subsections and explicitly linking each procedure to your research questions will improve overall coherence.
+
+**Next step:** Read this section aloud as if guiding a peer unfamiliar with your project. If any step feels ambiguous or assumes prior knowledge, add those missing specifics. Overall, you're on a strong track; with these targeted refinements, your methods will be both rigorous and fully replicable. Well done!

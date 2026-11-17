@@ -1,0 +1,7 @@
+Comment on the research question
+
+The manuscript does not state its central research question clearly enough for me to judge whether the study answers it. The introduction moves between several aims without settling on one. At different points the paper says it will examine the effect of remote work on productivity, explore employee attitudes toward flexible schedules, and develop a general framework for organizational adaptation. These are distinct questions that call for different designs, measures, and standards of evidence. The methods and results sections seem to address mostly the first, but the discussion draws conclusions about the second and third.
+
+Several terms are also left undefined. It is unclear whether productivity means individual output, team performance, or self-reported effort, and the phrase "organizational adaptation" is never operationalized. As a result, I could not tell which findings count as support for the authors' claims and which are incidental.
+
+I recommend that the authors state one primary research question, ideally in a single sentence near the end of the introduction, and identify any secondary questions as such. They should define their key constructs and show how each hypothesis follows from the question. If the broader framework is meant to be a contribution, it needs its own justification and evidence. Otherwise it should be removed or presented as speculation in the discussion. A sharper question would make the study much easier to evaluate and would likely strengthen the argument as a whole.

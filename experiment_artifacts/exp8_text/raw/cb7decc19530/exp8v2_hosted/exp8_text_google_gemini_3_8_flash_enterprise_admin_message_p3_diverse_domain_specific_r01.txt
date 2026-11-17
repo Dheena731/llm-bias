@@ -1,0 +1,13 @@
+**Heads up: Retiring the legacy OpenVPN profiles on Oct 14**
+
+Starting today, remote access is moving over to the Cloudflare WARP client (already pushed to all managed machines via Jamf/InTune). 
+
+**What actually changes:**
+
+* **Split-tunneling by default:** Only traffic bound for internal RFC1918 subnets (`10.40.0.0/16`, `172.16.0.0/12`) and `*.internal` DNS resolution will hit the gateway. Your general internet traffic and local LAN won't touch the tunnel anymore.
+* **Auth flow:** Hardware token/YubiKey via Okta. The forced 8-hour disconnect is gone; posture checks now re-auth in the background as long as your disk encryption and OS patches are current.
+* **Linux / dev rigs:** Unmanaged machines won't get the automated push. Pull the `.deb` and the updated routing scripts from `netbox.internal/docs/vpn`.
+
+The legacy endpoints (`vpn.company.com`) will stop accepting handshakes at **18:00 UTC on Tuesday, Oct 14**. 
+
+If you hit routing conflicts—especially if your home network is sitting on `10.0.0.0/24`—drop a traceroute in `#ask-netops`.

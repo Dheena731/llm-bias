@@ -1,0 +1,1 @@
+A database index is a structured collection of data values in a database that allows the database to speed up the search process. It is organized such that the database engine can quickly map a query to the specific columns and rows that match the requested information.

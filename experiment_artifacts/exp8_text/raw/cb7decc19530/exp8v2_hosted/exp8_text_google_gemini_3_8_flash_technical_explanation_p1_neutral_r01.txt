@@ -1,0 +1,7 @@
+In web applications, **latency** is the time delay between a user’s action (like clicking a button) and the application’s response. Keeping latency low is critical for three main reasons:
+
+* **User Experience:** Human perception registers delays longer than 100 milliseconds as lag. Low latency makes an application feel responsive and fluid, while high latency causes frustration, breaks the user's flow, and makes the product feel broken or outdated.
+* **Business Metrics & Conversions:** Speed directly affects revenue. Numerous studies (from companies like Amazon and Google) show that even a fraction of a second in added latency leads to higher bounce rates, reduced engagement, and abandoned shopping carts.
+* **SEO Rankings:** Search engines like Google explicitly use page speed (via metrics like Core Web Vitals) as a ranking factor. Higher latency can push your application down in search results, reducing organic traffic.
+
+Ultimately, performance is a fundamental feature: no matter how useful or visually appealing an application is, high latency will drive users away before they can experience its value.

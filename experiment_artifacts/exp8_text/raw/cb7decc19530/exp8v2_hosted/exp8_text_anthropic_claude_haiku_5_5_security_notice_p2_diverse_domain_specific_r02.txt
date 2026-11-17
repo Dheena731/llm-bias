@@ -1,0 +1,17 @@
+**Subject: Phishing emails reaching inboxes this week: what to look for**
+
+*From IT and Accounts Payable*
+
+Between Monday and Thursday we logged 14 phishing emails in staff mailboxes, and four got past the spam filter. None were the badly written prize scams you might expect. They were convincing and specific:
+
+- **Vendor invoices with a new bank account.** Two came from addresses that used a real supplier's name but ended in .co instead of .com. If a vendor asks us to pay a different account, call them on the number already in our vendor file, not the number in the email.
+- **Document-sharing alerts.** Fake DocuSign and SharePoint links asking you to review a contract you weren't expecting. Hover over the link before clicking. If the domain isn't the service's own, delete the message.
+- **Payroll portal "updates."** These went to people who had recently changed desks or teams. HR never changes direct deposit details by email.
+
+If you get one:
+
+- Don't reply, and don't forward it to a colleague to ask whether it's real. Use the Report Phish button in Outlook.
+- If you clicked a link or typed a password, call the IT desk at ext. 4417 immediately, including evenings and weekends. Reports made within the first ten minutes make the biggest difference.
+- If you're unsure, ask. A quick question costs far less than a wire sent to the wrong account.
+
+Accounts Payable will never ask you to buy gift cards, and no one from leadership will request an urgent wire transfer by email without a phone confirmation first.

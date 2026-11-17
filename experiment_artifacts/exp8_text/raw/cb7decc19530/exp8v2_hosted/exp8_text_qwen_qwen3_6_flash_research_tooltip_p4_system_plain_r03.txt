@@ -1,0 +1,1 @@
+This marker indicates that no data has been recorded for this entry. It signals a value is missing, unknown, or not applicable rather than representing zero or an error. Review this field to determine whether additional information should be entered or if the absence of data is intentional.

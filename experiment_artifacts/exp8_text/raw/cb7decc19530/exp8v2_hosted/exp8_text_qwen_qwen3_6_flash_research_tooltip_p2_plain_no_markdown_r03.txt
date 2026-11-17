@@ -1,0 +1,1 @@
+This interval shows the range of plausible values for the true population parameter based on the sample. It reflects precision, with wider ranges indicating more uncertainty. The standard 95% confidence level means that if you repeated this analysis many times, 95% of the calculated intervals would contain the true value.

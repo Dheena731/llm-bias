@@ -1,0 +1,16 @@
+Format the information about changes to account terms as text, rather than an image.
+
+  • The text should have the following structure:
+    • An opening section, such as:
+      • change
+    • An opening section, such as:
+      • change
+    • repeat as needed, with the changes to account terms at the end or a blank line between each new change
+  • No date should be included in the notice, or the notice should simply refer to the date of the account terms.
+  • Separate the notice's text from the account terms with at least one blank line.
+  • The notice should not be longer than 300 characters.
+  • Each change to account terms should be written on a separate line. Each line should be no longer than 200 characters.
+
+For an example of a short legal-style notice, see the list of changes to the account terms.
+
+If a message differs from the common terms, explain any changes made to the account terms in the notice.

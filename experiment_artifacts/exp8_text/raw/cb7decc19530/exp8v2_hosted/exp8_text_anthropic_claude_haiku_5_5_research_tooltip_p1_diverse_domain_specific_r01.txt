@@ -1,0 +1,1 @@
+**Min. mean depth ≥ 30×:** Hides samples whose mean target coverage falls below 30×. Hidden samples still count toward the cohort denominator, so variant frequencies don't shift when you filter. Clear the filter to include them again.

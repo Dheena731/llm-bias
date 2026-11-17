@@ -1,0 +1,1 @@
+A missing-value marker indicates data points that have not been filled or are not present in a dataset. This can happen due to various reasons like data entry errors, deletion of records, or in studies where data collection was incomplete. It helps identify areas in a dataset where information is incomplete and may require further exploration or data gathering.

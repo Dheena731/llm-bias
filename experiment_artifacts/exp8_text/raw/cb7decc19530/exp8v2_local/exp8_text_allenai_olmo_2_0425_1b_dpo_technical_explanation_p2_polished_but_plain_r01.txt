@@ -1,0 +1,17 @@
+A database index is a structure created within a database to speed up data retrieval operations. When you insert, update, or delete data in a database, the database system needs to navigate through various pieces of data to perform these actions. An index helps improve the performance by allowing the database engine to find and access specific pieces of data more quickly.
+
+An index works like a lookup table in a glossary. Instead of scanning through every row when needed, the database engine can use the index to quickly locate the row(s) containing the required data fragments. This makes finding and retrieving data much faster compared to when there are no indexes, especially when dealing with large datasets.
+
+Here's a simplified explanation in plain English:
+
+Imagine you're searching for a book in a library. If you don't know the author's name, you'd probably go through every book one by one until you find the one you're looking for. 
+
+Now, suppose you create an index for the author's name in that library. Instead of scanning through every book, you can quickly jump to the section containing the books by an author with an index. This drastically speeds up the searching process, just like an index speeds up data retrieval in a database.
+
+An index does this by storing pointers to the locations of the data in the actual table rows. Here's how it works in more detail:
+
+1. When you insert, update, or delete data, the database system identifies which columns the data belongs to (these are the "keys" in the index).
+2. The system scans through the table (which could be large) to find the rows that have the needed data.
+3. It then uses the index to locate those relevant rows much more efficiently than if it had to do a full table scan.
+
+In summary, indexes provide a quick way for databases to find and retrieve specific information, making databases more efficient and responsive.

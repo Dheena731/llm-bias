@@ -1,0 +1,16 @@
+SECURITY NOTICE: THE RISKS OF PASSWORD REUSE
+
+To: All Employees
+From: IT Information Security Team
+
+Reusing passwords across multiple accounts is one of the easiest ways for cybercriminals to compromise corporate systems. If an external service or personal website you use suffers a data breach, attackers will automatically test those leaked credentials against our internal network, email, and sensitive tools.
+
+To protect yourself and the company, please follow these essential practices:
+
+1. Never use your company password for personal email, banking, social media, or any external sites.
+2. Use a completely unique, complex passphrase for every service you access.
+3. Utilize the company-approved password manager to safely generate and store your credentials.
+
+If you suspect any of your passwords have been compromised, please change them immediately and contact the IT Help Desk. 
+
+Thank you for your cooperation in keeping our data and systems safe.

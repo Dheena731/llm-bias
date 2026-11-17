@@ -1,0 +1,10 @@
+Dear team,
+
+We will be performing scheduled maintenance on the reporting dashboard this Saturday, March 14, from 10:00 p.m. to 1:00 a.m. Eastern Time. During this window, the dashboard will be unavailable, and data from the past several hours may not appear until the maintenance is complete. Scheduled reports will still run as planned, but they may be delayed by up to thirty minutes if they are queued during the final stretch of the window.
+
+Please save any unfinished dashboard work before 10:00 p.m., and avoid exporting large datasets during the maintenance period. If you rely on dashboard figures for a Sunday morning review, check them after 1:30 a.m., when we expect full functionality to be restored.
+
+If you experience problems after the window closes, please contact the IT service desk at extension 4400 or submit a ticket through the standard support portal. Thank you for your patience as we work to keep the platform reliable and secure.
+
+Best regards,
+The Systems Administration Team

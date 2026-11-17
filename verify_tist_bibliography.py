@@ -92,6 +92,199 @@ EXPECTED_CITED_METADATA: dict[str, dict[str, str]] = {
         "url": "https://arxiv.org/abs/2311.07911",
         "source": "arXiv",
     },
+    "zhang2025lists": {
+        "entry_type": "inproceedings",
+        "year": "2025",
+        "doi": "10.18653/v1/2025.acl-long.1308",
+        "url": "https://aclanthology.org/2025.acl-long.1308/",
+        "source": "ACL Anthology",
+    },
+    "singhal2024length": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=G8LaO1P0xv",
+        "source": "OpenReview",
+    },
+    "dubois2024length": {
+        "entry_type": "misc",
+        "year": "2024",
+        "url": "https://arxiv.org/abs/2404.04475",
+        "eprint": "2404.04475",
+        "source": "arXiv",
+    },
+    "feuer2025style": {
+        "entry_type": "inproceedings",
+        "year": "2025",
+        "url": "https://openreview.net/forum?id=MzHNftnAM1",
+        "source": "OpenReview",
+    },
+    "zhou2023lima": {
+        "entry_type": "inproceedings",
+        "year": "2023",
+        "doi": "10.52202/075280-2400",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/ac662d74829e4407ce1d126477f4a03a-Abstract-Conference.html",
+        "source": "NeurIPS Proceedings",
+    },
+    "lin2024unlocking": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=wxJ0eXwwda",
+        "source": "OpenReview",
+    },
+    "sun2025idiosyncrasies": {
+        "entry_type": "inproceedings",
+        "year": "2025",
+        "url": "https://proceedings.mlr.press/v267/sun25z.html",
+        "source": "PMLR",
+    },
+    "tam2024speak": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "doi": "10.18653/v1/2024.emnlp-industry.91",
+        "url": "https://aclanthology.org/2024.emnlp-industry.91/",
+        "source": "ACL Anthology",
+    },
+    "sclar2024quantifying": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=RIu5lyNXjT",
+        "source": "OpenReview",
+    },
+    "padmakumar2024writing": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=Feiz5HtCD0",
+        "source": "OpenReview",
+    },
+    "doshi2024generative": {
+        "entry_type": "article",
+        "year": "2024",
+        "doi": "10.1126/sciadv.adn5290",
+        "url": "https://www.science.org/doi/10.1126/sciadv.adn5290",
+        "source": "Science Advances (Crossref)",
+    },
+    "anderson2024homogenization": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "doi": "10.1145/3635636.3656204",
+        "url": "https://doi.org/10.1145/3635636.3656204",
+        "source": "ACM Digital Library",
+    },
+    "kirk2024understanding": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=PXD3FAVHJT",
+        "source": "OpenReview",
+    },
+    "bommasani2022picking": {
+        "entry_type": "inproceedings",
+        "year": "2022",
+        "doi": "10.52202/068431-0265",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/17a234c91f746d9625a75cf8a8731ee2-Abstract-Conference.html",
+        "source": "NeurIPS Proceedings",
+    },
+    "chiang2024chatbot": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "url": "https://proceedings.mlr.press/v235/chiang24b.html",
+        "source": "PMLR",
+    },
+    "li2024style": {
+        "entry_type": "misc",
+        "year": "2024",
+        "url": "https://lmsys.org/blog/2024-08-28-style-control/",
+        "source": "LMSYS blog",
+    },
+    "zheng2023judging": {
+        "entry_type": "inproceedings",
+        "year": "2023",
+        "doi": "10.52202/075280-2020",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html",
+        "source": "NeurIPS Proceedings",
+    },
+    "saito2023verbosity": {
+        "entry_type": "misc",
+        "year": "2023",
+        "url": "https://arxiv.org/abs/2310.10076",
+        "eprint": "2310.10076",
+        "source": "arXiv",
+    },
+    "park2024disentangling": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "doi": "10.18653/v1/2024.findings-acl.297",
+        "url": "https://aclanthology.org/2024.findings-acl.297/",
+        "source": "ACL Anthology",
+    },
+    "rafailov2023direct": {
+        "entry_type": "inproceedings",
+        "year": "2023",
+        "doi": "10.52202/075280-2338",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html",
+        "source": "NeurIPS Proceedings",
+    },
+    "lambert2024tulu": {
+        "entry_type": "misc",
+        "year": "2024",
+        "url": "https://arxiv.org/abs/2411.15124",
+        "eprint": "2411.15124",
+        "source": "arXiv",
+    },
+    "olmo2025furious": {
+        "entry_type": "misc",
+        "year": "2025",
+        "url": "https://arxiv.org/abs/2501.00656",
+        "eprint": "2501.00656",
+        "source": "arXiv",
+    },
+    "wallace2024instruction": {
+        "entry_type": "misc",
+        "year": "2024",
+        "url": "https://arxiv.org/abs/2404.13208",
+        "eprint": "2404.13208",
+        "source": "arXiv",
+    },
+    "harada2025instructions": {
+        "entry_type": "inproceedings",
+        "year": "2025",
+        "doi": "10.18653/v1/2025.findings-emnlp.896",
+        "url": "https://aclanthology.org/2025.findings-emnlp.896/",
+        "source": "ACL Anthology",
+    },
+    "liang2024monitoring": {
+        "entry_type": "inproceedings",
+        "year": "2024",
+        "url": "https://proceedings.mlr.press/v235/liang24b.html",
+        "source": "PMLR",
+    },
+    "kobak2025delving": {
+        "entry_type": "article",
+        "year": "2025",
+        "doi": "10.1126/sciadv.adt3813",
+        "url": "https://www.science.org/doi/10.1126/sciadv.adt3813",
+        "source": "Science Advances (Crossref)",
+    },
+    "deka2017rico": {
+        "entry_type": "inproceedings",
+        "year": "2017",
+        "doi": "10.1145/3126594.3126651",
+        "url": "https://doi.org/10.1145/3126594.3126651",
+        "source": "ACM Digital Library",
+    },
+    "wu2023webui": {
+        "entry_type": "inproceedings",
+        "year": "2023",
+        "doi": "10.1145/3544548.3581158",
+        "url": "https://doi.org/10.1145/3544548.3581158",
+        "source": "ACM Digital Library",
+    },
+    "li2016diversity": {
+        "entry_type": "inproceedings",
+        "year": "2016",
+        "doi": "10.18653/v1/N16-1014",
+        "url": "https://aclanthology.org/N16-1014/",
+        "source": "ACL Anthology",
+    },
 }
 
 
@@ -168,7 +361,11 @@ def _required_fields(entry_type: str) -> list[str]:
 def _metadata_failures_for_entry(key: str, entry: BibEntry, expected: dict[str, str]) -> list[str]:
     failures = []
     fields = entry.fields
+    # ICLR/COLM papers are published on OpenReview without page numbers or a separate publisher.
+    unpaginated = "openreview.net" in fields.get("url", "")
     for field in _required_fields(entry.entry_type):
+        if unpaginated and field in ("pages", "publisher"):
+            continue
         if not fields.get(field):
             failures.append(f"{key} missing required field {field}")
     if not (fields.get("doi") or fields.get("url")):

@@ -1,0 +1,21 @@
+**Secure Your Account with Two-Factor Authentication**
+
+To enhance the security of your [Domain Name] account, we recommend enabling two-factor authentication (2FA). This additional layer of protection ensures that even if someone knows your password, they won't be able to access your account without also possessing your registered 2FA device.
+
+To set up 2FA, follow these steps:
+
+1. Log in to your account on [Domain Name].
+2. Go to the "Account Settings" page and click on "Security & Privacy."
+3. Scroll down to the "Two-Factor Authentication" section and click on "Enable 2FA."
+4. Choose a 2FA method from the available options (e.g., authenticator app, SMS, or email).
+5. Follow the prompts to set up and register your chosen 2FA method.
+
+**Why Enable 2FA?**
+
+*   Protect your account from unauthorized access
+*   Prevent phishing attacks and password cracking attempts
+*   Enhance your overall account security and peace of mind
+
+**Don't Wait - Enable 2FA Today!**
+
+Take a few minutes to set up two-factor authentication and enjoy the added security and protection for your [Domain Name] account.

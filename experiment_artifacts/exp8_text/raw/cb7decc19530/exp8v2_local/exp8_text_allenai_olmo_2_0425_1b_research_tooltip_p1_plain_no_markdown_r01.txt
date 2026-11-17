@@ -1,0 +1,11 @@
+Formatting: All text should be double-spaced, 12-point font, and left-aligned. Do not use headings, bulleted lists, numbered lists, or tables.
+
+You may use the TOC style converter if the TOC style rules are not clear, or if you have other formatting options that you want to use.
+
+References: Only use references when necessary. Users should not need to add their own references to citation generator tools. Use the reference generator for maximum simplicity and consistency.
+
+Once complete, save your file, then paste it into an issue comment or pull request.
+
+If you need help, please read the FAQ.
+
+We'd love to see your work! Fork the repo, make a pull request, and submit a pull request to us.

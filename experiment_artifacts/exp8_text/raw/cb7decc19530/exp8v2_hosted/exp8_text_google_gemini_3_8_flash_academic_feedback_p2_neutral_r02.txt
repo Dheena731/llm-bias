@@ -1,0 +1,10 @@
+Here are three options, depending on the quality of the student's work:
+
+**Option 1: Balanced (Good foundation, needs more detail)**
+> "Hi [Student Name], you have a solid foundation here, and your research design is clearly appropriate for your question. To improve, focus on **replicability**. A reader should be able to duplicate your study based solely on this section, so please add more specifics regarding your [sample size / data collection procedure / analysis tools]. Also, be sure to briefly justify *why* you chose this particular method over alternatives. Good progress so far!"
+
+**Option 2: Needs significant revision (Too brief or disorganized)**
+> "Hi [Student Name], your overall approach makes sense, but this section currently reads more like a summary than a formal methodology. Please organize the text using clear subheadings (e.g., *Participants, Materials, Procedure, Data Analysis*). Make sure you are writing in the past tense and providing a step-by-step account of what you did. Let’s connect during office hours if you’d like to talk through how to expand this."
+
+**Option 3: Strong (Well-written, minor polish needed)**
+> "Hi [Student Name], excellent work on this section. It is logically structured, concise, and provides the exact level of detail needed for replication. Your use of subheadings made it very easy to follow. My only minor suggestion is to ensure your *Data Analysis* subsection explicitly states how the data will answer your specific research questions. Well done!" 

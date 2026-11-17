@@ -1,0 +1,7 @@
+Between 12:12 and 12:29 ET, an auth-token timeout knocked handheld terminals offline and stalled ticket routing to kitchen displays. 
+
+If your line cooks were suddenly flying blind mid-rush, that’s entirely on us. 
+
+Offline mode caught card transactions as intended—no double-swipes needed, and those batches are clearing now. If a KDS is still showing stale orders, power-cycle the display and it will pull the correct floor state. 
+
+We know what 17 dark minutes mean when the dining room is full. Full incident breakdown is hitting store manager inboxes before dinner service.

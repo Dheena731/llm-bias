@@ -1,0 +1,1 @@
+This date-range selector allows you to specify a continuous period of time. Choose a start date and an end date to define your desired range, which can be adjusted as needed.

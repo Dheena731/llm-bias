@@ -1,0 +1,15 @@
+**Subject: Changes to authorization and network fees, effective with March statements**
+
+We're making two changes to how card fees appear on your statement. Your interchange pass-through and our markup (0.25% + $0.05 per approved transaction) are unchanged.
+
+**1. Declined authorizations now carry a $0.05 fee.**
+Until now, declines were free to you. The card networks and issuers charge us for every authorization request, approved or not, and the volume of declined requests has grown, mostly from card-testing bots running small-value attempts against checkout pages. We can no longer absorb that cost across all merchants. The fee applies to hard and soft declines alike. It does not apply to AVS or CVV mismatches that your own rules reject before the request reaches us.
+
+**2. Network assessments are itemized at cost.**
+We're replacing the flat 0.14% "network fee" with the actual Visa, Mastercard, and Discover assessments, which run from about 0.13% to 0.15% depending on brand and card type. On most portfolios this comes out slightly lower than the flat rate. Cross-border transactions will cost more, because the international assessments are higher than the old blended figure.
+
+**What this looks like in practice**
+A merchant processing 3,000 transactions a month, averaging $42, with a 6% decline rate would pay about $9 more per month in decline fees and about $6 less in assessments. The net change is roughly $3 a month. A merchant being hit by card testing, with a decline rate of 30% or more, will see a much larger increase.
+
+**If your decline rate is climbing**
+Check your gateway logs for bursts of small-dollar attempts from one IP range or BIN. Rate limits on the payment endpoint and a CAPTCHA step before authorization usually stop it. Contact support and we'll send

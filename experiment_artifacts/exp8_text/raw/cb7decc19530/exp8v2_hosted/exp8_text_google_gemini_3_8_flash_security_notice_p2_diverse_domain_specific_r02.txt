@@ -1,0 +1,13 @@
+**To:** All Staff  
+**From:** SecOps / Internal IT  
+**Subject:** Observed Phishing: Spoofed “DocuSign: Q4 Incentive Review”  
+
+Between 08:30 and 10:15 this morning, our mail gateway caught six inbound messages claiming to be DocuSign notifications regarding "FY24 Employee Incentive Adjustments." 
+
+The senders are masked as internal HR, but the actual envelope sender is an external address (`notifications@docusign-secure-portal[.]net`). The embedded links route to a Cloudflare-hosted credential harvester built to mirror our Okta login page.
+
+**What to do:**
+* If the email is in your inbox: Do not forward it to colleagues or HR. Click the **Report Message** button in Outlook to pull it into the triage queue.
+* If you clicked the link and entered your domain password: Ping **@sec-oncall** in Slack immediately or call the IT help desk at ext. 4401. We need to revoke active session tokens and roll your credentials; do not wait to see if an MFA push happens.
+
+Legitimate equity or compensation updates are distributed through BambooHR notifications, not direct DocuSign links from unknown routing domains.

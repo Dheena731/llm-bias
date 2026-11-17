@@ -1,0 +1,12 @@
+**Caching speeds up a website by keeping the result of work that's already been done, so the next request can skip that work.**
+
+Take a blog post rendered by WordPress. Without caching, every visit makes PHP run, query MySQL a few dozen times, assemble the HTML from templates, and send it to the visitor. That might take 300 ms of server time, and the output is identical for the next thousand readers. A page cache saves the finished HTML and serves it directly, often in under 10 ms and without touching PHP or the database.
+
+The same idea works at several layers:
+
+- **Browser cache:** The `Cache-Control: max-age=31536000` header on a CSS file or logo tells the browser to keep it for a year. On later page views it makes no network request at all. Filenames usually carry a hash (`app.3f9a1c.js`) so a new deploy gets a new URL and bypasses the old copy.
+- **Conditional requests:** For things that change occasionally, the browser can send the `ETag` it saved. If nothing changed, the server replies `304 Not Modified` with no body, which is a few hundred bytes instead of a few hundred kilobytes.
+- **CDN edge cache:** A copy of your images, scripts, or even HTML sits in a data center near the visitor. A user in Lagos gets the file from a nearby node instead of waiting on a round trip to a server in Virginia. Your origin server also sees far less traffic.
+- **Application and database caches:** Redis or Memcached can hold the result of an expensive query, like "top 10 products this week," so it's computed once a minute instead of once per visitor.
+
+The cost is staleness. A cached copy is correct only until the underlying data changes, so you need a plan: short expiry times, purging a URL when its content is edited, or versioned filenames. Most caching bugs, like a price that won't update or a logged-in user seeing someone else's page, come from getting that part wrong.

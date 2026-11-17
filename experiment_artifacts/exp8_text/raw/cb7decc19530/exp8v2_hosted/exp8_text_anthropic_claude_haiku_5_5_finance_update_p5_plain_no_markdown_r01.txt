@@ -1,0 +1,5 @@
+Payment processing is running behind schedule this week, and we want to explain what is happening and what you can expect. Since Monday, a portion of incoming payments has been taking longer than usual to clear, with some transactions taking up to two business days beyond their normal timeline. The cause is a technical issue with one of our banking integrations, which our engineering team identified early on and is actively working to resolve.
+
+No payments have been lost. Every transaction received is recorded and queued, and each one will be processed in the order it was received once the fix is in place. Customers who have already been charged will see those charges reflected on their statements as usual, though confirmation emails may arrive later than normal.
+
+We expect the backlog to be fully cleared by Friday. Until then, if you have a time-sensitive payment, please contact our support team so we can prioritize it manually. We will send another update once processing returns to normal, and we apologize for the inconvenience this delay may cause.

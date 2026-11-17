@@ -1,0 +1,14 @@
+**Subject: Quarterly Access Reviews**
+
+**Audience:** System administrators and staff who approve user access.
+
+Each quarter, you must review the user accounts and permissions for the systems you manage or approve. The goal is to confirm that every person has only the access their current role requires.
+
+**What to do:**
+
+1. Review the list of accounts and permissions for your systems.
+2. Confirm that each person still needs the access they have.
+3. Remove access that is no longer needed. This includes access for people who have changed roles or left the organization.
+4. Record that your review is complete, following your team's process.
+
+Complete your review by the end of the quarter. If you have questions about the process, contact your manager or the team responsible for access management.

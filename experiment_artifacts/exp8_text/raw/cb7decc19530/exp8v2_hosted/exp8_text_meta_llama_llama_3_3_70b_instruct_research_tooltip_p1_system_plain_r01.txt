@@ -1,0 +1,1 @@
+This filter allows you to narrow down the dataset to specific subsets of data based on predefined criteria, such as date range, geographic location, or demographic characteristics, enabling more targeted analysis and research.

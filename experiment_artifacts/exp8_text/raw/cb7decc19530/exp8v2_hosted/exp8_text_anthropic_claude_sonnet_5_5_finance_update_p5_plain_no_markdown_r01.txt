@@ -1,0 +1,5 @@
+Payment processing is currently running behind schedule. Transactions submitted over the past day are taking longer than usual to clear, and some customers may see pending charges or delayed deposits in their accounts. The delay appears to stem from a backlog at one of our payment partners, and no funds have been lost or rejected as a result.
+
+Our team is working with the partner to clear the queue and restore normal timing. We expect most affected payments to finish processing within the next one to two business days. If you have a payment that is still pending after that window, please contact our support team with your transaction reference so we can look into it directly.
+
+We apologize for the inconvenience and appreciate your patience. We will share another update as soon as processing returns to normal.

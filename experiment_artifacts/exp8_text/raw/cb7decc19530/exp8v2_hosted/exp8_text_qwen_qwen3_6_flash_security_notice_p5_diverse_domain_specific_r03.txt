@@ -1,0 +1,12 @@
+**Notice: Reporting a Lost or Unrecovered Company Laptop**
+
+File a hardware loss ticket in the ITSM portal under `Hardware > Asset Misplacement/Theft` as soon as the device is confirmed missing. Delayed reporting blocks timely network isolation and breaks chain-of-custody logging.
+
+Include the following in your submission:
+- Asset tag (bottom chassis label) and serial number
+- Last verified check-in time and physical location
+- Names of any authorized borrowers who handled the device within the prior 48 hours
+
+Endpoint Security will cross-reference the MDM console for last connectivity, suspend active credentials, and assess remote wipe eligibility. Replacement units require departmental sign-off and completion of the data-mitigation checklist. All reports populate the quarterly ITAM reconciliation ledger; gaps trigger compliance follow-ups.
+
+Direct questions to the IT Asset desk at ext. 4820 or itam-support@internal.corp. Do not reconnect the device to any office LAN or guest Wi-Fi until cleared by the recovery queue.

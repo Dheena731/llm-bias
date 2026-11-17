@@ -1,0 +1,1 @@
+"Select a range of dates by choosing a start and end date. Click on the calendar to pick your desired dates, and the selector will display all dates within that range for further analysis or filtering."

@@ -1,0 +1,11 @@
+Latency is the delay between a user's action and the application's response. In web applications it matters because people notice and react to delays, and those reactions affect how well the application works.
+
+First, users are impatient. When a page or button takes too long to respond, people feel that the application is slow or broken, and they are more likely to give up on the task. A checkout that stalls can lead to abandoned purchases, and a search that lags can make people leave for a competitor.
+
+Second, latency compounds. A single page often requires many round trips between the browser and the server, such as loading scripts, fetching data, and calling APIs. Even a modest delay on each request can add up to a noticeably slow experience.
+
+Third, latency affects the feel of the interface. Responses that arrive within a fraction of a second feel immediate, while longer delays break the user's sense that they are in control and make the interface feel sluggish, even when everything eventually works.
+
+Finally, latency can affect business outcomes and reliability. Slow applications tend to see lower engagement and conversion, and high latency can cause timeouts and failed requests, which create more errors for users to deal with.
+
+For these reasons, reducing latency is a core part of building web applications that people want to use.

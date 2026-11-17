@@ -1,0 +1,11 @@
+**To:** Finance & Admin, 2nd and 3rd floors
+**From:** Dana Whitfield, Office Operations
+**Re:** Locking screens when you step away
+
+Several of us have been leaving client files open when we get up for coffee or a call, and last week a visitor waiting in the 3rd-floor lobby could see the Brannigan return on the open monitor for about ten minutes before anyone noticed.
+
+Before you leave your desk, even for a minute, press **Win+L** (or **Ctrl+Cmd+Q** on a Mac). IT has set the auto-lock to 5 minutes, but that doesn't cover the gap between standing up and the timer running out, and it doesn't help when a client is sitting across from you.
+
+If your screen is already locked and you're back at your desk, you don't need to do anything else. If you find someone else's workstation open and unattended, lock it and leave a note on their keyboard. Don't read what's on it.
+
+Questions to IT Helpdesk, ext. 4410.

@@ -1,0 +1,29 @@
+Here are two options, depending on where you plan to post it:
+
+### Option 1: Standard Email / Intranet Notice
+**Subject: Action Required: Procedure for Reporting Lost or Stolen Company Laptops**
+
+To all employees,
+
+If your company-issued laptop is lost or stolen, it is critical that you report it **immediately**. Prompt reporting allows our IT team to remotely secure and wipe the device, protecting sensitive company and client data. 
+
+**Steps to take immediately:**
+1. **Contact IT Support:** Call **[Phone Number]** or email **[Email Address]** right away to lock down your accounts and device.
+2. **File a Police Report:** If the device was stolen or lost in a public place, file a local police report and request the report/incident number.
+3. **Notify Your Manager:** Inform your direct supervisor of the incident.
+
+*Please note: Immediate reporting is a security requirement, not a disciplinary issue. Your fast action protects the company.*
+
+Thank you,  
+**[IT / Security Team]**
+
+---
+
+### Option 2: Short (Slack / Teams / Bulletin Board)
+⚠️ **Reminder: Lost or Stolen Laptops**
+
+If you misplace your company laptop, please report it to IT **immediately** at **[Email/Phone]**. 
+
+Fast reporting allows us to secure company data and wipe the device remotely. Please do not wait to see if it turns up—every minute counts for data security. 
+
+*If stolen, please also file a police report and notify your manager.*

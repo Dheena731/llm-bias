@@ -1,0 +1,11 @@
+Important IT Update: New VPN Client Rollout
+
+We are upgrading our corporate VPN to improve connection speed and security. Starting Monday, October 23, we will be transitioning to a new VPN client, GlobalProtect.
+
+What you need to do:
+The new client has already been installed on your company-issued device. Simply open the GlobalProtect app from your system tray or applications folder and sign in using your standard company credentials. The legacy VPN client will be retired at the end of the week.
+
+If you have any questions or encounter any issues connecting, please reach out to the IT Help Desk at support@company.com or via extension 4357.
+
+Thank you,
+IT Support Team

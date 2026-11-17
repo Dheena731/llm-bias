@@ -1,0 +1,45 @@
+Example: The filter "Country" filters the dataset to the countries in which data is available.
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "taxonomic names" should be replaced with a meta-level term such as "Taxonomic names". The term "classification" should be replaced with a meta-level term such as "Taxonomic classifications".
+
+Example: This filters the dataset to the taxonomy of country names. 
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "taxonomic names" should be replaced with a meta-level term such as "Country names". The term "classification" should be replaced with a meta-level term such as "Taxonomic classification".
+
+Example: The ___ filters to Taxonomic classifications.
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Taxonomic classifications" should be replaced with a meta-level term such as "Taxonomic classification".
+
+Example: The Taxonomic classification of country names filters the dataset to " Somerset" and "Wales".
+
+Original: The taxonomic classification of country names filters the dataset to "Somerset" and "Wales".
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Taxonomic classification" should be replaced with a meta-level term such as "Country Names classification".
+
+Example: The country classification of Austria filters the dataset to "Austria" and "Belgium".
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Country classification" should be replaced with a meta-level term such as "Country classification".
+
+Example: The country classification of "USA" filters the dataset to "United States" and "Australia".
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Country classification" should be replaced with a meta-level term such as "Country classification".
+
+Example: The country classification of "Norway" filters the dataset to "Norway".
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Country classification" should be replaced with a meta-level term such as "Country classification".
+
+Example: The _filters the dataset to the _countries of Canada.
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Country" should be replaced with a meta-level term such as "Country".
+
+Example: The country filters the dataset to Canada.
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Country" should be replaced with a meta-level term such as "Country".
+
+Example: The country filters the dataset to Canada.
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Country" should be replaced with a meta-level term such as "Country".
+
+Example: The Country filters the dataset to the _countries of Canada.
+
+Translate to user-language. Do not use technical terms where a more widely understood term will do. The term "Country" should be replaced with a meta-level term such as "Country".

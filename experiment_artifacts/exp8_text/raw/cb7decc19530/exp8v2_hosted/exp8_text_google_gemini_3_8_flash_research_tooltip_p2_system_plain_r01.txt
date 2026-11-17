@@ -1,0 +1,1 @@
+This range shows the margin of error, indicating where the true value is most likely to fall based on the data.

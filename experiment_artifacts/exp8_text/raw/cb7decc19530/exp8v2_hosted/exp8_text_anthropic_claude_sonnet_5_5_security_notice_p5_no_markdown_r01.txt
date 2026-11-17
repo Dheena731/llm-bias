@@ -1,0 +1,25 @@
+NOTICE: Reporting a Lost or Stolen Company Laptop
+
+If your company-issued laptop is lost or stolen, please act immediately. Prompt reporting helps protect company data and reduces security risks.
+
+Follow these steps:
+
+1. Notify the IT Service Desk right away by phone at [extension/number] or by email at [email address]. If it is after hours, use the emergency line at [number].
+
+2. Provide key details, including your name, department, the laptop's asset tag or serial number (if known), and the date, time, and location it was last seen.
+
+3. Report any theft to local police and obtain a copy of the report or the report number. Send this to IT Security.
+
+4. Tell your manager as soon as possible.
+
+5. Change your passwords for company accounts from a secure device. IT may also do this for you.
+
+What IT will do:
+IT will remotely lock or wipe the device where possible, disable your account access, and begin a security review to determine whether any sensitive data was at risk.
+
+Important reminders:
+Do not wait to see if the laptop turns up. Delays can lead to data exposure. Reporting promptly will not result in penalties for an honest accident, but failure to report may lead to disciplinary action under company policy.
+
+Thank you for helping keep our information secure.
+
+IT Security Team

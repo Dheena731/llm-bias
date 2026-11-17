@@ -1,0 +1,18 @@
+**To:** Priya
+**Re:** Draft poster, "Denitrification potential across bioretention cell ages"
+
+Thanks for sending this. The core result is good: the 2009 cells still show roughly 3× the potential denitrification rate of the 2022 cells, and that is the finding people will stop for. Right now it's sitting in the lower-right corner under a methods block that takes up half the board.
+
+Some specifics:
+
+- **Lead with the comparison.** Move Figure 3 (the age-by-rate bar chart) to the top center and put the 3× claim in the title or subtitle. The site map in the upper left can shrink to a thumbnail.
+- **Figure 2 isn't readable at poster distance.** Fourteen overlapping time-series lines in one panel won't read from two meters. Either facet by site or pull out the three sites you discuss in the text.
+- **Units are missing.** The y-axis on Figure 3 says "N₂O rate" with no units. Add µg N g⁻¹ dry soil h⁻¹ or whatever you used, and check that the text uses the same.
+- **Sample sizes don't match.** The methods say six cores per site, but the results mention n = 18. Pick one and explain the pooling in a footnote, or someone will ask at the board.
+- **The soil confound needs to be on the poster.** The 2022 cells were built with the revised sand–compost mix, and the 2009 cells weren't. You can't attribute the difference to age alone. Say so under limitations in one sentence. Leaving it out is the thing most likely to get you pushed hard in Q&A.
+- **Trim the conclusion.** "Bioretention cells maintain denitrification capacity over time" overreaches from two cohorts. "Older cells in this sample retained higher potential rates, though soil mix differed" is what you can defend.
+- **Body text is too small.** Anything under about 24 pt will be hard to read from a standing distance. Your methods text can be 18 pt if you cut it to bullets.
+
+If you can get me a revised draft by Thursday, I'll go through it again before you send the final file to the printer.
+
+— Marcus

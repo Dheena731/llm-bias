@@ -1,0 +1,11 @@
+**Subject: Mandatory Quarterly Access Review**
+
+**To:** Department Managers and Data Owners
+
+The quarterly access review period has begun. All managers and data owners are required to verify user permissions for their assigned teams and systems.
+
+Please audit the access rights currently granted to every user under your supervision. Retain permissions only for individuals whose current roles require them. Revoke access immediately for any user whose responsibilities have changed or who no longer needs system entry.
+
+Submit your review results before the end of this quarter. Prompt completion ensures that access levels remain accurate and supports our commitment to secure operations.
+
+For assistance identifying resources assigned to you, please contact the Administration Team. Thank you for your cooperation.

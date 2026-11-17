@@ -1,0 +1,15 @@
+**Re: Poster draft "Filter pore size and eDNA detection of stream fishes in the Cumberland Plateau" (v2)**
+
+Ruth, thanks for sending this early. The core result is strong. Detection of *Cottus* and *Etheostoma* roughly doubles with 0.45 µm filters over 0.22 µm in your mid-reach sites, and that is the first thing a viewer should see. Right now it's the third panel, under the site map.
+
+Some specific points:
+
+- **Title:** Drop "and" and the region name. "Pore size drives eDNA detection in Cumberland Plateau streams" says what you found.
+- **Figure 2:** The rarefaction curves have no y-axis label, and the two filter lines are nearly the same color in grayscale. Label the axis as "ASVs detected" and use a dashed line for one filter type.
+- **Methods box:** You list the 12S primers but not the amplicon length or the PCR replicate count. Someone at the poster session will ask both within a minute, so put them on the board.
+- **Conclusions:** "Filters should be standardized across eDNA surveys" goes beyond four sites sampled in one season. I'd write "in these streams, 0.45 µm captured more taxa" and leave the field-wide claim for the discussion.
+- **Negative controls:** Mention them somewhere. A reviewer will look for field blanks, and their absence will undercut the detection numbers.
+
+Once the comparison moves up and the axes are fixed, this should read well from three meters away. Happy to look at v3.
+
+— Dan

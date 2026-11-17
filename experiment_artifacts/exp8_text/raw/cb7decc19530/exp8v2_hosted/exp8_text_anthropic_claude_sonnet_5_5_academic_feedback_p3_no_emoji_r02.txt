@@ -1,0 +1,14 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is currently unclear, and this weakens the paper as a whole. The introduction describes the study's aim in several different ways. In places it asks whether the intervention "affects" outcomes, elsewhere whether it "improves" them, and in the discussion whether it "explains" the observed variation. These are distinct questions that call for different designs, analyses, and standards of evidence. As written, I could not tell whether the study is exploratory, descriptive, or causal.
+
+Several terms are also left undefined. It is unclear what "engagement" means in this context, whether it is the independent variable, the outcome, or a mediator, and which population the findings are meant to generalize to.
+
+I recommend that the authors:
+
+1. State a single, focused primary research question, ideally in one sentence at the end of the introduction.
+2. Define the key constructs and specify how each is operationalized.
+3. Clarify whether any hypotheses are confirmatory or whether the work is exploratory, and label secondary questions as such.
+4. Make sure the methods, analyses, and conclusions map directly onto the stated question.
+
+Until the question is sharpened, it is difficult to judge whether the methods are appropriate or whether the conclusions follow from the results. I would be glad to review a revised version.

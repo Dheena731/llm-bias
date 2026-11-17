@@ -1,0 +1,1 @@
+Filter datasets: Narrow results by criteria such as year, data type, subject area, or license. Selecting multiple options within one category shows datasets matching any of them, while combining categories shows only datasets matching all of them. Clear filters to restore the full list.

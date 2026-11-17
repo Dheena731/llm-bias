@@ -1,0 +1,2 @@
+**95% Confidence Interval**
+The shaded band shows the range where the true value likely falls. If this measurement were repeated many times, about 95% of the intervals calculated this way would contain the true value. A wider band means more uncertainty. A narrower band means more precision.

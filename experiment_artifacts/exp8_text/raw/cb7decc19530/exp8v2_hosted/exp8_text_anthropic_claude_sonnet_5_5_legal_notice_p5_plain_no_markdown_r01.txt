@@ -1,0 +1,13 @@
+NOTICE OF ACCEPTABLE USE OF SHARED NETWORK
+
+This Notice governs the use of the shared network and all connected systems, devices, and services (together, the "Network") operated by the Network Administrator. By connecting to or using the Network, each user ("User") acknowledges that he or she has read this Notice and agrees to be bound by it.
+
+The Network is provided for lawful purposes related to the legitimate activities of its Users. Users shall not use the Network to violate any applicable law or regulation, to infringe the intellectual property or privacy rights of any person, or to transmit, store, or distribute material that is defamatory, harassing, obscene, or otherwise unlawful. Users shall not attempt to gain unauthorized access to any system, account, or data, whether on the Network or elsewhere, nor shall they introduce malicious software, interfere with the operation of the Network, or consume bandwidth or resources in a manner that unreasonably degrades service for others.
+
+Each User is responsible for maintaining the confidentiality of his or her credentials and for all activity conducted under them. Users shall promptly notify the Network Administrator of any suspected compromise of an account or any other security incident. Users shall not share access with unauthorized persons or circumvent any security, filtering, or monitoring measure.
+
+Users should have no expectation of privacy in their use of the Network. The Network Administrator reserves the right to monitor, log, and review Network activity to the extent permitted by law, for the purposes of maintaining security, ensuring compliance with this Notice, and responding to lawful requests from authorities. Information so gathered may be disclosed where required by law or where necessary to protect the rights, property, or safety of the Network Administrator, its Users, or the public.
+
+Any violation of this Notice may result in the suspension or termination of access, with or without prior notice, and may be referred to the appropriate authorities. The Network Administrator may also seek recovery of any costs or damages arising from a User's misconduct. The Network is provided "as is," without warranty of any kind, and the Network Administrator shall not be liable for any loss or damage arising from its use or unavailability, except to the extent that such liability cannot be excluded by law.
+
+The Network Administrator may amend this Notice at any time, and continued use of the Network following any amendment constitutes acceptance of the revised terms. If any provision of this Notice is held unenforceable, the remaining provisions shall continue in full force and effect.

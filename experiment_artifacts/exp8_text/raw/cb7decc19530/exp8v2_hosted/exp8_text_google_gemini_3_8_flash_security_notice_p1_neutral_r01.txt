@@ -1,0 +1,20 @@
+**SECURITY NOTICE: Protect Your Accounts – Stop Password Reuse**
+
+**To:** All Staff  
+**From:** IT & Information Security Team  
+**Subject:** The Risks of Reusing Passwords
+
+Did you know that using the same password across multiple accounts is one of the leading causes of security breaches? 
+
+When a personal account (like a retail site, streaming service, or social media app) is compromised, cybercriminals immediately test those stolen credentials against workplace systems. If you reuse your work password anywhere else, **a breach on an outside website directly puts company data at risk.**
+
+**Action Required:**
+* **Make it unique:** Your work password should only ever be used for your work account. Never mix personal and company credentials.
+* **Use a password manager:** Avoid the hassle of memorizing dozens of passwords by using [Company Password Manager Name]. It generates and stores strong, unique passwords automatically.
+* **Never share credentials:** IT will never ask for your password. 
+
+If you currently use your work password on any other platform, please **change your work password immediately**. 
+
+Thank you for doing your part to keep our network and data secure.
+
+*Questions? Contact the IT Helpdesk at [extension/email].*

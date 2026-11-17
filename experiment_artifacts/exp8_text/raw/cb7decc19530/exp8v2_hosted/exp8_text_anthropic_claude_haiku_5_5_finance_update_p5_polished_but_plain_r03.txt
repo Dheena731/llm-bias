@@ -1,0 +1,7 @@
+We are aware that some payments are currently being processed more slowly than usual, and we apologize for the inconvenience this may cause. Our team identified a backlog in our payment processing system that is delaying the confirmation and settlement of a portion of transactions. We have not lost any payment data, and all affected transactions are being queued and will be completed in the order they were received.
+
+Engineers are working to clear the backlog and restore normal processing speeds. We expect most delayed payments to be settled within the next one to two business days, and we will share an update as soon as the backlog is fully resolved.
+
+In the meantime, there is no need to resubmit payments, as doing so could result in duplicate charges. If you have a payment that has not posted after two business days, please contact our support team with the transaction reference number so we can look into it directly.
+
+Thank you for your patience as we work to resolve this.

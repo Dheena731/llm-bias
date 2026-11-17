@@ -1,0 +1,12 @@
+Are the required fields required?
+Do not ask questions about the description. A missing-value marker does not mean that the description is missing.
+
+Are the required fields required?
+Do not ask questions about the agreement or the terms. A missing-value marker does not mean that the consent or terms are missing. For example: "Do you consent to this use of your data?" and "Do you agree to this use of your data?"
+
+Are the required fields required?
+Do not try to "sell" the user on the use of the data. The user is presented with a message box, and is not persuaded to engage.
+
+Do not put "complete my survey" at the end.
+
+Do not put "yes" or "no" in the question. "Yes" is the default answer and "no" does not need to be entered.

@@ -1,0 +1,7 @@
+**Tuesday 8:40–8:54am: PayPark couldn't start new parking sessions.**
+
+If you tapped to pay at a meter and got a spinning wheel or "session failed," that was on us, not your phone or your plate. An expired security certificate broke our payment connection. We rolled back the change at 8:52, and sessions have worked normally since.
+
+If you were charged but no session started, the charge will refund automatically within 3 business days. If a city ticketed you during that window, email help@payPark.example with your plate and the time, and we'll send the city our session logs.
+
+Sorry to everyone who was late to something because of us. We've added an alert that fires 30 days before any certificate expires, so this specific failure can't happen quietly again.

@@ -1,0 +1,14 @@
+Subject: Reminder to Avoid Reusing Passwords
+
+Dear colleagues,
+
+We are writing to remind everyone to use a unique password for each work account. When the same password is used across several systems, a breach at any one of them, whether a personal shopping site, a social media account, or a third-party service, can give an attacker a way into our internal systems. Attackers routinely test leaked credentials against corporate email and VPN logins, so a single reused password can expose company data.
+
+Please follow these basic practices. Create a different password for every work account, and make each one long, at least 14 characters, mixing words that are hard to guess. Use the company-approved password manager to generate and store them so you do not need to memorize them. Turn on multi-factor authentication wherever it is offered, and never share your password with anyone, including IT staff, who will never ask for it by email or phone.
+
+If you believe a password you use for work has been exposed or used on another site, change it immediately and notify the IT Service Desk. Prompt reporting lets us act before any damage is done.
+
+Thank you for helping keep our systems and information secure.
+
+Regards,
+Information Security Team

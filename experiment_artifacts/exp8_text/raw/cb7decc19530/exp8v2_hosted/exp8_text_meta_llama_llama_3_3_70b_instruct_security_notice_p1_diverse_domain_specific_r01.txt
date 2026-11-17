@@ -1,0 +1,16 @@
+**Important: Protecting Our Systems and Data**
+
+As we continue to work with sensitive client information and collaborate with external partners, it's essential that we prioritize password security. Reusing passwords across multiple accounts poses a significant risk to our organization's security posture.
+
+If you use the same password for your company login, email, or other work-related accounts, and that password is compromised through a breach of a personal or external service (e.g., social media, online shopping, or entertainment platforms), an attacker may attempt to use it to gain unauthorized access to our systems.
+
+To mitigate this risk, please ensure that you:
+
+* Use unique, complex passwords for all work-related accounts
+* Avoid using passwords that have been previously compromised or are easily guessable
+* Enable two-factor authentication (2FA) whenever possible
+* Update your passwords regularly, or at a minimum, when prompted by our IT department
+
+Our IT team is available to provide guidance on password management best practices and can offer recommendations for secure password storage solutions. If you have any questions or concerns, please don't hesitate to reach out.
+
+Let's work together to maintain the confidentiality, integrity, and availability of our systems and data.

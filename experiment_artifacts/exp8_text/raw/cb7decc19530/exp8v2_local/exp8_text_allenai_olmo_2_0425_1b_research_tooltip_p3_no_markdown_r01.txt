@@ -1,0 +1,19 @@
+## Template:
+
+1. The date is: {u'e}
+2. The date is: {x2}
+3. The date is: {x1}
+
+### Explanation:
+
+The template supports the following date format: {u'e}, {x2} and {x1}. For each date selector, the date is converted to a string and then converted to an HTML date. Note that there is no escape sequence for the month separator, i.e. the date formats are case-sensitive.
+
+**NOTE:** Some date formats are missing. If you can think of a format that is not present, please open an issue.
+
+## Credits
+
+This plugin was created by <a href="//coderwall.net/user/konflict">Konflict</a>.
+
+## License
+
+© 2014-2019. <a href="//coderwall.net/users/konflict">Konflict</a> (BSD License)

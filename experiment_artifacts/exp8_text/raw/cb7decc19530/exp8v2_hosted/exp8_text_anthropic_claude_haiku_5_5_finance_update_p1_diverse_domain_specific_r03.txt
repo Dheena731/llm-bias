@@ -1,0 +1,16 @@
+**Subject: Your monthly spending summary is here**
+
+Starting with the April statement cycle, Ledgerline will send a summary on the 2nd of each month covering the previous month's card and checking activity.
+
+Each summary lists your total outflow, then breaks it into your ten largest categories with a comparison to the month before. A line might read: *Groceries, $612.40, up $88 from March. Most of the increase is one $140 Costco trip on the 14th.* You can tap any category to see the individual transactions behind it.
+
+A few rules govern what counts, so the totals should match your statements:
+
+- **Transfers between your own accounts are excluded.** Moving $500 from checking to savings is not spending.
+- **Refunds reduce the category they were originally charged to**, so a returned $40 jacket lowers Clothing rather than appearing as income.
+- **Pending charges are left out** until they post. If a hotel hold drops off a week later, the summary won't change retroactively; the charge shows up in the following month.
+- **Subscriptions are grouped under Recurring** even when they fall in different categories, so you can see your fixed monthly commitments in one place.
+
+If a transaction lands in the wrong category, correct it once in the transaction view and the correction carries into future summaries. Corrections to a month that has already been sent will appear in the next month's summary as a note, not as a revised report.
+
+To turn summaries off, go to Settings → Notifications. Your history stays available either way.

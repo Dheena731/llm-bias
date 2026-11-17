@@ -1,0 +1,1 @@
+Indicates where the true value likely falls. Shows estimate precision at the selected confidence level.

@@ -1,0 +1,9 @@
+**Subject: Action Required: Quarterly System Access Review**
+
+The quarterly access review cycle has officially begun. All department heads and system owners are required to verify user permissions for their assigned applications and data repositories by [Deadline Date]. 
+
+Please log in to the Identity Management Portal, audit current role assignments, and approve, modify, or revoke any outdated access. Reviews must be completed using only verified business justification; unverified accounts will be flagged for further review.
+
+Incomplete submissions by the deadline may result in automatic access suspension to maintain compliance with our security and regulatory standards. For technical assistance or policy clarification, contact the IT Security team at [Support Email] or dial [Extension].
+
+Thank you for your prompt attention to this mandatory security procedure.

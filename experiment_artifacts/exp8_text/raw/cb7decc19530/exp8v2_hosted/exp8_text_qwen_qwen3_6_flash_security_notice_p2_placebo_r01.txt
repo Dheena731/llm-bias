@@ -1,0 +1,18 @@
+**Subject: Workplace Security Notice: Recognizing and Reporting Phishing Emails**
+
+Dear Colleagues,
+
+Phishing emails are fraudulent messages designed to trick recipients into revealing login credentials, financial information, or other sensitive data. Attackers often disguise these messages to look like they come from trusted sources, including internal departments, external partners, or familiar contacts.
+
+To protect our network and company data, please follow these guidelines:
+
+- Verify the sender’s complete email address before interacting with any message, as attackers frequently use slight variations of legitimate addresses.
+- Do not click hyperlinks or download attachments unless you have independently confirmed the request is legitimate.
+- Exercise caution with messages that demand immediate action, threaten account suspension, or contain unexpected requests.
+- If you suspect an email is fraudulent, do not reply or forward it through normal channels. Use your email system’s built-in report phishing function or send the message directly to the IT Security team for analysis.
+- When in doubt, contact IT Support through official company directories to verify the message’s authenticity.
+
+Thank you for your cooperation. Your vigilance is a critical line of defense in maintaining a secure work environment.
+
+Sincerely,  
+Information Technology & Security Team

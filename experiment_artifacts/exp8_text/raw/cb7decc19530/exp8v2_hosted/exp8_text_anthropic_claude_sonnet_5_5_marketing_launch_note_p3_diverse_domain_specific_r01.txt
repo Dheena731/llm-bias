@@ -1,0 +1,16 @@
+**Fortnight 1.0: a budget template for people who get paid every two weeks**
+
+Most budget templates assume income arrives once a month. If you're paid biweekly, twice a year you get a third paycheck, and your rent, which hits on the 1st, lands in a different pay period than your car insurance. Fortnight is built around pay periods instead of calendar months.
+
+**What's in it**
+
+- **Import tab:** Paste in a CSV from your bank. Date, description, and amount are the only columns it needs. A keyword table (`SHELL` → Gas, `TRADER JOE` → Groceries) assigns categories. Anything it can't match turns yellow so it doesn't disappear into "Misc."
+- **Sinking funds:** Enter annual or irregular costs, like registration, the vet, or a January insurance premium. Fortnight divides them across your pay periods and tracks the balance.
+- **Credit cards:** Purchases count on the day you swipe, not when you pay the statement, so the payment isn't counted twice.
+- **Third-paycheck holding row:** The extra check sits unassigned until you decide where it goes. It won't quietly inflate your grocery budget.
+
+**What it isn't**
+
+It doesn't sync with your bank. You'll spend about ten minutes every other Friday pasting and fixing yellow rows. There are no macros or add-ons, so it works the same in Excel and Google Sheets.
+
+**$18, one-time.** It includes a sample year of fake data so you can see how it behaves before you clear it. If it doesn't fit how you're paid, email me within 30 days for a refund.

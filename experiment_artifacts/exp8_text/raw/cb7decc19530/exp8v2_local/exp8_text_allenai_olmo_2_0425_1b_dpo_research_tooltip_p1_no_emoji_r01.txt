@@ -1,0 +1,1 @@
+This dataset filter allows you to selectively view only the records that meet specific criteria defined in the table header. Simply click on the filter icon to choose options such as 'Gender', 'Age', 'City', or 'Year' to refine your data analysis. Adjust the sliders to refine your search further.

@@ -1,0 +1,71 @@
+Write a legal-style notice about cookie usage on a website. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+
+✔ Cookie name
+✔ Cookie domain
+✔ Cookie purpose
+
+The name, domain, and values of your cookies must conform to the XHTML standard.
+
+Use the <link> tag to inform the browser about the domain and HTTP headers that control cookie behavior.
+
+The information must be provided in the order shown. For example, if the domain is and the cookie uses the HTTP Header Set __utma=1, you must list them in this order:
+
+  • __utma
+  • __utma=1
+
+The name, domain, and values must conform to the XHTML standard.
+
+
+Refer to the relevant section (in either the HTML or XHTML version) to learn more about each element.
+
+HTML 5
+
+  • <link rel="stylesheet"> defines the stylesheet used for the page. Leave this tag blank if you are not using a stylesheet.
+  • <meta charset="UTF-8"> specifies the character encoding of the page.
+  • <meta http-equiv="X-UA-Compatible" content="IE=Edge"> sets the default browser to the specified version, specified as IE=Edge in the <meta> element.
+  • <link rel="stylesheet" href="css/style.css"> defines the stylesheet used for the page. This must be a valid resource. If the resource method is used, the resource method must be deployed.
+  • <script src="js/main.js"></script> defines the script used by the page. This must be a valid resource.
+
+Do not leave any default meta tags empty.
+
+Here's an example of the main HTML tag from a style sheet:
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style3.css">
+  <script src="js/main.js"></script>
+
+You will need to write at least one link for each stylesheet for your site. Please do not hardcode URLs. For example, do not write <link rel="stylesheet" href="">; instead, write <link rel="stylesheet" href="">.
+
+
+Refer to the relevant section (in either the HTML or XHTML version) to learn more about each element.
+
+XHTML 5
+
+  • <link rel="stylesheet"> defines the stylesheet used for the page. Leave this tag empty if you are not using a stylesheet.
+  • <meta charset="UTF-8"> specifies the character encoding of the page.
+  • <meta http-equiv="X-UA-Compatible" content="IE=Edge"> sets the default browser to the specified version, specified as IE=Edge in the <meta> element.
+  • <script src="js/main.js"></script> defines the script used by the page. This must be a valid resource.
+
+Do not leave any default meta tags empty.
+
+Here's an example of the main HTML tag from a style sheet:
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style3.css" media="screen">
+  <script src="js/main.js"></script>
+
+You will need to write at least one link for each stylesheet for your site. Please do not hardcode URLs.
+
+
+Refer to the relevant section (in either the HTML or XHTML version) to learn more about each element.
+
+XHTML 6
+
+  • <link rel="stylesheet"> defines the stylesheet used for the page. Leave this tag empty if you are not using a stylesheet.
+  • <meta charset="UTF-8"> specifies the character encoding of the page.
+  • <meta http-equiv="X-UA-Compatible

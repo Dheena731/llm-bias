@@ -1,0 +1,1 @@
+Pick a start and end date to limit results to that window. Dates are inclusive, and the range resets when you change the filter.

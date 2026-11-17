@@ -1,0 +1,11 @@
+**Tooltip (shipment tracking dashboard):**
+
+> **Pickup dates.** Shows loads picked up between the two dates, inclusive. Delivery date doesn't matter, so a load picked up Mar 31 and delivered Apr 2 counts as March. Times use each origin depot's local zone. Max range: 92 days.
+
+I assumed a freight context since you didn't name a domain. Here's the same idea for two others:
+
+**Bank statements:**
+> **Posting date**, not transaction date. A card purchase on the 30th may post on the 1st and appear in the next range. Both end dates are included.
+
+**Clinical lab results:**
+> **Collection date** of the specimen, not the date results were reported. Both end dates are included. Ranges over 12 months are limited to final results.

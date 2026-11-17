@@ -1,0 +1,12 @@
+**NOTICE OF REFUND ELIGIBILITY AND CLAIM PROCEDURES**  
+*Applicable to Enterprise Subscription License Agreements*
+
+Claims for monetary restitution must be filed within thirty (30) calendar days of the initial invoice date for the relevant service tier. Eligibility is contingent upon simultaneous satisfaction of the following conditions:
+
+1. **Zero Active Entitlements:** No user seats, concurrent connections, or tenant instances remain provisioned across any environment (production, staging, or development).
+2. **Nil Consumption Metrics:** System logs confirm zero API calls, data ingestion events, or module activations recorded during the subscription period.
+3. **Unrendered Services:** Onboarding, implementation, and dedicated training components have not commenced or were formally declined prior to deployment.
+
+**Express Exclusions.** The following items are non-refundable irrespective of filing timing: procured third-party pass-through infrastructure, custom integration labor, licensed add-on modules with independent depreciation schedules, and usage-based charges accrued prior to submission.
+
+**Submission & Processing.** Direct written claims to `billing@license-domain.com` with entity ID, invoice reference, and basis for eligibility. Upon reconciliation against provisioning telemetry, approved refunds remit through the original payment instrument within fourteen (14) business days; operational constraints may necessitate credit memo issuance instead

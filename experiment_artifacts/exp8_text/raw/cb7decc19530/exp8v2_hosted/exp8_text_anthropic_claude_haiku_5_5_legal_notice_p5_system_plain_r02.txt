@@ -1,0 +1,13 @@
+Notice of Acceptable Use of the Shared Network
+
+This notice sets out the terms under which users may access and use the shared network made available by the organization. By connecting to or using the network, each user agrees to comply with these terms. Users who do not agree should refrain from using the network.
+
+The network is provided to support the lawful business, educational, and personal purposes of its authorized users. Access is granted only to individuals who have been issued credentials or who have been expressly authorized by the network administrator. Users must not share their credentials with others, and they are responsible for all activity conducted under their accounts.
+
+Users must not use the network to transmit, store, or access material that is unlawful, infringing, defamatory, obscene, or harassing. Users must not attempt to bypass security controls, probe or scan other systems, introduce malicious software, or interfere with the normal operation of the network or the devices connected to it. Unauthorized monitoring of other users' traffic is prohibited. Users must also respect the intellectual property rights of third parties, including copyright and licensing terms governing software, media, and data.
+
+Reasonable personal use of the network is permitted provided it does not consume excessive bandwidth, interfere with work or service obligations, or violate any provision of this notice. Users should not expect privacy in communications sent over the network, and the organization may monitor, log, and review network activity to maintain security, enforce this notice, and comply with applicable law.
+
+The organization may suspend or terminate a user's access at any time, with or without notice, where it reasonably believes a violation of this notice has occurred or where necessary to protect the network. The organization disclaims liability for interruptions in service, loss of data, or damage arising from use of the network, to the fullest extent permitted by law. Users are responsible for maintaining their own backups and for the security of their personal devices.
+
+The organization may amend this notice from time to time by posting a revised version on its internal portal. Continued use of the network following such posting constitutes acceptance of the amended terms. Questions about this notice should be directed to the network administrator.

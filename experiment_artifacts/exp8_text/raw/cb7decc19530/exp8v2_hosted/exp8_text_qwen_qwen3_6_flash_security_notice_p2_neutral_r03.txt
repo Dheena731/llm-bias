@@ -1,0 +1,30 @@
+**NOTICE: Protecting Against Phishing Emails**  
+**To:** All Staff  
+**From:** IT Security Department  
+**Date:** [Insert Date]  
+
+Dear Team,  
+
+As cyber threats continue to rise, we want to reinforce our shared commitment to cybersecurity. Phishing emails are one of the most common entry points for data breaches, and your vigilance is critical to keeping our organization safe.  
+
+🔍 **Common red flags to watch for:**  
+• Urgent, threatening, or overly promotional language demanding immediate action  
+• Unexpected attachments or unfamiliar links  
+• Sender email addresses that don’t match official company domains  
+• Requests for passwords, financial details, or other sensitive information  
+
+✅ **What to do if you receive a suspicious email:**  
+1. **Do not click** any links, open attachments, or reply.  
+2. **Do not enter** credentials on unfamiliar pages.  
+3. **Report it immediately** by forwarding it to [IT Security Email] or using the “Report Phishing” button in your email client.  
+4. **Verify independently** by contacting the purported sender through a known phone number or internal directory.  
+
+Cybersecurity is a team effort. Reporting potential threats quickly allows us to block them before they cause harm.  
+
+For assistance or to submit a suspected phishing attempt, contact the IT Help Desk at [Phone/Email] or visit [Internal Security Portal].  
+
+Thank you for your prompt attention and continued cooperation.  
+
+Sincerely,  
+[Your Name/Title]  
+IT Security Department

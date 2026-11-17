@@ -1,0 +1,19 @@
+Subject: New Expense Approval Workflow Starting [Date]
+
+Hi everyone,
+
+Starting [Date], we're introducing a new expense approval workflow to make reimbursements faster and more transparent.
+
+Here's what's changing:
+- Submit all expense reports through [System Name] by the [X] day of each month.
+- Expenses under $[amount] will be approved by your direct manager.
+- Expenses over $[amount] will also require sign-off from [Department/Role].
+- You'll receive an email notification at each step, so you can track your request's status.
+
+Please review the full guide here: [Link]. If you have questions, reach out to [Contact Name] at [Email].
+
+Thanks for your cooperation as we roll this out.
+
+Best regards,
+[Your Name]
+[Title]

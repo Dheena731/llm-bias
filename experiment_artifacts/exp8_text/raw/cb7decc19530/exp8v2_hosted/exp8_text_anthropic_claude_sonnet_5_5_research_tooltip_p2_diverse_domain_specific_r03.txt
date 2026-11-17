@@ -1,0 +1,14 @@
+**Polling chart (assumed domain)**
+
+> **Shaded band: 95% confidence interval**
+> Candidate A: 48% (45–51%). If we ran this poll many times, about 95% of bands built this way would contain the true level of support. The band covers sampling error only, not question wording or who declined to answer.
+
+If your chart is in a different domain, here are two swaps:
+
+**A/B test**
+> **95% confidence interval:** Variant B converts at 3.8% (3.1–4.5%). Values in this range are consistent with our data. If the band for the difference includes 0, we can't tell B from control.
+
+**Clinical trial**
+> **95% CI for hazard ratio:** 0.78 (0.64–0.95). The data are compatible with anywhere from a 36% to a 5% reduction in risk. An interval that excludes 1.0 suggests a real effect.
+
+Tell me your actual chart and audience, and I'll fit the numbers and wording to it.

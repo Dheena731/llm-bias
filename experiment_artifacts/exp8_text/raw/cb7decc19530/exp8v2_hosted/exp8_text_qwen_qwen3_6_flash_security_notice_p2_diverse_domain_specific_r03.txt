@@ -1,0 +1,7 @@
+**Subject: Heads up: Fake invoices and MFA resets hitting inboxes**
+
+We're tracking a spike in phishing emails designed to bypass spam filters by mimicking vendor notifications and internal system alerts. These aren't the "too good to be true" scams; they're tailored to our workflow.
+
+**Current patterns to watch for:**
+*   **"Invoice" attachments:** PDFs labeled as bills from vendors we actually use. Opening them triggers redirects to credential harvesters.
+*   **

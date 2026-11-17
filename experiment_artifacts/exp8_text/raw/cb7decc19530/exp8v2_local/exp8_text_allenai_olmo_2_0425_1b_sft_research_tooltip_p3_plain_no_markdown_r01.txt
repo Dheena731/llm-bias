@@ -1,0 +1,1 @@
+A date-range selector enables users to choose specific dates within a given period, allowing them to filter or sort content based on the selected dates. This helpful feature is particularly useful in modern web applications, enabling users to customize search results, view historical events, or manage tasks that span a certain timeframe.

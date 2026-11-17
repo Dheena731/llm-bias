@@ -1,0 +1,53 @@
+If you are currently working on a phishing campaign, and do not want to have it in the inbox of your target, you could send a phishing test email as well. You could also create a training material for your end users explaining how to react (or not) to phishing emails.
+
+If you are not currently working on a phishing campaign, you could create a training material for your end users explaining how to react (or not) to phishing emails.
+
+In order to create a training material, you need to select a training resource you are familiar with (such as a well-written book, an interesting video, or a blog post). You could also create a training material yourself. More elaborated training materials are available below.
+
+Do not use Markdown formatting.
+
+The job is to explain the following:
+
+  • the content (e.g. phishing email contents)
+
+  • the context (what is the user supposed to do, e.g. click a link, or not)
+
+Important: please make sure your training material explains what the user should do in a clear and actionable way. We strongly discourage training material for your end users that is more like an academic paper on the subject or that explains in detail the nature, goals, and methods of phishing, rather than what to do in the real case.
+
+
+In order to create a training material, you need to select a training resource you are familiar with (such as a well-written book, an interesting video, or a blog post). You could also create a training material yourself. More elaborated training materials are available below.
+
+Do not use Markdown formatting.
+
+Explain the content (e.g. email contents) as follows:
+
+The content of this email could be found by visiting website X. This email should not be opened, clicked on any links, or any attachments.
+
+Explain the context (what the user is supposed to do, e.g. click a link, or not) as follows:
+
+The user should not open this email, and should not click any links in the email.
+
+Explain what is meant by not opening or clicking the links (i.e. the user cannot open the link, and should not click the link).
+
+Explain what is meant by should not open the link (i.e. the user cannot open the link, and should not click the link).
+
+Optional: For better understanding, you may include a screenshot of the email sent by the malicious actor.
+
+
+Let's continue the example of phishing emails we have been using so far.
+
+Do not use Markdown formatting.
+
+In the following email we have been using so far, the malicious actor is telling the end user that their email account is infected, and asking for more information so that they can be better protected against phishing attacks.
+
+Do not use Markdown formatting.
+
+In the following email we have been using so far, the malicious actor is asking the end user not to click the link, and instead click on the link to the right of the message (which is owned by the malicious actor). Doing so, the end user is being asked to enter their username and password into a login page owned by the malicious actor.
+
+Do not use Markdown formatting.
+
+In the following email we have been using so far, the malicious actor is asking the end user not to open the email, and instead send the text document to the email address provided (which is owned by the malicious actor). Doing so, the end user is being asked to enter their username and password into the login page owned by the malicious actor.
+
+Do not use Markdown formatting.
+
+In the following email we have been using so far, the malicious actor is asking the end user not to open the email, and instead click the link in the email to the right of the message (which is owned by the malicious actor). Doing so, the end user is being asked to enter their username and

@@ -1,0 +1,11 @@
+Caching is a technique used to speed up a website by storing frequently accessed data in a temporary storage area, known as a cache. This cache is usually located on the server, but can also be stored on the user's browser or on a network proxy.
+
+When a user requests a page, the server checks the cache first to see if it already has a copy of the requested data. If it does, the server returns the cached data instead of having to retrieve it from the original source. This process is much faster than retrieving the data from the original source, which can be a database, a file system, or another server.
+
+Caching can speed up a website in several ways:
+
+* Reduces the number of requests to the original source, which can be a slow or busy system
+* Decreases the amount of data transferred over the network, which can improve performance and reduce costs
+* Allows the server to serve pages more quickly, which can improve the user's experience and increase engagement
+
+Overall, caching is a powerful technique that can significantly improve the performance and speed of a website.

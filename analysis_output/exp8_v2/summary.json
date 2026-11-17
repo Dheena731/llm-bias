@@ -1,0 +1,52 @@
+{
+  "hosted_rows": 8640,
+  "local_rows": 1680,
+  "hosted_routes": [
+    "claude-haiku-5.5",
+    "claude-sonnet-5.5",
+    "gemini-3.8-flash",
+    "llama-3.1-8b-instruct",
+    "llama-3.3-70b-instruct",
+    "qwen3.6-flash"
+  ],
+  "local_stages": [
+    "base",
+    "dpo",
+    "instruct_rlvr",
+    "sft"
+  ],
+  "neutral_stage_rates": {
+    "base": {
+      "has_format_default": 0.3333333333333333,
+      "has_markdown": 0.3333333333333333,
+      "has_emoji": 0.0,
+      "has_polish_without_length": 0.13333333333333333,
+      "word_count": 297.1333333333333,
+      "md_per_100w": 1.9147487941348726
+    },
+    "sft": {
+      "has_format_default": 0.13333333333333333,
+      "has_markdown": 0.13333333333333333,
+      "has_emoji": 0.016666666666666666,
+      "has_polish_without_length": 0.26666666666666666,
+      "word_count": 75.08333333333333,
+      "md_per_100w": 0.5864984345174198
+    },
+    "dpo": {
+      "has_format_default": 0.55,
+      "has_markdown": 0.5,
+      "has_emoji": 0.06666666666666667,
+      "has_polish_without_length": 0.43333333333333335,
+      "word_count": 188.88333333333333,
+      "md_per_100w": 3.1998115514605385
+    },
+    "instruct_rlvr": {
+      "has_format_default": 0.55,
+      "has_markdown": 0.5333333333333333,
+      "has_emoji": 0.06666666666666667,
+      "has_polish_without_length": 0.26666666666666666,
+      "word_count": 167.73333333333332,
+      "md_per_100w": 2.6224244531059604
+    }
+  }
+}

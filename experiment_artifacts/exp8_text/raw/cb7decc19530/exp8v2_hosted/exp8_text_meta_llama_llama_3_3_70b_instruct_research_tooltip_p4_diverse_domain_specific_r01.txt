@@ -1,0 +1,1 @@
+"Missing-value marker: Indicates a data point is absent or unknown, often represented as 'NA', '-', or a blank cell. This can occur due to non-response, invalid input, or limitations in data collection methods, and may impact analysis or modeling results."

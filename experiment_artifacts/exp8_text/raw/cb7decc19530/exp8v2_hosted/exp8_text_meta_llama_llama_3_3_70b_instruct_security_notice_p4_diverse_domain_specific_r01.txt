@@ -1,0 +1,11 @@
+**Enhance Your Account Security with Two-Factor Authentication**
+
+As part of our ongoing efforts to protect your sensitive information and maintain the integrity of our ecosystem, we are introducing two-factor authentication (2FA) for all users. This additional layer of security will require a second form of verification, beyond your password, to access your account.
+
+2FA will help safeguard against unauthorized access, phishing attacks, and other malicious activities that could compromise your data. By enabling this feature, you will significantly reduce the risk of your account being breached, ensuring that your personal and professional information remains secure.
+
+To enable 2FA, simply log in to your account, navigate to your security settings, and follow the prompts to set up the authentication method of your choice. You can opt for a time-based one-time password (TOTP) authenticator app, such as Google Authenticator or Authy, or receive a verification code via SMS.
+
+We strongly recommend enabling 2FA at your earliest convenience to bolster your account security. If you have any questions or concerns about the setup process, please don't hesitate to reach out to our support team for assistance.
+
+**Stay secure, and thank you for your cooperation.**

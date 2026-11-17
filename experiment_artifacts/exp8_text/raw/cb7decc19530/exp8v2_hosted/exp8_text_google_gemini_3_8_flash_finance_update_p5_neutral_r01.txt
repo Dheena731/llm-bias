@@ -1,0 +1,14 @@
+Here are a few options, depending on your audience:
+
+**Option 1: For Customers (Website banner, email, or social post)**
+> **Update on Payment Processing**  
+> We are currently experiencing a temporary delay in processing payments due to [a technical issue / an unexpected system glitch]. Our team is actively working on a fix, and all pending transactions will be processed as soon as possible.   
+> 
+> Please avoid resubmitting your payment to prevent duplicate charges. We apologize for the inconvenience and appreciate your patience. 
+
+**Option 2: For Vendors / Contractors (B2B)**
+> **Payment Status Update**  
+> Please be advised that scheduled payments are currently experiencing a brief processing delay due to [a banking delay / system maintenance]. We expect all affected payments to clear within [24–48 hours]. We apologize for the delay and will notify you as soon as processing is complete.
+
+**Option 3: Ultra-short (SMS or Status Page Alert)**
+> **Alert:** We are experiencing a temporary delay with payment processing. Our team is investigating, and we will update you shortly. Please do not re-attempt transactions at this time.

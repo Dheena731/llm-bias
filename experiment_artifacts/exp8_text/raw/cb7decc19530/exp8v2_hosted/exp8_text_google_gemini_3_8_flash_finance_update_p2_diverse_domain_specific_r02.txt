@@ -1,0 +1,16 @@
+**Operational Notice: Revisions to Card-Not-Present (CNP) Processing Rates**
+
+**Effective Date:** October 1, 2024  
+
+Starting with your October billing cycle, the standard fee schedule for domestic CNP transactions processed through your gateway account will adjust from **2.30% + $0.25** to **2.15% + $0.30** per settled authorization.
+
+### Why this is changing
+Card networks (Visa and Mastercard) have updated their fall assessment tables, specifically increasing fixed scheme fees on authorization messaging (such as Visa’s APF and Mastercard’s NABU) while lowering target interchange floors on select tokenized ecommerce transactions. We are re-weighting our acquirer markup to mirror these clearing cost changes across card types.
+
+### Impact on daily settlement
+* **Transactions over $35:** Will generally see a net reduction in effective processing costs due to the 15 bps cut on the variable rate.
+* **Low-ticket transactions (under $10):** Will see a slightly higher effective rate due to the $0.05 adjustment on the fixed capture fee.
+* **Regulated debit:** Unchanged. Qualifying Durbin-exempt and regulated debit volume will continue to clear at the statutory cap of 0.05% + $0.21 plus standard processor margin.
+* **Interchange-plus (IC++) accounts:** Your acquirer margin remains locked per contract; only the scheme pass-through lines will reflect the network fee schedule updates.
+
+A revised rate appendix has been uploaded to your portal under **Settings > Billing & Settlements > Fee Schedule**. Settlement files generated on or after 00:00 UTC, October 1 will calculate against the new table automatically.

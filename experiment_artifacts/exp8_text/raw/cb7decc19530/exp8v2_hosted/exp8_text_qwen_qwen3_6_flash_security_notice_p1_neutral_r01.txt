@@ -1,0 +1,26 @@
+**Subject: 🔒 Important Security Notice: Avoid Password Reuse**
+
+**To:** All Staff  
+**From:** IT Security Department  
+**Date:** [Insert Date]  
+
+**Action Required: Review Your Passwords Immediately**
+
+To protect our organization's data, **please ensure your work passwords are never used on personal websites, apps, or social media.**
+
+### ⚠️ Why This Matters
+Cybercriminals often use **"credential stuffing"** attacks. When personal accounts are breached, hackers automatically try those leaked passwords on corporate login pages. If you reuse a password, a breach on a retail or gaming site could give an attacker access to our systems.
+
+### ✅ What You Must Do
+1.  **Create Unique Passwords:** Your work password must be distinct from any personal account.
+2.  **Check for Exposure:** Visit **[Link to Company Credential Check Tool or "Have I Been Pwned"]** to see if your details have appeared in known breaches.
+3.  **Update Immediately:** If you find you've reused a password, change it now.
+4.  **Use a Password Manager:** If you struggle to remember unique passwords, please use the company-approved password manager.
+5.  **Enable MFA:** Ensure Multi-Factor Authentication is turned on for all work accounts.
+
+Please take two minutes today to audit your passwords. Thank you for helping us keep our data safe.
+
+**Questions?** Contact IT Support at [Email/Phone Number].
+
+Stay Secure,  
+**IT Security Team**

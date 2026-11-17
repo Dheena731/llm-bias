@@ -1,0 +1,20 @@
+Quarterly Access Reviews
+
+As part of our ongoing efforts to maintain a secure and accessible environment, we will be conducting quarterly access reviews. This process involves a thorough evaluation of user accounts and access levels to ensure that access is granted based on legitimate business needs and that all accounts are used in accordance with our access control policies.
+
+The quarterly access reviews will take place on the following dates:
+
+* March 15th
+* June 15th
+* September 15th
+* December 15th
+
+During each review, we will be checking for the following:
+
+* User accounts that have been inactive for a period of 90 days or more will be deactivated.
+* User accounts that are no longer required for business purposes will be deactivated.
+* Access levels will be reviewed to ensure that they are in line with current job roles and responsibilities.
+
+If you have any questions or concerns about the quarterly access reviews, please do not hesitate to contact our IT department. We will be sending reminders to all users with inactive accounts or access levels that require review.
+
+Thank you for your cooperation and assistance in maintaining the security and integrity of our system.

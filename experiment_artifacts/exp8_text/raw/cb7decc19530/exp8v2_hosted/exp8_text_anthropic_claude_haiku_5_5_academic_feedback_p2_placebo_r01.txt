@@ -1,0 +1,13 @@
+**Feedback on Methods Section**
+
+Your methods section lays out the basic structure of the study, and the order (design, participants, procedure, analysis) is easy to follow. The main issue is that a reader could not yet repeat the study from your description alone. Each step should be specific enough for another researcher to follow.
+
+**Areas to strengthen:**
+
+1. **Participants:** State how many people took part, how they were recruited, and what criteria determined inclusion or exclusion.
+2. **Procedure:** Describe what happened in the order it occurred, including timing, materials, and instructions given to participants.
+3. **Justification:** Briefly explain why you chose your design and measures, not only what you used.
+4. **Analysis:** Name the analysis method and explain how it addresses your research questions.
+5. **Consistency:** Use the same terms for each variable throughout, and make sure every measure mentioned in your results is described here.
+
+**Priority:** Start with the participants and procedure sections. These determine whether the study can be replicated, and they are the parts most likely to need additional detail.

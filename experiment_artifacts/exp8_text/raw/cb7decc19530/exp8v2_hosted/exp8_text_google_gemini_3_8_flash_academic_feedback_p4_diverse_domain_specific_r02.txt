@@ -1,0 +1,10 @@
+Hey Marcus,
+
+A few quick notes on the A0 draft before you send it to the print shop:
+
+1. **Figure 2 (UMAP):** Direct-label the major Leiden clusters instead of using that 16-color categorical legend. Nobody standing four feet back is going to cross-reference slightly different shades of teal between the plot and the key, especially for the rarer dendritic cell subsets. Also, increase the point size from 0.1 to 0.4—right now the low-density bridge between clusters 3 and 7 just looks like artifact noise.
+2. **QC / Methods box:** Cut the pre- and post-filtering violin plots. You're wasting prime real estate on standard housecleaning. Just drop a one-line parenthetical into the methods text noting your cutoffs (`>15% mitochondrial reads, <500 UMIs, scDblFinder doublets removed`) and use that reclaimed space to widen the trajectory panel. 
+3. **Slingshot pseudotime (Fig. 4B):** The dark gray lineage curve disappears completely over the navy end of the viridis scale. Swap the lineage stroke to magenta or bright white so the bifurcation toward the exhausted CD8+ branch actually registers.
+4. **Header for Column 3:** Change *"Differential Expression Across Timepoints"* to your actual biological claim. Something explicit like *"Late-stage KO shows sustained AP-1 repression without widespread chromatin closing."* Reviewers walk these sessions fast; don't make them infer the punchline from the volcano plot.
+
+The layout breathes much better than the lab meeting version. Clean up the axis font sizes on the heatmap and it’s good to go.

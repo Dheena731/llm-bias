@@ -1,0 +1,25 @@
+**NETWORK ACCEPTABLE USE NOTICE**
+
+**IMPORTANT NOTICE TO ALL USERS:** Access to this shared network (“Network”) is a privilege, not a right, and is provided solely for authorized personal or professional use. By connecting to, accessing, or utilizing this Network, you agree to be bound by the terms of this Acceptable Use Notice.
+
+### 1. PROHIBITED CONDUCT
+Users shall not use the Network to engage in any activity that is unlawful, harmful, or disruptive. Prohibited activities include, but are not limited to:
+* **Unlawful Acts:** Transmitting, distributing, or storing any material in violation of applicable local, state, federal, or international law, including intellectual property infringement and unauthorized distribution of copyrighted material.
+* **Security Violations:** Attempting to circumvent user authentication, access unauthorized systems or data, probe/scan network vulnerabilities, or distribute malicious software (viruses, trojans, worms, etc.).
+* **Abuse and Harassment:** Transmitting threatening, obscene, defamatory, or harassing communications.
+* **Network Degradation:** Generating excessive or disproportionate traffic (e.g., continuous high-bandwidth peer-to-peer file sharing, hosting unauthorized commercial servers) that degrades Network performance for other users.
+
+### 2. NO EXPECTATION OF PRIVACY; MONITORING
+**Users have no expectation of privacy when using this Network.** To ensure security, operational integrity, and legal compliance, Network Administrators reserve the right to monitor, intercept, inspect, record, and log all network traffic and communications transmitted through or stored on the Network at any time, without prior notice.
+
+### 3. DISCLAIMER OF LIABILITY
+This Network is provided on an **“AS IS” and “AS AVAILABLE”** basis without warranties of any kind. The Network Provider assumes no liability for:
+* Any loss of data, unauthorized access to user devices, or corruption of files resulting from Network use.
+* Any third-party software, content, or services accessed through the Network.
+
+### 4. ENFORCEMENT AND REMEDIES
+Failure to comply with these terms constitutes a material breach. The Network Provider reserves the right to immediately suspend or permanently revoke access, terminate connections, and, where appropriate, pursue civil remedies, internal disciplinary actions, or refer violations to law enforcement agencies.
+
+***
+
+**BY CLICKING "ACCEPT," ENTERING CREDENTIALS, OR REMAINING CONNECTED TO THIS NETWORK, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS NOTICE.**

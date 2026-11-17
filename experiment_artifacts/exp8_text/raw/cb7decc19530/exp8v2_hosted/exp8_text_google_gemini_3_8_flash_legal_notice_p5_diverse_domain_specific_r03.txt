@@ -1,0 +1,25 @@
+### NOTICE OF CONDITIONAL NETWORK ACCESS AND TELECOMMUNICATIONS MONITORING
+
+**APPLICABILITY:** This policy governs all transient and statically assigned endpoints interfacing with the shared local area network, upstream transit links, and associated wireless distribution systems (the “Network”). Physical or wireless link establishment constitutes irrevocable acceptance of these terms.
+
+---
+
+### 1. NO EXPECTATION OF PRIVACY
+Transit across this infrastructure is neither confidential nor privileged. The Network Operator maintains active telemetry, including but not limited to NetFlow/IPFIX collection, DNS query logging, stateful firewall inspection, and deep packet inspection (DPI) for protocol compliance and threat mitigation. By asserting a DHCP lease or establishing an associated Layer-2 state, you consent to the continuous capture and retention of transport layer metadata, destination endpoints, and cleartext payloads.
+
+### 2. RESTRICTED AND PROHIBITED TRAFFIC
+Endpoints must not compromise adjacent tenants or degrade global availability. Prohibited conduct includes, without limitation:
+* **Topology Subversion:** Operation of rogue DHCP/BOOTP services, unauthorized routing advertisements (OSPF, BGP, RIP), Spanning Tree manipulation, ARP poisoning, or MAC/IP address spoofing.
+* **Reconnaissance & Interception:** Promiscuous mode capture, port sweeps, host mapping, credential harvesting, or fuzzing directed at gateway infrastructure, control planes, or co-located client subnets.
+* **Egress Saturation & Abuse:** Asymmetric upstream exhaustion, unsolicited high-volume UDP bursts, transmission of malicious payloads (C2 traffic, known exploit vectors), or hosting peer-to-peer overlays that evade established Quality of Service (QoS) rate limits.
+
+### 3. ENFORCEMENT AND REMEDIES
+The Network Operator reserves the unilateral right to enforce policy compliance via automated or administrative countermeasures without prior notification. Sanctions include:
+1. Dynamic port isolation or VLAN reassignment to a quarantine environment;
+2. Algorithmic rate-limiting or selective layer-4 session drops;
+3. Immediate de-authentication and permanent MAC/RADIUS revocation.
+
+Violations causing infrastructure damage, upstream carrier penalties, or service interruptions to neighboring endpoints will be referred to external law enforcement under applicable statutory frameworks (including, where relevant, 18 U.S.C. § 1030).
+
+### 4. AS-IS PROVISIONING
+Access is provisioned on a strictly "as-is" and "as-available" basis. The Operator disclaims all warranties—express, statutory, or implied—including non-infringement, MTBF guarantees, and fitness for continuous transmission. The Operator bears no liability for data corruption, packet loss, or host compromise resulting from co-tenant traffic.

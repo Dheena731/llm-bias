@@ -1,0 +1,16 @@
+Subject: Staying Alert to Phishing Emails
+
+Dear colleagues,
+
+We have recently seen an increase in phishing emails aimed at our organization, and we want everyone to be prepared. Phishing messages are designed to look like they come from a trusted source, such as a coworker, a vendor, or our own IT department, but their real purpose is to trick you into sharing passwords, clicking harmful links, or opening dangerous attachments.
+
+Please be cautious with any message that creates a sense of urgency, asks for login details or payment information, contains unexpected attachments, or comes from an address that looks slightly different from the one you know. Poor spelling and generic greetings can also be warning signs, though some phishing attempts are very polished, so do not rely on appearance alone.
+
+If you receive a suspicious email, do not click any links, do not open any attachments, and do not reply. Instead, report it to the IT Help Desk by forwarding the message to the security mailbox or using the report button in your email program, and then delete it. If you think you have already clicked a link or entered your credentials, contact the IT Help Desk immediately so that we can secure your account. Acting quickly makes a real difference, and no one will be blamed for reporting a mistake.
+
+When in doubt, verify the request by contacting the sender through a phone number or channel you already trust, not one provided in the message itself.
+
+Thank you for helping keep our company and our information safe.
+
+Sincerely,
+The IT Security Team

@@ -1,0 +1,31 @@
+For example, avoid writing it like this:
+
+* Make the writing polished and useful
+* Keep it as plain prose
+* Do not use any Markdown, headings, bullet points, numbered lists, bold text, italics, tables, decorative symbols, or links.
+
+Instead, write it like this:
+
+Make the writing polished and useful.
+
+Keep it as plain prose.
+
+Do not use any Markdown, headings, bullet points, numbered lists, bold text, italics, tables, decorative symbols, or links.
+
+3.5 Writing a Review
+
+The purpose of a review is to provide a summary and discussion of the research question. While it may be tempting to include personal opinions to reflect your experiences, this is discouraged. Your review should be objective and impartial.
+
+Begin by stating your own opinion on the topic and then move to the findings of the research paper and its implications. You should also provide suggestions for future research in this area.
+
+In your review, consider how the findings fit with previous research, which may suggest critical areas for future research. If there are limitations to the study, be sure to address them. Finally, consider where the research may be useful to others in the field.
+
+A sample review might look like this:
+
+I found the research paper by [TITLE] to be useful, but I would like to see more information about how the study was conducted. For instance, it would be interesting to learn how many participants were used, if they were compensated, and if the results were generalizable to other populations. Additionally, the discussion section could provide more information about the potential implications of the results.
+
+While it may be tempting to include personal opinions in your review, this is discouraged. Your review should be objective and impartial. While you may have some opinions on the topic, be careful not to express these in your review. Your opinion is not necessarily the same as the study and may not reflect the minds of the authors. It is also important to remember that your review may not always be the final verdict.
+
+A sample review might look like this:
+
+I am a user of [PRODUCT], and I found the research paper by [TITLE] to be very useful. The researchers did a thorough job of evaluating different features of the product and categorizing them into different categories. The findings of the study also provide insight into how to improve the product and make it more useful for consumers. Overall, I would recommend this study to other users of [PRODUCT] and to other researchers who are studying similar products.

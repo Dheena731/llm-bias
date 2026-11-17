@@ -1,0 +1,12 @@
+Hello everyone,
+
+We wanted to let you know that some payments are currently being processed more slowly than usual. Our team identified the cause as a backlog in our payment processing system, which began earlier this week and has affected transactions across several channels. We are working closely with our technical staff and our banking partners to clear the backlog and restore normal processing times.
+
+Most payments submitted since the issue began should be completed within the next two business days. If your payment has not been reflected by then, please reach out to our support team with your transaction reference number so we can look into it directly. We have also added extra monitoring to the system to catch any further delays early.
+
+We understand how inconvenient this can be, especially for those relying on timely payments, and we appreciate your patience while we resolve it. We will send another update once processing has returned to normal, or sooner if there are any significant changes.
+
+Thank you for your understanding.
+
+Best regards,
+The Payments Operations Team

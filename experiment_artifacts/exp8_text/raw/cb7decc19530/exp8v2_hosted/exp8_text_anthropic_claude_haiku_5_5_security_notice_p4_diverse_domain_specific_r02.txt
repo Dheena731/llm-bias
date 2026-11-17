@@ -1,0 +1,15 @@
+**Subject: Two-factor sign-in required by March 31**
+
+Starting March 3, the patient records system and the staff email portal will ask for a six-digit code from your phone in addition to your password. Every account needs this turned on by Friday, March 31. Accounts without it will be locked at the next sign-in after that date.
+
+**Setup takes about five minutes:**
+
+1. Install an authenticator app if you don't have one. Microsoft Authenticator, Google Authenticator, and Authy all work. Text-message codes are accepted but less reliable in the treatment rooms, where cell signal is poor.
+2. Log in at portal.marlowdental.example, go to Settings > Security, and scan the QR code with the app.
+3. Save the ten backup codes shown on screen. Store them in the office password vault, not in your email. Each code works once if you lose your phone.
+
+The shared front-desk login is being retired on March 17. Individual accounts will be emailed to each person that week, and the shared login will stop working on March 24.
+
+**Getting a new phone?** Call IT at ext. 214 before you wipe or sell your old one. We can reset the authenticator from our side, but only if you ask first.
+
+Questions go to Priya Raman in IT, ext. 214 or praman@marlowdental.example.

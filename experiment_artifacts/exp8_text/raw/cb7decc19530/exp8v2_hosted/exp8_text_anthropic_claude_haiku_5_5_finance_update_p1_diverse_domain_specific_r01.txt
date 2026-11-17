@@ -1,0 +1,13 @@
+**Monthly spending summaries**
+
+Starting with January, you'll get a spending summary on the 2nd of each month covering the previous calendar month. It shows your total outflow, your five largest categories, and how each one changed from the month before. For example, if groceries went from $412 to $538, you'll see +$126 beside it.
+
+Recurring charges, like streaming services and gym memberships, are listed in their own section so they don't get lost among one-time purchases. Pending transactions on the last day of the month are shown separately, since banks often post them a day or two late and they would otherwise throw off the totals.
+
+A few things to know:
+
+- **Totals use posting dates, not transaction dates.** A purchase made on the 31st that posts on the 1st counts toward the next month. If your numbers look off by a few dollars near a month boundary, this is usually why.
+- **Transfers, credit card payments, and refunds are excluded from spending.** Card payments are left out because the purchases they cover are already counted. Refunds reduce the category they came from.
+- **Miscategorized transactions can be fixed.** Change the category on any transaction and the current month's summary updates that day. Past summaries don't change, but the next one's comparison will reflect the correction.
+
+You can turn the summary notification off under Settings → Notifications. Turning it off doesn't affect your data or your ability to view the summary in the app.

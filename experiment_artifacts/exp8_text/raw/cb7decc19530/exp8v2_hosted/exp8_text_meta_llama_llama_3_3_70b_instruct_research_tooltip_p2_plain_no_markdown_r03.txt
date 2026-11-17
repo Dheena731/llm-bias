@@ -1,0 +1,1 @@
+A confidence interval is a range of values within which we expect the true value to lie with a certain level of probability. In this chart, the interval represents the amount of uncertainty associated with the estimate, and gives an indication of how reliable the result is. A narrower interval suggests a more precise estimate, while a wider interval indicates more uncertainty.

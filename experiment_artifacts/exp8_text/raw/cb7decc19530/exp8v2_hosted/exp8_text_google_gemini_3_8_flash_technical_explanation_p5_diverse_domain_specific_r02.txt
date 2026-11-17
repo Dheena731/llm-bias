@@ -1,0 +1,5 @@
+An API rate limit is a hard cap on the number of HTTP requests a consumer can execute against a service within a defined time window. 
+
+Enforced at the reverse proxy or API gateway layer, limits are typically tracked per API key, OAuth token, or origin IP using algorithms such as token buckets or sliding-window counters. When an integration exceeds its threshold—for example, sustaining 120 calls per second on a 100 req/sec tier—the gateway drops the request before it hits upstream application servers, returning an `HTTP 429 Too Many Requests` response alongside telemetry headers like `Retry-After` and `X-RateLimit-Remaining`.
+
+Rather than merely managing billing tiers, rate limiting functions as infrastructure defense: it prevents distributed denial-of-service, bounds memory and connection-pool consumption on downstream databases, and isolates "noisy neighbors" whose unthrottled worker processes or tight retry loops would otherwise trigger cascading systemic latency.

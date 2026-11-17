@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter: Applies a selection criterion to the dataset, allowing you to narrow the results to a specific subset of data based on a chosen attribute."

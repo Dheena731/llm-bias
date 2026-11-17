@@ -20,7 +20,7 @@
 
 \begin{document}
 
-\title{Presentation Priors in Generative Models: A Computational Audit of Surface-Form Defaults}
+\title[Presentation Priors in Language Models]{Presentation Priors in Language Models: Default Formatting, Instruction Spillover, and Their Emergence in Post-Training}
 
 \author{Anonymous Authors}
 \affiliation{%
@@ -29,307 +29,246 @@
 }
 
 \begin{abstract}
-Generative models do more than answer prompts: when users leave presentation underspecified, models also choose surface forms such as emoji, Markdown, headings, bullets, color suggestions, layout conventions, and polished stock phrasing. We call these tendencies \emph{presentation priors}. This journal synthesis reports five connected studies. Three corrected text studies provide the empirical backbone: topic-conditioned emoji defaults, a negative result for broad purple/pink color-suggestion bias, and measured surface-form compliance under multiple constraints. A new Experiment 8 adds a route-labeled text probe across four current OpenRouter instruction/chat routes, twelve prompt families, five intervention conditions, and two repeats per cell. In that first-pass matrix, all 480 expected outputs were collected cleanly. Neutral prompts produced format defaults in 80.2\% of outputs and Markdown in 78.1\%; plain-no-Markdown prompts reduced both to 2.1\%, and all explicit no-emoji or plain-output conditions reduced emoji to 0.0\%. A bounded Experiment 7 extension shows that related feature extractors can be applied to generated UI code and images, but those cross-modal claims remain checkpoint evidence until balanced baselines are added. Across studies, the central finding is not that models prefer a single trope. Rather, presentation priors are measurable, conditioned by topic and model, reported under route labels in Experiment 8, and partly suppressible. We argue that these priors should be evaluated separately from semantic instruction following and reported with explicit provenance, baseline, and construct-validity boundaries.
+When a prompt leaves presentation unspecified, a language model still has to choose it: whether to use emoji, Markdown, lists, or a particular color. We call the resulting regularities \emph{presentation priors} and measure them in five studies. Emoji defaults are topic-conditioned: without instructions, 94--98\% of social-media outputs from each of three models contain emoji, while legal and technical outputs contain none. In unrestricted color suggestions, three models converge on a few conventional blues. A controlled probe of six models, including three frontier models, across 60 prompts and eight conditions finds Markdown in 46--100\% of neutral outputs; an enumerated plain-prose instruction reduces it to at most 4.4\%, and it works the same whether placed in the system or the user prompt. An instruction-matched placebo that names no presentation feature removes emoji in all four models that use emoji and removes most Markdown in three models, so intervention effects mix what an instruction says with the effect of adding an instruction. Finally, across the openly released training stages of one 1B model, Markdown rises from 13\% of outputs after supervised fine-tuning to 50\% after preference optimization, with a five-fold increase in Markdown density; the ability to suppress Markdown on request appears at the same stage. We report prompt-clustered uncertainty, model-route censoring, and detector limits.
 \end{abstract}
 
-\keywords{generative models, instruction following, output format bias, presentation priors, aesthetic anchoring, model evaluation}
+\keywords{language models, instruction following, output format bias, presentation priors, homogenization, model evaluation}
 
 \maketitle
 
 \section{Introduction}
 
-Short natural-language prompts now generate messages, interface screens, CSS snippets, compliance notices, product copy, and visual assets. These prompts rarely specify every presentation choice. A request for a launch note may omit whether the answer should use emoji, bullets, headings, or enthusiastic phrasing. A request for a user interface may omit color, spacing, cards, shadows, or layout structure. In those gaps, generative systems fill in defaults.
+Short prompts now produce messages, notices, and product copy that people paste directly into other systems. Such prompts rarely say how the output should look. A request for a launch note does not say whether to use emoji, headings, bullet points, or exclamation marks; a request for a brand palette does not say which hue to start from. The model fills these gaps, and what it fills them with is a property of the model rather than of the request.
 
-This paper studies those defaults as an evaluation target. We use \emph{presentation priors} for measurable surface-form tendencies that appear under underspecified prompts. We use \emph{aesthetic anchoring} as shorthand for one observable pattern: a default activates under a topic or route context, and explicit interventions then trace an override curve. The phenomenon is not necessarily harmful. It is also not always an instruction-following failure. A Markdown response may be useful; a blue interface may be appropriate; polished phrasing may improve readability. The evaluation problem is that these choices are often made silently by the system and unevenly suppressed by user instructions.
+This article treats those choices as an evaluation target. We use \emph{presentation priors} for measurable surface-form regularities that appear when a prompt leaves presentation open, and we measure them together with the interventions that suppress them. Presentation priors are not necessarily failures. A Markdown list can be the most useful answer, and a provider may document a formatting default on purpose. Our interest is in what the model chooses when nobody asked, how strongly that choice depends on topic and model, and how it responds to instructions.
 
-This manuscript combines three corrected text studies, a route-labeled text probe, and a bounded cross-modal extension. The journal identity is deliberately broader than a security/compliance framing and narrower than a general claim about generated aesthetics. It treats surface-form choices as measurable model behavior while preserving provenance and baseline limits.
+Three results go beyond the expected finding that explicit formatting instructions are usually obeyed. The first is \emph{instruction spillover}. Interventions change features they do not mention: an instruction-matched placebo that forbids no presentation feature removes emoji from every model that uses emoji, and an emoji-only prohibition removes most Markdown. Condition-versus-neutral contrasts therefore conflate a content-specific effect with a generic effect of adding an instruction. The second is \emph{where the Markdown default emerges}. Across the released training stages of one open model, the default appears at the preference-optimization step, together with the ability to switch it off. The third is \emph{palette convergence}: in an unrestricted color-suggestion task, three models concentrate on a small set of blue primaries, several of which are the primary colors of widely used design systems.
 
-We make four contributions:
+We make five contributions:
 \begin{itemize}
-  \item We define presentation priors as a measurable class of surface-form defaults, separate from semantic correctness, safety policy compliance, and subjective design quality.
-  \item We synthesize corrected evidence from three older text studies: topic-conditioned emoji activation, a negative result for broad purple/pink color-suggestion bias, and measured surface-form compliance.
-  \item We add a reproducible Experiment 8 route-labeled probe with 480 clean first-pass outputs, matrix-completeness artifacts, uncertainty intervals, planned contrasts, paired deltas, holdout summaries, length sensitivity, and missingness reporting.
-  \item We state the claim boundary for cross-modal and causal interpretation: current OpenRouter evidence supports route-labeled comparisons, not base-vs-instruct or RLHF causality; claims about cross-modal artifact similarity require stronger baselines.
+  \item We define presentation priors, the prior-plus-override curve, and instruction spillover as separate measurement targets, distinct from semantic instruction following.
+  \item We re-analyze three earlier text studies per model with prompt-clustered uncertainty, disclose where model-route failures censor the data, and replace an earlier color result with a palette-convergence analysis (Sections~\ref{sec:study1}--\ref{sec:study3}).
+  \item We run a controlled probe of six models across 60 prompts and eight conditions, including an instruction-matched placebo, a single-prohibition condition, and system-prompt placement (Section~\ref{sec:study4}).
+  \item We trace Markdown and emoji defaults across the base, supervised fine-tuning, preference-optimization, and final checkpoints of one open model (Section~\ref{sec:study5}).
+  \item We quantify instruction spillover and argue that intervention studies of model formatting need instruction-matched controls (Section~\ref{sec:spillover}).
 \end{itemize}
 
-\section{Definitions and Problem Formulation}
+Our claims are bounded. The training-stage evidence comes from a single 1B model family, and its base checkpoint is prompted without a chat template, so it shows where the default emerges in that family rather than a general mechanism. We report no human-perception data, and our detectors are transparent heuristics whose limits we document in Section~\ref{sec:validity}.
 
-\paragraph{Presentation prior.}
-A presentation prior is a measurable surface-form tendency that appears when a generative system completes an underspecified task. Examples include emoji in short social copy, Markdown headings in a plain answer, bullet lists in advisory text, stock-polish phrases, decorative symbols, color palettes in generated CSS, and recurring UI layout structures.
+\section{Definitions}
 
-\paragraph{Aesthetic anchoring.}
-Aesthetic anchoring is default activation plus an override curve. A prompt context activates a surface form; a sequence of interventions then measures how much explicit instruction is needed to suppress or redirect it. The strongest evidence for anchoring is not merely that a feature appears, but that appearance varies systematically by topic, model, and condition, with route labels reported as provenance metadata rather than causal stage evidence.
+\paragraph{Presentation prior.} A measurable surface-form regularity that appears when a model completes a task whose presentation is unspecified: for example, emoji in short social copy, Markdown in an advisory note, exclamation marks in an announcement, or a blue primary color in a palette. We call it a prior because it appears without being requested, not because it is unintended. Some priors are documented provider defaults; we measure them all the same way.
 
-\paragraph{Surface-form compliance.}
-Surface-form compliance is satisfaction of mechanically detectable presentation constraints such as ``no emoji,'' ``no Markdown,'' ``no bullet list,'' or ``under a word limit.'' It should not be collapsed with semantic instruction following, factuality, or reasoning success.
+\paragraph{Prior-plus-override curve.} The rate of a feature under a neutral prompt, followed by its rate under one or more interventions that suppress or redirect it.
 
-\paragraph{Route-stage label.}
-A route-stage label is observed provenance metadata about a model route, such as \path{instruct_candidate} or \path{chat_or_instruct}. In this paper, route labels are not treated as proof of training provenance. They are analysis labels attached to current API routes.
+\paragraph{Surface-form compliance.} Satisfaction of mechanically checkable presentation constraints such as ``no emoji'' or ``under 150 words''. We keep it separate from semantic instruction following, factuality, and task success.
 
-\paragraph{Prior-plus-override curve.}
-A prior-plus-override curve reports the feature rate under a neutral prompt and under one or more suppression or redirection conditions. For example, the curve may compare neutral, no-emoji, plain-no-Markdown, diverse-domain-specific, and polished-but-plain prompts.
+\paragraph{Instruction spillover.} A change in a feature that an intervention does not mention, such as a drop in Markdown after an emoji-only prohibition. A condition-versus-neutral contrast estimates the sum of the content-specific effect and the spillover; a control condition is needed to separate them.
 
 \section{Related Work}
+\label{sec:related}
 
-\paragraph{Instruction following and output format.}
-Instruction-following benchmarks such as IFEval and FollowBench evaluate whether language models satisfy explicit constraints \cite{zhou2023ifeval,jiang2024followbench}. Related output-format studies show that models can prefer or perform differently under particular formats \cite{long2025format}. Our work focuses on an adjacent but narrower question: what presentation choices appear when the prompt does not request them, and how do those choices respond to surface-form interventions?
+\paragraph{Format and style bias in alignment and evaluation.} Preference models and LLM judges reward particular presentation. Zhang et al.\ show that human raters, GPT-4, and reward models prefer lists, links, bold text, and emoji, and that models can exploit these preferences to rank higher on AlpacaEval and Chatbot Arena \cite{zhang2025lists}. Chatbot Arena \cite{chiang2024chatbot} now reports style-controlled rankings that treat length and Markdown as covariates \cite{li2024style}, and LLM judges favour style over substance \cite{feuer2025style} and longer answers \cite{zheng2023judging,saito2023verbosity}. Length is the best-studied case: much of the reward gain in RLHF can come from length alone \cite{singhal2024length}, length-controlled evaluation reduces judge bias \cite{dubois2024length}, and direct preference optimization exploits length in preference data \cite{park2024disentangling}. These works explain why presentation features may be rewarded during post-training \cite{ouyang2022training,rafailov2023direct}. We measure the resulting behavior at generation time, when the user specifies nothing, and how instructions move it.
 
-\paragraph{Multi-instruction behavior.}
-Prior work on multi-instruction compliance often studies semantic, reasoning, safety, and formatting constraints together. Our results suggest that surface-form constraints deserve separate measurement. Avoiding emoji or Markdown is a different problem from satisfying factual, audience, and reasoning constraints.
+\paragraph{Superficial alignment.} Alignment changes mostly stylistic behavior. LIMA reaches strong performance after fine-tuning on 1,000 curated examples, suggesting that alignment mainly teaches response style and format \cite{zhou2023lima}, and base and aligned models differ mostly on stylistic tokens \cite{lin2024unlocking}. RLHF also reduces output diversity relative to supervised fine-tuning \cite{kirk2024understanding}. Presentation priors are a measurable trace of this stylistic layer. Openly released stage-wise models such as T\"ulu 3 \cite{lambert2024tulu} and OLMo 2 \cite{olmo2025furious} make it possible to locate where a prior emerges; Study 5 uses the OLMo 2 checkpoints for this purpose.
 
-\paragraph{Human-feedback and polish incentives.}
-Human-feedback and preference optimization can reward outputs that appear helpful, warm, or polished \cite{ouyang2022training}. Our evidence is compatible with that possibility but does not establish it. Without verified base routes or controlled training-stage comparisons, we avoid causal claims about RLHF or post-training.
+\paragraph{Instruction following and format constraints.} IFEval \cite{zhou2023ifeval} and FollowBench \cite{jiang2024followbench} measure whether stated, verifiable constraints are satisfied, and accuracy falls as the number of simultaneous instructions grows \cite{harada2025instructions}. Format matters in other ways too: models are biased toward particular output formats \cite{long2025format}, format restrictions such as JSON degrade reasoning \cite{tam2024speak}, and meaning-preserving changes to prompt formatting shift accuracy substantially \cite{sclar2024quantifying}. Instruction hierarchies govern how system and user instructions interact \cite{wallace2024instruction}. These benchmarks score compliance with stated requirements. We also measure what appears when nothing is stated, and we show that interventions change features they do not mention, which compliance scores alone cannot reveal.
 
-\paragraph{Generative UI and image defaults.}
-Systems that generate UI code or images from prompts make many aesthetic decisions on behalf of users. Prior work on UI generation and image-generation bias motivates audits that go beyond task success \cite{wu2024uicoder,kong2026macaron,bianchi2022t2i,friedrich2024fairness}. Our cross-modal evidence is intentionally bounded: it demonstrates measurement feasibility and extractor calibration against small reference baselines, not a strong similarity result relative to human baselines.
+\paragraph{Model idiosyncrasies and LLM style.} Outputs of different LLMs are separable: a text-embedding classifier identifies which of five models wrote a text with 97\% accuracy \cite{sun2025idiosyncrasies}. Corpus-level studies track LLM style through word-frequency shifts in peer reviews \cite{liang2024monitoring} and biomedical abstracts \cite{kobak2025delving}. Our features are coarser and fully transparent, and we study them as defaults under controlled prompts rather than as identifiers.
 
-\section{Study Overview and Common Method}
+\paragraph{Homogenization.} Writing with an instruction-tuned model reduces content diversity across authors \cite{padmakumar2024writing}, AI-assisted stories are more similar to each other \cite{doshi2024generative}, and ChatGPT users produce less distinct ideas \cite{anderson2024homogenization}. More broadly, shared models can homogenize outcomes \cite{bommasani2022picking}. Text-diversity metrics such as distinct-$n$ \cite{li2016diversity} measure lexical variety. The palette convergence in Study 2 is a presentation-level instance of homogenization.
 
-Table~\ref{tab:study-map} maps repository experiments to the journal studies. The first three studies are corrected text evidence. Study 4 is the new route-labeled probe. Study 5 is a bounded cross-modal extension.
+\paragraph{Generative interfaces and images.} Models increasingly generate UI code and interface actions \cite{wu2024uicoder,kong2026macaron}, and text-to-image work documents representational bias \cite{bianchi2022t2i,friedrich2024fairness}. Corpora of human-designed interfaces \cite{deka2017rico,wu2023webui} could supply the reference distributions that studies of cross-modal defaults need. We leave cross-modal analysis to companion work.
+
+\section{Relation to Earlier Versions}
+\label{sec:prior-versions}
+
+Studies 1--3 use datasets that the authors reported in earlier manuscripts (anonymized for review; details provided to the editors). Those manuscripts pooled results across models and framed them as instruction-following or security findings. Table~\ref{tab:delta} lists what is new here. Studies 4 and 5 are entirely new; Study 4 replaces a smaller first-pass probe (480 outputs, four routes, one prompt per family) whose tables appear in Appendix~\ref{app:pilot}. The cross-modal UI and image analyses of earlier versions are not part of this article.
 
 \begin{table}[t]
 \centering
-\caption{Journal study map and claim boundaries.}
-\label{tab:study-map}
-\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.13\linewidth}>{\raggedright\arraybackslash}p{0.26\linewidth}>{\raggedright\arraybackslash}X}
+\caption{What this article adds to the earlier versions of each study.}
+\label{tab:delta}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}X}
 \toprule
-Study & Source & Boundary \\
+Study & Status in earlier versions & New in this article \\
 \midrule
-Study 1 & Exp1 emoji persistence & Topic-conditioned default activation and suppression, not permanent noncompliance. \\
-Study 2 & Exp2 color/gradient suggestions & Text color-suggestion tasks do not support a broad purple/pink claim. \\
-Study 3 & Exp4 multi-constraint formatting & Surface-form compliance evidence; not a contradiction of semantic benchmarks. \\
-Study 4 & Exp8 route-labeled text probe & Current OpenRouter matrix supports route-labeled comparison, not post-training causality. \\
-Study 5 & Exp7 cross-modal defaults & Checkpoint extension with small reference baselines; stronger claims need repeated cells and balanced UI/image baselines. \\
+1: Emoji defaults & Pooled compliance by instruction level & Per-model curves with prompt-clustered intervals; censoring analysis; detector sensitivity; genre caveat \\
+2: Color suggestions & Pooled purple and gradient counts & Restricted to the unrestricted variant; palette-convergence analysis; gradient claim withdrawn as a compliance measure \\
+3: Multiple constraints & Pooled violation counts & Per-model table; coverage disclosure; surface-versus-semantic claim withdrawn \\
+4: Controlled probe & First-pass pilot only & Entire study: 60 prompts, six models, placebo and system-prompt conditions \\
+5: Training stages & Not reported & Entire study \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-Table~\ref{tab:study-scale} reports the current row accounting for the corrected text backbone and the two extension studies. The text backbone excludes the Qwen pilot and GLM-only reruns that are not comparable to the main repeated-run design.
+\section{Data and Common Method}
+\label{sec:method}
+
+Table~\ref{tab:data} summarizes the collections. In the artifact, Studies 1--3 are Experiments 1, 2, and 4; Studies 4 and 5 are the hosted and local parts of Experiment 8 v2, and the pilot is Experiment 8 v1; the remaining experiment numbers belong to unrelated studies. Hosted models were queried through API routes at fixed sampling settings; only the system-prompt condition of Study 4 uses a system prompt. Route identifiers are recorded in the artifact. The GPT-3.5-Turbo route was queried in early 2026 under the identifier \texttt{gpt-3.5-turbo-0613}; we could not verify which upstream snapshot served it.
 
 \begin{table}[t]
 \centering
-\caption{Current study scale and comparability notes.}
-\label{tab:study-scale}
-\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.28\linewidth}rr>{\raggedright\arraybackslash}X}
+\caption{Collections analyzed. Temperature was fixed within each collection. ``Clean'' excludes API failures.}
+\label{tab:data}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.12\linewidth}>{\raggedright\arraybackslash}p{0.28\linewidth}>{\raggedright\arraybackslash}X r r}
 \toprule
-Study & Total rows & Clean rows & Notes \\
+Study & Models (collection month) & Design & Clean / total & Temp. \\
 \midrule
-Study 1: emoji persistence & 10,800 & 9,658 & Gemini, GPT-3.5, GLM; 1,142 error rows excluded and reported separately. \\
-Study 2: color/gradient suggestions & 1,350 & 1,350 & Gemini, GPT-3.5, MiMo; two source CSVs combined. \\
-Study 3: multi-constraint formatting & 3,600 & 2,504 & Canonical measured-only file; GLM-only reruns excluded. \\
-Study 4: Exp8 route-labeled probe & 480 & 480 & First-pass 2-repeat OpenRouter matrix; 0 missing expected rows. \\
-Study 5: Exp7 cross-modal extension & 698 & 698 & Checkpoint text/UI/image artifacts; image rows include recovered PNG metadata limits. \\
+1 & Gemini 2.5 Flash, GPT-3.5-Turbo, GLM-4.5 Air (Feb 2026) & 6 topics $\times$ 4 prompts $\times$ 5 instruction levels $\times$ 30 runs & 9,658 / 10,800 & 0.7 \\
+2 & Gemini 2.5 Flash, GPT-3.5-Turbo, MiMo v2 Flash (Mar--Apr 2026) & 5 company types $\times$ 3 variants $\times$ 30 runs; 450 unrestricted rows analyzed & 1,350 / 1,350 & 0.7 \\
+3 & Gemini 2.5 Flash, GPT-3.5-Turbo, GLM-4.5 Air (Mar 2026) & 5 topics $\times$ 8 constraint sets $\times$ 30 runs & 2,504 / 3,600 & 0.7 \\
+4 & Claude Sonnet 5.5, Claude Haiku 5.5, Gemini 3.8 Flash, Qwen 3.6 Flash, Llama 3.3 70B and 3.1 8B Instruct (Nov 2026) & 12 families $\times$ 5 prompts $\times$ 8 conditions $\times$ 3 repeats, randomized order & 8,640 / 8,640 & 0.8 \\
+5 & OLMo 2 1B: base, SFT, DPO, instruct checkpoints, run locally (Nov 2026) & 60 prompts $\times$ 7 conditions $\times$ 1 run & 1,680 / 1,680 & 0.8 \\
+Pilot & Llama 3.3 70B, Llama 3.1 8B, Qwen 2.5 7B (Instruct), Qwen 3.6 Flash (Jun 2026) & 12 prompt families $\times$ 5 conditions $\times$ 2 repeats & 480 / 480 & 0.8 \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-\paragraph{Experiment 8 design.}
-Experiment 8 crosses four OpenRouter routes, twelve prompt families, five intervention conditions, and two repeats per cell in the first pass. The conditions are neutral, no-emoji, plain-no-Markdown, diverse-domain-specific, and polished-but-plain. Rows are deduplicated by config hash, run ID, and artifact ID, preserving independent run IDs. Analysis is performed on exact input CSVs, not on a glob of all historical Exp8 files, to avoid mixing smoke, partial, and first-pass runs.
+\paragraph{Detectors.} Features are computed from output text with transparent rules: emoji and decorative symbols by Unicode ranges; Markdown by headings, list markers, emphasis, inline code, and links; polish by exclamation marks or a ten-word stock-phrase lexicon; and colors by hexadecimal codes converted to HSL. The \texttt{format\_default} composite fires on emoji, Markdown, or decorative symbols. Section~\ref{sec:validity} documents known weaknesses of each detector.
 
-\paragraph{Feature extraction.}
-Text studies use transparent detectors for emoji, Markdown markers, headings, bullet lines, numbered lines, decorative symbols, stock phrases, exclamation marks, and word count. Experiment 8 derives two composite indicators. \texttt{format\_default} fires when an output contains emoji, Markdown, or decorative symbols. \texttt{polish\_default} fires when an output contains stock phrases, exclamation marks, or length above the neutral prompt-family median.
+\paragraph{Uncertainty.} Repeated samples of the same prompt are not independent, so we never treat outputs as the unit of inference. For Studies 1--3 we report intervals from a prompt-cluster bootstrap (2,000 resamples of whole prompts). For Studies 4 and 5, inferential statements use paired differences between conditions (or stages) computed within each of the 60 prompts, with repeats averaged within prompt, a sign-flip test over prompts, and prompt-cluster bootstrap intervals. Models are treated as fixed, so results describe these models and do not generalize to a population of models.
 
-\paragraph{Statistical reporting.}
-The journal package reports Wilson intervals for binary feature rates, bootstrap intervals for numeric means and paired deltas, Benjamini-Hochberg FDR correction for planned binary contrasts, prompt-family holdout summaries, length-exclusion sensitivity, and missingness/completeness artifacts. For the current first pass, FDR contrasts are treated as screening evidence because pooled condition-vs-neutral tests do not fully model route heterogeneity or pairing.
+\paragraph{Missing data.} Studies 1 and 3 include a free GLM route that failed with rate-limit and connection errors. Failures are not random with respect to condition, because collection ran in blocks by condition. We therefore report every result per model and state which cells are censored. In Study 4, Qwen 3.6 Flash returned an empty response for 181 tasks because hidden reasoning consumed the 1,500-token budget; the empty responses concentrated in the placebo (83) and diversity (56) conditions. One retry at the same budget recovered 94 of them, and the remaining 87 were retried at 6,000 tokens, so Study 4 has no missing outputs.
 
 \section{Study 1: Topic-Conditioned Emoji Defaults}
+\label{sec:study1}
 
-Study 1 evaluates emoji defaults across topic families and suppression intensities. The corrected main dataset contains 9,658 clean responses after excluding 1,142 error rows. Baseline behavior is sharply topic-conditioned. Social-media prompts trigger emoji in 96.1\% of clean baseline responses, while legal and technical prompts are fully compliant even without explicit suppression. Marketing prompts sit between those extremes, and recipe, academic, legal, and technical prompts are much less likely to activate emoji.
+Study 1 asks models to write on six topic families under five instruction levels, from no instruction (L0) through a polite request (L1) to emphatic and contextual prohibitions (L3--L4). Table~\ref{tab:study1-model-level} reports the emoji-free rate per model.
 
-The excluded error rows are concentrated in one model route rather than evenly distributed. GLM-4.5 Air has 1,142 error rows out of 3,600 attempted rows, while GPT-3.5-Turbo and Gemini 2.5 Flash have no error rows in the same design. Within GLM, the errors are especially concentrated in stronger instruction levels for several topic families. We therefore report clean-response compliance as output behavior conditional on successful generation, not as an availability or reliability claim about all attempted calls.
+\input{../analysis_output/tist_revision/table_study1_model_level.tex}
 
-\begin{table}[t]
+Without instructions, emoji use is sharply topic-conditioned in every model. Social-media prompts produce emoji in 97.5\% (Gemini), 96.7\% (GPT-3.5), and 94.2\% (GLM) of outputs, while legal and technical prompts produce none in any model. Three of the four social-media prompts name genres in which emoji are conventional (an Instagram caption, a tweet thread, and a LinkedIn post), so the social-media rate measures adherence to genre convention as much as an unprompted preference. The prompt-cluster intervals at L0 are wide (for example, 65.8--95.0\% emoji-free for Gemini) because emoji use varies strongly across prompts within a topic.
+
+The override is a step, not a curve. Gemini and GPT-3.5 are emoji-free in all 720 outputs at every level from L1 onward. GLM is 96.1\% emoji-free at L1 and 99.1\% at L2; all 27 non-compliant L1 outputs are marketing or social-media outputs. Stronger levels cannot be assessed for GLM: its free route failed with HTTP 429 rate-limit errors on all 720 L4 attempts and on 365 of 720 L3 attempts, leaving no L3 data for the marketing, recipe, or social-media topics. The earlier versions' pooled ``100\% at L3--L4'' result therefore reflects a change in model mix, and we no longer report it.
+
+Detector sensitivity: 14 of the 523 non-compliant outputs (all GLM, at L1 or L2) contain only check marks or geometric symbols that the emoji pattern matches but that are not pictographic emoji. Reclassifying them does not change any conclusion.
+
+\section{Study 2: Palette Convergence in Color Suggestions}
+\label{sec:study2}
+
+Study 2 asks for a primary, secondary, and accent color for five company types. Two of its three variants explicitly forbid purple, pink, and gradients, so they measure compliance rather than defaults. We analyze only the 450 unrestricted responses, in which the prompt requests three hexadecimal colors and nothing else (Table~\ref{tab:study2-palette}, Figure~\ref{fig:study2-palette}).
+
+\input{../analysis_output/tist_revision/table_study2_palette.tex}
+
+\begin{figure}[t]
 \centering
-\caption{Study 1 error rows by model.}
-\label{tab:exp1-errors}
-\begin{tabular}{lrrr}
-\toprule
-Model & Attempted rows & Error rows & Error rate \\
-\midrule
-GLM-4.5 Air & 3,600 & 1,142 & 31.7\% \\
-GPT-3.5-Turbo & 3,600 & 0 & 0.0\% \\
-Gemini 2.5 Flash & 3,600 & 0 & 0.0\% \\
-\bottomrule
-\end{tabular}
-\end{table}
+\includegraphics[width=\linewidth]{../analysis_output/tist_revision/figures/study2_primary_colors.png}
+\caption{The eight most frequent primary colors per model in the unrestricted variant of Study 2 (150 responses per model). Bars are drawn in the color they count.}
+\label{fig:study2-palette}
+\end{figure}
 
-The override curve is also sharp. A single polite no-emoji instruction increases overall compliance from 77.3\% to 98.7\%. Stronger instructions add relatively little after that first suppression signal. This is important for the theory: the strongest result is not that models cannot follow no-emoji instructions. The stronger result is that topic defaults activate before suppression is requested, and that the first explicit suppression instruction carries most of the effect.
+The primaries converge. Saturated blue is the primary in 133 of 150 GPT-3.5 responses, 102 of 150 MiMo responses, and 85 of 150 Gemini responses. The most common Gemini primary, \texttt{\#2C3E50}, is a dark desaturated slate that our saturation threshold excludes, so Gemini's blue share is a conservative count. Each model uses only 24--34 distinct primaries across 150 responses and five unrelated sectors, and its three most frequent primaries account for 43--65\% of its responses. Several of the most frequent values are the primary colors of widely used design systems: \texttt{\#007BFF} is Bootstrap's primary blue, \texttt{\#1A73E8} is Google's product blue, and \texttt{\#2563EB} is Tailwind's \texttt{blue-600}. Purple or pink appears in 1 of the 450 unrestricted responses.
 
-\begin{table}[t]
+We draw two conclusions. The data do not support a broad preference for purple in this task. The stronger finding is convergence: the models largely reproduce a few conventional blues, so they may be echoing common human design-system defaults rather than inventing new ones. Without a reference distribution of human-designed palettes we cannot say whether the models are more concentrated than designers are; Section~\ref{sec:validity} discusses this baseline. Earlier versions also reported gradient use. The unrestricted variant's template cannot express a gradient, and the only CSS variant explicitly forbids gradients, so the two CSS gradients we observe (both from MiMo, in that variant) are compliance failures and say nothing about a gradient default.
+
+\section{Study 3: Surface Constraints Stated Together}
+\label{sec:study3}
+
+Study 3 adds surface constraints cumulatively (no emoji, no bullets, no headers, no bold or italic, and a word limit) across five expository topics. Table~\ref{tab:study3-model} reports violations per model.
+
+\input{../analysis_output/tist_revision/table_study3_model.tex}
+
+Violations are rare: 3 bold or italic violations in 750 active Gemini rows, and 11 (Gemini) and 3 (GPT-3.5) word-limit violations in 300 active rows each. Three caveats limit the interpretation. First, GLM contributes only 104 rows after connection errors and none in progressive conditions 4--7, so the study is effectively a two-model study. Second, the no-emoji constraint is active in every condition and there is no unconstrained arm; Study 1 shows that expository topics rarely produce emoji anyway, so perfect emoji compliance here cannot be told apart from the feature never appearing. Third, constraints are added in a fixed order, so the number of constraints is confounded with which constraints are active. Study 3 therefore shows only that these surface constraints are easy to satisfy when stated. Earlier versions also contrasted surface and semantic constraints; Study 3 contains no semantic constraints, so we withdraw that claim.
+
+\section{Study 4: A Controlled Probe of Six Models}
+\label{sec:study4}
+
+Study 4 crosses six models, twelve prompt families with five prompts each, and eight conditions, with three repeats per cell and a randomized execution order. Besides the neutral prompt, the conditions append ``Do not use emoji.'' (no-emoji), ``Do not use Markdown formatting.'' (no-Markdown), an enumerated plain-prose instruction (plain), an instruction-matched placebo, a request for domain-specific, non-generic writing (diverse), and a request for polished writing in plain prose; a final condition moves the plain instruction from the user prompt to the system prompt. The placebo matches the plain instruction in length and imperative form but forbids only non-presentational failures: ``Write carefully. Do not leave out the main point, invent facts, contradict yourself, use placeholder text, introduce undefined jargon, or address the wrong audience.'' Table~\ref{tab:v2-routes} reports the main contrasts.
+
+\input{../analysis_output/exp8_v2/table_v2_routes.tex}
+
+Markdown is the dominant prior. Neutral outputs contain it in 100\% (Claude Sonnet 5.5), 97.8\% (Gemini 3.8 Flash), 87.2\% (Qwen 3.6 Flash), 78.3\% (Claude Haiku 5.5), 73.3\% (Llama 3.1 8B), and 46.1\% (Llama 3.3 70B) of cases. Emoji is a minority prior concentrated in four models: 46.1\% (Qwen), 31.7\% (Gemini), 21.7\% (Sonnet), and 8.9\% (Haiku); neither Llama model produces emoji under any condition.
+
+Stated requirements are obeyed when they are enumerated. The plain instruction leaves Markdown in at most 4.4\% of outputs (Llama 3.1 8B; 0\% for the other five models), and moving it into the system prompt changes nothing: the system-versus-user difference is at most 0.6 percentage points for every model. A bare ``Do not use Markdown formatting'' works less well, leaving Markdown in 38.3\% (Sonnet), 33.9\% (Llama 3.1 8B), and 14.4\% (Haiku) of outputs. Part of this residue reflects a definitional gap: our detector counts numbered and bulleted lines as Markdown, while a model may read ``Markdown formatting'' as headings and emphasis only.
+
+The diverse condition lowers emoji in every model that uses emoji (by 8.9 to 43.3 points) and lowers Markdown for Gemini ($-15.0$) and Qwen ($-28.3$), but not for the Claude or Llama models. Like the placebo results below, this is consistent with a generic effect of adding an instruction.
+
+\section{Study 5: Where the Markdown Default Emerges}
+\label{sec:study5}
+
+Study 5 runs the same 60 prompts and seven conditions (all except system placement) on the four released checkpoints of OLMo 2 1B: the pretrained base model, the supervised fine-tuned (SFT) model, the preference-optimized (DPO) model, and the final instruct model trained further with reinforcement learning on verifiable rewards \cite{olmo2025furious,lambert2024tulu}. The three post-trained checkpoints receive the prompt through their chat template; the base checkpoint has no chat template, so it receives the bare instruction and continues the text. Each prompt and condition is generated once per checkpoint on local hardware. Table~\ref{tab:v2-stages} and Figure~\ref{fig:olmo-stages} report the results.
+
+\input{../analysis_output/exp8_v2/table_v2_stages.tex}
+
+\begin{figure}[t]
 \centering
-\caption{Study 1 emoji compliance by instruction intensity.}
-\label{tab:emoji-intensity}
-\begin{tabular}{lrrr}
-\toprule
-Instruction level & Clean rows & Compliant rows & Compliance \\
-\midrule
-L0 baseline & 2,158 & 1,668 & 77.3\% \\
-L1 polite request & 2,141 & 2,114 & 98.7\% \\
-L2 explicit prohibition & 2,124 & 2,118 & 99.7\% \\
-L3 emphatic command & 1,795 & 1,795 & 100.0\% \\
-L4 contextual pressure & 1,440 & 1,440 & 100.0\% \\
-\bottomrule
-\end{tabular}
-\end{table}
+\includegraphics[width=0.6\linewidth]{../analysis_output/exp8_v2/olmo_stage_trend.png}
+\caption{Neutral-condition feature rates across the OLMo 2 1B training stages (60 outputs per stage).}
+\label{fig:olmo-stages}
+\end{figure}
 
-Model differences remain descriptive rather than causal. GLM-4.5 Air has the highest non-compliance rate in the comparable Study 1 data, at 10.7\%, compared with 3.7\% for Gemini 2.5 Flash and 3.6\% for GPT-3.5-Turbo. This supports model-conditioned reporting but does not identify a training-pipeline mechanism.
+The Markdown default appears at the preference-optimization step. Paired over prompts, moving from the SFT to the DPO checkpoint raises the Markdown rate by 36.7 points (13.3\% to 50.0\%, $p=0.0002$) and Markdown density from 0.6 to 3.2 markers per 100 words ($p=0.0002$). Outputs also lengthen (75 to 189 words), but the density increase shows that the change is not only a length effect. The final RL stage changes neither rate (+3.3 points, $p=0.81$) nor density ($p=0.39$). Emoji stays rare at every stage (at most 6.7\%), and no stage-to-stage change in emoji is significant.
 
-\section{Study 2: Color and Gradient Suggestions}
+The ability to suppress Markdown on request appears at the same step. Relative to the placebo, the plain instruction has no detectable effect on the base ($+3.3$ points, $p=0.85$) or SFT checkpoint ($+11.7$, $p=0.09$), but it removes 45.0 points of Markdown at DPO and 65.0 points at the final stage (both $p=0.0002$). In this model family, preference optimization thus installs both the formatting default and the controllability that our other studies take for granted. The base checkpoint produces Markdown in 33.3\% of outputs, but it writes four times as many words as SFT (297 versus 75) and continues web-like text, so we do not interpret the base-to-SFT drop as removing a pretraining prior.
 
-Study 2 does not support the common narrative that models broadly prefer purple or pink aesthetics. In the corrected text color-suggestion task, that broad claim is unsupported. Across 1,350 responses, only two contain colors in the purple/pink detector range: one Gemini response and one MiMo response. GPT-3.5 produces no purple/pink instances in this dataset.
+Two cautions apply. The evidence comes from one 1B model family, so it is consistent with, but does not establish, the account that preference data rewards formatted responses \cite{zhang2025lists}. And a placebo instruction \emph{raises} Markdown at the DPO and final stages (by 23.3 and 21.7 points), the opposite of the large hosted models in Study 4, so spillover direction depends on the model.
 
-Gradient persistence is more informative than hue preference. Gemini produces 26 gradient instances out of 450 responses, and MiMo produces 18 out of 450. GPT-3.5 produces none. The result is therefore not evidence of a universal color-bias claim centered on purple; it is a model-specific gradient signal.
+\section{Instruction Spillover}
+\label{sec:spillover}
 
-\begin{table}[t]
-\centering
-\caption{Study 2 color and gradient findings.}
-\label{tab:color-gradient}
-\begin{tabular}{lrrr}
-\toprule
-Model & Rows & Purple/pink instances & Gradient instances \\
-\midrule
-Gemini 2.5 Flash & 450 & 1 & 26 \\
-GPT-3.5-Turbo & 450 & 0 & 0 \\
-MiMo v2 Flash & 450 & 1 & 18 \\
-\bottomrule
-\end{tabular}
-\end{table}
+The placebo in Study 4 names no presentation feature, yet it removes emoji from every model that uses emoji: by 43.9 points (Qwen), 31.7 (Gemini), 17.8 (Sonnet), and 8.9 (Haiku), each significant at $p\le0.017$. Its effect on Markdown depends on the model. It removes 64.4 points for Qwen, 62.8 for Gemini, and 35.0 for Llama 3.3 70B, and it has no detectable effect for either Claude model or Llama 3.1 8B. The emoji-only prohibition shows the same pattern from another direction: it removes 40.0 to 49.4 points of Markdown for Gemini, Qwen, and both Llama models, although it never mentions Markdown. The first-pass pilot found the same no-emoji spillover across four other routes (Appendix~\ref{app:pilot}).
 
-This negative result is part of the journal contribution. It prevents the paper from turning into a one-trope story. The evidence supports a more general formulation: presentation priors are feature-, topic-, model-, and modality-conditioned.
+Measured against the placebo, the content-specific effect of the plain instruction ranges from 97.2 points (Sonnet) to 11.1 points (Llama 3.3 70B). For models with large generic effects, a condition-versus-neutral contrast therefore overstates what the plain instruction itself accomplishes: for Llama 3.3 70B, the total reduction in Markdown is 46.1 points, of which 35.0 are matched by the placebo.
 
-\section{Study 3: Multi-Constraint Surface-Form Compliance}
+The placebo also changes how much models write and think. It shortens Gemini outputs (133 to 86 words) and lengthens Llama 3.1 8B outputs (147 to 185 words), and it was the condition most likely to make Qwen spend more than 1,500 hidden reasoning tokens before answering. Emoji, and for some models Markdown, appear to belong to a casual default register that any constraining instruction moves away from, consistent with the topic conditioning in Study 1. Whatever the mechanism, intervention studies of model formatting should include an instruction-matched control.
 
-Study 3 evaluates compliance with several active surface-form constraints. The corrected measured-only scoring avoids counting constraints that were active but unmeasured. Under this scoring, surface-form compliance is high. Emoji, bullet, and header constraints are fully satisfied when active. Markdown emphasis has 3 violations out of 1,528 active cases, and the word-limit constraint has 14 violations out of 628 active cases.
+\section{Measurement Validity and Limitations}
+\label{sec:validity}
 
-\begin{table}[t]
-\centering
-\caption{Study 3 measured compliance when each constraint is active.}
-\label{tab:constraint-compliance}
-\begin{tabular}{lrrr}
-\toprule
-Constraint & Active rows & Violations & Compliance \\
-\midrule
-No emoji & 2,504 & 0 & 100.0\% \\
-No bullet points & 2,176 & 0 & 100.0\% \\
-No headers & 1,849 & 0 & 100.0\% \\
-No Markdown bold/italic & 1,528 & 3 & 99.8\% \\
-Word limit & 628 & 14 & 97.8\% \\
-\bottomrule
-\end{tabular}
-\end{table}
+\paragraph{Detectors.} No detector has yet been validated against human annotation. Known weaknesses:
+\begin{itemize}
+  \item The Markdown detector fires on a single list line or backtick, so plain numbered structure, common in legal notices, counts as Markdown.
+  \item The stock-phrase lexicon has ten hand-picked words and does not respond to conditions.
+  \item The emoji pattern includes check marks and geometric symbols (Study 1 sensitivity above).
+  \item Colors are read only from hexadecimal codes, and the purple hue window (270--330$^\circ$) is one of several defensible choices; the purple result does not depend on it.
+\end{itemize}
+A two-annotator validation on a stratified sample of at least 300 outputs, with per-detector precision, recall, and agreement, is the next step.
 
-The interpretation is narrower than a broad ``curse of instructions'' claim. The result shows that surface-form constraints can behave differently from semantic constraints. Some surface constraints reinforce simpler output forms and are mechanically detectable. They should therefore be evaluated as their own class rather than pooled with factuality, reasoning, usefulness, or policy compliance.
+\paragraph{Models and coverage.} Studies 1--3 use older routes: one names a retired GPT-3.5 snapshot, and the free GLM route has since been withdrawn. Study 4 covers three frontier models but no OpenAI model, and each collection used a single temperature. Qwen 3.6 Flash's outputs in Study 4 were generated with different token budgets depending on whether a retry was needed.
 
-\section{Study 4: Exp8 Route-Labeled Presentation-Prior Probe}
+\paragraph{Training stage.} Study 5 uses one 1B model family with one output per prompt and condition. Its base checkpoint is prompted without a chat template and writes much longer outputs, so base-versus-post-trained comparisons mix training stage with prompt format. Replicating the stage comparison on larger open checkpoints is the most important next step.
 
-Experiment 8 is the new journal-specific text probe. The current OpenRouter matrix contains four valid routes, twelve prompt families, five conditions, and two repeats per cell for the cost-controlled first pass. All 480 expected outputs were collected cleanly on June 1, 2026. The exact CSV is \path{experiment_data/exp8_post_training_priors_20260601_022210.csv}; the report and acceptance artifacts are under \path{analysis_output/exp8/}.
+\paragraph{Baselines.} We have no reference distribution of human-written text or human-designed palettes for the same prompts. Such baselines are needed before claiming that a model is more homogeneous than people are, particularly for Study 2.
 
-\paragraph{Route provenance.}
-The current routes are Llama 3.3 70B Instruct, Llama 3.1 8B Instruct, Qwen 2.5 7B Instruct, and Qwen 3.6 Flash; exact OpenRouter IDs are preserved in the CSV and manifest. Three are labeled \path{instruct_candidate}; Qwen 3.6 Flash is conservatively labeled \path{chat_or_instruct}. We analyze \path{route_stage_label} as observed route metadata. We do not infer true training stage without verified base-model routes.
-
-\paragraph{Completeness.}
-The analyzer writes a manifest and matrix-completeness CSV. For this first pass, the manifest reports 480 expected rows, 480 observed expected rows, 0 missing expected rows, 0 errored rows after dedupe, and 0 unexpected artifact IDs.
-
-\input{../analysis_output/tist_package/table_exp8_completeness.tex}
-
-\paragraph{Route-label summary.}
-Table~\ref{tab:exp8-stage-summary} reports the top-level route-label summary. Because the labels are imbalanced, with three \path{instruct_candidate} routes and one \path{chat_or_instruct} route, these rows are descriptive aggregates rather than balanced stage effects.
-
-\input{../analysis_output/tist_package/table_exp8_stage_summary.tex}
-
-\paragraph{Condition summary.}
-The condition-level result is clearer and easier to interpret. Neutral prompts produce format defaults in 80.2\% of outputs and Markdown in 78.1\%. Plain-no-Markdown prompts reduce both to 2.1\%. Polished-but-plain prompts keep format defaults low at 6.2\% while leaving a higher polish-default rate of 45.8\%, consistent with the intended conflict between polished wording and plain output.
-
-\input{../analysis_output/tist_package/table_exp8_condition_summary.tex}
-
-Table~\ref{tab:exp8-ci-contrast} adds uncertainty and planned-contrast evidence for selected condition-level results. Wilson intervals are shown for the condition rates, and the q-values are Benjamini-Hochberg adjusted condition-vs-neutral screening contrasts. The same paired condition deltas are also computed by route, prompt family, domain, and repeat; for example, plain-no-Markdown reduces format defaults by 0.781 and Markdown by 0.760 relative to matched neutral units.
-
-\input{../analysis_output/tist_package/table_exp8_ci_contrasts.tex}
-
-Prompt-family-clustered paired contrasts provide a stricter condition-level robustness screen. Plain-no-Markdown reduces format defaults by 0.781 after pairing against neutral within model family, route label, model, prompt family, domain, and repeat; no-emoji reduces format defaults by 0.531; and polished-but-plain reduces format defaults by 0.740. These three reductions remain significant after prompt-family cluster sign-flip testing and FDR correction. The diversity condition reduces format defaults by 0.156, but that reduction does not survive the clustered screen. These results strengthen the condition-level suppression claim without supporting causal claims about route provenance.
-
-The prompt-family holdout analysis shows that the feature signal is not confined to one prompt family. Held-out format-default rates range from 12.5\% for research-tooltip prompts to 60.0\% for legal-notice prompts; held-out polish-default rates range from 30.0\% for academic feedback, legal notices, and security notices to 85.0\% for social-media updates. The length sensitivity analysis shows that the overall polish-default rate falls from 48.1\% to 26.7\% when the length component is removed, so length-driven polish should be treated as a proxy component rather than as direct evidence of stock phrasing. Missingness reporting shows the first-pass matrix is complete, with 480 expected rows, 480 observed rows, and 0 missing rows.
-
-The first-pass result supports three bounded conclusions. First, presentation-prior features are measurable under the current route matrix. Second, explicit plain-output constraints strongly suppress Markdown and emoji. Third, diversity and polish instructions are not equivalent to default avoidance: the diversity condition leaves high format and polish-default rates, while polished-but-plain retains the polish-default composite partly through length despite suppressing most formatting.
-
-\section{Study 5: Bounded Cross-Modal Extension}
-
-Study 5 uses Experiment 7 to test whether similar measurement logic can be extended to generated text, UI code, and image artifacts. The current checkpoint contains 698 clean artifacts after excluding abandoned UI pilot rows: 192 text outputs, 144 UI-code outputs, and 362 images. The text and UI results show measurable defaults, while image interpretation remains limited by model imbalance and recovered rows.
-
-\begin{table}[t]
-\centering
-\caption{Experiment 7 checkpoint evidence used as a bounded extension.}
-\label{tab:exp7-checkpoint}
-\begin{tabular}{llrr}
-\toprule
-Track & Model or route & Clean rows & Composite default rate \\
-\midrule
-Text & OpenAI GPT-4.1 mini & 48 & 52.1\% \\
-Text & Gemini 2.5 Flash & 48 & 81.2\% \\
-Text & Llama 3.3 70B & 48 & 58.3\% \\
-Text & Qwen 3.6 Flash & 48 & 68.8\% \\
-UI & OpenAI GPT-4.1 mini & 48 & 100.0\% \\
-UI & Gemini 2.5 Flash & 48 & 100.0\% \\
-UI & Llama 3.3 70B & 48 & 97.9\% \\
-Image & Riverflow V2 Fast & 307 & 58.3\% \\
-Image & Seedream 4.5 & 55 & 25.5\% \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-The most defensible cross-modal interpretation is methodological: feature extraction can be made reproducible across modalities, and some defaults respond unevenly to counter-instructions. The UI composite is nearly saturated, so feature-level UI results such as blue-specific color use, shadows, cards, and centered layout are more informative than the composite. Current UI and image color signals are blue-dominant rather than purple-dominant. Image evidence also carries recovered-PNG metadata limits for the Seedream slice. This is not yet a broad cross-modal similarity result. The current package adds small UI/design-system and synthetic-image reference baselines for feature calibration, but balanced human-production or design-system baselines are still needed before making strong similarity claims relative to alternatives.
-
-\section{Baselines, Measurement Validity, and Reviewer-Robustness}
-
-\paragraph{Text baselines.}
-The current package includes hand-authored text baselines analyzed with the same text feature extractor. The baseline output files are \path{analysis_output/baselines/text_baseline_rows.csv} and \path{analysis_output/baselines/text_baseline_summary.csv}. At this checkpoint, baseline coverage is intentionally small and serves as a validity layer rather than a final human-vs-model contrast.
-
-\paragraph{Cross-modal reference baselines.}
-The package also includes a small license-clean UI/image reference baseline layer analyzed with the same UI and image feature extractors. The UI records are hand-authored design-system-style snippets; the image records are deterministic non-person synthetic references generated from local color-block specifications. The corresponding rows, summaries, and cross-modal signature summary are written under \path{analysis_output/baselines/}. These files support feature calibration and reproduction checks only. They are not representative human-production distributions.
-
-\paragraph{Feature validity.}
-The text feature extractor is transparent and auditable, but it is still a proxy. Emoji, Markdown, headings, bullets, and word counts are direct surface features. Stock-polish phrases and polish defaults are less direct. The current feature-audit script checks six manually specified samples across text, UI, and image tracks and reports no failures. That is useful as a sanity check, but it is not yet a full construct-validity audit for text, UI, and image extractors.
-
-\paragraph{Completeness and stale-file risk.}
-Experiment 8 must be analyzed from exact input CSVs, not by globbing every historical Exp8 CSV. The package now writes \texttt{analysis\_manifest.json} and \texttt{matrix\_completeness.csv} to prevent partial runs from passing silently.
-
-\paragraph{Statistical model limits.}
-The present contrasts are appropriate as planned first-pass summaries. The prompt-family-clustered paired contrasts improve the condition-level robustness check, but they do not support causal stage/provenance inference. Current route labels remain descriptive until a model accounts for prompt family, route, and repeated runs, and until verified base routes are available.
+\paragraph{Design.} Study 3 has no unconstrained arm, and Studies 1 and 3 are censored for GLM. Study 4's prompts were written by the authors (five per family) and cover short workplace and consumer texts only.
 
 \section{Discussion}
 
-The five studies support a narrower and more testable account than the original ``stylistic instruction failure'' framing. Presentation priors are not a single preference for one color, emoji, or visual trope. They are a family of measurable defaults that activate under underspecified prompts and respond unevenly to interventions.
+Four regularities hold across the studies. Presentation priors exist and depend on topic and model: social genres trigger emoji, advisory text triggers Markdown, and palettes default to a few blues. When the requirement is stated and enumerated, these priors are largely suppressed, wherever the instruction is placed. Instructions also act beyond their content: emoji and Markdown fall after instructions that do not mention them. And in the one model family whose training stages are public, the Markdown default and the ability to suppress it both appear at the preference-optimization step, which links presentation priors to the format-bias literature on reward models and judges \cite{zhang2025lists,li2024style}.
 
-The practical implication is that prompt instructions should not be treated as the only control boundary for presentation policy. In low-stakes writing, a default list or emoji may be acceptable. In workflow software, compliance notices, generated UI, or rendered artifacts, presentation choices can carry operational meaning. Validators, renderers, retry policies, and explicit style controls should handle surface-form requirements outside the prompt alone.
+The practical implications are narrower than ``prompts are not enough''. For surface requirements that users actually state, prompting works most of the time, and a deterministic check catches the residue cheaply. The larger exposure is for users who never state a requirement. They receive the model's priors (Markdown in a plain-text field, emoji in a formal notice, a stock blue palette) without having chosen them. Studying whether people notice or accept these defaults requires human-subject work that this article does not attempt.
 
-The research implication is that surface-form evaluation should be separated from semantic evaluation. A model can be semantically useful while violating a presentation constraint. Conversely, a model can satisfy a plain-output rule while being factually wrong. Evaluation suites that collapse these behaviors into one instruction-following score risk obscuring both.
-
-\section{Limitations, Ethics, and Disclosure}
-
-This paper reports computational measurements, not human-subject perception studies. We do not claim that users perceive the outputs as biased, harmful, or low quality. We also do not make demographic claims from generated images.
-
-The route-labeled Experiment 8 evidence does not establish post-training causality. Current OpenRouter routes do not provide balanced base-model comparisons for the intended model families. Do not claim base-vs-instruct or RLHF mechanism evidence unless a separate HF/local collector and verified route provenance are added.
-
-The color findings are bounded. Study 2 does not support a broad purple/pink claim in text color-suggestion tasks. Experiment 7 UI and image color signals are currently blue-dominant. Purple should not be used as the central framing.
-
-Generative AI tools were used as research assistance for code development, reviewer-style critique, experiment planning, and drafting support. The reported scripts, figures, tables, and numerical results were checked against local repository artifacts by the authors. No confidential peer-review material was used.
-
-\section{Artifact Availability}
-
-The repository contains the source manuscripts, collection scripts, analysis scripts, tests, generated CSVs, and report artifacts. For the current Experiment 8 first pass, the primary evidence files are:
-\begin{itemize}
-  \item \texttt{experiment\_data/exp8\_post\_training\_priors\_20260601\_022210.csv}
-  \item \texttt{analysis\_output/exp8/post\_training\_priors\_report.md}
-  \item \texttt{analysis\_output/exp8/analysis\_manifest.json}
-  \item \texttt{analysis\_output/exp8/matrix\_completeness.csv}
-  \item \texttt{analysis\_output/exp8/cluster\_paired\_condition\_contrasts.csv}
-\end{itemize}
+For evaluation practice, we recommend reporting three quantities separately: the default rate under a neutral prompt, the content-specific effect of an intervention measured against an instruction-matched control, and the residual violation rate after an explicit constraint. Benchmarks that report only the last quantity miss the first two.
 
 \section{Conclusion}
 
-Generative systems silently complete presentation choices. Across corrected text experiments, a new route-labeled first pass, and a bounded cross-modal extension, those choices are measurable and condition-sensitive. The evidence supports the central claim that presentation priors vary by topic, model, and intervention condition, and that they are often partly suppressible; Experiment 8 additionally reports route labels as provenance metadata. It supports neither broad color-bias framing nor a causal mechanism account for RLHF/post-training. The next step is to scale the route-labeled evidence, add balanced baselines, and formalize mixed-effect analyses before promoting stronger venue-facing claims.
+Language models fill unspecified presentation choices with consistent, topic- and model-dependent defaults. These defaults are mostly suppressed once requirements are stated, but instructions also change features they never mention, unconstrained color suggestions converge on a few conventional blues, and in one open model family the Markdown default emerges with preference optimization. Separating default rates, content-specific intervention effects, and spillover gives a more accurate picture of model formatting behavior than pooled compliance rates do. Larger stage-wise replications, validated detectors, and human baselines are the next steps.
+
+\section*{Ethics and Disclosure}
+
+This work analyzes model outputs only and involves no human subjects. Generative AI tools were used as research assistance for code development, critique, and drafting; all reported numbers were recomputed from the artifact by the authors.
+
+\section*{Artifact Availability}
+
+An anonymized artifact accompanies the submission. It contains the collection scripts (including the local checkpoint collector), the input CSVs for every study, and two analysis scripts: \path{analyze_tist_revision.py} regenerates the Study 1--3 tables and figures, and \path{analyze_exp8_v2.py} regenerates the Study 4 and 5 tables, contrasts, and figure. The pilot tables are regenerated and hash-checked by the package verifier.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{haips2026_refs,tist2027_presentation_priors_refs}
+
+\appendix
+
+\section{First-Pass Pilot (Experiment 8 v1)}
+\label{app:pilot}
+
+Before Study 4, a first-pass probe crossed four instruction-tuned routes (Llama 3.3 70B, Llama 3.1 8B, Qwen 2.5 7B Instruct, and Qwen 3.6 Flash), twelve prompt families with one prompt each, and five conditions, with two repeats per cell; all 480 planned outputs were collected (Table~\ref{tab:exp8-completeness}). Its pooled rates appear in Table~\ref{tab:exp8-condition-summary}. The \texttt{polish\_default} column includes word count above the neutral median of each prompt family, so about half of neutral outputs fire on length by construction; Study 4 does not use it. In the pilot, the no-emoji condition reduced Markdown from 78.1\% to 27.1\% (paired, prompt-family-clustered reduction 0.510, $p=0.0005$), the first sign of the spillover analyzed in Section~\ref{sec:spillover}. Table~\ref{tab:exp8-stage-summary} groups the pilot routes by provider label; this is provenance metadata, not a training-stage contrast. Table~\ref{tab:exp8-ci-contrasts} reports Wilson intervals and unpaired contrasts that treat outputs as independent; they are descriptive only.
+
+\input{../analysis_output/tist_package/table_exp8_completeness.tex}
+
+\input{../analysis_output/tist_package/table_exp8_condition_summary.tex}
+
+\input{../analysis_output/tist_package/table_exp8_stage_summary.tex}
+
+\input{../analysis_output/tist_package/table_exp8_ci_contrasts.tex}
 
 \end{document}

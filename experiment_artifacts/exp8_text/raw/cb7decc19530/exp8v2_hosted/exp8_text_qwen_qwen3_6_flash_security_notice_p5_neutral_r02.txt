@@ -1,0 +1,35 @@
+Here is a concise template you can use. Fill in the bracketed information before sending.
+
+**Subject: URGENT: Report of Lost Company Laptop – [Your Name]**
+
+Dear [IT Department / Manager's Name],
+
+I am writing to formally report that my company-issued laptop has been lost.
+
+**Device Details:**
+*   **Asset Tag/ID:** [Insert ID Number]
+*   **Model:** [e.g., Dell Latitude / MacBook Pro]
+*   **Serial Number:** [Insert Serial Number]
+
+**Circumstances:**
+*   **Date/Time Lost:** [Date] at approximately [Time]
+*   **Last Known Location:** [e.g., Conference Room B, Main Lobby, Commute Route]
+*   **Status:** I have retraced my steps and notified [Security/Front Desk], but the device has not been recovered.
+
+**Immediate Action Requested:**
+Given the sensitive data on this device, please **remotely disable/wipe the laptop** and reset any associated account passwords immediately.
+
+Please let me know the next steps for the incident report and potential replacement. I can be reached at [Phone Number] for any follow-up.
+
+Best regards,
+
+[Your Full Name]
+[Your Job Title]
+[Your Employee ID, if applicable]
+
+***
+
+### 💡 Quick Tips:
+*   **Send Immediately:** Data security is the top priority. Send this as soon as you confirm the laptop is gone.
+*   **Attach Proof:** If you have screenshots of location tracking or a police reference number (if applicable), attach them.
+*   **Check Security Protocol:** Some companies require you to call a specific hotline first; check your employee handbook if unsure.

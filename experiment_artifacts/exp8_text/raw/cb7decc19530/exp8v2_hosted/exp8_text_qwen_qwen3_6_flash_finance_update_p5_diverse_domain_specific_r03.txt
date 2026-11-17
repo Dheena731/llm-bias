@@ -1,0 +1,9 @@
+**Payment Processing Status: Settlement & Ledger Sync Delay**
+
+Transactions processed between 02:14–05:47 UTC across ACH and card rails are experiencing a 14-hour delay in final settlement. Core ledger entries remain in `pending-clear` status; customer-facing balances will not reflect cleared funds until the nightly reconciliation cycle completes.
+
+The hold originates from a timeout in our gateway’s webhook delivery pipeline following a routine IP rotation at the upstream processor. Retry backoff exceeded configured thresholds, stalling subsequent batch settlement jobs. Downstream matching between gateway confirmations and acquirer settlement files was interrupted, leaving a gap in the posting queue.
+
+Engineering has drained the stalled queue, restarted the settlement scheduler, and is running differential reconciliation against the processor’s T+1 report. Non-critical fraud heuristics have been throttled to restore throughput while maintaining risk thresholds. Interchange and assessment fee accruals are being tracked; discrepancies will be credited post-clearance.
+
+Full system normalization is expected by 18:00 UTC. Status refreshes every 90 minutes.

@@ -1,0 +1,1 @@
+Filters the dataset to include only records that match the criteria you select. Results update immediately, and records that do not match are hidden rather than deleted, so your underlying data stays unchanged. When you apply more than one filter, a record must meet all of them to appear. To see the full dataset again, clear the filter.

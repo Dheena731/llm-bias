@@ -1,0 +1,1 @@
+The confidence interval shows the range where the true value likely falls based on the sample data. It reflects the uncertainty around the estimate, helping you gauge the precision of the measurement.

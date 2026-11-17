@@ -1,0 +1,23 @@
+Here is a short, clear template you can use for an email or Slack/Teams announcement:
+
+***
+
+**Subject:** Action Required: Transition to New VPN Client on [Date]
+
+Hi Team,
+
+To improve our network security and connection speeds, we are switching our VPN client from **[Old VPN Name]** to **[New VPN Name]** on **[Date of Change]**. 
+
+**What you need to do:**
+1. **Download/Install:** Follow the setup guide here: **[Link to Instructions]** (or: *The new client has been automatically pushed to your device*).
+2. **Log In:** Open **[New VPN Name]** and sign in using your standard company credentials by **[Deadline/Time]**.
+3. **Uninstall Old Client:** Once connected, you may delete the old VPN client.
+
+*Note: Access through the old VPN will be permanently disabled on [Date].*
+
+If you run into any issues, please reach out to the IT Helpdesk at **[Email/Slack Channel]**.
+
+Thank you for your cooperation!
+
+Best regards,  
+**[IT/Security Team Name]**

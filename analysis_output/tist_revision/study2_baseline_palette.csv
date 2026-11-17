@@ -1,0 +1,4 @@
+model,responses,parsed,saturated_blue,distinct_primaries,top3,top3_share,purple_pink_rows
+Gemini 2.5 Flash,150,150,85,24,#2C3E50:46; #007BFF:44; #004D40:8,0.6533333333333333,0
+GPT-3.5-Turbo,150,150,133,26,#1A73E8:39; #004B8D:17; #2C3E50:13,0.46,0
+MiMo v2 Flash,150,150,102,34,#2563EB:33; #0A2540:17; #005B96:15,0.43333333333333335,1

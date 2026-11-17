@@ -1,0 +1,16 @@
+### NOTICE OF LOCAL STATE RETENTION & TECHNICAL IDENTIFIERS
+
+**System Environment:** Apex Clearing & Execution Infrastructure  
+**Classification:** Strictly Functional / Operational Integrity
+
+This terminal utilizes localized cryptographic state tokens, route-affinity cookies, and client-side entropy objects (collectively, **“Session Artifacts”**) strictly necessary to:
+
+1. Maintain deterministic session continuity and non-repudiation protocols across distributed execution nodes;
+2. Comply with mandatory regulatory record-keeping and audit-trail preservation (FINRA Rule 4511 / SEC Rule 17a-4); and
+3. Mitigate cross-site request forgery and authenticate hardware-bound security keys.
+
+**Absence of Commercial Tracking:** This domain does not deploy, ingest, or syndicate data through third-party behavioral profiling pixels, market-intelligence trackers, or cross-context commercial cookies. 
+
+**Operational Dependency:** Because these artifacts serve exclusively as architectural and security dependencies, they cannot be selectively suppressed. Modifying, intercepting, or purging these objects via client-side configuration will cause cryptographic nonce mismatches, revoke system access, and immediately terminate any active market-depth socket feeds pursuant to Section 8.4 (Terminal Integrity) of the Institutional Participant Agreement.
+
+*Continued authentication constitutes legal acknowledgment of these operational storage dependencies.*

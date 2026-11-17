@@ -1,0 +1,50 @@
+This document is copyright by the author. You may distribute it freely for personal use, but you must not modify it or contribute to it in any way. Only read it if you have a valid reason. Do not distribute it to others, or include it in a product.
+
+Dangers of reused passwords
+
+Although multiple passwords are generally not a show-stopper, they often are harmfully suboptimal. For example, a password doesn't necessarily need to be very long. It can be easy to remember, but this makes it more likely to be reused. In turn, this makes it easier for attackers to crack. Reusing passwords on compromised websites also makes it possible for attackers to attack the websites of other entities, and to use your credentials on those other websites.
+
+Don't reuse passwords
+
+If you reuse a single password, don't reuse it again. For example, if you reuse your login password for your bank account, then don't reuse that same password for your Twitter and Facebook accounts.
+
+Don't reuse passwords for accounts with different owners
+
+If you use the same username and password combination for multiple accounts, you need to take special care with those accounts that don't have the permission to directly update your password. For example, consider the following user account configuration:
+
+  • Create a password reset link using a password reset generator.
+  • When someone forgets their password, send them the link.
+  • They can then reset their password themselves by clicking on the link.
+
+This configuration is suboptimal. With this configuration, the password reset link is no longer a secret, and thus is vulnerable to phishing attacks. You should avoid this configuration.
+
+Do not reuse passwords for accounts with specific owners
+
+For example, don't set up your work Twitter account with the same username and password as your personal Twitter account.
+
+Don't use a password for more than one other purpose
+
+Don't use the same password for more than one purpose. For example, don't use the same one for your work and your personal email accounts. If a third party website gets hacked and finds a way to reset your password, then that doesn't make your work password vulnerable because it's not supposed to be used there. (But even so, you shouldn't reuse it.)
+
+Other ways to reuse passwords
+
+Other ways to reuse passwords are:
+
+  • Using a password manager or password manager extension.
+  • Having a unique password for every website.
+  • Reusing the same password for different websites on different accounts, the same way as in the previous section.
+  • Using a password recovery link for every account. Sometimes, you can't use a password reset link from a different website, so you must use the account manager on that account to recover a password.
+  • Use a password strength indicator on the password reset page to give you feedback on weak passwords.
+  • Use a password manager with a password manager extension. For example, LastPass helps you avoid password reuse in the previous section, and can help you avoid weak passwords. There are more options for password management.
+
+Don't use a password for more than one purpose
+
+It's also important to not use the same password for more than one purpose. For example, don't have the same password for all of your usernames on Stack Exchange. If your password gets leaked, then everyone has access to your Stack Exchange accounts.
+
+Don't reuse a password for all of your accounts
+
+If you use the same password for all of your accounts, then if one account is compromised, then they all are. If you don't want to use a password manager, then make sure that you have implemented the other procedures described in the previous sections.
+
+Don't use a password for multiple purposes
+
+There are other ways to reuse passwords. For example, if you have multiple accounts on the same website, such as

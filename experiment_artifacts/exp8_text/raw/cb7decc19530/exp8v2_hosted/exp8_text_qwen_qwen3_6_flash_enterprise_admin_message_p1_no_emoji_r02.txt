@@ -1,0 +1,5 @@
+Subject: Scheduled Dashboard Maintenance Window
+
+Please be advised that the dashboard will undergo scheduled maintenance on [Date] from [Start Time] to [End Time] [Time Zone]. During this window, the platform will be temporarily inaccessible and any unsaved work may be lost. We recommend completing all active tasks and saving your progress before the maintenance begins. Services will resume automatically once the update is complete.
+
+For real-time status updates or support inquiries, please contact the IT Service Desk at [Email/Phone]. Thank you for your cooperation.

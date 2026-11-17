@@ -1,0 +1,5 @@
+**Feature: Savings Buckets**
+
+You can now isolate funds into named pools with a static currency target. We execute daily drafts to fill the bucket.
+
+Progress tracks against the original threshold. If you

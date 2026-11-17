@@ -1,0 +1,23 @@
+**IMPORTANT: Protect Yourself From Phishing Emails**
+
+Phishing emails are fake messages designed to trick you into sharing passwords, account details, or financial information, or into clicking malicious links. They are becoming more convincing, and anyone can be a target.
+
+**How to spot a phishing email:**
+- The sender's address looks unfamiliar or slightly off (e.g., "it-support@c0mpany.com")
+- The message creates urgency, such as "Your account will be closed in 24 hours"
+- It asks for passwords, login details, or payment information
+- It contains unexpected attachments or links
+- There are spelling or formatting errors, or the greeting is generic
+
+**What to do:**
+- Do not click links or open attachments in suspicious emails
+- Verify unusual requests by contacting the sender through a known phone number or in person
+- Hover over links to check the actual destination before clicking
+- Report suspicious emails to the IT Department immediately using the "Report Phishing" button or by forwarding them to security@company.com
+- If you clicked a link or entered your password, report it to IT right away
+
+**Remember:** IT and HR will never ask for your password by email. When in doubt, ask before you act.
+
+Thank you for helping keep our company and our data secure.
+
+*IT Security Team*

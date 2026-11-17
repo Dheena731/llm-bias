@@ -1,0 +1,33 @@
+You can find additional details and information in the project’s documentation.
+
+Another example is in Laravel 8, below we see the migration file
+
+The first line of the file shows the command that will be used to migrate the database (we will use composer in this example), and a running line for every new table, in this example we created a new migration for the category (note : this is not a good practice to create many migrations, it is just to show how to use the command).
+
+Last you can create the migration file with the following command:
+
+You can also check the full documentation from here.
+
+Table Migrations and Migration Commands
+
+In some cases Laravel might create a table with certain name in the database without using the migration command. In this case you have to refer to the table using a similar schema. In this case, you should use the generated schema’s name.
+
+For example, you can have table named user_profile and user_profile has columns like id, firstName, email, etc. You can refer this table as described below:
+
+You can refer the table as described below:
+
+You can also see some examples of named migrations and migration commands in Laravel’s GitHub documentation here.
+
+Install Laravel 8 (Laravel Installer)
+
+You should run the Laravel 8 installer once when you start a new Laravel project. You can run the Laravel installer with the command:
+
+As this command explains, it will download the latest Laravel 8 packages, install them, and add them to the project.
+
+If you have a Laravel project on GitHub, you can also run the Laravel installer from the root of the project (i.e., from the master branch). This is better than doing it manually. To do this, run the command from the root of your project:
+
+You will see that the installer downloads all the latest Laravel 8 packages and the Laravel 8 upgrade script that detects if the package is broken and fixes it.
+
+Post a comment
+
+Script Loader

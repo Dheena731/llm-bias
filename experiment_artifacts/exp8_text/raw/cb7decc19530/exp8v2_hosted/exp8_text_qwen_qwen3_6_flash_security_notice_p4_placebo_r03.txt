@@ -1,0 +1,7 @@
+**Subject: Action Required: Enable Two-Factor Authentication**
+
+To strengthen the security of your account, two-factor authentication must be enabled by all users. This feature adds a required verification step during login, combining your password with a unique code generated on your mobile device or through an authenticator application.
+
+Access your account settings, select the Security section, and follow the on-screen instructions to activate two-factor authentication. Please complete this setup by Friday, December 6. Following this date, any account that has not verified two-factor authentication will be temporarily locked until the setup is finished.
+
+If you experience difficulties during the configuration process, please contact your organization’s help desk for step-by-step assistance. Thank you for taking this essential measure to protect your account and data.

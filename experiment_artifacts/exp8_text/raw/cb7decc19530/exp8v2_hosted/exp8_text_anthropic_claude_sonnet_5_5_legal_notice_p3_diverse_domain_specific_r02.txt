@@ -1,0 +1,19 @@
+# Cookie Notice: Skerry Line Ferries Ltd
+
+**Last revised:** 14 March 2025
+
+**1. Scope.** This notice applies to skerryline.example and its booking subdomain, book.skerryline.example. It covers cookies and similar storage technologies (local storage, session storage) placed on your device when you use either site. It does not cover the onboard Wi-Fi portal, which has its own notice.
+
+**2. Controller.** Skerry Line Ferries Ltd, Harbour Office, Pier Road, Stromsay KW17 2XX, is the controller of data collected through the cookies listed below, except where a third party is named as acting for its own purposes.
+
+**3. Cookies we set**
+
+| Name | Purpose | Duration | Category |
+|---|---|---|---|
+| `sl_basket` | Holds your chosen sailing, passenger count and vehicle length while you book | Session | Strictly necessary |
+| `sl_csrf` | Prevents forged form submissions on the booking pages | Session | Strictly necessary |
+| `sl_lb` | Keeps your requests on one server during a booking | Session | Strictly necessary |
+| `sl_consent` | Records your answers to the cookie banner | 6 months | Strictly necessary |
+| `sl_lang` | Remembers a language you picked (English, Gaelic, Norwegian) | 6 months | Preference |
+| `_pk_id`, `_pk_ses` | Self-hosted Matomo analytics: counts visits and shows which timetable pages are used. IP addresses are truncated to two octets. | 13 months / 30 minutes | Analytics |
+| `__stripe_mid`, `__stripe_sid` | Set by Stripe Payments Europe Ltd on the payment page only, to detect fraudulent card use | 1 year / 30 minut

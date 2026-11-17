@@ -1,0 +1,10 @@
+Here are a few options, depending on the filter's purpose:
+
+**Option 1 (general):**
+Shows only records that match the selected criteria. Clear all filters to see the full dataset.
+
+**Option 2 (date range):**
+Limits results to records collected between the selected start and end dates.
+
+**Option 3 (category):**
+Includes only observations in the selected categories. Unselected categories are hidden from charts and tables.

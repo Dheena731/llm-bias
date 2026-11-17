@@ -1,0 +1,17 @@
+**Feedback on Methods Section (Draft 2)**
+
+Maria,
+
+The sampling design is sound, and the decision to pair an upstream reference site with two downstream sites is what makes the nitrate comparison possible. The section needs more precision in a few places before a reader could repeat the study.
+
+1. **Kick-net effort.** You write that you "kicked the substrate for one minute per site," but you don't say whether that was one minute of continuous effort or one minute in each of several riffle patches. Also, the sample is standardized by time here, so the total area sampled may differ between sites. Give the protocol you actually followed and note whether substrate type varied across sites, since it affects taxa counts independently of nitrate.
+
+2. **Site selection.** Calling the sites "randomly chosen" conflicts with your description of picking riffles with "good flow and visible cobble." Those are purposive choices. Say that, and state what you did to avoid bias, such as sampling only riffles with similar gradient.
+
+3. **Processing.** "Samples were sorted and identified" leaves out the most important details: how much of each sample you sorted (whole or subsampled), what taxonomic level you identified to, and who did the identifications. Genus-level and family-level richness are not interchangeable, so this determines what your richness numbers mean.
+
+4. **Nitrate measurement.** You report the nitrate values in Results but never say when or how they were collected relative to the invertebrate sampling. Add the sampling date, the method (grab sample, field kit, or lab analysis), and the detection limit.
+
+Once these are clarified, the section will support your analysis. Bring a revised version to Thursday's office hours if you want to go through the sorting procedure together.
+
+— Dr. Okafor

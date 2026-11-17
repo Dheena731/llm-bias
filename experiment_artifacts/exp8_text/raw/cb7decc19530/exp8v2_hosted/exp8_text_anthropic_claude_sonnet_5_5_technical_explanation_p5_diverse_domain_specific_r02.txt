@@ -1,0 +1,9 @@
+An API rate limit is a cap on how many requests a client can send to a server within a set window of time. A typical rule might be 100 requests per minute per API key, or 5,000 per hour per user.
+
+Servers enforce these limits for a few practical reasons. One badly written loop or a scraper hammering an endpoint can starve every other customer of capacity. Limits also keep costs predictable, since each request consumes CPU, database reads, and sometimes paid calls to upstream services. And they blunt brute-force attacks, like credential stuffing against a login endpoint.
+
+When you exceed the limit, the server usually responds with HTTP status `429 Too Many Requests`. Many APIs include headers that tell you where you stand, such as `X-RateLimit-Remaining` or `Retry-After`, which gives the number of seconds to wait before trying again.
+
+Providers implement the counting in different ways. A fixed window resets at regular intervals (say, on the minute), which can allow a burst at the boundary: 100 requests at 12:00:59 and another 100 at 12:01:00. A sliding window avoids that by looking at the trailing 60 seconds. A token bucket refills at a steady rate and lets you spend saved-up tokens in short bursts, which is why some APIs tolerate a quick spike but not sustained load.
+
+On the client side, the usual response is to back off and retry: wait, then double the delay after each failure, ideally with a little random jitter so many clients don't all retry at the same instant. Caching responses, batching calls, and using webhooks instead of polling all reduce how often you hit the limit in the first place.

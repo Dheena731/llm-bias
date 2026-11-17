@@ -1,0 +1,5 @@
+**Booking was down from 8:47 to 9:12 this morning.** If you tried to schedule a bath or nail trim and got a blank page, that was us. Anything submitted in that window didn't save, so if you didn't get a confirmation text, please rebook.
+
+A database update ran during business hours when it should have run overnight. It's moved to 2 a.m. now, and it can't touch the booking table during open hours anymore.
+
+If you lost a slot or got charged for a deposit that never went through, DM us or email help@pawsandpoise.com with your name and the pet's, and we'll fix it by hand today.

@@ -1,0 +1,19 @@
+ 1. Might rise to 105 degrees F heat
+  2. Might become 105-degrees-F hot
+  3. Might become hotter than 105-degrees-F in spots
+  4. Might peak at 105-degrees-F
+  5. May peak at 105-degrees-F
+
+
+  1. 105-degrees-F
+    • 105-degrees-F
+    • hotter than 105-degrees-F
+    • hot
+  2. might peak at 105-degrees-F
+    • hotter than
+    • peaks at 105-degrees-F
+  3. Might become hotter than 105-degrees-F in spots
+    • hotter than
+    • might peak at 105-degrees-F
+    • might peak at 105-degrees-F
+  4. Might rise to 105 degrees F heat

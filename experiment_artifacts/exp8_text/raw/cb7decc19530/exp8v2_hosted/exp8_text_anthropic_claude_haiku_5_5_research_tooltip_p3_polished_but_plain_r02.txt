@@ -1,0 +1,1 @@
+Select a start and end date to limit the results to that period. Dates outside the selected range are excluded from the view and any exports.

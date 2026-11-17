@@ -1,0 +1,30 @@
+**Confidential**
+
+**Domain Security Notice: Password Reuse**
+
+As a valued member of the [Domain Name] team, we take the security of our systems and data very seriously. With the increasing sophistication of cyber threats, it's essential that we all take proactive steps to protect our digital assets.
+
+**The Risk of Password Reuse**
+
+One common vulnerability is the reuse of passwords across multiple platforms. When a password is reused, it can be exploited if it's compromised on one system, leaving our entire domain vulnerable to attack. We urge all employees to exercise caution when creating and using passwords.
+
+**Best Practices**
+
+To mitigate this risk, please follow these guidelines:
+
+*   Use unique and complex passwords for all [Domain Name] systems, including email, network access, and other sensitive applications.
+*   Avoid using easily guessable information, such as names, birthdays, or common words.
+*   Consider using a password manager to generate and store complex passwords.
+*   Regularly change your passwords, at least every 60 days, to minimize the impact of a potential breach.
+
+**Additional Support**
+
+If you're unsure about how to create a secure password or need assistance with resetting or changing your passwords, please contact the [Domain Name] IT department for guidance and support.
+
+**Your Role in Protecting Our Domain**
+
+As a member of the [Domain Name] team, your attention to security best practices is crucial to protecting our domain and the sensitive information we handle. Your diligence in following these guidelines will help us maintain a robust defense against cyber threats.
+
+**Thank you for your cooperation and commitment to [Domain Name] security**
+
+[Domain Name] IT Department

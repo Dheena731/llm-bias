@@ -1,0 +1,18 @@
+Here is a short admin message about a scheduled dashboard maintenance window:
+
+"**Scheduled Dashboard Maintenance Window**
+
+Dear users,
+
+We are performing routine maintenance on our dashboard system to ensure optimal performance and security. This scheduled maintenance window is scheduled to take place on [insert date and time, e.g. Saturday, March 17th at 2:00 AM EST]. During this time, our team will be updating our database, patching software, and performing various system checks to prevent downtime and ensure a seamless user experience.
+
+The maintenance window is expected to last approximately [insert duration, e.g. 4 hours]. Our team will work diligently to minimize any potential disruptions, but please be aware that the dashboard may be unavailable during this time.
+
+We appreciate your patience and understanding as we work to maintain and improve our dashboard system. If you have any questions or concerns, please don't hesitate to reach out to our support team.
+
+Thank you for your cooperation.
+
+Best regards,
+[Your Name]"
+
+This message clearly communicates the main point, provides essential details, and addresses the intended audience.

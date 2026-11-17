@@ -1,0 +1,1 @@
+"Confidence Interval: A range of values (typically 95%) that the true population mean is likely to fall within, based on the sample mean and standard error."

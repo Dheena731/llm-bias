@@ -1,0 +1,42 @@
+These cookies do not contain any personal information.
+
+
+This cookie is used to remember whether you have seen a subset of the pages on our website before. This cookie is used for improving the user experience by excluding having to load the pages more than once.
+
+The cookie is not used to remember if you have seen a page already, but rather to remember which pages you have seen and how long ago you did so.
+
+This cookie is used for improving the user experience by excluding having to reload the servers for a page more than once. Instead, the contents of the page will only be sent after you have gone to another page on our website, or you have agreed to receive emails from us. The cookie is deleted when you close your browser.
+
+This cookie is used to remember whether or not you have received a cookie. The cookie is not used for storing any personal information, it is just used to remember if you have already seen a page. This cookie is used for improving the user experience by excluding having to load the page more than once.
+
+This cookie is used to remember whether or not you have received an email. This cookie is not used for storing any personal information, it is just used to remember if you have already seen a page. This cookie is used for improving the user experience by excluding having to load the page more than once.
+
+This cookie is used to remember whether or not you have chosen to opt out of receiving newsletters. This cookie is not used for storing any personal information, it is just used to remember if you have already seen a page. This cookie is used for improving the user experience by excluding having to load the page more than once.
+
+This cookies is used to remember if you have already selected a language. This cookie is not used for storing any personal information, it is just used to remember if you have already seen a page. This cookie is used for improving the user experience by excluding having to load the server more than once.
+
+This cookie is used to remember which language you have chosen. This cookie is not used for storing any personal information, it is just used to remember which language you have already seen.
+
+
+The following is an example of how to use the MinusN cookie. This example uses the Google Analytics cookie that is set on all pages and that contains the information that you have seen this page before. The script below sets the MinusN cookie to be equal to 1 if you have seen the page before and to be equal to 0 if you have not. This makes it so that if you have seen the page before, you will not be asked to see it again.
+
+If you have not seen the page before, you will be asked to see it again. Also the page will not be cached on your browser, so you will not be shown the same page again until you have seen it another time.
+
+function getCookie(){
+	var name = "MinusN";
+	var value = "";
+	var nameInCookie = name;
+	for(var i = 0; i < document.cookie.length; i++){
+		nameInCookie = document.cookie.substring(name.length, name.length + 1);
+		if(nameInCookie.indexOf(name) = 0)
+			value = nameInCookie.substring(nameInCookie.indexOf("=") + 1, nameInCookie.length);
+	return value;
+var cookieName = "MinusN"; = getCookie(cookieName);
+
+Cookies with more fine-grained control
+
+You can also add your own cookie to the list of cookies that are identified as “plus” or “minus”. If you want to limit the impact of a cookie, you can set the cookie to be more fine-grained, for example:
+
+  • MinusN: Cookie is set to equal 0 if you have not seen a page and to equal 1 if you have seen the page
+
+  • Minus

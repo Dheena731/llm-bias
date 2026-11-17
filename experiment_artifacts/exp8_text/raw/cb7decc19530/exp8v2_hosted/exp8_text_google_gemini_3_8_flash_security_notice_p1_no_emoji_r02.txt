@@ -1,0 +1,14 @@
+**Security Notice: The Risks of Password Reuse**
+
+Using the same password across multiple accounts significantly increases the risk of a security breach. If an external service or personal account is compromised, attackers routinely use those stolen credentials to attempt unauthorized access to corporate networks.
+
+To protect company data and your accounts, please adhere to the following guidelines:
+
+* **Never reuse work credentials:** Do not use your corporate email address or password for personal accounts, non-work applications, or social media.
+* **Keep passwords unique:** Ensure every account has a distinct, complex password or passphrase. 
+* **Use approved tools:** Utilize the company-provided password manager to generate and securely store your credentials.
+* **Act quickly:** If you believe any of your passwords have been exposed in an external breach, update your credentials immediately and notify the IT department.
+
+Maintaining strong, unique passwords is one of the most effective ways to defend against cyber threats. 
+
+If you have questions or need assistance with your credentials, please contact the IT Helpdesk.

@@ -1,0 +1,18 @@
+For example: "You can export the results of this query by using the 'export' command."
+
+Order of Descriptions
+
+Tooltip text will be rendered in alphabetical order. This is required to ensure consistency across all tooltips.
+
+For example: "This is a tooltip from all tooltips."
+
+Tooltip Text
+
+Tooltip text will be rendered in capitals. This is required to ensure consistency across all tooltips.
+
+For example: "This is a tooltip from all tooltips."
+
+Tip: if you want to embed an image, please use the following code snippet:
+
+    <span class="tip">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/shader/sharer.php?u=https://www.facebook.com/shader/sharer.php?u=https://www.facebook.com/shader/sharer.php?u=https://www.facebook.com/shader/sharer.php?u=https://www.facebook.com/shader/sharer.php?u=https://www.facebook.com/shader/sharer.php?u=https://www.facebook.com/shader/sharer.php?u=https://www.facebook.com/shader/shainer.php?u=https://www.facebook.com/shader/shainer.php?u=https://www.facebook.com/shader/shainer.php?u=https://www.facebook.com/shader/shainer.php?u=https://www.facebook.com/shader/shainer.php?u=https://www.facebook.com/shader/shainer.php?u=https://www.facebook.com/shader/shainer.php?u=https://www.facebook.com/shader/shainer.php?u=https://

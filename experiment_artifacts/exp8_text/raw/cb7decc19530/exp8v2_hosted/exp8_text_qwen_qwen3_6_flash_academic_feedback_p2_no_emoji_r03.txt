@@ -1,0 +1,10 @@
+**Feedback Note: Methods Section**
+
+Your methods section provides a clear overview of the research process. To strengthen the paper further, please address the following points:
+
+1.  **Reproducibility:** Ensure all key details are included so that another researcher could replicate the study. This includes specific software versions, instrument models, parameter settings, and exact protocols used.
+2.  **Justification:** Briefly explain the rationale behind your choice of methods, materials, or analytical techniques. This helps readers understand why these approaches were selected for your specific research questions.
+3.  **Data Management:** Clarify how data were collected, stored, cleaned, and analyzed. Specify any criteria for including or excluding data points and detail the statistical tests employed.
+4.  **Ethical Considerations:** If applicable, confirm that all necessary ethical approvals, informed consent procedures, and participant protections are explicitly stated.
+
+Please review these areas for completeness and consistency with the results presented later in the manuscript. Let me know if you need further clarification on any of these points.

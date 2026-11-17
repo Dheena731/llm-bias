@@ -1,0 +1,7 @@
+Two-Factor Authentication Is Now Available
+
+To help protect your account, you can now turn on two-factor authentication. This feature adds a second step to the sign-in process, so that even if someone learns your password, they still cannot access your account without a verification code from a device you control.
+
+To enable it, open your account settings and select the security section. Choose the two-factor authentication option and follow the prompts to link an authenticator app or a phone number that can receive text messages. Save the backup codes you are given in a safe place, since they allow you to sign in if you lose access to your phone.
+
+We recommend turning this feature on as soon as possible. It takes only a few minutes, and it is one of the most effective ways to keep your information secure. If you have questions or run into trouble during setup, please contact our support team, who will be glad to help.

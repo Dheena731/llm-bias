@@ -1,0 +1,18 @@
+**Important: Protecting Our Systems and Data**
+
+As we continue to work with sensitive client information and manage complex projects, it's essential that we prioritize password security. Unfortunately, our recent security audit revealed that some employees are using the same passwords across multiple work and personal accounts.
+
+**The Risk:** Password reuse can have serious consequences. If a password is compromised on a personal account, such as a social media or online shopping site, it can give attackers access to our internal systems and data. This can lead to unauthorized access, data breaches, and significant reputational damage.
+
+**Our Policy:** To mitigate this risk, we require all employees to use unique, complex passwords for each work account. This includes passwords for our project management tools, email, and virtual private network (VPN) access.
+
+**Best Practices:**
+
+* Use a password manager to generate and store unique, complex passwords for each account.
+* Avoid using easily guessable information, such as names, birthdays, or common words.
+* Update your passwords regularly, or whenever you suspect a potential security incident.
+* Be cautious when clicking on links or providing login credentials, especially when working remotely or using public Wi-Fi networks.
+
+**Support:** If you need help setting up a password manager or have questions about our password policy, please reach out to our IT department. We're here to support you in protecting our systems and data.
+
+Remember, password security is everyone's responsibility. Let's work together to maintain the confidentiality, integrity, and availability of our systems and data.

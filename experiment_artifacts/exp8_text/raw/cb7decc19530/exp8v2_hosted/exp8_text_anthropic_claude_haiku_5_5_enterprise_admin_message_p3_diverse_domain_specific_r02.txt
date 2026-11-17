@@ -1,0 +1,13 @@
+**Subject: VPN client 4.7: DNS now goes through the tunnel**
+
+Starting with 4.7.0, which rolls out Tuesday, the desktop client sends all DNS lookups through the tunnel while you're connected. Until now, names outside the corporate zone went to whatever resolver the local network handed out. On hotel and airport Wi-Fi, that was often the captive portal's resolver, which could see every name you looked up.
+
+What to expect:
+
+- Internal hostnames resolve as before.
+- Captive portals may not load until you disconnect, because the portal can't be reached through the tunnel. That's expected.
+- If a domain needs to go through a local resolver, add it under Settings → Network → DNS exceptions. Requests for exceptions outside a one-off case go to #vpn-support.
+
+Also removed: the legacy OpenVPN 2.3 profile. If your config still contains `protocol-version 2.3`, 4.7 will refuse it. Re-import the profile from the self-service portal, which takes about a minute.
+
+Nothing else in the connection flow has changed. Questions go to #vpn-support.

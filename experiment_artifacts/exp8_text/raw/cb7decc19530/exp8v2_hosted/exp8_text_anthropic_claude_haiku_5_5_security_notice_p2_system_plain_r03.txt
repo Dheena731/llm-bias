@@ -1,0 +1,14 @@
+Subject: Reminder to Stay Alert to Phishing Emails
+
+Dear colleagues,
+
+We are seeing an increase in phishing emails that impersonate trusted senders, including vendors, IT staff, and senior leaders. These messages often create a sense of urgency, asking you to reset a password, confirm payment details, or open an attached document. Clicking a link or opening an attachment from such a message could give an attacker access to our systems and data.
+
+Before acting on any unexpected email, please take a moment to check the sender's address carefully, hover over links to see where they lead, and be wary of requests involving money, credentials, or confidential information. If something feels off, do not reply or click. Instead, contact the sender through a known phone number or in person to verify the request.
+
+If you believe you have received a phishing email or have already clicked a link or entered your credentials, report it to the IT Service Desk immediately. Quick reporting allows us to contain any damage and protect our colleagues.
+
+Thank you for helping keep our organization secure.
+
+Regards,
+The IT Security Team

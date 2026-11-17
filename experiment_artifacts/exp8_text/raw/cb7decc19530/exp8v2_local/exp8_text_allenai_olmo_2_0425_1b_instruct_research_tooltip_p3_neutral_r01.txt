@@ -1,0 +1,1 @@
+This date-range selector lets you choose dates within a specified period. For example, "Select the dates from January 1, 2023, to December 31, 2023".

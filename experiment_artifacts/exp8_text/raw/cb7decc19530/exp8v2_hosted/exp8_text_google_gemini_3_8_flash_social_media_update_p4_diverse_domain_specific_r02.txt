@@ -1,0 +1,7 @@
+Add a hard expiration date directly into the title of any recurring meeting you create:
+
+`[Until May 1] Mobile Ops Sync`
+
+Calendar apps default to "repeats indefinitely," which is how quick check-ins end up outliving the projects they were built for. 
+
+When the expiration date is visible on everyone's grid, the default shifts from permanent background noise to a conscious choice: if it’s still useful on May 2nd, someone has to actively defend renewing it. Otherwise, the time clears automatically.

@@ -1,0 +1,7 @@
+**Reviewer 2, Comments on Research Question**
+
+The central question, "Does riparian restoration improve stream health?", cannot yet be answered by the design described, because "stream health" is never operationalized. The manuscript mentions dissolved oxygen, EPT richness, and canopy cover in different sections, but it does not say which of these the authors take as the outcome, or whether they expect them to move together. A site could gain shade and lose EPT taxa, and the paper would have no stated basis for calling that an improvement or a decline.
+
+The question also leaves the comparison open. Sites are described as "restored" and "unrestored," but the restoration dates range from four to eleven years before sampling, and the reference reaches are downstream of agricultural drainage in some cases and forested in others. Without a defined reference condition or a stated time-since-restoration variable, a difference between groups could reflect age of restoration, catchment land use, or both.
+
+I would ask the authors to state a primary response variable, a specific prediction for it, and the comparison that would count against their hypothesis. The current framing reads as an exploratory survey, and if that is the intent, the abstract and introduction should say so.

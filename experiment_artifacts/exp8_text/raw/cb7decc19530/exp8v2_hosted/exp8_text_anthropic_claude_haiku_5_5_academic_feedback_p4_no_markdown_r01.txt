@@ -1,0 +1,14 @@
+Hi Maya,
+
+Thanks for sharing the draft of your poster on soil microbial diversity in urban parks. The central question is clear, and the layout guides the eye well from the introduction to the results. Your color palette is easy to read from a distance.
+
+The main issue is text density. The methods panel has about 250 words, which is too much for someone scanning the hall. I'd cut it to three or four sentences and move the full protocol to a QR code or handout. The results figure also needs work. The axis labels are small, and the legend sits on top of the data points. Enlarging the labels and moving the legend below the plot should fix both.
+
+Your conclusion says the findings "prove" that green space increases diversity. With a sample of twelve parks, "suggest" or "are consistent with" is more accurate, and it will hold up better if someone questions you at the poster session.
+
+Finally, consider adding a one-sentence takeaway in large type at the top of the poster so visitors can get the point in five seconds.
+
+Overall, this is in good shape. Tighten the text, fix the figure, and soften the claim, and it will be a strong presentation.
+
+Best,
+Daniel

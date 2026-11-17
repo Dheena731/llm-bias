@@ -1,0 +1,10 @@
+Hey Elena,
+
+A few quick thoughts after marking up your draft for AGBT:
+
+* **Figure 2 (Spatial overlay):** When viewing at 100%, the H&E underlay is already artifacting. Make sure you export the histology tile as an uncompressed TIFF at 300+ DPI before dropping it into Illustrator; fabric printing handles low-contrast tissue margins poorly, and the tumor–stroma boundary will turn to mud from two paces away.
+* **The UMAP in Panel 3:** Swap the continuous palette for the gene expression plots. The current yellow-to-purple scale makes your zero-count dropouts visually blend with the low-expressing stromal clusters. A muted grey for true zeros would clarify the specificity of the *CXCL13* signal immediately. Also, please add the per-cluster cell counts ($n$) directly to the legend rather than burying them in the fine-print caption.
+* **Layout/Real Estate:** The workflow schematic in the top-left takes up nearly a quarter of the board. People at this meeting already know how Chromium and Seurat work; cut the pipeline icons, reduce the QC filtering criteria to two lines of text, and use that space to blow up the orthogonal validation (Panel 5). That targeted qPCR knockdown data is what keeps this from looking like just another descriptive atlas paper—it needs to be eye-level, not shoved into the bottom footer.
+* **Title:** Switch it from descriptive to declarative. Instead of *"Single-cell and spatial profiling of tertiary lymphoid structures in..."*, lead with the claim: *"Spatial niche remodeling drives TLS maturity and predicts neoadjuvant response in..."*
+
+Let me know once you’ve shifted the panels and I’ll take a final look before we send it to the plotter on Thursday.

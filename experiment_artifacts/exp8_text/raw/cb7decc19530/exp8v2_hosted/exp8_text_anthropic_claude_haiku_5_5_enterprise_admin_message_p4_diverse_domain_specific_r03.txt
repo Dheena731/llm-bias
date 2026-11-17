@@ -1,0 +1,21 @@
+**Subject: Q3 access review: manager certifications due Fri 18 Oct**
+
+Managers and system owners,
+
+The Q3 access review campaign opened this morning in Okta Access Certifications. You'll find it under *Governance → My Reviews*. Each reviewer has one campaign covering their direct reports' entitlements in the 14 systems listed in the attachment.
+
+For each entitlement, mark **Keep** or **Revoke**. Any entitlement still unmarked on 18 October at 17:00 UTC will be revoked automatically. Revocation takes effect overnight, so a late approval means the person has to file a ticket to get access back.
+
+Some things that are easy to miss:
+
+- **Contractor accounts** whose end dates have passed still show as active in two systems (Salesforce and the GCP billing project). Please revoke these rather than marking them Keep.
+- **Service accounts** are listed under the team lead who owns the credential, not under the person who set it up. If you're not sure who owns one, mark it Keep and reply to this thread so we can reassign it.
+- **Admin roles** in Snowflake and AWS Identity Center are flagged in red. Each needs a one-line justification in the comment field.
+
+If someone has changed teams since the last review, their old manager may still see them in the list. Revoke what they no longer need and note the transfer in the comment so the new manager can request what they do need.
+
+Questions about a specific entitlement go to #access-reviews. For anything urgent, such as an account that should have been disabled already, email security-ops@ directly rather than waiting for the review.
+
+Thanks,
+Priya Raman
+Identity & Access Team

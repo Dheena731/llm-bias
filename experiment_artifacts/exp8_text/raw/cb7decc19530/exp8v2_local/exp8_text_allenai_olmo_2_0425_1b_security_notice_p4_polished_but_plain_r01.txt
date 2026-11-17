@@ -1,0 +1,36 @@
+[1]While it's possible for malicious third parties to gain access to devices with two-factor authentication turned on, the risk of this happening is reduced, and is only possible if the attacker has physical access to the device.
+
+If you have any questions, or if you're not sure you want to do this, please email me at [email protected]. Alternatively, you can also give me feedback in the comments below.
+
+When you've finished, please add the link to the article to the React project. Then, make sure to add the article to the README in your repo.
+
+Here's what it might look like:
+
+# YourToken
+
+## What is a token?
+
+A token is a unique code that can only be used to log in. Without it, you won't be able to log in to your account.
+
+## How do you get a token?
+
+You can get a token by going to this address (as of writing this article, it's 5v6yCho4pDkyc1JZ7jcwZJYeaOloP7b) and pressing the "Generate a code" button.
+
+## Just double-clicking it isn't enough
+
+When you click the button, React will show you an alert with the code. If you've enabled 2FA, you first need to enter the code into the 2FA field at the top of the page.
+
+## How do I use it?
+
+After you have copied the code, you should paste it into the field below and enter your email to confirm that you are, in fact, the person who owns the account.
+
+## Tips and Tricks
+
+* If you don't see the button, check that you're in the correct country or region.
+* You can copy the code from the URL and paste it into a text editor, such as Notepad.
+* Don't share the code with anyone.
+* Copy the generated code and use it to log in.
+
+Thank you for helping React keep our users safe.
+
+Published: 2019-12-19T21:01:42+02:00

@@ -1,0 +1,2 @@
+**Missing value**
+No data was recorded or available for this field. It is not the same as zero or blank text, and it is left out of calculations such as totals and averages.

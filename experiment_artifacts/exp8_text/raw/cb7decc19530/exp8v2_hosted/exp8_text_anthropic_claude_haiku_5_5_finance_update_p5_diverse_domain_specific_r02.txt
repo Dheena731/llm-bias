@@ -1,0 +1,13 @@
+**Subject: Tuesday payout batch delayed for 1,912 merchants**
+
+Tuesday's ACH payout batch (ID ACH-0311-B) partly failed to release. Our originating bank rejected 1,912 of 14,207 records before transmission because the routing and account numbers didn't pass the receiving bank's inbound validation. Nothing was debited twice, and all held funds are still in our settlement account.
+
+**What's moving:** 12,295 payouts were released at 9:40 a.m. ET and should post to recipient accounts by Wednesday morning.
+
+**What's held:** Most of the 1,912 records belong to accounts whose routing numbers changed after a bank merger, so the old numbers now fail validation. The rest have account numbers that fail the standard check digit test, which usually means a typo at onboarding. We're checking each one against the current routing directory. Corrected records will go out as a second file by 2 p.m. ET today. If the bank accepts it before its same-day cutoff, those payouts land Wednesday. If not, they move to Thursday.
+
+**What you need to do:** If your payout account changed in the last 60 days, check the Payout Details page. Any account marked "Needs verification" needs to be reconfirmed before its payout can go out, and those will slip past this window. If you see no flag, you don't need to do anything.
+
+**Fees:** Late-payout fees are waived for this batch. The reversal will appear as a credit on your next statement.
+
+I'll post an update here at 2 p.m. ET with the resubmission result, or sooner if the bank changes the timeline.

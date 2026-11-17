@@ -1,0 +1,16 @@
+Subject: Quarterly Access Review Begins Next Week
+
+Dear team,
+
+This is a reminder that our quarterly access review will begin on Monday and must be completed by the end of the month. The purpose of the review is to confirm that every user has only the access they need to do their current job, and that accounts belonging to former employees or contractors have been removed.
+
+Department managers will receive a spreadsheet by email on Monday morning listing each team member along with the systems, shared folders, and applications they can currently reach. Please review the list carefully and mark each entry as keep, change, or remove. If you are unsure whether someone still needs a particular permission, ask the employee or contact the IT help desk before making a decision. Where access is no longer needed, removing it is the safer default.
+
+Please return your completed review to the IT security team by Friday, the last business day of the month. Managers who have not responded by then will receive a follow-up, and unresolved items will be escalated to department heads. Any changes you request will be carried out within five business days of submission.
+
+Employees do not need to take any action, though you may be asked to confirm your own access if your manager has questions. If you notice permissions that seem unnecessary or incorrect in the meantime, please report them to the help desk right away rather than waiting for the review.
+
+Thank you for your cooperation in keeping our systems and data secure. Questions about the process can be sent to the IT security team at any time.
+
+Regards,
+IT Administration

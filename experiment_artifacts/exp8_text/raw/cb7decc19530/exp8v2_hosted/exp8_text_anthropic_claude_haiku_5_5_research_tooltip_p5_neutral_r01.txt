@@ -1,0 +1,1 @@
+Click **Export** to download the current results as a CSV file. To export the full dataset instead of just the visible rows, use **Export All**.

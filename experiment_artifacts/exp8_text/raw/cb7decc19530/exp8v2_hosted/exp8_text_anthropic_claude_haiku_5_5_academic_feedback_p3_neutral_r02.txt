@@ -1,0 +1,12 @@
+**Reviewer Comment on Research Question**
+
+The research question, "How does social media affect young people's wellbeing?", is too broad to guide the study design. "Social media" covers many platforms and behaviors, "affect" does not specify a direction or mechanism, "young people" has no defined age range, and "wellbeing" is not operationalized. As written, it is unclear what would count as an answer.
+
+I recommend the authors narrow the question by specifying:
+
+1. **The exposure:** which platforms or behaviors (e.g., daily time on Instagram, passive scrolling, or exposure to appearance-focused content)?
+2. **The population:** the age range and setting (e.g., adolescents aged 13–16 in UK secondary schools).
+3. **The outcome:** the specific wellbeing construct and how it will be measured (e.g., depressive symptoms via PHQ-A, or self-reported life satisfaction).
+4. **The expected relationship:** whether the authors hypothesize a negative association, a positive one, or a non-linear effect.
+
+A revised question might read: "Is daily time spent on image-based platforms associated with higher depressive symptom scores among 13–16-year-olds?" This version identifies what is being tested and how it can be answered. The methods and analysis sections would then need to align with this revised framing.

@@ -1,0 +1,1 @@
+This marker shows that a data value is absent. It flags fields with no entered information or unavailable data, allowing you to differentiate true gaps from specific inputs like zeros or placeholders.

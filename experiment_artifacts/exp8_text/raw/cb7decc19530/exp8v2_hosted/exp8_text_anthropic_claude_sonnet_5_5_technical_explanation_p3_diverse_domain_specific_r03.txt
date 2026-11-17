@@ -1,0 +1,11 @@
+**Why software updates matter**
+
+Most updates are not about new features. They fix mistakes in code that attackers have already read.
+
+When a vendor publishes a patch, it also tells the world exactly where the flaw was. Attackers diff the old and new versions and often have a working exploit within days. The gap between "patch available" and "patch installed" is where most real-world breaches happen. Microsoft fixed the SMB flaw behind WannaCry in March 2017. The worm hit unpatched machines two months later. Equifax lost data on roughly 147 million people through an Apache Struts bug that had a fix available for more than two months.
+
+Security isn't the only reason. Software depends on things outside itself: TLS certificate chains, time zone rules, file format specs, and the libraries underneath it. When a root certificate expires or a country changes its daylight saving rules, unupdated systems quietly start failing or reporting the wrong time.
+
+Falling behind also makes each future update riskier. Moving from version 4.2 to 4.3 is a small change. Moving from 4.2 to 7.0 means working through years of deprecated settings and changed behavior all at once, usually during an emergency.
+
+Updates do sometimes break things, which is why testing them first, staging rollouts, and keeping a rollback path are sensible. But those are arguments for updating carefully, not for putting it off.

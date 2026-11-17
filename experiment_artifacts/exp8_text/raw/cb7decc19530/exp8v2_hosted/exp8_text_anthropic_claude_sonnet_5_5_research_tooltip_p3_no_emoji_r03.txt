@@ -1,0 +1,2 @@
+**Date range selector**
+Choose a start and end date to filter results. Click one date, then another to set the range. Both dates are included. Use the presets (such as Last 7 days or This month) for quick selection, or select Clear to reset.

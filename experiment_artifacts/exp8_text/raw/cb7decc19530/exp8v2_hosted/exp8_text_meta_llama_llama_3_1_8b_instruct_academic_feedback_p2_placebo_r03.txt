@@ -1,0 +1,11 @@
+Here is a sample feedback note on a student's methods section:
+
+"Overall, your methods section is clear and well-organized. However, there are a few areas where you could improve the presentation and detail of your procedures.
+
+One suggestion is to provide more context for the statistical analysis you performed. While it's clear that you used a regression model, it would be helpful to explain why you chose this particular approach and what variables were included in the model.
+
+Additionally, you may want to consider breaking up the text into smaller paragraphs to make it easier to follow. Some of the sentences are quite long and could be broken up to improve clarity.
+
+Finally, it would be great to see some tables or figures to illustrate the data that you collected. This would help to make the methods section more concrete and easier to understand.
+
+Keep up the good work and I'm looking forward to seeing the rest of your paper!"

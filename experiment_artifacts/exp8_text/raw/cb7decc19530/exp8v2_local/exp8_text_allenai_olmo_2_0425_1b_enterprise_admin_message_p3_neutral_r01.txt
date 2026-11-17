@@ -1,0 +1,5 @@
+ 1. Use the IP address of the VPN server in the "VPN server" section of the Client config.
+  2. Use the IP address of the computer in the "Computer" section of the Client config.
+  3. Use the IP address of the computer in the "Computer" section of the Config VPN Proxy settings.
+  4. Use the VPN logon credentials provided by the VPN service provider. This will provide access to the VPN server.
+  5. Use the VPN logon credentials provided by the VPN service provider. This will allow you access to the computer at the VPN server.

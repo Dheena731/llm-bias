@@ -1,0 +1,1 @@
+A date-range selector is a user interface component that allows users to select a specific period of time by entering or choosing a start and end date. This tool typically consists of two input fields, one for the start date and one for the end date, and may include additional functionality such as a calendar or date picker for ease of use.

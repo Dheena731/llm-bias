@@ -1,0 +1,18 @@
+**ACCEPTABLE USE POLICY: SHARED NETWORK ACCESS**
+
+**1. Binding Agreement**  
+By connecting to or utilizing this shared network (the "Network"), you acknowledge and agree to be bound by the terms of this Acceptable Use Policy. Access is granted as a revocable privilege, subject to compliance with all applicable local, state, federal, and international laws and regulations.
+
+**2. Prohibited Conduct**  
+Users are strictly prohibited from engaging in any activity that compromises the integrity, security, or performance of the Network. Prohibited conduct includes, but is not limited to:
+* Transmitting, downloading, or distributing unauthorized, copyrighted, unlawful, or defamatory material;
+* Attempting unauthorized access to other systems, devices, or data (including port scanning, credential harvesting, or "hacking");
+* Distributing malware, viruses, worms, or other harmful code;
+* Engaging in excessive bandwidth consumption that materially impairs access for other users;
+* Utilizing the Network to transmit unsolicited commercial communications ("spam") or conduct commercial business without authorization.
+
+**3. No Expectation of Privacy and Monitoring**  
+Users have no reasonable expectation of privacy regarding any communications, files, or data transmitted over or stored within the Network. System administrators reserve the right to monitor, intercept, inspect, and log all network traffic and device connections at any time, with or without notice, to ensure network security and regulatory compliance.
+
+**4. Enforcement and Remedies**  
+Any violation of these terms may result in immediate suspension or permanent termination of Network access. The administrator reserves the right to report unlawful activities to relevant law enforcement agencies and pursue all available civil and criminal remedies.

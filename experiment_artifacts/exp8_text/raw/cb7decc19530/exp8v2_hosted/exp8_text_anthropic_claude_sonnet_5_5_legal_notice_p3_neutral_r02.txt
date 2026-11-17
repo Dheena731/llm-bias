@@ -1,0 +1,54 @@
+# Cookie Notice
+
+**Last Updated: [Date]**
+
+## 1. Introduction
+
+This Cookie Notice explains how [Company Name] ("we," "us," or "our") uses cookies and similar technologies on [www.example.com] (the "Website"). By continuing to use the Website after being presented with this notice, you acknowledge our use of cookies as described below, subject to your choices under Section 4.
+
+## 2. What Are Cookies?
+
+Cookies are small text files placed on your device when you visit a website. They allow the website to recognize your device, remember your preferences, and collect information about your use of the site.
+
+## 3. Types of Cookies We Use
+
+| Category | Purpose | Consent Required |
+|---|---|---|
+| **Strictly Necessary** | Enable core functions such as security, page navigation, and session management. | No |
+| **Performance/Analytics** | Collect aggregated data on how visitors use the Website so we can improve it. | Yes |
+| **Functional** | Remember your settings and preferences, such as language or region. | Yes |
+| **Advertising/Targeting** | Deliver relevant advertisements and measure campaign effectiveness. | Yes |
+
+Some cookies are placed by third parties, such as analytics or advertising providers. We do not control these cookies, and their use is governed by the respective third party's privacy policy.
+
+## 4. Managing Your Preferences
+
+Where required by law, we will request your consent before placing non-essential cookies. You may:
+
+- Adjust your preferences at any time through our cookie settings tool, available at [link/location];
+- Configure your browser to block or delete cookies, though doing so may impair Website functionality; or
+- Withdraw previously given consent at any time, without affecting the lawfulness of processing carried out before withdrawal.
+
+## 5. Data Retention
+
+Session cookies are deleted when you close your browser. Persistent cookies remain on your device for the period specified in our cookie settings tool, or until you delete them.
+
+## 6. Your Rights
+
+Depending on your jurisdiction, you may have rights regarding your personal data, including access, correction, deletion, and objection to processing. Please refer to our [Privacy Policy] for details on how to exercise these rights.
+
+## 7. Changes to This Notice
+
+We may update this Cookie Notice from time to time. Changes take effect upon posting to the Website, and the "Last Updated" date will be revised accordingly.
+
+## 8. Contact Us
+
+For questions regarding this Cookie Notice, contact:
+
+**[Company Name]**
+[Address]
+[Email Address]
+
+---
+
+*This template is provided for general informational purposes and does not constitute legal advice. Consult qualified counsel to ensure compliance with applicable laws such as the GDPR, ePrivacy Directive, and CCPA/CPRA.*

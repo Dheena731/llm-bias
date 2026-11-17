@@ -1,0 +1,15 @@
+**ACTION REQUIRED: Q2 User Access Reviews (UAR) Open**  
+**Window:** Monday, May 12 – Friday, May 23 (17:00 UTC)  
+**Applies to:** Resource Owners, Engineering Managers, and Dept Leads  
+
+The Q2 certification campaign is now live in Conductor. This cycle covers production infrastructure (AWS/GCP), GitHub organization seats, Okta SSO entitlements, and SOC 2 in-scope SaaS tooling (Salesforce, Netsuite, Jira).
+
+**Required actions:**
+1. Log in to your review queue at `access.internal/reviews/q2-2024`.
+2. Inspect entitlements for role drift, particularly lateral transfers and contractor accounts untouched for >45 days.
+3. Explicitly flag **Revoke** for any permissions no longer required for day-to-day duties. *Do not use bulk-approve without spot-checking service accounts.*
+
+**Enforcement:**  
+Uncertified accounts will not roll over. Line items left unreviewed after May 23 will be automatically queued for deprovisioning on May 26 at 08:00 UTC to maintain audit compliance. 
+
+If a system owner has departed or your queue contains personnel outside your cost center, reassign the review directly in the portal or ping `#sec-identity`.

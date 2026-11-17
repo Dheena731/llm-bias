@@ -1,0 +1,18 @@
+In SQL query results, you can export the data to various formats using the `SELECT` statement combined with the `OUTFILE` or `OPENROWSET` API. When you use `SELECT`, you can specify the output format by including a `FORMAT` clause where you choose from `TEXT`, `CSV`, `Excel`, `PDF`, etc. For example, `SELECT * FROM your_table; FORMAT = 'CSV'` will export the result set as a CSV file. Alternatively, you can use `OPENROWSET` to import data from a file into your database, allowing for more sophisticated exports like `OPENROWSET(BULK 'path/to/your/file.csv', 'CSV')` for reading from a specific file directly into your database.
+
+Here’s a concise explanation:
+
+**To export query results to a file:**
+
+- Use `SELECT` with a `FORMAT` clause to define the file format. For example, `SELECT * FROM your_table; FORMAT = 'TEXT'` will create a plain-text version.
+- For more complex and structured files, like Excel or PDF, you can use `OPENROWSET` with `BULK` to specify the file path.
+- Example for CSV export: `SELECT * FROM your_table; FORMAT = 'CSV'` 
+
+**Here’s a simple workflow:**
+
+1. Run your SQL query.
+2. Choose the desired output format via `SELECT` or by calling `OPENROWSET` with the appropriate format instruction.
+3. Click on the file menu and select `Export` to save your results.
+4. Choose the destination file type ('Plain Text', 'CSV', 'Excel', etc.).
+
+**Note:** Make sure your SQL database supports the `OUTFILE` or `OPENROWSET` method for the export functionality you intend to use.

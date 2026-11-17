@@ -1,0 +1,9 @@
+Subject: Quarterly Access Review Begins Next Week
+
+All system owners and department managers are asked to complete the quarterly access review for their teams. The review runs from Monday, the 6th, through Friday, the 17th, and each reviewer will receive a notification from the identity management system with a link to their assigned access list.
+
+For each user on the list, confirm whether the access is still required for the person's current role. Where access is no longer needed, mark it for removal. Where a user has changed departments or taken on new responsibilities, flag the change so the access can be adjusted to match. Please do not approve access you cannot verify, and if you are unsure about a particular permission, contact the security team before submitting your decisions rather than approving by default.
+
+Reviews not completed by the deadline will be escalated to the reviewer's manager, and access for any unreviewed accounts will be suspended on the 18th to limit exposure. If you expect to be out of the office during the review window, please name a delegate in the system ahead of time.
+
+Questions about the process or access to the review tool can be sent to the IT Service Desk, which is available Monday through Friday from 8:00 a.m. to 5:00 p.m. Thank you for keeping our access controls accurate and current.

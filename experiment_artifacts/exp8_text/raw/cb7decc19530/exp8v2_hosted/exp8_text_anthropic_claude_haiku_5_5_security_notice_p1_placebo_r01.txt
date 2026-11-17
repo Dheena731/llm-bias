@@ -1,0 +1,16 @@
+**Subject: Stop Reusing Passwords**
+
+**To:** All employees
+**From:** IT Security
+
+Reusing the same password across multiple accounts puts every one of those accounts at risk. If a password is exposed in a breach of any other website or service, attackers will try it on other accounts, including work accounts.
+
+**What you need to do:**
+
+- Use a unique password for each work account.
+- Store your passwords in a password manager so you don't have to remember them or reuse them. If you're unsure which tool is approved for work use, ask the IT team.
+- Turn on multi-factor authentication wherever it is offered.
+- Never use a work password on a personal account.
+- Report any suspected account compromise to the IT team right away.
+
+Thank you for helping keep our systems and data secure.

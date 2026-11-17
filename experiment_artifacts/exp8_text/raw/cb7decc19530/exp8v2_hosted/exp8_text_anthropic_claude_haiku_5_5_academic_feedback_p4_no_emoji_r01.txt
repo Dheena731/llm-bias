@@ -1,0 +1,21 @@
+Here is a sample feedback note. If you share the actual poster draft (text, image, or a description), I can tailor it to your work.
+
+---
+
+**Feedback on Conference Poster Draft**
+
+Thank you for sharing the draft. The core finding is clear and the layout is clean, with a logical top-to-bottom flow.
+
+**Strengths**
+- The title communicates the topic at a glance.
+- The color scheme is consistent and readable from a distance.
+- The methods figure is well labeled.
+
+**Suggestions**
+1. **Strengthen the takeaway.** The main result appears in the middle of the results section. Move it to a prominent callout box so viewers can grasp it in under 10 seconds.
+2. **Reduce text.** Several paragraphs exceed 80 words. Aim for short bullet points, since attendees typically spend only a few minutes at each poster.
+3. **Enlarge figures.** The results graph's axis labels are small enough to be hard to read at a standing distance. Increase them to at least 24 pt.
+4. **Add a clear conclusion.** Consider a one-sentence "Implications" or "Next steps" section to give viewers a reason to start a conversation with you.
+5. **Include a QR code or contact line.** This lets interested readers get the full paper or your email without needing to ask.
+
+**Overall:** The poster is close to ready. Prioritize the takeaway box and figure sizing, then tighten the text.

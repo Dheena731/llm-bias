@@ -1,0 +1,17 @@
+**Incident Update: Delay to USD ACH Settlement Batches**
+
+**Current Status:** In Progress  
+**Affects:** Merchant Payouts & Sub-account Sweeps (USD)
+
+The 06:00 UTC outbound NACHA file for daily merchant settlements failed validation at our primary partner bank due to a formatting rejection on batch sequence numbering. Inbound authorizations, card processing, and gateway API endpoints are operating normally and are completely unaffected.
+
+**Impact:**
+* Payouts marked as "In Transit" between 22:00 UTC yesterday and 06:00 UTC today missed the morning FedACH clearing window.
+* These transactions will not post to beneficiary bank accounts on the standard same-day afternoon schedule.
+
+**Resolution:**
+The invalid batch sequence has been corrected and the ledger re-verified. The transfers have been repooled into the secondary 17:00 UTC settlement window. Funds are expected to clear into merchant accounts by 09:00 EST tomorrow morning.
+
+No action is required on your part; retry logic is being handled internally without duplicate debit risk. 
+
+Next operational update will be posted at 17:30 UTC once we receive the file-acceptance receipt from the clearinghouse.

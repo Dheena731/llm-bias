@@ -1,0 +1,15 @@
+Subject: Upcoming change to the company VPN client
+
+Hello everyone,
+
+We are replacing our current VPN client with a newer version on [date]. The update improves connection stability, speeds up reconnection after network changes, and brings the client in line with current security standards. Your credentials and sign-in method will stay the same.
+
+The new client will be installed automatically on managed devices the next time they restart after [date], so no action is needed for most people. If you use a personal device for work, you will need to uninstall the old client and install the new one from the company software portal. Until you update, your current client will keep working through [cutoff date], after which it will no longer be able to connect.
+
+After the update, you may be asked to sign in again and approve a one-time prompt to allow the new client to configure your network settings. This is expected. If you have trouble connecting, restart your device first, and if the problem continues, contact the IT help desk at [contact information] with a brief description of what you see.
+
+Thank you for your patience while we make this improvement. We will send a reminder shortly before the cutoff date.
+
+Best regards,
+[Name]
+IT Support

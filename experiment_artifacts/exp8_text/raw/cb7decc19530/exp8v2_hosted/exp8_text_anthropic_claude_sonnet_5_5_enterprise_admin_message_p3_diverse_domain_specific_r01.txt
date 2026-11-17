@@ -1,0 +1,22 @@
+**Subject: VPN client 4.8 on Tuesday, 14 May: UDP 51820 required, and old profiles stop working**
+
+On Tuesday, 14 May, we're moving the VPN from IKEv2/IPsec to WireGuard. Client 4.8 is the first version that supports it. Version 4.6 and earlier will stop connecting at 18:00 that day.
+
+**What changes for you**
+- The client now connects over UDP 51820. If you're on a network that blocks outbound UDP (some hotels, airports, and client sites), it will fall back to TCP 443. Expect slower connections in that case.
+- Reconnects after sleep or a Wi-Fi switch should take about a second instead of 10 to 15.
+- Your saved profile will be replaced. You'll need to sign in again with SSO and approve a new device key.
+- Split tunneling is unchanged. Traffic to 10.20.0.0/16 and 10.40.0.0/16 goes through the VPN, and everything else goes out directly.
+
+**What to do**
+1. Install 4.8 from Self Service (Mac) or Software Center (Windows). Linux users can use the `.deb` or `.rpm` on the wiki page.
+2. Open the client, delete the old "Corp-IKEv2" profile, and connect to "Corp".
+3. If it hangs on "Connecting" for more than 30 seconds, send us the log from Help → Export diagnostics.
+
+**Known issues**
+- Some home routers with double NAT drop the first handshake. Retrying once usually fixes it.
+- The MTU is now 1380. If an internal tool that worked before now times out on large uploads, let us know which one.
+
+Questions go to #it-network or netops@example.com. We'll have extra people in the channel from 08:00 to 17:00 on the 14th and 15th.
+
+— Network Ops

@@ -1,0 +1,1 @@
+This dataset filter allows you to choose specific columns to display in your analysis report based on your research needs. Simply select the columns you want to include or exclude from the visualization to tailor your data insights.

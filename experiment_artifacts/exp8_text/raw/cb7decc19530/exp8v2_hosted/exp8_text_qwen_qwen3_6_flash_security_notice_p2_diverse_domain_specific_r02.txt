@@ -1,0 +1,17 @@
+**Notice: Phishing Email Protocol**
+
+Over the past few weeks, our monitoring has flagged recurring attempts to compromise staff accounts and initiate unauthorized payments through deceptive email. Attackers are currently using spoofed vendor invoices, fake HR policy updates, and calendar invites containing malicious links.
+
+Before taking action on any request, verify these details:
+- The sender’s address exactly matches the legitimate domain. Watch for lookalikes (e.g., `supp0rt@`, `.net` instead of `.com`, or personal Gmail addresses masquerading as internal staff).
+- Hover over every link before clicking. Confirm the destination points to an approved company system or a previously vetted partner portal.
+- Treat any message requesting wire changes, gift cards, MFA bypass, or password resets as unverified until confirmed via a separate channel.
+
+If an email triggers suspicion:
+1. Do not reply, click attachments, or select links.
+2. Forward the original message to `security@yourdomain.com` with `PHISH CHECK` in the subject line.
+3. Delete the copy from your inbox.
+
+If you’ve already entered credentials, shared financial details, or installed software from an unsolicited link, call the IT Help Desk immediately at ext. 4357. They will secure affected systems and walk you through remediation.
+
+This guidance covers email, attachments, and embedded links. The security team will rotate training reminders quarterly. Direct operational questions to the Information Security group.

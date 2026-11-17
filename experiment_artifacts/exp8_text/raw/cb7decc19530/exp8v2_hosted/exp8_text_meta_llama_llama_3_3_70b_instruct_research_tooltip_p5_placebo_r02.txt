@@ -1,0 +1,1 @@
+"To export query results, click the 'Export' button above the results table. Select your desired file format, such as CSV or Excel, and choose the columns you want to include. You can also customize the export settings, like delimiter and encoding, to suit your needs. Once you've made your selections, click 'Export' to download the file."

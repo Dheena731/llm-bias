@@ -1,0 +1,41 @@
+NOTICE OF ACCEPTABLE USE OF SHARED NETWORK
+
+To all users of the shared network,
+
+This notice outlines the acceptable use of the shared network, which includes all computers, servers, and other devices connected to the network.
+
+**PROHIBITED USES**
+
+The following activities are strictly prohibited and may result in termination of network privileges:
+
+*  Unauthorized access to the network or its devices, including hacking, cracking, or attempting to bypass security measures.
+*  Distribution of viruses, malware, or other malicious software.
+*  Intentional disruption of network services, including denial-of-service attacks.
+*  Unlawful or unauthorized use of the network for any purpose.
+
+**PERMITTED USES**
+
+The following activities are permitted, provided they are in compliance with all applicable laws and regulations:
+
+*  Personal use of the network for email, browsing, and other standard internet activities.
+*  Use of network resources for academic or research purposes.
+*  Access to network services for authorized employees, contractors, and clients.
+
+**RESPONSIBILITIES**
+
+*  Users are responsible for maintaining the security and integrity of their own devices and data.
+*  Users are responsible for complying with all applicable laws and regulations, including copyright and intellectual property laws.
+*  Users are responsible for reporting any security incidents or unauthorized use to the network administrator.
+
+**TERMINATION OF PRIVILEGES**
+
+The network administrator reserves the right to terminate the network privileges of any user who violates this notice or engages in prohibited activities. Termination of privileges may be immediate and without prior notice.
+
+**ACKNOWLEDGMENT**
+
+By using the shared network, users acknowledge that they have read and understood this notice and agree to comply with its terms. Users are expected to act in a responsible and respectful manner when using the network.
+
+Sincerely,
+
+[Your Name]
+Network Administrator

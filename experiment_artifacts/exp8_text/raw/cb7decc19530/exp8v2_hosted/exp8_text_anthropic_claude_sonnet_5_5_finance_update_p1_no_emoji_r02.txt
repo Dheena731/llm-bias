@@ -1,0 +1,20 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a new Monthly Spending Summary to help you understand where your money goes without digging through individual transactions.
+
+**What it shows**
+- Total spending for the month, compared with the previous month
+- A breakdown by category, such as groceries, transportation, dining, and bills
+- Your largest individual purchases
+- Recurring charges and subscriptions
+
+**How it works**
+Your summary is generated automatically at the end of each month using the transactions already linked to your account. You don't need to set anything up. To view it, open the Insights tab and select Monthly Summary. Past summaries are saved so you can look back and spot trends over time.
+
+**Customizing your view**
+You can rename categories, reassign transactions that were sorted incorrectly, and choose whether to receive a notification when your new summary is ready. Changes you make will be reflected in future summaries.
+
+**Why we built it**
+Many of you told us you wanted a simpler way to review your finances at a glance. We hope this makes it easier to set goals, catch unexpected charges, and plan ahead.
+
+We're continuing to improve this feature, so please send us your feedback through the Help menu.

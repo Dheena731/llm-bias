@@ -1,0 +1,13 @@
+**Subject: Updated Expense Approval Routing – Effective [Date]**
+
+Starting [Date], all expense submissions will follow the revised routing matrix. 
+
+- Claims ≤ $500 route directly to your department manager.
+- Claims $501–$2,000 require secondary review by Finance before payout.
+- Claims > $2,000 must include a valid project code and documented pre-approval from the budget owner at time of submission.
+
+Receipts must be itemized. Summary receipts, hotel folios without breakdowns, or blurry screenshots will be returned for correction. Fully approved claims enter a 10-business-day processing window. Partially submitted or misrouted claims pause until corrected; reimbursement dates are not extended retroactively.
+
+The new routing logic is live in the expense portal. Managers should confirm their delegation queue and approver hierarchy by [date]. Finance will track routing accuracy through the next two pay cycles—please flag stuck submissions or incorrect approvers to expense-support@ with your claim ID.
+
+Categorization guidance and exception procedures are posted on the internal wiki. For threshold overrides, submit a brief justification note attached to the original claim.

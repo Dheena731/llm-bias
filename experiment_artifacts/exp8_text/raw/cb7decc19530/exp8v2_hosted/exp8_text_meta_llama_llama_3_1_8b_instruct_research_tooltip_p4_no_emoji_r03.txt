@@ -1,0 +1,1 @@
+A missing-value marker indicates that the data point or value is unavailable or has not been reported for a particular location, time period, or other relevant dimension.

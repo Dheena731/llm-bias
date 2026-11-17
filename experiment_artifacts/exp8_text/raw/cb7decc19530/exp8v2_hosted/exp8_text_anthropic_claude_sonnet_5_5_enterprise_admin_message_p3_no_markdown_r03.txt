@@ -1,0 +1,22 @@
+Subject: Upcoming VPN Client Update
+
+Hello everyone,
+
+We are updating our VPN client to a new version on Thursday, June 12, beginning at 8:00 PM. The update should take about 15 minutes, and you may be briefly disconnected during that time.
+
+What is changing:
+- A redesigned interface that makes connecting easier
+- Faster connection times and improved stability
+- Stronger security protocols
+
+What you need to do:
+- Save your work and disconnect from the VPN before 8:00 PM if possible
+- After the update, restart your computer and launch the new client
+- If prompted, sign in again with your usual company credentials
+
+If you run into any problems, please contact the IT Help Desk at helpdesk@company.com or ext. 4357. We are happy to help.
+
+Thank you for your patience as we make these improvements.
+
+Best regards,
+IT Support Team

@@ -1,0 +1,14 @@
+Subject: Upcoming Email System Migration
+
+Dear Team,
+
+We will be migrating our email system to a new platform this coming weekend, starting Friday at 6:00 PM and concluding by Saturday morning. 
+
+During this maintenance window, you may experience brief interruptions in sending and receiving messages. Any emails sent to you during this time will be queued and delivered normally once the update is complete. 
+
+You will receive detailed instructions before the weekend on how to access the new webmail interface and update your mobile devices. If you have any questions or experience issues after the migration, please contact the IT Help Desk.
+
+Thank you for your patience and cooperation as we upgrade our systems.
+
+Best regards,
+IT Support Team

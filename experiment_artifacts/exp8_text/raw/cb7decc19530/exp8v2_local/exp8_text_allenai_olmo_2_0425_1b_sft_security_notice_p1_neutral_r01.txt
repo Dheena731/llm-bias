@@ -1,0 +1,5 @@
+Hello employees,
+
+As we continue to expand our services, we must ensure that our security measures are also keeping up with the times. We are now aware of password reuse, and if this is to happen, we will be monitoring and tracking all users to make sure you are aware of the risks, and that you are not using the same password on both the company network and online.
+
+We also recommend using a password manager with a 2-step verification process.

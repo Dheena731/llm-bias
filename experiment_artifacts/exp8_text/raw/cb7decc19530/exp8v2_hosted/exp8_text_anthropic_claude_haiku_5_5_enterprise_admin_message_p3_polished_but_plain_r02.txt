@@ -1,0 +1,11 @@
+Subject: VPN client update arriving next week
+
+Starting Tuesday, June 10, the company VPN client will update automatically to version 4.2. The new version includes a redesigned sign-in screen, faster reconnection after a network change, and improved support for split tunneling, so you can route only work traffic through the VPN while personal browsing uses your regular connection.
+
+You do not need to take any action before the update. The first time you open the client afterward, you will be asked to sign in again with your work account and approve the sign-in through the authenticator app you already use. If you have a saved VPN profile, it will carry over automatically. If a profile is missing, contact the IT help desk and they will restore it.
+
+If you run into problems connecting, restart your computer and try again. If the issue continues, reach out to the help desk at extension 4400 or by emailing helpdesk@company.example, and include your device name and the time the error occurred.
+
+Thank you for your patience as we roll out these improvements.
+
+IT Services

@@ -1,0 +1,1 @@
+Select a start date and an end date to view information within that specific time period. All results will be filtered to display only items that fall between the two chosen dates.

@@ -1,0 +1,24 @@
+I don't have the student's methods section yet. If you paste it in, along with the discipline, level (undergrad, master's, PhD), and any priorities such as reproducibility or concision, I can tailor the note. In the meantime, here is an adaptable template:
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for your draft. Your methods section has a clear foundation, and I especially appreciate [specific strength, e.g., the logical order of procedures / the detail on participant recruitment].
+
+**Strengths**
+- [Example: Your study design is clearly identified and fits your research question.]
+- [Example: Instruments and materials are described precisely.]
+
+**Areas to strengthen**
+1. **Reproducibility:** Add the detail another researcher would need to repeat your study, such as [sample size justification, software versions, procedural steps, exclusion criteria].
+2. **Justification:** Explain *why* you chose these methods over alternatives, not just what you did.
+3. **Analysis plan:** Specify how you analyzed the data and how each analysis maps to your research questions or hypotheses.
+4. **Clarity and concision:** Cut material that belongs in the introduction or results, and keep your tense consistent (typically past tense).
+
+**Next steps**
+Revise with these points in mind, paying particular attention to [top priority]. I'm happy to look at a second draft or talk it through in office hours.
+
+---
+
+Send the student's text and I'll write specific, line-level feedback in place of the placeholders.

@@ -1,0 +1,1 @@
+Tooltip: A confidence interval is a range of values that estimates the probable true value of a population parameter, such as the mean, variance, or proportion. It shows the confidence of the statistical estimate.

@@ -1,0 +1,1 @@
+Select a range of dates by choosing a start and end date from the calendar. You can choose dates by clicking on them or by typing them in manually. The selected date range will be used to filter the data.

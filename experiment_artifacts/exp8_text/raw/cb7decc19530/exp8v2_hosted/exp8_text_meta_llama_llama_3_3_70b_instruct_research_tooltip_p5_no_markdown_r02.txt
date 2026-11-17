@@ -1,0 +1,1 @@
+To export query results, select the desired format from the dropdown menu, such as CSV or Excel, and then click the Export button. You can also choose to export all results or only the currently displayed page.

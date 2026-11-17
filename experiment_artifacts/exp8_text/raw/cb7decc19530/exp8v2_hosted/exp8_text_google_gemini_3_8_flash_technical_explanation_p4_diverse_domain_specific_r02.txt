@@ -1,0 +1,9 @@
+Every uncached dynamic page request requires an expensive round-trip: the client negotiates a connection across the public internet, an application runtime parses the request, the database executes queries and disk reads, the server serializes the result into HTML or JSON, and the payload travels back. 
+
+Caching speeds this up by short-circuiting that execution chain, trading memory for compute at multiple layers:
+
+1. **Client / Browser Cache (Eliminates the network):** By checking headers like `Cache-Control: max-age` or validating via `ETag`, the browser loads assets (CSS, bundles, images) directly from local disk or RAM. Latency drops to roughly zero milliseconds because no packets leave the device.
+2. **Edge / CDN Caching (Shortens the wire):** Content Delivery Networks hold static assets and pre-rendered page fragments at points of presence (PoPs) physically close to the user. This eliminates geographical routing delays and terminates TLS handshakes thousands of miles closer to the user than your origin server.
+3. **Application / Database Caching (Eliminates the compute):** On the backend, tools like Redis or Memcached store expensive query results or pre-assembled UI components in memory. Instead of a database parsing complex `JOIN` queries or disk-bound reads, the app retrieves a serialized object via an in-memory key-value lookup in single-digit milliseconds.
+
+By serving pre-computed bytes from the nearest physical location, caching reduces Time to First Byte (TTFB), preserves database connection pools, and prevents the origin server from wasting CPU cycles solving identical problems repeatedly.

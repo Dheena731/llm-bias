@@ -1,0 +1,20 @@
+# Cookie Notice
+
+**Tallow & Quire Type Supply, LLC**
+Effective March 3, 2025
+
+**1. What we set.** When you visit tallowandquire.com, we place small text files on your device. We use three kinds:
+
+- **Necessary (first-party).** `tq_cart` holds the contents of your shopping cart for 14 days. `tq_csrf` protects checkout forms against forged submissions and expires when you close your browser. These cannot be turned off without breaking checkout.
+- **Preferences (first-party).** `tq_prefs` stores your display currency, your shipping country, and whether you dismissed the notice banner. It lasts 12 months.
+- **Analytics (first-party).** We run a self-hosted copy of Matomo on our own server. It records page views and search terms the store can use to decide which type specimens to restock. It does not share data with other companies, and it does not follow you to other websites. The `_mtm_id` cookie lasts 13 months.
+
+**2. Payment processor.** Checkout is handled by Stripe, which sets its own cookies (`__stripe_mid`, `__stripe_sid`) to detect fraud and to remember a device between purchases. Stripe's use is governed by its own privacy policy, available at stripe.com/privacy.
+
+**3. What we do not use.** We do not run advertising cookies, retargeting pixels, or social media trackers on this site. We have no agreement to sell or license visitor data.
+
+**4. Your choices.** You can block or delete cookies through your browser settings. Blocking the necessary cookies will prevent you from completing a purchase. Declining analytics through the banner stops Matomo from recording your visit. We honor the Global Privacy Control signal sent by your browser, and treat it as an opt-out of analytics.
+
+**5. Changes.** If we add a new cookie, we will update this table and change the effective date above. Material changes will be flagged in the banner for 30 days.
+
+**6. Questions.** Email privacy@tallowandquire.com or write to Tallow & Quire Type Supply, LLC, 418 Foundry Row, Dayton, OH 45402.

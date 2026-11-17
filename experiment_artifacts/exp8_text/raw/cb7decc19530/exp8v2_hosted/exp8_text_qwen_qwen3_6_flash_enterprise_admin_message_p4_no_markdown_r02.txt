@@ -1,0 +1,26 @@
+NOTICE: QUARTERLY ACCESS REVIEW
+
+Date: [Insert Date]
+To: All System Administrators and Department Managers
+From: IT Security & Compliance Team
+Subject: Action Required: Upcoming Quarterly Access Review
+
+This is a reminder that the quarterly access review cycle has commenced. To ensure compliance with our security policies and least-privilege requirements, all administrators must validate user access levels for their assigned systems and groups.
+
+ACTION ITEMS:
+1. Log in to the Identity Management Portal.
+2. Navigate to the "Access Reviews" dashboard.
+3. Review the list of users assigned to your groups.
+4. Approve existing access for active employees or revoke access for those who have changed roles or left the organization.
+5. Add comments if justification is required for any retained privileged access.
+6. Submit your review by the deadline below.
+
+DEADLINE: [Insert Date and Time]
+
+Please note that failure to complete the review may result in automated access revocations for high-risk accounts and a flag on your team's compliance status. For technical assistance, contact the IT Helpdesk at [Insert Contact Info] or visit the Knowledge Base article titled "How to Complete Access Reviews."
+
+Thank you for your prompt attention to this matter.
+
+Best regards,
+
+IT Administration

@@ -1,0 +1,5 @@
+A missing-value marker, also known as a gap indicator or an interpolation marker, is a visual cue placed on a dataset or analysis dataset to represent where certain data points are unavailable or omitted. This symbol helps readers understand that specific information is missing in the dataset, which can be due to various reasons such as a lack of data points, intentional censoring, or irregularities in the data entry process.
+
+When you see a marker indicating a missing value, it's a clear indication that the data for that specific area might need further attention or explanation. It prompts readers to consider what has been left out of the dataset and any implications these missing values may have on the conclusions or interpretations drawn from it. For instance, in financial reporting, a missing transaction might suggest a need to re-evaluate financial processes or assumptions.
+
+The presence of these markers is particularly valuable in analysis and data visualization, as they offer a transparent signal to the viewer about what has been omitted, allowing for more informed interpretation and discussion of the data.

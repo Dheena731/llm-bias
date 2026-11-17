@@ -1,0 +1,13 @@
+**Security Notice: Do Not Reuse Passwords**
+
+To all staff,
+
+Reusing passwords across multiple accounts creates a serious security risk for our organization. If an external service or personal account experiences a data breach, unauthorized individuals often test those exposed credentials on other platforms. Using the same password in multiple places allows an attacker who compromises one account to easily access your workplace systems and confidential company information.
+
+To keep our network and data secure, please follow these requirements:
+
+* **Use a unique password for every account:** Never use your workplace password for personal email, banking, social media, or other outside websites.
+* **Make passwords complex:** Combine uppercase and lowercase letters, numbers, and symbols to ensure passwords cannot be easily guessed.
+* **Use a password manager:** Rely on a secure password manager to generate and store your credentials so you do not need to memorize multiple complex passwords.
+
+If you currently use your work password for any personal or external accounts, please change it immediately. If you have questions or need assistance, please contact the IT support team.

@@ -1,0 +1,39 @@
+Don't forget to add an English language flag in your README.md if you are a non-English speaker.
+
+Use the source format of your choice when documenting queries, just make sure the documentation is in Markdown or reStructuredText. Also, use this lovely tool to convert your source markdown to HTML.
+
+npm test
+
+The test coverage is now 100%.
+
+Publish the org package
+
+Publish your package on npm so that it can be used by other developers. You will find more information regarding npm here.
+
+To publish, in your package.json, run:
+
+npm publish --tag dev
+
+This will publish your package as a development dependency.
+
+Publishing to npm is free for up to two releases, after that you will need to pay a small fee.
+
+Create a GitHub Gist
+
+We need to create a GitHub Gist that will contain our documentation. You can find out more about Gists here.
+
+Add the following line and commit the change:
+
+Fixed up README.md
+
+Now push the change to GitHub and we've successfully published our documentation.
+
+Add to the Handbook
+
+Add the documentation to the Handbook here. You can add as many pages as you want.
+
+Add a new page by adding the following line to the top of your page:
+
+# <slugInIt>
+
+And then add the content of your page, remembering to keep it in Markdown. Now remember to commit this change and push to GitHub.

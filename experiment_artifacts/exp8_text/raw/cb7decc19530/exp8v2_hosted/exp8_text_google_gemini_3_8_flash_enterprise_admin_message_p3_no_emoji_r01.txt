@@ -1,0 +1,9 @@
+Subject: Upcoming Change to the Company VPN Client
+
+Please be advised that we are transitioning to a new VPN client, [New Client Name], effective [Date]. 
+
+To ensure uninterrupted remote access to company resources, all employees must install and configure the new client before [Deadline]. Step-by-step setup instructions are available here: [Link to Guide].
+
+Once the transition is complete, the previous VPN client will no longer be supported. 
+
+If you need assistance with the installation, please contact the IT Helpdesk at [Contact Information].

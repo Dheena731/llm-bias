@@ -1,0 +1,16 @@
+NOTICE OF COOKIE USAGE
+
+This website ("Site") utilizes cookies and comparable tracking technologies to collect, store, and process information relating to your browsing activity. By accessing or continuing to use this Site, you acknowledge and agree to the collection and use of cookies as outlined herein.
+
+DEFINITION OF COOKIES
+A cookie is a small text file that a web server places on your device when you visit a website. Cookies enable websites to recognize your device, remember your preferences, and maintain session state across pages or visits.
+
+CATEGORIES AND PURPOSES
+The Site deploys the following classifications of cookies:
+One. Essential Cookies: Strictly necessary for core Site operations, including security authentication, load balancing, and navigation. These cookies cannot be disabled without compromising Site functionality.
+Two. Performance and Analytics Cookies: Gather aggregated, anonymized data regarding visitor traffic, page views, and error rates. This information is utilized to optimize Site performance and user experience.
+Three. Functionality Cookies: Retain your expressed preferences, such as language selection, display settings, and regional preferences, to personalize your interaction with the Site.
+Four. Marketing and Tracking Cookies: Monitor your browsing activity across sites to deliver targeted advertising, measure campaign efficacy, and limit advertisement frequency. These may be deployed by external advertising networks.
+
+THIRD PARTY DISCLOSURES
+Certain cookies are installed by third party service providers, including analytics firms, advertising exchanges, and social media integrations. Such entities operate under independent privacy policies and may collect data directly in accordance with their respective terms. We do not control these

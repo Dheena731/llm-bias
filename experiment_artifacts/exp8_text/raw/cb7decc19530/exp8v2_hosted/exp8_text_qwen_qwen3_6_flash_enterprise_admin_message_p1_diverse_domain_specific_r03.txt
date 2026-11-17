@@ -1,0 +1,3 @@
+**Subject:** Maintenance Window: Analytics Dashboard – [Date] | [Start Time]–[End Time] [Timezone]
+
+The dashboard will be unavailable for backend schema migrations and cache layer rebuilds. All user-facing views, data exports, and webhook dispatches will pause during this window. Active sessions will terminate at [Start Time]; please commit unsaved filters and close open query builders beforehand. Queued sync jobs and scheduled reports will resume automatically once we post `UP` in #platform-status. If the interface remains non-responsive past [End Time + 15m], reply here with your org slug so ops can check service health. Rollback is pre-approved but only triggered if core read/write paths fail.

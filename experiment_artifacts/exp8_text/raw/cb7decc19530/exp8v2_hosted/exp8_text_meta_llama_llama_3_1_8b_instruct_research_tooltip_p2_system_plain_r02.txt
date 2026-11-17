@@ -1,0 +1,1 @@
+A confidence interval is a range of values used to estimate a population parameter based on a sample. It indicates the reliability of the estimate, with the interval's width reflecting the level of uncertainty. A 95% confidence interval, for example, means that 95 times out of 100, the true population parameter would fall within this range.

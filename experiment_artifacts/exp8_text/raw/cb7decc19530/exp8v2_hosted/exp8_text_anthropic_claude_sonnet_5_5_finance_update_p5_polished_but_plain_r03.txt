@@ -1,0 +1,11 @@
+Update on Delayed Payment Processing
+
+We are aware that some payments are taking longer than usual to process, and we want to share what we know so far. Since early this week, a portion of transactions have remained in a pending state for several hours beyond the normal window, and a smaller number have taken more than a full business day to complete.
+
+The delay stems from a backlog at one of our payment processing partners, which is working through an unusually high volume of requests following a system upgrade on their end. Our own systems are operating normally, and there is no indication that any payment information has been lost or compromised. Funds that have been submitted are safe and will be applied once processing completes.
+
+If you have made a payment that still appears as pending, please avoid submitting it a second time. Duplicate attempts add to the backlog and may result in a double charge that we would then need to reverse. In most cases, the original payment will clear without any action on your part. If a charge appears on your bank statement but has not been reflected in your account, it is still being processed and will be matched automatically.
+
+We are monitoring the situation closely and expect processing times to return to normal within the next one to two business days. Anyone with a payment due during this period will not be penalized for a late posting that results from this issue. If you receive a late notice in error, please contact our support team with your transaction reference, and we will correct it promptly.
+
+We will share another update as soon as the backlog is cleared, or sooner if anything changes. Thank you for your patience, and we apologize for the inconvenience this has caused.

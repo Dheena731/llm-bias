@@ -1,0 +1,9 @@
+Here's a sample feedback note on a student's methods section:
+
+"Your methods section is clear and well-organized, but I'd like to see more nuance in your discussion of data collection. Specifically, the use of both survey and interview data is a strength, but I'm not entirely convinced that the sampling strategies were adequate for the survey instrument. Consider adding more details about how you accounted for non-response bias in your survey sample - for instance, did you use any imputation techniques to address missing data?
+
+Additionally, I'd love to see a more detailed explanation of how you measured and operationalized the concept of 'sustainability awareness' in your interview protocol. While I understand the importance of this construct, I'm not clear on how you ensured that respondents understood the term in the same way. Perhaps you could include more information about the interview guide and any pilot testing that was conducted?
+
+Lastly, I appreciate the use of visualizations to illustrate your results, but I think it would be helpful to include more details about how these were created and what they're intended to show. Are these results from a statistical analysis, or are they more descriptive in nature? Clarifying this would make the results section even more effective."
+
+This feedback is specific to the domain (social sciences, likely environmental studies or sustainability research), and is written in a distinct, non-generic style. It provides actionable feedback that encourages the student to revise and improve their methods section.

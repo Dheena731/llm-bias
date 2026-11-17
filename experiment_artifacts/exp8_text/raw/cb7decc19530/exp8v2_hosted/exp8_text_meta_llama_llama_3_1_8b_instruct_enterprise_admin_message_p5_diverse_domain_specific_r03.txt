@@ -1,0 +1,9 @@
+Here's a sample message:
+
+"As part of our ongoing efforts to improve email system reliability and performance, we will be migrating our email services to a new infrastructure on [Date]. This upgrade will enhance delivery speeds, add new security features, and provide a more seamless user experience.
+
+During the migration, email services will be temporarily unavailable between [Start Time] and [End Time]. Users will not be able to send or receive emails during this period. We anticipate a brief disruption and will do our best to minimize the impact on your daily activities.
+
+Your [Domain Name] email account will be unaffected by this change, and you can expect no changes to your email address, password, or account settings. If you have any questions or concerns, please don't hesitate to reach out to our support team.
+
+We appreciate your understanding and cooperation as we complete this upgrade. If you have any questions or need assistance, our support team is here to help."

@@ -1,0 +1,1 @@
+Caching is a technique used to speed up a website by storing frequently accessed data in a temporary storage area, called a cache, so that it can be quickly retrieved when needed instead of being retrieved from a slower source. This allows a website to serve its content to users faster, making it more responsive and efficient.

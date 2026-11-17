@@ -1,0 +1,1 @@
+Enabling two-factor authentication adds an extra layer of security to your accounts. It typically involves receiving a code via text message or email upon sign-up, and the code must be entered on the website when logging in. This protects you even if your password is compromised. This step is highly recommended for your account's safety.

@@ -1,0 +1,3 @@
+Here is a concise tooltip that explains what a missing-value marker means:
+
+"A missing-value marker indicates that a value is not available or has been intentionally left blank for a specific data point. This marker is often represented by a dash (-) or a blank space, and its presence is used to distinguish it from actual data values."

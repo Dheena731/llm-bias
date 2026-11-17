@@ -1,0 +1,1 @@
+To export query results, select the desired format from the options provided, such as CSV, Excel, or JSON, and then choose a location to save the file. You can also specify additional settings, such as the delimiter and encoding, before initiating the export process.

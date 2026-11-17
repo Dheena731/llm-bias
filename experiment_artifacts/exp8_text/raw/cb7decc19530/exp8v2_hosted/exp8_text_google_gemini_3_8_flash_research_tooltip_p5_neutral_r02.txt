@@ -1,0 +1,3 @@
+**"Export query results to a CSV, Excel, or JSON file."** 
+
+*(Or even shorter: **"Download results as CSV or Excel."**)*

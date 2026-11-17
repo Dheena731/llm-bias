@@ -1,0 +1,1 @@
+We stopped guessing whether v0.3.1 was ready for the playtest. The new build-ticket sync ties every commit, sprite push, and audio drop directly to its source ticket. Now you can see what’s actually compiled versus what’s still bouncing across branches. Fewer 2 AM “wait, did that merge?”

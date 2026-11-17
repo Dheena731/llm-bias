@@ -1,0 +1,14 @@
+Here is a short and clear message about an upcoming email migration:
+
+"Dear Faculty and Staff,
+
+As part of our ongoing efforts to improve email services, we will be migrating to a new email system on [Date]. This change will enable us to provide more reliable and secure email services to the university community.
+
+The new system, which utilizes advanced [Technology XYZ] architecture, will offer improved performance, enhanced security features, and easier management of email accounts. Our IT team has been working closely with the vendor to ensure a seamless transition.
+
+To ensure a smooth migration, we kindly request that you update your email client settings to [settings]. If you encounter any issues, please contact the IT Help Desk at [contact information].
+
+Thank you for your cooperation and patience as we complete this important upgrade.
+
+Best regards,
+[Your Name]"

@@ -1,0 +1,1 @@
+**Download result set as CSV, Parquet, or NDJSON (up to 100k rows). Exports reflect active column filters and sorting.**

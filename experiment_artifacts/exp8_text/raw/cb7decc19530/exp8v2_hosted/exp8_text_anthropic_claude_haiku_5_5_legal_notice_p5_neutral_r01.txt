@@ -1,0 +1,38 @@
+**ACCEPTABLE USE POLICY NOTICE**
+**Shared Network Resources**
+
+**1. Purpose and Scope**
+This Notice governs the use of the shared network, including all wired and wireless connections, servers, storage systems, and internet access provided to authorized users (“Users”). By connecting to or using the network, each User agrees to comply with this Notice.
+
+**2. Authorized Use**
+The network is provided for lawful purposes related to work, study, or other activities expressly authorized by the network administrator. Limited personal use is permitted provided it does not interfere with network performance, the rights of other Users, or the obligations of the User.
+
+**3. Prohibited Conduct**
+Users shall not:
+(a) access, attempt to access, or share data or systems without authorization;
+(b) introduce malware, or take any action intended to disrupt, damage, or degrade network services;
+(c) use the network to transmit unlawful, harassing, defamatory, or obscene material;
+(d) infringe any copyright, trademark, or other intellectual property right;
+(e) consume bandwidth in a manner that unreasonably impairs access for other Users, including unauthorized large-scale downloads or streaming;
+(f) share login credentials or permit unauthorized persons to use the network under a User’s account; or
+(g) circumvent security controls, content filters, or usage monitoring mechanisms.
+
+**4. Monitoring**
+Users acknowledge that network activity may be logged and monitored for security, maintenance, and compliance purposes. Users have no expectation of privacy in data transmitted over or stored on shared network resources, to the extent permitted by applicable law.
+
+**5. Security Responsibilities**
+Users are responsible for safeguarding their credentials and devices, and for promptly reporting suspected security incidents to the network administrator at [contact information].
+
+**6. Enforcement**
+Violations of this Notice may result in temporary or permanent suspension of network access, disciplinary action, and referral to law enforcement or other authorities where appropriate. The administrator reserves the right to remove or block any content or device that poses a risk to network integrity.
+
+**7. Disclaimer**
+The network is provided “as is.” The administrator makes no warranties regarding availability, performance, or fitness for a particular purpose and shall not be liable for any loss arising from use of the network, except as required by law.
+
+**8. Amendments**
+This Notice may be updated at any time. Continued use of the network following notice of changes constitutes acceptance of the revised terms.
+
+**Acknowledged and agreed by use of the network.**
+
+Effective Date: [Insert Date]
+Issued by: [Network Administrator / Organization Name]

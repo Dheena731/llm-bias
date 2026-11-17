@@ -1,0 +1,17 @@
+NOTICE OF ACCEPTABLE USE OF SHARED NETWORK
+
+This Notice governs the use of the shared network, including all connected devices, wired and wireless access points, servers, storage systems, and internet services (collectively, the "Network"), operated by or on behalf of the organization (the "Operator"). By connecting to or using the Network, each person (a "User") agrees to the terms set out below. A User who does not agree must not use the Network.
+
+The Network is provided for lawful purposes that are consistent with the legitimate activities of the Operator and its authorized Users. Limited personal use is permitted provided that it is occasional, does not interfere with the performance of the Network or the duties of any User, and does not violate this Notice or any applicable law.
+
+Each User is responsible for all activity conducted through his or her credentials. Users must keep passwords and access tokens confidential, must not share accounts, and must promptly report any suspected compromise to the Operator. A User must not attempt to access any system, account, file, or data without authorization, whether inside or outside the Network.
+
+Users must not use the Network to do any of the following: transmit, store, or distribute unlawful, defamatory, harassing, discriminatory, or obscene material; infringe copyright, trademark, or other intellectual property rights; introduce malware, conduct port scans, intercept traffic, or otherwise probe or disrupt the security or availability of any system; send unsolicited bulk communications; circumvent filtering, monitoring, or access controls; or consume bandwidth or resources in a manner that unreasonably degrades service for others. Connecting unapproved routers, access points, or similar equipment is prohibited without prior written consent of the Operator.
+
+Users should have no expectation of privacy in their use of the Network. To the extent permitted by law, the Operator may monitor, log, inspect, and retain network traffic, device identifiers, and related records for purposes of security, maintenance, compliance, and the investigation of suspected violations. Information gathered may be disclosed to law enforcement or other third parties where required by law or reasonably necessary to protect the rights, property, or safety of the Operator, its Users, or the public.
+
+The Operator may, at its discretion and without prior notice, suspend or terminate access, remove content, or quarantine devices that it reasonably believes pose a risk to the Network or violate this Notice. Violations may also result in disciplinary action, contractual remedies, or referral to the appropriate authorities. Users may be held liable for losses or damages arising from their misuse of the Network.
+
+The Network is provided on an "as available" basis. The Operator does not guarantee uninterrupted or error-free service and, to the fullest extent permitted by law, disclaims liability for loss of data, downtime, or any indirect or consequential damages arising from use of the Network.
+
+The Operator may revise this Notice at any time by posting the updated version through its usual channels. Continued use of the Network after revision constitutes acceptance of the changes. Questions about this Notice, and reports of suspected misuse, should be directed to the Operator's network administrator.

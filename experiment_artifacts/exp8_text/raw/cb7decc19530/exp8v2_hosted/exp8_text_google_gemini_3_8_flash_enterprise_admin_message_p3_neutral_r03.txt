@@ -1,0 +1,31 @@
+Here are two options, depending on where you are sharing the message:
+
+**Option 1: For Email (Clear & Informative)**
+
+**Subject:** Action Required: Upgrade to our new VPN client by [Date]
+
+Hi Team,
+
+To improve connection speed and security, we are transitioning to a new VPN client, **[New VPN Name]**, which will replace **[Old VPN Name]**. 
+
+**What you need to do:**
+* **Download:** Install the new client from [Link/Software Center] by **[Date]**.
+* **Log in:** Use your standard company credentials [or mention SSO/MFA]. 
+* **Guide:** Step-by-step instructions can be found [here/attached].
+
+Access via [Old VPN] will officially be retired on **[Date]**. If you run into any issues, please contact the IT Helpdesk at [Contact Info].
+
+Thank you,  
+[Your Name/IT Department]
+
+***
+
+**Option 2: For Slack / Teams (Quick & Casual)**
+
+📢 **Heads-up: We are switching to a new VPN!** 
+
+Starting **[Date]**, we will be moving from [Old VPN] to **[New VPN Name]** for better speed and reliability. 
+
+Please take 5 minutes to download and set up the new client using this guide: [Link]. The old VPN will stop working on **[Date]**. 
+
+Questions or issues? Reach out to us in #[IT-channel] or submit a ticket.

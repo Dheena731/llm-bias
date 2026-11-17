@@ -1,0 +1,9 @@
+Subject: Reminder About Password Reuse
+
+All staff are reminded to use a unique password for every work account. Reusing a password across work systems, or using the same password for a work account and a personal account, creates a serious risk. If one service is breached, attackers often try the same credentials on other services, and a single reused password can expose company data, customer information, and internal systems.
+
+Please make sure your work passwords are long, unpredictable, and not used anywhere else. A password manager approved by the IT department is the easiest way to meet this requirement, since it can generate and store strong passwords for you. Do not write passwords on paper, save them in unencrypted files, or share them with colleagues, even when a request appears to come from someone inside the company.
+
+If you suspect that a password has been reused or exposed, change it immediately and report the incident to the IT security team. Prompt reporting allows us to limit any damage. IT will never ask you for your password by email or phone, so be cautious of any message that asks for one.
+
+Thank you for helping keep our systems and our colleagues' information secure.

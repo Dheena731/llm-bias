@@ -1,0 +1,5 @@
+Certainly! Below is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filters allow you to select specific datasets that meet your research criteria. Choose from predefined categories or build your own. Filter by attributes like country, year, or data type to narrow down relevant information for your study."
+
+This tooltip should be concise, clearly communicate the purpose of the filter, and guide users on how to apply it to find the desired datasets for their research.

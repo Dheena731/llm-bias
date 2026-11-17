@@ -1,0 +1,20 @@
+**Quarterly Access Review Reminder**
+
+As we continue to manage access to our systems and data, it's essential that we regularly review and update user permissions to ensure they remain aligned with current roles and responsibilities. Our quarterly access review process helps us maintain the security and integrity of our environment.
+
+To facilitate this process, please take a few minutes to review the access permissions for your team members and verify that they still require access to the systems, applications, and data they currently have permissions for. This includes reviewing group membership, role-based access controls, and any custom permissions that may have been granted.
+
+Some key things to consider during this review:
+
+* Have team members changed roles or left the organization?
+* Are there any new team members who require access to our systems?
+* Have there been any changes to regulatory or compliance requirements that impact access permissions?
+
+Your prompt attention to this matter will help us maintain a secure and compliant environment. If you have any questions or concerns, or need assistance with the review process, please don't hesitate to reach out to the IT department.
+
+**Review deadline:** [Insert Date]
+
+**Resources:**
+
+* Access Review Checklist: [Insert link]
+* IT Department Contact: [Insert contact information]

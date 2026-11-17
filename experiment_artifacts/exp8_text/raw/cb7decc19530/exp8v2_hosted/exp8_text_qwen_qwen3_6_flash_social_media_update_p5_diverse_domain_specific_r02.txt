@@ -1,0 +1,1 @@
+Our route optimizer dropped packets between 2:14–2:47 PM ET. If your planners were staring at frozen schedules or mismatched ETAs, we broke it. Fixed by rolling back the cache TTL change that caused the sync drift. All queues are flowing again. Sorry for the static on your dashboards—we’re tightening alert thresholds so this doesn’t sneak back up.

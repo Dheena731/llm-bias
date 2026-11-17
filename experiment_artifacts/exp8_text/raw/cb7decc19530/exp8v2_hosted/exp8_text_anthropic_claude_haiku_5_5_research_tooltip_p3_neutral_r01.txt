@@ -1,0 +1,3 @@
+Here's a concise tooltip:
+
+**Select a date range to filter results from the start date through the end date, inclusive.**

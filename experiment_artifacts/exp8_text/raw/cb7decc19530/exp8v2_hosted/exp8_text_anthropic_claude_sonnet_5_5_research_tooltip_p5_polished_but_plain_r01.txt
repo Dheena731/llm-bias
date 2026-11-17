@@ -1,0 +1,1 @@
+Select Export above the results table, choose a format such as CSV, Excel, or JSON, and then confirm the download. The export includes all rows that match your query, not just the ones currently visible on screen. For large result sets, narrow your query with filters or a row limit first so the file generates faster and stays easy to open.

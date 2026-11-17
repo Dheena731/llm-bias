@@ -1,0 +1,24 @@
+**Subject: Two-factor required on Forgejo starting March 14**
+
+All accounts on git.tidewater-eng.example will need two-factor authentication by **Friday, March 14**. After that date, accounts without it can still be read through existing SSH keys but can't sign in to the web interface, which means no merging, no issue edits, and no changes to repo settings.
+
+**What to do (about five minutes)**
+
+1. Sign in, then go to Settings → Security → Two-factor authentication.
+2. Scan the QR code with an authenticator app (TOTP). If you have a hardware key, add it under "Security keys" as well. We recommend doing both.
+3. Download your recovery codes and store them somewhere other than the phone running your authenticator. A password manager entry is fine. Each code works once.
+
+**What won't change**
+
+- SSH keys and deploy keys keep working as before.
+- Existing personal access tokens stay valid. CI runners and scripts that use them need no changes.
+- `git push` over HTTPS with a token is unaffected. A plain password over HTTPS has not worked since January and still won't.
+
+**What might catch you out**
+
+- If you replace your phone, move your authenticator app *before* wiping the old one. Most apps have an export function, and it's easy to forget.
+- Service accounts (`ci-bot`, `release-bot`) are exempt, but only if they have no web login. Owners of those accounts will get a separate message.
+
+**Locked out?** Post in #infra-help or email ops@tidewater-eng.example from your work address. We'll verify your identity on a video call before resetting anything, so expect a short delay rather than a quick fix. Those of you who lose both your phone and your recovery codes should plan for about a day.
+
+— Ops

@@ -1,0 +1,31 @@
+The following is a very simple example of a warning. It is also a very bad example.
+
+
+There are several reasons why this is a bad example. First, the wording is vague, ambiguous, and unclear. While it is technically true that only "you don't want the world to see [your] password", it is also true that "the world doesn't need to see [your] password". The positive and negative statements are too similar, and the fact that the topic is security doesn't naturally lead the user to the assumptions that are needed to make the statement.
+
+Second, the example draws a distinction between what this system does and what the system isn't doing. This distinction is not obvious to the user. A user gets annoyed when their practice of such-and-such is picked upon as an example of something that they need to stop doing. The problem is that the example doesn't say enough about the difference. It is sufficient to say, "A password is a secret that only you know. Don't tell anyone you know your password." That would be better, because it would be clear and obvious that the password is not secret, and it would be obvious that the reason for telling the password is that someone may see it.
+
+Third, the example doesn't make it clear what is meant by "your password". In fact, the example doesn't answer this question at all. In the English language, "your password" is almost always the password that you use to login. It may be confusing to assume that the "password" that is used to change the password is the same password that is used to login, but this is actually the reasonable assumption. This is why the example is so bad. It doesn't clear up the ambiguity.
+
+Some examples of good example passwords are:
+
+  • A pass phrase that is easy to remember is a good example, because it must be written down somewhere, and because it is easy to remember.
+  • A random password is a good example, because it is unique to each user.
+  • A hard to guess password, that is easily remembered, is a good example.
+  • A password that is "secret" is a good example, because it is secret.
+  • A password that is "private" is a good example, because it is private.
+  • A password that doesn't reveal who the user is is a good example, because it doesn't reveal who the user is.
+
+So, for a good example, you shouldn't use a password that is:
+
+  • Easy to remember. For example, you should not use "password123".
+  • Secret. For example, you should not use "spong3r".
+  • Terrifying. For example, you should not use "5509tr0ub!@#$%^&*!"
+  • Private. For example, you should not use "I love puppies".
+  • Impossible to guess. For example, you should not use "theDEN_1t1t3sn1g3t5v3g3t0$Q8tG3t$&h5n34t10v4$&-t3u5t1t3$7u7t1u$7u7t1u8$!"
+  • Disclosed. For example, you shouldn't use "This is my password that I use on this system."
+  • Disclosed for some reason that is good for the user, or for the system. For example, you shouldn't use "This is my password that I use on this system because my password is secret, and I want to tell you that my password is secret".
+
+For a given system, you need to be able to explain what the password should be for.
+
+If your system has a password that is

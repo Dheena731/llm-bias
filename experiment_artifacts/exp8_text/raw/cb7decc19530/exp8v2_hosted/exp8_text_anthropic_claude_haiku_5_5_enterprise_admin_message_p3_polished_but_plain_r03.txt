@@ -1,0 +1,9 @@
+Subject: VPN client update to version 5.0
+
+Starting Monday, March 3, the company VPN client will be upgraded to version 5.0. The new version includes faster reconnection when your network changes, such as moving between Wi-Fi and a mobile hotspot, and it no longer requires you to re-enter credentials after your laptop wakes from sleep. Your existing connection settings and saved profiles will carry over automatically.
+
+The update will be pushed to all managed devices overnight on March 3. If your device is not managed by IT and you installed the client yourself, you will need to download version 5.0 from the internal software portal by March 10. Older versions will stop connecting after that date.
+
+Please save any open work and restart your computer after the update is installed. If the client fails to connect afterward, try signing out and back in once before contacting the IT help desk at extension 4400 or helpdesk@example.com.
+
+Thank you for your patience while we roll this out.

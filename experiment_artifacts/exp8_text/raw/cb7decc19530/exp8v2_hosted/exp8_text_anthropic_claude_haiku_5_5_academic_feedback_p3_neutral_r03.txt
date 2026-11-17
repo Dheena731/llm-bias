@@ -1,0 +1,5 @@
+**Reviewer Comment**
+
+The manuscript's central research question, "How does social media affect well-being?", is too broad to guide the study design or allow meaningful evaluation of the findings. "Social media" encompasses many platforms, usage patterns, and types of interaction, and "well-being" is undefined. It is unclear whether the authors mean depressive symptoms, life satisfaction, loneliness, self-esteem, or something else. The direction of the hypothesized effect is also unspecified.
+
+I recommend that the authors reformulate the question with explicit constructs and population. For example, they could specify the platform(s), the measured outcome (and how it is operationalized), the population studied, and whether they expect a positive, negative, or conditional effect. The introduction should then justify why this specific question matters and how it extends existing work. Clarifying the question would also help readers judge whether the methods, such as the cross-sectional survey design, can actually answer it, since causal language in the discussion currently outpaces what the design supports.

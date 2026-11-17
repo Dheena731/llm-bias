@@ -1,0 +1,1 @@
+Filters only the records shown in this view by the selected criteria, such as date range, source, or status. Your choices apply to charts and tables but do not change the underlying dataset, and you can clear all filters at any time to restore the full data.

@@ -1,0 +1,7 @@
+**Subject:** `[SCHEDULED] Dashboard Query Service Upgrade | 2023-11-14 03:00–04:15 UTC`
+
+Migration to the v2.4 aggregation backend is scheduled for tonight.
+
+**Impact:**
+- Dashboard UI will be inaccessible.
+- API endpoints `/v2/metrics` and `/v2

@@ -1,0 +1,18 @@
+SUBJECT: SECURITY NOTICE: PROHIBITION OF PASSWORD REUSE
+
+TO: All Employees
+
+This notice serves as a reminder that reusing passwords across multiple workplace systems is strictly prohibited due to the high security risks involved.
+
+Password reuse allows attackers who compromise one account to gain unauthorized access to others. To protect company data and infrastructure, each system must have a unique password.
+
+Action Required:
+1. Ensure all current work accounts use distinct passwords.
+2. Immediately change any passwords shared between personal and work accounts.
+3. Utilize the approved corporate password manager to generate and store complex credentials.
+
+Failure to comply may result in restricted system access until compliance is verified.
+
+For assistance, contact the IT Help Desk.
+
+Information Security Department

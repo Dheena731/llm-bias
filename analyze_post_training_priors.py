@@ -250,13 +250,6 @@ def confidence_intervals(rows: list[dict]) -> list[dict]:
     return output
 
 
-def _int_run(value: object) -> int | None:
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return None
-
-
 def expected_tasks_for_analysis(
     config_path: str | Path | None,
     raw_rows: list[dict],
@@ -266,9 +259,8 @@ def expected_tasks_for_analysis(
         return []
     config = load_exp8_config(str(config_path))
     if expected_runs_per_cell is None:
-        observed_runs = [_int_run(row.get("run")) for row in raw_rows]
-        observed_runs = [run for run in observed_runs if run is not None]
-        expected_runs_per_cell = max(observed_runs) if observed_runs else int(config["tracks"]["text"]["full_repeats"])
+        # The planned design, not the observed maximum: a run stopped early must show up as missing rows.
+        expected_runs_per_cell = int(config["tracks"]["text"]["full_repeats"])
     if expected_runs_per_cell <= 0:
         raise ValueError("--expected-runs-per-cell must be positive")
     return [

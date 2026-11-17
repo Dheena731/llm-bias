@@ -1,0 +1,22 @@
+**SECURITY NOTICE: Phishing Email Awareness**
+
+Please remain vigilant regarding suspicious emails arriving in your inbox. Cybercriminals frequently use phishing attempts to compromise company credentials and sensitive data.
+
+**Common Warning Signs:**
+*   Urgent or threatening language demanding immediate action.
+*   Requests to verify passwords, multi-factor authentication (MFA) codes, or financial details.
+*   Mismatched sender addresses (e.g., an executive’s name paired with an external or misspelled domain).
+*   Unexpected attachments or generic greetings.
+
+**What You Should Do:**
+*   **Do not click** on any links or download attachments from unknown or unverified senders.
+*   **Verify independently:** If a request appears to come from a colleague or vendor but seems unusual, confirm with them via a separate channel (phone call or direct message).
+*   **Report it:** Use the "Report Phishing" button in your email client immediately, or forward the message to the IT Security team.
+
+If you suspect you have clicked a malicious link or entered your credentials on an unauthorized page, disconnect your device from the network and contact the IT Help Desk immediately.
+
+Thank you for your cooperation in keeping our workplace secure.
+
+**IT Security Department**  
+Extension: 4357 (HELP)  
+Email: security@company.com

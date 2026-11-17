@@ -1,0 +1,24 @@
+To add markdown formatting, use an asterisk, such as *Code*.
+To add links, use reserved keywords, such as link text, like this.
+To format a paragraph with more than one line, use three or more asterisks, such as **this is paragraph**.
+To span a line over several lines, use two asterisks, like this.
+To post a new line in your snippet, use four asterisks, like this.
+
+Here's an example:
+^ ^ ^ ^ ^ ^ ^
+| |
+| |
+| / <-- bullet point
+| |
+| (another bullet point)
+| |
+| |
+| |
+| |
+| |
+^ ^ ^ ^ ^ ^ ^
+| |
+*Here comes a new line (but no bullet point)*
+*The third line is longer.*
+
+---

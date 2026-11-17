@@ -1,0 +1,15 @@
+Notice: Reporting a Lost or Stolen Company Laptop
+
+If your company-issued laptop is lost or stolen, please report it immediately, even if you think you may find it soon. Prompt reporting protects our data, our clients, and you.
+
+Contact the IT Service Desk by phone at extension 4100 or by email at servicedesk@company.example as soon as you realize the laptop is missing. If the loss happens outside business hours, call the after-hours security line at extension 4199. Please do not wait until the next working day.
+
+When you report, be ready to share your name and department, the laptop's asset tag or serial number if you have it, the date, time, and place you last had it, and a brief description of what happened. Let us know whether you believe it contained confidential files, client information, or saved passwords. You do not need to have every detail ready before calling, so report first and add information afterward.
+
+Once your report is received, IT will lock the device remotely, disable your account access, and reset your passwords. If the laptop was stolen, you should also file a report with local police and send the report number to IT and your manager.
+
+Please do not attempt to track down the device yourself or confront anyone who may have taken it. Do not try to access company systems from the lost device's accounts on another computer until IT confirms it is safe to do so.
+
+Reporting a lost laptop promptly will not result in disciplinary action in the case of genuine accidents. Delays in reporting, however, can increase risk to the company and may be reviewed under our information security policy.
+
+Thank you for helping us keep company information secure. Questions about this notice can be directed to the IT Service Desk.

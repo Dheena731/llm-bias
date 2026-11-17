@@ -1,0 +1,3 @@
+Here's a concise tooltip explaining a confidence interval in a chart, tailored to a specific domain:
+
+"**95% Confidence Interval**: This band represents the plausible range of values for a given metric (e.g., disease prevalence) within our sample population. It's based on 2,500 simulations of the population, assuming a binomial distribution with 50% prevalence. The interval is constructed using a Bayesian credible interval, which provides a more realistic representation of uncertainty than traditional frequentist methods."

@@ -1,0 +1,11 @@
+**Feedback Note: Conference Poster Draft**
+
+Thank you for sharing the draft. You've built a strong, visually balanced layout, and the logical flow from research question → methods → results → conclusion is clear and effective. Your key figures stand out well, and the writing maintains an appropriate academic/professional tone.
+
+**Suggested refinements:**
+• **Text density:** Convert dense paragraphs (especially in Methods/Background) into bullet points or a simplified schematic. Posters should be scannable in under 2 minutes.
+• **Readability check:** Ensure all body text is ≥24 pt and headings ≥36 pt. Test by viewing a printed half-size proof from ~5 feet away.
+• **Highlight impact:** Add a small “Key Takeaway” or “Why It Matters” callout near the conclusion to help busy attendees grasp your contribution instantly.
+• **Contact/follow-up:** Place your email, ORCID, or a QR code linking to the full paper/repo in the footer so it's impossible to miss.
+
+Overall, this is a polished and compelling draft. With these minor tweaks for audience accessibility, it will be conference-ready. Let me know if you'd like to swap a revised version for a quick final check!

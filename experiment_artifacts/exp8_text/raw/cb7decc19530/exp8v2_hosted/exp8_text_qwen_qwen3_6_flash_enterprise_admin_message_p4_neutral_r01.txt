@@ -1,0 +1,13 @@
+**SUBJECT:** ACTION REQUIRED: Q[X] Quarterly Access Review
+
+**TO:** All Managers, Data Owners, and System Administrators  
+**FROM:** IT Security / Compliance Team  
+**DATE:** [Current Date]  
+
+To maintain system security and regulatory compliance, we are conducting the **Q[X] Quarterly Access Review** for [System/Platform Name]. All authorized reviewers must validate user access rights by **[Deadline Date, e.g., Friday, November 17]**.
+
+Please log into the [Access Management Portal/Link] to review your assigned user lists. Confirm that each individual’s permissions match their current role and business needs. Any access that is unverified, expired, or misaligned will be automatically suspended after the deadline to protect our environment.
+
+Need help? Contact the IT Security Team at [email address] or visit [help desk link/FAQ].
+
+Thank you for your prompt attention to this critical security control.

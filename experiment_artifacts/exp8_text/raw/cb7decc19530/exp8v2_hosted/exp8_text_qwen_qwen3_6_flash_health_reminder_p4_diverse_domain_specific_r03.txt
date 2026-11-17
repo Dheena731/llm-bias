@@ -1,0 +1,1 @@
+You’ve been tracing the same function for twenty minutes. Your eyes are locked to pixel density, not logic. Step back. Close the editor, stand up, look at something twelve feet away. The build isn’t going anywhere, and neither is the edge case. Flush your attention cache. When you return, you’ll catch what your fixated focus just missed.

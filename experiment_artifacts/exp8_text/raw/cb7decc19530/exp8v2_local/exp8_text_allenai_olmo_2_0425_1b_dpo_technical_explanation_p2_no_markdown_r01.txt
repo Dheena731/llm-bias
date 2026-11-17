@@ -1,0 +1,13 @@
+A database index is a structured list or map created by the database system to accelerate data retrieval. It does this by providing efficient access to data rows or columns that are frequently queried. An index essentially enables the database to skip over potentially large amounts of data when looking for specific information, thus reducing the time it takes to fetch the data.
+
+Here's a brief explanation of what indexes do:
+
+1. **Optimize Query Performance**: When a database query is issued, the database engine needs to locate the data it is seeking. If the query is simple and the table is large, the database engine has to scan through every row in the table to find the relevant data. An index can drastically reduce the number of rows that need to be scanned by focusing on the parts of the table that are most likely to be queried.
+
+2. **Speed Up Access**: For example, if you often search for products from a specific category, having an index on that category can make quick searches a lot faster.
+
+3. **Prevent Full Table Scans**: Instead of scanning the entire table, an index allows the database engine to use the index to "jump" to the relevant part of the table, thus avoiding a full table scan.
+
+4. **Save Space**: An index is usually smaller than the actual table because it only stores the relevant details for the specific attributes that are frequently queried.
+
+Indexes are especially useful for large databases with many tables that are frequently queried together in complex ways. They are created by the database administrator (DBA) and can be created automatically (as when an index is automatically created on a column during data insertion and update) or manually when an index is specifically needed for optimization purposes.

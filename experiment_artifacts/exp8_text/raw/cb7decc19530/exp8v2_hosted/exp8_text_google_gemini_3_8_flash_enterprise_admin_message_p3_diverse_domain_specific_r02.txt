@@ -1,0 +1,13 @@
+**Subject: Deprecating OpenVPN / Cutover to WireGuard client on Thursday, Oct 24**
+
+On Thursday at 18:00 UTC, we are shutting down the legacy OpenVPN gateways (`vpn.internal.net`) and completing the transition to our new WireGuard-based client (`corp-wg`). 
+
+**What’s changing under the hood:**
+* **Sleep/wake recovery:** Reconnects after closing your laptop are now sub-second. You should no longer see hung SSH sessions or stale TCP sockets after waking your machine.
+* **Tighter split-tunneling:** Only RFC1918 traffic destined for our AWS/GCP subnets (`10.40.0.0/14` and `172.16.0.0/12`) will route through the tunnel. All generic internet traffic now drops directly to your local gateway, which should clear up the latency issues on video calls.
+* **DNS handling:** Resolution for `*.corp` and staging domains is now managed directly via local system resolver hooks (`systemd-resolved` on Linux, `scutil` on macOS), eliminating search-domain collisions.
+
+**What you need to do:**
+The new client has already been pushed to managed machines via Jamf and InTune (search for **CorpNet** in your applications). Open it, authenticate against Okta, and verify you can reach `metrics.internal`.
+
+If you use a non-standard local subnet (e.g., `10.40.0.0/24` at home) or run Linux without NetworkManager, ping the `#net-ops` channel so we can add an exclusion to your local config before Thursday.

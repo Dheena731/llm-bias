@@ -1,0 +1,13 @@
+**Savings goals now tell you the monthly number**
+
+Until now, a savings goal was a name and a progress bar. You could see $1,240 toward $3,000, but not whether you were on track or how much to move each month to finish on time.
+
+Goals now take a target amount and a date. For a $3,000 trip fund due in November, the app calculates $375 a month starting in August and shows whether your recent transfers are keeping up. If you fall short for two months in a row, the goal card says so. We dropped the weekly reminders from the beta because most people turned them off within a few days.
+
+A few other changes:
+
+- A goal can be tied to a specific savings account, or left "virtual" on your checking account. Virtual goals don't move any money, but the amount is subtracted from the spendable balance on your home screen so it's harder to spend by accident.
+- Each savings account can back only one goal, so the progress numbers stay accurate.
+- Finished goals move to a History tab instead of disappearing.
+
+Known gap: projections don't yet include interest, so on high-yield accounts the estimated finish date runs a few days late. That's the next thing we're fixing.

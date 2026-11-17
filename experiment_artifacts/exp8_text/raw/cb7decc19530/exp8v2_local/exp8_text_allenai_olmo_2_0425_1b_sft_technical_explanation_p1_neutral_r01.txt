@@ -1,0 +1,9 @@
+Latency is the delay that occurs between when a user sends a request to a web server and when the server sends a response back to the user.
+
+This has a significant impact on the performance and user experience of any web application. For instance, applications that require real-time updates or immediate responses may suffer from high latency, leading to slow performance, increased waiting times, and even dropped connections.
+
+To illustrate this, consider the example of a game that uses real-time physics simulation. High latency may result in sluggish responses, making the gameplay experience frustrating for the user.
+
+On the other hand, low latency is desirable for applications that require immediate and reliable responses, such as an e-commerce website that needs to process transactions quickly for customers to receive their orders.
+
+In summary, understanding and managing latency is critical for the success of any web application, as it directly affects how users perceive the speed and responsiveness of the application.

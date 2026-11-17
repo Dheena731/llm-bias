@@ -1,0 +1,6 @@
+To export query results, follow these steps:
+
+1. Select the rows you want to export by clicking on the checkbox to the left of each row.
+2. Click the "Export" button in the top right corner of the table.
+3. Choose the desired format (e.g., CSV, Excel, JSON) and specify the file name and location.
+4. Click "Export" to save the query results to your chosen file.

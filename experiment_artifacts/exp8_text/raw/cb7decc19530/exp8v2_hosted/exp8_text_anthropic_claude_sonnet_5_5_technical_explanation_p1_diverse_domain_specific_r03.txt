@@ -1,0 +1,9 @@
+Latency matters in web applications because it compounds. A single slow operation is rarely the problem. The problem is how many of them sit in a row.
+
+Take a cold HTTPS request from a phone with a 100 ms round trip. The TCP handshake costs one round trip, TLS 1.3 adds another, and the request itself takes a third. That's about 300 ms gone before the server has done any work. Then the HTML references a JavaScript bundle, the bundle calls an API, and the API response points to images. Each step can't start until the previous one finishes, so the delays stack. Bandwidth barely helps here, since these are small payloads limited by round trips, and round trips are limited by distance. Light in fiber covers New York to London and back in roughly 56 ms at best, and real routes are slower.
+
+Backend fan-out makes it worse. If a page load triggers 50 internal calls and each has a 1% chance of being slow, about 40% of page loads hit at least one slow call (1 − 0.99⁵⁰). That's why teams watch p99 rather than the average: the average hides what a large share of users actually experience.
+
+Users notice. Responses under about 100 ms feel like direct manipulation, and a click that takes 300 ms to react starts to feel laggy. Around a second, people lose their train of thought. Past that, they retry, double-submit forms, or leave, and the extra retries can add load to an already struggling system.
+
+Practical fixes mostly mean removing round trips: CDNs and edge caching, connection reuse, preloading critical resources, batching API calls, and moving work off the request path.

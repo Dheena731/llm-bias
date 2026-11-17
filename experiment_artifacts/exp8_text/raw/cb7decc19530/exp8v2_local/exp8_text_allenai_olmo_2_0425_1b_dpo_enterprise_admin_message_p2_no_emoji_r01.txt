@@ -1,0 +1,21 @@
+Attention Admins,
+
+Our company has recently implemented a new expense approval workflow designed to streamline and ensure the accuracy of financial transactions. It is important for all of you to understand how this new process works to maintain the integrity and transparency of our accounting records.
+
+**Overview:**
+
+1. **Approval Requests:** Users can now submit expense requests directly on our portal through the new "Request Approval" form. This form collects all necessary information and ensures that the requester has provided sufficient detail for review.
+
+2. **Approval Processes:** Once a request is submitted, the system generates an approval request template. This template includes all required fields and has a predefined approval process that needs to be followed. As the designated approver, please review the request, enter your approval or disapproval, and manually approve the expense with a single click.
+
+3. **Record Keeping:** We recommend maintaining a copy of all approved expense requests along with your approval stamp and date for record-keeping purposes. This will help us track expenses accurately and ensure compliance with our financial reporting requirements.
+
+**Contact Process:**
+
+If you have any questions about the new workflow or need assistance, please do not hesitate to reach out to our support team. We are committed to supporting all of our admin staff in the adoption of this process and are ready to address any concerns you may have.
+
+Thank you for your attention to this important change and for your continued dedication to supporting our company's financial health and growth.
+
+Best regards,
+[Your Name]
+Finance Team

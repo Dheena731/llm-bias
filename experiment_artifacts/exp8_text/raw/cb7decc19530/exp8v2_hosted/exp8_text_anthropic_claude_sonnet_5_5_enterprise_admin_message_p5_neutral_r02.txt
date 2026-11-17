@@ -1,0 +1,22 @@
+**Subject: Upcoming Email Migration: What You Need to Know**
+
+Hi everyone,
+
+We're migrating our email system to a new platform on **[date]**. Here's what to expect:
+
+**What's happening**
+- Your mailbox, calendar, and contacts will be moved automatically.
+- The migration will take place between **[start time]** and **[end time]**, and you may experience brief interruptions in email access during that window.
+
+**What you need to do**
+- **Before the migration:** Clean out unneeded emails to speed up the process, and make sure you know your current login credentials.
+- **After the migration:** Log in using the new link at **[URL]**. You may need to reconfigure email on your phone or other devices. Setup guides are available at **[link]**.
+
+**Need help?**
+Contact the IT Help Desk at **[email/phone]** or visit **[link]** for FAQs and support.
+
+Thank you for your patience as we make this upgrade. We're confident it will improve reliability, security, and your overall experience.
+
+Best regards,
+**[Your Name]**
+**[Your Title/Department]**

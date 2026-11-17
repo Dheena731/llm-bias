@@ -1,0 +1,19 @@
+**SECURITY NOTICE: Stay Vigilant Against Phishing Emails**
+
+**To:** All Staff  
+**From:** IT Security Team  
+**Date:** [Insert Date]  
+
+We have recently seen an increase in fraudulent "phishing" emails attempting to compromise employee accounts and company data. Please review the following tips to help keep our network secure:
+
+**Common Red Flags:**
+* **False Urgency:** Demands for immediate action (e.g., "Account suspended," "Urgent wire transfer," or "Password expiring today").
+* **Suspicious Senders:** Display names that look familiar, but with an unfamiliar or misspelled email address (e.g., *john.doe@company-support.com* instead of *@company.com*).
+* **Unexpected Links/Attachments:** Prompts to download unusual files or log in via an external link.
+
+**What You Should Do:**
+* **Think before you click:** Never open attachments or click links in unsolicited emails.
+* **Verify:** If an email seems off, contact the sender through a separate, trusted channel (like Slack or a phone call) before responding.
+* **Report:** If you suspect an email is phishing, do not forward it to colleagues. Use the **[Report Phishing]** button in your email client or forward it directly to **[itsecurity@company.com]**.
+
+When in doubt, report it. Thank you for doing your part to keep our workplace secure!

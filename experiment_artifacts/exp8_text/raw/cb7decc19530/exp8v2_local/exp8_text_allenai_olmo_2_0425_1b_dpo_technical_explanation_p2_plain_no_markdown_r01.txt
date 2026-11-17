@@ -1,0 +1,9 @@
+A database index acts as a roadmap for the database system, helping to speed up access to specific rows within a database table. When you create an index, you're essentially telling the database which specific columns are most relevant for quick lookup of data. This is done by creating a separate storage structure that points to the actual data in the table.
+
+Here's how an index works as a shortcut:
+
+* When you search for data using a keyword (or a set of related keywords), the database engine looks first at the index to understand which rows to scan to find the matching data.
+* Instead of scanning the entire table, the engine uses the index to quickly locate the relevant rows, which speeds up the process and reduces the amount of data read.
+* Indexes can be created on various columns, making it possible to quickly retrieve specific data without having to scan the entire database.
+
+In summary, indexes are essential for performance optimization in databases. They improve query performance by allowing the database to skip over unnecessary rows when seeking specific information, thus making database operations more efficient.

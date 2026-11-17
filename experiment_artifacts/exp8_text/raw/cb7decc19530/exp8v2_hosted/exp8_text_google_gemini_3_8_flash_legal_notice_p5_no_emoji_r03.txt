@@ -1,0 +1,21 @@
+**NETWORK ACCEPTABLE USE POLICY AND TERMS OF ACCESS**
+
+**1. Applicability and Acceptance**  
+By connecting to or utilizing this shared network (the "Network"), you ("User") acknowledge that access is a revocable privilege conditioned upon strict adherence to these terms. Continued use constitutes binding acceptance of this Policy.
+
+**2. Prohibited Conduct**  
+The Network may be used solely for lawful and authorized purposes. Users are expressly prohibited from:
+* Engaging in any activity that violates local, state, federal, or international law or regulation.
+* Attempting to circumvent network security controls, gain unauthorized access to systems or data, or intercept traffic not intended for the User.
+* Distributing malware, executing denial-of-service attacks, or transmitting unsolicited bulk communications (spam).
+* Transmitting, hosting, or accessing material that infringes upon third-party intellectual property rights.
+* Consuming disproportionate bandwidth, hosting unauthorized public servers, or conducting peer-to-peer file sharing that degrades Network performance for other users.
+
+**3. Monitoring and Expectation of Privacy**  
+Users have no expectation of privacy concerning their use of the Network. The network operator reserves the right to monitor, record, filter, and inspect all network traffic, device identifiers, and data transmissions to ensure operational integrity, security, and compliance with applicable laws.
+
+**4. Remedies and Enforcement**  
+The operator reserves the right to suspend or permanently terminate access immediately, without prior notice, for any violation of this Policy. Violations may also subject the User to administrative discipline, civil liability, and criminal prosecution.
+
+**5. Disclaimer of Liability**  
+The Network is provided on an "as-is" and "as-available" basis without warranties of any kind, express or implied. The operator assumes no liability for the loss, theft, corruption, or compromise of data, nor for damages resulting from service interruptions or security incidents.

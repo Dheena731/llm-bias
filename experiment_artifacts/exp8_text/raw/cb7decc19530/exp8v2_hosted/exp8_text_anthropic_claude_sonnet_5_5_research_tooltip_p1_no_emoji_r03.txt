@@ -1,0 +1,7 @@
+**Dataset filter**
+Narrow the results to records from selected datasets. Choose one or more to include them, or clear all selections to search across every available dataset. Counts update automatically as you apply filters.
+
+**Shorter version (for tight spaces):**
+Limit results to specific datasets. Leave blank to search all.
+
+If you tell me the specific filter (for example, date range, data source, or study type), I can tailor the wording to it.

@@ -1,0 +1,1 @@
+Show only records that meet the selected criteria. Filters apply to the full dataset, and the record count updates to reflect how many entries remain. Multiple filters combine so that a record must satisfy all of them to appear. To clear a filter, remove its selection.

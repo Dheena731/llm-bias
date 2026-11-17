@@ -32,9 +32,11 @@ FIELDNAMES = [
     "raw_output_path",
     "error",
     "feature_json",
+    "prompt_id",
+    "system_prompt",
 ]
 REQUIRED_ROUTE_FIELDS = {"model", "model_family", "route_stage_label", "stage_provenance"}
-REQUIRED_PROMPT_FIELDS = {"id", "domain", "prompt"}
+REQUIRED_PROMPT_FIELDS = {"id", "domain"}  # plus "prompt" (one prompt) or "prompts" (several)
 
 
 def load_exp8_config(path: str = DEFAULT_CONFIG) -> dict:
@@ -71,6 +73,8 @@ def validate_exp8_config(config: dict) -> None:
         missing = REQUIRED_PROMPT_FIELDS - set(family)
         if missing:
             raise ValueError(f"Exp8 prompt family missing required fields: {sorted(missing)}")
+        if not (family.get("prompt") or family.get("prompts")):
+            raise ValueError(f"Exp8 prompt family needs 'prompt' or 'prompts': {family['id']}")
         family_id = family["id"]
         if family_id in seen_families:
             raise ValueError(f"Duplicate Exp8 prompt family: {family_id}")
@@ -113,49 +117,61 @@ def _select_for_mode(items: list, mode: str) -> list:
     return items[:1] if mode == "smoke" else items
 
 
-def build_exp8_tasks(config: dict, mode: str = "full") -> list[dict]:
+def build_exp8_tasks(config: dict, mode: str = "full", local: bool = False) -> list[dict]:
+    """Expand the config into tasks. local=True uses local_routes, local_repeats and local_parameters."""
     validate_exp8_config(config)
     if mode not in {"full", "smoke"}:
         raise ValueError(f"Unknown Exp8 task mode: {mode}")
-    routes = _select_for_mode(config["routes"], mode)
+    track = config["tracks"]["text"]
+    routes = _select_for_mode(config.get("local_routes", []) if local else config["routes"], mode)
     prompt_families = _select_for_mode(config["prompt_families"], mode)
-    conditions = list(config["conditions"])
-    repeats = int(config["tracks"]["text"]["smoke_repeats" if mode == "smoke" else "full_repeats"])
-    params = config["tracks"]["text"].get("api_parameters", {})
+    excluded = set(config.get("local_excluded_conditions", [])) if local else set()
+    conditions = [condition_id for condition_id in config["conditions"] if condition_id not in excluded]
+    repeat_key = "smoke_repeats" if mode == "smoke" else ("local_repeats" if local else "full_repeats")
+    repeats = int(track.get(repeat_key, track["full_repeats"]))
+    params = track.get("local_parameters" if local else "api_parameters", {})
     digest = config_hash(config)
 
     tasks: list[dict] = []
     for route in routes:
         for family in prompt_families:
-            for condition_id in conditions:
-                condition = config["conditions"][condition_id]
-                prompt = build_prompt(family["prompt"], condition.get("suffix", ""))
-                for run in range(1, repeats + 1):
-                    artifact_id = "exp8_text_{model}_{family}_{condition}_r{run:02d}".format(
-                        model=model_slug(route["model"]),
-                        family=slugify(family["id"]),
-                        condition=condition_id,
-                        run=run,
-                    )
-                    tasks.append(
-                        {
-                            "artifact_id": artifact_id,
-                            "config_hash": digest,
-                            "run_id": "",
-                            "track": "text",
-                            "model": route["model"],
-                            "provider": provider_from_model(route["model"]),
-                            "model_family": route["model_family"],
-                            "route_stage_label": route["route_stage_label"],
-                            "stage_provenance": route.get("stage_provenance", ""),
-                            "prompt_family": family["id"],
-                            "domain": family["domain"],
-                            "condition": condition_id,
-                            "run": run,
-                            "prompt": prompt,
-                            "api_parameters": params,
-                        }
-                    )
+            prompts = _select_for_mode(family.get("prompts") or [family["prompt"]], mode)
+            for prompt_index, base_prompt in enumerate(prompts, start=1):
+                # Single-prompt families keep the original artifact-id format.
+                prompt_tag = f"_p{prompt_index}" if len(family.get("prompts") or []) > 1 else ""
+                for condition_id in conditions:
+                    condition = config["conditions"][condition_id]
+                    prompt = build_prompt(base_prompt, condition.get("suffix", ""))
+                    for run in range(1, repeats + 1):
+                        artifact_id = "exp8_text_{model}_{family}{tag}_{condition}_r{run:02d}".format(
+                            model=model_slug(route["model"]),
+                            family=slugify(family["id"]),
+                            tag=prompt_tag,
+                            condition=condition_id,
+                            run=run,
+                        )
+                        tasks.append(
+                            {
+                                "artifact_id": artifact_id,
+                                "config_hash": digest,
+                                "run_id": "",
+                                "track": "text",
+                                "model": route["model"],
+                                "provider": provider_from_model(route["model"]),
+                                "model_family": route["model_family"],
+                                "route_stage_label": route["route_stage_label"],
+                                "stage_provenance": route.get("stage_provenance", ""),
+                                "backend": route.get("backend", "openrouter"),
+                                "prompt_family": family["id"],
+                                "prompt_id": f"{family['id']}{prompt_tag}",
+                                "domain": family["domain"],
+                                "condition": condition_id,
+                                "run": run,
+                                "prompt": prompt,
+                                "system_prompt": condition.get("system", ""),
+                                "api_parameters": params,
+                            }
+                        )
     return tasks
 
 
@@ -179,6 +195,8 @@ def base_row(task: dict) -> dict:
         "raw_output_path": "",
         "error": "",
         "feature_json": "",
+        "prompt_id": task.get("prompt_id", task["prompt_family"]),
+        "system_prompt": task.get("system_prompt", ""),
     }
 
 
@@ -193,10 +211,15 @@ def write_csv_rows(path: str | Path, rows: Iterable[dict]) -> None:
 
 def call_exp8_text_model(task: dict) -> str:
     params = task.get("api_parameters", {})
-    return call_openrouter_chat(
+    text = call_openrouter_chat(
         task["model"],
         task["prompt"],
         max_tokens=int(params.get("max_tokens", 768)),
         temperature=float(params.get("temperature", 0.8)),
         timeout=float(params.get("timeout", 60.0)),
+        system=task.get("system_prompt") or None,
     )
+    if not text.strip():
+        # Raise before the raw file is written so --only-missing retries it (e.g. reasoning used the token budget).
+        raise RuntimeError("empty response")
+    return text

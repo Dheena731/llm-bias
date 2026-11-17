@@ -1,0 +1,17 @@
+**Subject:** ACTION REQUIRED: Q3 User Access Certification Window (Closes Oct 20, 17:00 UTC)
+
+Team leads and system owners,
+
+The Q3 access review campaign is now live in Conductor. This cycle covers direct report role assignments, elevated AWS/GCP permissions, and third-party SaaS seats. 
+
+**Review Portal:** `identity.internal/reviews/2024-q3`  
+**Sign-off Deadline:** Friday, October 20 at 17:00 UTC
+
+**Specific focus areas for this cycle:**
+* **Role Drift / Internal Transfers:** Verify that employees who shifted teams over the last quarter have had their legacy permissions stripped.
+* **Production & PAM:** Justify any persistent admin/write access to production environments. "Needed for ongoing project" is no longer an accepted justification for break-glass roles.
+* **Stale Accounts:** Any assigned account with 60+ days of inactivity has been pre-flagged for removal; unflagging requires an explicit business justification.
+
+Per SEC-POL-402, uncertified access will be automatically queued for deprovisioning on Monday, October 23, to satisfy our SOC 2 Type II audit freeze. "Approve All" is disabled for reviewers with more than 15 entitlements.
+
+If an employee on your roster has departed and still appears active, ping **#sec-ops-triage** immediately.

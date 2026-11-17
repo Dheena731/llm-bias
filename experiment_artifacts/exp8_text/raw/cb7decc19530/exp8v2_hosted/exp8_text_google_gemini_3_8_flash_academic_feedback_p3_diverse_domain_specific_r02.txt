@@ -1,0 +1,5 @@
+**Major Revision – Scope and Framing:**
+
+The manuscript's central query needs significant sharpening. As written, the paper vacillates between testing an algorithmic hypothesis about precision-weighted prediction errors and simply reporting descriptive BOLD correlates of motor conflict during the cue-target interval. Phrases like "elucidating the neural substrate of contextual ambiguity" (p. 4) obscure whether the experiment was designed to adjudicate between competing computational models or merely replicate established dACC recruitment under task difficulty. 
+
+Before the analytical choices can be meaningfully evaluated, the authors must commit to a singular objective in the introduction: are you testing whether volatility alters update rates in the striatal circuit, or are you mapping functional connectivity differences between task conditions? The current framing tries to treat the latter as evidence for the former without establishing the formal link.

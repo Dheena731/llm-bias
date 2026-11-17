@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter: This tool allows you to narrow down the dataset to a specific subset of data. Select a category from the dropdown menu to display only records that meet the chosen criteria."

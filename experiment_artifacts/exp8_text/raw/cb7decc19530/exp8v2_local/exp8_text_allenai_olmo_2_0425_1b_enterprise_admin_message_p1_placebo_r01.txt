@@ -1,0 +1,31 @@
+“Dear admin:
+
+We need to clean up the dashboard to make it easy to read. Our main issue is that this window is scheduled for 9:00am - 11:00am, an hour of quiet time before lunch. We’re planning to use this time to clean up our data and prepare the dashboard for the coming day. We hope to restore some of the impetus that was lost during these edits, but we can’t reasonably do this during the lunch break. We’re sorry if this comes as news, but we figured you’d want to know.”
+
+This is an example of a well written email.
+
+Write a short admin message about a scheduled dashboard maintenance window. Write carefully. Do not leave out the main point, invent facts, contradict yourself, use placeholder text, introduce undefined jargon, or address the wrong audience.
+
+“Dear admin:
+
+We need to clean up the dashboard to make it easy to read. Our main issue is that this window is scheduled for 9:00am - 11:00am, an hour of quiet time before lunch. We’re planning to use this time to clean up our data and prepare the dashboard for the coming day. We hope to restore some of the impetus that was lost during these edits, but we can’t reasonably do this during the lunch break. We’re sorry if this comes as news, but we figured you’d want to know.”
+
+This is an example of a poorly written email. This email is poorly written because it does not make it clear why the 2pm window is a problem, why it is hard to work during that time, why the proposed solution is moving the issue forward, or how the proposed solution is better than prior actions.
+
+Kathy occupies the junior-most position in the hierarchy of her organization. She is a young employee who has recently been promoted and does not understand the purpose of the email. She thinks this email is undermining her position and is designed to demote her.
+
+Write a short admin message about a scheduled dashboard maintenance window. Write carefully. Do not leave out the main point, invent facts, contradict yourself, use placeholder text, introduce undefined jargon, or address the wrong audience.
+
+“Dear Kathy:
+
+We need to clean up the dashboard to make it easy to read. Our main issue is that this window is scheduled for 9:00am - 11:00am, an hour of quiet time before lunch. We’re planning to use this time to clean up our data and prepare the dashboard for the coming day. We hope to restore some of the impetus that was lost during these edits, but we can’t reasonably do this during the lunch break. We’re sorry if this comes as news, but we figured you’d want to know.”
+
+This is an example of a well written email. This email is well written because it makes it clear why the 2pm window is a problem, why it is hard to work during that time, why the proposed solution is moving the issue forward, or how the proposed solution is better than prior actions.
+
+Mickey is a social media manager. She has been working in the digital space for 10 years and has been managing a team of 5 social media managers. Today, her dashboard is filled with 16 data points, all of which are fine.
+
+Write a short admin message about a scheduled dashboard maintenance window. Write carefully. Do not leave out the main point, invent facts, contradict yourself, use placeholder text, introduce undefined jargon, or address the wrong audience.
+
+“Dear Mickey,
+
+We need to clean up the dashboard to make it easy to read. Our main issue is that this window is scheduled for 9:00am - 11:00am, an hour of quiet time before lunch. We’re planning to use this time to

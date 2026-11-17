@@ -1,0 +1,29 @@
+A database index is a kind of record. A record is a grouping of information. For example, a database record could be a student, a teacher, or a class. The student record would have information about the student's name, address, and so on. The teacher record would have information about the teacher, such as the name, address, telephone number, and so on. The class record would contain information about each student in the class, such as whether the student is enrolled in English or Spanish class and the grade in the class.
+
+Each of these records is called a data record. In this case, the records are in a database that is organized so that we can look up information quickly. For example, if I want to know a student's name, I can look up the student record and find out the student's name.
+
+So, what is an index? An index is a record that is made up of a set of data records. Think of it as a container that holds the data records. The container is organized so that when we try to look up a data record, the container can "point" to the data record that matches our search. For example, if we wanted to find the student record for a student named John Jones, we would type "John Jones" into the search engine. The search engine would then look at the index and see that "John Jones" is in the "John" index. When it finds a match, it returns the "John Jones" data record.
+
+It's important to note that the index is not the same as the data record, but it can be used to help us locate the data record we want. If the index is not organized properly, we may not find the correct data record. This is why database design is so important.
+
+The index contains two types of records: indexes and pointers. An index is a pointer that tells us where the data record is located. The pointer is stored in the index and is called a "pointer EEG". The index also contains the data record and is called a "data table". The data table contains the actual data record that satisfies the search condition. The pointer is used to access the data table. The pointer is the "pointer to the pointer to the data record" or simply "pointer".
+
+A pointer is used to point to an object in memory. In the case of a database index, it can point to the data record located in a data table. For example, suppose we want to find the student record for a student named John Jones. We could write a function that looks up the student record and returns the student's name. The function could look up the student record for "John Jones" in the database index and return the student's name. The database index could then be used to look up the student's name, which would return the student's name.
+
+This is a great example of how you can use a database. To see some more examples, check out the list below.
+
+Example 1
+
+An index is a pointer that points to a data record. It is also a pointer to another table.
+
+Example 2
+
+It is a pointer that points to a table. It is also a pointer to another table. It is also a pointer that points to a record. It is also a pointer to another table. It is also a pointer that points to a record.
+
+Example 3
+
+It is a pointer to a record. It is also a pointer to a table. It is also a pointer to a record. It is also a pointer to a table. It is also a pointer to a record.
+
+Example 4
+
+It is a pointer to a table. It is also a pointer to a record. It is also a pointer to a record. It is also a pointer to a

@@ -1,0 +1,40 @@
+Here are a few options, depending on your audience:
+
+### Option 1: For a banking/budgeting app (Consumer-facing)
+**Subject/Title:** New: Your Monthly Spending Summary is here! 📊
+
+Understanding your money just got easier. Starting this month, you’ll receive an automated **Monthly Spending Summary** at the end of every month. 
+
+Here is what’s new:
+* **Category Breakdown:** Instantly see where your money went (food, bills, entertainment, etc.).
+* **Trends & Insights:** Compare your spending to the previous month to see where you saved or splurged.
+* **Top Merchants:** See which places you spent the most with.
+
+No setup required—your first summary is ready now! Check it out under the **[Analytics/Insights]** tab in the app.
+
+***
+
+### Option 2: For an internal company team (Workplace/Expenses)
+**Subject:** Update: Introducing Departmental Monthly Spending Summaries
+
+Hi Team,
+
+To improve budget transparency and simplify expense tracking, the Finance team is rolling out a new **Monthly Spending Summary**. 
+
+On the first of every month, team leads will automatically receive an email summary detailing:
+* Total spend vs. monthly budget.
+* Breakdown by vendor, software, and travel expenses.
+* Month-over-month variances.
+
+This report is designed to give you a quick, high-level snapshot of your department's finances without having to dig through individual receipts. 
+
+Your first summary will arrive on **[Date]**. Please reach out to **[Finance Email]** if you have any questions or feedback.
+
+***
+
+### Option 3: Short & Punchy (For a Slack update, newsletter blurb, or push notification)
+**Quick Update: Track your money with our new Monthly Spending Summary!** 💡 
+
+We’ve just launched a simpler way to track your expenses. At the end of each month, you’ll now get a personalized spending report featuring visual category breakdowns, top spending habits, and month-over-month trends. 
+
+👉 **[Click here / Open the app]** to see where your money went this month!

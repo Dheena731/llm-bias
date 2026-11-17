@@ -1,0 +1,1 @@
+Limits results to records matching your defined metadata and quality thresholds. Excludes unverified, missing, or batch-flagged entries prior to analysis to preserve statistical integrity and reduce noise in downstream modeling.

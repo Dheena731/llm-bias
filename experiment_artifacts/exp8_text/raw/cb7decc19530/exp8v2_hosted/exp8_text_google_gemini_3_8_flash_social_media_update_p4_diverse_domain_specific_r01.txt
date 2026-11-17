@@ -1,0 +1,3 @@
+Change your calendar app’s default grid view from 30 minutes to 15 minutes. 
+
+Most clients default to 30-minute increments, which subtly conditions everyone to treat a half hour as the atomic unit of work. Once you adjust the time-slot density

@@ -1,0 +1,7 @@
+**Security Notice: Please Enable Two-Factor Authentication**
+
+To strengthen your account security, please enable two-factor authentication. 
+
+Two-factor authentication provides an extra layer of protection beyond your password. When this feature is active, signing in requires two separate steps: your standard password and a second form of verification, such as a temporary security code sent to your mobile device. This extra step ensures that only you can access your account, even if someone else learns your password.
+
+To turn on this protection, sign in to your account, open your account settings, and select the security section to activate two-factor authentication.

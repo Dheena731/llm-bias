@@ -1,0 +1,14 @@
+**Finance Update: Updates to expense routing & sign-off thresholds**
+
+Starting with this Wednesday’s batch, expense approvals are moving to an automated tier system in [Tool Name] to clear the backlog before month-end close. 
+
+Here is what changes on your end:
+
+* **Under $750:** Routes only to your direct manager. Automatically approved for the next payment run once signed off.
+* **$750 and above (or any software/SaaS line items):** Requires direct manager approval, followed by secondary review from your department head.
+* **Auto-rejection for missing receipts:** Claims over $25 will no longer sit in "Pending Info." If an itemized receipt isn't attached within 5 business days of submission, the system will kick it back and require a full resubmission. Credit card processing slips without line items are no longer accepted.
+* **Cut-off timing:** The reimbursement run processes on the 1st and 3rd Friday of each month. Approvals must be completed by 5:00 PM EST the preceding Wednesday to make that run’s ACH batch.
+
+Managers: You’ll now receive a single digest email every Tuesday and Thursday morning summarizing open approvals rather than individual email pings for every swipe. 
+
+Check that your assigned Cost Center is accurate in your profile before submitting travel claims for next week. If it looks wrong, ping #ask-finance.

@@ -1,0 +1,21 @@
+NOTICE: REPORTING A LOST COMPANY LAPTOP
+
+DATE: October 24, 2024
+TO: All Employees
+FROM: IT Security Division
+SUBJECT: Mandatory Procedure for Reporting Missing Company Hardware
+
+This notice provides the required steps for staff members who have lost or had stolen a company-issued laptop. Immediate reporting is critical to protect confidential information and trigger remote security protocols.
+
+If your laptop is unaccounted for, follow these steps without delay:
+Contact the IT Help Desk at extension 5000 or email itsecurity@company.com within one hour of discovering the loss.
+Change your primary login password and notify your direct supervisor via email or phone.
+Complete the Device Loss Incident Report found on the company intranet under Forms and submit it to the IT Security mailbox.
+Cease personal attempts to locate the device if it was left in an unsecured or public environment.
+
+Failure to report a missing laptop promptly may expose the organization to data breaches and will be subject to internal review. For after-hours emergencies, call the Security Hotline at 555-0199.
+
+Thank you for your prompt attention to this security matter.
+
+IT Security Division
+Corporate Operations

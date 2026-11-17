@@ -1,0 +1,1 @@
+Indicates a missing value. Data is unavailable or unknown and should not be treated as zero.

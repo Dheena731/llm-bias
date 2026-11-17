@@ -1,0 +1,45 @@
+# Cookie Notice
+
+**Harrow & Dunmore Seed Co.** ("we," "us") operates harrowanddunmore.example. This notice explains what cookies and similar files we place on your device when you use the site, and how to control them. It should be read with our Privacy Policy.
+
+**1. What we set and why**
+
+*Strictly necessary (no consent required):*
+- **hd_cart** (session, expires when you close your browser, or after 14 days if you have items in your basket). Remembers what you have added to your basket.
+- **hd_csrf** (session). Protects checkout forms against forged submissions.
+- **__stripe_mid** and **__stripe_sid** (1 year and 30 minutes). Set by our payment processor, Stripe, to detect fraud during card payments.
+
+*Functional (consent required):*
+- **hd_region** (1 year). Stores whether you have chosen a US or UK shipping region, so seed-packet prices and sowing calendars match your climate zone.
+
+*Analytics (consent required):*
+- **_ga** and **_ga_\*** (up to 2 years). Google Analytics. Counts visits and shows us which catalogue pages are read before a purchase. IP addresses are truncated before storage. Google does not use this data to serve you ads on our behalf.
+
+*Marketing (consent required):*
+- **_fbp** (90 days). Meta pixel. Used only if you have opted into our seasonal planting newsletter, to measure whether a campaign reached people who then bought seed.
+
+**2. Local storage**
+
+Our site stores your recently viewed varieties in your browser's local storage. This never leaves your device and is cleared when you use the "Forget my browsing" link in the footer.
+
+**3. Your choices**
+
+On your first visit you will see a banner offering to accept all, reject all non-essential, or choose by category. You may change your choice at any time through **Cookie settings** in the site footer. Rejecting analytics or marketing will not affect your ability to place an order.
+
+We honour the Global Privacy Control signal. If your browser sends it, we treat it as an opt-out of sale and sharing for the device concerned, and we will not load the marketing category.
+
+You may also block or delete cookies through your browser settings. Doing so may cause the basket and checkout to stop working.
+
+**4. Third parties**
+
+Stripe, Google, and Meta process data from cookies they set under their own privacy terms. We do not control their onward use. Links to other websites, including our seed-saving forum hosted elsewhere, are governed by those sites' policies.
+
+**5. Changes**
+
+We will update this notice if we add or remove cookies. The date below shows when it last changed. Material changes will be flagged in the cookie banner so you can review your choices again.
+
+**6. Contact**
+
+Questions about this notice go to privacy@harrowanddunmore.example or to Data Protection, Harrow & Dunmore Seed Co., 14 Millgate Yard, Ledbury, HR8 2EP, United Kingdom.
+
+*Last updated: 3 March 2025*

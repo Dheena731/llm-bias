@@ -1,0 +1,11 @@
+A short descriptive phrase for the snippet.
+
+The snippet should capture the main paradigm of the returned data structure or algorithm. The API section should not include the name of the function or any of its parameters.
+
+Summary
+
+  • The name of the function to extract the data.
+
+  • The type of the data. If it is a list, use both lists and list. Example: [list of lists of integers]
+
+  • The description of the data type (e.g. lists of lists of integers)

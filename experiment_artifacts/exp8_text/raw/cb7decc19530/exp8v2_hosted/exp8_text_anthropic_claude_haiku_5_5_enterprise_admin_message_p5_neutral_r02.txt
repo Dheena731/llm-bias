@@ -1,0 +1,19 @@
+Here's a short message you could send:
+
+**Subject: Upcoming Email System Migration**
+
+Hi everyone,
+
+We're moving our email system to a new platform on [date]. The migration is scheduled to take place between [start time] and [end time], and email may be temporarily unavailable during that window.
+
+What you need to do:
+- Save any important emails or attachments before [date].
+- Log out of email on all devices before the migration begins.
+- Update your mobile and desktop email settings once you receive the confirmation email from IT.
+
+Messages sent during the migration should be delivered once the process is complete, but please let [IT contact] know if anything looks off afterward.
+
+Thanks for your patience as we make this upgrade.
+
+Best regards,
+[Your name]

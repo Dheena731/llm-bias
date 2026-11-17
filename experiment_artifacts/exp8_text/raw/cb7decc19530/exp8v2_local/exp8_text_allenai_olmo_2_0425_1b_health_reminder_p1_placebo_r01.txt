@@ -1,0 +1,71 @@
+This is a mandatory action, with a date.
+
+Your selection was based on a rule that must be present in the step 2 of the process.
+
+This user said that they want to continue their training.
+
+This is not a mandatory action. Users are under no obligation to continue with this process.
+
+This user said that they would like to switch to a different gym.
+
+This user mentioned a fitness-related problem.
+
+This is not a mandatory action. Users are not required to have a problem to participate in the study.
+
+This user said they want to continue with the course.
+
+This user said they want to proceed with the course.
+
+This user said that their order was placed.
+
+This user said they want to make a reservation.
+
+This user said that they're new to the gym.
+
+This user said they want to make a reservation.
+
+This user said they're looking for a gym.
+
+Explain what the event is specifically and where it's taking place.
+
+Explain why the event is relevant to the user. What is the benefit to the user from attending this event?
+
+Explain why the event is being held at this specific date and time. Do this in a non-personal way. For example, you might mention if it is the day of a convention at the gym.
+
+Explain how the user can participate.
+
+Explain how the user can participate to gain access to the event. Note that some events might require the user to complete an in-person application but there are alternatives. For example, you might say that the user can preregister and check-in online or by phone, or you might say they can RSVP by email or text.
+
+Note that this step is in two parts. The first specifies the general details of the event, like the date and location. The second part addresses how the user can participate in the event. For example, they might be able to preregister, RSVP, or book a place to park.
+
+This user said it was their first time at the gym.
+
+Explain how the event is organized.
+
+Explain how the event is organized. This might include any rules or restrictions that apply to the event, things to keep in mind, or things to be prepared for like dress code. If there are fees, be sure to note them.
+
+Try to imagine what a welcoming instructor might say in this situation. You might say:
+
+Welcome to the gym. I am your instructor. Today, I will help you learn more about fitness. You will hear a few important facts about exercise and nutrition that will help you make better decisions about how you exercise and eat.
+
+You might also say:
+
+I will circle the gym so you know where everything is; you will hear a few important facts about exercise and nutrition that will help you make better decisions about how you exercise and eat. Please sign in when you are ready.
+
+This user said they wanted an online refund.
+
+Explain how the user can withdraw from the event. You might say:
+
+If you are no longer interested in the event, please fill out the form and we will refund your money. Please be aware that there may be a processing fee of $20.00 USD.
+
+This user said they had a personal emergency.
+
+Explain how the user can withdraw from the event. You might say:
+
+If you are no longer interested in the event, please fill out the form and we will refund your money. Please be aware that there may be a processing fee of $20.00 USD.
+
+This user said they're not in a rush. They want to make sure they get the most out of this event.
+
+Explain how the user can withdraw from the event. You might say:
+
+If you are no longer interested in the event, please fill out the form and we will refund your money. Please be aware that there may be a processing fee of $20.

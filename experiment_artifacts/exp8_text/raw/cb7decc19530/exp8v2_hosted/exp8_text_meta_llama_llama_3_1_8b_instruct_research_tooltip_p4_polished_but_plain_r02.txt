@@ -1,0 +1,1 @@
+A missing-value marker indicates that a data point is unknown or unavailable for a specific observation. This could be due to a variety of reasons, such as an instrument failure, a data collection error, or a deliberate decision to omit the value. The marker serves as a placeholder, signaling to users that the data is incomplete and should be interpreted with caution.

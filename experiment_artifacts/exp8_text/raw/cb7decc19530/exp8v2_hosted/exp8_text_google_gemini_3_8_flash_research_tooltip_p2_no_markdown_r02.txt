@@ -1,0 +1,1 @@
+The range where the true value is most likely to fall. A narrower band indicates greater certainty in the data.

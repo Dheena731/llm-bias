@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+
+\caption{Study 3 violations / active rows by model. GLM retains 104 of 1,200 rows after connection errors and has no rows in progressive conditions 4--7; its 28 word-limit rows all come from the full-constraint condition.}
+\label{tab:study3-model}
+\begin{tabular}{lrrr}
+\toprule
+Constraint & Gemini 2.5 Flash & GPT-3.5-Turbo & GLM-4.5 Air \\
+\midrule
+No emoji & 0/1200 & 0/1200 & 0/104 \\
+No bullets & 0/1050 & 0/1050 & 0/76 \\
+No headers & 0/900 & 0/900 & 0/49 \\
+No bold/italic & 3/750 & 0/750 & 0/28 \\
+Word limit & 11/300 & 3/300 & 0/28 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,17 @@
+Since you didn't name a domain, I assumed a clinical lab results table. Here's the tooltip:
+
+**Tooltip (lab results):**
+> **No result on file.** This test wasn't run, or its value hasn't posted. It does not mean 0 or "within range."
+
+Variants for other domains:
+
+**Weather station readings:**
+> **No reading.** The sensor was offline or sent an invalid value. Daily averages skip this hour rather than counting it as 0°.
+
+**Survey responses:**
+> **Skipped or not shown.** The respondent left this blank, or branching logic never displayed the question. Percentages exclude these rows.
+
+**Sales ledger:**
+> **Amount not entered.** The row exists, but no figure was recorded. Totals leave it out, so they may understate actual sales.
+
+If you tell me the actual product and what the marker looks like (dash, "NA", blank cell, symbol), I can tailor it more precisely.

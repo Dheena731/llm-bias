@@ -1,0 +1,19 @@
+**Subject: 🔒 Security Reminder: Eliminate Password Reuse**
+
+**Team,**
+
+To protect our organization and your personal data, please ensure you are **not reusing passwords** between work and personal accounts.
+
+**⚠️ Why This Matters:**
+If a password is compromised on a third-party website, attackers often attempt to use it on corporate systems (a tactic known as *credential stuffing*). Reusing passwords creates a single point of failure for both your personal privacy and company security.
+
+**✅ Action Required:**
+*   **Unique Credentials:** Every work account (Email, HR, DevTools, etc.) must have a distinct password.
+*   **No Cross-Over:** Never use a work password for personal sites, and vice versa.
+*   **Immediate Update:** If you suspect you've reused a password anywhere, change it immediately via the [Password Reset Portal].
+*   **Use Our Tool:** Leverage our approved enterprise **Password Manager** to generate and store complex, unique passwords securely.
+
+Thank you for helping keep our workplace secure.
+
+**IT Security Team**  
+[Contact Info / Link to Security Policy]

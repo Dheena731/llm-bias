@@ -1,0 +1,5 @@
+An API rate limit is a structural constraint placed on request frequency, defining how many operations a client—identified by an API key, IP address, or bearer token—can execute against an endpoint within a specified time window.
+
+Implemented at the gateway or reverse proxy layer using algorithms like token buckets or sliding-window counters, these limits protect downstream services from thread-pool exhaustion, database lock contention, and cascading failures caused by unthrottled traffic or noisy neighbors. 
+
+When a client breaches their allocation, the edge layer drops the request before it executes any application logic, returning an `HTTP 429 Too Many Requests` response paired with standard control headers (such as `Retry-After` and `X-RateLimit-Reset`) to signal when capacity will replenish.

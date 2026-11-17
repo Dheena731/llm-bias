@@ -1,0 +1,3 @@
+**Tooltip Text:**
+
+> Excludes samples failing quality control thresholds and applies temporal alignment. Restricts analysis to the defined cohort; computed statistics reflect only included records.

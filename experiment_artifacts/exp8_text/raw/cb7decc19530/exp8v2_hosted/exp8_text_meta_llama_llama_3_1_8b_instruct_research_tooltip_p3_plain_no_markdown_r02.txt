@@ -1,0 +1,1 @@
+This control allows you to select a date range by choosing a start date and an end date. You can select dates using a calendar or by typing in a date. The start and end dates can be the same, allowing you to select a single date.

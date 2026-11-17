@@ -1,0 +1,8 @@
+An **API rate limit** is a rule set by a service provider that restricts how many requests a user or application can make to an API within a specific timeframe (for example, 100 requests per minute). 
+
+### Why it exists:
+* **Prevents server crashes:** It protects the backend from being overwhelmed by traffic spikes or malicious attacks (like DDoS attacks).
+* **Ensures fair usage:** It keeps a single user or runaway script from hogging all the server’s resources.
+* **Monetization:** Companies often offer tiered pricing, allowing paying users higher limits.
+
+If you exceed a rate limit, the API will temporarily reject your requests, typically returning an **HTTP 429: Too Many Requests** error until your limit resets.

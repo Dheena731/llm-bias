@@ -1,0 +1,22 @@
+**SECURITY NOTICE: STRICT PROHIBITION ON PASSWORD REUSE**
+
+**To:** All Employees  
+**From:** IT Security Department  
+**Date:** October 26, 2023  
+**Subject:** Action Required: Unique Credentials for All Accounts  
+
+All employees are reminded that reusing passwords across different platforms, internal systems, or between work and personal accounts is a violation of the company's Information Security Policy.
+
+Reusing credentials poses a critical risk. If a password is compromised on an external site, attackers can use that same credential to access company systems through techniques such as credential stuffing. This puts organizational data and infrastructure at immediate risk.
+
+**Required Actions:**
+
+1.  **Unique Passwords:** Every account must have a distinct password. Do not recycle passwords used on other devices or services.
+2.  **Separate Personal and Work:** Never use a personal email or social media password for corporate logins.
+3.  **Use Approved Tools:** Utilize the company-authorized password manager to generate and store unique, complex passwords for each system.
+
+Accounts identified with reused passwords will be flagged. Affected users must reset their credentials immediately upon notification. Continued non-compliance may result in restricted system access.
+
+For assistance or reporting suspicious activity, contact the IT Security Helpdesk at extension 5555.
+
+Thank you for your cooperation in maintaining our security posture.

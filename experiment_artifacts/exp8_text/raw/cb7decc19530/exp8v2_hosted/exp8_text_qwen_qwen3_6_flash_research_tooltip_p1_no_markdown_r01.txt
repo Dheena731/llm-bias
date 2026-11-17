@@ -1,0 +1,1 @@
+Shows only records that match selected criteria.

@@ -1,0 +1,5 @@
+**Export results**
+
+Click **Export** in the results toolbar and choose a format (CSV, JSON, or Excel). The file includes all rows from the current query, not only those visible on screen. Applied filters and sorting are preserved.
+
+*Tip: For large result sets, add a LIMIT clause to reduce file size and export time.*

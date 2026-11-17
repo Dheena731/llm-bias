@@ -1,0 +1,13 @@
+A confidence interval in the context of a chart like a bar chart, pie chart, or any other statistical visualization, serves as a guide that interprets the variability within the observed data points. When you see a confidence interval highlighted on a chart, it indicates the range within which the true population parameter (such as the mean, median, or mode) is believed to fall with a certain level of confidence.
+
+For instance, in a bar chart showing sales over time, the confidence interval might indicate that the true average weekly sales are likely between $x and $x+ or $x-x, with a 95% confidence level. This means, given the data collected over many trials or observations, the pattern you see in the chart is likely representative of how sales were generally performed, assuming the data was gathered with the right sample size and under similar conditions.
+
+Here are some key points to remember:
+
+* **True Parameter**: The actual value you're estimating (e.g., the average weekly sales).
+* **Population Parameter**: The parameter you're estimating from your sample (e.g., average weekly sales).
+* **Confidence Interval**: The range calculated within which the population parameter is believed to lie with a specific degree of confidence (e.g., 95%).
+* **Variance in Data**: Represents the spread or variability within the data.
+* **Statistical Visualization**: Charts like bar charts help to present data visually, but they only tell part of the story. The confidence interval gives additional context to inform what we can confidently infer from the data.
+
+In summary, when you hover over or look at a confidence interval in your chart, you're being told that this range represents an estimate of the true value, and it's accompanied by a level of certainty or confidence about how close this estimate is likely to be to the true value. It’s an essential part of data interpretation in visual analytics.

@@ -1,0 +1,5 @@
+**NOTICE: Mandatory Two-Factor Authentication for Platform Access**
+
+Effective 11 November, single-factor login will no longer be accepted for any account accessing production datasets, client repositories, or billing systems. This change implements our revised zero-trust baseline following Q3 audit findings.
+
+Enrollment is required for all existing and new accounts. Navigate to `settings.platform/auth`, select either TOTP (authenticator application) or a FIDO2-capable hardware key, and complete pairing. Download and store the generated backup codes offline before finalizing setup. Accounts without an active second factor will be suspended at 09:00 EST on 14 November. Reactivation will require a manual review

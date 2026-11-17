@@ -1,0 +1,13 @@
+Subject: VPN client update coming this Thursday
+
+Hello everyone,
+
+On Thursday, March 14, we will be rolling out version 4.2 of the company VPN client. The update brings a faster reconnection process when switching between Wi-Fi and mobile networks, and it replaces the old login prompt with single sign-on through your work account, so you will no longer need to enter a separate VPN password.
+
+The update will install automatically the next time you restart your laptop. If you prefer to install it sooner, you can find it in the Software Center under "Company Tools." Please save your work before restarting.
+
+After the update, you may be asked to sign in once more to confirm your account. If you run into any problems connecting, reach out to the IT help desk at helpdesk@example.com or call extension 4400.
+
+Thank you for your patience while we make these improvements.
+
+IT Services

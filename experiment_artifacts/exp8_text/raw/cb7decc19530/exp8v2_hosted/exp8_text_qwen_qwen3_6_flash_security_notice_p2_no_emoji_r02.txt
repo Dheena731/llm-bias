@@ -1,0 +1,19 @@
+**NOTICE: VIGILANCE REQUIRED REGARDING PHISHING EMAILS**
+
+**To:** All Staff
+**From:** IT Security Department
+**Date:** October 26, 2023
+**Subject:** Phishing Awareness and Reporting Procedures
+
+This notice serves as a reminder regarding the ongoing threat of phishing emails. Employees are the first line of defense against cyberattacks targeting company data and credentials. Please adhere to the following security protocols:
+
+1.  **Verify Senders:** Carefully inspect the sender's email address. Attackers often use addresses that closely mimic legitimate internal or external contacts.
+2.  **Avoid Interaction with Suspicious Content:** Do not click on links or download attachments from unsolicited emails, even if the message appears urgent or comes from a known source.
+3.  **Check for Red Flags:** Be cautious of requests for sensitive information, password resets, or wire transfers conducted via email without prior verification through a separate communication channel.
+4.  **Report Immediately:** If you suspect an email is a phishing attempt, do not reply. Forward the message to security@company.com or mark it as phishing using the dedicated button in your email client.
+
+Your prompt reporting helps us identify and neutralize threats quickly. Thank you for your cooperation in maintaining a secure workplace environment.
+
+Regards,
+
+IT Security Department

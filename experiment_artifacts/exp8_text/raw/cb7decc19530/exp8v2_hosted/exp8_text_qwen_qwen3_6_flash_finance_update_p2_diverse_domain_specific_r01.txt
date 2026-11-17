@@ -1,0 +1,11 @@
+**Subject: Update to Card Transaction Pricing – Effective [Date]**
+
+Starting [Effective Date], our card processing rates will reflect the latest Visa and Mastercard assessment schedules alongside increased backend authorization and settlement costs. 
+
+We are moving new and renewing merchant accounts from our previous blended-tier model to an interchange-plus structure. Under this framework, you will be charged the exact network interchange plus a fixed per-transaction processor margin, rather than a blended percentage that masks underlying costs. Existing contracts will remain unchanged until their scheduled renewal date.
+
+No configuration changes are required on your end. Adjustments will be applied automatically to your settlement files, and your monthly statements will include itemized rows for interchange, network assessments, and processor markup by card type (credit, debit, commercial, ACH-linked). 
+
+If your volume skews toward keyed-in entries, international cards, or recurring subscriptions, the impact may differ from standard retail transactions. Review the attached pricing matrix or request a volume-based cost projection from your account rep. 
+
+Settlement timelines and payout windows remain unaffected. For questions on how this maps to your current transaction mix, reply directly to this notice or log into the merchant portal’s billing section.

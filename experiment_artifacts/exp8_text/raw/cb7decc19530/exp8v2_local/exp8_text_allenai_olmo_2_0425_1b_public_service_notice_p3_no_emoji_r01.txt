@@ -1,0 +1,11 @@
+The mode for text messages hasn’t changed.
+
+The current text mode is the same as the old one – old one means the one before the emoji mode.
+
+The emoji mode only applies for SMS, MMS etc. If you are sending to someone who has the emoji mode disabled, the message will appear in the old text mode.
+
+Any text message sent to the current mode will be displayed in the old text mode.
+
+Only confirmed contacts can be sent to the emoji mode.
+
+Was this information useful?

@@ -1,0 +1,27 @@
+Here's a sample admin message:
+
+**Subject: New Expense Approval Workflow Now Live**
+
+**To: All Department Managers and Staff**
+
+We're excited to announce the launch of our new expense approval workflow, designed to streamline the process for submitting and approving expenses across our team. As of today, this new workflow is live and will be the standard process for all expense submissions moving forward.
+
+The new workflow is based on a more detailed approval structure, with multiple approval levels and a clear escalation process for complex or high-value expenses. This change aims to improve accountability, reduce processing time, and enhance our overall financial management.
+
+**What's changed:**
+
+* All expense submissions will require a detailed justification and a specific approval chain
+* Managers will be notified via email and in-app notifications when an expense requires their review
+* The approval process will include a 24-hour review period, with the option to escalate to a designated approver for complex expenses
+
+**What to do next:**
+
+* Review the updated expense policy document, which has been updated to reflect the new workflow
+* Ensure your team is familiar with the new process and has access to the required training resources
+* If you have any questions or concerns, please reach out to the Accounting team for support
+
+We believe this new workflow will greatly enhance our financial management and accountability. If you have any feedback or suggestions, please don't hesitate to share them with us.
+
+**Best regards,**
+[Your Name]
+Accounting Team

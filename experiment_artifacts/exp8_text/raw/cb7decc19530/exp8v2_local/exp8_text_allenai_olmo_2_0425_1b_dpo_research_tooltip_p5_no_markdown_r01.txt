@@ -1,0 +1,1 @@
+To export query results, right-click on a table header and select "Format > Table As" then choose "Export" to download the table to your desired file format. Alternatively, drag the page border to the left and click the export icon to copy the table to your clipboard and then paste it into a word processor or spreadsheet program for sharing or further manipulation.

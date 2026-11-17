@@ -1,0 +1,47 @@
+Write clearly. Write the notes in your own words, avoiding jargon. Be sure to comment on the methods section.
+
+What to do if a student forgot to include a block of coherent text somewhere in their methods section.
+
+Comment on the methods section
+
+You should comment on every part of the methods section. The main thing to comment on is the methods themselves. You do not have to read through everything to make comments - you can find it by looking for words like "tricks", "methods" and "experimental setup", and noting the problems with them.
+
+You should also comment on the results of the experiment. If the method doesn't explain how the experiment was conducted, then you should note that it's difficult to understand.
+
+Comment on your own methods section
+
+Occasionally you will have other comments like "the methods are not very clear", "the methods could be improved", or "the methods don't fit together well". You can make these comments on your own methods section - decide what the best methods that suit your experiment are, and use specific examples to support your choice.
+
+Study the conclusions of other methods people have published on the same topic, and note what problems they highlight. Use these problems to help you improve your methods.
+
+What to do if a student cancelled a planned experiment.
+
+Comment on the methods section
+
+If you feel like a method is not a good idea, then do not publish it. Be clear that the methods are not a good idea and explain why in the methods section. You should justify your decisions carefully, from the results of the original experiment, to your own intuition. If you don't feel like the methods are a good idea, then do not include them.
+
+What to do if a student forgot to include any methods section.
+
+Comment on the author's motivation section
+
+The author's motivation section is an essential part of every paper, so if a student didn't include it, you should comment on it. That way the student will have a chance to fix the mistake.
+
+If I'm writing a method section as a comment, what should I look for?
+
+There are two parts to look for in a method section - the why, and the how. The how is easy to spot - it's the details of the methods. But the why is much harder to spot - you have to read the paper, and get a general idea of what the author is trying to achieve.
+
+The best way to make comments on the why of a method is to get a general idea of what the author is trying to achieve in the method section. This is the direction of the author's research. If the author's research is reasonably clear, then you can comment on the why of the method.
+
+The how is easy to spot in a method section. If you want to see the details, you should just read the paper, but if the author is unclear about the details of their experiment, then it's likely that you will also not understand the methods.
+
+What to do if I don't understand the details of a method section, but I want to try to comment on it?
+
+You should not try to comment on a method that you have not read carefully. You should be able to read the methods section, understand it, and then make comments on it.
+
+However, there are a few situations where you may not understand the details of a method section.
+
+  • You can, and should, try to find the original source of the published paper. You should be able to read the original paper if you do this.
+
+  • There is a possibility that the author has been careless and left out some important details. You should write a comment on this, and ask the author if you can fix anything.
+
+  • There is a possibility that the author has made a mistake and said something false, because they didn't

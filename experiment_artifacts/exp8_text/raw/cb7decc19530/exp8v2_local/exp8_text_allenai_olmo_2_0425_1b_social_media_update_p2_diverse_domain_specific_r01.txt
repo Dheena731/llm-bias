@@ -1,0 +1,35 @@
+Example:
+
+Hi @Smithers,
+
+We recently reached 1,000 users! Thanks to all who have been contributing to our data-driven solutions.
+
+Next time you're on a flight, try our new MobileMe tool and see if you notice anything that requires point and click. One of our team members will be on hand for a live demo at the beginning of your flight. Feel free to ask any questions you have.
+
+Thanks again.
+
+
+Wade
+
+Note: This example is written specifically for the context of the domain, but would have less value if written generically outside of the context.
+
+Example 2:
+
+Hi @Smithers,
+
+We recently reached 8,000 users! Thank you for all of your feedback during this year's beta period. We're already working to make sure we're providing the best possible experience for our users.
+
+Here are some highlights from the last year:
+
+Last month, we reached a milestone of 8,000 users!
+
+We recently launched our beta platform for governments and organizations.
+
+Last year, we exceeded 3 million users!
+
+Thanks for all of your feedback over the past year. We're excited to take this platform to the next level with you.
+
+Thanks again,
+
+
+John

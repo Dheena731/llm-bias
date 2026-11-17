@@ -1,0 +1,15 @@
+**Subject: Scheduled MX Cutover: Mailbox migration this Friday at 20:00**
+
+This Friday at 20:00, IT is cutting over mail routing from Google Workspace to Exchange Online. 
+
+**What to expect over the weekend:**
+* **Mail routing:** We are flipping the MX records at 20:00. While DNS propagates, inbound mail will queue or drop into the new tenant. Do not rely on time-sensitive messages arriving Friday night.
+* **Delta sync:** Mailboxes, contacts, and calendar events created before October 15 have already been pre-seeded in the new tenant. A final delta pass will run Saturday to pull in messages received this week. 
+* **Client errors:** Your mobile apps and desktop clients (Apple Mail, Outlook) will throw authentication and certificate errors over the weekend. Ignore them; do not attempt to re-enter your password until Monday.
+
+**Action required Monday at 08:30:**
+You will need to remove your old profile from your desktop client/phone and re-authenticate via Okta SSO. Direct web access will be available immediately at `outlook.office.com`.
+
+Local Outlook rules and custom client signatures will not migrate automatically—export or back those up before 17:00 Friday.
+
+If you hit calendar collisions or find folder hierarchies missing after Monday at 10:00, route a ticket through Jira under `Infrastructure > Email Cutover`.

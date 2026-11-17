@@ -1,0 +1,1 @@
+This filter narrows your dataset by applying specific criteria such as date range, variable type, or value thresholds. Only records that meet your selected conditions will be displayed, allowing you to isolate relevant information and reduce noise during analysis. Set your parameters using the controls below and press apply to refresh the view.

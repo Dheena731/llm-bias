@@ -1,0 +1,9 @@
+Every uncached HTTP request triggers an expensive execution loop: the network carries the packet to the origin data center, the application server parses the route, the database executes queries against disk or memory pools, and the runtime renders a response payload before sending it back across the wire. This introduces two primary bottlenecks: **compute latency** (CPU and I/O wait on the server) and **network latency** (Round Trip Time, or RTT, dictated by geographic distance).
+
+Caching eliminates this overhead by short-circuiting that path at various points along the delivery chain:
+
+1. **At the application layer (e.g., Redis, Memcached):** Instead of executing raw SQL queries or re-parsing templates for every request, the application checks an in-memory key-value store. This trades minimal RAM to bypass disk I/O, complex joins, and serialization, dropping backend processing from hundreds of milliseconds to single-digit microseconds.
+2. **At the network edge (CDNs and reverse proxies):** By terminating the request at a Point of Presence (PoP) close to the user, an edge cache serves static assets (CSS, JS, images) or pre-rendered HTML without routing traffic back to the origin server. This avoids multiple round-trips over public transit networks and bypasses TCP/TLS handshakes across long physical distances.
+3. **In the client runtime (browser HTTP cache):** Controlled via `Cache-Control` and `ETag` headers, assets stored in the user’s local disk or memory cache generate zero outbound network traffic. The Time to First Byte (TTFB) drops to near zero because the request never leaves the local machine.
+
+Ultimately, caching turns dynamic compute problems into static retrieval problems, reducing load on origin infrastructure and cutting the network distance bytes must travel to reach the viewport.

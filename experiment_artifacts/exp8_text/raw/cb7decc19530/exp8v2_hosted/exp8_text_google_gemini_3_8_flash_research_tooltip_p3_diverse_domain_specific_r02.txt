@@ -1,0 +1,13 @@
+Here are four concise, domain-specific options. Each addresses the operational quirks (timezones, storage tiers, settlement lags) that generic tooltips ignore:
+
+### 1. Observability / Log Analytics (SIEM / APM)
+> **Query window (UTC).** Ranges exceeding 14 days query cold storage and may take several minutes to aggregate.
+
+### 2. FinTech / Corporate Ledger
+> **Posting period.** Filters by ledger settlement date, not transaction authorization time. Cutoff is 5:00 PM EST.
+
+### 3. Freight & Logistics
+> **Origin departure window.** Filters by initial vessel gate-in (ETD). Feeder vessel and transshipment legs are preserved in the result.
+
+### 4. Clinical Research / EHR
+> **Observation window.** Restricts records to encounters within the protocol phase. Does not exclude baseline data from patient history exports.

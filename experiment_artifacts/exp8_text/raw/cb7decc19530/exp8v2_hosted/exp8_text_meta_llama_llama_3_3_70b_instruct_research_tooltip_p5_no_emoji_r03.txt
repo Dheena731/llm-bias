@@ -1,0 +1,1 @@
+"To export query results, select the desired format from the dropdown menu, choose the columns to include, and click the 'Export' button. You can export results as a CSV, Excel, or PDF file."

@@ -1,0 +1,13 @@
+**Security Notice: External credential leaks and SSO stuffing**
+
+When an external platform (a travel site, personal email, or SaaS tool) suffers a data breach, those username/password pairs are immediately fed into automated credential-stuffing tools to test corporate access points. 
+
+If your company login shares a password with any external service, MFA is our only remaining barrier—and push fatigue or session hijacking makes that barrier fragile. 
+
+**Immediate expectations:**
+
+* **Zero cross-over:** Your Okta/SSO password must be entirely unique. Do not use it for external vendor portals, development sandboxes, or personal accounts.
+* **Use 1Password:** Generate random, high-entropy passwords for all non-SSO web tools and store them in your company-provided vault. 
+* **Treat unexpected prompts as compromised:** If you receive an Okta Verify or Duo push you did not trigger, reject it immediately and report it in `#sec-ops-alerts`. An unsolicited prompt means your primary credentials have already been entered correctly by someone else.
+
+Questions or need a reset? Contact the SecOps team directly via the internal IT help desk.

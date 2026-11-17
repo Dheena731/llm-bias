@@ -1,0 +1,11 @@
+Subject: Quarterly Access Reviews Begin Next Week
+
+Quarterly access reviews for all internal systems will begin on Monday and must be completed within two weeks. These reviews help us confirm that every user has only the access needed for their current role, and they are a required part of our security and compliance program.
+
+Managers will receive an email from the IT Security team on Monday morning containing a list of their direct reports and the systems each person can reach. Please review each entry carefully and confirm whether the access is still appropriate. If an employee has changed roles, no longer needs a particular system, or has left the team, mark the access for removal. If you are unsure whether access is still needed, contact the system owner before responding rather than approving it by default.
+
+System owners will separately review administrator and privileged accounts, as well as shared and service accounts. Any account without a clear owner will be disabled after the review period ends.
+
+Responses are due by the end of the second Friday. Managers who have not responded by that date will receive a reminder, and unresolved items will be escalated to department heads. Access changes approved during the review will be applied within five business days.
+
+If you have questions or need an extension because of planned leave, please contact the IT Security team at the help desk as soon as possible. Thank you for your prompt attention to this important task.

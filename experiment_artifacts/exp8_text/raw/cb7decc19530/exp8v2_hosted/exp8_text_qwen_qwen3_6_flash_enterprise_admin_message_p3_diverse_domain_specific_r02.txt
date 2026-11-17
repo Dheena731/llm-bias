@@ -1,0 +1,8 @@
+**Subject: VPN Client Update: Roaming logic overhaul and WireGuard default**
+
+Team,
+
+We've pushed an update to the VPN client addressing the packet loss spikes observed during interface handoffs.
+
+**Key changes:**
+• **Protocol Shift:** Default transport is

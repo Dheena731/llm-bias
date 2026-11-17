@@ -1,0 +1,11 @@
+**Scheduled Maintenance: Metric Aggregation & Dashboard UI**  
+**Window:** Sunday, Oct 22, 02:00 – 04:30 UTC (150 minutes)
+
+We are running scheduled compaction and schema updates on the primary time-series reporting cluster (ClickHouse). 
+
+**What to expect during the window:**
+* **Console Access:** The web UI, custom dashboards, and query builder will be unavailable (HTTP 503). 
+* **Ingestion Pipeline:** Otel collector endpoints and raw event streams are unaffected. Metrics emitted during this window will buffer in Kafka and backfill once the tables remount; no data will be dropped.
+* **Alerting:** Simple threshold monitors (heartbeats, host-down) will continue to fire via edge workers. Synthetic checks and rolling aggregations (e.g., 1-hour error-budget burns) will be paused and evaluated retroactively at ~04:45 UTC.
+
+Telemetry feeds will catch up automatically once the cluster restarts. Status updates will post to `#ops-infrastructure` at T-15 minutes and immediately upon completion.

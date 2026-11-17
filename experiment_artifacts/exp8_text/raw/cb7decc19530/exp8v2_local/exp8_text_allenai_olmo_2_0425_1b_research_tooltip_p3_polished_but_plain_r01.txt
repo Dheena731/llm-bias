@@ -1,0 +1,54 @@
+Don’t add images, unless you are using them to explain something on the page. Images should instead be used to show images of meanings – eg, web design or graphics.
+
+If an image is not required to explain something on the page, delete it.
+
+If you’re using a large image, make sure it fits the viewport.
+
+
+The date-range selector can only be used to refer to a section that is actually at the end of a chapter.
+
+Separate sections after the date range with a blank line.
+
+If a section in the middle of a chapter is included in the date range, it should be the first section in the date range. Separate it with a blank line after the previous section of the date range.
+
+One or more sections of the section can be in the date range. Use a second date range instead of including more elements in the date range.
+
+If more than one date range is displayed in the date range selector, they should be separated with a blank line and a section should be included in the first date range if it is at the end of a chapter. If it is in the middle of a chapter, it should be the first section in the date range.
+
+Create date ranges
+
+You can add a date range to your chapter using the date range option box.
+
+The date range selector is a box that appears at the end of the chapter, near the footer. It can be used to create a section that starts at the same time as the page load and ends at a later time.
+
+You can use the date range selector to create different sections for different chapters. The date range selector can be used to create a section that starts at the same time as the page load, and ends at a different time.
+
+If you want to include more than one section in the date range selector, you can use the date range box to create a section that includes more than one section.
+
+The date range box can be used to create a section that includes more than one section, but the date range box should be used to create a section that includes more than one section.
+
+You can use the date range box to create a section that includes more than one section, but the date range box should not be used to create a section that includes both sections.
+
+The date range box should not be used for more than one section, or for more sections than you need for the date range.
+
+There are two ways to create a date range for a specific section of the chapter: using the section title, or using the title of the section.
+
+To use the date range box to create a section that includes more than one section, you need to specify the following: a section title, and a title that is used to indicate the section.
+
+You can specify the section that you want to include in the date range in the section title box.
+
+To use the section box to create a date range for a specific title, you need the section title to be the same as the title you have chosen for the section title.
+
+To create a date range for the title of a section of a chapter, you may need to include the following: a section or section title, and the title of that section.
+
+You may need to use the section box to create the date range if you need to add a specific title to the date range.
+
+To create a date range for a title that includes more than three sections, you should include the title in the title box and specify the title of a particular section that includes the section or titles.
+
+The title box can be the same length as the title box in the title that is used to set the section title.
+
+If you need more than three titles for a section or titles, you can use the title box to set one title for the section.
+
+You may find yourself wanting to set one title for a section.
+
+Using additional

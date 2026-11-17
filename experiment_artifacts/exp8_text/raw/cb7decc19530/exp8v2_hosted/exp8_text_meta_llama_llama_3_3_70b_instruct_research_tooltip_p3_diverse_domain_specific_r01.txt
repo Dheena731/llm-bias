@@ -1,0 +1,1 @@
+"Choose a start and end date to filter data within a specific timeframe. Selecting a range will update the view to show only records that fall within those dates, helping you analyze trends, identify patterns, and make informed decisions based on a precise period of activity."

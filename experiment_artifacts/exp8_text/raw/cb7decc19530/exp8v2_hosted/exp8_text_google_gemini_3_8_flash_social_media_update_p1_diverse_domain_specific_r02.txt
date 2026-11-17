@@ -1,0 +1,9 @@
+You can stop nudging your snare bottom track by 1.2 milliseconds and squinting at waveform peaks. 
+
+Multi-mic phase alignment is live in v2.4. 
+
+Set your overheads as the anchor, select up to 8 drum channels, and it calculates the group's phase correlation across the full frequency spectrum—compensating for mic distance without introducing the comb filtering you get from broad polarity flips. 
+
+We also mapped the delta-audition toggle to `Shift + D` so you can hear precisely what frequencies are being recovered (or canceled out) before committing.
+
+Available now in the client updater. Full changelog and latency bench-tests in the forum thread below.

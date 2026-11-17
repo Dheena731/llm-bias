@@ -1,0 +1,20 @@
+**Subject: Important Notice: Phishing Email Awareness**
+
+**To:** All Staff
+**From:** IT Security Team
+**Date:** October 26, 2023
+
+**Message:**
+
+Please be advised that there has been an increase in phishing attempts targeting our organization. To protect company data and systems, all employees must remain vigilant and follow these security guidelines:
+
+*   **Verify Senders:** Scrutinize the sender's email address. Attackers often use addresses that closely mimic legitimate domains with subtle spelling errors.
+*   **Inspect Links:** Hover over hyperlinks to preview the destination URL before clicking. Do not click links in unsolicited or unexpected messages.
+*   **Beware of Urgency:** Phishing emails frequently employ pressure tactics, demanding immediate action. Take time to verify any requests for sensitive information, passwords, or payment details through established communication channels.
+*   **Report Suspicious Activity:** If you suspect an email is fraudulent, do not reply or click any attachments. Forward the full email message to the IT Security team immediately for analysis.
+
+When in doubt, contact the IT Help Desk for verification. Thank you for your cooperation in maintaining a secure workplace.
+
+Regards,
+
+IT Security Team

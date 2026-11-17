@@ -1,0 +1,1 @@
+Only include records collected between the start and end dates you select. Records outside this range are hidden from the results, but they remain in the underlying dataset and will reappear if you clear the filter.

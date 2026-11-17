@@ -1,0 +1,7 @@
+You must include a URL to the thing you’re citing. A link to a paper should contain the paper's title in addition to the URL.
+
+You can also cite an online page by its URL. For example, if you reference a URL that looks like http://foo.org/wiki/index.php/Main_Page, just use the full URL. If you're referencing an entire book, use its Table of Contents or the first few pages.
+
+Do not include the paper's DOI, journal's ISSN or journal's name in the URL, or the name of a person in the URL. For example, if you reference a paper with the DOI 10.1038/ncomms11398, just use because you can't include DOI in a URL. Similarly, do not use the ISSN number of a journal on its own, or the name of a person in the URL.
+
+Some people use "http://" to prefix URLs for this purpose, but I think this is just a convention that isn't used in other fields.

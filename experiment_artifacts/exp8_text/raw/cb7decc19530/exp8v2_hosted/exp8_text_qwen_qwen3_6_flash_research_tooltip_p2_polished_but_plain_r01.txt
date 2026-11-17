@@ -1,0 +1,1 @@
+A confidence interval defines the range likely containing the true value, helping you assess the precision of the estimate and the reliability of the results.

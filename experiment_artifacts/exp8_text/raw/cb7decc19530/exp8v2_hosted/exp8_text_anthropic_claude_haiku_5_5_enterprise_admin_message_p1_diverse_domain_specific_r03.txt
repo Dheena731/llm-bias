@@ -1,0 +1,16 @@
+**Subject: Route Metrics down Thu 14 Nov, 22:00–02:00 CT**
+
+Team,
+
+Route Metrics will be offline Thursday night while we move it to the new database cluster. Downtime is scheduled for 22:00 to 02:00 CT, though I expect it to be back closer to 23:30.
+
+What this affects:
+- Live truck ETAs and the cold-chain temperature feed will stop updating. Readings from the trailers will still be logged on the devices and will backfill once the feed reconnects.
+- Friday's 6:00 a.m. dispatch sheet will be built from Wednesday's 22:00 snapshot, so any route changes made Thursday evening need to be phoned to the dock lead directly.
+- CSV exports from the Dock Scheduler tab will also be unavailable during the window.
+
+If you need a temperature log for a specific load during that time, message me and I'll pull it from the device store by hand.
+
+Ayesha Ferreira
+Warehouse Systems
+ext. 4417 · ayesha.ferreira@brightfieldfoods.example

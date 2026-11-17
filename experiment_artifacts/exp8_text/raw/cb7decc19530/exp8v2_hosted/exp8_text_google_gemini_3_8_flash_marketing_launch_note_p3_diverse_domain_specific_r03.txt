@@ -1,0 +1,12 @@
+Most personal finance sheets fail at two specific edge cases: credit card float and sinking funds. You either have to pretend you spent checking-account cash the day you swiped the card, or your car maintenance reserve vanishes the moment you clear the sheet for February. 
+
+We built **Tallymark** to solve those two mechanics without relying on Google Apps Script, locked cells, or external bank-scraping APIs that disconnect every two weeks.
+
+How it works:
+* **Single-ledger architecture:** Every transaction lives in one flat table. No jumping between twelve monthly tabs to see what you spent on groceries in July.
+* **True rollover logic:** Sinking funds calculate via standard `SUMIFS` against a rolling balance. Unspent allocations carry forward automatically; overspends pull from next month’s envelope or get flagged as unassigned debt.
+* **Zero script bloat:** Fast recalculation on mobile, no external macro permissions required.
+
+It’s native to Google Sheets and Excel (Office 365). You purchase it once, make a copy, and own the formulas forever.
+
+Available now for $19 at [link].

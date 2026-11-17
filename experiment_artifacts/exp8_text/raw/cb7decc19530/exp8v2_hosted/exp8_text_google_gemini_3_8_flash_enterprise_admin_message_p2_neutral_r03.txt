@@ -1,0 +1,36 @@
+Here are two options, depending on where you are posting the message:
+
+**Option 1: For Slack / Microsoft Teams (Quick & Direct)**
+
+> 📢 **Update: New Expense Approval Workflow** 
+> 
+> Starting on **[Date]**, we are rolling out a new expense approval process to make reimbursements faster and easier to track. 
+> 
+> **What you need to know:**
+> * All new claims must be submitted through **[Platform/Tool Name]**.
+> * Expenses will now automatically route to your direct manager for approval before going to Finance.
+> * Any pending expenses submitted before [Date] will be processed under the old system.
+> 
+> Please review the quick-start guide **[Link here]**. If you have any questions, reach out to **[Finance/Admin Team/Channel]**. 
+> 
+> Thank you for your cooperation!
+
+***
+
+**Option 2: For Email (Slightly more formal)**
+
+> **Subject:** Action Required: New Expense Approval Workflow Effective [Date]
+> 
+> Hi Team,
+> 
+> To streamline our reimbursement process and reduce turnaround times, we are introducing an updated expense approval workflow, effective **[Date]**. 
+> 
+> **Key Changes:**
+> * **Submission:** All expense claims should now be submitted via **[System/Link]**.
+> * **Routing:** Requests will now automatically route to your direct supervisor for review before final sign-off by Finance. 
+> * **Tracking:** You can now track the real-time status of your claims directly in the portal.
+> 
+> Please check out our **[User Guide/Documentation Link]** for step-by-step instructions. If you have any questions, please contact **[Email Address]**.
+> 
+> Best regards,  
+> **[Your Name/Finance Team]**

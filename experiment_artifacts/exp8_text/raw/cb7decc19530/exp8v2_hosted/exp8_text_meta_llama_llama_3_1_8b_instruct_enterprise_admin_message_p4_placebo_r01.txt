@@ -1,0 +1,21 @@
+**Quarterly Access Reviews: A Reminder of Your Responsibilities**
+
+As we approach the end of each quarter, we would like to remind all system administrators of the importance of conducting regular access reviews. This is a critical step in maintaining the security and integrity of our systems.
+
+**Why Quarterly Access Reviews Matter**
+
+Access reviews are a routine process that helps ensure that only authorized personnel have access to sensitive data and systems. This process helps to identify and address any potential security risks and ensures that our systems are compliant with industry regulations.
+
+**Your Role in Quarterly Access Reviews**
+
+As a system administrator, it is your responsibility to conduct a quarterly review of all system access. This involves reviewing the access levels of all users, identifying any unnecessary or excessive access, and revoking or modifying access as necessary. You will also need to document any changes made during the review process.
+
+**Key Dates and Reminders**
+
+Quarterly access reviews are due on the last day of March, June, September, and December. You will receive a reminder email from the IT department one week prior to the deadline, with instructions on how to access the review template and submit your review.
+
+**If You Have Any Questions or Concerns**
+
+Please do not hesitate to reach out to the IT department if you have any questions or concerns about the quarterly access review process. We are here to support you and ensure that our systems are secure and compliant.
+
+Thank you for your attention to this important matter.

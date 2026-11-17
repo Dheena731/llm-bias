@@ -1,0 +1,1 @@
+A confidence interval shows the range of values within which a population parameter is likely to lie. It is calculated from a sample of data and provides a margin of error around a statistical estimate, indicating how reliable the estimate is. The wider the interval, the less precise the estimate, while a narrower interval suggests greater confidence in the result.

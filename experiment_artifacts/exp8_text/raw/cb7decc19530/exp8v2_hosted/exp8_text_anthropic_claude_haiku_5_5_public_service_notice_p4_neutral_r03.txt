@@ -1,0 +1,17 @@
+**PUBLIC NOTICE: HEAT ADVISORY**
+
+The National Weather Service has issued a **Heat Advisory** for [City/Region] from [start time] on [start date] through [end time] on [end date]. Temperatures are expected to reach [temperature range]°F, with heat index values up to [heat index value]°F.
+
+**Residents are urged to take the following precautions:**
+
+- **Stay hydrated.** Drink water regularly, even if you do not feel thirsty. Avoid alcohol and sugary drinks.
+- **Limit outdoor activity.** If you must be outside, plan tasks for early morning or evening, and take frequent breaks in shade or air conditioning.
+- **Check on others.** Contact elderly neighbors, young children, people with chronic illnesses, and anyone without air conditioning.
+- **Never leave children or pets in parked vehicles.** Interior temperatures can rise dangerously fast.
+- **Use cooling centers if needed.** Locations and hours are listed at [website or phone number].
+
+**Warning signs of heat-related illness:** Heavy sweating, dizziness, nausea, muscle cramps, headache, or fainting. If you notice these symptoms, move to a cool place, sip water, and seek medical help. Call 911 for confusion, loss of consciousness, or a body temperature of 103°F or higher.
+
+For more information, contact [agency name] at [phone number] or visit [website].
+
+*Issued by [Issuing Agency] on [date] at [time].*

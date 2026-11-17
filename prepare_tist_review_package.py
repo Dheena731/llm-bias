@@ -33,6 +33,8 @@ PACKAGE_PROVENANCE_PATH = Path("PACKAGE_PROVENANCE.json")
 DETERMINISTIC_ZIP_TIMESTAMP = (1980, 1, 1, 0, 0, 0)
 EXPORT_DIRECTORIES = [
     CANONICAL_RAW_DIR,
+    Path("experiment_artifacts/exp8_text/raw/cb7decc19530/exp8v2_hosted"),
+    Path("experiment_artifacts/exp8_text/raw/cb7decc19530/exp8v2_local"),
     Path("analysis_output/baselines/generated_images"),
 ]
 EXCLUDED_PATHS = [

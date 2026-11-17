@@ -1,0 +1,9 @@
+**Incident Notice: Delayed Processing for Outbound ACH Batches**
+
+Our 21:00 UTC settlement file did not transmit prior to the clearinghouse cutoff window due to a transmission timeout with our originating bank (ODFI). 
+
+**Current impact:**
+* **Standard USD Payouts:** Funds initiated between 16:00 and 21:00 UTC yesterday will reflect an extra business day of latency. Delivery is now scheduled for tomorrow morning by 09:00 ET.
+* **Unaffected systems:** Real-time card authorizations, FedNow/RTP transfers, and payment capture webhooks are processing normally. 
+
+The underlying network handshake error has been cleared, and batch files have been re-queued for the next available cycle (03:00 UTC). We will post an update once the bank's acknowledgement file (ACK) is confirmed.

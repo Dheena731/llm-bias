@@ -1,0 +1,7 @@
+Enabling two-factor authentication (2FA) is an excellent method of ensuring the safety of your accounts. 
+
+Two-factor authentication is a security measure that adds an extra layer of protection to an account. This is achieved via a second type of verification besides just your password. 
+
+The most common way 2FA works is by sending a code to your mobile device or email, which you then enter. Another popular method is to use a fingerprint scanner or facial recognition to verify your identity.
+
+This extra layer of security will significantly reduce the risk of unauthorized access to your account.

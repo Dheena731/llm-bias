@@ -1,0 +1,18 @@
+Subject: Upcoming change to the VPN client
+
+Hello everyone,
+
+We are replacing our current VPN client with a newer version on the evening of the next maintenance window. The update improves connection stability, speeds up reconnection after network interruptions, and adds support for the latest operating system releases.
+
+Most people will not need to do anything. The new client will be installed automatically on company-managed devices, and you may be asked to restart your computer once the installation finishes. After the update, you will sign in with the same username, password, and multi-factor authentication method you use today. Your saved connection profiles will carry over.
+
+If you use a personal device, you will need to remove the old client and install the new one yourself. Instructions are available on the IT help site, and our support team can walk you through the process if you would like assistance.
+
+During the installation, your VPN connection may drop for a few minutes. Please save your work and disconnect before the window begins to avoid losing any unsaved data.
+
+If you run into problems after the update, contact the IT help desk and include a brief description of the issue along with the device you are using. We will respond as quickly as we can.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+The IT Support Team

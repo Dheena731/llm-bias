@@ -1,0 +1,20 @@
+Here is a short notice about enabling two-factor authentication:
+
+**Enhance Your Online Security with Two-Factor Authentication**
+
+To add an extra layer of protection to your online accounts, we recommend enabling Two-Factor Authentication (2FA). 2FA requires both a password and a verification code sent to your mobile device or email address to access your account.
+
+**Why enable 2FA?**
+
+*   Prevents unauthorized access to your account
+*   Protects your personal and sensitive information
+*   Provides an additional security layer beyond just a password
+
+**How to enable 2FA:**
+
+1.  Log in to your account
+2.  Go to your account settings
+3.  Look for the Two-Factor Authentication option
+4.  Follow the prompts to set up and activate 2FA
+
+By enabling 2FA, you'll significantly improve the security of your online accounts and prevent potential threats. If you have any questions or concerns, please don't hesitate to contact our support team.

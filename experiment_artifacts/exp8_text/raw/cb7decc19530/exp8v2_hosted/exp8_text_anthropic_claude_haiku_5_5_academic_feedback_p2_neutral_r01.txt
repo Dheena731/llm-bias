@@ -1,0 +1,22 @@
+**Feedback on Methods Section**
+
+Dear Sam,
+
+Thank you for your methods section. Your description of the participant recruitment and survey procedure is clear, and the table summarizing the sample demographics is a helpful touch.
+
+Here are a few areas to strengthen before the final submission:
+
+1. **Justify your design choices.** You state that you used a convenience sample but don't explain why it suits your research question or what limitations it introduces. A sentence or two on this would help.
+2. **Specify your analysis steps.** You mention running "a regression," but the reader needs to know the outcome variable, predictors, and any covariates. Consider adding the model equation or a short paragraph walking through it.
+3. **Address missing data.** Your survey had a 12% item nonresponse rate, but the section doesn't say how it was handled. State whether you used listwise deletion, imputation, or another method, and why.
+4. **Use consistent terminology.** You alternate between "participants," "respondents," and "subjects." Choose one term and use it throughout.
+5. **Check the timeline.** The data collection dates are listed as March to June in one place and "spring semester" in another. Make these consistent.
+
+Overall, the section is well organized and easy to follow. Once you add the justifications and analysis details, it will give readers what they need to evaluate and replicate your study. Happy to look at a revised draft.
+
+Best,
+[Instructor name]
+
+---
+
+If you share the actual methods section, I can tailor this feedback to its specific content.

@@ -1,0 +1,22 @@
+**Savings goals are now in the app**
+
+You can now set aside money for a specific thing, such as a security deposit, a vet bill fund, or a December flight, without opening a separate account.
+
+**How it works**
+- Create a goal with a name, a target amount, and an optional date.
+- If you add a date, we calculate the per-paycheck amount. For example, $1,800 by October 15 is $150 on each biweekly deposit. You can change the number or leave it.
+- Money in a goal stays in your main savings account. It's just labeled, so your balance and interest don't change.
+- Goals show as "set aside" in your balance. Your available-to-spend figure drops by that amount, which helps if you tend to dip into savings.
+
+**Details worth knowing**
+- You can pause contributions for a month without losing your schedule. This is useful for a month with an unexpected car repair.
+- Withdrawing from a goal takes one tap, but we'll ask whether you want to lower the target or keep it and refill later.
+- If a goal is behind pace, we'll tell you once, in the goal screen. No push notifications.
+- Each account supports up to 10 goals.
+
+**Not included yet**
+- Shared goals between two people
+- Goals funded by round-ups (planned for the next release)
+- Goals on checking accounts
+
+The feature is rolling out over the next week. If you don't see "Goals" under Savings by Friday, update to version 4.12 and check again.

@@ -1,0 +1,13 @@
+**Subject:** Your 2023 Form 1099 Consolidated Tax Statement is ready
+
+Your Consolidated Form 1099 for the 2023 tax year is now available in your document portal. 
+
+This document aggregates reportable activity across your taxable accounts from January 1 through December 31, combining:
+
+* **1099-B (Proceeds from Broker Transactions):** Details short- and long-term realized gains and losses, adjusted cost basis reported to the IRS, and any wash-sale loss disallowances (Box 1g).
+* **1099-DIV (Dividends and Distributions):** Breaks down ordinary dividends, qualified dividends, capital gain distributions, and any foreign tax withheld.
+* **1099-INT (Interest Income):** Summarizes taxable interest earned from cash balances, sweep yields, and fixed-income maturities.
+
+**A note on potential revisions:** Certain holdings—particularly REITs, ETFs, and foreign securities—occasionally reclassify distribution income after the initial January reporting window. If any of your underlying funds update their year-end tax characterizations, an amended 1099 will be issued automatically before the federal filing deadline.
+
+You can import this document directly into major tax software using your account number and the document ID located on page 1, or export the CSV summary for your CPA to populate Schedule D and Form 8949.

@@ -1,0 +1,14 @@
+**Notice: Quarterly User Access Review**
+
+The [Quarter, e.g., Q3] User Access Review is now open. In accordance with company security and compliance policies, all people managers and system owners are required to audit and certify user permissions.
+
+**Action Required:**
+1. Log in to the [Access Management Portal/Insert Link].
+2. Review the permissions assigned to your direct reports and system accounts.
+3. Confirm active access requirements and flag any unnecessary or outdated privileges for revocation.
+
+**Deadline:** [Insert Date, e.g., Friday, October 20, at 5:00 PM EST]
+
+Any unverified or unapproved access rights after the deadline will be subject to automatic suspension to maintain system integrity. 
+
+If you have questions or encounter issues, please contact the IT Security team at [Insert Email/Helpdesk Link].

@@ -1,0 +1,13 @@
+**OPERATIONAL NOTICE: Clinical Informatics & Trial Operations**  
+**To:** Principal Investigators, Sub-Investigators, and Clinical Research Coordinators (CRCs)  
+**Subject:** Mandatory Time-Based One-Time Password (TOTP) enforcement for TrialBase EDC  
+
+Effective **Tuesday, October 24 at 05:00 UTC**, all protocol workspaces within the TrialBase Electronic Data Capture (EDC) environment will require secondary authentication to access electronic Case Report Forms (eCRFs) and export safety data.
+
+**What to expect on your next shift:**
+1. After entering your institutional credentials, you will be prompted to register an authenticator app (such as 1Password, Google Authenticator, or an enterprise Okta verify token) or insert a FIDO2-compliant hardware key (YubiKey). 
+2. SMS verification is explicitly disabled across all tenant sites to satisfy 21 CFR Part 11 requirements regarding non-repudiation and audit trail integrity.
+3. Once registered, e-signature approvals for Adverse Event (AE) logs and dose-escalation clearances will require a prompt confirmation from your secondary device.
+
+**Shared Workstation Advisory:**  
+For teams sharing terminals in outpatient oncology and infusion units: account-switching between sub-investigators will no longer

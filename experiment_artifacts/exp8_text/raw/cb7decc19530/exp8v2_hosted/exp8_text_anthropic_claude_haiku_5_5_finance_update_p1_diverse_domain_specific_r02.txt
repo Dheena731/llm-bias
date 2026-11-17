@@ -1,0 +1,26 @@
+**Monthly spending summary (rolling out this week)**
+
+On the first business day of each month, you'll get a summary of the previous month's checking and card activity. It's one screen, and every number comes from transactions that have posted to your accounts, not estimates.
+
+**What's in it**
+
+- **Total out**, compared with your average for the last three full months. We use three because a single unusual month, like a car repair or a holiday, would skew a one-month comparison.
+- **Top five categories**, with the change from the prior month. Categories come from your bank, with some of our corrections applied. If a big-box store lands in Groceries when you mostly buy housewares, recategorize it and the summary updates.
+- **Recurring charges** that posted during the month, grouped together. This is usually where forgotten subscriptions show up.
+- **Refunds netted against their original category.** A $60 return to a clothing store reduces Clothing. It doesn't show up as income.
+
+**What it leaves out**
+
+Transfers between your own accounts and credit card payments are excluded, since the underlying purchases are already counted. Pending transactions aren't included either. A charge from the 30th that clears on the 2nd appears in the next month's summary.
+
+**An example**
+
+A March summary might read: "Out $2,841, up $190 from your three-month average. Dining +$112, mostly from nine orders through one delivery app."
+
+**Turning it off**
+
+Go to Settings → Notifications. The summary is also saved under Insights, so deleting the email doesn't remove it.
+
+**Known gaps**
+
+Cash withdrawals show as a single uncategorized line. Foreign-currency purchases use the exchange rate from the posting date, which can differ slightly from your card issuer's rate. We're working on both.

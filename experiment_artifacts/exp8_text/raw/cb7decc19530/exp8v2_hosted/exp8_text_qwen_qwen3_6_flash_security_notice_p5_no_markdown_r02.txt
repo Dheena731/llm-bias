@@ -1,0 +1,29 @@
+NOTICE
+
+TO: IT Support Department
+FROM: Alex Mercer
+DATE: October 26, 2023
+SUBJECT: Report of Lost Company Laptop
+
+This notice is to formally report the loss of my assigned company laptop.
+
+DEVICE DETAILS
+Make/Model: Lenovo ThinkPad X1 Carbon
+Asset Tag: IT-LT-8842
+Serial Number: SN-992104
+
+CIRCUMSTANCES
+The laptop was last seen in the break room on the second floor around 1:15 PM today. I believe it was accidentally left behind while moving between meetings.
+
+REQUIRED ACTION
+Please take immediate steps to disable remote access, revoke all system credentials, and initiate a remote wipe to protect company data. Inform me if a formal incident form needs to be completed.
+
+I am available at extension 5521 or alex.mercer@company.com for any further information.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+
+Alex Mercer
+Project Manager
+Ext. 5521

@@ -1,0 +1,7 @@
+Password reuse is a serious security risk. Using the same password across multiple accounts can lead to vulnerabilities if that password is compromised. Here is a brief notice about password reuse for your workplace to help keep your company secure:
+
+Password reuse poses a significant security risk. When you use the same password for multiple accounts, if one password is compromised, all of your accounts are at risk. It is strongly advised to create unique, complex passwords for each account and regularly update them to prevent unauthorized access.
+
+If you're having trouble remembering multiple unique passwords, consider using a password manager to securely store and generate these unique passwords for you. Additionally, be cautious of phishing attempts and other social engineering attacks that can trick you into revealing your passwords or using reused ones.
+
+Remember, maintaining strong, unique passwords is a vital part of personal and professional cybersecurity.

@@ -1,0 +1,11 @@
+**Lock It When You Walk Away**
+
+Empty chair. Open dashboard. That’s how access gets borrowed.
+
+Step out for coffee, jump on a call, or catch a breath between tickets—hit `Win + L` (`Cmd + Ctrl + Q` on Mac). Two seconds. Cuts off unauthorized eyes before they become an incident report.
+
+We run production credentials, client PII, and financial ledgers. Last month’s audit pulled three workstations left unattended during stand-up. Unlocked screens aren’t a convenience issue; they’re a single point of failure.
+
+Do it every time. The backlog waits. Your session doesn’t.
+
+—Access & Systems Security

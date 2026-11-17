@@ -1,0 +1,11 @@
+Subject: Scheduled Maintenance Window for the Dashboard
+
+Hello Users,
+
+The dashboard will undergo scheduled maintenance on Saturday, July 13, from 9:00 PM to 11:30 PM UTC. During this window, the platform will be completely unavailable while we install critical updates and optimize database performance.
+
+Your existing data and custom configurations will remain intact. Access will automatically restore once the work concludes. If you need to run reports or export files, please complete those tasks before the maintenance window begins.
+
+Thank you for your cooperation as we improve system stability and response times. For non-urgent questions, please reach out to IT Support using the contact information provided on the login page.
+
+Platform Administration

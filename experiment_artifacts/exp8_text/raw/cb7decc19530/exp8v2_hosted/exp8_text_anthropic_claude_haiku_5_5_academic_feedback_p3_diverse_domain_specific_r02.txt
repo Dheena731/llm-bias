@@ -1,0 +1,7 @@
+**Comment on the research question (Section 1.2)**
+
+The central question, "How does urbanization affect stream health?", is too broad to tell me what you will measure or what would count as an answer. "Urbanization" could mean impervious cover, road density, sewer connectivity, or land-use fraction, and these co-vary strongly in most watersheds. "Stream health" could refer to macroinvertebrate EPT richness, a multimetric index, dissolved oxygen, or chloride concentration. Each choice leads to a different study.
+
+I suspect the real interest is in chloride from winter road salt, given the sampling design in Section 3 and the reference to the 2019 salt-application records. If so, the question should say that, and it should name the response variable and the comparison. For example: "Does chloride concentration above a threshold of X mg/L predict loss of sensitive EPT taxa in headwater streams with more than 10% impervious cover?" That version can be wrong, which is what makes it useful.
+
+Please revise the question so that the exposure, outcome, and comparison are explicit, and show how the sites in Table 2 were chosen to address that specific contrast.

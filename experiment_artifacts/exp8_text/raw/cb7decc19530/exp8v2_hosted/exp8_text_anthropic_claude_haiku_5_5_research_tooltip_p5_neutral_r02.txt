@@ -1,0 +1,1 @@
+Click **Export** to download the current query results as a CSV file. To export a different format, open the dropdown beside the button and select Excel or JSON.

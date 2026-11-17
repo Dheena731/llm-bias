@@ -1,0 +1,16 @@
+Subject: Quarterly Access Review Notice
+
+Dear team,
+
+The quarterly access review for the current period will begin on the first Monday of next month and must be completed within two weeks. This review is a required part of our security and compliance program and helps ensure that people have only the access they need to do their jobs.
+
+Department managers will receive a list of the employees, contractors, and service accounts under their oversight, along with the systems and permissions assigned to each. Please review every entry carefully. For each account, confirm that the access is still appropriate, request removal of anything that is no longer needed, and flag any permissions that seem unusual or excessive. If someone has changed roles or left the team since the last review, please note that as well so we can correct their access promptly.
+
+Once you have finished, reply to the review request with your decisions and sign off to confirm completion. Reviews that are not submitted by the deadline will be escalated to your director, and access that has not been confirmed may be suspended until the review is finished.
+
+If you are unsure whether a particular permission is necessary, ask the system owner or contact the IT Security team before making a decision. It is better to check than to approve access by default.
+
+Thank you for your attention and cooperation. Questions can be sent to the IT Security team at any time during the review period.
+
+Regards,
+IT Administration

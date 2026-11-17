@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Study 4 (60 prompts $\times$ 3 repeats per cell). MD and Emoji: neutral rates in \%. Remaining columns are paired differences in percentage points, averaged within prompt: placebo minus neutral (P: MD, P: Emoji), no-emoji minus neutral (NE: MD), plain minus placebo (Plain$-$P), and system minus user placement of the plain instruction (Sys$-$User). * marks $p<0.05$ in a sign-flip test over the 60 prompts.}
+\label{tab:v2-routes}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Model & MD & Emoji & P: MD & P: Emoji & NE: MD & Plain$-$P & Sys$-$User \\
+\midrule
+Claude Sonnet 5.5 & 100.0 & 21.7 & -2.8 & -17.8* & -6.1 & -97.2* & +0.0 \\
+Gemini 3.8 Flash & 97.8 & 31.7 & -62.8* & -31.7* & -49.4* & -35.0* & +0.0 \\
+Qwen 3.6 Flash & 87.2 & 46.1 & -64.4* & -43.9* & -48.9* & -22.8* & +0.0 \\
+Claude Haiku 5.5 & 78.3 & 8.9 & -5.0 & -8.9* & -15.0* & -73.3* & +0.6 \\
+Llama 3.1 8B & 73.3 & 0.0 & +2.2 & +0.0 & -40.0* & -71.1* & -0.6 \\
+Llama 3.3 70B & 46.1 & 0.0 & -35.0* & +0.0 & -42.2* & -11.1* & +0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

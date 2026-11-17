@@ -1,0 +1,13 @@
+**Draft (assuming a sourdough baking app called Crumb):**
+
+Scaling a recipe no longer wrecks your dough.
+
+Crumb now counts the flour and water inside your starter. Turn 1 loaf into 3 and your 75% hydration stays 75%, instead of creeping to 79% and gluing itself to the bench.
+
+You can set your starter at 100% hydration or as a stiff 50% levain, and the math follows.
+
+Update is live on iOS and Android. If a scaled recipe still feels off, reply with the recipe and your flour. We want to see it.
+
+---
+
+I picked the domain since none was specified. Tell me the product and audience, and I'll rewrite it with the right vocabulary and details.

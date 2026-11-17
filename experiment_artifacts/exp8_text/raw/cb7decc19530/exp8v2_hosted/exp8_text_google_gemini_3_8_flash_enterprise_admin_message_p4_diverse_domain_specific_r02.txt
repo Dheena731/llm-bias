@@ -1,0 +1,16 @@
+**Action Required: Q2 Access Attestation (Closes July 14, 17:00 UTC)**
+
+The Q2 user access review campaign is now live in [Identity Portal / SailPoint / Okta]. 
+
+Engineering leads, system owners, and people managers must reconcile current seat assignments against active headcount before the cutoff.
+
+**Your review queue includes:**
+* **Privilege creep:** Flag entitlements that carried over from previous internal transfers or defunct project scopes.
+* **Dormant credentials:** Review accounts with zero IdP activity in the last 90 days.
+* **Third-party/Contractor seats:** Confirm statement-of-work validity for all external guests; revoke if scope is delivered.
+* **Elevated access:** Explicitly re-justify any production, break-glass, or raw-data read access (`prod-admin`, `db-read-all`).
+
+**Enforcement:**
+Under our SOC 2 CC6.3 control requirements, uncertified entitlements cannot roll over. Line items left in a "Pending" state after July 14 will trigger automated deprovisioning tickets on July 16, and accounts will be stepped down to baseline SSO profiles.
+
+Ping `#iam-ops` with mapping errors or terminated users still appearing on your roster.

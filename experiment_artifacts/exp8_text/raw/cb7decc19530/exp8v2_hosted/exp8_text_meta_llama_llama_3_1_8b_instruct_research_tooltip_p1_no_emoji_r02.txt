@@ -1,0 +1,1 @@
+"Filters data to include only records that meet specific criteria, such as date range or specific values, allowing for more targeted analysis and exploration of the data."

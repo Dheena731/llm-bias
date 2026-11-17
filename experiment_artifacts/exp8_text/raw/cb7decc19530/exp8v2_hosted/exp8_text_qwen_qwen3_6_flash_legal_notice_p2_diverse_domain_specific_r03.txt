@@ -1,0 +1,17 @@
+**NOTICE OF PRIVACY POLICY AMENDMENT — NEXUS FLEET TELEMATICS PLATFORM**  
+**DATE:** October 26, 2024  
+**REFERENCE:** V4.1 Privacy Terms (effective March 12, 2023) | Section 8.3, Master Service Agreement  
+
+Pursuant to contractual notification obligations, Version 5.0 of the Nexus Fleet Privacy Policy supersedes prior iterations and governs all data ingestion, processing, and third-party sharing activities commencing **November 15, 2024**.  
+
+**Material Revisions:**  
+- Telemetry event logging now captures OBD-II/CAN bus diagnostic codes and localized GPS dwell periods exceeding 48 hours, classified as operational metadata rather than personally identifiable information.  
+- Routing optimization services engaged as limited-purpose data processors; vehicle coordinates undergo coordinate-pair stripping before external transmission. Retention governed by 90-day rolling deletion cycles unless suspended under active warranty claims.  
+- Driver behavior scoring algorithms reclassified under joint-controller status where mandated by state commercial motor vehicle reporting statutes.  
+- Cross-border transfer mechanisms updated to reference EU Standard Contractual Clauses (Module Two) for Canadian and Brazilian endpoint servers.  
+
+The amended policy is available at `privacy.nexusfleet.io/v5`. Continued authentication and payload submission after the effective date constitutes acknowledgment per Section 2.1(b) of the User License Agreement.  
+
+Data subject requests, controller classification disputes, or processor access logs should be submitted to `dpo@nexusfleet.io` with reference tag `PPN-2024-TELM`. Responses will adhere to statutory response windows.  
+
+Issued under reserved rights. No supplementary consent instrument is required absent expansion beyond originally scoped data use parameters.

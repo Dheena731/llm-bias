@@ -1,0 +1,4 @@
+**Tooltip text:**
+"A range showing where the true value likely falls. Wider bars mean more uncertainty; narrower bars indicate greater precision." 
+
+*(Optional: Replace "likely falls" with "falls at the [X]% confidence level" if you want to specify the threshold used.)*

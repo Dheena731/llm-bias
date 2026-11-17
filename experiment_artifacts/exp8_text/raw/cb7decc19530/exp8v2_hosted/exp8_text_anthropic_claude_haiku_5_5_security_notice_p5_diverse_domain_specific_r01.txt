@@ -1,0 +1,18 @@
+**Lost or stolen laptop: what to do now**
+
+If you've lost a company laptop, or think it was taken from a car, train, café, or your desk, call the IT Service Desk immediately. Don't wait to see if it turns up. The sooner we know, the sooner we can lock the device and cut off access to email, the VPN, and shared drives.
+
+**Call 4417 (or 0800 555 0142 outside office hours).** Email is checked only during business hours, so use the phone for anything urgent.
+
+Have these ready:
+- **Asset tag**: the white sticker on the underside, format LT-xxxx
+- **Last known location and time**
+- **Anything sensitive stored locally**, such as client files, exports, or saved passwords
+
+If the laptop was stolen, file a police report and send us the crime reference number. Facilities and insurance both need it.
+
+Tell us if you were signed in. We'll end all active sessions and reset your password. You'll need to re-register your authenticator app when you next log in.
+
+Don't try to track or access the device yourself. Remote wipe is possible if the laptop is enrolled in device management, but it erases everything on it, including unsaved work. Tell us if you think anything important wasn't synced.
+
+Your line manager should be told the same day. A written incident form follows within 48 hours.

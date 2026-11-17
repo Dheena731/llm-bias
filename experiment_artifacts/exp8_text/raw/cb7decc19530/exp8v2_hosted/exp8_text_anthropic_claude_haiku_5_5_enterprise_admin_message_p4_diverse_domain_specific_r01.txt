@@ -1,0 +1,19 @@
+**Subject: Q3 Access Review: Certifications due Friday, 14 March**
+
+Managers and application owners,
+
+The Q3 access review opens Monday, 3 March. You'll get a task in the IAM portal listing every active account in your team and the systems each one can reach. For each line, mark **Keep**, **Remove**, or **Change role**.
+
+Things that commonly get missed:
+
+- **Service accounts** tied to your team's scheduled jobs. If you don't recognize the owner field, reassign it to yourself and flag it; don't approve it by default.
+- **Contractor accounts** past their end date. These should show as "expired" in the portal, but some still have live VPN access. Remove them.
+- **Former team members** who moved to another group but kept access to your finance and HR exports. Those are the ones that come up in audits.
+- **Shared mailboxes and admin consoles** where the listed owner has left. Name a current owner or we'll assign one for you.
+
+Removals take effect when you submit. Anything still unreviewed on Friday, 14 March at 17:00 will be suspended on Monday, 17 March, and the team will need to request reinstatement through a ticket. That's disruptive for everyone, so please block an hour this week.
+
+Questions about a specific account can go to #iam-help or to Dev Okafor directly.
+
+Thanks,
+Identity & Access Team

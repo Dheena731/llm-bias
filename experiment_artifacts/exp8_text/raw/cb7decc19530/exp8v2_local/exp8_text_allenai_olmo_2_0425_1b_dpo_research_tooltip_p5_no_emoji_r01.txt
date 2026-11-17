@@ -1,0 +1,1 @@
+Right-click on a query result in your query editor, choose "Export query results," then click the PDF button to download the data in a PDF format.

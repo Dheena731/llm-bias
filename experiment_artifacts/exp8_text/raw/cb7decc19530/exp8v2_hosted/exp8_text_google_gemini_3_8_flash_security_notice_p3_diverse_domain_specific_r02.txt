@@ -1,0 +1,9 @@
+**Clinical Workstation Notice: Physical Session Locks**
+
+During yesterday’s evening shift, three triage terminals were found unattended with active Epic charts open and badge sessions live.
+
+Do not rely on the 10-minute inactivity timeout. If you step away from a terminal for any reason—answering a call bell, collecting specimens, or stepping into the clean utility room—tap out your badge or press **Windows + L**. 
+
+Unattended screens expose protected health information to anyone walking the corridor, including visitors, transport crews, and external contractors. Any access logged under your credentials while a terminal is left open is legally treated as an action taken by you. 
+
+IT and Charge Nurses will be logging unattended active sessions during rounds.

@@ -1,0 +1,1 @@
+To export query results to a file, you can use the `Export` feature in SQL Query Builder. Click on the dropdown arrow next to your selected data source and choose "Export As..." from the context menu. From there, you can select the file format (e.g., CSV, Excel) you wish to export and provide a name to save the file.

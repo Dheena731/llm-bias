@@ -1,0 +1,13 @@
+**Hive Log: voice notes for inspections**
+
+You're in the bee yard, gloves sticky with propolis, a frame in one hand, no signal. Typing isn't happening.
+
+Hive Log now lets you talk through the inspection. Say "Hive 4, queen seen, six frames of brood, some chalkbrood on the left side," and it files the note under Hive 4 with brood frames and queen status filled in. It works offline and syncs when you're back at the truck.
+
+It's not perfect with smoker noise or wind. Every entry stays editable, and "drone comb" keeps coming out as "drown comb," so send us what it mishears.
+
+Live on iOS today. Android next week.
+
+---
+
+I picked beekeeping as the domain since you didn't specify one. Tell me your actual product or field and I'll rewrite it to fit.

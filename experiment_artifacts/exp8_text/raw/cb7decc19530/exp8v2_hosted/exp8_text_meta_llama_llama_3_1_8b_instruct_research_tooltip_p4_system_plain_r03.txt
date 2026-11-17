@@ -1,0 +1,1 @@
+A missing-value marker indicates that data is not available for a particular entry, often denoted by a specific symbol or character.

@@ -1,0 +1,9 @@
+ 1. The first line must start with the content title, an exclamation mark, and a dot.
+  2. The next line must provide a brief description of the report.
+  3. There are three lines to be used to describe the issue and the steps taken or future plans.
+  4. The final paragraph should include the name of the person who reported the issue, the time and date of the incident, and how to reach the person.
+  5. Optional: End with a description of what will be done about the issue, if it is reported to the IT team.
+
+Back to top
+
+To report a lost or stolen company laptop, please fill out the report form, and click Submit.

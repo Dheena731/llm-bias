@@ -1,0 +1,24 @@
+**Subject: Quarterly Access Review: Action Required**
+
+Hello team,
+
+The quarterly access review for all systems and applications begins on **[start date]** and must be completed by **[end date]**.
+
+**What this means for you**
+- Managers will receive a list of their direct reports and the access each person currently holds.
+- Please confirm that each person's access is still needed for their role, or flag any access that should be changed or removed.
+- System owners will review the list of users with elevated or administrative privileges.
+
+**What we need from you**
+1. Review your assigned access list when it arrives by email.
+2. Submit your approvals or change requests through the access management portal.
+3. Respond by the deadline. Access that is not confirmed may be suspended until the review is complete.
+
+**Why we do this**
+Regular reviews help us keep access limited to what people need, reduce security risk, and meet compliance requirements.
+
+If you have questions or need help with the portal, contact the IT Service Desk at **[email/phone]**.
+
+Thank you for your prompt attention.
+
+IT Security and Administration

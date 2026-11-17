@@ -1,0 +1,22 @@
+**Subject: Scheduled Dashboard Maintenance: [Date]**
+
+Hi everyone,
+
+We will be performing scheduled maintenance on the dashboard to improve performance and apply security updates.
+
+**When:** [Day, Date] from [Start Time] to [End Time] [Time Zone]
+**Impact:** The dashboard will be unavailable during this window. Data collection will continue in the background, and no data will be lost.
+
+**What you need to do:**
+- Save any open reports or unsaved changes before the start time.
+- Plan to run any urgent reports before or after the window.
+
+We'll send a confirmation once maintenance is complete. If the window runs longer than expected, we'll post updates in [channel/status page].
+
+If you have questions or concerns about the timing, please contact [name/team] at [email/channel].
+
+Thank you for your patience.
+
+Best regards,
+[Your Name]
+[Team/Department]

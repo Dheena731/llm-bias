@@ -1,0 +1,23 @@
+**Subject:** ⚠️ ACTION REQUIRED: Quarterly Access Review – [Quarter/Year]
+
+**To:** All Managers & Data Owners  
+**From:** IT Security / Administration  
+**Date:** [Current Date]
+
+The quarterly access review cycle is now open. To maintain security compliance and ensure the principle of least privilege, please review and validate access rights for your assigned systems and resources.
+
+**✅ Action Required:**
+*   Log in to the **[Access Review Portal Link]**.
+*   Review the list of users currently accessing your resources.
+*   **Confirm** valid access or **Revoke** permissions for departing staff or role changes.
+*   Submit any requests for new access immediately.
+
+**⏰ Deadline:** [Date] by [Time]  
+**⚠️ Important:** Accounts not reviewed by the deadline may be automatically suspended pending manual validation.
+
+Need assistance? Refer to the **[Quick Start Guide]** or contact the IT Helpdesk at [Email/Phone].
+
+Thank you for your prompt attention to this critical security task.
+
+Best regards,  
+[Your Name/Department]

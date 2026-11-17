@@ -1,0 +1,3 @@
+Here is a short note explaining a change to card transaction fees:
+
+"As of our next billing cycle, we will be adjusting our card transaction fees to better reflect the current interchange rates set by the major card networks. Specifically, our new fee structure will be 2.5% + $0.10 per transaction for Visa and Mastercard, and 3.0% + $0.15 per transaction for American Express. This change will help us maintain our competitive pricing while ensuring we can continue to invest in the security and reliability of our payment processing systems. If you have any questions or concerns about this change, please don't hesitate to reach out to our support team."

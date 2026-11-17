@@ -1,0 +1,13 @@
+ACCEPTABLE USE NOTICE FOR THE SHARED NETWORK
+
+This notice sets out the terms under which users may access and use the shared network. By connecting any device to the network or using its resources, you agree to comply with these terms. Access is provided for lawful, work-related, educational, and other purposes authorized by the network administrator. Users are expected to use the network responsibly, with consideration for the rights of others and the integrity of the systems that support it.
+
+Users must not use the network to engage in any activity that violates applicable law, infringes the intellectual property or privacy rights of others, or transmits material that is defamatory, threatening, harassing, obscene, or discriminatory. Users must not attempt to gain unauthorized access to any account, device, file, or system, nor may they probe, scan, or test the vulnerability of the network without written permission from the administrator. Credentials are personal and must not be shared, and users are responsible for all activity conducted under their accounts.
+
+Users must not intentionally introduce malicious software, disrupt or degrade network services, consume bandwidth in a manner that unreasonably interferes with other users, or operate unauthorized servers, wireless access points, or network devices. Commercial activity unrelated to the user's authorized role, including cryptocurrency mining and the operation of personal businesses, is prohibited unless specifically approved in writing.
+
+The administrator may monitor network traffic, log access, and inspect stored data to the extent necessary to maintain security, enforce this notice, and investigate suspected violations. Users should not expect complete privacy when using shared resources, and the administrator will handle collected information in accordance with applicable policy and law.
+
+Users are responsible for reporting suspected security incidents, lost devices, or compromised credentials to the help desk as soon as they become aware of them. Failure to comply with this notice may result in suspension or termination of network access, disciplinary action, and, where warranted, referral to law enforcement or other appropriate authorities.
+
+The administrator may amend this notice at any time by posting the revised version on the network portal. Continued use of the network after such posting constitutes acceptance of the amended terms. Questions about this notice should be directed to the network administrator before engaging in any activity whose permissibility is uncertain.

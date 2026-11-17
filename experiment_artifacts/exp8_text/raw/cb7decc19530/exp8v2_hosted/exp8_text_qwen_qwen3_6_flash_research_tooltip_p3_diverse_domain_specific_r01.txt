@@ -1,0 +1,1 @@
+Sets the transaction window for all reports below. Both endpoints are inclusive and must follow chronological order. Changing this range recalculates all visible balances.

@@ -1,0 +1,1 @@
+**Missing value:** No data was recorded for this field, so the value is unknown. It is not the same as zero.

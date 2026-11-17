@@ -1,0 +1,9 @@
+Here is a sample feedback note on a student's methods section:
+
+"Your methods section provides a clear and concise description of the approach you took to investigate the relationship between climate change and coral bleaching in the Great Barrier Reef. I particularly appreciate the detail you provided about the spatial scale of your study, which effectively highlights the relevance of your findings to the broader regional context. However, I would suggest considering the following for improvement:
+
+* You mention collecting data from 5 research vessels, but I'm not entirely clear on how the sampling design was determined. Could you provide a more detailed explanation of the spatial sampling strategy employed, including the distribution of sampling points across the reef?
+* The use of satellite imagery to monitor coral cover is an innovative approach, but I'd like to see more information on the specific methods used for image analysis, such as the software employed and the metrics used to quantify coral cover.
+* You mention controlling for potential confounding variables such as water temperature and nutrient levels. While this is a great step, could you elaborate on the specific statistical methods used to account for these variables in your analysis?
+
+These minor clarifications would strengthen your methods section and enhance the overall transparency of your research. Well done on a thorough and engaging write-up!"

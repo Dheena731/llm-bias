@@ -1,0 +1,41 @@
+Use the following sample structure, which should also be flexible enough to meet the needs of your assignment. (Note that in the following, replace "Student X" with a name for the student, and "method X" with the student's chosen method.) Note also that this format is intended primarily for identifying the steps of the methods section - it can be used by itself or combined with other components.
+
+1. Background
+
+Background 1: (optional) This section should be brief, as it is intended to provide a short summary of the background and any relevant details. Typically, it can be omitted, unless there are specific points you wish to make regarding the background.
+
+2. Introduction
+
+Introduction 1: Typically, this section introduces the selected choice of method and the chosen experimental design. It should be brief, and it is important that it does not detail any of the material used in the methods section.
+
+3. Materials
+
+Materials 1: This should describe the materials used in the experimental work. It may include the specific experimental procedure used, or any other necessary information about the materials.
+
+4. Methods for Performing the Experiment
+
+Methods 1: This should describe the experimental method used for carrying out the study. It should be brief, and it should not be a detailed covering of the experimental design. It is also appropriate to include any methods that are used outside of the main experimental process described in the remainder of the methods section. For example, if a student wanted to analyze the data using certain statistical methods, it would be appropriate to include a description of those methods in the materials section, and it would be appropriate to include a brief summary of those methods in the methods section.
+
+5. Experimental Procedure
+
+Experimental Procedure 1: This should describe the experimental procedures used. It should be brief, and it should not include methods that are not applicable to the experimental design. It should also be brief, as this section is intended to provide a quick overview of the experimental approach. For example, if the student wished to analyze the data using certain statistical methods, it would be appropriate to include a description of those methods in the materials section, and it would be appropriate to include a brief summary of those methods in the methods section.
+
+6. Data Analysis
+
+Data Analysis 1: This section should describe the analyses performed on the data. It should be brief, as this is a general overview of the overall data analysis process. For example, if the student wished to analyze the data using certain statistical methods, it would be appropriate to include a description of those methods in the materials section, and it would be appropriate to include a brief summary of those methods in the methods section.
+
+7. Conclusions
+
+Conclusions 1: This section should briefly describe the outcome of the experiment. The conclusions should be specific and clear, and they should be supported by the data presented in the methods section.
+
+8. References
+
+References 1: This should include a list of all sources of information used in the study, including the literature that was cited in the methods and conclusions sections.
+
+9. Other Comments
+
+Other Comments 1: This section is intended to provide additional information that is not directly related to the experimental data. It is useful to provide information about the experimental process, or additional information regarding the experimental design. This section should be brief, as it is intended to be a summary of any additional information that is not directly related to the experimental data. For example, if the student wished to analyze the data using certain statistical methods, it would be appropriate to include a brief description of those methods in the materials section, and it would be appropriate to include a brief summary of those methods in the methods section.
+
+10. Acknowledgements
+
+Acknowledgements 1: This section should acknowledge any sources of funding that were used in the study. It

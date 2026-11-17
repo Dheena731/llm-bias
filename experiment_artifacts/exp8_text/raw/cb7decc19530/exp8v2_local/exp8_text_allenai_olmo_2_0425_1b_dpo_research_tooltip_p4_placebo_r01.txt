@@ -1,0 +1,5 @@
+A missing-value marker, often denoted by an asterisk (*) or a similar symbol, is a data point that has been intentionally left blank because it does not contain the expected information or cannot be calculated for some reason. This marks potential gaps in your dataset that need to be addressed either by imputing a value based on surrounding data (if feasible and ethical), or by understanding the reason why the data point is missing and taking the appropriate action.
+
+*Example:* In a database of customer orders, a missing-value marker (*) might indicate an out-of-order timestamp or an order that has been cancelled. The tooltip explains that such a marker signals a potential issue that needs further investigation either to resolve it or to indicate how data will be handled for future records.
+
+Remember, missing values can be a source of confusion or bias in analyses. It’s important to understand why they exist and how they might influence your findings or models.

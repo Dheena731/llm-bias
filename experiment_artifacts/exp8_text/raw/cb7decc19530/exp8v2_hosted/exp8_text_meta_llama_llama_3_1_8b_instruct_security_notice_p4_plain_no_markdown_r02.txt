@@ -1,0 +1,5 @@
+To enhance the security of your online account, we recommend enabling two-factor authentication. This additional layer of protection requires you to provide a second form of verification, in addition to your password, before you can access your account.
+
+To enable two-factor authentication, you will need to provide a phone number or email address that can be used to send a verification code to you. Once you have provided this information, you will be prompted to enter the verification code sent to you when you attempt to log in to your account.
+
+This added security feature helps to prevent unauthorized access to your account, even if someone has obtained your password. We highly recommend enabling two-factor authentication to protect your account and sensitive information.

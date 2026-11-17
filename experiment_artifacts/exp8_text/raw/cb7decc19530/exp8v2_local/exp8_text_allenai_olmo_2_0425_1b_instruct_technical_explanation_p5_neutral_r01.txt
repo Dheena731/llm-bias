@@ -1,0 +1,10 @@
+An API rate limit is a threshold established by an API service provider that limits the number of requests an application can make over a certain time period. The purpose of this limit is to manage the volume of requests and to prevent overloading the service, which can impact performance, availability, or scalability.
+
+When an application sends multiple requests to an API within a defined period, it is monitored against the rate limit. If the total request count exceeds the limit, typically measured in requests per minute (RPM), the API service might:
+
+1. **Limit the number of requests**: The rate limit may temporarily or permanently reduce the number of requests that can be made each minute.
+2. **Grant temporary credits**: Allow the application to make additional requests after reaching the limit, often for a limited duration to account for unexpected spikes in activity.
+3. **Introduce exponential backoff**: Require the application to wait a certain period before making further requests, to discourage perpetual abuse of the rate limit.
+4. **Notify the application of the limit**: Make the application aware to reduce its activity until the limit is lifted.
+
+API rate limits are a crucial consideration for applications that require frequent interaction with an API, especially for high-volume, transactional workloads. Smart application design includes understanding and respecting rate limits to ensure efficient and reliable API usage.

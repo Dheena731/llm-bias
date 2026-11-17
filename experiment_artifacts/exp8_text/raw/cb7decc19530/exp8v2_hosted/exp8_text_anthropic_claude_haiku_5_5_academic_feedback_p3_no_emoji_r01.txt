@@ -1,0 +1,7 @@
+**Reviewer Comment**
+
+The central research question, "How do social media platforms affect youth well-being?", is too broad to guide the study design or to be answered by the methods described. "Social media" encompasses many different platforms with distinct features, and "youth well-being" could refer to anxiety, depression, self-esteem, sleep, academic performance, or life satisfaction, among other constructs. As written, it is unclear which platforms, which outcomes, which age group, and which type of effect (causal, correlational, or moderated) the authors intend to examine.
+
+I recommend that the authors refine the question to specify the population, the exposure (e.g., daily time spent on a particular platform, or specific usage behaviors such as passive scrolling), the outcome measures, and the hypothesized direction of the relationship. A question such as "Among adolescents aged 13 to 16, is daily time spent on image-based platforms associated with self-reported depressive symptoms over a 12-month period?" would give readers a clear target and would allow the reader to judge whether the proposed methods are appropriate.
+
+Once the question is sharpened, the authors should also verify that the measurement approach, sample, and analysis plan align with it. At present, the Methods section describes a cross-sectional survey, which cannot support the causal language used in the Introduction and Discussion.

@@ -1,0 +1,21 @@
+Here's a short admin message you can adapt:
+
+**Subject: Scheduled Dashboard Maintenance – [Date], [Time] [Time Zone]**
+
+Hi team,
+
+The analytics dashboard will be offline for scheduled maintenance on **[Date]** from **[Start Time]** to **[End Time] [Time Zone]**. During this window, access to the dashboard and related reports will be unavailable.
+
+**What to expect:**
+- Dashboard and reports will be inaccessible during the maintenance window.
+- Scheduled data exports and automated reports will be paused and will resume once maintenance is complete.
+- No action is required on your part.
+
+**Before the maintenance window:** Please save or export any reports you need during the window.
+
+We'll send a follow-up notice once maintenance is complete. If you have questions or encounter issues afterward, contact [Support Contact / Channel].
+
+Thank you for your patience.
+
+[Your Name]
+[Your Role]

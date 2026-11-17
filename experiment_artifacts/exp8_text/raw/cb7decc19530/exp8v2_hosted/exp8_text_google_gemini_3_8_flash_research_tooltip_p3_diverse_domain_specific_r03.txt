@@ -1,0 +1,12 @@
+Here are three concise, non-generic options tailored to specific enterprise domains:
+
+### 1. Financial Ledger / ERP
+> **"Scopes entries by settlement date, not posting date. Transactions within closed fiscal periods will display as read-only."**
+
+### 2. DevOps / Log Management
+> **"Queries ingested UTC timestamps (max 14-day span). Traces older than 30 days must be queried via cold storage retrieval."**
+
+### 3. Ad Tech / Performance Marketing
+> **"Filters by conversion event timestamp using your default 7-day click / 1-day view attribution model."**
+
+*(Rule of thumb for date-range tooltips: Always clarify **which** timestamp is being evaluated—e.g., created vs. settled vs. ingested—and call out hard boundaries like query caps or closed periods.)*

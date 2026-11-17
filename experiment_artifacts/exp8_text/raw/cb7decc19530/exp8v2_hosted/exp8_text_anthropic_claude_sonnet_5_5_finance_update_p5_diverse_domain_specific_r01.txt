@@ -1,0 +1,17 @@
+**Status update: Tuesday's ACH payouts are delayed**
+*Updated Wednesday, 9:40 a.m. ET*
+
+Payouts scheduled for Tuesday, March 12 missed the 2:00 p.m. ET ACH cutoff. Our sponsor bank rejected the batch file because of a malformed header field, and we didn't see the rejection until after the window closed. The corrected file was accepted for the next window.
+
+**Who's affected:** Merchants with standard ACH payouts scheduled for Tuesday (about 1,900 accounts). Instant payouts to debit cards were not affected. Customer card payments are authorizing and capturing normally. Only the transfer of funds to your bank account is late.
+
+**When funds should arrive:** Most banks will post them Thursday morning. Credit unions and smaller banks that post once a day may not show them until Thursday afternoon or Friday. Wednesday's payouts are on schedule, so some of you will see two deposits land close together.
+
+**What to do:**
+- Don't re-initiate the payout. The original is still in transit, and a second one would create a duplicate.
+- Payout IDs and settlement reports are unchanged. If you reconcile by arrival date, you'll see a one-day timing difference, not a missing amount.
+- If nothing has posted by end of day Thursday, send us the payout ID and we'll trace it with the bank.
+
+**What we're changing:** We now validate batch files against the bank's spec before submission, and a rejection notice will page on-call within 15 minutes instead of waiting for the next manual check.
+
+Next update when Thursday's postings are confirmed.

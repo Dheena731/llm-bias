@@ -1,0 +1,1 @@
+A confidence interval shows the range where the true value likely falls, based on this data. A wider band means more uncertainty, while a narrower band means the estimate is more precise.

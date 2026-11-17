@@ -1,0 +1,11 @@
+Subject: Reminder to Avoid Password Reuse
+
+All employees are reminded that each work account must use a unique password. Reusing a password from a personal account, a previous job, or any other service puts company data at risk. If one of those other services is breached, attackers often try the same credentials against corporate systems, and a single reused password can give them access to email, files, and internal tools.
+
+To protect yourself and the company, please use a different password for every work account, and create passwords that are long and hard to guess. A password manager approved by the IT department can generate and store these securely so you do not need to remember them all. Where multi-factor authentication is available, please enable it.
+
+Never share your password with colleagues, vendors, or anyone claiming to be from IT. IT staff will never ask for your password by email, phone, or chat. If you receive such a request, or believe a password may have been exposed, report it to the security team right away at once so the account can be secured.
+
+Thank you for helping keep our systems and information safe.
+
+The Information Security Team

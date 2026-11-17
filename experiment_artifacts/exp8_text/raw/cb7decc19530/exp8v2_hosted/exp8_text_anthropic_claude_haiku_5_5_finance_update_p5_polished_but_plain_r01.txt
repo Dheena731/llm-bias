@@ -1,0 +1,7 @@
+Payments submitted since Monday morning are taking longer than usual to clear, and some vendors and customers have not yet received funds they were expecting. The delay comes from a problem with our payment processing provider's settlement system, which began failing to confirm transactions in batches. Our own systems are recording every payment correctly, so no transactions have been lost or duplicated.
+
+Our finance and engineering teams have been working with the provider since the issue was identified. They have confirmed the fault and are currently reprocessing the affected batches. Based on their latest estimate, we expect all pending payments to be settled by end of day Thursday. Payments that remain unsettled after that point will be escalated directly with the provider, and we will share an update at that time.
+
+If you are waiting on a payment, no action is needed on your part. Please avoid resubmitting transactions, since this could create duplicate charges that take longer to reverse. If a payment is urgent or you need confirmation of its status, contact our billing team and reference your invoice number so they can check it directly.
+
+We understand how disruptive this is and appreciate your patience while the issue is resolved. We will send another update once settlement is complete or by Thursday at noon, whichever comes first.

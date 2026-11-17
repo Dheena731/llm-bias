@@ -1,0 +1,38 @@
+ACCEPTABLE USE NOTICE FOR SHARED NETWORK RESOURCES
+
+1. Purpose
+This Notice sets out the terms under which users may access and use the shared network and its associated systems, equipment, and data (collectively, the "Network"). By accessing the Network, each user agrees to comply with this Notice.
+
+2. Authorized Use
+Users may use the Network only for lawful purposes connected with their studies, employment, or other authorized activities. Limited personal use is permitted provided it does not interfere with the operation of the Network, consume excessive resources, or violate any provision of this Notice.
+
+3. Prohibited Conduct
+Users must not, without prior written authorization:
+(a) access or attempt to access accounts, files, or data belonging to others;
+(b) introduce malicious software, or intentionally disrupt, degrade, or circumvent security controls;
+(c) use the Network to transmit unlawful, harassing, defamatory, obscene, or threatening material;
+(d) infringe any copyright, trademark, patent, or other intellectual property right;
+(e) use the Network for commercial activity unrelated to authorized purposes;
+(f) share credentials or permit others to use their account; or
+(g) engage in any activity that may bring the Network or its operator into disrepute.
+
+4. Security Responsibilities
+Users are responsible for safeguarding their login credentials and for all activity conducted under their accounts. Suspected security incidents, including lost credentials or unauthorized access, must be reported promptly to the system administrator.
+
+5. Monitoring
+To the extent permitted by applicable law, the Network operator may monitor, log, and review network traffic, account activity, and stored data to maintain security, ensure compliance with this Notice, and investigate suspected violations. Users should have no expectation of privacy in their use of shared Network resources.
+
+6. Enforcement
+Violations of this Notice may result in suspension or termination of access, disciplinary action under applicable policies, and referral to law enforcement where appropriate. The operator reserves the right to remove any content or restrict any activity that it reasonably believes breaches this Notice.
+
+7. Disclaimer and Limitation
+The Network is provided on an "as is" basis. The operator does not guarantee uninterrupted availability or the integrity of data and is not liable for loss arising from use of the Network, except where liability cannot be excluded by law.
+
+8. Amendments
+The operator may amend this Notice at any time. Continued use of the Network following publication of an amendment constitutes acceptance of the revised terms.
+
+9. Acknowledgment
+By logging in to the Network, you acknowledge that you have read, understood, and agreed to comply with this Notice.
+
+Effective Date: [Insert Date]
+Issued by: [Insert Name of Network Operator or Administrator]

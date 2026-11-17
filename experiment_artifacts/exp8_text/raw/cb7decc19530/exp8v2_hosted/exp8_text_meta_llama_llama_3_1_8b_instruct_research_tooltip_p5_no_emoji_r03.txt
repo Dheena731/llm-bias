@@ -1,0 +1,6 @@
+To export query results:
+
+1. Select the query results you want to export.
+2. Click the "Export" button.
+3. Choose the desired format (e.g. CSV, Excel, PDF).
+4. Save the file to your desired location.

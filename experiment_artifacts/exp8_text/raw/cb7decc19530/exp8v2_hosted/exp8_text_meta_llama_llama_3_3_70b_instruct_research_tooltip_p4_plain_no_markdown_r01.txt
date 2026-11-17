@@ -1,0 +1,1 @@
+A missing-value marker is a symbol used to indicate that there is no data available for a particular field or cell, it can be a result of an error, a lack of information, or an inability to collect data, and it serves as a placeholder to distinguish it from a blank or empty cell that may have a different meaning.

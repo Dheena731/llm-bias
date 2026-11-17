@@ -1,0 +1,1 @@
+Exports current results to CSV, JSON, or Excel with headers. Result sets exceeding your page limit process in the background—watch for the sync badge when complete.

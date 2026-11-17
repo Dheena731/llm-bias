@@ -1,0 +1,11 @@
+To add an extra layer of security to your account, you can enable two-factor authentication. This process requires you to provide a second form of verification, in addition to your password, when you log in to your account.
+
+To enable two-factor authentication, follow these steps:
+
+1. Go to your account settings page.
+2. Look for the two-factor authentication option.
+3. Select the method you want to use for two-factor authentication, such as a code sent to your phone or an authenticator app.
+4. Follow the instructions provided to set up your chosen method.
+5. Once you have set up two-factor authentication, you will be required to provide a second form of verification each time you log in to your account.
+
+By enabling two-factor authentication, you will be better protected against unauthorized access to your account, even if someone has your password.

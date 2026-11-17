@@ -1,0 +1,17 @@
+**Feedback on Draft Literature Review (Section 2: Planting density and seedling survival in restored mangrove stands)**
+
+Thanks for the draft. The organising logic of Section 2 is much clearer than in the last version, and grouping studies by site type (abandoned aquaculture ponds versus eroded fringe) was a good decision. Those two contexts do seem to produce different survival responses, so the grouping earns its place.
+
+The main problem is that the section still reads as a sequence of study summaries. Paragraphs 3 to 6 each open with an author and year and end without telling the reader what the study adds to the argument. For example, the paragraph on the 2016 Sulawesi trial reports survival at 12 and 36 months, but doesn't say whether its high-density plots performed better because of reduced wave damage or because of higher early canopy closure, and those are different mechanisms with different implications for your gap. Pick the two or three studies that bear directly on your question and explain how they disagree with each other.
+
+Some specific points:
+
+1. **Your claim about density is stated too strongly.** You write that "higher planting density consistently improves survival." Three of the studies you cite found no significant effect above roughly 2,000 propagules per hectare, and one found a negative effect on sites with poor drainage. Either narrow the claim to the conditions where the effect holds, or say explicitly that the evidence is mixed and identify what explains the mixing.
+
+2. **Survival and growth are being conflated.** Several papers report survival at a fixed age, others report height or basal diameter, and you treat them as interchangeable in the synthesis paragraph. They are not, and a reviewer in this field will notice. Either separate the outcome measures or justify combining them.
+
+3. **The gap statement is not yet earned.** Section 2 ends by saying that "few studies have examined density effects in tidally restricted sites." Please check this against the literature you have already collected. If a handful of studies exist but use different metrics, say that; the gap is then about comparability, which is a more defensible and more interesting argument.
+
+4. **Citation format is inconsistent** between the Harvard-style in-text references and the reference list (two entries lack page numbers and one has a DOI in place of a journal name). This is minor but easy to fix before the next submission.
+
+Overall, the material is well chosen and the structure is nearly there. If you can rewrite Section 2 around the density-mechanism question and cut the study-by-study summaries down to the ones that carry the argument, I would be happy to look at it again. Let's meet next week to go through the outcome measures together.

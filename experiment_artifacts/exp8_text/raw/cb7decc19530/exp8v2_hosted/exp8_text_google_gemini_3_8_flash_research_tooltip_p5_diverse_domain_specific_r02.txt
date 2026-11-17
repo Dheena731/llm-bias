@@ -1,0 +1,1 @@
+**Download complete result set as CSV, Parquet, or JSON. Exports all returned rows, not just the current page.**

@@ -1,0 +1,10 @@
+Here are a few options, depending on your space and audience:
+
+**Option 1: Clear & simple (Best for general audiences)**
+> **Confidence Interval:** The range where the true value is likely to fall. Wider ranges indicate greater uncertainty in the data.
+
+**Option 2: Ultra-concise (Best for tight spaces)**
+> Shows the estimated range of the true value. Wider = more uncertainty.
+
+**Option 3: Precise (Best for technical/analytics products)**
+> **95% Confidence Interval:** We can be 95% confident that the true value falls between [Lower Limit] and [Upper Limit].

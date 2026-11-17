@@ -1,0 +1,10 @@
+Dear colleagues,
+
+This is a reminder that the quarterly access review for our systems begins next Monday and must be completed by the end of the following Friday. Each manager will receive a list of the accounts and permissions assigned to their team members through the identity management portal. Please review every entry and confirm that the access is still required for the person's current role. Where access is no longer needed, mark it for removal so the IT team can process the change.
+
+If you are unsure whether a particular permission is appropriate, contact the security team before approving it rather than leaving it unreviewed. Reviews that are not completed by the deadline will be escalated to the department head, and unreviewed accounts may be temporarily suspended to protect our data.
+
+Thank you for helping us keep access accurate and our systems secure. Questions about the process can be directed to the IT service desk.
+
+Regards,
+IT Administration

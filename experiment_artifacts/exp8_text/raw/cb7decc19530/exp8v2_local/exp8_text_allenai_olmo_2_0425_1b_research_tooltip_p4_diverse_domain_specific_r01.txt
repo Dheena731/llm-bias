@@ -1,0 +1,69 @@
+Standard: "Check the file size of the file and make sure that it's larger than 5 GB."
+
+Stock: "Check the file size of the file and make sure that it's larger than 5 GB."
+
+In this case, the value of 5 GB is highly domain-specific so it might be more helpful to adapt it to the user's context and the user's needs.
+
+As a general rule, don't give away the answer as quickly as possible. Keep it as long as possible!
+
+So, what does that mean?
+
+  • It means to provide helpful information, not just a generic answer.
+  • It means to be specific to the domain. What is a good answer for a 'file size' problem, but a terrible answer for a 'garden' problem?
+  • It means to create a series of clues, not a series of clues and a punchline.
+  • It means to make the experience similar to reading a magazine or a book.
+
+Standard: "Check the file size of the file and make sure that it's larger than 5 GB."
+
+Stock: "Check the file size of the file and make sure that it's larger than 5 GB."
+
+In this example, the first sentence makes me feel like I have to type something into a box in order to get my answer. The second sentence provides a specific next step - "example" - and directs my brain's filters to look for more information from the context and form.
+
+Part of the problem with AI generated help is that it's missing the guidance that good human-written help provides. Instead of thinking, "I want to find out how many acres of corn land the farmer owns," the bot reads, "I want to figure out how many acres of corn land the farmer owns." The bot thinks, "that a 5 GB file is a file" instead of, "that a 5 GB file is 500 mb."
+
+Here's another example:
+
+Standard: "1:50:100"
+
+Stock: "1:50:100"
+
+The stock answer needs to be specific to the problem or it will be unclear. We know that it is about "time", but maybe it is more interesting to see how it is represented on the page? What about something like, "1:50:100 in 1/10th of a second?"
+
+Standard: "1:50:100"
+
+Stock: "1:50:100"
+
+This time, a different value is used. We are sure that the value of 1:50:100 means the same thing as the previous example, but if we say it out loud, we can see that it is not very useful.
+
+How to write good help text
+
+Write the help from your perspective, not the bot. Imagine you want to sit down and write a help text for the bot.
+
+Step 1 - Write the example question
+
+  • What are you trying to do?
+  • What are the steps you take?
+  • What are the results?
+  • What does the bot say?
+  • What is it supposed to do?
+
+Step 2 - Write the help text
+
+  • What are you trying to do?
+  • What are the steps you take?
+  • What are the results?
+  • What does the bot say?
+  • What is it supposed to do?
+
+Step 3 - Write the first sentence of the help text
+
+  • What the bot does when it runs in overall
+  • What happens when you run the bot
+  • What happens when you use the bot
+  • What happens when you do this
+  • What happens when you do that
+  • What is the result?
+
+Step 4 - Write the last sentence of the help text
+
+  • What is the most important thing the

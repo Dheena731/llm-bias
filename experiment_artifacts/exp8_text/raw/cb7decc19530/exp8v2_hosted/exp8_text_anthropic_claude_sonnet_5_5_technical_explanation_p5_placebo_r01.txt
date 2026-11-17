@@ -1,0 +1,18 @@
+An API rate limit is a cap on how many requests a client, such as an app, a script, or a user account, can send to an API within a set period of time. For example, a service might allow 100 requests per minute or 10,000 requests per day.
+
+**Why providers set limits**
+- To keep the service stable, so heavy use by one client doesn't slow it down or crash it for others.
+- To spread capacity fairly among all users.
+- To protect against abuse, such as automated attacks or excessive scraping.
+- To control costs, and sometimes to separate pricing tiers, with higher limits for paying customers.
+
+**What happens when you exceed the limit**
+The API typically rejects further requests until the time window resets. Many APIs respond with the HTTP status code 429, "Too Many Requests." Some include a header, such as `Retry-After`, that says how long to wait. The exact behavior and header names vary by provider, so check the API's documentation.
+
+**How developers deal with it**
+- Read the documentation to learn the specific limits.
+- Slow down or space out requests so they stay under the cap.
+- Cache responses to avoid repeating the same request.
+- When a request is rejected, wait and retry, often with progressively longer delays.
+
+In short, a rate limit is a rule set by the API provider that limits how often you can call the API, and your application needs to be built to stay within it.

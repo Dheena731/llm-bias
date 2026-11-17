@@ -1,0 +1,19 @@
+Subject: Please Stop Reusing Passwords
+
+Dear colleagues,
+
+We are writing to remind everyone about the risks of reusing passwords across personal and work accounts. This has become one of the most common ways attackers gain access to company systems.
+
+When a password is reused, a breach at any one website can expose every account that shares it. Criminals routinely collect stolen credentials from breached services and try them against corporate email, cloud tools, and remote access portals. If your work password matches one you use elsewhere, a breach at a shopping site or social network could put our systems and data at risk without any warning.
+
+To protect yourself and the company, please follow these practices. Use a unique password for every account, and never use your work password for any personal service. Choose long passphrases of at least fourteen characters, such as a string of unrelated words, rather than short passwords with predictable substitutions. Store your passwords in the company-approved password manager so you do not have to remember them or write them down. Turn on multi-factor authentication wherever it is offered, since it can stop an attack even when a password has been stolen.
+
+If you suspect that a password has been exposed, or if you have used a work password on another site in the past, change it right away and report it to the IT Security team. You will not be penalized for coming forward. Early reports allow us to contain problems before they spread.
+
+Over the coming weeks, we will be checking for passwords that appear in known breach lists and may ask some users to reset theirs. Please respond promptly if you receive such a request.
+
+If you have questions or need help setting up the password manager, contact the IT Help Desk at any time.
+
+Thank you for helping keep our workplace secure.
+
+IT Security Team

@@ -1,0 +1,9 @@
+**Tooltip (for an accounts-payable dashboard):**
+
+> **Due date range**
+> Shows invoices due from the first date through the last, both included. Dates follow your ledger's time zone (CT). Click one date, then another. Click a single date twice for one day.
+
+I assumed an invoicing context since none was specified. If you tell me the product, I can tailor the filter field, time zone behavior, and range limits. For example, in a lab-results view it might read:
+
+> **Collection date**
+> Includes samples collected on both the start and end dates. Times are in the collecting site's local time. Ranges are limited to 90 days.

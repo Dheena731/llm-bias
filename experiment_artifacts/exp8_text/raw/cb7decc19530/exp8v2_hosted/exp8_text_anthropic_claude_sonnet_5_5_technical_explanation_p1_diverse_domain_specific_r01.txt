@@ -1,0 +1,9 @@
+Latency matters in web apps because it compounds. A single slow request is rarely the problem. The problem is a chain of small delays that each wait on the one before.
+
+Loading a dashboard might involve a DNS lookup, a TCP and TLS handshake, the HTML, and a JavaScript bundle that then calls `/api/me`. That response triggers three more calls. Each step costs at least one round trip. On a mobile connection with an 80 ms RTT, five dependent requests add 400 ms before the server does any work. More bandwidth doesn't help, because physics sets the floor: Sydney to a Virginia data center is roughly 200 ms round trip on any connection.
+
+How the delay feels depends on the interaction. Under about 100 ms, a click feels like direct manipulation. Around a second, users notice they're waiting. Past that, they start double-clicking, which is how you get duplicate form submissions and double-charged orders. In an autocomplete box, a 300 ms response can arrive after the user has typed another character, so stale results flicker in and replace fresh ones.
+
+Averages also hide the worst of it. If a page load fans out to 20 backend calls and each has a 1% chance of being slow, about 18% of page loads hit at least one slow call. The users with the largest accounts and the most data tend to feel this the most.
+
+That is why teams track p95 and p99 rather than the mean, and why they flatten request waterfalls before tuning any single query.

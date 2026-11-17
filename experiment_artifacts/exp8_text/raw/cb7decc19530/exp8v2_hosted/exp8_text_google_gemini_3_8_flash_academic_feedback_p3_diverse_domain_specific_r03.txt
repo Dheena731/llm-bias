@@ -1,0 +1,5 @@
+**Reviewer 2, Major Concern 1:**
+
+Section 1.2 never cleanly delineates the primary cognitive construct under investigation. The introduction vacillates between framing the paradigm as an assay of proactive cognitive control and treating it as a measure of spatial working memory capacity. Because both processes recruit overlapping frontoparietal cortex, this ambiguity leaves the core hypothesis unfalsifiable: virtually any cluster of BOLD activation in the dorsolateral prefrontal cortex or intraparietal sulcus can be (and later is) retrofitted to support the model. 
+
+Before the analytical choices can be evaluated, the authors must commit to an explicit question. Are you testing whether *preparation interval* modulates rule-encoding fidelity, or are you measuring load-dependent distractor resistance? Please formulate a single, testable hypothesis and specify what dissociation—either in functional connectivity or regional response—would count as evidence *against* your account.

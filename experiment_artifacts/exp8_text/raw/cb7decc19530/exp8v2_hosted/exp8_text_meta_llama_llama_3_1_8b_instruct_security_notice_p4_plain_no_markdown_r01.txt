@@ -1,0 +1,7 @@
+To enhance the security of your account, we recommend enabling two-factor authentication. This feature requires a second form of verification in addition to your username and password, making it much harder for unauthorized individuals to gain access to your account. 
+
+To enable two-factor authentication, log in to your account and navigate to the account settings section. You will typically find this option under the "Security" or "Account" tab. 
+
+Once you have located the two-factor authentication option, click on it and follow the instructions to set it up. You will be prompted to choose a method of verification, such as receiving a code via SMS or using a mobile app that generates a unique code. 
+
+Follow the prompts to complete the setup process, and you will then be required to enter a verification code in addition to your username and password whenever you log in to your account. This will provide an extra layer of security and help protect your account from unauthorized access.

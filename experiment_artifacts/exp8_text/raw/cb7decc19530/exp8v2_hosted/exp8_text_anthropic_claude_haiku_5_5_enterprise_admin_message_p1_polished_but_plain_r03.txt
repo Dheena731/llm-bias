@@ -1,0 +1,14 @@
+Subject: Scheduled Dashboard Maintenance This Saturday
+
+Dear team,
+
+We will be performing scheduled maintenance on the reporting dashboard this Saturday, March 14, from 10:00 p.m. to 2:00 a.m. Eastern Time. During this window, the dashboard will be unavailable, and data will not refresh in real time. Scheduled reports will still run as normal, but any results you view during this period may not reflect the latest figures until the work is complete.
+
+The maintenance includes applying security updates, improving query performance for large data sets, and upgrading the visualization library to resolve several display issues reported over the past month. We do not expect any changes to your saved views, filters, or user permissions.
+
+Please plan accordingly. If you have time-sensitive reviews or exports, complete them before 10:00 p.m. Saturday or schedule them for after 2:00 a.m. If you experience any problems once service is restored, contact the IT service desk and include a description of the issue and the time it occurred so we can address it quickly.
+
+Thank you for your patience and understanding as we work to keep the platform reliable and secure.
+
+Best regards,
+The Systems Administration Team

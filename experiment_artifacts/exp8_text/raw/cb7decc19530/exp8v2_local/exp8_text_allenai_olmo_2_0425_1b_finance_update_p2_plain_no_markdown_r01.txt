@@ -1,0 +1,99 @@
+C. Credit Card Payment Processing Fees
+
+D. Magnetic Stripe on the Back of the Card
+
+Write in plain prose. Do not use Markdown, bold text, or italics.
+
+E. Recurring Transaction
+
+Write in plain prose. Do not use Markdown, italics, bold text, or scripts.
+
+F. International Transaction
+
+Write in plain prose. Do not use Markdown, italics, bold text, or script.
+
+G. Billing Address
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+H. Fine Print
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+I. Promotional Code
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+J. Retinal Scan
+
+Write in plain prose. Do not use Markdown, bold text, or script.
+
+K. Security Code
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+L. Miscellaneous
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+M. Magnetic Stripe on the Front of the Card
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+N. Numeric
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+O. Plastic
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+P. Plastic Security Fee
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+Q. Payment
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+R. Payment Processing
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+S. Prepayment
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+T. Purchase
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+U. Purchase Processing
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+V. Rental
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+W. Rent Processing
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+X. Non-Prepayment
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+Y. Mailing Address
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+Z. ZIP Code
+
+Write in plain prose. Do not use Markdown, bold text, italics, or script.
+
+The description may include one or more of more than one of the following elements:
+
+  • 1. A brief paragraph describing the card, such as “Visa”, “MasterCard”, “American Express”, etc.
+  • 2. A short paragraph describing a specific feature of the card, such as “credit”, “debit”, “prepaid”, “with PIN”, “without PIN”, etc.
+  • 3. A list of code numbers for the card, such as “16XXXXXX”, “17XXXXXX”, etc., or a list of words indicating whether the card is a check card or a credit card, such as “mini”, “mini-credit”, “prepaid”, “debit”,

@@ -1,0 +1,16 @@
+**Feedback on Draft 2, Section 2: Sediment Supply and Vertical Accretion**
+*Reviewer note for M. Okafor, 14 March*
+
+Thanks for the revision. The section is much easier to follow now that the studies are grouped by site type, not just by date. The main problems are conceptual, and they matter for the argument you build in Section 4.
+
+1. **Accretion and elevation change are used interchangeably.** In the second paragraph you move from marker-horizon accretion rates (short-term, often one to three years) to elevation change from SET data, then to 210Pb-derived long-term rates, as if they measure the same thing. They don't. Marker horizons capture surface deposition only, while SETs capture the full shallow-subsurface response, including shallow subsidence and root growth. Please state which measure each study uses, and be explicit when you are comparing them.
+
+2. **Sea-level rise is treated as a single driver.** Several of the cited sites (the Blackwater and Gulf Coast examples in particular) show elevation deficits that track regional subsidence from groundwater withdrawal and compaction at least as closely as they track eustatic rise. Your argument about "marsh drowning under accelerating SLR" needs either a qualification or a sentence explaining why you are setting subsidence aside.
+
+3. **Suspended sediment concentration is missing as a variable.** You cite a Chesapeake study and a San Francisco Bay study as if they establish a common accretion threshold. Their suspended sediment regimes differ substantially, and the Bay sites are sediment-limited in a way the Chesapeake sites are not. Without that distinction, the comparison doesn't support the generalisation you draw from it.
+
+4. **The gap statement in the conclusion does not follow from the review.** You argue that few studies measure accretion and organic accumulation together at restored sites. That may well be true, but the section does not show it. Either survey the restoration literature specifically and report what you find, or soften the claim to what you can actually document.
+
+Smaller points: the paragraph on sediment diversion projects reads as a list of case studies and needs a sentence on what they have in common. "Accretion" should be defined once, early, in the way you will use it throughout.
+
+I'd prioritise points 1 and 4, since the rest of the thesis depends on them. Happy to look at a revised version of this section before the committee meeting.

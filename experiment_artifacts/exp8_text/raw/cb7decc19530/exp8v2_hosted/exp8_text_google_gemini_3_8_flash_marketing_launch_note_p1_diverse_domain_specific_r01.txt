@@ -1,0 +1,15 @@
+**Subject: For everyone running payroll from the front seat of a truck**
+
+Most "small business" software is built for people who sit at desks all day, arguing about project roadmaps. It expects you to set up fourteen integrations, watch an onboarding webinar, and care about Gantt charts.
+
+We built **Fieldline** because you started a trade business to build things, not to spend your Sunday evenings cross-referencing crumpled supply-house receipts against bank transfers.
+
+Here is what it actually does:
+
+*   **Bids from voice memos:** Talk through the scope of work while walking the job site. Fieldline drafts a line-item estimate with your standard margins before you pull out of the driveway.
+*   **Two-tap deposits:** Clients get a clean text, sign with their finger, and pay the material deposit instantly via card or ACH. No chasing down paper checks.
+*   **Simple cash visibility:** You see exactly who owes you, what’s overdue, and what hits your account tomorrow morning. No accounting degree required.
+
+No enterprise sales calls. No bloat. 
+
+It’s ready in the App Store today. Use it on your next walkthrough.

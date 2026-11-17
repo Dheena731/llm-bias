@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining how to export query results in a domain-specific tone:
+
+"Exporting Query Results: To save your search results for future reference or further analysis, click the 'Export Results' button (located in the 'Results' tab). Select the format you'd like to export to (e.g. CSV, Excel), choose the columns you'd like to include, and click 'Export'. Your query results will be saved as a downloadable file, allowing you to import them into other tools or systems for further analysis."
+
+This tooltip is written in a concise and specific tone, tailored to a domain where query results are being exported, such as a search engine, data analytics platform, or database management system.

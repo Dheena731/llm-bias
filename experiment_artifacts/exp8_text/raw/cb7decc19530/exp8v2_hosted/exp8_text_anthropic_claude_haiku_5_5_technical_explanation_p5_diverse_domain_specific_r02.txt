@@ -1,0 +1,5 @@
+An API rate limit caps how many requests a client can make to a server in a given window. A weather provider might allow 60 calls per minute per API key. The 61st call inside that minute gets rejected, usually with HTTP status 429 ("Too Many Requests"), and the response often includes a `Retry-After` header saying how many seconds to wait.
+
+Providers set limits to protect shared infrastructure from one customer's runaway script, to keep pricing tiers meaningful, and to spread capacity fairly across users. Limits are typically tracked per API key, per IP address, or per account, and many use a sliding window or token bucket so short bursts are allowed but sustained overuse is not.
+
+If your code hits a limit, the usual fix is to back off and retry after the time the server suggests, rather than hammering the endpoint in a tight loop, which tends to get the key temporarily blocked.

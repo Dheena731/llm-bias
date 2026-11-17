@@ -1,0 +1,53 @@
+## Principles
+
+### Setup and Configuration
+
+In order to use this library, you will need to setup a configuration, which can be done in 2 steps. First, you will need to create a new configuration file where you will specify the API key, endpoints, and authentication scheme. This configuration is used when making requests to the API. Then, you will need to make sure that the configuration file is loaded at the beginning of every request.
+
+#### API Key
+
+To use this library, you will need to have an API key in order to make calls to the API. Your API key can be obtained from your web application's settings page (usually found by looking for a link labeled "API Keys" or "API".)
+
+To create your API key, you can run the following command from the command line:
+
+```bash
+curl -u "<API KEY>" -d "url=<YOUR_API_URL>" -H "Accept: application/json" https://<YOUR_API_URL>/app/v1/auth/login-service/config?email=<YOUR_USER_EMAIL> & \
+--silent
+```
+
+Replace the `<API KEY>` with a copy of your API key, `<YOUR_API_URL>` with the URL of your API, and `<YOUR_USER_EMAIL>` with the email address that you want to use for the application. After running this command, you should receive a response. If you do not receive this response, your API Key may not have been created yet. If you do not receive the response for any other reason, contact your API provider for additional information.
+
+#### Endpoint Configuration
+
+The second step in using this library is to specify the endpoints for your application. Each API endpoint is specified in the JSON format. However, you are welcome to specify the endpoints in any format you prefer.
+
+To create your endpoint configuration file, you can run the following command from the command line:
+
+```bash
+curl -v -d "<YOUR_ENDPOINTS>" -H "Accept: application/json" & \
+-H "Authorization: Bearer Shakarsharshasharkshark" http://<YOUR_API_URL>/app/v1/auth/login-service/config \
+--silent
+```
+
+Replace the `<YOUR_ENDPOINTS>` with a list of all the endpoints that you want to allow access to. You can include the endpoints in any format you prefer.
+
+#### Authentication Configuration
+
+The final step in using this library is to specify the authentication scheme that you want to use. There are two types of authentication schemes that can be used with this library. One is an OAuth2 authentication scheme and the other is a custom authentication scheme that is generated using Hawk.
+
+In order to create a new authentication scheme, you must first create a configuration file that will be used in this scheme. The configuration file can be created using the following command:
+
+```bash
+curl -u "<AUTH_KEY>" -d "url=<YOUR_API_URL>" -H "Accept: application/json" & \
+--silent
+```
+
+Replace the `<AUTH_KEY>` with a copy of your API key, `<YOUR_API_URL>` with the URL of your API, and `<YOUR_AUTH_CONFIG>` with the configuration that you created previously. After running this command, you should receive a response. If you do not receive this response, your authentication scheme may not have been created yet. If you do not receive the response for any other reason, contact your API provider for additional information.
+
+### Using the Library
+
+To use this library, you must first require the `apitest` module and configure a configuration file. Once you have both of these things set up, you are ready to make requests to the API.
+
+#### Make a Request
+
+In order to make a request to the API, you must first specify the API key and the authentication scheme that you want to use. You can also specify some additional

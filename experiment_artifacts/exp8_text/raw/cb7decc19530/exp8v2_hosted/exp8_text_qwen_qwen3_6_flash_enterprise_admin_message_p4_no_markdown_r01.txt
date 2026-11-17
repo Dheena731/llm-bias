@@ -1,0 +1,14 @@
+SUBJECT: QUARTERLY ACCESS REVIEW NOTICE
+
+Dear Department Managers and Team Leads,
+
+This is a formal notification that the quarterly access review period has officially started. To maintain system security and meet compliance requirements, all supervisory staff must verify and update user permissions for their respective teams by November 10.
+
+Please log in to the central identity management dashboard using your standard corporate credentials. Review every active account under your supervision, confirm that each individual retains only the access necessary for their current role, and remove permissions for separated employees or those who have changed positions. Once verified, submit your confirmation within the system.
+
+If you encounter technical difficulties, require additional training, or need clarification on approval thresholds, please contact the IT Service Desk at helpdesk@organization.com or call extension 4400.
+
+Your prompt completion of this review supports our ongoing security posture and audit readiness. We appreciate your cooperation.
+
+Sincerely,
+Information Technology Administration

@@ -1,0 +1,11 @@
+**Reviewer comment on the research question**
+
+The research question, "How does workplace flexibility affect employee well-being?", is too broad to guide the study or to tell readers what would count as an answer.
+
+First, "workplace flexibility" can refer to schedule control, remote work, or leave policies. These are different exposures, and the question does not say which one the authors mean.
+
+Second, "well-being" needs a specific outcome. Mental health, job satisfaction, and work-life balance are distinct constructs, and the question does not indicate whether one is primary or whether a composite is intended.
+
+Third, the verb "affect" implies a causal effect. If the design is observational, the question should be framed as an association, or the authors should explain how they would address confounding.
+
+I suggest the authors restate the question with a named exposure, a named outcome, a defined population, and the direction or comparison they expect. A question written this way would make it clear what evidence would support or refute it.

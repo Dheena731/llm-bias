@@ -1,0 +1,7 @@
+**Reviewer 2, Major Comment 1: The research question is not stated in a form the data can answer**
+
+The Introduction ends with the aim "to investigate the relationship between nitrogen enrichment and ectomycorrhizal community structure," but I could not tell what outcome the authors expect to vary or why. "Community structure" shifts between richness (Fig. 2), Bray-Curtis dissimilarity (Fig. 3), and the relative abundance of /russula-lactarius versus /cortinarius lineages (Table 2). These are different hypotheses with different predictions. A decline in Cortinarius under N addition, for example, says little about whether richness fell.
+
+The design adds to the ambiguity. The study uses a deposition gradient across 14 stands, yet the language throughout ("N addition reduced...") implies an experimental manipulation. Stand age, soil pH, and base cation status all covary with deposition in your site table (r > 0.6 for pH), so I cannot tell whether the question concerns N itself or the whole deposition regime.
+
+Please state one primary question, name the response variable, and say whether the claim is causal or descriptive. Something like: "Does ectomycorrhizal richness decline along a gradient of modeled N deposition after accounting for soil pH?" would be testable. The other analyses could then be labeled exploratory.

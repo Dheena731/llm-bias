@@ -1,0 +1,14 @@
+**Important Security Update**
+
+To further protect your account and sensitive information, we are now offering two-factor authentication (2FA) as an additional layer of security.
+
+**What is 2FA?**
+2FA requires a second form of verification, in addition to your password, to access your account. This can be a code sent to your phone or a biometric scan, making it much harder for unauthorized users to gain access.
+
+**How to enable 2FA:**
+To enable 2FA, simply log in to your account, go to your account settings, and follow the prompts to set up 2FA. You can choose from a variety of authentication methods, including SMS, authenticator apps, or biometric scans.
+
+**Stay safe and secure**
+Enabling 2FA is a simple and effective way to add an extra layer of protection to your account. We strongly recommend that all users take advantage of this feature to help safeguard their sensitive information.
+
+If you have any questions or need assistance enabling 2FA, please don't hesitate to contact our support team.

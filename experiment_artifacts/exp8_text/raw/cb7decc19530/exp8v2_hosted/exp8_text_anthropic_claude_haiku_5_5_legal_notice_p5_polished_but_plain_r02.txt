@@ -1,0 +1,13 @@
+ACCEPTABLE USE NOTICE FOR SHARED NETWORK RESOURCES
+
+This notice governs access to and use of the shared network resources provided by the organization, including wired and wireless connections, file storage, email systems, internet access, and any devices or accounts connected to them. By connecting to the network or using any account issued under it, each user agrees to comply with the terms set out below.
+
+Network resources are provided to support the organization's business, educational, or operational purposes. Limited personal use is permitted so long as it does not interfere with work, consume resources in a disproportionate manner, violate any provision of this notice, or expose the organization to legal or security risk. Users must not use the network for any unlawful purpose, including the infringement of copyrighted material, the distribution of illegal content, or harassment of any person.
+
+Each user is responsible for safeguarding his or her credentials. Passwords and access tokens must not be shared, written in unsecured locations, or transmitted through unencrypted channels. Users must report any suspected compromise of their accounts or devices to the information technology department without delay. Unauthorized attempts to access systems, files, or accounts belonging to others, or to bypass security controls, monitoring tools, or content filters, are strictly prohibited.
+
+Users must not introduce malicious software, conduct port scanning, launch denial-of-service activity, or run unapproved network tools that could degrade performance or compromise system integrity. Devices connected to the network must maintain current security updates and approved antivirus protection. Personal devices may be connected only where the organization has authorized such access and the device meets its published requirements.
+
+Users should expect that network activity may be logged, monitored, and reviewed in accordance with applicable law and organizational policy, and that such monitoring is conducted to protect the network, investigate incidents, and ensure compliance. Information stored on organization-owned systems remains the property of the organization, and users should not presume privacy in such systems.
+
+Violations of this notice may result in suspension of network access, disciplinary action up to and including termination of employment or enrollment, and referral to law enforcement where appropriate. The organization reserves the right to amend this notice at any time. Continued use of the network following notice of an amendment constitutes acceptance of the revised terms. Questions regarding this notice should be directed to the information technology department before any uncertain activity is undertaken.

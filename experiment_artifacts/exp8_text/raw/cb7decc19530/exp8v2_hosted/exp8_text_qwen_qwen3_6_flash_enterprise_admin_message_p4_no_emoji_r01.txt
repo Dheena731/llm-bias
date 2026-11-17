@@ -1,0 +1,9 @@
+**Subject: Action Required: Quarterly Access Review**
+
+This is a notification that the quarterly access review is now active. To ensure system security and regulatory compliance, all department managers and data owners must verify and update user access permissions within their designated systems and applications. 
+
+Please log in to [Access Management Portal/Tool Name] and complete your review by [Deadline Date]. Verify that all listed users require current access levels, remove privileges for departed employees or role changes, and approve any pending requests. Incomplete reviews may result in automated access revocations.
+
+For technical assistance or policy guidance, contact the IT Service Desk at [Email Address] or [Phone Number]. Thank you for your timely attention to this requirement.
+
+Information Security & Compliance Office

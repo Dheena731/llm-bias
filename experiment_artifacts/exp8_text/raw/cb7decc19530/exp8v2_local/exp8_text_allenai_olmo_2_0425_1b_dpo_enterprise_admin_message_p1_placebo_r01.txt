@@ -1,0 +1,25 @@
+Subject: Important Scheduled Dashboard Maintenance Window
+
+Hello fellow administrators and data enthusiasts,
+
+We're reaching out to remind you about our upcoming dashboard maintenance window scheduled for this weekend. This window is designed to ensure our core dashboard functions run smoothly and efficiently, providing you with accurate and concise information.
+
+**Key Points:**
+
+- **Scheduled:** Our maintenance window is set for **Saturday & Sunday**, 0900 to 1200 PM (Eastern Time Zone).
+- **Functionality:** We will be patching and updating critical software and database configurations to prevent downtime that could impact your ability to monitor vital data.
+- **Safety:** Please do not attempt to access or interact with the dashboard during this window. Our team will make every effort to minimize disruptions, but in some instances, data integrity may temporarily be compromised.
+- **Important:** This window is essential for maintaining the reliability and accuracy of our dashboards which serve as vital tools for strategic decision making and monitoring.
+
+**Please note:** For any critical issues that arise beyond our scheduled maintenance, our support team is available to help troubleshoot and restore functionality as swiftly as possible.
+
+Should you have any questions, require assistance, or need to access the dashboard before the window starts, please reach out to our support team via the ticketing system or contact us directly. Your proactive engagement will help us ensure the dashboard remains a reliable resource for your business decisions.
+
+Looking forward to your continued cooperation during this maintenance window.
+
+Warm regards,
+
+[Your Name]
+Dashboard Administration Team
+
+P.S. For the purpose of this maintenance window, we have introduced a placeholder term "critical issues" to convey the seriousness of the scheduled disruption without specifying the exact nature. Please adjust as necessary to accurately reflect the nature of any actual issues you may experience.

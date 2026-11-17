@@ -1,0 +1,37 @@
+[TODO: Explain what is wrong with the previous solution]
+
+You can use crafty's draft_address for sending and managing short emails. You can also use crafty's draft_post to send and manage posts.
+
+You can take advantage of crafty's post_content and draft_post_content variables to include the contents of drafts in the post body.
+
+If you want to include a draft in the post summary, you can use post_summary_content, as shown below.
+
+    "draft": false,
+    "draft_post": "Draft Post", // 1
+    "post_content": "This is a draft.", // 2
+    "post_summary_content": "The draft content is this.", // 3
+    "draft_post_content": "# Draft Posts" // 4
+
+[1]: draft_post must be a string, not a number.
+[2]: post_content must be a string, not a number.
+[3]: post_summary_content must be a string, not a number.
+[4]: draft_post_content is not a number; it must be a string.
+
+As you can see, draft_post is required, draft_post_content is optional, draft_post_content is optional, and draft_post_content must be a string.
+
+The draft is included by default, so it isn't necessary to add it to the post.
+
+Crafty does not support using draft_post in a template file or in a CraftPostField.
+
+Instead of draft_post_content, it's possible to send a draft directly by setting the draft field's value when the post is saved. Any post that uses a draft must have the Draft field in the post. You can also programmatically set the draft field's value by calling the setDraft() method.
+
+For all fields, Craft uses a UUID to determine the order in which the post is published. This avoids collisions and similar issues. If you have a draft that is not the most recent, Craft will automatically send it to the front and avoid publishing the most recent draft.
+
+If you want to display the draft in your template, you can omit the draft_post field and concatenate the draft field's value with a {{ draft_post_content }} placeholder. However, it's up to you whether you want the draft to appear in the post tag or in the post summary.
+
+
+The draft's value is the text that you enter when you create a draft.
+
+The draft_post's value is included in the post.
+
+The draft's value cannot be modified after the draft is created.

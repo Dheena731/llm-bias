@@ -1,0 +1,25 @@
+Here's a sample feedback note. It assumes a quantitative study on a short-term intervention, so adjust the details to fit the actual work.
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for your methods section. You describe your participant recruitment and survey procedure clearly, and the step-by-step account of data collection would let another researcher replicate the study.
+
+**Strengths**
+- The sampling criteria are stated explicitly, including inclusion and exclusion conditions.
+- You justified your choice of survey instrument by citing its reliability in previous studies.
+
+**Areas to develop**
+1. **Sample size:** Explain how you determined the number of participants. A brief power calculation or a reference to a comparable study would strengthen this.
+2. **Analysis:** You name the statistical tests but not why they suit your data. State the assumptions you checked (e.g., normality, independence) and what you did if they were violated.
+3. **Limitations:** Briefly acknowledge constraints in the design, such as the self-selected sample or the single-site recruitment, and note how they might affect interpretation.
+4. **Consistency:** Use the same terms for your variables throughout. "Engagement" and "participation" appear to refer to the same construct, so choose one and define it.
+
+**Priority for revision:** Start with point 2. Strengthening the analysis rationale will have the biggest effect on the credibility of your results.
+
+Overall, this is a solid foundation. With these revisions, the section will be well organized and easy to follow.
+
+---
+
+If you share the actual methods section, I can tailor the feedback to its specific content and length.

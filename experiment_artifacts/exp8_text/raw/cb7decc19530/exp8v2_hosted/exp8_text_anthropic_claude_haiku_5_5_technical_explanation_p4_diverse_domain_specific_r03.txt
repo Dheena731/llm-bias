@@ -1,0 +1,10 @@
+A typical page request repeats the same work for every visitor: the server assembles the HTML, queries the database, and the browser downloads every stylesheet, script, and image again. Caching stores the results of that work so later requests can skip some of it.
+
+It happens at several layers:
+
+- **Browser cache.** The server sends a header like `Cache-Control: max-age=31536000` on a logo or stylesheet, and the browser keeps its own copy. On a return visit it doesn't ask the server for that file at all.
+- **CDN edge cache.** A CDN keeps copies of assets and sometimes whole pages on servers near the reader. A visitor in Jakarta gets the article from a node in Singapore instead of an origin server in Virginia, which can save a couple hundred milliseconds on every round trip.
+- **Server-side page cache.** If a page looks the same for everyone, the server can save its rendered HTML and serve that copy, skipping template rendering and database queries. That can turn a few hundred milliseconds of server time into a few milliseconds.
+- **Query cache.** Expensive results, like "top-selling products this week," can be stored in Redis or Memcached for a few minutes, so the database runs that query once instead of thousands of times.
+
+The cost is staleness. A cached copy shows the site as it was when it was saved, so every cache needs an expiry time or a purge when the underlying content changes. A one-hour lifetime on a price list means a price change can take an hour to appear. Most of the work in caching is choosing a sensible lifetime for each kind of content.

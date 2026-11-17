@@ -1,0 +1,46 @@
+Use some type of technical font. Arial, Helvetica, and sans-serif are widely used, but you might want to specify a particular font in the font option.
+
+Do not use markup or syntax highlighting. Highlighting code is both distracting and confusing, especially in light of the fact that the OOPSLA 2020 paper is to be provided in Markdown.
+
+Use a short title that summarizes the content. This can be a single line or a short paragraph, but do not make it too long or you will obscure the essential information.
+
+Describe the experience in as much detail as possible, but do not include an introduction. It is not the task of the author to provide a guided tour of each new and important technique. What is needed is a simple description of the problem and its solution using the techniques introduced.
+
+Brief introduction
+
+Provide a brief introduction of the materials and techniques you are introducing to the audience. Be very careful to avoid giving away the punchline in a sentence or two.
+
+The paper is to be focused on a single topic. If it is not, you can describe some more general style or technique, or explain why you are focusing on this particular technology.
+
+The paper should be focused on a single topic. Related topics and techniques should be covered as separate papers, or by a separate chapter in a book. If it is not suitable for a book or other collection of papers, you can leave it out.
+
+The author is responsible for ensuring that the paper follows the directions and formatting the way that the paper is intended. Do not expect the audience to read the author's copy to understand how it is to be formatted. The audience can only be expected to understand the author's paper if it is well formatted.
+
+The author is responsible for formatting the paper following the indicated directions. Do not assume that the audience will be using a different version of markdown, or that it will understand the author's formatting decision. If the audience can understand the formatting, it will be easier to understand what is represented by the text. The author should assume the audience will use a standard version of markdown.
+
+The author can use business card style headers for tables. Simply insert two or more backslashes before the title. The usual indentation for tables is assumed.
+
+The author can use Markdown for tables, if they prefer. In this case, use a backslash before the table cells, such as:
+
+|  | 1   | 2   |
+|---|---|---|
+| 3   | 4   | 5   |
+| 6   | 1   | 8   |
+| 7   | 0   | -   |
+| 8   | 0   | 0   |
+
+Whitespace is not significant in Markdown. Line breaks are necessary in the table, but surrounding whitespace does not affect the meaning of the table.
+
+The author does not have to make use of backticks to indicate code samples. Instead, the author can wrap the code in a single backtick, as in:
+
+The author can provide a link to their own GitHub repository, or to other popular repositories using a backslash followed by a colon, as in:
+
+Note that there should be no quotation marks around the link.
+
+The author is responsible for ensuring that the paper is properly referenced. Do not rely on citation in the writing, as it could be out of date, or incorrect. Use the JATS reference model to format citations, and include them in the table of contents.
+
+In the case of a single paper authored by multiple authors, the reference list should be provided as a separate document. The format should be approved by the OOPSLA editorial committee.
+
+Use table of contents
+
+The table of contents is the outline of the paper that is included in the bibliography. It should be formatted to the standard rules of JATS

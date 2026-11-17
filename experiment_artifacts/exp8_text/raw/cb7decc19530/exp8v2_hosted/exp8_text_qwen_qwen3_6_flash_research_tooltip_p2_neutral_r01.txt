@@ -1,0 +1,4 @@
+**Tooltip text:**
+"This range shows where the true value likely falls, based on your sample data. A wider interval indicates greater uncertainty in the estimate." 
+
+*(Optional: Replace "likely" with "we are [95]% confident the true value falls" if you want to explicitly state your confidence level.)*

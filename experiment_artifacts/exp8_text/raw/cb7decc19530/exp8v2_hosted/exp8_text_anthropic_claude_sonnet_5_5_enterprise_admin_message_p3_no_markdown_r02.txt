@@ -1,0 +1,18 @@
+Subject: Upcoming VPN Client Update
+
+Hello everyone,
+
+We are updating our VPN client to a new version this month. The update improves connection stability, speeds up reconnection after network drops, and adds support for the latest operating system releases.
+
+What you need to know:
+
+The rollout begins Monday, and the update will install automatically the next time you restart your computer. If you prefer to install it sooner, you can do so from the Software Center on your device.
+
+After the update, you may be asked to sign in again with your usual credentials and multi-factor authentication. Your existing settings and saved connections will carry over.
+
+If you run into any problems connecting after the update, please contact the IT Help Desk at helpdesk@example.com or call extension 4357, and we will be glad to help.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+IT Support Team

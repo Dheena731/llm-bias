@@ -1,0 +1,7 @@
+Here's a concise tooltip explaining what a missing-value marker means, specific to the domain of data visualization and distinct from generic examples:
+
+"Missing-value marker: A visual representation indicating that no data exists for a particular category or time period, often denoted by a blank or dotted line, or a custom symbol. This marker helps to:
+
+* Identify gaps in data collection or reporting
+* Highlight areas where data is sparse or absent
+* Facilitate accurate interpretation of trends and patterns"

@@ -1,0 +1,1 @@
+This range indicates the interval where the true value is expected to fall. A narrower range reflects higher statistical certainty, while a wider range indicates greater uncertainty in the estimate.

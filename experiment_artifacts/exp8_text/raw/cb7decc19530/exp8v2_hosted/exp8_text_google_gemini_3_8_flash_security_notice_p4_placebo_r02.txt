@@ -1,0 +1,7 @@
+**Notice: Protect Your Account with Two-Factor Authentication**
+
+To improve the security of your account, please enable two-factor authentication. 
+
+Two-factor authentication is an added layer of protection that requires two separate verification steps to log in: your standard password and a secondary confirmation, such as a temporary numeric code sent to your mobile phone. This ensures that only you can access your account, even if someone else learns your password.
+
+To turn on this protection, open your account settings and navigate to the security options to complete the setup.

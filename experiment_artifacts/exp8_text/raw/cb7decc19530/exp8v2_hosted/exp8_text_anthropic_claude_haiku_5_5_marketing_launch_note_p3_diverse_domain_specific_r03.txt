@@ -1,0 +1,15 @@
+# Paycheck Ledger 2.0 is out
+
+Most budget templates assume you get paid on the 1st and the 15th. If you're paid every other Thursday, you've probably noticed that some months have three paydays and the grid makes that hard to read. Ledger 2.0 is built around pay periods instead. Each tab covers one paycheck, from the day it lands to the day before the next one.
+
+**What's in the box:**
+
+- **Pay-period tabs.** Enter your take-home amount and the sheet lists every bill with a due date inside that window, plus a "left to allocate" figure that updates as you type.
+- **Irregular expenses.** A separate table for costs that don't repeat monthly: car registration, the dentist, the dog's rabies shot, holiday gifts. Each one gets a monthly set-aside amount, so the January bill doesn't blindside you.
+- **Sinking funds.** Fourteen preset buckets, renameable, with running balances that carry forward between pay periods.
+- **An amber warning.** Any category that reaches 85% of its target turns amber. At 100%, it turns red.
+
+Ledger 2.0 works in Google Sheets and Excel, uses no macros, and doesn't need an account or an app install. It was built over about two years of real use by a household that is paid biweekly, has one variable-income side job, and still needed a spreadsheet that didn't break when the calendar did something odd.
+
+**Price:** $12, one-time, with lifetime updates.
+**Download:** Available now at the link in your confirmation email.

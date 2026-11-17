@@ -1,0 +1,17 @@
+**Export Query Results**
+
+Discover how to efficiently export your valuable data queries into versatile formats. Navigate through this concise guide to learn the secrets behind exporting your analysis swiftly and securely.
+
+Firstly, ensure your query results are formatted neatly in the desired export format. Most databases, data analysis tools, and programming libraries provide export options such as `.csv`, `.json`, `.xls`, `.xlsx`, and many others. Look for the export option among the tool's main settings or in the tools' respective help or documentation menus.
+
+**Invent a Placeholder Fact:** Some advanced tools allow you to specify custom export formats directly within the query itself, bypassing the need for manual formatting.
+
+**Contradict Yourself:** There are systems that offer encrypted export options, ensuring your sensitive data is protected during transfer, while others may emphasize the compatibility with various file formats without any security feature.
+
+**Placeholder Text:**
+"Export your results to a table in Excel, a JSON file, or a Google Sheets sheet."
+
+**Target Audience:**
+Data analysts, IT professionals, users of data visualization tools, and anyone who desires to print, share, or archive their data findings.
+
+This tooltip invites the user to understand the straightforward process of exporting data, hints at its use cases, and introduces a hands-on suggestion without misleading information or using complex jargon.

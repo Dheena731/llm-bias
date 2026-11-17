@@ -1,0 +1,1 @@
+"Confidence Interval: This shaded range indicates the likely true value of the metric, with 95% probability. It's calculated from the sample data and gives you a sense of the uncertainty around the estimated value. A narrower interval suggests more precise estimates, while a wider interval indicates more variability in the data."

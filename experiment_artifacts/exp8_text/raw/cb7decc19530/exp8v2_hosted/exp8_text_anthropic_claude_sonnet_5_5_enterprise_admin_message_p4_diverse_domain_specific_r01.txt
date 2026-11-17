@@ -1,0 +1,27 @@
+**Subject: Q3 access review: manager sign-off due Friday, Sept 19**
+
+The Q3 user access review opens Monday, Sept 8. If you manage people or own a system on the list below, you'll get a ticket in ServiceNow assigned to you.
+
+**What you're reviewing**
+- Okta group memberships for your direct reports
+- AWS IAM roles in the prod and billing accounts (owners: Platform)
+- Github org admins and repo-level write access (owners: Engineering leads)
+- NetSuite roles, with attention to anyone who can both create vendors and approve payments (owner: Finance Ops)
+- Shared and service accounts, each of which needs a named human owner
+
+**What to do**
+For each line, mark *Keep* or *Remove*. If you mark Keep on anything privileged (admin, prod write, finance approver), add a one-line business reason. "Needs access for job" won't be accepted.
+
+**What happens if you don't respond**
+Items still open on Sept 19 get escalated to your director. Privileged access with no response on Sept 26 will be disabled, not left in place. It can be restored the same day with a ticket and your approval.
+
+**Common misses from Q2**
+- Contractors whose end dates passed but whose accounts were still active (11 found)
+- Former team members who changed departments and kept old roles
+- Service accounts owned by someone who has since left
+
+Reviewer evidence is exported to the audit folder on Sept 29 for the SOC 2 sample, so please don't edit tickets after closing.
+
+Questions: #it-access or access-review@yourcompany.example.
+
+Priya Raman, Security & Compliance

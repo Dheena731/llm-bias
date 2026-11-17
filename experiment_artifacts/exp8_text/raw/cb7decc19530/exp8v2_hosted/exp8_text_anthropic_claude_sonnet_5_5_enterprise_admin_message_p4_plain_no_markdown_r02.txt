@@ -1,0 +1,11 @@
+Subject: Quarterly Access Reviews Begin Next Week
+
+All department managers and system owners are reminded that the quarterly access review cycle starts on Monday. Over the following two weeks, each manager will receive a report listing the people who currently have access to the systems, applications, and shared resources under their responsibility.
+
+Please read your report carefully and confirm that every person listed still needs the access shown. If someone has changed roles, left the organization, or no longer requires a particular permission, mark that access for removal. Pay special attention to administrator accounts, shared folders containing sensitive information, and any access granted on a temporary basis, since these are the areas most likely to contain outdated entries.
+
+Completed reviews must be returned to the IT Security team by the end of the second week. If we do not receive a response by the deadline, we will follow up directly, and unconfirmed access may be suspended until the review is finished. Approved removals will be processed within five business days of submission.
+
+If you have questions about your report or are unsure whether a person should keep their access, please contact the IT Service Desk before the deadline rather than leaving the entry unanswered. Thank you for helping us keep our systems and data secure.
+
+IT Security Team

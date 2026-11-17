@@ -1,0 +1,14 @@
+**Protect Your Account: Turn On Two-Factor Authentication**
+
+Two-factor authentication (2FA) adds a second step when you sign in. After you enter your password, you also confirm your identity with a code or approval from a device you control. This makes it much harder for someone else to access your account, even if they know your password.
+
+**To turn it on:**
+
+1. Sign in to your account.
+2. Open your security settings.
+3. Select the option to turn on two-factor authentication.
+4. Choose how you want to receive your second step, such as a code from an authenticator app or a text message.
+5. Follow the on-screen instructions to finish setup.
+6. Save the backup codes you are given and store them somewhere safe. You can use them to sign in if you lose access to your device.
+
+Turning on two-factor authentication takes only a few minutes and is one of the most effective ways to keep your account secure.

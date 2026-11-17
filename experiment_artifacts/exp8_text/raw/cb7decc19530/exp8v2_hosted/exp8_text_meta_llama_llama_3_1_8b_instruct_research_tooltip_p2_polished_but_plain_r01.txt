@@ -1,0 +1,1 @@
+A confidence interval represents the range of values within which a population parameter is likely to lie. It is calculated from a sample of data, providing a margin of error to account for random sampling variability.

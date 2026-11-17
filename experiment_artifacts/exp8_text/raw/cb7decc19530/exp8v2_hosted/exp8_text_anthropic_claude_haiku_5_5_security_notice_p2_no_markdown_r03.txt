@@ -1,0 +1,25 @@
+WORKPLACE NOTICE: Protecting Yourself from Phishing Emails
+
+Phishing emails are fraudulent messages designed to trick you into clicking malicious links, opening infected attachments, or revealing passwords and other sensitive information. They often look like they come from a trusted source, such as a colleague, a bank, IT support, or a senior manager.
+
+Watch for these warning signs:
+
+- Urgent or threatening language, such as "Your account will be suspended today" or "Immediate action required"
+- Requests for passwords, login details, or payment information
+- Sender addresses that look slightly off, such as a misspelled domain name
+- Unexpected attachments or links, especially from unfamiliar senders
+- Generic greetings like "Dear user" instead of your name
+- Requests to change payment or bank details
+
+What to do if you receive a suspicious email:
+
+- Do not click any links or open any attachments.
+- Do not reply or provide any information.
+- Verify any unusual request by contacting the sender through a known phone number or in person.
+- Report the email to the IT Service Desk immediately, using the Report Phishing button in your email client or by forwarding it to [IT security address].
+- If you have already clicked a link or entered your password, contact IT right away, even if you feel embarrassed. Quick reporting limits the damage.
+
+Phishing attempts are becoming more convincing, so stay alert. If you are ever unsure, ask IT before you act. Thank you for helping keep our organization and our data secure.
+
+Issued by: [Department Name]
+Date: [Date]

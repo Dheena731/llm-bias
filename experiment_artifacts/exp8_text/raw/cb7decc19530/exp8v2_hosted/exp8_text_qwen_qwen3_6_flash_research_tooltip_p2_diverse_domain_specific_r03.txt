@@ -1,0 +1,1 @@
+This band shows the 95% confidence interval around the observed response rate. It captures the range where the actual treatment effect likely falls, adjusted for sampling noise. Width indicates precision: narrower spans reflect stable cohort data, while wider bands flag uncertainty from limited enrollment or outcome variability.

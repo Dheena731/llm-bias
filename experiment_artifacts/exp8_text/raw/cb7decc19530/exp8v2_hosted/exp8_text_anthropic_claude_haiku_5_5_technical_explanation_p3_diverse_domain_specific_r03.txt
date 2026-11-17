@@ -1,0 +1,9 @@
+Most software updates are unglamorous: a changed line of code that stops a crash when a file has an unusual name, a driver tweak for one printer model. The ones that matter most are security patches, because they close a known hole after someone has found it and often after attackers have started using it.
+
+The clearest example is WannaCry in May 2017. Microsoft had released a patch for the SMB networking flaw (MS17-010) in March. Hospitals, shipping companies, and telecom providers that hadn't installed it were hit by ransomware that spread from machine to machine without any user clicking anything. The fix had existed for two months.
+
+Equifax followed a similar path. The breach that exposed personal data on about 147 million people came through a flaw in Apache Struts, a web framework, for which a patch had been out since early March. The company's own investigation pointed to a failure to apply it.
+
+Updates also matter in less dramatic ways. Browsers and operating systems change how they handle certificates and encryption, and software that doesn't keep up can start failing to connect to websites or services it used to reach. Vendors eventually stop releasing fixes for old versions, so staying on them means carrying every unpatched flaw indefinitely.
+
+Installing an update is usually a few minutes of restart time. Skipping it leaves a known door open, and the people walking through it are rarely the ones who found the flaw first.

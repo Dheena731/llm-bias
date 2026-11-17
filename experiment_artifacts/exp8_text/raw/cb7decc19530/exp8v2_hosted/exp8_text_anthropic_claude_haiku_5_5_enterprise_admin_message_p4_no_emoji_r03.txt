@@ -1,0 +1,27 @@
+**Subject: Quarterly Access Review: Action Required by [Date]**
+
+Dear Team,
+
+The quarterly access review for [System/Application Name] is now open. Each manager or designated reviewer must confirm that their team members' access rights remain appropriate for their current roles.
+
+**What you need to do:**
+
+1. Log in to the Access Review Portal at [Link].
+2. Review each user listed under your department.
+3. Mark each access entry as **Approve** or **Revoke**.
+4. Submit your review by **[Deadline Date]**.
+
+Any access not confirmed by the deadline will be automatically revoked in accordance with our security policy.
+
+**Why this matters:**
+Regular access reviews help us enforce the principle of least privilege, reduce security risk, and meet our compliance obligations.
+
+If you have questions or need help with the process, contact the IT Security team at [email address] or [phone extension].
+
+Thank you for your prompt attention to this matter.
+
+Regards,
+
+[Name]
+[Title]
+IT Security & Compliance

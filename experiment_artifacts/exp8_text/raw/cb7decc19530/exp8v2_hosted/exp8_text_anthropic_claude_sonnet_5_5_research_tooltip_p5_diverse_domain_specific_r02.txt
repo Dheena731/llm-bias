@@ -1,0 +1,10 @@
+**Tooltip text**
+
+> **Export results**
+> Download as CSV, JSON, or XLSX. The query re-runs on export, so you get all matching rows, not just the 1,000 previewed. Current sort and column order are kept. Timestamps export in UTC.
+
+**Shorter version (for tight spaces)**
+
+> Export all matching rows as CSV, JSON, or XLSX, not just the previewed 1,000. Timestamps are in UTC.
+
+I assumed a preview limit, the formats, and UTC timestamps. Swap in your product's actual limits and behavior, since the preview-versus-full-export distinction is what users most often get wrong.

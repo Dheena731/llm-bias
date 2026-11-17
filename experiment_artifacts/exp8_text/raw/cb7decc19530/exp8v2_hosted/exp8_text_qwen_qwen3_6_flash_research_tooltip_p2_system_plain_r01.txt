@@ -1,0 +1,1 @@
+This range shows where the true value likely falls based on your sample data. We are 95 percent confident that the actual population measurement lies within these bounds. Wider intervals indicate greater uncertainty from sampling variation, while narrower ones reflect higher precision in the estimate.

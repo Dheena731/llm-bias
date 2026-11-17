@@ -1,0 +1,1 @@
+This range reflects the uncertainty around the estimate. It indicates the plausible values for the true number based on the data, with a narrower range representing a more precise estimate.

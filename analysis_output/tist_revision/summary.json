@@ -1,0 +1,623 @@
+{
+  "study1": {
+    "nonpictographic_only_noncompliant": 14,
+    "noncompliant_total": 523,
+    "social_l0_emoji_rate_by_model": {
+      "Gemini 2.5 Flash": 0.975,
+      "GLM-4.5 Air": 0.9416666666666667,
+      "GPT-3.5-Turbo": 0.9666666666666667
+    },
+    "cells": [
+      {
+        "model": "Gemini 2.5 Flash",
+        "level": "L0_baseline",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 0.8166666666666667,
+        "ci_low": 0.6583333333333333,
+        "ci_high": 0.95,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "Gemini 2.5 Flash",
+        "level": "L1_polite",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "Gemini 2.5 Flash",
+        "level": "L2_explicit",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "Gemini 2.5 Flash",
+        "level": "L3_emphatic",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "Gemini 2.5 Flash",
+        "level": "L4_extreme",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GPT-3.5-Turbo",
+        "level": "L0_baseline",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 0.8208333333333333,
+        "ci_low": 0.6652777777777777,
+        "ci_high": 0.9583333333333334,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GPT-3.5-Turbo",
+        "level": "L1_polite",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GPT-3.5-Turbo",
+        "level": "L2_explicit",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GPT-3.5-Turbo",
+        "level": "L3_emphatic",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GPT-3.5-Turbo",
+        "level": "L4_extreme",
+        "attempted": 720,
+        "clean": 720,
+        "missing": 0,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GLM-4.5 Air",
+        "level": "L0_baseline",
+        "attempted": 720,
+        "clean": 718,
+        "missing": 2,
+        "emoji_free_rate": 0.6810584958217271,
+        "ci_low": 0.520891364902507,
+        "ci_high": 0.841225626740947,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GLM-4.5 Air",
+        "level": "L1_polite",
+        "attempted": 720,
+        "clean": 701,
+        "missing": 19,
+        "emoji_free_rate": 0.9614835948644793,
+        "ci_low": 0.9124293785310734,
+        "ci_high": 0.9943582510578279,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GLM-4.5 Air",
+        "level": "L2_explicit",
+        "attempted": 720,
+        "clean": 684,
+        "missing": 36,
+        "emoji_free_rate": 0.9912280701754386,
+        "ci_low": 0.9733727810650887,
+        "ci_high": 1.0,
+        "prompts": 24,
+        "topics_present": "academic|legal|marketing|recipe|social_media|technical"
+      },
+      {
+        "model": "GLM-4.5 Air",
+        "level": "L3_emphatic",
+        "attempted": 720,
+        "clean": 355,
+        "missing": 365,
+        "emoji_free_rate": 1,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "prompts": 12,
+        "topics_present": "academic|legal|technical"
+      },
+      {
+        "model": "GLM-4.5 Air",
+        "level": "L4_extreme",
+        "attempted": 720,
+        "clean": 0,
+        "missing": 720,
+        "emoji_free_rate": NaN,
+        "ci_low": NaN,
+        "ci_high": NaN,
+        "prompts": 0,
+        "topics_present": ""
+      }
+    ]
+  },
+  "study2": [
+    {
+      "model": "Gemini 2.5 Flash",
+      "responses": 150,
+      "parsed": 150,
+      "saturated_blue": 85,
+      "distinct_primaries": 24,
+      "top3": "#2C3E50:46; #007BFF:44; #004D40:8",
+      "top3_share": 0.6533333333333333,
+      "purple_pink_rows": 0
+    },
+    {
+      "model": "GPT-3.5-Turbo",
+      "responses": 150,
+      "parsed": 150,
+      "saturated_blue": 133,
+      "distinct_primaries": 26,
+      "top3": "#1A73E8:39; #004B8D:17; #2C3E50:13",
+      "top3_share": 0.46,
+      "purple_pink_rows": 0
+    },
+    {
+      "model": "MiMo v2 Flash",
+      "responses": 150,
+      "parsed": 150,
+      "saturated_blue": 102,
+      "distinct_primaries": 34,
+      "top3": "#2563EB:33; #0A2540:17; #005B96:15",
+      "top3_share": 0.43333333333333335,
+      "purple_pink_rows": 1
+    }
+  ],
+  "study3": {
+    "cells": [
+      {
+        "constraint": "No emoji",
+        "model": "Gemini 2.5 Flash",
+        "active": 1200,
+        "violations": 0
+      },
+      {
+        "constraint": "No emoji",
+        "model": "GPT-3.5-Turbo",
+        "active": 1200,
+        "violations": 0
+      },
+      {
+        "constraint": "No emoji",
+        "model": "GLM-4.5 Air",
+        "active": 104,
+        "violations": 0
+      },
+      {
+        "constraint": "No bullets",
+        "model": "Gemini 2.5 Flash",
+        "active": 1050,
+        "violations": 0
+      },
+      {
+        "constraint": "No bullets",
+        "model": "GPT-3.5-Turbo",
+        "active": 1050,
+        "violations": 0
+      },
+      {
+        "constraint": "No bullets",
+        "model": "GLM-4.5 Air",
+        "active": 76,
+        "violations": 0
+      },
+      {
+        "constraint": "No headers",
+        "model": "Gemini 2.5 Flash",
+        "active": 900,
+        "violations": 0
+      },
+      {
+        "constraint": "No headers",
+        "model": "GPT-3.5-Turbo",
+        "active": 900,
+        "violations": 0
+      },
+      {
+        "constraint": "No headers",
+        "model": "GLM-4.5 Air",
+        "active": 49,
+        "violations": 0
+      },
+      {
+        "constraint": "No bold/italic",
+        "model": "Gemini 2.5 Flash",
+        "active": 750,
+        "violations": 3
+      },
+      {
+        "constraint": "No bold/italic",
+        "model": "GPT-3.5-Turbo",
+        "active": 750,
+        "violations": 0
+      },
+      {
+        "constraint": "No bold/italic",
+        "model": "GLM-4.5 Air",
+        "active": 28,
+        "violations": 0
+      },
+      {
+        "constraint": "Word limit",
+        "model": "Gemini 2.5 Flash",
+        "active": 300,
+        "violations": 11
+      },
+      {
+        "constraint": "Word limit",
+        "model": "GPT-3.5-Turbo",
+        "active": 300,
+        "violations": 3
+      },
+      {
+        "constraint": "Word limit",
+        "model": "GLM-4.5 Air",
+        "active": 28,
+        "violations": 0
+      }
+    ],
+    "glm_clean_rows": 104,
+    "glm_conditions": [
+      "full_constraint",
+      "progressive_1",
+      "progressive_2",
+      "progressive_3"
+    ]
+  },
+  "exp8": {
+    "cells": [
+      {
+        "route": "Llama 3.1 8B",
+        "condition": "neutral",
+        "n": 24,
+        "format_default": 0.875,
+        "markdown": 0.875,
+        "emoji": 0,
+        "polish_without_length": 0.4583333333333333,
+        "mean_words": 160.66666666666666
+      },
+      {
+        "route": "Llama 3.1 8B",
+        "condition": "no_emoji",
+        "n": 24,
+        "format_default": 0.4166666666666667,
+        "markdown": 0.4166666666666667,
+        "emoji": 0,
+        "polish_without_length": 0.25,
+        "mean_words": 117.08333333333333
+      },
+      {
+        "route": "Llama 3.1 8B",
+        "condition": "plain_no_markdown",
+        "n": 24,
+        "format_default": 0,
+        "markdown": 0,
+        "emoji": 0,
+        "polish_without_length": 0.20833333333333334,
+        "mean_words": 121.25
+      },
+      {
+        "route": "Llama 3.1 8B",
+        "condition": "diverse_domain_specific",
+        "n": 24,
+        "format_default": 0.875,
+        "markdown": 0.875,
+        "emoji": 0,
+        "polish_without_length": 0.375,
+        "mean_words": 190
+      },
+      {
+        "route": "Llama 3.1 8B",
+        "condition": "polished_but_plain",
+        "n": 24,
+        "format_default": 0.041666666666666664,
+        "markdown": 0.041666666666666664,
+        "emoji": 0,
+        "polish_without_length": 0.20833333333333334,
+        "mean_words": 146.45833333333334
+      },
+      {
+        "route": "Llama 3.3 70B",
+        "condition": "neutral",
+        "n": 24,
+        "format_default": 0.625,
+        "markdown": 0.625,
+        "emoji": 0,
+        "polish_without_length": 0.375,
+        "mean_words": 133.79166666666666
+      },
+      {
+        "route": "Llama 3.3 70B",
+        "condition": "no_emoji",
+        "n": 24,
+        "format_default": 0,
+        "markdown": 0,
+        "emoji": 0,
+        "polish_without_length": 0.08333333333333333,
+        "mean_words": 87.625
+      },
+      {
+        "route": "Llama 3.3 70B",
+        "condition": "plain_no_markdown",
+        "n": 24,
+        "format_default": 0,
+        "markdown": 0,
+        "emoji": 0,
+        "polish_without_length": 0.041666666666666664,
+        "mean_words": 98.5
+      },
+      {
+        "route": "Llama 3.3 70B",
+        "condition": "diverse_domain_specific",
+        "n": 24,
+        "format_default": 0.3333333333333333,
+        "markdown": 0.3333333333333333,
+        "emoji": 0,
+        "polish_without_length": 0.4166666666666667,
+        "mean_words": 148.58333333333334
+      },
+      {
+        "route": "Llama 3.3 70B",
+        "condition": "polished_but_plain",
+        "n": 24,
+        "format_default": 0,
+        "markdown": 0,
+        "emoji": 0,
+        "polish_without_length": 0.16666666666666666,
+        "mean_words": 126.54166666666667
+      },
+      {
+        "route": "Qwen 2.5 7B",
+        "condition": "neutral",
+        "n": 24,
+        "format_default": 0.7916666666666666,
+        "markdown": 0.7083333333333334,
+        "emoji": 0.25,
+        "polish_without_length": 0.5833333333333334,
+        "mean_words": 181.125
+      },
+      {
+        "route": "Qwen 2.5 7B",
+        "condition": "no_emoji",
+        "n": 24,
+        "format_default": 0.2916666666666667,
+        "markdown": 0.2916666666666667,
+        "emoji": 0,
+        "polish_without_length": 0.25,
+        "mean_words": 107.95833333333333
+      },
+      {
+        "route": "Qwen 2.5 7B",
+        "condition": "plain_no_markdown",
+        "n": 24,
+        "format_default": 0.08333333333333333,
+        "markdown": 0.08333333333333333,
+        "emoji": 0,
+        "polish_without_length": 0.16666666666666666,
+        "mean_words": 71.04166666666667
+      },
+      {
+        "route": "Qwen 2.5 7B",
+        "condition": "diverse_domain_specific",
+        "n": 24,
+        "format_default": 0.6666666666666666,
+        "markdown": 0.5416666666666666,
+        "emoji": 0.20833333333333334,
+        "polish_without_length": 0.5,
+        "mean_words": 190.83333333333334
+      },
+      {
+        "route": "Qwen 2.5 7B",
+        "condition": "polished_but_plain",
+        "n": 24,
+        "format_default": 0.20833333333333334,
+        "markdown": 0.20833333333333334,
+        "emoji": 0,
+        "polish_without_length": 0.2916666666666667,
+        "mean_words": 103.16666666666667
+      },
+      {
+        "route": "Qwen 3.6 Flash",
+        "condition": "neutral",
+        "n": 24,
+        "format_default": 0.9166666666666666,
+        "markdown": 0.9166666666666666,
+        "emoji": 0.5416666666666666,
+        "polish_without_length": 0.5833333333333334,
+        "mean_words": 166.66666666666666
+      },
+      {
+        "route": "Qwen 3.6 Flash",
+        "condition": "no_emoji",
+        "n": 24,
+        "format_default": 0.375,
+        "markdown": 0.375,
+        "emoji": 0,
+        "polish_without_length": 0.08333333333333333,
+        "mean_words": 92.95833333333333
+      },
+      {
+        "route": "Qwen 3.6 Flash",
+        "condition": "plain_no_markdown",
+        "n": 24,
+        "format_default": 0,
+        "markdown": 0,
+        "emoji": 0,
+        "polish_without_length": 0.125,
+        "mean_words": 90.79166666666667
+      },
+      {
+        "route": "Qwen 3.6 Flash",
+        "condition": "diverse_domain_specific",
+        "n": 24,
+        "format_default": 0.7083333333333334,
+        "markdown": 0.7083333333333334,
+        "emoji": 0,
+        "polish_without_length": 0.08333333333333333,
+        "mean_words": 167.33333333333334
+      },
+      {
+        "route": "Qwen 3.6 Flash",
+        "condition": "polished_but_plain",
+        "n": 24,
+        "format_default": 0,
+        "markdown": 0,
+        "emoji": 0,
+        "polish_without_length": 0.08333333333333333,
+        "mean_words": 105.45833333333333
+      }
+    ],
+    "polish_without_length_by_condition": {
+      "neutral": 0.5,
+      "no_emoji": 0.16666666666666666,
+      "plain_no_markdown": 0.13541666666666666,
+      "diverse_domain_specific": 0.34375,
+      "polished_but_plain": 0.1875
+    }
+  },
+  "spillover": [
+    {
+      "study": "Study 4",
+      "model": "Llama 3.1 8B",
+      "control": "Do not use emoji.",
+      "n_each": 24,
+      "emoji_neutral": 0,
+      "emoji_control": 0,
+      "markdown_neutral": 0.875,
+      "markdown_control": 0.4166666666666667,
+      "words_neutral": 160.66666666666666,
+      "words_control": 117.08333333333333
+    },
+    {
+      "study": "Study 4",
+      "model": "Llama 3.3 70B",
+      "control": "Do not use emoji.",
+      "n_each": 24,
+      "emoji_neutral": 0,
+      "emoji_control": 0,
+      "markdown_neutral": 0.625,
+      "markdown_control": 0,
+      "words_neutral": 133.79166666666666,
+      "words_control": 87.625
+    },
+    {
+      "study": "Study 4",
+      "model": "Qwen 2.5 7B",
+      "control": "Do not use emoji.",
+      "n_each": 24,
+      "emoji_neutral": 0.25,
+      "emoji_control": 0,
+      "markdown_neutral": 0.7083333333333334,
+      "markdown_control": 0.2916666666666667,
+      "words_neutral": 181.125,
+      "words_control": 107.95833333333333
+    },
+    {
+      "study": "Study 4",
+      "model": "Qwen 3.6 Flash",
+      "control": "Do not use emoji.",
+      "n_each": 24,
+      "emoji_neutral": 0.5416666666666666,
+      "emoji_control": 0,
+      "markdown_neutral": 0.9166666666666666,
+      "markdown_control": 0.375,
+      "words_neutral": 166.66666666666666,
+      "words_control": 92.95833333333333
+    },
+    {
+      "study": "Spillover set (4 families)",
+      "model": "Claude Sonnet 4.5",
+      "control": "non-aesthetic length-matched suffix",
+      "n_each": 40,
+      "emoji_neutral": 0.75,
+      "markdown_neutral": 1,
+      "words_neutral": 115.65,
+      "emoji_control": 0,
+      "markdown_control": 1,
+      "words_control": 152.4
+    },
+    {
+      "study": "Spillover set (12 families)",
+      "model": "GPT-4.1 mini",
+      "control": "non-aesthetic length-matched suffix",
+      "n_each": 108,
+      "emoji_neutral": 0.05555555555555555,
+      "markdown_neutral": 0.3055555555555556,
+      "words_neutral": 50.5,
+      "emoji_control": 0,
+      "markdown_control": 0.3025210084033613,
+      "words_control": 68.30252100840336
+    },
+    {
+      "study": "Spillover set (12 families)",
+      "model": "Gemini 2.5 Flash",
+      "control": "non-aesthetic length-matched suffix",
+      "n_each": 108,
+      "emoji_neutral": 0.21296296296296297,
+      "markdown_neutral": 0.8425925925925926,
+      "words_neutral": 115.11111111111111,
+      "emoji_control": 0.025,
+      "markdown_control": 0.725,
+      "words_control": 101.18333333333334
+    }
+  ]
+}

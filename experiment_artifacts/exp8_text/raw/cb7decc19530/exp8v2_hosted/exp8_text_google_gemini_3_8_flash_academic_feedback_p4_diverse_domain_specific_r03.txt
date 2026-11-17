@@ -1,0 +1,10 @@
+Elena—
+
+Looked through the PDF export for the ABRF session. The narrative is solid, but it’s currently formatted more like an open-access paper than an A0 poster. A few targeted fixes before you send it to the plotter:
+
+*   **Panel 2 (UMAP & Dot Plot):** The gene labels on the dot plot (*Cd68*, *Trem2*, *Apoe*) will be illegible from three feet away. Drop the cluster resolution from 0.8 to 0.5 so we aren’t defending sub-clusters we don’t mention in the talk track, and bump that y-axis text to at least 24 pt.
+*   **Methods column:** Cut the DNA extraction and library prep text down to a simple workflow schematic. Everyone there runs NovaSeq; they don’t need the cycling conditions, just the cell input counts ($n=4$ per genotype, littermate-matched) and your QC thresholds (mitochondrial read cutoff at 10%).
+*   **Figure 3C (Spatial multiplexing):** You’re missing the micron scale bar on the hippocampal slices, and the Cy5 channel looks blown out in the overlay. Pull the magenta gain down slightly so the puncta in the dentate gyrus don't blur together.
+*   **Bottom-line takeaway:** Replace the static "Conclusions" header at the top right with the actual finding: *“Microglial Apoe upregulation is restricted to plaque-adjacent niches, independent of Trem2 dosage.”* Attendees walking the aisle should get that without stopping to read the paragraph.
+
+Turnaround looks good otherwise—send me the revised layout once the font hierarchy is cleaned up.

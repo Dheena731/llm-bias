@@ -1,0 +1,80 @@
+Date of Posting
+
+The date of posting should be included in the summary, but it shouldn’t be the first word.
+
+Use an ical-formatted date with the full year.
+
+The date of posting may be abbreviated to DD/MM/YYYY (e.g. 30/07/14)
+
+The date of posting may also be abbreviated to MM/DD/YYYY (e.g. 07/30/14)
+
+Avoid including text such as “today” or “yesterday” in a summary unless it is the main point of the comment.
+
+The comments field is used for your thoughts on the article, not for discussion, and should not be used as a forum for unrelated content such as blog posts, photographs, or self-promotion.
+
+Date of Posting
+
+
+The URL of the article or blog post being commented on should always be included in the summary.
+
+The date of posting of the article/blog post should also be included.
+
+The URL should include a region of the world, and the article title should include a region of the world as well.
+
+The URL should include the date of posting, if that information is not already obvious.
+
+The URL should always be included in the summary.
+
+The URL should not include the author or the date of publication.
+
+Avoid using relative links on this entry. The link should be absolute in the summary, and not in the body of the comment.
+
+Human Interface Guidelines
+
+Avoid leaving comments with links to your own website, service, or product.
+
+Comments should be general, not promotional, and should not be about self-promotion.
+
+If you have a commercial product, service or software, avoid including that in the comments.
+
+Avoid including comments like “This page is protected by copyright.”.
+
+Do not link to a personal blog or other social media profile.
+
+Do not make personal comments. Personal comments are not appropriate on public forums.
+
+Do not link to a product you are selling or promoting; instead, create your own article or blog post.
+
+Do not link to a username you are using in the comments or post comments under other usernames.
+
+Do not link to your own blog posts, as it makes your blog posts appear to be spam.
+
+Do not link to your own website or service in the comments. These are not appropriate for public forums.
+
+Do not link to another website that has posted your content before you. This violates copyright.
+
+Do not link to a non-existing website, though it’s not against the rules. There are ways to do this without breaking the rules
+
+Do not link to a website that has posted your content before you. This is not appropriate for public forums.
+
+Do not link to your own website or other social media profile in the comments. These are not appropriate for public forums.
+
+Do not link to another website that has posted your content before you. This violates copyright.
+
+Do not link to a non-existing website, though it’s not against the rules. There are ways to do this without breaking the rules.
+
+Do not link to a website that has posted your content before you. This is not appropriate for public forums.
+
+Do not link to your own blog posts, as this makes your blog posts appear to be spam. Instead, create your own article or blog post.
+
+Do not link to your own website or other social media profile in the comments. These are not appropriate for public forums.
+
+Do not link to a username you are using in the comments or post comments under other usernames. These are not appropriate for public forums.
+
+Do not link to another website that has posted your content before you. This violates copyright.
+
+Do not link to a non-existing website, though it’s not against the rules. There are ways to do this without breaking the rules.
+
+Do not link to a website that has posted your content before you. This is not appropriate for public forums.
+
+Do not link to a non-existing website,

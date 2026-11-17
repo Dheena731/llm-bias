@@ -1,0 +1,1 @@
+"Export your query results in a format that suits your analysis needs. Click the 'Export' button to download your results as a CSV, JSON, or Excel file. You can also customize the export by selecting specific columns, filtering data, or applying additional transformations to refine your output."

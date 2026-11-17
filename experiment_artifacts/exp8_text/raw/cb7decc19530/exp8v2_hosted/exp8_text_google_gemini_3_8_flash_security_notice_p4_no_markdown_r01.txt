@@ -1,0 +1,11 @@
+SECURITY NOTICE: ACTION REQUIRED
+
+To better protect your personal information and prevent unauthorized access, we are asking all users to enable Two-Factor Authentication (2FA).
+
+Two-Factor Authentication adds an extra layer of security by requiring a one-time verification code alongside your password each time you sign in.
+
+Please take a moment to enable this feature today. You can set it up by logging into your account, navigating to Account Settings, selecting the Security tab, and following the on-screen instructions.
+
+If you have any questions or need assistance with the setup, please contact the support team at support@example.com.
+
+Thank you for your cooperation in keeping our systems secure.

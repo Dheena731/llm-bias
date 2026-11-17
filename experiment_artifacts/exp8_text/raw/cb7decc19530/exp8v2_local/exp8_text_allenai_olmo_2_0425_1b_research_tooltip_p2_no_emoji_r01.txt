@@ -1,0 +1,46 @@
+ • If the confidence interval is simply a zero, is it positive or negative?
+
+
+A confidence interval is a range of numbers, including the estimate (the sum of the numbers in the interval) and the margin of error (the difference between the sum and the estimate).
+
+The margin of error is calculated by using the following formula for the formula for confidence intervals in statistics: \begin{align*} \text{Margin of error} &= \text{Estimate} - \text{Sum of the numbers in the interval}\\ \end{align*}
+
+Some confidence intervals represent a range of possible values of the hypothesis test statistic. To calculate this range of possible values, you subtract the estimate from the maximum possible value of the hypothesis test statistic.
+
+For example, if you are testing if a population mean is equal to 10, the hypothesized value (the null hypothesis) might be that the population mean is 5. The range of possible values for the hypothesis test statistic is then −5 < X < 15.
+
+Some confidence intervals do not include the estimate. In this case, you should state the range only.
+
+  • Is the confidence interval a positive or negative number?
+
+
+  • Is the confidence interval a 0?
+
+
+  • Is the confidence interval greater than 2.5?
+
+
+  • Is the confidence interval greater than 2.5?
+
+    • If the interval includes the estimate, state the interval.
+
+How to tell if a confidence interval is useful
+
+When reporting a confidence interval, you should make sure it is useful. A confidence interval should be useful if it tells you something about the population parameter.
+
+For example, a confidence interval of (7.5, 9.5) is not useful because it does not give a range of values for the population mean. A confidence interval of (7.5, 9.5] is useful because it tells you that the population mean is between 7.5 and 9.5.
+
+How to tell if a confidence interval is the most appropriate interval
+
+You should make sure that a confidence interval is the most appropriate confidence interval for the hypothesis test that you are doing. If you are doing several hypothesis tests, you should make sure that each confidence interval is appropriate for that test. For example, you should use a range for testing a hypothesis that the population mean is 0, not a confidence interval that includes a 0.
+
+You can check if a confidence interval is the most appropriate interval by comparing it to the critical value from the test statistic's distribution table. The critical value tells you the range of values on one side of the hypothesis test statistic that that have the same probability of occurring as the confidence interval.
+
+How to calculate a confidence interval
+
+To calculate a confidence interval, you need to know the following:
+
+  • The population standard deviation (σ).
+  • The sample mean (x̄).
+  • The sample size (n).
+  • The test statistic, which is calculated by using the formula: \begin{align*} \text{Test statistic} &= \frac{\hat{X}}{\sqrt{1+\frac{(\hat{X}-\mu)}{\sigma}}}\\ \end{align*} where \begin{align*} \hat{X} &= \frac{\sum_{i=1}^n \hat{X}_i}{n}\\ \end{align*} where \begin{align*} \hat{X}_1 &= \frac{\sum_{i=1}^n X_i}{n} \\ \end{align*} where \begin{align*} \sum_{i=1}^n X_i \\ \end{align*} is the sample sum. The mean of the sample is \begin{align*} \mu

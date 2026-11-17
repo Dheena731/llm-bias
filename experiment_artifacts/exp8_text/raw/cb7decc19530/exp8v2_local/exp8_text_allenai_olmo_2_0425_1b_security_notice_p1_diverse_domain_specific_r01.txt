@@ -1,0 +1,8 @@
+ • Take advantage of the hierarchical structure of the login system by including a separate notice for each level in the hierarchy. For example, if there is a separate login for access to the office, a separate notice can be written for that level. Remember that a notice is written for an administrator, not for an end user.
+  • Since the password list is usually available to administrators, make sure that passwords are not the same as the system administrator. Include an example of a common password reuse mistake to explain the problem. Some examples are:
+  • Do not focus on a specific password Src.2
+    • A notice should be written with a specific example such as Forgot my password. The example of a password is what is actually recovered.
+    • If you use a generic source, such as a dictionary, you are not solving the problem.
+    • A general warning about the dangers of using passwords that are too short does not help as much as a notice that specifies a password that is too short.
+
+Leave a Reply

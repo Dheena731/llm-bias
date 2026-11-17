@@ -1,0 +1,7 @@
+Thank you for your methods section. The overall structure is clear, and you describe your participant recruitment in enough detail that another researcher could understand who took part and how. The sampling rationale, which explains why you chose first-year undergraduates from two departments, is especially helpful.
+
+There are several areas to strengthen. Your description of the survey instrument would benefit from more detail. State how many items it contained, how the response scales were anchored, and whether you adapted any existing measures or wrote them yourself. If you used a previously validated scale, cite it and report its reliability in your sample. The data analysis section also needs more precision. You mention that you ran "several t-tests," but readers need to know which comparisons you planned in advance, whether you corrected for multiple comparisons, and what threshold you used for significance. Stating these decisions clearly protects your findings from questions about selective reporting.
+
+Finally, consider adding a brief note on how you handled incomplete responses. Did you exclude them, impute values, or retain partial cases? Even a single sentence on this point would make your procedure easier to evaluate and replicate.
+
+Your writing is concise and mostly precise. With these additions, the section will be much easier for a reader to follow and trust. I am happy to look at a revised draft.

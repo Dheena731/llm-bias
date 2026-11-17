@@ -1,0 +1,7 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+**Tooltip Text:**
+
+"Apply the 'Age' filter to restrict your results to a specific age range. Select a minimum and maximum age to include only records with ages within that range. This filter allows you to focus on a specific population or demographic."
+
+**Note:** I've aimed to provide a clear and concise explanation of the dataset filter, avoiding technical jargon and using simple language that is easy to understand. The tooltip is designed to be informative and helpful to users, while not being overly long or complex.

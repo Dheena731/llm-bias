@@ -1,0 +1,1 @@
+Filters the dataset to include only records that match the selected criteria. Choose one or more values to narrow the results, and the table, charts, and summary statistics will update to reflect your selection. Records with missing values for this field are excluded unless you select "Unknown." Clear the filter to restore the full dataset.

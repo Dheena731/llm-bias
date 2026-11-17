@@ -1,0 +1,23 @@
+**Subject: ACTION REQUIRED: Q[X] User Access Review**
+
+Hello Team Leads and System Owners,
+
+In accordance with our security and compliance policies, the **Quarterly User Access Review for Q[X]** is now open. 
+
+Please review the access permissions for your direct reports and system users to ensure they align with their current roles and the principle of least privilege.
+
+**Action Required:**
+1. Log in to the [Access Review Portal / Link].
+2. Review the list of assigned users and their current permissions.
+3. **Approve** valid access or **Revoke** access that is no longer required (e.g., role changes, departed contractors).
+4. Submit your completed review by **[Day, Date, at Time PM/AM]**.
+
+*Note: Unconfirmed access permissions after the deadline may result in automated revocation to maintain system security.*
+
+If you have any questions or notice discrepancies, please contact the IT Security Team at [Contact Email/Channel].
+
+Thank you for your prompt attention to keeping our systems secure.
+
+Best regards,  
+**[IT / Information Security Team]**  
+[Company Name]

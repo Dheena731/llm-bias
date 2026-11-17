@@ -1,0 +1,22 @@
+**Subject: Kilnlog is out. Your bisque shelf can stop being a mystery.**
+
+Hi all,
+
+If you run a community ceramics studio, you know the sticky note that says "Dana, mug???" and the argument over whose lopsided bowl cracked in the cone 6 firing.
+
+Kilnlog is the app I built after three years of running a 40-member studio with a clipboard and a Sharpie.
+
+**What it does**
+
+- **Check-in by photo.** Members snap their greenware, and the app assigns a number to write on the bottom with underglaze pencil. No more orphaned pots.
+- **Load planner.** Enter shelf dimensions and each piece's height and footprint. Kilnlog shows what fits in Thursday's glaze firing and what waits for the next one.
+- **Firing fees that match reality.** Charge by volume, by shelf, or by flat rate. The math is done before anyone asks.
+- **"Out of the kiln" texts.** Members get a message when their pieces are unloaded, and not before the kiln drops below 150°F.
+- **Breakage notes.** Record what happened (thick base, trapped air, shelf stuck to glaze) so you have something better than a shrug when someone asks.
+
+**Pricing:** Free for studios with up to 15 members. $24/month after that. No per-firing fees.
+
+Try it at kilnlog.example. If it doesn't fit how your studio works, tell me, and I'll probably add it by the next firing.
+
+Mara Okafor
+Founder, Kilnlog

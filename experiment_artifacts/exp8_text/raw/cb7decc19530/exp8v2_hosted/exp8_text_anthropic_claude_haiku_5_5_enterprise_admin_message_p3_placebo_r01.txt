@@ -1,0 +1,21 @@
+I don't have the details of the change, so I can't write a complete announcement without guessing. Please send me:
+
+1. **What changed** in the VPN client (for example, a new version, a new login method, or a different server).
+2. **When it takes effect.**
+3. **What users need to do**, if anything, such as updating, re-entering credentials, or changing settings.
+4. **Who is affected**, such as all staff, one office, or customers on a specific plan.
+
+Here is a draft using only what we know so far:
+
+**Subject: Upcoming change to the VPN client**
+
+Hello,
+
+We are changing the VPN client. Please read this message so you know what to expect and whether you need to take any action.
+
+We will send the full details, including the date the change takes effect and any steps you need to complete, before it happens. If you have questions in the meantime, contact the IT help desk.
+
+Thank you,
+IT Team
+
+Send me the four details above and I'll turn this into a complete message.

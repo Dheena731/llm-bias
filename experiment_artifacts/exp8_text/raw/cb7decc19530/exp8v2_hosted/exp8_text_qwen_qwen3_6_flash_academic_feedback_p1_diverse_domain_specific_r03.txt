@@ -1,0 +1,9 @@
+**Feedback on Literature Review Draft**
+
+The draft traces a coherent chronological trajectory through post-1990s watershed governance studies, and your handling of the hydro-political turn effectively displaces earlier engineering-centric paradigms. The synthesis of institutional resilience literature with contemporary sediment-routing research shows genuine analytical promise.
+
+Two structural tensions require attention. First, the passage introducing “adaptive capacity” on p. 4 functions as categorical labeling rather than a working framework. The term currently sits atop your empirical cases instead of mediating between them. Consider whether adopting a specific metric of adaptation—such as response latency or path dependency thresholds—would force sharper comparative claims rather than descriptive clustering.
+
+Second, the treatment of methodological debates reads as sequential annotation. Grouping sources by epistemic commitment (quantitative modeling vs. participatory ethnography) rather than publication year would surface the underlying disagreement about what counts as evidence in co-management contexts. This shift would also clarify where your project intervenes: you currently mark the gap as “limited longitudinal tracking,” yet the more productive friction lies in competing definitions of governance success itself.
+
+Trim citations that only establish disciplinary background. Prioritize works that actively contradict, extend, or methodologically destabilize your core claim. Rewrite the concluding paragraph to articulate which existing frameworks your review renders insufficient, rather than summarizing what has been covered.

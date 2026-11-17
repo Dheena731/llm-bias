@@ -1,0 +1,21 @@
+**Subject:** Action Required: Q[X] User Access Review
+
+All Managers and System Owners,
+
+The Quarterly Access Review for Q[X] is now open. In accordance with our security and compliance policies, all user permissions must be reviewed and certified to ensure adherence to the principle of least privilege.
+
+**Required Actions:**
+1. Log in to the access management portal: [Insert Link]
+2. Review the current permissions for your direct reports and system users.
+3. Approve necessary access or flag unnecessary permissions for revocation.
+4. Submit your completed review.
+
+**Deadline:** [Insert Date and Time]
+
+Access permissions that are not confirmed by the deadline may be subject to automatic revocation to ensure system security. 
+
+If you have questions or encounter issues accessing the portal, please contact the IT Security team at [Insert Contact Information].
+
+Thank you for your prompt attention to this matter.
+
+IT Security & Compliance Team

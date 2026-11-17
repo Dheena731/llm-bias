@@ -1,0 +1,18 @@
+**Subject: Your 2024 Consolidated 1099 is ready**
+
+Hi Dana,
+
+Your 2024 Form 1099 for account ending 4471 is now under Documents → Tax Forms. It combines several forms in one PDF:
+
+- **1099-DIV:** $1,842.16 in total dividends. Of that, $1,390.50 is qualified and taxed at the lower long-term rate. The rest is ordinary.
+- **1099-INT:** $212.80 from your cash sweep balance.
+- **1099-B:** every sale you made this year, split into short-term and long-term. Check the "basis reported to IRS" column. Shares bought before 2011 (or before 2014 for some funds) are *noncovered*, so we may not have their cost basis.
+- **Wash sale adjustments:** if you sold something at a loss and bought it back within 30 days, including in your IRA, the loss is deferred. It shows up as a code "W" adjustment on Form 8949 rather than as a loss.
+
+**A heads-up:** funds and REITs often reclassify their distributions after year-end, so we may issue a corrected 1099 in March. If you can, wait until after mid-March to file, or be ready to amend.
+
+Your tax software can usually import this directly. If a number looks wrong, reply here with the page and line, and we'll check it against the trade confirmations.
+
+We can't give tax advice, so for questions about how to report something, please check with a tax preparer.
+
+Records Team

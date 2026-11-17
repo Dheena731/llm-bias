@@ -1,0 +1,1 @@
+Shaded band shows the 95% confidence interval: the range where the true average is likely to fall. Wider bands mean more uncertainty.

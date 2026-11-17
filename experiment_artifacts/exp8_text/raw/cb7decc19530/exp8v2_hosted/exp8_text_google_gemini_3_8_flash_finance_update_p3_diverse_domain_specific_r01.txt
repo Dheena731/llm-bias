@@ -1,0 +1,11 @@
+**Changelog: Sub-ledger Goal Allocations**
+
+You can now partition your primary cash reserve into dedicated targets without opening separate high-yield accounts or fracturing your interest accrual. 
+
+Here is how the mechanics work:
+
+* **Inflow splitting:** Set fixed dollar amounts or percentages to skim from recurring deposits. When your payroll clears, allocations route into your targets (e.g., *Property Taxes*, *6-Month Buffer*) before updating your primary liquid balance.
+* **Spend protection:** Target balances are excluded from your debit limit and overdraft logic. If you tap into a locked goal to cover an unexpected merchant charge, you must manually break the allocation first—introducing just enough friction to preserve the habit.
+* **Unified yield:** Interest compounds across the entire account balance, but your monthly statement now breaks down earnings by individual goal.
+
+Available today on iOS and Android under **Accounts → Rules & Allocation**.

@@ -1,0 +1,5 @@
+**Domain: Systems Telemetry & Observability**  
+*(Context: A metric dashboard displaying a hollow cell or dash `—` in a time-series grid)*
+
+> **No data received**  
+> The agent missed this 10-second scrape window. This flags an

@@ -1,0 +1,1 @@
+"Missing-value marker: Indicates a data point is absent or unknown, often represented by a dash (-) or a specific symbol, and should be interpreted accordingly in analysis and calculations."

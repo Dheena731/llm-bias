@@ -1,0 +1,25 @@
+**Security Notice: Password Reuse**
+
+**To:** All Employees
+**From:** Information Security Team
+**Subject:** Do Not Reuse Passwords Across Accounts
+
+**Why this matters**
+
+Using the same password for multiple accounts is one of the most common causes of security breaches. When a password is exposed in a breach at one website, attackers routinely try it against other services, including work email, VPN, and internal systems. This technique is known as credential stuffing, and it succeeds because many people reuse passwords.
+
+**What we ask of you**
+
+- **Use a unique password for every account.** This applies to work systems and personal accounts alike. Never use your work password on an outside website.
+- **Use a password manager.** The company-approved password manager can generate and store strong, unique passwords so you do not have to remember them.
+- **Choose long passwords.** Aim for at least 14 characters, such as a passphrase made of several unrelated words.
+- **Enable multi-factor authentication (MFA)** wherever it is available. MFA adds protection even if a password is compromised.
+- **Change your password immediately** if you suspect it has been exposed, and report it to the Security Team.
+
+**Reporting concerns**
+
+If you believe your credentials have been compromised, or you receive a suspicious login alert, contact the IT Help Desk or email security@yourcompany.com right away. Prompt reporting helps us contain problems before they spread.
+
+Thank you for helping keep our systems and data secure.
+
+*Information Security Team*

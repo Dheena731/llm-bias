@@ -1,0 +1,19 @@
+Notice of Acceptable Use of the Shared Network
+
+This notice sets out the terms under which users may access and use the shared network provided by the organization. By connecting to or using the network, each user agrees to comply with these terms. Users who do not agree should refrain from using the network.
+
+The network is provided for lawful, work-related, educational, and other authorized purposes. Limited personal use is permitted so long as it does not interfere with the performance of duties, consume excessive resources, expose the network to security risks, or violate any provision of this notice.
+
+Users must keep their login credentials confidential and must not share passwords or allow others to use their accounts. Each user is responsible for all activity conducted under their account. Users must promptly report any suspected unauthorized access, security incident, or loss of credentials to the designated network administrator.
+
+Users must not use the network to access, store, transmit, or distribute material that is unlawful, defamatory, harassing, obscene, or infringing on the intellectual property rights of others. Users must not attempt to bypass security controls, probe or scan network systems, install unauthorized software, introduce malicious code, or intentionally disrupt network operations or the access of other users.
+
+The organization may monitor network activity, including email, internet usage, and stored files, to the extent permitted by applicable law, in order to maintain security, enforce this notice, and comply with legal obligations. Users should have no expectation of privacy in communications or data transmitted over the shared network.
+
+Violation of this notice may result in suspension or termination of network access, disciplinary action, and, where applicable, referral to law enforcement or pursuit of legal remedies. The organization reserves the right to amend this notice at any time. Continued use of the network after an amendment constitutes acceptance of the revised terms.
+
+The organization disclaims liability for any loss of data or interruption of service arising from the use of the network, except where such liability cannot lawfully be excluded. Questions regarding this notice should be directed to the Information Technology department.
+
+Effective date: ____________
+
+Authorized by: ____________

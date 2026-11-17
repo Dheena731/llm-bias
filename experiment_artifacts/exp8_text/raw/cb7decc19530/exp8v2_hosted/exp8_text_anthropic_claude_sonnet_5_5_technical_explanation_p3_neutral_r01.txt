@@ -1,0 +1,15 @@
+Software updates matter for several key reasons:
+
+**Security.** Updates often patch vulnerabilities that hackers could exploit to steal data, install malware, or take control of your device. Once a flaw becomes publicly known, attackers move quickly to target anyone who hasn't updated.
+
+**Bug fixes.** Updates correct errors that cause crashes, glitches, or data loss, making your software more stable and reliable.
+
+**Performance improvements.** Developers regularly optimize their code, which can make apps run faster, use less battery, or work more efficiently.
+
+**New features.** Updates may add tools or improvements that make the software more useful or easier to use.
+
+**Compatibility.** As operating systems, browsers, and hardware change, updates keep your software working smoothly with other technology.
+
+**Continued support.** Older versions eventually stop receiving fixes. Staying current ensures you remain protected and supported.
+
+Delaying updates can leave you exposed to known risks, so enabling automatic updates is one of the easiest ways to stay safe and keep your devices running well.

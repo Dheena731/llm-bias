@@ -1,0 +1,15 @@
+**Feedback on Methods Section**
+
+Thank you for your methods section. The overall structure is clear, and the participant description is detailed enough for a reader to understand who was studied.
+
+**Strengths**
+- The sampling procedure is described step by step, which makes the study reproducible.
+- The data collection instruments are named and cited correctly.
+
+**Areas to improve**
+- **Justification:** You describe what you did but not why. For example, explain why a semi-structured interview was chosen over a survey.
+- **Variables:** Define your key variables and how each was measured. Currently, "engagement" is used without an operational definition.
+- **Limitations:** Briefly note any constraints on your design, such as the sample size or the timing of data collection.
+- **Tense and voice:** Keep the methods in the past tense and the passive or first-person plural consistently.
+
+**Next step:** Revise the section to add a justification for each major decision, then check that every term used in the results section is defined here first.

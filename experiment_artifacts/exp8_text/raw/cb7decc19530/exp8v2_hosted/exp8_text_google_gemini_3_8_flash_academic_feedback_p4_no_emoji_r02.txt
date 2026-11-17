@@ -1,0 +1,16 @@
+Hi [Name],
+
+Thanks for sharing the draft. Overall, the poster is well-structured, and the core message of your research comes through clearly. 
+
+Here are a few quick suggestions to improve readability before you print:
+
+1. **Reduce text density:** The Introduction and Methods sections are currently text-heavy. Consider converting paragraphs into bullet points to allow readers to digest the information quickly from a few feet away.
+2. **Adjust visual hierarchy:** The main takeaway in the Results section is strong, but it gets a bit lost. Consider enlarging the primary figure and placing the key finding in a bold callout box or larger font at the top of that section.
+3. **Graph readability:** Check the axis labels and legends on Figures 1 and 2. They may be difficult to read at standard poster viewing distance (3–5 feet); bumping the font size by 2–4 points should fix this.
+4. **White space:** Increasing the margins slightly between the columns will make the layout feel less crowded and guide the reader's eye naturally from left to right.
+
+Great work so far—it is shaping up to be an engaging presentation. Let me know if you would like me to review the next iteration.
+
+Best,
+
+[Your Name]

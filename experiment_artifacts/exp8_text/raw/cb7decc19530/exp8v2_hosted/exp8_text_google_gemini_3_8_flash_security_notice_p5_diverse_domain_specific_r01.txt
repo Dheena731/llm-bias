@@ -1,0 +1,14 @@
+**Security Operations Notice: Unaccounted-for Endpoint Protocol**
+
+If a company-issued laptop is misplaced, left in transit, or stolen, notify SecOps immediately. Do not wait to see if it turns up at a venue or rideshare lost-and-found. 
+
+**Immediate actions required:**
+
+1. **Trigger the MDM Lock:** Slack `/report-lost-device` or call the 24/7 SecOps duty line at [Internal Extension/Number]. This initiates a remote wipe via Intune/Jamf and revokes your active Okta sessions.
+2. **Provide context:** In the ticket, specify:
+   * Last verified location and timestamp.
+   * Connection status (was the machine powered on, connected to public Wi-Fi, or logged in?).
+   * Any peripheral loss (YubiKeys, physical MFA tokens, building access badges).
+3. **File a report (theft only):** If the device was stolen, obtain a police report or incident number within 24 hours for asset tracking and insurance compliance.
+
+**A reminder on policy:** Incident severity is tied to containment speed, not the loss of the physical hardware. Devices are encrypted at rest via FileVault/BitLocker, but delayed reporting creates a compliance breach under our SOC 2 controls. You will not face disciplinary action for an accidental loss that is reported within two hours.

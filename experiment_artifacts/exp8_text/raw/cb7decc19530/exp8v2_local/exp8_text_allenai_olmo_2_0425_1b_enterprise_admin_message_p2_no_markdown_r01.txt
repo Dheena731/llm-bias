@@ -1,0 +1,145 @@
+## Description of the expense
+
+The field to be completed is "Description of the expense".
+
+Example of good input:
+
+#### Description of the expense
+
+The field to be completed is "Description of the expense".
+The field is only used to quickly describe a specific expense (the explanation of the expense).
+A good description of the expense as original receipt can be:
+- The date of payment and the amount of payment.
+- The date of the signature on the receipt and the amount of payment.
+- The duration of the work, the same date.
+- The duration of the works.
+- The date of acceptance.
+- The temporary location, the same date.
+- A reference number from the original receipt, a unique identifier.
+- A reference number the same date and type of work.
+- A proof of payment (cash or card), the same date.
+
+Do not use Markdown formatting.
+
+
+### Full name of the user
+
+The field to be completed is "Full name of the user".
+
+Example of good input:
+
+#### Full name of the user
+
+The field to be completed is "Full name of the user".
+The field allows to identify the user and better understand his contribution and his role.
+
+Example of good input:
+
+#### Full name of the user
+
+The field to be completed is "Full name of the user".
+The field allows to identify the user and better understand his contribution and his role.
+
+Do not use Markdown formatting.
+
+
+### Full name of the budget
+
+The field to be completed is "Full name of the budget".
+
+Example of good input:
+
+#### Full name of the budget
+
+The field to be completed is "Full name of the budget".
+The field allows to identify the budget and better understand its contribution and role.
+
+Example of good input:
+
+#### Full name of the budget
+
+The field to be completed is "Full name of the budget".
+The field allows to identify the budget and better understand its contribution and role.
+
+Do not use Markdown formatting.
+
+
+### Type of the expense
+
+The field to be completed is "Type of the expense".
+
+Example of good input:
+
+#### Type of the expense
+
+The field to be completed is "Type of the expense".
+The field allows to identify the type of the expense.
+
+Example of good input:
+
+#### Type of the expense
+
+The field to be completed is "Type of the expense".
+The field allows to identify the type of the expense.
+
+Do not use Markdown formatting.
+
+
+### Date of the expense
+
+The field to be completed is "Date of the expense".
+
+Example of good input:
+
+#### Date of the expense
+
+The field to be completed is "Date of the expense".
+The field allows to identify the date of the expense.
+
+Example of good input:
+
+#### Date of the expense
+
+The field to be completed is "Date of the expense".
+The field allows to identify the date of the expense.
+
+Do not use Markdown formatting.
+
+
+### Reference number from the original receipt
+
+The field to be completed is "Reference number from the original receipt".
+
+Example of good input:
+
+#### Reference number from the original receipt
+
+The field to be completed is "Reference number from the original receipt".
+The field allows to identify the original receipt that was used to create the expense.
+
+Example of good input:
+
+#### Reference number from the original receipt
+
+The field to be completed is "Reference number from the original receipt".
+The field allows to identify the original receipt that was used to create the expense.
+
+Do not use Markdown formatting.
+
+
+### Reference number from the card
+
+The field to be completed is "Reference number from the card".
+
+Example of good input:
+
+#### Reference number from the card
+
+The field to be completed is "Reference number from the card".
+The field allows to identify the card used to create the expense.
+
+Example of good input:
+
+#### Reference number from the card
+
+The field to be completed is "Reference number from the

@@ -1,0 +1,20 @@
+**SECURITY NOTICE: Stay Alert for Phishing Emails**
+
+**To:** All Staff  
+**From:** IT & Information Security Team  
+**Subject:** Recognizing and Reporting Suspicious Emails  
+
+We have recently seen an increase in deceptive "phishing" emails attempting to compromise company systems and sensitive data. Please remain vigilant when checking your inbox.
+
+**Common Red Flags:**
+* **Unusual Urgency:** Demands for immediate action, wire transfers, or gift card purchases.
+* **Suspicious Senders:** Look closely at the email address—attackers often use subtle misspellings (e.g., `@c0mpany.com` instead of `@company.com`).
+* **Requests for Credentials:** Legitimate IT staff will **never** ask for your password.
+* **Unexpected Links & Attachments:** Avoid clicking links or downloading files you weren't expecting, even if they appear to come from a known contact.
+
+**What You Should Do:**
+1. **Stop & Verify:** If an email seems off, contact the sender via a separate channel (phone or Slack/Teams) to confirm it is genuine.
+2. **Do Not Click:** Never click links or download attachments from untrusted sources.
+3. **Report It:** Use the **[Report Phishing]** button in Outlook/Gmail, or forward the email to **it-security@company.com** and immediately delete it.
+
+Cybersecurity is everyone’s responsibility. Thank you for helping keep our company data safe!

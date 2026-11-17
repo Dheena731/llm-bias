@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Apply filter to narrow down results by selecting a specific variable or range of values. Choose from a list of available fields to refine your search and focus on relevant data."

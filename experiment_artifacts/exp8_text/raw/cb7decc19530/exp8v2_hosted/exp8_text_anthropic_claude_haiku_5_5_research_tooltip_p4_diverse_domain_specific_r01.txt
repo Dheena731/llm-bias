@@ -1,0 +1,1 @@
+**NA**: No value was recorded here. The source file was empty, the parser couldn't read it, or the sensor dropped out. This is not zero. Averages and sums skip NA cells; row counts include them.

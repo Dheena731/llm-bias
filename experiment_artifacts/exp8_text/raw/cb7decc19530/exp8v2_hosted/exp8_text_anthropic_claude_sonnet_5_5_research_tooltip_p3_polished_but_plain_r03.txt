@@ -1,0 +1,1 @@
+Select a start and end date to filter results to that period. Click one date, then another, and both days are included. To change the range, select a new start date and choose an end date again. Dates are shown in your local time zone, and the end date cannot come before the start date.

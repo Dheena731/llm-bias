@@ -1,0 +1,1 @@
+Include only records collected between the start and end dates you select. Dates are inclusive and based on each record's collection timestamp, not its upload date.

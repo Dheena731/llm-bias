@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining what a missing-value marker means in the context of medical imaging:
+
+"Missing-value marker: Indicates that the pixel value is unknown or could not be measured, often due to noise or data loss during the imaging process. This marker is used in place of a numeric value to maintain data integrity and allow for further analysis."

@@ -1,0 +1,1 @@
+This filter allows you to narrow down the dataset to only include records that meet specific conditions, such as date range, location, or demographic characteristics, making it easier to focus on the most relevant data for your research.

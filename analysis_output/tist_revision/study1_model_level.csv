@@ -1,0 +1,16 @@
+model,level,attempted,clean,missing,emoji_free_rate,ci_low,ci_high,prompts,topics_present
+Gemini 2.5 Flash,L0_baseline,720,720,0,0.8166666666666667,0.6583333333333333,0.95,24,academic|legal|marketing|recipe|social_media|technical
+Gemini 2.5 Flash,L1_polite,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+Gemini 2.5 Flash,L2_explicit,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+Gemini 2.5 Flash,L3_emphatic,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+Gemini 2.5 Flash,L4_extreme,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+GPT-3.5-Turbo,L0_baseline,720,720,0,0.8208333333333333,0.6652777777777777,0.9583333333333334,24,academic|legal|marketing|recipe|social_media|technical
+GPT-3.5-Turbo,L1_polite,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+GPT-3.5-Turbo,L2_explicit,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+GPT-3.5-Turbo,L3_emphatic,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+GPT-3.5-Turbo,L4_extreme,720,720,0,1,1.0,1.0,24,academic|legal|marketing|recipe|social_media|technical
+GLM-4.5 Air,L0_baseline,720,718,2,0.6810584958217271,0.520891364902507,0.841225626740947,24,academic|legal|marketing|recipe|social_media|technical
+GLM-4.5 Air,L1_polite,720,701,19,0.9614835948644793,0.9124293785310734,0.9943582510578279,24,academic|legal|marketing|recipe|social_media|technical
+GLM-4.5 Air,L2_explicit,720,684,36,0.9912280701754386,0.9733727810650887,1.0,24,academic|legal|marketing|recipe|social_media|technical
+GLM-4.5 Air,L3_emphatic,720,355,365,1,1.0,1.0,12,academic|legal|technical
+GLM-4.5 Air,L4_extreme,720,0,720,nan,nan,nan,0,

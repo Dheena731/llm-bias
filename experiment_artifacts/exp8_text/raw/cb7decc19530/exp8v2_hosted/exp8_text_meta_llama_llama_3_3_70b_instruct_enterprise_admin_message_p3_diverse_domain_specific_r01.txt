@@ -1,0 +1,3 @@
+Here is a short message announcing a change to the VPN client:
+
+"Important update for remote access users: Our IT team has rolled out an updated version of the VPN client, which includes improved encryption protocols and enhanced connectivity features. As of today, all users will need to download and install the new client to maintain secure access to our network. Please note that the old client will be deprecated in two weeks, so we recommend updating as soon as possible to avoid any disruptions. You can find the updated client and installation instructions on our internal wiki. If you have any questions or concerns, don't hesitate to reach out to the IT support team."

@@ -1,0 +1,20 @@
+**Subject: Eleven of you reused a work password on a site that got breached**
+
+**From:** Information Security
+**To:** All staff
+
+Last Tuesday, a recipe and meal-planning site that some of us evidently use for personal accounts published its user database. We checked it against our directory, and 11 work email addresses appear in it. For 6 of those, the leaked password was identical to the one on their work login.
+
+No one got in. Our sign-in alerts caught two failed attempts from a residential IP in another country, and multi-factor authentication stopped them. Without MFA, those would have worked.
+
+**What we've done:** Reset all 11 accounts. If that was you, you've already had an email from us. It wasn't a mistake on your part to receive it, and no one is in trouble.
+
+**What we need from everyone by Friday, 5 p.m.:**
+
+1. Make sure your work password isn't used anywhere else. If you aren't sure, change it.
+2. Install the company password manager (Help Desk will do it in about ten minutes, or you can self-serve from the Software Center) and let it generate the new one.
+3. Check your personal email at haveibeenpwned.com. If it shows up, change the passwords for any accounts that share a password with something here.
+
+Reuse is the problem, not weak passwords. A strong password used in two places is only as safe as the weaker of the two sites.
+
+Questions go to security@yourcompany.example. Please don't reply-all.

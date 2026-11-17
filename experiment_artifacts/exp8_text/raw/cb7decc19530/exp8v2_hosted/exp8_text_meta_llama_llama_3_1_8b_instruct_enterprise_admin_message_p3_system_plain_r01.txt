@@ -1,0 +1,1 @@
+The VPN client will be updated to use a new authentication protocol. The new protocol will be rolled out to all users over the next week. During this time, the client may require a password reset to ensure compatibility. If you experience any issues, please contact the IT department for assistance.

@@ -1,0 +1,19 @@
+Since no domain was given, I picked one: a hive-management app for beekeepers.
+
+---
+
+**Voice inspections are live.**
+
+Your gloves are sticky with propolis, there's a smoker in one hand, and the hive tool is wedged under a super. You're not typing anything.
+
+So now you can talk. Say "Hive 4, queen seen, six frames of brood, spotty pattern on frame 3, one capped swarm cell on the bottom bar," and it fills in that hive's inspection log. Brood, stores, temperament, queen status, and mite count all go in their own fields, and swarm cells get flagged so you'll see them next visit.
+
+It works offline, so dead zones at the back of the property are fine. Transcription handles a veil and a bee buzzing near the mic about as well as you'd expect, so check the log before you close the lid. Edits take two taps.
+
+Update to 3.2 and tap the mic icon on any hive page.
+
+Tell us what it mishears. "Varroa" has already come out as "Barrow" a few times.
+
+---
+
+If you tell me the actual product or industry, I can rewrite it with details that fit.

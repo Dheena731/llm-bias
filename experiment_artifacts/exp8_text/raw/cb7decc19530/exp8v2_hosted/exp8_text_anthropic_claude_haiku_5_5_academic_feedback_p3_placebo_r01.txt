@@ -1,0 +1,11 @@
+**Reviewer comment on the research question**
+
+The research question in the final paragraph of the Introduction asks whether the program "improves outcomes for participants." As written, I could not tell what evidence would count as a yes or a no, and I do not think the question can be answered by the design described in the Methods.
+
+Three elements need to be specified:
+
+1. **Outcome.** "Outcomes" is not defined. The Methods describe several measures, but the question does not say which one is primary.
+2. **Comparison.** "Improves" has no stated reference point. It is unclear whether participants are compared with non-participants, with their own baseline, or with another program.
+3. **Population.** "Participants" is not described. The question does not indicate who is eligible or over what time period the effect is expected.
+
+I suggest restating the question so that it names the population, the comparison group, the primary outcome, the time frame, and the expected direction of the effect. Once the question is fixed, please confirm that each analysis in the Results addresses it directly, and label any secondary analyses as exploratory.

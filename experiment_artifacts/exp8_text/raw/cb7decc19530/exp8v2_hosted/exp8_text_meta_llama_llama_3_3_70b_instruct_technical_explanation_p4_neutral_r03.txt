@@ -1,0 +1,9 @@
+Caching is a technique that stores frequently-used data or files in a temporary storage location, called a cache, so that it can be quickly retrieved instead of being re-generated or re-retrieved from its original source. When a user visits a website, their browser or the website's server checks the cache for a copy of the requested data or file. If a valid copy is found, it is served directly from the cache, reducing the time it takes to load the website.
+
+By reducing the number of requests made to the server, database, or other external resources, caching speeds up a website in several ways:
+
+1. **Faster page loads**: Cached data is retrieved quickly, reducing the time it takes for pages to load.
+2. **Reduced server load**: Fewer requests are made to the server, reducing the load and allowing it to handle more requests simultaneously.
+3. **Lower latency**: Cached data is often stored closer to the user, reducing the distance data needs to travel and resulting in lower latency.
+
+Overall, caching helps to minimize the time it takes for a website to load, making it more responsive and improving the user experience.

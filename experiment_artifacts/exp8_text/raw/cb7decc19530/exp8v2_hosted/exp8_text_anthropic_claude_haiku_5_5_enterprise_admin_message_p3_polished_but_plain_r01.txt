@@ -1,0 +1,9 @@
+Subject line aside, here is the announcement:
+
+Starting Monday, March 2, the corporate VPN client will be updated to version 5.0. The new release includes automatic reconnection, so if your network connection drops, the client will restore your VPN session without requiring you to sign in again. It also adds support for multi-factor authentication through the company's identity provider, which replaces the separate VPN passcode you have used until now.
+
+The update will install automatically the next time you restart your computer. You do not need to take any action before then. After the update, you will be prompted to enroll your authenticator app the first time you connect. If you have trouble enrolling, contact the IT help desk at extension 4400 before March 9, when the old passcode method will be retired.
+
+Users on macOS 11 or earlier will need to upgrade their operating system before the new client can run. If you are unsure which version you have, check under About This Mac in the Apple menu, or contact IT for assistance.
+
+Thank you for your patience while we made these improvements. Questions about the change can be directed to the IT help desk.

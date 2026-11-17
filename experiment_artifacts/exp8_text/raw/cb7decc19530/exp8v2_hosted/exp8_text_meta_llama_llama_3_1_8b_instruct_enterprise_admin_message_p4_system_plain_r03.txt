@@ -1,0 +1,12 @@
+To: All Users
+
+Subject: Quarterly Access Reviews
+
+As part of our ongoing efforts to maintain data security and integrity, we will be conducting quarterly access reviews. These reviews are designed to ensure that all users have the necessary permissions to access and manipulate data within the system.
+
+During these reviews, we will be evaluating each user's access level and comparing it to their job responsibilities and organizational needs. Users may be asked to confirm or update their access permissions. In some cases, access may be restricted or revoked if it is deemed unnecessary or excessive.
+
+These reviews are a necessary part of our data security protocols and will be conducted on a quarterly basis. If you have any questions or concerns regarding your access permissions, please do not hesitate to contact the IT department.
+
+Sincerely,
+[Admin Name]

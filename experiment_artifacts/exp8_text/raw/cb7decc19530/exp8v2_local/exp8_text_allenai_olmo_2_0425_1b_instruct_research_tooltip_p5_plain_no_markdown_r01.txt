@@ -1,0 +1,1 @@
+Click and drag to highlight your data, or right-click and choose `Export...` from the context menu to save your query results to a file on your computer. Choose the format you prefer for your exported data, such as Excel, CSV, or JSON, and download your data for further processing or sharing.

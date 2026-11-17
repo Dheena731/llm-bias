@@ -1,0 +1,20 @@
+**Subject: Action Required: Enable Two-Factor Authentication**
+
+Dear Users,
+
+To enhance the security of your account, we are implementing mandatory two-factor authentication (2FA).
+
+Please enable 2FA on your profile no later than **[Deadline Date]**. Accounts that do not have 2FA activated after this date may experience restricted access.
+
+**How to enable 2FA:**
+1. Log in to your account.
+2. Navigate to **Settings** and select **Security**.
+3. Choose your preferred verification method and follow the setup instructions.
+
+For detailed guidance, please visit **[Link to Help Center/Instructions]**.
+
+Thank you for your prompt attention to this important security measure.
+
+Sincerely,
+
+The Administration Team

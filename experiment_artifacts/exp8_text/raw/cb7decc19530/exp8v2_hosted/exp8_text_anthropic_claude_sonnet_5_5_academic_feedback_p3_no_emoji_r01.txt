@@ -1,0 +1,15 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is not clearly articulated, and this weakens the paper as a whole. The introduction describes the general topic and the gaps in the literature, but it never states what the study sets out to answer. The objectives appear in different forms in the abstract, the end of the introduction, and the discussion. In places the study seems to examine a causal relationship, in others a descriptive association, and elsewhere an evaluation of a method or tool. These are different aims that call for different designs and analyses.
+
+Several key terms are also undefined. It is unclear what the authors mean by "impact" and "effectiveness," which outcomes they are targeting, and in which population or context. Without this, I could not judge whether the chosen methods are appropriate or whether the conclusions follow from the results.
+
+I recommend that the authors:
+
+1. State one primary research question, with any secondary questions clearly labeled, ideally in a single sentence at the end of the introduction.
+2. Define the main constructs and outcomes in operational terms.
+3. Specify the population, setting, and scope of the study.
+4. Make sure the methods, results, and conclusions each return explicitly to this question.
+5. If the study is exploratory, say so and frame the aims accordingly, rather than implying hypothesis testing.
+
+A sharper research question would make the contribution much easier to evaluate, and I would be glad to review a revised version.

@@ -1,0 +1,15 @@
+**Subject:** Revised Expense Routing & Documentation Standards – Effective [Date]
+
+Team,
+
+Beginning [Date], the expense approval chain is moving to a tiered model based on claim value and cost center. Expenses under $500 will auto-route to the submitting department’s manager. Anything above $500 requires dual sign-off: manager approval followed by a Finance review before bank disbursement.
+
+We’ve also tightened documentation requirements. Itemized receipts or vendor-issued PDFs are now mandatory for all entries over $25. Screenshots of card statements, handwritten summaries, or missing merchant details will be returned without processing. The portal’s expense categories have been recoded to align with the new tax treatment for client entertainment and foreign transactions. Selecting the wrong GL code triggers an automatic hold until corrected.
+
+Pay cycles remain unchanged (15th and 30th). Submissions dropped after the monthly cutoff window will carry forward to the next payout run. Full routing matrices, updated category mappings, and screenshots of the new validation fields are saved in `/Finance/ExpenseWorkflow_v2`.
+
+For system access issues or clarification on unusual spend patterns, email `expense-admin@company.com`. We’ll track first-cycle error rates and flag recurring bottlenecks by week two. If the new thresholds create friction in specific departments, let us know so we can document exceptions.
+
+Regards,  
+[Name]  
+Financial Operations | Accounts Payable

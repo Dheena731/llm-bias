@@ -1,0 +1,9 @@
+"Attention all dashboard users, 
+
+We have scheduled a maintenance window for our dashboard infrastructure on Thursday, March 16th, from 10:00 PM to 1:00 AM EST. During this time, you may experience intermittent connectivity issues or temporary data latency as our team performs routine updates and optimizations to ensure the continued stability and performance of our platform.
+
+To minimize disruptions, we recommend that you save any unsaved work and log out of the dashboard prior to the maintenance window. If you have any scheduled reports or data exports set to run during this time, they will be queued and processed as soon as the maintenance is complete.
+
+We appreciate your understanding and cooperation as we work to maintain and improve the dashboard. If you have any questions or concerns, please don't hesitate to reach out to our support team.
+
+Thank you for your patience and we look forward to providing you with an enhanced dashboard experience soon."

@@ -1,0 +1,13 @@
+**SUBJECT: Important Notice: Prohibition on Password Reuse**
+
+To All Employees,
+
+To protect our company data and your personal information, please remember that reusing passwords across different accounts is strictly prohibited. A single compromised credential can grant unauthorized access to multiple systems when the same password is applied elsewhere. This rule applies to all work platforms, third-party tools, and personal accounts.
+
+Every company system you access must have a unique password. When creating new passwords, select strong combinations that include uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information such as birthdays, pet names, or common words. If your organization provides an approved password management application, use it to generate and store your credentials securely.
+
+If you suspect a password has been exposed or require assistance updating your login details, contact the IT Security team. They are available through your regular internal support channels and will walk you through the secure reset process.
+
+Thank you for following this policy and helping maintain a secure workplace.
+
+IT Security Team

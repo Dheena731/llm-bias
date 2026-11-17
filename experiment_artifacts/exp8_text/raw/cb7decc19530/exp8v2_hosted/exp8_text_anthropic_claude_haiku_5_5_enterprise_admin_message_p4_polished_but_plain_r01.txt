@@ -1,0 +1,15 @@
+Subject: Quarterly Access Review Begins Next Week
+
+All system owners and department managers are reminded that the quarterly access review for this cycle opens on Monday, the 14th, and must be completed by Friday, the 25th. During this period, each reviewer will receive a list of user accounts and permissions assigned to their team through the identity management portal.
+
+Reviewers are asked to confirm that each account still requires its current level of access. Where access is no longer needed, or exceeds what a person's role requires, please mark it for removal. Accounts belonging to staff who have changed roles or left the organization should be flagged immediately, even if the review is not yet open, so that they can be actioned without delay.
+
+Please do not approve access simply because it has always been in place. The purpose of this review is to confirm that every permission is current, justified, and documented. If you are unsure whether a particular entitlement is still appropriate, contact the IT Security team before approving it, and they will help you assess the request.
+
+Reviews not completed by the deadline will be escalated to the relevant director, and unreviewed accounts may be temporarily suspended to maintain compliance with our security policy. Reminders will be sent on the 18th and the 22nd.
+
+Questions about the process or portal access should be directed to the IT Service Desk at extension 4400 or to servicedesk@company.example.
+
+Thank you for your prompt attention to this important control.
+
+IT Security and Compliance Team

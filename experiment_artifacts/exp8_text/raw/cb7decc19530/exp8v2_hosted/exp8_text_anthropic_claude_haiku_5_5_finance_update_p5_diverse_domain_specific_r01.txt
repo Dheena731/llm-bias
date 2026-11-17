@@ -1,0 +1,18 @@
+**Subject: Delayed merchant payouts, Tuesday 11 March**
+
+Payouts scheduled for Tuesday's ACH batch didn't leave until Wednesday afternoon. About 2,340 merchant payouts, roughly $1.9M, were held.
+
+The cause was on our side. Our bank partner's settlement file failed our pre-submission checksum because one field had an extra character in the routing-number column. Our validator rejected the file, correctly, but the rejection went to a shared inbox that nobody was watching until 9:40 a.m. By then we had missed the 11:00 a.m. cutoff for same-day settlement.
+
+What happened next:
+- We corrected the field, regenerated the file, and resubmitted at 2:10 p.m. Wednesday. The bank accepted it without errors.
+- Funds will settle Thursday 13 March, one business day later than originally scheduled. Merchants should see them by their usual morning balance update.
+- We are not charging the $4.50 late-payout fee for any payout in this batch, and the reversal will post with Thursday's settlement.
+
+Changes we're making:
+- Validator rejections now page the on-call payments engineer directly, not the shared inbox.
+- A second validation pass runs against the bank's published field spec before the file leaves our system.
+
+If your payout is still missing on Thursday afternoon, reply to this thread with the payout ID and we'll trace it the same day.
+
+— Payments Operations

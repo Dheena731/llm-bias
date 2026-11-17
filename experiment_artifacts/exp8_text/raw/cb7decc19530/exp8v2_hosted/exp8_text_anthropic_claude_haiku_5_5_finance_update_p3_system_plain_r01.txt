@@ -1,0 +1,5 @@
+Hi everyone, we're excited to share that our app now includes a savings goal feature, designed to help you turn your financial plans into steady progress. You can create a goal, give it a name such as a vacation, an emergency fund, or a new laptop, and set a target amount and a deadline. The app then shows how much you need to set aside each week or month to reach it on time, and tracks your progress as you add funds.
+
+You can also link a goal to one of your accounts so that contributions are recorded automatically, or add amounts manually whenever you choose. Each goal displays a simple progress bar along with your current balance and the number of days remaining, so you always know where you stand. If your circumstances change, you can adjust the target, move the deadline, or pause a goal without losing your history.
+
+The feature is available now in the latest version of the app. Open the Goals tab from the main menu to create your first one. As always, we welcome your feedback, so please let us know how the feature works for you and what you would like to see next.

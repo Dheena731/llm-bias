@@ -1,0 +1,9 @@
+Latency refers to the delay between a user taking an action and the web application responding to it. In web development, keeping this delay as low as possible is critical for several key reasons.
+
+First, latency directly shapes the user experience. Modern web users expect near-instantaneous responses. When an application feels sluggish, users become frustrated, engagement drops, and bounce rates rise. 
+
+Second, latency has a measurable impact on business revenue. In e-commerce and subscription services, even a fractional second of delay can lead to abandoned shopping carts and lost conversions. Companies consistently find that faster applications generate more sales and retain more customers.
+
+Third, latency affects discoverability. Major search engines factor site speed into their ranking algorithms, meaning slower applications receive less organic search traffic.
+
+Finally, low latency is essential for real-time interactivity. For modern applications involving live chat, collaborative editing, video streaming, or financial trading, high latency breaks the core functionality and makes the software unusable.

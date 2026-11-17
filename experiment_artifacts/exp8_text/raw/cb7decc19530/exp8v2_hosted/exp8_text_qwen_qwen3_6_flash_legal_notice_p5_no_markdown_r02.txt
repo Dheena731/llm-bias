@@ -1,0 +1,10 @@
+NOTICE OF ACCEPTABLE USE POLICY FOR SHARED NETWORK RESOURCES
+EFFECTIVE DATE: OCTOBER 15, 2024
+
+This Notice establishes the binding terms and conditions governing the authorized use of the shared network infrastructure. All persons granted access, including employees, contractors, affiliates, and guests, must strictly adhere to these provisions to preserve system security, operational continuity, and equitable resource distribution.
+
+Authorized use is restricted to lawful purposes consistent with organizational objectives. Users are expressly prohibited from engaging in activities that compromise network integrity, violate applicable statutes, or impair service for others. Prohibited conduct includes, without limitation: unauthorized access or privilege escalation, transmission of malicious code, excessive bandwidth consumption beyond defined thresholds, illegal reproduction or distribution of copyrighted material, deployment of unvetted hardware or software, and circumvention of authentication or filtering mechanisms.
+
+The network administration reserves the exclusive right to monitor, record, audit, and inspect all data transmissions, access logs, and terminal sessions to enforce compliance and safeguard infrastructure. By connecting to the shared network, users acknowledge that they possess no reasonable expectation of privacy. All communications and stored data may be reviewed, retained, and disclosed to management, auditors, or law enforcement agencies when legally mandated or when misconduct is reasonably suspected.
+
+Noncompliance with this Notice will result in immediate revocation of network privileges, initiation of formal disciplinary proceedings, and pursuit of civil or criminal remedies where

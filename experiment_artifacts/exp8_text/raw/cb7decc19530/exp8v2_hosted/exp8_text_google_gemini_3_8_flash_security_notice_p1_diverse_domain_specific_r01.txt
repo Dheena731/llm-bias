@@ -1,0 +1,17 @@
+**Security Notice: Credential Stuffing & Password Reuse**
+
+**The threat vector:**  
+When an external service is breached—whether it’s a niche vendor, an industry forum, or a personal shopping app—those email-and-password pairs are immediately fed into automated credential-stuffing tools aimed at our SSO, VPN, and GitHub gateways. 
+
+If your corporate login matches a password you use anywhere else, an external database breach becomes our internal incident. Even complex passwords fail when they exist in plaintext on someone else's compromised server.
+
+**Operational requirements:**
+
+* **Complete isolation:** Your corporate identity password must never be reused for external tools, SaaS pilots, or personal accounts.
+* **No "variations":** Appending a year, an exclamation mark, or the platform’s name to a shared root string does not defeat modern cracking masks. 
+* **Vault generation:** For services that do not support corporate SSO, use 1Password to generate and store random 20+ character strings. Do not rely on memory.
+* **External work accounts:** If you register an `@ourdomain.com` address for an external vendor or research portal, use a distinct vault-generated password.
+
+SecOps continuously cross-references active directory hashes against public and dark-web credential dumps. If an active corporate password matches an exposed credential hash, the account will be automatically revoked and locked pending IT verification.
+
+Direct questions or vault provisioning requests to the `#ask-infosec` Slack channel.

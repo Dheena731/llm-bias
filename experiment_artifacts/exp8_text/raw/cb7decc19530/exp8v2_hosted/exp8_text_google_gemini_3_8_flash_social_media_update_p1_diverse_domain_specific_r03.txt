@@ -1,0 +1,7 @@
+Adding `NOT NULL` to an 80-million row table used to mean sweating over an exclusive table lock while your connection pool drained. 
+
+`schematool` v0.14 now catches this pattern and handles the split under the hood: it adds the column as nullable, attaches a `NOT VALID` check constraint, validates it concurrently without locking reads, and swaps it to enforced. 
+
+You write standard DDL. The engine keeps the table responsive. 
+
+`brew upgrade schematool` to pull it down.

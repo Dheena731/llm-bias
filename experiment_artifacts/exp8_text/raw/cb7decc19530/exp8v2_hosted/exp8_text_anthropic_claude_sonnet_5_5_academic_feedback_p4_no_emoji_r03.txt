@@ -1,0 +1,22 @@
+**Feedback on Conference Poster Draft**
+
+Thank you for sharing the draft. I haven't seen the specific poster, so this note covers the points that usually matter most. Tell me which apply, or share the content for more specific comments.
+
+**Strengths to keep**
+- A clear, informative title that states the topic and, ideally, the main finding.
+- A logical flow from background to methods to results to conclusions, easy to follow left to right.
+- Figures that carry the story, with readable labels and consistent styling.
+
+**Suggestions for improvement**
+1. **Lead with the takeaway.** A viewer should grasp your main message within 10 seconds. Consider a one- or two-sentence summary box near the top or center.
+2. **Cut text.** Aim for roughly 300 to 500 words total. Replace paragraphs with short bullets or a figure where possible.
+3. **Check readability from a distance.** Body text should be at least 24 pt, headings 36 pt or larger, and the title readable from about 2 meters away.
+4. **Strengthen the visuals.** Make sure every figure has a descriptive title, labeled axes with units, and a legend. Use colorblind-friendly palettes and avoid clutter.
+5. **Clarify the methods.** Keep them brief, and use a schematic or flowchart if the process is complex.
+6. **Make conclusions specific.** Tie them directly to your research question and note limitations and next steps.
+7. **Mind the layout.** Use consistent alignment, enough white space, and clear section boundaries. Make the reading order obvious with numbering or arrows if needed.
+8. **Add contact details.** A QR code linking to the paper, data, or your contact information is useful, along with affiliations and acknowledgments.
+
+**Final check:** Proofread for typos, confirm that citations are complete, and test-print a small version to check contrast and legibility.
+
+I'm happy to give more detailed comments if you paste in the poster text or describe the layout.

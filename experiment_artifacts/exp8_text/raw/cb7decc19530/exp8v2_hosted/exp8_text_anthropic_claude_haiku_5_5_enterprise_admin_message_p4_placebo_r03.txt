@@ -1,0 +1,15 @@
+**Subject: Quarterly Access Reviews**
+
+**Audience:** System administrators and department managers who approve system access
+
+Access reviews are now run every quarter. During each review, you must confirm that every user in your area still needs the access they have, and remove any access that is no longer needed.
+
+**What you need to do:**
+
+1. Review the list of users and permissions assigned to your team.
+2. Confirm access that is still needed. Remove access for anyone who has changed roles, left the team, or no longer requires it.
+3. Return your completed review to the access administration team by the deadline set for the quarter.
+
+Unconfirmed access will be treated as no longer approved and may be removed.
+
+Questions about the review process should go to the access administration team.

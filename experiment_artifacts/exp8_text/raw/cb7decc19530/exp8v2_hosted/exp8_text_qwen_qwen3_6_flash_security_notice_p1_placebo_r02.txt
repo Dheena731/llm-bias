@@ -1,0 +1,9 @@
+**Security Notice: Prohibition of Password Reuse**
+
+To all staff, this notice addresses a fundamental cybersecurity requirement regarding your account credentials. Reusing the same password across work systems, personal accounts, or external services creates a severe security risk. If any single account is compromised, attackers can immediately access all other accounts sharing that password, including your email, internal applications, and shared drives.
+
+Effective immediately, every work account must have a unique password. Create strong passwords using a combination of uppercase and lowercase letters, numbers, and special characters. Never record or store passwords in unprotected files, messages, or shared folders. Use only company-approved credential management tools to handle your login information.
+
+If you need assistance generating strong passwords or updating existing ones, contact the IT Help Desk. Thank you for following these guidelines to protect our workplace data and networks.
+
+Information Security Office

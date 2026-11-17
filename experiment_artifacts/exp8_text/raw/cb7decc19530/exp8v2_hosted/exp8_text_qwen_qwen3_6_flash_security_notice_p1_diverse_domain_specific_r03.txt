@@ -1,0 +1,14 @@
+**Subject:** Security Advisory: Password Reuse Risk / Credential Stuffing Mitigation
+
+Our threat monitoring indicates a sustained increase in authentication attempts utilizing credentials exposed in third-party data breaches. 
+
+When you reuse a password across personal and corporate environments, an external compromise becomes a direct entry point. Attackers automate credential stuffing within minutes of a public leak. If your personal email or service account appears in a breach database, that combination is now indexed and actively targeted against our identity provider. 
+
+Successful reuse bypasses perimeter defenses and grants immediate lateral access, often evading standard anomaly detection because the login originates from a valid user profile.
+
+**Required Action:**
+1.  **Audit:** Verify if any active corporate credentials have appeared in recent breach disclosures using the internal lookup tool linked [Here].
+2.  **Rotate:** Immediately change any password shared with non-work platforms. 
+3.  **Isolate:** Treat enterprise credentials as distinct assets. Do not sync personal vaults or export personal passwords to work devices.
+
+Personal convenience does not override perimeter integrity. Failure to align credentials with current security standards may result in temporary account suspension pending verification.

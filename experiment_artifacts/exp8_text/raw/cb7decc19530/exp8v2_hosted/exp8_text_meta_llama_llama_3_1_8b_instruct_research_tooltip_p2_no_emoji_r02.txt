@@ -1,0 +1,1 @@
+"Confidence Interval: A range of values (typically 95%) within which a population parameter is likely to lie, based on a sample of data. This interval gives an estimate of the uncertainty associated with the sample mean."

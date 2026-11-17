@@ -1,0 +1,3 @@
+Here's a concise tooltip explaining a confidence interval in a chart:
+
+"This chart shows the estimated value (represented by the horizontal line) and its associated 95% confidence interval (represented by the shaded area). The confidence interval indicates the range of values within which the true population parameter is likely to lie. In this case, we are 95% confident that the true value falls within the shaded area."

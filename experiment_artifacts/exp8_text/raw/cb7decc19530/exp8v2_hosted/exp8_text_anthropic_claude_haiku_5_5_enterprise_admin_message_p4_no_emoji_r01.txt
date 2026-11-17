@@ -1,0 +1,19 @@
+**Subject: Quarterly Access Review: Action Required by [Date]**
+
+Hello all,
+
+This is a reminder that the quarterly access review for [System/Application Name] begins on [Start Date] and must be completed by [Due Date].
+
+**What you need to do:**
+- Review the access list assigned to you in the review portal.
+- Confirm that each user still requires their current level of access.
+- Flag any access that is no longer needed or appears inappropriate.
+- Submit your certification by the due date.
+
+Access that is not certified by [Due Date] will be suspended pending review. If you have questions about the process or need help with the portal, contact [IT Security Contact] at [email or extension].
+
+Thank you for keeping our systems secure.
+
+[Your Name]
+[Title]
+[Department]

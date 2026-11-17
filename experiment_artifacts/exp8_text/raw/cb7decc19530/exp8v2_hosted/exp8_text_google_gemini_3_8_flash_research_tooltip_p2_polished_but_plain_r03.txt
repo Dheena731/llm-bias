@@ -1,0 +1,1 @@
+This range represents the confidence interval, showing where the true value is likely to fall based on the data. Wider bounds reflect greater uncertainty, while narrower bounds indicate higher precision.

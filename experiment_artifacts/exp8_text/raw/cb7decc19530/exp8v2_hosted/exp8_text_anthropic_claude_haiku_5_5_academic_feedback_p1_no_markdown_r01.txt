@@ -1,0 +1,13 @@
+Feedback on Draft Literature Review
+
+Thank you for sharing the draft. The review is well organised at the macro level, and the move from the conceptual definitions of hybrid work to the empirical studies on wellbeing gives the reader a clear route through the field. Your search strategy is described transparently, which I appreciate.
+
+The main weakness is that the review currently summarises studies rather than synthesising them. Several paragraphs follow the pattern "Smith (2019) found X. Jones (2021) found Y," with no account of how these findings relate to one another. Where studies disagree, such as the contrasting results on autonomy and burnout, the disagreement should be explained. Consider whether differences in sample, measurement, or national context account for the inconsistency. A reader should finish each section with a clear sense of what the field collectively knows and where it remains uncertain.
+
+Second, the critical evaluation is thin. Methodological limitations are mentioned only in passing. Many of the cited studies rely on cross-sectional self-report data, and this limits causal claims. Please assess the strength of the evidence base more directly, noting sample sizes, design quality, and the extent to which findings are drawn from pre-pandemic or non-representative populations.
+
+Third, the framing of the research gap in the final section needs sharpening. At present the gap is stated as "more research is needed," which is too general. Identify a specific unanswered question that follows from the tensions you have documented, and explain why answering it matters for your research question.
+
+Finally, there are some minor issues. Several citations in the middle section are missing page numbers for direct quotations, and a few sentences use "significant" where you mean "substantial" or "notable" without statistical testing to support it. Please check that all in-text citations appear in the reference list and that the reference list follows a single consistent style.
+
+Overall, the foundation is sound. If you revise the review to synthesise the literature thematically and to evaluate it critically, the argument will be considerably stronger. I am happy to look at a revised section before the next draft is due.

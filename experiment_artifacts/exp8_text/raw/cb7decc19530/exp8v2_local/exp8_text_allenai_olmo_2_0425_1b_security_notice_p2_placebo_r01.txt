@@ -1,0 +1,36 @@
+Develop key messages for phishing emails within a source list or a set of objectives to be achieved. Be consistent in your approach to phishing emails and your methods of delivering the message.
+
+The message might appear on a website, and the link would open an email in the user’s inbox. The email might contain a link to a phishing website or reference a “secure” web address that looks like a well-known website but is actually a phishing website.
+
+Phishing spam
+
+Phishing is a type of spam that targets the users of an organization’s mail server, trying to trick people into clicking on a link that leads them to a fake website.
+
+This is what phishing spam looks like:
+
+
+In the image above, the spammer has sent an email that contains a link that will take the user to a fake website and try to get them to give up their username and password.
+
+The fact that this link is supposed to be secure does not mean it is secure. The link in the email can be a fake website that is trying to trick people into giving up their usernames and passwords. When the user visits the website, they will enter their username and password, which will then be stolen by the phisher.
+
+Phishing spam is becoming more and more common, and many organizations are trying to figure out how to deal with it. One way to deal with phishing spam is to turn it into an offense, that is, to report the email to the phishing spammer. By reporting the email, the spammer is made aware of the fact that the email is spam, and they may change their tactics.
+
+This can help prevent further phishing spam from being sent out. However, it is not always possible to report phishing spam to the sender.
+
+Another way to deal with phishing spam is to block all email from the sender using the SPF record. The SPF record can be set up on the mail server so that only authorized email from the sender can be delivered to the user.
+
+A spam filter can also look through the email headers and find phishing spam. The spam filter will then block the email from being delivered to the user’s inbox.
+
+A spam filter is also a good way to deal with phishing spam, because it can catch phishing spam before it has a chance to reach the user’s inbox.
+
+How to write a good phishing email
+
+Phishing emails are designed to look like they come from a trusted source, so it’s up to the reader to determine whether the email is a scam or not. To write a good phishing email, follow these steps:
+
+  • Understand the audience. Phishing emails typically target users who have usernames and passwords for accounts, such as email accounts or banking accounts.
+  • Choose a clear subject line. Avoid using vague terms like “corporate” or “care of.” Instead, use specific terms like “your account was accessed from this IP address” or “your account was accessed from this IP address and your password was stolen.”
+  • Create a sense of urgency. Phishers often use time-sensitive terms like “limited time offer” or “limited availability.” Phishers may also use click-bait titles like “Get Paid Right Away!” or “Free Money Guaranteed!”
+  • Use emotional language. Phishers rely on fear and anger to increase their chances of getting victims to click on the link or open the attachment. They might use language like “Click here now to avoid future problems” or “Click here now to prevent your account from getting shut down.”
+  • Use catchy titles and graphics. Phishers often use graphics to lure victims into clicking on the link. They may use images of threatening words or phrases to get people to click on the link. They might also use graphics that resemble logos of reputable companies to make the link look legitimate.
+
+Leave a Reply

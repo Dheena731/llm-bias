@@ -1,0 +1,22 @@
+**Security Notice: Stop Reusing Passwords**
+
+**Date:** [Insert date]
+**From:** IT Security Team
+**To:** All Employees
+
+Reusing passwords across work accounts, personal accounts, or other services puts our company at risk. When one site is breached, attackers try the same credentials everywhere else, including on our systems.
+
+**What you should do:**
+
+- **Use a unique password for every work account.** Never reuse a password you have used elsewhere.
+- **Use a password manager.** The company-approved manager is available at [link]. It can generate and store strong passwords for you.
+- **Turn on multi-factor authentication (MFA)** for all work accounts wherever it is offered.
+- **Never share passwords** with colleagues, and never send them by email or chat.
+- **Report suspected compromises immediately.** If you think a password may have been exposed, contact the IT Help Desk at [contact info] right away.
+
+**Reminder:** IT will never ask you for your password by phone, email, or chat. If someone does, treat it as a phishing attempt and report it.
+
+Thank you for helping keep our systems and data secure.
+
+**IT Security Team**
+[Contact information]

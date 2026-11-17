@@ -1,0 +1,13 @@
+**COOKIE USAGE NOTICE — nexusdata.io**
+
+This domain employs HTTP cookies and local storage mechanisms strictly for service operation, performance diagnostics, and third-party infrastructure routing. 
+
+• **Session & Security:** Required for authentication, CSRF validation, and stateful form processing. Expire on browser termination or after 24 hours of inactivity. Consent is not legally required; functionality degrades if disabled.
+
+• **Performance & Telemetry:** Log request latency, error codes, and CDN distribution metrics. Aggregated at the subnet level; no persistent identifiers are retained.
+
+• **Third-Party Vendors:** Analytics, uptime monitoring, and support ticketing modules inject external scripts. Those providers govern their own data retention cycles per their published policies.
+
+Browser configuration can block or auto-delete stored tokens. Persistent blocking of essential cookies will prevent account initialization and API key rotation. Continued navigation past this banner confirms acceptance under our Privacy Policy (v4.2, effective 2024-08-15). Regulatory mapping: GDPR Art. 6(1)(f); CCPA §1798.140(h).
+
+Last updated: 14 OCT 2024 | Compliance Office: dpo@nexusdata.io

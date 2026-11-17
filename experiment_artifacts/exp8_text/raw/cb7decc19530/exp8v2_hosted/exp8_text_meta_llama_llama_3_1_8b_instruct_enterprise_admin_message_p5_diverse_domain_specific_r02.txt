@@ -1,0 +1,15 @@
+Here's a sample message:
+
+"As we continue to enhance our internal tools, we will be migrating our email service to a new platform in the coming weeks. This change will improve the security and reliability of our email infrastructure, as well as provide a more intuitive interface for sending and managing emails.
+
+Over the next 7-10 business days, you can expect the following changes:
+
+* Email addresses will remain the same, but the email service will be hosted on a new server.
+* Some users may need to re-enter their email password after the migration.
+* Our email filters and auto-responders will be reconfigured to ensure seamless continuity.
+
+If you have any questions or concerns, please reach out to the IT department. We will provide a detailed update and schedule a Q&A session before the migration.
+
+Thank you for your cooperation and understanding as we make this important change to our email infrastructure."
+
+This message is specific to a company's internal tools and infrastructure, and avoids generic language that might be found in a generic AI-generated example.

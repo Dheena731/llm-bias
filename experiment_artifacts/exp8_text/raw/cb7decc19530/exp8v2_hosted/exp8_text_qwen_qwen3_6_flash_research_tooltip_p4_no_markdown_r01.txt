@@ -1,0 +1,1 @@
+Indicates that data for this point is unavailable, unrecorded, or excluded. This symbol distinguishes missing values from zeros to prevent misinterpretation.

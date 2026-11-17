@@ -1,0 +1,9 @@
+Password Reuse Notice
+
+To maintain the security of our company's systems and data, we are reminding all employees to avoid using the same password across multiple applications and services. Password reuse can be a significant vulnerability, allowing unauthorized access to sensitive information and compromising the integrity of our systems.
+
+Using unique passwords for each application ensures that a breach of one system does not compromise others. This simple security measure can prevent significant damage and protect sensitive company information. When passwords are reused, an attacker who gains access to one account can easily use the same password to access other accounts, potentially leading to a major security incident.
+
+We encourage employees to take this precaution seriously and make a conscious effort to use unique passwords for each application. This includes passwords for email, network logins, software applications, and any other system or service used by the company. If you are unsure whether you are using unique passwords, please take a moment to review your account information and make any necessary adjustments.
+
+If you have any questions or concerns about password security, please do not hesitate to contact the IT department. We are here to assist and provide guidance on maintaining a secure work environment.

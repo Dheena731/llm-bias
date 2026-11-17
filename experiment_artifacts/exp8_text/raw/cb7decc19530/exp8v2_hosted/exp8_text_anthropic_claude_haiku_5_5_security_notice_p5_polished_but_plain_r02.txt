@@ -1,0 +1,9 @@
+Subject: Procedure for Reporting a Lost Company Laptop
+
+If you lose a company laptop, or believe one has been stolen, report it to the IT Service Desk as soon as possible, and no later than two hours after you notice it is missing. Prompt reporting allows IT to secure company data, disable access, and, where appropriate, lock or wipe the device remotely. Do not wait to confirm whether the device has simply been misplaced elsewhere before making the report.
+
+When you call or submit the report, please provide your name, employee ID, department, the laptop's asset tag and serial number, and the last time and place you remember having it. If the laptop was taken, you should also report the theft to local police and provide IT with the police report number, as this may be required for insurance purposes. Keep a copy of the report for your records.
+
+Until IT confirms the device has been secured, do not attempt to access company systems from any other device that might be connected to the missing laptop, such as a shared phone or personal tablet, and do not discuss the details of the loss on public forums or social media. If you have already signed in to company accounts on a personal device, tell IT so they can revoke those sessions.
+
+Failure to report a lost or stolen company device promptly may result in disciplinary action under the Acceptable Use Policy. Questions about this procedure should be directed to the IT Service Desk or to your line manager.

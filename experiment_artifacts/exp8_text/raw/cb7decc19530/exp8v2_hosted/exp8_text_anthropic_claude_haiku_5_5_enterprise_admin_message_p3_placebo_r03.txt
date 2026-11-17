@@ -1,0 +1,9 @@
+I don't have the details of the change, so I can't write an accurate announcement yet. Please send me:
+
+1. **What changed** in the VPN client (for example, a new version, a new login method, or a removed feature).
+2. **When** the change takes effect.
+3. **Who is affected** (all staff, specific teams, or all users on a certain platform).
+4. **What users need to do**, if anything (update the app, log in again, change a setting).
+5. **Who to contact** with questions, and the audience's technical level, so I can match the wording.
+
+Once I have these, I'll write a short message that leads with the change and the required action.

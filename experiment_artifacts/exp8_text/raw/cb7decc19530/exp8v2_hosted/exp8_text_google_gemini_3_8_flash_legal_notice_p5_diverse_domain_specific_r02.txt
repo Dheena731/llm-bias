@@ -1,0 +1,24 @@
+### NOTICE OF CONDITIONAL NETWORK ACCESS AND LOCAL ROUTING POLICY
+
+**APPLICABILITY:** This notice governs all Layer 2 associations, IP lease allocations, and downstream transit through this shared infrastructure. Connection to this segment—whether via physical ethernet drop, managed 802.1X, or pre-shared wireless infrastructure—constitutes an active, enforceable covenant between the endpoint operator and the Network Administrator.
+
+---
+
+#### 1. Prohibited Segment and Protocol Activities
+Access is strictly non-exclusive and limited to standard outbound client transactions. You are expressly prohibited from:
+* **Infrastructure Impairment:** Advertising rogue DHCP/BOOTP offers, issuing gratuitous ARPs, initiating spanning-tree topology updates (BPDU tampering), or conducting neighbor-discovery spoofing.
+* **Hostility & Surveillance:** Promiscuous capture of adjacent frame traffic, port scanning across local subnets, MAC-address flooding, or injection of unauthorized route advertisements (e.g., OSPF/BGP frames).
+* **Unsanctioned Daemons:** Operating open mail relays (specifically transit over unauthenticated TCP Port 25), public recursive resolvers, anonymous proxy endpoints, or peer-to-peer routing relays that cause sustained connection-state table exhaustion on perimeter security appliances.
+* **Circumvention:** Evading stateful inspection, MAC filtering, VLAN segmentation, or dynamic rate-limiting via spoofed hardware identifiers or virtual network interfaces.
+
+#### 2. Traffic Metering and Priority of Service
+Available upstream transit and internal switching capacity are shared communal resources. The Network Administrator reserves the right to enforce real-time traffic-shaping, deep-packet priority classification, and bandwidth throttling without prior declaration. Protocols exhibiting volumetric behavior consistent with bulk synchronization, automated scraping, or cryptographic operations are subject to immediate, unnotified deprioritization.
+
+#### 3. Monitoring, Telemetry, and Privacy
+**No reasonable expectation of payload or transactional privacy exists across this segment.** To maintain infrastructure integrity, enforce upstream carrier obligations, and comply with lawful interception directives, the Administrator actively captures, logs, and analyzes:
+1. Volumetric NetFlow/IPFIX telemetry and Layer 2/3 header data.
+2. Internal DNS query resolutions and associated source MAC/IP pairs.
+3. Anomaly signatures via active intrusion prevention engines.
+
+#### 4. Remediation and Immediate Quarantine
+Any endpoint detected generating malicious packet flows, malformed payloads, or volumetric egress that compromises local tenancy will suffer immediate remediation without warning. Actions include, but are not limited to: automated 802.1X dynamic VLAN reassignment to an isolated sandbox, null-routing (blackholing) of endpoint traffic at the core switch, or persistent port shutdown. The Administrator accepts zero liability for session termination, packet loss, or business interruption resulting from policy enforcement.

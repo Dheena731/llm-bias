@@ -1,0 +1,12 @@
+Here is a short message about an upcoming email migration:
+
+"Attention all users,
+
+We will be migrating our email system to a new platform on [Date]. During this time, you may experience temporary disruptions to your email service. Please note that all email accounts will be unavailable from [Time] on [Date] until [Time] on [Date + 1 day].
+
+If you have any questions or concerns, please contact our IT department at [IT contact email or phone number]. We will be happy to assist you.
+
+Thank you for your patience and cooperation during this process.
+
+Best regards,
+[Your Organization's Name]"

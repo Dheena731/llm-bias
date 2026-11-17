@@ -1,0 +1,2 @@
+**Exclude attention-check failures**
+Removes respondents who failed either instructed-response item (Q14 or Q31). Applied before weighting, so weighted estimates and n-counts will shift. Excluded rows stay in the raw file; clear the filter to restore them.

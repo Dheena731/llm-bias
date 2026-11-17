@@ -1,0 +1,7 @@
+**NOTICE: SHARED NETWORK ACCESS PROTOCOLS**
+
+**Scope of Association**
+Connection to this broadcast domain constitutes binding acceptance of these terms. By obtaining an IP lease or associating a MAC address to the wired/wireless infrastructure, the endpoint acknowledges that the medium is shared, untrusted, and subject to administrative oversight.
+
+**Traffic Inspection and Logging**
+All ingress and egress packets traverse managed choke points. The Network Administrator retains the right to perform deep packet inspection, metadata logging, and signature-based analysis for malicious payloads. No expectation of privacy exists

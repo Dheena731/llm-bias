@@ -1,0 +1,25 @@
+**Subject: Action Required: Quarterly Access Reviews**
+
+Hello team,
+
+Quarterly access reviews begin **[start date]** and must be completed by **[due date]**. These reviews help us keep our systems secure and meet compliance requirements.
+
+**What you need to do**
+- Review the list of users and permissions assigned to you in **[system/tool name]**.
+- Approve access that is still needed.
+- Flag or remove access that is no longer appropriate, including access for role changes, transfers, and departures.
+- Submit your completed review by the due date.
+
+**Who is responsible**
+Managers and system owners are responsible for reviewing access for their direct reports and assigned systems.
+
+**Reminders**
+- Apply the principle of least privilege: users should have only the access they need to do their jobs.
+- Unreviewed access may be suspended after the deadline.
+- Contact **[IT/Security contact]** if you see unfamiliar accounts or have questions.
+
+Thank you for helping us keep our systems and data secure.
+
+Best regards,
+**[Name]**
+**[Title/Department]**

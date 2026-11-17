@@ -1,0 +1,5 @@
+**Minimum age-control points**
+
+Cores with at least this many accepted radiocarbon or tephra dates. Fewer than 3 means ages between dates are interpolated across long gaps, so accumulation rates and event timing are weak. Dates flagged as reworked, or marine dates with no stated ΔR, are not counted.
+
+*Assumed context: a paleoclimate sediment-core browser. I can adapt it to another field, such as clinical trials, survey panels, or genomics.*

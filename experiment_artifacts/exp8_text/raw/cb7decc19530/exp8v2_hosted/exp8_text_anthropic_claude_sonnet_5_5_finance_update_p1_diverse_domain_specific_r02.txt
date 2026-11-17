@@ -1,0 +1,22 @@
+**Monthly spending summary, arriving on the 3rd**
+
+You'll now get a one-page summary of the previous month's spending on the 3rd of each month. We chose the 3rd over the 1st because card transactions from the last few days of the month are often still pending on the 1st, and totals kept shifting after the summary went out.
+
+**What it shows**
+
+- **Total spent**, plus the three categories that moved most compared with a typical month. "Typical" is the median of the previous three months, so one expensive December doesn't make every January look frugal.
+- **Fixed vs. variable.** Rent, insurance, and subscriptions are on one line. Groceries, dining, and fuel are listed separately.
+- **Uncategorized**, listed at the bottom with a count and a total, so you can see how much of the picture is missing.
+
+**How it's counted**
+
+- Credit card payments and transfers between your own accounts are left out. Paying a $1,400 card bill doesn't show up as $1,400 of spending, because the purchases were already counted when they happened.
+- Refunds are subtracted from the category of the original purchase rather than shown as income. A returned $90 jacket lowers Clothing by $90.
+- Split transactions are counted by their splits.
+- Foreign-currency purchases use the exchange rate on the posting date, so they may differ slightly from your card app.
+
+**Rolling it out**
+
+We generated summaries for the past three months so you can check them against your own records. If a total looks wrong, reply to the email with the transaction and we'll look into it. Most mismatches we've seen so far came from a transfer that was miscategorized as spending.
+
+You can turn the summary off under Settings → Notifications → Monthly summary.

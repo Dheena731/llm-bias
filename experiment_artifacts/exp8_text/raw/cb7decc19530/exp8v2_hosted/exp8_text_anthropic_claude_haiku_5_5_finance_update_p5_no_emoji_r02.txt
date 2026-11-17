@@ -1,0 +1,21 @@
+**Subject: Update on Delayed Payment Processing**
+
+Hi team,
+
+We are aware that some payments are currently taking longer than usual to process. Our engineering team identified the cause as a backlog in the transaction queue and is working to clear it.
+
+**Current status:**
+- Payments submitted since [time/date] may be delayed by up to [X hours].
+- No payments have been lost. All transactions are queued and will complete automatically.
+- Customers who notice a pending charge should not resubmit the payment, as this could lead to duplicate charges.
+
+**Next steps:**
+- We expect the backlog to clear by [time/date].
+- We will send another update once processing returns to normal.
+
+If you have questions or see an issue that is not covered here, contact [support channel or contact person].
+
+Thank you for your patience.
+
+[Name]
+[Title]

@@ -1,0 +1,9 @@
+Overall, your methods section is well-organized and logically structured. You did a good job describing the experimental procedure chronologically, which makes the workflow easy to follow.
+
+To strengthen this section, focus on ensuring full replicability:
+
+1. Provide more specific details regarding your participant sample (e.g., recruitment methods, key demographic information).
+2. Clarify the exact instruments, software versions, and settings used during data collection.
+3. Explicitly state your data exclusion criteria and how missing data were handled.
+
+With these additional details included, your methodology will be comprehensive and rigorous. Good work so far.

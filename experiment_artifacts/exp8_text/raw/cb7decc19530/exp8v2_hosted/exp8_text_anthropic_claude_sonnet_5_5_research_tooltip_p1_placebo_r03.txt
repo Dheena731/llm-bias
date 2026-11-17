@@ -1,0 +1,9 @@
+**Tooltip (example: "Publication year" filter)**
+
+> **Publication year**
+> Show only datasets published in the years you select. Other datasets are hidden from the results, not deleted. Clear the filter to see all datasets again.
+
+I wasn't told which filter you meant, so I used a common one. To tailor the tooltip, send me:
+- the filter's name
+- what it includes or excludes
+- any behavior users might misread, such as whether range endpoints are included, how it combines with other filters, or how datasets with missing values are handled

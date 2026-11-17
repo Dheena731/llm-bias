@@ -1,0 +1,1 @@
+A confidence interval indicates the range within which a population parameter is estimated to fall with a certain level of confidence.

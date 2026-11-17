@@ -1,0 +1,24 @@
+**Feedback on Conference Poster Draft**
+
+Thank you for sharing the draft. I haven't seen the poster itself, so this note uses a general template. Replace the bracketed items with specifics, or send me the draft and I'll tailor it.
+
+**Strengths**
+- The topic is timely, and the central question is clear: [state the question].
+- The [figure or result] communicates your main finding well.
+- The layout has a logical left-to-right flow, which makes it easy to follow.
+
+**Areas to improve**
+1. **Lead with the takeaway.** Add a one- or two-sentence summary near the top, or make the title state the finding. A viewer walking past should grasp your point in under 10 seconds.
+2. **Cut the text.** Aim for roughly 300 to 500 words total. Convert dense paragraphs in [section] into short bullets or a diagram.
+3. **Improve figure legibility.** Enlarge axis labels and legends so they can be read from about 1.5 meters away. Use consistent colors, and make sure they remain distinguishable for colorblind viewers.
+4. **Strengthen the methods summary.** Keep it brief, with one schematic or a few lines, and save the details for conversation.
+5. **Sharpen the conclusions.** Limit them to three key points tied directly to your results, and note limitations and next steps in a sentence.
+6. **Check visual hierarchy.** Title, section headings, and body text should be clearly distinct in size. Leave more white space around the figures.
+
+**Small fixes**
+- Check for consistent terminology and units.
+- Add a QR code linking to the paper, code, or your contact details.
+- Proofread the references and acknowledgments.
+
+**Overall**
+The content is solid, and the main work now is editing for clarity and readability. With a stronger headline message and less text, this will be an effective poster. I'm happy to review a revised version.

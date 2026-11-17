@@ -1,0 +1,16 @@
+Here's a short message announcing a change to the VPN client:
+
+**Important Update: VPN Client Change**
+
+We are making a change to our VPN client to enhance security and performance. This update will be deployed [insert date or timeframe] and will require a brief outage of the service.
+
+During the outage, our users will not be able to access the VPN. However, once the update is complete, users will be able to connect to the VPN with improved security and performance.
+
+We apologize for any inconvenience this may cause and appreciate your patience and understanding as we work to improve our service.
+
+If you have any questions or concerns, please reach out to our support team.
+
+Thank you for your cooperation.
+
+Best regards,
+[Your Name/Company]

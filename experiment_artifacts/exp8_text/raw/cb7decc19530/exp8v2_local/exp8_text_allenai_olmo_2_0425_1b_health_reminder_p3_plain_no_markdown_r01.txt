@@ -1,0 +1,35 @@
+8.4.8 Use a monospaced font.
+
+Create a template and make it a default so that every time you create a new text document, it'll use this template.
+
+To create a default document template, go to Settings → General → My Templates → Create new template → Monospaced font.
+
+This will create a template named template. You can modify the template however you want (for example by changing the fonts, colors, and styles). Once it is ready, you can select it and use it as a default template for new documents.
+
+8.4.9 Create a monospaced font.
+
+You can create a monospaced font of your own (for example, for a particular project or use) by simply copying a normal font, choosing it as a monospaced font, and then setting it as a default.
+
+8.4.10 Use a monospaced font for definition lists.
+
+A definition list is a list of items, of which each item is a simple term. A definition list is usually used to list the definitions of terms in a document. The items themselves can be normal prose or they can be defined terms.
+
+This is the way a definition list that uses non-standard terms looks like
+
+Term Definition
+Term Definition
+
+In the monospaced font. In that font, bold text is used where the term begins; normal text is used where the definition ends.
+
+In English, this looks a bit strange, because that's not how it's usually written. To fix that, you have to use <p style="display: block;">... </p>, and that's what we'll do in the following example.
+
+8.4.11 Use <p style="display: block;">...</p> for definition lists.
+
+  • <p style="display: block;">Term </p> <p>Definition</p>
+  • <p style="display: block;">Term </p> <p>Definition</p>
+
+This is the way a definition list that uses normal terms looks like. Here, bold text is used where the term begins; normal text is used where the definition ends.
+
+In the monospaced font. In that font, bold text is used where the term begins; normal text is used where the definition ends.
+
+In English, this looks a bit weird, because that's not how it's usually written. To fix this, you have to use <p style="display: block;">... </p>, which we will do in the following example.

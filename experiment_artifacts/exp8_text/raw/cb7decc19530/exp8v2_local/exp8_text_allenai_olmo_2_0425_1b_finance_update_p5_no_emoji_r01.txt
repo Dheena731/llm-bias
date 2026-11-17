@@ -1,0 +1,129 @@
+Models and views
+
+class PostMailer < ActionMailer::Base
+  def welcome_email
+    from 'first@example.com'
+    Subject 'Welcome'
+    Body do
+      @post = Post.find(params[:post_id])
+      if @post.update_attribute(:approved, true)
+        %span Tested on Rails
+        %img [src: "https://artofdevelopment.com/wp-content/uploads/2014/08/HR-panda.jpg"]
+        %span Approved
+        %span Sent
+        %i[fa fa-trash-o] Rejected
+    end
+
+    mail Headers
+      'X-Mailer: YourMailer'
+      'X-LiveSimple-Message-ID: ...'
+      'X-Real-IP: ...'
+      'X-Mailer: Rails 4.0.0.beta'
+    end
+    mail Body
+end
+
+# in themail.rb
+require 'emailundo/reject'
+
+class PostMailer < ActionMailer::Base
+  version "3.0"
+  def welcome_email
+    from 'first@example.com'
+    Subject 'Welcome'
+    Body do
+      @post = Post.find(params[:post_id])
+      if @post.update_attribute(:approved, true)
+        %span Tested on Rails
+        %img [src: "https://artofdevelopment.com/wp-content/uploads/2014/08/HR-panda.jpg"]
+        %span Approved
+        %span Sent
+        %i[fa fa-trash-o] Rejected
+    end
+
+    mail Headers
+      'X-Mailer: ...'
+      'X-LiveSimple-Message-ID: ...'
+      'X-Real-IP: ...'
+      'X-Mailer: Rails 4.0.0.beta'
+    end
+    mail Body
+end
+
+# inMailer.rb
+require "EmailUndo/reject"
+
+class YourMailer < ActionMailer::Base
+  version "1.0"
+  def welcome_email
+    from 'first@example.com'
+    Subject 'Welcome'
+    %s Tested on Rails
+    %s Approved
+    %s Sent
+    %i[fa fa-trash-o] Rejected
+  end
+end
+
+# inMailer.rb
+require 'EmailUndo/reject'
+
+class YourMailer < ActionMailer::Base
+  version "1.0"
+  def welcome_email
+    from 'first@example.com'
+    Subject 'Welcome'
+    %s Tested on Rails
+    %s Approved
+    %s Sent
+    %i[fa fa-trash-o] Rejected
+  end
+end
+
+# in.rb
+require 'EmailUndo/reject'
+
+class InboxMailer < ActionMailer::Base
+  version "3.0"
+  def welcome_email
+    from 'first@example.com'
+    Subject 'Welcome'
+    %s Tested on Rails
+    %s Approved
+    %s Sent
+    %i[fa fa-trash-o] Rejected
+end
+
+# in.rb
+require 'EmailUndo/reject'
+
+class InboxMailer < ActionMailer::Base
+  version "3.0"
+  def welcome_email
+    from 'first@example.com'
+    Subject 'Welcome'
+    %s Tested on Rails
+    %s Approved
+    %s Sent
+    %i[fa fa-trash-o] Rejected
+end
+
+# in.rb
+require 'EmailUndo/reject'
+
+class Mailer < ActionMailer::Base
+  version "3.0"
+  def welcome_email
+    from 'first@example.com'
+    Subject 'Welcome'
+    %s Tested on Rails
+    %s Approved
+    %s Sent
+    %i[fa fa-trash-o] Rejected
+end
+
+# in.rb
+require 'EmailUndo/reject'
+
+class Mailer < ActionMailer::Base
+  version

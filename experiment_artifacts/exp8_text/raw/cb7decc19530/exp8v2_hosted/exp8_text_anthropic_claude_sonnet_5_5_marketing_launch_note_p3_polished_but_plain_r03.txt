@@ -1,0 +1,11 @@
+We are pleased to announce the launch of the Clear Month Budget Template, a spreadsheet designed to help you understand where your money goes and decide where it should go next.
+
+Most budgeting tools ask you to track every purchase or learn a complicated system before they become useful. This template takes a simpler approach. You enter your monthly income, list your fixed and variable expenses, and set savings goals. The spreadsheet then calculates what remains, shows how your spending compares with your plan, and flags categories where you are running over.
+
+The template includes a monthly overview page that gives you a snapshot of your finances at a glance, along with a transaction log for those who prefer to record purchases as they happen. A yearly summary page pulls your monthly figures together so you can spot patterns, such as seasonal spending increases or months when saving is easier. Built-in formulas handle the arithmetic, so you only need to fill in the cells that are shaded. Everything else updates automatically.
+
+Customization was a priority. You can rename categories, add or remove rows, and adjust the percentages used for savings targets without breaking any calculations. The template works in Excel, Google Sheets, and most other spreadsheet programs, and it requires no macros or add-ons, which means your financial information stays on your own device or in your own account.
+
+Whether you are building your first budget, paying down debt, or trying to save for a specific goal, the Clear Month Budget Template gives you a practical starting point. Setup takes about fifteen minutes, and a short guide inside the file walks you through each step.
+
+The template is available today. We hope it makes managing your money feel a little more manageable.

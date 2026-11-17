@@ -1,0 +1,20 @@
+**Subject: Mail moves to the new server Saturday night, March 8**
+
+Hi all,
+
+On Saturday, March 8, starting at 9:00 p.m., we'll move everyone's mailbox from the old Exchange server in the back closet to Microsoft 365. Mail may be unavailable until about noon Sunday. Anything sent to you during that window will queue on the sending side and arrive once we're finished, so nothing should bounce.
+
+Things you'll need to do Monday morning:
+
+- **Desktop Outlook:** It will ask for your password once. If it keeps prompting after that, close Outlook fully and reopen it.
+- **iPhone or Android:** Delete the old "Harlow Exchange" account under Settings > Mail (or Accounts) and add it again using your full @harlowarch.com address.
+- **Webmail:** Use outlook.office.com from now on. The old mail.harlowarch.com page stops working March 31.
+
+Shared inboxes (permits@, invoices@, rfi@) move with the rest, but you'll need to re-add them in Outlook under File > Add Account. Calendars carry over, though meetings you accepted before the move may show as "tentative" until you respond again.
+
+If you have a PST archive on your local drive, leave it where it is. It won't be touched, and you can reimport it later if you need something from it.
+
+Questions or a stuck phone: reply here or stop by the IT desk before 5:00 Friday so I can set it up with you.
+
+Dana
+IT, Harlow Architecture

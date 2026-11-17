@@ -1,0 +1,7 @@
+Here is a concise tooltip that explains a date-range selector in a specific domain:
+
+"Select a study period to filter events by date:
+
+* Click and drag to set a custom range
+* Use the calendar to select a specific start and end date
+* Choose from preset periods (e.g. last 30 days, last year)"

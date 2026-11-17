@@ -1,0 +1,20 @@
+**Subject: Two-factor sign-in for the client portal, required by March 14**
+
+Starting Monday, March 3, signing in to the client file system and billing portal will require a six-digit code from an authenticator app in addition to your password. You can set this up now. It takes about five minutes.
+
+**To set it up:**
+
+1. Install Microsoft Authenticator or Google Authenticator on your phone, if you don't already have one.
+2. Sign in at portal.harlowcpa.example/mfa with your usual password.
+3. Scan the QR code with the app and enter the six-digit code it shows.
+4. Save the ten backup codes that appear. Each works once if you lose your phone. Keep them somewhere other than your work laptop, such as a printed copy in your desk drawer.
+
+**A few things to know:**
+
+- Text message codes won't work for the portal. Texts can be intercepted, and a phone number can be moved to a new SIM without your knowledge. The app is the safer option.
+- If you're replacing your phone, transfer your authenticator accounts before wiping the old one. If you've already lost access, call Dana at ext. 214 before you try anything else.
+- After you verify on a computer, the portal will ask again only every 30 days on that device.
+
+Accounts without two-factor turned on by March 14 will lose access to client files until the help desk verifies identity in person. Auditors reviewing our April controls will check for this, so please don't leave it until the last week.
+
+Questions: it-help@harlowcpa.example or ext. 214.

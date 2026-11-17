@@ -1,0 +1,1 @@
+Select a range of dates by choosing a start and end date from the calendar. The start date must be before the end date. You can also use the preset options to quickly choose a range such as today, yesterday, or last week.

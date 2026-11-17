@@ -1,0 +1,25 @@
+SECURITY NOTICE: Password Reuse
+
+To all staff,
+
+We have noticed that some employees are using the same password for work accounts and personal accounts, or reusing one password across several work systems. This practice puts both the company and you at risk. If a password is exposed in a breach at any other website or service, attackers can try that same password against company email, VPN access, and internal systems.
+
+Effective immediately, please follow these requirements:
+
+Use a unique password for every work account. Never reuse a work password on a personal site or app.
+
+Create passwords of at least 14 characters. A passphrase of several unrelated words is a strong option.
+
+Use a password manager approved by IT to generate and store your credentials. Do not save passwords in browsers on shared or personal devices, in spreadsheets, or in notes apps.
+
+Turn on multi-factor authentication for all work accounts wherever it is available.
+
+Change any password that you have used on more than one account, and report it to IT if you believe it may have been exposed.
+
+Never share your password with anyone, including coworkers and IT staff. IT will never ask for your password by email or phone.
+
+If you receive a message asking you to reset a password or verify your credentials, and you did not request it, do not click the link. Report it to the Security team immediately.
+
+Questions or concerns can be directed to the IT Service Desk. Thank you for helping keep our systems and data secure.
+
+IT Security Team

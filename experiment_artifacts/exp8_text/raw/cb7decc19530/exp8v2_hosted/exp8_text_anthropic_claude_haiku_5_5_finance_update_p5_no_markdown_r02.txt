@@ -1,0 +1,14 @@
+Subject: Update on Delayed Payment Processing
+
+Hello team,
+
+We are aware that some payments have been delayed in processing over the past two days. The issue originated with a configuration change to our payment gateway integration, which caused transactions to queue instead of completing in real time.
+
+Our engineering team identified the cause this morning and has rolled back the change. Queued transactions are now being processed, and we expect the backlog to clear within the next several hours. We are monitoring the system closely to confirm that new payments are completing normally.
+
+Affected customers will see their payments reflected once processing is complete. No duplicate charges have been made, and no action is needed on your part. If you notice a payment still pending after 24 hours, please contact support with the transaction reference number so we can investigate.
+
+We apologize for the inconvenience and appreciate your patience. We will send a final update once the backlog is fully cleared.
+
+Thank you,
+Operations Team

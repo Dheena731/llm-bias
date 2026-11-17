@@ -1,0 +1,31 @@
+*(No draft was attached, so I've assumed a poster on soil microbial recovery after prescribed burns. The note is below. If you send the real poster, I can rewrite it.)*
+
+---
+
+**To:** Dana
+**Re:** Poster draft, "Microbial recovery after low-severity prescribed fire"
+
+Dana,
+
+The strongest thing here is Figure 2, the fungal:bacterial ratio across the 0, 1, 3, and 5-year burn intervals. It's the only place the poster shows the pattern directly, so it should be the largest panel, with the center of the poster built around it. Right now it's about the same size as the site map.
+
+**Title vs. data.** "Recovery" implies you know the pre-burn baseline, but your controls are adjacent unburned plots, not pre-fire samples. Either say "differences between burned and unburned stands" or put the design limitation in one line under Methods. Someone will ask, and it's better if the poster already answers.
+
+**Figure 2.**
+- The y-axis label reads "F:B," which isn't defined anywhere on the poster. Spell it out. Also say whether it comes from qPCR copy numbers or PLFA, because people read the numbers differently.
+- Error bars aren't labeled (SE? SD?), and n per interval isn't shown. I count three plots at the 5-year site, which is thin. Put n on the figure.
+- The red/green coding won't survive a colorblind viewer or a bad printer. Switch to a blue/orange pair.
+
+**Stats.** The p-values in the text box are floating without a test attached. One sentence will do, such as "mixed model, plot as random effect, Tukey contrasts." If you didn't account for the sites being nested, expect a question about pseudoreplication.
+
+**Methods.** The extraction protocol takes up nearly a quarter of the poster. Cut it to sampling depth, season, and the sequencing target (ITS2 vs. 16S V4), and move the rest to a QR link. Nobody at a poster session reads bead-beating times.
+
+**Results text.** Three of your five bullets restate what the figures already show. Replace them with one sentence on what surprised you. The dip in Basidiomycota at year 3 looks like that.
+
+**Reading distance.** Step back six feet from your screen. The soil-moisture covariate panel is unreadable at that distance. If it isn't central to the argument, drop it. If it is, enlarge it and cut something else.
+
+**Conclusion.** "Fire alters microbial communities" is true of almost every fire study. Say something only your data can: for example, that the fungal shift persists past year 3 even though litter depth has normalized. That gives people something to argue with at the poster.
+
+Happy to look at a second draft before you send it to print.
+
+—

@@ -1,0 +1,7 @@
+A database index is an auxiliary, sorted data structure—typically an on-disk B+ Tree—maintained alongside a table's primary storage to eliminate full sequential scans.
+
+Without an index, satisfying a query like `WHERE tenant_id = 902` forces the execution engine to sweep through every data page on disk, evaluating tuples one by one ($O(N)$ I/O). 
+
+With an index on `tenant_id`, the engine executes a binary search through the tree's internal nodes ($O(\log N)$), lands on a specific leaf node, and reads the indexed value paired with a row locator (either a physical tuple identifier like a page/offset pointer, or a primary key). The engine then issues targeted I/O to fetch only the pages containing matching rows, or answers the query entirely in memory if the index covers all requested columns.
+
+The cost is write amplification: every `INSERT`, `UPDATE`, or `DELETE` that alters an indexed column forces the engine to synchronously traverse the tree, update leaf pages, handle occasional page splits, and append extra operations to the write-ahead log (WAL).

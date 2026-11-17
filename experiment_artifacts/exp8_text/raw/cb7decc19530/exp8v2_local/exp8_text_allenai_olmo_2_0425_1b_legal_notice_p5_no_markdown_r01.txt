@@ -1,0 +1,5 @@
+If you need to write an email, you should consider writing it outside of your time on the train.
+
+Reading and Writing Offline
+
+It is not possible to read or write files in the offline storage. However, you can still use the groupware server to store files. The Mailstation supports using Apple’s Midori browser for offline Internet access.

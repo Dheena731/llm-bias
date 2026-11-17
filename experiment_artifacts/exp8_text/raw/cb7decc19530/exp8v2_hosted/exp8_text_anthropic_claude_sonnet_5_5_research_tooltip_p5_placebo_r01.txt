@@ -1,0 +1,6 @@
+**Tooltip:**
+
+> **Export results**
+> Run your query, then click **Export** to download the results as a file.
+
+**Note:** You didn't mention the product or its interface, so I assumed a button labeled "Export" that appears after a query runs. If your UI uses a different label, or offers format choices such as CSV or Excel, or row limits, update the text to match. For example: "Run your query, then click **Export** and choose a format."

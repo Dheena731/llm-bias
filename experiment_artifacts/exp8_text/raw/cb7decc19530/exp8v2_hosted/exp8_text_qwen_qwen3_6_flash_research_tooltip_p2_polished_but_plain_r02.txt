@@ -1,0 +1,1 @@
+The interval represents the range of values expected to contain the true underlying value of the metric. A wider interval indicates greater uncertainty in the estimate, while a narrower interval suggests higher precision based on the available data.

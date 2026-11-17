@@ -1,0 +1,14 @@
+Subject: Reminder About Phishing Emails
+
+Dear colleagues,
+
+We are reminding everyone to stay alert to phishing emails, which are fraudulent messages designed to trick you into revealing passwords, financial details, or other sensitive information, or into clicking on harmful links or attachments. These messages often look like they come from a manager, a vendor, IT support, or a familiar service, and they may create a sense of urgency to pressure you into acting quickly.
+
+Before you click a link or open an attachment, check the sender's full email address rather than just the display name, and be cautious of requests to log in, verify your account, or make payments through an unexpected message. If something feels off, contact the sender through a known phone number or in person before taking any action. Our IT team will never ask for your password by email.
+
+If you receive a suspicious message, do not reply or click anything. Report it to the IT service desk right away so it can be reviewed and blocked for others. If you think you have already entered credentials or opened a suspicious attachment, report it immediately, even if you feel embarrassed, because quick action can limit the damage.
+
+Thank you for helping keep our organization and our data secure.
+
+Regards,
+IT Security Team

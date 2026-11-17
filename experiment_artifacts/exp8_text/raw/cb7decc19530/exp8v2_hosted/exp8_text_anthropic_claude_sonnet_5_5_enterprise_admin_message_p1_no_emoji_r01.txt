@@ -1,0 +1,25 @@
+**Subject: Scheduled Dashboard Maintenance**
+
+Hello team,
+
+The analytics dashboard will be unavailable for scheduled maintenance during the following window:
+
+**Date:** Saturday, [Month Day]
+**Time:** 10:00 PM to 1:00 AM [Time Zone]
+**Expected downtime:** Approximately 3 hours
+
+**What to expect:**
+- The dashboard and its reports will be inaccessible during this period.
+- Scheduled exports and email reports set to run in this window will be delayed until maintenance is complete.
+- Data will not be lost. Any information collected during the downtime will appear once service is restored.
+
+**What you need to do:**
+- Save or export any reports you need before the window begins.
+- Plan around the downtime for any time-sensitive reporting.
+
+We will send a confirmation message when maintenance is finished and the dashboard is back online. If you notice any issues afterward, please contact the support team at [support email or channel].
+
+Thank you for your patience.
+
+[Your Name]
+[Your Title / Team]

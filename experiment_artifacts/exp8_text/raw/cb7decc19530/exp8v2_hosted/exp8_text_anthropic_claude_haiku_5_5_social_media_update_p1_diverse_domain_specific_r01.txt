@@ -1,0 +1,5 @@
+**New in Seed Ledger: germination tracking.**
+
+Log the date you sowed a packet and the app will tell you when to expect sprouts, then flag anything that's gone past its window. It also handles the seeds you saved yourself. Mark a batch as "paper towel tested" with a count (7 of 10 up, say), and anyone swapping for it can see what they're getting.
+
+Rolling out to all accounts this week. Thanks to the people in the October swap thread who kept asking for this.

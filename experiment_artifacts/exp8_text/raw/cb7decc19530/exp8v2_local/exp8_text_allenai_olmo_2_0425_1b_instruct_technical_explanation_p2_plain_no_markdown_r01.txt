@@ -1,0 +1,5 @@
+A database index is a small structure that the database management system (DBMS) uses to speed up access to data. Think of an index as a quick reference guide that tells the DBMS where to find specific pieces of a table's data rapidly, rather than having to scan through every single row every time a query is made.
+
+Imagine you're looking for a book in a library. If the library employs an index, you'd locate the index page first, then jump directly to the relevant section of the book to find the information you're seeking. Similarly, an index in a database helps speed up finding records or data by reducing the amount of data that needs to be scanned.
+
+An index is created based on one or more columns in a table and stored alongside the table data. When a query is made, the DBMS quickly checks the index to see which records contain the requested data without having to examine all the rows in the table. This significantly speeds up search operations, especially for large datasets. The more frequently queried fields in an index (referred to as key columns), the more significant the speed up is, as those columns generally contain the most sought-after information.

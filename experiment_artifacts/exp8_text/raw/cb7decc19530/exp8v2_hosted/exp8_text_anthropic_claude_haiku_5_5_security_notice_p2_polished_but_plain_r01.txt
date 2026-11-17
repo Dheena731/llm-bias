@@ -1,0 +1,11 @@
+Subject: Protecting Yourself and the Company from Phishing Emails
+
+Phishing emails are designed to look like messages from people or organizations you trust, such as colleagues, IT staff, vendors, or banks. Their goal is to trick you into clicking a malicious link, opening an infected attachment, or entering your login details on a fake page. Many of these messages are convincing, so it is important to stay alert, especially when a message asks for urgent action, login credentials, payment changes, or sensitive data.
+
+Before you click or respond, take a moment to check the sender's full email address rather than just the display name, and look for small inconsistencies such as misspelled domains, unexpected greetings, or grammar that does not match how the sender usually writes. Be cautious of messages that create pressure, claim that your account will be suspended, or ask you to act outside normal procedures. Hover over links to see where they actually lead, and do not open attachments you were not expecting.
+
+If you suspect a message is phishing, do not reply, click any links, or forward it to others. Report it to the IT service desk right away using the reporting process you already have in place, and delete the message only after IT has advised you to do so. If you have already clicked a link or entered a password, contact IT immediately, even if you feel embarrassed. Quick reporting can prevent a small mistake from becoming a serious security incident.
+
+Our IT team will never ask you to share your password by email or to confirm credentials through an unexpected link. If you are unsure whether a request is genuine, verify it through a separate channel, such as calling the person directly or contacting the IT service desk, before taking any action.
+
+Thank you for helping keep our systems and information secure.

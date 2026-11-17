@@ -1,0 +1,21 @@
+Here is a short, customizable template you can use:
+
+***
+
+**Subject:** Heads Up: Upcoming Email Migration on [Date]
+
+Hi Team,
+
+Please be aware that we will be upgrading our email system to [New Platform, e.g., Microsoft 365 / Google Workspace] on **[Day, Date]** starting at **[Time]**.
+
+**What you need to know:**
+* **Temporary Interruption:** You may experience brief delays in sending or receiving emails between [Start Time] and [End Time]. 
+* **Your Data is Safe:** All your existing emails, folders, contacts, and calendar events will be transferred automatically.
+* **Next Steps:** We will send a quick guide on [Date] with simple instructions on how to log in to the new system once the migration is complete.
+
+If you have any questions or concerns beforehand, please reach out to the IT team at [Help Desk Email/Slack Channel].
+
+Thank you for your patience as we improve our systems!
+
+Best regards,  
+[Your Name/IT Department]

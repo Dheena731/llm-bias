@@ -1,0 +1,2 @@
+**Export results**
+Click **Export** above the results table and choose a format (CSV, JSON, or Excel). The file includes all rows returned by your query, not just the rows currently visible. For large result sets, the download may take a moment to start.
