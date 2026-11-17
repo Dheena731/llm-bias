@@ -1,0 +1,1 @@
+"A missing-value marker indicates that no data is available for a particular field or cell, and is often represented by a specific symbol or label, such as 'NA' or 'Unknown'."

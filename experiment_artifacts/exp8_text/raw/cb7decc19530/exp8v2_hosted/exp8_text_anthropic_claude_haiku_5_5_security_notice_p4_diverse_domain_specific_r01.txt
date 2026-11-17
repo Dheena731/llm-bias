@@ -1,0 +1,15 @@
+**Two-factor sign-in for the patient portal starts March 3**
+
+Beginning Monday, March 3, signing in to the patient scheduling portal and the shared drive will require a six-digit code from your phone after your password. Setup takes about five minutes.
+
+To set it up:
+
+1. Sign in at portal.harborstreetclinic.org and open **Security** from the menu under your name.
+2. Choose **Add authenticator app**. Google Authenticator, Microsoft Authenticator, and Authy all work. Text-message codes are available, but use an app if you can.
+3. Scan the QR code, enter the six-digit code the app shows, and save the ten backup codes that appear.
+
+Backup codes work once each. Print them or store them in a password manager, not in a note on the same phone as your authenticator app. If that phone is lost, the backup codes are your only way back in.
+
+If you're getting a new phone before March 3, set up the app on the new one first, or call the front desk at ext. 240 for help. After the 3rd, a lockout reset takes up to one business day because we verify identity in person.
+
+The front desk tablets use shared logins and are not affected by this change. Dana is moving them to individual accounts separately, and you'll hear from her before that happens.

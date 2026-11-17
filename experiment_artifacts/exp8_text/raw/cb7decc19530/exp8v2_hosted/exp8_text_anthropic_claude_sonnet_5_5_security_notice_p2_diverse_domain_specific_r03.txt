@@ -1,0 +1,21 @@
+**NOTICE TO ALL STAFF: Phishing emails, tax season**
+From: IT, Halvorsen & Pike LLP
+Posted: March 4
+
+Over the last nine days, 31 staff members received emails that looked like they came from clients. Three people opened the attachment. Here is what the emails looked like, so you can recognize the next batch.
+
+**What we're seeing**
+- "Please find my W-2s and 1099s via secure link," sent from a Gmail address or a domain one letter off from the client's real one (for example, *harrisonfarms.co* instead of *.com*).
+- A message from a client's "new bookkeeper" asking you to update the bank account on file for a refund.
+- "Your mailbox is 98% full," with a button to increase storage. We don't send these. Our mailboxes are not that small.
+- A shared-document request that asks you to sign in with your firm password.
+
+**What to do**
+1. Don't enter your firm password anywhere you reached through an email link. Go to the portal directly.
+2. Any request to change bank details must be confirmed by calling the client at the number in our own file, not the number in the email.
+3. Use the **Report Phish** button in Outlook. It reaches us faster than forwarding and lets us pull the message from other inboxes.
+
+**If you clicked something**
+Call IT at ext. 214 right away, even if nothing seemed to happen. Speed matters more than certainty. No one will be written up for clicking. Staying quiet for a day is what turns a reset-your-password problem into a client-data problem.
+
+Client files are not to be emailed to personal accounts, even to work on them over the weekend.

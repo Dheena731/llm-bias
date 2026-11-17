@@ -1,0 +1,1 @@
+"Confidence Interval: A range of values within which we are 95% confident the true value lies, giving an indication of the estimate's precision and reliability."

@@ -1,0 +1,9 @@
+**COOKIE USAGE NOTICE — VERIDIANANALYTICS.IO**
+
+This domain operates HTTP cookies and equivalent client-side storage mechanisms to preserve session continuity, validate user credentials, aggregate performance telemetry, and serve conditional content. Strictly necessary cookies—including session identifiers, authentication tokens, and server routing markers—function without advance consent. 
+
+Performance and third-party integration cookies record navigation patterns, error frequencies, and device parameters to maintain system stability; these persist for up to twenty-four months. Embedded service providers (payment gateways, geolocation APIs, and support ticketing systems) may deploy independent cookies governed by their respective privacy frameworks.
+
+Non-essential cookies may be restricted through the configuration interface at veridiananalytics.io/cookie-prefs. Revoking consent disables analytics and targeting functions but does not interrupt baseline site operations. Preference tokens are locally stored and remain valid for twelve months. Data retention and processing comply with applicable jurisdictional requirements under GDPR, CCPA, and ePrivacy directives where enforceable.
+
+For protocol inquiries, direct correspondence to privacy@veridiananalytics.io. Revised: October 24, 2024.

@@ -1,0 +1,23 @@
+Style Guide
+
+  1. No third-party frameworks: no jQuery or Bootstrap or Google Maps or any other third-party framework.
+  2. No jQuery, Bootstrap or any other similar framework.
+  3. No elements with ids.
+  4. No input devices, except for keyboard navigation.
+  5. No hover effects or glow effects.
+  6. No animated elements, except for clickable cartoons.
+  7. Users will have to install Leaflet on their computer by following the documentation on GitHub,, or directly by downloading the latest release from the Releases page.
+  8. No javascript file names.
+  9. No javascript file extensions.
+
+It is recommended you use lowercase for all variable and function names, and camelCase for object members and function names.
+
+
+  1. Do not use inline code.
+  2. Please separate code with a line-break (not a <br> tag).
+  3. Use the HTML element to create code blocks.
+  4. Use a template to create, edit and post comments.
+
+Collaboration with the Leaflet team
+
+We have decided to use Leaflet as a framework for this project, and we are looking for contributors. If you are interested in contributing, please contact us.

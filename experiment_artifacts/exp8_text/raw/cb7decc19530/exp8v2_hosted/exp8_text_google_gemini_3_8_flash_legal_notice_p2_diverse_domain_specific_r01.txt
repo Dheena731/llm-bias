@@ -1,0 +1,27 @@
+**NOTICE OF MATERIAL AMENDMENT: GLOBAL RESEARCH DATA PRIVACY SCHEDULE**  
+**DOCUMENT REF:** POL-PRIV-2024.3  
+**EFFECTIVE DATE:** November 1, 2024  
+**APPLICABILITY:** Sponsoring Institutions, Principal Investigators, and Registered Data Custodians  
+
+Pursuant to Section 14.2 of the HelixPoint Master Data Platform Agreement, this notice serves as formal notification that HelixPoint BioSciences Corp. has amended its **Data Privacy Standard for Genomic Telemetry and Phenotypic Ingestion**. This revision supersedes Version 2022.1 and governs all active and archived sequencing pipelines.
+
+### Summary of Material Amendments:
+
+1. **Re-identification Risk and Variant-Level Metadata (Section 4.1):**  
+   Clarified technical safeguards regarding deep-coverage whole-genome sequencing (WGS) data. Aligned de-identification methodologies with the Safe Harbor and Expert Determination standards under 45 CFR § 164.514(b). Variant Call Format (.VCF) files derived from rare disease cohorts (<50 participants) are now classified as Pseudonymized Special Category Data under GDPR Article 9 and require explicit secondary data-use attestation prior to egress.
+
+2. **Retention and Destruction Schedules for Intermediate Artifacts (Section 7.3):**  
+   Raw binary alignment/map (.BAM) and FASTQ files stored in multi-tenant ingestion buckets will be systematically depreciated to cold archive after ninety (90) days from quality-control clearance, and permanently purged at three hundred sixty-five (365) days, absent an executed Cohort Extension Addendum.
+
+3. **Cross-Border Compute Operations (Section 11.4):**  
+   Updated Standard Contractual Clauses (EU 2021/914, Module 2) to reflect the routing of federated analysis jobs through our Frankfurt (eu-central-1) enclave for computational queries originating from EEA member states.
+
+### Obligation and Remediation:
+
+Continued invocation of the HelixPoint Ingestion API or maintenance of active cloud storage volumes past **November 1, 2024**, constitutes legal acceptance of these modified terms. 
+
+Institutions exercising rights of participant consent withdrawal (Right to Erasure) under existing Institutional Review Board (IRB) protocols must submit manifest identifiers via the verified cryptographic signature protocol outlined in **Appendix D** by no later than October 25, 2024, to intercept the scheduled automated model re-training pipeline.
+
+Direct all compliance notices, Data Protection Officer inquiries, and withdrawal manifests to:  
+`legal-governance@helixpoint.internal`  
+*Attn: Office of the Data Protection Officer*

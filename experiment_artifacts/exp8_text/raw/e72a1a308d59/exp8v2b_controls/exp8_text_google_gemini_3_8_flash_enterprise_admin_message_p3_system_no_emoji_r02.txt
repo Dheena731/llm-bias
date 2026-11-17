@@ -1,0 +1,14 @@
+Subject: Action Required: Upgrade to the New VPN Client
+
+Team,
+
+We are transitioning to a new VPN client, [New Client Name], to improve connection stability and network security. 
+
+Key Dates:
+- New client available: [Date]
+- Old client retired: [Date]
+
+Action Required:
+Please follow the setup guide at [Link] to install and configure the new VPN client. Make sure to complete this before [Date], as the legacy client will no longer work after that point.
+
+If you have any questions or run into issues during setup, please contact the IT Helpdesk at [Contact Information].

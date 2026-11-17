@@ -1,0 +1,24 @@
+**Subject: Scheduled Dashboard Maintenance**
+
+Hello team,
+
+We will be performing scheduled maintenance on the analytics dashboard on **Saturday, [DATE], from 10:00 PM to 1:00 AM [TIME ZONE]**.
+
+**What to expect:**
+- The dashboard will be unavailable for the duration of the window.
+- Scheduled reports set to run during this time will be delayed and will resume once maintenance is complete.
+- No data will be lost, and all saved views and filters will be preserved.
+
+**What you need to do:**
+- Export or save any time-sensitive reports before the window begins.
+- Log out of active sessions by 9:45 PM to avoid interruptions.
+
+We will send a confirmation once the dashboard is back online. If the work finishes early, access will be restored sooner.
+
+For questions or urgent requests during the window, please contact [SUPPORT CONTACT].
+
+Thank you for your patience as we make these improvements.
+
+Best regards,
+[YOUR NAME]
+[TEAM / DEPARTMENT]

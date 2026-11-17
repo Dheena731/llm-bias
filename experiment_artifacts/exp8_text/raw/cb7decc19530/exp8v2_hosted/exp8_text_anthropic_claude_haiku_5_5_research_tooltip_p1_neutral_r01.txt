@@ -1,0 +1,3 @@
+Here's a concise tooltip option:
+
+**Date Range Filter:** Limits results to records collected between the selected start and end dates. Records outside this window are hidden but not deleted.

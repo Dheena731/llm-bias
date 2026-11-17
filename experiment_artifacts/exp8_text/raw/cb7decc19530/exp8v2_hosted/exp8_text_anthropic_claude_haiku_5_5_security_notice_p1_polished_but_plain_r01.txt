@@ -1,0 +1,9 @@
+Subject: Reminder to Avoid Password Reuse
+
+Please make sure that every work account uses a unique password that is not used for any personal account, website, or other service. When one site suffers a data breach, attackers often try the same email and password combinations on banking, email, and corporate systems. A password reused across accounts can therefore give an attacker access to far more than the original site.
+
+Strong passwords are long, unpredictable, and specific to each account. A password manager approved by the IT department can generate and store these passwords so you do not need to memorize them. Avoid simple variations of an old password, such as changing a single number or adding a year, since these are easy for attackers to guess.
+
+If you suspect that a work password has been used anywhere else, change it immediately and notify the IT Security team. Do not wait to see whether a problem develops. Prompt reporting allows us to contain risks before they affect colleagues, customers, or company data.
+
+Thank you for helping keep our systems and information secure. Questions about approved password tools or account policies can be directed to the IT Service Desk.

@@ -1,0 +1,61 @@
+HackerRank: Find the Unique Pattern
+
+4.4k 2016-12-05 03:01:32
+
+
+Find the Unique Pattern
+
+Original Problem
+
+This is a variation on the original puzzle and has the same solution. 
+
+A given collection of numbers are known and you are to find a unique number that has each number as its factor.
+
+Input Format
+
+The first line of input will have N, and N will have an integer. 
+
+The second line of input will have N, an integer.
+
+Output Format
+
+Output the unique number on a single line.
+
+
+  • 1 <= N <= 10
+  • 0 <= N <= 1000
+  • 1 <= N <= 500000
+
+Notation Resolution
+
+The solution will be valid if the given numbers are unique and the unique number is obtained by multiplying all of the given numbers.
+
+Time Complexity
+
+O(N): O(N) for finding the unique number, O(N) for checking if the given numbers are unique, and an additional O(1) for printing the unique number.
+
+Space Complexity
+
+O(1): O(1) for saving the solution in memory.
+
+Sample Input
+
+3 3
+2 2 1
+1 1 0
+0 0 0
+
+Sample Output
+
+
+Explanation of the solution
+
+We'll start by calculating the factors of each number. 
+
+The factors of 3 are 1, 3, and 3. The factors of 2 are 1, 2, and 2. The factors of 1 are 1. 
+
+There are 8 numbers to consider. We'll use the solution approach we'll describe below to find the unique number that has all of the numbers as its factors.
+
+Enter 5 as N to enter the solution:
+
+Tagged: combinat joins

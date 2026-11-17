@@ -1,0 +1,8 @@
+Caching speeds up a website by **storing temporary copies of its files and data in easily accessible places**—such as your web browser or servers located closer to you. 
+
+Here is how it works:
+
+* **Without caching:** Every time you visit a webpage, your browser has to ask the website’s main server to build the page from scratch—fetching images, running code, and querying databases. This back-and-forth takes time.
+* **With caching:** The first time the page loads, a copy of the data is saved in a "cache." On future visits, your browser simply loads the saved version instead of asking the main server to recreate it.
+
+Think of it like keeping a frequently used file on your desk instead of walking to the archive room every time you need to read it. By eliminating repetitive work and cutting down travel distance for data, pages load much faster.

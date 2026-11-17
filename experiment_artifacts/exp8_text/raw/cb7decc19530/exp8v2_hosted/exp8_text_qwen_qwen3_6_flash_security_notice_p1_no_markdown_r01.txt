@@ -1,0 +1,21 @@
+WORKPLACE SECURITY NOTICE: PROHIBITION OF PASSWORD REUSE
+
+Date: May 22, 2024
+To: All Staff
+From: Information Security Department
+Subject: Strict Ban on Password Reuse
+
+This notice reminds all employees that reusing passwords between work and personal accounts is strictly prohibited. Using identical credentials for your corporate login and any external service, such as personal email, social media, or shopping sites, creates an unacceptable security risk.
+
+Attackers frequently exploit data breaches from third-party websites to gain access to company systems through a technique known as credential stuffing. If a hacker obtains your password from a personal site, they may attempt to log in to your work account, potentially compromising sensitive business data.
+
+Required Actions:
+1. Ensure your work password is unique and not used anywhere else.
+2. Immediately change your work password if you suspect it has been reused on another platform.
+3. Use the company-approved password manager to generate and store distinct passwords for all accounts.
+
+Non-compliance with this policy may result in account suspension until a unique password is established. For assistance, contact the IT Helpdesk at extension 5000 or visit the security portal on the intranet.
+
+Thank you for your commitment to keeping our workplace secure.
+
+IT Security Operations

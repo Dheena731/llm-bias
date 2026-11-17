@@ -1,0 +1,1 @@
+Click the export icon above your results to save them as a CSV, Excel, or JSON file. Choose your preferred format from the dropdown menu and confirm to begin the download. Processing may take a few moments for large datasets.

@@ -1,0 +1,10 @@
+Caching speeds up a website by storing copies of data so it doesn't have to be fetched or generated again each time someone requests it. Without caching, every visit triggers a chain of work: the browser requests a page, the server queries a database, runs application code, and sends the result back across the network. Each step takes time, and the work is often repeated for identical requests.
+
+Caching short-circuits this process at several levels:
+
+- **Browser caching:** Images, stylesheets, and scripts are saved on the visitor's device. On a return visit, the browser loads them locally instead of downloading them again.
+- **Server or page caching:** A finished HTML page is stored and served directly to later visitors, skipping database queries and template rendering.
+- **Database caching:** Results of frequent queries are kept in fast memory (often with tools like Redis or Memcached), so the database is hit less often.
+- **CDN (content delivery network) caching:** Copies of content are stored on servers around the world, so users receive files from a location physically close to them, reducing travel time for data.
+
+The result is faster page loads, lower server load, and the ability to handle more visitors at once. The main trade-off is keeping cached content fresh: systems use expiration times or invalidation rules so visitors see up-to-date information without the site doing all the work from scratch every time.

@@ -1,0 +1,56 @@
+# What is card transaction fee?
+
+
+## History of card transaction fee
+
+Information about the history of card transaction fee can be found here:
+
+## What is the difference between transaction fee?
+
+Transaction fee means the cost that merchants pay to send money to another person or business. The fee is also known as an interchange fee. When we talk about card transaction fee, we refer to the transaction fee that merchants receive from the transaction.
+
+## Card transaction fee calculator
+
+To calculate the conversion fee, you need to divide the transaction fee by the card network's average interchange rate. The calculation follows:
+
+Conversion fee = (Transaction fee / Interchange rate) x 100%
+
+2. Card network's average interchange rate
+
+The average interchange rate is the set of rates that a specific card network charges for transactions. The calculation follows:
+
+Average interchange rate = Transaction fee (in cents) / 100 x 1,000,000
+
+3. What is the average interchange rate?
+
+The average interchange rate is the average amount that merchants receive for card transactions. The calculation follows:
+
+Average interchange rate = (Transaction fee in dollars) / 1,000,000 x 100
+
+As you can see, we've used the fact that 1 million is the number used in the calculation of average interchange rate. For instance, if the average interchange rate is 1% and you pay the card network with €100, you will receive €1 in fees.
+
+The average interchange rate is a measure of how much you will receive from the card network when you make a card transaction. Crucially, the average interchange rate is not always the same for different card networks. This can be because of the type of transaction, the amount involved, the card type, or the geographical location. As the average interchange rate varies, it is useful to consider the average interchange rate for the card network you are dealing with.
+
+Credit card transactions may be processed by more than one card network, which could mean that the card network's average interchange rates will vary. In addition, the average interchange rate could be higher when a card network processes a credit card transaction, due to the additional costs involved.
+
+Nowadays, merchants can calculate their card transaction fee by using the average interchange rate. The calculation is as follows:
+
+Average interchange rate = (Transaction fee in dollars / 1,000,000) x 100
+
+4. How does the card network apply the average interchange rate?
+
+When a transaction is carried out, the average interchange rate is applied to the transaction fee. The average interchange rate can generally be found on the website of the card network.
+
+Card networks use the average interchange rate to calculate the amount that they will charge for a transaction. This will generally be expressed as an amount per transaction. Consequently, card networks may apply a declining or rising average interchange rate, which means that the fee will decrease or increase as more transactions are made.
+
+### How does the average interchange rate affect card networks?
+
+The average interchange rate is used to determine the amount of the transaction fee that the card networks charge merchants. The average interchange rate can change depending on the type of transaction, the card type, or the geography.
+
+## What is the average interchange rate?
+
+The term average interchange rate is sometimes used interchangeably with the term average interchange fee. It is possible that you have seen the two terms used interchangeably. However, they are not the same. This is because the average interchange fee is a measure of the average amount that merchants receive per transaction.
+
+The average interchange fee is the average amount that merchants receive for transactions. The average interchange fee is the amount of money that a card network receives for every transaction.
+
+The average interchange rate is the average figure that a card network uses when calculating the average interchange fee for a transaction. The average interchange rate is an average figure that a card network

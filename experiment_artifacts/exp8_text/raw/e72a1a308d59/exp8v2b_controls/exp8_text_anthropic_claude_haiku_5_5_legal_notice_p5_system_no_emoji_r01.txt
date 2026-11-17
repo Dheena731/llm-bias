@@ -1,0 +1,39 @@
+**ACCEPTABLE USE NOTICE FOR SHARED NETWORK RESOURCES**
+
+**1. Purpose and Scope**
+This Notice governs the use of the shared network, including all wired and wireless connections, servers, storage, and internet access provided by [Organization Name] ("the Organization"). It applies to all users, including employees, contractors, students, and guests.
+
+**2. Authorized Use**
+Network resources are provided for lawful, business-related, or educational purposes. Limited personal use is permitted provided it does not interfere with the Organization's operations, consume excessive bandwidth, or violate this Notice.
+
+**3. Prohibited Conduct**
+Users shall not:
+(a) access, store, or transmit material that is unlawful, defamatory, harassing, or obscene;
+(b) infringe copyrights, trademarks, or other intellectual property rights;
+(c) attempt to gain unauthorized access to any system, account, or data;
+(d) introduce malware, or disable, circumvent, or interfere with security controls;
+(e) share credentials or permit others to use one's account;
+(f) engage in activities that degrade network performance for other users, including unauthorized mass downloads or network scanning; or
+(g) use the network for commercial purposes unrelated to the Organization.
+
+**4. Privacy and Monitoring**
+Users acknowledge that the Organization may monitor, log, and review network activity, including email and stored files, to maintain security, ensure compliance, and investigate suspected violations. Users should have no expectation of privacy in their use of shared network resources, to the extent permitted by applicable law.
+
+**5. Security Responsibilities**
+Users are responsible for safeguarding their credentials and devices and must promptly report any suspected security incident, lost device, or unauthorized access to [IT Department / Contact].
+
+**6. Enforcement**
+Violations of this Notice may result in suspension or termination of network access, disciplinary action up to and including termination of employment or enrollment, and referral to law enforcement where appropriate. The Organization reserves the right to remove or restrict content and access without prior notice where necessary to protect the network.
+
+**7. Disclaimer and Limitation of Liability**
+Network resources are provided "as is." The Organization makes no warranty regarding uninterrupted or error-free service and is not liable for loss of data or damages arising from use of the network, except as required by law.
+
+**8. Amendments**
+The Organization may amend this Notice at any time. Continued use of the network following notice of an amendment constitutes acceptance of the revised terms.
+
+**9. Acknowledgment**
+By connecting to or using the shared network, you acknowledge that you have read, understood, and agreed to comply with this Notice.
+
+Effective Date: [Date]
+Issued by: [Name, Title]
+[Organization Name]

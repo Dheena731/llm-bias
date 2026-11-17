@@ -1,0 +1,7 @@
+**Subject: Mandatory Quarterly Access Reviews – Action Required**
+
+All department managers and system owners must complete your scheduled quarterly access review by the final day of each calendar quarter. This process verifies that all employee and contractor permissions align with current job responsibilities and meet organizational security requirements.
+
+Using the designated access review system, confirm which users retain active credentials, remove any outdated or unnecessary permissions, and record your decisions in the official audit log. If you are uncertain whether a user should maintain access, coordinate with their direct supervisor before making changes.
+
+Incomplete reviews will result in automatic revocation of associated system access. For assistance, contact the IT Security team at security@organization.com or visit the administrative help desk. Thank you for promptly fulfilling this compliance requirement.

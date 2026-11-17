@@ -1,0 +1,10 @@
+One file. No account. No subscription. Just rows that update when you do.
+
+We built this budgeting template for people who already work in spreadsheets but keep running into app-style friction: locked cells, buried formulas, monthly sync failures, and summaries that look clean but don’t track actual cash movement.
+
+The layout splits transaction capture from reporting. Export your monthly bank CSV, paste it into the ledger tab, and the financials roll forward automatically. Fixed obligations, variable categories, debt amortization, and sinking funds sit in clearly bounded sections. Change an interest rate or shift a contribution target, and the downstream projections adjust without breaking. No macros, no external data links, no cloud dependencies. If your machine loses connectivity, your budget doesn’t.
+
+Compatible with Excel and Google Sheets. Every calculation includes inline notes explaining the logic. Only standard functions are used (XLOOKUP, SUMIFS, DATE, IFERROR). When we patch a bug or add a feature, we release versioned files—you keep your historical copies intact.
+
+Download: [link]  
+Report a broken cell or suggest a formula tweak on the revision log. Your money isn’t SaaS. Neither should this.

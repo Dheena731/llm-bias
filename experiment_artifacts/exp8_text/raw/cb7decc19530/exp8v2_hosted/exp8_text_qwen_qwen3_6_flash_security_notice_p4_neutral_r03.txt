@@ -1,0 +1,9 @@
+**NOTICE: Two-Factor Authentication (2FA) Activation Required**
+
+To strengthen account security and protect sensitive information, all users are required to enable two-factor authentication (2FA) on their accounts. 2FA adds a critical second layer of verification beyond your password, significantly reducing the risk of unauthorized access from phishing, credential theft, or brute-force attacks.
+
+**Action Required:** Please activate 2FA through your account’s Security Settings by **[Deadline Date]**. Step-by-step setup instructions are available here: **[Link or Document Reference]**.
+
+Accounts that do not have 2FA enabled after the deadline will be temporarily restricted to maintain system and data integrity.
+
+Need assistance? Contact IT Support at **[Email/Phone]** or visit the Help Center. Your cooperation helps keep our environment secure. Thank you for acting promptly.

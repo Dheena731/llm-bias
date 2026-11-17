@@ -1,0 +1,14 @@
+Subject: Notice of VPN Client Update
+
+Dear Users,
+
+We are rolling out an update to the corporate VPN client effective Monday, November 18. This release improves connection reliability, strengthens encryption standards, and simplifies the user interface.
+
+The new version will install automatically the next time you open the application. If your system does not update within 24 hours, please manually download the installer from the internal software repository and follow the setup guide.
+
+Please reach out to the IT helpdesk at helpdesk@company.com or dial ext. 4300 if you experience any connectivity problems after upgrading.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+Network Security Team

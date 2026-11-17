@@ -1,0 +1,1 @@
+**Exclude incomplete records:** Hides any row with a blank value in the selected fields. Charts and counts use only the remaining rows. Your original data is unchanged, and you can turn this off at any time to include all rows.

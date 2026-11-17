@@ -1,0 +1,47 @@
+Citation Style Handbook
+
+The purpose of this document is to document the prose style and citation standards for the Association of American Geographers. It is not intended to be a source for citation information. For such sources, please refer to the citation guides in the EBSCOhost database.
+
+BibTeX citations
+
+BibTeX citations are used for citations in the text and for creation of PDF files and HTML pages.
+
+BibTeX files are intended to be inserted into the text by the authors of the text, so authors will always be the only people who can enter a citation, however, anyone can enter a citation. A note is entered into the text for the person who enters a citation. For example, the text "BibTeX entry: < citation >" is entered in the text for all people who enter a citation.
+
+This document provides general information about the structure of BibTeX files, but does not explain how to create a BibTeX file that meets all the standards.
+
+BibTeX files are limited in length. For example, the maximum file length of a BibTeX file is 1000 characters. You should include all relevant authors, titles, year, and page numbers in your entry. Do not include other information in your entry. You should enter the citation in the exact format indicated in the entry, and entry should always be a single line. Please refer to the BibTeX entry format for an explanation of the structure of a BibTeX entry.
+
+
+When creating an entry, authors should do the following:
+
+  1. Enter the entry into the text under the entry number (e.g. the first line should be "The author (1) entered the citation (2) in (3).")
+  2. Note the name of the author, the entry number, and the date in the text.
+  3. Enter the citation in the format approved by the Association of American Geographers. This means that the author, year, and page numbers should all be entered in the format consistent with the style used by this organization.
+
+When using the default style file, the entry number will be the first 8 characters of the author's name.
+
+Please refer to the BibTeX entry format for an explanation of the structure of a BibTeX entry.
+
+
+If you are using the default style file, authors should enter the citation in the following format:
+
+author = {Citation, < name > < 1>}, 
+    year = {year < 1>}, 
+    page = {page number < 1>}, 
+    title = {Title < 1>}, 
+    journaltitle = {Journal title < 1>}, 
+    volume = {volume < 1>}, 
+    year = {year < 1>}
+
+When using the default style file, the reference number is the first 8 characters of the author's name.
+
+
+If you are using the default style file, please follow these guidelines for formatting citations in a table of contents:
+
+  1. Do not use a heading for the table of contents, only list the rules and authors.
+  2. Enter all 10 bibliography items in the table of contents, including the bibliography number and the title, even if they are not used.
+  3. Do not include subentries in the table of contents, only include the entry number (if appropriate for the style).
+  4. You should place the bibliography in alphabetical order by the author's initials or last name, separated by a comma. When author's names are long, they should be separated by semicolons.
+
+When using the default style file, the bibliography entry should be sorted with the style and year first, then the title, then the initials or last name. The abbreviations of the style and year (e.g. ASA Journal

@@ -1,0 +1,7 @@
+An API rate limit is a way for service providers to control how many requests a client can make in a certain time period, usually set by the provider to prevent abuse or excessive use. This limits the number of requests from the same client or IP address, often measured in requests per second (RPS). Here's a simple explanation without all the technical jargon:
+
+Imagine you're allowed to make 100 phone calls a day. An API rate limit is like saying, "While you can make those 100 calls, you can't make more than four per hour." The service provider decides on these limits to manage stress on their servers and to prevent overload, especially under high traffic conditions.
+
+In practice, when an API hits its rate limit, it might not allow further requests for a short period (for example, 15 minutes), after which it might honor past requests and reset the limit for that client. Some APIs automatically adjust their limits based on traffic patterns, whereas others have more rigid settings that might need to be explicitly managed by the client or service owner.
+
+Clients should be aware of these limits when developing applications that interact with APIs to avoid unexpected behavior or service interruption. Understanding and complying with rate limits is crucial for building a reliable, sustainable, and fair interaction with other services.

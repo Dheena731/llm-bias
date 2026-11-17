@@ -1,0 +1,1 @@
+Latency is the delay between a user’s action and the application’s response. Low latency makes a web application feel fast and responsive, while high latency causes waiting, disrupts workflows, and can lead users to abandon tasks. Reducing latency therefore improves usability and helps the application handle interactions more efficiently.

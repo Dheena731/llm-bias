@@ -1,0 +1,21 @@
+*(No draft was attached, so I've invented one: a master's student's methods section on leaf-litter decomposition in headwater streams.)*
+
+---
+
+Priya,
+
+The methods read clearly, and I could follow the site selection without a map. The reasoning behind your choice of red alder is also sound. Most of what follows concerns what a reader can't yet reproduce or trust.
+
+**Litter bags.** You give the mesh as "coarse and fine" without sizes. State them (I assume ~10 mm and ~0.5 mm) and say what you're claiming the contrast isolates. If it's shredder contribution, say so here, not only in the discussion.
+
+**Initial mass.** You air-dried the leaves, but the 60°C oven subsample used to correct for moisture is mentioned only in passing. Say how many subsamples you used. Also say whether you accounted for mass lost to leaching in the first 24 hours, because your day-7 values depend on it.
+
+**Replication.** Five bags per site tied to one rebar stake in one pool is pseudoreplication unless the stake is your unit. Either describe how bags were spread across riffles and pools, or treat the stake as the replicate and adjust your analysis section to match.
+
+**Time.** You report decay in days, but your sites differ by roughly 3°C in mean temperature. Log temperature and express k per degree-day as well, or a reviewer will ask.
+
+**Ash-free dry mass.** Give the furnace temperature and duration (550°C for how long?). Without them the AFDM correction can't be repeated.
+
+Fix the replication description first, since it affects how I read everything downstream. Send me the revised paragraph before you redo the full section.
+
+—Dr. Okafor

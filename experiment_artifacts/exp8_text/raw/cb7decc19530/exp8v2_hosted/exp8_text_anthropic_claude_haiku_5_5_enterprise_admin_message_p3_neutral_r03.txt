@@ -1,0 +1,16 @@
+**Subject: VPN Client Update: Action Required by [Date]**
+
+Hi team,
+
+We're updating the VPN client to version [X.X] on [date]. The update improves connection stability and adds [key feature or fix].
+
+**What you need to do:**
+- Save your work and disconnect from the VPN before updating.
+- Download the new client from [link or portal location].
+- Sign in with your usual credentials.
+
+If you have trouble installing or connecting, contact IT Support at [email/phone/ticket link]. The old client will stop working after [date], so please update before then.
+
+Thanks,
+[Your name]
+[Team/Department]

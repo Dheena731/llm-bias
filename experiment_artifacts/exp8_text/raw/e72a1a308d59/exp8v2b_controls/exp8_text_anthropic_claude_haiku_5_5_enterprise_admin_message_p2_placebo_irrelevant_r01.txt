@@ -1,0 +1,20 @@
+Subject: New Expense Approval Workflow Effective [Date]
+
+Hi everyone,
+
+Starting [Date], we're moving to a new expense approval workflow to make reimbursements faster and more transparent.
+
+Here's what's changing:
+
+- **Submission:** All expense reports must be submitted through [system name] within [X] days of the purchase, with receipts attached.
+- **Approval:** Reports under [$amount] will be approved by your direct manager. Reports above that amount will also require sign-off from [department/role].
+- **Timeline:** Approvers will review submissions within [X] business days. You'll receive an email notification at each step.
+- **Reimbursement:** Approved expenses will be paid through [payroll/direct deposit] on the [next available date].
+
+A quick guide and FAQ are available on [location/link]. If you have questions, contact [name] at [email or extension].
+
+Thank you for your cooperation as we roll this out.
+
+Best regards,
+[Your Name]
+[Title]

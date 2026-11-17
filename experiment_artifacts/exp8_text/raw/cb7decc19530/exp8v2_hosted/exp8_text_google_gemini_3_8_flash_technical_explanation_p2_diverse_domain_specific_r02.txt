@@ -1,0 +1,7 @@
+A database index is an auxiliary data structure—most commonly a balanced tree (B-Tree/B+ Tree) or hash map—that maintains a sorted subset of table columns alongside pointers to the underlying row locations in the storage heap.
+
+Without an index, a relational query engine has no deterministic way to find a record without evaluating the entire table. It must execute a sequential scan (full table scan), reading every database page off disk into the buffer pool from start to finish—an $O(N)$ I/O operation that degrades linearly as the dataset grows.
+
+When an index exists on a queried column, the storage engine bypasses the heap scan. It traverses the balanced tree nodes via binary search in $O(\log N)$ operations to pinpoint the target leaf node. That node supplies the physical Row ID (RID) or tuple pointer needed to read only the specific data pages containing the requested rows. In optimal scenarios—such as a "covering index"—the engine resolves the query entirely within the index tree, eliminating heap access altogether.
+
+The structural cost is write amplification: indexes are not free caches. Every `INSERT`, `UPDATE`, or `DELETE` executed against indexed columns forces the engine to synchronously update, rebalance, and periodically split the physical tree pages on disk, trading write latency and storage footprint for predictable, low-latency reads.

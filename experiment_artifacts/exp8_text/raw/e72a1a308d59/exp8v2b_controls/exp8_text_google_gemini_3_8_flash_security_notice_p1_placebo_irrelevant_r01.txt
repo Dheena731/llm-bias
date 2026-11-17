@@ -1,0 +1,19 @@
+**Subject: IT Security Reminder: The Dangers of Password Reuse**
+
+**To:** All Staff  
+**From:** IT & Information Security Team  
+
+We would like to remind all employees about the critical importance of using unique passwords for every account, both professional and personal. 
+
+### Why It Matters
+When a third-party website experiences a data breach, attackers compile lists of stolen email addresses and passwords. They routinely use automated tools to test these credentials against corporate systems—an attack known as **credential stuffing**. If you use your work password on an external website that gets compromised, our entire network is placed at risk.
+
+### Best Practices
+* **Never reuse your work password:** Your corporate login should never match a password used for personal email, social media, shopping, or any other non-work accounts.
+* **Make them unique and complex:** Create passphrases of at least 14 characters using a mix of letters, numbers, and symbols.
+* **Use a Password Manager:** You do not need to memorize dozens of complex passwords. Please use our approved password manager to generate and store them securely.
+* **Enable Multi-Factor Authentication (MFA):** Always approve MFA prompts only when you are actively logging in. Never approve unexpected prompts.
+
+If you suspect one of your passwords has been compromised, or if you need assistance setting up the company password manager, please contact the IT Help Desk immediately at [IT Help Desk Contact Info].
+
+Thank you for doing your part to keep our organization secure.

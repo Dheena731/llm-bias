@@ -1,0 +1,3 @@
+A database index works much like the index at the back of a book. Instead of forcing the database to scan every single row of a table to find specific information, an index creates a sorted, quick-reference guide. It holds a small subset of the data along with direct pointers to the full records. 
+
+This drastically speeds up search and retrieval operations. However, because the database must update the index every time data is added, modified, or deleted, indexes use extra storage space and can slightly slow down write operations.

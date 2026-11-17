@@ -1,0 +1,23 @@
+Subject: Upcoming Email Migration This Weekend
+
+Hello everyone,
+
+We will be migrating our email system to a new platform on Saturday, June 14, beginning at 8:00 PM and finishing by approximately 6:00 AM on Sunday, June 15. During this window, email access may be intermittent or unavailable.
+
+What you need to do before the migration:
+- Clean out your inbox by deleting old or unneeded messages
+- Save any urgent attachments to your computer or shared drive
+- Note any important calendar events or contacts you rely on
+
+What to expect afterward:
+- Your email address and password will stay the same
+- Your existing messages, folders, and contacts will be transferred automatically
+- You may be prompted to sign in again on your phone and other devices
+- Outlook may take a few minutes to resync the first time you open it
+
+If you notice missing messages or have trouble signing in after the migration, please contact the IT Help Desk at helpdesk@example.com or call 555-0123. We will have extra staff available on Monday morning to help.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+The IT Team

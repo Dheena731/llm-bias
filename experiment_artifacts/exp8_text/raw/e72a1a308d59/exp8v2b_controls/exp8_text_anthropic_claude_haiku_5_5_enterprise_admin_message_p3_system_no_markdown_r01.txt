@@ -1,0 +1,12 @@
+Subject: Upcoming Update to the VPN Client
+
+Hello everyone,
+
+We're releasing version 3.2 of the VPN client on June 15. The update adds faster reconnection after network changes and fixes an issue that caused occasional dropouts on Wi-Fi networks. Your existing settings and saved profiles will carry over automatically.
+
+To update, open the client and select Check for Updates, or download the latest installer from the IT portal. The update takes about two minutes and requires a restart.
+
+If you run into problems after updating, contact the IT help desk at helpdesk@example.com or extension 4357.
+
+Thank you,
+IT Department

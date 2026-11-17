@@ -1,0 +1,18 @@
+**Subject:** Scheduled Maintenance Notice: Dashboard Downtime on [Date]
+
+Hello everyone,
+
+Please be aware that the **[Name of Dashboard]** will be temporarily unavailable during a scheduled maintenance window for routine system upgrades and performance improvements.
+
+**Maintenance Details:**
+* **Date:** [Day of the week, Month Day, Year]
+* **Time:** [Start Time] – [End Time] [Timezone] (e.g., 10:00 PM – 12:00 AM UTC)
+* **Expected Impact:** The dashboard will be offline and inaccessible during this time. Any automated background processes and data collection will continue to run unaffected.
+
+Please make sure to save any changes and complete critical tasks prior to the start of the window. 
+
+We apologize for any inconvenience this may cause. For real-time updates during the maintenance period, please visit our **[Status Page link]** or reach out to **[Support Contact/Slack Channel]** if you have any questions.
+
+Thank you for your patience,
+
+**The [Company / IT / Product] Team**

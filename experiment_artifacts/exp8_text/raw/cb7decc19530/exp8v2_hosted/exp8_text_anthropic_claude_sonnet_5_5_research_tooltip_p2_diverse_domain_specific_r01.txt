@@ -1,0 +1,16 @@
+**Default (A/B test, conversion rate)**
+
+> **95% confidence interval: 3.1%-3.9%**
+> The true checkout conversion rate is likely in this range. Over many repeated tests, about 95% of intervals built this way would contain it. The band narrows as more sessions come in.
+
+**Variants for other domains**
+
+*Polling:*
+> **±3 pts (95% CI)**
+> Candidate A's 48% could plausibly be anywhere from 45% to 51%. A lead of 2 points is within the noise.
+
+*Clinical trial:*
+> **Mean drop in systolic BP: 4-9 mmHg (95% CI)**
+> These are the effect sizes the data support. If the range included 0, we couldn't rule out no effect.
+
+If you tell me your chart's domain, I can tailor the wording and numbers to it.

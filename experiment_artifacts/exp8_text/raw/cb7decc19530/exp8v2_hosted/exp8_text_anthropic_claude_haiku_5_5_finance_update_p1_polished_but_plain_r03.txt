@@ -1,0 +1,7 @@
+We've added a monthly spending summary that gives you a clear picture of where your money went over the past month. Each summary appears on the first day of the following month and groups your transactions into categories such as housing, groceries, transportation, dining, and subscriptions. It also compares your totals with the previous month, so you can see whether a category grew or shrank and by how much.
+
+The summary opens with three figures: your total spending, your largest category, and your net change from the month before. Below those, you can expand any category to see the individual transactions behind it. Transactions you have recategorized are reflected in the totals automatically, so a quick correction in your activity list will keep the summary accurate.
+
+You can find the summary in the Insights tab. If you would like it sent to your email at the start of each month, you can turn on that option in Notification settings. Summaries are available for the last twelve months, and older records remain in your transaction history.
+
+We built this feature to make monthly review less tedious and to help you spot changes before they become habits. If you have feedback or notice a category that doesn't look right, please reach out through the Help menu and we will look into it.

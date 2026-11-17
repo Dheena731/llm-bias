@@ -1,0 +1,11 @@
+ADMINISTRATIVE NOTICE: QUARTERLY ACCESS REVIEW
+
+All department managers and system owners are required to complete the upcoming quarterly user access review. 
+
+In accordance with our organizational security and compliance policies, please review the current permissions for all personnel within your department or application scope. You must confirm that access levels remain appropriate and revoke access for any individuals who have changed roles or departed the organization.
+
+Deadline for completion: Friday, November 17, at 5:00 PM.
+
+Please access your review dashboard through the internal Identity and Access Management (IAM) portal to submit your approvals or revocations. Failure to complete the review by the deadline may result in automated suspension of unverified accounts.
+
+If you have questions or need assistance, please contact the IT Security Team at security@company.internal.

@@ -1,0 +1,4 @@
+**Filter:** Baseline Lookback Window (≥180 days)
+
+**Tooltip:** 
+> Requires continuous observation prior to the index date to avoid misclassifying pre-existing chronic conditions as incident events. Excludes records with fragmented coverage.

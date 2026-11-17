@@ -1,0 +1,11 @@
+**Feedback on "Depth distribution of microfibres in Red River floodplain cores" (draft v2)**
+
+The depth profile in Fig. 3 is the strongest thing on the board, but it currently sits third in the reading order, below a methods flowchart that most visitors will skip. Promote it.
+
+- **Title:** "Burial rates" overstates what you have. You have four cores and one ²¹⁰Pb profile (C2), so you can describe depth distribution but not rates. Either change the title or add the dating limitation to the subtitle. Someone at the poster will ask about this within a minute.
+- **Fig. 3 axes:** The y-axis reads "depth (cm)" but the surface sample sits at the bottom of the plot, which reads as inverted. Either flip it or label it "depth below surface." The x-axis also mixes items/g and items/kg across cores. Pick one unit and convert the others.
+- **Blanks:** The methods say procedural blanks were run, but the results never report them. Put the blank mean and range in a footnote on Fig. 3. Without it, the low-count upper layers look either like nothing or like contamination, and the reader can't tell which.
+- **Text load:** Panel 2 runs about 900 words. Nobody reads that at poster distance. Cut it to three sentences and let the figure carry the argument.
+- **Type size:** The body text is 18 pt. Go to at least 24 pt so it's legible from a metre and a half away.
+- **QR code:** Good that you're linking the FTIR spectra and R scripts. Add a short caption beside it saying what's there, so people know whether it's worth scanning.
+- **Acknowled

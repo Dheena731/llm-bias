@@ -1,0 +1,5 @@
+Between 9:12 and 10:03 this morning, the booking page wouldn't load and class reservations weren't saving. If you tried to grab a wheel or a kiln slot and got a spinning circle, that was on us. An expired security certificate caused it, and we should have caught the renewal notice last month. It went to an inbox nobody checks anymore. It's renewed now, and those alerts go to the studio account everyone can see.
+
+Bookings that failed during the outage should have gone through by 10:05. Check your confirmation email before rebooking, and if one is missing, reply here with your name and class time and we'll add you by hand.
+
+Sorry for the lost morning, especially to those who had already driven in.

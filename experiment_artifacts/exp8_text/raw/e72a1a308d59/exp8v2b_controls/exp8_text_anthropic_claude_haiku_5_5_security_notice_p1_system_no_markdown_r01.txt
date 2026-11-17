@@ -1,0 +1,17 @@
+Subject: Security Notice: Do Not Reuse Passwords
+
+To all staff,
+
+We have identified a rising number of accounts that share passwords across work systems and personal services. When one of those services is breached, attackers try the same credentials against our systems. To reduce this risk, please observe the following:
+
+1. Use a unique password for every work account. Never reuse a password you have used elsewhere, including personal email, shopping, or social media accounts.
+2. Use the company password manager to generate and store passwords. Do not save them in browsers, spreadsheets, notes, or sticky notes.
+3. Enable multi-factor authentication on all work accounts that support it.
+4. Never share your password with anyone, including IT staff. We will never ask for it by email, chat, or phone.
+5. Report suspicious login prompts, unexpected password reset emails, or requests for credentials to the IT Service Desk immediately.
+
+If you believe a password you use for work has been exposed in any breach, change it now and notify the Security team at security@company.example.
+
+Thank you for helping keep our systems and data secure.
+
+IT Security Team

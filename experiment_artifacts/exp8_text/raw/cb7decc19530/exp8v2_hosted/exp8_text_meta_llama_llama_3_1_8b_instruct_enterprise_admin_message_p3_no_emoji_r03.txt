@@ -1,0 +1,3 @@
+Here is a short message announcing a change to the VPN client:
+
+"Attention all users, we are making a change to the VPN client that will affect all connections starting immediately. Please note that this change may require you to update your VPN software to continue accessing the network. If you have any questions or concerns, please contact the IT department for assistance."

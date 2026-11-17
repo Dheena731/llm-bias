@@ -1,0 +1,16 @@
+I don't have the student's methods section, so this note covers the issues that most often come up. If you paste the text, I can tailor it to what the student actually wrote.
+
+Dear [Student],
+
+Thank you for your draft. Your methods section has a clear structure, and I can follow the overall sequence of what you did. Below are the main strengths and the areas to revise.
+
+What works well: You describe your participants and materials in an organized way, and the order of the procedures is easy to follow. Your choice of approach also fits your research question.
+
+What to strengthen: First, add enough detail for someone else to replicate your study. Specify sample size, how participants or data sources were selected, instruments or software (with versions), and key settings or parameters. Second, justify your major decisions. For example, explain why you chose this design, measure, or analysis over alternatives. Third, describe your analysis plan more explicitly, including the statistical tests or analytic steps, how you handled missing data or outliers, and any assumptions you checked. Fourth, address ethical considerations such as consent, approval, and data privacy, if relevant.
+
+Style and clarity: Use past tense consistently, and keep results and interpretation out of this section. Some sentences are long and could be split for readability. Make sure subsections have clear, parallel headings.
+
+Next steps: Revise with these points in mind, then reread the section as if you were a stranger trying to reproduce your study. If any step would leave them guessing, add detail there. I'm happy to look at a second draft.
+
+Best regards,
+[Your name]

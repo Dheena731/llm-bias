@@ -1,0 +1,7 @@
+We have added a monthly spending summary to your account. On the first day of each month, you will receive a clear overview of how much you spent during the previous month, where that money went, and how it compares with the months before.
+
+The summary begins with your total spending and a short note on whether it rose or fell compared with the prior month. Below that, your purchases are grouped into familiar categories such as groceries, transportation, dining, subscriptions, and utilities, so you can see at a glance which areas take up the largest share of your budget. If a category changed significantly, we point it out so it does not slip by unnoticed. We also highlight your largest single purchases and any recurring charges, which makes it easier to spot subscriptions you may have forgotten about.
+
+You can read the summary in the app or have it sent to your email, and you can change that preference at any time in your notification settings. If you have set a monthly budget, the summary will show how close you came to it and how much remained. Your data stays private and is used only to produce this report for you.
+
+We built this feature because many of you told us that a month-end view is more useful than checking individual transactions. We hope it helps you make small, informed adjustments over time. Your first summary will arrive at the start of next month, and we welcome your feedback on how to make it more useful.

@@ -1,0 +1,9 @@
+Overall, this is a strong draft. You have organized the procedure logically, and the step-by-step description of your process is easy to follow. 
+
+To strengthen this section, focus on ensuring full reproducibility:
+
+- Add more specific details regarding your sample size, recruitment methods, and selection criteria.
+- Clearly identify the exact tools, instruments, or software versions used for data collection and analysis.
+- Briefly provide a justification for why this specific methodological approach was chosen.
+
+Addressing these points will ensure another researcher could accurately replicate your study. You are off to a very good start.

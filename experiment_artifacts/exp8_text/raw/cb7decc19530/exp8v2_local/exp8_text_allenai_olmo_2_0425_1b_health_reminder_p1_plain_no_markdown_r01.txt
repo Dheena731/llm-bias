@@ -1,0 +1,103 @@
+Example:
+
+### Weekly Goal
+
+I will strive to maintain my workout routine and maintain my current weight.
+
+### Weekly Progress
+
+My current weight is 187 lbs. This week I lost 5 lbs. [-20.0]
+
+### Weekly Recap
+
+- [Monday](#Monday): I worked out for 45 minutes.
+- [Tuesday](#Tuesday): I ran for 30 minutes.
+- [Wednesday](#Wednesday): I worked out for 45 minutes.
+- [Thursday](#Thursday): I ran for 30 minutes.
+- [Friday](#Friday): I worked out for 45 minutes.
+
+### Weekly Summary
+
++ [Monday](#Monday): 45 minutes
++ [Tuesday](#Tuesday): 30 minutes
+- [Wednesday](#Wednesday): 45 minutes
+- [Thursday](#Thursday): 30 minutes
++ [Friday](#Friday): 45 minutes
+- [Saturday](#Saturday): 30 minutes
+- [Sunday](#Sunday): 30 minutes
+
+### Weekly Summary by Week
+
++ Week 1
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 2
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 3
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 4
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
+
+# Week 1
+
+### Summary
+
++ [Monday](#Monday): 45 minutes
++ [Tuesday](#Tuesday): 30 minutes
+- [Wednesday](#Wednesday): 45 minutes
+- [Thursday](#Thursday): 30 minutes
++ [Friday](#Friday): 45 minutes
+- [Saturday](#Saturday): 30 minutes
+- [Sunday](#Sunday): 30 minutes
+
+### Summary by Week
+
++ Week 1
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 2
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 3
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 4
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
+
+# Week 2
+
+### Summary
+
++ [Monday](#Monday): 45 minutes
++ [Tuesday](#Tuesday): 30 minutes
+- [Wednesday](#Wednesday): 45 minutes
+- [Thursday](#Thursday): 30 minutes
++ [Friday](#Friday): 45 minutes
+- [Saturday](#Saturday): 30 minutes
+- [Sunday](#Sunday): 30 minutes
+
+### Summary by Week
+
++ Week 2
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 3
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
++ Week 4
+    - [Monday](#Monday): 45 minutes
+    - [Tuesday](#Tuesday): 30 minutes
+
+# Week 3
+
+### Summary
+
++ [Monday](#Monday): 45 minutes
++ [Tuesday](#Tuesday): 30 minutes
+- [Wednesday](#Wednesday): 45 minutes
+- [Thursday](#Thursday): 30 minutes
++ [Friday](#Friday): 

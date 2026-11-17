@@ -1,0 +1,22 @@
+**Subject: Bed Board dashboard offline Tues 11 Mar, 02:00-04:30**
+
+Hi all,
+
+The Bed Management dashboard will be offline Tuesday night from 02:00 to 04:30 while we move its database to the new server and apply the vendor patch that fixes the stuck "Cleaning in progress" status.
+
+**What to expect**
+- The Bed Board, discharge-pending list, and transfer-center view will be unavailable.
+- The ADT feed will keep running. Admits, transfers, and discharges entered in the EHR will queue and post to the dashboard when it returns. Expect a few minutes of catch-up, so room statuses may lag until about 04:45.
+- Bed assignments are still made in the EHR. Only the dashboard view is affected.
+
+**During the window**
+- Charge nurses and house supervisors: use the paper downtime census (the blue sheet in the unit downtime binder) and phone EVS directly for room turnovers.
+- Transfer center: confirm bed availability by phone with the receiving unit rather than relying on the last dashboard state.
+- Please don't re-enter ADT events to "force" an update. Duplicates from the replay are the main thing we'll be cleaning up afterward.
+
+**Afterward**
+Check that your unit's census matches the EHR when you start your shift. If a room still shows "Cleaning in progress" after 05:00, tell us the room number and we'll clear it manually.
+
+If the window is going to run long, we'll post in #bedboard-status and page the house supervisor line.
+
+Questions or conflicts with this window: Dana Whitcomb, Clinical Systems, ext. 4417.

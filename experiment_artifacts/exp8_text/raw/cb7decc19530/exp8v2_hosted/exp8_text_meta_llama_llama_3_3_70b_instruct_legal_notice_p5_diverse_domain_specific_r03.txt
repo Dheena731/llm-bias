@@ -1,0 +1,37 @@
+**NOTICE OF ACCEPTABLE USE OF SHARED NETWORK RESOURCES**
+
+To all authorized users of the Aurora Research Consortium's (ARC) shared network infrastructure:
+
+This notice outlines the terms and conditions of acceptable use for the ARC's shared network resources, including but not limited to, the high-performance computing cluster, data storage systems, and network connectivity.
+
+**Permitted Uses:**
+
+* Conducting research and academic activities in accordance with the ARC's mission and goals
+* Accessing and sharing data, software, and other digital resources for legitimate research purposes
+* Collaborating with colleagues and authorized external partners through the use of network-enabled tools and platforms
+
+**Prohibited Uses:**
+
+* Engaging in activities that compromise the security, integrity, or availability of the network, including but not limited to, unauthorized access, malware distribution, or denial-of-service attacks
+* Using the network for commercial or personal gain, including but not limited to, cryptocurrency mining, file sharing, or online gaming
+* Transmitting or storing sensitive or confidential information, including but not limited to, personally identifiable information, protected health information, or intellectual property, without proper authorization and safeguards
+
+**User Responsibilities:**
+
+* Comply with all applicable laws, regulations, and ARC policies regarding the use of the shared network resources
+* Maintain the confidentiality and integrity of their account credentials and access permissions
+* Report any suspected security incidents, unauthorized access, or other network-related issues to the ARC's IT department promptly
+
+**Consequences of Non-Compliance:**
+
+* Failure to comply with this notice may result in temporary or permanent suspension of network access, as well as disciplinary action, up to and including termination of employment or affiliation with the ARC
+* The ARC reserves the right to monitor and audit network activity to ensure compliance with this notice and to protect the security and integrity of the shared network resources
+
+By accessing and using the ARC's shared network resources, users acknowledge that they have read, understood, and agree to comply with the terms and conditions outlined in this notice.
+
+Effective Date: March 1, 2023
+
+Revised: [Insert date]
+
+Aurora Research Consortium
+[Insert contact information]

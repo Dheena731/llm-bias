@@ -1,0 +1,5 @@
+**System Alert: Cognitive latency spiking.**
+
+Check your `hydration_level`; it's trending critical. Caffeine isn't a coolant—it's just ramping up garbage collection pressure. Flush the cache with actual H2O before the afternoon regression sets in: that three-hour session where you stare at a blank IDE waiting for a breakthrough because your frontal cortex threw a timeout exception. 
+
+Replenish the fluid. Keep your uptime green.

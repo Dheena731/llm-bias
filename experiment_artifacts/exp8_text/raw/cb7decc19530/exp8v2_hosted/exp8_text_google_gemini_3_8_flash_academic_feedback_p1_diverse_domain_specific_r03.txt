@@ -1,0 +1,13 @@
+Mara,
+
+The synthesis in the first half is in good shape—particularly your handling of the street-level bureaucracy literature (the Lipsky–Bovens lineage) and how you map it against more recent accounts of "system-level" discretion. You’ve avoided the common trap of treating digitalization as a total rupture, which gives your historical framing real weight.
+
+My primary concern is the conceptual drift in Section 3. Right now, you’re using *automated eligibility screening* and *actuarial risk scoring* almost interchangeably. They have distinct administrative genealogies and produce different failure modes: rule-based engines tend to generate catastrophic cliff-effects and mass procedural denials, whereas predictive risk models introduce subtler calibration problems around proxy drift and false-positive distribution. Conflating them blunts the edge of your critique. 
+
+A few specific adjustments for the next pass:
+
+* **Update the algorithmic auditing section:** You lean heavily on older, trade-press critiques (e.g., O'Neil) to establish bias. Balance these with more precise empirical work on the mathematical impossibility of mutual fairness criteria—Chouldechova (2017) or Kleinberg et al. (2016)—and bring in recent ethnographies of frontline refusal (e.g., Brayne on law enforcement or Eubanks on child welfare intake) to anchor the human side.
+* **Trim the peripheral tech:** Cut the two paragraphs on generative AI and commercial LLMs in §3.4. It feels like an afterthought bolted on to appear timely, and it distracts from your core focus on administrative database infrastructure.
+* **Tighten the bridge to Chapter 3:** Ensure the final subsection explicitly frames the methodological gap you plan to fill. You need to conclude not merely that "more research is needed on caseworker resistance," but that existing audits rely almost exclusively on model-output data while ignoring the off-screen workarounds workers use to subvert system recommendations.
+
+Let’s look at your revised outline for Section 3 during our Thursday slot. Come with a clearer taxonomy for the triage tools you’re evaluating.

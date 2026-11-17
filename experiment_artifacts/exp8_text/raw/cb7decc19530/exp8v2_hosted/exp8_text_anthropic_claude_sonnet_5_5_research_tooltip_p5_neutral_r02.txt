@@ -1,0 +1,7 @@
+**Export results**
+Click **Export** above the results table, choose a format (CSV, Excel, or JSON), then click **Download**. Only the rows currently shown are included, so apply any filters first.
+
+---
+
+*Shorter option (for tight spaces):*
+Click **Export**, choose a format, and download your filtered results.

@@ -1,0 +1,14 @@
+**SECURITY NOTICE: PASSWORD REUSE POLICY**
+
+All employees are reminded that reusing passwords creates a critical vulnerability for the organization. You must never use the same password for multiple accounts, particularly when sharing credentials between personal services and corporate systems.
+
+If a password used for a third-party website is exposed in a data breach, attackers may attempt to access company resources using those same credentials. This single point of failure can compromise sensitive data and network integrity.
+
+**Requirements:**
+*   Assign a unique, strong password to every work-related application and system.
+*   Do not reuse passwords across personal and professional accounts.
+*   Utilize the approved enterprise password manager to generate and store credentials securely.
+
+Failure to comply with this policy may result in disciplinary action. For support or reporting concerns, contact the IT Help Desk immediately.
+
+**IT Security Department**

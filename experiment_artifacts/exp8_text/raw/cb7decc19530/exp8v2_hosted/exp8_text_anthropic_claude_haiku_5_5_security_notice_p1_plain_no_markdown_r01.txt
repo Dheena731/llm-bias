@@ -1,0 +1,13 @@
+Subject: Reminder About Password Reuse
+
+Team,
+
+We are reminding everyone to use a unique password for each work account. When the same password is used across multiple systems, a breach at any one outside service can expose our internal accounts as well. Attackers routinely test leaked credentials against corporate email, file shares, and remote access portals, so a password that was compromised somewhere else can become a direct path into company data.
+
+Please make sure your work password is not used on any personal site or other service, and that you have not reused any previously exposed password. A password manager is the easiest way to generate and store strong, unique passwords, and the IT department can help you set one up if you have not already. Where available, please also turn on multi-factor authentication for all work accounts.
+
+If you suspect that a work password has been used elsewhere or has appeared in a data breach, change it immediately and report the incident to the security team. Reporting quickly lets us check for unauthorized access and protect the rest of the organization.
+
+Thank you for helping keep our systems and information secure.
+
+IT Security Team

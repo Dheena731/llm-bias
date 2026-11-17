@@ -1,0 +1,117 @@
+{
+  "pairs": 377531,
+  "columns": [
+    "chosen",
+    "rejected",
+    "chosen_model",
+    "rejected_model",
+    "id",
+    "source"
+  ],
+  "top_sources": [
+    [
+      "allenai/olmo2-1b-sft-used-p2-on-policy",
+      97533
+    ],
+    [
+      "allenai/olmo2-1b-wildchat-unused-on-policy",
+      83896
+    ],
+    [
+      "allenai/olmo2-1b-sft-if",
+      65715
+    ],
+    [
+      "allenai/olmo2-1b-ultrafeedback-cleaned",
+      60782
+    ],
+    [
+      "allenai/tulu-3-pref-personas-instruction-following",
+      19890
+    ],
+    [
+      "allenai/olmo2-1b-sft-used-p1-on-policy",
+      19746
+    ],
+    [
+      "allenai/olmo2-1b-wildchat-used-on-policy",
+      17598
+    ],
+    [
+      "allenai/olmo2-1b-wildchat-if",
+      10753
+    ]
+  ],
+  "mean_words": {
+    "chosen": 267.50239847853555,
+    "rejected": 267.26380615101806
+  },
+  "all_pairs": {
+    "has_markup": {
+      "pairs": 377531,
+      "chosen_rate": 0.44195840871345665,
+      "rejected_rate": 0.3466761669902604,
+      "chosen_only": 74785,
+      "rejected_only": 38813,
+      "p_two_sided": 0.0
+    },
+    "has_list": {
+      "pairs": 377531,
+      "chosen_rate": 0.4401837200123963,
+      "rejected_rate": 0.38221232163716357,
+      "chosen_only": 62583,
+      "rejected_only": 40697,
+      "p_two_sided": 0.0
+    },
+    "has_markdown": {
+      "pairs": 377531,
+      "chosen_rate": 0.5696671266730414,
+      "rejected_rate": 0.4972783691935232,
+      "chosen_only": 63183,
+      "rejected_only": 35854,
+      "p_two_sided": 0.0
+    },
+    "has_emoji": {
+      "pairs": 377531,
+      "chosen_rate": 0.009098590579316666,
+      "rejected_rate": 0.008266870800013773,
+      "chosen_only": 2171,
+      "rejected_only": 1857,
+      "p_two_sided": 7.517659968124104e-07
+    }
+  },
+  "length_matched_pairs": {
+    "has_markup": {
+      "pairs": 104275,
+      "chosen_rate": 0.49076959961639893,
+      "rejected_rate": 0.42847278830016783,
+      "chosen_only": 15876,
+      "rejected_only": 9380,
+      "p_two_sided": 0.0
+    },
+    "has_list": {
+      "pairs": 104275,
+      "chosen_rate": 0.46797410692879404,
+      "rejected_rate": 0.44665547830256536,
+      "chosen_only": 10707,
+      "rejected_only": 8484,
+      "p_two_sided": 6.010882114793581e-58
+    },
+    "has_markdown": {
+      "pairs": 104275,
+      "chosen_rate": 0.6082953728122752,
+      "rejected_rate": 0.5748645408774874,
+      "chosen_only": 9905,
+      "rejected_only": 6419,
+      "p_two_sided": 6.500078851416305e-164
+    },
+    "has_emoji": {
+      "pairs": 104275,
+      "chosen_rate": 0.007758331335411172,
+      "rejected_rate": 0.0076624310716854474,
+      "chosen_only": 462,
+      "rejected_only": 452,
+      "p_two_sided": 0.7408177691766196
+    }
+  }
+}

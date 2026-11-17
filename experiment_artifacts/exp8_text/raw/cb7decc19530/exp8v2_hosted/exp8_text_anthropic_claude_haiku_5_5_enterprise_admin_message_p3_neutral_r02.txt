@@ -1,0 +1,16 @@
+**Subject: Upcoming Change to the VPN Client**
+
+Hello team,
+
+We're updating the VPN client to version 3.2 on [date]. The update includes improved connection stability, faster reconnection after network changes, and a simplified login screen.
+
+**What you need to do:**
+- Save any open work before [time] on [date].
+- The client will update automatically the next time you restart your computer.
+- If you use the VPN on a personal device, download the new version from [link].
+
+If you have trouble connecting after the update, contact IT Support at [email or extension].
+
+Thank you,
+[Your name]
+IT Team

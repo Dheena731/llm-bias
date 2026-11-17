@@ -1,0 +1,5 @@
+Tooltip Explanation:
+
+To export query results, simply click on the desired output format and select "Export" from the context menu. This feature will automatically generate a printable or downloadable version of your results in the chosen format, like a CSV file, Excel spreadsheet, PDF, or directly to an email, depending on your preferences. Choose the format for your export, such as "CSV," "Excel," "PDF," etc., and hit "Export" to download your data. 
+
+Note: The efficacy and availability of exporting query results can vary depending on the database or software system in use. For specifics, refer to your specific software documentation. Placeholder text within this explanation should be replaced with actual details relevant to the user's environment. For example, "In some applications, select 'Export to CSV' will provide a plain-text or comma-separated values (CSV) file for easy download." This suggestion respects constraint limitations while emphasizing the key action—exporting result data.

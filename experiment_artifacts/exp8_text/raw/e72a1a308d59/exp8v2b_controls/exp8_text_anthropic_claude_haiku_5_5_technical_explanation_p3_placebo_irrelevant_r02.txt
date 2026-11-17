@@ -1,0 +1,11 @@
+Software updates matter because they keep our devices and data safe, reliable, and useful.
+
+**Security:** Updates patch vulnerabilities that attackers could otherwise exploit to steal information, install malware, or take control of a device. Many high-profile breaches happened because known flaws had not been fixed.
+
+**Reliability:** Updates correct bugs that cause crashes, data loss, or unexpected behavior, making software work as intended.
+
+**Compatibility:** As other software, hardware, and web standards change, updates keep programs working smoothly with them.
+
+**New features and performance:** Updates often add improvements and optimizations that make software faster and more efficient.
+
+Installing updates promptly, and enabling automatic updates where possible, is one of the simplest and most effective ways to protect yourself and your devices.

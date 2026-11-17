@@ -1,0 +1,13 @@
+**Subject: Your 2023 Consolidated Form 1099 is available**
+
+Your Consolidated Form 1099 for tax year 2023 is now available under **Documents > Tax Forms**.
+
+This document aggregates reportable activity for your taxable accounts across Forms 1099-B, 1099-DIV, and 1099-INT. It is strictly a record of tax-basis events under IRS guidelines, not a portfolio performance report.
+
+**Key points to keep in mind when preparing your return:**
+
+* **Variance from monthly statements:** Your reported net gain/loss may differ from your year-end account summary. The 1099 accounts for IRS-mandated adjustments such as wash sale loss disallowances, trade date vs. settlement date cutoffs (only trades settled by December 31 are included), and returns of capital.
+* **Cost-basis reporting:** Box 1e reflects cost basis reported directly to the IRS for covered securities. If you transferred non-covered lots into this account without transfer-basis documentation, you will need to determine that basis independently for your Form 8949.
+* **Potential for corrections:** If you hold REITs, royalty trusts, or specific ETFs, these entities frequently reclassify dividend income as return of capital after January 31. If impacted, you will receive an amended 1099 by early March.
+
+Please route this document directly to your tax preparer or import the provided 1099 CSV into your filing software.

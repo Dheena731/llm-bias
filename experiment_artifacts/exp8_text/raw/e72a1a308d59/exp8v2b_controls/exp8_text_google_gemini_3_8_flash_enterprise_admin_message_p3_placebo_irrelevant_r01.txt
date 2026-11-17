@@ -1,0 +1,18 @@
+**Subject:** Action Required: Transitioning to our new VPN client
+
+Hi Team,
+
+To improve connection stability and enhance our network security, we are upgrading our remote access tool. Starting on **[Date]**, we will be transitioning from **[Old VPN Name]** to **[New VPN Name]**.
+
+**What you need to do:**
+
+1. **Install the new client:** Download and install **[New VPN Name]** from the **[Company Software Center / Self-Service Portal / Link]**.
+2. **Log in:** Open the client and sign in using your standard company credentials (SSO/MFA).
+3. **Test your access:** Verify you can connect before **[Date]**.
+
+*Note: Access through the old VPN client will be retired on **[Date]**. After that date, you will not be able to connect to the internal network using the old tool.*
+
+Step-by-step setup guides are available on the **[Intranet / IT Knowledge Base link]**. If you encounter any issues during the install, please submit a ticket via **[IT Help Desk Link/Email]**.
+
+Thank you,  
+**[IT / Information Security Team]**

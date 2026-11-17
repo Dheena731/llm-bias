@@ -1,0 +1,15 @@
+**To:** All staff, Northfield Freight
+**From:** Dana Okafor, IT Security
+**Re:** Password reuse, action needed by Friday, March 14
+
+Last week we found 14 Northfield logins in a password list that circulated on a public forum. Those were accounts where the same password had been used on a retail site or personal email that was breached first. Nobody was phished and our systems weren't entered, but the attackers were already trying those combinations against our dispatch portal and the carrier EDI login. Six of the 14 were locked out automatically. The other eight we reset by hand.
+
+What we need from you:
+
+1. **Check whether your work password appears anywhere else.** If you used it for a personal account, a store loyalty program, or a streaming service, change it on those sites too.
+2. **Set up the company password manager** (Bitwarden, invite link in your inbox). It generates unique passwords per system and fills them only on the correct domain, so a lookalike site can't get your credentials.
+3. **Change your Northfield password by end of day Friday** if it's shorter than 14 characters or you've had it since before 2023.
+
+Dispatch and billing staff: you'll be asked to re-enroll in MFA on the portal starting Monday. Badge at the front desk if the authenticator prompt doesn't show up.
+
+If you get a login prompt you didn't start, or someone calls asking you to "confirm" your password, don't respond. Send it to security@northfieldfreight.example and call ext. 4410.

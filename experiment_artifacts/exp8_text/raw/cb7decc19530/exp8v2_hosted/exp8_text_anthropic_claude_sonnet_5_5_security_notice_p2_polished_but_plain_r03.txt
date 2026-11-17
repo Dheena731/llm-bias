@@ -1,0 +1,17 @@
+Subject: Staying Alert to Phishing Emails
+
+Colleagues,
+
+Over the past few weeks, we have seen an increase in phishing emails targeting our staff. These messages are designed to look legitimate, often imitating senior managers, IT support, payroll, or well-known vendors, and they aim to trick recipients into revealing passwords, financial details, or other sensitive information. A single careless click can expose our systems and our clients' data, so we ask everyone to remain vigilant.
+
+Most phishing emails share a few warning signs. They tend to create a sense of urgency, such as claiming your account will be locked or that a payment must be made immediately. They may come from an address that looks nearly right but contains a small misspelling or an unfamiliar domain. They often include unexpected attachments, requests for login credentials, or greetings that are oddly generic. If a message asks you to act quickly, bypass normal procedures, or keep something confidential, treat it with suspicion.
+
+Before you click a link or open an attachment, pause and consider whether you were expecting the message. Hover over any link to check where it actually leads, and when in doubt, contact the supposed sender through a phone number or channel you already know to be genuine rather than replying to the email itself. Please never share your password with anyone, including people who claim to work in IT, as our genuine support staff will never ask for it.
+
+If you believe you have received a phishing email, do not reply, forward it to colleagues, or delete it right away. Instead, report it using the report phishing button in your email program, or send it to the IT Service Desk as an attachment so our team can investigate. If you have already clicked a link or entered your details, please contact the IT Service Desk immediately and change your password. Prompt reporting limits the damage, and no one will be penalized for coming forward in good faith.
+
+Thank you for helping keep our organization secure. Your attention is our strongest defense.
+
+Kind regards,
+
+The IT Security Team

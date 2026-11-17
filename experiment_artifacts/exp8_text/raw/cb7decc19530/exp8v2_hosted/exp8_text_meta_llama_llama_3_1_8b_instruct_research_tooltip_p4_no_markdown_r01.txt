@@ -1,0 +1,1 @@
+Missing-value marker: Indicates that the data value is unknown, unobtainable, or not applicable, often represented by a specific symbol or code.

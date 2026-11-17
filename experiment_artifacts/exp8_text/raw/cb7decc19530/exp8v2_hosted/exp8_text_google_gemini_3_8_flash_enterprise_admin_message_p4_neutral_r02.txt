@@ -1,0 +1,38 @@
+Here are a few options, depending on where you are posting it (Email vs. Slack/Teams):
+
+### Option 1: Standard Email (Clear & Action-Oriented)
+
+**Subject:** Action Required: Q[X] User Access Review Due by [Date]
+
+Hi Team,
+
+To maintain our security standards and ensure compliance, we are kicking off our **Quarterly Access Review for Q[X]**. 
+
+**What you need to do:**
+* **Managers & System Owners:** Please review the access permissions for your direct reports and systems to ensure they align with the principle of least privilege.
+* **Action:** Go to **[Link to Portal/Sheet]** to approve, modify, or revoke access.
+
+**Deadline:** Please complete your review by **[Day, Date at Time]**. 
+
+*Note: Unverified accounts or access rights not confirmed by the deadline may be subject to temporary deactivation.*
+
+If you have any questions or encounter issues, please reach out to **[IT/Security Contact]**.
+
+Thank you for helping keep our systems secure!
+
+Best regards,  
+**[Your Name/Team]**
+
+***
+
+### Option 2: Short / Chat Announcement (Slack or Teams)
+
+🔒 **Reminder: Q[X] Quarterly Access Reviews** 🔒
+
+It’s time for our quarterly access audit! 
+
+* **Who:** All People Managers and System Owners
+* **Action:** Review your team's tool and system permissions at **[Link]** and flag any access that is no longer needed.
+* **Deadline:** **[Date]**
+
+Keeping permissions up to date protects our data and keeps us compliant. Please reach out in **[#help-channel]** if you have questions!

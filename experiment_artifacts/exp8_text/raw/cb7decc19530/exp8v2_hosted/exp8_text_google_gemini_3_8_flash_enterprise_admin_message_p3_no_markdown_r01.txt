@@ -1,0 +1,14 @@
+Subject: Action Required: Transition to New VPN Client
+
+Hello Team,
+
+We are upgrading our remote access system to improve security and connection reliability. Starting on [Date], we will officially transition from our current VPN client to [New VPN Client Name].
+
+What you need to do:
+Please visit [Link to Instructions/Download] to install and set up the new client on your device before [Deadline Date]. After this date, the old VPN client will no longer work. 
+
+If you run into any issues or need assistance with the installation, please reach out to the IT Helpdesk at [Contact Information]. 
+
+Thank you for your cooperation,
+
+IT Support Team

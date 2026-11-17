@@ -1,0 +1,15 @@
+**SECURITY REMINDER: Keep It Unique – Do Not Reuse Passwords**
+
+Using the same password across multiple accounts might save time, but it is one of the easiest ways for cybercriminals to compromise our network. 
+
+**Why it’s a risk:**
+If a personal account (like social media or shopping) suffers a data breach, hackers will immediately test those leaked credentials against your work accounts. A single reused password can give attackers direct access to our company’s systems and confidential data.
+
+**Best Practices:**
+* **Keep work and personal separate:** Never use your work password for personal services.
+* **Make every password unique:** Every system and application must have its own distinct password or passphrase.
+* **Use an approved password manager:** Store and generate complex passwords using **[Company Password Manager, e.g., 1Password/Bitwarden]** so you don’t have to memorize them.
+
+If you are currently reusing your work password for other accounts, please change it today. 
+
+Have questions or need help setting up a password manager? Contact the IT Helpdesk at **[Contact Information]**.

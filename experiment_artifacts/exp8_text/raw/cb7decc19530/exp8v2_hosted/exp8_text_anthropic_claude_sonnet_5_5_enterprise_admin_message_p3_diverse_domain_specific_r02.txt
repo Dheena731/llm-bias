@@ -1,0 +1,23 @@
+**Subject: VPN client 5.2 required by March 14. Split tunneling is changing**
+
+Starting Thursday, March 14, the gateway will reject connections from clients older than 5.2. Please update before then, or you'll be locked out until you do.
+
+**What's different**
+- **Protocol:** The client now uses WireGuard instead of IKEv2. Reconnects after sleep or a Wi-Fi change should take a couple of seconds instead of a full renegotiation.
+- **Split tunneling:** Only traffic to 10.20.0.0/16 and 10.30.0.0/16 goes through the VPN. Everything else, including Zoom, Slack, and general web traffic, goes out your local connection. Before, all traffic was tunneled.
+- **Login:** You'll be asked for your SSO password and a hardware key or authenticator code once per 12 hours, not every connect.
+
+**What you need to do**
+1. Update from Self Service (Mac) or Software Center (Windows). It takes about two minutes and keeps your saved profile.
+2. Connect once and confirm you can reach `git.corp.example` and the staging dashboard.
+
+**Known issues**
+- Some hotel and airport networks block UDP 51820. If the client sits on "Connecting" for more than 10 seconds, go to Settings → Connection → Use TCP 443 fallback.
+- If internal hostnames stop resolving, disconnect, reconnect, and then run `ipconfig /flushdns` (Windows) or `sudo dscacheutil -flushcache` (Mac). If that doesn't fix it, send us the output of the client's "Export diagnostics" button.
+
+**Why we're doing this**
+The old setup sent all traffic through two gateways that were hitting capacity during the 9–11 a.m. rush. Moving to split tunneling cut peak load by about 60% in the pilot, and the IKEv2 stack in the old client is no longer receiving security patches.
+
+Questions or problems: #it-help or helpdesk@example.com. Please include your client version, found under Help → About.
+
+— Network Operations

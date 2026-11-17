@@ -1,0 +1,1 @@
+This chart displays a range of values within which the true population mean is likely to lie. The interval, indicated by the dashed lines, represents the margin of error, calculated at a 95% confidence level. It is derived from the sample mean and standard deviation, and provides a probabilistic estimate of the true mean.

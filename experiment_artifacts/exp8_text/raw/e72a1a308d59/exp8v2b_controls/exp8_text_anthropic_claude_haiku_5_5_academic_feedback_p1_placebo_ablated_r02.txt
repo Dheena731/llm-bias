@@ -1,0 +1,22 @@
+**Feedback on Draft Literature Review**
+
+**To:** [Author]
+**Re:** Draft literature review on remote peer tutoring and reading outcomes in primary schools
+
+Thank you for this draft. You have gathered a solid set of relevant studies, and your summaries of individual papers are accurate and clear. Your search strategy is also well documented, which makes the review easy to check.
+
+The main issue is that the draft reads as a sequence of study summaries rather than an argument. Each paragraph describes one study in turn, but the review never says what the studies collectively show, where they disagree, or why those disagreements matter. A reader finishes the review knowing what was published but not what is known.
+
+To address this, I suggest the following:
+
+1. **Organize by theme, not by study.** Group the literature around two or three questions, such as whether remote tutoring improves reading scores, whether effects differ by age or prior attainment, and what implementation conditions matter. Under each heading, compare the studies directly.
+
+2. **State your synthesis explicitly.** At the end of each section, write one or two sentences summarizing the weight of the evidence, for example: "Most studies with comparison groups report positive effects, though most samples are small."
+
+3. **Address conflicting findings.** Where studies disagree, explain possible reasons, such as differences in sample size, tutor training, or outcome measures. Do not simply list the conflicting results.
+
+4. **Make the gap clear.** Your introduction promises to identify a gap, but the gap is not stated until the conclusion. Move a clear statement of the gap to the end of the introduction and show how the review supports it.
+
+5. **Tighten the opening paragraph.** It currently spends several sentences on general background about education technology. Cut this to what your reader needs to follow the review.
+
+If you revise along these lines, the review will be much stronger. I am happy to look at a revised outline before you draft the new sections.

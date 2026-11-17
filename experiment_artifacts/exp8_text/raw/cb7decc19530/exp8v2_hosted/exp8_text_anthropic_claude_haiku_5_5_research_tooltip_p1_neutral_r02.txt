@@ -1,0 +1,10 @@
+Here are a few options, depending on the context:
+
+**Option 1 (short):**
+Filters rows to include only records that match your selected criteria. Applied filters are combined with AND logic.
+
+**Option 2 (more detail):**
+Limits the dataset to records matching the chosen values. Only rows meeting all active filters are shown in charts and exports.
+
+**Option 3 (plain language):**
+Show only the data that matches your selection. Clear the filter to restore the full dataset.

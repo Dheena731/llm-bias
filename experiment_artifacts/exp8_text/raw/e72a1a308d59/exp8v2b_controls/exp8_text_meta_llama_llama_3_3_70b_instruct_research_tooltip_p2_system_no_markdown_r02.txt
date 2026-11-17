@@ -1,0 +1,1 @@
+This shaded area represents a 95% confidence interval, indicating the range of values within which we can be 95% certain that the true average lies. The wider the interval, the more uncertainty there is in the estimate.

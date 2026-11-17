@@ -1,0 +1,66 @@
+Do not use any other elements or formatting that is not explicitly allowed or specifically endorsed.
+
+The writing should reflect an appropriate tone and appropriateness for a legal document. Emphasis and indentation should not be used to show which parts of the notice are more important.
+
+Please list any support you can offer to make the message content as clear as possible. For example, you might specify people who are willing to read and write the message for you.
+
+Please avoid using emoticons, slogans, or alliteration.
+
+Use this template
+
+We recommend using this template for your legal notice. If you can, use the format your university provides, which may include useful formatting features.
+
+The template is a good starting point. If you need further guidance, please ask your university for help.
+
+University or service name
+
+Please fill in your university or service name in the first line of the legal notice. This should be printed in bold and in the centre of the page.
+
+Maintaining network security
+
+The next section(s) should explain how your university or service protects the network and shares knowledge. The sections should include:
+
+  • the technical measures your university or service takes to ensure network security;
+  • the actions that are taken in response to reported security issues; and
+  • expected future actions.
+
+Members should explain what your university or service does to address any potential issues. For example, "we recommend that users who are not part of our local helpdesk group use a Virtual Private Network (VPN) to connect to the network and to avoid any unauthorized traffic", or "we will be upgrading our software to avoid any potential vulnerabilities".
+
+Members should also explain what measures are taken to ensure that the network is protected. For example, "we prevent physical access to the computer room" or "all members are trained in the use of network security tools".
+
+Compromise of network security
+
+The next sections should explain how members believe their network has been compromised. This section may include information about:
+
+  • how members' data was accessed;
+  • whether the service provider is aware of the event, and what they have done to investigate or respond;
+  • the legal rights of members and service providers;
+  • any steps members have taken to inform other members and the service provider;
+  • any actions the service provider has taken.
+
+This section should be read in the light of your university or service provider's security policies. The documents should be as clear, concise, and complete as possible.
+
+Location of network
+
+The following section(s) should describe the location of the network in as much detail as possible. This should include:
+
+  • the name of the building or campus;
+  • the country;
+  • the postcode;
+  • the latitude and longitude of the network; and
+  • the access point (if applicable).
+
+This section should explain the physical location of the network. If your university or service provider does not allow members to specify the network location, then you should provide a general location, such as a university campus, or the country.
+
+Providing information about the physical location of the network is important so members know how to best ensure their security. For example, if a member is logged into a university network from a public internet cafe, they are effectively compromising their own security. Therefore, the member should change their login details to a secure location before logging in from that device.
+
+Use a description that is not vague or ambiguous. For example, "we are located in an office building" is more descriptive than "we are located in Brisbane."
+
+Providing information about the location of the network should be done intentionally and explicitly, so that members know why you have provided that information.
+
+Full member details
+
+The final section(s) should explain the full details of the member's contact information. This should include:
+
+  • the full name of the member;
+ 

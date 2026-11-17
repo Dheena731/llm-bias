@@ -1,0 +1,1 @@
+Filter by date range: Shows only records collected between the selected start and end dates. Records outside this window are hidden from charts and summary statistics but remain in the underlying dataset.

@@ -1,0 +1,20 @@
+**New Feature: Monthly Spending Summary**
+
+We have added a Monthly Spending Summary to help you understand where your money goes each month.
+
+**What it does**
+At the start of each month, you will receive a summary of the previous month's activity. It includes your total spending, a breakdown by category (such as groceries, transportation, and subscriptions), and a comparison to the prior month so you can spot changes at a glance.
+
+**What you will see**
+- Total spent and total income for the month
+- Your top spending categories, ranked by amount
+- Notable changes, such as categories that increased or decreased significantly
+- Recurring charges, so you can review subscriptions and bills
+
+**How to access it**
+Open the Reports tab and select "Monthly Summary." You can also choose to receive the summary by email under Settings > Notifications.
+
+**Why it matters**
+A regular snapshot makes it easier to set realistic budgets, catch unexpected charges early, and track progress toward your savings goals.
+
+The summary is available now for all users. Your first report will be generated at the beginning of next month. We welcome your feedback on how to make it more useful.

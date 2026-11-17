@@ -1,0 +1,20 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a new Monthly Spending Summary to help you understand where your money goes, without the need for spreadsheets or manual tracking.
+
+**What's included**
+- **Total spending:** See your overall spending for the month, with a comparison to the previous month.
+- **Category breakdown:** Spending is automatically grouped into categories like groceries, dining, transportation, and subscriptions.
+- **Top merchants:** Find out where you shop most often and where most of your money went.
+- **Trends and highlights:** Spot unusual spikes or categories where you spent noticeably more or less than usual.
+
+**How it works**
+Your summary is generated automatically at the start of each month using your linked accounts and categorized transactions. You'll get a notification when it's ready, and you can view it anytime from the **Insights** tab. Past summaries are saved so you can look back at previous months.
+
+**Why it matters**
+A clear monthly snapshot makes it easier to set realistic budgets, catch forgotten subscriptions, and notice habits that may be affecting your goals.
+
+**Getting started**
+Make sure your accounts are linked and notifications are turned on. If a transaction is in the wrong category, tap it to edit it, and your future summaries will reflect the change.
+
+We'd love to hear what you think. Use the feedback button in the Insights tab to share suggestions as we keep improving this feature.

@@ -1,0 +1,11 @@
+Here's a sample feedback note on a student's methods section:
+
+"Overall, your methods section is clear and well-organized. However, there are a few areas where you could improve for greater clarity and transparency.
+
+One suggestion is to provide more detail on the sampling method used to select the twelve requests. While you mention that the requests were picked at random, it would be helpful to know how this was achieved (e.g. using a random number generator, selecting from a pool of requests, etc.).
+
+Additionally, you could elaborate on the specific writing tasks you used to assess each request. While you mention that the tasks were routine, it would be beneficial to know what types of tasks were used (e.g. grammatical error detection, sentence completion, etc.) to give the reader a better understanding of the methodology.
+
+Finally, consider including a diagram or table to illustrate the process of selecting and evaluating the requests. This would help to make the methods section more visually appealing and easier to follow.
+
+Keep up the good work, and good luck with your project!"

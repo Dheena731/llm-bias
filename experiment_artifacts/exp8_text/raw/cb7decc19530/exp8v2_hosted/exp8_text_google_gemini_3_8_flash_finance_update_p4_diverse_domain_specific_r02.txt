@@ -1,0 +1,15 @@
+**Subject: Your 2023 Consolidated Form 1099 is ready**
+
+Your Consolidated Form 1099 is now available in the **Tax Documents** section of your account. 
+
+This single document compiles the reporting required for your non-registered taxable accounts:
+
+* **1099-B:** Realized capital gains and losses, categorized by short-term and long-term holdings. This reflects adjustments for wash sales and distinguishes between covered securities (cost basis reported to the IRS) and non-covered securities.
+* **1099-DIV:** Total ordinary dividends, qualified dividends, and any capital gain distributions.
+* **1099-INT:** Taxable interest earned on cash sweeps and credit balances.
+* **1099-MISC:** Royalty payments or substitute payments received in lieu of dividends.
+
+**Before you file:**
+Check the top right corner of the document to see if it is marked **Preliminary** or **Final**. If you hold mutual funds, foreign equities, or REITs, income reclassifications may occur through mid-February. If marked Preliminary, wait for the final version before submitting your return to avoid having to file an amended 1040.
+
+You can import these figures directly into major tax preparation software using your 8-digit Account Number and the Document ID located on page 1.

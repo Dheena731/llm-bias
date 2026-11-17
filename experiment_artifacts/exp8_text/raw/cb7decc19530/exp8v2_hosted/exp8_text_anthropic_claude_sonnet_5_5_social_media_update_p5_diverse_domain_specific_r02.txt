@@ -1,0 +1,11 @@
+**Assumed domain: a restaurant reservation platform**
+
+> We were down from 5:42 to 6:09 pm ET tonight. If you were trying to book a table or check in a walk-in on a Friday dinner rush, that's about the worst 27 minutes we could have picked, and I'm sorry.
+>
+> What happened: a config change we pushed at 5:35 maxed out our database connections. We rolled it back, and everything's responding normally now.
+>
+> What it means for you: no reservations were lost or double-booked. The 31 bookings that came in during the outage were queued, and diners have their confirmation texts. Hosts, your floor view may show a few walk-ins out of order. Refreshing will fix it.
+>
+> We shouldn't have shipped that change at 5:35 on a Friday, and we've stopped deploys during service hours. Full write-up Monday on our status page.
+
+If you tell me the actual product (a ride app, a podcast host, a ticketing site, etc.), I can rework the details, the tone, and the length for your platform.

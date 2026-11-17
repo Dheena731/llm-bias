@@ -1,0 +1,20 @@
+Here's a short message you could send to staff or colleagues:
+
+**Subject: Upcoming Email Migration: What You Need to Know**
+
+Hello everyone,
+
+We're scheduled to migrate our email system to a new platform on **[date]**, starting at **[time]**. The migration is expected to take about **[duration]**, and email may be intermittently unavailable during that window.
+
+**What you need to do:**
+- Save any important drafts before the migration begins.
+- Avoid sending time-sensitive emails during the downtime.
+- Check your new mailbox after the switch and let IT know if anything looks wrong.
+
+Your existing emails, contacts, and calendar will be transferred automatically. If you have questions or run into issues, contact **[IT contact / help desk]** at **[email or phone]**.
+
+Thank you for your patience as we make this upgrade.
+
+Best regards,
+[Your name]
+[Your title / IT Department]

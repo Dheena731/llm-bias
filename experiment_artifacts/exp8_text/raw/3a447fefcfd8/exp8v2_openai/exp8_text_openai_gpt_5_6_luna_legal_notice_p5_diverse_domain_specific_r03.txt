@@ -1,0 +1,9 @@
+### Acceptable Use Notice — Shared Makerspace Network
+
+This network is provided for operating and administering the makerspace’s workstations, 3D printers, CNC equipment, laser cutters, environmental sensors, and related member devices.
+
+Users may connect only equipment that is registered with the makerspace or approved by staff. Network access must not be used to scan or probe other devices, bypass printer or equipment controls, run cryptocurrency-mining or high-bandwidth services, host public-facing services, distribute copyrighted files without authorization, or interfere with another member’s job, machine reservation, or stored design files.
+
+Do not connect safety-critical equipment to the network without staff approval. Credentials, access tokens, and machine-control interfaces must not be shared. Users are responsible for securing their own devices and for activity conducted through their accounts.
+
+The makerspace may log connection details, device identifiers, bandwidth use, and access to networked equipment for security, troubleshooting, and incident investigation. Staff may suspend or restrict access where misuse, unsafe operation, or a suspected compromise is detected. Report suspected unauthorized access or equipment interference to the makerspace manager promptly.

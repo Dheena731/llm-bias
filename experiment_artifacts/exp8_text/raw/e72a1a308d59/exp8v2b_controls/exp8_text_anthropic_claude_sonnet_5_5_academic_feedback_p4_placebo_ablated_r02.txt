@@ -1,0 +1,25 @@
+**Feedback on your conference poster draft**
+
+*Note: I haven't seen the draft, so this covers the issues that most often affect posters. Please replace the bracketed items with specifics from your poster.*
+
+Hi [Name],
+
+Thanks for sharing your draft. My main suggestion is that a viewer standing a couple of meters away should be able to grasp your central finding in about 10 seconds. Right now, [your main finding is hard to find / appears only in the conclusion / is buried in the text]. Please add a one-sentence takeaway in large type at the top or center of the poster.
+
+**What works well:** [e.g., the topic is timely, the main figure is strong, the color scheme is consistent].
+
+**Suggested changes, in order of priority:**
+
+1. **State the takeaway clearly.** Write it as a plain sentence, such as "Method X reduced errors by 30% compared with Method Y."
+2. **Cut the text.** Aim for roughly 300–400 words in total. Replace paragraphs with short bullet points, and save the finer details for conversation.
+3. **Make the key figure the largest element.** Label the axes with units, use text readable from a distance, and add a one-line caption saying what the figure shows.
+4. **Make the reading order obvious.** Use columns that run left to right, with numbered section headings or arrows, and leave some empty space between sections.
+5. **Check readability.** Body text should be at least 24 point and headings at least 36 point, with strong contrast between text and background.
+6. **Spell out abbreviations** the first time you use them, since visitors may come from other fields.
+7. **Match conclusions to evidence.** Make sure each claim is supported by a result shown on the poster, and include one sentence on a limitation.
+8. **Add contact details.** A QR code linking to the paper or your email works well.
+
+Happy to look at a revised version.
+
+Best,
+[Your name]

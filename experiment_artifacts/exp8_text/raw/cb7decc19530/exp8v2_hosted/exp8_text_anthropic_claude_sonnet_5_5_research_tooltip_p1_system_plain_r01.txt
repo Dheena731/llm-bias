@@ -1,0 +1,3 @@
+Narrow the datasets shown to those that match your chosen criteria, such as subject area, file format, license type, or publication date. Filters work together, so each one you add further limits the results. Clear a filter to widen your search again.
+
+If you tell me which specific filter this tooltip is for, I can tailor the wording to it.

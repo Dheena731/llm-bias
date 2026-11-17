@@ -1,0 +1,13 @@
+**Subject: Client 5.0 switches the default protocol to WireGuard**
+
+Starting with 5.0.0 (rolling out March 18), the client connects over WireGuard by default. Existing OpenVPN profiles still work, but the client no longer falls back to OpenVPN automatically when the WireGuard handshake fails on UDP 51820. If your network blocks that port, go to Settings → Protocol and choose "OpenVPN (TCP 443)."
+
+Three things you may notice:
+
+- Switching between Wi-Fi and cellular reconnects in about two seconds instead of eight, because WireGuard keeps the session keys across interface changes.
+- On macOS, the per-app split-tunnel list resets once. Re-add any excluded apps. The old kernel-extension format couldn't be migrated safely.
+- Windows 7 and 8.1 are no longer supported. Version 4.9.3 is the last release for them.
+
+For admins: the MDM key `DefaultProtocol` now accepts `wireguard` (the new default) or `openvpn`. Pinned configurations are unchanged.
+
+Report problems in #client-feedback or to support@corvidnet.example, and include your build number from About.

@@ -1,0 +1,7 @@
+**Tooltip:**
+"No value available. This information wasn't recorded or doesn't apply, so it is not zero or blank."
+
+**Shorter version, if space is tight:**
+"No value recorded. This is not zero."
+
+I assumed a general audience viewing a table or chart, so the wording avoids terms like "null" or "NaN." If your audience is more technical, or the cause of a missing value is known (for example, "not reported" or "not applicable"), the tooltip should say so.

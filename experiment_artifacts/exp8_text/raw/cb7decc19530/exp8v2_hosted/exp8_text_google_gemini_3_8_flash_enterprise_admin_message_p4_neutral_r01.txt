@@ -1,0 +1,27 @@
+Here is a short, professional template you can use:
+
+***
+
+**Subject:** ACTION REQUIRED: Q[X] User Access Review Due by [Date]
+
+**Team Leads & System Owners,**
+
+In accordance with our security and compliance policies, our **Q[X] User Access Review** is now underway. 
+
+Please review the access permissions for your direct reports and system users to ensure they align with their current roles and the principle of least privilege.
+
+**Action Required:**
+1. Log in to [Link to Portal/Access Tool] to view your pending reviews.
+2. **Approve** access for users who still require it for their daily tasks.
+3. **Revoke/Flag** access for users who have changed roles, left the team, or no longer need it.
+
+**Deadline:** Please complete all reviews by **[Day of week, Date] at [Time, e.g., 5:00 PM EST]**. 
+
+*Note: Unconfirmed access after the deadline may be subject to automatic revocation.*
+
+If you have questions or need assistance, please contact the IT/Security team at [Email/Slack Channel].
+
+Thank you for helping keep our systems secure.
+
+Best regards,  
+**[IT / Information Security Team]**

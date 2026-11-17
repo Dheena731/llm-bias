@@ -1,0 +1,1 @@
+This filter narrows the dataset by applying criteria such as date range, methodology, or subject category. It displays only matching records to help you focus your analysis and exclude irrelevant data. Select reset to clear all restrictions and restore the full dataset.

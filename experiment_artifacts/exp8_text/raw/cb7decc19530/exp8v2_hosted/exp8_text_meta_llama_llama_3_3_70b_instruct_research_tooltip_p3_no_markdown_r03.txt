@@ -1,0 +1,1 @@
+Select a range of dates by choosing a start and end date. Click on the calendar to pick your dates, or use the predefined options to quickly choose a common range, such as today, yesterday, or last week.

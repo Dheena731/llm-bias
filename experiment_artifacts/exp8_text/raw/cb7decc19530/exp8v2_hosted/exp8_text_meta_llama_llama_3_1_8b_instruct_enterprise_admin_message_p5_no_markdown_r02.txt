@@ -1,0 +1,5 @@
+Here is a short message about an upcoming email migration:
+
+"Important Notice: Email Migration Scheduled for [Date]
+
+We are planning to migrate our email system to a new platform on [Date]. This migration is expected to improve email performance and security. During the migration, our email services may be unavailable for a short period. We apologize for any inconvenience this may cause and appreciate your patience as we make this change. If you have any questions or concerns, please contact our IT department."

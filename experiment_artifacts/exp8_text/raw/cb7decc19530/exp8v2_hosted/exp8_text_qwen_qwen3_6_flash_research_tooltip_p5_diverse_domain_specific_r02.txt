@@ -1,0 +1,1 @@
+Export result set to CSV, JSON, or Parquet. Defaults to visible rows; toggle 'Full Export' to capture paginated data. Includes headers. Results exceeding 500k rows are queued for background processing.

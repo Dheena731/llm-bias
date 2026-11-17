@@ -1,0 +1,5 @@
+Turn on "Speedy meetings" in Google Calendar (Settings → Event settings → Speedy meetings).
+
+Now every 30-minute event I create defaults to 25 minutes, and every 60 to 50. That gap is when I refill my coffee, skim the next agenda, and write down what I just promised to do. Before, I did all of that during the first five minutes of the next call, badly.
+
+It only affects events you create, so you'll still get booked into full 30s by other people. But it's a nice quiet dent in the back-to-back wall.

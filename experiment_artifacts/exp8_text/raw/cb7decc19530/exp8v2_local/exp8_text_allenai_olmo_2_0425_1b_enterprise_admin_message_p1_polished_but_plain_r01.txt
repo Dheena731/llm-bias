@@ -1,0 +1,13 @@
+To fix the issue, we will force the application to restart. This will usually solve the problem.
+
+For more information, you can run the following command:
+
+sudo reboot
+
+This will close the application.
+
+To force a restart, you can run this command:
+
+sudo reboot now
+
+If your issue persists, you can close the application then start it again. This will close and restart the application.

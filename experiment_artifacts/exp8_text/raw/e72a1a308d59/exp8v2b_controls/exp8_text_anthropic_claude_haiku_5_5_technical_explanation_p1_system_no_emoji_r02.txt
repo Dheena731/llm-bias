@@ -1,0 +1,10 @@
+Latency, the delay between a user's action and the system's response, matters in web applications for several reasons:
+
+- **User experience:** Users expect pages and interactions to respond almost instantly. Delays make an app feel sluggish, frustrating, and harder to use.
+- **Engagement and conversions:** Slow pages lead to higher bounce rates and abandoned shopping carts. Even small delays can measurably reduce sales and sign-ups.
+- **Search rankings:** Search engines such as Google factor page speed and Core Web Vitals into ranking, so high latency can reduce organic traffic.
+- **Perceived quality:** Responsiveness signals reliability. A slow app can make users doubt the security or professionalism of the service behind it.
+- **Compounding delays:** Web requests often involve multiple round trips (DNS lookups, TLS handshakes, API calls, database queries). Latency in any one of these adds up, and the effect multiplies when components depend on each other.
+- **Scalability and cost:** Long response times tie up server connections and threads, reducing how many users a system can serve at once and increasing infrastructure costs.
+
+Reducing latency through techniques like caching, content delivery networks, efficient queries, and fewer network round trips therefore improves both the user experience and the business outcomes of a web application.

@@ -1,0 +1,9 @@
+Thank you for sharing the draft of your conference poster. The overall structure is clear, and the flow from motivation to methods to results gives viewers a sensible path through the work. The title is informative, though it runs a little long for a poster that people will read from a distance of a few feet. Trimming it to the main finding or the core question would help it stand out in a crowded session.
+
+The results section is the strongest part of the poster. Your main figure is legible and the axis labels are clear, so a viewer can grasp the key trend within seconds. I would suggest making the caption do more of the interpretive work, so that a passing reader understands what the figure shows without needing to parse the surrounding text.
+
+The text blocks are somewhat dense, particularly in the methods panel. Conference viewers usually skim, and most will not read more than a few sentences per section. Consider cutting the methods to the essentials that a specialist would need to judge the work, and moving the finer procedural details to a handout or a QR code linking to the full paper or preprint.
+
+The conclusion would benefit from a single clear takeaway stated in one sentence at the top of the panel, followed by a brief note on next steps. At present the conclusions are spread across three short paragraphs, which makes the main message harder to find.
+
+Finally, check the consistency of your color scheme and font sizes across panels, since small variations can make the poster look unfinished. If you share the draft itself or describe its layout in more detail, I can give more specific comments on individual panels.

@@ -1,0 +1,16 @@
+**Action Required: Enable Two-Factor Authentication (2FA)**
+
+To enhance the security of your account and protect your personal information, all users are required to enable Two-Factor Authentication (2FA). 
+
+Starting on [Date], 2FA will be mandatory to access your account.
+
+**How to set it up:**
+1. Log in to your account and navigate to **Settings**.
+2. Select the **Security** tab.
+3. Choose **Two-Factor Authentication** and follow the on-screen instructions.
+
+Setting up 2FA takes only a few minutes and significantly reduces the risk of unauthorized access. 
+
+If you encounter any issues, please contact the support team at [Support Email/Phone]. 
+
+Thank you for your cooperation in keeping our platform secure.

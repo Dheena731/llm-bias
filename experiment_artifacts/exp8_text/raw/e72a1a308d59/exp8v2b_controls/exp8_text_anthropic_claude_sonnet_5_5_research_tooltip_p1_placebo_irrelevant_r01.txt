@@ -1,0 +1,13 @@
+**Filter by dataset**
+
+Show only results from the selected datasets. Select multiple to combine them, or clear all to search everything. Counts update as you filter.
+
+---
+
+**Shorter alternative (for tight spaces):**
+Limit results to specific datasets. Select more than one to combine them.
+
+**If the filter has a specific behavior, such as date range:**
+Show only records collected within this date range. Records without a collection date are excluded.
+
+If you tell me which filter this is (for example, date range, sample size, or data source), I can tailor the tooltip to it.

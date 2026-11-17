@@ -1,0 +1,1 @@
+A confidence interval shows the range where the true value likely falls. The shaded band represents the estimate's uncertainty: a 95% interval means that if the study were repeated many times, about 95% of such intervals would contain the true value.

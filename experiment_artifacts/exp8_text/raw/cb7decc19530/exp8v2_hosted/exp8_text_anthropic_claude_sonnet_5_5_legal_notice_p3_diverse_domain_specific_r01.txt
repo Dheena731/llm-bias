@@ -1,0 +1,37 @@
+# Cookie Notice
+
+**Halvard Island Ferries Ltd** (company no. 00000000), operator of halvardferries.example ("the Site")
+Last revised: 3 March 2025
+
+**1. What this notice covers**
+This notice lists the cookies set when you use the Site to check sailings, book crossings, or manage an existing booking. It does not cover the onboard Wi-Fi portal or the terminal kiosks, which are governed by separate notices.
+
+**2. Cookies that do not require consent**
+These are necessary to provide the service you have asked for. They are set without a prompt under reg. 6(4) of the Privacy and Electronic Communications Regulations 2003 (PECR) and cannot be switched off in our preference panel.
+
+| Name | Purpose | Lifetime |
+|---|---|---|
+| `hif_seat_hold` | Reserves your selected vehicle deck space or foot-passenger fare while you complete payment. | 12 minutes, or until the browser closes |
+| `hif_session` | Keeps you signed in to "Manage Booking". | Browser session |
+| `3ds_challenge` | Set by our card payment processor to complete 3-D Secure authentication. | Browser session |
+
+If you block these cookies, the booking process will not work, and held spaces will be released.
+
+**3. Cookies that require your consent**
+These are set only after you select "Accept" for the relevant category.
+
+| Name | Category | Purpose | Lifetime |
+|---|---|---|---|
+| `hif_terminal` | Preference | Remembers your usual departure terminal so the timetable opens on the right page. | 12 months |
+| `_hif_stats` | Analytics | Counts visits and records which pages are used, so that we can see, for example, how many people reach the cancellations page during a weather warning. Data is aggregated and IP addresses are truncated before storage. | 13 months |
+
+We do not set advertising or cross-site tracking cookies. We do not sell or share cookie data with advertisers.
+
+**4. Disruption banner**
+When sailings are cancelled or delayed, the Site shows a notice at the top of each page. If you dismiss it, a first-party cookie, `hif_notice_seen`, prevents it from reappearing for 24 hours. This cookie is classed as strictly necessary because the banner carries operational safety information. It will reappear sooner if the notice is updated.
+
+**5. Changing your decision**
+You may withdraw or change consent at any time using "Cookie settings" in the footer of any page. Withdrawal does not affect processing carried out before it. Browser settings can also delete or block cookies, but blocking those listed in section 2 will prevent bookings.
+
+**6. Controller and legal basis**
+Halvard Island Ferries Ltd is the controller of data collected through cookies in sections 2–4. For cookies in section 3, our basis under UK GDPR art. 6(1)(a) is your consent. For those in section 2, it is art. 6(1)(b), performance of a contract, or steps ta

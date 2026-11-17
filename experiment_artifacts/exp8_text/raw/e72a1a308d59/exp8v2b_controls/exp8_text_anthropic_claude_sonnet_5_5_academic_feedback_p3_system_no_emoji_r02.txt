@@ -1,0 +1,13 @@
+**Reviewer Comment: Research Question**
+
+The manuscript does not state its central research question clearly. The introduction describes several related aims, including understanding the factors that influence user engagement, evaluating the proposed intervention, and exploring broader implications for design practice. It never states which of these is the primary focus. As a result, it is difficult to judge whether the methods and analyses are appropriate, since they depend on whether the study is exploratory, descriptive, or intended to test a specific hypothesis.
+
+The wording is also ambiguous in places. Terms such as "impact," "effectiveness," and "engagement" are used interchangeably and are not operationalized. It is unclear, for example, whether "impact" refers to a change in behavior, in attitudes, or in self-reported experience, or over what time frame it is assessed.
+
+I recommend that the authors:
+
+1. State a single primary research question, with any secondary questions clearly subordinated to it.
+2. Define the key constructs and explain how each is measured.
+3. Align the research question explicitly with the study design, analysis, and conclusions, so that readers can see how the evidence addresses the question posed.
+
+Without these revisions, the contribution of the paper remains difficult to assess.

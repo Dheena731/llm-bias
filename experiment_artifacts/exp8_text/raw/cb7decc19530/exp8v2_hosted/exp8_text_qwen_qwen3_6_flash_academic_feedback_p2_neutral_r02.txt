@@ -1,0 +1,29 @@
+Since you haven't provided the specific text of the methods section, here is a **versatile, constructive feedback note** focused on common areas for improvement. You can easily adapt the bracketed details to fit the student's specific work.
+
+### Feedback Note Template
+
+**Subject:** Feedback on Methods Section Draft
+
+Hi [Student Name],
+
+Thanks for sharing your methods section. You've established a clear structure, and your logic flows well. To ensure the section meets the standard for **reproducibility**, please consider the following updates:
+
+*   **Detail & Reproducibility:** Ensure a reader could replicate your study exactly based on this text. Please specify:
+    *   Participant criteria (e.g., inclusion/exclusion, sample size, demographics).
+    *   Specific instruments or protocols used (including citations where applicable).
+    *   Exact data collection procedures.
+*   **Justification:** Briefly explain *why* you chose these methods over alternatives. What makes this approach appropriate for your research question?
+*   **Consistency:** Double-check that you are using the **past tense** throughout, as you are describing work already completed.
+*   **Ethics:** If applicable, confirm that ethical approval and informed consent processes are mentioned.
+
+Overall, this is a strong foundation. Once you flesh out these details, the section will be ready. Let me know if you have questions about any of these points.
+
+Best regards,
+
+[Your Name]
+
+***
+
+### 💡 Tips for Customizing
+*   **If the student is missing analysis details:** Add a bullet point: *"Clarify your statistical tests and software version used for analysis."*
+*   **If the writing is passive:** Add: *"Consider using active voice where possible to increase clarity

@@ -1,0 +1,19 @@
+Why do we need caching?
+
+Caching helps us save time by reducing the amount of information we have to send to our users. Using a cache means that only the changes that have been made to a website since the cache was last used will be sent to the user. In this way, caching is like a virtual cache drive on a PC.
+
+For example, the article you are currently reading, has not been changed since you read it. We could cache this page and it will remain exactly the same, regardless of when the cache is used. It will be much faster for the user for the information to be sent quickly from the cache than to have to download the whole page and then send it. This is why cached pages are often the first page a website loads for a new visitor.
+
+The other main advantage of caching is that this process is fully automated by the web server. For example, when we set up a site, we can configure it so that the server automatically sends cached pages to users when the information in the page has not been changed, or when it is not appropriate for the user to receive the cached page (if the page is static, meaning that the information is not an evolving one). This means that every time the page is updated, the server automatically sends a small update to the cache. This is then sent to the user, so the page can be updated without having to update the cache manually, and without the inefficiency of sending the entire page. This means that a site with a high number of users will be updated more quickly than one with a small number of users.
+
+It is also important to note that caching does not require that the whole server must be running continuously. The page can be updated every second, but if the server is not running, then the page will not be updated, and the visitor will receive the cached page. On the other hand, it is possible to have a server that never updates the page because the server is running continuously, but if the server stops for any reason, then that page will not be updated either, and the visitor will receive the cached page. The server can even be run by a desktop application, such as a web server that you can download and run on your own computer or server. The user will then enter all the information and the server will send the user the page that is cached, which means that the user does not have to wait for the server to update its page, and the user's machine can go in and out of service without affecting the user experience.
+
+Caching is a powerful tool that can save time and money. However, it can also cause problems if used incorrectly. The most common problems are:
+
+If you cache your site, you should do so according to a caching policy that suits the goals of your site. The most important thing is to make sure that the caches are always kept up-to-date to ensure that your visitors always receive the most current version of your site. It is also important to understand the possible consequences of the cache. If you cache a page, for example, it will change over time. If the page is updated, it will be cached, but if the page is changed again, all the cached versions will be updated and the visitor will get the latest version. This is why you should always keep your caches updated, so that they will always be available for your visitors.
+
+What are the implications of caching?
+
+Server-side caching is a method of storing web content on the server so that it can be accessed much faster than if it were stored locally. It allows you to deliver content in a very fast and efficient way while still allowing visitors to view your site in the same way as they would if they were accessing the site directly from their own computers.
+
+The main advantage is that no data needs to be stored on

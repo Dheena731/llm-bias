@@ -1,0 +1,7 @@
+Caching speeds up a website by storing copies of data so it can be delivered quickly instead of being rebuilt or fetched from the original source every time someone asks for it.
+
+When a visitor loads a page, the server normally has to do a lot of work: run code, query a database, assemble the HTML, and send along images, stylesheets, and scripts. This takes time and uses server resources. With caching, the result of that work is saved after the first request. The next time the same content is needed, the saved copy is served right away.
+
+Caching happens at several levels. Browser caching stores files like images, CSS, and JavaScript on the visitor's own device, so returning visitors do not need to download them again. Server-side caching keeps the results of database queries or fully built pages in fast memory, which avoids repeating expensive operations. Content delivery networks, or CDNs, keep copies of a site's files on servers around the world, so users receive data from a location physically closer to them, reducing delay.
+
+The benefits are faster page loads, lower server load, reduced bandwidth use, and better ability to handle traffic spikes. The main challenge is making sure cached content stays fresh. Sites handle this by setting expiration times or clearing the cache when content changes, so visitors get speed without seeing outdated information.

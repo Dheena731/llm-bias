@@ -1,0 +1,11 @@
+**Feedback Note: Draft Literature Review**
+
+Your draft tracks the empirical arc of algorithmic curation research accurately, but the synthesis remains segmented rather than integrated. You are organizing studies chronologically instead of constructing a conceptual architecture around mechanism, measurement, and normative assumption.
+
+The “filter bubble” section currently reads as a catalog of self-report surveys and media commentary. These sources operate on fundamentally different epistemologies: one measures perceived exposure through Likert scales, the other infers structural isolation from content-sharing patterns. You list them sequentially without mapping where they fracture or why those fractures matter for causal claims. Insert a brief methodological boundary line here. Clarify which strand addresses behavioral reinforcement versus perceptual bias, and state which you are prioritizing.
+
+Several passages describe platform mechanics (“engagement-driven ranking,” “content moderation thresholds”) without tethering those descriptions to political communication theory. The literature does not merely document sorting behavior; it debates whether algorithmic filtering exacerbates affective polarization or produces rare cross-cutting exposures. Where is your theoretical hinge? Anchor each mechanistic claim to at least one framework (e.g., selective exposure theory, deliberative fragmentation, or computational propaganda models).
+
+Your gap statement cites “limited longitudinal platform data,” but that tension was largely closed after the shift to synthetic audit designs and experimental network tracing. Since major API restrictions and transparency report rollouts, the field has moved toward hybrid methods that pair computational traces with participant interviews or randomized feed interventions. Identify what remains genuinely unresolved: perhaps the lack of standardized effect-size reporting across heterogeneous audit protocols, or the neglect of non-Western platform ecologies. Specify one.
+
+Restructure into three conceptual lanes: (1) definitional disputes over echo chambers vs. polarized networks, (2) methodological pivots from survey inference to trace/experimental hybrids, and (3) normative assumptions embedded in engagement-maximizing architectures. Replace paragraph-long summaries with comparative critique tables

@@ -1,0 +1,25 @@
+**Subject: Scheduled Dashboard Maintenance: Saturday, [Date], 10:00 PM – 2:00 AM [Time Zone]**
+
+Hello everyone,
+
+We will be performing scheduled maintenance on the analytics dashboard during the window below.
+
+**When:** Saturday, [Date], 10:00 PM – 2:00 AM [Time Zone]
+**Impact:** The dashboard will be unavailable for the duration of the maintenance. Data collection will continue as normal, and no data will be lost.
+
+**What we're doing:** Applying performance improvements and security updates, and upgrading the database.
+
+**What you need to do:**
+- Save any open reports or exports before 10:00 PM.
+- Schedule any time-sensitive reporting to finish before or after the window.
+- Scheduled email reports that fall within the window will be sent once service resumes.
+
+We expect to finish on time, but if the work runs long, we'll post updates on [status page/channel]. Once the dashboard is back online, we'll send a confirmation message.
+
+If you have questions or concerns about the timing, please contact [support contact] by [date].
+
+Thank you for your patience.
+
+Best regards,
+[Name]
+[Team/Department]

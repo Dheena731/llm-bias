@@ -1,0 +1,4 @@
+**Tooltip:**
+> **Export results:** Run your query, then select **Export** above the results and choose a file format. Your results are saved as a file.
+
+**Note:** You didn't mention your product's interface, so I assumed a button labeled "Export" near the results. If your button label, location, available formats, or row limits differ, update the text to match. Those details should only be added if they're accurate.

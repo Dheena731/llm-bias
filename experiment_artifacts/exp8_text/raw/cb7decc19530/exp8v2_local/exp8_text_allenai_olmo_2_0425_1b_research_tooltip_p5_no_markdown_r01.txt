@@ -1,0 +1,99 @@
+## Model
+
+
+A model is a set of entities that is defined in some persistent store. This is usually either a database or a persistent object store. In MongoDB, a model is defined in a JSON document in the collection where the entities are stored.
+
+When you define a model in MongoDB, you declare the persistence fields and the relationships with other models. When you start a new collection with a MongoDB collection shell, all the model definitions are automatically loaded into the database.
+
+If you do not define a model for a collection, the collection will be empty for that database.
+
+A collection includes one or more models.
+
+## Fields
+
+The data of a model is stored in a collection. Data is stored in the collection by fields of the model. A field is a key-value pair of string data.
+
+Each field is declared in a model as follows:
+
+{
+    name: "field1",
+    type: "string"
+}
+
+The field declaration uses the following syntax:
+
+name: "string",
+type: "string"
+
+The field name is a string. The field type is one of the following types:
+
+- string
+- boolean
+- int (integer)
+- float (floating point number)
+- double (double precision floating point number)
+- object (any number of fields)
+
+A MongoDB field is similar to a layer of an object. Each field can contain one or more values. This value is returned to the application using the MongoDB driver. When you define a field, you need to specify the type of the data. The driver convert the type to another type internally.
+
+## Properties
+
+Properties are collection-wide behavior of a model. You can declare a property as part of the model definition. The properties are useful for organizing data and controlling the behavior of the data.
+
+Properties are declared as follows:
+
+{
+    name: "property1",
+    type: "string"
+}
+
+The property declaration uses the following syntax:
+
+name: "string",
+type: "string"
+
+A property declaration can have the following usage:
+
+- value: "value1"
+- value1: "value1" (use the same syntax as a field declaration)
+- readonly: true
+- count: true
+
+A property declaration can have the following usage:
+
+- value: "value1"
+- count: true (use the same syntax as a field declaration)
+- readonly: true
+- count: true
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+
+A property declaration can have the following usage:
+
+- value: "value1"
+- count: ["value1"] (use the same syntax as a field declaration)
+- count: ["value1", "value2"]
+- count: ["value1", "value2", "value3"]
+- count: ["value1","value2","value3","value4"]
+- count: ["value1", "value2", "value3", "value4"]
+- count: ["value1","value2","value3", "value4"]
+
+A property declaration can have the following usage:
+
+- value: "value1"
+- count: [true, false, false]
+- readonly: true
+- count: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort: [true, false, false]
+- sort

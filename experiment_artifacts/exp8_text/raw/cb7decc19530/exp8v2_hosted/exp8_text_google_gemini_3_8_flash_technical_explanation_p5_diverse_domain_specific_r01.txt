@@ -1,0 +1,5 @@
+An API rate limit is a server-side constraint that caps the number of requests a client can execute against a service within a defined time window (e.g., 100 requests per second per IP, or 50,000 calls per day per API key). 
+
+Architecturally, rate limits protect downstream systems—such as database connection pools, memory allocations, and worker queues—from degradation, runaway client loops, or intentional resource exhaustion. They are typically evaluated at the edge proxy, API gateway, or cache layer (often using algorithms like token bucket, leaky bucket, or sliding-window counters in Redis) to short-circuit requests before they incur compute or I/O costs.
+
+When an inbound request breaches the threshold, the server rejects it without processing, terminating the connection with an `HTTP 429 Too Many Requests` status. Standard implementations return headers—such as `Retry-After` or `RateLimit-Reset`—to explicitly signal to the client’s network layer how long to back off before retrying.

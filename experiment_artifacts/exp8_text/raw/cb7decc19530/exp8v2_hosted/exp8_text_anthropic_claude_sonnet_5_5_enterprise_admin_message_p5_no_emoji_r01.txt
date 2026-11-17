@@ -1,0 +1,23 @@
+**Subject: Upcoming Email Migration on [Date]**
+
+Hello everyone,
+
+We will be migrating our email system to a new platform on **[Date]**, beginning at **[Time]**. The process is expected to take about **[Duration]**.
+
+**What to expect:**
+- Email access may be intermittent during the migration window.
+- Your existing messages, folders, and contacts will be transferred automatically.
+- You may be asked to sign in again once the migration is complete.
+
+**What you need to do:**
+- Clean up your mailbox by deleting old or unnecessary messages.
+- Make a note of any important calendar events or meetings scheduled during the migration window.
+- After the migration, restart your email application and sign in with your usual credentials.
+
+If you notice missing messages or have trouble signing in, please contact the IT Help Desk at **[email/phone]**. We will send a confirmation message once the migration is complete.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+[Your Name]
+IT Department

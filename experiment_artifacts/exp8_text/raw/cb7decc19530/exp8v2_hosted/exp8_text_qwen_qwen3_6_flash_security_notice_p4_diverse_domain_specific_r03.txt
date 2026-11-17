@@ -1,0 +1,7 @@
+**Subject: Mandatory Two-Factor Authentication for Client-Facing Systems – Action by [Date]**
+
+As part of our Q3 access controls update, two-factor authentication is now required for all staff logging into client portals, project management tools, and core email. This change aligns with our current SOC 2 audit scope and closes gaps identified during last quarter’s credential rotation review.
+
+Enrollment must be completed by [Time, Date] via [Internal Auth Portal]. Select a TOTP authenticator app for verification; SMS-based codes have been deprecated following recent carrier routing changes and do not meet our minimum control threshold. If you maintain automated workflows, CI/CD pipelines, or shared terminal sessions, submit a service principal request through the Security intake form—human-enrolled MFA tokens cannot be attached to machine identities.
+
+Accounts without active enrollment will be shifted to read-only mode after the deadline until verified by the Identity team. Setup questions or app-sync errors should be routed through the IT ticket portal. Do not reply to this message.

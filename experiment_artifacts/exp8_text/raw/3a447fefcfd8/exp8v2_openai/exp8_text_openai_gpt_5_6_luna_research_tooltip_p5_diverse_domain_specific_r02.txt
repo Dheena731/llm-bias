@@ -1,0 +1,1 @@
+Export the current query results as a CSV, including applied filters and selected columns.

@@ -1,0 +1,14 @@
+**Security Reminder: The Risks of Password Reuse**
+
+Password reuse remains one of the leading causes of security breaches. Using the same password across multiple accounts creates a single point of failure that puts both personal data and company systems at risk. 
+
+When an external platform or personal account is compromised in a data breach, attackers routinely test those stolen credentials against corporate networks. Reusing passwords—even with minor variations—makes unauthorized access significantly easier for malicious actors.
+
+**Required Actions:**
+* **Keep Work and Personal Separate:** Never use your work email or work password for personal accounts, subscriptions, or social media.
+* **Make Every Password Unique:** Ensure every system, application, and platform uses a distinct, complex password or passphrase.
+* **Use a Password Manager:** Store and generate complex passwords using the approved password management software installed on all corporate devices.
+
+If you are currently using your workplace password on any other service, please change it immediately. 
+
+For assistance with updating credentials or setting up the password manager, reach out directly to the IT support team.

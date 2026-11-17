@@ -1,0 +1,13 @@
+Here is a concise, standard tooltip:
+
+> **"Refine results by methodology, date range, sample size, or research domain."**
+
+***
+
+**Alternative options depending on your UI space:**
+
+* **Ultra-short (best for tight spaces):**  
+  *"Narrow datasets by specific research criteria."*
+
+* **Action-oriented:**  
+  *"Filter datasets to match your study's scope, population, or methodology."*

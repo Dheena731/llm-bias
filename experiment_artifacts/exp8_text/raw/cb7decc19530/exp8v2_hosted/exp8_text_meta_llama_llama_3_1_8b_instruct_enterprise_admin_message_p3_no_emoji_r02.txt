@@ -1,0 +1,8 @@
+Here is a short message announcing a change to the VPN client:
+
+"Dear users,
+
+We are announcing a change to our VPN client that will take effect on [date]. The new version will improve performance and security. Please note that the new version will require a restart of the client for the changes to take effect. If you have any issues or concerns, please contact our support team.
+
+Best regards,
+[Your Name]"

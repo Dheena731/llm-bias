@@ -1,0 +1,1 @@
+Click Export above the results table, choose a format such as CSV, Excel, or JSON, and select Download. Your file will include all rows from the current query, with any filters and sorting you have applied.

@@ -1,0 +1,17 @@
+**Subject: Upcoming Update to the VPN Client**
+
+Hello everyone,
+
+We're writing to let you know that the VPN client will be updated to version [X.X] on [date]. The update includes [brief description, e.g., improved connection stability and a redesigned login screen].
+
+**What you need to do:**
+- No action is required for most users. The client will update automatically the next time you launch it.
+- If your device is managed by IT, the update will be pushed through your standard software management tools.
+
+**Please note:** During the update, VPN access may be briefly unavailable, so plan to finish any sensitive work beforehand. If you run into problems connecting after the update, restart your device and try again. If the issue continues, contact [IT support contact or channel].
+
+Thank you for your patience as we keep the service secure and reliable.
+
+Best regards,
+[Name]
+[Team/Department]

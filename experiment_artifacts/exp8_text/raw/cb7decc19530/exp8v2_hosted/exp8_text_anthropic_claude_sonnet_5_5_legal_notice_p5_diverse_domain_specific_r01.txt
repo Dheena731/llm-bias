@@ -1,0 +1,30 @@
+# NOTICE OF ACCEPTABLE USE
+**Shared Network, Calloway Mill Studios, 410 Ferry Street**
+
+*Issued by Calloway Mill Management LLC ("Operator"). Applies to every tenant, subtenant, and guest ("User") connecting to the Mill Network.*
+
+**1. The Network.** The "Mill Network" means the fiber uplink (1 Gbps symmetrical), the wired drops in each studio, the access points in the corridors, loading dock, and Room 114, and the VLANs that carry them. The uplink is shared by 22 studios. Capacity is finite, and one User's use affects the others.
+
+**2. Permitted Use.** Use is permitted for lawful business, creative, and ordinary personal purposes connected with occupancy of a studio.
+
+**3. Prohibited Conduct.** A User shall not:
+
+(a) operate a DHCP server, or a router in bridge or access-point mode with DHCP enabled, on any studio drop. Personal routers must use their own subnet behind NAT;
+
+(b) host a publicly reachable service (including a web server, game server, or open proxy) without written notice to the Operator, or run any open mail relay;
+
+(c) sustain upload traffic above 400 Mbps for more than 30 minutes between 9:00 a.m. and 6:00 p.m. Large archive, render, or video transfers should be scheduled outside those hours or arranged with the Operator in advance;
+
+(d) scan, probe, or capture traffic on any network segment other than the User's own devices;
+
+(e) use another User's credentials or spoof a MAC address to evade a block or rate limit;
+
+(f) transmit material in violation of copyright, or share files through peer-to-peer software in a manner that generates infringement notices;
+
+(g) connect equipment that the Operator has identified in writing as disruptive, after receiving that notice.
+
+**4. Records.** The Operator keeps DHCP lease logs and firewall connection metadata for 90 days. The Operator does not routinely inspect the content of traffic. Records will be disclosed only where required by lawful process or reasonably necessary to investigate a breach of this Notice.
+
+**5. Infringement Notices.** On receiving a copyright complaint attributable to a studio's connection, the Operator will forward it to the responsible User. A User who is the subject of three or more substantiated complaints in 12 months may have service terminated.
+
+**6. Suspension.** The Operator may, without prior notice, isolate a port or device that is degrading the

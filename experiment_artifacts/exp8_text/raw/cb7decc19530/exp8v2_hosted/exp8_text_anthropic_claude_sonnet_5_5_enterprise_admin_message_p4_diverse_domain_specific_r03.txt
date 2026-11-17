@@ -1,0 +1,32 @@
+**Subject: Q3 access reviews open Monday 7 July, due Friday 18 July**
+
+Quarterly access reviews open Monday. If you manage people or own an application, you will get an email from the IAM team with a link to your review queue.
+
+**What you need to do**
+
+For each person and entitlement listed, choose one:
+- **Keep**: the access is still needed for their current role.
+- **Remove**: it isn't. Don't wait for a ticket; the removal is created automatically.
+- **Reassign**: the person has moved teams, and their new manager should decide.
+
+"They've always had it" is not a reason to keep access. If you can't say why someone needs it, mark it Remove. They can request it again.
+
+**Where to look closely**
+- **Admin and privileged roles** (domain admin, cloud console owner, database write access). These are reviewed by the application owner *and* the manager.
+- **Contractors.** Anyone whose end date has passed or is blank will be flagged in red.
+- **Accounts with no login in 90+ days.** We've pre-marked these as Remove. Override only if there's a reason, such as extended leave, and add a note.
+- **Shared and service accounts.** Owners must confirm that the account still has a named owner and that its credentials were rotated this quarter.
+
+**Deadline and what happens after**
+
+Reviews not completed by end of day Friday 18 July will be escalated to your director on Monday. Unreviewed privileged access will be suspended on Wednesday 23 July. Standard access will stay in place, but the gap will be recorded in the audit evidence, and auditors do read it.
+
+**Common problems**
+- Don't see your queue? Check whether someone delegated it to you or whether you changed roles recently. Email iam-support@example.com.
+- Reviewing for a team of 40 or more? Ask us for a CSV export and a bulk-approve option by Wednesday 9 July.
+- Out of office during the window? Name a delegate in the tool before you leave. Delegates must be at your level or above.
+
+Office hours are Tuesdays and Thursdays, 2:00 to 3:00 pm, in the IAM Teams channel.
+
+Priya Raman
+Identity & Access Management

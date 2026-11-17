@@ -1,0 +1,26 @@
+**Subject: Upcoming Quarterly Access Review**
+
+**Audience:** All department managers and system owners
+**Action required by:** [Date]
+
+Our quarterly user access review begins on [start date]. This review confirms that each employee has only the access needed for their current role, in line with our security and compliance policies.
+
+**What you need to do**
+
+1. Log in to the access review portal and open your assigned review list.
+2. For each user, select Approve, Modify, or Revoke.
+3. Flag any accounts belonging to former employees, contractors whose contracts have ended, or staff who have changed roles.
+4. Submit your completed review by [due date].
+
+**Key points**
+
+- Reviews not completed by the deadline will be escalated to department heads.
+- Access that remains unreviewed may be suspended until confirmation is received.
+- Privileged and administrative accounts require additional sign-off from the system owner.
+
+**Need help?**
+Contact the IT Security team at [email or ticketing link] or visit [internal resource page] for step-by-step instructions.
+
+Thank you for your prompt attention. Timely reviews help us protect company data and meet audit requirements.
+
+IT Security & Administration

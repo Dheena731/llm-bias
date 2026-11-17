@@ -1,0 +1,7 @@
+**Scheduled Maintenance Notice: Dashboard Temporarily Unavailable**
+
+The dashboard will be offline for scheduled system upgrades this Saturday between 10:00 PM and 2:00 AM UTC. 
+
+During this maintenance window, access to real-time metrics, reporting tools, and administrative settings will be temporarily suspended. All data tracking will continue running uninterrupted in the background. 
+
+Please ensure any active work is saved prior to the downtime. Normal service will resume immediately following the update. Thank you for your patience as we work to improve system performance and reliability.

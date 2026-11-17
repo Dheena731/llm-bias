@@ -1,0 +1,1 @@
+Filter by date range to include only records collected between the start and end dates you select. Records outside this window are hidden from the results but remain in the dataset and will reappear if you clear the filter.

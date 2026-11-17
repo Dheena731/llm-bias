@@ -1,0 +1,25 @@
+**Subject: 🔒 IMPORTANT: Stay Vigilant Against Phishing Emails**
+
+Dear Team,
+
+We are currently experiencing an increase in phishing attempts targeting our organization. To protect our data and systems, please remain vigilant and follow these guidelines:
+
+**🚩 Watch for these Red Flags:**
+*   **Urgent or threatening language** demanding immediate action.
+*   **Suspicious links** or unexpected attachments.
+*   **Generic greetings** (e.g., "Dear User") or slight misspellings in the sender's address.
+*   Requests for passwords, financial details, or sensitive information.
+
+**✅ What to Do If You Receive a Suspicious Email:**
+1.  **DO NOT** click links, download attachments, or reply.
+2.  **REPORT** it immediately by forwarding the email to `[insert reporting email, e.g., security@company.com]` or using the "Report Phish" button in Outlook/Teams.
+3.  **DELETE** the email after reporting.
+
+When in doubt, contact the IT Helpdesk at `[phone number/email]` for verification.
+
+Thank you for your cooperation in keeping our workplace secure.
+
+Best regards,
+
+**Information Security Team**  
+`[Company Name]`

@@ -1,0 +1,17 @@
+**Savings goals now have a target date**
+
+Any savings pot can now have a target amount and a due date. Enter both and the app works out what you need to put in each pay period, based on your deposit schedule.
+
+Example: $3,000 for a rental deposit by September 1. If you're paid every two weeks, that's $230.77 across 13 paychecks. Each pot shows whether you're ahead or behind that line, in dollars rather than a progress bar.
+
+**How it handles real life**
+- If you miss a transfer, the remaining periods are recalculated instead of the goal turning red. Your new per-paycheck figure is shown before you confirm anything.
+- If you withdraw from a goal pot, you'll be asked whether to lower the target or push the date back. Nothing is locked, and there are no withdrawal penalties.
+- Interest works as before. The goal only tracks the balance and doesn't change the rate.
+
+**Not included yet**
+- One goal per pot.
+- Joint accounts can't use goals yet. We're working on how to show two people's contributions without making it awkward.
+- Irregular income isn't supported. For now, the math assumes a fixed deposit schedule.
+
+Available in version 4.12. To set a goal, open a savings pot and tap **Add target**.

@@ -1,0 +1,11 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is not clearly stated, which makes it difficult to evaluate whether the study design, analysis, and conclusions are appropriate. The Introduction points to several related aims, including understanding the drivers of employee engagement, assessing the effect of remote work, and evaluating a new intervention. It never says which is the primary question. The stated objective ("to explore factors related to engagement in modern workplaces") is also too broad to guide hypothesis testing or to define what a meaningful result would be.
+
+This ambiguity causes several downstream problems:
+
+- **Mismatch between aims and methods.** It is unclear whether the study is exploratory or confirmatory, and the analytic approach does not obviously correspond to either.
+- **Undefined constructs.** Key terms such as "engagement" and "modern workplace" are not operationalized, so the population and outcome of interest remain vague.
+- **Interpretive uncertainty.** Without a focused question, the Discussion's claims about causal influence cannot be properly assessed against the correlational data presented.
+
+**Recommendation:** The authors should state one clear, specific research question, ideally with corresponding hypotheses, at the end of the Introduction. They should then show how each part of the design, measures, and analysis addresses it. If the study is exploratory, this should be stated explicitly and the conclusions tempered accordingly. A clearer framing would considerably strengthen the paper's contribution and readability.

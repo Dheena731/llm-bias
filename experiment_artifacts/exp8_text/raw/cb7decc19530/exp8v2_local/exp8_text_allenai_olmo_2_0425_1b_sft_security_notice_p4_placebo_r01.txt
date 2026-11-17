@@ -1,0 +1,1 @@
+Enable two-factor authentication. It is a great way to add an extra layer of security to your account. First, you will be sent a code via your phone. Next, you must enter this code from your phone. This will add a buffer against hackers who get your code.

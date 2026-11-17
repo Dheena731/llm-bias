@@ -1,0 +1,18 @@
+**Subject: Mail moves Saturday night, 9 p.m. to about 1 a.m.**
+
+Hi all,
+
+On Saturday, March 8, we're moving mailboxes off the old server in the closet and onto Microsoft 365. Mail will keep arriving during the move, but it may sit in queue for up to 40 minutes around 11 p.m. Nothing should bounce.
+
+What you need to do:
+
+- **Phones:** Remove the old account and re-add it Sunday morning using your full address as the username. The password is unchanged. If your iPhone asks for "server settings," choose Exchange, not IMAP.
+- **Outlook desktop:** It should prompt you to restart once. If it asks for a password, use your usual one. If it still shows the old server name after a restart, message me and don't try to fix it yourself.
+- **Shared inboxes** (billing@, po@, the lab-orders alias): these are moving too. Ask me if you're not sure you still have access.
+
+The old webmail at mail.harlowlab.org stays up read-only until April 30. After that, anything you need from it should be exported, so if you have archived folders you care about, copy them to a local PST this week.
+
+Questions go to Dana at ext. 214 or helpdesk@harlowlab.org.
+
+Thanks,
+Marcus

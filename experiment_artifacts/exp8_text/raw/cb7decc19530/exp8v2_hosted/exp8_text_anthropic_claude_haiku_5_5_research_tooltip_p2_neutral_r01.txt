@@ -1,0 +1,3 @@
+Here's a concise tooltip:
+
+**Confidence Interval:** The shaded range where the true value is likely to fall (typically 95% confident). Wider bands mean more uncertainty.

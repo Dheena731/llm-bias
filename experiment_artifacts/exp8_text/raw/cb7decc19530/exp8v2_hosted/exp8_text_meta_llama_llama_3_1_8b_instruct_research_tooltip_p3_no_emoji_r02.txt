@@ -1,0 +1,1 @@
+"Select a date range by clicking and dragging the handles or entering a start and end date in the format MM/DD/YYYY. The selected dates will be highlighted on the calendar."

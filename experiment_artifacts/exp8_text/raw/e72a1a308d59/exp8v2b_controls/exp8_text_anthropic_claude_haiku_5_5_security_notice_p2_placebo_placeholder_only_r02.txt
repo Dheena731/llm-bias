@@ -1,0 +1,20 @@
+**Notice: Protect Yourself and the Company from Phishing Emails**
+
+Phishing emails are fraudulent messages designed to trick you into revealing passwords, financial details, or other sensitive information, or into clicking malicious links or opening infected attachments. They often look like they come from a colleague, a vendor, IT support, or a well-known company.
+
+**Warning signs to watch for:**
+- Unexpected requests for passwords, login credentials, or payment changes
+- Urgent or threatening language, such as "Your account will be closed today"
+- Sender addresses that look slightly off, such as a misspelled domain
+- Links that don't match the destination when you hover over them
+- Unexpected attachments, especially ZIP, HTML, or macro-enabled Office files
+- Greetings that are generic, or requests that bypass normal approval steps
+
+**What to do:**
+- Do not click links or open attachments in suspicious emails.
+- Verify unusual requests by contacting the sender through a known phone number or in person, not by replying to the email.
+- Report suspicious emails to the IT Service Desk right away. Do not delete them first, since they may need to be reviewed.
+- If you clicked a link or entered credentials, report it immediately, even if you feel embarrassed. Fast reporting limits damage.
+- Never share your password with anyone, including IT staff, who will never ask for it.
+
+Reporting a phishing attempt is always the right choice. If you're unsure whether an email is legitimate, ask before you act.

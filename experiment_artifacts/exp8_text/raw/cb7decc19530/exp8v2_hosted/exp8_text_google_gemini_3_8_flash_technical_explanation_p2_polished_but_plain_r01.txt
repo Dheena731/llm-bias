@@ -1,0 +1,5 @@
+A database index works much like the index found at the back of a reference book. Without an index, a database engine must examine every single row in a table from start to finish to find the requested information, a slow and resource-intensive process known as a full table scan. 
+
+When an index is created on a specific column, the database builds a specialized, pre-sorted data structure that pairs the indexed values with direct pointers to the actual rows where the complete data is stored. Because this lookup structure is organized for rapid searching, the database can locate the desired records almost instantly, drastically speeding up queries that involve filtering, sorting, or joining data. 
+
+The primary drawback of indexing is the maintenance cost. Each index consumes additional disk space, and whenever data is inserted, updated, or deleted in the table, the database must also update the corresponding index. Because of this, indexes are typically applied thoughtfully to columns that are read frequently rather than applied universally to every column.

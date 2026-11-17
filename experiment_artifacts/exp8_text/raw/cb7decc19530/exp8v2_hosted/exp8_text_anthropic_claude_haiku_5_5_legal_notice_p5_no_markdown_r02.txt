@@ -1,0 +1,52 @@
+ACCEPTABLE USE NOTICE FOR SHARED NETWORK RESOURCES
+
+1. Purpose and Scope
+
+This Notice sets out the terms under which users may access and use the shared network, including all associated hardware, software, accounts, data storage, and internet connectivity (collectively, the "Network"). By accessing the Network, each user agrees to comply with this Notice.
+
+2. Authorized Use
+
+The Network is provided for lawful, work-related, educational, or other purposes expressly authorized by the Network administrator. Limited personal use is permitted provided it does not interfere with the operation of the Network, consume excessive resources, or violate any provision of this Notice.
+
+3. Prohibited Conduct
+
+Users shall not:
+
+(a) access, attempt to access, or share any account, credential, or system that they are not authorized to use;
+
+(b) introduce malicious software, or intentionally disrupt, degrade, or circumvent any security control, monitoring tool, or access restriction;
+
+(c) transmit, store, or distribute material that is unlawful, defamatory, harassing, threatening, obscene, or that infringes any intellectual property right;
+
+(d) use the Network to conduct commercial activity unrelated to authorized purposes;
+
+(e) engage in unauthorized mining of data, cryptocurrency, or other resource-intensive activity without written approval; or
+
+(f) use the Network in any manner that violates applicable law or regulation.
+
+4. Account Security
+
+Users are responsible for maintaining the confidentiality of their login credentials and for all activity conducted under their accounts. Passwords must not be disclosed to others, and any suspected compromise must be reported to the Network administrator immediately.
+
+5. Monitoring and Privacy
+
+The Network is a shared resource. To protect its integrity and security, the administrator may monitor, log, inspect, and review network traffic, account activity, and stored data. Users should have no expectation of privacy in their use of the Network to the extent permitted by applicable law.
+
+6. Reporting Obligations
+
+Users must promptly report any security incident, suspected policy violation, or misuse of the Network to the Network administrator.
+
+7. Enforcement
+
+Violations of this Notice may result in suspension or termination of network access, disciplinary action, and referral to law enforcement or other authorities where appropriate. The administrator reserves the right to remove any content or restrict any activity that threatens the Network or other users.
+
+8. Amendments
+
+The administrator may amend this Notice at any time. Continued use of the Network following notice of amendments constitutes acceptance of the revised terms.
+
+9. Acknowledgment
+
+By using the Network, you acknowledge that you have read, understood, and agreed to comply with this Notice.
+
+Issued by: Network Administration
+Effective Date: [Insert Date]

@@ -1,0 +1,13 @@
+**Filter datasets**
+Narrow results by criteria such as topic, date range, file format, license, or access level. Multiple filters work together (AND), so each one you add further narrows the results. Select **Clear all** to reset.
+
+---
+
+**Alternate versions for specific filters:**
+
+- **Date range:** Show only datasets collected or published within the dates you set. Leave a field blank for no limit.
+- **License:** Show datasets that match your reuse needs (e.g., CC BY, CC0). Check the license terms before publishing.
+- **Access level:** Choose between open datasets and those that require approval or a data-use agreement.
+- **Peer-reviewed only:** Show datasets linked to peer-reviewed publications. Newer or unpublished datasets may be hidden.
+
+If you tell me which filter you mean and the tool's tone, I can tailor the wording and length.

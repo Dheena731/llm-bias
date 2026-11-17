@@ -1,0 +1,7 @@
+**Reviewer comment on the research question**
+
+The central question, "How does social media use affect adolescents' well-being?", is too broad to guide the study design. "Social media use" could mean time spent, types of platforms, active posting, or passive scrolling, and each would lead to a different analysis. "Well-being" is also left undefined. The authors should state whether they mean life satisfaction, depressive symptoms, sleep, or another construct, and name the instrument they will use to measure it.
+
+The question also does not indicate whether the aim is descriptive, associational, or causal. The word "affect" implies a causal claim, but the proposed cross-sectional survey design cannot support one. I recommend either rewording the question to match an associational aim (for example, "Is daily time spent on specific platforms associated with self-reported depressive symptoms among 13- to 16-year-olds?") or justifying how the design would address causality.
+
+Finally, the population needs more precise boundaries. "Adolescents" spans a wide developmental range, and the authors should specify the age range, setting, and sampling frame. A revised question with these elements would make the hypotheses, variables, and analysis plan much easier to evaluate.

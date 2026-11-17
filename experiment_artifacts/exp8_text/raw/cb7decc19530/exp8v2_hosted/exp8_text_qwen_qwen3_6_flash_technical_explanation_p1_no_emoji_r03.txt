@@ -1,0 +1,7 @@
+Latency is the delay between a user's action and the application's response. It matters in web applications for three primary reasons:
+
+1.  **User Experience:** High latency causes perceived sluggishness, leading to frustration and abandonment. Users expect immediate feedback, and even small delays can increase bounce rates and reduce engagement.
+2.  **Business Impact:** Performance directly correlates with revenue. Slower load times are linked to lower conversion rates, fewer sign-ups, and reduced customer retention. A fast application provides a competitive advantage.
+3.  **Search Visibility:** Search engines prioritize fast-loading sites in their rankings. Poor latency can result in lower organic traffic, making optimization essential for discoverability.
+
+Additionally, in complex systems, latency can accumulate across multiple services, degrading overall reliability and complicating maintenance. Minimizing latency ensures a responsive, efficient, and scalable web application.

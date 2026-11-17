@@ -1,0 +1,3 @@
+In these charts, confidence intervals are provided for each data point to indicate the range within which we can be confident that the true population parameter lies, given the sample data. Despite the width of the interval, it does not represent uncertainty in the data itself or in the analysis; rather, it reflects the inherent variability within the data sample and the chosen confidence level.
+
+*Note: Confidence intervals are not a statistical method to estimate population characteristics but a way to quantify the reliability of sample-based inferences.*

@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter:
+
+"Apply this filter to exclude observations that meet the selected criteria, allowing you to focus on a specific subset of data for in-depth analysis. By default, filtered results will reflect changes in the dataset's overall statistics, such as means and totals."

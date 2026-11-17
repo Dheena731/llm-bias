@@ -1,0 +1,21 @@
+**Subject: Update to Card Transaction Fees**
+
+Dear Valued Customer,
+
+We are writing to let you know that card transaction fees will change effective **[date]**. The new fee for card payments will be **[X%] plus [$Y] per transaction**, replacing the current rate of **[current rate]**.
+
+This change reflects higher processing costs charged by our payment providers. We have kept the adjustment as small as possible, and it applies only to card payments. Cash, bank transfer, and [other payment methods] are not affected.
+
+No action is needed on your part. If you have an existing subscription or recurring payment, the new fee will apply from your next billing date, and you will see it itemised on your invoice.
+
+If you have questions, please contact us at [email/phone] and we will be glad to help.
+
+Thank you for your continued business.
+
+Kind regards,
+[Name]
+[Company]
+
+---
+
+*I used bracketed placeholders since the request didn't include specific figures or dates. Send me the details and I'll fill them in.*

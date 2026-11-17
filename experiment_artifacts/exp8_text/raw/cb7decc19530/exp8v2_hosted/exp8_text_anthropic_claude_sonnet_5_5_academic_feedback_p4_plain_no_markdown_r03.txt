@@ -1,0 +1,9 @@
+Thanks for sharing the draft. The poster has a clear core idea, and the results section shows real work. My main suggestions are about helping a viewer grasp that idea quickly, since most people will spend under a minute at the poster before deciding whether to stop and talk.
+
+The title and opening section should state the central question and your main finding in plain language. At the moment a reader has to work through the background to find the point. Try a one- or two-sentence takeaway near the top, in larger type, so someone walking past can see what you found. The text overall runs heavy. Several paragraphs could be cut by half or turned into a short caption beside a figure. If a sentence does not support the main claim, consider removing it.
+
+The figures are your strongest material, but a few are too small to read from a normal standing distance, and some axis labels and legends are tiny. Enlarge the two or three key figures and give each a short headline that states the conclusion, such as "Accuracy drops sharply after step 10," rather than a neutral label. Check that your color choices stay distinguishable for color-blind readers and in grayscale.
+
+For layout, a left-to-right, top-to-bottom flow would help, with clear spacing between sections so the reading order is obvious. Some areas feel crowded while others are empty, so redistributing the white space would make the poster feel more balanced. Keep fonts consistent, and limit yourself to one or two typefaces.
+
+Finally, the conclusion section would be stronger with two or three direct statements about what your results mean and what comes next, plus contact details or a QR code. With these changes I think the poster will be much easier to approach and discuss. I'm happy to look at a revised version.

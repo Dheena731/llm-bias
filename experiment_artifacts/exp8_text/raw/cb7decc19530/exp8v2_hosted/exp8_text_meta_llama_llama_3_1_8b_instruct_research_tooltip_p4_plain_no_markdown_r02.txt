@@ -1,0 +1,1 @@
+A missing-value marker indicates that a value or data point is unknown or not available for a particular measurement or calculation. It is used to represent a gap in the data, often denoted by a dash, an empty space, or a specific symbol, and serves as a placeholder until the missing value can be determined or replaced with a more accurate figure.

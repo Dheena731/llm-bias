@@ -1,0 +1,9 @@
+Step 5: Use Markdown
+
+Code markers help you edit and convert documentation online. You can highlight a word and press CTRL+K. This will create a link to a Markdown page where you can edit, remove, or change the text.
+
+Run Markdown commands in the top bar.
+
+Step 6: Use Help files
+
+Read about the different commands and their usage in the Help page.

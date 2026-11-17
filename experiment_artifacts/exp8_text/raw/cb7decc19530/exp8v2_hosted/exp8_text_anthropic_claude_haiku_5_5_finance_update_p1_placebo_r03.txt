@@ -1,0 +1,9 @@
+**Subject: New Monthly Spending Summary**
+
+We've added a monthly spending summary that gives you a single overview of where your money went in the past month.
+
+Each summary shows your total spending for the month and groups it by category, so you can see which areas took the largest share. Instead of reviewing transactions one by one, you can understand your month at a glance and compare it with previous months.
+
+We built this to make it easier to notice patterns and decide where you want to adjust your spending.
+
+If you have questions or feedback about the new summary, please reply to this update.

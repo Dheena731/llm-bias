@@ -1,0 +1,15 @@
+**Scheduled Maintenance: Query Engine Upgrade & Index Optimization**
+
+**Window:** Sunday, Oct 22, 02:00 – 04:30 UTC  
+**Scope:** Analytics workspace, saved query runner, and scheduled exports
+
+We are upgrading our time-series aggregation cluster and running table maintenance on historical reporting partitions. 
+
+**What this means for your workspace:**
+* **Dashboard Access:** The UI and API reporting endpoints (`/v2/reports/`, `/v2/timeseries/`) will return `503 Service Unavailable` for the duration of the window.
+* **Telemetry & Event Ingestion:** Unaffected. Incoming event streams will continue to buffer in our ingest pipeline and backfill into your views once nodes are live. No data will be dropped.
+* **Alerting:** Synthetic monitors and aggregate metric alert evaluations will be suspended to prevent false threshold notifications. Threshold evaluations will resume automatically post-maintenance.
+
+If you maintain automated reporting jobs or sync scripts via the API, please pause your schedulers during this timeframe to prevent retry back-offs.
+
+Real-time progress will be posted on **status.company.internal**.

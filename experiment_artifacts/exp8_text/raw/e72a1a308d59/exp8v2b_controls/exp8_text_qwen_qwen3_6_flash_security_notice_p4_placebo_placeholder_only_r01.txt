@@ -1,0 +1,18 @@
+**Subject: Action Required: Enable Two-Factor Authentication**
+
+**To All Users,**
+
+To strengthen account security and protect sensitive data, two-factor authentication is now mandatory for every account.
+
+Please take the following steps to activate this feature immediately:
+
+1. Log in to your account dashboard.
+2. Navigate to the Security or Privacy settings menu.
+3. Locate the two-factor authentication option and select Enable.
+4. Follow the on-screen instructions to verify your mobile device or email address.
+
+Completing this setup is required to maintain uninterrupted access to your account. Accounts with two-factor authentication disabled will be restricted after the current grace period ends.
+
+If you experience any issues during activation or require guidance, contact the technical support team for assistance.
+
+Thank you for your prompt attention to this security update.

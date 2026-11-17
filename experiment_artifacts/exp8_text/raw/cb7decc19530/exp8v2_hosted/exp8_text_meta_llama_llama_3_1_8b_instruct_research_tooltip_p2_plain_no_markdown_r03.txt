@@ -1,0 +1,1 @@
+Confidence interval: A statistical range of values within which a population parameter, such as a mean, is likely to lie with a certain level of confidence, typically 95%. It is calculated by adding and subtracting a margin of error from a sample mean, providing a band of possible values that likely contain the true population mean.

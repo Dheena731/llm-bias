@@ -1,0 +1,5 @@
+Software updates matter because they keep the programs and devices we rely on safe, stable, and useful. Developers regularly discover security vulnerabilities, which are flaws that attackers can exploit to steal data, lock files, or take control of a system. When a fix is released, installing it closes that opening before criminals have a chance to use it. Delaying updates leaves known weaknesses in place, and attackers often target systems that are behind on patches because they know those flaws are publicly documented.
+
+Updates also fix bugs that cause crashes, data loss, or confusing behavior, and they improve compatibility with other software and hardware. Over time, they can add performance improvements and features that make everyday tasks smoother. Keeping software current also means it continues to receive support, since older versions are often retired and stop getting any fixes at all.
+
+Taking a few minutes to install updates when they are available is one of the simplest and most effective habits for protecting personal information and keeping technology working as intended.

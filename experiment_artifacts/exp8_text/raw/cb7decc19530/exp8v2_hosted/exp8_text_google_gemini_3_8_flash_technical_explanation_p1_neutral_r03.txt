@@ -1,0 +1,10 @@
+**Latency** is the time it takes for a user’s request to travel to a server and return a response. In web applications, latency matters because it directly dictates **user behavior, revenue, and discoverability**. 
+
+Here is why it is critical:
+
+* **User Experience & Perception:** Human perception registers delays as short as 100 milliseconds. When an app lags, it feels sluggish or broken, breaking the user's flow and causing frustration. 
+* **Conversion Rates and Revenue:** Speed directly impacts the bottom line. Studies consistently show that even a 100ms increase in load time can drop sales conversions by 1% to 7%. If a page takes more than three seconds to load, over half of mobile users will abandon it entirely.
+* **Search Engine Optimization (SEO):** Search engines like Google prioritize fast-loading websites in their search rankings (via metrics like Core Web Vitals). High latency pushes your application lower in search results, reducing organic traffic.
+* **System Efficiency:** High latency often causes requests to pile up, consuming server memory and open connections. This increases infrastructure costs and makes the application more vulnerable to crashing under heavy traffic.
+
+In short, **speed is a core feature**. A web application can have the best functionality in the world, but if high latency makes it slow to respond, users will simply leave for a competitor.

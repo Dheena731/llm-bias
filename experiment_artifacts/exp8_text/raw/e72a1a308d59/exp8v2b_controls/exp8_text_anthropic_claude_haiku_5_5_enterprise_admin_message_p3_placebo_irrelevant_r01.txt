@@ -1,0 +1,22 @@
+Here's a short announcement you can adapt to your needs:
+
+**Subject: VPN Client Update: New Version Rolling Out**
+
+Hello team,
+
+We're updating the VPN client to version 3.2 starting Monday, March 10. The update adds faster reconnection after network changes, improved support for multi-factor sign-in, and fixes for several connection drops reported over the past month.
+
+What you need to do:
+- The update installs automatically the next time you restart your computer.
+- You'll be prompted to sign in once after updating.
+- If you're on a managed device, no action is needed.
+
+If you run into problems, contact the IT Help Desk at helpdesk@example.com or ext. 4357.
+
+Thanks for your patience as we make the connection more reliable.
+
+IT Team
+
+---
+
+I can adjust the version number, date, contact details, or tone (more formal or more casual) if you share your specifics.

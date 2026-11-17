@@ -1,0 +1,5 @@
+Software updates function as the operational antidote to entropy. In a live environment, stagnation guarantees decay. Updates mitigate risk by closing known Common Vulnerabilities and Exposures (CVEs) and preventing dependency rot, where upstream library vulnerabilities compound because you've frozen your dependency tree, leaving you exposed to exploits in components you didn't write but can't easily replace.
+
+From an engineering perspective, updates preserve maintainability. Deferring patches shifts migration costs from incremental refactors to high-friction rewrites, as you fall behind compiler optimizations, evolving API standards, and performance baselines established in older releases. Regular updates also absorb production learnings—addressing race conditions, resolving memory leaks identified by telemetry, and tightening observability hooks so you can trace requests through distributed systems without guessing.
+
+Ultimately, updates aren't about feature velocity; they're about sustaining a def

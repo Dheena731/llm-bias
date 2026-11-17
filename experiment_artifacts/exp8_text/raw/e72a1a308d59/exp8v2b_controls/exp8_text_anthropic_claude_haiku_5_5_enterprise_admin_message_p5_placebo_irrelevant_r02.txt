@@ -1,0 +1,16 @@
+Subject: Upcoming Email Migration: What You Need to Know
+
+Hi team,
+
+On Saturday, March 15, we will be migrating our email system to a new platform. The switch should be seamless, but there are a few things to keep in mind:
+
+- **Before the migration:** Please archive any old emails you no longer need and make sure your mailbox is under 80% capacity.
+- **During the migration:** Email may be unavailable from 8:00 AM to 12:00 PM. Messages sent during this window will be queued and delivered once the process is complete.
+- **After the migration:** You will need to update the email app on your phone and reconnect any mail clients, such as Outlook or Apple Mail. IT will send step-by-step instructions on Monday.
+
+If you have questions or run into problems, contact the IT help desk at helpdesk@company.com or extension 4357.
+
+Thank you for your patience as we make this upgrade.
+
+Best regards,
+The IT Team

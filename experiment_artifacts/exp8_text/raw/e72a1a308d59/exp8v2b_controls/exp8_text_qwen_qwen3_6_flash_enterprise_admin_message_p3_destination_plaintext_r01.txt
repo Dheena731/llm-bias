@@ -1,0 +1,27 @@
+SUBJECT: IMPORTANT: VPN CLIENT UPDATE REQUIRED
+
+ATTENTION:
+
+An update to the VPN client is scheduled for deployment on [DATE].
+
+WHAT IS CHANGING:
+[Briefly describe the change, e.g., Upgrade to version 5.0 / Implementation of multi-factor authentication / Migration to new servers.]
+
+WHY THIS MATTERS:
+[State the benefit or reason, e.g., Critical security enhancement / Improved connection stability / Compliance requirement.]
+
+ACTION REQUIRED:
+All users must install the updated client by [DEADLINE].
+
+Steps:
+1. Navigate to [LINK] to download the latest installer.
+2. Run the installer and follow the on-screen instructions.
+3. Reconnect to the VPN once installation is complete.
+
+SUPPORT:
+If you experience issues or have questions, please contact [IT SUPPORT EMAIL/PHONE] or visit [HELP DESK LINK].
+
+Thank you for your cooperation.
+
+Best regards,
+[YOUR NAME OR DEPARTMENT]

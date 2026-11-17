@@ -1,0 +1,24 @@
+The template is a bit complicated and will need some explaining. As mentioned before, it uses a heavily modified version of the code from the StyleWiki. The style wiki is a template which has a very nice feature: you can mark a part of it as an "extra" template and can not only use it on top of the main template, but can also add extra parameters.
+
+As a result, this template does not only show the name of the missing value, but also additional information how to fill it out. You can use this template to add more information about a missing value, without having to copy it into every single Wikidata item. This is really useful for the general Wikipedia.
+
+For example, if we have a data item at W:VEZBIOLOGO and want to add missing values for the species name and organism name, we can use this template for this Wikidata item by adding a parameter "name=VI". This has the effect that the missing value is displayed, but the extra information about how to fill the missing values is added for every item where the parameter is valid.
+
+Please note that the template is only activated when requesting the "data item" page, but not automatically. As a result, you can see which parameters are valid and which are not by following this link.
+
+The template can easily be modified to replace the missing value with a different text.
+
+Data items missing values template
+
+As an example, the template is used in the data item W:VEZBIOLOGO/R/2, about the Vezzobzone Region. It was modified by using the parameter "name=VI=Vezzobzone". Meaning that the missing values for the "name" is replaced by "Vezzobzone". The template is used in the template for the data item which is also used in the template for the data item, which was modified by the same trick.
+
+Data item missing values template
+
+This template was then used on the main page which is used for all data items. Please note that you need to use the template in the "data item" page. For example, the following link shows the missing value for the "name" parameter:
+
+
+General template for missing values
+
+The template is used on the main page with the data item W:VEZBIOLOGO and the parameters "name=VI=Vezzobzone". When you actually want to learn how to solve missing values, please refer to the info at the end of the article.
+
+Please note that this template is intended to show a missing value, but also to fill in the missing values. Please always read the template and make sure that you understand how it works.

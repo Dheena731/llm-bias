@@ -1,0 +1,5 @@
+Here's a note explaining a change to card transaction fees:
+
+"As of [effective date], we're updating our card transaction fees to better reflect the current market conditions and interchange rates. For domestic transactions, our fee will increase by 0.05% to 1.80% + $0.10 per transaction. International transactions will incur a fee of 2.20% + $0.20 per transaction, up from 2.10%. These changes will help us maintain our commitment to providing secure and reliable payment processing while ensuring we can continue to invest in our platform and support services. If you have any questions or concerns about these updates, please don't hesitate to reach out to our support team."
+
+This note aims to be specific to the domain of payment processing and card transactions, using technical terms like "interchange rates" and providing concrete examples of the fee changes. It also tries to be distinct from generic examples by using a more conversational tone and acknowledging the potential impact on customers.

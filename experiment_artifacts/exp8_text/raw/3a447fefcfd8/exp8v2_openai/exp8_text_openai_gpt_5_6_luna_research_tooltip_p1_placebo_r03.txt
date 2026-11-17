@@ -1,0 +1,1 @@
+What does the filter select or exclude? Please provide its name and behavior so I can write an accurate tooltip without inventing details.

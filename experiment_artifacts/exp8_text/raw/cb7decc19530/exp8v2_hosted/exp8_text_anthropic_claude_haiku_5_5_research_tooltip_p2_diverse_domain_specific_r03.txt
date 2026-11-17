@@ -1,0 +1,2 @@
+**95% CI: 31.2–36.8 min**
+If we repeated this sampling many times, about 95 of every 100 resulting bands would contain the true average wait. Narrower bands mean more deliveries in the sample.

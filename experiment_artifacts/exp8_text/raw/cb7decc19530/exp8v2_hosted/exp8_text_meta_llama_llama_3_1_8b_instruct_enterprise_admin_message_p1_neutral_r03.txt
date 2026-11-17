@@ -1,0 +1,5 @@
+Here is a short admin message about a scheduled dashboard maintenance window:
+
+"Important: Scheduled Dashboard Maintenance
+
+Our dashboard will be undergoing scheduled maintenance on [Date and Time]. During this time, you may experience intermittent disruptions to the dashboard's functionality. We apologize for any inconvenience this may cause and appreciate your patience as we work to ensure the continued performance and security of our system. The maintenance is expected to be completed by [Expected completion time]. If you have any urgent needs, please reach out to us in advance so we can accommodate them during this window."

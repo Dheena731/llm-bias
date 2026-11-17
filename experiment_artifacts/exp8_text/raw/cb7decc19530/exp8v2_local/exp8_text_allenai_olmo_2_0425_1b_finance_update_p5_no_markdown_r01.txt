@@ -1,0 +1,7 @@
+Markdown syntax is not relevant here as the API response is not rendered in the intended format.
+
+There is no way to search for specific dates/datespan. You may be interested to search for events in the past however as that would be helpful to you in some way.
+
+See our Best Practice Checklist and Future Enhancements
+
+Thanks for letting us know. We are improving the search functionality in the next release and will be releasing it in the next week or so.

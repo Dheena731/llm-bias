@@ -1,0 +1,15 @@
+**Security Notice: Do Not Reuse Passwords**
+
+Please use a unique password for every account you access for work. Do not reuse a work password on personal sites or apps, and do not use a personal password for any work account.
+
+Reused passwords are a serious risk. When one website or service is breached, attackers often try the leaked username and password on other sites, including work email and internal systems. A single reused password can give an attacker access to company information even if the breach did not happen at work.
+
+What to do:
+
+- Create a different password for each account.
+- Make each password long and hard to guess.
+- Do not write passwords on sticky notes or save them in unprotected files.
+- If you have used the same password in more than one place, change it now, starting with your work accounts.
+- If you think a password may have been exposed, report it to the IT or security team right away.
+
+Questions about this notice can go to your IT or security team.

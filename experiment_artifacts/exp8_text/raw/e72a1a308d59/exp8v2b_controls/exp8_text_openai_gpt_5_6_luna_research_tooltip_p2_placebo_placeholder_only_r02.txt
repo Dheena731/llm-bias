@@ -1,0 +1,1 @@
+**Confidence interval:** The range of plausible values around the estimate. A 95% interval would contain the true value in about 95% of repeated samples.

@@ -1,0 +1,17 @@
+Here's a concise, precise tooltip explanation for a date-range selector.
+
+**Tooltip Text:**
+
+When you select a date range on our website, you can choose two dates or an inclusive range. Simply click and drag to select a specific date, or use the dropdown menu to pick a range with an end date of 'YYYY-MM-DD' or 'End of Month'.
+
+**Please note:**
+- **Universal Date Format (UDDF):** Typically used in web applications, UDDF is the standard for defining dates and times. Our date-range selector supports this format for efficient date selection and string formatting.
+- **Example:** To select January 1st, 2022, to December 31st, 2022, simply drag the pointer from the start date to the end date within the dropdown box.
+
+**Explanation of Features:**
+
+Our date-range selector provides flexibility and precision for finding dates. The drag-and-drop functionality allows for seamless selection without ambiguity about the start or end date. The dropdown menu offers an adjustable scope, ensuring users can choose dates that fit their requirements, whether seeking a single event, a specific timeframe, or everything within the given timeframe.
+
+*Additional Note:*
+
+If your application uses specific terms not mentioned here, feel free to incorporate placeholder text about those terms right here, ensuring the overall explanation remains clear and comprehensive.

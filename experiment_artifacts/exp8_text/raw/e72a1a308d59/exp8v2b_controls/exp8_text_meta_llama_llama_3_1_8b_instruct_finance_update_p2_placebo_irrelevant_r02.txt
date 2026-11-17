@@ -1,0 +1,23 @@
+Here is a short note explaining a change to card transaction fees:
+
+**Important Update to Card Transaction Fees**
+
+As of [effective date], we are making changes to our card transaction fees. From now on, a new fee structure will apply to all card transactions processed through our system.
+
+**New Fees:**
+
+* A flat fee of $0.15 will be charged for all transactions under $10
+* A fee of 1.5% will be applied to all transactions between $10 and $100
+* A fee of 1% will be charged for all transactions over $100
+
+**Why the Change?**
+
+We are making these changes to reflect the increasing costs of processing card transactions, as well as to provide a more transparent and consistent fee structure for our customers.
+
+**What Does This Mean for You?**
+
+These changes will not affect the way you process transactions, but it's essential to be aware of the new fee structure to ensure accurate reconciliation of your account. If you have any questions or concerns, please don't hesitate to reach out to our customer support team.
+
+Thank you for your understanding and cooperation.
+
+**Best regards, [Your Company Name]**

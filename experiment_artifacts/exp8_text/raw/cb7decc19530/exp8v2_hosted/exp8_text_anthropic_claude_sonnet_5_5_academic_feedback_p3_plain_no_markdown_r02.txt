@@ -1,0 +1,7 @@
+Comment on the research question
+
+The manuscript does not state its central research question clearly enough for me to judge whether the study answers it. The introduction moves between several related aims: understanding why participants disengage from the intervention, estimating its effect on well-being, and identifying which subgroups benefit most. These are distinct questions that call for different designs and analyses. The abstract frames the work as exploratory, while the methods and discussion read as though a specific causal hypothesis was being tested.
+
+Key terms are also left undefined. The authors refer to "engagement" and "meaningful improvement" without saying how either is operationalized or what would count as evidence for or against their claims. As a result, I could not tell whether the null findings in the second analysis are meant to be informative or are simply incidental.
+
+I recommend that the authors state one primary research question, ideally in a single sentence at the end of the introduction, and explain how each analysis bears on it. Any secondary or exploratory questions should be labeled as such and kept separate from the main line of argument. If the study is truly exploratory, the discussion should be revised to avoid language that implies confirmation of a prior hypothesis. Clarifying this would substantially strengthen the paper and make its contribution much easier to evaluate.

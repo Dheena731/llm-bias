@@ -1,0 +1,7 @@
+As of the 1st of April, we are introducing a new transaction fee structure for all card transactions. This change affects merchants who use our payment services to process card transactions.
+
+The new fee structure will be as follows: for transactions under $100, the fee will be 2.5% of the transaction value, while for transactions over $100, the fee will be 1.5% of the transaction value.
+
+Please note that this change applies to all card transactions, regardless of the type of card used. We recommend that merchants review their current processing arrangements to ensure they are in line with our new fee structure.
+
+If you have any questions or concerns about this change, please do not hesitate to contact our customer support team. We are happy to assist you in any way we can.

@@ -1,0 +1,7 @@
+Subject: Important Update to the Corporate VPN Client
+
+We are replacing the current VPN client with a newer version designed to provide more stable connections and a simpler setup experience. The updated client features clearer status indicators, automatic reconnection when your internet drops, and enhanced login security.
+
+To maintain uninterrupted access to company resources, please download and install the new client from the company software portal before the end of this month. The current version will stop functioning automatically after that date. The installation takes only a few minutes, and all your saved settings will transfer over without manual adjustment.
+
+If you run into any problems during the update, contact the IT helpdesk directly. Thank you for your prompt attention to this change.

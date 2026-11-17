@@ -1,0 +1,29 @@
+Feedback on Draft Literature Review
+
+Student: [Name]
+Reviewer: [Name]
+Date: [Date]
+
+Overall, the draft shows a clear understanding of the core debate on hybrid work and employee productivity, and the selection of recent empirical studies is appropriate. However, the review currently reads more as a sequence of summaries than as an argument that leads to your research question. The main priority for revision is to build stronger analytical links between sources.
+
+Strengths
+
+The introduction states the scope of the review clearly and justifies why the topic matters now. Your inclusion of both quantitative field experiments and qualitative interview studies gives the review useful breadth. The paragraph on measurement problems in self-reported productivity is particularly well judged and shows critical awareness of the field.
+
+Areas for revision
+
+First, the organisation is chronological in places and thematic in others. I recommend adopting a single organising logic, such as grouping studies by theoretical perspective (job demands-resources, control theory, or organisational commitment) or by outcome measure. This will allow you to compare findings directly rather than describing each study in isolation.
+
+Second, several paragraphs end with a summary of the study rather than a synthesis of what it contributes to the wider debate. Where you write "Smith (2021) found X," consider adding why this matters for your question and how it relates to, or conflicts with, the findings of other authors.
+
+Third, the review does not yet identify a clear gap. The concluding section mentions that "more research is needed" but does not specify what kind of research, in which context, or why existing designs cannot answer the question. A sharper gap statement would strengthen the justification for your study.
+
+Fourth, some claims lack appropriate citation or qualification, particularly the statement that remote work "consistently" reduces turnover. Please check this against the sources and either cite evidence or soften the wording to reflect the mixed findings in the literature.
+
+Minor points
+
+Check the consistency of citation formatting and ensure all in-text references appear in the reference list. A few sentences in the methods-of-search section are repetitive and could be condensed.
+
+Recommendation
+
+Revise with a thematic structure and a explicit gap statement, then resubmit. With these changes, the review should provide a solid foundation for the empirical chapters. I am happy to discuss the restructuring in our next meeting.

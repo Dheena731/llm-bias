@@ -1,0 +1,20 @@
+Here's a sample admin notice about quarterly access reviews:
+
+**Quarterly Access Reviews: A Reminder to All Users**
+
+As part of our ongoing effort to maintain a secure and compliant environment, we will be conducting quarterly access reviews for all users with elevated privileges. These reviews are designed to ensure that access to sensitive data and systems remains necessary and justified.
+
+In the coming weeks, you may receive a notification from our Security team requesting your participation in a review of your access permissions. This process is a routine part of our security protocols, and we appreciate your cooperation in ensuring the integrity of our systems.
+
+If you have any questions or concerns about the review process, please don't hesitate to reach out to your supervisor or the Security team. Your access permissions will be reviewed, and any unnecessary or outdated permissions will be removed.
+
+**Important Dates:**
+
+* Review notifications will be sent out 2 weeks prior to the scheduled review date.
+* All users will have 1 week to respond to the notification and update their access requests.
+* Review results will be communicated to all users within 2 weeks of the review date.
+
+Your cooperation and understanding in this matter are greatly appreciated. If you have any questions or concerns, please don't hesitate to reach out to us.
+
+Best regards,
+[Your Admin Team]

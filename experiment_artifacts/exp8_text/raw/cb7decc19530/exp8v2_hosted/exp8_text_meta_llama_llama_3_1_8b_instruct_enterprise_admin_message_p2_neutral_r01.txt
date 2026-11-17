@@ -1,0 +1,17 @@
+Here is a short admin message about a new expense approval workflow:
+
+"Hello team,
+
+As part of our ongoing efforts to improve our financial processes, we are introducing a new expense approval workflow effective [date]. This new workflow will allow for faster and more efficient approval of expenses.
+
+The key changes to the process are:
+
+* All expense reports will now be submitted through [new system/platform]
+* Department heads will review and approve expenses within [timeframe, e.g. 24 hours]
+* A new approver hierarchy has been established to ensure timely approvals
+
+Please review the updated [expense policy/guidelines] for more information on the new workflow. If you have any questions or concerns, please don't hesitate to reach out to the finance team.
+
+Thank you for your cooperation and participation in this process improvement.
+
+Best regards, [Your Name]"

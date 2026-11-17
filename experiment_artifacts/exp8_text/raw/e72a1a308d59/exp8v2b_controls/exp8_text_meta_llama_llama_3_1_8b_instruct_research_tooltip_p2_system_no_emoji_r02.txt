@@ -1,0 +1,1 @@
+"Confidence Interval: Displays the range of values within which the true population parameter is likely to lie, given a certain level of probability (e.g. 95%). The interval provides a margin of error for estimates."

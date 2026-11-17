@@ -1,0 +1,12 @@
+Here are a few options, depending on how well the student did:
+
+**Option 1: Balanced (Good foundation, needs more detail)**
+> "Hi [Student Name], you have a solid foundation here, and the logical flow makes your process easy to follow. To take this to the next level, focus on **replicability**. Be more specific about your sample size and the criteria used for participant selection, and ensure you briefly justify *why* you chose this specific analytical framework. A future researcher should be able to use this as an exact 'recipe' for your study. Great progress so far!"
+
+**Option 2: Needs Work (Lacks crucial details/clarity)**
+> "Hi [Student Name], your approach to the project is clear, but the Methods section currently reads more like a summary than a technical guide. You need to include specific details regarding your data collection instruments, software versions, and how you controlled for variables. Break this section down using subheadings (e.g., *Participants, Materials, Procedure*) to improve clarity. Let me know if you want to talk through the revisions."
+
+**Option 3: Strong (Minor polish needed)**
+> "Hi [Student Name], this is an exceptionally clear and thorough Methods section. Your step-by-step procedure is fully replicable, and your justification for the tools used is strong. My only minor suggestion is to shift a few sentences from passive to active voice to make the writing more concise. Excellent work!" 
+
+*Tip: Choose the one that fits best and swap out the bracketed details (like "participants" or "software") to match their specific discipline (e.g., lab science vs. humanities).*

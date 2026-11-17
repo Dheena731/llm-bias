@@ -1,0 +1,1 @@
+"Confidence Interval: A range of values within which we expect the true value to lie with a certain level of confidence (e.g. 95%). The wider the interval, the less precise the estimate; the narrower the interval, the more precise."

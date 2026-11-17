@@ -1,0 +1,94 @@
+My tooltips are looking strange and funny when click on IFTTT account links. Is there a way to fix this? (I mean, italicized content.)
+
+UPDATE 1: I tried converting the code into composable, and included this snippet in .gitignore, but that didn't change anything. Would you please help me?
+
+ENTRYPOINT ["./gradlew", "mycomp", "toptip"]
+
+UPDATE 2: As suggested, I'm removing the following from the .gitignore file:
+
+/mycomp/mycomp/.* bat  
+/mycomp/mycomp/.gitignore
+
+Now I'm getting the following error when running the script:
+
+error: cannot create directory 'com-mycomp-mycomp/mycomp/'
+
+What am I missing?
+
+UPDATE 3: I found that this code is working as expected:
+
+ENTRYPOINT ["./gradlew", "mycomp", "toptip"]
+
+But, I would like to use the first answer as it's working as expected.
+
+How to create a composable .gitignore and composable .gitignore in order to format different folders properly in different versions of Eclipse JRE and Gradle?
+
+Note: This question doesn't exist for the reason given below. I suspect that most of StackOverflow users are aware of the fact that I'm not looking for a solution for the code.
+
+
+FYI, the suggestion to try composable gitignore in the answer is no longer working for me.
+
+I changed the folder structure using composable to support different versions of gradle and eclipse, but my tooltips are still showing funny characters.
+
+You can see my entire folder structure below:
+
+D:\mycomp>tree
+D:\mycomp>dir
+D:\mycomp>dir /A,D
+D:\mycomp>
+
+As you can see my tooltips are showing funny characters, as suggested in the option number 3 from the link above. Gradle and Eclipse are installed in different paths. The vscode tool is working fine, so I think the error is coming from my tooltips.
+
+D:\mycomp>git status
+# On branch master
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what'll be committed)
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what'll be committed)
+#
+#       ~/.gradle
+#       .gitignore
+#
+
+D:\mycomp>git config --get-regexp '^[[:space:]]*gitignore'
+[gitignore] 
+gitignore=/Users/danlu/.gradle/ignore /Users/danlu/.gradle/ignore
+
+D:\mycomp>git config --get-regexp '^[[:space:]]*gradle'
+[gradle] 
+gradle=/Users/danlu/.gradle/1.11
+
+My tooltips are showing strange characters:
+
+D:\mycomp>git status
+# On branch master
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what'll be committed)
+
+# Untracked files:
+#   (use "git add <file>..." to include in what'll be committed)
+#
+#       /Users/danlu/.gradle/ignore
+#       .gitignore
+
+mycomp/.gitignore:
+
+# If you want to ignore things in the IDE, add this to your .gitignore
+.java/.gitignore
+
+D:\mycomp>git status
+# On branch master
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what'll be committed)
+
+# Untracked files:
+#   (use "git add <file>..." to include in what'll be committed)
+#
+
+mycomp/.gitignore:
+
+# If you want

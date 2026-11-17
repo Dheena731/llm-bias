@@ -1,0 +1,5 @@
+Here's a concise tooltip explaining how to export query results in the context of data analysis:
+
+"Export Query Results: 
+
+To export your query results, click the 'Download' button on the top-right corner of the results table. Select 'Export to CSV' or 'Export to Excel' to save your data in a spreadsheet format. You can also choose to export only the selected rows by ticking the box next to 'Include only selected rows' before clicking 'Download'. This will help you analyze and manipulate your data in your preferred tool."

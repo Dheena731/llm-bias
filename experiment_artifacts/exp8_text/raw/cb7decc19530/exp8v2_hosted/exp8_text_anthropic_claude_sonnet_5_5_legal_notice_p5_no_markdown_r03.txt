@@ -1,0 +1,53 @@
+NOTICE OF ACCEPTABLE USE POLICY FOR SHARED NETWORK
+
+Effective Date: [Insert Date]
+
+1. PURPOSE AND SCOPE
+
+This Notice sets forth the terms under which access to and use of the shared network (the "Network") is permitted. It applies to all persons who connect to or use the Network, including employees, residents, guests, contractors, and other authorized users (each, a "User"). By accessing the Network, the User acknowledges and agrees to be bound by this Notice.
+
+2. AUTHORIZED USE
+
+The Network is provided for lawful, legitimate, and authorized purposes only. Users shall use the Network in a manner that is consistent with the rights of other Users and does not impair the Network's security, performance, or availability.
+
+3. PROHIBITED CONDUCT
+
+Users shall not, directly or indirectly:
+
+(a) access or attempt to access any system, data, or account without authorization;
+
+(b) transmit, store, or distribute malware, viruses, or any harmful code;
+
+(c) engage in activity that infringes intellectual property rights or violates any applicable law or regulation;
+
+(d) transmit unlawful, harassing, defamatory, or obscene material;
+
+(e) intercept, monitor, or disrupt network traffic belonging to others;
+
+(f) use the Network to send unsolicited bulk communications; or
+
+(g) consume bandwidth or resources in a manner that unreasonably degrades service for other Users.
+
+4. SECURITY AND CREDENTIALS
+
+Users are responsible for safeguarding their credentials and devices. Any activity conducted under a User's credentials shall be deemed the activity of that User. Users must promptly report any suspected security breach or unauthorized access to the Network Administrator.
+
+5. MONITORING AND PRIVACY
+
+The Network Administrator reserves the right to monitor, log, and review Network activity to the extent permitted by law, for purposes of security, maintenance, and policy enforcement. Users should have no expectation of absolute privacy when using the Network.
+
+6. ENFORCEMENT
+
+Violation of this Notice may result in, without limitation, suspension or termination of access, notification of law enforcement where appropriate, and pursuit of any other remedies available at law or in equity. The Network Administrator may take immediate action to protect the Network without prior notice.
+
+7. DISCLAIMER AND LIMITATION OF LIABILITY
+
+The Network is provided "as is" and "as available," without warranties of any kind, express or implied. To the fullest extent permitted by law, the Network Administrator shall not be liable for any loss, damage, or interruption arising from use of the Network.
+
+8. MODIFICATIONS
+
+This Notice may be amended at any time. Continued use of the Network following any amendment constitutes acceptance of the revised terms.
+
+9. CONTACT
+
+Questions regarding this Notice should be directed to the Network Administrator at [Insert Contact Information].

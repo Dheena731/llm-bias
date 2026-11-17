@@ -1,0 +1,3 @@
+**Payment Processing Update**
+
+Some card and ACH payments are taking longer than usual to move from pending to completed. The delay is occurring during processor settlement and reconciliation—not at checkout. We’re monitoring the queue and retrying affected transactions; no duplicate charges are expected. We’ll post another update once processing times return to normal.

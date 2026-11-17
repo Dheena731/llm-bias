@@ -1,0 +1,1 @@
+An API rate limit is a restriction on how many requests a user or application can make to an API within a specified period. It helps prevent abuse, manage server load, and ensure fair access for all users. If the limit is exceeded, the API may temporarily reject further requests, often returning a **429 Too Many Requests** error.

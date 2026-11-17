@@ -1,0 +1,16 @@
+**Subject: Action Required: Q[X] User Access Review**
+
+To all People Managers and System Owners,
+
+The quarterly user access review is now open. In accordance with our security and compliance policies, you are required to review and certify the access permissions for your team members and systems.
+
+**Action Required:**
+1. Log in to the [Access Management Portal/Link].
+2. Review the list of users and their current permission levels.
+3. Approve valid access or flag unnecessary permissions for revocation.
+
+**Deadline for completion:** [Date, e.g., Friday, October 20, at 5:00 PM]
+
+Please ensure all inactive accounts or permissions that are no longer required for current job responsibilities are removed. Unreviewed accounts may be subject to automatic suspension following the deadline.
+
+If you have any questions or require assistance, please contact the IT Security team at [contact email/helpdesk link].

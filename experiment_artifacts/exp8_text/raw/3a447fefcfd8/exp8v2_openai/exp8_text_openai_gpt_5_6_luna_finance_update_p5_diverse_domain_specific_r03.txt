@@ -1,0 +1,1 @@
+**Payment processing update:** Some payouts are taking longer than usual to move from approved to settled. New payment attempts are processing normally, but affected payouts may remain in a pending state while our processor clears the backlog. No action is required—funds will be released automatically once processing completes.

@@ -1,0 +1,5 @@
+**Reviewer Comment**
+
+The central research question, "How do social media platforms affect adolescent well-being?", is too broad to guide a focused study. "Social media platforms" encompasses a wide range of services with different designs and user behaviors, and "well-being" is undefined. It is unclear whether the authors mean depressive symptoms, life satisfaction, self-esteem, sleep, or some combination. The direction of the proposed effect is also ambiguous, since the question does not specify whether it expects harm, benefit, or both.
+
+I recommend that the authors specify the platform types or usage behaviors of interest, operationalize well-being with a clearly defined outcome measure, and state a testable hypothesis about the direction and mechanism of the relationship. Clarifying the population (age range, setting, country) would also help readers judge the scope of the findings. A revised question, such as "Among adolescents aged 13 to 16, is daily time spent on image-based platforms associated with higher self-reported depressive symptoms over a six-month period?", would give the study a clear target for design and analysis.

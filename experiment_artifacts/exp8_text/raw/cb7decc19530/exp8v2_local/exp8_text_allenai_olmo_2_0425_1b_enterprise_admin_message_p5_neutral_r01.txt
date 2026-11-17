@@ -1,0 +1,7 @@
+How will we know if an email address is available?
+
+We can use the same verify-and-mail process as we do for live customers. We've included some sample messages that you can use to communicate with customers. If you'd like to see other samples, please see our sample query page. We'll also need the email addresses you're migrating. To help with this, if you have access to an email address book, you can use the following instructions. If you can't do this, please contact us for help.
+
+How long should it take to migrate?
+
+This depends on the size of your database. We move a lot of customers at a time, so it's possible for the entire migration to take 1-2 business days. That includes customer addresses, phone numbers, and anything else that the database might have. You can call or e-mail us if you have any trouble.

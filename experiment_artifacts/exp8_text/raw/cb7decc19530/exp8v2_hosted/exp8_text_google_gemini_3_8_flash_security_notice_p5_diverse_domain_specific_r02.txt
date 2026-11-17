@@ -1,0 +1,17 @@
+**Subject: Mandatory Protocol: Unaccounted or Stolen Laptops**
+
+If you misplace your company-issued machine, report it within **30 minutes** of realizing it is missing. Do not spend hours retracing transit routes or waiting until the next business day to see if it turns up. 
+
+SecOps operates on a no-fault reporting policy for lost hardware. Leaving a bag in a rideshare or having a car broken into is an operational reality; hiding it or delaying disclosure is what creates a critical security incident. Our priority is revoking active sessions and issuing an MDM wipe before the device’s cached credentials can be probed.
+
+**Immediate actions required:**
+
+1. **Trigger the alert:** Post `/lost-device` in Slack, or call the 24/7 SecOps on-call line directly at **[Internal Number]**.
+2. **Provide telemetry details:**
+   * Asset tag (if known; otherwise your corporate email).
+   * Approximate timestamp and last known location (e.g., airport terminal, parked car).
+   * Device power state when last seen: **Locked/asleep** or **Powered down** (determines FileVault/BitLocker key state in memory).
+   * Confirm whether your physical YubiKey or company badge was in the same bag.
+3. **Stand by for credential rotation:** The help desk will immediately kill active Okta sessions, revoke SSH/VPN certificates, and queue a remote wipe command via Jamf/Intune. You will need to access your backup MFA methods to re-authenticate on a secondary device.
+
+A police report number will be required for corporate insurance within 48 hours if theft is suspected, but **do not wait for the police report to notify SecOps.** Fast remote sanitization protects our clients and keeps the incident out of the regulatory disclosure threshold.

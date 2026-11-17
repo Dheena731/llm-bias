@@ -1,0 +1,5 @@
+**Reviewer comment on the research question**
+
+The research question, stated in the Introduction as "How does social media use affect adolescent well-being?", is too broad to guide the study. It does not specify what "social media use" means (total time, platform type, or active posting versus passive browsing), how "well-being" is measured, or whether the authors are asking a descriptive, associational, or causal question. The Methods section appears to examine the association between daily hours on social media and self-reported depressive symptoms, which is narrower than the question posed.
+
+I recommend that the authors (1) state one specific question that matches the analysis they performed, (2) define each key construct and how it was measured, and (3) state whether the question is descriptive, associational, or causal. If a causal claim is intended, the single cross-sectional survey described in the Methods cannot support it, and the framing should be revised to match the design.

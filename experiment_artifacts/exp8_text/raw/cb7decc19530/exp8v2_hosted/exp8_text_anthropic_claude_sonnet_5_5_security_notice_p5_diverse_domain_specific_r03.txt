@@ -1,0 +1,34 @@
+**Subject: Lost or stolen laptop: what to do in the first hour**
+
+If you can't find your company laptop, report it right away. Don't spend the evening retracing your steps first. A laptop that turns up in the back of a taxi the next morning is still worth reporting, because we'd rather close the ticket than leave a session token live for 12 hours.
+
+**Report it as soon as you realize it's missing, and no later than one hour after.**
+
+- **Service desk:** ext. 4400 or helpdesk@company.example (staffed 24/7)
+- **Out of the country or on a phone with no email:** call the security hotline at +00 000 000 0000
+
+**Have these ready, but don't delay the call if you don't:**
+
+1. Asset tag number (the silver sticker under the keyboard) or your device name
+2. Where and when you last had it
+3. Whether it was locked, asleep, or shut down
+4. Whether it held anything beyond your normal access, such as local exports of customer data, spreadsheets with personal information, or saved credentials for systems outside SSO
+
+**What we'll do:**
+
+- Revoke your SSO sessions and VPN certificate
+- Lock the device through MDM and, if needed, send a remote wipe. The wipe will run the next time it connects.
+- Confirm the disk was encrypted (BitLocker or FileVault) and check the recovery key escrow
+- Reset your passwords and any shared credentials the device may have held
+
+**What we ask you not to do:**
+
+- Don't try to wipe or reset the laptop yourself
+- Don't log in from another device to "check if it still works." That can muddy the logs we use to see whether someone else has tried to access it.
+- Don't post about it in a team channel before reporting it
+
+**If you think it was stolen,** file a police report and give us the report number. Insurance and, in some cases, regulatory notification depend on it.
+
+Reporting promptly is never held against you. Reporting late is the only thing that causes problems. A replacement laptop is normally ready within one business day.
+
+— IT Security

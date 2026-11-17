@@ -1,0 +1,1 @@
+This filter limits the visible dataset to records matching your chosen criteria. Set parameters like date range, variable type, or quality score to isolate relevant information for analysis. The view refreshes instantly as you modify the settings.

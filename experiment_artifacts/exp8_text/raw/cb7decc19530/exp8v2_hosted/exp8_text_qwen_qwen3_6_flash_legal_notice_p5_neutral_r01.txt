@@ -1,0 +1,16 @@
+**NOTICE OF ACCEPTABLE USE AND TERMS OF ACCESS**
+
+**EFFECTIVE DATE:** [Date]  
+**ISSUING AUTHORITY:** [Organization/Entity Name] Network Administration
+
+**1. ACCEPTANCE OF TERMS**  
+By accessing, connecting to, or utilizing the shared network infrastructure ("Network"), the user ("User") expressly acknowledges and agrees to comply with the terms set forth herein. Continued use constitutes ongoing acceptance.
+
+**2. PERMITTED USE**  
+The Network is provided for authorized business/personal purposes only. Usage must be lawful, non-disruptive, and proportional to allocated resources. Unauthorized commercial use, crypto-mining, or excessive bandwidth consumption is strictly prohibited.
+
+**3. PROHIBITED ACTIVITIES**  
+Users shall not engage in, nor facilitate, any of the following:  
+*   **Unauthorized Access:** Attempting to bypass security controls, gain unauthorized entry, or probe network vulnerabilities.  
+*   **Malicious Conduct:** Distributing malware, viruses, spam, or engaging in denial-of-service attacks.  
+*   **Illegal Acts:** Transmitting content that violates applicable local,

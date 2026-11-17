@@ -1,0 +1,1 @@
+Marks a data point that is absent or unknown, so it is left blank rather than assumed to be zero or any other value.

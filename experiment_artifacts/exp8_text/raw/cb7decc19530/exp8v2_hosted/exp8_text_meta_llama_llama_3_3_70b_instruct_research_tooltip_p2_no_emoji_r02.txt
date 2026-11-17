@@ -1,0 +1,1 @@
+"A confidence interval represents the range of values within which a population parameter is likely to lie. In this chart, the interval indicates the estimated margin of error around the reported value, with a certain level of confidence (e.g. 95%) that the true value falls within this range."

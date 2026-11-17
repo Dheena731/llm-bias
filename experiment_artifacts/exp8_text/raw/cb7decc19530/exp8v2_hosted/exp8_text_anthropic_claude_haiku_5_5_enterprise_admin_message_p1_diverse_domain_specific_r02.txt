@@ -1,0 +1,17 @@
+**Subject: Dashboard down Sat 22:00-02:00, nightly reports will run late**
+
+Team,
+
+The inventory dashboard will be offline this Saturday from 22:00 to 02:00 while we move the database to the new storage volume. Plan around it if you're on the late dock shift or pulling counts for Monday.
+
+What to expect:
+
+- **Dock schedule and live bin counts** will be unavailable. Use the paper manifests in the cage by Door 4 if you need to receive trucks during the window.
+- **The 05:30 pick-volume export** will run at 03:15 instead, so the file in your shared folder will be about two hours late Sunday morning. It will contain the same data.
+- **Cycle count entries** made during the window will be queued and posted when the system comes back. Don't re-enter them.
+
+If something looks wrong after 02:00, message me directly or post in #wh-systems. Don't refresh the dashboard repeatedly during the cutover, since that can slow the restore.
+
+Thanks,
+Dana Okafor
+Warehouse Systems Admin

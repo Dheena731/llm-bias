@@ -1,0 +1,39 @@
+Here are three options, depending on who you are writing to:
+
+### Option 1: To Customers (e.g., a store, restaurant, or service provider)
+**Subject:** Important update regarding card payment fees  
+
+Dear Customers,  
+
+Starting **[Date]**, we will be updating our payment processing fees. Payments made via credit card will now incur a transaction fee of **[X]% / [$X.XX]**. 
+
+This adjustment helps us offset the rising costs of card processing networks while keeping our base prices as low as possible. 
+
+*Please note: Payments made via [Debit card / Cash / Bank transfer] remain completely fee-free.*  
+
+Thank you for your continued support and understanding.  
+
+Best regards,  
+**[Your Business Name]**  
+
+---
+
+### Option 2: B2B / To Clients (e.g., software, agency, or vendor)
+**Subject:** Notice of change to card processing rates  
+
+Dear **[Client Name/Valued Partner]**,  
+
+We are writing to inform you of an upcoming change to our payment terms. Effective **[Date]**, transaction fees for payments processed via credit/debit card will adjust to **[New Rate, e.g., 2.9% + $0.30 per transaction]**.  
+
+This change reflects recent adjustments in interchange and network processing costs. You can review your updated fee schedule and alternative payment options (such as ACH or direct debit) by visiting **[Link to Portal/Terms]**.  
+
+If you have any questions, please reach out to our team at **[Contact Info]**.  
+
+Sincerely,  
+**[Your Name/Company]**  
+
+---
+
+### Option 3: Short Notice (For an invoice footer, website banner, or checkout sign)
+**Notice: Card Payment Fee Update**  
+Effective **[Date]**, a processing fee of **[X]%** will be applied to all credit card transactions. To avoid this fee, we encourage using **[Cash / Debit / ACH / Alternative Payment Method]**. Thank you for your understanding.

@@ -1,0 +1,1 @@
+This tooltip explains that a confidence interval in a chart represents the range within which a population parameter is likely to fall with a certain level of confidence.

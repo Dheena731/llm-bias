@@ -1,0 +1,14 @@
+Hello everyone,
+
+We're excited to announce the launch of our new expense approval workflow. This update aims to streamline and enhance the process of approving expenses, ensuring that all company expenses are accounted for efficiently and securely. 
+
+The new process begins with a digital Request for Approval form being filled out by all departments. Once submitted, the form will be sent to our designated Expense Approval Coordinator for review. The coordinator will then validate the request and approve or deny the expense based on predefined criteria. 
+
+Approval actions will now be logged in our central database, ensuring transparency and accountability. We encourage all departments to familiarize themselves with this new process and to follow the established guidelines.
+
+Thank you for your cooperation as we continue to enhance our finance management system.
+
+Best regards,
+
+[Your Name]
+Admin Team

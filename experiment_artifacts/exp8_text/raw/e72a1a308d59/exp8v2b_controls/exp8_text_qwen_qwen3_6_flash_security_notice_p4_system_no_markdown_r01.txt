@@ -1,0 +1,25 @@
+NOTICE: MANDATORY TWO-FACTOR AUTHENTICATION SETUP
+
+Date: October 26, 2023
+To: All Users
+From: IT Security Team
+
+Subject: Action Required - Enable Two-Factor Authentication
+
+In an effort to strengthen our organizational security posture, all users are required to enable Two-Factor Authentication (2FA) on their accounts. This additional layer of protection helps prevent unauthorized access even if passwords are compromised.
+
+Action Required:
+Please complete the setup process by Friday, November 3, 2023. Accounts without 2FA enabled after this date may experience restricted access.
+
+Instructions:
+1. Log in to your account portal.
+2. Navigate to Account Settings and select Security.
+3. Click on Enable Two-Factor Authentication.
+4. Follow the on-screen instructions to configure your preferred method (Authenticator App or SMS).
+
+Need Assistance?
+If you encounter any issues or require support, please contact the IT Help Desk at extension 5555 or email it-support@example.com.
+
+Thank you for your cooperation in keeping our systems secure.
+
+IT Security Team

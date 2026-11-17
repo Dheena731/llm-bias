@@ -1,0 +1,1 @@
+To export query results, open the query in the table view, tap the three lines in the top right corner, and then select "Export query results". The exported results will be saved as a CSV file on the device or in iCloud Drive.

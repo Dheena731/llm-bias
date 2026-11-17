@@ -1,0 +1,23 @@
+**Security Notice: Password Reuse**
+
+To all employees,
+
+As part of our ongoing efforts to protect company data and systems, we would like to remind everyone about the importance of using unique and complex passwords.
+
+Password reuse, where an employee uses the same password across multiple systems or applications, poses a significant risk to our company's security. If an unauthorized individual gains access to one of your accounts, they may also gain access to other systems or applications that use the same password.
+
+To mitigate this risk, we strongly advise against reusing passwords. If you are using the same password for multiple accounts, please take the necessary steps to change them to unique and complex passwords.
+
+Here are some best practices to follow:
+
+* Use a minimum of 12 characters for all passwords.
+* Include a mix of uppercase and lowercase letters, numbers, and special characters.
+* Avoid using easily guessable information such as your name, birthdate, or common words.
+* Do not reuse passwords for company systems or applications.
+
+If you have any questions or concerns, please reach out to the IT department. We are available to assist you in creating and managing strong, unique passwords.
+
+Thank you for your cooperation and commitment to maintaining the security of our company's systems and data.
+
+Best regards,
+[Your Name]

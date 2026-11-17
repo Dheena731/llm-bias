@@ -1,0 +1,11 @@
+Reviewer Comment: Clarity of the Research Question
+
+The manuscript's central research question is not stated clearly enough for me to evaluate whether the study design and conclusions are appropriate. The Introduction describes a broad topic area but never narrows it to a specific, answerable question. The stated aims shift across sections: the abstract implies a causal question, the Introduction frames the work as exploratory, and the Discussion draws conclusions about effectiveness. It is also unclear which population, variables, and outcomes are the focus.
+
+I recommend that the authors:
+
+1. State one explicit research question (or a small set of clearly numbered questions) at the end of the Introduction.
+2. Specify the key constructs, population, and comparison or relationship of interest, and state whether the study is exploratory or hypothesis-testing.
+3. Align the methods, analyses, and conclusions with that question, and remove or clearly label any findings that fall outside it.
+
+Until the question is sharpened, it is difficult to judge whether the data and analyses support the claims. I would be glad to review a revised version.

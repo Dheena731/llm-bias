@@ -1,0 +1,12 @@
+Here is a short admin message about a new expense approval workflow:
+
+"Hello employees,
+
+We are introducing a new expense approval workflow to enhance the efficiency and transparency of our expense reporting process. As of today, all expense requests will be routed to a manager for approval through our online system. This change is designed to streamline the approval process, reduce manual handling, and provide a clear audit trail.
+
+You will receive a notification once your expense request has been submitted, and you can track the status of your request through the online system. If you have any questions or concerns about this new workflow, please don't hesitate to reach out to our finance team.
+
+Thank you for your cooperation and understanding in this change. If you have any feedback on this new process, please let us know.
+
+Best regards,
+[Your Company Name]"

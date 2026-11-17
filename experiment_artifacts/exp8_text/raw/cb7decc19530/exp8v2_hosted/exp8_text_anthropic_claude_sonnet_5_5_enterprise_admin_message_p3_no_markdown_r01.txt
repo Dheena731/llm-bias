@@ -1,0 +1,19 @@
+Subject: Upcoming VPN Client Update
+
+Hello everyone,
+
+We are updating our VPN client to a new version on Saturday, June 14, between 10:00 PM and 11:00 PM. The update improves connection stability, speeds up login, and includes important security fixes.
+
+What you need to know:
+
+- The update will install automatically the next time you connect after the rollout. No action is required on your part.
+- You may be briefly disconnected during the installation. Please save your work before connecting.
+- After the update, you may be asked to sign in again with your usual credentials and multi-factor authentication.
+- The old client version will stop working on Monday, June 30, so please make sure you update before then.
+
+If you run into any problems, contact the IT Help Desk at helpdesk@example.com or call extension 1234. Please include your device type and any error message you see.
+
+Thank you for your patience as we make these improvements.
+
+Best regards,
+IT Support Team

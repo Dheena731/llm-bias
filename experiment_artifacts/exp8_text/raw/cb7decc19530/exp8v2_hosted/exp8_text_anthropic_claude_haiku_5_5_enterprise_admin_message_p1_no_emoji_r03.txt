@@ -1,0 +1,13 @@
+**Subject: Scheduled Dashboard Maintenance: Saturday, June 14, 10:00 PM to 2:00 AM EST**
+
+Hello team,
+
+The analytics dashboard will be offline for scheduled maintenance on Saturday, June 14, from 10:00 PM to 2:00 AM EST. During this window, you will not be able to access dashboards, reports, or data exports.
+
+The maintenance includes database performance upgrades and security patches. No action is required on your part. Please save any work and export critical reports before 10:00 PM on Saturday.
+
+If you experience issues after the maintenance window ends, please contact the IT Help Desk at helpdesk@company.com or extension 4357.
+
+Thank you for your patience.
+
+IT Operations Team

@@ -1,0 +1,18 @@
+Since I haven't seen the student's actual text, here is a model note you can adapt to the specific draft.
+
+Dear Sam,
+
+Thank you for submitting your methods section. Overall it is a solid draft. You describe your overall design clearly, and the rationale for choosing a survey-based approach is well argued and connected to your research question. The writing is concise and mostly in the past tense, which suits this section.
+
+The main area for improvement is replicability. A reader should be able to repeat your study from your description alone, and at present several details are missing. You mention that participants were recruited from local schools, but you do not say how many schools, how they were selected, or what the inclusion and exclusion criteria were. Your sample size also appears without any explanation of how you arrived at it. Even a brief note on a power calculation or a practical constraint would help. Similarly, you say the questionnaire was adapted from an existing instrument, but you do not specify what you changed, whether you piloted it, or how you checked its reliability.
+
+The analysis paragraph needs more precision. You state that the data were analyzed using appropriate statistical tests, but the word appropriate does little work here. Name the tests, explain why they suit your data, and say what you did about missing responses and assumption checks. Please also state your significance threshold and the software and version you used.
+
+A smaller point concerns ethics. You note that consent was obtained, but the section should also mention ethical approval, including the name of the committee and the reference number, as well as how you protected participants' anonymity.
+
+Finally, consider reordering the section so it follows a more conventional sequence: design, participants, materials, procedure, and analysis. Right now the procedure is split between two paragraphs, which makes it harder to follow.
+
+With these revisions the section will be much stronger. Please send me the next version once you have addressed the points on recruitment, instrument adaptation, and analysis, and I will be glad to look again.
+
+Best wishes,
+Dr. Rivera

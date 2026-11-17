@@ -1,0 +1,16 @@
+Subject: Upcoming change to the company VPN client
+
+Hello everyone,
+
+We are replacing our current VPN client with a newer version on Monday, March 10. The update improves connection stability, speeds up reconnection after network interruptions, and adds support for single sign-on, so you will no longer need to enter a separate VPN password.
+
+On the morning of the change, the new client will be installed automatically on company-managed laptops the next time you restart. If you do not see it after restarting, please open the Software Center and install it from there. Your existing connection profile will carry over, so you should not need to reconfigure anything. The old client will stop working on Friday, March 14, so please complete the update before then.
+
+If you use a personal device for remote access, you will need to download the new client from the IT portal and follow the short setup guide posted there.
+
+If you run into any problems, contact the IT Help Desk at helpdesk@example.com or extension 4357. We will have extra staff available during the first week to answer questions and resolve issues quickly.
+
+Thank you for your help in making this a smooth transition.
+
+Best regards,
+The IT Team

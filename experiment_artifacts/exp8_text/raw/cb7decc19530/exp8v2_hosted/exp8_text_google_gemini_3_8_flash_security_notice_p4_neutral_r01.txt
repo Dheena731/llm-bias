@@ -1,0 +1,28 @@
+Here are a few options, depending on your audience and platform:
+
+**Option 1: Professional / Workplace (Mandatory)**
+> **Action Required: Enable Two-Factor Authentication (2FA)**
+> 
+> To enhance the security of our systems and protect your data, all users are required to enable Two-Factor Authentication (2FA) by **[Insert Date]**. 
+> 
+> **How to set it up:**
+> 1. Go to **Settings > Security**.
+> 2. Select **Two-Factor Authentication** and follow the on-screen instructions.
+> 
+> If you need assistance, please contact the IT Support team at **[Contact Info]**. Thank you for helping us keep our network secure.
+
+***
+
+**Option 2: Friendly / Consumer-Facing (Recommended)**
+> **Boost Your Account Security: Turn on 2FA Today**
+> 
+> Your security is our top priority. We strongly recommend enabling Two-Factor Authentication (2FA) to add an extra layer of protection to your account. 
+> 
+> It only takes a minute to set up and ensures that only you can access your account, even if someone else knows your password. 
+> 
+> Head to your **Account Settings > Security** to activate it now!
+
+***
+
+**Option 3: Short In-App Banner or Notification**
+> **🔒 Keep your account safe:** Enable Two-Factor Authentication (2FA) today for stronger security. **[Enable Now]**

@@ -1,0 +1,17 @@
+ACCEPTABLE USE NOTICE FOR SHARED NETWORK RESOURCES
+
+This notice governs access to and use of the shared computer network, including all servers, workstations, wireless access points, internet connections, email systems, and stored data made available by the organization. By connecting to or using the network, each user agrees to comply with the terms set out below.
+
+Users may use the network only for authorized purposes related to their work, study, or other activities the organization has approved. Limited personal use is permitted provided it does not interfere with business operations, consume excessive bandwidth, or violate any provision of this notice.
+
+Each user must keep his or her login credentials confidential and must not share them with any other person. Users are responsible for all activity conducted under their accounts. Passwords must meet the complexity requirements set by the organization and must be changed when required.
+
+Users must not attempt to bypass security controls, access accounts or data belonging to others without authorization, install unapproved software, introduce malicious code, or probe the network for vulnerabilities. Users must not use the network to transmit unlawful, harassing, defamatory, or discriminatory material, or to infringe copyrights or other intellectual property rights.
+
+Users should handle shared files with care, store data only in locations designated for that purpose, and respect the confidentiality of information to which they have access. Any suspected security incident, lost device, or unauthorized access must be reported promptly to the information technology department.
+
+The organization may monitor network traffic, review stored content, and inspect devices connected to its systems, to the extent permitted by applicable law, in order to maintain security, investigate suspected violations, and ensure compliance with this notice. Users should not expect privacy in communications sent through organization-owned systems.
+
+Violations of this notice may result in suspension of network access, disciplinary action up to and including termination of employment or enrollment, and referral to law enforcement where appropriate. The organization reserves the right to amend this notice at any time, and continued use of the network after notice of an amendment constitutes acceptance of the revised terms.
+
+Questions about this notice should be directed to the information technology department before any questionable activity takes place.

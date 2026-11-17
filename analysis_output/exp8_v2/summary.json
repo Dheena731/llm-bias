@@ -1,0 +1,1321 @@
+{
+  "rows": {
+    "hosted": 10080,
+    "controls": 5040,
+    "local_1b": 1680,
+    "local_7b": 420
+  },
+  "routes": {
+    "claude-sonnet-5.5|no_emoji|has_markup": {
+      "delta": -0.06666666666666667,
+      "ci_low": -0.2,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|no_markdown|has_markup": {
+      "delta": -1.0,
+      "ci_low": -1.0,
+      "ci_high": -1.0,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "claude-sonnet-5.5|plain_no_markdown|has_markup": {
+      "delta": -1.0,
+      "ci_low": -1.0,
+      "ci_high": -1.0,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "claude-sonnet-5.5|placebo|has_markup": {
+      "delta": -0.022222222222222223,
+      "ci_low": -0.06666666666666667,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo|has_emoji": {
+      "delta": -0.17777777777777778,
+      "ci_low": -0.37777777777777777,
+      "ci_high": 0.0,
+      "p": 0.25,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gemini-3.8-flash|no_emoji|has_markup": {
+      "delta": -0.5444444444444445,
+      "ci_low": -0.7444444444444445,
+      "ci_high": -0.3333333333333333,
+      "p": 0.00390625,
+      "families": 12,
+      "p_holm": 0.078125
+    },
+    "gemini-3.8-flash|no_markdown|has_markup": {
+      "delta": -0.9777777777777777,
+      "ci_low": -1.0,
+      "ci_high": -0.9444444444444444,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "gemini-3.8-flash|plain_no_markdown|has_markup": {
+      "delta": -0.9777777777777777,
+      "ci_low": -1.0,
+      "ci_high": -0.9444444444444444,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "gemini-3.8-flash|placebo|has_markup": {
+      "delta": -0.6222222222222222,
+      "ci_low": -0.8111111111111111,
+      "ci_high": -0.41111111111111115,
+      "p": 0.001953125,
+      "families": 12,
+      "p_holm": 0.044921875
+    },
+    "gemini-3.8-flash|placebo|has_emoji": {
+      "delta": -0.31666666666666665,
+      "ci_low": -0.5277777777777778,
+      "ci_high": -0.12777777777777777,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.203125
+    },
+    "qwen3.6-flash|no_emoji|has_markup": {
+      "delta": -0.5277777777777778,
+      "ci_low": -0.6944444444444444,
+      "ci_high": -0.35000000000000003,
+      "p": 0.001953125,
+      "families": 12,
+      "p_holm": 0.044921875
+    },
+    "qwen3.6-flash|no_markdown|has_markup": {
+      "delta": -0.8722222222222222,
+      "ci_low": -0.9722222222222222,
+      "ci_high": -0.7444444444444445,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "qwen3.6-flash|plain_no_markdown|has_markup": {
+      "delta": -0.8722222222222222,
+      "ci_low": -0.9722222222222222,
+      "ci_high": -0.7444444444444445,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "qwen3.6-flash|placebo|has_markup": {
+      "delta": -0.65,
+      "ci_low": -0.7722222222222223,
+      "ci_high": -0.5166666666666667,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "qwen3.6-flash|placebo|has_emoji": {
+      "delta": -0.4388888888888889,
+      "ci_low": -0.6444444444444445,
+      "ci_high": -0.23888888888888887,
+      "p": 0.001953125,
+      "families": 12,
+      "p_holm": 0.044921875
+    },
+    "claude-haiku-5.5|no_emoji|has_markup": {
+      "delta": -0.14444444444444443,
+      "ci_low": -0.25,
+      "ci_high": -0.044444444444444446,
+      "p": 0.03125,
+      "families": 12,
+      "p_holm": 0.375
+    },
+    "claude-haiku-5.5|no_markdown|has_markup": {
+      "delta": -0.7555555555555555,
+      "ci_low": -0.9,
+      "ci_high": -0.5944444444444444,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "claude-haiku-5.5|plain_no_markdown|has_markup": {
+      "delta": -0.7555555555555555,
+      "ci_low": -0.9,
+      "ci_high": -0.5944444444444444,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.01708984375
+    },
+    "claude-haiku-5.5|placebo|has_markup": {
+      "delta": -0.05,
+      "ci_low": -0.15,
+      "ci_high": 0.03888888888888889,
+      "p": 0.40625,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo|has_emoji": {
+      "delta": -0.08888888888888889,
+      "ci_low": -0.25555555555555554,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|no_emoji|has_markup": {
+      "delta": -0.5222222222222223,
+      "ci_low": -0.6888888888888889,
+      "ci_high": -0.35555555555555557,
+      "p": 0.0009765625,
+      "families": 12,
+      "p_holm": 0.025390625
+    },
+    "llama-3.1-8b-instruct|no_markdown|has_markup": {
+      "delta": -0.4777777777777778,
+      "ci_low": -0.5944444444444444,
+      "ci_high": -0.34444444444444444,
+      "p": 0.0009765625,
+      "families": 12,
+      "p_holm": 0.025390625
+    },
+    "llama-3.1-8b-instruct|plain_no_markdown|has_markup": {
+      "delta": -0.6833333333333333,
+      "ci_low": -0.8611111111111112,
+      "ci_high": -0.48333333333333334,
+      "p": 0.0009765625,
+      "families": 12,
+      "p_holm": 0.025390625
+    },
+    "llama-3.1-8b-instruct|placebo|has_markup": {
+      "delta": 2.0816681711721684e-18,
+      "ci_low": -0.11666666666666667,
+      "ci_high": 0.12222222222222223,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|no_emoji|has_markup": {
+      "delta": -0.14444444444444446,
+      "ci_low": -0.2722222222222222,
+      "ci_high": -0.03888888888888889,
+      "p": 0.046875,
+      "families": 12,
+      "p_holm": 0.515625
+    },
+    "gpt-5.6-luna|no_markdown|has_markup": {
+      "delta": -0.48333333333333334,
+      "ci_low": -0.7222222222222222,
+      "ci_high": -0.25,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.1484375
+    },
+    "gpt-5.6-luna|plain_no_markdown|has_markup": {
+      "delta": -0.48333333333333334,
+      "ci_low": -0.7222222222222222,
+      "ci_high": -0.25,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.1484375
+    },
+    "gpt-5.6-luna|placebo|has_markup": {
+      "delta": -0.06111111111111111,
+      "ci_low": -0.12777777777777777,
+      "ci_high": -0.005555555555555557,
+      "p": 0.125,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo|has_emoji": {
+      "delta": -0.06111111111111111,
+      "ci_low": -0.15555555555555556,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|no_emoji|has_markup": {
+      "delta": -0.38333333333333336,
+      "ci_low": -0.5833333333333334,
+      "ci_high": -0.19444444444444445,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.1484375
+    },
+    "llama-3.3-70b-instruct|no_markdown|has_markup": {
+      "delta": -0.38333333333333336,
+      "ci_low": -0.5833333333333334,
+      "ci_high": -0.19444444444444445,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.1484375
+    },
+    "llama-3.3-70b-instruct|plain_no_markdown|has_markup": {
+      "delta": -0.38333333333333336,
+      "ci_low": -0.5833333333333334,
+      "ci_high": -0.19444444444444445,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.1484375
+    },
+    "llama-3.3-70b-instruct|placebo|has_markup": {
+      "delta": -0.32222222222222224,
+      "ci_low": -0.5,
+      "ci_high": -0.1611111111111111,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.1484375
+    },
+    "llama-3.3-70b-instruct|placebo|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    }
+  },
+  "controls": {
+    "claude-sonnet-5.5|placebo|has_emoji": {
+      "delta": -0.17777777777777778,
+      "ci_low": -0.37777777777777777,
+      "ci_high": 0.0,
+      "p": 0.25,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo_irrelevant|has_emoji": {
+      "delta": -0.06666666666666667,
+      "ci_low": -0.20555555555555555,
+      "ci_high": 0.03333333333333333,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo_ablated|has_emoji": {
+      "delta": -0.15,
+      "ci_low": -0.34444444444444444,
+      "ci_high": 0.0,
+      "p": 0.25,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo_placeholder_only|has_emoji": {
+      "delta": -0.13333333333333333,
+      "ci_low": -0.3111111111111111,
+      "ci_high": 0.0,
+      "p": 0.25,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo|has_markup": {
+      "delta": -0.022222222222222223,
+      "ci_low": -0.06666666666666667,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo_irrelevant|has_markup": {
+      "delta": -0.008333333333333333,
+      "ci_low": -0.025,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo_ablated|has_markup": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|placebo_placeholder_only|has_markup": {
+      "delta": -0.06666666666666667,
+      "ci_low": -0.2,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|destination_plaintext|has_markup": {
+      "delta": -0.9916666666666667,
+      "ci_low": -1.0,
+      "ci_high": -0.975,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.03759765625
+    },
+    "claude-sonnet-5.5|system_no_emoji|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-sonnet-5.5|system_no_markdown|has_markup": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gemini-3.8-flash|placebo|has_emoji": {
+      "delta": -0.31666666666666665,
+      "ci_low": -0.5277777777777778,
+      "ci_high": -0.12777777777777777,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.90625
+    },
+    "gemini-3.8-flash|placebo_irrelevant|has_emoji": {
+      "delta": -0.11666666666666667,
+      "ci_low": -0.19999999999999998,
+      "ci_high": -0.04444444444444444,
+      "p": 0.03125,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gemini-3.8-flash|placebo_ablated|has_emoji": {
+      "delta": -0.2583333333333333,
+      "ci_low": -0.44166666666666665,
+      "ci_high": -0.09999999999999999,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.90625
+    },
+    "gemini-3.8-flash|placebo_placeholder_only|has_emoji": {
+      "delta": -0.2583333333333333,
+      "ci_low": -0.44166666666666665,
+      "ci_high": -0.09999999999999999,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.90625
+    },
+    "gemini-3.8-flash|placebo|has_markup": {
+      "delta": -0.6222222222222222,
+      "ci_low": -0.8111111111111111,
+      "ci_high": -0.41111111111111115,
+      "p": 0.001953125,
+      "families": 12,
+      "p_holm": 0.134765625
+    },
+    "gemini-3.8-flash|placebo_irrelevant|has_markup": {
+      "delta": -0.06944444444444445,
+      "ci_low": -0.15555555555555556,
+      "ci_high": 0.0,
+      "p": 0.25,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gemini-3.8-flash|placebo_ablated|has_markup": {
+      "delta": -0.39444444444444443,
+      "ci_low": -0.5833333333333334,
+      "ci_high": -0.19999999999999998,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.90625
+    },
+    "gemini-3.8-flash|placebo_placeholder_only|has_markup": {
+      "delta": -0.49444444444444446,
+      "ci_low": -0.7083333333333334,
+      "ci_high": -0.275,
+      "p": 0.00390625,
+      "families": 12,
+      "p_holm": 0.25390625
+    },
+    "gemini-3.8-flash|destination_plaintext|has_markup": {
+      "delta": -0.9777777777777777,
+      "ci_low": -1.0,
+      "ci_high": -0.9444444444444444,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.03759765625
+    },
+    "gemini-3.8-flash|system_no_emoji|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gemini-3.8-flash|system_no_markdown|has_markup": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "qwen3.6-flash|placebo|has_emoji": {
+      "delta": -0.4388888888888889,
+      "ci_low": -0.6444444444444445,
+      "ci_high": -0.23888888888888887,
+      "p": 0.001953125,
+      "families": 12,
+      "p_holm": 0.134765625
+    },
+    "qwen3.6-flash|placebo_irrelevant|has_emoji": {
+      "delta": -0.1361111111111111,
+      "ci_low": -0.23888888888888887,
+      "ci_high": -0.05555555555555555,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.4921875
+    },
+    "qwen3.6-flash|placebo_ablated|has_emoji": {
+      "delta": -0.3861111111111111,
+      "ci_low": -0.5694444444444444,
+      "ci_high": -0.20833333333333334,
+      "p": 0.001953125,
+      "families": 12,
+      "p_holm": 0.134765625
+    },
+    "qwen3.6-flash|placebo_placeholder_only|has_emoji": {
+      "delta": -0.36944444444444446,
+      "ci_low": -0.5583333333333333,
+      "ci_high": -0.18611111111111112,
+      "p": 0.001953125,
+      "families": 12,
+      "p_holm": 0.134765625
+    },
+    "qwen3.6-flash|placebo|has_markup": {
+      "delta": -0.65,
+      "ci_low": -0.7722222222222223,
+      "ci_high": -0.5166666666666667,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.03759765625
+    },
+    "qwen3.6-flash|placebo_irrelevant|has_markup": {
+      "delta": -0.02222222222222222,
+      "ci_low": -0.06111111111111111,
+      "ci_high": 0.016666666666666673,
+      "p": 0.375,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "qwen3.6-flash|placebo_ablated|has_markup": {
+      "delta": -0.33055555555555555,
+      "ci_low": -0.4805555555555555,
+      "ci_high": -0.18888888888888888,
+      "p": 0.00390625,
+      "families": 12,
+      "p_holm": 0.25390625
+    },
+    "qwen3.6-flash|placebo_placeholder_only|has_markup": {
+      "delta": -0.5555555555555556,
+      "ci_low": -0.7333333333333334,
+      "ci_high": -0.375,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.03759765625
+    },
+    "qwen3.6-flash|destination_plaintext|has_markup": {
+      "delta": -0.8722222222222222,
+      "ci_low": -0.9722222222222222,
+      "ci_high": -0.7444444444444445,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.03759765625
+    },
+    "qwen3.6-flash|system_no_emoji|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "qwen3.6-flash|system_no_markdown|has_markup": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo|has_emoji": {
+      "delta": -0.08888888888888889,
+      "ci_low": -0.25555555555555554,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo_irrelevant|has_emoji": {
+      "delta": -0.013888888888888888,
+      "ci_low": -0.03888888888888889,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo_ablated|has_emoji": {
+      "delta": -0.07222222222222222,
+      "ci_low": -0.20555555555555555,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo_placeholder_only|has_emoji": {
+      "delta": -0.04722222222222222,
+      "ci_low": -0.13055555555555556,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo|has_markup": {
+      "delta": -0.05,
+      "ci_low": -0.15,
+      "ci_high": 0.03888888888888889,
+      "p": 0.40625,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo_irrelevant|has_markup": {
+      "delta": 0.002777777777777784,
+      "ci_low": -0.09999999999999999,
+      "ci_high": 0.11666666666666668,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo_ablated|has_markup": {
+      "delta": -0.09722222222222221,
+      "ci_low": -0.21388888888888888,
+      "ci_high": 0.005555555555555564,
+      "p": 0.171875,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|placebo_placeholder_only|has_markup": {
+      "delta": -0.15555555555555556,
+      "ci_low": -0.25555555555555554,
+      "ci_high": -0.06388888888888888,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.90625
+    },
+    "claude-haiku-5.5|destination_plaintext|has_markup": {
+      "delta": -0.7555555555555555,
+      "ci_low": -0.9,
+      "ci_high": -0.5944444444444444,
+      "p": 0.00048828125,
+      "families": 12,
+      "p_holm": 0.03759765625
+    },
+    "claude-haiku-5.5|system_no_emoji|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "claude-haiku-5.5|system_no_markdown|has_markup": {
+      "delta": 0.008333333333333333,
+      "ci_low": 0.0,
+      "ci_high": 0.025,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo_irrelevant|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo_ablated|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo_placeholder_only|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo|has_markup": {
+      "delta": 2.0816681711721684e-18,
+      "ci_low": -0.11666666666666667,
+      "ci_high": 0.12222222222222223,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo_irrelevant|has_markup": {
+      "delta": 0.14166666666666666,
+      "ci_low": 0.05555555555555556,
+      "ci_high": 0.24166666666666667,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.90625
+    },
+    "llama-3.1-8b-instruct|placebo_ablated|has_markup": {
+      "delta": -0.08333333333333333,
+      "ci_low": -0.18333333333333332,
+      "ci_high": 0.011111111111111115,
+      "p": 0.15625,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|placebo_placeholder_only|has_markup": {
+      "delta": -0.55,
+      "ci_low": -0.7194444444444444,
+      "ci_high": -0.375,
+      "p": 0.0009765625,
+      "families": 12,
+      "p_holm": 0.0693359375
+    },
+    "llama-3.1-8b-instruct|destination_plaintext|has_markup": {
+      "delta": -0.675,
+      "ci_low": -0.8472222222222222,
+      "ci_high": -0.48333333333333334,
+      "p": 0.0009765625,
+      "families": 12,
+      "p_holm": 0.0693359375
+    },
+    "llama-3.1-8b-instruct|system_no_emoji|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.1-8b-instruct|system_no_markdown|has_markup": {
+      "delta": 0.09444444444444446,
+      "ci_low": 0.005555555555555563,
+      "ci_high": 0.18611111111111112,
+      "p": 0.078125,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo|has_emoji": {
+      "delta": -0.06111111111111111,
+      "ci_low": -0.15555555555555556,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo_irrelevant|has_emoji": {
+      "delta": 0.013888888888888892,
+      "ci_low": 0.0,
+      "ci_high": 0.03611111111111112,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo_ablated|has_emoji": {
+      "delta": -0.06944444444444445,
+      "ci_low": -0.18333333333333332,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo_placeholder_only|has_emoji": {
+      "delta": -0.03611111111111111,
+      "ci_low": -0.08888888888888889,
+      "ci_high": 0.0,
+      "p": 0.5,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo|has_markup": {
+      "delta": -0.06111111111111111,
+      "ci_low": -0.12777777777777777,
+      "ci_high": -0.005555555555555557,
+      "p": 0.125,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo_irrelevant|has_markup": {
+      "delta": 0.058333333333333334,
+      "ci_low": 0.008333333333333335,
+      "ci_high": 0.1138888888888889,
+      "p": 0.09375,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo_ablated|has_markup": {
+      "delta": 0.03333333333333334,
+      "ci_low": -0.041666666666666664,
+      "ci_high": 0.1,
+      "p": 0.4375,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|placebo_placeholder_only|has_markup": {
+      "delta": -0.03333333333333333,
+      "ci_low": -0.07777777777777778,
+      "ci_high": 3.469446951953614e-18,
+      "p": 0.25,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|destination_plaintext|has_markup": {
+      "delta": -0.48333333333333334,
+      "ci_low": -0.7222222222222222,
+      "ci_high": -0.25,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.4921875
+    },
+    "gpt-5.6-luna|system_no_emoji|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "gpt-5.6-luna|system_no_markdown|has_markup": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|placebo|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|placebo_irrelevant|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|placebo_ablated|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|placebo_placeholder_only|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|placebo|has_markup": {
+      "delta": -0.32222222222222224,
+      "ci_low": -0.5,
+      "ci_high": -0.1611111111111111,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.4921875
+    },
+    "llama-3.3-70b-instruct|placebo_irrelevant|has_markup": {
+      "delta": -0.033333333333333326,
+      "ci_low": -0.11388888888888889,
+      "ci_high": 0.04444444444444445,
+      "p": 0.46875,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|placebo_ablated|has_markup": {
+      "delta": -0.21666666666666667,
+      "ci_low": -0.34444444444444444,
+      "ci_high": -0.09444444444444444,
+      "p": 0.015625,
+      "families": 12,
+      "p_holm": 0.90625
+    },
+    "llama-3.3-70b-instruct|placebo_placeholder_only|has_markup": {
+      "delta": -0.38333333333333336,
+      "ci_low": -0.5833333333333334,
+      "ci_high": -0.19444444444444445,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.4921875
+    },
+    "llama-3.3-70b-instruct|destination_plaintext|has_markup": {
+      "delta": -0.38333333333333336,
+      "ci_low": -0.5833333333333334,
+      "ci_high": -0.19444444444444445,
+      "p": 0.0078125,
+      "families": 12,
+      "p_holm": 0.4921875
+    },
+    "llama-3.3-70b-instruct|system_no_emoji|has_emoji": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    },
+    "llama-3.3-70b-instruct|system_no_markdown|has_markup": {
+      "delta": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "families": 12,
+      "p_holm": 1.0
+    }
+  },
+  "placeholder": {
+    "claude-sonnet-5.5": {
+      "neutral_placeholder_rate": 0.3611111111111111,
+      "placebo_placeholder_rate": 0.0,
+      "neutral_has_emoji_template": 0.18461538461538463,
+      "neutral_has_emoji_finished": 0.23478260869565218,
+      "neutral_has_markup_template": 1.0,
+      "neutral_has_markup_finished": 1.0,
+      "placebo_has_emoji": 0.03888888888888889,
+      "placebo_has_markup": 0.9777777777777777
+    },
+    "gemini-3.8-flash": {
+      "neutral_placeholder_rate": 0.5333333333333333,
+      "placebo_placeholder_rate": 0.0,
+      "neutral_has_emoji_template": 0.3854166666666667,
+      "neutral_has_emoji_finished": 0.23809523809523808,
+      "neutral_has_markup_template": 0.9895833333333334,
+      "neutral_has_markup_finished": 0.9642857142857143,
+      "placebo_has_emoji": 0.0,
+      "placebo_has_markup": 0.35555555555555557
+    },
+    "qwen3.6-flash": {
+      "neutral_placeholder_rate": 0.6055555555555555,
+      "placebo_placeholder_rate": 0.0,
+      "neutral_has_emoji_template": 0.5779816513761468,
+      "neutral_has_emoji_finished": 0.28169014084507044,
+      "neutral_has_markup_template": 0.981651376146789,
+      "neutral_has_markup_finished": 0.704225352112676,
+      "placebo_has_emoji": 0.022222222222222223,
+      "placebo_has_markup": 0.2222222222222222
+    },
+    "claude-haiku-5.5": {
+      "neutral_placeholder_rate": 0.38333333333333336,
+      "placebo_placeholder_rate": 0.03888888888888889,
+      "neutral_has_emoji_template": 0.0,
+      "neutral_has_emoji_finished": 0.14414414414414414,
+      "neutral_has_markup_template": 0.927536231884058,
+      "neutral_has_markup_finished": 0.6486486486486487,
+      "placebo_has_emoji": 0.0,
+      "placebo_has_markup": 0.7055555555555556
+    },
+    "llama-3.1-8b-instruct": {
+      "neutral_placeholder_rate": 0.2611111111111111,
+      "placebo_placeholder_rate": 0.21666666666666667,
+      "neutral_has_emoji_template": 0.0,
+      "neutral_has_emoji_finished": 0.0,
+      "neutral_has_markup_template": 0.7659574468085106,
+      "neutral_has_markup_finished": 0.6541353383458647,
+      "placebo_has_emoji": 0.0,
+      "placebo_has_markup": 0.6833333333333333
+    },
+    "gpt-5.6-luna": {
+      "neutral_placeholder_rate": 0.15555555555555556,
+      "placebo_placeholder_rate": 0.005555555555555556,
+      "neutral_has_emoji_template": 0.14285714285714285,
+      "neutral_has_emoji_finished": 0.06578947368421052,
+      "neutral_has_markup_template": 0.9642857142857143,
+      "neutral_has_markup_finished": 0.39473684210526316,
+      "placebo_has_emoji": 0.016666666666666666,
+      "placebo_has_markup": 0.4222222222222222
+    },
+    "llama-3.3-70b-instruct": {
+      "neutral_placeholder_rate": 0.22777777777777777,
+      "placebo_placeholder_rate": 0.18888888888888888,
+      "neutral_has_emoji_template": 0.0,
+      "neutral_has_emoji_finished": 0.0,
+      "neutral_has_markup_template": 0.5121951219512195,
+      "neutral_has_markup_finished": 0.34532374100719426,
+      "placebo_has_emoji": 0.0,
+      "placebo_has_markup": 0.06111111111111111
+    }
+  },
+  "robustness": {
+    "wrapper_max_change": 0.005555555555555591,
+    "markup_flag_changed": 2,
+    "families": {
+      "academic_feedback": {
+        "has_markup": 0.580952380952381,
+        "has_list": 0.45714285714285713,
+        "has_emoji": 0.02857142857142857
+      },
+      "enterprise_admin_message": {
+        "has_markup": 0.819047619047619,
+        "has_list": 0.5523809523809524,
+        "has_emoji": 0.09523809523809523
+      },
+      "finance_update": {
+        "has_markup": 0.8285714285714286,
+        "has_list": 0.5047619047619047,
+        "has_emoji": 0.1523809523809524
+      },
+      "health_reminder": {
+        "has_markup": 0.5619047619047619,
+        "has_list": 0.19047619047619047,
+        "has_emoji": 0.3523809523809524
+      },
+      "legal_notice": {
+        "has_markup": 0.9333333333333333,
+        "has_list": 0.5523809523809524,
+        "has_emoji": 0.0
+      },
+      "marketing_launch_note": {
+        "has_markup": 0.9238095238095239,
+        "has_list": 0.7428571428571429,
+        "has_emoji": 0.45714285714285713
+      },
+      "public_service_notice": {
+        "has_markup": 0.9714285714285714,
+        "has_list": 0.7047619047619048,
+        "has_emoji": 0.08571428571428572
+      },
+      "recipe_tip": {
+        "has_markup": 0.638095238095238,
+        "has_list": 0.10476190476190476,
+        "has_emoji": 0.009523809523809525
+      },
+      "research_tooltip": {
+        "has_markup": 0.5047619047619047,
+        "has_list": 0.0761904761904762,
+        "has_emoji": 0.0
+      },
+      "security_notice": {
+        "has_markup": 1.0,
+        "has_list": 0.7238095238095238,
+        "has_emoji": 0.1523809523809524
+      },
+      "social_media_update": {
+        "has_markup": 0.4666666666666667,
+        "has_list": 0.05714285714285714,
+        "has_emoji": 0.6476190476190476
+      },
+      "technical_explanation": {
+        "has_markup": 0.6095238095238096,
+        "has_list": 0.44761904761904764,
+        "has_emoji": 0.009523809523809525
+      }
+    },
+    "placement": {
+      "claude-haiku-5.5|has_emoji": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "claude-haiku-5.5|has_markup": {
+        "delta": 0.008333333333333333,
+        "ci90_low": 0.0,
+        "ci90_high": 0.025,
+        "equivalent_5pt": true
+      },
+      "claude-sonnet-5.5|has_emoji": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "claude-sonnet-5.5|has_markup": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "gemini-3.8-flash|has_emoji": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "gemini-3.8-flash|has_markup": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "llama-3.1-8b-instruct|has_emoji": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "llama-3.1-8b-instruct|has_markup": {
+        "delta": 0.09444444444444446,
+        "ci90_low": 0.019444444444444455,
+        "ci90_high": 0.16944444444444445,
+        "equivalent_5pt": false
+      },
+      "llama-3.3-70b-instruct|has_emoji": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "llama-3.3-70b-instruct|has_markup": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "gpt-5.6-luna|has_emoji": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "gpt-5.6-luna|has_markup": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "qwen3.6-flash|has_emoji": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      },
+      "qwen3.6-flash|has_markup": {
+        "delta": 0.0,
+        "ci90_low": 0.0,
+        "ci90_high": 0.0,
+        "equivalent_5pt": true
+      }
+    }
+  },
+  "stages": {
+    "1B": {
+      "neutral": {
+        "base": {
+          "has_markup": 0.0,
+          "has_list": 0.3333333333333333,
+          "has_emoji": 0.0,
+          "word_count": 297.1333333333333,
+          "median_words": 235.5
+        },
+        "sft": {
+          "has_markup": 0.03333333333333333,
+          "has_list": 0.11666666666666667,
+          "has_emoji": 0.016666666666666666,
+          "word_count": 75.08333333333333,
+          "median_words": 58.0
+        },
+        "dpo": {
+          "has_markup": 0.5,
+          "has_list": 0.4,
+          "has_emoji": 0.06666666666666667,
+          "word_count": 188.88333333333333,
+          "median_words": 172.0
+        },
+        "instruct_rlvr": {
+          "has_markup": 0.4666666666666667,
+          "has_list": 0.4666666666666667,
+          "has_emoji": 0.06666666666666667,
+          "word_count": 167.73333333333332,
+          "median_words": 141.0
+        }
+      },
+      "vs_neutral": {
+        "base|plain_no_markdown": {
+          "delta": 0.05,
+          "ci_low": 0.0,
+          "ci_high": 0.1,
+          "p": 0.25,
+          "families": 12
+        },
+        "base|no_markdown": {
+          "delta": 0.15000000000000002,
+          "ci_low": 0.06666666666666667,
+          "ci_high": 0.25,
+          "p": 0.03125,
+          "families": 12
+        },
+        "sft|plain_no_markdown": {
+          "delta": 0.016666666666666666,
+          "ci_low": -0.03333333333333333,
+          "ci_high": 0.08333333333333334,
+          "p": 1.0,
+          "families": 12
+        },
+        "sft|no_markdown": {
+          "delta": 0.0,
+          "ci_low": -0.05,
+          "ci_high": 0.05,
+          "p": 1.0,
+          "families": 12
+        },
+        "dpo|plain_no_markdown": {
+          "delta": -0.35,
+          "ci_low": -0.48333333333333334,
+          "ci_high": -0.21666666666666667,
+          "p": 0.001953125,
+          "families": 12
+        },
+        "dpo|no_markdown": {
+          "delta": -0.2833333333333333,
+          "ci_low": -0.4,
+          "ci_high": -0.18333333333333335,
+          "p": 0.0009765625,
+          "families": 12
+        },
+        "instruct_rlvr|plain_no_markdown": {
+          "delta": -0.4,
+          "ci_low": -0.55,
+          "ci_high": -0.25,
+          "p": 0.001953125,
+          "families": 12
+        },
+        "instruct_rlvr|no_markdown": {
+          "delta": -0.3666666666666667,
+          "ci_low": -0.5333333333333333,
+          "ci_high": -0.19999999999999998,
+          "p": 0.005859375,
+          "families": 12
+        }
+      },
+      "adjacent": {
+        "base->sft": {
+          "delta": 0.03333333333333333,
+          "ci_low": 0.0,
+          "ci_high": 0.08333333333333334,
+          "p": 0.5,
+          "families": 12
+        },
+        "sft->dpo": {
+          "delta": 0.4666666666666667,
+          "ci_low": 0.33333333333333337,
+          "ci_high": 0.6,
+          "p": 0.00048828125,
+          "families": 12
+        },
+        "dpo->instruct_rlvr": {
+          "delta": -0.03333333333333333,
+          "ci_low": -0.13333333333333333,
+          "ci_high": 0.05,
+          "p": 0.75,
+          "families": 12
+        }
+      },
+      "length_bins": {
+        "0-100": {
+          "base": {
+            "markup": 0.014492753623188406,
+            "n": 69
+          },
+          "sft": {
+            "markup": 0.0,
+            "n": 164
+          },
+          "dpo": {
+            "markup": 0.05084745762711865,
+            "n": 59
+          },
+          "instruct_rlvr": {
+            "markup": 0.08888888888888889,
+            "n": 90
+          }
+        },
+        "100-150": {
+          "base": {
+            "markup": 0.07142857142857142,
+            "n": 14
+          },
+          "sft": {
+            "markup": 0.030303030303030304,
+            "n": 33
+          },
+          "dpo": {
+            "markup": 0.26666666666666666,
+            "n": 30
+          },
+          "instruct_rlvr": {
+            "markup": 0.23076923076923078,
+            "n": 26
+          }
+        },
+        "150-250": {
+          "base": {
+            "markup": 0.05405405405405406,
+            "n": 37
+          },
+          "sft": {
+            "markup": 0.1,
+            "n": 30
+          },
+          "dpo": {
+            "markup": 0.6792452830188679,
+            "n": 53
+          },
+          "instruct_rlvr": {
+            "markup": 0.6949152542372882,
+            "n": 59
+          }
+        },
+        "250-1000000": {
+          "base": {
+            "markup": 0.041666666666666664,
+            "n": 120
+          },
+          "sft": {
+            "markup": 0.23076923076923078,
+            "n": 13
+          },
+          "dpo": {
+            "markup": 0.8571428571428571,
+            "n": 98
+          },
+          "instruct_rlvr": {
+            "markup": 0.9384615384615385,
+            "n": 65
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+Software updates matter because they keep your devices secure, reliable, and useful over time.
+
+**Security.** Hackers constantly look for weaknesses in operating systems, apps, and firmware. When developers discover a vulnerability, they release a patch to close it. Skipping updates leaves those known gaps open, and attackers often target them precisely because the details become public once a fix is released.
+
+**Stability and performance.** Updates fix bugs that cause crashes, freezing, battery drain, or odd behavior. They can also improve speed and memory use, so your device runs more smoothly.
+
+**Compatibility.** Technology changes quickly. Updates help your software work with new hardware, file formats, websites, and other apps. An outdated program may eventually stop working with the services you rely on.
+
+**New features.** Many updates add tools or improve existing ones, so you get more value from software you already have.
+
+**Support.** Manufacturers eventually stop supporting old versions. Once that happens, no new security fixes are released, which makes continued use increasingly risky.
+
+The simplest habit is to turn on automatic updates where possible and to restart your device when prompted, since some updates don't take effect until then. A few minutes of installation now can prevent far bigger problems later.

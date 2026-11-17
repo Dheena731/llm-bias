@@ -1,0 +1,5 @@
+**Domain:** Clinical Diagnostic / Toxicology Screening  
+**Marker:** `—`
+
+> **Not Analyzed (—)**  
+> Specimen was hemolyzed or volume was insufficient (QNS) for this assay run. Indicates an unperformed test, not a negative screen or zero concentration.

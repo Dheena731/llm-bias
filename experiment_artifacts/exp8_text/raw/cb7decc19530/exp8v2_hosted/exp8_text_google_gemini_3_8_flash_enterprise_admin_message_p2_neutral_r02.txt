@@ -1,0 +1,21 @@
+Here is a short, clear message you can adapt for email, Slack, or Teams:
+
+***
+
+**Subject:** Update: New Expense Approval Workflow Effective [Date]
+
+Hi Team,
+
+Starting **[Date]**, we are introducing a new expense approval workflow to help streamline the review process and get reimbursements paid out faster.
+
+**Key Changes:**
+* **New Platform/Route:** All new expenses must be submitted via **[System Name, e.g., Concur / Ramp / Notion]**.
+* **Approval Path:** Submissions will now route automatically to your direct manager, followed by final review from Finance.
+* **Turnaround:** Standard approvals will now be processed within **[e.g., 3–5 business days]**.
+
+Please review the quick step-by-step guide **[Link here]** before submitting your next expense. Any reports submitted before [Date] will be processed under the old system.
+
+If you have any questions, please reach out to **[Finance Team / Contact Person]** at **[Email/Slack channel]**. 
+
+Thank you,  
+**[Your Name / Admin Team]**

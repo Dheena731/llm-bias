@@ -1,0 +1,11 @@
+**Update: Changes to your monthly close**
+
+Standard monthly summaries tend to break down for two reasons: a single large rent transfer flattens the scale of every other category, and strict month-over-month comparisons ignore seasonality. 
+
+Starting with this cycle, the monthly summary splits committed overhead from discretionary burn:
+
+*   **Overhead isolation:** Fixed charges (housing, debt service, base utilities) are tallied separately so the visual breakdown only reflects variable spend you actively control.
+*   **Trailing 90-day medians:** Categories are measured against your rolling three-month baseline rather than the immediate prior month, so an annual auto insurance renewal doesn’t register as an unexplained lifestyle spike.
+*   **Run-rate flags:** Instead of alerting you after a category is over budget, the report tracks pace—highlighting categories where transaction velocity outstripped your median by day 15.
+
+The updated view generates on the first of each month under **Cash Flow > Summaries**, with the parsed categories mapped directly to your raw export files.

@@ -1,0 +1,29 @@
+**NOTICE OF AMENDED PRIVACY POLICY**
+**Harbourline Bikeshare, Inc.**
+Policy version 4.0 · Effective March 3, 2025
+
+**1. Why you are receiving this notice**
+You hold a Harbourline rider account. Section 11 of our Terms of Use requires 30 days' written notice before material changes to how we handle rider data. This notice satisfies that requirement.
+
+**2. What is changing**
+
+(a) **Route data retention.** Precise GPS traces of completed trips will be kept for 90 days, down from 13 months. After 90 days, each trip is reduced to its origin dock, destination dock, start time, and duration. Traces are deleted, not archived.
+
+(b) **Mid-trip location pings.** Bikes will report location every 10 seconds, rather than every 3, except when a bike is reported stolen or a rider presses the in-app help button.
+
+(c) **Data supplied to the City.** Under our permit with the Department of Transportation, we will provide trip counts by 500-meter grid cell and 15-minute interval. Cells with fewer than 5 trips are suppressed. No account identifiers, device IDs, or individual traces are included.
+
+(d) **Legal process.** We will release rider-level location data to law enforcement only upon a warrant or court order. We will notify the affected rider before disclosure unless the order prohibits notice.
+
+(e) **Removed.** We no longer use trip history to infer home or workplace locations for marketing. Existing inferences were deleted on February 14, 2025.
+
+**3. What is not changing**
+We do not sell personal information. Payment card data remains with our processor, and we store only the last four digits.
+
+**4. Your options**
+California residents may request access, deletion, or correction, and may limit our use of precise geolocation, through Account → Privacy or at privacy@harbourline.example. Requests are answered within 45 days. Deleting your account before the effective date will remove stored traces under the prior retention schedule.
+
+**5. Acceptance**
+Using the service after March 3, 2025 constitutes acceptance of the amended policy. If you do not accept, close your account before that date. Unused ride credits will be refunded.
+
+**Contact:** Privacy Office, Harbourline Bikeshare, Inc., 410 Quay Street, Suite 2, Portsmouth.

@@ -1,0 +1,12 @@
+You didn't name a domain, so I've written three versions. Swap in the one that fits.
+
+**Clinical lab results**
+> **No result on file.** The test wasn't run, wasn't resulted, or wasn't entered. It does not mean normal or zero. Left out of trend lines and averages.
+
+**Sensor or telemetry dashboard**
+> **No reading received.** The device didn't report in this interval (offline, dropped packet, or power loss). The true value is unknown, not zero.
+
+**Survey responses**
+> **Left blank.** The respondent skipped this question or the logic never showed it to them. Excluded from percentages for this item.
+
+If you tell me the actual product and what the marker looks like (dash, "NA," gray cell), I can tailor it further, including whether the cause is known.

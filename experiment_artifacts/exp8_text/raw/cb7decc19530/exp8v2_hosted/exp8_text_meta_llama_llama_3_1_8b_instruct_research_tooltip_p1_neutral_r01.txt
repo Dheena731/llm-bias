@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"**Dataset Filter**: Narrow down your results by selecting specific data points to include or exclude. Choose from various filter options (e.g., date range, category, keyword) to refine your search and focus on relevant data."

@@ -1,0 +1,2 @@
+Confidence Interval
+A confidence interval is a range of values estimated to contain an unknown population parameter with a specified level of confidence. For instance a 95% confidence interval means that if we were to repeat our study numerous times and calculate a confidence interval each time, the actual population parameter (like mean or standard deviation) would fall within this range with 95% probability.

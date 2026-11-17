@@ -1,0 +1,14 @@
+A database index is a data structure that helps the database find rows quickly without scanning an entire table.
+
+Think of it like the index at the back of a book. Instead of reading every page to find a topic, you look it up in the index and go straight to the right page. Similarly, when you create an index on a column (say, `email` in a `users` table), the database stores that column's values in a sorted structure, typically a B-tree, along with pointers to the corresponding rows. A query like `WHERE email = 'a@example.com'` can then locate the match in a handful of steps rather than checking every row.
+
+**Benefits:**
+- Much faster lookups, filtering, and joins on indexed columns
+- Faster sorting and range queries (e.g., dates between two values), since the data is already ordered
+
+**Trade-offs:**
+- Indexes take up additional storage
+- They slow down writes (inserts, updates, deletes), because the index must be updated along with the table
+- Too many indexes, or indexes on rarely queried columns, add cost without much benefit
+
+In practice, you index the columns you search, join, or sort on most often, and leave the rest alone.

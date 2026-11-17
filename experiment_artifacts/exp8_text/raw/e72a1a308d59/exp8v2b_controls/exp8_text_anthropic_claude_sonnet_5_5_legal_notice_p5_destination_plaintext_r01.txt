@@ -1,0 +1,37 @@
+NOTICE OF ACCEPTABLE USE: SHARED NETWORK
+
+Effective Date: [Insert Date]
+
+1. SCOPE
+This Notice applies to every person who connects to or uses the shared network ("Network"), including employees, residents, guests, contractors, and any other authorized users ("Users"). By accessing the Network, you agree to comply with this Notice.
+
+2. AUTHORIZED USE
+The Network is provided for lawful, legitimate purposes only. Users shall:
+(a) Use the Network in a manner that respects the rights and access of other Users;
+(b) Protect their login credentials and not share them with others;
+(c) Promptly report any suspected security breach or misuse to [Administrator Name/Contact].
+
+3. PROHIBITED CONDUCT
+Users shall not:
+(a) Access, alter, or interfere with data, devices, or accounts without authorization;
+(b) Introduce malware, viruses, or other harmful code;
+(c) Engage in unlawful activity, including infringement of copyright or other intellectual property rights;
+(d) Transmit harassing, defamatory, obscene, or threatening material;
+(e) Attempt to bypass security controls, or conduct unauthorized scanning or probing of the Network;
+(f) Consume bandwidth or resources to an extent that unreasonably degrades service for others;
+(g) Send unsolicited bulk messages or engage in spamming.
+
+4. MONITORING AND PRIVACY
+Users have no expectation of privacy on the Network. The Network administrator may monitor, log, and review network activity to maintain security, ensure compliance with this Notice, and comply with applicable law. Information may be disclosed to authorities where required or permitted by law.
+
+5. ENFORCEMENT
+Violation of this Notice may result in, without prior notice, suspension or termination of access, removal of content, disciplinary action, and referral to law enforcement where appropriate. Users may be held responsible for damages resulting from their misuse.
+
+6. DISCLAIMER AND LIMITATION OF LIABILITY
+The Network is provided "as is" and "as available," without warranties of any kind. To the fullest extent permitted by law, the Network operator is not liable for any loss of data, service interruption, or damages arising from use of the Network.
+
+7. MODIFICATIONS
+This Notice may be updated at any time. Continued use of the Network after changes are posted constitutes acceptance of the revised terms.
+
+8. CONTACT
+Questions regarding this Notice should be directed to [Administrator Name/Contact Information].

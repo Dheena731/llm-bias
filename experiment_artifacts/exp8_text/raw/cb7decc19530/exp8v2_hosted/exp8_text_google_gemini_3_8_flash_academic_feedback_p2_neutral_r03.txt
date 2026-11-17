@@ -1,0 +1,10 @@
+Here are three options, depending on what the student needs to work on most:
+
+**Option 1: Balanced (Good foundation, needs more detail)**
+> "Hi [Student Name], you’ve done a great job establishing a clear, logical structure for this section. The overall research design makes sense, but you need to add more specific details to ensure full replicability. In your next draft, be sure to specify [e.g., your sample size/exact survey instruments/software used for analysis]. Ask yourself: *Could another researcher repeat my exact study using only this text?* You're off to a strong start!"
+
+**Option 2: If it's too vague (Focus on replicability)**
+> "Hi [Student Name], your methods section gives a good high-level summary of your project, but it currently lacks the precision required for academic writing. Remember, the golden rule here is *replicability*. Please expand on your data collection procedures and explicitly justify *why* you chose these methods over alternatives. Be specific with numbers, timelines, and tools used. Looking forward to your revision!"
+
+**Option 3: If it reads like a list or recipe (Focus on tone/flow)**
+> "Hi [Student Name], you have captured all the necessary steps, but the section currently reads a bit too much like a step-by-step lab manual or a bulleted list. Work on synthesizing these steps into cohesive, past-tense academic paragraphs. Focus not just on *what* you did, but briefly highlight *why* these techniques were appropriate for answering your research question. Good effort so far!"

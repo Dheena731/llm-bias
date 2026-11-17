@@ -1,0 +1,10 @@
+Hi Alex,
+
+You have established a clear and logical foundation here, and the overall flow of your procedure is easy to follow. 
+
+To improve this section, focus on reproducibility. Be sure to include your exact sample size, the specific criteria used to recruit or exclude participants, and the precise versions of the software and tools you utilized. Additionally, add a brief sentence or two justifying why you selected this particular analytical approach over standard alternatives.
+
+You are in good shape overall. Tightening these technical details will make your methodology much stronger. Let me know if you have any questions as you revise.
+
+Best,
+Dr. Taylor

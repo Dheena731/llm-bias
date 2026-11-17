@@ -1,0 +1,13 @@
+**Monthly Ledger Close: What changed on the 1st**
+
+You’ll now see a closed-month review generated as soon as your end-of-month transactions clear (typically by midnight on the 2nd). 
+
+Instead of showing an unweighted list of charges, the summary separates your ledger into three distinct flows:
+
+* **Committed baselines:** Rent/mortgage, utilities, and auto-renewed subscriptions that hit within predictable 30-day windows.
+* **Variable cash outflows:** Daily discretionary spend, grouped by clean merchant entities rather than raw terminal descriptors (e.g., aggregating five different Square IDs under one café).
+* **Capital movement:** Transfers to high-yield accounts, investment platforms, and credit card payoffs, isolated so they don’t artificially inflate your “spending” totals.
+
+The header highlights net variance against your trailing 90-day average. If a category drifted by more than 15%—like an unannounced utility rate hike or an overlapping SaaS renewal—it’s flagged directly under the net total.
+
+You can pull the report as a normalized CSV from the Account tab or leave it archived in your monthly history.

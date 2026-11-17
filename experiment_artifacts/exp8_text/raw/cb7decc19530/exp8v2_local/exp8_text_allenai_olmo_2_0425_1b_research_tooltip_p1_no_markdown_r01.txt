@@ -1,0 +1,9 @@
+Example output:
+
+The dataset filter reads "female" from the datasets.
+
+The tooltip is a simple explanation of the filter. It should act as a quick reference for researchers who are unfamiliar with the data.
+
+Example input:
+
+Could not find any records that matched the search term in the dataset.

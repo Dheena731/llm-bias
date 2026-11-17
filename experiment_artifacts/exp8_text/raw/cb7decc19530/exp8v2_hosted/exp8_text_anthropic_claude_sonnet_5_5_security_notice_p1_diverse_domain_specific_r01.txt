@@ -1,0 +1,22 @@
+**Subject: Password reuse: what we found, what to do by Friday**
+
+**To:** All Riverbend Dental staff, all four offices
+**From:** Marcus Hale, IT
+
+Last week a dental supply vendor we order gloves and composite from told us their customer portal was breached. We checked the exposed list against our staff emails. Eleven of you had accounts there, and six of those passwords were identical to the one you use for Dentrix, the insurance clearinghouse, or Outlook.
+
+No one has logged in with them that we can see. But anyone holding that list can try those same passwords on our systems, and that is the usual next step.
+
+**By end of day Friday:**
+
+1. Change your Dentrix, Outlook, and clearinghouse passwords so each one is different, and none matches anything you use outside work.
+2. Use the password manager on your workstation (Bitwarden, already installed). Ask me or your office lead and we'll set you up in ten minutes.
+3. Don't change "Smile2024!" to "Smile2025!" Attackers try that first.
+
+**Please also:**
+- Stop keeping passwords on sticky notes at the front desk. A manager entry is faster.
+- If you reused a password on the vendor portal, change it there too.
+
+If you're unsure whether you're affected, assume you are and change them. Questions go to helpdesk@riverbenddental.example or ext. 214. Nobody will be in trouble for reusing a password. The goal is that we fix it now.
+
+Marcus

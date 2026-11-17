@@ -1,0 +1,17 @@
+**Subject: Action Required: Please Enable Two-Factor Authentication (2FA)**
+
+To help keep your account and our data secure, all users are required to enable Two-Factor Authentication (2FA) by **[Date/Deadline]**.
+
+Two-factor authentication adds an extra layer of security by requiring a second verification step (such as an SMS code or an authenticator app prompt) in addition to your password when signing in.
+
+### How to set it up:
+1. Log in to your account and go to **Settings** > **Security**.
+2. Locate the **Two-Factor Authentication** section and select **Enable**.
+3. Choose your preferred verification method (we recommend using an authenticator app such as Google Authenticator or Microsoft Authenticator) and follow the on-screen instructions.
+
+Setting this up takes less than two minutes. If you encounter any issues or need assistance, please contact the IT Support team at **[Support Email/Phone]**.
+
+Thank you for helping us maintain a secure environment.
+
+Best regards,  
+**[Your Organization / IT Security Team]**

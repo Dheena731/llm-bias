@@ -1,0 +1,13 @@
+Subject: Update to the VPN client
+
+Hello everyone,
+
+We are replacing the current VPN client with a new version beginning next Monday. The new client connects faster, handles network changes more reliably, and supports the same sign-in method you already use, so your username and authentication steps will stay the same.
+
+Before Monday, the new client will be installed automatically on company laptops the next time they are connected to the network. After the installation finishes, you may be asked to restart your computer. Please do so at your earliest convenience so the change takes effect. If you use a personal device for work, you will need to uninstall the old client and install the new one yourself, and the IT help desk can walk you through it.
+
+The old client will stop working at the end of the month, so please make the switch before then to avoid losing remote access. If you run into any problems with installation or connection, contact the IT help desk and we will be glad to help.
+
+Thank you for your cooperation.
+
+IT Support Team

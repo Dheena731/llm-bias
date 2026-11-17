@@ -1,0 +1,1 @@
+This range indicates where the true value is likely to fall, accounting for estimation uncertainty in the data.

@@ -1,0 +1,12 @@
+Subject: Scheduled Dashboard Maintenance This Saturday
+
+Hello everyone,
+
+We will be performing scheduled maintenance on the analytics dashboard this Saturday, March 14, from 10:00 PM to 2:00 AM Sunday. During this window, the dashboard will be unavailable while our engineering team applies security updates and performance improvements.
+
+Please save any work in progress and avoid scheduling reports or data exports during this time. Scheduled jobs set to run within the window will be paused and will resume automatically once maintenance is complete.
+
+If you experience any issues after the maintenance window closes, please contact the IT help desk at extension 4400 or submit a ticket through the service portal. We appreciate your patience as we work to keep the system secure and running smoothly.
+
+Thank you,
+The IT Operations Team

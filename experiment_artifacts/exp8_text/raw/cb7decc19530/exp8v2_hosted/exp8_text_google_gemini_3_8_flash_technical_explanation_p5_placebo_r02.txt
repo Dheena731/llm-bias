@@ -1,0 +1,3 @@
+An API rate limit is a rule set by an online service that restricts how many times a user or application can send requests to that service within a specific timeframe (for example, 100 requests per minute). 
+
+Providers use rate limits to keep their servers from becoming overloaded, ensure reliable and fair access for everyone, and protect their systems from automated abuse or accidental traffic floods. If an application exceeds this allowed limit, the service will temporarily reject any further requests until the designated time period resets.

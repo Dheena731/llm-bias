@@ -1,0 +1,13 @@
+Subject: Upcoming Email Migration - [Date]
+
+Dear [Recipient's Name],
+
+We will be initiating an email migration process starting [insert start date here]. Your email accounts will be updated to a new domain without interruption to your current inbox. Please ensure you have any important emails forwarded to our main support mailbox at [support.mailserver.com]. If you encounter any issues or need assistance during the migration, do not hesitate to reach out to the support team by [support contact details].
+
+We appreciate your cooperation and patience as we facilitate this transition. Your privacy and security are our top priorities. Stay tuned for further updates and instructions as we proceed with the migration.
+
+Best regards,
+[Your Name]
+[Your Position]
+
+(Note: Replace [Date], [recipient's name], and [support contact details] with the actual date, the person's name, and relevant contact details as needed.)

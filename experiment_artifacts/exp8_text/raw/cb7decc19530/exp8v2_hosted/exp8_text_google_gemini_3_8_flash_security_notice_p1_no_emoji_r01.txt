@@ -1,0 +1,13 @@
+**SECURITY NOTICE: Avoid Password Reuse Across Work and Personal Accounts**
+
+Reusing passwords creates a significant security risk for our organization. If a personal account or external service experiences a data breach, attackers immediately attempt to use those same compromised credentials to access corporate networks and sensitive company data.
+
+To protect our systems, please follow these requirements:
+
+*   **Use unique passwords:** Never use your work password for personal email, banking, social media, or other external websites.
+*   **Differentiate internal tools:** Do not use identical passwords across multiple internal systems.
+*   **Use a password manager:** Utilize company-approved password management software to generate and securely store strong, complex passwords.
+
+If you are currently using your corporate password for any other account, change it immediately. 
+
+For assistance or to report suspicious activity, contact the IT Security Helpdesk.

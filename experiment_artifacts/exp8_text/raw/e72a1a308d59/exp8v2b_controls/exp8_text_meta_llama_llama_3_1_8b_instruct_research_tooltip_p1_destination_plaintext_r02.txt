@@ -1,0 +1,1 @@
+"Filters data to include only rows where the specified condition is met. For example, 'age > 18' would display data for individuals older than 18 years."

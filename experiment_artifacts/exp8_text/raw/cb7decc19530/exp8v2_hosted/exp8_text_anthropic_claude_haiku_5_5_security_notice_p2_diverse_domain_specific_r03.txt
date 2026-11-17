@@ -1,0 +1,15 @@
+**Phishing emails: what we've been seeing**
+
+IT logged 14 phishing emails reaching inboxes here in the last three weeks. Most fall into three patterns:
+
+- **"Your mailbox is nearly full."** These ask you to log in through a link to keep receiving mail. Our mail system never sends this kind of message.
+- **Invoices from vendors we already pay.** The sender name looks right, but the bank details have changed, or the attachment is an .html file. Accounts Payable will only update bank details after a phone call to a number already on file.
+- **Urgent requests from a manager who is "in a meeting."** They're short and ask for gift cards, a wire, or a password. Confirm anything like this on Teams or by phone before acting.
+
+If you get one:
+
+1. Don't click links or open attachments you weren't expecting.
+2. If you entered a password on a page you now think is fake, change it right away and call the Service Desk at ext. 4417.
+3. Report it with the Report Phish button in Outlook. Please don't just delete it. Reports are how we block the next batch before it reaches anyone else.
+
+You won't get in trouble for reporting a message that turns out to be legitimate. The outcome we really want to avoid is someone clicking and saying nothing.

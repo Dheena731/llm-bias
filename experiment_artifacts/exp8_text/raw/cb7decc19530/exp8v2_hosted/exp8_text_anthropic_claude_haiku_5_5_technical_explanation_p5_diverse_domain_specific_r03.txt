@@ -1,0 +1,5 @@
+An API rate limit caps how many requests a client can send in a set time window, such as 600 per minute per API key. When you exceed it, the server typically refuses further requests with HTTP status 429 ("Too Many Requests") and may include a `Retry-After` header saying how long to wait.
+
+For example, if a shipment-tracking API allows 600 requests per minute and your script loops over 2,000 parcel IDs without pausing, the first 600 calls succeed within seconds and the rest fail until the window resets. The usual fixes are to pace requests, use a batch endpoint if one exists, or cache tracking results that don't change often.
+
+Providers set limits to protect their servers from overload, to keep one heavy client from crowding out others, and often to tie usage to pricing tiers. Some APIs also return headers like `X-RateLimit-Remaining`, which let a client slow down before it gets cut off.

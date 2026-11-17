@@ -1,0 +1,12 @@
+**OPERATIONAL NOTICE: Hardware-token enforcement for staging/prod jump hosts**
+
+Starting Monday, November 4, at 09:00 UTC, the primary bastion cluster (`bastion.internal.net`) will reject SSH connections that do not present a FIDO2/WebAuthn resident key. SMS and software-based TOTP (1Password, Google Authenticator) will no longer satisfy the PAM authentication challenge for infrastructure access.
+
+**Required actions before Friday, 17:00 UTC:**
+1. Provision your company-issued YubiKey using the CLI utility: `infra-auth enroll --hardware-token`.
+2. Test access against the canary jump host: `ssh -J jump-canary.internal.net prod-db-01`.
+3. If you rely on personal SSH aliases or port-forwarding scripts for local development, update your config to parse the hardware resident key (`IdentityAgent ~/.ssh/yubikey.sock`).
+
+**Note on automated workflows:** This change applies exclusively to interactive human sessions. Service accounts, deployment workers, and Terraform CI runners utilizing machine-to-machine mTLS certs remain unaffected. 
+
+Unenrolled engineers will lose shell access when the puppet run applies the new PAM module on Monday morning. Emergency override requires sign-off from your engineering lead via `#platform-breakglass`.

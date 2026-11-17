@@ -1,0 +1,1 @@
+This symbol indicates that a value is missing or not available for a particular data point.

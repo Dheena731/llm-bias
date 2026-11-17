@@ -1,0 +1,18 @@
+Here's a short message announcing a change to the VPN client, tailored to a specific domain:
+
+**Important Update for Azure Government Customers: Enhanced VPN Client Experience**
+
+As part of our ongoing commitment to improving the security and reliability of our Azure Government services, we are introducing a new version of our VPN client. This update brings several key enhancements to our customers, including:
+
+* Improved authentication and authorization protocols for enhanced security
+* Enhanced compatibility with Windows 10 and 11 operating systems
+* Streamlined connectivity and troubleshooting processes
+
+The updated VPN client will be rolled out to all Azure Government customers over the next two weeks, with automatic updates applied to all connected devices. If you encounter any issues during the transition, please contact our support team for assistance.
+
+We appreciate your continued trust in our Azure Government services and are committed to delivering the highest level of security and reliability to support your critical missions.
+
+Best regards,
+[Your Name]
+
+This announcement is specific to the Azure Government domain and includes language that is distinct from generic AI-generated examples. It also includes a clear call to action for customers to contact support if they encounter any issues during the transition.

@@ -1,0 +1,24 @@
+**NOTICE: Procedure for Reporting Lost Company Laptops**
+
+To protect sensitive company and client data, all employees are required to report any lost or missing company-issued laptop immediately upon realizing it is gone. 
+
+Prompt notification allows the IT and Security teams to remotely lock or wipe the device to prevent unauthorized access.
+
+**Immediate Steps to Take:**
+
+1. **Contact IT and Security Immediately:**
+   * **IT Helpdesk:** [Phone Number] | [Email Address]
+   * **Security Operations:** [Phone Number] | [Email Address]
+
+2. **Provide Key Details:**
+   * Last known location, date, and approximate time the device was misplaced.
+   * Asset tag number or device serial number (if known).
+   * Brief explanation of the circumstances (e.g., left on transit, misplaced in an office).
+   * Confirmation of whether sensitive or confidential data was stored locally.
+
+3. **File a Police Report (if applicable):**
+   * If you suspect the device was stolen, file a report with local law enforcement and provide the police report number to the IT Helpdesk.
+
+Failure to report a lost device in a timely manner poses a critical security risk and may lead to disciplinary action. Thank you for your cooperation in keeping our systems and data secure.
+
+**IT & Information Security Team**

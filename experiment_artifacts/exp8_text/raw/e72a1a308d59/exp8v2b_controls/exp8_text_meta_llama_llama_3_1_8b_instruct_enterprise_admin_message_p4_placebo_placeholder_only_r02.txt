@@ -1,0 +1,14 @@
+**Quarterly Access Reviews**
+
+As part of our ongoing effort to maintain a secure and compliant environment, we will be conducting quarterly access reviews. These reviews are designed to ensure that all users have the necessary permissions to access the systems and data they require for their job functions.
+
+During each quarterly review, we will:
+
+* Evaluate user access levels to identify any over- or under-privileged accounts
+* Confirm that all access is still required for business purposes
+* Identify any changes to job functions or responsibilities that may impact access needs
+* Update access levels as necessary to reflect current requirements
+
+We will be contacting users directly if changes are needed, and we appreciate your cooperation in this process. If you have any questions or concerns about your access, please reach out to your supervisor or the IT department.
+
+These reviews are an important part of maintaining a secure and compliant environment. If you have any questions or concerns, please don't hesitate to reach out.

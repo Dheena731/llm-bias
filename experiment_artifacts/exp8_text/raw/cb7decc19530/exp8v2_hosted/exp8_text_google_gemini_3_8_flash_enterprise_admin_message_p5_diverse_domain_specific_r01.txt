@@ -1,0 +1,12 @@
+**Subject:** Cutover window: Email migration to Microsoft 365 (Friday, Nov 17 at 7:00 PM)
+
+We are running the final cutover from our legacy Exchange environment to Exchange Online this Friday, November 17, starting at 19:00 UTC. 
+
+Here is what to expect during the maintenance window and how to prepare:
+
+* **Mail delivery:** External senders will not receive bouncebacks. Messages will queue upstream while MX records update and will flush into your new mailbox by Saturday morning.
+* **Desktop clients:** Your current Outlook client will disconnect around 19:30 UTC. Close Outlook before you log off Friday. When you open it Monday, you’ll be prompted to authenticate through Okta; do not use your old local domain credentials.
+* **Mobile mail:** Existing native mail profiles on mobile devices will stop syncing. You will need to delete the old corporate account from your phone settings and install the Microsoft Outlook app to complete modern authentication.
+* **Mailbox history:** Your last 90 days of mail, current calendar items, and active folders have already been pre-staged. Archives older than one year are currently syncing in the background and may take through Sunday evening to fully populate. Please hold non-critical tickets about historical folders until Monday after 10:00 AM.
+
+Live status updates and troubleshooting threads will be posted in **#it-operations** throughout the weekend.

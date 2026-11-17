@@ -1,0 +1,11 @@
+**Subject: Screen Lock Requirement – Immediate Action**
+
+Step away from your terminal? Lock it. `Win + L` (Windows), `Ctrl+Cmd+Q` (Mac). Any unattended window left open past two minutes registers as a compliance breach in our access log review.
+
+Last month’s audit flagged three unlocked sessions during client file pulls and ledger edits. That leaves authentication trails incomplete and puts restricted documents within view of anyone walking past the row. This is a control requirement, not a courtesy reminder.
+
+If you cover shifts, swap desks, or run back-to-back calls, verify the prior user has fully signed out before taking over. A locked screen does not terminate an active session or clear cached credentials.
+
+IT pushes a hard idle-timeout policy on the 18th. Until then, manual locking remains your responsibility. System or account questions go to SecOps@ or ext. 4492.
+
+— Infrastructure & Compliance

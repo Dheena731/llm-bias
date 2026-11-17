@@ -1,0 +1,15 @@
+**Savings goals now move money on your schedule**
+
+Until now, a goal in [App] was a target amount and a date. You could set "$3,000 for car repairs by March," but you still had to remember to transfer the money. Most people didn't, and a lot of goals sat at $140 until the deadline passed.
+
+Each goal can now have its own transfer schedule. Choose an amount and a cadence: on payday, on the 1st and 15th, or on a day you pick. If a scheduled transfer would take your checking below the floor you set, it skips and shows you why. It won't overdraft you to hit a target.
+
+A few details:
+
+- **Pause without deleting.** If rent goes up in March and the vacation fund has to wait, pause it. The progress stays put.
+- **Finish date updates when you change the amount.** It's the remaining balance divided by your current schedule, so you can see what a $50 change does.
+- **Money stays in your savings account.** Transfers go to the linked savings account, and you can withdraw from it any time.
+
+Current limitation: goals only fund from your primary checking account. Funding from multiple accounts is planned but isn't in this release.
+
+To try it, open any goal and tap "Schedule transfers."

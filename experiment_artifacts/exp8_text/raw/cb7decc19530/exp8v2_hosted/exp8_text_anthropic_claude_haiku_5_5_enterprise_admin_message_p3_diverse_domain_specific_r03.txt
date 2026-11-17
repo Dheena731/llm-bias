@@ -1,0 +1,12 @@
+**Subject: VPN client 4.12 drops IKEv1 on March 3**
+
+Starting Monday, March 3, the VPN client connects only over IKEv2. The IKEv1 compatibility mode from 4.9 is gone, along with its toggle in preferences.
+
+If you enabled compatibility mode for the old Denver or Lisbon gateways, the client will refuse to connect until you update. The installer is in Self Service. It takes about two minutes and needs a restart.
+
+Your split-tunnel exclusions carry over unchanged. Linux users should wait for the 4.12 package in the apt repo, expected Thursday. Don't edit `/etc/vpn/client.conf` to force IKEv1. It won't work, and it will only generate a ticket.
+
+Questions go to #netops or ext. 4417. Denver and Lisbon cut over to the new gateways Friday, and their site leads will confirm the timing directly.
+
+Priya Raman
+Network Operations

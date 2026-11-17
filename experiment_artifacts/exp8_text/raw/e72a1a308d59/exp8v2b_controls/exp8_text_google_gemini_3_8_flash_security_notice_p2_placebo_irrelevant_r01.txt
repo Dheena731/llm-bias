@@ -1,0 +1,23 @@
+**MEMORANDUM**
+
+**TO:** All Staff  
+**FROM:** IT & Information Security  
+**DATE:** October 24, 2023  
+**SUBJECT:** Cybersecurity Reminder: Spotting and Reporting Phishing Emails  
+
+We have recently observed an increase in sophisticated phishing attempts targeting our organization. Phishing emails often appear to come from trusted sources—such as colleagues, vendors, or executive leadership—with the goal of stealing credentials or installing malicious software.
+
+Please remain vigilant and watch for common red flags, including:
+
+* **Urgent or threatening language:** Demands for immediate action, wire transfers, or gift card purchases.
+* **Suspicious sender addresses:** Display names that match a colleague, but with an unfamiliar external domain (e.g., `john.smith@company-support-desk.com` instead of `@company.com`).
+* **Unexpected links or attachments:** Prompts to update account passwords or download unsolicited invoices/files.
+* **Requests for sensitive information:** Any message asking for login credentials, employee data, or banking details.
+
+**What to do if you receive a suspicious email:**
+
+1. **Do not click** any links, open attachments, or reply to the sender.
+2. Use the **“Report Phishing”** button in your email client.
+3. If you have already clicked a link or entered your credentials, immediately notify the IT Help Desk at **extension 4357 (HELP)** or via email at **it-security@company.com**.
+
+Thank you for your cooperation in keeping our company’s network and data secure.

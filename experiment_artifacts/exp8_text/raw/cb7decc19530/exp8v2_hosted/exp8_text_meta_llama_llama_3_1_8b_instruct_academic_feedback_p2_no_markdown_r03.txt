@@ -1,0 +1,3 @@
+Here is a short feedback note on a student's methods section:
+
+"Overall, your methods section is clear and well-structured. However, I would suggest providing more detail on the sampling strategy and how the data was collected. For example, what type of sampling method was used (e.g. random, convenience)? Also, it would be helpful to include information on the data collection tools and any relevant training or calibration of these tools. With a bit more information on these points, the methods section would be even more effective in allowing the reader to understand and replicate your results."

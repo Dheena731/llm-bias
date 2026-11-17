@@ -1,0 +1,1 @@
+Date Range filters the dataset to records collected between the start and end dates you choose. Both dates are included. Records without a collection date are hidden while this filter is active. Changing the range updates all charts and counts in the current view, but it does not alter the underlying data, and you can clear the filter at any time to restore the full dataset.

@@ -1,0 +1,1 @@
+**Export results:** Downloads the full result set as CSV or JSON. Exports include all rows, not just the visible page. For results over 50,000 rows, re-run the query with Export enabled.

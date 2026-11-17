@@ -1,0 +1,1 @@
+The dataset filter allows you to narrow down the data by selecting specific criteria from the available fields. You can choose one or multiple fields to filter the data, and the tool will display only the data points that meet the selected criteria.

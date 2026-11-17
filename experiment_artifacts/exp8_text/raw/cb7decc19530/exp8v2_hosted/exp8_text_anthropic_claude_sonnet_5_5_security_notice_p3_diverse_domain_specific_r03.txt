@@ -1,0 +1,17 @@
+**Subject: Lock your screen when you step away**
+
+Leaving your desk? Lock your screen first. That includes trips to the printer, the kitchen, and the two-minute chat one aisle over.
+
+**Windows:** Windows key + L
+**Mac:** Control + Command + Q
+
+An unlocked machine lets anyone walking past send email as you, open the shared drive under your login, or approve requests in your name. The 10-minute auto-lock is a backstop, not a substitute.
+
+If you pass an unlocked screen, lock it and tell the owner later. Nobody minds coming back to a locked computer.
+
+Questions or trouble with the shortcut: [IT help desk, ext. ____]
+
+*[Name], IT Security*
+
+---
+Fill in the bracketed details. If you tell me your setting (clinic, law firm, school, call center), I can tailor the example of what's at risk, such as patient records, client files, or grade books.

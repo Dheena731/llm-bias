@@ -1,0 +1,14 @@
+**Reviewer Comment: Research Question**
+
+The manuscript's central research question is unclear, which makes it difficult to evaluate whether the study design, analyses, and conclusions are appropriate.
+
+The Introduction describes the study's aim in several different ways. The final paragraph asks whether social media use "affects" student outcomes. The Methods then refer to "associations" with academic performance, and the Discussion draws conclusions about well-being and motivation. These are distinct questions. They require different designs and support different kinds of claims. Key terms such as "social media use," "student outcomes," and "affects" are also never operationalized. As a result, I could not tell whether the study is exploratory or hypothesis-driven, or whether it is meant to establish causation or only correlation.
+
+I recommend that the authors:
+
+1. State one primary research question, and label any secondary questions as such, ideally in a single sentence at the end of the Introduction.
+2. Define the main constructs and say how each is measured.
+3. Specify the hypotheses, or state explicitly that the work is exploratory.
+4. Align the analyses and the strength of the conclusions with the question posed. If the design is correlational, causal language such as "affects" and "impact" should be removed.
+
+A sharper research question would substantially improve the coherence of the paper and make its contribution easier to assess.

@@ -1,0 +1,17 @@
+**Important Notice to All Employees of Smithson & Co.**
+
+As we continue to implement our company's cybersecurity best practices, we want to remind everyone to be vigilant when interacting with emails that claim to be from the finance department, particularly those requesting sensitive information.
+
+Recently, we've identified a few instances of phishing attempts aimed at our employees. These emails typically ask you to verify your login credentials or provide confidential information under the guise of a legitimate request. Please remember that our finance team will never ask you to:
+
+*   Send confidential information via email
+*   Provide login credentials over email
+*   Make sensitive decisions based solely on an email request
+
+If you're unsure about the authenticity of an email, please:
+
+*   Verify the sender's email address by checking the domain (it should be @smithson.com)
+*   Contact the sender directly to confirm their request (using the company's internal communication channels, if possible)
+*   Report suspicious emails to the IT department (report to [it@smithson.com](mailto:it@smithson.com) with the email's header information)
+
+Your attention to this matter is greatly appreciated, and we're committed to maintaining a secure and safe work environment for everyone.

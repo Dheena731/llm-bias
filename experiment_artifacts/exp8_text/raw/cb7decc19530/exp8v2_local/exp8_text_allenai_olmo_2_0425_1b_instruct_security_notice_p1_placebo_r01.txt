@@ -1,0 +1,21 @@
+**Workplace Security Notice: Password Reuse: A Critical Risk**
+
+Password reuse poses a significant risk to the security and integrity of our workplace systems. It is strongly discouraged. Before you create a new password, please review your existing ones to ensure they are strong and unique.
+
+*Strong Password Guidelines:*
+1. Each password should be at least 8 characters long and include a mix of uppercase and lowercase letters, numbers, and special characters.
+2. Avoid using easily guessable information such as your name, birthdate, or common words.
+3. Do not reuse passwords across multiple accounts.
+4. Consider using a reliable password manager to generate and store complex passwords for each account.
+
+Thus, when creating your next password, please ensure it's unique and robust. Should you have multiple accounts that require password resets, please use the password reset feature provided by our IT department for each account to avoid unintentional password reuse across systems.
+
+**placeholder text for complex passwords:** [Placeholder for a strong password example]
+
+**Note:** This notice is subject to revision as our security protocols evolve. For the most current security advice, please visit our IT Security page or contact our help desk.
+
+*Important Reminder:* Your vigilance in safeguarding our digital environment is essential. Zero tolerance for password reuse protects the entire digital ecosystem and empowers us to maintain trust in our workplace's digital security posture.
+
+--- 
+
+**Note:** Placeholder for example of an 8-character password (e.g., 'Random123') containing upper and lowercase letters, numbers, and special characters.

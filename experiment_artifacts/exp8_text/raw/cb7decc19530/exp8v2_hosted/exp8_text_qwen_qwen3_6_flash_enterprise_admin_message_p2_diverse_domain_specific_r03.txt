@@ -1,0 +1,11 @@
+**Subject: Updated Expense Routing & Approval Matrix Effective [Date]**
+
+Beginning [Date], all submissions in [System Name] will follow this routing logic:
+
+• ≤$500: Auto-clears if receipt is attached and cost center maps to an active project/GL code.  
+• $501–$2,500: Routes to direct manager. Must approve within 3 business days or escalate to Finance Ops.  
+• >$2,500 or out-of-policy items: Requires Finance review + VP sign-off.  
+
+Reports with missing receipts, mismatched GL codes, or unapproved policy exceptions will be returned for correction. Reimbursements process every Thursday for items that pass validation.
+
+Please verify your default cost center and vendor master mappings by [Date]. Policy guidance and exception request forms are at [Link]. Coding questions → finance-expenses@company.com.

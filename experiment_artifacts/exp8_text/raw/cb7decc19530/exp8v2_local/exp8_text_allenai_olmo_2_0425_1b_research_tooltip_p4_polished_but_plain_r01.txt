@@ -1,0 +1,87 @@
+Write the tooltip just like a person would provide help on a webpage, not in a form or process. The tool tip should act as the final step in composing the help page and should not distract the user from what the help page is for.
+
+This help page is intended to assist you with the following task:
+
+If your tool tip is very long or needs more than about 50 words, you may consider adding an "Appendix" section at the end of the help page.
+
+Open the link (to the help page) in a new tab or window. You can’t use the link as part of the help text in the tool tip.
+
+Make sure that your tool tips are crisp and actionable.
+
+For example, this tool tip has a lot of wasted space and words:
+
+You can access the following FAQs by clicking here.
+
+This tool tip is much more useful for the user:
+
+FAQs for this help page can be found by clicking here.
+
+Use the following convention for tool tip names: [Title].
+
+For example, this tool tip is a little better:
+
+If you enter an invalid product name, [Product Name Validation] will assist you by highlighting invalid product names.
+
+This tool tip is much better:
+
+Invalid product names can be validated by entering a product name here.
+
+Use the following convention for tool tips that peek out over the page:
+
+In a tool tip, add [Tip] followed by a word or phrase at least half the length of the tool tip. This prevents the tool tip from overrunning the page.
+
+For example, this tool tip is very long and hard to read:
+
+You can manually enter all the data in the table by pressing the [*] button and Enter, then [Enter].
+
+This tool tip is more readable:
+
+You can manually enter all the data in the table by pressing the [*] button and Enter.
+
+This tool tip is even more readable:
+
+You can enter all the data in the table manually by pressing the [*] button and Enter. You can also select the available values in the table and press [Enter].
+
+Use the following convention for tool tips that are only allowed after certain actions are completed:
+
+Place [Tip] after the word or phrase that follows the action.
+
+For example, this tool tip is very long:
+
+To exit this page and return to your work, click [Continue].
+
+This tool tip is much more readable:
+
+To exit this page and return to your work, click Continue.
+
+Make sure the tools that support these tool tips are also optimized for the format. For example, if you use a table, make sure it will display to the user in a readable width.
+
+Use the following convention for tool tips that require user input:
+
+Provide a link to the specific form that the user needs to complete before the tool tip is useful. If the tool tip requires a number, display an overflow menu that shows which page in the help system contains the form.
+
+For example, this tool tip is very long and hard to use:
+
+To remove this comment, click [Comment].
+
+This tool tip is much more readable:
+
+To remove this comment, click in the box below and press [Delete].
+
+If the tool tip requires a word, include a link to the form that the user can fill out to provide the input. If the form can be filled out via the browser’s back button, do not include a link to the form.
+
+For example, this tool tip is very long and it is impossible to remove the comment without clicking HTML:
+
+To remove this comment, click [Cancel Comment].
+
+This tool tip is much more readable:
+
+To remove this comment, click in the box below and press Back.
+
+All URLs used in tool tips redirect to the original page on which the link is located. For example:
+
+You can access the company’s history by clicking here.
+
+This tool tip is much more readable:
+
+You can

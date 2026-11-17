@@ -1,0 +1,5 @@
+Reviewer comment:
+
+The research question in this manuscript is difficult to evaluate because it is stated too broadly and without clear operational definitions. The authors ask whether "digital engagement affects student outcomes," but it is not specified what counts as digital engagement (time on platform, frequency of logins, types of activities, or self-reported use), which outcomes are of interest (grades, retention, wellbeing, or skill acquisition), or for which population and context the question applies. As a result, it is unclear what finding would confirm or refute the question, and the hypotheses that follow appear to shift between a causal claim and a descriptive association.
+
+I recommend that the authors refine the question so that the key constructs, the expected direction of the relationship, and the target population are explicitly defined. It would also help to state whether the aim is to establish causation or to describe patterns, since this determines the appropriate design and analysis. A revised question that names specific measures and a testable prediction would substantially improve the clarity and contribution of the study.

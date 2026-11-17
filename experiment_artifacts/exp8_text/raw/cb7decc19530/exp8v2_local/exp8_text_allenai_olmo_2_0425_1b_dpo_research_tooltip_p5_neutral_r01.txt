@@ -1,0 +1,44 @@
+To export query results, first ensure you have your data in a table format (like SQL's `SELECT` statement or a pandas DataFrame in Python). Here's how you can export these results:
+
+**For SQL:**
+
+```sql
+SELECT * FROM your_table;
+```
+
+This command exports all rows (`*`) from the specified table.
+
+**For Python with `pandas`:**
+
+```python
+import pandas as pd
+
+# Assuming you have a DataFrame df with your data
+df.to_csv('output.csv', index=False)
+```
+
+This command exports the entire DataFrame `df` to a CSV file named `output.csv` without the index information.
+
+**For Excel:**
+
+If you'd prefer an Excel file, use the `to_excel` method:
+
+```python
+import pandas as pd
+
+# Assuming df is your DataFrame
+df.to_excel('output.xlsx', index=False)
+```
+
+**For Google Sheets:**
+
+```python
+import pandas as pd
+
+# Assuming df is your DataFrame
+df.to_csv('output_g Sheets', index=False)
+```
+
+This exports the DataFrame directly to a Google Sheets file named `output.g Sheets`.
+
+Follow the specific method based on your programming language or database system for exporting the results to a CSV file or another format.

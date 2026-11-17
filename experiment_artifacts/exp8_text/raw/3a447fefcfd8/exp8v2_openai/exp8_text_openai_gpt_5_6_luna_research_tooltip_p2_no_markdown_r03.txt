@@ -1,0 +1,1 @@
+Confidence interval: the shaded range shows plausible values for the true estimate. Narrower intervals indicate greater precision.

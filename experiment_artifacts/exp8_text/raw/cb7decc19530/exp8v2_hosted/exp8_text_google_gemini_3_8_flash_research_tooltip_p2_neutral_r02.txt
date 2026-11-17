@@ -1,0 +1,10 @@
+Here are a few options depending on your audience:
+
+**Option 1: Standard (Recommended)**
+> **Confidence Interval:** The range where the true value is likely to fall. Wider bands indicate more uncertainty in the data.
+
+**Option 2: Non-technical (Plain English)**
+> Shows the margin of error. A narrower range means the estimate is more precise.
+
+**Option 3: Ultra-short (Mobile or tight spaces)**
+> The expected range of the true value based on a [95]% certainty level.

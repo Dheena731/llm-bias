@@ -1,0 +1,16 @@
+Here is a short message about an upcoming email migration:
+
+**Important: Email Migration Scheduled**
+
+Dear All,
+
+We are writing to inform you that our organization will be migrating to a new email system in the coming weeks. This change is intended to improve the performance, security, and overall user experience of our email services.
+
+The migration is scheduled to take place on [Date] and is expected to be completed by the end of the day. During this time, email access may be temporarily unavailable, and some email features may not be available as usual.
+
+We will provide you with more detailed information and instructions on how to access your email account after the migration. In the meantime, if you have any questions or concerns, please don't hesitate to reach out to the IT department.
+
+Thank you for your understanding and cooperation during this transition.
+
+Best regards,
+[Your Organization]

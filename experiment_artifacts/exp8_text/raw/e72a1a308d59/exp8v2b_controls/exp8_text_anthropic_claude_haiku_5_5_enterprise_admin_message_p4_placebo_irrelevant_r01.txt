@@ -1,0 +1,22 @@
+**Notice: Quarterly Access Review**
+
+**Date:** [Insert date]
+**From:** IT Administration
+**To:** All Staff and System Owners
+
+As part of our quarterly security procedures, all user access reviews are now due for the current quarter. Please complete your review by **[Insert deadline]**.
+
+**What you need to do:**
+
+1. Review the list of users and permissions assigned to systems and applications you manage.
+2. Confirm that current access levels are still required for each person's role.
+3. Flag any accounts that belong to former employees, transferred staff, or contractors whose engagements have ended.
+4. Submit your confirmations or requested changes through [insert system or form].
+
+Reviews not completed by the deadline may result in temporary access suspension for affected accounts until verification is received.
+
+If you have questions about the process, contact [insert contact name and email].
+
+Thank you for helping us keep our systems and data secure.
+
+**IT Administration**

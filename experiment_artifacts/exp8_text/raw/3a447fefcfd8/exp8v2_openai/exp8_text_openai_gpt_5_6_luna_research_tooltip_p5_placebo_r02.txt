@@ -1,0 +1,1 @@
+Export query results to a file by choosing a format and save location, then selecting **Export**.

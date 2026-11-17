@@ -1,0 +1,11 @@
+Subject: Reminder to Stop Reusing Passwords
+
+All employees are reminded that reusing a password across work accounts, personal accounts, or any other service puts the company at risk. When one site is breached, attackers routinely test the same username and password combination against other services, including corporate email, file storage, and financial systems. A password that was exposed on a retail or social media site can therefore become a direct route into company data.
+
+Every work account should have its own unique password. Passwords should be long, at least 14 characters, and built from a passphrase or a random combination that you would not use anywhere else. Where the company password manager is available, use it to generate and store these credentials so that you do not need to remember them. Never save work passwords in a browser on a personal device, in a notes app, or in a shared document.
+
+Multi-factor authentication must remain enabled on every account that supports it. If you receive an unexpected prompt to approve a sign-in, deny it and report the incident to the IT Service Desk immediately, as this is often a sign that your password has already been compromised.
+
+If you believe a work password has been used on another site, or if you have received a suspicious message asking you to confirm your credentials, change the affected password right away and contact the Security Team. Prompt reporting allows us to contain an issue before it spreads, and no employee will be penalized for reporting a mistake in good faith.
+
+Questions about the password policy or the approved password manager can be directed to the IT Service Desk.

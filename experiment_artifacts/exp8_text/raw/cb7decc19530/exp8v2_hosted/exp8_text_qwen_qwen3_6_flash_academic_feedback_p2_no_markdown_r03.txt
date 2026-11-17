@@ -1,0 +1,9 @@
+Feedback Note: Methods Section
+
+Your methods section demonstrates a clear understanding of the experimental design and follows a logical sequence. You successfully described the general workflow, making it easy to understand the overall approach taken in this study.
+
+To enhance reproducibility, please include more specific technical details. Add information about materials, such as manufacturers, model numbers, and catalog IDs where applicable. Specify exact parameters for procedures, including concentrations, temperatures, durations, and settings used on any instruments. Vague descriptors should be replaced with precise values.
+
+Ensure that the statistical analysis subsection explicitly states the tests performed, the software used, and the threshold for significance. If any decisions were made regarding data exclusion or preprocessing, describe these criteria here rather than in the results.
+
+Lastly, verify that the tense is consistent throughout and that every method described is referenced later in your results. Making these adjustments will significantly improve the rigor and clarity of your paper. Great progress.

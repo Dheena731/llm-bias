@@ -1,0 +1,1 @@
+The shaded band shows a confidence interval: a range of values that, based on this data, likely contains the true average. Wider bands mean more uncertainty, while narrower bands mean the estimate is more precise.

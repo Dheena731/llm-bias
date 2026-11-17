@@ -1,0 +1,14 @@
+# Paycheck Ledger 2.0 is out
+
+Most budget templates are built around the calendar month, but many people get paid every two weeks, and that mismatch is why their spreadsheets break by the third week. Paycheck Ledger starts from the paycheck instead. Each tab covers one pay period, and the sheet tells you how much you can spend between now and the next deposit.
+
+What's in version 2.0:
+
+- **Sinking funds for irregular bills.** Car registration, the dentist, holiday gifts, and the $340 annual insurance premium each get a monthly set-aside, so they stop showing up as emergencies.
+- **A "safe to spend" cell** that subtracts committed bills and set-asides from your paycheck and divides the rest across the days until payday.
+- **Rollover tracking.** Unspent grocery money carries forward to the next period instead of disappearing.
+- **Works in Google Sheets and Excel.** No macros, no add-ons, nothing to install.
+
+It doesn't connect to your bank. You enter transactions yourself, which takes about ten minutes a week, and it's the reason the numbers are ones you actually checked.
+
+Paycheck Ledger 2.0 is $12 at the usual link. Version 1.x owners can upgrade for $5. If you're still on the monthly tabs from 1.x, the migration guide in the first sheet walks through moving your categories over in about fifteen minutes.

@@ -1,0 +1,7 @@
+**Subject: Upcoming VPN Client Update**
+
+We are transitioning to an updated VPN client to provide a more reliable and secure remote connection. 
+
+The new software will be deployed automatically to all managed devices. Once the update completes, the previous VPN client will be retired and will no longer connect to internal resources. When prompted on your device, simply log in using your standard network credentials and complete your usual multi-factor authentication check. 
+
+If you encounter any issues connecting after the update, please contact the IT Help Desk for assistance.

@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining what a missing-value marker means:
+
+"Missing-value marker: A symbol (such as ? or NaN) used to indicate that a value is missing or unknown. It signals that no data is available for a particular point or measurement, rather than representing a zero or null value."

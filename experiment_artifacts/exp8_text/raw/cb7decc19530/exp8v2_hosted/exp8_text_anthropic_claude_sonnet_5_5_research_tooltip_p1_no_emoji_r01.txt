@@ -1,0 +1,12 @@
+**Filter by dataset**
+Show only results drawn from the selected datasets. Select multiple datasets to combine them, or clear the filter to search all available data. Counts update as you change your selection.
+
+---
+
+Shorter variant (for tight spaces):
+
+**Dataset:** Limit results to specific datasets. Leave blank to include all.
+
+---
+
+If you tell me the specific filter (for example, date range, data source, or study type), I can tailor the wording to it.

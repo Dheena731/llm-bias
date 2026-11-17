@@ -1,0 +1,7 @@
+"Important Notification
+
+Our dashboard will be undergoing scheduled maintenance on [Date and Time]. During this time, users may experience intermittent disruptions to service, including but not limited to, delays in data loading and partial unavailability of features. We apologize for any inconvenience this may cause and appreciate your patience as we work to improve the overall performance of our platform.
+
+The maintenance is expected to last approximately [Duration] and will take place on [Date] between [Time] and [Time]. If you have any urgent issues that cannot wait until after the maintenance window, please contact our support team for assistance.
+
+Thank you for your understanding and cooperation in this matter."

@@ -1,0 +1,9 @@
+NOTICE: PHISHING EMAIL AWARENESS
+
+To all employees,
+
+This notice outlines essential procedures for protecting our company networks from phishing emails. Phishing refers to fraudulent messages that impersonate legitimate senders in order to trick recipients into surrendering login credentials, sharing confidential information, or opening malicious files.
+
+Recognize phishing attempts by checking for common warning signs: unsolicited requests for personal or account details, urgent language demanding immediate action, sender addresses that do not match known company domains, unexpected attachments, and hyperlinks that redirect to unfamiliar websites.
+
+If you suspect an email is phishing, do not click any links, open attachments, or reply. Forward the complete message to the IT Security Team and permanently delete the original. Prompt reporting enables our team to isolate threats and

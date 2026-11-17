@@ -1,0 +1,1 @@
+A missing-value marker indicates areas of data where neither the intended value nor a default substitute was provided. This can occur when data was not entered or when no specific value was chosen, resulting in gaps in the dataset.

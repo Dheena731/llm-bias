@@ -1,0 +1,20 @@
+**Feedback on Draft Literature Review: Additionality in Costa Rica's PES Program**
+
+Dear Marta,
+
+The draft shows solid command of the Costa Rican case, and your account of how the 1996 Forestry Law shifted PSA payments from a fuel-tax base toward water-user fees is the clearest section. The main work now is converting a well-informed summary into an argument.
+
+**1. Organization.** The review runs chronologically (early program evaluations, then the mid-2000s matching studies, then recent work). That hides the real disagreement in the literature, which is about *counterfactuals*. Consider restructuring around how studies construct the no-payment scenario: raw enrollment-versus-deforestation comparisons, covariate matching, and quasi-experimental designs. Your reader should see why Sánchez-Azofeifa et al. and later matching studies reach more modest conclusions than program reports, rather than learning only that they do.
+
+**2. Source independence.** On p. 6 you write that PES "has been widely successful in halting deforestation," citing three documents, two of them FONAFIFO reports. The implementing agency is not a neutral evaluator. Either flag this or support the claim with the independent impact evaluations you cite later.
+
+**3. Conflated outcomes.** "Forest cover," "avoided deforestation," and "enrollment area" are used interchangeably. They are different quantities, and national forest recovery during this period also coincided with falling cattle prices and rising urban employment. Define additionality once, early, and hold to it.
+
+**4. Gaps you can name.** You mention leakage only in the conclusion. Studies that address it, even to say they cannot, belong in the body. Likewise, say plainly that most matching studies rely on observable covariates (slope, road distance, soil class) and cannot account for landowner motivation.
+
+**5. Smaller points.** Several paragraphs open with an author's name; open with the claim instead. Check the 2008 Pagiola citation against the page numbers given, and update the post-2012 section, which currently reads thin.
+
+A revised outline before full redrafting would be useful. I'm happy to look at that first.
+
+Best,
+Dr. Hallam

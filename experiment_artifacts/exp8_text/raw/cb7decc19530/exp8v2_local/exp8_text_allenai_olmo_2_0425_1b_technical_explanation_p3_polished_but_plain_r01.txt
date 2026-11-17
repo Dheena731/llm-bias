@@ -1,0 +1,76 @@
+Write short and to-the-point explanations of how something works. For example:
+
+  • "A cache stores a copy of the same data that is usually found in main memory."
+  • "A software update changes the configuration of a device so that it can perform a new function."
+
+Be specific. Do not use general phrases or vague words that do not explain how it works.
+
+Explain how the technology works. For example:
+
+  • "A virtual private network (VPN) tunnels data over the Internet. Through the use of a VPN, we can send a secure packet of data between two points on the Internet."
+  • "A blockchain is an electronic and cryptographic record of transactions. The records are replicated across a peer-to-peer network of computers. Each blockchain is distributed, with no central point of failure."
+  • "Wikipedia is a free online encyclopedia that anyone can edit."
+
+Use the Active Voice
+
+The Active Voice is the form of the sentence in which the subject of the sentence performs the action.
+
+
+Use Active Voice when possible.
+
+The Passive Voice is the form of the sentence in which the subject of the sentence is acted upon.
+
+To change the sentence from the Passive Voice to the Active Voice, remove the form of the auxiliary verb
+
+  • You may have the option to change the settings of the device.
+  • You may be able to change the settings of the device.
+
+Make Active Voice the point of the sentence.
+
+I will explain how to change the settings of the device.
+
+I will change the settings of the device.
+
+Change the sentence to the Active Voice.
+
+Do not use the Passive Voice when possible.
+
+The Passive Voice should be avoided in technical writing.
+
+In the first example, the sentence works well in the Passive Voice because the subject of the sentence is The Author. In the second example, the sentence works in the Active Voice because the subject of the sentence is Change the Settings of the Device.
+
+Use the Active Voice when possible.
+
+It is not appropriate to use the Passive Voice in this context.
+
+The Active Voice is best for writing technical information. The Passive Voice is better for casual language or informal writing.
+
+Avoid the Passive Voice.
+
+If you have to use the Passive Voice, you should modify the sentence to be more active.
+
+Change the sentence to the Active Voice.
+
+Use Sentence Fragments
+
+Sentence fragments are part of a sentence that is not well-formed. The main purpose of a sentence is to convey a thought or idea to the reader. If it is difficult to understand the meaning of a sentence, then it is a sentence fragment. A good sentence should always have a subject and a verb, with no missing words.
+
+Ensure that each sentence is well-formed. Check to see if a sentence has a subject and a verb.
+
+For example:
+
+  • "An error cannot be reported."
+  • "Any error cannot be reported."
+
+A sentence fragment does not have a subject and a verb. The subject of a sentence is who or what does the action. The verb is the word that shows the action or state of being.
+
+For example:
+
+  • "Report any error." The subject of the sentence is "Report." The verb is "report." A sentence fragment does not have a subject and a verb.
+  • "Error cannot be reported." The subject of the sentence is "Error." The verb is "cannot."
+
+An example of a complete sentence with a subject and predicate:
+
+  • The error cannot be reported.
+
+For more information on sentence fragments, check out the Purdue Online Writing Lab (OWL) at https://owl.english.purdue.edu/owl/resource/607/01/

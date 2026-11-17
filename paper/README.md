@@ -21,6 +21,7 @@ uv run python experiment8_collect_text.py --dry-run
 uv run python analyze_post_training_priors.py --input experiment_data/exp8_post_training_priors_20260601_022210.csv --expected-runs-per-cell 2
 uv run python analyze_text_baselines.py
 uv run python analyze_cross_modal_baselines.py
+uv run python analyze_tist_revision.py
 uv run python validate_feature_audit_samples.py
 uv run python verify_tist_bibliography.py --write-audit
 uv run python generate_tist_artifact_tables.py

@@ -1,0 +1,1 @@
+Caching speeds up a website by storing copies of frequently requested files or data, such as images, pages, and scripts. When someone requests them again, the website can deliver the cached copies instead of retrieving or generating everything from scratch. This reduces waiting time for visitors and lowers the workload on the website’s server.

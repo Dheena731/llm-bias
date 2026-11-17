@@ -1,0 +1,5 @@
+Note that the key is on the keyboard above the text box and not the button. Clicking on it will cause the text to start updating with the current value of the key, instead of starting in the stage that the key is locked.
+
+Keep in mind that the steps for writing the description are not always in the order that the steps appear in the template. If you are having trouble making sense of the steps, then step back and think about what you are seeing in the template, not in order. To change an individual step, click on it, and then click the Edit icon in the top left corner to edit the step. To programmatically change the text of a step, first click on the step in the template, and then click the Edit icon in the top left corner to edit the step. To remove a step from the template, click on it, and then click the Remove icon in the top left corner.
+
+Use the same format for all of your descriptions. Keep them brief. 1-2 sentences is enough. The description is the summary of your largest savings goal. So, keep it short.

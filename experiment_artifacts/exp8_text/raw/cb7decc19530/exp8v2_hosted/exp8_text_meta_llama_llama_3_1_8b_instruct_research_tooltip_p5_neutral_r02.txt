@@ -1,0 +1,4 @@
+Here is a concise tooltip explaining how to export query results:
+
+"Export Results: 
+ Right-click on the query result grid and select 'Export'. Choose the format (e.g. CSV, Excel, PDF) and save options. Alternatively, click on the 'Export' button in the top-right corner of the grid and follow the same steps. Select the desired data and formatting to save as a file."

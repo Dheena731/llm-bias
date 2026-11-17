@@ -1,0 +1,9 @@
+Thanks for sharing the draft. I haven't seen the poster itself, so this note covers the points that most often make the difference with conference posters. Adjust it to fit what you actually have on the page.
+
+The strongest posters can be understood in about thirty seconds from a few feet away, so start by checking whether your main finding is obvious at that distance. A title that states the question or result, followed by a single-sentence takeaway near the top, would help a passing reader decide to stop. If the main message is currently buried in the results section, move it up and make it larger.
+
+On layout, aim for a clear reading path with a logical flow from background to question, methods, results, and conclusion. Generous white space and consistent alignment will do more for readability than extra content. If the draft feels crowded, cut the background and methods text first, since most viewers care more about what you found than about every procedural detail. A good target is somewhere around 300 to 800 words in total, with the figures carrying most of the weight.
+
+For figures, make sure each one has a short title that states its point, labeled axes in a legible size, and a color palette that works for colorblind readers and in grayscale. Avoid reproducing tables straight from a paper. Pick the one or two comparisons that support your argument and show those visually.
+
+Finally, the conclusion should stand on its own and tell the reader what your result means, not only what you did. Add a small section with contact details or a QR code for the full paper, and prepare a two-minute spoken summary so the poster can support a conversation rather than replace one. I would be glad to look again once you have revised the title and the results section.

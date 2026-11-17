@@ -1,0 +1,60 @@
+Use the plainest possible language, so that your code can be read by a person without any special training in computer science.
+
+If you must use a symbol such as =, make it clear to your reader that it is a symbol rather than a word. For example:
+
+Copy and paste this to see the syntax highlighting.
+set golf [position]
+
+Use standard coding conventions. On github, we use the BSD convention. See the guide.
+
+Use functions
+
+  • Pre-define an array with $diag to hold the diagonal entries of the matrix.
+
+  • Add comments to your code
+
+    Consider adding comments to your code and functions, defining them with
+
+    # The diagonal of the matrix, given as an array. 
+    $diag = $diag[$i][[$j]]
+  • Use '=' instead of strcmp
+
+    For example, if we want to check if the numerical values of a vector and a matrix are the same, we can use the following:
+
+    # The input is an array and a matrix.
+    # The output is a boolean (true or false)
+    # If the array and the matrix are the same, the function will return 'true'
+    if {[compare $a $b] == 1} {
+        # The array and the matrix are the same
+        # The function will return 'true'
+    # Else, the function will return 'false'
+
+    Note that I've used the compare command with the numerical values of a and b. This is to highlight that I'm comparing the two input arrays. I could have written the code like this:
+
+    if {[scalar compare $a $b] == 1} {
+        # The array and the matrix are the same
+        # The function will return 'true'
+    # Else, the function will return 'false'
+
+    This is similar to the code we wrote earlier, except that I've used the scalar compare command. This command returns a boolean for the numerical value of an array. Using the scalar compare command allows me to compare the values of the two inputs.
+
+A row of 3 numbers in a 2D array ($a1, $a2, $a3), the same for the other array ($b1, $b2, $b3).
+
+A triangle of three numbers in a 2D array ($b1, $b2, $b3), the same for the other array ($a1, $a2, $a3).
+
+A triangle of 2D array ($b1, $b2, $b3), the same for the other arrays ($a1, $a2, $a3).
+
+A triangle of 3 numbers in a 1D array ($a1, $a2, $a3), the same for the other array ($b1, $b2, $b3).
+
+A triangle of 1D array ($b1, $b2, $b3), the same for the other arrays ($a1, $a2, $a3).
+
+A triangle of 3 numbers in a 1D array ($b1, $b2, $b3), the same for the other arrays ($a1, $a2, $a3).
+
+The output of the function is a boolean (true or false). The if command will return 'true' if the function is true and 'false' if the function is false. Note from the last example that the function has been defined with the compare command, rather than scalar compare.
+
+You can also use the if command in a while loop.
+
+# The while loop
+while {[compare $a $b] == 0} {
+    # The while loop will execute until the compare command returns a false value.
+    # The while loop will return

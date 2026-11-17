@@ -1,0 +1,19 @@
+**Subject: Lock your screen when you step away**
+
+Going to the printer, the kitchen, or a colleague's desk? Lock first. It takes one second:
+
+- **Windows:** Windows key + L
+- **Mac:** Control + Command + Q
+- **Shared or hot-desk machines:** sign out completely
+
+An unlocked screen lets anyone who walks past read client files, send email as you, or approve a request under your name. The audit log will record it as you, not them.
+
+Our auto-lock triggers after five minutes of inactivity, which is plenty of time for all of the above. Treat it as the backup, not the habit.
+
+If your screen won't lock or you can't remember your password afterward, contact IT at [extension/email] and we'll sort it out.
+
+*[Name], [Team]*
+
+---
+
+I kept this general. If you tell me the setting (a clinic, law firm, school, or call center), I can swap in the specific risks, like patient records visible from the waiting room or client files in a shared office.

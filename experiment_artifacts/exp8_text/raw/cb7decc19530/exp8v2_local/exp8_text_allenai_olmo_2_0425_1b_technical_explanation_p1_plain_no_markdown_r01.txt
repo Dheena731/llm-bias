@@ -1,0 +1,14 @@
+Be sure to include plenty of detail, as we will be grading based on your explanation. Here are some common pitfalls:
+
+  • Don't skip steps
+  • Don't rely on "read the following documentation" to explain your code
+  • Don't write in a tech stack-specific language (for example, "in Rails") unless it's required by the assignment
+  • Don't use code snippets without explaining why they work
+
+If you have ideas for improvements, feel free to make suggestions in the comments below!
+
+Congratulations! You've successfully written a blog post on a topic related to your area of study.
+
+You can also browse other students' posts, or check out the list of common feedback on the powershell prompt to learn more about what we're looking for.
+
+If you have any questions or suggestions, feel free to reach out to the community team at <><http://cs.stackexchange.com/>, or write to us directly at <><https://mail.google.com/mail/?ui=1?topic=cs.stackexchange>.

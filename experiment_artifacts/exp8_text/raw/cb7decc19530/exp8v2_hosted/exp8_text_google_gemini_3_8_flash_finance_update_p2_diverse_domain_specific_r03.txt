@@ -1,0 +1,14 @@
+**Subject: Scheduled updates to Card-Not-Present and Scheme Fee schedules (Effective July 1)**
+
+Starting July 1, 2024, we are adjusting processing rates on select card categories to reflect updated card network assessment costs and cross-border settlement fees. 
+
+**Summary of changes:**
+
+* **Domestic Card-Not-Present (CNP) Credit:** The processor margin will increase by 4 bps (+0.04%). Fixed per-transaction capture fees remain unchanged at $0.12.
+* **Commercial and Purchasing Cards:** Pass-through network assessments will increase by 7 to 11 bps, depending on tier, aligned with the latest interchange revisions from Visa and Mastercard.
+* **Non-EEA Cross-Border Transactions:** The cross-border acquiring surcharge will increase from 1.15% to 1.30% to account for revised FX clearing mandates.
+* **Card-Present (Point-of-Sale) and domestic PIN-debit rates will remain at their current contracted pricing.**
+
+No configuration changes are required on your terminals or gateway integrations. An itemized table showing the old versus new effective rates across all card classes is now available under **Dashboard > Billing > Rate Cards (July 2024)**. 
+
+These adjustments will be visible on your August billing statement for all volume captured on or after 00:00 UTC, July 1.

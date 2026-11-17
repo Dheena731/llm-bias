@@ -1,0 +1,1 @@
+Filter the dataset by applying selection criteria. Only records matching your specified conditions will be displayed.

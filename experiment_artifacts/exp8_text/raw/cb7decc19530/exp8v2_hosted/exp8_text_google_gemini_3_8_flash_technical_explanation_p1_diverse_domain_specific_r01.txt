@@ -1,0 +1,10 @@
+Latency in web applications is fundamentally a constraint on state synchronization, human perception, and resource consumption. Its impact breaks down into three distinct mechanics:
+
+### 1. The Breakdown of Direct Manipulation
+Human motor control registers delays above roughly 100ms as a loss of mechanical causality. When an interface fails to acknowledge an input (a keystroke, a toggle, or a drag event) within that window, the user’s mental model shifts from *manipulating an object* to *submitting a remote request*. This causes compensatory behavior: double-clicking buttons that trigger duplicate mutations, abandoned forms, and perceived software instability—even if the application logic never throws an error.
+
+### 2. Tail Latency and Component Fan-Out
+Modern web frontends rarely wait on a single monolithic payload; they compose state from microservices, CDNs, and third-party APIs. In a UI that requires five concurrent network calls to render, the perceived speed is not the median ($p50$), but the worst-performing 99th percentile ($p99$). A backend service with an acceptable average response time of 40ms will, at a $p99$ of 800ms, regularly stall the client’s main thread, block hydration, or hold a skeleton loader in place long enough to break layout stability.
+
+### 3. Concurrency and Saturation
+Latency directly dictates infrastructure capacity via Little’s Law ($L = \lambda W$). If an API handler takes 500ms instead of 50ms, a single database connection or server thread is occupied ten times longer to complete the same amount of computation. Under load, high latency exhausts connection pools, inflates memory footprints with pending request buffers, and triggers aggressive client-side retries. What begins as a slow network hop quickly cascades into socket exhaustion and upstream service collapse.

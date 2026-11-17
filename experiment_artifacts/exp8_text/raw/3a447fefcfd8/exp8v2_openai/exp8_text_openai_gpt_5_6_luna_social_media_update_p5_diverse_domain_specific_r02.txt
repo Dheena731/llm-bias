@@ -1,0 +1,1 @@
+We’re sorry for the brief outage earlier today. Some customers couldn’t load project dashboards or sync new data for about 20 minutes. Service is restored, and queued syncs are processing normally. We’re reviewing what happened and will share a follow-up once we’ve confirmed the fix.

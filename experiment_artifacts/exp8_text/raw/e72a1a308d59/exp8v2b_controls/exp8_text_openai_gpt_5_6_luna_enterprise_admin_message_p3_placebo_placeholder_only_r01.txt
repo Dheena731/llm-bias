@@ -1,0 +1,1 @@
+We’re rolling out an update to the VPN client to improve reliability and security. The update will install automatically, and you may need to restart the client to complete the process. Please contact IT support if you experience any issues.

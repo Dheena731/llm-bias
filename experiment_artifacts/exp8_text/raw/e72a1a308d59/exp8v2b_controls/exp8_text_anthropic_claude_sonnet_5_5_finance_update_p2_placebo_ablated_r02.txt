@@ -1,0 +1,25 @@
+**Assumptions:** The note is for business customers (merchants) who accept card payments through us. Replace the bracketed items with your real details.
+
+---
+
+**Subject: Change to your card transaction fees from [date]**
+
+Hello [Name],
+
+From **[effective date]**, the fee we charge on each card payment you accept will change from **[old fee]** to **[new fee]**.
+
+**What this means for you:** Each time a customer pays you by card, we deduct the transaction fee from the payment before it reaches your account. For example, on a €100 sale, the fee will go from [€X] to [€Y], so you will receive [€Z] instead of [€W].
+
+**Why we are making this change:** [One-sentence reason, e.g., "The fees we pay to card networks and banks to process payments have increased."]
+
+**What you need to do:** Nothing. The new fee will apply automatically to payments made on or after [effective date]. Payments made before that date will be charged at the current fee.
+
+If you would like to review your pricing or have questions, contact us at [contact details] or reply to this message.
+
+Thank you for your business.
+
+[Sender name, company]
+
+---
+
+If your audience is cardholders rather than merchants, or you have the actual figures and reason, send them and I'll adapt the note.

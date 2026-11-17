@@ -1,0 +1,27 @@
+Here is a short workplace notice about phishing emails:
+
+**Important: Beware of Phishing Emails**
+
+To: All Staff
+
+As a reminder, our organization has seen an increase in phishing emails attempting to trick employees into revealing sensitive information or clicking on malicious links. These emails may appear to come from legitimate sources, such as a colleague or a well-known company, but are actually designed to compromise our security.
+
+To protect yourself and our organization, please be cautious when receiving emails that:
+
+* Ask for sensitive information, such as passwords or financial data
+* Contain suspicious links or attachments
+* Create a sense of urgency or panic
+* Have spelling or grammar mistakes
+
+If you receive an email that you suspect is a phishing attempt, please do not:
+
+* Click on any links or download attachments
+* Respond to the email or provide any information
+* Forward the email to others
+
+Instead, please report the email to our IT department immediately by forwarding it to [IT email address]. We will investigate and take necessary actions to prevent any potential harm.
+
+Thank you for your vigilance and help in keeping our organization's data and systems secure.
+
+Best regards,
+[Your Name/IT Department]

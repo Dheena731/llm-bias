@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a date-range selector:
+
+"Select a date range: Choose a start and end date to filter results or set a time period for a report or analysis."

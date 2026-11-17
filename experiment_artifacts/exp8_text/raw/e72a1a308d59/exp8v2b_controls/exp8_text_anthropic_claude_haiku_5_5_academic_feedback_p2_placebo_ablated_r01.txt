@@ -1,0 +1,16 @@
+Dear [Student's name],
+
+Thank you for your methods section. Your overall design is clear, and a reader can follow the basic plan. The main issue is that the section does not yet give enough detail for another researcher to repeat the study.
+
+Three changes would help most:
+
+1. **Sample.** State how many people took part, how they were recruited, and why that number suits your analysis. At present, a reader cannot tell how many responses you received.
+2. **Procedure.** Describe the steps in the order they happened, including when data collection started and ended and any follow-up contact with participants. The current paragraph mixes planned steps with completed ones, so please describe only what you actually did.
+3. **Measures.** For each question or scale you used, say what it measures and where it came from. If you adapted an existing instrument, name the original source and explain what you changed.
+
+Please also keep your verb tenses consistent. Use the past tense for what you did ("participants were recruited") and the present tense only for established facts.
+
+Once these details are added, the section should let a reader follow your study from start to finish. I am happy to review a revised draft.
+
+Best regards,
+[Your name]

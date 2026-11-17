@@ -1,0 +1,5 @@
+**Subject: Email migration: what changes on 14 September**
+
+On Saturday, 14 September, we’ll move company mailboxes from Google Workspace to Microsoft 365. Your email address, folders, contacts, and calendar will remain the same, but Outlook may ask you to sign in again on Monday morning.
+
+Please close Outlook before leaving on Friday. If you use a phone or shared mailbox, you may need to re-add the account; instructions are posted on the IT help desk page. Mail delivery may be delayed briefly while our MX records update, but no messages should be lost.

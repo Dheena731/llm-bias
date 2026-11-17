@@ -1,0 +1,24 @@
+# NOTICE OF ACCEPTABLE USE
+**Foundry Row Shared Network, 14 Alder Street (the "Network")**
+Issued by Foundry Row Management LLC ("Management"). Effective on the date of your first connection.
+
+**1. Who this binds.** This Notice binds each tenant holding a suite lease, and each employee, contractor, or guest who connects through that tenant's credentials or wired jacks (each, a "User"). The tenant answers for the conduct of every User it admits.
+
+**2. Shared capacity.** The Network has one 1 Gbps uplink divided among 22 suites. Sustained use above 300 Mbps for more than 15 consecutive minutes may be shaped without notice. Scheduled bulk transfers, such as offsite backups and large video uploads, should run between 10:00 p.m. and 5:00 a.m.
+
+**3. Prohibited conduct.** A User shall not:
+(a) scan, probe, or attempt to authenticate to any device outside the User's own suite VLAN;
+(b) connect a router, access point, or DHCP server to a wall jack in a manner that bridges the suite VLAN to another network;
+(c) spoof MAC or IP addresses, or interfere with ARP, DNS, or routing on the Network;
+(d) host a publicly reachable service from the Network without written approval from Management;
+(e) use the Network to send unsolicited bulk messages or to distribute material the User has no right to distribute.
+
+**4. Credentials.** Each suite is issued one 802.1X credential set. Credentials are not to be shared outside the tenant's personnel. The guest SSID ("FoundryRow-Guest") is isolated, limited to 25 Mbps, and expires devices after 24 hours.
+
+**5. Records.** Management retains DHCP lease records and NAT session metadata (addresses, ports, timestamps) for 90 days to trace abuse and respond to lawful process. Management does not inspect the content of encrypted traffic and does not record browsing history by design. Records may be disclosed where required by subpoena, court order, or applicable law.
+
+**6. Copyright.** Management will forward infringement notices received under 17 U.S.C. § 512 to the responsible tenant. A tenant that receives three substantiated notices within twelve months may have its service terminated as a repeat infringer.
+
+**7. Suspension.** Management may disconnect a port, credential, or suite without prior notice where a User's activity threatens the security or operation of the Network. In all other cases Management will give 24 hours' written notice and an opportunity to cure. Suspension under this Notice does not suspend rent.
+
+**8. No warranty; limited liability.** The Network is provided without any guarantee of availability or fitness for a particular purpose. Management is not liable for lost revenue, data, or business interruption arising from outages, shaping, or suspension, except

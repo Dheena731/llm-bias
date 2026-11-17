@@ -1,0 +1,9 @@
+We have launched a new monthly spending summary, a short report that arrives at the start of each month and shows how your spending in the previous month was distributed across categories. The goal is to give you a clear picture of where your money went without requiring you to review individual transactions.
+
+Each summary opens with your total spending for the month and how that figure compares with the previous month and with your average over the past three months. Below the total, spending is grouped into broad categories such as housing, groceries, dining, transportation, and subscriptions. For each category, you can see the amount spent and the share of your total it represents. Where a category rose noticeably, the summary notes the change so that you can decide whether it reflects a one-time expense or a pattern worth reviewing.
+
+The summary also highlights recurring charges it has identified, so that forgotten subscriptions or repeated payments are easier to spot. Transactions that could not be categorized automatically are listed separately, and you can assign them to a category to improve future summaries.
+
+You can find the summary in the Reports section of your account, and you can choose to receive a notification by email when it is ready. If you prefer not to receive these reports, you can turn them off in your notification settings at any time.
+
+The summary is designed as a starting point for review rather than a complete financial analysis. Category totals depend on how merchants are classified, so occasional entries may appear in an unexpected group. If you notice a mistake, you can recategorize the transaction, and the change will be reflected in later reports.

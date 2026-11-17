@@ -1,0 +1,1 @@
+"Filter by variable: Select specific data points to include or exclude from your analysis, allowing you to narrow down results and focus on relevant subsets of the dataset."

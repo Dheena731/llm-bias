@@ -1,0 +1,14 @@
+Hi [Student Name],
+
+Overall, this is a very solid draft of your methodology section. The logical flow is clear, and you’ve done a great job outlining the general sequence of your data collection procedures. 
+
+To strengthen it for the final submission, I recommend focusing on a few areas to ensure full replicability:
+
+* **Participant Details:** Add a bit more specificity regarding your sampling method and exclusion/inclusion criteria (e.g., demographics, sample size justification).
+* **Instrumentation:** Briefly mention the validity/reliability of the survey instrument you selected and include a citation if it was adapted from an existing study.
+* **Data Analysis Plan:** Expand slightly on how you will analyze the collected data. Specify the statistical tests or qualitative coding framework you plan to use to address your research questions.
+
+You're in great shape with this draft—feel free to stop by office hours if you’d like to talk through any of these points!
+
+Best,  
+[Instructor Name]

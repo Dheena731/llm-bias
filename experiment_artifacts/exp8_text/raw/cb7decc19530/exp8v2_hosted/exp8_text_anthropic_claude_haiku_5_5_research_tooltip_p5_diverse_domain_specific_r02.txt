@@ -1,0 +1,1 @@
+Export loads the full result set, not just visible rows. Choose CSV or JSON from the download icon above the grid.

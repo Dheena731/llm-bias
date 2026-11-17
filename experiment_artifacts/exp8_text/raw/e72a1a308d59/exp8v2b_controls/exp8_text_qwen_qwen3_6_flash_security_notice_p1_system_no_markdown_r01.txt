@@ -1,0 +1,9 @@
+SECURITY NOTICE
+TO: All Employees
+FROM: Information Security Division
+DATE: November 1, 2024
+SUBJECT: Mandatory Policy on Password Uniqueness
+
+Company policy strictly prohibits password reuse across all work accounts, devices, and applications. Using the same password for multiple systems or for both personal and professional accounts creates a critical vulnerability. If any single account is compromised through phishing, a third party data breach, or malware, attackers can immediately access all other accounts sharing those credentials. This dramatically increases the risk of data loss, financial damage, and operational disruption.
+
+Effective immediately, every employee must maintain a unique and complex password for each authorized system. Do not recycle old passwords. Do not share login information with colleagues. Utilize the approved enterprise password manager accessible via the internal IT portal to

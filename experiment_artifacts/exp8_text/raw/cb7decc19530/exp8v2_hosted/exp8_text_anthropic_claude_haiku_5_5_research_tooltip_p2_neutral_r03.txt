@@ -1,0 +1,3 @@
+Here's a concise tooltip:
+
+**Confidence Interval:** The shaded range where the true value likely falls. A 95% interval means that if the study were repeated many times, about 95% of such intervals would contain the true value.

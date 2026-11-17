@@ -1,0 +1,1 @@
+"To export query results, select the 'Export' option from the toolbar or right-click on the results table and choose 'Export'. Then, choose the desired file format, such as CSV or Excel, and specify the location to save the file. Click 'Export' to complete the process."

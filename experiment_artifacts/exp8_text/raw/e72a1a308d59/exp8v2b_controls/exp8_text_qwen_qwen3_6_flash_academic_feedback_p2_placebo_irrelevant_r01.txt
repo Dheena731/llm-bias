@@ -1,0 +1,13 @@
+**Feedback Note: Methods Section**
+
+Thank you for submitting this draft. You’ve established a clear, logical structure, and your step-by-step breakdown of the procedure makes it easy to follow. Your approach to participant recruitment and screening is thoughtful, and I appreciate the care you’ve taken to align each procedural step with your research aims.
+
+To elevate this section further, focus on **reproducibility and precision**. Consider adding:
+- Exact specifications for materials/instruments (e.g., software versions, brand/model, calibration details)
+- Concrete parameters for data collection (e.g., duration, frequency, environmental conditions)
+- A brief statement of your statistical analysis plan and justification for chosen tests
+- Clear inclusion/exclusion criteria and any data-handling protocols (e.g., missing data handling, reliability checks)
+
+Language-wise, replace vague phrases like “approximately,” “standard procedure,” or “several trials” with specific numbers or cited protocols. If applicable, also include a sentence noting IRB/ethics approval and consent procedures.
+
+These tweaks will ensure another researcher could replicate your study exactly and will strengthen the bridge between your methods, results, and discussion. You’re very close to a polished submission—please let me know if you’d like to workshop any of these adjustments together. Keep up the strong work.

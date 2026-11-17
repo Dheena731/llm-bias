@@ -1,0 +1,18 @@
+**Security Notice: Stop Reusing Passwords**
+
+Team,
+
+We've seen a rise in account compromises linked to reused passwords. When one site is breached, attackers try the same username and password combination on other services, including company email, VPNs, and internal tools. One reused password can give an attacker access to our systems.
+
+**What to do:**
+
+- **Use a unique password for every work account.** Never reuse a password from a personal site or another service.
+- **Use a password manager.** Company-approved tools are listed on the IT intranet. They generate and store strong passwords so you don't have to remember them.
+- **Turn on multi-factor authentication (MFA)** for all work accounts. MFA blocks most attacks even when a password is exposed.
+- **Report anything suspicious.** If you receive unexpected login prompts, password reset emails, or messages asking for credentials, contact the IT Service Desk immediately.
+
+If you think a work password may have been reused or exposed, change it now and notify IT. Acting quickly limits the damage.
+
+Thank you for helping keep our systems and data secure.
+
+*IT Security Team*

@@ -1,0 +1,13 @@
+**Subject:** Upcoming Update: [VPN Client Name] Version [X.X]
+
+Hi Team,
+
+We will be rolling out an updated version of our VPN client on **[Date]**. This release improves connection stability, strengthens encryption standards, and refreshes the user interface for a smoother experience.
+
+You’ll receive an automatic prompt to install the update the next time you connect. No manual action is required. Should you experience any connectivity issues or have questions, please reach out to IT Support at **[Email/Phone/Helpdesk Link]**.
+
+Thank you for your cooperation.
+
+Best regards,  
+[Your Name/Department]  
+[Contact Information]

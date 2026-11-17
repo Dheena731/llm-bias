@@ -1,0 +1,17 @@
+Subject: Upcoming Email Migration Maintenance
+
+Hello everyone,
+
+We will be performing an email migration on [Day, Date] beginning at [Time].
+
+During this window, email services will be unavailable for approximately [Number] hours. Your existing emails and contacts will be transferred safely.
+
+Please save any drafts and log out of your email applications before the start time. After the migration, you may need to re-enter your password in your email client.
+
+If you experience issues after the migration, please contact the IT Help Desk at [Contact Info].
+
+Thank you for your cooperation.
+
+Regards,
+
+IT Department

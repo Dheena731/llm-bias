@@ -1,0 +1,6 @@
+The benefits of enrolling in this domain are
+
+  1. Having 1FA for all your accounts.
+  2. Security: Even if a hacker breaks your password they won't have access to your account.
+
+Even early versions of 2FA (such as RSA tokens) are good enough, and many browsers provide the functionality for free.

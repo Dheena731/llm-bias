@@ -1,0 +1,16 @@
+**Ledger Ledger 2.0: a paycheck-based budget sheet for Google Sheets and Excel**
+
+I've released a new version of the budget template I've been using since 2021. The biggest change is that it now budgets by paycheck instead of by calendar month.
+
+If you're paid biweekly, you know two months a year contain three paychecks. Most templates either ignore this or let it blow up your averages. Here, those extra checks go into a "third paycheck" line that you assign on purpose, usually to the annual bills or the car fund.
+
+**What's in it**
+- **Paste-in Transactions tab.** Drop in a CSV from your bank. The Rules tab matches keywords ("SHELL," "TRADER JOE") to categories, and anything unmatched lands in a yellow Uncategorized list instead of disappearing.
+- **Sinking funds.** Car registration, vet bills, and the annual $139 you forgot about each get a monthly set-aside and a running balance.
+- **Transfers don't count as spending.** Paying the credit card from checking is no longer counted twice.
+- **Purchase date, not posting date.** A Friday dinner that posts Monday stays in the right week.
+
+**What it doesn't do**
+No bank sync. You'll paste a CSV every week or two, which takes about ten minutes. There are no macros or scripts, so every formula is visible and editable.
+
+$18, one time. Includes a sample year of fake data so you can see it working before you enter your own.

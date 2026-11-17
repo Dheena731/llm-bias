@@ -1,0 +1,22 @@
+I don't see the poster draft attached, so here is a sample note addressed to a presenter. Send me the poster text or a description of it and I'll tailor the note.
+
+---
+
+**Subject: Feedback on your poster draft**
+
+Hi [Name],
+
+Thanks for sharing the draft. The main result is clear: the new sensor reduced the false alarm rate (the share of alerts that were not real events) by about 30% in field tests. Keeping that finding at the top is the right choice, since a visitor walking past has only a few seconds to decide whether to stop.
+
+Three suggestions, in priority order:
+
+1. **State the research question near the title.** At present, a reader has to reach the results panel to learn what problem the work addresses. One sentence under the title would fix this.
+2. **Shorten the methods panel.** It runs about 300 words. Keep the three steps a reader needs to judge whether the results are valid, and link to the full protocol with a QR code.
+3. **Enlarge the main figure and label the bars directly.** The axis text is small enough to be hard to read from a meter away. Direct labels will work better than the legend.
+
+A smaller point: check that the color scheme still distinguishes the two groups in grayscale, in case the poster is printed in black and white.
+
+The content is strong. The changes are mainly about helping viewers grasp it at a glance. I'm happy to look at a revised version.
+
+Best,
+[Your name]

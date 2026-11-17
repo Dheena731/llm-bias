@@ -1,0 +1,41 @@
+Reference the software vendor’s website, if possible. If you have a specific question about a particular piece of software, you can try searching online for a solution. Just make sure that you do a quick search, because it can lead you to a lot of incorrect instructions!
+
+Developing a Simple Linux Backup and Restore Script
+
+Because most Linux distributions have a graphical interface that makes it easy to perform backups, you may wonder why you need to use a command-line-based solution. The answer is simple: If you don’t, you’ll be stuck with the option of using the GUI, which often doesn’t work as well as the command-line tool.
+
+Knowing how to use the command-line is especially useful, because it can give you a lot more options to choose from in case something goes wrong, and it can also help you to automate tasks. This section is an introductory tutorial to work with the Linux command-line, but we’ll also give you some pointers to the resources that can help you learn more.
+
+Creating Backups
+
+Before you can start building a backup script, you need to understand how the Linux GUI and command-line tools work.
+
+Most Linux distributions have a graphical backup tool that you can use to create different types of backups. These backups include:
+
+  • Full: Copies all of your files
+  • Incremental: Copies only differences between data sets
+  • Differential: Copies only differences between current backup and previous backup
+
+There are many different types of backups, but most of them operate using a similar procedure. The backup tool will ask you to choose a location for the backup by selecting a folder, and you can then click the “Start/Stop” button to perform the backup. More complex backups may also ask you to select options for encrypting the data.
+
+Although this process is very easy to do from the GUI, it’s not complicated. So if you’re comfortable using the command-line, there’s little reason not to use the GUI. However, if you’re new to Linux, you may want to learn how to use the command-line first.
+
+Many Linux distributions have software that is designed to manage backup operations. In these cases, you may need to use the GUI to create your backup. If you’re unsure whether you need to use the GUI or the command-line, you can usually refer to the help files to find out which is the proper option for your system.
+
+Creating a Simple Backup
+
+To create a backup using the command-line, you need to find where you want to save the backup file. This can be a local directory, or a network drive if you’ve set up the network. When you save the backup, make sure that you name it according to the instructions in the help file for the backup utility you’re using.
+
+If you’ve completed a backup from the GUI, you can copy it to the command line with this command:
+
+cp backup-name.bak backup-name.bak
+
+The backup-name.bak file is the name of a backup file that you previously saved using the GUI. The backup-name.bak file contains the name of the file you’re restoring, and you’ll need this name to start the restoration process.
+
+Note: Although you can use the Linux bash (or “Bash”) shell, you can also use the system-wide Fedora command-line utility if you have the appropriate permissions. If you want to use the Bash shell, you’ll need to install bash from the Software Center.
+
+Starting a Restore Process
+
+Once you’ve created a backup file, you’ll need to start the restore process using the command-line. To do so, you’ll need to determine whether you want to restore a full, incremental, or differential backup. This process is called restoring the backup, and you can find out the details by opening the program for that backup type.
+
+For example, this command will

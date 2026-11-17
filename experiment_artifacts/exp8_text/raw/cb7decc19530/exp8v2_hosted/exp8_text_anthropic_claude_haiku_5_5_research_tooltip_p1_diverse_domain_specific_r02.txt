@@ -1,0 +1,1 @@
+**Complete cases only:** Drops any participant missing a value for a selected variable (listwise deletion). With current selections, N falls from 8,910 to 7,706. If missingness is related to the outcome, estimates may be biased. Compare against "Include all" before reporting.

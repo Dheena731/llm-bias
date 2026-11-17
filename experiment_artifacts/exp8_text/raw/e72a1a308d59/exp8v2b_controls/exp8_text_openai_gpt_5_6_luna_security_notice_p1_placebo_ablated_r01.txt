@@ -1,0 +1,3 @@
+**Security Notice: Do Not Reuse Passwords**
+
+Use a unique password for every work account. Reusing a password—even on personal websites—can put multiple accounts at risk if one service is breached. Use an approved password manager to create and store strong passwords, and enable multifactor authentication when available. Never share your passwords.

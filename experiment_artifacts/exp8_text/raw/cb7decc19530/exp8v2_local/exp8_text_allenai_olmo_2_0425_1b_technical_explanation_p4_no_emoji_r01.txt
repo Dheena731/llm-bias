@@ -1,0 +1,12 @@
+Explain the concept of caching and speed up a website using various tools you may already be using.
+
+
+Firebase Application Hosting
+
+Firebase Application Hosting is a service provided by Google that allows you to deploy your app to the internet using the Firebase platform. Firebase Application Hosting enables you to deploy to both Servlets and Node.js environments. It is built on top of Google's App Engine platform. It is a flexible and scalable solution, allowing you to deploy your app to the internet in a simple and straightforward manner, and is as easy as deploying on a cloud platform.
+
+
+Firebase Application Hosting is a pay-for-per-use product, offering a free tier of 1GB of storage with 10,000 free emails. To get the full experience of Firebase Application Hosting, you will need to upgrade to the 50GB/month data plan. Firebase Application Hosting provides full control over your app, allowing you to bundle your app and store within your Firebase project. Firebase Application Hosting creates a new app directory and upload your app to Firebase's App Engine platform. Cloud Build, the build service provided by Firebase, takes your app and generates the final version for deployment.
+
+
+Firebase Application Hosting is easy to use and free. It allows you to create a new app and deploy it instantly. You can deploy new versions of an existing app and see your app live through a Firebase Tour. You can also use Cloud Build to generate a build for your Firebase application hosting.

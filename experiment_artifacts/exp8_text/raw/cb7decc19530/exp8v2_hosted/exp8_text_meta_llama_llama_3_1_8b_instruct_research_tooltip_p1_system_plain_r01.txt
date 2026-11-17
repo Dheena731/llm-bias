@@ -1,0 +1,1 @@
+The dataset filter is a tool that allows you to narrow down the data being displayed to a specific subset based on certain criteria. It enables you to select which data points to include or exclude from the results, and to adjust the filter as needed to refine your view.

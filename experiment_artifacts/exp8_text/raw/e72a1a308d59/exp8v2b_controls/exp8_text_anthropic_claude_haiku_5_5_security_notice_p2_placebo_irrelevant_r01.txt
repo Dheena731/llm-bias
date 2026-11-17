@@ -1,0 +1,26 @@
+**Notice: Recognizing and Reporting Phishing Emails**
+
+**Date:** [Insert date]
+**From:** IT Security Team
+**To:** All Staff
+
+Phishing emails are fake messages designed to trick you into revealing passwords, financial details, or other sensitive information, or into clicking malicious links or opening infected attachments. They often look like they come from a colleague, a vendor, or a company we trust.
+
+**Watch for these warning signs:**
+- Urgent or threatening language, such as "Your account will be closed today"
+- Requests to log in, verify information, or reset a password through an emailed link
+- Unexpected attachments, especially zip files or documents asking you to "enable content"
+- Sender addresses that look slightly off, such as a misspelled domain
+- Requests for gift cards, wire transfers, or changes to payment details
+
+**What to do:**
+1. Do not click links or open attachments in a suspicious email.
+2. Do not reply or share any information.
+3. Report the email using the "Report Phishing" button in your email client, or forward it to [security email address].
+4. If you have already clicked a link or entered your password, contact the IT Help Desk at [phone/extension] immediately.
+
+When in doubt, verify the request through a separate channel, such as calling the sender at a known phone number. No legitimate request will be harmed by a quick check.
+
+Thank you for helping keep our organization secure.
+
+**Contact:** [IT Security contact information]

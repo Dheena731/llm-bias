@@ -1,0 +1,14 @@
+Most personal finance spreadsheets fail at two points: sinking funds and mid-month reality. 
+
+Either the sheet is too fragile—break one cell reference when adding a row and the entire annual summary throws `#REF!`—or it’s an over-engineered SaaS clone with 30 tabs and brittle Google Apps Scripts you have to re-authorize every month.
+
+**The Cashflow Ledger** is built around actual cash allocation rather than retroactive guilt:
+
+*   **Painless CSV Staging:** Paste your raw bank export into a single staging tab. Categorization maps from a clean lookup table based on your historical vendor names—no third-party aggregators dropping their bank sync every Tuesday.
+*   **True Accrual for Irregular Expenses:** Quarterly taxes, car registration, and annual software renewals are treated as monthly liabilities, so unspent cash doesn't masquerade as disposable income.
+*   **Hard-Coded Balance Checks:** A persistent reconciliation cell flags when your manually recorded cleared balance drifts from your actual account total, catching duplicate entries immediately.
+*   **Zero Scripts:** Every view uses standard array formulas, native data validation, and basic `SUMIFS`. It runs fast on mobile, doesn't ask for access to your Google account, and won't break if Google updates their Workspace security policies.
+
+It’s an opinionated, unflashy file for people who want to allocate their money in ten minutes on Sunday and close the tab. 
+
+Available now for Google Sheets and Excel. Single purchase; no subscription.

@@ -1,0 +1,2 @@
+**Confidence interval**
+The range around an estimate (shown as a band or error bars) that likely contains the true value for the whole group being measured. A wider range means more uncertainty. At a 95% confidence level, about 95 out of 100 intervals built this way from repeated samples would contain the true value.

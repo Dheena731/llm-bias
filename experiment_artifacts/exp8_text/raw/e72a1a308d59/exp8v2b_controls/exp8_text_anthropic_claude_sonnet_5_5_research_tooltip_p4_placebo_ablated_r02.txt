@@ -1,0 +1,9 @@
+**Tooltip:**
+
+> **Missing value:** No data is available for this field. It was not recorded or not provided. This is not the same as zero or "none."
+
+**Shorter option:**
+
+> No value available. This is not the same as zero.
+
+I assumed a general audience viewing a data table or report. If your users are analysts, or the marker has a specific cause in your product (such as "not applicable" vs. "not collected"), tell me and I'll adjust the wording.

@@ -1,0 +1,32 @@
+ACCEPTABLE USE NOTICE FOR SHARED NETWORK
+
+1. PURPOSE
+This notice sets out the rules for using the shared network provided by the organization. All users must comply with these terms as a condition of access.
+
+2. AUTHORIZED USE
+The network is provided for work-related, educational, and other purposes approved by the organization. Limited personal use is permitted provided it does not interfere with job duties, consume excessive resources, or violate any provision of this notice.
+
+3. PROHIBITED ACTIVITIES
+Users must not:
+(a) access, store, or transmit material that is illegal, defamatory, harassing, obscene, or discriminatory;
+(b) attempt to gain unauthorized access to any system, account, or data;
+(c) share login credentials or allow others to use their account;
+(d) install or run unauthorized software, or disable security controls;
+(e) introduce malware, or conduct activities that disrupt or degrade network performance;
+(f) infringe copyright or other intellectual property rights;
+(g) use the network for commercial purposes unrelated to the organization without written approval.
+
+4. SECURITY RESPONSIBILITIES
+Users must protect their credentials, lock unattended devices, and promptly report suspected security incidents, lost devices, or unauthorized access to the IT department.
+
+5. MONITORING
+To the extent permitted by applicable law, the organization may monitor, log, and review network activity to maintain security, enforce this notice, and comply with legal obligations. Users should have no expectation of privacy in communications sent through the shared network.
+
+6. ENFORCEMENT
+Violations of this notice may result in suspension of network access, disciplinary action up to and including termination or expulsion, and referral to law enforcement where appropriate.
+
+7. ACKNOWLEDGMENT
+By using the shared network, you acknowledge that you have read, understood, and agreed to comply with this notice. Questions should be directed to the IT department.
+
+Effective Date: [insert date]
+Last Reviewed: [insert date]

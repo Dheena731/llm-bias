@@ -1,0 +1,11 @@
+**Finance Notice: Routing update for expense sign-offs (Effective Oct 1)**
+
+Starting with next Tuesday’s AP cut-off, expense approval paths will map to cost-center ownership rather than direct reporting lines for non-travel spend over $750.
+
+**What changes:**
+* **Under $750:** Your direct manager remains the sole approver.
+* **$750 and above:** The report will auto-route to the department budget owner assigned to the selected GL code, regardless of who you report to.
+* **Software and recurring SaaS:** An active contract, SOW, or renewal notice is now mandatory for initial intake; invoices submitted without documentation will bounce back to draft status automatically.
+
+**Action required for approvers:** 
+Clear your current queue in Navan by Friday at 5:00 PM EST so we can remap open requests without manual reassignment over the weekend.

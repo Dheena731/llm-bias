@@ -1,0 +1,11 @@
+Subject: Protecting Our Organization from Phishing Emails
+
+Phishing emails are designed to look like legitimate messages from colleagues, vendors, banks, or IT staff, and their purpose is to trick you into revealing passwords, approving payments, or opening malicious attachments. Because these messages can be convincing, every employee should review incoming email with care.
+
+Before you click a link or open an attachment, check the sender's full email address, not just the display name. Be wary of messages that create urgency, ask for login credentials or payment changes, or arrive unexpectedly with a request to act quickly. If a message claims to come from a senior leader and asks for gift cards, wire transfers, or sensitive data, confirm the request through a known phone number or another channel before acting.
+
+Hover over links to see where they lead, and avoid entering credentials on any page reached from an email link. When in doubt, navigate to the website directly or use a bookmarked address. Never share your password with anyone, including IT staff, because legitimate support teams will not ask for it.
+
+If you suspect a phishing attempt, do not reply, click, or forward the message. Report it immediately to the IT Service Desk so the threat can be investigated and other employees warned. If you have already clicked a link or entered information, report it right away, even if you feel embarrassed. Prompt reporting can significantly limit the damage.
+
+Thank you for helping keep our systems and information secure.

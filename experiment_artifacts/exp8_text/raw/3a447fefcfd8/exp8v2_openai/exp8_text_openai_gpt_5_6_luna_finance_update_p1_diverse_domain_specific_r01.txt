@@ -1,0 +1,1 @@
+We added a monthly spending summary to the account dashboard. It groups card and bank transactions by category, highlights recurring charges, and compares each category with the previous month. You can also click into a category to see the merchants and transactions behind the total, making it easier to spot changes such as higher dining spend or duplicate subscriptions.

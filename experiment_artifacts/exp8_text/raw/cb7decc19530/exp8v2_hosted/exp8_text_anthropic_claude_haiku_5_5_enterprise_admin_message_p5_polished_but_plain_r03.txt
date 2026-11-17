@@ -1,0 +1,15 @@
+Subject: Upcoming email migration
+
+Dear colleagues,
+
+Our email system will move to a new platform on Saturday, March 14, starting at 6:00 p.m. and expected to finish by Sunday morning. Email, calendars, and contacts will be unavailable for part of that window, so please plan to finish any urgent messages before the migration begins.
+
+Your existing messages and calendar entries will be transferred automatically, and you do not need to back anything up yourself. When you first sign in to the new system on Monday, you may be asked to set up your password and confirm your account settings. Your email address will not change. If your mobile device or email app stops syncing, remove the old account and add it again using the instructions the IT team will post on the internal help page before the weekend.
+
+If you notice missing messages or cannot sign in by midday Monday, contact the IT help desk at extension 4400 or email helpdesk@example.org. Please do not wait until the end of the day, since the team will be prioritizing urgent access issues first thing Monday.
+
+Thank you for your patience as we complete this upgrade. It will give us faster performance, stronger security, and more reliable access from any device.
+
+Best regards,
+[Your name]
+IT Services

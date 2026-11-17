@@ -1,0 +1,1 @@
+To export query results, select the desired data and click on the "Export" button in the toolbar. A dropdown menu will appear with options for CSV, Excel, and PDF formats. Choose the desired format and select the data range you wish to export. Click "Export" to save the data to your computer.

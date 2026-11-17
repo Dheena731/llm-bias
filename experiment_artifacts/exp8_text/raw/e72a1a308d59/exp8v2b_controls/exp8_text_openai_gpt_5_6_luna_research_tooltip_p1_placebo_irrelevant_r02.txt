@@ -1,0 +1,1 @@
+Filter the dataset by selecting values for one or more fields. Only matching records will be displayed; clear the filters to view all data.

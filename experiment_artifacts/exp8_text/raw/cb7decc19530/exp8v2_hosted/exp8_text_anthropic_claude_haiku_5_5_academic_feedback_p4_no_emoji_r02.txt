@@ -1,0 +1,18 @@
+Here is a sample feedback note. If you share your poster's text or describe its content, I can tailor it to your draft.
+
+**Feedback on Conference Poster Draft**
+
+Thank you for sharing the draft. The layout is clean, and the color scheme makes the section headers easy to find.
+
+**Strengths**
+- The title is concise and states the main finding clearly.
+- The figures are large and legible from a distance, which matters for a busy poster session.
+
+**Suggestions**
+1. **Tighten the introduction.** The background section runs long. Aim for three to four sentences that end with the specific gap your work addresses.
+2. **Lead with the key result.** Viewers often scan for the takeaway. Consider moving your main finding higher or highlighting it in a callout box.
+3. **Simplify the figures.** Figure 2 has more than five data series. Consider splitting it or removing the least important series.
+4. **Make the conclusion actionable.** Replace "further research is needed" with one or two specific next steps.
+5. **Check the references.** Some citations are missing years, and the formatting is inconsistent.
+
+**Overall:** The poster is close to ready. Addressing the introduction length and figure complexity would make the main message much easier to grasp in a quick walkthrough.

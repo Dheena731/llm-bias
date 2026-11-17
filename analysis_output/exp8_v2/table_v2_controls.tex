@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Placebo and placement controls (change in percentage points; Holm-adjusted * as in Table~\ref{tab:v2-routes}). Placebo columns compare with neutral: the original placebo (Orig.), a content-irrelevant instruction (Irr.), the original without its placeholder and invent-facts clauses (Abl.), and the placeholder clause alone (Ph.). Dest.: the prompt names a plain-text destination. Sys: the bare prohibition in the system prompt minus the same prohibition in the user prompt.}
+\label{tab:v2-controls}
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+Model & Orig. & Irr. & Abl. & Ph. & Orig. & Irr. & Abl. & Ph. & Dest. & Sys: emoji & Sys: markup \\
+\midrule
+Claude Sonnet 5.5 & -17.8 & -6.7 & -15.0 & -13.3 & -2.2 & -0.8 & +0.0 & -6.7 & -99.2* & +0.0 & +0.0 \\
+Gemini 3.8 Flash & -31.7 & -11.7 & -25.8 & -25.8 & -62.2 & -6.9 & -39.4 & -49.4 & -97.8* & +0.0 & +0.0 \\
+Qwen 3.6 Flash & -43.9 & -13.6 & -38.6 & -36.9 & -65.0* & -2.2 & -33.1 & -55.6* & -87.2* & +0.0 & +0.0 \\
+Claude Haiku 5.5 & -8.9 & -1.4 & -7.2 & -4.7 & -5.0 & +0.3 & -9.7 & -15.6 & -75.6* & +0.0 & +0.8 \\
+Llama 3.1 8B & +0.0 & +0.0 & +0.0 & +0.0 & +0.0 & +14.2 & -8.3 & -55.0 & -67.5 & +0.0 & +9.4 \\
+GPT-5.6 Luna & -6.1 & +1.4 & -6.9 & -3.6 & -6.1 & +5.8 & +3.3 & -3.3 & -48.3 & +0.0 & +0.0 \\
+Llama 3.3 70B & +0.0 & +0.0 & +0.0 & +0.0 & -32.2 & -3.3 & -21.7 & -38.3 & -38.3 & +0.0 & +0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,10 @@
+Here is a short reviewer comment on an unclear research question:
+
+"Overall, the paper presents a timely topic, but the research question could benefit from further clarification. While the authors aim to investigate the relationship between X and Y, the proposed question remains somewhat ambiguous. It is unclear whether the focus is on the impact of X on Y, or the influence of Y on X. To improve the research's relevance and validity, we suggest revising the question to explicitly specify the direction and scope of the investigation. This would allow for a more focused literature review, clearer hypotheses, and ultimately, a more convincing study design."
+
+This comment:
+
+* Avoids contradicting myself or introducing undefined jargon
+* Does not address the wrong audience (the comment is directed at the authors of the paper)
+* Clearly conveys the main point that the research question is unclear
+* Provides specific suggestions for improvement, rather than simply stating the problem.

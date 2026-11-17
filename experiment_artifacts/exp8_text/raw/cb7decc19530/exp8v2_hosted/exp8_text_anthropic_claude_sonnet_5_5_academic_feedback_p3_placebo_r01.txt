@@ -1,0 +1,16 @@
+**Reviewer comment: Clarity of the research question**
+
+The manuscript does not state a clear research question, and this weakens the rest of the paper. After reading the introduction and the methods, I could not tell precisely what the study sets out to answer. The introduction describes the general topic and some gaps in the literature, but it never converts these into a single, specific question or testable hypothesis. The aims also seem to shift between sections. The stated purpose, the analyses performed, and the conclusions drawn do not clearly address the same question.
+
+This matters for three reasons. First, I cannot judge whether the study design and analyses are appropriate without knowing what they are meant to answer. Second, I cannot tell whether the conclusions are supported by the evidence. Third, readers will struggle to see what the study contributes beyond earlier work.
+
+I ask the authors to:
+
+1. State the research question explicitly, preferably in one or two sentences at the end of the introduction.
+2. Specify what is being examined: the population or material studied, the key variables or concepts, and the relationship or comparison of interest.
+3. Explain how the question follows from the gap identified in the literature.
+4. Make sure the methods, results, and conclusions each refer back to this same question, and remove or clearly label analyses that go beyond it as exploratory.
+
+Until the question is clarified, I cannot fully assess the validity or significance of the findings. The study may still be sound, but the current framing does not allow me to determine this.
+
+*Note: I wrote this comment without access to a specific manuscript, so it addresses the clarity problem in general terms. Specific examples from the paper would strengthen it.*

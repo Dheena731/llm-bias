@@ -1,0 +1,1 @@
+Dataset Filter: Limits the data to be displayed to a specified subset of the original data. This is typically used to focus on a specific aspect of the data or to reduce the size of the data for analysis.

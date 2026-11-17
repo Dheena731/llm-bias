@@ -1,0 +1,55 @@
+# 1. Budgeting Template
+
+**This is an example budget template. **
+
+*Income*: $    1500    *Debt*: $      30    *Monthly Payment*: $150    *Total Payment*: $1500    *Net Income*: $ 1150    *Net Expenses*: $ 930    *Wage*: $ 100    *Tax Deduction*: $   230    *Net Income*: $ 100
+
+**Estimated Net Income**: $ 100
+
+**This is an example hire and expense template**.
+
+Additional Notes:
+
+* **Monthly Payments**: A budget template is used for a monthly budget. The total of the Monthly Payments is the amount the person is willing to pay each month towards their debts.
+* **Basic Expenses**: A budget template is used to track the basic expenses the person needs to pay each month.
+* **Net Income**: A budget template is used to track the monthly income a person needs to pay their bills.
+* **Net Expenses**: A budget template is used to track the monthly expenses a person needs to pay each month.
+* **Wage**: A budget template is used to track the monthly income for a person.
+* **Tax Deduction**: A budget template is used to track the monthly tax deduction a person needs to pay each month.
+* **Net Income**: A budget template is used to track the monthly income a person needs to pay their bills.
+
+## 2. Budget Template for Salary
+
+**This is an example budget template. **
+
+*Monthly Payments*: $       200       *Income*: $ 500    *Debt*: $    200      *Net Income*: $ 300    *Total Payment*: $ 600    *Total Payment*: $ 300
+
+Additional Notes:
+
+* **Monthly Payments**: A budget template is used to track the monthly payments a person is willing to make towards their debts.
+* **Net Income**: A budget template is used to track the monthly income a person needs to pay their bills.
+* **Total Payment**: A budget template is used to track the total amount a person is willing to pay each month for their debts.
+* **Net Income**: A budget template is used to track the monthly income the person needs to pay their bills.
+* **Total Payment**: A budget template is used to track the total amount a person is willing to pay each month for their debts.
+* **Net Income**: A budget template is used to track the monthly income the person needs to pay their bills.
+
+## 3. Budget Template for Student Loan
+
+**This is an example budget template. **
+
+*Monthly Payment*: $        30       *Debt*: $  500      *Net Income*: $  200    *Total Payment*: $   600    *Total Payment*: $  200
+
+Additional Notes:
+
+* **Monthly Payments**: A budget template is used to track the monthly payments a person is willing to make towards their debts.
+* **Net Income**: A budget template is used to track the monthly income a person needs to pay their bills.
+* **Total Payment**: A budget template is used to track the total amount a person is willing to pay each month for their debts.
+* **Net Income**: A budget template is used to track the monthly income the person needs to pay their bills.
+* **Total Payment**: A budget template is used to track the total amount a person is willing to pay each month for their debts.
+* **Net Income**: A budget template is used to track the monthly income the person needs to pay their bills.
+
+## 4. Budget Template for Expense
+
+**This is an example budget template. **
+
+*Monthly Payment*: $      30       *Debt*: $       50    *Net Income*: $      

@@ -1,0 +1,16 @@
+Dear [Student],
+
+Thank you for submitting your methods section. I'm writing without your actual text in front of me, so this is a model note built around the issues that most often come up in methods sections. Please adapt it to your draft and replace the general comments with specifics from your own work.
+
+The strongest quality a methods section can have is replicability: another researcher should be able to repeat your study from your description alone. Your draft gets partway there. The overall design is clear, and the order of steps follows the logic of the study. The next step is to add detail where a reader would otherwise have to guess. State how many participants or samples you used and how you chose them, give the exact instruments, software versions, or materials, and specify the conditions under which data were collected. If you adapted an existing protocol, cite it and say precisely what you changed.
+
+I would also like to see more justification for your key choices. At the moment you describe what you did, but not always why. A sentence explaining why you chose this sampling approach, this measure, or this statistical test will show that your decisions were deliberate and will preempt questions from a reader. Where there were limitations built into those choices, acknowledge them briefly here, and save the fuller discussion for later in the paper.
+
+On style, keep the tense and voice consistent. Past tense is standard for describing what you did. Watch for places where results or interpretation have crept in, such as comments on how well something worked. Those belong in the results or discussion. Some paragraphs would also read more easily with subheadings, such as participants, materials, procedure, and analysis, if your discipline's conventions allow them.
+
+Finally, check that your analysis plan matches your research questions. Each question should map clearly onto a method of analysis, and any ethical approval or consent procedures should be stated explicitly.
+
+This is a solid foundation, and the revisions are mostly about adding precision and reasoning. I would be glad to look at a second draft or to meet to talk through any of these points.
+
+Best regards,
+[Instructor]

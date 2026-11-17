@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a date-range selector in a domain-specific context:
+
+"Select a date range to analyze historical stock prices over a specific period. Click and drag on the calendar to select a date range, or use the keyboard shortcuts to quickly navigate between dates."

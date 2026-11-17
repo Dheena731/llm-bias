@@ -1,0 +1,26 @@
+**🔒 SECURITY NOTICE: STOP REUSING PASSWORDS**
+
+**Date:** [Insert Date]  
+**To:** All Staff  
+**From:** IT Security Team  
+
+**⚠️ Risk Alert:**  
+Password reuse is one of the leading causes of data breaches. Using the same password for personal accounts, social media, and work systems creates a critical vulnerability. If a hacker compromises your password via a personal site, they can easily access sensitive company data through your work credentials.
+
+**✅ Action Required:**  
+Please follow these guidelines immediately:
+
+1.  **Unique Credentials:** Every work account must have a distinct, strong password. No exceptions.
+2.  **Zero Cross-Use:** Never use work passwords on personal websites, and never use personal passwords for work systems.
+3.  **Use Approved Tools:** Utilize the company-endorsed password manager to generate and store complex passwords securely.
+4.  **Enable MFA:** Ensure Multi-Factor Authentication is active on all supported accounts.
+
+**🛑 Next Steps:**  
+Audit your accounts today. If you are currently reusing any passwords, change them immediately.
+
+**Need Assistance?**  
+Contact the IT Helpdesk at **[Insert Phone/Email]** or visit **[Insert Internal Wiki/Support Link]** for guidance on secure password practices.
+
+Thank you for helping us keep our data and customers safe.
+
+**[Company Name] IT Security**

@@ -1,0 +1,3 @@
+Latency is the delay between a user's action and the web application's response. It is critical because even minor delays directly degrade the user experience, making an application feel sluggish and unresponsive. 
+
+When latency increases, users are more likely to abandon a site, which directly harms business metrics such as conversion rates, sales, and user retention. Furthermore, major search engines use page speed and responsiveness as ranking factors, meaning high latency can reduce a site's visibility in search results. For modern interactive applications—such as collaborative tools, online gaming, and financial platforms—low latency is essential to ensure that data remains synchronized and interactions happen in real time.

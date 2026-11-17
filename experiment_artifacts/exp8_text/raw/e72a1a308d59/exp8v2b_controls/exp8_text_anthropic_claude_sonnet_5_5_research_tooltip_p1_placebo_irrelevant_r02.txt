@@ -1,0 +1,14 @@
+**Filter by dataset**
+Show only results drawn from the selected datasets. Choose multiple to combine them, or clear the filter to search all available data.
+
+---
+
+**Alternate versions**
+
+*Shorter (for tight spaces):*
+Limit results to specific datasets. Select more than one to combine them.
+
+*With a note on behavior:*
+**Dataset filter:** Narrows results to records from the datasets you select. Counts and charts update to reflect only those sources.
+
+If you tell me the tool's specifics (such as the filter's name, whether it's single- or multi-select, or what happens to saved queries), I can tailor the wording.

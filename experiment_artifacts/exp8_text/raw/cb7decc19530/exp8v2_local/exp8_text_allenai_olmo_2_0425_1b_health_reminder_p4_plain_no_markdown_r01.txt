@@ -1,0 +1,30 @@
+Write a simple policy. Only allow your users to have a single account. Do not allow anonymous accounts. If you do allow anonymous accounts, require them to be registered users on your site.
+
+Do not require registration for user profiles. You may require registration to comment for posts or to edit posts.
+
+Do not require registration to use existing email addresses. You may require registration for additional functions such as viewing your profile, or for new posts.
+
+Most users will be less than 1 year in age. Some users will be older than that. You should be prepared for it. Don't be afraid to turn away users who are clearly underage. It's acceptable to post a warning message on your site or other similar measures.
+
+Are you doing what you can to prevent unauthorized users from accessing your site? Are you setting up a way for users to alert you if someone tries to access their account? Are you storing personal information securely?
+
+Keep the user experience high for everyone. Don't assume that all of your users will be young and tech savvy. Many will use your site for the first time in their 50's or 60's. Many will be new to the Internet in general. Don't assume that they are familiar with the same conventions you are using.
+
+Read through this list, and then do your best to implement at least the top 2 items. Apply your own judgement when the item is not applicable to you.
+
+  1. Never allow an email address to be used for registration. Hide the address so that it cannot be guessed or otherwise used for illegal purposes, such as to send spam or phishing attacks.
+  2. Do not allow an email address to be used for your site's user accounts.
+  3. Do not allow a user to register with a username that is not a valid email address.
+
+If you have any concerns about implementer #1, consider using a service that will mask your email address for you. It's a hassle, but it prevents people from guessing your email address or using it for illegal purposes. A few well-known and free services are Mailinator, Mailinator (with 24-hour access), and Mailinator (with unlimited access).
+
+Many sites have a sign-up form that asks for a name and a for a username. Don't do it. Instead, allow users to use their email address as their username.
+
+Remember that people will be using your site for years to come. If you use an email address as a username, they will still be using your site years from now and may still be thinking of it as your site. Consider the impact if your email address is misspelled, or worse, if it's not even your email address.
+
+Do not use a username that requires registration. Instead, allow users to use the email address they have just registered, or use their username if they already have one.
+
+
+Be sure that your site is GDPR compliant. This should be a no-brainer, but it's still worth mentioning. Most of the sites we look at are not GDPR compliant. If your site does not comply with the GDPR, you are breaking the law and your users may be able to file a complaint with the European Commission. GDPR regulations require that websites that handle data on their users' behalf must allow users to submit requests to get their data back and concerns about their rights. Your site needs to be able to help users understand what they can do if something goes wrong, and find a way to contact you to get their data back. If you are not compliant, you may be violating the principles of the GDPR.
+
+It's best to use a fully compliant service. There are a few that are free to use and may be preferable to using a site that requires registration. If you use one of the free fully compliant services, read the privacy policy carefully to

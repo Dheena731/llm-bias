@@ -1,0 +1,21 @@
+Subject: Security Notice: Stop Reusing Passwords
+
+Team,
+
+We have recently seen an increase in account compromise attempts, and many of them succeed because the same password is used across multiple accounts. When a password is leaked from a personal shopping site, a social media platform, or another third-party service, attackers try it against our systems. Reusing passwords puts the entire company at risk.
+
+Effective immediately, please follow these requirements:
+
+Use a unique password for every work account. Do not reuse any password you have used on a personal or other work-related account.
+
+Create strong passphrases of at least 14 characters that combine unrelated words, numbers, and symbols. Avoid names, birthdays, company names, and common phrases.
+
+Store your passwords in the company-approved password manager. Do not save them in browsers, spreadsheets, notes apps, or sticky notes.
+
+Turn on multi-factor authentication for all accounts that support it. Never share MFA codes with anyone, including IT staff.
+
+Change any password you suspect may have been exposed, and report it to the Security team immediately at security@company.com or extension 4357.
+
+Thank you for helping keep our systems and data secure. If you have questions about the password manager or account setup, contact the IT Help Desk.
+
+Information Security Team

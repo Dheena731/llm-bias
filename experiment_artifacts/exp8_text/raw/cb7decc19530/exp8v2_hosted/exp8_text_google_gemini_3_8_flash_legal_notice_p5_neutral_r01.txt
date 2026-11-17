@@ -1,0 +1,21 @@
+**ACCEPTABLE USE NOTICE: SHARED NETWORK ACCESS**
+
+**1. BINDING AGREEMENT**
+By connecting to, accessing, or utilizing this network (the "Network"), you ("User") acknowledge and agree to comply with this Acceptable Use Notice. If you do not agree to these terms, you must immediately disconnect all devices from the Network.
+
+**2. PERMITTED AND PROHIBITED USE**
+Access is granted solely for lawful, authorized purposes. Users shall not, directly or indirectly:
+*   Transmit, store, or distribute any material that violates applicable local, state, federal, or international laws or regulations;
+*   Infringe upon the intellectual property, privacy, or proprietary rights of any third party;
+*   Engage in unauthorized access ("hacking"), vulnerability scanning, penetration testing, or disruption of the Network or any connected system;
+*   Distribute malware, viruses, worms, or other malicious code;
+*   Consume excessive bandwidth or engage in activities that degrade Network performance for other users (including, but not limited to, unapproved peer-to-peer file sharing or automated data scraping).
+
+**3. NO EXPECTATION OF PRIVACY & MONITORING**
+Users acknowledge that there is no expectation of privacy on this Network. The Network Operator reserves the right to monitor, log, intercept, inspect, and analyze all traffic and data traversing the Network to ensure system integrity, security, and compliance with this Notice and applicable law.
+
+**4. REMEDIES AND ENFORCEMENT**
+Any violation of this Notice constitutes grounds for immediate, unilateral termination or suspension of Network access without prior notice. The Network Operator reserves the right to cooperate fully with law enforcement authorities and to pursue any available civil or criminal remedies for violations.
+
+**5. DISCLAIMER OF LIABILITY**
+This Network is provided strictly on an **"AS IS"** and **"AS AVAILABLE"** basis, without warranties of any kind, whether express or implied. The Network Operator shall not be liable for any direct, indirect, incidental, or consequential damages, including loss of data, resulting from the use of, or inability to use, the Network.

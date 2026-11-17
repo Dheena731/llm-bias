@@ -1,0 +1,1 @@
+Marks a field skipped during data capture. Excluded from calculations, it flags a true recording gap—never a zero or “N/A.”

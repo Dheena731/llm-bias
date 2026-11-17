@@ -1,0 +1,31 @@
+**SECURITY NOTICE: Stop Reusing Passwords**
+
+**To:** All Staff
+**From:** Information Security Team
+**Subject:** Password reuse puts company and personal data at risk
+
+**Why this matters**
+
+When one website or service is breached, attackers take the leaked usernames and passwords and try them on other systems, including email, VPNs, and cloud applications. This is called credential stuffing. If you reuse a password, a breach at an unrelated site can give an attacker access to our network.
+
+**What we ask of you**
+
+- **Use a unique password for every account.** This applies to work and personal accounts, and you should never use your work password anywhere else.
+- **Make passwords long.** Aim for at least 14 characters. A passphrase of several unrelated words is easier to remember and harder to crack.
+- **Use the company-approved password manager.** It generates and stores strong, unique passwords so you don't have to memorize them.
+- **Turn on multi-factor authentication** wherever it is available.
+- **Change a password immediately** if you suspect it has been exposed, and report it to us.
+
+**What to avoid**
+
+- Adding a number or symbol to an old password, such as "Summer2024!" becoming "Summer2025!"
+- Saving passwords in spreadsheets, sticky notes, or unencrypted files
+- Sharing passwords with colleagues, even those you trust
+
+**Need help?**
+
+Contact the IT Help Desk at helpdesk@company.example or ext. 4357 for assistance setting up the password manager or multi-factor authentication. To report a suspected compromise, email security@company.example right away.
+
+Thank you for helping keep our systems and data secure.
+
+*Information Security Team*

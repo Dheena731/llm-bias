@@ -1,0 +1,24 @@
+Here's a short feedback note you could adapt. I've written it for a hypothetical methods section on a survey study, so swap in the specifics from the student's work.
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for a clear and well-organised methods section. Your participant recruitment and sampling strategy are described in enough detail for someone to replicate the study, and the subsection structure helps the reader follow the design.
+
+**Strengths**
+- The rationale for choosing a cross-sectional survey is explicit and linked to your research question.
+- The inclusion and exclusion criteria are stated precisely.
+- The instrument is described with its source and reliability coefficient.
+
+**Areas to develop**
+1. **Justify your sample size.** Explain how you arrived at 120 participants, for example through a power analysis or a practical constraint you can name.
+2. **Clarify the procedure order.** Consent, the survey, and the debrief are currently described in one paragraph. Separate them, or use a numbered list, so the sequence is easy to follow.
+3. **Address limitations in the methods.** Mention how you handled missing responses and whether any data were excluded, and say why.
+4. **Tighten the language.** Phrases like "we kind of looked at" should become precise verbs such as "we compared" or "we coded."
+
+**Priority for revision:** Item 1. A reader will look for this justification first, and it's the easiest to add.
+
+---
+
+If you paste the student's actual methods section, I can tailor the note to its strengths and weaknesses.

@@ -1,0 +1,7 @@
+Here are a few options:
+
+1. **Filter by date range:** Shows only records collected between the selected start and end dates. Records without a date are excluded.
+
+2. **Exclude incomplete responses:** Hides entries with missing values in required fields. Turn off to include all records.
+
+3. **Minimum sample size:** Displays only groups with at least this many observations. Smaller groups are hidden to reduce unreliable results.

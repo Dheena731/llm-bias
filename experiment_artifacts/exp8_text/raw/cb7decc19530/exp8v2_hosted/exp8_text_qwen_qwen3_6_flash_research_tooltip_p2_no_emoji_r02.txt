@@ -1,0 +1,1 @@
+A range likely containing the true value, based on a 95% confidence level.

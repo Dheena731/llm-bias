@@ -1,0 +1,9 @@
+Attention All Employees
+
+As part of our ongoing efforts to maintain the security of our organization's systems and data, we are reminding everyone of the importance of using unique passwords for all of their online accounts.
+
+Reusing the same password across multiple accounts is a significant security risk. If one of your accounts is compromised by a hacker, they will have access to all of your other accounts that use the same password. This can lead to unauthorized access to sensitive information, identity theft, and other serious consequences.
+
+We recommend that you use a password manager to generate and store unique, complex passwords for each of your online accounts. Many of these managers also offer features such as password generation, storage, and auto-fill, making it easier to maintain secure passwords.
+
+If you have any questions or concerns about password security, please speak with the IT department. We are available to provide guidance and assistance with maintaining secure passwords.

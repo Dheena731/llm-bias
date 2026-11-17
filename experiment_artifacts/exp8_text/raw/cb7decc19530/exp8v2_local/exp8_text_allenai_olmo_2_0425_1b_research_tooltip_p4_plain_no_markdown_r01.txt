@@ -1,0 +1,68 @@
+Avoid generic and obscure terms or technical jargon.
+
+If the marker you’re trying to represent is visual, include a photograph in the documentation that shows how the marker is meant to appear; for example, if an image is used to indicate a warning marker, be sure to include the image in your documentation.
+
+If you’re including an actual physical product with the specification, be sure to also include images of those physical products in your documentation.
+
+Be sure to include a description of the data being expressed in the representation. For example:
+
+This chart illustrates the difference between the actual value of a variable and the nominal value, as well as its derivative. A plot showing the same information is shown below.
+
+Note that ellipses (...) can also be used instead of “…” (they abbreviate the same thing). This means that a tooltip might look like this in some instances:
+
+
+Use the description for the purpose of providing context for the data.
+
+This is the ideal form for tooltips.
+
+If you’re not able to provide a proper description, then a short phrase or sentence that is self-explanatory is acceptable.
+
+This is not an ideal form for tooltips.
+
+Do not use the regular (non-elliptical) form of the tooltip, as you’re not providing any context. For example:
+
+This is a tooltip.
+
+This is not an ideal form for tooltips.
+
+Use different cases for the tooltip based on the data being marked up.
+
+Be sure to use different cases for tooltip text as follows:
+
+If the data is numeric, use words like “value” or “amount.” If the data is ordinal, use words like “rank” or “position.” If the data is scalar, use words like “size.” If the data is vector, you can use the words “value” or “size.”
+
+
+If the markup is a date, use words like “date time.” If the markup is a time, use words like “date.” If the markup is a range (e.g., 1-2, 22-23), use words like “start” or “end.”
+
+If the markup is a set of values, use words like “list of” or “collection of” followed by the properties of the values.
+
+If the markup is a synonym for a numerical value, use words like “mean” or “average.” If the markup is a synonym for a geographical term, use words like “location” or “place.”
+
+Suppose that a task is being used in setting up a pizza delivery business, and that one of those tasks is to deliver a pizza. A tooltip might be something like this:
+
+
+Note that the tooltips can be used for any type of task that is being performed.
+
+While it might seem strange to use a “tooltip” to describe a task, it is perfectly acceptable in this example.
+
+The purpose of the task itself is to illustrate the use of the icons.
+
+Note that the tooltips describe the meaning of the icons.
+
+If the markup is a list, use both words and words.
+
+Use a mixture of words that describe the markup as well as the icons if the markup is a list.
+
+This is a good example of a tooltip for an image.
+
+When marking up an image, be sure to also include any relevant metadata, such as the name of the artist and the year of release.
+
+This might not be possible in all cases.
+
+If you’re marking up a single image, then the corresponding tooltip should also properly mark up the relevant metadata for that image.
+
+If you’re marking up an image as part of a larger set of images, then the corresponding tooltip should properly mark up those additional images as well.
+
+This is not a good form for tooltips.
+
+For example, suppose that you’re marking up a photo of a house and the user is trying to find out what the house says about the quality of

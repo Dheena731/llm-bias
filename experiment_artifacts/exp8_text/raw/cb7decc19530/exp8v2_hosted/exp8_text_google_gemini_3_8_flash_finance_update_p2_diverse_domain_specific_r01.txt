@@ -1,0 +1,20 @@
+**Subject: Update to card processing schedule effective November 1, 2024**
+
+Hi [Merchant Name],
+
+Starting November 1, 2024, we are adjusting the pass-through interchange and scheme fees applied to your card-not-present (CNP) transactions. 
+
+This update reflects the semi-annual interchange revisions from Visa and Mastercard, alongside increased scheme assessment costs for non-tokenized transactions. 
+
+**Summary of adjustments:**
+
+* **Consumer Credit (Domestic):** Variable rate shifts from 2.15% + $0.20 to **2.25% + $0.20** per settled transaction.
+* **Network Tokenization Discount:** Transactions routed via network tokens (VTS/MDES) will receive an automatic **$0.03 rebate per authorization**, offsetting the variable adjustment for authenticated traffic.
+* **International Card Processing:** The cross-border assessment fee increases by **15 bps** (from 1.10% to 1.25%) on all transactions issued outside the domestic clearing region, independent of currency conversion.
+* **Authorization Retries:** In line with updated card brand integrity fees, authorizations exceeding three retries within a 24-hour window will incur an additional **$0.12 network compliance surcharge**.
+
+These adjustments will automatically reflect on your November billing statement (generated December 1). If you are on an Interchange Plus Plus (IC++) pricing schedule, these network fee changes will pass through directly without alterations to your contracted acquirer margin. 
+
+Your full, updated fee schedule and historical BIN-level reporting can be exported directly from the **Billing & Settlements** tab in your dashboard.
+
+Please direct any questions regarding specific settlement impacts or tokenization implementation to your account manager or merchantbilling@[provider].com.

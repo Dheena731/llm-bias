@@ -1,0 +1,2 @@
+**95% confidence interval**
+The shaded band shows the range of values that plausibly includes the true value, given the uncertainty in our data. A wider band means a less precise estimate. If we repeated the study many times, about 95% of intervals built this way would contain the true value.

@@ -1,0 +1,20 @@
+**Subject: Security Notice: Stop Reusing Passwords**
+
+Team,
+
+We have seen an increase in login attempts that appear to use passwords leaked from other websites. When one service is breached, attackers try those same credentials on work accounts. Reusing a password, even one that is only slightly changed, puts company data at risk.
+
+**What you should do:**
+
+- **Use a unique password for every work account.** Never reuse a work password on personal sites or other services.
+- **Use a password manager.** The company-approved manager can generate and store strong passwords so you do not have to remember them.
+- **Enable multi-factor authentication (MFA)** on all work accounts wherever it is available.
+- **Change any password you have reused** today, starting with your work email and VPN accounts.
+- **Report suspicious activity immediately.** If you receive unexpected MFA prompts, password reset emails, or login alerts, contact the IT Service Desk right away.
+
+Passwords should be at least 14 characters long and should not contain your name, username, or company name.
+
+Thank you for helping keep our systems and data secure.
+
+IT Security Team
+[Contact information]

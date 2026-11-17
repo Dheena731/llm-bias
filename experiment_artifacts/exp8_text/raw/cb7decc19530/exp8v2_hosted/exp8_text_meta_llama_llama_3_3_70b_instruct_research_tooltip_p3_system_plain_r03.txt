@@ -1,0 +1,1 @@
+Select a range of dates by choosing a start and end date from the calendar. The start date is inclusive, and the end date is also inclusive, meaning that data from both the start and end dates will be included in the selection.

@@ -1,0 +1,9 @@
+### Section 8.4: Remittance, Idle-Capacity Adjustments, and Cancellation Thresholds (Dedicated Compute Allocations)
+
+**1. Irrevocable Resource Commitment**  
+Due to the reserved physical reservation of bare-metal nodes, cooling infrastructure, and power distribution units, all scheduled compute partitions are deemed fully committed at the moment of reservation confirmation. Fees paid for provisioned cycles are non-refundable except under the strict conditions set forth below.
+
+**2. Eligibility Thresholds**
+* **Pre-Partition Invalidation (T-Minus 72 Hours):** Cancellation requests submitted via the Administrative API prior to seventy-two (72) hours before the scheduled Partition Epoch ($T_{-72}$) are eligible for an adjustment equal to eighty-five percent (85%) of unconsumed contract value, less an administrative reconfiguration fee.
+* **Orchestration Lock ($T_{-12}$ to Runtime):** Once a cluster enters the `PROVISIONING_WARM` state (occurring precisely twelve (12) hours prior to the Partition Epoch) or upon ingestion of the initial workload payload—whichever occurs first—the allocation is irrevocable. Unused runtime, early job termination, algorithm stalls, or local container-level misconfigurations do not qualify for cash remittance or pro-rata credit.
+* **Attributed Hardware Non-Conformity:** If unconsumed capacity results directly from physical hardware failure (PDU, Infiniband fabric degradation, or host hypervisor crash) exceeding the permissible Error Budget defined in Exhibit B (Service Level Agreement), the Customer shall be eligible for compensatory adjustment. Claims must be accompanied by raw kernel syslogs (`d

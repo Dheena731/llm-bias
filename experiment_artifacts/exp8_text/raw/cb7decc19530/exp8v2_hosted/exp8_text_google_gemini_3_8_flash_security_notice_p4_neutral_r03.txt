@@ -1,0 +1,32 @@
+Here are a few options, depending on your audience and platform:
+
+### Option 1: Professional & Mandatory (Best for workplaces/companies)
+**Subject: Action Required: Enable Two-Factor Authentication (2FA)**
+
+To enhance the security of your account and protect our network, all users are required to enable Two-Factor Authentication (2FA) by **[Date]**. 
+
+2FA adds an extra layer of protection by requiring a verification code in addition to your password when logging in. 
+
+**How to set it up:**
+1. Log in to your account and go to **Settings > Security**.
+2. Select **Two-Factor Authentication** and follow the on-screen instructions.
+
+Accounts without 2FA enabled by the deadline will be temporarily locked. If you need assistance, please contact IT Support at **[Email/Phone]**.
+
+***
+
+### Option 2: Friendly & Recommended (Best for apps/customers)
+**Headline: Add an Extra Layer of Security to Your Account**
+
+Your security is our priority. You can now enable **Two-Factor Authentication (2FA)** on your account. 
+
+With 2FA, you’ll protect your personal information even if your password is ever compromised. It only takes two minutes to set up:
+
+👉 Go to **Account Settings > Security > Enable 2FA** to get started.
+
+Have questions? Visit our Help Center at **[Link]**.
+
+***
+
+### Option 3: Ultra-Short (Best for pop-up alerts, SMS, or banners)
+**Security Update:** Two-Factor Authentication (2FA) is now available! Protect your account with an extra layer of security. **[Enable 2FA Now]**

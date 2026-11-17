@@ -1,0 +1,9 @@
+Subject: Upcoming Change to the VPN Client
+
+Hello everyone,
+
+We are updating our Virtual Private Network (VPN) software, which allows you to securely connect to internal work systems from remote locations. 
+
+This change is being made to improve the security and reliability of our remote connections. Detailed instructions on how to install and log in to the new client will be provided shortly. You will need to complete this transition to maintain remote access to company resources.
+
+If you have any questions, please contact the IT support desk for assistance.

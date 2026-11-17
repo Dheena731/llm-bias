@@ -1,0 +1,9 @@
+**Comment on the research question**
+
+The manuscript does not clearly state the question it is trying to answer. The introduction gives background on the general topic, but I could not find a sentence saying what the study sets out to determine. Without this, I could not judge whether the design and analyses are appropriate, or whether the conclusions follow from the results.
+
+Please state the research question explicitly at the end of the introduction. It should specify what is being examined, in whom or in what context, and what relationship or comparison is of interest (for example, whether A affects B, or how A differs between two groups). If the study is exploratory rather than testing a specific hypothesis, please say so. Then make sure the methods, analyses, and conclusions each correspond directly to that question, and remove or clearly label any analyses that do not.
+
+Until the question is clear, the contribution of the work is difficult to assess.
+
+*Note: I wrote this without access to your manuscript, so it refers to the paper only in general terms. If you share the paper or its abstract, I can make the comment more specific.*

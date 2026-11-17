@@ -1,0 +1,5 @@
+A new expense approval workflow has been implemented to enhance the efficiency and transparency of our expense reporting process.
+
+The new workflow requires all expense claims to be submitted through the designated online portal, which will automatically route the claims to the relevant approvers. Managers and department heads will receive notifications to review and approve or reject claims, with the option to add comments or request additional information if needed.
+
+This change aims to reduce the processing time for expense claims and ensure that all claims are properly vetted and approved in a timely manner. If you have any questions or concerns about the new workflow, please do not hesitate to reach out to the finance team for assistance.

@@ -1,0 +1,11 @@
+Tooltip
+
+The tooltip on the date-range selector should explain what the date range selector is about.
+
+Tooltip
+
+The tooltip on the time selector  should explain what the time selector is about.
+
+Tooltip
+
+The tooltip on the filter selector should explain what the filter selector is about.

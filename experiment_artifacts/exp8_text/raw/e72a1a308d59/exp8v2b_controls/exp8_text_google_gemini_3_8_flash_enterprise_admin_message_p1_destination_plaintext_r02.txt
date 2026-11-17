@@ -1,0 +1,7 @@
+Scheduled Maintenance Notice:
+
+The dashboard will be temporarily unavailable on [Date] from [Start Time] to [End Time] [Timezone] for routine system updates. 
+
+During this window, you will not be able to access your account or view reports. Please ensure you save any ongoing work before the downtime begins. 
+
+We apologize for any inconvenience and appreciate your patience as we work to improve our system.

@@ -1,0 +1,17 @@
+**Notice: Quarterly User Access Reviews**
+
+**To:** All Department Managers and System Owners  
+**From:** IT Administration  
+
+The quarterly user access review is now underway. 
+
+To maintain organizational security and ensure appropriate data protection, all managers and system owners must review the system permissions currently granted to their team members. 
+
+**Required Actions:**
+1. Review the access lists provided for your team and managed systems.
+2. Verify that each user’s permissions align with their current role and job responsibilities.
+3. Confirm and approve valid access, or mark permissions for removal if they are no longer needed.
+
+Please complete your review within two weeks of receiving this notice. Prompt completion ensures that our systems remain secure and that access is restricted strictly to authorized personnel. 
+
+For questions or assistance with the review process, please contact the IT administration team.

@@ -1,0 +1,7 @@
+Every page load makes the server do work: fetch the article from the database, fill in the template, maybe call an API for the sidebar. Caching skips that work when the answer hasn't changed. It happens at several layers, and each one cuts out a different trip.
+
+- **Browser cache.** The server sends headers like `Cache-Control: max-age=86400` on the logo, stylesheet, and fonts. On the next visit, the browser loads them from disk and never touches the network.
+- **CDN edge.** A CDN keeps copies of pages on servers near readers. A visitor in Lisbon gets the HTML from a node in Lisbon instead of waiting on the origin in Virginia, which can save a few hundred milliseconds before the first byte arrives.
+- **Server-side page cache.** A recipe that gets 2,000 hits an hour but changes once a week can be rendered once and stored. Every other request gets the stored HTML, and the database sees one query instead of 2,000.
+
+The cost is staleness. If an editor fixes a typo and the cache holds the old version for ten minutes, readers see the typo for ten minutes. Good setups purge cached pages when content is published rather than waiting for them to expire, and keep per-user parts like the cart out of the shared copy.

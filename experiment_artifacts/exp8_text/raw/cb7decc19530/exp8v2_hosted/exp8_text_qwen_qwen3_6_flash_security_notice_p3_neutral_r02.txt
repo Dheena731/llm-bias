@@ -1,0 +1,45 @@
+Here are a few options depending on how you plan to send the notice.
+
+### Option 1: Email / Memo (Professional & Clear)
+**Subject:** 🔒 Quick Reminder: Lock Your Screen When Away
+
+Hi Team,
+
+Just a friendly reminder to **lock your computer screen** whenever you step away from your desk, even for a moment.
+
+Locking your screen prevents unauthorized access to sensitive information and helps maintain our security standards.
+
+**💡 Helpful Tips:**
+*   **Windows:** Press `Win` + `L`
+*   **Mac:** Press `Control` + `Command` + `Q`
+*   You can also set your computer to auto-lock after a short period of inactivity via your system settings.
+
+Thanks for helping keep our data and workplace secure!
+
+Best regards,  
+[Your Name/Department]
+
+***
+
+### Option 2: Slack / Teams Message (Short & Casual)
+👋 **Quick Security Reminder!**
+
+Please remember to **lock your screen** (`Win + L` or `Cmd + Ctrl + Q`) whenever you walk away from your desk. It only takes a second and keeps our data safe! 🔒💻
+
+Thanks, team!
+
+***
+
+### Option 3: Physical Sign / Desk Sticker
+**🔒 LOCK YOUR SCREEN!**
+
+When walking away from your desk, please lock your computer.
+
+🖥️ **Windows:** `Win + L`  
+🍎 **Mac:** `⌃⌘Q`
+
+*Protects data. Keeps us secure.*
+
+***
+
+**Tip:** If you send this via email or chat, consider tagging your IT department or including a link to your internal security policy for reference.

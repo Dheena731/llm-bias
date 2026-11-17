@@ -1,0 +1,1 @@
+Filters the dataset to display only entries matching your selected criteria. Excludes irrelevant data so you can focus on subsets aligned with your research goals. Set your parameters and click Apply to update results.

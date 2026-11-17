@@ -1,0 +1,14 @@
+**SUBJECT: SECURITY NOTICE: Mandatory Prevention of Password Reuse**
+
+All employees are reminded that reusing passwords across work and personal accounts is strictly prohibited.
+
+**Risk:** A breach of a personal account containing reused credentials can provide attackers direct access to corporate systems and sensitive data.
+
+**Action Required:**
+*   Immediately update any passwords currently shared between work and non-work services.
+*   Assign a unique, complex password to every account.
+*   Use the company-approved password manager to generate and store credentials securely.
+
+Compliance with this policy is essential to protect organizational assets. For assistance or to report suspicious activity, contact IT Security.
+
+IT Security Department

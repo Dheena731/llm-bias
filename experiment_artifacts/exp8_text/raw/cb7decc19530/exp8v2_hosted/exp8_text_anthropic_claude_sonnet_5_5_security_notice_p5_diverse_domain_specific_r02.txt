@@ -1,0 +1,32 @@
+**Subject: Lost or stolen laptop: report it within one hour**
+
+If you can't find your company laptop, report it right away, even if you think it's in the back seat or at a coworker's desk. Searching for two days and then telling us is the most common way a lost device becomes a breach.
+
+**Report it to:**
+- Security desk, 24 hours: ext. 5511 or security@yourcompany.example
+- Or open a ticket under *Security → Lost/Stolen Device*, priority **P1**
+
+If you can't reach either, tell your manager and have them call.
+
+**Have these ready (but don't delay the call to find them):**
+- Asset tag or serial number (on the underside, or in the Asset Portal under your name)
+- Last place and time you had it
+- Whether it was powered off, asleep, or logged in
+- Whether anything unencrypted was stored locally, such as exported customer files, spreadsheets, or downloaded databases
+- Any hardware token or smartcard that was with it
+
+**What we'll do:**
+1. Lock the device and revoke its certificates through MDM.
+2. Sign out your sessions and reset your SSO password and MFA enrollments.
+3. Rotate any API keys, SSH keys, or VPN credentials tied to the machine.
+4. Issue a remote wipe if the device checks in or after 72 hours, whichever comes first.
+5. Order a replacement. Expect a loaner within one business day.
+
+**What you should do:**
+- Change your password on any personal accounts you were signed into in the browser.
+- If it was stolen, file a police report and send us the report number.
+- Don't try to remotely wipe or log into the device yourself.
+
+Disk encryption is enforced on all company laptops, so a lost machine is usually a replacement cost rather than a data incident, but only if we hear about it quickly. Reports are not disciplinary. Late reports are reviewed.
+
+— Information Security

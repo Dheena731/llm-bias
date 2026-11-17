@@ -1,0 +1,12 @@
+Hello everyone,
+
+We are scheduled to migrate our email system to a new platform this coming Saturday, March 15, starting at 8:00 PM and expected to finish by 6:00 AM Sunday. During this window, email access may be intermittent or unavailable, so please plan accordingly and avoid critical email-dependent tasks during that time.
+
+Before the migration, please make sure you have saved any important attachments or messages locally. After the migration, you may need to sign in again on your phone and other devices. Your existing folders, contacts, and calendar entries will be transferred automatically.
+
+If you experience any issues after the migration, please contact the IT help desk at helpdesk@company.com or extension 4357.
+
+Thank you for your patience as we upgrade our email services.
+
+Best regards,
+IT Department

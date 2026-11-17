@@ -1,0 +1,7 @@
+WORKPLACE SECURITY NOTICE: PROHIBITION OF PASSWORD REUSE
+
+To all employees, this notice reinforces a fundamental cybersecurity requirement: never reuse passwords across different accounts. Using the same credential for multiple company systems, third-party applications, or personal services creates a single point of failure. If any one account is compromised, attackers can use that password to access all other accounts where it appears.
+
+Every workstation login, email system, internal portal, and authorized application must have a unique password. Each password must be at least twelve characters long and include a combination of uppercase letters, lowercase letters, numbers, and symbols. Store credentials only using the organization-approved password manager distributed by IT. Writing passwords down, sharing them with colleagues, or entering them on unverified websites violates our security policy and will result in disciplinary action.
+
+If you suspect you have reused a password, change it immediately through the official secure portal. For assistance in generating and managing distinct credentials, contact the IT Helpdesk. Your adherence to this rule directly protects sensitive company data and maintains operational continuity.

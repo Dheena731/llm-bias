@@ -1,0 +1,16 @@
+**SECURITY NOTICE: Protect Your Accounts by Avoiding Password Reuse**
+
+**To:** All Staff  
+**From:** IT Security Department  
+**Subject:** The Risks of Reusing Passwords Across Accounts  
+
+Password reuse remains one of the leading causes of security breaches. When you use the same password for multiple services—both personal and professional—a compromise on a single external website can expose company systems and sensitive data.
+
+**Required Actions:**
+
+1. **Keep Work and Personal Passwords Separate:** Never use your company login credentials for external or personal websites.
+2. **Use Unique Passwords:** Ensure every work-related account, system, and tool uses a distinct, complex password or passphrase.
+3. **Use the Approved Password Manager:** Utilize the company-provided password manager to generate and securely store strong credentials.
+4. **Report Suspicious Activity:** If you suspect an external account sharing your work password has been compromised, change your company password immediately and notify IT Support.
+
+Thank you for your cooperation in keeping our workplace secure.

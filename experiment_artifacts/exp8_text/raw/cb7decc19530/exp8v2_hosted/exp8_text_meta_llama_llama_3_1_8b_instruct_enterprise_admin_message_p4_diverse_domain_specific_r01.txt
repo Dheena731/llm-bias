@@ -1,0 +1,30 @@
+**Quarterly Access Review Notice**
+
+To ensure the continued security and integrity of our research data, we will be conducting quarterly access reviews for all research projects and datasets stored on our servers. These reviews are a critical component of our data management processes and are essential to maintaining the trust and confidence of our research community.
+
+**What to Expect:**
+
+* You will receive a notification approximately 30 days prior to the scheduled review date, detailing the specific data and access requirements for your project.
+* You will be asked to review and confirm the access permissions for your project, including the names of users with read or write access.
+* Any changes to access permissions or user roles will need to be updated and verified during this review process.
+
+**Why Quarterly Reviews Matter:**
+
+* Regular access reviews help prevent unauthorized access and maintain data security.
+* They ensure that only authorized personnel have access to sensitive research data.
+* Quarterly reviews also provide an opportunity to review and refine data management practices, ensuring compliance with institutional policies and regulatory requirements.
+
+**What to Do:**
+
+* If you are the principal investigator or data owner for a project, please ensure that you have reviewed and updated your project's access permissions prior to the scheduled review date.
+* If you are a user with read or write access to a project, please confirm your access with the project owner and ensure that your role is up-to-date.
+
+**Contact:**
+
+If you have any questions or concerns regarding the quarterly access review process, please reach out to our data management team at [insert contact email or phone number]. We are here to support you and ensure the integrity of our research data.
+
+Thank you for your cooperation and attention to this matter.
+
+[Insert institution's name]
+
+Data Management Team

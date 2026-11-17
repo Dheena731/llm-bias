@@ -1,0 +1,5 @@
+**Notice for clinic staff**
+
+Beginning **1 May**, two-factor authentication will be required for access to the **EHR and e-prescribing system**. After entering your password, approve the sign-in in **Microsoft Authenticator** or use a security key; SMS codes will not be accepted.
+
+Complete setup before your next shift: **[setup link]**. If you replace or lose your phone, contact **IT Support at [contact]** before attempting to create another account.

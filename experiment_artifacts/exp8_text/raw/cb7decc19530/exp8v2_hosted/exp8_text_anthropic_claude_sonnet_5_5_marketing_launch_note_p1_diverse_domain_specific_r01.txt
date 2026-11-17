@@ -1,0 +1,22 @@
+**Subject: Stanchion is live: scheduling built around a grooming van, not a salon**
+
+Hi all,
+
+Stanchion is now available for iPhone. It's a booking and route app for mobile groomers, and it came out of watching one groomer, Dana, run her Tuesday out of three apps and a sticky note on her dashboard.
+
+What it does:
+
+- **Books by coat, not by time slot.** Enter "doodle, 9 months since last cut" and it blocks 2.5 hours instead of 1.5. Breed and coat length set the defaults, and you can override them.
+- **Counts the drive.** Appointments are sequenced so you're not crossing town twice. The gap between stops includes parking and the walk to the door.
+- **Handles matting before you're on the porch.** Send the client a photo request the night before. If the coat is worse than described, the surcharge approval goes out by text and they tap yes or no while you unload.
+- **Tracks vaccines.** Rabies expiry dates sit on each dog's profile, and the app won't confirm a booking that lands after one lapses.
+- **Suggests rebooking intervals.** Poodles at 5 weeks, goldens at 8 to 10. Clients get a reminder with two open times, not a "we miss you!" blast.
+
+It costs $19 a month with no per-booking fee. The first 60 days are free, and you can export your client list as a spreadsheet anytime.
+
+Android is planned for spring. For now, it's iPhone only.
+
+Download Stanchion on the App Store, or reply to this email. I read every one, and I'm usually in a parking lot between appointments when I do.
+
+Marcus Feld
+Stanchion

@@ -1,0 +1,9 @@
+Thank you for sharing the draft of your conference poster. The overall structure works well: the reader can move from the question to the method and then to the findings without getting lost. The title states the topic clearly, though it could be sharper. Consider naming the specific population, setting, or result in the title so that a passerby understands the contribution from a distance of two meters.
+
+The main figure is the strongest element and should stay near the center of the poster. Its axis labels are small, however, and the color scheme makes two of the series hard to tell apart, especially in print. Increasing the font size and switching one series to a dashed line or a contrasting marker would help. Also check that every figure has a caption that can stand on its own, since many viewers will read the figures before the text.
+
+The introduction and methods sections are dense. Each paragraph would benefit from being cut roughly in half, with the most important sentence placed first. Visitors typically spend only a few minutes at a poster, so a reader should be able to grasp the research question and approach within thirty seconds. Moving some methodological detail into a handout or a QR-linked supplement would free up space.
+
+The conclusions state the findings accurately but do not yet say why they matter. Add one or two sentences that explain the practical or theoretical implication and name a concrete next step. This gives people who want to talk with you an easy way to begin the conversation.
+
+Finally, add a short line with your contact information and, if possible, a link to the full paper or data in a QR code, so that interested visitors can follow up after the session.

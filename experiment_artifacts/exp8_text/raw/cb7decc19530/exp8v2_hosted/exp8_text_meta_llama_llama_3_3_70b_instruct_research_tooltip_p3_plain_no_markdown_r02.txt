@@ -1,0 +1,1 @@
+Select a range of dates by choosing a start and end date from the calendar. You can pick any two dates to define the range, and the selector will include all dates in between. Use the arrows to navigate through the months and click on the desired dates to set the range.

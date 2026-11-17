@@ -1,0 +1,1 @@
+This range shows where the true value is likely to fall. A narrower range indicates greater certainty in the estimate, while a wider range reflects more uncertainty.

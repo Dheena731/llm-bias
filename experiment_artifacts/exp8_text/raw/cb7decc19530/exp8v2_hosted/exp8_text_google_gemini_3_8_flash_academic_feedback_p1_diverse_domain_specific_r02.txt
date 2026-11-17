@@ -1,0 +1,19 @@
+**To:** Elena  
+**From:** Marcus  
+**Subject:** Notes on Ch. 2 draft (Monopsony & Wage-Setting Mechanisms)  
+
+Elena,
+
+The draft is moving in the right direction, particularly where you trace the move from classical Burdett-Mortensen equilibrium models to modern AKM-style establishment-level rent-sharing. That narrative arc works well. 
+
+However, the current draft still leans too heavily on chronological summary rather than conceptual tension. A few specific areas to address before the next iteration:
+
+1. **Disentangle Structural Concentration from Search Frictions:** In Section 2.3, you tend to treat local labor market HHI (e.g., Azar et al.) and institutional frictions (non-competes, commuting tolerances) as interchangeable proxies for wage markdown. They aren't. Group the empirical literature by the *source* of the firm’s wage-setting power: does the elasticity arise from thin market geography, or from information asymmetry and job-to-job mobility constraints? 
+2. **Missing Friction on the Rent-Sharing Mechanism:** Your discussion of Card, Heining, and Kline (2013) assumes sorting accounts for the residual variance, but you need to engage with the domestic outsourcing critique (Goldschmidt & Schmieder, 2017). If the fissured workplace is driving the collapse of the establishment premium at the bottom of the distribution, that alters the policy implications of the wage-setting elasticities you review in Section 2.5.
+3. **Trim the Product-Market Tangent:** The four pages on retail price pass-through (pp. 14–18) derail the pacing. Unless you explicitly link consumer elasticity back to downstream labor-demand elasticity via a formal production function, reduce this to a footnote and a single framing paragraph.
+4. **Setup for Your Empirical Strategy:** The literature review should build an analytical runway for your IV in Chapter 3. Right now, you discuss the limitations of shift-share instruments in abstract terms without directly signaling the specific identification threats (e.g., correlated local demand shocks) that your design intends to solve.
+
+Let’s focus our meeting on Thursday around restructuring Section 2.3. Please bring a one-page outline showing how you plan to reorganize the papers around the underlying elasticities rather than publication dates.
+
+Best,  
+Marcus

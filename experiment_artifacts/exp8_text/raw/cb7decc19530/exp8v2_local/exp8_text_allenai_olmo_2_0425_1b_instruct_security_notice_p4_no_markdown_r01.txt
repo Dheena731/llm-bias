@@ -1,0 +1,10 @@
+**Two-Factor Authentication 101**
+
+Enable Two-Factor Authentication (2FA) on your accounts. This additional layer of security uses a combination of something you know (your password) and something you have (a physical device or app token). By enabling 2FA you significantly enhance the protection of your accounts from unauthorized access. Here’s why you should do it:
+
+* **Enhanced Security:** Even if someone knows your password they do not automatically have access to your accounts without this extra step.
+* **Robustness:** 2FA is designed to be more reliable because if a password is lost or compromised it does not mean access to all of your accounts.
+* **Ease of Use:** Most service providers now offer straightforward 2FA options such as a SMS message with a unique code or authenticator app that generates a code.
+* **Reduction Risk:** With 2FA enabled, even if your password is intercepted during a phishing attempt or malware is installed, the attacker still needs the second factor to gain access.
+
+In summary enabling 2FA is a proactive step toward safeguarding your online accounts from growing threats while making the process of account recovery easier and more secure.

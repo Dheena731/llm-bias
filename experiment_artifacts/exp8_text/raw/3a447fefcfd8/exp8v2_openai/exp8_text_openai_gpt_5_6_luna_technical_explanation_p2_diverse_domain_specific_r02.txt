@@ -1,0 +1,1 @@
+A database index is a separate, ordered lookup structure for a table column. For example, an index on `orders.customer_id` lets the database find one customer’s orders by navigating the index rather than scanning every row in `orders`. The tradeoff is extra storage and slower inserts or updates, because the index must be maintained when the table changes.

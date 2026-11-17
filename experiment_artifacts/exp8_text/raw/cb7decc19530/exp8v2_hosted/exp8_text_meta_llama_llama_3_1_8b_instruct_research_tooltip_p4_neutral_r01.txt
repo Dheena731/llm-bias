@@ -1,0 +1,7 @@
+Here are a few options:
+
+* A missing-value marker indicates that a value is unknown or unavailable.
+* This symbol represents a missing or unknown value.
+* A missing-value marker signifies an absence of data or an unknown quantity.
+
+Which one do you think is most clear and concise?

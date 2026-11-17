@@ -1,0 +1,52 @@
+Note: If a custom character or emoji is used in a release announcement, it must be a native character in the font used by the site engine, or not an emoji.
+
+Edit a previous post about a feature or bug
+
+  1. Edit the previous post.
+  2. Confirm that the change is in the post.
+  3. Edit the post to add a description of the change.
+  4. Post a new update.
+  5. Send a pull request for review.
+
+Use [permanent] instead of [temporary] when updating a post
+
+If a post is changed only by a single author, use [permanent] in the post title to make the update permanent. This will prevent the post from being moved to the end of the inbox. See: How to remove a post?
+
+Describe a feature
+
+  1. Describe the feature in the post.
+  2. Explain why the feature is useful to a moderator.
+  3. Inform moderators of the feature in the post.
+  4. Post a pull request for the feature to be added.
+
+Describe a bug
+
+  1. Describe the bug in the post.
+  3. Inform moderators of the bug in the post.
+  5. Post a pull request for the bug to be fixed.
+
+Merge multiple pull requests
+
+  1. Pull requests with errors should be merged before those that are correct.
+  2. Merge pull requests and issue reports
+  3. Update issue reports if needed.
+
+Write a pull request
+
+  1. Write a pull request.
+  2. Add a pull request link to each issue in the post.
+  3. Add a pull request link to each feature request in the post.
+
+Attach a bounty to a pull request
+
+  1. Add a bounty to the pull request.
+  2. Post a pull request.
+
+Create a new issue
+
+  1. Explain the issue in the post.
+  2. Open a new issue in the feedback queue.
+  3. Post a pull request for the issue.
+
+
+Post a Pull Request

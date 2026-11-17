@@ -1,0 +1,25 @@
+**Subject: Mail moves to Microsoft 365 on Saturday, March 15. What you'll notice Monday**
+
+Our mailboxes are moving from the Exchange server in the server room to Microsoft 365 this weekend. The old server has been out of support since October, and this is the cleanest way off it.
+
+**What happens**
+- Friday at 6 PM: we stop syncing and begin the final cutover.
+- Saturday: MX records change. Mail sent during the switch may arrive a few hours late, but it won't bounce.
+- Monday: you'll be asked to sign in again.
+
+**What you need to do Monday**
+1. Open Outlook. If it prompts you to sign in, use your usual work address and complete the new MFA setup. It takes about five minutes.
+2. If Outlook says "Trying to connect" for more than a few minutes, close it and reopen. If that doesn't work, call the help desk. Don't delete your profile yourself.
+3. On your phone, remove the old work account and add it again. The old connection will stop working Saturday.
+
+**What will look different**
+- Autocomplete suggestions will be gone, so the first few emails may need full addresses typed in.
+- Your mailbox, calendar, and contacts carry over. Shared mailboxes (accounting@, orders@) and delegate access move with them.
+- Local PST files aren't touched, but they won't be searchable from the new mailbox. If you rely on one, tell us and we'll import it.
+
+**Scanners and anything else that sends email**
+The copier and the label printer relay mail through the old server and will stop working Saturday. We're reconfiguring them, but if you know of anything else that sends email automatically, such as a script or a report from the accounting software, reply to me by Wednesday.
+
+Help desk will have extended hours Monday, 7 AM to 6 PM, at ext. 214 or helpdesk@ourcompany.example.
+
+— Dana, IT

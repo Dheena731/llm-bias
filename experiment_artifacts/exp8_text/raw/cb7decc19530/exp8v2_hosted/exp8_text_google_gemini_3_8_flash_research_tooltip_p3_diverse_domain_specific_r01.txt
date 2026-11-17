@@ -1,0 +1,3 @@
+**Domain: Treasury & Ledger Reconciliation**
+
+> "Filters by settled date, not transaction initiation. Unreconciled batches and floating holds outside this window are excluded from the closing balance."

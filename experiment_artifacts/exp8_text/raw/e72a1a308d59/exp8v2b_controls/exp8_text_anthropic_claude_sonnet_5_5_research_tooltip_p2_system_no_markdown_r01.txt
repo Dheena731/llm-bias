@@ -1,0 +1,1 @@
+Confidence interval: the shaded range shows where the true value likely falls. A 95% interval means that if we repeated this study many times, about 95% of the intervals built this way would contain the true value. A wider band means more uncertainty.

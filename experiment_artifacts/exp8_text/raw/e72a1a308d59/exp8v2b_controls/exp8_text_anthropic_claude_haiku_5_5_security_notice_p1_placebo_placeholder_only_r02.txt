@@ -1,0 +1,20 @@
+**Security Notice: Stop Reusing Passwords**
+
+Team,
+
+We have seen an increase in attempts to break into employee accounts using passwords leaked from unrelated websites. When one of those sites is breached, attackers try the same email and password combinations against our systems. If you use the same password here that you use anywhere else, a breach somewhere else can become a breach here.
+
+**What to do now:**
+
+- Change any work password that matches one you have used on a personal or other external account.
+- Use a unique passphrase of at least 14 characters for every work account. A short sentence of unrelated words works well.
+- Store your passwords in the company-approved password manager rather than in a browser, spreadsheet, or notebook.
+- Turn on multi-factor authentication for all work accounts that support it. It is required for email and VPN access.
+
+**Never share your password,** including with IT staff. IT will never ask for your password by email, chat, or phone. If someone does, report it immediately.
+
+If you think a password you use for work may have been exposed, contact the IT Service Desk right away so we can reset it and check for unusual activity. Reporting quickly causes far less trouble than waiting.
+
+Thank you for helping keep our systems and our colleagues' data secure.
+
+IT Security Team

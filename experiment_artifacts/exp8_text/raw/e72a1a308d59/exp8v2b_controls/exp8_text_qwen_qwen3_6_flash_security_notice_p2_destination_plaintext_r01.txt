@@ -1,0 +1,28 @@
+WORKPLACE NOTICE: PHISHING EMAIL AWARENESS
+
+Dear Team,
+
+We have recently seen an increase in phishing attempts targeting our organization. Please review all incoming emails carefully.
+
+Warning signs of phishing include:
+- Urgent or threatening language demanding immediate action
+- Requests for passwords, login details, or financial information
+- Sender addresses that look unfamiliar or slightly misspelled
+- Unexpected links or attachments
+- Generic greetings instead of your name
+
+If you suspect an email is phishing:
+1. Do not click any links or download attachments.
+2. Do not reply or share any credentials.
+3. Forward the message to it-security@company.com with PHISHING REPORT in the subject line.
+4. Delete the original email after forwarding.
+
+If you already clicked a link or entered information, report it immediately by calling IT Support at extension 5000 or submitting a ticket. Quick reporting helps protect company systems.
+
+Security is a shared responsibility. When uncertain, verify requests through official phone numbers or known contacts.
+
+Thank you for your attention and cooperation.
+
+IT Security Team
+[Your Company Name]
+[Date]

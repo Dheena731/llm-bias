@@ -1,0 +1,21 @@
+**SUBJECT:** Important: How to Identify & Report Phishing Emails  
+**TO:** All Employees  
+**FROM:** IT Security Department  
+**DATE:** [Insert Date]  
+
+Please be advised that phishing attempts targeting our organization have recently increased. These fraudulent messages are designed to trick recipients into surrendering login credentials, sharing sensitive data, or downloading malicious files.
+
+**To stay protected, always:**
+• Verify the sender’s email address (watch for misspellings, odd domains, or spoofed names)  
+• Hover over links before clicking to confirm they point to legitimate company sites  
+• Be skeptical of urgent language, unexpected attachments, or requests to verify/reset passwords  
+• Never send confidential information via email; verify unusual requests through a direct, trusted channel  
+
+**If you receive a suspicious email:**
+1. Do NOT click links, open attachments, or reply.  
+2. Use the **“Report Phishing”** button in your email client, or forward the message immediately to [IT Security Email/Portal].  
+3. Delete the original after reporting.  
+
+Your vigilance is our strongest defense. Thank you for helping keep our data, systems, and colleagues secure.  
+
+For security training or questions, contact IT Support at [Phone/Email] or visit [Internal Security Page].

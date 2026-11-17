@@ -1,0 +1,27 @@
+SECURITY NOTICE: Stop Reusing Passwords
+
+To: All Employees
+From: Information Security Team
+Subject: Password Reuse Puts Our Company at Risk
+
+Reusing the same password across multiple accounts is one of the most common ways attackers gain access to company systems. When a password is exposed in a breach at one website, criminals try that same password on email, VPN, cloud tools, and other business accounts. This is called credential stuffing, and it works because many people reuse passwords.
+
+Effective immediately, please do not use your work password for any personal account or any other website or service. Likewise, do not use the same password for more than one work system.
+
+What you should do:
+
+Create a unique password or passphrase for every account. A passphrase of four or more unrelated words is easy to remember and hard to guess.
+
+Use the company-approved password manager to generate and store your passwords so you do not have to memorize them.
+
+Turn on multi-factor authentication wherever it is available.
+
+Change any password immediately if you suspect it has been reused or exposed.
+
+If you receive a breach alert about an account that shares a password with any work login, contact the IT Help Desk right away so we can help secure your accounts.
+
+Report suspicious emails, login alerts, or unexpected password reset requests to security@yourcompany.example or call the Help Desk.
+
+Thank you for helping keep our systems and data safe.
+
+Information Security Team

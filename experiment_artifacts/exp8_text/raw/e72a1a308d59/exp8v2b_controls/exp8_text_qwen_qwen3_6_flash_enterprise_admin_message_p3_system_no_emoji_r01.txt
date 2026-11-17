@@ -1,0 +1,14 @@
+Subject: Important Update: VPN Client Transition
+
+Dear Team,
+
+Please be advised that we will be upgrading our VPN client to version 3.0 effective [Date]. This change enhances encryption standards, reduces connection latency, and simplifies multi-factor authentication. The legacy client will be deactivated on [Date] and will no longer receive security patches.
+
+To maintain secure remote access, please download the updated client from the internal software portal and complete installation by [Deadline]. Step-by-step setup instructions are available at [Link].
+
+If you experience connectivity issues or require assistance during the migration, submit a ticket through the IT service desk or reply directly to this message.
+
+Thank you for your prompt attention to this update.
+
+Sincerely,  
+[Your Name/IT Department]

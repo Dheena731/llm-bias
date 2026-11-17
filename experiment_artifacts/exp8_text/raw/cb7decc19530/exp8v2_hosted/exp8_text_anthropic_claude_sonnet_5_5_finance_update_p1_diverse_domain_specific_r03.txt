@@ -1,0 +1,21 @@
+**Update: Monthly spending summary**
+
+Starting on the 1st of each month, you'll get a one-page summary of the month that just ended. You'll find it under Reports > Monthly, and we'll send a notification if you want one.
+
+**What's in it**
+- Total spent, split into recurring charges (rent, subscriptions, insurance) and everything else
+- Your top five categories, each compared with your median for the past three months rather than with last month alone. One month with a car repair or an annual premium shouldn't make every other month look cheap or expensive.
+- Any single charge over $200 that isn't a recurring payment, listed separately so one-offs don't get lost in category totals
+
+**How it's calculated**
+- Credit card payments and transfers between your own accounts are left out. Only the purchases on the card count, so nothing is counted twice.
+- Refunds are subtracted from the category of the original purchase, even if they arrive in a later month.
+- Pending transactions are excluded at close. If one posts after the 1st, it goes into the month it was made, and the summary updates with a small "revised" tag.
+
+**Known limits**
+- Split transactions use the categories you assigned. If a Costco run is filed entirely under Groceries, that's how it will appear.
+- Joint accounts show combined totals only. Per-person breakdowns are not available yet.
+
+If a category looks wrong, tap it to recategorize the transactions. The summary recalculates immediately, and your change applies to future charges from the same merchant.
+
+To turn off the notification, go to Settings > Notifications > Monthly summary. The report will still be in Reports.

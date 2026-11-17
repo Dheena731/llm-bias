@@ -1,0 +1,67 @@
+Example 1:
+
+Sorry, we’ve experienced some issues with our server, which means there might be problems with our website. Please go to the following URL to recover any information you might have entered on the site.
+
+The following URL will help you recover any information you might have entered on our domain.
+
+Example 2:
+
+We’re so happy to announce that our latest product has been released! This new service has been designed to be more intuitive and easy to use. Here are some reasons why you should try it out today.
+
+Example 3:
+
+As you are aware, we are working on a new version of our online store. This update will be coming out soon, and we want to share the details with you in advance. If you are interested in learning more about our latest project, please visit the following link.
+
+Example 4:
+
+Our new app is available for purchase now! It’s a great product, and we can’t wait for you to try it out.
+
+Example 5:
+
+Our new website is now live! We wanted to make it easy for you to interact with us, so we have added a new service that helps you find the information you need. Give it a try and let us know how it works for you.
+
+Example 6:
+
+We are happy to announce that our new product has been released! It’s a great new feature that we believe will make our service even easier to use. Give it a try today and let us know what you think!
+
+Example 7:
+
+We are excited to announce that our new website has been released! It’s a great new feature that makes our service even easier to use. Please give it a try and let us know what you think!
+
+Example 8:
+
+We are so excited to announce that our site has been completely redesigned! Now, instead of just being a generic listing page, you can browse our products in a much more intuitive manner. Check out our new feature list, and give it a try today!
+
+Example 9:
+
+As you probably know, our latest product has just been released! It’s a great new feature that we think will make our service more intuitive to use. Give it a try today and let us know what you think.
+
+Example 10:
+
+We just announced our new website! It’s a great new feature that will make our service even easier to use. This new site is designed to be more user-friendly and intuitive. It’s worth checking out, so why not give it a try today and let us know what you think?
+
+What is an email phishing?
+
+Phishing is the practice of using email as a method of collecting personal information from unsuspecting recipients, including account log-in credentials. This information can then be used for cybercrime such as identity theft, financial fraud, and ransomware.
+
+The RFC 5322 email standard defines how email messages are structured, including the email header and the body of the message itself.
+
+For example, the body of an email message might look like this:
+
+X-Test: This is an example of a test message.
+
+The email header might look like this:
+
+From: Mark Smith <> (marksmith)
+To: Scott Jones <>
+Subject: This is a test message
+
+The first line of an email message shows the sender’s address, and the second line shows the subject line.
+
+There is also a header in the body of an email message called “CRL” (Critical-Revocation List). This header contains information about the signatures of the mail-handling software used to process the message. It is used to control what should be done with the message.
+
+If an email message has been modified in some way, it might contain another header called “DKIM”.
+
+This header is used to identify which mail-handling software was used to process the message.
+
+If an email message contains any of these

@@ -1,0 +1,5 @@
+**Security Notice: Do Not Reuse Passwords**
+
+Using the same password for multiple work or personal accounts increases security risk. If one account is compromised, attackers may try the same password elsewhere.
+
+Use a unique, strong password for every account and store passwords in an approved password manager. Never share your passwords, and enable multi-factor authentication where available.

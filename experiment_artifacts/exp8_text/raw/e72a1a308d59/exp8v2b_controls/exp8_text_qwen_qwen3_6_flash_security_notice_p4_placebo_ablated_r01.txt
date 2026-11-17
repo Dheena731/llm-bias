@@ -1,0 +1,21 @@
+**Notice: Enable Two-Factor Authentication**
+
+Dear Users,
+
+To strengthen account security, all users must enable two-factor authentication (2FA) on their accounts by **Friday, November 15**. 
+
+Two-factor authentication protects your login by requiring two forms of verification: something you know (your password) and something you have (a temporary code from your phone or an authenticator app). This simple step significantly reduces the risk of unauthorized access.
+
+**How to enable 2FA:**
+1. Visit [Secure Portal URL] and sign in.
+2. Go to **Account Settings > Security**.
+3. Select **Enable Two-Factor Authentication** and follow the prompts.
+4. Save your recovery codes in a safe place.
+
+After setup, you will be asked for a verification code each time you log in. If you need help or run into technical issues, contact IT Support at [support email/phone] or visit the Help Center at [link].
+
+Thank you for taking a few minutes to protect your account and our shared systems.
+
+Sincerely,  
+[Department/IT Team]  
+[Contact Information]

@@ -1,0 +1,1 @@
+Select a start and end date to choose a range of dates, or click on a single date to choose only that day. The selected dates will be used to filter the data.

@@ -1,0 +1,17 @@
+**Notice: Please Turn On Two-Factor Authentication**
+
+We encourage all account holders to enable two-factor authentication (2FA) on their accounts.
+
+**What it is:** 2FA adds a second step to signing in. After you enter your password, you also provide something else, such as a code from an authenticator app, a code sent by text message, or a physical security key.
+
+**Why it matters:** Passwords can be guessed, stolen, or reused from another website. With 2FA on, someone who has your password still cannot sign in without the second step.
+
+**How to enable it:**
+1. Sign in and open your account's security settings.
+2. Select the two-factor authentication option and choose a method.
+3. Follow the on-screen prompts and confirm that it works.
+4. If you receive backup codes, store them somewhere safe and separate from your password. You can use them to sign in if you lose access to your usual method.
+
+Menu names may differ slightly depending on your device or the page you are using.
+
+**Keep in mind:** Never share your verification codes with anyone, including people who say they are from support.

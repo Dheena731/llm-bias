@@ -1,0 +1,7 @@
+Latency is the delay between a user’s action and the application’s response. In web applications, this wait time directly shapes both user experience and system performance.
+
+Users perceive latency as responsiveness. When interfaces react quickly, interactions feel natural; when they lag, focus breaks and frustration grows. Delays exceeding a few hundred milliseconds become noticeable, increasing the likelihood that visitors will abandon the page. As perceived slowness rises, engagement drops, bounce rates climb, and task completion becomes harder.
+
+This behavioral shift carries direct business consequences. Consistently slower response times correlate with fewer conversions, shorter sessions, and reduced customer retention. Technically, high latency also degrades efficiency. Each delayed request keeps connections and server threads occupied longer, lowering throughput and amplifying bottlenecks during traffic spikes.
+
+Modern web applications rely on chains of network calls to load assets, fetch data, update state, and render UI. Because delays compound across these interactions, minimizing latency is essential. It preserves usability, protects revenue, and keeps infrastructure operating at capacity.

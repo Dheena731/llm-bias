@@ -1,0 +1,10 @@
+Thanks for circulating the draft. The central question—whether adaptive sparsity constraints improve decoder stability during the first week of intracortical BCI use—is clearly stated, but the current layout dilutes the empirical payoff. Here’s where to tighten things before submission:
+
+**Figure Hierarchy**  
+Panel 2C currently competes with 2A and 2B for attention. Collapse the offline vs. online learning curves into a single plot with shaded 95% CI bands and a vertical dashed line marking the switch to real-time mode. Move the full confusion matrix and per-channel SNR breakdown to a scannable QR-linked supplement. Reviewers need to grasp the adaptation trajectory within five seconds of approaching.
+
+**Methods Density**  
+The left column reads like a methods section rather than a poster summary. Drop the derivation of the L1 penalty and keep only the modified update rule (your Eq. 4). Add one sentence on session length, target impedance range, and how missing channels were interpolated. Without those, replicability claims stay theoretical.
+
+**Legibility & Layout**  
+Axis tick labels and the statistical annotations in Fig. 3A fall below ~7pt when rendered at the standard 36×48″ scale. Increase base body type to 10–11pt, lock to a single open-source sans (Inter or Source Sans), and ensure all p-values include effect sizes (Cohen’s d or median difference with I

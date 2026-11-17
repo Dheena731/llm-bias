@@ -1,0 +1,29 @@
+To provide specific feedback, I'll need you to **paste the methods section** you'd like me to review.
+
+In the meantime, here is a **feedback template** and a **checklist** you can use immediately, along with common issues to look for:
+
+### 📝 Short Feedback Template
+> **General Comment:**  
+> Your methods section is **[clearly structured / detailed / logical]**. You've effectively outlined the **[procedure/data collection]**, which helps the reader follow your workflow.
+>
+> **Key Improvements:**  
+> 1. **Reproducibility:** Please add details on **[specific tool/sample size/calculation]** so another researcher could replicate this exactly.  
+> 2. **Clarity:** Define any **[acronyms/jargon]** on first use and ensure consistent verb tense (usually past tense for completed work).  
+> 3. **Justification:** Briefly explain *why* you chose **[method/design/tool]** over alternatives.
+>
+> **Next Step:** Review against the replicability checklist below and revise where gaps exist.
+
+---
+
+### ✅ Methods Checklist
+- [ ] **Can it be replicated?** Would a peer know exactly how to repeat your study?
+- [ ] **Participants/Data:** Are inclusion/exclusion criteria, sample size, and recruitment method clear?
+- [ ] **Materials/Measures:** Are instruments described with manufacturer/model info and validity/reliability cited?
+- [ ] **Procedure:** Is the step-by-step process chronological and unambiguous?
+- [ ] **Analysis:** Are statistical tests justified and assumptions mentioned?
+- [ ] **Ethics:** Is IRB approval or ethical clearance noted (if applicable)?
+- [ ] **Tone & Style:** Is it objective, precise, and consistently in the past tense?
+
+💡 **Pro Tip:** The "Gold Standard" test for a methods section is: *Could someone else reproduce my results using only this section?*
+
+Once you share the text, I can give you targeted, actionable comments! 🚀

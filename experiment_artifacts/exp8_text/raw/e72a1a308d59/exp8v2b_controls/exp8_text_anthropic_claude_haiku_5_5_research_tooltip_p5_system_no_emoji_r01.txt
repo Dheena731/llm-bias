@@ -1,0 +1,1 @@
+Click **Export** to download the current query results as a CSV file.

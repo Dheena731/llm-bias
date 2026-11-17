@@ -1,0 +1,2 @@
+**Missing value**
+No data was recorded for this field. It may not have been collected, may not apply, or may have been lost. It is not the same as zero or blank, and it is excluded from calculations such as averages and totals.

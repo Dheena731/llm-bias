@@ -1,0 +1,22 @@
+# Why Latency Matters in Web Applications
+
+Latency is the delay between a user's action (clicking a link, submitting a form) and the application's response. Even small delays can have an outsized impact.
+
+**User experience.** People perceive responses under ~100 ms as instantaneous. Beyond about one second, they notice the wait, and past several seconds their attention drifts. Slow apps feel broken or untrustworthy, even when they work correctly.
+
+**Business outcomes.** Latency directly affects conversion, engagement, and retention. Studies from companies like Amazon, Google, and Akamai have repeatedly linked added load time to higher bounce rates and lower sales. Search engines also factor page speed into rankings.
+
+**Compounding effects.** A single page often triggers many requests: HTML, scripts, APIs, images, and third-party services. Each adds its own round-trip delay, and dependent requests stack up. A modest 50 ms delay per call can become seconds of total wait.
+
+**Interactivity and real-time features.** Chat, collaborative editing, gaming, and live dashboards depend on low latency to feel responsive. High delay causes lag, conflicts, and stale data.
+
+**Mobile and global users.** Users on cellular networks or far from your servers face higher latency from network conditions and physical distance. Because bandwidth improvements don't eliminate round-trip time, latency is often the real bottleneck.
+
+**Common ways to reduce it:**
+- Use CDNs and edge caching to move content closer to users
+- Minimize the number of requests and payload sizes
+- Cache aggressively (browser, server, database)
+- Optimize backend queries and API calls
+- Use modern protocols like HTTP/2 or HTTP/3
+
+In short, latency shapes how fast an app *feels*, and that perception influences whether users stay, return, or leave.

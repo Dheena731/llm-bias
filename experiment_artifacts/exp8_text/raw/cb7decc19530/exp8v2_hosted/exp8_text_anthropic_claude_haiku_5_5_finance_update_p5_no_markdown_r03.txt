@@ -1,0 +1,14 @@
+Subject: Update on Delayed Payment Processing
+
+Hello team,
+
+We wanted to let you know that some payments are currently experiencing delays in processing. Our engineering team identified the cause as a issue with a third-party payment gateway, and they are working closely with the provider to restore normal service.
+
+Payments submitted since early this morning may take up to 24 hours to appear in accounts. No payments have been lost, and all transactions are queued and will be completed in the order they were received. You do not need to resubmit any payments.
+
+We will send another update by 3:00 PM today or sooner if the situation changes. In the meantime, if you have an urgent payment need, please contact our support desk at the number listed on the intranet so we can review it individually.
+
+We apologize for the inconvenience and appreciate your patience.
+
+Thank you,
+Finance Operations Team

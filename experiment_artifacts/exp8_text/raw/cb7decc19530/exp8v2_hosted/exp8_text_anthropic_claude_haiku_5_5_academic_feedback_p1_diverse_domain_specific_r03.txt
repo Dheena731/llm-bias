@@ -1,0 +1,19 @@
+**Feedback on Draft Literature Review: "Clogging and Long-Term Infiltration Performance in Managed Stormwater Basins"**
+*Reviewer comments, draft v2, 14 March*
+
+Thanks for sending this. The sections on sediment loading and the Lyon and Milwaukee monitoring programmes are the strongest parts, and the reader can follow the argument there. The problems are mostly structural, and they are fixable before your next draft.
+
+**1. Organise by mechanism, not by site.** Section 3 currently moves from one city to the next, so the reader has to work out for themselves whether clogging rates in Lyon bear on the question you are asking. Try grouping by process: (a) fines accumulation at the surface, (b) biofilm growth in the top 30 cm, (c) maintenance regimes and their effect on recovery. Cite the sites within each group. This will also make your gap clearer, because you can show which process has been studied least in field conditions.
+
+**2. Lab and field evidence need to be kept apart.** Several of the sources in Section 2 measure hydraulic conductivity in packed columns with sieved media. Those results are not directly comparable to in-situ basins with vegetated margins and seasonal freeze-thaw. When you write "infiltration rates decline by roughly half within five years," say whether that figure comes from columns or from basins. A reviewer will check this, and an unqualified figure will undermine the rest of the section.
+
+**3. The gap statement is too broad.** "Little is known about long-term performance" will not survive review, since there are at least three multi-year monitoring datasets you cite yourself. Narrow it. Based on what you have actually summarised, the gap appears to be the lack of work linking maintenance frequency to recovery of infiltration capacity after the first decade. State that, and say which of your cited studies come closest and why they stop short.
+
+**4. Grey literature.** The municipal maintenance reports are useful for the practitioner perspective, but they use different measurement protocols (some report double-ring infiltrometer results, others report drawdown time). Flag this in the text. If you keep them, put them in their own short paragraph rather than mixing them into peer-reviewed findings.
+
+**Minor points**
+- The definition of "effective life" appears in the abstract and again in Section 1 with different thresholds (50% vs. 40% of design rate). Pick one and justify it.
+- Section 4 contains two sentences beginning "This is important because," which add nothing. Cut or replace them with the actual consequence.
+- Check the reference to the 2016 review; the journal name and volume are missing.
+
+**Next step:** Restructure Section 3 by mechanism and rewrite the gap in Section 1 after that. I would rather see a shorter, tighter draft than a longer one with the same sequence. Happy to look at the revised structure before you write the full prose.

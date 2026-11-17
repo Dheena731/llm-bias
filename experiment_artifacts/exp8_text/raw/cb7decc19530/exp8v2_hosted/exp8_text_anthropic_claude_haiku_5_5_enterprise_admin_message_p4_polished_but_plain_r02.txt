@@ -1,0 +1,15 @@
+Subject: Quarterly Access Review Begins Next Week
+
+All system owners and department managers,
+
+The quarterly access review for the current cycle will begin on Monday, the 14th, and all reviews are due by Friday, the 25th. During this period, each manager will receive a list of the accounts and permissions currently assigned to members of their team, along with the systems and data sets those permissions cover.
+
+Please review each entry carefully and confirm that the access is still required for the person's current role. If an account belongs to someone who has changed roles, left the organization, or no longer needs a particular permission, mark it for removal. Where access is needed but was granted under an outdated justification, note the business reason so the record can be updated. Reviewers should not approve access they cannot verify, and any uncertain entries should be escalated to the security team rather than left unresolved.
+
+Access removals marked during the review will be processed within two business days of the submission deadline. Managers who have not completed their reviews by the 25th will be contacted directly, and unreviewed accounts may be suspended until the review is complete.
+
+Questions about the review process or the review tool can be sent to the IT Security help desk. For guidance on how to determine whether a specific permission is appropriate, contact your system owner before the review opens.
+
+Thank you for helping us keep our systems secure and our records accurate.
+
+IT Security and Access Governance

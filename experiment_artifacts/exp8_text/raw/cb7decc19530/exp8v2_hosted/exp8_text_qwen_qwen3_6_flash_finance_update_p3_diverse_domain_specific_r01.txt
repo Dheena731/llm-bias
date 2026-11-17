@@ -1,0 +1,7 @@
+**Savings Goals: Flexible Contribution Mode**
+
+We’ve added a flexible contribution option to Savings Goals. Instead of forcing fixed monthly transfers, you can now tie deposits to your actual cash flow. Pick a target amount, then choose either a set dollar figure or a percentage of incoming paychecks. The scheduler checks your linked checking balance 48 hours before each pull; if an automatic transfer would breach your configured safety buffer, it skips that cycle, logs a short pause in the activity feed, and queues the next attempt after your next qualifying deposit hits.
+
+Each goal displays a rolling “days-to-target” estimate that recalculates automatically when manual tops-ups, interest accruals, or schedule changes occur. Early withdrawals remain unrestricted—funds are returned pro-rata from deposited amounts first, then accrued interest, with no lock-up period or penalty. Daily compounding continues at your current APY regardless of pause state.
+
+To enable it: open Goals > tap an existing goal > switch to `Flexible` under Contribution settings, or create a new goal and select Flexible mode during setup. Legacy fixed-cycle goals run unchanged until you opt in.

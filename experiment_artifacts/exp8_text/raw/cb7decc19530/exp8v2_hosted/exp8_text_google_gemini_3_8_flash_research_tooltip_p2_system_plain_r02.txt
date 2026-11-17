@@ -1,0 +1,1 @@
+This range shows the margin of error for the estimate. There is a high probability, typically 95 percent, that the true value falls within these bounds.

@@ -1,0 +1,20 @@
+**Notice: Please Enable Two-Factor Authentication**
+
+**Who this is for:** All account holders.
+
+**What is changing:** We strongly recommend that you turn on two-factor authentication (2FA) for your account. With 2FA, signing in requires two things: your password and a one-time code from a second source, such as a text message or an authenticator app. This means that someone who learns your password still cannot get into your account without that code.
+
+**How to enable it:**
+1. Sign in and open **Account Settings**.
+2. Select **Security**, then choose **Turn on two-factor authentication**.
+3. Pick how you want to receive your codes: text message or authenticator app.
+4. Enter the code you receive to confirm the setup.
+5. Save the backup codes shown on screen and keep them somewhere safe. You can use them to sign in if you lose access to your phone.
+
+**Why it matters:** Passwords can be guessed, stolen, or reused from other sites. 2FA adds a layer of protection that makes unauthorized access much harder.
+
+**How long it takes:** About two minutes.
+
+**Need help?** Contact our support team through the Help page, and we will walk you through the setup. Our staff will never ask you for your password or your one-time codes.
+
+Thank you for helping keep your account secure.

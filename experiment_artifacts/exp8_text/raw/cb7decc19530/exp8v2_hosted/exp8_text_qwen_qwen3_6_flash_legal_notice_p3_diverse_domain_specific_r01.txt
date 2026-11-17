@@ -1,0 +1,10 @@
+**COOKIE USAGE NOTICE**  
+**Effective:** 1 November 2025 | **Version:** 2.1  
+**Applicable Domain:** `stratumdata.io` and all subordinate hosts operated by Stratum Data Systems Ltd. (“the Company,” “we,” or “us”)
+
+1. **Scope & Definition**  
+For purposes of this notice, “cookie” encompasses any text string, identifier, or storage object placed on your terminal equipment through automated server-client exchanges, including HTTP/HTTPS cookies, HTML5 local storage, service worker caches, fingerprinting scripts, and functionally equivalent tracking mechanisms.
+
+2. **Deployment Categories & Operational Purpose**  
+We instrument four tracked categories:  
+   • **Essential Cookies** – Auth tokens, CSRF protections, and session routing keys.

@@ -1,0 +1,11 @@
+Thanks for sharing the draft. I haven't seen the actual poster, so this note covers the issues that come up most often with conference posters. Please keep whatever already applies and ignore the rest.
+
+The most important question is whether a passerby can grasp your main finding in about ten seconds. Right now the takeaway should be stated in a single plain sentence near the top, in large type, ideally as the title or directly beneath it. If the title only names the topic, consider rewriting it to state the result. Everything else on the poster should support that one message.
+
+Look closely at the amount of text. Posters are read standing up, often from a few feet away, so dense paragraphs tend to go unread. Try cutting the background and methods sections to a few short sentences each, and let figures carry the results. Each figure should have a short caption saying what the reader should notice, not just what was plotted. Check that axis labels, legends, and data points are legible from a distance, and trim any chart elements that don't serve the main point.
+
+The layout should guide the eye through a clear order, usually left to right and top to bottom, with enough white space that sections are easy to tell apart. Keep the color palette limited and make sure the contrast between text and background is strong. Use consistent fonts and alignment throughout.
+
+Finish with a brief conclusion section of two or three clear statements, followed by contact information and, if appropriate, acknowledgments in smaller type. Once you've revised, try explaining the poster aloud in two minutes. Any place where you find yourself adding explanation that isn't on the page is probably a spot that needs work.
+
+I'd be glad to give more specific comments if you share the text or an image of the draft.

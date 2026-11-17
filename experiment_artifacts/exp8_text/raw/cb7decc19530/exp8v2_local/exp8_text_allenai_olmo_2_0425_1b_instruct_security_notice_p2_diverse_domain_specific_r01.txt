@@ -1,0 +1,23 @@
+Attention all employees and team members,
+
+Today, we're raising awareness regarding a critical issue that has been identified within our network: Phishing emails. These emails may appear as though they come from trusted sources, but they are designed to deceive and exploit our network and personal information. Our goal is to ensure a safer, more secure environment for all of us.
+
+**What to Look Out For:**
+
+* **Attachments from Uncertain Sources:** Simply opening an attachment may not always be safe. Some phishing attempts contain malicious attachments that can compromise your system’s integrity.
+* **Requests for Personal Information:** These emails often request sensitive information such as username, password, or financial data. Avoid providing such details unless you're absolutely sure of the sender's identity and the request's legitimacy.
+* **Unusual Language and Requests:** Be wary of emails that contain poor grammar, formatting, or requests you can't understand. Legitimate organizations typically ensure their communications are professional and understandable.
+* **Verify the Sender:** Ask yourself the question, "Who is trying to contact me?" Before responding to any suspicious emails, verify the sender's identity with trusted sources.
+
+Please stay vigilant and forward any suspicious emails to our IT Helpdesk for further assessment. Our safety and security are top priorities, and together we can ensure that our digital workplace remains a safe and trustworthy environment.
+
+Thank you for your attention to this important matter.
+
+Best regards,
+
+[Your Company Name]
+Security Team
+
+---
+
+This notice is crafted with accuracy and specificity for the domain and avoids common clichés seen in spam alerts or generic corporate communications.

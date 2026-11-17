@@ -1,0 +1,35 @@
+**ACCEPTABLE USE POLICY FOR SHARED NETWORK RESOURCES**
+
+**1. Purpose and Scope**
+This Acceptable Use Policy ("Policy") governs access to and use of the shared network resources operated by [Organization Name] (the "Organization"), including all computers, servers, wireless access points, internet connections, email systems, and stored data. This Policy applies to all employees, contractors, students, and guests ("Users") who connect to the network.
+
+**2. Authorized Use**
+Users may use the network for purposes related to their work, study, or other activities authorized by the Organization. Limited personal use is permitted provided it does not interfere with Organization operations, consume excessive resources, or violate this Policy.
+
+**3. Prohibited Activities**
+Users shall not use the network to:
+- (a) access, store, or transmit content that is unlawful, obscene, defamatory, or harassing;
+- (b) attempt to gain unauthorized access to any system, account, or data;
+- (c) install or distribute malware, or intentionally disrupt network services;
+- (d) share login credentials or use another person's account;
+- (e) infringe copyrights, licenses, or other intellectual property rights;
+- (f) conduct commercial activity unrelated to the Organization without written permission; or
+- (g) bypass or disable security controls, monitoring tools, or content filters.
+
+**4. Security Responsibilities**
+Users are responsible for safeguarding their credentials, keeping devices used on the network updated and protected, and promptly reporting suspected security incidents to [IT Department contact].
+
+**5. Shared Resource Etiquette**
+Users shall not monopolize bandwidth, storage, or processing capacity, and shall respect the files and workspaces of other users. Shared storage must not be used to hold personal media or other data unrelated to Organization activities.
+
+**6. Monitoring and Privacy**
+Users acknowledge that the Organization may monitor network traffic, system activity, and stored data to maintain security, ensure compliance, and manage resources, consistent with applicable law. Users should have no expectation of privacy in content stored on or transmitted through shared network resources.
+
+**7. Enforcement**
+Violations of this Policy may result in suspension of network access, disciplinary action up to and including termination or expulsion, and referral to law enforcement where applicable. The Organization reserves the right to remove unauthorized content without notice.
+
+**8. Acknowledgment**
+By connecting to or using the shared network, Users agree to comply with this Policy. Questions should be directed to [IT Department contact].
+
+*Effective Date: [Date]*
+*Last Reviewed: [Date]*

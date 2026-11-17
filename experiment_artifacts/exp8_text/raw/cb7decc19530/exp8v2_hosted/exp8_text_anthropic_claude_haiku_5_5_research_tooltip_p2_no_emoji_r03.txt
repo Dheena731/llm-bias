@@ -1,0 +1,1 @@
+Shaded band: the range where the true value likely falls (95% confidence). Wider band means more uncertainty.

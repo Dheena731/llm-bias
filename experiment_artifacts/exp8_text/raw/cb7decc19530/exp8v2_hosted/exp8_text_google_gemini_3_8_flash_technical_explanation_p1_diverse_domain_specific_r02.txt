@@ -1,0 +1,21 @@
+In web applications, latency is an architectural tax that compounds at every layer of the stack. Unlike bandwidth, which can be scaled by purchasing thicker pipes, latency is constrained by the speed of light in fiber, physical distance, and the operating system's network stack.
+
+Its impact breaks down into three distinct mechanics:
+
+### 1. The Perceptual Threshold
+Human perception treats feedback under **100 milliseconds** as instantaneous. When an interface responds within this window, the user feels direct manipulation—like flipping a physical switch. Once latency pushes an interaction past 100ms, the illusion breaks: the browser’s main thread feels sluggish, typing lags behind input, and users hesitate. At **1,000 milliseconds**, task focus fractures; the user's attention shifts from the workflow to the delay itself. This directly degrades Interaction to Next Paint (INP), signaling to both users and search crawlers that an application is unresponsive.
+
+### 2. The Compounding Network Cascade
+Web applications rarely execute single request-response cycles. A typical view render involves a waterfall of dependencies:
+* DNS resolution and TLS handshakes.
+* Fetching the initial HTML payload.
+* Critical-path CSS and JavaScript execution.
+* Downstream API calls to hydrate dynamic data.
+
+Over mobile networks or cross-continental routes where a single Round-Trip Time (RTT) can easily reach 80–150ms, a three-step waterfall burns half a second strictly waiting on packet transit—before the server or browser executes a single line of application code.
+
+### 3. Tail Latency Amplification
+In distributed backends, average latency ($p50$) hides operational failure; tail latency ($p95$ or $p99$) defines user reality. If a web client hits a gateway that fans out to ten internal microservices or database shards to construct a dashboard, the user's total latency is bound by the *slowest* dependency in that batch. An unoptimized database query or garbage collection pause on one background worker routinely stalls the entire client render.
+
+### The Takeaway
+High latency cannot be out-designed with loading spinners or masked with client-side caching after the fact. It dictates system architecture—forcing engineering teams toward edge computing, read-replicas closer to users, optimistic UI state updates, and aggressive payload co-location simply to preserve the illusion of a local application.

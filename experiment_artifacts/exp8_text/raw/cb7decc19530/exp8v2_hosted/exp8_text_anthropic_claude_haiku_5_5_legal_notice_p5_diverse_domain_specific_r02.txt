@@ -1,0 +1,27 @@
+**FENNIMORE COURT SHARED NETWORK: ACCEPTABLE USE NOTICE**
+
+Issued by the Fennimore Court Owners' Association (the "Association") to all unit occupants and registered guests. Effective March 1.
+
+**1. Scope.** This notice governs use of the building's shared internet line, the wired jacks in Units 1 through 12, and the networks named FC-Main and FC-Guest (together, the "Network"). It does not govern your own cellular data or any separate service you have contracted for yourself.
+
+**2. Shared capacity.** The Network runs on one 1 Gbps fiber line split among twelve units. Unit occupants may not run continuous high-volume transfers (backups, large dataset syncs, video server hosting, or peer-to-peer file sharing) between 7:00 p.m. and 11:00 p.m. Association staff may throttle any single device that exceeds 200 Mbps sustained for more than thirty minutes during those hours.
+
+**3. Prohibited activity.** The following are prohibited on the Network at all times:
+(a) cryptocurrency mining, on any device;
+(b) operating a public-facing server, VPN exit node, or proxy service that routes traffic for anyone other than the device owner;
+(c) scanning, probing, or attempting to access another unit's devices, printers, cameras, or storage;
+(d) downloading or distributing material that infringes copyright, where the account holder is on notice of the infringement;
+(e) connecting a device that has been used to send unsolicited bulk messages.
+
+**4. Devices in common areas.** Smart locks, door intercoms, the laundry-room kiosk, and the lobby camera system are managed by the Association on a separate VLAN. Do not attempt to join that VLAN or alter its configuration. Tenant-owned cameras or sensors must be placed on FC-Guest or on a unit-specific SSID, not FC-Main.
+
+**5. Guests.** Account holders are responsible for guests' use of FC-Guest. Guest sessions expire after 72 hours without renewal. Guests may not be given the FC-Main password.
+
+**6. Logs and monitoring.** The Network keeps connection metadata (device identifier, timestamps, destination domains, and bytes transferred) for 30 days. It does not record page content or message content. Logs are accessed only to diagnose outages, enforce this notice, or respond to a lawful request. Occupants have no expectation of privacy in the Association's equipment.
+
+**7. Enforcement.** For a first violation of Section 3, the Association will notify the account holder by email and may suspend the unit's access for up to 48 hours. Repeated or willful violations may result in permanent removal of the device or unit from the Network and assessment of any costs the Association incurs in remediation. Violations involving illegal content will be reported to the appropriate authorities.
+
+**8. Changes and disputes.** The Association may amend this notice with 14 days' written notice posted in the lobby and sent by email. Questions go to netadmin@fennimorecourt.example. Disputes about throttling or suspension must be raised in writing within 10 days; the Board will respond within 15 business days.
+
+Signed,
+Dana Okafor, Secretary, Board of Directors

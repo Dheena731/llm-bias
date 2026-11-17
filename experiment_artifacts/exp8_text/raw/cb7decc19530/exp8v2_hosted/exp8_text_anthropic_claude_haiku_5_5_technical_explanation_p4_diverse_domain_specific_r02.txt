@@ -1,0 +1,8 @@
+When someone loads a page, the browser asks a server to build it: it looks up records, runs templates, and sends back HTML plus images, CSS, and scripts. Caching means keeping copies of that work so it doesn't have to be redone for every request. It helps at several layers:
+
+- **Browser:** A response with `Cache-Control: max-age=604800` tells the browser to keep `app.css` and the logo for a week. On a return visit, those files load from disk, and no request leaves the machine.
+- **CDN edge:** A CDN node in Frankfurt can hold a copy of the product page. German visitors get it from Frankfurt instead of waiting on a round trip to the origin server in Virginia, which can save 100 ms or more per request.
+- **Server page cache:** If a product page gets 2,000 requests a minute, rendering it each time means 2,000 template renders and database queries. Storing the rendered HTML for 60 seconds in Redis turns that into one render per minute, with the rest served straight from memory.
+- **Query cache:** A "top sellers this week" sidebar might run a slow aggregate query. Caching its result for 10 minutes spares the database from repeating it on every page view.
+
+The cost is staleness. A cached price stays wrong until the entry expires or gets purged, so good caching depends on choosing sensible lifetimes and clearing entries when the underlying data changes.

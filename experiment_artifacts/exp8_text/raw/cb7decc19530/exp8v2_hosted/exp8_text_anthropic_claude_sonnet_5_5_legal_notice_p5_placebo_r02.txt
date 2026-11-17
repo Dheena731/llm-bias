@@ -1,0 +1,37 @@
+# NOTICE OF ACCEPTABLE USE: SHARED NETWORK
+
+**To all users of this network:** By connecting to or using this network, you agree to the terms below. If you do not agree, do not connect to or use the network.
+
+**1. Definitions**
+- "Network" means the shared internet and data connection you are using, including its wired and wireless access points and the equipment that supports them.
+- "Administrator" means the person or organization that operates the Network and makes it available to you.
+- "User" means anyone who connects to or uses the Network.
+
+**2. Permitted Use**
+Users may use the Network only for lawful purposes and in a way that does not interfere with other Users' ability to use it.
+
+**3. Prohibited Use**
+Users must not:
+a) Violate any applicable law or regulation, or help anyone else do so.
+b) Access, attempt to access, or tamper with any device, account, or data without authorization.
+c) Introduce malicious software, or deliberately disrupt or degrade the Network or any connected device.
+d) Intercept or monitor other Users' communications without authorization.
+e) Download, share, or distribute material in violation of copyright or other intellectual property rights.
+f) Send unsolicited bulk messages or engage in fraud or impersonation.
+g) Share, sell, or extend Network access to any person the Administrator has not authorized.
+h) Use an excessive share of the Network's capacity in a way that noticeably impairs other Users.
+
+**4. Monitoring**
+The Administrator may monitor Network activity to protect the Network, enforce this Notice, and comply with the law. Users should not expect their Network activity to be private from the Administrator.
+
+**5. Enforcement**
+If the Administrator believes a User has breached this Notice, the Administrator may limit, suspend, or end that User's access, with or without prior warning. Where the law requires or permits, the Administrator may also report the conduct to the appropriate authorities.
+
+**6. Responsibility**
+Each User is responsible for their own activity on the Network and for the security of their own devices. A User who breaches this Notice may be held responsible for resulting loss or damage to the extent the law allows.
+
+**7. No Guarantee of Service**
+The Network is provided "as available." The Administrator does not promise that it will be uninterrupted, error-free, or secure, and may change or discontinue it at any time.
+
+**8. Changes**
+The Administrator may update this Notice. Continued use of the Network after an update means you accept the updated Notice.

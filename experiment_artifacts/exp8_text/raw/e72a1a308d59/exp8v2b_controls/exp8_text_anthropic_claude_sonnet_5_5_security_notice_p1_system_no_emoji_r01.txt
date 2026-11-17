@@ -1,0 +1,29 @@
+**SECURITY NOTICE: Password Reuse**
+
+**To:** All Employees
+**From:** Information Security Team
+**Subject:** Do Not Reuse Passwords Across Accounts
+
+**Overview**
+
+Reusing the same password on multiple accounts is one of the most common causes of account compromise. When one service suffers a data breach, attackers take the exposed credentials and try them on other systems, including email, banking, and our company network. This technique is called credential stuffing, and it is highly effective.
+
+**Required Actions**
+
+- Never use your work password for personal accounts, or your personal passwords for work accounts.
+- Use a unique password for every account and system.
+- Create passwords of at least 14 characters. A passphrase of several unrelated words is easier to remember and harder to crack.
+- Use the company-approved password manager to generate and store your credentials.
+- Enable multi-factor authentication wherever it is available.
+
+**If You Suspect a Problem**
+
+If you believe a password has been exposed, or you reused a password in the past, change it immediately and report it to the Security Team at security@company.example or ext. 5500. Prompt reporting helps us limit damage, and no one will be penalized for reporting in good faith.
+
+**Reminder**
+
+The IT department will never ask for your password by email, phone, or chat. Report any such requests as suspected phishing.
+
+Thank you for helping keep our organization secure.
+
+*Information Security Team*

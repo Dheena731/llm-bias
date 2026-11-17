@@ -1,0 +1,12 @@
+**Reviewer Comment**
+
+The central research question, "How does social media affect well-being?", is too broad to guide the study design or to be answered by the methods described. "Social media" covers many platforms with very different features, and "well-being" is not defined. The manuscript does not specify whether well-being refers to life satisfaction, depressive symptoms, loneliness, or something else, nor does it state the direction or mechanism of the hypothesized effect.
+
+I recommend that the authors:
+
+1. Specify the platform(s) or type of use (e.g., passive scrolling versus active posting) under study.
+2. Define the outcome construct and name the measure used to assess it.
+3. State a directional, testable hypothesis, along with the mechanism or theory that motivates it.
+4. Clarify the population and time frame to which the question applies.
+
+With these revisions, the question would map directly onto the analysis and allow readers to judge whether the conclusions follow from the evidence.

@@ -1,0 +1,1 @@
+This date-range selector allows you to choose a specific period of time by selecting a start date and an end date. You can use the calendar interface to pick the dates or manually enter them in the format required. The selected date range will be used to filter the data or perform the desired action, and you can adjust the range as needed to refine your results.

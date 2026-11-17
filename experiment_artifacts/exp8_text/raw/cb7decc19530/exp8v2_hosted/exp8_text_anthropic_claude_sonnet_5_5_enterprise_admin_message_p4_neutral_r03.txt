@@ -1,0 +1,28 @@
+**Subject: Action Required: Q[X] Quarterly Access Review**
+
+**Date:** [Date]
+**From:** [IT Security / Compliance Team]
+**To:** All Managers and System Owners
+
+Hello everyone,
+
+The quarterly user access review begins on **[start date]** and must be completed by **[due date]**. These reviews help us keep our systems secure and meet audit and compliance requirements.
+
+**What you need to do:**
+1. Open the access review report sent to your email or available in [tool/portal name].
+2. Confirm that each team member's access is still appropriate for their current role.
+3. Flag any access that should be removed or changed, including accounts for employees who have left or transferred.
+4. Submit your review by the due date.
+
+**Please note:**
+- Access that is not reviewed by the deadline may be suspended.
+- Privileged and administrator accounts will receive additional scrutiny.
+- Approved changes will be processed within [X] business days.
+
+If you have questions or need help with the review, contact [IT Help Desk / email / extension].
+
+Thank you for your prompt attention and for helping keep our systems secure.
+
+Best regards,
+[Name]
+[Title / Department]

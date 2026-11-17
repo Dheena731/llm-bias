@@ -1,0 +1,16 @@
+**Introducing Your Monthly Spending Summary**
+
+Starting this month, you'll get a spending summary at the beginning of each month that covers everything from the previous month in one place.
+
+Each summary includes:
+
+- **Total spending** for the month, compared with the month before
+- **Top categories**, such as groceries, dining, transportation, and subscriptions, ranked by amount
+- **Recurring charges** we detected, so you can review subscriptions you may have forgotten
+- **Unusual transactions**, flagged if a charge is much larger than your typical spending in that category
+
+You can find the summary in the Insights tab. We'll also send a notification when it's ready. If you'd rather not receive notifications, you can turn them off in Settings under Notifications.
+
+The summary is based only on transactions from linked accounts, and categories can be corrected at any time. Corrections update the totals and future summaries automatically.
+
+We'd love your feedback. Let us know what's useful and what you'd like to see added by using the Feedback button in the Insights tab.

@@ -1,0 +1,12 @@
+Here are a few options, depending on who you are sending it to:
+
+**Option 1: For Customers/Users (Email or App Banner)**
+> **Update on Payment Processing Delays**  
+> We are currently experiencing a temporary delay with our payment processing system. If you recently made a payment, please rest assured that your transaction is in the queue and you will not be charged twice. Our team is actively working to resolve this, and we expect normal processing to resume shortly. Thank you for your patience, and we apologize for any inconvenience.
+
+**Option 2: Short & Direct (SMS, Push Notification, or Status Page)**
+> **Payment Processing Notice:** We are currently experiencing delays in processing payments. Our team is investigating the issue and working on a fix. Please do not re-submit your transaction. We will provide an update as soon as this is resolved.
+
+**Option 3: For Vendors or Contractors (B2B/Invoicing)**
+> **Notice Regarding Payment Delay**  
+> Due to a brief technical issue with our banking partner, processing for scheduled payments is currently delayed by [1–2 business days]. We are monitoring the situation closely to ensure funds are released as quickly as possible. We apologize for the delay and appreciate your understanding. Please reach out if you have any urgent concerns.

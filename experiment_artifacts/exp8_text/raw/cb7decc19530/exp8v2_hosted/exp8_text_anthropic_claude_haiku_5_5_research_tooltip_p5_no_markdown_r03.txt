@@ -1,0 +1,1 @@
+Click Export to download the query results as a CSV file. The file will include all rows returned by your current query.

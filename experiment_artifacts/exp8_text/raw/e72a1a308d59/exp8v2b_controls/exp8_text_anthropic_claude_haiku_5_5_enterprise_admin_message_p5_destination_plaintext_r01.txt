@@ -1,0 +1,19 @@
+Hello team,
+
+We will be migrating our email system to a new platform on Saturday, March 15, starting at 6:00 PM and expected to finish by 10:00 AM on Sunday, March 16.
+
+What to expect:
+- Email may be unavailable for part of the migration window.
+- Emails sent during this time should be delivered once the migration is complete, but may be delayed.
+- Your existing messages and contacts will be transferred automatically.
+- You may need to sign in again on your phone and other devices after the migration.
+
+What you need to do:
+- Please avoid making changes to your mailbox settings or folders during the migration window.
+- Save any urgent drafts before 6:00 PM on Saturday.
+- If you experience problems after the migration, contact the IT help desk at helpdesk@example.com.
+
+Thank you for your patience as we make this change. We will send a confirmation once the migration is complete.
+
+Best regards,
+IT Department

@@ -1,0 +1,5 @@
+Here is a short admin message:
+
+**Scheduled Maintenance Notice**
+
+The dashboard will be undergoing scheduled maintenance on [Date] from [Time] to [Time]. During this time, the dashboard will be unavailable. We apologize for any inconvenience this may cause and appreciate your patience as we perform necessary updates to improve performance and reliability. If you have any questions or concerns, please don't hesitate to reach out. Thank you for your understanding.

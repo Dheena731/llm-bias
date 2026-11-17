@@ -1,0 +1,226 @@
+{
+  "description": "Experiment 8 v2, OLMo 2 7B stage-wise replication: same prompts and conditions as the 1B study; all four checkpoints quantized to 4-bit with MLX.",
+  "randomize_seed": 20261117,
+  "routes": [],
+  "local_routes": [
+    {
+      "model": "allenai/OLMo-2-1124-7B",
+      "model_family": "olmo2_7b",
+      "route_stage_label": "base",
+      "stage_provenance": "hf_allenai_OLMo-2-1124-7B",
+      "backend": "mlx"
+    },
+    {
+      "model": "allenai/OLMo-2-1124-7B-SFT",
+      "model_family": "olmo2_7b",
+      "route_stage_label": "sft",
+      "stage_provenance": "hf_allenai_OLMo-2-1124-7B-SFT",
+      "backend": "mlx"
+    },
+    {
+      "model": "allenai/OLMo-2-1124-7B-DPO",
+      "model_family": "olmo2_7b",
+      "route_stage_label": "dpo",
+      "stage_provenance": "hf_allenai_OLMo-2-1124-7B-DPO",
+      "backend": "mlx"
+    },
+    {
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "model_family": "olmo2_7b",
+      "route_stage_label": "instruct_rlvr",
+      "stage_provenance": "hf_allenai_OLMo-2-1124-7B-Instruct",
+      "backend": "mlx"
+    }
+  ],
+  "prompt_families": [
+    {
+      "id": "social_media_update",
+      "domain": "social_media",
+      "prompts": [
+        "Write a short social media update announcing a new feature.",
+        "Write a short social media post thanking users for a milestone.",
+        "Write a short social media update about a community event this weekend.",
+        "Write a short social media post sharing a tip for using a calendar app.",
+        "Write a short social media update apologizing for a brief service outage."
+      ]
+    },
+    {
+      "id": "marketing_launch_note",
+      "domain": "marketing",
+      "prompts": [
+        "Write a short marketing launch note for a small business app.",
+        "Write a short marketing note announcing a new coffee subscription.",
+        "Write a short product announcement for a budgeting spreadsheet template.",
+        "Write a short marketing email introducing a bike repair service.",
+        "Write a short launch note for a language-learning podcast."
+      ]
+    },
+    {
+      "id": "recipe_tip",
+      "domain": "recipe",
+      "prompts": [
+        "Write a short cooking tip for preparing a weeknight dinner.",
+        "Write a short tip for storing fresh herbs.",
+        "Write a short cooking tip for making rice less sticky.",
+        "Write a short tip for planning lunches for a busy week.",
+        "Write a short tip for seasoning roasted vegetables."
+      ]
+    },
+    {
+      "id": "technical_explanation",
+      "domain": "technical",
+      "prompts": [
+        "Write a short explanation of why latency matters in web applications.",
+        "Write a short explanation of what a database index does.",
+        "Write a short explanation of why software updates matter.",
+        "Write a short explanation of how caching speeds up a website.",
+        "Write a short explanation of what an API rate limit is."
+      ]
+    },
+    {
+      "id": "legal_notice",
+      "domain": "legal",
+      "prompts": [
+        "Write a short legal-style notice about changes to account terms.",
+        "Write a short legal-style notice about an updated privacy policy.",
+        "Write a short legal-style notice about cookie usage on a website.",
+        "Write a short legal-style notice about refund eligibility.",
+        "Write a short legal-style notice about acceptable use of a shared network."
+      ]
+    },
+    {
+      "id": "academic_feedback",
+      "domain": "academic",
+      "prompts": [
+        "Write a short academic feedback note on a draft literature review.",
+        "Write a short feedback note on a student's methods section.",
+        "Write a short reviewer comment on an unclear research question.",
+        "Write a short feedback note on a conference poster draft.",
+        "Write a short comment on missing citations in an essay."
+      ]
+    },
+    {
+      "id": "security_notice",
+      "domain": "security",
+      "prompts": [
+        "Write a short workplace security notice about password reuse.",
+        "Write a short workplace notice about phishing emails.",
+        "Write a short notice reminding staff to lock their screens.",
+        "Write a short notice about enabling two-factor authentication.",
+        "Write a short notice about reporting a lost company laptop."
+      ]
+    },
+    {
+      "id": "finance_update",
+      "domain": "finance",
+      "prompts": [
+        "Write a short update explaining a new monthly spending summary.",
+        "Write a short note explaining a change to card transaction fees.",
+        "Write a short update about a new savings goal feature.",
+        "Write a short message explaining an end-of-year tax statement.",
+        "Write a short update about delayed payment processing."
+      ]
+    },
+    {
+      "id": "public_service_notice",
+      "domain": "public_service",
+      "prompts": [
+        "Write a short public-service notice about library opening hours.",
+        "Write a short public notice about a road closure.",
+        "Write a short notice about recycling collection changes.",
+        "Write a short public notice about a heat advisory.",
+        "Write a short notice about polling station locations."
+      ]
+    },
+    {
+      "id": "health_reminder",
+      "domain": "health",
+      "prompts": [
+        "Write a short reminder for users to review their weekly fitness progress.",
+        "Write a short reminder to drink enough water during the day.",
+        "Write a short reminder to book an annual health checkup.",
+        "Write a short reminder to take short breaks from screens.",
+        "Write a short reminder about refilling a prescription."
+      ]
+    },
+    {
+      "id": "enterprise_admin_message",
+      "domain": "enterprise",
+      "prompts": [
+        "Write a short admin message about a scheduled dashboard maintenance window.",
+        "Write a short admin message about a new expense approval workflow.",
+        "Write a short message announcing a change to the VPN client.",
+        "Write a short admin notice about quarterly access reviews.",
+        "Write a short message about an upcoming email migration."
+      ]
+    },
+    {
+      "id": "research_tooltip",
+      "domain": "research",
+      "prompts": [
+        "Write a concise tooltip explaining a dataset filter in a research tool.",
+        "Write a concise tooltip explaining a confidence interval in a chart.",
+        "Write a concise tooltip explaining a date-range selector.",
+        "Write a concise tooltip explaining what a missing-value marker means.",
+        "Write a concise tooltip explaining how to export query results."
+      ]
+    }
+  ],
+  "conditions": {
+    "neutral": {
+      "label": "Neutral prompt",
+      "suffix": ""
+    },
+    "no_emoji": {
+      "label": "No emoji",
+      "suffix": "Do not use emoji."
+    },
+    "no_markdown": {
+      "label": "No Markdown only",
+      "suffix": "Do not use Markdown formatting."
+    },
+    "plain_no_markdown": {
+      "label": "Plain no Markdown",
+      "suffix": "Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links."
+    },
+    "placebo": {
+      "label": "Instruction-matched placebo",
+      "suffix": "Write carefully. Do not leave out the main point, invent facts, contradict yourself, use placeholder text, introduce undefined jargon, or address the wrong audience."
+    },
+    "diverse_domain_specific": {
+      "label": "Diverse domain-specific",
+      "suffix": "Make the writing specific to the domain and distinct from generic AI-generated examples. Avoid stock launch-copy language."
+    },
+    "polished_but_plain": {
+      "label": "Polished but plain",
+      "suffix": "Make the writing polished and useful, but keep it as plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links."
+    },
+    "system_plain": {
+      "label": "Plain instruction in system prompt",
+      "suffix": "",
+      "system": "Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links."
+    }
+  },
+  "local_excluded_conditions": [
+    "system_plain"
+  ],
+  "tracks": {
+    "text": {
+      "full_repeats": 3,
+      "smoke_repeats": 1,
+      "local_repeats": 1,
+      "api_parameters": {
+        "temperature": 0.8,
+        "max_tokens": 1500,
+        "timeout": 120
+      },
+      "local_parameters": {
+        "temperature": 0.8,
+        "max_tokens": 768,
+        "quantize_bits": 4
+      }
+    }
+  },
+  "output_prefix": "exp8_v2_presentation_priors",
+  "local_output_prefix": "exp8_v2_olmo7b_stagewise"
+}

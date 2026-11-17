@@ -1,0 +1,7 @@
+We are aware that some payments submitted over the past day have not been processed on the expected schedule. The delay began when our payment provider experienced an issue with its transaction queue, which slowed the handling of new and pending payments. Our engineering and finance teams have been working with the provider since the problem was identified, and processing has resumed for a portion of the affected transactions.
+
+Most payments that were delayed are expected to complete within the next several hours. Payments that have not cleared by the end of the day will be reviewed individually, and we will confirm their status directly with the affected accounts. No payments have been lost, and no duplicate charges have been created. Funds that were held during the delay will be released as each transaction is settled.
+
+If you have a payment that is still pending after 24 hours, please contact our support team with the transaction reference number so we can trace it quickly. We will send another update by 5:00 p.m. today, or sooner if processing is fully restored before then.
+
+We recognize how disruptive this is, particularly for customers who depend on timely payments, and we appreciate your patience while we resolve it.

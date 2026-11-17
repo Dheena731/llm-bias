@@ -1,0 +1,1 @@
+Indicates that no value is available or has been provided.

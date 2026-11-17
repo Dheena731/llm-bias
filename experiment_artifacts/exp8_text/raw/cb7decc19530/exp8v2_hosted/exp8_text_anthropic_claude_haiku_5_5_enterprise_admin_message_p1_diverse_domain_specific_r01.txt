@@ -1,0 +1,18 @@
+**Subject: ShipView down Saturday night, 10 PM to 2 AM ET**
+
+Team,
+
+ShipView will be offline Saturday from 10:00 PM to 2:00 AM ET while Dana's team moves the carrier-cutoff timers onto the new database cluster. The cutoff timers are the part that matters for you. They currently read from the old cluster, and the move has to happen with no dock scans running.
+
+During the window:
+- Carrier cutoff countdowns and the "trailer on dock" board will be blank.
+- Pick-rate charts will stop updating. They'll backfill once the sync finishes, so Sunday's numbers should be complete.
+- Scanner check-ins still work. Scans queue on the handhelds and upload when ShipView comes back.
+
+For the 6 AM and 2 PM carrier pickups Sunday, use the paper cutoff sheet printed from the WMS under Reports > Daily Manifest. Shift leads, please print Saturday's by 9:30 PM.
+
+If the sync runs long, I'll post an update in #warehouse-ops by 1:30 AM. If you see anything odd on Sunday morning, such as missing scans or timers showing the wrong carrier, message me directly at 555-0148 rather than filing a ticket. The ticket queue won't be staffed until 7.
+
+Thanks,
+Marcus Oyelaran
+Warehouse Systems

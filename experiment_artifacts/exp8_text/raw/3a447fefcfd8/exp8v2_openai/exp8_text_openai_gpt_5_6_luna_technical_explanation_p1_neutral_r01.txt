@@ -1,0 +1,1 @@
+Latency matters in web applications because users expect pages, interactions, and responses to happen quickly. Even small delays can make an application feel slow, frustrate users, and increase the likelihood that they leave. Low latency improves user experience, supports faster transactions, and can increase engagement, conversions, and overall system efficiency.

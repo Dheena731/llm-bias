@@ -1,0 +1,14 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a new Monthly Spending Summary to help you see where your money goes at a glance.
+
+Each month, you'll receive a clear overview that includes:
+
+- **Total spending** for the month, compared with the previous month
+- **Top categories**, so you can see where most of your money went
+- **Notable changes**, such as categories that rose or fell significantly
+- **Upcoming recurring charges** to help you plan ahead
+
+The summary is available under **Reports** in your account and will also arrive by email on the first day of each month. You can turn off the email in your notification settings at any time.
+
+We built this based on your feedback. We hope it makes budgeting simpler and helps you spot patterns sooner. As always, tell us what you think in the feedback section of the app.

@@ -1,0 +1,14 @@
+Most budgeting templates collapse under their own weight: either the formulas lag after 500 rows, or a single pasted cell breaks the `SUMIFS` that power the dashboard. 
+
+We built **Ledger/One** to be the spreadsheet we actually wanted to use: lightweight, structurally sound, and built around cash-flow reality rather than arbitrary categories.
+
+Here is how it’s engineered:
+
+* **Single-ledger architecture:** You don’t duplicate tabs for every month. You paste raw CSVs into one continuous ledger. The entire dashboard updates via modern dynamic array formulas, meaning the sheet calculates instantly and never requires formula-dragging.
+* **True sinking funds:** It separates monthly operating expenses from amortized annual costs (car insurance, property taxes, holiday travel). You see exactly how much cash is committed versus what is truly liquid.
+* **Transaction splitting without math errors:** Native support for reimbursements and split payments, so getting paid back on Venmo doesn't distort your baseline grocery spend.
+* **Zero scripts, zero macros:** No third-party AppScript permissions to approve, no external APIs that break, and no bank connections that disconnect every two weeks.
+
+It runs in Google Sheets and Excel, handles up to 10,000 transactions without latency, and is formatted strictly in high-contrast mono-type—no pastel illustrations or decorative charts.
+
+It’s available now for $19. Pay once; own the raw sheet forever.

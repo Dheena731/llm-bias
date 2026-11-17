@@ -1,0 +1,9 @@
+Notice: Please Enable Two-Factor Authentication
+
+To help protect your account and personal information, we strongly encourage all users to turn on two-factor authentication. This feature adds a second layer of security by requiring a one-time code in addition to your password each time you sign in from a new device or location. Even if someone learns your password, they will not be able to access your account without that second step.
+
+Setting it up takes only a few minutes. Open your account settings, choose the security section, and select the option to enable two-factor authentication. You will be asked to choose a verification method, such as an authenticator app on your phone or a text message sent to your mobile number. An authenticator app is generally the safer choice, since text messages can sometimes be intercepted. Follow the on-screen instructions to link your chosen method, then enter the confirmation code to finish.
+
+When setup is complete, you will be shown a set of backup codes. Please save these in a secure place, such as a password manager or a locked drawer, so you can still sign in if you lose your phone.
+
+We recommend completing this step by the end of the month. If you run into any trouble or have questions, our support team is available to help at any time. Thank you for helping us keep your account and our community secure.

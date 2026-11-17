@@ -1,0 +1,1 @@
+**Confidence interval:** The shaded range shows the uncertainty around the estimate. A 95% interval indicates the range expected to contain the true value with 95% confidence.

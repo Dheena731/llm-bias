@@ -1,0 +1,1 @@
+Indicates the range where the true value likely falls. Width reflects uncertainty: wider spans mean less precision, narrower spans mean more. A 95% confidence interval means that if this analysis were repeated many times, 95% of the calculated ranges would contain the actual population value.

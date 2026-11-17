@@ -1,0 +1,1 @@
+In a parcel-delivery database, an index on `tracking_number` works like a sorted lookup guide: when a customer enters a tracking number, the system can locate the shipment without checking every row in the shipments table. This makes searches faster, though the index uses storage and must be updated whenever shipments are added or tracking numbers change.

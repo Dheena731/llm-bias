@@ -1,0 +1,1 @@
+An API rate limit sets how many requests a client can make within a defined period—for example, 1,000 calls per hour per API key. Once that limit is exceeded, the API may return HTTP `429 Too Many Requests` and ask the client to wait before trying again. This controls traffic, protects backend services, and prevents one integration from consuming disproportionate capacity.

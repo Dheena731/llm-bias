@@ -1,0 +1,9 @@
+Updates matter because of timing. When a vendor patches a vulnerability, the patch also shows attackers where the flaw was. People diff the old and new binaries, and working exploits for serious bugs can appear within days. An unpatched machine is no more vulnerable than it was yesterday, but the hole is now documented and cheap to exploit.
+
+This is how most real breaches happen. Microsoft released the fix for the SMB flaw behind WannaCry two months before the worm spread in 2017, and patched machines were largely spared. Equifax was breached through an Apache Struts bug that had a public fix for weeks.
+
+Security isn't the only reason. Software also breaks when its surroundings change, even if its own code doesn't. Root certificates expire (older devices that never updated stopped trusting Let's Encrypt sites when a root lapsed in 2021). Governments change daylight saving rules, so time zone data goes stale. TLS versions get retired, and APIs get shut off.
+
+Staying current also keeps each update small. Applying a month of patches is routine. Applying three years of them can mean schema changes, removed settings, and a migration project that no one wants to own.
+
+Updates do sometimes cause problems, but the answer is to stage them, not skip them. Roll out to a few machines first, keep backups, and know how to roll back.

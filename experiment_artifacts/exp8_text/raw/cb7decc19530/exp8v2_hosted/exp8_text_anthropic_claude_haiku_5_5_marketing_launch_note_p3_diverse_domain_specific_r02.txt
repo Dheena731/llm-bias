@@ -1,0 +1,22 @@
+**Sinking Funds 2.0: a budget sheet that handles the third Friday**
+
+We rebuilt the budget template we've been sharing since 2021. It's still a plain spreadsheet that runs in Google Sheets, Excel, and Numbers, with no macros and no account to create.
+
+**What changed**
+
+- **Pay calendar instead of monthly columns.** Enter your pay dates once. Months with three paychecks turn amber, so the extra check no longer inflates your "spare" number. That was the flaw that made the old version unreliable for anyone paid every two weeks.
+- **Sinking funds with due dates.** Car registration, the dentist, holiday gifts: each gets a target amount, a due date, and an automatic monthly set-aside. If a bill is due sooner than your balance allows, its row turns red.
+- **One honest number.** The front tab shows income minus fixed costs minus set-asides, labeled "actually free." We removed the pie chart.
+- **Month-close tab.** A ten-item checklist: reconcile the card, move the surplus to your buffer, check whether the electric bill crept up again.
+
+**What didn't change**
+
+Your data stays in your file. Nothing syncs or phones home.
+
+**Get it**
+
+Free to download. A six-minute setup video (no music, just the spreadsheet) is linked from the download page.
+
+**Known gap**
+
+There's no multi-currency support yet. If you need it, post in the Issues tab and we'll see how many people ask.

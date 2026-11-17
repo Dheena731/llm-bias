@@ -1,0 +1,27 @@
+I don't have the draft itself, so this is a general feedback note you can adapt. If you share the poster text or an image description, I can tailor it.
+
+---
+
+**Feedback on Conference Poster Draft**
+
+**Overall impression:** The poster has a clear research focus and a solid foundation. With some changes to hierarchy and concision, it will be easier to read from several feet away, which is how most viewers will first encounter it.
+
+**Strengths**
+- The topic and its relevance are clear.
+- The logical flow (background, methods, results, conclusions) is easy to follow.
+- The figures are relevant to the main findings.
+
+**Suggestions**
+1. **Lead with the takeaway.** Add a one-sentence main finding near the top or in a prominent conclusion box. A passerby should grasp your contribution in under 10 seconds.
+2. **Cut text.** Aim for roughly 300 to 500 words total. Convert dense paragraphs into short bullets or captions, and keep only the background needed to understand your question.
+3. **Strengthen the visual hierarchy.** Make the title, section headings, and key figures clearly larger than body text. Body text should be readable from about 1.5 meters away (24 pt or larger).
+4. **Improve the figures.** Enlarge them, label axes legibly, and add a brief caption stating what the viewer should notice. Avoid reproducing full tables when a simple plot would do.
+5. **Check layout and spacing.** Leave white space between sections, align elements to a grid, and keep the reading order obvious (for example, left to right in columns).
+6. **Limit color and font choices.** Use two or three colors with strong contrast, and one or two typefaces.
+7. **Conclusions and next steps.** Keep these to three or four concise points, and add brief contact information or a QR code for the paper or data.
+
+**Next step:** Try a quick test by showing the poster to a colleague outside your subfield for 30 seconds and asking what they remember. Revise based on what they miss.
+
+---
+
+Send the draft whenever you like and I'll give more specific comments.

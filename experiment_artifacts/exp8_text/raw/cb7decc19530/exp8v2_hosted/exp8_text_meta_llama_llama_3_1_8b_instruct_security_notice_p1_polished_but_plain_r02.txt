@@ -1,0 +1,9 @@
+Password Reuse Security Notice
+
+In order to maintain the security of our systems and protect sensitive information, all employees are reminded to follow best practices when creating and managing their passwords.
+
+Reusing passwords from personal accounts or other work-related accounts is not acceptable. This practice can create a vulnerability in our system if an unauthorized party gains access to one of your accounts. Passwords should be unique and not linked to any other account.
+
+To maintain the security of our systems, we recommend that you create strong, unique passwords for all of your work-related accounts. If you have any concerns or questions about password security, please reach out to the IT department for guidance.
+
+Your cooperation in maintaining strong, unique passwords will help protect our systems and ensure the confidentiality, integrity, and availability of our sensitive information.

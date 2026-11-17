@@ -1,0 +1,16 @@
+**Subject:** Urgent: Cloned SharePoint notifications and fake expense policy updates
+
+This morning, mail filters caught roughly forty external messages claiming to contain updates to the Q3 travel and expense policy. The links point to a credential-harvesting landing page disguised as our standard login portal.
+
+**Indicators from this wave:**
+* **Sender:** Display name says "Finance Operations," but the actual envelope address originates from `@notifications-sharepoint-docs[.]com`, not an internal address.
+* **Destination:** The link directs to a Cloudflare Workers URL, not our single sign-on gateway (`company.okta.com`).
+* **Behavior:** The page prompts for an MFA push or code even if you already have an active browser session open.
+
+**Immediate actions:**
+
+1. **If you entered your password or approved an MFA push:** 
+   Ping the on-call team directly in Slack at `#it-emergencies` immediately. Do not submit a standard ticket; we need to invalidate the active session token manually.
+
+2. **If you only received the email:** 
+   Click the **Report Phish** add-in directly on the message ribbon. This extracts the headers and purges identical copies from other inboxes automatically. Please do not forward the message to colleagues to ask if it looks legitimate.

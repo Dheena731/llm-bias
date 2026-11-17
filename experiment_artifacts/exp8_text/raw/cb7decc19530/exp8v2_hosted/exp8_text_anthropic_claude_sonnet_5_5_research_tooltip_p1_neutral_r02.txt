@@ -1,0 +1,7 @@
+**Filter datasets**
+Narrow results by criteria such as topic, date range, file format, license, or access level. Multiple filters work together (AND), so each one you add shows fewer, more specific datasets. Select **Clear all** to reset.
+
+**Shorter version (about 15 words):**
+Narrow datasets by topic, date, format, or license. Combined filters show only results matching all criteria.
+
+If you tell me the specific filter (e.g., "Publication Year" or "Data Access"), I can tailor the wording to it.

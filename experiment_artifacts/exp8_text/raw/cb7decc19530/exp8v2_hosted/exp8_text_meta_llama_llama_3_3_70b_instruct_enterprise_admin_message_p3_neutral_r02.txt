@@ -1,0 +1,3 @@
+Here is a short message announcing a change to the VPN client:
+
+"Important Update: Our VPN client will be undergoing a change, effective [Date]. The updated client will provide enhanced security features and improved performance. Please note that you may be prompted to download and install the new client when you next connect to the VPN. If you have any questions or concerns, please reach out to our IT department for assistance."

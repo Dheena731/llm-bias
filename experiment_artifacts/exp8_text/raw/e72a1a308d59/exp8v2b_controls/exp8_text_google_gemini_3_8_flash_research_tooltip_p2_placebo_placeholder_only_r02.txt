@@ -1,0 +1,1 @@
+This range shows where the true value is statistically likely to fall. A narrower range indicates greater precision, while a wider range reflects higher uncertainty.

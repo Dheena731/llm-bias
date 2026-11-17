@@ -1,0 +1,12 @@
+Here are a few options, depending on where you're sending the reminder:
+
+**Option 1: Short & punchy (Great for push notifications)**
+> **Another week stronger! 💪** 
+> Take 2 minutes to review your weekly fitness progress, celebrate your wins, and set your goals for next week. [Check My Stats]
+
+**Option 2: Motivational (Great for in-app pop-ups)**
+> **Look how far you’ve come this week! 📈** 
+> Your weekly summary is ready. Tap here to see your workouts, streaks, and progress toward your goals. Every step counts!
+
+**Option 3: Quick & direct (Great for SMS)**
+> Weekly check-in: Consistency is key! Tap the link to view your weekly fitness recap and keep your momentum going: [Link]

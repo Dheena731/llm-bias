@@ -1,0 +1,15 @@
+**Subject: You shouldn’t be doing paperwork at 9:00 PM on a Sunday.**
+
+Most business software is designed by people who sit at desks for people who sit at desks. 
+
+If your workday happens in a truck, behind a counter, or on a job site, you don’t need an “enterprise ecosystem.” You just need to quote a job from a parking lot, text the customer an invoice before you drive away, and stop keeping a graveyard of crumpled receipts in your cup holder.
+
+We built **Benchwork** to handle the dead time between doing the work and actually getting paid for it:
+
+*   **Quotes sent before you leave the driveway:** Build clean estimates in two minutes flat, right from your phone.
+*   **One-tap approvals & deposits:** Customers sign and pay via a secure text link—no PDF downloads, no logins required on their end.
+*   **Receipt capture that actually reads the paper:** Snap a photo of your supply run; it logs the tax, the vendor, and matches it to the right job file immediately.
+
+No bloated feature lists. No 40-step setup wizards. Just a clean, fast tool built to make sure you get paid for what you did today before your dinner goes cold.
+
+It’s live today on iOS and Android. Take it on your next job run—the first 30 days are on us, no card required.

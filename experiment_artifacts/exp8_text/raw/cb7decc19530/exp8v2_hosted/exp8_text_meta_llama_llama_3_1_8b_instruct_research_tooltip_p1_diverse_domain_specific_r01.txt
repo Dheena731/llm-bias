@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"**Filter by Anatomical Region**: Select a specific region of the brain or body to isolate data related to that area. Use this filter to compare outcomes, frequencies, or other metrics across different regions, facilitating insights into disease patterns, injury mechanisms, or treatment efficacy."
+
+This tooltip is specific to the domain of biomedical research and is written in a clear and concise manner. It avoids generic language and provides a distinct and relevant explanation of the dataset filter.

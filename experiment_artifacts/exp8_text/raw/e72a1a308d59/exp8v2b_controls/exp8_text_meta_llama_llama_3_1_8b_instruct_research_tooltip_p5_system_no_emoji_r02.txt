@@ -1,0 +1,1 @@
+"Right-click on the query result set and select 'Export Results' to save the data in various formats, including CSV, Excel, or text files. Alternatively, use the 'Copy Results' option to copy the data and paste it into another application."

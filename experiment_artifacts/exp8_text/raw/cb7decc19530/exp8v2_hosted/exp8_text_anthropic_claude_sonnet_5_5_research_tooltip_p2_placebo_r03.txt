@@ -1,0 +1,2 @@
+**Confidence interval**
+The bar or band shows a range of plausible values for the true number, which we can only estimate from a sample. A wider range means more uncertainty. At 95% confidence, if we repeated the study many times, about 95% of the intervals built this way would contain the true value.

@@ -1,0 +1,18 @@
+**NOTICE OF ACCEPTABLE USE POLICY – SHARED NETWORK INFRASTRUCTURE**
+
+1. **AUTHORITY AND SCOPE**  
+Access to the shared network infrastructure (“Network”) is extended solely pursuant to the terms contained herein. These provisions bind all persons, endpoints, and external systems that connect to, route through, or utilize the Network, regardless of connection method or duration.
+
+2. **PERMITTED PURPOSE**  
+The Network shall be employed exclusively for lawful, authorized activities directly supporting institutional operations, legitimate business functions, or approved academic and research initiatives. All usage must comply with applicable jurisdictional statutes and regulatory requirements.
+
+3. **PROHIBITED ACTIVITY**  
+Users are expressly forbidden from: (a) circumventing authentication mechanisms, performing unauthorized scanning, or introducing unvetted hardware or software; (b) transmitting malware, launching denial-of-service attempts, or consuming bandwidth in a manner that materially impairs service for others; (c) accessing, reproducing, or distributing material that infringes copyright, violates privacy rights, or constitutes unlawful conduct; and (d) exfiltrating, modifying, or exposing restricted organizational data without documented authorization.
+
+4. **SURVEILLANCE AND REMEDIES**  
+System administrators retain unconditional authority to monitor, record, and inspect network traffic and attached devices for security, performance, and compliance purposes. Breach of this policy may trigger immediate suspension of connectivity, internal disciplinary proceedings, civil action, or referral to competent law enforcement authorities.
+
+5. **DISCLAIMER**  
+Network access does not establish an expectation of privacy, data integrity, or continuous availability. Users assume full responsibility for securing personal credentials and preserving critical information through independent backup measures. The issuing entity disclaims all liability arising from data loss, interception, or service degradation.
+
+This notice is effective upon publication and governs all present and future Network utilization. Inquiries or incident reports shall be directed to the Office of Information Security.

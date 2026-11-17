@@ -1,0 +1,13 @@
+Subject: Quarterly Access Review Begins Next Week
+
+All system administrators and department managers,
+
+The quarterly access review for our internal systems begins on Monday, March 3, and must be completed by Friday, March 14. During this period, each manager will receive a list of users and their current permissions for the applications and shared drives under their oversight. Please confirm whether each person still requires the access listed, and flag any accounts that should be removed or modified. Reviews should be submitted through the identity management portal, where the link will be sent on the first day of the review period.
+
+Access that is not confirmed by the deadline will be suspended automatically on March 17. If someone on your team has changed roles, left the organization, or taken on new responsibilities, please note this in your review so that the Identity and Access team can update their permissions promptly.
+
+If you have questions about the process or need help navigating the portal, contact the Identity and Access team at access@company.example or reach out to the IT service desk.
+
+Thank you for your attention to this important control. Regular reviews help us protect company data and ensure that everyone has the access they need, and no more.
+
+IT Security Operations

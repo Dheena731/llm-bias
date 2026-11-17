@@ -1,0 +1,18 @@
+SECURITY REMINDER: PHISHING EMAIL AWARENESS
+
+Please stay alert when reviewing incoming emails. Phishing attempts remain one of the most common threats to our network and data security. 
+
+Key red flags to watch for:
+- Urgent demands for action, payments, or sensitive employee/client data
+- Mismatched or suspicious sender addresses (look closely at the domain name)
+- Unexpected attachments or generic links asking you to log in
+- Inquiries asking you to confirm or update your passwords
+
+What to do:
+If an email looks suspicious, do not click any links, download attachments, or reply to the sender. Instead, use the "Report Phishing" button in your email toolbar or forward the message directly to the IT Security team.
+
+When in doubt, verify the request with the sender through a separate, trusted channel like phone or Slack.
+
+Thank you for helping keep our workplace secure.
+
+IT Security Team

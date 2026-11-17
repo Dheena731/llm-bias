@@ -1,0 +1,39 @@
+The more recently written the better.
+
+  • 2
+    \$\begingroup\$ Assuming there's a game using HTML, CSS and JS, any explanation of the importance of each is pretty much not useful to someone wanting to learn about game development. \$\endgroup\$ – Kellan Nov 8 '17 at 17:26
+  • \$\begingroup\$ @Kellan I think there's a lot of useful information here. If the resources mentioned are too much to fit in the answer, the upvoted answer can be linked to. \$\endgroup\$ – Seth Battin Nov 8 '17 at 19:43
+
+I've heard that it is important to learn coding better for me.
+
+I would love to hear more about what you mean by "code better", and perhaps be able to help you understand what you mean, but it is hard to say more without knowing.
+
+On the principle of teaching the best way to learn, it's probably a good idea to first teach why we learn, and then to teach what you need to learn to do so well.
+
+What are you trying to learn? Other languages? Computer programming? Math? Problem Solving? Learning to think? Learning to be productive?
+
+I've given you this advice before, and I'll give it again:
+
+    Learn to return the focus of your mind when it wanders.
+
+Because the only way you'll learn is by applying what you learn. You can read all you want about how to do something, but learning something new is not the same as actually doing it. And if you don't actually learn to apply your new knowledge, you will learn very little about it.
+
+So, What do You Want To Learn?
+
+The first thing I suggest is that you learn to answer the above question for yourself. You will never learn how to code unless you know what you want to learn.
+
+And if you don't know what you want to learn, you'll have to be pretty careful about what you learn.
+
+What has been keeping you from getting things done is not the 'stuff of programming', it is you not knowing what you need to do, or what is important.
+
+Think about what is important to you. What do you enjoy when you are doing something? It might be keeping an old house in order, or a large garden, or writing poetry, or playing with a friend, or repairing an old computer, or building a robot, or other things. What do you like about the other things you do? Or don't do?
+
+You want to learn programming, or you want to make games, or you want to build robots, or you want to study 'how people think and solve problems', or you want to be 'self-employed', or you want to be a good artist, or you want to 'do something that makes you happy'.
+
+Whatever it is, the only way you will ever learn how to program, or how to do whatever else you want to learn, is to learn what it is that you want to learn.
+
+Once you know what you want to learn, it is possible to think about how to learn it. But it is a lot more difficult to know how to think about it than to learn something.
+
+Try to find out what others are doing that you like. But first be clear on what you want to learn, and why. This is the most important thing.
+
+  • \$\begingroup\$ The answer you gave me should help me to identify my interests, however, at the very beginning i already had a plan, that is why i wanted to learn to make game, the plan is to learn principals of computer coding, and because i'm only 13, i'm not allowed to make games, so i'll just have to keep my

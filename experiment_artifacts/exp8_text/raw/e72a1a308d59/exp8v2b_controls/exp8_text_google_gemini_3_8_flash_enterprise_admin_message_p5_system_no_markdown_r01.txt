@@ -1,0 +1,16 @@
+Subject: Important: Upcoming Email System Migration
+
+Hello Team,
+
+We will be migrating our email system to a new platform on [Date], starting at [Start Time] and concluding by [End Time]. 
+
+During this maintenance window, you may experience brief interruptions in sending and receiving emails. Please rest assured that no messages will be lost; any incoming emails will be queued and delivered once the migration is complete.
+
+Following the update, you may be prompted to log back into your email account on your computer and mobile devices. Step-by-step setup instructions will be shared ahead of time.
+
+If you have any questions, please contact the IT Helpdesk at [Contact Info]. 
+
+Thank you for your cooperation as we work to improve our systems.
+
+Best regards,
+IT Support Team

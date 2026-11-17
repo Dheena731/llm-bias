@@ -1,0 +1,21 @@
+**Subject: Quarterly Access Review Scheduled for [Month Year]**
+
+Dear Team,
+
+The quarterly access review for [System/Application Name] will take place from [start date] to [end date]. This review ensures that system permissions remain appropriate for each employee's current role and responsibilities.
+
+**What you need to do:**
+
+- Managers will receive a review request in [system name] on [date].
+- Review each direct report's access and confirm, modify, or revoke permissions by [deadline].
+- Contact the IT Security team at [email/extension] with any questions.
+
+Access that is not confirmed by the deadline will be temporarily suspended until the review is completed. Timely participation helps us maintain compliance with our security policies and protect company data.
+
+Thank you for your prompt attention to this review.
+
+Regards,
+
+[Name]
+[Title]
+[Department]

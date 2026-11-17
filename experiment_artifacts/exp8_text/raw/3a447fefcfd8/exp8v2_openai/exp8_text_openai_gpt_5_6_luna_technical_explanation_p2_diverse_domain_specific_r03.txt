@@ -1,0 +1,1 @@
+In a parts-inventory database, an index on `part_number` is a separate, ordered lookup structure that lets the database find a part’s row without scanning every inventory record. This speeds up searches and joins involving `part_number`, though the database must update the index whenever parts are added, removed, or renumbered.

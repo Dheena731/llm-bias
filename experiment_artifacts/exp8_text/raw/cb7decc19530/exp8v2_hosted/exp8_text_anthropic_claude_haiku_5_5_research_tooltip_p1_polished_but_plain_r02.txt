@@ -1,0 +1,1 @@
+Filter by date range: Show only records collected between the selected start and end dates. Both dates are inclusive, and records without a recorded collection date are excluded while this filter is active.

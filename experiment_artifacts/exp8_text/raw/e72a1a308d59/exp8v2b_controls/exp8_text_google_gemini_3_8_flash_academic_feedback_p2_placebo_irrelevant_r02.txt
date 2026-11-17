@@ -1,0 +1,15 @@
+Hi [Student Name],
+
+You’ve built a solid foundation here. The overall structure is logical, and the step-by-step description of your data collection process is clear and easy to follow. 
+
+To take this draft to the next level, please address the following in your revisions:
+
+* **Detail for Replicability:** Expand slightly on your sample/participant criteria. Make sure to specify the exact sample size ($N$), recruitment methods, and key demographic details so an independent researcher could replicate your setup.
+* **Instruments and Tools:** Name the specific versions of the software/instruments used for data collection and analysis, and briefly cite the validated scales or protocols you adapted.
+* **Justification:** Add a sentence or two explaining *why* you chose this particular methodological approach over alternatives, linking it back to your research question.
+* **Tense Consistency:** Double-check your verb tense—keep it consistently in the past tense when describing procedures you have already carried out.
+
+Overall, this is very promising work. Let me know if you’d like to talk through any of these points during office hours!
+
+Best,  
+[Instructor/Advisor Name]

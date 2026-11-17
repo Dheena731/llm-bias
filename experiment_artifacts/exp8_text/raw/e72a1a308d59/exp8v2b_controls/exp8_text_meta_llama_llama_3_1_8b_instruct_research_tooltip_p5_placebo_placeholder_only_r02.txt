@@ -1,0 +1,7 @@
+Hover to learn how to export query results:
+
+1. Go to the "Results" tab.
+2. Click the "Export" button.
+3. Choose a format (e.g., CSV, Excel, PDF).
+4. Select the data to export (e.g., all columns, selected columns).
+5. Click "Export" to download the file.

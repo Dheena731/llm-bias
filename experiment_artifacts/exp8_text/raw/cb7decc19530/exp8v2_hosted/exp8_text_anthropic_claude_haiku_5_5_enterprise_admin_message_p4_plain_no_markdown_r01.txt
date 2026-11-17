@@ -1,0 +1,5 @@
+Subject: Quarterly Access Review Begins Next Week
+
+All system owners and department managers are reminded that the quarterly access review for this cycle begins on Monday, the 14th, and must be completed by Friday, the 25th. During this period, each reviewer will receive a list of user accounts and permissions assigned to their team through the identity management portal. Please confirm that every account is still required, that access levels match current job responsibilities, and that any accounts belonging to departed or transferred staff are flagged for removal. Reviewers who identify excessive permissions should submit a change request through the standard ticketing queue rather than making adjustments directly.
+
+Reviews that are not completed by the deadline will be escalated to the information security team, and access for unreviewed accounts may be temporarily suspended to maintain compliance with our audit obligations. If you have questions about the process or believe you have been assigned the wrong accounts, please contact the IT governance office before the review opens. Thank you for helping keep our systems secure.

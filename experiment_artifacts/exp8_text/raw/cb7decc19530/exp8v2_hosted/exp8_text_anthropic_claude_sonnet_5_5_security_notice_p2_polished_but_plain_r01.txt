@@ -1,0 +1,16 @@
+Subject: Staying Alert to Phishing Emails
+
+Colleagues,
+
+Over the past few weeks, phishing attempts targeting our staff have increased, and we want everyone to be prepared. Phishing emails are messages designed to look legitimate so that you will reveal passwords, financial details, or other sensitive information, or so that you will open a harmful attachment. They can appear to come from a manager, a vendor, a bank, or even our own IT department.
+
+The most reliable defense is a habit of pausing before you act. Be cautious with any message that creates urgency, threatens consequences, or asks you to act immediately, such as resetting a password within an hour or paying an overdue invoice today. Check the sender's address carefully, since criminals often use domains that differ from the real one by a single letter. Be wary of unexpected attachments, requests for login credentials, and instructions to change payment details. Generic greetings and unusual wording or formatting can also be warning signs, though well-crafted attempts may show none of these, so do not rely on them alone.
+
+If a message seems suspicious, do not click any links, open attachments, or reply. Instead, use the report button in your email program or forward the message to the IT security team at the usual internal reporting address, then delete it. If you are unsure whether a request is genuine, confirm it by contacting the sender through a phone number or channel you already know to be correct, not one provided in the message itself.
+
+If you believe you have already clicked a link or shared information, please tell us right away. Prompt reporting allows us to secure your account and limit any damage, and no one will be penalized for an honest mistake. Delays are far more costly than the error itself.
+
+Thank you for helping keep our organization and our clients safe. Questions about this notice can be directed to the IT help desk.
+
+Regards,
+The IT Security Team

@@ -1,0 +1,1 @@
+"This shaded area represents a 95% confidence interval, indicating the range of values within which we are 95% confident the true population value lies. It gives an estimate of the uncertainty around the calculated average, helping to interpret the reliability of the data."

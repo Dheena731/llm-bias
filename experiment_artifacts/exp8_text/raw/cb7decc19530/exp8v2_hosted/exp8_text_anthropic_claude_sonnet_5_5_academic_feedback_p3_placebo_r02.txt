@@ -1,0 +1,16 @@
+**Reviewer comment: Research question**
+
+The manuscript does not state a clear research question, and this makes the rest of the paper difficult to evaluate. The introduction describes the general topic and the background, but it never says exactly what the study is trying to find out. As a result, I could not tell whether the aim is to describe a pattern, compare groups, test a specific explanation, or estimate the effect of one factor on another. The aims in the abstract, the introduction, and the discussion also seem to differ slightly in emphasis.
+
+This matters because the appropriate design, data, and analysis all depend on the question. Without a clear question, I cannot judge whether the methods are suitable or whether the conclusions follow from the results.
+
+I recommend that the authors:
+
+1. State the main research question in one or two sentences at the end of the introduction, using specific terms (who or what is studied, what is being compared or measured, and in what setting).
+2. Say whether the study is exploratory or tests a prior expectation, and if the latter, state the hypothesis.
+3. Use the same wording of the question in the abstract, methods, and discussion, and show clearly how each analysis addresses it.
+4. Remove or clearly label as secondary any analyses that do not serve the main question.
+
+Once the question is clear, I would be glad to assess whether the methods and conclusions support it.
+
+*Note: No manuscript was provided, so this comment is written to apply to a paper whose central question is not clearly stated. Add specifics from the paper if you want to tailor it.*

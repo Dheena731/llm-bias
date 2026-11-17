@@ -1,0 +1,1 @@
+To export query results, you can simply right-click on the query result you want to export and choose "Export results to." This will open a new window or tab with the query results displayed. From there, you can save the results to a file or directory of your choosing.

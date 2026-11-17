@@ -1,0 +1,41 @@
+**Feedback Note: Draft Literature Review**
+
+**Student:** [Name]
+**Topic:** The effects of remote work on employee productivity and well-being
+**Draft reviewed:** Version 1, approx. 3,500 words
+
+**Overall impression**
+
+The draft shows a clear command of the core literature and a sensible organisation by theme (productivity, well-being, and managerial oversight). The writing is generally clear, and you have identified the main debates in the field. However, the review currently reads more as a sequence of summaries than as a critical synthesis, and the link between the review and your research question needs to be much stronger.
+
+**Strengths**
+
+- The thematic structure is logical and easy to follow.
+- You cite recent empirical studies alongside foundational work, which gives the review historical depth.
+- Your discussion of the methodological limits of self-reported productivity measures (Section 2.1) is perceptive and worth expanding.
+
+**Key areas for revision**
+
+1. **Move from description to evaluation.** Many paragraphs follow the pattern "Author A found X; Author B found Y." Instead, ask what explains the disagreement. Do the studies differ in sector, sample, or how they define productivity? Say so explicitly.
+
+2. **Make the gap explicit.** The introduction promises to "identify gaps," but the gap is only implied in the conclusion. State early what is missing (for example, few longitudinal studies outside the technology sector) and return to it at the end of each thematic section.
+
+3. **Tighten the link to your research question.** Some material, particularly the history of telework in Section 1.2, does not contribute to the argument. Either connect it to your question or cut it to a sentence or two.
+
+4. **Check the balance of sources.** Nearly all cited studies come from North American and Western European samples. Acknowledge this limitation, and either add relevant studies from other contexts or flag the geographic scope as a constraint on generalisability.
+
+5. **Referencing consistency.** A few in-text citations are missing page numbers for direct quotations, and two entries in the bibliography do not match the in-text format. These are minor but should be fixed before submission.
+
+**Specific suggestions**
+
+- *Section 2:* Consider a short comparison table summarising sample, design, and key finding for the five most influential studies. This would help the reader see patterns quickly.
+- *Section 3:* The claim that "remote work universally increases autonomy" is too strong given the evidence you cite. Qualify it, e.g., "several studies report increased perceived autonomy, though this effect was moderated by role type."
+- *Conclusion:* Currently a summary. Use it to state what the literature collectively establishes, where it remains contested, and how your study will address the gap.
+
+**Next steps**
+
+Please revise along the lines above and resubmit by [date]. I would particularly like to see a stronger critical voice in Sections 2 and 3. Let me know if you would like to meet to discuss the restructuring of the argument.
+
+---
+
+If you share your actual draft, I can give feedback tailored to its content.

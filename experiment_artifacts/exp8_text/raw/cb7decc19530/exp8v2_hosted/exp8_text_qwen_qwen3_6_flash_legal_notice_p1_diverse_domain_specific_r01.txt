@@ -1,0 +1,27 @@
+**DOMAIN SPECIFICATION:** Industrial IoT Telemetry & Predictive Maintenance Platform (B2B Heavy Machinery Monitoring).
+
+***
+
+**NOTICE OF AMENDMENT: TELEMETRY INGESTION PROTOCOLS & LIABILITY ALLOCATIONS**
+**Reference:** AMS-SEC-2024-10 // **Effective:** 2024-11-01T00:00Z
+**Agreement:** Master Edge-Node Deployment Contract §8.4
+
+**1. Basis of Amendment**
+Pursuant to Unilateral Modification rights granted under §8.4(c), Provider executes Amendment #12 regarding recalibration of anomaly detection thresholds, revision of data retention windows, and realignment of liability caps for actuator command latency.
+
+**2. Material Modifications**
+
+*   **2.1 Retention Cycles & Bitwise Deletion.** Raw vibration and thermal telemetry streams shall persist only within a 72-hour sliding window. Historical aggregation beyond this horizon requires explicit invocation of the `Archive_Hold` parameter via the REST API. Endpoints failing to invoke `Archive_Hold` prior to window expiration will trigger immediate bitwise deletion of non-indexed frames. No recovery mechanisms exist for purged frames.
+
+*   **2.2 Latency Tolerances & Exclusions.** Provider warrants end-to-end packet delivery ≤200ms under nominal throughput. Congestion events resulting in latency excursions >400ms automatically suspend `Predictive_Maintenance_Export` privileges. Provider disclaims liability for downstream mechanical fatigue, valve misfires, or production stoppages attributable to actuator response delays caused by such latency excursions. Liability for service interruption is capped at the pro-rata cost of the affected node license for the duration of the outage, excluding consequential damages.
+
+*   **2.3 Surcharge Realignment.** Bandwidth utilization exceeding 50kbps per sensor node is subject to a marginal fee of $0.14/unit. New allocations require re-baselining of the QoS profile in the control dashboard prior to the commencement of the next billing cycle.
+
+**3. Acceptance Protocol**
+Continuation of data packet ingestion post-Effective Date constitutes irrevocable acceptance of these amendments. Non-compliant endpoints attempting to write to deprecated schema versions will receive HTTP 451 responses and may be subjected to flow-control throttling as defined in Appendix C.
+
+**4. Incident Reporting**
+Claims regarding data loss or service degradation must be submitted via cryptographically signed incident report within fourteen (14) days of initial detection. Failure to file within this window constitutes a waiver of all remedies related to the specific event.
+
+**[Provider Legal Entity]**
+*Compliance & Operations Division*

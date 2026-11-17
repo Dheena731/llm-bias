@@ -1,0 +1,5 @@
+Subject: VPN client update arriving next week
+
+We will be rolling out version 4.2 of the VPN client to all staff devices starting Monday, March 10. The update adds automatic reconnection when your network connection drops, so you should no longer need to sign in again after switching between Wi-Fi and mobile data. The older PPTP protocol is also being retired, and any device still configured to use it will need to switch to the default secure connection before March 31.
+
+The client will update itself the next time you restart your computer. If you would rather update sooner, you can find the installer on the IT portal under Software Downloads. No action is needed for most users, but if you run into problems connecting after the update, contact the IT help desk at extension 4400.

@@ -1,0 +1,7 @@
+A new expense approval workflow has been implemented to improve the efficiency and accuracy of expense reporting. All employees are required to use this new workflow for submitting and approving expenses.
+
+The workflow can be accessed through the company's expense reporting portal, where employees can create and submit expense reports for approval. The portal will send automated reminders to approvers and provide a clear audit trail of all expense transactions.
+
+Managers and department heads will receive notifications when expenses are submitted for approval. They can log in to the portal to review and approve expenses, and will have the ability to delegate approval authority to other employees if necessary.
+
+The new workflow is designed to reduce the time it takes to process expense reports, and to provide a more transparent and accountable expense approval process. If you have any questions or concerns about the new workflow, please do not hesitate to reach out to the finance department for assistance.

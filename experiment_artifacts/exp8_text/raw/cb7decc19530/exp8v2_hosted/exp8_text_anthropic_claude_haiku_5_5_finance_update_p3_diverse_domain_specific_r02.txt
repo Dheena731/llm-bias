@@ -1,0 +1,14 @@
+**Savings goals are live on all savings accounts**
+
+Each savings account now has a Goals tab. Give a goal a name, a target amount, and an optional date. The app shows the monthly amount you'd need to hit it, based on what's already in the account.
+
+Goals share a balance. If a high-yield savings account holds $4,200 and you have goals of $3,000 and $1,500, the $700 left over shows as unassigned. We don't guess how to split it.
+
+Two fixes from the beta:
+
+- The first version counted pending deposits toward progress, so a $500 transfer that hadn't settled made a goal look funded. Progress now moves only when funds settle.
+- Withdrawals used to reduce every goal proportionally, which surprised people. Withdrawals now come out of unassigned money first, and you'll get a warning if one would dip into a goal.
+
+Automatic payday transfers aren't included yet. We'd rather ship them once scheduling handles weekend paydays and bank holidays correctly.
+
+Find it under Savings > Goals. If a goal shows a number you don't trust, send us the account and date and we'll check it by hand.

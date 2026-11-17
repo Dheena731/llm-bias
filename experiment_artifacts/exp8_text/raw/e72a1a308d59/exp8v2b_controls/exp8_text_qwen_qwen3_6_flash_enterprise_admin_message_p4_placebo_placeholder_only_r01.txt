@@ -1,0 +1,7 @@
+**Notice: Mandatory Quarterly Access Review**
+
+All system owners and department managers are required to complete the upcoming quarterly access review cycle. This routine audit ensures that digital permissions continue to match current role requirements and organizational security standards.
+
+Reviewers will receive automated notifications outlining the accounts under their jurisdiction. Each listed identity must be verified, confirmed as active, or deactivated if no longer necessary. The evaluation process is completed directly through the central access management portal. All reviews must be finalized within thirty days of the initial notification. Accounts that remain unreviewed past the deadline will be automatically restricted to maintain system integrity.
+
+Technical assistance and policy guidance are available through the standard IT support channels. Thank you for your cooperation in maintaining a secure and compliant environment.

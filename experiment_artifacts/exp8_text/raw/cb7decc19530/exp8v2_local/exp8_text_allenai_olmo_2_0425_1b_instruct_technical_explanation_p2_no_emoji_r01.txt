@@ -1,0 +1,1 @@
+An index in a database helps speed up data retrieval by storing a subset of the data's unique attributes and their corresponding positions in the original data. An index essentially serves as a lookup table, allowing the database engine to quickly find specific data based on the indexed columns rather than scanning through the entire table.

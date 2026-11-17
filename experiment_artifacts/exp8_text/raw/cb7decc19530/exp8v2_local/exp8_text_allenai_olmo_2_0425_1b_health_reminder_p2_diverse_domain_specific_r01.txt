@@ -1,0 +1,12 @@
+ • Make sure that the issue is not already handled by a different question or answer
+  • If it's a theoretical question, make sure that the question is about the material given in the course (ex. a question related to Theorem 1 would not be acceptable.)
+  • If it is not an exact homework question, make sure that the question is about the material given in the course
+  • Make sure to check that the question hasn't been asked before
+  • Check if the question has already been answered by a question and an answer
+  • Check if the question has already been answered by a question and an answer followed by a comment
+  • Check if the question has already been answered by a question and an answer followed by a comment and a full answer
+  • Check if the question has already been answered by a question and an answer followed by a comment and a full answer and a link to the answer
+  • Make sure to check that the question is not too broad
+  • Make sure to check the question is not too narrow
+  • Follow the recommendation of the community to use a suitable title for a question
+  • Check that the question is not a duplicate

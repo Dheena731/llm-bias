@@ -1,0 +1,23 @@
+**Subject: Upcoming Email Migration – Action May Be Required**
+
+Hi everyone,
+
+We're migrating our email system to a new platform on **[date]**. The goal is better security, more storage, and improved reliability.
+
+**What to expect:**
+- **Brief downtime:** Email may be unavailable for a few hours starting at **[time]**. Messages sent during this window will be delivered once the migration is complete.
+- **Your data:** Existing emails, folders, and contacts will be moved automatically.
+- **Sign-in:** You may be asked to sign in again and update your password on first login.
+
+**What you should do:**
+1. Save any important drafts before **[time/date]**.
+2. Sign out of email on all devices before the migration begins.
+3. After the migration, reconnect your phone and any other email apps using the new settings (we'll send instructions).
+
+If you have questions or run into problems, contact the IT Help Desk at **[email/phone]**.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+**[Name]**
+IT Department

@@ -1,0 +1,1 @@
+Range where the true value likely lies. With 95% confidence, the actual value falls within these bounds. Reflects uncertainty due to sample size.

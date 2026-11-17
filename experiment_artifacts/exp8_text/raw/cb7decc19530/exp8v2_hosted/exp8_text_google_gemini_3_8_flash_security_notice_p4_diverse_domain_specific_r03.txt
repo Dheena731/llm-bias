@@ -1,0 +1,16 @@
+**Action Required: 21 CFR Part 11 MFA Enrollment for EDC Access**
+
+**System:** Vesta Clinical EDC (Production Environment)  
+**Effective:** Thursday, October 24 at 04:00 UTC  
+**Applies to:** Principal Investigators, Sub-Investigators, and Site Coordinators (Protocols CL-402 and CL-409)
+
+In accordance with the updated Sponsor Data Integrity Plan and 21 CFR Part 11 audit requirements, SMS-based verification is deprecated for all sites with open patient cohorts. 
+
+Beginning Thursday, signing case report forms (eCRFs) and accessing unblinded safety reports will require an authenticator app (TOTP) or a FIDO2 hardware key. 
+
+**Before your next scheduled subject visit:**
+1. Log into your site workstation at `edc.vestatrials.net/auth`.
+2. Under **Account Settings > Electronic Signature Credential**, register your designated device (e.g., Google Authenticator, Duo, or site YubiKey).
+3. Download your single-use recovery seeds and file them according to your site’s standard operating procedure for audit-ready records.
+
+Unregistered accounts will lock at the Thursday deployment window. If you are locked out during an active patient visit, contact the Protocol IT Helpdesk at ext. 4402 for manual identity re-verification.

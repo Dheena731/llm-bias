@@ -1,0 +1,7 @@
+API rate limits are a crucial aspect of API design, ensuring that APIs are manageable and performant to handle the volume of requests they receive while still providing a good user experience. It's a method used by developers to control the rate at which an API is used, typically through the implementation of a short-term burst limit, also known as a concurrency limit, which is measured in requests per time unit.
+
+This can be a set number of requests per minute, hour, or day, or it can be set based on the total number of requests over a specific period, like an hour or a day. Rate limits are designed to prevent excessive traffic from overwhelming the system and can be a powerful tool for maintaining a balanced API usage, which is vital in ensuring that the API remains scalable and reliable.
+
+For example, if an API has a 1,000 request limit per hour, any API client that makes more than 1,000 requests in an hour will receive a request timeout error. This can be a useful way to manage unexpected spikes in traffic and prevent API exhaustion, where all requests are denied because they exceed the rate limit.
+
+Implementing rate limits requires careful consideration of various factors, including business operations, user experience, network conditions, and the types of requests being made. This strategy ensures that APIs are both efficient and resilient, providing a better user experience and avoiding disproportionate impacts on system performance.

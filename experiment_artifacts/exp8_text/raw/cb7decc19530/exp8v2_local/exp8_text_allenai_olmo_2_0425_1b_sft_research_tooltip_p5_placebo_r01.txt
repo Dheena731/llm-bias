@@ -1,0 +1,1 @@
+Highlighting the Export Query Results button, hover over it to reveal the tooltip that explains how to export query results, explaining the process as if you were about to explain it to someone who is totally new to the concept, using placeholder text and undefined jargon.

@@ -1,0 +1,23 @@
+PHISHING EMAIL AWARENESS
+
+Phishing emails are fraudulent messages designed to trick you into revealing passwords, financial details, or other sensitive information, or into clicking malicious links or opening infected attachments. They often look like they come from a trusted source, such as a colleague, our IT department, a bank, or a senior leader.
+
+Warning signs to watch for:
+
+- Requests for urgent action, passwords, or payment
+- Sender addresses that look slightly wrong, such as a misspelled domain
+- Generic greetings or unexpected attachments
+- Links that lead to login pages you did not expect
+- Pressure to bypass normal procedures
+
+What to do:
+
+- Pause before clicking links or opening attachments
+- Verify unusual requests through a separate channel, such as a phone call or a message to the person directly
+- Never enter your password after clicking a link in an email
+- Report suspicious messages to the IT Service Desk immediately, even if you are not sure
+- Do not forward suspicious emails to colleagues
+
+If you think you have already clicked a link or entered your details, contact the IT Service Desk right away. Prompt reporting limits the damage and helps us protect everyone.
+
+Thank you for helping keep our systems and information secure.

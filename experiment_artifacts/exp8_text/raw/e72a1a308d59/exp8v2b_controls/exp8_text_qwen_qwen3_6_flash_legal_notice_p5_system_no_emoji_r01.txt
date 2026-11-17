@@ -1,0 +1,26 @@
+**NOTICE OF ACCEPTABLE USE POLICY – SHARED NETWORK INFRASTRUCTURE**
+
+This document governs access to and utilization of the shared network services provided by the administrator. By connecting to, accessing, or utilizing this network, all users expressly acknowledge, understand, and agree to be bound by the terms set forth herein.
+
+**1. PERMITTED USE**  
+Network resources are allocated for lawful, authorized, and business-related purposes consistent with operational objectives. Access is non-exclusive and subject to reasonable administrative controls.
+
+**2. PROHIBITED ACTIVITIES**  
+Users shall not engage in, attempt, or facilitate:  
+(a) Unauthorized intrusion into third-party systems or data;  
+(b) Distribution, creation, or execution of malware, ransomware, or malicious scripts;  
+(c) Activities that unreasonably consume bandwidth or degrade service quality for other users;  
+(d) Violations of federal, state, local, or international law, including copyright, privacy, or telecommunications statutes;  
+(e) Transmission of spam, phishing attempts, or unsolicited commercial solicitations;  
+(f) Circumvention of security protocols, firewalls, or access controls.
+
+**3. MONITORING AND PRIVACY DISCLAIMER**  
+The administrator reserves the right to monitor, record, inspect, filter, and archive all network traffic, user credentials, and associated data at any time, with or without advance notice, for purposes of security, compliance, troubleshooting, and enforcement. No reasonable expectation of privacy exists for communications, files, or metadata transmitted through or stored on this network.
+
+**4. ENFORCEMENT AND LIABILITY**  
+Violation of this policy may result in immediate suspension or permanent revocation of network access, disciplinary proceedings, civil action, and/or criminal referral, as applicable. The administrator disclaims liability for data loss, service interruption, or third-party claims arising from network use. All risk of loss remains with the user.
+
+**5. MODIFICATION AND ACCEPTANCE**  
+This policy may be amended at the administrator’s sole discretion. Continued use of the network following publication of revisions constitutes constructive acceptance. This notice is effective as of [Insert Date] and supersedes all prior oral or written representations regarding network usage. Inquiries should be directed to [Insert Department/Contact Information].
+
+BY CONNECTING TO THIS NETWORK, YOU ACKNOWLEDGE READINESS TO COMPLY WITH THESE TERMS IN THEIR ENTIRETY.

@@ -1,0 +1,3 @@
+**Subject:** Update to the Company VPN Client
+
+We are replacing the current VPN client with an updated version to maintain secure and reliable remote access. The new client is now available for installation. Please download and install it using your organization’s standard software update process. After installation, reconnect to the network as usual. If you encounter any issues during the transition, contact your IT helpdesk for assistance. Thank you for your prompt attention to this update.

@@ -1,0 +1,5 @@
+**Reviewer comment on the research question**
+
+The central question, "How does social media use affect adolescent wellbeing?", is too broad to guide the design or to be answered by the data reported. It does not specify which aspect of use is examined (time spent, platform type, or content exposure), what "wellbeing" means (life satisfaction, depressive symptoms, and sleep quality would each require different measures), or what comparison would count as an effect (non-users, offline activity, or a pre-study baseline). The Methods measure only daily hours of use and one self-reported anxiety item, so the question promises more than the study can deliver.
+
+I ask the authors to restate the question as a single testable statement that names the exposure, the outcome, and the comparison group, and to show how each part of the Methods and Results addresses it. If the authors intended a descriptive rather than causal question, the framing should say so, because the Discussion currently draws causal conclusions.

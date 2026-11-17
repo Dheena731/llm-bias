@@ -1,0 +1,28 @@
+**NOTICE TO USERS**
+
+In accordance with the applicable laws and regulations, this website ("Site") notifies users ("User" or "Users") that the following cookies are used for the purposes described below.
+
+**Cookie Usage**
+
+The Site uses cookies, small text files that are stored on the User's device, to enhance the User's browsing experience. These cookies collect information on the User's online behavior, including the pages visited, the time spent on the Site, and the User's interactions with the Site's content. The cookies used are:
+
+*   **Functional Cookies**: These cookies are necessary for the proper functioning of the Site and are used to authenticate the User's login credentials and to store the User's preferences.
+*   **Analytical Cookies**: These cookies collect information on the User's online behavior, including the pages visited, the time spent on the Site, and the User's interactions with the Site's content. This information is used to improve the Site's content and to tailor the User's experience.
+
+**Cookie Types**
+
+The Site uses the following types of cookies:
+
+*   **First-Party Cookies**: These cookies are set by the Site itself and are used to store the User's login credentials and preferences.
+*   **Third-Party Cookies**: These cookies are set by third-party services, such as analytics and advertising providers, and are used to collect information on the User's online behavior.
+
+**Cookie Management**
+
+Users can manage their cookie preferences by using the following methods:
+
+*   **Browser Settings**: Users can configure their browser to accept, reject, or delete cookies.
+*   **Cookie Manager**: Users can use a cookie manager tool to view and delete cookies.
+
+**Contact Information**
+
+For more information on the Site's cookie usage, please contact the Site administrator at [admin@example.com](mailto:admin@example.com).

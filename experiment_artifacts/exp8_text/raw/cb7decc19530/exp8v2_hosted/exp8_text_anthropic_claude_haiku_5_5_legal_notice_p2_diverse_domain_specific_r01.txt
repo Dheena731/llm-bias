@@ -1,0 +1,36 @@
+**NOTICE OF MATERIAL CHANGES TO PRIVACY POLICY**
+
+**Harbor Lane Residential Services, Inc.**
+Effective date of revised policy: March 1, 2025
+Prior version superseded: Privacy Policy dated July 14, 2022
+
+This notice applies to residents, applicants, and authorized occupants who use the Harbor Lane Resident Portal, the Harbor Lane mobile app, or building access fobs issued under a lease with Harbor Lane.
+
+**1. What has changed**
+
+(a) **Maintenance photos (Section 4.2).** Photos uploaded with work orders are now deleted 18 months after the work order closes, down from 36 months. Photos attached to a work order involving a claimed insurance loss are retained until the claim is resolved, then deleted under the 18-month schedule.
+
+(b) **Payment processing (Section 5.1).** Bank account and card data used for rent payments is now handled by our payment processor, Corvane Payments LLC, which stores it directly. Harbor Lane no longer keeps full account numbers in its own systems. Corvane's own privacy terms govern that data and are available at corvanepay.example/privacy.
+
+(c) **Fob access logs (Section 6.3).** Entry logs from building fobs are retained for 90 days. Previously they were retained for one year. Logs are used only for security incident review and for responding to a lease dispute, and are not used for marketing.
+
+(d) **No sale of data (Section 8.1).** The prior policy stated that Harbor Lane may share aggregated usage data with "affiliated partners." The revised policy states that Harbor Lane does not sell personal information and does not share it with property-listing or advertising networks.
+
+(e) **Opt-out for app location (Section 7.4).** The mobile app now asks for location access only when you use the "find my building entrance" feature. You may decline. Declining does not affect rent payment, maintenance requests, or fob access.
+
+**2. What has not changed**
+
+Your rent ledger, lease documents, and communications with the property manager are kept on the same schedule as before (seven years after move-out, as required by state record rules). Your right to request a copy of your data, or to ask us to correct it, is unchanged. Requests should be sent to privacy@harborlane.example or by mail to the leasing office at 410 Cordell Street, Suite 2, Millbrook.
+
+**3. Action you may need to take**
+
+If you previously turned on "share usage data with partners" in your portal settings, that setting has been removed and no action is needed. If you want to confirm that your maintenance photos or fob logs are handled as described above, reply to the email address above with your unit number and we will provide the current retention record for your account.
+
+**4. Residents in California**
+
+If you reside in California, Section 11 of the revised policy describes the additional rights available to you under the California Consumer Privacy Act, including the right to limit the use of sensitive personal information. Those rights are exercised through the same address listed in Section 2.
+
+Continued use of the Resident Portal or the mobile app after March 1, 2025 means you accept the revised policy. If you do not accept it, you may end portal access by notifying the leasing office in writing. Ending portal access does not terminate your lease.
+
+Harbor Lane Residential Services, Inc.
+Legal Department

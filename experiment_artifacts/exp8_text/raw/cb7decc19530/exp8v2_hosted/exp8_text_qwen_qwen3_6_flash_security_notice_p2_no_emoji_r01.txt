@@ -1,0 +1,18 @@
+**NOTICE: PHISHING EMAIL AWARENESS**
+
+**To:** All Employees  
+**From:** Information Technology Security  
+**Date:** May 22, 2024  
+
+All staff are advised to exercise heightened vigilance regarding incoming email communications. We have detected an increase in phishing attempts targeting company systems.
+
+Please follow these security guidelines:
+
+1.  **Verify Senders:** Scrutinize sender addresses for subtle misspellings or unauthorized domains.
+2.  **Do Not Click:** Refrain from clicking links or downloading attachments from unsolicited or suspicious messages.
+3.  **Sensitive Data:** Our IT team will never request passwords or financial information via email.
+4.  **Report Immediately:** If you receive a questionable email, forward it to security@organization.com and delete the original message.
+
+Your cooperation is essential to maintaining the security of our network and data.
+
+Information Technology Security Team

@@ -1,0 +1,3 @@
+Here's a concise tooltip:
+
+**Exclude incomplete records:** Hides rows with missing values in any selected field. Turn this off to include all records, even those with gaps in their data.

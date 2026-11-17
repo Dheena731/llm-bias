@@ -1,0 +1,11 @@
+**Scheduled Maintenance: Dashboard Core Services**  
+**Window:** Nov 14, 03:00–04:15 UTC  
+**Scope:** Schema migration for the analytics engine and rebuild of cached aggregation tables.  
+
+During this window, the dashboard operates in read-only mode. Real-time feeds, scheduled exports, and custom report builders will be unavailable. Active browser sessions remain open; however, page reloads may require a brief auth retry as session token services rotate.  
+
+Expected disruption: ~75 minutes. Latency spikes are likely between minutes 15–25 while database indexes rebuild. Full write access restores automatically once the window closes.  
+
+If post-maintenance widgets fail to load or historical metrics appear stale, hard-refresh your client cache (`Cmd+Shift+R` / `Ctrl+Shift+R`) and capture any console errors before submitting a ticket. A closure notice will be posted here.  
+
+No action required.

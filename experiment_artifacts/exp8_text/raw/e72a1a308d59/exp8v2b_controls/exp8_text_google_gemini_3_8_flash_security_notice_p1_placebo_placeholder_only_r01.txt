@@ -1,0 +1,13 @@
+**SECURITY REMINDER: The Risks of Password Reuse**
+
+Reusing passwords across multiple accounts poses a critical risk to workplace security. When an external service or personal account suffers a data breach, cybercriminals frequently use those stolen credentials to attempt automated attacks on corporate networks, putting internal systems and sensitive data at risk.
+
+To keep company information secure, please adhere to the following standards:
+
+* **Use Unique Passwords:** Never use your workplace password for personal accounts, including email, banking, social media, or retail websites. Every business account must have its own distinct credential.
+* **Adopt Strong Passphrases:** Create passwords using a combination of at least sixteen characters, including uppercase letters, lowercase letters, numbers, and symbols. Longer passphrases made of unrelated words are both stronger and easier to remember.
+* **Rely on an Approved Password Manager:** Rather than memorizing multiple complex passwords, use the organization's approved password management software to generate and securely store them.
+
+If you are currently using your workplace password on any external platform, change it immediately. 
+
+For assistance with updating credentials or setting up a password manager, please reach out directly to the IT Support team.

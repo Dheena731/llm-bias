@@ -1,0 +1,16 @@
+Subject: Please Do Not Reuse Passwords
+
+Dear colleagues,
+
+We are writing to remind everyone that reusing the same password across multiple accounts is one of the most common ways attackers gain access to company systems. When a password from an outside website is exposed in a data breach, criminals routinely try that same combination on work email, cloud services, and internal tools. If your work password matches one used elsewhere, a breach at an unrelated company can quickly become a breach here.
+
+To protect yourself and the organization, please use a unique password for every account, and never use your work password for personal services such as shopping, social media, or streaming. Choose long passphrases of at least fourteen characters, such as a string of several unrelated words, rather than short passwords with predictable substitutions. A company-approved password manager can generate and store strong, unique passwords for you so that you do not have to memorize them all. Wherever it is available, please also turn on multi-factor authentication, which adds a second layer of protection even if a password is stolen.
+
+If you suspect that a password has been exposed, or if you notice unusual sign-in activity, change the password immediately and report it to the IT Security team. Prompt reporting allows us to limit damage and is never treated as a mistake to be punished.
+
+Over the coming weeks, we will be checking company accounts against known breached password lists and may ask some users to update their credentials. If you have questions or need help setting up the password manager, please contact the IT Help Desk.
+
+Thank you for helping keep our workplace secure.
+
+Sincerely,
+The IT Security Team

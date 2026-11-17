@@ -1,0 +1,7 @@
+To protect company data and systems, employees are reminded to maintain unique and complex passwords for all accounts and applications. Password reuse, where the same password is used across multiple platforms, poses a significant security risk.
+
+Reusing passwords allows unauthorized access to multiple systems and accounts, compromising the security of company data and operations. Furthermore, many systems and applications require passwords that meet specific criteria, such as length and character composition.
+
+Employees are advised to use a password manager to generate and store unique, complex passwords for each account and application. If an employee is unable to remember multiple passwords, they should consult with the IT department for assistance in implementing a secure password solution.
+
+Reusing passwords is a serious security breach and may result in disciplinary action, including termination, in the event of a security incident. Employees are expected to maintain secure passwords and follow established security protocols to protect company assets.

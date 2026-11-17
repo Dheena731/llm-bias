@@ -1,0 +1,1 @@
+Date Range filter: Limits the dataset to records collected within the start and end dates you choose. Both dates are included. Records with no collection date are hidden while this filter is active, so clear it if you want to see the full dataset. Changing the range updates all charts and counts on this page.

@@ -1,0 +1,9 @@
+To: All Employees
+
+As part of our ongoing efforts to protect our company's data and systems, we want to remind everyone to avoid reusing passwords across different accounts. 
+
+Using the same password for multiple accounts, including personal ones, can increase the risk of a security breach. If a hacker gains access to one account that uses a reused password, they may be able to access other accounts that use the same password.
+
+To minimize this risk, please ensure that you use unique and complex passwords for all of your accounts, both work-related and personal. You can use a password manager to generate and store complex passwords for you.
+
+If you have any questions or concerns about password management, please speak with your supervisor or our IT department.

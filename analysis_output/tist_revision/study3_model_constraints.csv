@@ -1,0 +1,16 @@
+constraint,model,active,violations
+No emoji,Gemini 2.5 Flash,1200,0
+No emoji,GPT-3.5-Turbo,1200,0
+No emoji,GLM-4.5 Air,104,0
+No bullets,Gemini 2.5 Flash,1050,0
+No bullets,GPT-3.5-Turbo,1050,0
+No bullets,GLM-4.5 Air,76,0
+No headers,Gemini 2.5 Flash,900,0
+No headers,GPT-3.5-Turbo,900,0
+No headers,GLM-4.5 Air,49,0
+No bold/italic,Gemini 2.5 Flash,750,3
+No bold/italic,GPT-3.5-Turbo,750,0
+No bold/italic,GLM-4.5 Air,28,0
+Word limit,Gemini 2.5 Flash,300,11
+Word limit,GPT-3.5-Turbo,300,3
+Word limit,GLM-4.5 Air,28,0

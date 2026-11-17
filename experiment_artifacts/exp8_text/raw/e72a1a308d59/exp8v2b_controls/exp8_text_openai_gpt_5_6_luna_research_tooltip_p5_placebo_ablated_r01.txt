@@ -1,0 +1,1 @@
+Run the query, select **Export**, choose a file format, and save the results.

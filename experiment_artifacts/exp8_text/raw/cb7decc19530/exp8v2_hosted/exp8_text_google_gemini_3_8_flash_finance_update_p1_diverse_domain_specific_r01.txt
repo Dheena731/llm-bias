@@ -1,0 +1,9 @@
+Most monthly rollups arrive late, lump irregular annual bills into artificial spikes, and hide price creep inside broad buckets like “Utilities” or “Software.” 
+
+The revised month-end summary recalculates your cash position as soon as pending authorizations settle on the final day of the month:
+
+* **Baseline drift:** Recurring charges are measured against your trailing 90-day median. If a subscription quietly bumped its rate by $4 or your municipal water bill spiked, it’s flagged as drift rather than absorbed into normal overhead.
+* **Cash pacing vs. calendar grids:** Discretionary burn is mapped against your actual deposit cadence (bi-weekly, semi-monthly), not an arbitrary 1st-to-30th window. You see what was safe to spend between paychecks, not just a backward-looking total.
+* **Merchant rollups:** Aggregates stripped processor tags (e.g., `TST*`, `AMZN Mktp`, Stripe tokens) to the parent merchant, so split digital orders and delivery apps stop scattering across multiple line items.
+
+The summary generates in-app on the 1st with a one-click CSV export mapped to standard ledger headers. No pie charts, no unsolicited budgeting advice—just reconciled cash flow.

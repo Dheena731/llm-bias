@@ -1,0 +1,7 @@
+Comment on the research question
+
+The manuscript does not state its central research question clearly enough for me to judge whether the study design can answer it. The introduction moves between several related aims, including understanding why participation declined, testing whether the new outreach program helped, and describing general patterns in community engagement. These are distinct questions that call for different designs and different kinds of evidence. The abstract frames the work as descriptive, while the discussion draws causal conclusions about the program's effect.
+
+Several terms are also left undefined. "Engagement" is used throughout, but it is unclear whether it means attendance, sustained involvement, or self-reported attitudes. Likewise, "success" is never tied to a measurable outcome. Without these definitions, I cannot tell which results are meant to support the authors' claims.
+
+I would ask the authors to state one primary question in a single sentence early in the introduction and to say explicitly whether the aim is descriptive, explanatory, or evaluative. Any secondary questions should be labeled as such. The methods, analyses, and conclusions should then be aligned with that primary question, and claims that go beyond it should be softened or removed. A clearer question would also make it easier to assess whether the sample size and chosen measures are appropriate. At present, the study may well contain useful findings, but the lack of a focused question makes its contribution difficult to evaluate.

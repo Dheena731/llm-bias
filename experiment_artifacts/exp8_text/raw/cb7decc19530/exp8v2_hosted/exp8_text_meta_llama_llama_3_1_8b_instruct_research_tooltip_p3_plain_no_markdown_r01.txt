@@ -1,0 +1,1 @@
+This control allows you to select a specific date or a range of dates. You can choose a single date by clicking on it, or you can select a range by clicking and dragging the mouse between two dates. The selected date range will be displayed in the format "from date" to "to date".

@@ -1,0 +1,1 @@
+A date-range selector lets you choose between specific dates, enabling you to filter results based on dates in a range you specify, whether it be all within the date range, between two dates, or either one. This feature is particularly helpful for tasks like searching for items, organizing events, or analyzing data within time-sensitive constraints.

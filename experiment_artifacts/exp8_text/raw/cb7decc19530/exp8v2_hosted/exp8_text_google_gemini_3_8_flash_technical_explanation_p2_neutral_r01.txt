@@ -1,0 +1,7 @@
+A database index works just like the **index at the back of a book**. 
+
+Instead of searching through every single row in a table to find what you're looking for (known as a "full table scan"), the database uses the index to jump directly to the exact location of the data. 
+
+**The result:**
+* **Pros:** Dramatically faster search and data retrieval (`SELECT` queries).
+* **Cons:** Takes up extra storage space and slightly slows down writing data (`INSERT`, `UPDATE`, `DELETE`), because the index must be updated every time data changes.

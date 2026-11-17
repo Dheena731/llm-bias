@@ -1,0 +1,1 @@
+Select CSV, JSON, or Parquet from the export menu. Downloads include headers and cap at 100k rows; use Streaming for larger queries.

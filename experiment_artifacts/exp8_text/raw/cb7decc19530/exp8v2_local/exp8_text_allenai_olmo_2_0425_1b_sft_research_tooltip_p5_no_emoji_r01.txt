@@ -1,0 +1,1 @@
+To export query results, click on the icon that resembles a file in the top right corner of the query tab, then select "Export Results" to download the data.

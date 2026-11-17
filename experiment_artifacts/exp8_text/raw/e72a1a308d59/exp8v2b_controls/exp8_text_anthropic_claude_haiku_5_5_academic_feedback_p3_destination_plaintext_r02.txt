@@ -1,0 +1,7 @@
+Reviewer Comment:
+
+The central research question is not stated clearly enough to evaluate the study. The Introduction refers to "the relationship between digital engagement and student outcomes," but it does not specify which forms of digital engagement are being measured, which outcomes are of interest, or what direction of relationship the authors expect. As written, the question could be answered by a wide range of analyses, and it is unclear which result would count as confirming or refuting the authors' claim.
+
+I recommend that the authors restate the research question in a single precise sentence that names the key variables, the population, and the expected relationship. For example, they could specify whether they are testing whether weekly time on a learning platform predicts end-of-term exam performance among first-year undergraduates. Defining the constructs operationally would also help readers judge whether the measures used in the study actually capture the concepts the authors intend to study.
+
+Clarifying the question would also make the Methods and Discussion sections easier to assess. At present, the analysis plan does not clearly follow from a stated hypothesis, and the conclusions drawn in the Discussion go beyond what the data can establish. A sharper framing would allow the authors to align their design, analysis, and interpretation around one testable claim.

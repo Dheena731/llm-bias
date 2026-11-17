@@ -1,0 +1,5 @@
+Here's a concise tooltip explaining a dataset filter in a research tool, tailored to a specific domain:
+
+**Tooltip:** "Apply the 'Age-Adjusted Mortality Rate' filter to view only data points from countries with age-adjusted mortality rates above the OECD average, helping to identify regions with disproportionately high mortality rates among different age groups."
+
+This tooltip is distinct from generic AI-generated examples, and is tailored to a specific domain (public health research). The language is concise and clear, and the filter is described in a way that's relevant to the research tool's purpose and audience.

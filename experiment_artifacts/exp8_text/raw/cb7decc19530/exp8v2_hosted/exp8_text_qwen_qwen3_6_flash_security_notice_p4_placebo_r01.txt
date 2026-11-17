@@ -1,0 +1,7 @@
+**Notice: Two-Factor Authentication Required**
+
+All account holders must enable two-factor authentication on their accounts. This security feature requires a second verification method, such as a code from an authenticator app or a text message, in addition to your password each time you sign in. Activating this protection significantly reduces the risk of unauthorized account access.
+
+To complete setup, log into your account, navigate to the Security settings, and follow the on-screen prompts. The process takes only a few minutes and provides immediate confirmation once successful. Please enable this feature promptly, as accounts without active two-factor authentication will be temporarily restricted until the configuration is finished.
+
+For step-by-step guidance or technical assistance, refer to the resources in your account dashboard or contact our support team directly. Thank you for taking this essential step to safeguard your information.

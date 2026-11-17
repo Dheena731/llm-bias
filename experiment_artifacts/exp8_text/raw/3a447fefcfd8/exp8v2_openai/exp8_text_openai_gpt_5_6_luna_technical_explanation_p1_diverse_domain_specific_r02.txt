@@ -1,0 +1,3 @@
+Latency matters because a web application is a chain of waits: DNS, connection setup, server work, database queries, and browser rendering. A 300 ms delay in an autocomplete request can make typing feel broken; the same delay repeated across several API calls can add seconds to a page load. Users often experience this as missed clicks, duplicate submissions, or uncertainty about whether an action worked.
+
+Latency also affects server capacity. Slow requests occupy connections and workers longer, so traffic spikes can turn a small slowdown into timeouts and retries. Measuring p95 and p99 latency—not just the average—helps expose the users whose checkout, dashboard, or mobile connection is already near failure.

@@ -1,0 +1,9 @@
+Here's a short message announcing a change to the VPN client:
+
+**Important Update for Luminari Network Users**
+
+As we continue to prioritize the security and performance of our network, we are announcing a change to our VPN client. Starting [effective date], the Luminari Network VPN client will be upgraded to version 3.2. This new version introduces several key enhancements, including improved stability and compatibility with modern operating systems, as well as enhanced encryption protocols to further safeguard your data in transit.
+
+This update will be rolled out automatically to all connected devices, ensuring a seamless transition. If you encounter any issues or have questions, please don't hesitate to reach out to our support team.
+
+Thank you for your continued trust in the Luminari Network.

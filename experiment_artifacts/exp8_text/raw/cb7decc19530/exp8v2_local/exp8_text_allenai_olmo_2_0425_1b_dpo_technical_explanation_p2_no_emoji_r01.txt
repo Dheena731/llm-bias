@@ -1,0 +1,11 @@
+A database index is a special data structure that is created and maintained by a database management system (DBMS) to improve the speed and efficiency of data retrieval operations. An index essentially acts as a roadmap for the DBMS, allowing it to quickly locate specific data points in the database table without having to scan every single row. Here's a short explanation:
+
+An index creates a subcollection (or "view") of rows from the original table, often organized by a unique storage attribute (like column values) that commonly appears in the query's WHERE clause. When a query is made and the index is used, DBMSs read the index first to determine which rows might match the query's conditions. This process significantly reduces the amount of data that needs to be scanned, thereby significantly improving the response time for queries. Here’s how it works:
+
+1. **Read the Index First**: Before processing a query, the DBMS reads the index to understand which rows are relevant to the current request.
+   
+2. **Simplify Data Retrieval**: The index narrows down the potential rows by focusing on the most likely candidates based on the query criteria.
+   
+3. **Speed Up Queries**: As a result, queries that involve looking for specific values or conditions are much faster than if they had to scan the entire table.
+
+In summary, indexes save time and resources by allowing the DBMS to skip large portions of data when performing searches, hence improving overall database performance.

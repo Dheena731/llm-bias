@@ -1,0 +1,1 @@
+Filter the dataset by selected criteria to show only relevant records. Clear the filter to view the full dataset.

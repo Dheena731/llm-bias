@@ -1,0 +1,1 @@
+A missing-value marker denotes that data is absent, unknown, or not recorded. It identifies a gap in information distinct from a zero value. Consult field definitions to determine how these markers impact calculations and filtering options.

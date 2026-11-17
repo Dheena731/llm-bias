@@ -1,0 +1,7 @@
+Here is a short reviewer comment on an unclear research question:
+
+**Comment on the Research Question**
+
+The manuscript states its central aim as "to explore how digital tools affect learning outcomes in secondary education." While the topic is important, the question as written is difficult to evaluate. "Digital tools" covers a wide range of technologies, from tablets and learning management systems to educational games and generative AI, and the paper does not specify which of these are under study. Likewise, "learning outcomes" could refer to test scores, retention, engagement, or critical thinking, each requiring different measures and designs. The verb "explore" also suggests a descriptive aim, yet the methods section describes a comparative experiment, which implies a causal claim.
+
+I recommend that the authors restate the research question as a specific, testable question. For example: "Does a twelve-week tablet-based mathematics intervention improve end-of-year algebra test scores compared with standard instruction among Year 9 students?" Doing so would clarify the constructs, align the question with the design, and make it possible to judge whether the conclusions follow from the evidence.

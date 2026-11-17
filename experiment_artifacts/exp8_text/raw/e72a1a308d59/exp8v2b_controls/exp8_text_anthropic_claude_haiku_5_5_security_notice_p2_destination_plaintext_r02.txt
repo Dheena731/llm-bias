@@ -1,0 +1,20 @@
+PHISHING EMAIL ALERT
+
+Phishing emails are fraudulent messages designed to trick you into revealing passwords, financial information, or other sensitive data, or into clicking malicious links or opening infected attachments. They often look like they come from a colleague, a bank, IT support, or a senior manager.
+
+Warning signs to watch for:
+- Urgent or threatening language, such as "Your account will be suspended today"
+- Unexpected requests for passwords, login details, or payment information
+- Sender addresses that look almost right but are slightly off (for example, a misspelled domain)
+- Generic greetings like "Dear User" instead of your name
+- Links that go to unfamiliar websites when you hover over them
+- Unexpected attachments, especially ZIP, Word, or Excel files
+
+What to do:
+1. Do not click links or open attachments in a suspicious email.
+2. Do not reply with any personal or company information.
+3. If unsure, verify the request by contacting the sender through a known phone number or by visiting the website directly.
+4. Report the email to the IT Service Desk immediately, using the Report Phishing button or by forwarding it to [IT security address].
+5. If you clicked a link or entered your password, contact IT right away, even if you feel embarrassed.
+
+Reporting suspicious emails quickly helps protect you and your colleagues. When in doubt, ask IT.

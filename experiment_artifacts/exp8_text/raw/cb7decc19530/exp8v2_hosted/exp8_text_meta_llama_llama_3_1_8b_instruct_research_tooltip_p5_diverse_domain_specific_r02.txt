@@ -1,0 +1,13 @@
+Here is a concise tooltip explaining how to export query results in a specific domain (likely a database or data analysis tool):
+
+**Exporting Query Results**
+
+To export query results, follow these steps:
+
+1. **Select the desired data**: Choose the columns and rows you want to export by selecting the checkboxes next to each column header.
+2. **Click the "Export" button**: Located in the top-right corner of the query results table, this button will allow you to choose the export format.
+3. **Select a format**: Choose from CSV, Excel, or JSON to export your data. If you need to export data to a specific format, such as XML, you can select the "Custom" option and specify the format.
+4. **Configure export options**: Depending on the format you choose, you may be able to configure options such as file name, delimiter, and encoding.
+5. **Click "Export"**: Your selected data will be downloaded to your local machine as a file.
+
+Note: If you need to export a large dataset, you may want to consider using the "Bulk Export" feature, which allows you to export data in chunks to avoid overwhelming your machine's resources.

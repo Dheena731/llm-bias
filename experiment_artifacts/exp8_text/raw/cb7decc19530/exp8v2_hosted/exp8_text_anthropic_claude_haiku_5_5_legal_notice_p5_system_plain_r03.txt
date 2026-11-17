@@ -1,0 +1,15 @@
+The following notice governs the use of the shared network. Every person who connects a device to the network, whether an employee, contractor, student, visitor, or other authorized user, is bound by these terms. Continued use of the network constitutes acceptance of them.
+
+Users may access the network only for lawful purposes and in a manner consistent with the purposes for which it was provided. Limited personal use is permitted so long as it does not interfere with the operation of the network, consume a disproportionate share of its resources, or conflict with any other provision of this notice. Users must not use the network to transmit material that is unlawful, defamatory, harassing, obscene, or infringing on the intellectual property rights of any person, nor to gain or attempt to gain unauthorized access to any system, account, or data.
+
+Each user is responsible for safeguarding the credentials issued to them and must not share those credentials with any other person. Users must not attempt to bypass, disable, or interfere with security controls, monitoring tools, filters, or other protective measures, and must not install software or hardware that alters the configuration of the network without prior written approval from the network administrator. Users must promptly report any suspected security incident, lost device, or unauthorized access to the designated administrator.
+
+The network is a shared resource. Users must not conduct activities that degrade its performance for others, including excessive bandwidth consumption, unauthorized mining of digital currency, the operation of unapproved servers, or the transmission of unsolicited bulk messages.
+
+The organization operating the network reserves the right to monitor network traffic, inspect stored data on organization-owned systems, and log user activity, to the extent permitted by applicable law, for purposes of security, maintenance, and compliance. Users should have no expectation of privacy in communications transmitted over organization-owned equipment.
+
+The organization may suspend or terminate a user's access at any time, with or without notice, where it reasonably believes a violation of this notice has occurred. Violations may also result in disciplinary action or referral to law enforcement where appropriate.
+
+The organization provides the network on an as-is basis and disclaims liability for any loss, interruption, or damage arising from its use, except where such disclaimer is prohibited by law. Nothing in this notice creates any contractual right to continued access. The organization may amend this notice at any time by posting the revised version, and continued use following such posting constitutes acceptance of the amended terms.
+
+Questions regarding this notice should be directed to the network administrator.

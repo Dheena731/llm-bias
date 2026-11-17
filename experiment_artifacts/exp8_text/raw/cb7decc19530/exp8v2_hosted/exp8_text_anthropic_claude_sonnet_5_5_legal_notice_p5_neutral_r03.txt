@@ -1,0 +1,40 @@
+# NOTICE OF ACCEPTABLE USE: SHARED NETWORK
+
+**Effective Date:** [Insert Date]
+**Applies To:** All users of the [Organization Name] shared network ("the Network")
+
+---
+
+**1. Acceptance of Terms**
+Access to or use of the Network constitutes acceptance of this Notice. Users who do not agree to these terms must discontinue use immediately.
+
+**2. Authorized Use**
+The Network is provided for lawful purposes related to the business, educational, or operational activities of [Organization Name]. Limited incidental personal use is permitted, provided it does not interfere with Network performance, security, or the work of others.
+
+**3. Prohibited Conduct**
+Users shall not:
+- (a) Access, alter, or attempt to access any system, account, or data without authorization;
+- (b) Introduce malware, or conduct unauthorized scanning, probing, or penetration testing;
+- (c) Transmit, store, or distribute unlawful, harassing, defamatory, or infringing material;
+- (d) Circumvent security controls, authentication measures, or bandwidth management;
+- (e) Share credentials or permit unauthorized persons to use the Network; or
+- (f) Consume resources in a manner that unreasonably degrades service for others.
+
+**4. Monitoring and Privacy**
+Users have no expectation of privacy in their use of the Network. [Organization Name] reserves the right to monitor, log, and review Network activity, to the extent permitted by applicable law, to ensure security, compliance, and proper operation.
+
+**5. Enforcement**
+Violation of this Notice may result in suspension or termination of access, disciplinary action, and, where appropriate, referral to law enforcement. [Organization Name] may take immediate action to protect the Network without prior notice.
+
+**6. Disclaimer and Limitation of Liability**
+The Network is provided "as is" and "as available," without warranties of any kind. To the fullest extent permitted by law, [Organization Name] is not liable for any loss, damage, or interruption arising from use of the Network.
+
+**7. Modifications**
+[Organization Name] may amend this Notice at any time. Continued use of the Network following any amendment constitutes acceptance of the revised terms.
+
+**8. Contact**
+Questions or reports of misuse should be directed to [Contact Name/Department, Email].
+
+---
+
+*This template is provided for general informational purposes and does not constitute legal advice. Consult qualified counsel before adoption.*

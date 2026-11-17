@@ -1,0 +1,7 @@
+Latency is the gap between a user's action and the application's visible response, and it adds up in ways that throughput numbers hide. Much of a page's load time goes to waiting rather than moving data: DNS lookup, TCP and TLS handshakes, then a chain of API calls where each one waits for the last. A page that makes eight sequential calls from a server in Virginia to a user in Singapore can spend more time on round trips than on computation. Each hop that's invisible on a laptop with the database on localhost becomes a noticeable pause on a real connection.
+
+Latency hits the interactions people repeat most. Type-ahead search, inline validation, cart updates, and filter toggles fire dozens of times per session, so a 300ms delay on each one reads as sluggishness. Users rarely report this as a bug. They just stop using the search box and start scrolling.
+
+The tail matters more than the average. If the median call takes 80ms but one request in a hundred takes four seconds, the users who hit that tail are the ones who retry, double-submit a payment, or abandon checkout. Looking only at p50 hides exactly the experiences that generate support tickets.
+
+Latency is also cheap to add and expensive to remove. Each synchronous third-party script, extra service hop, or uncached query looks harmless in review. By the time someone measures the total, the fix is usually restructuring the request flow, not tuning one query.

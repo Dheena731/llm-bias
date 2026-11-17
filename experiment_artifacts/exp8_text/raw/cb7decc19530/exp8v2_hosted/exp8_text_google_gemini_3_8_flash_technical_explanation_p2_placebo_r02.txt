@@ -1,0 +1,5 @@
+A database index is a data structure that significantly speeds up how quickly a database can find and retrieve specific data from a table. 
+
+Much like an alphabetical index at the back of a book allows you to find a topic without reading every page, a database index allows the system to locate rows of data without scanning the entire table from start to finish. It achieves this by creating an organized, sorted reference of specific columns alongside direct pointers to where the complete rows of data are actually stored.
+
+While indexes make searching and reading data much faster, they come with a trade-off: they require additional storage space, and they can slightly slow down adding, editing, or deleting data, as the index must be updated every time the underlying data changes.

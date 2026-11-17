@@ -1,0 +1,4 @@
+**Filter:** *Blinded Outcomes Only*
+
+**Tooltip:**
+> Restricts results to trials where assessors were masked to arm allocation. Excludes open-label and single-blind protocols to mitigate detection bias in subjective endpoints.

@@ -1,0 +1,15 @@
+**Security Update: Enable Two-Factor Authentication**
+
+To enhance account security and better protect sensitive information, two-factor authentication is now available and required for all accounts. 
+
+This security feature adds an essential layer of protection by requiring a verification code in addition to a password during login, significantly reducing the risk of unauthorized access.
+
+**How to set it up:**
+
+1. Log in to the account and navigate to the settings menu.
+2. Select the **Security** tab.
+3. Choose **Two-Factor Authentication** and follow the on-screen prompts to complete verification using an authenticator app or mobile device.
+
+Please complete this setup as soon as possible. Anyone needing assistance can reach out directly to technical support for guidance. 
+
+Thank you for your commitment to keeping our community safe and secure.

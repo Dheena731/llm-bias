@@ -1,0 +1,7 @@
+5,000 active nodes running on hardware we frankly didn't think would hold up. 
+
+A quiet thank-you to the engineers running this on under-provisioned ARM boards, air-gapped industrial boxes, and ancient ThinkPads who took the time to attach a sanitized core dump and a minimal repro script instead of just opening a vague issue. 
+
+You broke our WAL parser in four genuinely creative ways this year and forced us to fix two race conditions we swore were impossible. The binary is smaller and significantly harder to kill because you pushed it into corners we never would have tested ourselves.
+
+v1.4 ships Tuesday. Back to the backlog.

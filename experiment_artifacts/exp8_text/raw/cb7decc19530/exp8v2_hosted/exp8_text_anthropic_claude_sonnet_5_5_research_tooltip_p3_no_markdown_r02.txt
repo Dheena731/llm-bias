@@ -1,0 +1,1 @@
+Select a start and end date to filter results. Click one date, then another to set the range. Click a selected date again to clear it. The end date must be on or after the start date.

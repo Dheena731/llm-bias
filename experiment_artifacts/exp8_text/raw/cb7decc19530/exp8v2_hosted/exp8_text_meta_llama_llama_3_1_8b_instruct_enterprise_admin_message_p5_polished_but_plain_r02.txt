@@ -1,0 +1,9 @@
+As part of our ongoing efforts to improve the stability and performance of our email system, we will be migrating our email services to a new infrastructure in the coming weeks. This migration will allow us to provide a more reliable and efficient email experience for all users.
+
+The migration process will be completed in phases, with the first phase targeting users in specific departments. We will be sending out separate notifications to these groups with more detailed information about the migration schedule and any necessary actions they may need to take.
+
+In the meantime, our email system will continue to function as usual. However, users may experience some minor disruptions during the migration process, which should be temporary and resolved quickly.
+
+If you have any questions or concerns about the email migration, please do not hesitate to reach out to our IT department. We will be happy to provide any necessary assistance or clarification.
+
+We appreciate your patience and cooperation during this time.

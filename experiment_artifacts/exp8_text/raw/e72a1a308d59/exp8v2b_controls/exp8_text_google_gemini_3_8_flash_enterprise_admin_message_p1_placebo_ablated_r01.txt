@@ -1,0 +1,13 @@
+**Subject:** Scheduled Maintenance: Dashboard Unavailable on [Date]
+
+Hello everyone,
+
+Please be advised that the dashboard will be offline for scheduled system maintenance on **[Day, Date]**, from **[Start Time]** to **[End Time] [Time Zone]**. 
+
+During this time, you will not be able to log in or access your data. Please save any ongoing work and export any needed reports before the maintenance window begins.
+
+We will notify you as soon as access is restored. Thank you for your patience and cooperation.
+
+Best regards,  
+[Your Team/Name]  
+System Administration

@@ -1,0 +1,5 @@
+**Tooltip:**
+
+> Select a start date and an end date to show only items from that period. Click the start date first, then the end date.
+
+I assumed the selector filters displayed data and uses two clicks on a calendar. If yours differs (for example, it has presets like "Last 7 days" or includes the end date explicitly), adjust the wording to match.

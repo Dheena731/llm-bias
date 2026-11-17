@@ -1,0 +1,13 @@
+Latency, the delay between a user's action and the system's response, matters in web applications because it directly shapes how people experience and use a product.
+
+First, users are impatient. Studies have consistently shown that even small delays increase abandonment. When a page takes too long to load or a button takes too long to respond, users leave, and businesses lose sales, sign-ups, or engagement.
+
+Second, latency affects perceived quality. A fast application feels reliable and polished, while a sluggish one feels broken or untrustworthy, even if its features are excellent.
+
+Third, latency affects search rankings and discoverability. Search engines like Google factor page speed and Core Web Vitals into ranking, so slow sites can lose visibility.
+
+Fourth, latency compounds in interactive applications. Every action may involve several network round trips, so small delays add up and make workflows frustrating, especially for tasks requiring many steps.
+
+Finally, latency disproportionately affects some users. People on slow mobile connections, in remote regions, or using older devices feel delays far more acutely, so reducing latency is also a matter of accessibility and inclusion.
+
+For these reasons, teams typically treat latency as a core performance metric, measuring it and optimizing through techniques like caching, content delivery networks, efficient code, and reducing unnecessary network requests.

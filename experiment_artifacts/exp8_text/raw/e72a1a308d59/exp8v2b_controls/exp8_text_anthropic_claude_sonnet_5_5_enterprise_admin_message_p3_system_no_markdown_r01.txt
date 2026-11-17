@@ -1,0 +1,21 @@
+Subject: Upcoming VPN Client Update
+
+Hello everyone,
+
+We are updating our VPN client to the latest version on Thursday, June 12, beginning at 6:00 PM. The update improves connection stability, strengthens security, and fixes several known issues, including unexpected disconnects on Wi-Fi networks.
+
+What to expect:
+- The update will install automatically the next time you connect to the VPN after 6:00 PM on June 12.
+- You may be asked to restart your computer once the installation finishes.
+- Your existing settings and saved profiles will carry over without any action from you.
+
+What you need to do:
+- Save your work and close any sensitive sessions before you reconnect that evening.
+- If you see an error during installation, restart your device and try again.
+
+If you run into problems or have questions, please contact the IT Help Desk at helpdesk@example.com or call extension 4357. Our team will be available to assist you through Friday morning.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+IT Support Team

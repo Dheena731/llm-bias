@@ -1,0 +1,21 @@
+A database index is a separate, sorted structure that maps column values to the locations of the rows containing them. It lets the engine find rows without reading the whole table.
+
+Take an `orders` table with 40 million rows and this query:
+
+```sql
+SELECT * FROM orders WHERE customer_id = 88214;
+```
+
+Without an index on `customer_id`, the engine does a sequential scan. It reads every page of the table from disk or cache and checks each row. The cost grows with table size, even if the customer has only six orders.
+
+With `CREATE INDEX ON orders (customer_id)`, Postgres, MySQL, and most other engines build a B-tree. This is a shallow, wide tree of sorted keys, where each leaf entry holds a key and a pointer to the row (a heap tuple ID in Postgres, a primary key in InnoDB secondary indexes). A lookup walks three or four levels from the root to a leaf, finds the matching entries, and fetches those few rows. Cost now grows with the logarithm of table size, not linearly.
+
+Some consequences matter in practice:
+
+- **Writes get slower.** Every `INSERT`, `UPDATE` of an indexed column, or `DELETE` must also update each index on the table. Ten indexes mean eleven structures to maintain.
+- **Indexes use space.** They're stored on disk and compete for memory in the buffer cache.
+- **Column order matters in composite indexes.** An index on `(customer_id, created_at)` can serve queries filtering on `customer_id`, or on both columns. It generally can't help a query filtering only on `created_at`, because the entries are sorted by customer first.
+- **Selectivity decides whether it gets used.** If a filter matches 30% of the table, the planner will often skip the index. Jumping around for that many rows costs more than one sequential pass.
+- **Sorted order is a side benefit.** An index can satisfy `ORDER BY` or range queries like `BETWEEN` without a separate sort step.
+
+To check whether an index is helping, run `EXPLAIN` (or `EXPLAIN ANALYZE`) and see whether the plan shows an index scan or a sequential scan.

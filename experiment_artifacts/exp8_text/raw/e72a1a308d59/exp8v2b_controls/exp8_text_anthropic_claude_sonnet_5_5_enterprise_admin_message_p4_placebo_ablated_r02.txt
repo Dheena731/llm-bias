@@ -1,0 +1,18 @@
+**Subject: Action Required: Quarterly Access Review, Due [Date]**
+
+**To:** Department managers and system owners
+**From:** IT Security
+
+The quarterly access review opens on **[start date]**. Its purpose is to confirm that each person has only the access they need for their current role.
+
+**What you need to do**
+1. Open the review list sent to you by email at [link]. It shows what access each of your team members has to company systems and files.
+2. Mark each entry **Keep** or **Remove**.
+3. Mark **Remove** for anyone who has changed roles, left the company, or no longer needs that access.
+4. Submit your completed review by **[due date]**.
+
+**If the review is not submitted by the due date,** we will escalate to your department head. Access marked **Remove** will be taken away within [number] business days of submission.
+
+**Questions:** Contact [name or help desk address]. The next review will open on [next quarter's date].
+
+Thank you for helping keep our systems secure.

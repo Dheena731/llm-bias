@@ -1,0 +1,1 @@
+"Filter dataset by specific criteria, such as date range, location, or variable values, to narrow down the data and focus on relevant subsets for more accurate analysis and insights."

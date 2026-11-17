@@ -1,0 +1,1 @@
+A confidence interval provides a range within which a population parameter is estimated to fall with a certain level of confidence, typically 95%. It indicates the plausible range of values for a statistic, such as a mean, based on the observed data and the sample statistics.

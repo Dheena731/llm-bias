@@ -1,0 +1,15 @@
+SECURITY NOTICE: AVOID PASSWORD REUSE
+
+Reusing passwords across multiple accounts creates a significant security risk for our organization. If an external service you use is breached, cybercriminals can use those compromised credentials to access your work email, internal systems, and confidential data.
+
+To protect yourself and our network, please follow these guidelines:
+
+1. Always use unique passwords for every work and personal account.
+2. Never use your company login credentials on external or personal websites.
+3. Use the company-approved password manager to generate and securely store complex passwords.
+
+If you suspect any of your accounts have been compromised, update your password immediately and notify IT Support.
+
+Thank you for your commitment to keeping our workplace secure.
+
+IT Security Team

@@ -1,0 +1,5 @@
+The monthly spending summary has been rebuilt around actual transaction behavior rather than fixed templates. Expenses now cluster by recurring cadence and merchant type, keeping one-off purchases separate from habitual spend. You’ll see your baseline burn rate alongside discretionary drift, with month-over-month variance measured against your rolling three-month average instead of a static target.
+
+The breakdown highlights where capital actually leaves—subscriptions auto-renewed outside their usual cycle, split payments across linked accounts, and category bleed from untagged transactions. Everything pulls directly from your underlying ledger, so reconciling mismatches requires fewer manual steps.
+
+Access it from the dashboard this week. Tap any category to drill down into individual entries before finalizing the period.

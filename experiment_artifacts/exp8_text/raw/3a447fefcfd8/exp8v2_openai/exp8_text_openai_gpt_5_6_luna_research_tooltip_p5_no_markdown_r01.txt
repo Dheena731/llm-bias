@@ -1,0 +1,1 @@
+Export query results by selecting Export, choosing a file format, and downloading the file.

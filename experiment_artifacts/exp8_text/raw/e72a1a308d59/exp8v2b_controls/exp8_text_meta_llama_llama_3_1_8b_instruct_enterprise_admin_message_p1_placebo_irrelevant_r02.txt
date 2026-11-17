@@ -1,0 +1,11 @@
+Here is a short admin message about a scheduled dashboard maintenance window:
+
+"**Important Maintenance Alert**
+
+We will be performing scheduled maintenance on the dashboard system on [Date and Time]. During this time, the dashboard may be unavailable or experience intermittent issues. The maintenance is expected to take approximately [Duration] and will be completed as soon as possible.
+
+We apologize for any inconvenience this may cause and appreciate your patience as we work to improve the system. If you have any urgent matters, please reach out to our support team and we will do our best to assist you during this time.
+
+Thank you for your understanding and cooperation."
+
+This message is clear, concise, and provides the necessary information to inform users about the maintenance window. It also includes a few politeness phrases to show appreciation for the users' understanding and cooperation.

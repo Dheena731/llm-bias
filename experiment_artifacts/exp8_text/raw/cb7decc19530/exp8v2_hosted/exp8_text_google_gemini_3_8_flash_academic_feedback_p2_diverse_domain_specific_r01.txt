@@ -1,0 +1,8 @@
+Here is some feedback on Section 2:
+
+* **Cell culture parameters (2.1):** You list the cell line (RAW 264.7), but omit the passage window. Specify the range used (e.g., passages 5–12) and report the seeding density per well for the 24-well plates rather than just stating they were "grown to confluence." 
+* **Vehicle controls (2.3):** For the stock solubilization of Compound 4a, mention the solvent used. If DMSO, state the final v/v concentration in the culture medium (confirming it remained below 0.1%) and clarify whether the vehicle control was strictly volume-matched.
+* **Replication terminology (2.4):** When you report $n = 3$ for the nitrite assays, clarify whether this denotes three distinct biological replicates (passages harvested on separate days) or triplicate technical wells from a single plating. As written, it reads as the latter.
+* **qPCR reference genes (2.5):** Note your primer efficiencies and state why *Gapdh* was favored over *Actb* under LPS challenge, given known glycolytic shifts in activated macrophages. If stability was validated beforehand, a brief clause citing that run is sufficient.
+
+Fix these gaps so the protocol is actually reproducible, and bring the revised text to office hours on Thursday.

@@ -1,0 +1,5 @@
+An index is a separate sorted structure, usually a B-tree, that maps column values to the rows holding them. Without one, `SELECT * FROM orders WHERE customer_id = 4417` has to read every row in the table, because nothing says where customer 4417's rows are. With an index on `customer_id`, the engine walks the tree to the matching entries, typically a few page reads, and fetches only those rows.
+
+The index has costs. Every insert, update, or delete that touches an indexed column must also update the tree, so write-heavy tables slow down, and indexes can take up nearly as much disk space as the data they cover. The planner also won't always use an index. If a condition matches most of the table, a sequential scan is often faster. A condition that wraps the column in a function, like `WHERE lower(email) = ...`, can't use an index on plain `email`, so you'd need an index on `lower(email)` itself.
+
+Column order matters in composite indexes. An index on `(customer_id, created_at)` serves queries filtering by customer and sorting by date, but it does nothing for a query that filters only on `created_at`.

@@ -1,0 +1,3 @@
+Important Security Update: Enable Two-Factor Authentication
+
+To enhance the security of your account, we strongly recommend enabling two-factor authentication (2FA). This additional layer of protection requires a second form of verification, such as a code sent to your phone or a biometric scan, in addition to your password. Enabling 2FA will significantly reduce the risk of unauthorized access to your account. To activate 2FA, please log in to your account settings and follow the prompts to set up this feature. If you need assistance, our support team is available to help. Take a moment to protect your account today.

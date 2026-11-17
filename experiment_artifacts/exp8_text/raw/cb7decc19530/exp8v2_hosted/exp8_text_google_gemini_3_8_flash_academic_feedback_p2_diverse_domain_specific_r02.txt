@@ -1,0 +1,10 @@
+Marcus—
+
+The workflow reads logically, but several protocols are missing the detail required for someone to actually replicate the assay:
+
+1. **Centrifugation parameters:** You’ve reported several spins in RPM (e.g., "12,000 RPM for 15 min" on p. 4). Convert these to relative centrifugal force ($g$) and note the rotor model; RPM is meaningless without the radius.
+2. **Reagents and antibodies:** In the immunoblot subsection, provide the vendor, catalog number, and lot number for both the anti-p53 primary and the secondary HRP conjugate. Specify whether the primary was monoclonal or polyclonal, and include the blocking agent composition (5% BSA vs. non-fat milk matters here).
+3. **Biological vs. technical replicates:** Clarify what $n = 3$ represents in the viability assays. Were these independent cultures seeded on different days, or triplicate wells off the same suspension? 
+4. **qPCR validation:** State which housekeeping gene you settled on for the $\Delta\Delta C_t$ calculations, and explicitly mention whether you verified primer efficiencies via standard curves before running the experimental plates.
+
+Fix these gaps and resubmit the section before we look at the results draft next week.

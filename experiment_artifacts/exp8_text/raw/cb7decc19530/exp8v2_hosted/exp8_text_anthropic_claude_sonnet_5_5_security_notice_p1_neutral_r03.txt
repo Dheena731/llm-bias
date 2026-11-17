@@ -1,0 +1,29 @@
+**SECURITY NOTICE: Stop Reusing Passwords**
+
+**To:** All Employees
+**From:** IT Security Team
+**Subject:** Password Reuse Puts Our Company at Risk
+
+**What's the issue?**
+Using the same password across multiple accounts is one of the most common ways attackers gain access to company systems. When a third-party website is breached, stolen credentials are often tested against corporate email, VPNs, and cloud apps. If your work password matches one used elsewhere, attackers may be able to walk right in.
+
+**What you should do:**
+
+- **Use a unique password for every account**, especially your work accounts. Never reuse your work password on personal sites.
+- **Make passwords long.** Use a passphrase of 14 or more characters, such as four or five unrelated words.
+- **Use the company-approved password manager** to generate and store passwords, so you don't have to remember them all.
+- **Enable multi-factor authentication (MFA)** on every account that offers it.
+- **Change your password immediately** if you suspect it has been exposed, and report it to IT.
+
+**What to avoid:**
+
+- Adding a number or symbol to an old password (e.g., "Summer2024!" becoming "Summer2025!")
+- Saving passwords in spreadsheets, sticky notes, or unsecured documents
+- Sharing passwords with coworkers
+
+**Need help?**
+Contact the IT Help Desk at [email/phone] or visit [intranet link] for password manager setup guides.
+
+Thank you for helping keep our organization secure.
+
+*IT Security Team*

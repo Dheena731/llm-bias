@@ -1,0 +1,2 @@
+**Confidence interval (shaded band / error bars)**
+The range of values that plausibly includes the true value, given the uncertainty in the data. A 95% interval means that if we repeated the study many times, about 95% of the intervals produced would contain the true value. A wider range means less certainty.

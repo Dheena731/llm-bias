@@ -1,0 +1,27 @@
+I don't see the poster draft attached, so here is a feedback note you can adapt. Bracketed items are placeholders for specifics.
+
+---
+
+**Feedback on Conference Poster Draft**
+
+Thanks for sharing the draft. The [topic/figure/design choice] is a strong starting point, and the core question is clear. Here are my main suggestions.
+
+**What's working**
+- The title is [specific and engaging / easy to read from a distance].
+- [Figure/chart X] communicates the key result well.
+- The overall layout follows a logical left-to-right flow.
+
+**Suggestions for improvement**
+1. **Lead with the takeaway.** A viewer should grasp your main finding within 10 seconds. Consider adding a one- or two-sentence "key message" box near the top or center.
+2. **Cut the text.** The Methods and Background sections are dense. Aim for roughly 300-500 words total, using bullets or short phrases in place of paragraphs.
+3. **Strengthen the visuals.** Enlarge [Figure X], label axes clearly, and make sure fonts stay readable at 3-4 feet (body text at least 24 pt). Consider replacing [table] with a simple graph.
+4. **Improve visual hierarchy.** Use consistent heading sizes, more white space, and a limited color palette to guide the eye through the poster.
+5. **Sharpen the conclusions.** Tie them directly to your research question, and add one line on implications or next steps.
+6. **Finishing touches.** Add contact info or a QR code to the paper or data, and check that acknowledgments and affiliations are included.
+
+**Overall**
+This is a promising draft. With less text and a clearer focus on the main result, it will be much easier to engage visitors in conversation. I'm happy to look at another version.
+
+---
+
+If you paste in the poster text or describe the layout, I can tailor this to the actual content.

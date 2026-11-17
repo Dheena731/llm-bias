@@ -1,0 +1,1 @@
+Confidence Interval: Range where the true value likely falls, typically with 95% confidence. Reflects uncertainty from sample size and data variability.

@@ -1,0 +1,14 @@
+**Subject:** Update: Recognizing Current Phishing Patterns and Reporting Procedure
+
+Over the past fortnight, we’ve tracked a shift in phishing campaigns targeting staff. The messages now closely mirror internal workflows—ticketing system alerts, expense approvals, and meeting invitations. Look for these specific markers:
+
+• Envelope sender or reply-to addresses that borrow our naming convention but use alternate TLDs, added hyphens, or third-party domains  
+• Links directing to authentication pages outside our corporate SSO provider  
+• Attachments featuring double extensions (e.g., `memo.docx.exe`) or prompts to enable macros  
+• Unverified web forms requesting credentials, payment details, or approval tokens
+
+If an email demands immediate action or access verification, treat it as untrusted. Hover over links to confirm the destination matches our approved domains exactly. Never enter credentials on a page reached through an email hyperlink.
+
+To report a suspected message, click the “Report Phish” button in your mail client or forward the original item unchanged to security@[yourdomain].com. Preserve the message—full headers are required for threat analysis.
+
+Authentication resets, 2FA verification, and password changes are processed only through the identity management portal or direct contact with IT Support. Email is not used

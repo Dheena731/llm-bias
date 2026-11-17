@@ -1,0 +1,36 @@
+**ACCEPTABLE USE POLICY FOR SHARED NETWORK RESOURCES**
+
+**1. Purpose and Scope**
+This Acceptable Use Policy ("Policy") governs access to and use of the shared network resources ("Network") operated by [Organization Name] ("the Organization"). It applies to all users, including employees, contractors, students, and guests, who connect to the Network by any means.
+
+**2. Authorized Use**
+Users may access the Network solely for lawful purposes related to their authorized role or activities. Limited personal use is permitted provided it does not interfere with Network performance, the work of others, or the Organization's operations.
+
+**3. Prohibited Activities**
+Users shall not:
+(a) access, attempt to access, or share data or systems without authorization;
+(b) install unauthorized software or hardware on Network devices;
+(c) transmit malicious code, or intentionally disrupt or degrade Network services;
+(d) circumvent security controls, authentication mechanisms, or usage monitoring;
+(e) use the Network to harass, defame, or threaten any person, or to distribute unlawful material;
+(f) infringe copyrights, licenses, or other intellectual property rights;
+(g) consume excessive bandwidth for non-essential purposes, including unauthorized large-scale downloads or streaming; or
+(h) share credentials or allow others to use an individual's account.
+
+**4. User Responsibilities**
+Users are responsible for all activity conducted under their accounts, for maintaining the confidentiality of their credentials, and for promptly reporting suspected security incidents or policy violations to [IT Department/Contact].
+
+**5. Monitoring**
+To protect the Network and enforce this Policy, the Organization may monitor, log, and review network activity in accordance with applicable law. Users should have no expectation of privacy in their use of the Network, to the extent permitted by law.
+
+**6. Enforcement**
+Violations of this Policy may result in suspension or revocation of Network access, disciplinary action up to and including termination of employment or enrollment, and referral to law enforcement where appropriate. The Organization reserves the right to take any other action it deems necessary to protect its systems and interests.
+
+**7. Amendments**
+The Organization may amend this Policy at any time. Continued use of the Network after notice of an amendment constitutes acceptance of the revised Policy.
+
+**8. Acknowledgment**
+By accessing the Network, you acknowledge that you have read, understood, and agreed to comply with this Policy.
+
+*Effective Date: [Date]*
+*Approved by: [Name, Title]*

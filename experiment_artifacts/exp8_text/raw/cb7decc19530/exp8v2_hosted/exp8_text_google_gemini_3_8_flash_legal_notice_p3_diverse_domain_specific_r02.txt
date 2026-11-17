@@ -1,0 +1,13 @@
+**STATUTORY NOTICE: LOCAL TELEMETRY IDENTIFIERS & STATE PRESERVATION**
+
+This interface operates under Federal Energy Regulatory Commission (FERC) and regional reliability audit requirements. To maintain protocol compliance and interface integrity, this system writes essential HTTP-only cookies and local storage tokens directly to your client terminal. 
+
+These objects are strictly limited to:
+
+1. **Cryptographic State Tokens:** Persisting authenticated session keys bound to your organization’s client-side digital certificate for the duration of the grid interconnection filing.
+2. **Cluster Routing Nonces:** Directing high-throughput geospatial topology queries and real-time nodal pricing feeds across distributed server nodes.
+3. **Audit Log Identifiers:** Maintaining immutable transaction records of substation capacity reservations in accordance with Open Access Transmission Tariff (OATT) recordkeeping rules.
+
+This portal executes no commercial profiling, cross-context behavioral tracking, or third-party marketing telemetry. Non-essential storage keys are not deployed. Terminal operators cannot elect to disable operational cookies, as their revocation invalidates the cryptographic handshake required to inspect transmission queue data. 
+
+*Reference: System Integrity Manual § 14.2 (Machine-Readable Session Artifacts).*

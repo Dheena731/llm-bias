@@ -1,0 +1,17 @@
+ADMINISTRATIVE NOTICE: QUARTERLY ACCESS REVIEW
+
+To: All System Owners and People Managers
+From: IT Security and Compliance
+Subject: Action Required - Quarterly User Access Review
+
+The quarterly access review cycle is now officially open. To maintain system security and comply with audit standards, all managers and system owners are required to review and certify access permissions for their direct reports and applications.
+
+Action Required:
+Please log in to the access management portal to review all active permissions under your purview. Confirm that access levels match current job responsibilities, and flag any accounts that should be modified or revoked due to role changes or departures.
+
+Deadline:
+All reviews must be completed by Friday, [Insert Date] at 5:00 PM. Please note that uncertified accounts after this date may be subject to temporary suspension to ensure network security.
+
+If you have questions, require guidance, or encounter issues in the portal, please contact the IT Security team or submit a ticket through the IT Service Desk.
+
+Thank you for your cooperation in keeping our data and systems secure.

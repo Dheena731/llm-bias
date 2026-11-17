@@ -1,0 +1,5 @@
+Here's a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter by taxonomy: Select from our curated list of neuroscientific taxonomies to narrow down your search results. Choose from categories like 'Cognitive Processes', 'Neural Systems', or 'Behavioral Phenomena' to focus on specific research domains."
+
+This tooltip is distinct in its specificity to the domain of neuroscience research, and its concise language avoids generic, stock phrases.

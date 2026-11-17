@@ -1,0 +1,35 @@
+Here are two options depending on your audience:
+
+### Option 1: For B2B / Clients (e.g., you are a platform or processor updating merchant fees)
+
+**Subject:** Important update regarding card transaction fees 
+
+Dear [Name/Merchant],
+
+We are writing to inform you of an upcoming update to our card processing rates. Effective **[Date]**, our card transaction fee will change to **[New Rate, e.g., 2.5% + $0.30]** per transaction (previously [Old Rate]).
+
+This adjustment reflects recent changes in interchange fees set by major card networks and allows us to continue investing in the security, speed, and reliability of our payment platform. 
+
+There is no action required on your part; the new rate will automatically apply to transactions starting on the effective date. 
+
+You can view a full breakdown of the updated pricing [here/in your dashboard]. If you have any questions, please contact our support team at [Email/Phone].
+
+Thank you for your continued partnership.
+
+Best regards,  
+**[Your Company/Name]**
+
+***
+
+### Option 2: For Customers (e.g., posted at a checkout or sent to retail shoppers)
+
+**Notice: Update to Card Payment Processing Fees**
+
+Starting **[Date]**, transactions paid via credit card will include a processing fee of **[X]% / [$X.XX]**. 
+
+This fee directly covers the rising costs associated with credit card network processing. 
+
+**Ways to avoid this fee:**
+We continue to offer no-fee payments via **[Cash / Debit / ACH / Bank Transfer]**. 
+
+We appreciate your understanding and support of our business. If you have any questions, please ask a member of our team or reach out to [Contact Info].

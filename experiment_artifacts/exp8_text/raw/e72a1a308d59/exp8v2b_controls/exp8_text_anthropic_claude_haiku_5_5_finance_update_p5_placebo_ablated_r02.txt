@@ -1,0 +1,9 @@
+**Subject: Update on Delayed Payment Processing**
+
+Some payments are currently taking longer than usual to process. Payments submitted since [date and time] may show as pending, and some may take up to [number] hours to complete.
+
+Your payment has not been lost. Our team has identified the cause of the delay and is working to restore normal processing times. We are monitoring the system closely until payments are back on schedule.
+
+**What you should do:** If your payment shows as pending, please wait before submitting it again. Resubmitting may result in a duplicate charge. If a payment is still pending after [number] hours, contact our support team at [contact details] with the date, time, and amount of the payment.
+
+We will send another update by [time and date], or sooner if processing returns to normal. We apologize for the inconvenience and appreciate your patience.

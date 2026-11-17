@@ -1,0 +1,25 @@
+Here's a clear and concise notice about enabling two-factor authentication:
+
+**Protect Your Account: Enable Two-Factor Authentication**
+
+To add an extra layer of security to your account, we highly recommend enabling two-factor authentication (2FA). This feature requires a second form of verification in addition to your password, making it much harder for unauthorized users to access your account, even if they have your login credentials.
+
+**How to Enable 2FA:**
+
+1. Log in to your account.
+2. Go to your account settings.
+3. Look for the 2FA option and follow the prompts to set it up.
+
+**Why Enable 2FA?**
+
+Two-factor authentication adds an extra layer of security to your account, making it more resistant to phishing, hacking, and other types of cyber attacks.
+
+**What to Expect:**
+
+When you enable 2FA, you'll be required to enter a verification code sent to your phone or email in addition to your password. This code is generated each time you log in, ensuring that only you can access your account.
+
+**Take Control of Your Account's Security**
+
+By enabling two-factor authentication, you'll significantly reduce the risk of unauthorized access to your account. We encourage all users to take this simple step to protect their accounts.
+
+This notice is clear, concise, and written specifically for the intended audience, avoiding undefined jargon and addressing the right audience.

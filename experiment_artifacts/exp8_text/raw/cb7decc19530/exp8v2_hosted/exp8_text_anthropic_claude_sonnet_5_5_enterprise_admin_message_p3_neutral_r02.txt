@@ -1,0 +1,23 @@
+**Subject: Upcoming VPN Client Update**
+
+Hi everyone,
+
+We're updating our VPN client to the latest version on **[date]** to improve security, connection stability, and performance.
+
+**What you need to do:**
+- Save your work and disconnect from the VPN before the update window begins at **[time]**.
+- The update will install automatically. You may be prompted to restart your device.
+- After the update, sign in with your usual credentials. Your settings will carry over.
+
+**What's changing:**
+- Faster, more reliable connections
+- Improved security protocols
+- A refreshed interface
+
+If you run into problems connecting after the update, contact the IT Help Desk at **[email/phone]** or submit a ticket at **[link]**.
+
+Thanks for your patience as we make this improvement.
+
+Best regards,
+**[Name]**
+IT Department

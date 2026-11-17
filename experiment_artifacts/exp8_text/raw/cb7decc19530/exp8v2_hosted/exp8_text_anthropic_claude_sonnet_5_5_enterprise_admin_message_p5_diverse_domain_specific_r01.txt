@@ -1,0 +1,24 @@
+**Subject: Mail moves to Microsoft 365 on Saturday, March 15**
+
+Hi all,
+
+This weekend we're moving everyone's mailbox off the old Exchange server and into Microsoft 365. Work will start Friday at 6 pm, and mail should be normal again by Sunday morning.
+
+**What you'll notice**
+- Mail sent to you between Saturday 2 am and about 6 am may arrive late. It won't be lost.
+- On Monday, Outlook will ask you to sign in again and may rebuild your profile. This takes about ten minutes. Say yes to the prompts.
+- Your phone will probably need the account removed and re-added. Your mail is stored on the server, so you won't lose any.
+- Outlook's autocomplete suggestions may be empty at first. They refill as you send mail.
+
+**What to do before Friday**
+- If you have local .pst archive files, tell us. They don't migrate on their own, and we'd rather find them now than Monday.
+- Clear out anything in Deleted Items or Junk that you don't need. It'll speed up the copy.
+- Check that your phone has a screen lock. Microsoft will require one.
+
+**What we're handling**
+Shared mailboxes (billing@, support@, front-desk@), delegate calendar access, and the scanner-to-email relay on the second-floor copier are all on our checklist. If you rely on another automated sender, such as a script, alert, or old app that emails you, reply and tell us. Anything sending through the old server's address will stop working after cutover.
+
+If something looks wrong on Monday, don't wait. Email helpdesk@ourcompany.example or call 555-0142. We'll have someone on-site from 7:30 am.
+
+Dana
+IT

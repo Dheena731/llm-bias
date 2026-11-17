@@ -1,0 +1,16 @@
+Subject: Dashboard Maintenance Window: Scheduled for [Date]
+
+Dear [Team/Staff],
+
+We would like to inform you that dashboard maintenance will be taking place from [Time] to [Time] this [Month] on [Date]. If you have any critical processes that are not expected to function during this time, please ensure they are fully automated and have a failover mechanism in place. 
+
+Please do not attempt to make any manual changes to our dashboard during this period, as these might result in unexpected downtime, affecting your daily operations. 
+
+We appreciate your cooperation and understand that the scheduling of such maintenance periods might have an impact on your workflow. For any questions, please reach out to [Contact]. 
+
+Thank you for your understanding and prompt attention to this matter.
+
+Best regards,
+
+[Your Name]
+[Your Position]

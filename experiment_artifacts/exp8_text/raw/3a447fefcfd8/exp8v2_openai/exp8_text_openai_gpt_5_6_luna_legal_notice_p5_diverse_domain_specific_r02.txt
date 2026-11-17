@@ -1,0 +1,7 @@
+**Shared Network Acceptable Use Notice — Research Laboratory**
+
+Access to the laboratory network is limited to authorized personnel and approved research, teaching, and administrative activities. Users may connect registered workstations, laboratory instruments, and managed mobile devices only; personal routers, unauthorized access points, cryptocurrency miners, and devices that disrupt instrument or server traffic are prohibited.
+
+Do not scan, intercept, alter, or attempt to bypass controls on another user’s device, laboratory equipment, storage system, or account. Research data must be stored in the designated repository and handled according to applicable confidentiality, export-control, and human-subject requirements. Do not use the network to transmit malware, conduct unauthorized penetration testing, run unapproved high-volume services, or consume bandwidth in a manner that interferes with experiments or shared equipment.
+
+Network activity may be logged and reviewed for security, operational, and compliance purposes. Users must protect their credentials, promptly report suspected compromise or unusual traffic, and disconnect any device that appears to affect laboratory operations. Access may be suspended, and violations may result in disciplinary action or referral to law enforcement.

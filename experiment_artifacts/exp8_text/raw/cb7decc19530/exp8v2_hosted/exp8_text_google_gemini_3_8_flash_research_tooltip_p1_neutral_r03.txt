@@ -1,0 +1,12 @@
+Here are a few options, depending on where the tooltip appears:
+
+**Direct & general (best all-around):**
+> "Narrow your results by specific criteria like date, study type, or sample size."
+
+**Action-oriented (for a "Filter" button):**
+> "Apply criteria to isolate relevant data for your study."
+
+**If selecting specific datasets (inclusion filter):**
+> "Choose which datasets to include in your analysis." 
+
+*Tip: Keep it under 15 words so it is easy to read at a glance.*

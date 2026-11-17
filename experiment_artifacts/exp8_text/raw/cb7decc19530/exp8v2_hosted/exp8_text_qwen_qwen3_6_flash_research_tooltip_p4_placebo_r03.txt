@@ -1,0 +1,1 @@
+Indicates the value is missing, unknown, or unrecorded. Represents absence of data, not a zero value.

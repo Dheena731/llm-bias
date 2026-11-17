@@ -1,0 +1,1 @@
+We’re sorry for the brief disruption earlier today. From 14:07–14:22 UTC, some customers couldn’t upload files or sync changes while we rolled back a storage configuration issue. Service is fully restored, and queued uploads have caught up. We’re reviewing the change to prevent a repeat.

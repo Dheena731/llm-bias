@@ -1,0 +1,7 @@
+**NOTICE: REFUND ELIGIBILITY AND RECOVERY TERMS**  
+**Domain Applicability:** Industrial IoT Sensor Deployment & Telemetry Integration Services (Agreement Series II–IV)  
+
+Entitlement to a refund under this notice is restricted to transactions where service delivery remains technically incomplete at the time of request and where no proprietary configuration data, firmware binaries, or device pairings have been committed to client infrastructure. Eligibility is adjudicated solely against milestone status in the project control ledger.
+
+**Eligible Triggers**  
+A full or prorated refund shall be processed when verification confirms any of the following

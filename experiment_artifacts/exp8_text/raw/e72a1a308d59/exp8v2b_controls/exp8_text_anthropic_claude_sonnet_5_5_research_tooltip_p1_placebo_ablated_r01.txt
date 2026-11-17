@@ -1,0 +1,11 @@
+**Tooltip: "Peer-reviewed only"**
+
+> Shows only datasets linked to a paper published in a peer-reviewed journal (reviewed by independent experts before publication). Datasets with no linked paper, or only a preprint, are hidden. Turn this off to see all datasets.
+
+**Why this works**
+- **Main point first:** it says what the filter shows and what it hides.
+- **Plain language:** "peer-reviewed" is defined in parentheses, and "preprint" is clear from context.
+- **Audience:** it assumes a researcher using the tool, not a developer or a general reader.
+- **Outcome:** the last sentence tells the user how to undo the filter.
+
+You didn't specify which filter you meant, so I chose this one as an example. If you tell me the filter's name and exact behavior (for example, a date range, minimum sample size, or license type), I'll rewrite the tooltip to match.

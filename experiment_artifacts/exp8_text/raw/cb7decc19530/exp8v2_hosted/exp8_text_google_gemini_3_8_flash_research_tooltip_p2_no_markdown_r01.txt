@@ -1,0 +1,1 @@
+This range indicates where the true value is likely to fall. A wider band represents greater uncertainty, while a narrower band shows higher precision.

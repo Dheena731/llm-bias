@@ -1,0 +1,10 @@
+Thanks for the quick reply. I've found the issue, thanks to your instructions. I just had to change the following in the xml:
+
+<extract>
+    <extract-version>1.0.1</extract-version>
+    <extract-date>2014-12-16T00:00:00Z</extract-date>
+    <extract-version>1.0.2</extract-version>
+    <extract-date>2014-12-17T00:00:00Z</extract-date>
+</extract>
+
+I think the accompanying xml file was wrong. I mounted the plugin in my project, but I still receive the "error message" that the server and the database are not in the same location. I have taken a look and I've checked the configuration and permissions on the server and I can see that the server is in my network and the database is also in my network.

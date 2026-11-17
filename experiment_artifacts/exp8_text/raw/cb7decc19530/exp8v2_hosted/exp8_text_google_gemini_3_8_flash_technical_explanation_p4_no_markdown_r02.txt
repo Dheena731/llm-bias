@@ -1,0 +1,5 @@
+Caching speeds up a website by storing copies of its files, such as images, text, and code, in a temporary storage location closer to the user. 
+
+When you visit a website for the first time, your browser must request all of its data directly from the original server, which takes time to retrieve, process, and transmit across the internet. 
+
+With caching, those files are saved after the initial download, either on your device or on a nearby server. When you return to the site or navigate between pages, your browser loads the stored data from the cache instead of asking the main server to send it all over again. Because the data has a shorter distance to travel and requires no extra server processing, the website loads significantly faster.

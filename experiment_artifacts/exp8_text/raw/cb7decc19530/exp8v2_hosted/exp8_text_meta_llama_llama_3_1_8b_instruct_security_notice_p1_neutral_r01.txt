@@ -1,0 +1,26 @@
+Here is a short workplace security notice about password reuse:
+
+**Important: Password Security Reminder**
+
+As part of our ongoing efforts to protect company data and systems, we want to remind all employees of the importance of maintaining strong, unique passwords.
+
+**Do not reuse passwords** for multiple accounts, including company systems, email, and online applications. This includes but is not limited to:
+
+* Using the same password for your company email account and personal online accounts
+* Using a password that is also used for a family member or roommate's account
+* Using a password that is easily guessable (e.g. using your name, birthdate, or common words)
+
+**Why is this important?**
+
+Reusing passwords can compromise the security of our company's systems and data. If a single account is compromised, an attacker may be able to access other accounts using the same password.
+
+**Best practices:**
+
+* Use a unique and complex password for each account
+* Change your passwords regularly (at least every 60 days)
+* Avoid using easily guessable information
+* Consider using a password manager to generate and store unique passwords
+
+If you have any questions or concerns about password security, please reach out to our IT department for assistance.
+
+**Thank you for your cooperation in maintaining the security of our company's systems and data.**

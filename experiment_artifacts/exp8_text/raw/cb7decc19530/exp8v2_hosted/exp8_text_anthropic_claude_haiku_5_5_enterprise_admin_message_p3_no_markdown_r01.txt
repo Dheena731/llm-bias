@@ -1,0 +1,16 @@
+Subject: VPN Client Update, New Version Rolling Out
+
+Hello team,
+
+We are updating the VPN client to version 3.2 starting Monday, June 9. The update improves connection stability, reduces reconnect times after a network change, and adds support for multi-factor sign-in through our identity provider.
+
+What you need to do:
+- The client will update automatically the next time you restart your computer.
+- You may be prompted to sign in again the first time you connect after the update.
+- If you use the VPN on a personal device, please download the new version from the IT portal before June 16.
+
+If the client fails to install or you cannot connect after the update, contact the IT help desk at ext. 4400 or helpdesk@example.com. Please do not uninstall the old client yourself, as the update process will handle it.
+
+Thank you for your patience while we make these improvements.
+
+IT Infrastructure Team

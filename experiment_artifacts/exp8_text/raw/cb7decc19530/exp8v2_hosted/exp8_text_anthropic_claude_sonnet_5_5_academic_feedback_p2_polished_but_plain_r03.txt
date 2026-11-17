@@ -1,0 +1,16 @@
+I don't have the student's actual text, so this note covers the issues most often worth raising in a methods section. You can adjust the specifics to fit the draft in front of you.
+
+Dear [Student],
+
+Thank you for your methods section. It is clear that you have thought carefully about how to approach your research question, and the overall structure follows a logical progression from design to data collection to analysis. That order makes the section easy to follow, and your tone is appropriately neutral and precise.
+
+The main area for improvement is replicability. A reader should be able to repeat your study from your description alone, and at present several key details are missing or only implied. For example, you mention your sample but do not explain how participants were recruited, why the sample size was chosen, or what criteria determined inclusion and exclusion. Likewise, when you describe your instruments or materials, please state their source, any modifications you made, and evidence of their reliability or validity where it exists. Specific information such as software versions, time frames, and settings will also strengthen the account.
+
+I would also encourage you to justify your choices more explicitly. You describe what you did, but not always why you did it. A sentence or two explaining why this design or analytic technique suits your question, and why you rejected plausible alternatives, would show methodological awareness and preempt a skeptical reader's objections. If there were limitations built into your approach, such as a convenience sample or self-reported measures, acknowledge them briefly here and save the fuller discussion for later.
+
+Finally, check for consistency in tense and terminology. Methods are conventionally written in the past tense, and I noticed some shifts to the present. Using the same term for the same concept throughout, rather than varying for style, will also help avoid confusion about whether you are describing one procedure or two.
+
+With these revisions, the section will be considerably more rigorous and persuasive. Please feel free to bring a revised draft to office hours if you would like to talk through any of these points.
+
+Best regards,
+[Instructor]

@@ -1,0 +1,10 @@
+Hello,
+
+As of today, we have enabled two-factor authentication for all users. This is an extra layer of security to protect your account from unauthorized access.
+
+To enable two-factor authentication, please visit the login page and enter your password. Follow the on-screen instructions to enable the new two-factor authentication. You will receive an email with a security code that you must enter on the website to complete this process.
+
+Thank you for your cooperation and for helping to keep our accounts secure.
+
+Best regards,
+[Your Company Name]

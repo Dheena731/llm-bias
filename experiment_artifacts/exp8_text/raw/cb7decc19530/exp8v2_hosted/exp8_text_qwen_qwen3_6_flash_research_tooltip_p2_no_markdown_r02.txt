@@ -1,0 +1,1 @@
+Indicates the range likely containing the true population value. A 95% interval means 95% of identical studies would capture the actual value within this range.

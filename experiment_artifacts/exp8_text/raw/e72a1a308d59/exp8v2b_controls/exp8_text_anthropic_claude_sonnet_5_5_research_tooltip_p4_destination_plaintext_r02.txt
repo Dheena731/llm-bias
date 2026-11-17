@@ -1,0 +1,1 @@
+Missing value: no data was recorded or available for this field. It does not mean zero or blank. Treat it as unknown and exclude it from calculations unless noted otherwise.

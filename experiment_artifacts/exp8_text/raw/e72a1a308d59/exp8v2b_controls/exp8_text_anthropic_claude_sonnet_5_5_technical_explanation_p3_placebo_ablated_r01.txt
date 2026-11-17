@@ -1,0 +1,15 @@
+**Why Software Updates Matter**
+
+Software updates matter because they fix problems that could harm you or disrupt your use of a device. Most updates do one or more of these things:
+
+1. **Fix security weaknesses.** This is the most important reason. When developers discover a flaw that attackers could use to steal data, take control of a device, or install harmful software, they release an update to close it. Once a fix is public, attackers know exactly what the flaw was, so anyone who hasn't updated becomes an easier target.
+
+2. **Fix bugs.** Updates correct errors that cause crashes, lost data, slow performance, or features that don't work properly.
+
+3. **Keep things compatible.** Apps, websites, and devices change over time. Updates help your software keep working with them.
+
+4. **Add or improve features.** Some updates bring new tools or a better design, though this is usually a secondary benefit.
+
+Updates can occasionally change how something looks or works, which can be annoying. Still, the risks of skipping them, especially unpatched security flaws, are generally greater than the inconvenience of installing them.
+
+**The practical takeaway:** turn on automatic updates where possible, and install updates soon after they become available.

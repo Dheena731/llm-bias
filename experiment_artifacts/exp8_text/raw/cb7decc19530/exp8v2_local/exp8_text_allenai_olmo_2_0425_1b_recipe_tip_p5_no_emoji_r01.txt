@@ -1,0 +1,139 @@
+## 12.3.4. Two-Column Layouts
+
+One of the most popular layouts in the WordPress theme repository is the two-column layout.
+
+The two-column layout is shown in the screenshot below. The two-column layout can be used by including the custom-columns class in the header and footer:
+
+/** @file */
+/**
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ */
+/** @var WP_Customize_Manager */
+$wp_customize->add_section('twenty_ten_default_section',
+    array(
+        'name' => 'twenty_ten_default',
+        'priority' => 200,
+        'description' => 'Front matter for the default (Ben Twelves) Twenty Ten Theme',
+        'section' => 'twenty_ten_header',
+        'settings' => array(
+            'template' => 'twenty_ten_header_template'
+        ),
+        'content' => array(
+            array(
+                'label' => 'Front matter',
+                'type' => 'inline',
+                'priority' => 100,
+                'weight' => 100,
+                'description' => 'Set the front matter content.',
+                'section' => 'twenty_ten_header_content',
+            ),
+            array(
+                'label' => 'Header',
+                'type' => 'text',
+                'priority' => 101,
+                'weight' => 101,
+                'description' => 'Set the header content.',
+                'section' => 'twenty_ten_header_content_section',
+            ),
+            array(
+                'label' => 'Footer',
+                'type' => 'text',
+                'priority' => 100,
+                'weight' => 100,
+                'description' => 'Set the footer content.',
+                'section' => 'twenty_ten_header_content_section',
+            ),
+            'source' => 'twenty_ten_header_template'
+        )
+    )
+);
+
+The two-column layout allows you to include the header and footer widgets as shown in the screenshot below.
+
+<body>
+    <div class="container">
+        <header class="twenty_ten_header">
+
+            <div class="two-column-two-column">
+                <div class="front matter">
+                    <h1>
+                        Title
+                    </h1>
+                    <p>
+                        <br>
+                    </p>
+                </div><!-- end front matter -->
+                <div>
+                    <h2>
+                        Metadata
+                    </h2>
+                    <p>
+                        <br>
+                    </p>
+                </div>
+                <div>
+                    <h2>
+                        Footer
+                    </h2>
+                    <p>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </header>
+        <footer>
+
+            <div class="two-column-two-column">
+                <div class="front matter">
+                    <h1>
+                        Title
+                    </h1>
+                    <p>
+                        <br>
+                    </p>
+                </div><!-- end front matter -->
+                <div>
+                    <h2>
+                        Metadata
+                    </h2>
+                    <p>
+                        <br>
+                    </p>
+                </div>
+                <div>
+                    <h2>
+                        Footer
+                    </h2>
+                    <p>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div><!-- end container -->
+
+</body>
+</html>
+
+The footer can be added as shown in the screenshot below:
+
+<div class="two-column-two-column">
+    <div class="front matter">
+        <h1>
+            Title
+        </h1>
+        <p>
+            <br>
+        </p>
+    </div>
+
+    <div>
+        <h2>
+            Metadata
+            <p>
+                <br>
+            </p>
+        </h2>
+
+        <div

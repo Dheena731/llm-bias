@@ -1,0 +1,1 @@
+Missing-value marker: An empty or unknown value, often indicated by a blank or a special symbol, used to represent a data point that is missing or has no valid value.

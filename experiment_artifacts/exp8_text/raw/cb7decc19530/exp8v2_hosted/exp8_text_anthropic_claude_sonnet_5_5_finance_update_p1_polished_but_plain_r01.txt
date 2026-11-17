@@ -1,0 +1,7 @@
+We have added a monthly spending summary to give you a clearer picture of where your money goes. At the start of each month, you will find a recap of the previous month's activity, organized by category so you can see at a glance how much went to groceries, housing, transportation, dining, subscriptions, and other everyday costs.
+
+The summary shows your total spending for the month alongside a comparison to the month before, so changes stand out without any extra effort. If a category rose or fell noticeably, it will be called out so you can decide whether it reflects a deliberate choice or something worth a closer look. Recurring charges are grouped together, which makes it easier to spot subscriptions you may have forgotten about or no longer use.
+
+Categories are assigned automatically based on the merchant and type of purchase. If a transaction lands in the wrong place, you can reassign it, and the summary will update to reflect your change. Your adjustments will also be remembered for similar purchases in the future, so the results should become more accurate over time.
+
+The summary is available in your account as soon as the month closes, and you can choose to receive a copy by email if you prefer. We designed it to be quick to read, but it also offers enough detail to support budgeting and planning. We hope it makes it easier to stay on top of your finances, and we welcome your feedback as we continue to refine it.

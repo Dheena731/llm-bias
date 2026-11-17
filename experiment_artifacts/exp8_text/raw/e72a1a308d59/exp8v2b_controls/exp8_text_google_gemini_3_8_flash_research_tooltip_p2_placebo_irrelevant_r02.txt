@@ -1,0 +1,2 @@
+**Confidence Interval (95%):** 
+Shows the range where the true value is likely to fall. A narrower range indicates greater precision in the data.

@@ -1,0 +1,22 @@
+**Subject:** Introducing Your New Monthly Spending Summary
+
+Hi Team,
+
+Starting this month, we are rolling out a new **Monthly Spending Summary** to give team leads better visibility into department expenses and help keep budgets on track in real time. 
+
+### What’s New?
+Instead of waiting for end-of-quarter reviews, you will now receive an automated summary on the **first business day of each month**. 
+
+Each report will include:
+* **Budget vs. Actuals:** A quick snapshot of your monthly and year-to-date spending against your allocated target.
+* **Category Breakdown:** High-level grouping of expenses (e.g., software licenses, contractor fees, travel, operations).
+* **Month-over-Month Variance:** Automatic flags for significant shifts or unexpected recurring charges.
+
+### What You Need to Do
+* **Review:** Spend 5 minutes reviewing the numbers when the summary arrives.
+* **Flag Discrepancies:** If an expense looks misallocated or unfamiliar, reply directly to the report email so our team can adjust it.
+
+The first reports will land in your inboxes next week. If you have any questions or feedback on how we can make these reports more useful, please let the Finance team know!
+
+Best,  
+**Finance & Operations Team**

@@ -1,0 +1,11 @@
+Here's a concise tooltip explaining a confidence interval in a chart, tailored to the domain of scientific research:
+
+**Tooltip text:**
+
+"Confidence interval: A range of values (95% CI) where we expect the true population mean to lie, assuming our sample is representative. This interval is calculated from the sample data and provides a margin of error, indicating that we can be 95% confident that the true population mean falls within this range."
+
+**Alternatively, for a more technical audience:**
+
+"Confidence interval: A 95% CI calculated from the sample mean and standard deviation, assuming normal distribution of the data. This interval reflects the uncertainty in estimating the population mean, providing a range within which the true population mean is likely to lie."
+
+These tooltips aim to provide a clear and concise explanation of the confidence interval, tailored to the domain of scientific research and avoiding generic language.

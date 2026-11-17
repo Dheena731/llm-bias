@@ -1,0 +1,14 @@
+**Subject: Credential stuffing is hitting our SSO; stop recycling passwords.**
+
+Our authentication logs are showing repeated login failures caused by credential stuffing attacks. These attempts use password strings leaked from third-party services—fitness apps, retail databases, and dating platforms—to test access to our corporate identity provider.
+
+When you reuse a password, a breach outside our firewall becomes an incident inside it. Every time you share a credential between a personal account and a work tool, you are effectively handing the keys to our infrastructure to attackers who already have your login string.
+
+**Action required:**
+*   Verify that no work account shares a password with a personal service.
+*   If you rely on browser auto-fill or memory, you likely have overlaps. Switch to the enterprise password vault immediately.
+*   Enable MFA on any work account lacking it.
+
+Your personal data hygiene determines our exposure. Treat work credentials as distinct assets.
+
+IT Security

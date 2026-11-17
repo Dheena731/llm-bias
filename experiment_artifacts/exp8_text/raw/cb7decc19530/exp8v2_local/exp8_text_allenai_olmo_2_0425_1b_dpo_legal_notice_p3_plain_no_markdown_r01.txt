@@ -1,0 +1,11 @@
+Cookies are small pieces of data sent from a website and stored on a user's device while the user is browsing the website. Many websites use cookies to enhance the user experience by remembering settings, preferences, and browsing history. Common uses for cookies include recognizing a user who returns to the site, personalizing content for the user, and facilitating secure transactions.
+
+By using our website, you consent to the use of cookies. Our website sets two primary types of cookies:
+
+1. **Session Cookies**: These cookies are used by our website to ensure that you have a smooth browsing experience as you navigate through the site. Such cookies are erased when you close your browser and only remain on your device while you are actively browsing the site.
+
+2. **Persistent Cookies**: These cookies remain on your device after you close your browser and are used to store information for longer periods. This can include recalling your preferences for certain features, compiling analytics to help us improve our site, and more.
+
+We retrieve information from cookies to provide you with a better experience, personalize content for your interests, and understand how you use our site. Your choices regarding cookie usage are guided by the Privacy Policy linked above. You can manage or delete cookies by adjusting your browser settings. If you choose to disable cookies, some parts of our site might not function correctly or you could lose customizations you have made.
+
+Please note that while we strive to make this notice clear and comprehensive, specific details regarding privacy settings or changes in cookie usage policy may from time to time be updated. We encourage you to periodically review our privacy statement for any updates. By continuing to browse and use our site, you are agreeing to the use of cookies as described in this notice.

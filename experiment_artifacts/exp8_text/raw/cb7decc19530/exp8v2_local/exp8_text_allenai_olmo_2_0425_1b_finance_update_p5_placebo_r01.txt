@@ -1,0 +1,33 @@
+Add section heading. It needs to be shorter than the preceding section heading but longer than the following one, preferably in lowercase. It should not be the same as the preceding one (the previous one's first word or a few words), and it should not match the following one (the next one's last word or a few words).
+
+As a rule, the header can be up to the length of the preceding section heading. If it is shorter, it can easily be considered an error or omission.
+
+Add section heading. This is a header that is part of the one in the current section. It should be more detailed (longer) than the preceding one, preferably in lowercase, and it should not be the same as the preceding one (the previous one's first word or a few words), and it should not match the following one (the next one's last word or a few words).
+
+It should not be longer than the previous section heading plus 5 wpm. If it is longer, it can be considered an error or omission. If it is shorter than the preceding one, it can be considered an omission or an error.
+
+Add section heading. This is an additional section heading. It is longer than the previous one (the preceding section heading) and it is different from the preceding one (the preceding one's first word or a few words), and it should not be the same as the preceding one.
+
+Write a short statement about the delay or correction being appropriate for the context. If you just say "I'm going to submit it again", and it is a delay, it is not an error. If you said "I'm going to submit it once", and it is a delay, then "Submit it again" is the error.
+
+However, if you need to submit it again, and that is the only thing you wrote, you should put “Submit it” before “I’m going to submit it again”:
+
+Submit it again.
+
+But if you have some other reason to do that, you can write:
+
+First, I'm going to submit it again.
+
+or just
+
+I'm going to submit it again.
+
+As a rule, the header can be up to 50 wpm. If it is longer, it can be considered an error or omission. If it is shorter than the previous section heading, it can be considered an error or omission.
+
+Write a concise explanation of the technical reasons for the delay or correction. If the previous section is about something related to the current section, this paragraph has to be here, and that main topic should be in the heading of the current section. The paragraphing needs to be simple and clear. The heading of the current section should be placed at the beginning of the paragraph.
+
+On the other hand, if the third section is related to the first one, this paragraph should not appear in the current section. But if the third section is related to the second one, this paragraph should be here, and the first section heading should be placed in the end of the paragraph.
+
+In order to avoid confusion and mistakes, you should avoid using the same words in these paragraphs as you used in the headings. The order does not matter, and the complexity of the explanation does not matter either, but these paragraphs should be full of words and not just a few ones. Do not use more than 10 words or less than 5 words.
+
+If the explanation cannot be expressed in any of the above paragraphs, write it in the author's write-up.

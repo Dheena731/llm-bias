@@ -1,0 +1,5 @@
+The answer is Wikipedia Editors. When a user logs into the site in the future, a request will be sent out to the server that contains the user’s username and password. This will be used to authorize the login request. The server will also contain the other factor for identification, but it will cross-check whether it is the same user or not using this additional factor. This adds a layer of protection for the user and can prevent unauthorized users from accessing the site, even with the user’s password. It is similar to how your laptop is protected with a fingerprint instead of your password. It adds an additional layer of protection in case the password is compromised.
+
+The two-factor authentication will be implemented by the end of 2017. It is to be added to popular sites like Facebook, Twitter, and Gmail. Facebook, which is the first to add it, is going to test it with multiple organizations including Hollywood, Inc. and Apple. This is to prove to users that it is secure and will not slow down their access to the site. The goal is to make it a standard feature by the end of 2017.
+
+Leave a Reply

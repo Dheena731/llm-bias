@@ -1,0 +1,19 @@
+This is an example of a well-written chart caption.
+
+An example of a poorly written chart caption.
+
+Write the title in a clear and concise manner, avoiding slang, jargon, and acronyms. Include the main topic of the chart in the title. Any supporting details should be included in the caption. Avoid using the headings as the title. Use a phrase similar to "Write the chart title in the title" as the title of the section.
+
+A good title for a chart:
+
+A chart with a title on the top left that clearly shows the main topic of the chart: Income and Spending.
+
+A chart with one heading and a subtitle on the top left that clearly shows the main topic of the chart: Income, Spending on various items, and the number of people living in poverty.
+
+A poor title for a chart:
+
+A chart with a single heading that is unclear what the main topic is: Pie chart of income and percentage of spending.
+
+A chart with no title at all:
+
+A chart with a title that is too long or too vague: A pie chart of income and percentage of spending.

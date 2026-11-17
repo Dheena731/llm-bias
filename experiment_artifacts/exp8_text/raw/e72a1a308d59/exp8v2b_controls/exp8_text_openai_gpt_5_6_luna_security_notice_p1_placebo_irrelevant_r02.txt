@@ -1,0 +1,5 @@
+**Security Notice: Don’t Reuse Passwords**
+
+Please use a unique password for every work account. Reusing passwords increases the risk that one breach could compromise multiple systems. Use an approved password manager to create and store strong passwords, and enable multifactor authentication whenever available.
+
+If you suspect your password has been exposed, change it immediately and contact IT or Security.

@@ -1,0 +1,15 @@
+WORKPLACE SECURITY NOTICE: PASSWORD REUSE POLICY
+
+Dear Team,
+
+This notice serves as a reminder regarding our company policy on password management. Using the same password across multiple accounts or systems poses a significant security risk. If one account is compromised, attackers can easily access your other work and personal accounts that share the same credentials.
+
+To protect our network and data, all employees must use unique passwords for every system, application, and service they access. Please create strong, complex passwords that are at least twelve characters long and include a mix of uppercase letters, lowercase letters, numbers, and special characters. We strongly recommend using an approved corporate password manager to securely store and generate these credentials.
+
+Passwords should be changed immediately if you suspect any unauthorized access, and must be updated every ninety days as per our IT security standards. Never share your login information with anyone, including IT support staff, who will never ask for your password.
+
+For assistance with setting up password managers or reporting suspicious activity, please contact the IT Security Helpdesk at extension 5000 or email security@company.com.
+
+Thank you for your cooperation in keeping our workplace secure.
+
+IT Security Department

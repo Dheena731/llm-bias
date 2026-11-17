@@ -1,0 +1,14 @@
+Example output from a memoryless neural network trained on mining new-world card transaction data.
+
+Note: The nuances of transaction types, languages, and non-card related charges can be difficult to understand by human review; machine learning models may lack the contextualized understanding necessary to flag these nuances. Additionally, the vast amount of data needed to train a highly flexible memoryless model will result in very large parameter sets and computational demands.
+
+
+  • You can use the same data set mentioned in the diagram above. This dataset was created in order to test memoryless neural networks.
+  • You could use any dataset that contains transaction data and is publicly available, such as the following:
+    • Card Transaction Transaction Data
+    • Transaction Types in a Swedish Card Transaction Database
+    • Transaction Types in a UK Card Transaction Database
+    • Transaction Types in an Irish Card Transaction Database
+  • The data set must allow for net transactions, i.e. transactions with a positive charge and a negative charge.
+    • This is important because the entity that is charged makes no difference for the algorithms. The positive or negative charges just show the overall amount that the entity needs to cover.
+  • The data set must contain transaction categories that are used to classify the transactions. For example, the categories in the UK card transaction database are: Paywave, Paypoint, Chip and Pin, Debit Card, Prepaid Card, Contract Card, Cash / Cheque, Gift Card, Post Office Card, Wire Transfers.

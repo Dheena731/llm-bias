@@ -1,0 +1,9 @@
+Latency matters in web applications mostly because of how many times a page has to wait.
+
+A single page view is rarely a single request. The browser resolves DNS, opens a TCP connection, negotiates TLS, and fetches the HTML. Then it discovers the JavaScript, which calls an API, whose response triggers two more calls. Each step depends on the one before it, so the delays add up instead of overlapping. A 150 ms round trip on a mobile connection is unnoticeable once, but six of them in a chain is nearly a second of blank screen. Bandwidth has improved enormously, while the round-trip time is still bounded by distance and radio scheduling. Sending 20 KB costs about the same as sending 2 KB when the round trip dominates.
+
+Interactive features are even less forgiving. Responses under about 100 ms feel like a direct result of a click or keystroke. Past a second or so, people lose their train of thought. In an autocomplete box, if responses take longer than the gap between keystrokes, results arrive stale or out of order and the UI flickers.
+
+Averages also hide the problem. If a page depends on 100 backend calls and each is slow just 1% of the time, about 63% of page loads will hit at least one slow call. The user experiences the worst dependency, not the typical one, which is why p95 and p99 matter more than the mean.
+
+In practice, the biggest gains usually come from removing round trips rather than shaving milliseconds off server code. Useful techniques include preconnecting, caching, batching requests, serving from the edge, and flattening dependency chains.

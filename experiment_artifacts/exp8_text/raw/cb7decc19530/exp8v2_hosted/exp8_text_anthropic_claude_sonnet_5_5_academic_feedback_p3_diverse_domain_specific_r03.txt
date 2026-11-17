@@ -1,0 +1,19 @@
+**Reviewer comment, Major Concern 1: the research question**
+
+The stated aim is to determine "how mycorrhizal networks influence forest regeneration." As written, I can't tell which of three different questions the study is asking:
+
+1. Does mycorrhizal colonization of a seedling improve its survival, regardless of how it was colonized?
+2. Does connection to an established common mycorrhizal network (CMN) of adult trees add a benefit beyond what independent colonization provides?
+3. Do seedlings receive carbon or nutrients through hyphal links from adult trees?
+
+These call for different designs and support different conclusions. The methods suggest question 2, since you use 0.5 µm and 35 µm mesh cores to exclude roots and hyphae. But mesh exclusion also changes soil water movement and severs the fungal inoculum supply, so the contrast confounds "network connection" with "access to inoculum." The discussion then reads the survival differences as evidence of resource transfer (question 3), which no measurement here addresses. No isotope labeling or tracer was used.
+
+"Influence" and "regeneration" are also undefined. Your response variables are 2nd-year survival and height, which cover only early establishment in one *Quercus rubra* cohort. Please say whether the claim concerns establishment, recruitment into the sapling layer, or stand-level composition.
+
+I'd ask the authors to:
+
+- Restate the question as a single testable contrast, such as "Does seedling survival differ between plots with intact and severed hyphal connections to adult *Q. rubra*, controlling for inoculum availability?"
+- Align the title, abstract, and discussion with that contrast.
+- Either drop the language about resource transfer or add data that support it.
+
+Until the question is narrowed, I can't judge whether the analysis answers it.

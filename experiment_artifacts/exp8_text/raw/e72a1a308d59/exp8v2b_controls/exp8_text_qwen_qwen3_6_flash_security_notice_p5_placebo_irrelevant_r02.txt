@@ -1,0 +1,22 @@
+**NOTICE: REPORT OF LOST COMPANY LAPTOP**
+
+**To:** All Staff / Department Heads  
+**From:** [Your Name/Title], IT Asset Management  
+**Date:** [Current Date]  
+**Reference:** INC-[Number]
+
+This notice serves to formally report a company-issued laptop that went missing on **[Date]** at approximately **[Time]** near **[Building/Floor/Location]**.
+
+The device was actively used for work-related tasks and contains access to internal systems and confidential company data. Upon discovery of the loss, the following immediate actions were taken:
+• Remote lock and wipe protocols have been initiated.
+• All user accounts and digital credentials tied to the device have been reset.
+• Access logs are under review by the Security team.
+
+If you have any information regarding the whereabouts of the laptop, or if you observe it being used outside of authorized company premises, please report it immediately to IT Security at **[Phone Number]** or **[Email Address]**. You may also file a detailed incident report through the internal asset management portal by **[Deadline]**.
+
+Thank you for your cooperation in protecting company assets and maintaining data security.
+
+Regards,  
+**[Your Name]**  
+[Your Title]  
+[Contact Information]

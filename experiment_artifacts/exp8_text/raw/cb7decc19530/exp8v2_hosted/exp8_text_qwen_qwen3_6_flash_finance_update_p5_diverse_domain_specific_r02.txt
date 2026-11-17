@@ -1,0 +1,15 @@
+**Status Update: Settlement Pipeline Latency & Retry Backlog**
+
+**Current State:**  
+Processing throughput is constrained due to extended timeout intervals with the upstream card network gateway. While capture authorization remains stable, transactions are backing up in the reconciliation queue before final batching.
+
+**Impact on Operations:**  
+*   **Transaction Status:** You may observe prolonged "pending" states for last 2 hours. Transactions are not failing; they are awaiting gateway acknowledgment.
+*   **Settlement Timing:** Batch settlements are shifting. Captured funds from today's volume will clear into Day N+2 cycles rather than the standard next-day window.
+*   **Payouts:** Automated payout schedules remain unaffected. Funds will be credited once batches reconcile; no cash-flow gaps are occurring.
+*   **Fees:** No penalty fees are being assessed on batches processed within the retry window.
+
+**ETA & Action:**  
+Engineering is draining the retry queue. Normalization is targeted within 60–90 minutes. Dashboard latency metrics should stabilize shortly. For manual verification of high-volume captures, please submit TXN IDs via the support portal.
+
+*Updates posted here every 30 minutes until resolved.*

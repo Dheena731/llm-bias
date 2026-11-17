@@ -1,0 +1,23 @@
+**Subject: Upcoming Email Migration**
+
+Hello everyone,
+
+We will be migrating our email system to a new platform on **Saturday, [date], beginning at 8:00 PM**. The process should be complete by Sunday morning.
+
+**What to expect:**
+- Email access may be interrupted for several hours during the migration.
+- Incoming messages will be held and delivered once the migration is complete, so nothing will be lost.
+- Your existing emails, folders, and contacts will be transferred automatically.
+
+**What you need to do:**
+- Close your email client before the migration begins.
+- After the migration, sign in with your current username and password. You may be prompted to set up multi-factor authentication.
+- Mobile devices may need to be re-added. Instructions will be provided in a follow-up message.
+
+If you have questions or notice any issues after the migration, please contact the IT Help Desk at [email/phone].
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+[Name]
+IT Department

@@ -1,0 +1,35 @@
+The sign should be displayed at a prominent location in the space, so that students can see it before they enter the room. It is easiest to separate acceptable and unacceptable use with a red and blue line (printed on a piece of graph paper). The graph paper with the red and blue lines is then hung on the wall. Students may attempt to download a file directly from a server with an incorrect or null password. This is not very likely, but it could happen. If students access a file from a server with a weak password (i.e., one that is too short or one that is easy to guess), you may want to inform the students that the server's authorization is questionable. Most students will then not try to download the file. Instruct them that all typed-in files are to be viewed as personal computers and that they must not copy or distribute the file. A copy of the file is then kept as an evidence document and stored with the content files. The file is not in the actual content file, but is stored in a separate location in the network file system. The actual content file is then replaced with the evidence file. (This serves to guard against a virus or some other stealth program that could spread through the network.) The file is not allowed to be retrieved from the server unless the password is changed or until the content file is returned.
+
+
+  1. The password should be changed whenever it is erased or changed. If the system administrator decides to change the password, the file should be deleted from the server.
+
+  2. If the file is retrieved after the password has been changed, the file should be deleted.
+
+  3. Authorization to access files and programs is checked at the time the file is retrieved. If the user's password is changed, access to the file is denied by the system.
+
+  4. If the user's password is reset, the file should be placed in the converted file directory.
+
+  5. If the password is changed, the file should be deleted from the server.
+
+  6. The file must not be retrieved if the user's password is changed.
+
+  7. All users' passwords are published in a separate file and kept on the network, and the system administrator can see all collected login/password combinations. Users' logins are kept in the system and are not published.
+
+  8. Students' passwords are not published. Students' passwords can be changed.
+
+  9. When students change their passwords, the old password will be replaced with one that will not match the old password before the file is changed.
+
+  10. Excessive use of network resources and applications can result in a denial of access. This can be an inconvenience for the student, but it is better than loss of access for the entire class period. If it happens more than once, the student may be punished (just like other infractions).
+
+  11. Students can check their passwords each time they access the system, but they probably won't because they won't see the benefit of checking their passwords. Because their passwords are not really being checked, it is probably not necessary to ask each student to check their passwords.
+
+  12. It is also not necessary for the teacher to check the passwords among his/her students. The same password used by more than one student will be the password checked.
+
+  13. Passwords are changed every 30 days.
+
+  14. The password policy is enforced by the system and is not based on the students' opinions. If students do not like the policy, they can leave the school.
+
+
+S. 992.2129-1994
+
+See also:

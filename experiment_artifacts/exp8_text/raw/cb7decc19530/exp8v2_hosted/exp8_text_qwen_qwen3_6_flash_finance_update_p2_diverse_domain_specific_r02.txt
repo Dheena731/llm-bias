@@ -1,0 +1,12 @@
+**Subject:** Adjustment to Card Transaction Fees – Effective [Date]
+
+Starting [Date], we’re updating our card processing fees to reflect sustained increases in Visa/Mastercard interchange and association assessment charges. This change shifts eligible accounts from blended tiered pricing to a transparent pass-through model.
+
+What’s changing:
+- Network costs (interchange, assessments, scheme fees) will post as separate line items on your monthly statement rather than being absorbed into a single blended rate.
+- Our fixed service component remains unchanged at [X]¢ per authorized transaction.
+- Commercial, corporate, travel & entertainment, and B2B purchase cards will reflect updated category rates directly; traditional consumer credit/debit costs will adjust by an estimated [0.10–0.25]% depending on your authorization mix.
+
+You can view an example of the new statement layout and a month-over-month cost comparison in the attached PDF. Accounts with >70% non-reimbursable commercial volume may see a slightly higher effective rate; standard retail profiles should remain within ±0.12% of current billing.
+
+If you need help reconciling the shift or want a quick audit of your transaction mix, reply to this note or contact [name/title] at [email/phone]. We’ll continue monitoring network filings and will issue updates promptly if additional changes occur.

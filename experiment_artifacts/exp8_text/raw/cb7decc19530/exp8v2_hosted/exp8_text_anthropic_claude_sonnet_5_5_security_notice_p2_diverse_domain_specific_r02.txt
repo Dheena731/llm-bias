@@ -1,0 +1,22 @@
+**NOTICE: Fake payroll emails, Oct 14–16**
+
+**To:** All staff
+**From:** IT Help Desk
+
+Since Monday, about 40 of us have received an email titled "Action required: updated direct deposit form." It looks like it comes from Payroll. It doesn't. The link opens a page that imitates our Microsoft sign-in and collects whatever you type.
+
+One person entered their password on Tuesday and called us within ten minutes. We reset it, and nothing was accessed. That is how this should go.
+
+**How to spot this one**
+- The sender's address ends in *@hr-payrol1.com* (that's a number 1, not an L). Ours end in *@harlowsupply.com*.
+- Payroll will never ask you to sign in through an email link to change banking details. Those changes are made in person or through the HR portal you already use.
+- The message says your next paycheck will be delayed if you don't act today. Real payroll problems don't arrive with a deadline attached.
+
+**What to do**
+- Click **Report Phish** in the Outlook toolbar. Please don't forward it to coworkers to ask if it's real, because that spreads it.
+- If you clicked the link, **call ext. 4417 right away**, even if you didn't type anything. If you did enter your password, we need to reset it before anyone else uses it. Nobody will be in trouble for calling.
+- If a vendor emails to say their bank account has changed, call them on the number in our records, not the one in the email, before Accounts Payable changes anything.
+
+We'll also be blocking the sender's domain today, but new ones appear faster than we can list them, so your own check matters.
+
+Questions: helpdesk@harlowsupply.com or ext. 4417.

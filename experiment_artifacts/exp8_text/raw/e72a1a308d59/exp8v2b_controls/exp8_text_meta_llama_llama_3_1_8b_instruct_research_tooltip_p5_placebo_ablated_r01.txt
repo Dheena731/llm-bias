@@ -1,0 +1,12 @@
+Here is a concise tooltip explaining how to export query results:
+
+**Exporting Query Results**
+
+To export your query results, follow these steps:
+
+1. Click on the "Export" button in the top-right corner of the query result table.
+2. Select the desired file format (e.g., CSV, Excel, PDF).
+3. Choose the data to export (e.g., all results, or specific columns).
+4. Click "Export" to save the results to your computer or cloud storage.
+
+Note: The availability of export options may vary depending on your database or application.

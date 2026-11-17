@@ -1,0 +1,45 @@
+ • Do not use your own logo or any images.
+  • Do not use an unrelated image because that creates a distraction.
+  • Do not use an image that is not centered in its image box. If you must use an image that is not centered, use CSS to center it.
+  • If you use an image you have to credit the author.
+  • Most importantly, make sure that your image box is 100% centered in the image box.
+
+Set your styles according to the Code Slides template. This template contains the CSS declarations needed for the style guide to work properly.
+
+  • Write your "About" page
+  • Write your "Hiring" page
+  • Write your "Terms of Service" page
+  • Write your "Privacy Policy" page
+  • Write your "Terms of Use" page
+  • Write your "Terms of Use with a Cookie Policy" page
+  • Write your "Who We Are" page
+  • Write your "What We Do" page
+  • Write a news item about hacked passwords
+  • Write an article about user passwords, with a breakdown of popular password choices
+  • Write an article about password security in general, including when to use a password and when to use a passcode, with tips for creating strong passwords
+
+Add one password each to each of these pages using the password generator provided in the Security Guide.
+
+  • Write an article about password security, with a breakdown of common password choices.
+  • Write an article about password selection, with a breakdown of common password choices.
+  • Write a tip article for your target audience.
+  • Write an article suggesting different password types for each channel your organization uses.
+  • Write an article about the importance of a secure password for all users, with tips.
+  • Write an article about the importance of making your password change automatically if it has been compromised.
+  • Write an article about the importance of using a password manager.
+  • Write an article about password management.
+  • Write an article that explains how users can prevent password theft by sharing their passwords.
+  • Propose a way to make it easier for users to choose complex passwords while also making it easier for them to remember their passwords.
+  • Propose a way to make it easier for users to choose complex passwords while also making it easier for users to remember their passwords.
+  • Propose a way to make it easier for users to choose complex passwords without making it too difficult for them.
+  • Propose a way to make it easier for users to choose complex passwords without making it too difficult for them.
+  • Propose a way to make it easier for users to choose complex passwords while making it less likely for them to accidentally reuse them.
+  • Propose a way to make it easier for users to choose complex passwords without having to remember them.
+  • Propose a way to help the user pick a complex password that is memorable.
+  • Propose a way to help the user choose a complex password that is unique.
+  • Propose a way to help users pick a complex password that is memorable but unique.
+  • Propose a way to help users pick a complex password that is memorable but unique without having to remember it.
+  • Propose a way to help the user pick a complex password that is memorable but unique while also allowing them to record it in a safe place.
+  • Propose a way to help users pick a complex password that is memorable but unique while also allowing them to remember it and record it in a safe place.
+  • Propose a way to help the user pick a complex password that is memorable but unique while also allowing them to remember it and record it in a safe place without needing to write it down.
+  • Propose

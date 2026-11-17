@@ -1,0 +1,11 @@
+**Tooltip:**
+
+> **Date range**
+> Choose a start date and an end date to show only results from that period.
+
+If your selector also has preset options (such as "Last 7 days"), you could use this version:
+
+> **Date range**
+> Choose a start and end date, or pick a preset, to show only results from that period.
+
+I kept the wording generic because I don't know what your product displays or what rules the selector has. If it has limits, such as a maximum range or whether the end date is included, add one short line for them.

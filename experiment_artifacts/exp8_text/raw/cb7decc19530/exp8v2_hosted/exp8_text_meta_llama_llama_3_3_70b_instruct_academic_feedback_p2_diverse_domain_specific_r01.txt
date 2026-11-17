@@ -1,0 +1,3 @@
+Here is a short feedback note on a student's methods section:
+
+"In the description of your experimental design, it would be helpful to clarify how you controlled for potential confounding variables, such as participant fatigue, that could impact the validity of your reaction time data. Additionally, the rationale behind choosing a within-subjects design could be more explicitly stated, particularly in relation to the trade-offs between increased statistical power and potential carryover effects. Consider adding a sentence or two to justify this design choice and discuss how you plan to address these potential limitations in your analysis."

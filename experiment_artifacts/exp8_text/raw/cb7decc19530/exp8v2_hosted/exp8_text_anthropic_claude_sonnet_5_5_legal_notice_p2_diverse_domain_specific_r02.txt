@@ -1,0 +1,21 @@
+**NOTICE OF AMENDMENT TO PRIVACY POLICY**
+**Harbor Cycle Cooperative, Inc. ("Harbor Cycle")**
+Issued: March 3, 2025 | Effective: April 2, 2025
+
+**1. Scope.** This Notice amends the Harbor Cycle Privacy Policy dated June 14, 2023 (the "Prior Policy") and applies to all registered riders and to anyone who unlocks a bicycle through the Harbor Cycle app or a station kiosk.
+
+**2. Amendments.**
+
+(a) *Trip location data.* Prior Policy § 4.2 allowed retention of GPS breadcrumb data for 24 months. Effective April 2, 2025, breadcrumb data is retained for 90 days and then reduced to trip origin and destination, each rounded to the nearest station or the nearest city block. Data held under a legal hold is excluded from this reduction.
+
+(b) *Transit authority sharing.* Harbor Cycle will provide the Metro Transit Authority with trip records for service planning. Records will contain no name, payment token, device identifier, or account number. Under the data-sharing agreement, the Authority may not attempt to re-identify riders and may not disclose the records to third parties.
+
+(c) *Collision and incident reports.* Where a rider files or is named in an incident report, Harbor Cycle may retain the associated trip record, including precise location, for up to 4 years to address insurance claims and limitation periods.
+
+(d) *Removed provision.* Prior Policy § 7.5, which allowed use of trip history to select advertising partners, is deleted. Harbor Cycle does not sell or share personal information for cross-context behavioral advertising.
+
+**3. Sensitive personal information.** Precise geolocation is sensitive personal information under Cal. Civ. Code § 1798.140. Harbor Cycle uses it only to provide the rental service, maintain fleet safety and security, and comply with law. California residents may request that we limit other uses under § 1798.121. We currently make no other uses.
+
+**4. Your choices.** You may request access, deletion, or correction through Settings → Privacy → Data Requests, or by writing to the address below. We will respond within 45 days. Use of the service after the Effective Date constitutes acceptance of this Notice. Riders who do not accept it may close their accounts before that date, and we will process any eligible deletion request.
+
+**5. Contact.** Privacy Officer, Harbor Cycle Cooperative, Inc., 410 Pier Street, Suite 6, Oakland, CA 94607 | privacy@harborcycle.example

@@ -1,0 +1,16 @@
+Subject: Update to our VPN client
+
+Hello everyone,
+
+We are updating the company VPN client, and the change will take effect next Tuesday evening at 8 p.m. Eastern. The new version improves connection stability, speeds up reconnecting after your device wakes from sleep, and includes several security fixes.
+
+Most people will be updated automatically the next time they connect after the rollout begins. If you see a prompt asking you to restart the client, please accept it so the installation can finish. Anyone on a personal device or a machine that is not managed by IT will need to download the new version from the internal software portal.
+
+After the update, you may be asked to sign in again with your usual credentials and multi-factor authentication. Your saved connection profiles should carry over, but if something looks missing, the portal also has a short guide for setting them up again.
+
+The old client will stop working about two weeks after the rollout, so please update before then to avoid losing remote access. If you run into trouble, contact the IT help desk by email or by phone, and we will help you as quickly as we can.
+
+Thank you for your patience while we make this improvement.
+
+Best regards,
+The IT Team

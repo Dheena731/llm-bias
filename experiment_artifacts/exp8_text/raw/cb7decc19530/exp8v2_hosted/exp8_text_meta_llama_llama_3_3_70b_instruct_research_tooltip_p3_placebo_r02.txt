@@ -1,0 +1,1 @@
+"Select a range of dates to filter data. Choose a start date and an end date to include all dates in between. You can adjust the dates using the calendar interface or by typing them in manually."

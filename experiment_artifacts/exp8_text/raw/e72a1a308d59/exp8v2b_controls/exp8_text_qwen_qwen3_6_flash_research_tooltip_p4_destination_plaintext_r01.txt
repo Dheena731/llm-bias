@@ -1,0 +1,1 @@
+Indicates missing or unavailable data at this point. Does not represent a zero value.

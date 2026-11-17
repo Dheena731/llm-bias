@@ -1,0 +1,21 @@
+Subject: Reminder: Quarterly Access Reviews Begin Monday
+
+Hello team,
+
+This is a reminder that our quarterly access reviews will begin on Monday and must be completed by the end of the month. These reviews help us confirm that user permissions remain appropriate and that we continue to meet our security and compliance requirements.
+
+What you need to do:
+
+1. Review the list of users and permissions assigned to you in the access review tool. Managers will receive a list for each of their direct reports.
+2. Confirm access that is still needed, and flag any access that is outdated or no longer required.
+3. Pay special attention to administrator accounts, shared accounts, and access held by contractors or former team members.
+4. Submit your completed review by the deadline.
+
+Any access that has not been reviewed by the deadline may be suspended until a review is completed. Approved removals will be processed within five business days of submission.
+
+If you have questions or need help with the review tool, contact the IT Service Desk at itsupport@yourcompany.com.
+
+Thank you for helping keep our systems secure.
+
+Regards,
+IT Administration

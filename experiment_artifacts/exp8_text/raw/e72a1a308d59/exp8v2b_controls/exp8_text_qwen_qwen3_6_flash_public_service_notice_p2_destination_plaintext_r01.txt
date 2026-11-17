@@ -1,0 +1,14 @@
+PUBLIC NOTICE: ROAD CLOSURE
+
+LOCATION: [Insert Road Name/Intersection]
+DATES: [Insert Start Date] through [Insert End Date]
+TIME: [Insert Start Time] to [Insert End Time]
+
+REASON: [Insert Reason, e.g., Emergency Utility Repair / Road Resurfacing]
+
+TRAFFIC IMPACT: [Insert Details, e.g., All lanes closed / One lane alternating traffic]
+DETOUR: Please use [Insert Alternative Route]. Allow extra travel time.
+
+CONTACT: For updates, call [Insert Phone Number] or visit [Insert Website].
+
+ISSUED BY: [Insert Agency/Department Name]

@@ -1,0 +1,5 @@
+Reviewer Comment:
+
+The manuscript's central research question is difficult to pin down. The Introduction states that the study aims to "explore how digital engagement affects student outcomes," but it is unclear which digital engagement behaviors are being measured, which student outcomes are of interest, and what the expected direction of the relationship is. Terms such as "engagement" and "outcomes" are used throughout without operational definitions, and the Methods section describes a survey of login frequency and a set of exam scores, which do not obviously map onto the broader framing.
+
+I would ask the authors to restate the research question as a specific, testable question that names the independent variable, the dependent variable, the population, and the hypothesized relationship. It would also help to explain why this question matters and what a positive, negative, or null finding would contribute to the existing literature. Until the question is sharpened, it is difficult to judge whether the analysis and conclusions are appropriate, since the reader cannot tell what result would count as confirming or refuting the central claim.

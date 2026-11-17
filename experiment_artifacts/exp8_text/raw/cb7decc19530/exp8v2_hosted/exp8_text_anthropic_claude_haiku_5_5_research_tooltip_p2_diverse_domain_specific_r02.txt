@@ -1,0 +1,3 @@
+**95% CI: 44.1–50.3 min** (212 shipments, Carrier B, Oct 2024)
+
+Across repeated samples of this size, about 95 of 100 intervals built this way would contain the true mean. Wider bars mean fewer shipments or more variation.

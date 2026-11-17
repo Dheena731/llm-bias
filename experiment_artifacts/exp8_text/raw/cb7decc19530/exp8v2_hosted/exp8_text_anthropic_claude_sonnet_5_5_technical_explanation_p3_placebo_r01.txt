@@ -1,0 +1,15 @@
+Software updates matter because they keep your devices secure, reliable, and useful.
+
+**Security.** Developers regularly find flaws in their software that attackers can use to steal data, take control of a device, or install harmful programs. An update usually includes fixes for these flaws. Once a flaw is publicly known, anyone who has not installed the fix remains exposed to it, so delaying updates leaves you at greater risk.
+
+**Reliability.** Updates also correct bugs that cause crashes, freezes, or incorrect behavior. Installing them helps your software work as it should.
+
+**Compatibility.** Other software, websites, and devices change over time. Updates help your programs keep working with them, such as a new printer, a file format, or a changed website.
+
+**New features and improvements.** Some updates add features or make existing ones faster or easier to use, so you get more from software you already have.
+
+**Limits of not updating.** Software that is no longer updated by its maker will not receive security fixes, which makes it increasingly risky to use over time.
+
+**What to do.** Turn on automatic updates where possible, and install updates soon after they are offered. If an update prompt appears while you are busy, schedule it for later that day rather than ignoring it. Download updates only through your device's built-in update feature or the official app store, since fake update warnings on websites are a common way to spread malware.
+
+In short, updates are one of the simplest and most effective ways to protect your information and keep your devices working well.

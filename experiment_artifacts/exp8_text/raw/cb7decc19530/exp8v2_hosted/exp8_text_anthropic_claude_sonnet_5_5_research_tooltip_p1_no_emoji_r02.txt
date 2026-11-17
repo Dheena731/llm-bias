@@ -1,0 +1,9 @@
+**Dataset Filter**
+
+Narrow the results to specific datasets. Select one or more to show only records from those sources. Leave all unselected to search across every dataset.
+
+**Tip:** Combining datasets broadens your results, while other filters, such as date range or study type, narrow them further.
+
+---
+
+If you tell me which filter you mean (for example, date range, sample size, or data access level), I can tailor the wording to it.

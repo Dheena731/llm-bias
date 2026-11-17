@@ -1,0 +1,21 @@
+**Subject: Delay in payment processing**
+
+Hello,
+
+Payments are currently taking longer than usual to process. Since [date/time], some payments have stayed in "pending" status instead of completing within the usual [normal timeframe].
+
+**What this means for you**
+- Payments submitted during this period will still be processed, but they will arrive later than expected.
+- You do not need to take any action. Please do not submit a payment again, as this could result in a duplicate charge.
+
+**What we're doing**
+We are working to resolve the issue and clear the backlog. We expect payments to return to normal by [expected date/time]. We will send another update by [time], or sooner if anything changes.
+
+If you have questions about a specific payment, contact us at [support contact] with your payment reference number.
+
+We apologize for the inconvenience and appreciate your patience.
+
+[Company/Team name]
+
+---
+*Assumptions: this is written for customers, and the bracketed items are details I don't have. Fill them in, and if the audience is internal staff or vendors, let me know and I'll adjust it.*

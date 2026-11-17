@@ -1,0 +1,12 @@
+Subject: Update on Delayed Payment Processing
+
+We are writing to let you know that some payments are currently taking longer than usual to process. The delay began on [date] and affects [payment type or channel]. Our engineering team identified the cause as [brief description, e.g., a issue with a third-party payment provider], and a fix is in progress.
+
+Payments already submitted are queued and will be processed in the order received. We expect normal processing times to resume by [date/time]. No payments have been lost, and no additional action is needed from you at this time.
+
+If you have a payment that has not cleared within [timeframe], please contact us at [support email or phone] with your reference number so we can check its status. We will send another update by [date/time] or sooner if there are changes.
+
+We apologize for the inconvenience and appreciate your patience as we resolve this.
+
+[Name]
+[Title, Company]

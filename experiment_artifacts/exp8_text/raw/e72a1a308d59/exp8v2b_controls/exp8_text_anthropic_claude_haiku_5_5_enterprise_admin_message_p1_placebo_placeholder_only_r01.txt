@@ -1,0 +1,13 @@
+**Subject: Scheduled Dashboard Maintenance, Saturday, March 14**
+
+Hi all,
+
+The analytics dashboard will be offline for scheduled maintenance this Saturday, March 14, from 22:00 to 02:00 UTC. During this time, you won't be able to log in or view reports.
+
+We're applying a security patch and upgrading the data-refresh service to improve load times. No action is needed on your part. Please save any work in progress before 22:00 UTC, and plan around the outage if you run scheduled exports that night.
+
+If anything looks wrong when the dashboard returns, contact the IT help desk at helpdesk@company.example.
+
+Thanks for your patience.
+
+IT Operations

@@ -1,0 +1,16 @@
+**Subject: Quarterly Access Reviews**
+
+**Audience:** Administrators responsible for system or application access
+
+Quarterly access reviews are required for every system you administer. Please check that each user's access is still needed for their current role.
+
+**What to do:**
+
+1. Review the list of users and their access rights for each system you manage.
+2. Confirm access that is still needed.
+3. Remove access that is no longer needed, including access held by people who have changed roles or left the organization.
+4. Return your completed review by the deadline stated in the review request.
+
+Access that is not reviewed regularly can remain in place after it is no longer needed, which increases the risk of unauthorized use of company data.
+
+If you have questions about your review, contact the team that sent the review request.

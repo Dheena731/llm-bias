@@ -1,0 +1,1 @@
+Export query results by selecting an export format, then clicking Export.

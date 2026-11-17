@@ -1,0 +1,1 @@
+Confidence interval: the shaded range indicates uncertainty around the estimate. A 95% interval means that, across repeated samples, about 95% of such intervals would contain the true value.

@@ -1,0 +1,9 @@
+**Update: Delays in Payment Processing**
+
+We are aware that some payments are taking longer than usual to process. The delay is caused by a slowdown in our payment processing system, and our engineering team is working to restore normal processing times.
+
+Payments submitted during this period will still be processed. Some may take one to two business days longer than expected to appear in accounts. We are reviewing the queue to confirm that no payments have been lost or duplicated.
+
+If you have a payment that has not cleared after two business days, please contact our support team with the transaction date and the amount so we can trace it. You do not need to resubmit the payment.
+
+We will post another update once processing returns to normal. We apologize for the inconvenience and appreciate your patience.

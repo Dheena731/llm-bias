@@ -1,0 +1,14 @@
+Subject: Scheduled Dashboard Maintenance on Saturday, June 14
+
+Hello everyone,
+
+We will be performing scheduled maintenance on the analytics dashboard this Saturday, June 14, from 10:00 p.m. to 2:00 a.m. Eastern Time. During this window, the dashboard will be unavailable while we apply security updates and upgrade the database that powers our reports.
+
+Please expect no access to live data, saved views, or scheduled exports for the duration of the work. Any exports set to run during the window will be postponed and will start automatically once maintenance is complete. Data collected in the meantime will not be lost and will appear on the dashboard after it comes back online.
+
+If you need a report or figure before the downtime, we recommend downloading it by Friday evening. We will send a short confirmation message as soon as the dashboard is available again. If you notice anything unusual after that point, please contact the support team and include a brief description of what you saw.
+
+Thank you for your patience as we keep the system secure and reliable.
+
+Best regards,
+The Systems Administration Team

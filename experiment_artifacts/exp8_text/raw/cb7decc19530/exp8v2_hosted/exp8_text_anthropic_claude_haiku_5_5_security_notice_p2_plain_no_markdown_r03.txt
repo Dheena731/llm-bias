@@ -1,0 +1,11 @@
+Subject: Phishing Emails: How to Spot Them and What to Do
+
+Phishing emails are fraudulent messages designed to trick you into revealing passwords, approving payments, or opening malicious attachments. They often look like they come from a colleague, a vendor, our IT department, or a well-known company. Please take a moment to review the warning signs below.
+
+Be cautious of messages that create urgency, such as demands to act within the hour or threats that an account will be closed. Check the sender's full email address, not just the display name, because attackers often use lookalike domains with small spelling changes. Be wary of unexpected requests to share login details, change bank information, or buy gift cards. Hover over links before clicking to see where they lead, and do not enter credentials on a page you reached from an email unless you are certain it is genuine. Treat unexpected attachments with suspicion, even if they appear to come from someone you know.
+
+If you think you have received a phishing email, do not reply, click any links, or open attachments. Report it to the IT help desk right away using the reporting button in your email client or by forwarding it to the security team. If you have already clicked a link or entered your password, tell IT immediately so we can secure your account. Prompt reporting is never held against anyone, and it helps us protect the whole organization.
+
+If you are unsure whether a message is legitimate, verify it through a separate channel, such as calling the person directly using a number you already have, before taking any action.
+
+Thank you for helping keep our systems and our data safe.

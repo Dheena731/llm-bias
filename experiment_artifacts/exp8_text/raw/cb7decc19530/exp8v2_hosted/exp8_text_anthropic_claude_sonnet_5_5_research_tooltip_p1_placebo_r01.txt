@@ -1,0 +1,6 @@
+**Tooltip (example: publication date filter)**
+
+> **Publication date**
+> Show only datasets published within the dates you choose. Clear both dates to see all datasets.
+
+**Note:** You didn't specify which filter or how it behaves, so I assumed a publication date filter. If you share the filter's name, what it does, and how it treats edge cases (such as records with missing values), I can tailor the tooltip to match.

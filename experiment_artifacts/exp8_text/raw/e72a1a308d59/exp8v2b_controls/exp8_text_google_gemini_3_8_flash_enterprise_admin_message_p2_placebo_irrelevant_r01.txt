@@ -1,0 +1,20 @@
+**Subject:** Important Update: New Expense Approval Workflow Effective [Date]
+
+Hi Team,
+
+Starting on **[Day, Date]**, we are launching an updated expense approval workflow in **[System/Software Name, e.g., Expensify/Workday]** to streamline submissions and speed up reimbursements.
+
+**What’s changing:**
+* **Automated Routing:** Expenses will now automatically route directly to your direct manager, followed by Finance for reports over **[$X,XXX]**.
+* **Faster Turnaround:** Managers will receive automated notifications and can approve requests directly via email or mobile.
+* **Tracking:** You can now track the approval and payment status of your claims in real time on the platform.
+
+**What you need to do:**
+* Any draft or unsubmitted reports under the old process must be submitted by **[Time, Date]**.
+* Review the attached 1-page Quick Reference Guide before submitting your next claim.
+
+If you have any questions, please reach out to the Finance team at **[Email Address]** or visit the **[#finance-support]** Slack/Teams channel.
+
+Best regards,  
+**[Your Name / Finance & Admin Team]**  
+**[Company Name]**

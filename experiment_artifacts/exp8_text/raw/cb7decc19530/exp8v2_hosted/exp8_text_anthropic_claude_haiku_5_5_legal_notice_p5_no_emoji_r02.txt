@@ -1,0 +1,33 @@
+**Acceptable Use Notice for Shared Network Resources**
+
+**1. Purpose**
+This notice sets out the terms under which users may access and use the shared network and its associated systems, equipment, and data (the "Network"). Continued use of the Network constitutes acceptance of these terms.
+
+**2. Authorized Use**
+Access to the Network is granted solely for lawful, business-related, or otherwise authorized purposes. Users must maintain the confidentiality of their login credentials and must not share them with any other person.
+
+**3. Prohibited Conduct**
+Users shall not:
+(a) access, attempt to access, or alter any data, account, or system for which they have not been expressly authorized;
+(b) introduce malicious software, or take any action intended to disrupt, degrade, or circumvent the security of the Network;
+(c) use the Network to transmit unlawful, harassing, defamatory, or obscene material;
+(d) consume bandwidth or storage in a manner that unreasonably interferes with other users;
+(e) install unauthorized software or hardware on Network devices; or
+(f) use the Network for commercial purposes unrelated to the user's authorized role.
+
+**4. Monitoring**
+To the extent permitted by applicable law, the Network owner may monitor, log, and review network activity, including traffic, files, and communications, for security, maintenance, and compliance purposes. Users should have no expectation of privacy in their use of Network resources.
+
+**5. Reporting Obligations**
+Users must promptly report any suspected security incident, unauthorized access, or misuse of the Network to the designated network administrator.
+
+**6. Enforcement**
+Violations of this notice may result in suspension or revocation of access, disciplinary action, and, where warranted, referral to law enforcement or pursuit of legal remedies.
+
+**7. Amendments**
+The Network owner may amend this notice at any time. Updated versions will be published and take effect upon posting.
+
+**8. Disclaimer**
+The Network is provided "as is." The Network owner disclaims liability for any loss or damage arising from use of the Network, except to the extent such liability cannot be excluded under applicable law.
+
+*Questions regarding this notice should be directed to the Network Administrator.*

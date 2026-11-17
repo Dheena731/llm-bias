@@ -1,0 +1,12 @@
+**Notice: Quarterly Access Review Now Open**
+
+**To:** All People Managers and System Owners
+
+The quarterly access review is now underway. This process ensures that staff members hold only the system permissions necessary for their current job duties, helping maintain our overall data security.
+
+**Required Actions:**
+1. Review the access permissions assigned to your direct reports and system users.
+2. Approve permissions for individuals who still require them for their day-to-day work.
+3. Revoke or flag for removal any permissions that are outdated, excessive, or belong to former team members.
+
+Please complete your assigned reviews within two weeks of receiving your review notification. If you have questions or encounter any issues during the review, please submit a ticket to the IT Help Desk.

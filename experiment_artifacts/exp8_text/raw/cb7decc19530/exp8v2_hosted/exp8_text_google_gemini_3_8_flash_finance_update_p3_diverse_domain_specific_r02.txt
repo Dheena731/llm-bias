@@ -1,0 +1,12 @@
+**Changelog: Target-based auto-sweeps**
+
+You can now attach target dates and priority tiers to individual balances instead of manually calculating how much to set aside after payday. 
+
+When configuring a goal—like an annual insurance premium or a tax reserve—the system now pulls from inbound deposits upstream of your primary spendable balance. If your income varies from month to month, lower-priority allocations pause automatically to protect your day-to-day liquidity, preventing accidental overdrafts. 
+
+Key details:
+* **Interest routing:** Yield (currently 4.4% APY) compounds directly inside each bucket rather than spilling into your general account.
+* **Over-target logic:** Once a goal is fully funded, excess automated transfers route back to your unallocated ledger.
+* **No lock-ins:** Funds remain fully liquid and can be swept back to your primary balance instantly without penalties.
+
+Available now under **Cash > Allocations**.

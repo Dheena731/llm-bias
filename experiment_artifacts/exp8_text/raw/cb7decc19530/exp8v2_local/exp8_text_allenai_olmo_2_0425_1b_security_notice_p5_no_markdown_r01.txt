@@ -1,0 +1,34 @@
+Please use one of the following templates. Remember to replace "Lisa" with your name and "Laptop" with the appropriate subject of your report.
+
+File: {{filename}} Report Template: {{reportdate}} {{reporttext}} {{reportcomment}}
+
+File: Laptops and desktops used in the office.
+
+Do not use Markdown formatting.
+
+Office computers are out of date and unreliable. There are many reasons for this, but the main one is the lack of money to maintain them. Here is a list of the most common issues:
+
+  • The mice keep going wrong, with one of them falling off the desk or the other one becoming stuck under the desk.
+  • The computers keep overheating. This is a problem with a lot of computers in this office. The computers should be cleaned out at least once a week, otherwise they can become damaged.
+  • There is a lot of dust in the office computers, which can be dangerous for people who work in the office and other people who come in contact with them.
+
+Role of the reporter:
+
+The role of the reporter is to give a full account of the incident. This will help the company to better understand the situation and decide on what to do about it. This can be done in a range of ways, including:
+
+  • Giving a detailed description of what happened;
+  • Including photographs or video of the incident;
+  • Giving a written report of the incident, including all the relevant information;
+  • Designating a contact person who will report back to the company with any further details.
+
+The role of the company:
+
+The company should be able to respond quickly to any incidents that occur, by providing good customer service. This includes anything from resolving small problems to dealing with major incidents. In order to do this, the company should be aware of the following:
+
+  • The company should know what the risks are for its employees, customers and other people that are affected by the incident;
+  • They should know what the basic requirements are for maintaining a safe environment and dealing with incidents;
+  • They should know how to react quickly and professionally to any incidents, using the appropriate equipment and technology.
+
+Conclusion:
+
+In conclusion, this report illustrates the importance of good reporting techniques in order to present a complete and accurate account of the incident. It also shows how useful good reporting techniques can be for companies in order to provide good customer service.

@@ -1,0 +1,18 @@
+Subject: Update to the company VPN client
+
+Hello everyone,
+
+We are replacing our current VPN client with a newer version, which will roll out to all employee devices beginning next Monday. The update improves connection stability, shortens login times, and includes current security protections that the older client no longer receives.
+
+For most people, the change will happen automatically. The next time you restart your computer after Monday, the new client will install itself, and you will see a brief prompt asking you to approve the update. Please accept it when it appears. After installation, you will sign in with the same username and password you use today, and your multi-factor authentication method will not change.
+
+If you work remotely, we recommend restarting your computer at the end of the day on Monday so the installation completes before you start work on Tuesday. If you are connected to the VPN when the update begins, you may be disconnected briefly and will need to reconnect.
+
+A few things may look different. The application icon and menu layout have been refreshed, and your saved connection profiles will carry over, so you should not need to set anything up again. If you do not see your usual profile after the update, please restart the client before contacting us.
+
+If you run into trouble, the IT help desk is available on weekdays from 8 a.m. to 6 p.m. Please include your device type and any error message you see, since that helps us resolve the issue faster. We will also keep the old client available for a short period in case someone needs to switch back temporarily.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+The IT Support Team

@@ -1,0 +1,35 @@
+Here are three options, depending on where you are sending the message:
+
+### Option 1: Standard Email (Best for all-company announcements)
+**Subject:** Important: Upcoming change to our VPN client
+
+Hi team,
+
+To improve network security and performance, we are transitioning to a new VPN client, **[New VPN Name]**, effective **[Date]**. 
+
+**What you need to do:**
+* **Before [Date]:** Download and install the new client using [this link / Software Center].
+* **Setup Guide:** Step-by-step instructions can be found [here].
+* **Old VPN:** The current VPN ([Old VPN Name]) will be decommissioned on **[Date]**.
+
+If you run into any issues, please reach out to the IT Helpdesk at [Contact Info].
+
+Thanks,  
+[Your Name/IT Department]
+
+***
+
+### Option 2: Slack / Microsoft Teams (Quick & casual)
+📢 **IT Update: We’re upgrading our VPN!**
+
+On **[Date]**, we will be retiring [Old VPN] and switching to **[New VPN Name]**. 
+
+👉 **Action required:** Please follow the [Setup Guide Link] to install and log into the new client before **[Deadline Date]**. 
+
+After [Deadline Date], the old VPN will no longer work. If you need help, drop a message in `#it-support` or submit a ticket [here]. 
+
+***
+
+### Option 3: Short & Direct (For pop-ups or intranet banners)
+**Action Required: VPN Client Update**  
+We are switching to a new VPN client (**[New VPN Name]**) on **[Date]**. Please install the new client by following the instructions [here] before the deadline to ensure uninterrupted remote access. Questions? Contact the IT Helpdesk at [Contact Info].

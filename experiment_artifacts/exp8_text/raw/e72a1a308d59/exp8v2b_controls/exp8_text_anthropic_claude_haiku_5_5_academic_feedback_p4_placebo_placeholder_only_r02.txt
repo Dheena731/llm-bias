@@ -1,0 +1,17 @@
+**Feedback on your poster draft: "Sleep Duration and Working Memory in First-Year Undergraduates"**
+
+Thanks for sending this over. The study question is clear, and the central finding (the bar chart comparing recall scores across sleep groups) is easy to spot. Here are my main suggestions:
+
+1. **Shorten the title.** "Sleep Duration and Working Memory in First-Year Students" conveys the same information in fewer words and reads better from a few feet away.
+
+2. **Reduce the methods text.** The methods section is roughly 400 words. Viewers skim posters, so aim for three or four bullet points covering the sample, the measures, and the analysis. Move the full procedure to a handout or QR code.
+
+3. **Make the main figure the focus.** The recall chart is your strongest element, but it's small and sits below the fold. Enlarge it, add error bars if they aren't there already, and state the sample size in the caption.
+
+4. **State the conclusion directly.** The results section reports the p-values but never says what they mean. Add one sentence in plain language, such as "Students sleeping under six hours recalled 18% fewer items on average."
+
+5. **Add a limitations line.** The sample comes from a single university, and sleep was self-reported. A brief limitations note strengthens credibility and invites questions during your session.
+
+6. **Check the color contrast.** The gray text on the light blue background will be hard to read in a hall with bright lighting. Darker text would help.
+
+Overall, this is a solid draft. Tightening the text and enlarging the key figure will make the strongest result stand out. I'm happy to look at a revised version.

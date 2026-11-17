@@ -1,0 +1,18 @@
+*(I assumed a podcast hosting service. Tell me your actual domain and I'll rework the details.)*
+
+---
+
+Between 9:42 and 10:05 UTC this morning, our RSS feeds and audio files were returning errors. If you hit play during that window, you probably saw "episode unavailable" or a spinner that never finished.
+
+Cause: a bad config push to our CDN. We rolled it back, and everything has been serving normally since 10:05.
+
+What this means for you:
+- No episodes or uploads were lost.
+- Downloads that failed during the outage won't be counted, so your stats will show a small dip around 9:45. Nothing is wrong with your audience.
+- Apple Podcasts and Spotify may take an hour or two to re-fetch feeds. You don't need to resubmit anything.
+
+We should have caught this in staging, and we're adding a check for it. Sorry to everyone who had a commute without their show.
+
+Status updates: status.example.com
+
+---

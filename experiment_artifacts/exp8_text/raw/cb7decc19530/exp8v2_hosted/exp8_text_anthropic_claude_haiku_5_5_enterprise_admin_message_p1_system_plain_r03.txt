@@ -1,0 +1,12 @@
+Subject: Scheduled Dashboard Maintenance This Saturday
+
+Hello everyone,
+
+The analytics dashboard will be unavailable this Saturday, June 14, from 10:00 p.m. to 2:00 a.m. Eastern Time while our engineering team completes scheduled maintenance and performs important security updates. During this window, users will not be able to log in, and any reports that are set to run automatically in that period may be delayed until the system is back online.
+
+Please save any work in progress before 10:00 p.m. on Saturday and plan around the outage if you need dashboard access overnight. Scheduled exports will be queued and sent once maintenance is complete, so no data will be lost.
+
+If you experience any issues after the maintenance window closes, please contact the IT help desk at helpdesk@company.com or extension 4400. Thank you for your patience as we work to keep the platform reliable and secure.
+
+Best regards,
+IT Administration Team

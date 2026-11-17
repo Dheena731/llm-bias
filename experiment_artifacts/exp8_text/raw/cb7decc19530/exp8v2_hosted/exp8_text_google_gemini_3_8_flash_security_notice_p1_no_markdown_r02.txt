@@ -1,0 +1,17 @@
+SECURITY NOTICE: AVOID PASSWORD REUSE
+
+All Staff,
+
+Reusing passwords across multiple accounts creates a significant security risk for our organization. If an external website or personal account experiences a data breach, attackers will immediately attempt to use those stolen credentials to access our internal systems.
+
+Please follow these security guidelines:
+
+1. Never use your work password for personal accounts, or vice versa.
+2. Ensure every account you access uses a unique, complex password.
+3. Utilize the company-approved password manager to create and securely store your credentials.
+
+If you suspect that any of your passwords have been exposed or compromised, update them immediately and contact the IT Help Desk.
+
+Thank you for your commitment to keeping our workplace secure.
+
+IT Security Team

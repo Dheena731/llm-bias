@@ -1,0 +1,13 @@
+Subject: Scheduled Dashboard Maintenance Window
+
+Dear Users,
+
+Please be advised that our analytics dashboard will undergo scheduled maintenance on [Date] from [Start Time] to [End Time] [Timezone]. During this period, the dashboard will be temporarily unavailable and live data feeds will pause.
+
+No action is required from you. We recommend saving any open reports or workspaces before the maintenance window begins. Service will return to normal automatically once updates are complete.
+
+If you encounter unexpected issues after the window closes, please contact the IT helpdesk at [Email or Phone Number].
+
+Thank you for your patience and cooperation.
+
+System Administration Team

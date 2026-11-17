@@ -1,0 +1,12 @@
+SECURITY NOTICE: Enable Two-Factor Authentication (2FA)
+
+To enhance the security of your account and protect your personal information, we strongly encourage all users to enable Two-Factor Authentication (2FA). 
+
+2FA adds an extra layer of defense against unauthorized access by requiring a unique verification code in addition to your password whenever you log in.
+
+How to set it up:
+1. Log in to your account and go to Settings.
+2. Select the Security tab.
+3. Turn on Two-Factor Authentication and follow the on-screen instructions.
+
+Please enable this feature as soon as possible to ensure your account remains safe and secure. If you have any questions or need assistance, please contact our support team.

@@ -1,0 +1,21 @@
+**Sample post (assuming a birdsong ID app, swap in your own details):**
+
+---
+
+100,000 birds identified.
+
+The 100,000th was a house wren, recorded at 5:42 a.m. in Tulsa. We like to imagine the person stood very still in a driveway holding their phone up.
+
+A few things you taught us along the way:
+
+- Mockingbirds are the top cause of "the app thinks there are 14 birds here." We're fixing how it handles mimics in the next update.
+- The most-used button is "Not sure." Fair.
+- Longest single recording: 41 minutes of one very committed chachalaca.
+
+Thank you for the recordings, the corrections, and the bug reports about frogs being labeled as birds. (Some of those were actually birds.)
+
+Update 2.4 ships Thursday.
+
+---
+
+If you tell me your actual product and the milestone, I can rewrite it with details that are true to your users.

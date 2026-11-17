@@ -1,0 +1,11 @@
+**SECURITY NOTICE: Avoid Password Reuse**
+
+Reusing passwords across multiple accounts poses a serious threat to our organization's data security. When an external service or personal website experiences a data breach, attackers routinely use those stolen credentials to attempt unauthorized access to corporate networks. 
+
+To keep our systems and data secure, please follow these guidelines:
+
+* **Use Unique Passwords:** Your workplace password must be unique and never reused for any other work or personal accounts (such as personal email, banking, or social media).
+* **Use an Approved Password Manager:** Utilize the company-approved password manager to generate and securely store complex, distinct passwords for every application.
+* **Enable Multi-Factor Authentication (MFA):** Ensure MFA is active on all accounts where available.
+
+If you suspect any of your credentials have been compromised, change your password immediately and notify the IT Support team.

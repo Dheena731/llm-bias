@@ -1,0 +1,18 @@
+Caching speeds up a website by storing copies of data so it can be served quickly instead of being rebuilt or fetched from scratch every time someone asks for it.
+
+**The basic idea:** Without caching, each page request might require the server to run code, query a database, and assemble the page from scratch. That takes time and resources. With caching, the result of that work is saved, and the next visitor receives the saved copy almost instantly.
+
+**Common types of caching:**
+
+- **Browser caching:** Your browser keeps local copies of files like images, stylesheets, and scripts. When you revisit the site, it loads them from your device rather than downloading them again.
+- **CDN caching:** A content delivery network stores copies of a site's content on servers around the world, so users receive data from a location physically close to them, reducing delay.
+- **Server-side caching:** The server saves the output of expensive operations, such as a fully rendered page or a database query result, and reuses it for later requests.
+- **Memory caching:** Tools like Redis or Memcached hold frequently used data in RAM, which is far faster than reading from disk or a database.
+
+**Why it helps:**
+
+1. **Faster load times:** Data travels shorter distances and requires less processing.
+2. **Reduced server load:** The server does less repeated work, so it can handle more visitors at once.
+3. **Lower bandwidth use:** Fewer files are transferred over the network.
+
+**The tradeoff:** Cached content can become outdated. Websites manage this by setting expiration times or clearing the cache when content changes, so visitors get speed without seeing stale information.

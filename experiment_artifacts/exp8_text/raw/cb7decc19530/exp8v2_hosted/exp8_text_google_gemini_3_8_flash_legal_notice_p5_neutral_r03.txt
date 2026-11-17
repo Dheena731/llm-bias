@@ -1,0 +1,21 @@
+**NETWORK ACCESS NOTICE AND ACCEPTABLE USE POLICY**
+
+**1. BINDING AGREEMENT**  
+By accessing, connecting to, or utilizing this shared network (the “Network”), you (“User”) acknowledge that access is provided as a revocable privilege, not a right, and agree to be strictly bound by the terms of this Notice. If you do not agree, disconnect immediately.
+
+**2. PROHIBITED CONDUCT**  
+The Network must be used solely for lawful, authorized purposes. Users are strictly prohibited from engaging in activities including, but not limited to:
+* Transmitting, downloading, or storing any unlawful, defamatory, infringing, or malicious content;
+* Distributing malware, viruses, or executing network attacks (e.g., DoS/DDoS);
+* Attempting unauthorized access to other devices, systems, or data connected to the Network;
+* Engaging in excessive bandwidth consumption that degrades performance for other users;
+* Utilizing the Network for unauthorized commercial gain or copyright infringement.
+
+**3. NO EXPECTATION OF PRIVACY & MONITORING**  
+To the fullest extent permitted by applicable law, **Users have no expectation of privacy regarding their use of this Network.** The Network operator reserves the right to monitor, intercept, log, review, and restrict all network traffic and communications at any time, without prior notice, for maintenance, security, and compliance purposes.
+
+**4. DISCLAIMER OF LIABILITY**  
+THE NETWORK IS PROVIDED ON AN **“AS IS” AND “AS AVAILABLE”** BASIS. THE OPERATOR EXPRESSLY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED. The operator shall not be held liable for any loss of data, unauthorized interception of information, security breaches, or damage to User hardware or software resulting from Network use. Users are solely responsible for deploying their own firewalls, anti-virus protections, and encryption.
+
+**5. REMEDIES AND TERMINATION**  
+Failure to comply with these terms constitutes a breach of authorized access. The operator reserves the right to immediately terminate access, blacklist devices, and pursue all available legal remedies, including referral to civil or criminal law enforcement authorities.

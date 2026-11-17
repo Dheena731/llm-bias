@@ -1,0 +1,11 @@
+NOTICE: TWO-FACTOR AUTHENTICATION REQUIRED
+
+To strengthen account security and protect sensitive information, all users are required to enable two-factor authentication on their accounts. Two-factor authentication adds a critical second step to the login process by requiring both your password and a unique verification code generated on your phone or authenticator app.
+
+Log into your account dashboard, navigate to the security settings, and follow the instructions to activate two-factor authentication. This process takes approximately three to five minutes. Accounts without active two-factor authentication will experience restricted access after November 15, 2024.
+
+If you require technical assistance or have questions about compatible verification apps, please contact the IT Help Desk at support@organization.com or call extension 4300.
+
+Thank you for your prompt cooperation in maintaining a secure digital environment.
+
+System Security Office

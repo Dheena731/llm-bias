@@ -1,0 +1,15 @@
+**NOTICE: ACCEPTABLE USE OF SHARED NETWORK**
+
+**Effective Date:** [Insert Date]  
+**Issuing Authority:** [Insert Organization/Entity Name]
+
+**1. SCOPE AND ACCEPTANCE**  
+Access to the shared network infrastructure ("Network") is a revocable privilege granted subject to the terms herein. By connecting to, accessing, or utilizing the Network, you ("User") acknowledge receipt of this Notice and agree to be legally bound by its provisions.
+
+**2. PERMITTED USE**  
+The Network is provided for authorized purposes only. Users shall utilize resources in accordance with all applicable local, state, federal, and international laws and regulations. Bandwidth and processing resources are shared; usage must be reasonable and not impede service to other authorized users.
+
+**3. PROHIBITED CONDUCT**  
+Users are strictly prohibited from engaging in, facilitating, or transmitting:
+*   **Malicious Activity:** Distribution of malware, viruses, ransomware, spam, or deceptive code.
+*   **Unauthorized Access:** Attempts

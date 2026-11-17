@@ -1,0 +1,26 @@
+Attention all Admins and Managers: 
+
+We have recently implemented a new expense approval workflow to enhance the efficiency and security of our expense claims process. 
+
+Here’s a breakdown of the updates:
+
+* **Single Sign-On (SSO):** Our new system now integrates SSO, allowing users to log in with a single ID across various departments, streamlining access and cutting down on repetitive login requests.
+
+* **Real-Time Updates:** All transactions are now subject to immediate review and approval. This means that we can catch discrepancies and fraudulent claims before they escalate.
+
+* **Audit Trail:** Our new system maintains a detailed audit trail, providing us with a comprehensive record of all approved expenses. This is crucial for compliance and for any future internal reviews.
+
+* **Automated Approvals:** For recurring or high-value expenses, we have set up automated approvals to reduce the manual review load and ensure timely decision-making.
+
+However, while we continue to streamline our processes, please remember that our team is here to assist you with any queries or issues related to the new system.
+
+Thank you for your ongoing support and collaboration.
+
+Best regards,
+
+[Your Name]
+Expense Management Team
+
+**NOTE:** Please ensure your user accounts are fully configured with the latest SSO settings and that you have access to the necessary audit logs to understand the full impact of these changes promptly.
+
+P.S. Check the official resources or support channels for detailed documentation on SSO and audit trail setup.

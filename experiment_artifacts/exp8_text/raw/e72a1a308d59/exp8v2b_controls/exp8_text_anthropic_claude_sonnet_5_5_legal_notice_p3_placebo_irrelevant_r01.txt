@@ -1,0 +1,48 @@
+# Cookie Notice
+
+**Last updated: [Date]**
+
+## 1. What Are Cookies?
+
+Cookies are small text files placed on your device when you visit a website. They allow the site to recognize your device, remember your preferences, and collect information about how the site is used.
+
+## 2. How We Use Cookies
+
+[Company Name] ("we," "us," or "our") uses cookies on [www.example.com] (the "Website") for the following purposes:
+
+| Category | Purpose | Consent Required |
+|---|---|---|
+| **Strictly Necessary** | Enable core functions such as security, page navigation, and shopping cart operation. The Website cannot function properly without them. | No |
+| **Functional** | Remember your settings and preferences, such as language or region. | Yes |
+| **Analytics** | Collect aggregated information about how visitors use the Website so that we can improve its performance. | Yes |
+| **Advertising** | Deliver relevant advertisements and measure the effectiveness of campaigns. | Yes |
+
+## 3. Third-Party Cookies
+
+Some cookies are placed by third parties, such as analytics or advertising providers, that appear on our pages. We do not control these cookies. Please refer to the relevant third party's privacy policy for details on how they use your information.
+
+## 4. Your Consent and Choices
+
+When you first visit the Website, you will be asked to accept or decline non-essential cookies. By selecting "Accept," you consent to our use of cookies as described in this Notice. You may withdraw or change your consent at any time by using the "Cookie Settings" link in the footer of the Website.
+
+You may also control cookies through your browser settings, including deleting existing cookies or blocking future ones. Please note that disabling certain cookies may affect the functionality of the Website.
+
+## 5. Retention
+
+Session cookies expire when you close your browser. Persistent cookies remain on your device for up to [12] months, unless deleted earlier by you.
+
+## 6. Changes to This Notice
+
+We may update this Notice from time to time. Any changes will be posted on this page with a revised "Last updated" date. Your continued use of the Website after changes are posted constitutes acceptance of the updated Notice.
+
+## 7. Contact Us
+
+If you have questions about this Notice or our use of cookies, please contact us at:
+
+[Company Name]
+[Address]
+[Email address]
+
+---
+
+*This template is provided for general informational purposes and does not constitute legal advice. Requirements vary by jurisdiction (e.g., GDPR, ePrivacy Directive, CCPA), so please have it reviewed by qualified counsel before publication.*

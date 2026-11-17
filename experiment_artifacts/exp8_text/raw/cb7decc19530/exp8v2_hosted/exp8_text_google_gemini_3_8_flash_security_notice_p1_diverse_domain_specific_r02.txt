@@ -1,0 +1,16 @@
+**SECURITY NOTICE: Credential stuffing risks and external service hygiene**
+
+**What we are seeing:**
+Recent security operations telemetry indicates a steady volume of automated authentication attempts against our single-sign-on (SSO) gateway and external-facing staging environments. These attempts use "combo lists"—aggregations of usernames and passwords exfiltrated from breaches at unrelated third parties (e.g., industry forums, travel platforms, SaaS vendors). 
+
+Attackers rarely crack complex passwords directly; they simply replay credentials stolen from weaker services until one matches.
+
+**The operational rule:**
+Your primary corporate directory password must never be shared with any external account, personal service, or vendor portal.
+
+Additionally, for internal tools that do not yet support SAML/SSO:
+* **Every service requires a unique secret.** If a local sandbox, database user, or legacy admin portal is compromised, the blast radius must end at that specific service.
+* **Do not use modified variants.** Adding a symbol, capitalizing a letter, or appending the current year to an existing password does not defeat automated dictionary-permutation attacks.
+* **Rely on the company password manager (1Password).** Generate random 20+ character strings for anything that falls outside our primary identity provider.
+
+If you have used your corporate password for an external service—or are sharing a password across multiple internal environments—rotate those credentials immediately. Contact the SecOps team via the `#security-incidents` Slack channel if you suspect an account has been accessed off-pattern.

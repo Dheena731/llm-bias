@@ -1,0 +1,7 @@
+Here's a concise tooltip explaining a confidence interval in a chart:
+
+**Tooltip:**
+
+"**Confidence Interval**: A range of values (indicated by the vertical lines) that likely contains the true population mean. The interval's width represents our uncertainty in estimating the true mean. For example, a 95% confidence interval suggests that if we were to repeat the study many times, we'd expect the true mean to be within this range 95% of the time."
+
+**Optional addition:** If you want to include a visual aid, you could add a simple graphic, such as a pair of arrows or a small chart, to illustrate the concept of a confidence interval. This would make the tooltip even more effective at conveying the idea.

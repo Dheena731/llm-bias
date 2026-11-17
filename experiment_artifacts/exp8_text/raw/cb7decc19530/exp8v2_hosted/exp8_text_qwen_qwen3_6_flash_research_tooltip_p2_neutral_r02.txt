@@ -1,0 +1,4 @@
+**Tooltip text:**
+Shows the range where the true value likely falls. With 95% confidence, repeating this analysis many times would capture the actual value in 95% of these intervals. 
+
+*(Tip: Replace "95%" with a dynamic variable like `{confidenceLevel}%` if your chart supports multiple levels.)*

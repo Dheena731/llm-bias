@@ -1,0 +1,33 @@
+**Acceptable Use Notice for Shared Network Resources**
+
+**1. Purpose and Scope**
+This notice governs the use of the shared network and all connected systems, devices, accounts, storage, and internet access made available to users of this network. By connecting to or using these resources, each user agrees to comply with this notice.
+
+**2. Authorized Use**
+Network resources are provided for work, study, and other purposes expressly authorized by the network administrator. Limited personal use is permitted provided it does not interfere with other users, consume excessive bandwidth, or violate any provision of this notice.
+
+**3. Prohibited Conduct**
+Users must not, without written authorization:
+
+- (a) attempt to gain access to accounts, files, or systems belonging to others;
+- (b) disable, circumvent, or interfere with security controls, monitoring tools, or access restrictions;
+- (c) introduce malicious software, or conduct scanning, probing, or denial-of-service activity against any system;
+- (d) share login credentials or allow another person to use their account;
+- (e) download, store, or distribute content that infringes copyright or other intellectual property rights;
+- (f) transmit unlawful, harassing, defamatory, or discriminatory material;
+- (g) use the network to mine cryptocurrency or run unapproved servers or services.
+
+**4. Security Responsibilities**
+Users are responsible for safeguarding their credentials and devices. Suspected security incidents, lost devices, or unauthorized access must be reported to the network administrator without delay.
+
+**5. Monitoring and Privacy**
+To protect the integrity and security of the network, activity on shared resources may be logged and monitored. Users should have no expectation of privacy in data stored on or transmitted through network systems, except as otherwise required by applicable law.
+
+**6. Enforcement**
+Violations of this notice may result in suspension or revocation of network access, disciplinary action, and referral to appropriate authorities where the conduct may be unlawful. The network administrator may take immediate protective action, including temporary suspension of an account, where necessary to protect the network.
+
+**7. Disclaimer**
+Network resources are provided on an "as is" basis. The network administrator does not guarantee uninterrupted availability and is not liable for loss of data or interruption of service arising from use of the network, except where liability cannot be excluded by law.
+
+**8. Acceptance**
+Continued use of the shared network constitutes acceptance of this notice. This notice may be amended at any time, and amended versions take effect upon posting to the network's official information page.

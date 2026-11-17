@@ -1,0 +1,15 @@
+WORKPLACE SECURITY NOTICE: PASSWORD REUSE POLICY
+
+Dear Team,
+
+To safeguard company data and systems, all employees must follow these password security guidelines:
+
+1. UNIQUE PASSWORDS REQUIRED: Never reuse a password across different work accounts. Every system, email, and application must have a distinct password.
+
+2. NO PERSONAL PASSWORD SHARING: Do not use passwords from personal accounts (e.g., personal email, social media) for work logins. Breaches of personal sites often lead to attacks on corporate accounts using the same credentials.
+
+3. USE A PASSWORD MANAGER: Utilize the approved enterprise password manager to generate and store strong, unique passwords for each service. This ensures compliance without burdening your memory.
+
+4. IMMEDIATE ACTION IF COMPROMISED: If you suspect any credential leak or unusual activity, contact IT support immediately to force a password reset.
+
+Vigilance against

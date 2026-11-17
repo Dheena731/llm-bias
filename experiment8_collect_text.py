@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -54,6 +55,7 @@ def run_single_text_task(
         else:
             text = model_fn(task)
             raw_path.write_text(text, encoding="utf-8")
+            row.update(task.get("response_meta", {}))
         row["raw_output_path"] = str(raw_path)
         row["feature_json"] = json.dumps(extract_text_features(text), sort_keys=True)
     except Exception as exc:
@@ -128,6 +130,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--reuse-existing", action="store_true")
     parser.add_argument("--only-missing", action="store_true")
     parser.add_argument("--max-workers", type=int, default=6)
+    parser.add_argument(
+        "--max-tokens",
+        type=int,
+        help="Override max_tokens for this pass (e.g. retrying reasoning routes that returned empty); config hash unchanged",
+    )
     args = parser.parse_args(argv)
     if not args.dry_run and not args.smoke and not args.full:
         parser.error("Choose --dry-run, --smoke, or --full explicitly")
@@ -165,8 +172,13 @@ def main() -> None:
     run_id = args.run_id or datetime.now().strftime("exp8_%Y%m%d_%H%M%S")
     raw_dir = raw_output_dir(config, run_id)
     tasks = filter_tasks(build_exp8_tasks(config, mode=mode), args, raw_dir)
+    if config.get("randomize_seed") is not None:
+        # Randomized execution order so time-of-collection (rate limits, provider load) is not confounded with condition.
+        random.Random(config["randomize_seed"]).shuffle(tasks)
     for task in tasks:
         task["run_id"] = run_id
+        if args.max_tokens:
+            task["api_parameters"] = {**task["api_parameters"], "max_tokens": args.max_tokens}
     if args.dry_run:
         dry_tasks = filter_tasks(build_exp8_tasks(config, mode="full"), args, raw_dir)
         print(f"Exp8 text dry run: {len(dry_tasks)} tasks")
@@ -174,7 +186,7 @@ def main() -> None:
         if unresolved:
             print(f"Routes needing provenance verification before full run: {len(unresolved)}")
         return
-    output = timestamped_path("exp8_post_training_priors")
+    output = timestamped_path(config.get("output_prefix", "exp8_post_training_priors"))
     run_text_tasks(
         tasks,
         output,

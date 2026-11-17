@@ -1,0 +1,1 @@
+Click the Export button above the results table, then choose CSV, Excel, or JSON as your file format. The file downloads to your default downloads folder.

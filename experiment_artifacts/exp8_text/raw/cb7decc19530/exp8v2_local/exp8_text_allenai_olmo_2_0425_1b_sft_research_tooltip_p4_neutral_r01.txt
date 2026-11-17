@@ -1,0 +1,1 @@
+A missing-value marker indicates a part of data that has been intentionally removed because it is either unavailable or undefined. This is often used in statistical analysis, machine learning, or data visualization to provide a better understanding of the data's structure and to avoid representing missing or invalid values.

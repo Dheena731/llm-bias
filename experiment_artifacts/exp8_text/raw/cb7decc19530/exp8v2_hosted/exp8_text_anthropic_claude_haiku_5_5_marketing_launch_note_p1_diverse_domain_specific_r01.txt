@@ -1,0 +1,11 @@
+**Subject: Wholesale orders, off the whiteboard**
+
+Crumb is a wholesale order book for independent bakeries. Your café accounts order through a link you send them once. Orders close at the cutoff you set (default 9 p.m., when most of you are finally sitting down). Next morning, the production sheet is already waiting: loaves by type, pastry by tray, and which box goes to which door.
+
+It doesn't take a cut of your orders, and it doesn't need your register system. You enter your products once. If your price list lives in a notebook or a spreadsheet with forty tabs, you can paste it in and fix the typos after.
+
+We spent the winter testing it with four bakeries in beta. The most common feedback was about the texts, not the features: one owner said her Saturday messages dropped from about forty to two, and she only noticed because she stopped checking her phone in the walk-in.
+
+Launch terms: free for your first 50 wholesale accounts through March 31. After that, $19 a month flat, with no per-order fees.
+
+If you bake for other people, try it this week and tell us where it breaks.

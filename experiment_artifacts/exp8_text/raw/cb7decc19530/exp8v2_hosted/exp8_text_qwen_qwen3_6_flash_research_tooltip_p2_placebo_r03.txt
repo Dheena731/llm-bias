@@ -1,0 +1,1 @@
+This interval shows the range within which the true value is expected to lie. It reflects estimation uncertainty: narrower ranges indicate greater precision, while wider ranges suggest more variability in the data.

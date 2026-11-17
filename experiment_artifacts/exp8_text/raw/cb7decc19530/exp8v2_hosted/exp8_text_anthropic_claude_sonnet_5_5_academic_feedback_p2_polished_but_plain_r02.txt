@@ -1,0 +1,16 @@
+Since I haven't seen the actual draft, this note covers the issues most common in methods sections. You can adapt it to the specific text.
+
+Dear [Student],
+
+Thank you for the draft. Your methods section is organized sensibly, and it is clear that you put real thought into designing the study. My comments are meant to help you make the section more precise and easier for a reader to replicate.
+
+The strongest quality of the draft is that it follows the order of the research process, so a reader can follow what you did from start to finish. The main area for improvement is specificity. In several places you describe what you did in general terms, such as saying that participants were "recruited from the community" or that data were "analyzed using standard techniques." A reader should be able to reproduce your work from your description alone, so state exactly how participants were recruited, what the inclusion and exclusion criteria were, which instruments or software you used (with versions where relevant), and which statistical tests or analytic procedures you applied to each question.
+
+I would also like to see more justification for your choices. At the moment the section reports decisions without explaining them. A sentence or two on why you chose this sample size, this measure, or this analytic approach would show that your decisions were deliberate and would preempt obvious questions from a reader. If there were limitations built into the design, such as a convenience sample or a self-report measure, acknowledge them briefly here and save the fuller discussion for later in the paper.
+
+Finally, keep the tense and voice consistent, and make sure the section describes only methods. A few sentences drift into reporting results or interpreting them, and these belong elsewhere. Also check that every measure or procedure mentioned in your results appears here, and that nothing described here goes unused later.
+
+With these revisions, the section should be much stronger. I am happy to look at a second draft or talk through any of this during office hours.
+
+Best regards,
+[Instructor]

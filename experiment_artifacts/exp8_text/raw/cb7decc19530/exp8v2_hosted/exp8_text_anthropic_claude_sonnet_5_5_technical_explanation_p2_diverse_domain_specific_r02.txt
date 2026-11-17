@@ -1,0 +1,17 @@
+A database index is a separate, sorted data structure that lets the engine find rows without reading the whole table.
+
+Suppose an `orders` table has 40 million rows and you run:
+
+```sql
+SELECT * FROM orders WHERE customer_id = 88213;
+```
+
+With no index on `customer_id`, the database does a sequential scan, reading every page of the table and checking each row. With a B-tree index on that column, it walks a few levels of the tree (usually three or four) to the matching entries, which store pointers to the rows on disk. It then fetches only those rows. The work drops from tens of millions of row checks to a handful of page reads.
+
+The cost is paid on writes. Every `INSERT`, `DELETE`, and relevant `UPDATE` must also modify each index on the table, and the indexes take up disk and memory. A table with ten indexes does roughly ten extra writes per insert.
+
+Some practical consequences:
+
+- Indexes help most on selective columns. An index on a boolean `is_active` column where 95% of rows are true often gets ignored by the planner.
+- In a composite index on `(customer_id, created_at)`, column order matters. It serves queries filtering on `customer_id` alone, but not on `created_at` alone.
+- `EXPLAIN` shows whether the planner actually uses an index.

@@ -1,0 +1,8 @@
+Latency—the time it takes for data to travel between a user’s device and a web server—fundamentally shapes the success of a web application. It matters for several key reasons:
+
+* **User Experience and Perception:** Humans perceive delays as small as 100 milliseconds. When an application feels sluggish, users become frustrated, lose focus, and are more likely to abandon the site entirely. Responsive interactions create trust and make software feel intuitive and reliable.
+* **Business Revenue and Conversion:** Speed directly impacts the bottom line. Research consistently shows that even a one-second delay in page load time reduces conversion rates, increases shopping cart abandonment, and lowers customer satisfaction.
+* **Search Engine Optimization (SEO):** Major search engines prioritize fast, responsive websites in search results. High latency negatively impacts performance metrics like Core Web Vitals, which can diminish organic search rankings and reduce incoming traffic.
+* **Infrastructure Efficiency:** High latency often causes requests to queue up, keeping server connections, threads, and memory occupied for longer periods. Reducing latency improves overall system throughput, allowing infrastructure to handle more concurrent users at a lower operational cost.
+
+In modern web development, low latency is not just a technical optimization; it is a core feature that drives engagement, discoverability, and revenue.

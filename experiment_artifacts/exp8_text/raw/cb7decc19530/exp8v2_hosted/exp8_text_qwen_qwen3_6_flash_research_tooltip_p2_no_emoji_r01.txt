@@ -1,0 +1,1 @@
+This range shows the statistical uncertainty around the point estimate. A 95% confidence interval means that if the analysis were repeated many times, 95% of the resulting intervals would contain the true population value. Wider ranges indicate greater uncertainty or lower precision.

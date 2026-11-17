@@ -1,0 +1,1 @@
+Choose a start and end date to filter your results. Adjust the range by selecting specific days on the calendar or entering values directly. The system will only show data within this selected period.

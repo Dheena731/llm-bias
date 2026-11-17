@@ -1,0 +1,13 @@
+Caching is a technique that stores frequently-used data or results in a temporary storage, allowing it to be quickly retrieved and reused instead of being recalculated or reloaded from a database or other source. In the context of a website, caching works by storing the results of expensive operations, such as database queries or complex calculations, in a temporary storage called a cache.
+
+When a user requests a page or performs an action on a website, the server typically performs a series of operations to fulfill the request. However, some of these operations may take a long time to complete, such as retrieving data from a database or generating a complex calculation. By storing the results of these operations in a cache, the server can quickly retrieve the results instead of having to perform the operation again.
+
+This can significantly speed up the website's performance, as the server doesn't have to perform the operation again, and the user can access the page or data more quickly. Caching can be especially effective for websites that have a high volume of traffic or for pages that require a lot of data to be retrieved from a database.
+
+There are different types of caching, including:
+
+* Memory caching: stores data in the server's memory (RAM) for a short period of time.
+* Disk caching: stores data on the server's hard drive for a longer period of time.
+* Distributed caching: stores data across multiple servers or nodes.
+
+By using caching, a website can improve its performance, reduce the load on the server, and provide a better user experience.

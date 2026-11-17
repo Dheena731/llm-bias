@@ -1,0 +1,9 @@
+Prescription Refill Reminder
+
+Dear [Patient Name],
+
+This is a reminder that your prescription for [Medication Name] is due for a refill. Please contact your pharmacy at [Pharmacy Phone Number] to place your order.
+
+If you have any questions, please call us at [Office Phone Number].
+
+Thank you.

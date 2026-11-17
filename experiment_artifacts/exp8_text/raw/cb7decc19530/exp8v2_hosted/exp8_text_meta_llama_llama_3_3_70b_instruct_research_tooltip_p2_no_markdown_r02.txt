@@ -1,0 +1,1 @@
+The shaded area represents a 95% confidence interval, indicating the range of values within which we are 95% certain the true value lies, based on the sample data.

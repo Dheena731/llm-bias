@@ -1,0 +1,7 @@
+Reviewer Comment:
+
+The central research question of this manuscript is difficult to pin down. In the introduction, the authors state that they aim to "explore how digital engagement affects student outcomes," but the phrase "digital engagement" is never defined, and it is unclear whether it refers to time spent on learning platforms, frequency of logins, social media use, or participation in online discussions. Similarly, "student outcomes" could mean grades, retention, psychological well-being, or skill acquisition, and the manuscript does not specify which of these, or what combination, the study is designed to examine.
+
+The question also lacks a clear direction. It is not stated whether the authors expect digital engagement to have a positive, negative, or conditional effect, nor is there a hypothesis that would allow the reader to judge whether the findings support or refute the authors' expectations. As written, the study could be read as descriptive, correlational, or causal, and the methods section does not resolve this ambiguity.
+
+I recommend that the authors restate the research question with explicit operational definitions of both key constructs, specify the population and setting, and articulate a directional hypothesis or a clearly framed exploratory aim. Doing so would allow the reader to evaluate whether the chosen methods are appropriate for the question and whether the conclusions follow from the evidence.

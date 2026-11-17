@@ -1,0 +1,1 @@
+Restricts dataset scope to records satisfying all

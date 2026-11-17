@@ -1,0 +1,12 @@
+**Reviewer comment: Research question**
+
+The manuscript does not state a clear research question, so I cannot judge whether the methods and conclusions fit it. The introduction says the aim is to "explore factors related to" the topic. The abstract frames the study as a test of whether one variable affects another. The discussion treats the results as evidence about a broader issue. These are three different questions that call for different designs and different evidence. Terms such as "related to" and "impact" are also left undefined, so it is unclear whether the authors claim a causal effect or only an association.
+
+I ask the authors to:
+
+1. State one primary research question in a single sentence at the end of the introduction.
+2. Define the key terms, the population, and the main outcome.
+3. Say whether the question is descriptive, about association, or about cause and effect.
+4. Revise the abstract, analysis, and discussion to match that question, and label any other questions as secondary.
+
+Until the question is clarified, I cannot assess whether the conclusions are supported by the evidence.

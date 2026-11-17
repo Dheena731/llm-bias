@@ -1,0 +1,1 @@
+Select a start and end date to filter the data shown. Click the calendar icon or the date field to open the picker, then choose your range. Dates outside the selected range will be hidden.

@@ -1,0 +1,7 @@
+Agitation timers are in 2.4. Pick your developer from the list (Rodinal, D-76, HC-110, the usual suspects) and enter your dilution and bath temperature. It counts down the development time and cues each inversion, so you can stop writing "30s, then 5s each minute" on the back of your hand.
+
+If your bath is 20°C instead of 68°F, it adjusts the time from the manufacturer's chart and shows you the new number before you start.
+
+Stop bath and fixer still need their own timers. That's next.
+
+Thanks to the Thursday group at the Ardmore darkroom for a month of beta testing, including the one who found that the timer kept going through a power cut.

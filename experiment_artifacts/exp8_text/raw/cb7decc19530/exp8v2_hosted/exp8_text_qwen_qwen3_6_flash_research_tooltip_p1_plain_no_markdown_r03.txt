@@ -1,0 +1,1 @@
+Select criteria to narrow the dataset view. The interface displays only records that match your chosen parameters, helping you focus on relevant information.

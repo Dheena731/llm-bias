@@ -1,0 +1,3 @@
+**Confidence interval**
+
+The shaded band (or error bars) shows a range of values that plausibly includes the true value, given the uncertainty in the data. A wider range means a less precise estimate. For a 95% interval, if the same study were repeated many times, about 95% of the intervals produced would contain the true value.

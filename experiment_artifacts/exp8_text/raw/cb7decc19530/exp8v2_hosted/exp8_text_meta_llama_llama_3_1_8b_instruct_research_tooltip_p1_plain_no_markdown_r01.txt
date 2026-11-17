@@ -1,0 +1,1 @@
+This filter allows you to select a specific subset of the data based on the study or publication type. By choosing from the available options, you can narrow down the results to focus on a particular area of interest.

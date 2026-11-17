@@ -1,0 +1,1 @@
+"Missing-value marker: Indicates that data is unavailable, unreported, or unable to be collected for a specific observation or field, often represented by a placeholder such as 'NA' or '--'. This marker helps maintain data integrity and prevents incorrect assumptions or analyses."

@@ -1,0 +1,15 @@
+**Feedback on Methods: Litterbag decomposition study**
+
+Maria, this is a clear draft, and the site description is better than most. I could find the transect, the stream order, and the canopy composition without hunting. Most of my comments concern what a reader would need in order to trust your decay rates.
+
+**1. Mesh size needs a rationale.** You say you used 1 mm and 5 mm bags but never say why. State that the comparison is meant to separate microbial decomposition from macroinvertebrate shredding, and cite what you're relying on for that. Also admit the limit: 5 mm bags still exclude large shredders such as some *Pycnopsyche* larvae.
+
+**2. Initial mass correction is missing.** You air-dried the alder leaves before bagging, but you don't say whether you oven-dried a subsample to convert air-dry mass to dry mass. Without that, your percent mass remaining at day 14 is unreliable. Give the drying temperature and duration for both the subsample and the retrieved material.
+
+**3. Retrieval and processing.** Did you rinse retrieved leaves in the field or in the lab? How did you handle sediment? If you didn't ash the material, say why ash-free dry mass wasn't needed. In a depositional reach like yours, I suspect it was.
+
+**4. Replication.** "Five bags per treatment per date" is ambiguous. If all five were tied to one stake in one pool, they're subsamples, not replicates. Tell me how many independent locations there were and how bags were assigned among them.
+
+**5. Analysis.** You mention fitting k values, but not the model. Write out the single-exponential equation, say whether you fit it by log-linear regression, and name the software and version.
+
+Revise these, then cut the sentence beginning "It was decided that." Say who decided.

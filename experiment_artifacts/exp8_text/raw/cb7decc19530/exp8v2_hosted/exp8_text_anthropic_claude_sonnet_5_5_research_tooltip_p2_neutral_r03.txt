@@ -1,0 +1,7 @@
+**Confidence interval**
+The shaded range shows where the true value likely falls. A 95% interval means that if we repeated this study many times, about 95% of the intervals would contain the true value. A wider band means more uncertainty.
+
+---
+
+**Shorter version (for tight spaces):**
+The shaded band is the range where the true value likely lies, with 95% confidence. Wider means less certain.

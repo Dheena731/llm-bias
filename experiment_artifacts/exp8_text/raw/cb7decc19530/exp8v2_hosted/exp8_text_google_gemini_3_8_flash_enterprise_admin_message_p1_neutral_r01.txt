@@ -1,0 +1,14 @@
+**Subject: Scheduled Dashboard Maintenance – [Date]**
+
+Hi everyone,
+
+Please be aware that the dashboard will be temporarily unavailable for scheduled maintenance on **[Date]** between **[Start Time]** and **[End Time] [Timezone]**. 
+
+During this **[e.g., 2-hour]** window, you will not be able to log in or access your reports. *[Optional: Backend data tracking and collection will continue to run normally without interruption.]*
+
+Please make sure to save any ongoing work prior to the start time. We apologize for any inconvenience and appreciate your patience as we make these improvements.
+
+If you have any questions, feel free to reach out to **[Support Contact/Link]**.
+
+Best regards,  
+**[Your Name/The Admin Team]**

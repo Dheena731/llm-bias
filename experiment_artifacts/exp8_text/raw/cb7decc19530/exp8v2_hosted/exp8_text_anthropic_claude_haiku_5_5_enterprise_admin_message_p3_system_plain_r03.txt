@@ -1,0 +1,13 @@
+Subject: VPN client update coming next week
+
+Hi everyone,
+
+Next Tuesday, we will be rolling out version 4.2 of the VPN client to all company laptops. The update brings a faster connection process, so you should be able to reach internal systems within a few seconds of signing in. It also replaces the old login window with the single sign-on screen you already use for email, so you will no longer need to remember a separate VPN password.
+
+Installation will happen automatically overnight, so there is nothing you need to do. If your laptop is turned off at the scheduled time, the update will install the next time it connects to the network. Please save your work and restart your laptop by Tuesday afternoon if you see a prompt to do so.
+
+If you run into any problems connecting after the update, contact the IT help desk at extension 4400 or email helpdesk@company.com. Please do not try to reinstall the client yourself, as this can cause configuration errors.
+
+Thank you for your patience while we made these improvements.
+
+IT Services

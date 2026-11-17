@@ -1,0 +1,7 @@
+**Quarterly Access Review — Q2**
+
+System owners must review access to production systems, customer-data platforms, billing tools, and support consoles by **June 28**.
+
+For each user, confirm that the assigned role still matches current job duties. Remove access for departed staff, contractors whose engagements have ended, and anyone who no longer needs elevated permissions. Please pay particular attention to administrator, export, and impersonation privileges.
+
+Complete the review in **[access review system/link]**. Unresolved exceptions should include the business justification and an expiration date.

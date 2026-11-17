@@ -1,0 +1,12 @@
+**NOTICE: Quarterly Access Review – [Q#/Year]**
+
+This is a reminder that the quarterly access review cycle has officially begun. To maintain system security and regulatory compliance, all designated administrators must validate user access rights within the next 14 days.
+
+Please log in to **[System/Platform Name]** and audit each assigned user’s permissions. Confirm that access aligns with current job responsibilities, then approve, modify, or revoke any outdated or excessive privileges. All reviews must be completed by **[Deadline Date]**.
+
+For workflow guidance or technical assistance, contact the IT Security team at **[Email/Helpdesk Link]** or reference the [Internal Policy/Knowledge Base Page].
+
+Thank you for your prompt attention to this essential security practice.
+
+*Issued by:* [Department/Name]  
+*Date:* [Current Date]

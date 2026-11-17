@@ -1,0 +1,21 @@
+**Subject: Lock your screen when you leave the workstation**
+
+Last month's audit found three exam-room workstations sitting open on a patient chart with no one in the room. Two of them faced the hallway.
+
+Whenever you step away, even for 30 seconds:
+
+- **Windows:** press **Windows + L**
+- **Mac:** press **Control + Command + Q**
+- **Badge-tap stations:** remove your badge
+
+Auto-lock is set to 10 minutes. That is long enough for a patient, a visitor, or a delivery driver to read a chart or send an email under your name. Every entry in the EHR is logged to the person signed in, so if someone else types under your login, the record says it was you.
+
+Please also turn monitors at the front desk and in the hallway-facing rooms so they can't be read from the waiting area. Facilities can fit privacy filters on request.
+
+Questions or filter requests: IT Help Desk, ext. 4410.
+
+*Maria Okafor, Privacy Officer*
+
+---
+
+I assumed a clinic setting. If you tell me your actual workplace (law firm, school, call center, etc.), I can swap in the right details.

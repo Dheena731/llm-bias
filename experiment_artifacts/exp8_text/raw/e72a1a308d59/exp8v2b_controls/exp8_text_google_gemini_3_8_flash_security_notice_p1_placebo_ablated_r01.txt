@@ -1,0 +1,15 @@
+**Security Notice: Use Unique Passwords for All Accounts**
+
+**To:** All Employees  
+**From:** IT Security  
+
+Please remember that you must never reuse your workplace password for personal accounts or across different company services. 
+
+When you use the same password for multiple websites, a security breach on just one of those sites puts all your other accounts at risk. If an external service is hacked, unauthorized users can take those stolen login details and try them on company systems to gain access to sensitive work data.
+
+**What you need to do:**
+* **Keep it unique:** Create a distinct, strong password for your work account that you do not use anywhere else.
+* **Never duplicate:** Ensure every personal and professional service you access has its own separate password.
+* **Report concerns:** If you suspect that an account sharing your work password has been compromised, change your workplace password immediately and contact the IT Helpdesk.
+
+Thank you for helping keep our company data secure.

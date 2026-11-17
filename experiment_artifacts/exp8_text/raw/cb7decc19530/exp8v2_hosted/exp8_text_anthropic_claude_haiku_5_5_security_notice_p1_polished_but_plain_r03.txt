@@ -1,0 +1,13 @@
+Subject: Reminder: Do Not Reuse Passwords
+
+All staff,
+
+Reusing passwords across work and personal accounts is one of the most common ways attackers gain access to company systems. When a website or service suffers a data breach, criminals take the leaked email and password pairs and try them against other services, including corporate email, VPNs, and internal tools. A single reused password can therefore expose systems that were never breached at all.
+
+To protect yourself and the organization, please make sure every work account uses a unique password that is not used anywhere else, including on personal sites. Choose passphrases of at least 16 characters that are easy for you to remember but hard for others to guess. Where a password manager has been approved for use, store your credentials there rather than in a spreadsheet, a sticky note, or a browser's unprotected autofill. Enable multi-factor authentication on every account that offers it, since a second factor blocks most attacks even when a password has been exposed.
+
+If you suspect that a password you use for work has appeared in a breach or has been entered on a site you do not trust, change it immediately and notify the IT Security team at security@company.example. Do not wait to see whether anything happens. Prompt reporting allows us to lock affected accounts and check for misuse before any damage spreads.
+
+Thank you for helping keep our information and our colleagues' data safe.
+
+IT Security Team

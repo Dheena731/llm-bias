@@ -1,0 +1,4 @@
+**Filter:** `Min. Washout Window (180d)`
+
+**Tooltip:**
+> Excludes subjects with documented target exposure in the 180 days prior to the index date to eliminate prevalent-user bias.

@@ -1,0 +1,7 @@
+You run an `ALTER TABLE` to add a column. It asks for an `ACCESS EXCLUSIVE` lock. A stale analytics query holds `ACCESS SHARE` on the same table for another three minutes. Every incoming read queues behind your migration, and your connection pool starves. 
+
+In CLI release `v2.4.0`, `pg-ship` now simulates lock trees on an ephemeral branch before touching production. 
+
+If your DDL will wait on an active lock for longer than 750ms—or block incoming traffic down the dependency graph—the runner aborts automatically and prints the blocking PID and query text. 
+
+Update via `brew upgrade pg-ship` or pull the latest container tag.

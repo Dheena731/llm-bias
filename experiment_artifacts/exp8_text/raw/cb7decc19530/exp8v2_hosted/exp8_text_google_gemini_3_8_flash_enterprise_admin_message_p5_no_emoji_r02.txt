@@ -1,0 +1,9 @@
+Subject: Notice of Upcoming Email System Migration
+
+Please be advised that we will be migrating our email system on [Date] between [Start Time] and [End Time]. 
+
+During this maintenance window, you may experience brief interruptions in email access. Incoming messages will be queued and delivered once the migration is complete. 
+
+Following the transition, you may need to log back in to your email client or update your settings on mobile devices. Detailed instructions will be shared prior to the maintenance window.
+
+If you have any questions or experience issues after the migration, please contact the IT Helpdesk at [Contact Information].

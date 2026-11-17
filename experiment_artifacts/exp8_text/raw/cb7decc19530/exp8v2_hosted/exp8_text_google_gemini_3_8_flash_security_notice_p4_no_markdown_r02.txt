@@ -1,0 +1,13 @@
+Subject: Action Required - Please Enable Two-Factor Authentication
+
+Dear User,
+
+To enhance the security of your account, we are introducing Two-Factor Authentication (2FA). Adding this extra layer of protection helps prevent unauthorized access, even if your password becomes compromised.
+
+Please take a moment to enable 2FA by navigating to your Account Settings and selecting the Security tab. From there, follow the brief setup prompts to link your mobile number or preferred authenticator app.
+
+Setting this up takes less than two minutes and significantly improves your safety online. If you encounter any issues or have questions, please reach out to our support team.
+
+Thank you for helping us keep your account secure.
+
+The Security Team

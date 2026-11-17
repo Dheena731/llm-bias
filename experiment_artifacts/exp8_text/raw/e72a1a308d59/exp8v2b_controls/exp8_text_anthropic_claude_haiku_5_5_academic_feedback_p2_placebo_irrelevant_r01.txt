@@ -1,0 +1,22 @@
+Here's a sample feedback note. If you share the student's actual methods section, I can tailor it to their work.
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for your methods section. You describe your participant recruitment and survey procedure clearly, and the sequence of steps is easy to follow.
+
+**Strengths**
+- The study design is stated upfront, so the reader knows what kind of study this is.
+- The materials are described in enough detail that the survey could be reproduced.
+
+**Areas to develop**
+- **Justify your sample size.** Explain how you arrived at it, whether through a power analysis or another rationale.
+- **Explain your analysis choices.** Say why you selected the statistical tests you used, not only what they were.
+- **Address limitations.** Briefly note any constraints in recruitment or measurement and how they might affect interpretation.
+- **Tighten the tense and voice.** Methods are usually written in the past tense and passive or first-person plural ("Participants were recruited..." or "We recruited...").
+
+**Next steps**
+Revise the sample-size and analysis paragraphs first, since they carry the most weight for a reader evaluating validity. Then check the tense throughout.
+
+---

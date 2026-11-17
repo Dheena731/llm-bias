@@ -1,0 +1,19 @@
+**NOTICE: MANDATORY TWO-FACTOR AUTHENTICATION FOR RESEARCH SYSTEMS**  
+**EFFECTIVE:** October 14, 2024  
+**ISSUED BY:** Office of Research Compliance & IT Security  
+
+Starting next week, all principal investigators, postdoctoral fellows, and research staff accessing the Institutional Secure Data Environment must enable two-factor authentication on their university credentials. This change fulfills NSF OII requirement §6.2 and satisfies our IRB data-handling addendum for studies involving identifiable participant records.
+
+**Required Action:**  
+1. Log into the Identity Management Portal (idm.univ.edu/security)  
+2. Navigate to Authentication Methods → Select “Authenticator Application”  
+3. Disable SMS fallback and register two offline recovery codes  
+4. Confirm enrollment within the portal dashboard  
+
+Accounts without verified 2FA will lose write access to shared drives and grant reporting portals after November 1. Read-only access to course materials and library subscriptions remains unaffected.
+
+IT Data Governance will not perform remote resets. If you require assistance configuring an authenticator on institutional-managed devices, visit Lab 218 (Science Center) Wednesday–Friday, 9–11 a.m., or submit a ticket under “2FA Setup – Research Track.”
+
+Dr. A. Vance  
+Chief Information Security Officer  
+Office of Research Infrastructure

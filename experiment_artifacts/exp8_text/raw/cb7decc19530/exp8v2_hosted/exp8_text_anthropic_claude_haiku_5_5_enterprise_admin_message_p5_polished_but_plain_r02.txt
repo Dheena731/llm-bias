@@ -1,0 +1,14 @@
+Subject: Upcoming email migration on Saturday, March 14
+
+Dear colleagues,
+
+Our email system will move to a new platform over the weekend of March 14 and 15. The migration will begin Saturday at 6:00 p.m. and is expected to be complete by Sunday at noon. Email, calendars, and contacts will be unavailable during this window, though messages sent to you will be queued and delivered once the transfer finishes.
+
+Before the migration begins, please make sure any important messages or attachments you need are saved locally, and log out of email on any mobile devices so the switch can complete cleanly. After the migration, you will need to sign in with your existing password. If your mobile device asks for updated settings, you can find the new server information in the IT portal under "Email Setup."
+
+Please expect some slowdown on Monday morning as the system settles. If you notice missing messages or calendar entries after Sunday, do not resend anything. Instead, contact the IT help desk at extension 4400 or help@company.example, and the team will restore your data.
+
+Thank you for your patience as we make this change. We appreciate your cooperation in helping the transition go smoothly.
+
+Best regards,
+The IT Team

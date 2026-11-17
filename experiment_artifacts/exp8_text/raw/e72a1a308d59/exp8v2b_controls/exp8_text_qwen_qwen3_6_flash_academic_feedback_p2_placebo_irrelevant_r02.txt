@@ -1,0 +1,9 @@
+**Feedback on Methods Section**
+
+Thank you for drafting this methods section. You’ve done a strong job identifying the overall design and justifying your choice of procedures relative to your research questions. To bring this section to publication-ready standard, focus on three areas:
+
+1. **Reproducibility:** Add precise operational details (e.g., exact sample sizes, instrument/software versions, parameter settings, inclusion/exclusion criteria). Readers should be able to replicate your study using only this section.
+2. **Structure & Flow:** Consider using brief subheadings (e.g., Participants/Materials, Procedure, Data Processing, Statistical Analysis) to guide the reader and prevent procedural steps from blending together.
+3. **Consistency & Transparency:** Maintain past tense throughout, and include a short note on any deviations from your planned protocol or known methodological limitations.
+
+You have a solid foundation here. Tightening these details will significantly increase the rigor and credibility of your work. Please let me know if you’d like to workshop any specific subsection before submission.

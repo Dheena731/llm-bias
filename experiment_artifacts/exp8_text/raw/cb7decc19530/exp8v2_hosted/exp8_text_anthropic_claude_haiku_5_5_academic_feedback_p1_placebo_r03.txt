@@ -1,0 +1,21 @@
+**Feedback on Draft Literature Review**
+
+Thank you for the draft. You have gathered a solid body of relevant work, and the writing is generally clear. The main issue is that the review currently reads as a sequence of summaries, one study after another, rather than as an argument. A reader finishes it knowing what each source found but not why those findings matter for your research question.
+
+**Main point:** Organize the review around the themes, debates, or unresolved questions in the literature, not around the individual sources. Each section should make a claim (for example, that two lines of research reach different conclusions for the same reason, or that a method has been applied in one context but not another) and then use the relevant studies as evidence for that claim.
+
+**Specific suggestions:**
+
+1. **Open with a framing paragraph.** State the scope of the review, the criteria you used to select sources, and the central tension or gap your study addresses. Readers should know the destination before the journey begins.
+
+2. **Synthesize within sections.** Where several studies address the same point, compare them directly: where they agree, where they disagree, and where the differences in design, population, or definitions might explain the disagreement. Avoid stacking "Smith found X. Jones found Y. Lee found Z."
+
+3. **Evaluate, don't only describe.** Briefly note the strengths and limitations of key studies, especially where they bear on your argument. A small sample, a cross-sectional design, or a contested measure can matter a great deal to how much weight a finding can carry.
+
+4. **Define terms once and use them consistently.** Where the literature uses several labels for the same construct, say so and choose one. Inconsistent terminology makes it hard for the reader to follow the argument.
+
+5. **Close with the gap.** The final section should state clearly what the literature does not yet establish and how your study responds. This is the bridge to your methods and should be explicit rather than implied.
+
+6. **Check currency and coverage.** Confirm that your most influential sources are included and that you have searched for recent work in the last few years. If you have deliberately excluded a strand of literature, state why.
+
+**Priority for the next draft:** Rewrite the opening and the section structure first. Once the organizing argument is clear, the individual paragraphs will be much easier to tighten. I am happy to review a revised version, particularly the framing paragraph and the gap statement.

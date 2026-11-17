@@ -1,0 +1,1 @@
+Range indicating where the true value is expected to lie with 95% confidence based on sample data.

@@ -1,0 +1,1 @@
+Filter by date range: Show only records collected within the dates you select. Records with missing or unknown dates are excluded. Leave both fields blank to include all records. Dates use the format YYYY-MM-DD, and the range includes both the start and end dates.

@@ -1,0 +1,1 @@
+Export your results by selecting the Export button above the results table, then choosing a file format such as CSV, Excel, or JSON. The export includes all rows returned by the current query, not just those visible on screen, and it keeps your active filters and sort order. For large result sets, the download may take a moment to prepare, so keep the page open until it finishes.

@@ -1,0 +1,12 @@
+Here are two options depending on where you are posting the message:
+
+**Option 1: Short (Best for in-app banners or Slack/Teams)**
+
+> 🛠️ **Scheduled Maintenance Notice**  
+> The dashboard will be temporarily unavailable on **[Day, Date]** from **[Start Time]** to **[End Time] [Timezone]** for routine system updates. Please ensure you save any unsaved work before this window. We apologize for any inconvenience and appreciate your patience!
+
+---
+
+**Option 2: Ultra-short (Best for a top-bar banner)**
+
+> **Maintenance Alert:** The dashboard will be offline for updates on **[Date]** between **[Time]** and **[Time] [Timezone]**.

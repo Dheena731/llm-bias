@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a confidence interval in a chart:
+
+"This line represents the confidence interval, which gives a range of values within which a population parameter is likely to lie. In this case, we are 95% confident that the true value lies within the interval, meaning that if we were to repeat our study many times, the true value would fall within this range approximately 95% of the time."

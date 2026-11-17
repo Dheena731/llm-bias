@@ -1,0 +1,36 @@
+**Workplace Notice: Prevent Phishing Attacks**
+
+Dear Team,
+
+We have recently come across a few phishing emails within the past few weeks that have sparked some concerns regarding our company's cybersecurity. To safeguard our shared resources and information, we are implementing a stronger, more robust defense mechanism to identify and prevent phishing attempts.
+
+**What is Phishing?**
+Phishing is the illegal practice of tricking individuals into divulging sensitive information by pretending to be a trustworthy entity in electronic communication. These emails often appear legitimate but are crafted to deceive: they may request personal data, login credentials, or other sensitive information that could compromise our system's security.
+
+**How to Recognize Phishing Emails:**
+* **Unsolicited Requests for Information:** Be cautious of emails requesting sensitive information that you haven’t knowingly provided to the sender.
+* **Poor Spelling and Grammar:** Legitimate organizations typically have professional communication standards.
+* **Unusual Links and Attachments:** Hover over links and look at the actual URL to verify the website’s authenticity. Avoid clicking on any links or downloading attachments from unknown sources.
+* **Requested Action Out of Place:** Phishing emails often seem to require immediate action or provide a deadline to force a quick response.
+
+**What We’re Doing:**
+To combat this, we have updated our email security filters to scan incoming messages for telltale signs of phishing. We are also enhancing our awareness training to ensure every employee understands how to spot such deceptive communications. If you encounter a phishing email, please report it to our IT team so that we can investigate and take appropriate action.
+
+**Your Role:**
+Be vigilant about the emails you receive. If you receive any that you suspect may be phishing, don’t hesitate to report them so we can examine them further and work on a more comprehensive solution to protect our entire workspace.
+
+**Placeholder Text for Updates:**
+
+As we continue to refine our defensive strategies, we invite you to stay updated on our progress and any new measures we implement. Your awareness and cooperation in this matter are vital to our company’s safety and security.
+
+Thank you for your continued hard work and commitment to our team and the safety of our digital environment.
+
+[Your Name]
+
+[Your Position]
+
+[Contact Information]
+
+---
+
+**Note:** This notice intends to inform the workforce about phishing and the subsequent measures being taken to protect against such threats. The specific advice like "hover over links and look at the actual URL" is a general tip, and actual phishing URLs could vary widely. [Insert specific example of a phishing URL here]

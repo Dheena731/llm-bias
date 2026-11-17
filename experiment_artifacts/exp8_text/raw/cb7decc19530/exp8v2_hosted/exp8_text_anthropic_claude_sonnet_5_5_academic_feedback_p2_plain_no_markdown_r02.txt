@@ -1,0 +1,14 @@
+Dear [Student],
+
+Thank you for submitting your methods section. Since I don't have the text of your draft in front of me, I've written this note as a model of the feedback I would give on a typical methods section. Please adapt it to your own work.
+
+Your methods section has a clear logical structure, and a reader can follow the order in which you carried out the study. The main strength is that you explain why you chose your approach rather than just describing what you did. That context helps the reader judge whether your design fits your research question.
+
+The main weakness is that some procedures are described too loosely for another researcher to replicate. Wherever you mention a measure, instrument, or analysis, state the specifics: how participants were recruited, how many took part and why that number was chosen, what software and versions you used, and how you handled missing or excluded data. Be equally exact about your analytic decisions. If you ran a particular statistical test, say why it suits your data and whether you checked its assumptions.
+
+The section would also be stronger if you acknowledged the limitations of your design where they arise, rather than leaving them for the discussion. A sentence or two on sampling constraints or measurement validity would show that you have thought critically about your choices. Finally, check that your tense and terminology are consistent. Describe completed procedures in the past tense, and use the same term for the same concept throughout.
+
+With a round of revision focused on precision and replicability, this section could become very solid. I'm happy to look at a second draft or talk through any of these points.
+
+Best regards,
+[Instructor]

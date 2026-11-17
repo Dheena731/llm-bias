@@ -1,0 +1,22 @@
+**Subject: Action required: Quarterly access review opens [start date]**
+
+**To:** Department managers and system owners
+
+Each quarter, we check who has access to our systems and data to make sure people have only the access they need for their current role. The [Q#] review opens on **[start date]** and must be completed by **[deadline]**.
+
+**What you need to do**
+1. Open the review list that [IT/Security team] will send you on [start date]. It shows each person on your team and the systems they can use.
+2. Mark each item **Keep** or **Remove**. Choose Remove if the person has changed roles, left the team, or no longer needs that access.
+3. Submit your decisions by **[deadline]**.
+
+**What happens next**
+- Access marked Remove will be taken away within [X] business days of the deadline.
+- If your review is not submitted by the deadline, we will notify your director.
+
+**Other staff:** No action is needed from you. Your manager may ask you to confirm which systems you use.
+
+**Questions:** Contact [name or team] at [email/phone].
+
+Thank you for completing this on time.
+
+*[Bracketed items are placeholders to fill in before sending.]*

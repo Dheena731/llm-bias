@@ -1,0 +1,22 @@
+A database index is a separate data structure that helps the database find rows quickly without scanning an entire table.
+
+**How it works:** Think of the index at the back of a book. Instead of reading every page to find a topic, you look it up in the index and jump straight to the right page. Similarly, a database index stores the values of one or more columns in a sorted structure (commonly a B-tree) along with pointers to the corresponding rows. The database can search this structure efficiently, often in logarithmic rather than linear time.
+
+**Benefits:**
+- Speeds up lookups with `WHERE` clauses
+- Improves performance of `JOIN`s
+- Can speed up sorting (`ORDER BY`) and grouping
+- Can enforce uniqueness (e.g., unique indexes on email addresses)
+
+**Trade-offs:**
+- **Slower writes:** Every `INSERT`, `UPDATE`, or `DELETE` must also update the index.
+- **Extra storage:** Indexes take up disk space and memory.
+- **Diminishing returns:** Indexes on rarely queried columns, or on small tables, add cost with little benefit.
+
+**Example:**
+```sql
+CREATE INDEX idx_users_email ON users (email);
+```
+After this, a query like `SELECT * FROM users WHERE email = 'a@example.com'` can use the index instead of checking every row.
+
+In short, indexes trade some write speed and storage for much faster reads on the columns you query most often.

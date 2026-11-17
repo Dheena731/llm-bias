@@ -1,0 +1,22 @@
+**Subject: Quarterly Access Review: Action Required by [Date]**
+
+Hello all,
+
+The quarterly access review for [Quarter/Year] is now open. This review helps us confirm that everyone has the appropriate system and data access for their current role, and it supports our security and compliance obligations.
+
+**What you need to do:**
+
+1. Check the access review assigned to you in [System/Tool Name] by **[Deadline]**.
+2. For each entry, mark it as **Keep** if the access is still needed, or **Remove** if it is not.
+3. If you are unsure whether access is still needed, contact [Contact Name/Email] before the deadline.
+
+Managers will receive a separate notice to review their direct reports' access.
+
+Access that is not confirmed by the deadline may be temporarily suspended until it is reviewed. If you have questions, please reach out to [Contact Name] at [Email/Extension].
+
+Thank you for your prompt attention to this.
+
+Best regards,
+[Your Name]
+[Title]
+[Department]

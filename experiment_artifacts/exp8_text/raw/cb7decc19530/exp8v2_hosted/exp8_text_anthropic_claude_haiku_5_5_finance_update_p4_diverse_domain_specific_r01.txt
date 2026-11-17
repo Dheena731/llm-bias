@@ -1,0 +1,15 @@
+Subject: Your 2024 tax summary
+
+Hi Dana,
+
+Your year-end packet is attached. Most of it goes straight onto your return, but four items need a look:
+
+- **1099-INT, Hillcrest Credit Union:** $412 in interest. It's taxable even though it was credited to your savings account in December and you never withdrew it.
+- **1099-B, Lakeshore Brokerage:** $6,180 in proceeds from selling part of the index fund in March. The cost basis is blank for shares bought before 2011, so I need your old statements to fill that in. Without them, the software will assume zero basis and you'll owe tax on the full $6,180.
+- **1098, mortgage interest:** $9,870 paid. This is deductible only if you itemize, so I'll compare it with the standard deduction before we decide.
+- **HSA:** You contributed $3,200 directly, not through payroll, so it doesn't appear on your W-2. You can still deduct it, but I need the contribution record from the HSA administrator to claim it.
+
+The only thing I need from you before I can finish is the 2011 fund statements. If you can send them by the 10th, I'll have a draft back to you by the 14th.
+
+Thanks,
+Priya

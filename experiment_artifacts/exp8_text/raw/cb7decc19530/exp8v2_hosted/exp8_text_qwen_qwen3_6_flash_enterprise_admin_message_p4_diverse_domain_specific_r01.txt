@@ -1,0 +1,11 @@
+**Subject:** Q3 Access Review Cycle Open – Action Required by [Date]
+
+System and group owners: The quarterly access validation window is now open. Per our security baseline, uncompleted reviews will trigger automated role removal and service restrictions starting [Lockout Date].
+
+Log into [IAM/Directory Portal], select your assigned applications and AD groups, and validate each active entitlement against current job functions. Remove dormant accounts, revoke over-provisioned permissions, and submit exception tickets for any access that must remain active beyond its approved term. This cycle audits for access drift and compliance alignment, not policy changes.
+
+Complete your review by [Date, Time, Timezone]. Systems with pending validation will be placed in read-only mode until cleared. If you recently finished this cycle, reply with the closure ticket number to stop duplicate alerts.
+
+Direct all questions or approval requests to the IT Security queue. Do not use email threads—we track every modification through the portal for audit trails.
+
+Thanks for keeping entitlements clean.

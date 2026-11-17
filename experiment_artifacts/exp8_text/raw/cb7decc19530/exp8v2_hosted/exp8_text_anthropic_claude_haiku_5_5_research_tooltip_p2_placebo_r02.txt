@@ -1,0 +1,1 @@
+**Confidence interval:** The range of values this estimate is consistent with, given variation in the sample. Wider intervals mean more uncertainty; narrower intervals mean a more precise estimate.

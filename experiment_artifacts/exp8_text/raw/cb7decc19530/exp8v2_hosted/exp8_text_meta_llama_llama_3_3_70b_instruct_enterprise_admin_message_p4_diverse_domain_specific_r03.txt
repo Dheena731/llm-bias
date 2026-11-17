@@ -1,0 +1,15 @@
+**Quarterly Access Review Reminder: Ensuring Secure and Compliant Access to Sensitive Resources**
+
+As part of our ongoing commitment to maintaining the security and integrity of our systems, we will be conducting our quarterly access reviews starting on [Date]. This process is crucial in ensuring that all users have the appropriate level of access to sensitive resources, data, and applications, and that access is revoked when no longer necessary.
+
+During this review, we will be verifying user access to critical systems, including but not limited to, our CRM, ERP, and cloud storage platforms. Department managers and team leads will be responsible for reviewing and validating access for their respective teams, ensuring that all access is justified and aligned with current job responsibilities.
+
+To facilitate a smooth review process, please take the following steps:
+
+1. Review your team's current access permissions and identify any changes or revocations needed.
+2. Submit your access review findings to the IT department by [Deadline] using the provided access review template.
+3. Ensure that all new hires or transfers have been properly onboarded and have the necessary access to perform their job functions.
+
+The quarterly access review is a critical component of our overall security and compliance program, and your participation is essential to its success. If you have any questions or concerns, please do not hesitate to reach out to the IT department.
+
+Thank you for your cooperation and attention to this important matter.

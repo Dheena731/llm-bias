@@ -1,0 +1,26 @@
+**Subject: Quarterly Access Review: Action Required**
+
+Hello team,
+
+The quarterly user access review begins on **[start date]** and must be completed by **[deadline]**. This review helps us keep access to company systems appropriate, secure, and compliant with our policies.
+
+**What we need from you**
+
+- **Managers:** Review the list of systems and permissions assigned to each of your direct reports. Confirm which access should stay, and flag anything that should be changed or removed.
+- **System owners:** Verify that the list of users with access to your applications is accurate, including any shared or service accounts.
+- **All employees:** If you have access you no longer need, such as permissions from a previous role or project, please let IT know.
+
+**How to complete the review**
+
+1. Open the review request sent to your email from [tool or system name].
+2. Mark each entry as "Approve" or "Revoke."
+3. Submit your responses before the deadline.
+
+Access that has not been reviewed by the deadline may be suspended until confirmation is received. Approved removals will be processed within [number] business days.
+
+If you have questions or need help, contact the IT Service Desk at [email or extension].
+
+Thank you for your prompt attention.
+
+[Name]
+[Title/Department]

@@ -1,0 +1,18 @@
+SECURITY NOTICE: REMAIN ALERT FOR PHISHING ATTEMPTS
+
+Please be aware that our organization has seen a recent increase in phishing emails. These fraudulent messages often pretend to be from trusted companies, executives, or internal departments to gain access to sensitive data and systems.
+
+To protect yourself and the company, please look out for these red flags:
+
+- Urgent or threatening language demanding immediate action
+- Unfamiliar sender addresses or subtle misspellings in the domain name
+- Unexpected requests to verify login credentials, financial information, or gift cards
+- Unsolicited attachments or links
+
+What you should do:
+
+Never click on suspicious links, download unverified attachments, or reply with sensitive information. If an email seems questionable, do not engage. Forward it immediately to the IT Support team at it-support@company.com or use the Report Phishing button in your email client.
+
+Thank you for your vigilance in keeping our network secure.
+
+IT Department

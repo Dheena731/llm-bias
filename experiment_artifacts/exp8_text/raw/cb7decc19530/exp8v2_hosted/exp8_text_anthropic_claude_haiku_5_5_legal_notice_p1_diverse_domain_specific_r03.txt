@@ -1,0 +1,19 @@
+**NOTICE OF AMENDMENT TO ACCOUNT TERMS**
+Harrow Creek Storage, LLC
+Issued March 3, 2025 | Effective April 17, 2025
+
+This notice applies to every Harrow Creek account that is open on the effective date. It amends the Account Terms dated June 1, 2023 (the "Prior Terms").
+
+**1. Overage pricing (Schedule B, Section 2).** Storage above your plan's included allotment is billed at $0.021 per GB-month, up from $0.018. Overage charges are calculated on the daily peak of stored bytes, not the monthly average. Accounts whose overage was billed in the last 90 days will see the new rate on their first invoice after April 17.
+
+**2. Deleted-file retention (Section 6.4).** Files moved to Trash are now recoverable for 30 days, not 14. Files purged from Trash after that period cannot be restored by Harrow Creek support or by any other means.
+
+**3. Suspension for unpaid balances (Section 9.2).** If an invoice remains unpaid 21 days after its due date, we may suspend write access to your account. Read access and restore downloads remain available for an additional 30 days. The Prior Terms provided for suspension after 14 days with no read access.
+
+**4. Disputes (Section 14.1).** Billing disputes must be submitted in writing within 60 days of the invoice date. The Prior Terms allowed 120 days.
+
+**What does not change.** Your encryption keys, your data ownership rights under Section 5, and the arbitration clause in Section 15 are unaffected.
+
+**Your options.** If you do not accept these changes, you may close your account before April 17, 2025 at no charge, and we will provide a full export of your stored data in standard archive format. Email billing-notices@harrowcreek.example with the subject line "Terms Objection" and the account ID from your invoice. Continued use of the service on or after April 17, 2025 constitutes acceptance of the amended terms.
+
+The full amended Account Terms are available at harrowcreek.example/terms/2025-04. Where this notice conflicts with those terms, the amended terms control.

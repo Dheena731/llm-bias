@@ -1,0 +1,13 @@
+**Shared Network Acceptable Use Notice — Community Makerspace**
+
+Use of the Makerspace’s wired and wireless networks is limited to activities reasonably connected with membership, classes, fabrication work, and lawful operation of approved equipment.
+
+Users must not:
+
+- access, copy, or disclose another member’s files, credentials, designs, or machine-control data;
+- scan, probe, or otherwise interfere with printers, CNC equipment, laser cutters, cameras, sensors, or network infrastructure;
+- connect unauthorized access points, servers, cryptocurrency miners, or devices that generate excessive traffic;
+- use the network to transmit malware, infringing material, threats, or content that creates a safety, harassment, or legal risk for the Makerspace; or
+- bypass authentication, filtering, quotas, or other technical controls.
+
+The Makerspace may monitor traffic and connected devices to protect members, equipment, and data, and may restrict or terminate access without advance notice where misuse, compromise, or operational risk is suspected. Users are responsible for securing their own devices and for all activity conducted through their accounts or equipment. Use of the network constitutes acceptance of this notice and any applicable membership agreement.

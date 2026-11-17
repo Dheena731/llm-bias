@@ -1,0 +1,23 @@
+**Subject: New expense approval workflow starting [date]**
+
+Hi everyone,
+
+Starting [date], all expense reports will go through a new approval process in [system name].
+
+**How it works**
+1. Submit your expense report in [system name] with receipts attached.
+2. Your manager reviews it first.
+3. If the total is over $[amount], Finance reviews it after your manager.
+4. Once approved, you are reimbursed within [X] business days.
+
+**What you need to do**
+- Employees: submit all expenses through [system name]. Reports sent by email will not be processed after [date].
+- Managers: review submitted reports within [X] business days so reimbursements are not delayed.
+
+If you have questions, contact [name] at [email].
+
+Thank you,
+[Your name]
+[Your title]
+
+*Before sending, fill in the bracketed details: start date, system name, dollar threshold, timeframes, and contact.*

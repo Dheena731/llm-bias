@@ -1,0 +1,11 @@
+Subject: Important Update: Transition to New VPN Software
+
+Dear Team,
+
+We are updating the Virtual Private Network (VPN) client used to access company systems securely from remote locations. This change will improve connection reliability and enhance our overall network security.
+
+The new VPN application will be installed automatically on all company-managed computers. Once the installation is complete, you will be prompted to restart your device and sign in using your standard login credentials. 
+
+Detailed setup instructions and troubleshooting steps are available on the internal IT support portal. If you experience any issues or need assistance, please contact the IT Help Desk. 
+
+Thank you for your cooperation during this transition.

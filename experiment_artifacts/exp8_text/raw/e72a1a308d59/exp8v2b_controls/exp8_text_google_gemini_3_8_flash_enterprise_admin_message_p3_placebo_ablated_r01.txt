@@ -1,0 +1,19 @@
+**Subject:** Action Required: Upcoming change to our remote work VPN 
+
+Hello Team,
+
+On **[Date]**, we are switching to a new Virtual Private Network (VPN)—the software you use to connect securely to company tools and files when working remotely. 
+
+After **[Date]**, the current VPN will no longer work. 
+
+**What you need to do:**
+* **Company-managed laptops:** The new software, **[New VPN Name]**, will install automatically. Please restart your computer before **[Date]** to complete the installation.
+* **First-time login:** Open **[New VPN Name]**, sign in using your standard company email and password, and follow the prompt to verify your identity. 
+
+Step-by-step instructions with screenshots are available here: **[Link to Guide]**.
+
+If you need assistance, please reach out to the IT Help Desk at **[Email/Phone]**.
+
+Thank you for your cooperation,
+
+**[Your Name/IT Department]**

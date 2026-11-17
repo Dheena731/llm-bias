@@ -1,0 +1,5 @@
+**Notice of Changes to API Account Terms**
+
+Effective **[date]**, the terms governing your **[Service Name]** account will change. The revised terms clarify how API usage is measured, including requests made through retries, background jobs, and shared credentials; when usage charges become payable; and the circumstances in which we may restrict or suspend access for unpaid balances, abusive traffic, or material security risk.
+
+The revised terms also require you to maintain accurate billing and contact information and to notify us promptly if an API key is lost or exposed. Your current use of the service will remain governed by the existing terms until the effective date. By continuing to use the service after that date, you accept the revised terms. The updated version is available at **[link]**.

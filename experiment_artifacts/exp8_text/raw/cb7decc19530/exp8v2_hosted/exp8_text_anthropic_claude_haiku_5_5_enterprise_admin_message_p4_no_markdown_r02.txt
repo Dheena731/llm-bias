@@ -1,0 +1,20 @@
+Subject: Quarterly Access Review Notice
+
+Dear Team,
+
+This is a reminder that the quarterly access review for all shared systems and applications will begin on Monday, March 3, and must be completed by Friday, March 14.
+
+System owners and department managers will receive a report listing current user accounts and their assigned permissions. Please review each entry carefully and confirm whether access is still required for the individual's current role. Any access that is no longer needed should be marked for removal.
+
+To complete your review:
+
+1. Open the access report from the IT portal.
+2. Verify each user's role and permissions.
+3. Mark any unnecessary or outdated access for removal.
+4. Submit your completed review to the IT Security team by March 14.
+
+Accounts that have not been certified by the deadline may be temporarily suspended until the review is completed. If you have questions or need assistance, please contact the IT Security team at security@company.com.
+
+Thank you for your prompt attention to this important control.
+
+IT Administration

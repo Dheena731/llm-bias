@@ -1,0 +1,18 @@
+**Re: Methods draft, "Benthic response to dairy effluent, Hollow Brook"**
+
+Naomi,
+
+The site description is good. Telling me the downstream reach sits 150 m below the outfall, and that you chose the upstream control to share the same riffle substrate, lets a reader judge whether the comparison is fair. Keep that level of detail.
+
+The main problem is the sampling unit. You write that "a kick sample was collected at each site" and then analyse taxa richness with n = 3. If each site got one kick sample, the three sites are your replicates, and you have no within-site variation to estimate error from. Either say you took multiple kicks per site and pooled them (and explain how), or report the individual kicks as replicates and analyse them accordingly. As written, a reviewer will ask this first.
+
+A few smaller gaps:
+
+- The 500 µm mesh size is stated, but not the preservative or its concentration. Give the ethanol percentage and how long samples sat before sorting.
+- "Sampled on two occasions" needs dates. Your 14 March sample followed a storm (you mention it in the Results), so the Methods should say whether any sampling was taken within 48 h of rain.
+- Substrate is described as "cobble and gravel," but the Results report percent fines. Explain how you measured that.
+- Identification to family level is fine for this question, but state who identified the specimens and whether you checked any against a reference key.
+
+Revise the replication paragraph first, since everything in the analysis depends on it. Happy to look at the revised version.
+
+M.

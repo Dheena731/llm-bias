@@ -1,0 +1,18 @@
+Hi Maya,
+
+Thanks for sending the draft of your poster. The core result, that the caching layer cut median latency by 38 percent, is clear and easy to spot, which is a strength. The title also communicates the topic well.
+
+A few suggestions to make the poster more effective from a distance:
+
+The methods section is dense. Consider replacing the paragraph describing the test setup with a simple diagram showing the three configurations you compared.
+
+The results figure uses small axis labels and a legend that is hard to read from more than a meter away. Increasing the font size and labeling the lines directly would help.
+
+The conclusion repeats the abstract almost word for word. Try reducing it to two or three sentences that state the takeaway and one next step, such as the planned evaluation on production traffic.
+
+Consider adding a QR code linking to your preprint or repository, since viewers will likely want the details after reading the poster.
+
+Overall, this is a solid draft. If you can simplify the methods and enlarge the figure, it should work well for a busy conference hall. Happy to take another look once you've revised it.
+
+Best,
+Daniel

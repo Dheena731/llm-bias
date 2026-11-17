@@ -1,0 +1,30 @@
+**NOTICE: Protecting Our Network Against Phishing Emails**  
+**Date:** [Insert Date]  
+**To:** All Staff  
+**From:** IT Security & Compliance  
+
+Dear Team,
+
+Phishing attempts continue to target organizations worldwide through deceptive emails designed to steal credentials, install malware, or extract sensitive data. To help safeguard our systems and information, please review the following guidelines:
+
+🔍 **How to Spot a Phishing Email**
+- Unsolicited requests for passwords, account details, or financial information
+- Sender addresses that mimic legitimate contacts but contain subtle misspellles or mismatched domains
+- Urgent, threatening, or overly familiar language demanding immediate action
+- Unexpected attachments or links that direct to unfamiliar websites
+- Generic salutations (e.g., “Dear Customer” instead of your name)
+
+🛡️ **What to Do If You Receive One**
+1. **Do not click** any links or download attachments.
+2. **Do not reply** or forward internal information.
+3. **Forward the email** exactly as received to security@[company].com or dial extension 5-HELP.
+4. **Delete the message** once reported.
+
+Our IT Security team can quickly verify suspicious messages. When in doubt, reach out before taking action. Cybersecurity is a shared responsibility—your vigilance makes a critical difference.
+
+Thank you for your attention and cooperation.
+
+Best regards,  
+[Your Name/Title]  
+IT Security & Compliance Department  
+[Contact Information]

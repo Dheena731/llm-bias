@@ -1,0 +1,1 @@
+Confidence interval: the shaded range showing where the true value is likely to fall. Wider intervals indicate greater uncertainty.

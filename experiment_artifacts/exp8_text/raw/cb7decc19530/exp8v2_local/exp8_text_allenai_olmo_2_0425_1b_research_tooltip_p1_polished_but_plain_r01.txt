@@ -1,0 +1,15 @@
+Use headings to organize the text in a way that makes it more accessible. For example, headers such as “Abstract” can be used to categorize the text about the abstract. Use headers for both the title and the summary. Do not use headers for the abstract itself.
+
+Example of an abstract with headers:
+
+The abstract of this paper summarizes the important points that the PI thinks are most important. The PI added some clarifying notes to the abstract after reviewing and editing the abstract in a way that makes the abstract more useful for readers.
+
+Example of a summary with headers:
+
+The summary of this paper summarizes the important points that the PI thinks are most important. The PI added some clarifying notes to the summary after reviewing and editing the summary in a way that makes the summary more useful for readers.
+
+You are expected to add a section for “References.” These are not always published in a scientific journal, but they should cite a variety of published and unpublished external resources that you have consulted and that are relevant to your research. You may use this section to provide bibliographic information or to make a direct citation to your work.
+
+The “References” section of your abstract should be complete. One good way to organize your references is to use the Harvard citation style. It is a good way to cite sources that you have used or that have been used by others before you. You do not have to cite these references in the context of your abstract if you think that this would be confusing.
+
+References should cite more than two sources per paragraph. Longer than two sources per paragraph could be confusing to your audience.

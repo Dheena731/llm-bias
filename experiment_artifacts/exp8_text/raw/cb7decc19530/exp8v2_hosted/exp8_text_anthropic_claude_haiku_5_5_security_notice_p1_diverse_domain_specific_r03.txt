@@ -1,0 +1,16 @@
+**Subject: Reused passwords — what we found, and what to change by Friday**
+
+Last month SSO flagged 41 login attempts against finance and ops accounts. None succeeded. Each one used a username and password pair that appeared in a public dump from a loyalty-program breach in March. Several of the affected accounts had the same password as a personal account on that retailer's site.
+
+Attackers don't need to crack anything. They take breached pairs and try them on every other login they can find.
+
+**What to do:**
+
+- **Check your work password against your personal ones.** If they match, or differ only by a number or a capital letter, change the work password today.
+- **Stop using the old vendor portal login.** We're retiring it on the 14th. Anything still saved there will stop working.
+- **Set up the password manager** (Bitwarden is approved; the setup guide is under Security > Tools on the intranet). Shared team logins go in a vault folder, not in a spreadsheet or a channel message.
+- **Don't write passwords on sticky notes.** Facilities found three under keyboards this quarter. We're not going to name names.
+
+Accounts from the flagged list will be forced to reset Monday morning. You'll get a separate email with the reset link, and that email will come from security@, not a shortened URL.
+
+IT will never ask for your password by phone, chat, or email. If someone does, don't reply. Forward it to security@ and tell Dana Whitfield on the security team (ext. 4417).

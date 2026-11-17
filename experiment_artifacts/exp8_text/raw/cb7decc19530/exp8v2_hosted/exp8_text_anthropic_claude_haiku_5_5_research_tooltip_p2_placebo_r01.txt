@@ -1,0 +1,1 @@
+**95% confidence interval:** The range of values the true figure is likely to fall within. If this survey were repeated many times, about 95% of the intervals calculated this way would contain the true value. A wider interval means more uncertainty.

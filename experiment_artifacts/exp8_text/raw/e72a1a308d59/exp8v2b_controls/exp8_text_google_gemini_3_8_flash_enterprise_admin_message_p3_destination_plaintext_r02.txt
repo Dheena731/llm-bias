@@ -1,0 +1,13 @@
+IMPORTANT: Upcoming VPN Client Change
+
+We are transitioning to a new VPN client on [Date] to improve network security and performance. 
+
+What you need to do:
+- [Option A: No action needed. The update will install automatically on your device.]
+- [Option B: Please download and install the new client from [Link/Software Center] by [Date].]
+
+After [Date], the old VPN client will no longer work. 
+
+Step-by-step setup instructions are available at: [Link]
+
+If you need assistance, please contact the IT Help Desk at [Phone Number] or [Email Address].

@@ -1,0 +1,1 @@
+A new expense approval workflow has been implemented. All expense requests will now be processed through this system. This change is intended to improve efficiency and streamline the approval process. Instructions on how to use the new workflow are available on the company intranet.

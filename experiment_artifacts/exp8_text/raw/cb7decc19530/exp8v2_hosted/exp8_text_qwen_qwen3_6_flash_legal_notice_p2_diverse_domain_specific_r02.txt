@@ -1,0 +1,17 @@
+**NOTICE OF PRIVACY POLICY AMENDMENT**  
+**Effective Date:** [Insert Date]  
+**Applicable Service:** [Company Name] Commercial UTM & Telemetry Management Platform  
+
+This notice documents material revisions to the Privacy Policy governing all registered operators, client entities, and ground stations utilizing the Platform. Amendments address updated compliance obligations under 14 CFR §§ 107.39 and 107.45, revised data-minimization requirements for automated flight-path logging, and altered third-party data-sharing parameters for Unmanned Traffic Management (UTM) integrations.
+
+**Key Revisions:**  
+• Raw telemetry buffers will be cryptographically scrubbed and aggregated after 60 days, except where preservation is required for active safety investigations under NTSB § 831.10 reporting thresholds.  
+• Operator biometric authentication logs (HRV, fatigue markers) are now classified as protected health information; processing requires separate affirmative consent and is excluded from performance analytics pipelines.  
+• Cross-network telemetry forwarding to municipal air-ground coordination systems is restricted to minimal positional packets; full route history remains siloed within Platform-managed vaults.  
+
+The complete amended Policy and a tracked-changes appendix are posted at [URL]. Continued access to or operation of the Platform following the effective date constitutes acceptance of these provisions.  
+
+Direct substantive inquiries to the Data Protection Office at dpo@[domain].com or via mail to [Physical Address]. This notice is issued pursuant to Section 12(b) of the Platform Terms of Service.  
+
+[Authorized Signatory / Compliance Directorate]  
+[Date of Issuance]

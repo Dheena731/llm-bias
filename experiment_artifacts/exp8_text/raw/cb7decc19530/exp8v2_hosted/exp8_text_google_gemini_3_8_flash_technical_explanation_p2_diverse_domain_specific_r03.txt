@@ -1,0 +1,12 @@
+At its core, a database index trades storage space and write throughput to eliminate full sequential disk scans during reads.
+
+Without an index, finding a specific record requires the database engine to perform a full table scan—reading every data page off the disk into memory, row by row, evaluating the `WHERE` condition against the entire dataset ($O(N)$ complexity). 
+
+An index extracts the values of specified columns and organizes them into a separate, ordered data structure—most commonly a B+Tree. In this tree:
+
+* **Interior nodes** store key ranges to direct traversal.
+* **Leaf nodes** store sorted keys paired with pointers back to the raw row data (such as a physical tuple ID or a primary key value).
+
+When a query runs, the storage engine traverses the index from root to leaf in a predictable number of steps ($O(\log N)$), reading only a handful of pages to pinpoint the exact location of the matching rows in the table heap. 
+
+The structural penalty is write amplification: because the index must remain sorted, every `INSERT`, `DELETE`, or `UPDATE` touching the indexed column forces the engine to modify the index pages alongside the base table, incurring additional I/O, cache invalidation, and lock overhead.

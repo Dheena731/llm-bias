@@ -1,0 +1,14 @@
+Subject: Scheduled Dashboard Maintenance This Saturday
+
+Hello team,
+
+We will be performing scheduled maintenance on the analytics dashboard this Saturday, May 17, from 10:00 PM to 1:00 AM Sunday, May 18. During this window, the dashboard will be unavailable, and reports will not refresh. Any data you export before 10:00 PM will remain accessible in your downloads folder.
+
+The work involves applying security patches and upgrading the reporting database to improve load times. We do not expect any changes to existing reports, saved filters, or user permissions. If the maintenance runs longer than planned, we will send an update in the team channel before the window closes.
+
+Please plan any late-night reporting or time-sensitive pulls for before 10:00 PM on Saturday or after the system is back online. If you run into any issues once the dashboard returns, reply to this message or contact the IT help desk, and we will address them as quickly as possible.
+
+Thank you for your patience and understanding.
+
+Best regards,
+IT Operations

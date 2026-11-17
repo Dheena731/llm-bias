@@ -1,0 +1,30 @@
+Here's a short workplace security notice about password reuse, tailored to a specific domain (in this case, a software development company):
+
+**Secure Access Reminder: Password Reuse and Complexity**
+
+As developers, engineers, and support staff working on our company's proprietary software and systems, we rely on secure access to our resources to ensure the integrity and confidentiality of our projects. One critical aspect of access security is the use of unique and complex passwords.
+
+**Important Reminder: Do Not Reuse Passwords**
+
+Please be aware that reusing passwords across multiple systems and services is strictly prohibited. This means that if you use the same password for your email account, your laptop login, or your Git repository access, you are at risk of compromising the security of our company's systems.
+
+**Why is Password Reuse a Concern?**
+
+Reusing passwords makes it easier for attackers to gain unauthorized access to our systems, potentially leading to data breaches, intellectual property theft, or even reputational damage. Our company's security measures rely on the assumption that each user has a unique, complex password that is not shared with any other account or service.
+
+**Best Practices for Password Management**
+
+To maintain the security of our systems, please follow these best practices:
+
+*   Use a unique, complex password for each account and service.
+*   Avoid using easily guessable information, such as your name, birthdate, or common words.
+*   Consider using a password manager to generate and store complex passwords.
+*   Change your passwords regularly, ideally every 60 days.
+
+By following these guidelines and avoiding password reuse, you will help protect our company's systems, data, and reputation. If you have any questions or concerns about password security, please reach out to our security team.
+
+**Secure Access is Everyone's Responsibility**
+
+We all have a role to play in maintaining the security of our company's systems. If you have any questions or concerns, please don't hesitate to contact our security team.
+
+This notice is meant to be specific to your domain, highlighting the importance of unique and complex passwords in maintaining the security of your company's systems.

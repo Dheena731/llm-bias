@@ -1,0 +1,22 @@
+**Security Notice: Password Reuse**
+
+**Date:** [Insert Date]
+**From:** IT Security Team
+**To:** All Employees
+
+We have identified an increase in accounts compromised through reused passwords. When the same password is used across personal and work accounts, a breach at any one service can give attackers access to company systems.
+
+**What you need to do:**
+
+- **Use a unique password for every work account.** Do not reuse passwords from personal sites or from other work systems.
+- **Use a password manager** approved by IT to generate and store strong, unique passwords.
+- **Enable multi-factor authentication (MFA)** on all work accounts where it is available.
+- **Never share your password** with colleagues, vendors, or anyone claiming to be IT support. IT will never ask for your password.
+- **Report suspicious activity** immediately, including unexpected password reset emails or login alerts, to [Security Contact / Help Desk Email].
+
+If you are unsure whether a password you use is reused, change it now and contact the help desk if you need assistance.
+
+Thank you for helping keep our systems and information secure.
+
+**IT Security Team**
+[Company Name]

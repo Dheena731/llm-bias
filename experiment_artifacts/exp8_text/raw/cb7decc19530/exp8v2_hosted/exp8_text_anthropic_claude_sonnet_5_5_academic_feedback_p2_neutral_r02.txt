@@ -1,0 +1,26 @@
+I don't see the student's methods section in your message. If you paste it in, I can tailor the feedback. In the meantime, here is a short template you can adapt:
+
+---
+
+**Feedback on Methods Section**
+
+Thank you for your draft. Your methods section has a solid foundation, and your overall approach is clear. Below are a few strengths and areas to develop.
+
+**Strengths**
+- The study design is easy to follow, and your choice of approach fits your research question.
+- You describe the main procedures in a logical order.
+
+**Areas to strengthen**
+1. **Replicability:** Add the details someone would need to repeat your study, such as sample size, materials or instruments, software versions, and specific parameters.
+2. **Justification:** Explain *why* you chose these methods over alternatives, especially for key decisions like sampling and analysis techniques.
+3. **Participants/Data:** Describe how participants or data were selected, including inclusion and exclusion criteria, and note any ethical approvals.
+4. **Analysis plan:** State which statistical or analytical methods you used and how they connect to your research questions or hypotheses.
+5. **Limitations:** Briefly acknowledge any methodological constraints that might affect interpretation.
+6. **Style:** Use past tense and a consistent, concise voice. Move any results or discussion out of this section.
+
+**Next steps**
+Revise with these points in mind, paying particular attention to replicability and justification. I'm happy to look at a second draft.
+
+---
+
+If you share the actual text, the discipline, and the level (undergraduate, master's, doctoral), I can make the note more specific and adjust the tone.

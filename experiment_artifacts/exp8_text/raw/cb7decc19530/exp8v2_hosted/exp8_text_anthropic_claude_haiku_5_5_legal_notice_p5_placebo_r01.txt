@@ -1,0 +1,33 @@
+**NOTICE OF ACCEPTABLE USE: SHARED NETWORK**
+
+**1. Who This Notice Applies To**
+This notice applies to every person who connects a device to, or uses, the shared network (each, a "User"). The "network" means the shared wired and wireless connections, the equipment that supports them, and any internet access provided through them.
+
+**2. Purpose**
+The network is provided for shared use. Each User must use it lawfully and in a way that does not disrupt the network or unfairly limit its availability to others.
+
+**3. Permitted Use**
+Users may use the network for lawful purposes, including communication, research, study, and work-related tasks.
+
+**4. Prohibited Use**
+Users must not use the network to:
+
+(a) break any applicable law;
+(b) access, or attempt to access, any system, device, or data without authorization;
+(c) distribute malicious software or otherwise intentionally interfere with the network or any other device connected to it;
+(d) infringe copyright or any other intellectual property right;
+(e) harass, threaten, or defame any person, or send unsolicited bulk messages;
+(f) share login credentials with others or allow others to use a User's access in violation of this notice; or
+(g) consume bandwidth at a level that degrades service for other Users.
+
+**5. Security Responsibilities**
+Each User is responsible for all activity carried out through the User's credentials and devices. Users must take reasonable steps to keep their devices protected against malware.
+
+**6. Monitoring**
+Network activity may be logged and monitored to protect security, maintain performance, and enforce this notice, to the extent permitted by applicable law.
+
+**7. Enforcement**
+A violation of this notice may result in the suspension or removal of the User's access to the network. Suspected unlawful activity may be reported to the appropriate authorities.
+
+**8. No Guarantee of Service**
+The network is provided without any guarant

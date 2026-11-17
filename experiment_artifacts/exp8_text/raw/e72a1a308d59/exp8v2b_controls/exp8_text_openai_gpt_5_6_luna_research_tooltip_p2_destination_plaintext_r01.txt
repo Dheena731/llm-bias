@@ -1,0 +1,1 @@
+Confidence interval: The range around an estimate that reflects uncertainty. A 95% interval would contain the true value in about 95% of repeated samples.

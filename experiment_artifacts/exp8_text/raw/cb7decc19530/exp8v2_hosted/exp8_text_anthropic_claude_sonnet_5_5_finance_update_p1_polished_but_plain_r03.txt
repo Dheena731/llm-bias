@@ -1,0 +1,9 @@
+We have added a monthly spending summary to give you a clearer picture of where your money goes. At the start of each month, you will find a recap of the previous month's activity in your account, available on the main dashboard and delivered by email if you prefer.
+
+The summary brings together your total spending, your largest purchases, and a breakdown by category, such as groceries, transportation, utilities, and entertainment. It also compares the month with the one before it, so you can see at a glance whether your spending rose or fell and in which areas the change was most noticeable. Recurring charges, including subscriptions and bills, are grouped together so they are easy to review and so that any charge you no longer recognize or need stands out.
+
+Categories are assigned automatically based on the merchant, and in most cases they will be accurate. If a purchase lands in the wrong place, you can reassign it with a single tap, and the summary will update to reflect your correction. Future transactions from that merchant will also follow your preference, which should make the results more precise over time.
+
+The summary is meant to be a quick, practical review rather than a full financial report. Many people find that spending a few minutes with it each month is enough to catch surprises, adjust a budget, or confirm that things are on track. If you would rather not receive the email version, you can turn it off in your notification settings without affecting the dashboard view.
+
+We plan to refine the summary based on your feedback, so please let us know what would make it more useful to you.

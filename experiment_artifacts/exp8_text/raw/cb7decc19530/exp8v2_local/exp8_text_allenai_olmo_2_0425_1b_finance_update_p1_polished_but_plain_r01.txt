@@ -1,0 +1,7 @@
+Format strings and other text
+
+It comes with the package, but the corresponding library is the etoolbox package.
+
+Style guide
+
+This document contains a list of style guidelines for LaTeX documents prepared with the vim-latex2x package.

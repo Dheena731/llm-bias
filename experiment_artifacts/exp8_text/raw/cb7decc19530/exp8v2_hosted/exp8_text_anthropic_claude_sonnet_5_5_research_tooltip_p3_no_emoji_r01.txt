@@ -1,0 +1,2 @@
+**Date range**
+Select a start and end date to filter results. Click one date, then another to set the range. Both dates are included. To change the range, click a date again or choose a preset such as "Last 7 days."

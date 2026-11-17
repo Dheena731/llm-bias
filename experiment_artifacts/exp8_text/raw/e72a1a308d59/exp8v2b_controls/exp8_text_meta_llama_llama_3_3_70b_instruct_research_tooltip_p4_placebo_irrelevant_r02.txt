@@ -1,0 +1,1 @@
+"Missing-value marker: Indicates that data is absent, unknown, or unable to be collected, and is often represented by a specific symbol (e.g. *, NA, or NULL) to distinguish it from zero or blank values."

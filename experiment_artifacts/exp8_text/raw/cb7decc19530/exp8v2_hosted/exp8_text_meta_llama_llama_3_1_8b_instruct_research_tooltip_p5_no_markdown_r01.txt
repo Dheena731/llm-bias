@@ -1,0 +1,9 @@
+To export query results:
+
+1. Select the desired rows or use the "Select All" option.
+2. Right-click the selected rows or press Ctrl+A (Windows) or Command+A (Mac) to open the context menu.
+3. Choose "Copy as CSV" or "Export to CSV" from the menu.
+4. Alternatively, click the "Export" button in the toolbar or use the keyboard shortcut Ctrl+E (Windows) or Command+E (Mac).
+5. Choose a location to save the exported file and select the desired format (e.g., CSV, Excel, or PDF).
+
+Note: The exact steps may vary depending on the database management system or application you are using.

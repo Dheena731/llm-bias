@@ -1,0 +1,3 @@
+Latency is the time it takes for data to travel between a user and a web server. In web applications, even fractions of a second matter. High latency leads to noticeable delays, making interfaces feel sluggish and frustrating to use.
+
+This directly impacts business outcomes: users are far more likely to abandon a slow site, leading to lower engagement, lost conversions, and decreased revenue. Additionally, search engines penalize slow websites in their rankings, which reduces organic traffic. In modern web applications that depend on multiple background requests and APIs, small delays can compound, quickly turning a minor lag into a severely degraded experience. Keeping latency low is essential for user retention, satisfaction, and competitive performance.

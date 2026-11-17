@@ -1,0 +1,16 @@
+**Feedback on draft poster: "Prescribed fire drives N mineralization shifts in ponderosa pine soils"**
+*(Written as if reviewing a draft from a soil ecology lab.)*
+
+Maya, this is a solid dataset, and the 14-month resampling is the strongest thing on the poster. Right now it's buried.
+
+**Lead with the result.** The title says fire "drives" the shift, but the design is three burn units against three unburned controls, with plots nested inside. That's a comparison, not a manipulation you randomized. Try "Net N mineralization stays elevated 14 months after low-severity burns." It's more accurate and also more interesting.
+
+**Fig. 2 is your poster.** Move it to the center and make it twice the size. Show the individual plot values over the boxplots, since n = 4 per unit doesn't support a box. Check the y-axis: the figure says mg N kg⁻¹ d⁻¹ but the text says per 28-day incubation. Pick one.
+
+**Stats.** Your caption reports a t-test across plots. With plots nested in burn units, that's pseudoreplication. A mixed model with unit as a random effect is the safer call, and someone at the session will ask.
+
+**Cut.** The site map and the full species table can go. The 16S ordination in the bottom corner is unreadable at 1.5 m, so either promote it with one sentence on why it matters for the N result or drop it.
+
+**Layout.** The methods block is about a third of the area. Shrink it to a schematic of the incubation. Replace the red/green treatment colors with something colorblind-safe, such as orange and blue.
+
+Add a QR code to the data and script repository.

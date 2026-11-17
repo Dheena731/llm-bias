@@ -1,0 +1,27 @@
+**Subject:** ACTION REQUIRED: Q[X] User Access Reviews Now Open
+
+**To:** All People Managers and System Owners  
+**From:** IT & Information Security Team  
+
+Hello Team,
+
+Our Quarterly Access Review for **[Quarter/Year, e.g., Q3 2024]** is now underway. 
+
+Regular access reviews are essential to maintaining company security and meeting our compliance requirements. All managers and system owners must review their team members' current permissions to ensure they adhere to the principle of least privilege.
+
+### **Required Actions:**
+1. **Access the portal:** Log in to [Link to Access Review Portal / Tool].
+2. **Review permissions:** Confirm that each user’s access aligns with their current role and responsibilities.
+3. **Update or revoke:** Immediately flag or remove access for any transferred, offboarded, or inactive personnel.
+4. **Approve:** Submit your final confirmation by **[Deadline Date, e.g., Friday, October 18, at 5:00 PM]**.
+
+Unapproved access lists past the deadline will be escalated to department leadership, and unverified accounts may be temporarily suspended.
+
+If you have questions or need assistance, please contact the IT Security Team at [Contact Email/Help Desk Link] or reach out in #[Slack/Teams Channel].
+
+Thank you for your cooperation in keeping our systems secure.
+
+Best regards,
+
+**IT & Information Security Team**  
+[Company Name]

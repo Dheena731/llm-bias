@@ -1,0 +1,18 @@
+Here is a short and careful message about an upcoming email migration:
+
+"Dear Valued Users,
+
+We are writing to inform you that our email system will be undergoing a planned migration on [Date]. This change will involve the transfer of all email accounts from our current Exchange 2013 platform to a new, cloud-based system.
+
+During the migration, email services may be temporarily unavailable from [Time] on [Date] to [Time] on [Date]. Our team will work diligently to ensure a seamless transition, but we recommend that you save any important emails or drafts before the migration takes place.
+
+The new system will offer improved performance, enhanced security features, and better collaboration tools. You will be able to access your email accounts as usual, but please note that you may be required to update your email client settings.
+
+If you have any questions or concerns, please don't hesitate to reach out to our IT department.
+
+Thank you for your understanding and cooperation.
+
+Best regards,
+[Your Name]"
+
+I hope this message is clear and concise, and provides the necessary information for the affected users. Let me know if you need any adjustments!

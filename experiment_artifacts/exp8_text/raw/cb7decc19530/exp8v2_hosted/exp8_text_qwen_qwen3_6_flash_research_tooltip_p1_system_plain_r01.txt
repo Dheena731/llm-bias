@@ -1,0 +1,1 @@
+This filter narrows your dataset to include only records that match the specified criteria. Use it to isolate relevant observations, remove extraneous data, and streamline your analysis for faster and more precise results.

@@ -1,0 +1,17 @@
+Here is a short message announcing a change to the VPN client:
+
+**Important Update: New VPN Client Release**
+
+We are announcing a new version of our VPN client, which will be deployed automatically to all users on [Date]. This updated client includes several security enhancements and improvements to performance.
+
+**What to expect:**
+
+* Improved connection stability and speed
+* Enhanced security features, including better encryption and authentication protocols
+* Simplified installation and configuration process
+
+**No action required:**
+
+The new client will be automatically installed on your device, so there is no need to take any action. If you have any issues or concerns, please contact our support team.
+
+Thank you for your understanding and cooperation.

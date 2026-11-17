@@ -1,0 +1,8 @@
+Every uncached HTTP request triggers an expensive execution chain: the client negotiates TLS with an origin server, the application framework initializes, the database parses queries and reads from disk, templates are compiled, and the payload traverses the network back to the user. 
+
+Caching accelerates this process by intercepting that pipeline and trading memory for compute and distance:
+
+* **Short-circuiting the origin (Eliminating Compute):** In-memory caches (like Redis) or reverse proxies (like Varnish or Nginx) store the final rendered output—whether a raw database query result, a JSON response, or full HTML markup. When a subsequent request arrives with a matching cache key, the server bypasses database queries and application logic entirely, reading the pre-built response directly from RAM in sub-millisecond time.
+* **Collapsing network distance (Eliminating Latency):** Network latency is fundamentally bound by physical routing and the speed of light through fiber. Using an edge cache (a CDN) moves pre-rendered pages, images, and static bundles to Points of Presence (PoPs) physically close to the user. Combined with browser-level caching dictated by HTTP response headers (such as `Cache-Control: max-age` and `immutable`), subsequent page loads often require zero network transit at all, resolving entirely from local disk or memory cache.
+
+By transforming repeated, CPU-heavy generation into instant key-value reads, caching drops Time to First Byte (TTFB) from hundreds of milliseconds to near-zero.

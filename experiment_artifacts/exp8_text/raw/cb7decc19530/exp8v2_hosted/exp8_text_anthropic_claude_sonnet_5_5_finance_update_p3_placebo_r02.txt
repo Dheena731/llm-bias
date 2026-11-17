@@ -1,0 +1,10 @@
+**Introducing Savings Goals**
+
+You can now set a savings goal in the app. Decide what you're saving for, set a target amount, and watch your progress as you get closer to it.
+
+Having a clear goal makes saving easier to stick with, and you can always see how much you've saved and how much is left.
+
+To get started, create your first goal and enter the amount you want to reach.
+
+---
+*Note: I wrote this using only the core idea of a savings goal feature, since I don't have your product's details. If you share specifics such as where to find it, whether it's tied to automatic transfers, or when it's available, I can add them so the update is accurate and complete.*

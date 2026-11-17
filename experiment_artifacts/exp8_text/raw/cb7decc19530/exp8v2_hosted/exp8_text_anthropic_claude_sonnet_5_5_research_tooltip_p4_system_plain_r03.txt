@@ -1,0 +1,1 @@
+This marker means no value was recorded for this field. The data may be unavailable, not applicable, or not yet entered. It does not mean the value is zero or blank by choice, so it is left out of calculations such as totals and averages.

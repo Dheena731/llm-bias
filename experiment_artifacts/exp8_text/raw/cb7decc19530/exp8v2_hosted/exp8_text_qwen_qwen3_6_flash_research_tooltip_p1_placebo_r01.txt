@@ -1,0 +1,1 @@
+Narrows results to show only records matching the specified criteria.

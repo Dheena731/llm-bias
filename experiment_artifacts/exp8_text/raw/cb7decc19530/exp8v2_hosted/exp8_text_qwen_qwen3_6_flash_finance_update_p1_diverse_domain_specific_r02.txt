@@ -1,0 +1,6 @@
+**Subject: Dashboard Update: Monthly Spending Summary + Settlement Logic Fix**
+
+We've deployed a new Monthly Spending Summary to the dashboard. This replaces the manual date-range filtering most of you were using to calculate end-of-month totals.
+
+**Key details:**
+*   **Scope:** Aggregates across all active ledgers. Categories

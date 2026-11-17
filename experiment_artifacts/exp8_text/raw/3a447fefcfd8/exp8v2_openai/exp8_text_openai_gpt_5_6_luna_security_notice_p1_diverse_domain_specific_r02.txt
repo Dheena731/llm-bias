@@ -1,0 +1,5 @@
+**Security notice: Don’t reuse your work password**
+
+Your work password may protect email, VPN access, payroll, and internal files. If that same password appears in a breached shopping, social, or personal account, attackers can try it against our systems—even when MFA is enabled.
+
+Use a different password for every work service. Store unique passwords in the company-approved password manager rather than in a spreadsheet or browser note. If you have reused your work password elsewhere, change it now and report any unexpected login prompts to the Service Desk.

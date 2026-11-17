@@ -1,0 +1,1 @@
+Exports all rows from the last run, not just the first page shown. Choose CSV or JSON. Results over 1M rows are written in the background, and a download link appears when ready.

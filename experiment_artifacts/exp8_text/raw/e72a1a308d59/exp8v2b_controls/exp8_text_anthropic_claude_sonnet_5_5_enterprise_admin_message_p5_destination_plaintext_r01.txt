@@ -1,0 +1,24 @@
+Subject: Upcoming Email Migration on Saturday, June 14
+
+Hello everyone,
+
+We will be migrating our email system to a new platform this month. Here is what you need to know.
+
+When: Saturday, June 14, from 8:00 PM to Sunday, June 15, at 6:00 AM
+
+What to expect:
+- Email may be unavailable or delayed during the migration window.
+- Your existing messages, folders, and contacts will be transferred automatically.
+- You will not need to change your email address.
+
+What you need to do:
+- Before the migration, sign out of email on all devices and close any open email apps.
+- After the migration, sign back in using your current username and password. You may be asked to set up multi-factor authentication.
+- If your mobile device does not sync after you sign in, remove and re-add your email account.
+
+If you have questions or run into any problems, contact the IT Help Desk at helpdesk@example.com or ext. 5555. Support will be available Sunday from 8:00 AM to 4:00 PM.
+
+Thank you for your patience as we make this improvement.
+
+Best regards,
+IT Support Team

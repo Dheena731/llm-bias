@@ -1,0 +1,27 @@
+**FORMAL NOTICE: AMENDMENT TO API PLATFORM TERMS OF SERVICE (SCHEDULE B: USAGE, SETTLEMENT, AND CONCURRENCY)**
+
+**Date of Notice:** October 24, 2023  
+**Effective Date:** December 1, 2023  
+**Affected Parties:** Registered Organization Accounts utilizing Metered Production Endpoints (v2.x and v3-beta)
+
+Pursuant to Section 14.2 (*Unilateral Modifications to Operational Schedules*) of your Master Platform Agreement, this notice constitutes formal legal notification of upcoming structural adjustments to your organization’s runtime limits, default thresholds, and associated billing calculations. 
+
+The amended Schedule B will supersede all prior rate cards, addenda, and side letters regarding API compute consumption, effective 00:00 UTC on the Effective Date.
+
+### Summary of Material Amendments
+
+1. **Peak-Load Burst Surcharging (Section 3.4)**  
+   The trailing 30-day average calculation for burst capacity has been retired. Effective December 1, aggregate traffic exceeding your provisioned Queries Per Second (QPS) tier by greater than 15% for any rolling five-minute window will automatically transition to Dynamic Load-Shedding Rates ($0.0042 per unthrottled request), billed per occurrence on your next settlement cycle.
+
+2. **Dormant Webhook De-registration & Ingestion Purges (Section 7.1)**  
+   Webhook listener destinations returning continuous `5xx` server error responses or consecutive TCP connect timeouts for a period exceeding seventy-two (72) standard operating hours will be marked dormant. Following a forty-eight (48) hour holding state, undelivered event logs associated with suspended endpoints will be irreversibly purged from cold storage.
+
+3. **Insolvency and Suspension Cure Window (Section 11.2)**  
+   In the event of an ACH return, failed card authorization, or disputed draw against an open credit line, the administrative cure period prior to hard revocation of production client credentials (`client_id` / `client_secret`) is reduced from ten (10) calendar days to four (4) business days. 
+
+### Action Required
+
+* **Acceptance:** Your continued transmission of authentication payloads to production endpoints on or after December 1, 2023, constitutes irrevocable affirmative assent to the revised Schedule B. 
+* **Rejection and Termination:** If you do not accept these modifications, you must cease all API calls and submit a written Request for Order Termination under Section 12.3 to `legal-notices@domain.net` no later than 23:59 UTC on November 30, 2023. Outstanding accrued usage fees prior to credential deactivation remain immediately due and payable.
+
+The revised legal text may be reviewed in its entirety by your enterprise administrator at `admin.domain.net/legal/schedule-b-2023-v2`.

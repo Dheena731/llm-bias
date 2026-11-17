@@ -1,0 +1,3 @@
+Filter datasets by publication year. Only datasets released within the selected range will appear in your results. Leave blank to include all years.
+
+I assumed a publication-year filter since you didn't say which one. If you tell me the filter name and what it does, I can tailor the tooltip to match.

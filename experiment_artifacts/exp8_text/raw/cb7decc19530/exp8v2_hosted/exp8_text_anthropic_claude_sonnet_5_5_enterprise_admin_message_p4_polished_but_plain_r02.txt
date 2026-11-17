@@ -1,0 +1,17 @@
+Subject: Quarterly Access Reviews Begin Next Week
+
+Dear colleagues,
+
+As part of our ongoing commitment to protecting company systems and data, the quarterly access review will begin on Monday and must be completed by the end of the month. This process confirms that each person has the access they need to do their work, and no more than that.
+
+Department managers will receive a list of the employees and contractors on their teams, along with the applications, shared folders, and administrative permissions assigned to each person. Please review every entry carefully. If an access right is no longer needed because of a role change, a completed project, or a departure, mark it for removal. If something appears to be missing, submit a request through the usual service desk process rather than adding it to the review form.
+
+Managers should return their completed reviews to the IT Security team by the deadline. Access that has not been confirmed by then will be flagged and may be suspended until a manager signs off, so it is worth setting aside time early in the review window. Most teams find that the review takes less than an hour when it is done in one sitting.
+
+Employees do not need to take any action, though you may be asked to confirm that your own access is accurate. If you notice a permission you do not recognize or believe you should not have, please tell your manager or contact the service desk right away.
+
+Questions about the process or the review tool can be sent to the IT Security team, who are happy to walk through the steps with anyone who would like help. Thank you for your cooperation in keeping our environment secure.
+
+Kind regards,
+
+IT Security and Administration

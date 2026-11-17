@@ -1,0 +1,20 @@
+Here's a sample notice:
+
+NOTICE OF TERMS CHANGE
+
+To our valued customers,
+
+As part of our ongoing commitment to providing a secure and reliable online storage experience, we are making changes to the terms and conditions governing the use of our services. These changes will take effect on [date] and apply to all accounts.
+
+The following modifications have been made:
+
+1. **Data Retention Period**: The maximum retention period for deleted files has been increased to 180 days. Previously, deleted files were automatically purged after 90 days. This change allows our customers to retrieve their files with more time, should they need to access previously deleted data.
+2. **Data Security**: We have strengthened our data security protocols to include multi-factor authentication (MFA) for all account holders. MFA will be required for all new account creations and existing account holders will be prompted to enable MFA within the next 60 days.
+3. **Service Level Agreement (SLA)**: We have revised our SLA to reflect our improved uptime and availability metrics. Our new SLA guarantees 99.99% uptime for all services. In the event of a service disruption, we will provide notification and updates via our website and email notifications.
+
+Please note that these changes do not alter the fundamental nature of our services, but rather enhance the security, reliability, and overall experience of our online storage solutions.
+
+If you have any questions or concerns regarding these changes, please do not hesitate to contact our customer support team. We appreciate your understanding and continued trust in our services.
+
+Sincerely,
+[Your Company Name]

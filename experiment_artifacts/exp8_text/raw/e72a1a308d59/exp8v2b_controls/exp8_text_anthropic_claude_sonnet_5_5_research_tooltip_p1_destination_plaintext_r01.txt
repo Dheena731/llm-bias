@@ -1,0 +1,3 @@
+Filter datasets: Narrow results by criteria such as data type, collection date, license, or sample size. Selecting multiple criteria shows only datasets that match all of them. Clear a filter to see more results.
+
+If you tell me which filter this is for (for example, date range, data format, or access level), I can tailor the wording.

@@ -1,0 +1,13 @@
+### Budgeting Spreadsheet for Real-World Cash Flow
+
+A practical spreadsheet for managing rent, subscriptions, annual bills, debt payments, and the expenses that don’t arrive neatly each month.
+
+It includes:
+
+- A pay-period budget view for weekly, biweekly, or irregular income  
+- Sinking funds for insurance, repairs, holidays, and other “surprise” costs  
+- Automatic planned-versus-actual tracking by category  
+- Debt payoff and savings goal tabs  
+- A 12-month overview that highlights upcoming shortfalls before they happen  
+
+Works in Excel and Google Sheets, with no macros or account connections required.

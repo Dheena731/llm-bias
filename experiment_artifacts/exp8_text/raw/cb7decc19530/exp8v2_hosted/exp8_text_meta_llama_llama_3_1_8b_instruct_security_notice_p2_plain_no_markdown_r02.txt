@@ -1,0 +1,9 @@
+Phishing Emails in the Workplace
+
+As a reminder to all employees, phishing emails are a common threat to our organization's security. These types of emails are designed to trick recipients into revealing sensitive information or performing certain actions that can compromise our systems.
+
+Phishing emails can appear to come from legitimate sources, such as colleagues or executives, and may ask for things like login credentials, financial information, or other confidential data. They can also contain malicious attachments or links that can harm our computers or networks.
+
+If you receive an email that seems suspicious or asks for sensitive information, do not respond to it. Instead, contact the IT department immediately to verify the email's authenticity. We will not ask for sensitive information via email, so if an email asks for this type of information, it is likely a phishing attempt.
+
+Please be cautious when dealing with emails, and never provide sensitive information unless you are certain of the sender's identity and the request's legitimacy.

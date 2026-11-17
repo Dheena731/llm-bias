@@ -1,0 +1,9 @@
+Scheduled Maintenance Notice
+
+Please be advised that the dashboard will be temporarily unavailable for scheduled system maintenance on [Insert Date] between [Insert Start Time] and [Insert End Time] [Insert Timezone].
+
+During this window, you will not be able to access your dashboard or view live analytics. All underlying background services and data collection will continue to operate normally.
+
+Please ensure you save any ongoing work prior to the start time. We apologize for any inconvenience this may cause and appreciate your patience as we make these necessary improvements.
+
+If you have any urgent questions, please contact the support team at [Insert Contact Info].

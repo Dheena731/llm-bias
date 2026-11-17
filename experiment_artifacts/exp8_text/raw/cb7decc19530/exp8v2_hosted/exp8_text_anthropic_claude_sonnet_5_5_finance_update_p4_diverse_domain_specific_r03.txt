@@ -1,0 +1,24 @@
+**Subject: Your 2024 consolidated 1099 is ready, and it may change**
+
+Hi Dana,
+
+Your 2024 Consolidated Form 1099 is now in Documents. Here is what's in it and what to check before you file.
+
+**What's included**
+- **1099-DIV:** Ordinary dividends (Box 1a), the portion that is qualified (Box 1b), and any capital gain distributions from funds (Box 2a).
+- **1099-INT:** Interest from cash sweep balances and Treasuries. Treasury interest is listed separately because it isn't taxed by most states.
+- **1099-B:** Every sale in your taxable accounts, with proceeds, cost basis, and acquisition date. Sales are grouped as short-term or long-term, and as covered or noncovered. For noncovered lots, we report proceeds to the IRS but not basis, so confirm those numbers yourself.
+
+**Things that commonly cause confusion**
+- **Wash sales.** If you sold at a loss and bought the same security within 30 days before or after, the loss appears as a disallowed amount (Form 8949, column g). It isn't gone. It is added to the basis of the replacement shares. This also applies across your accounts here, but not to purchases made at other firms.
+- **Return of capital.** If a fund paid you a non-dividend distribution (Box 3 of the 1099-DIV), it isn't taxed now. It lowers your basis, which means a larger gain when you sell.
+- **Totals that don't match your year-end balance.** The 1099 reports realized activity only. Unrealized gains don't appear.
+
+**Timing**
+Funds and REITs often reclassify distributions after year-end. If that affects your holdings, we'll issue a corrected 1099, usually in March. If you can wait until then to file, you'll avoid amending your return. If you file earlier and receive a correction, check whether the change affects your return.
+
+IRA and 401(k) accounts don't generate a 1099-B or 1099-DIV. Distributions from them will arrive separately on a 1099-R by January 31.
+
+Your preparer will need the full PDF, not just the summary page. Questions about a specific lot or transaction can go to our tax support line at 1-800-555-0142.
+
+Northgate Brokerage Tax Services

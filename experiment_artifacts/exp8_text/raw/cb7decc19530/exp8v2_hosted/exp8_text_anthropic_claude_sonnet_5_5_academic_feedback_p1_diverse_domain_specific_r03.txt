@@ -1,0 +1,22 @@
+**Feedback on draft literature review: Payments for Ecosystem Services and Forest Cover in Costa Rica**
+
+Marisol,
+
+The draft is readable and you clearly know the PSA literature. The weaknesses are in how the material is organized and what the review concludes from it.
+
+**1. Organize by identification strategy, not by decade.** Section 2 moves chronologically from the 1997 launch through the 2000s evaluations. That hides the main division in the field: studies comparing enrolled and non-enrolled parcels naively, and studies using matching or other quasi-experimental designs to estimate additionality. You cite Sánchez-Azofeifa et al. and Arriagada et al. in the same paragraph as if they answer the same question. They don't. Split the section on method, then explain why the estimates of avoided deforestation fall as the counterfactual improves.
+
+**2. The "PSA reduced deforestation" claim is stated too flatly.** Your summary sentence on p. 6 treats national forest cover recovery as evidence of program impact. Deforestation was already falling before enrollment grew, partly because of the 1996 Forest Law's restrictions on land-use change. The review needs to separate these effects, or at least acknowledge that the literature struggles to do so.
+
+**3. Targeting is missing.** Enrollment was shaped by application costs, title requirements, and parcel size, which favored larger and better-documented landholders. That bears on both additionality and equity, yet the equity studies appear in a separate section and never connect to the effectiveness findings. Link them.
+
+**4. Leakage and permanence get one sentence each.** If you keep them in scope, give them a paragraph. If not, say in the introduction that you are excluding them.
+
+**5. Sources.** Almost everything is English-language journal work. FONAFIFO's own evaluations and the Spanish-language work from CATIE and the Universidad de Costa Rica would show how the program's administrators framed success, which would strengthen your discussion of how the goals changed from carbon to water to biodiversity.
+
+**Smaller points:** define "additionality" once and use it consistently; Table 1 mixes hectares enrolled with hectares contracted; check the 2012 Arriagada citation against the volume number.
+
+**Next step:** Rework sections 2 and 3 around design and targeting, then send me a one-page outline of the new argument before you redraft the prose.
+
+Best,
+Dr. Hale

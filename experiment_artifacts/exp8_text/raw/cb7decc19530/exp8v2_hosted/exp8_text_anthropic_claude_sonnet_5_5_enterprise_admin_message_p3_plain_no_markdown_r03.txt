@@ -1,0 +1,13 @@
+Subject: Update to the company VPN client
+
+Hello everyone,
+
+We are replacing the current VPN client with a new version starting Monday, and the old client will stop working at the end of the following week. The new client connects faster, reconnects automatically after a dropped network connection, and supports the same sign-in credentials and multi-factor prompts you use today.
+
+To make the switch, uninstall the old client, then install the new one from the Software Center on your company laptop. The whole process takes about ten minutes and requires a restart. Your saved connection settings will carry over, so you should not need to reconfigure anything.
+
+If you run into trouble during installation or have trouble connecting afterward, contact the IT Help Desk by phone or through the support portal, and a technician will assist you. We recommend completing the update before the deadline so you are not locked out when working remotely.
+
+Thank you for your help with this change.
+
+IT Services

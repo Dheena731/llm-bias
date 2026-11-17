@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter: Select specific data points to display. Choose from predefined categories or create a custom filter to narrow your results."

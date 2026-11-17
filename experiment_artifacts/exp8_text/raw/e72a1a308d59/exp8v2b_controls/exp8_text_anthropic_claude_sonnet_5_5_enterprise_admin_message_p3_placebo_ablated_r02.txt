@@ -1,0 +1,20 @@
+**Subject: Action required: switch to the new VPN app by [date]**
+
+Hello everyone,
+
+On **[date]**, we are replacing our current VPN app, **[old app name]**, with **[new app name]**. The old app will stop working on that date, so please switch before then to keep connecting to company systems from outside the office.
+
+**What to do:**
+1. Download [new app name] from [location/link].
+2. Sign in with your usual work username and password.
+3. Once you've confirmed it connects, uninstall [old app name].
+
+The switch should take about [10] minutes. [The systems you can access will not change.]
+
+If you have trouble, contact [IT help desk name/email/phone] by [hours or response time].
+
+Thank you,
+[Name, team]
+
+---
+*Fill in the bracketed items before sending. If any detail differs (for example, a different sign-in method or a different audience such as contractors only), tell me and I'll adjust the message.*

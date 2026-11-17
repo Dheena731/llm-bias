@@ -1,0 +1,18 @@
+**Subject: Q3 access review: manager decisions due Friday 18 October, 17:00**
+
+Reviewers have Q3 access review tasks in the IAM portal under *Access Reviews > My Pending*. For each direct report, mark every entitlement Keep or Revoke. Anything still unmarked at 17:00 on Friday will be revoked automatically. This is intentional.
+
+Items to check closely:
+- Memberships in SG-FIN-*, SG-HR-*, and SG-PROD-* groups
+- Admin rights on any svc-* service accounts you own
+- DB-PRD-RO (production read) grants. Auditors look at these first, so please don't approve them from the summary view.
+
+Not in scope: your own access (your manager reviews it) and anything with a "pending change" flag in ServiceNow, which the change board is already tracking.
+
+If someone has moved teams since July, don't keep their old access to shorten the list. Open a ticket in IAM-Requests and mark the entitlement Revoke. The ticket closes the review item.
+
+Contractors with an end date before 30 September should appear as expired. If one doesn't, tell us in #iam-help so we can fix the source record.
+
+Reviews still open on Monday go to your director for escalation. The audit log records who approved what and when, so please work through the list rather than bulk-approving it.
+
+— IT Security Operations

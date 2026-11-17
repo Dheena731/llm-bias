@@ -1,0 +1,15 @@
+IMPORTANT: SCHEDULED DASHBOARD MAINTENANCE
+
+The dashboard will be temporarily unavailable for routine maintenance.
+
+DATE: [Insert Date]
+TIME: [Insert Start Time] – [Insert End Time] [Insert Time Zone]
+DURATION: Approximately [Insert Duration]
+IMPACT: [e.g., Service will be unavailable / Read-only access only]
+
+Please save any pending work before the maintenance window begins.
+
+We apologize for any inconvenience and appreciate your patience.
+
+--
+System Administration

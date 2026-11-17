@@ -1,0 +1,3 @@
+Keep the technical details to a minimum, and don't use Microsoft Word formatting. Instead, use structured Markdown text.
+
+Avoid creating new labels. Instead, use the existing label system.

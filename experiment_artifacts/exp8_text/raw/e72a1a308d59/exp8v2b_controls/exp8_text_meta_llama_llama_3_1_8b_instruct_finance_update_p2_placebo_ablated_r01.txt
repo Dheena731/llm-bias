@@ -1,0 +1,9 @@
+Here is a short note explaining a change to card transaction fees:
+
+"Effective [date], our card transaction fees will be increasing by 0.25% to 1.75% per transaction. This change applies to all merchants who use our payment processing services.
+
+The fee increase is necessary to reflect the rising costs of processing card transactions, including the costs associated with regulatory compliance and network fees. We strive to maintain a competitive pricing structure while ensuring the security and reliability of our payment services.
+
+We appreciate your understanding and will provide clear guidance on how to update your systems to reflect the new fees. If you have any questions or concerns, please do not hesitate to contact our support team."
+
+This note clearly communicates the change in fees, explains the reason behind the increase, and provides a clear point of contact for merchants with questions or concerns.

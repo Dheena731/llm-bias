@@ -1,0 +1,228 @@
+{
+  "description": "Experiment 8 v2b controls: alternative placebos, system placement of bare prohibitions, and a plain-text destination; compared with Study 4 neutral and user-placed conditions.",
+  "randomize_seed": 20261117,
+  "routes": [
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "model_family": "llama",
+      "route_stage_label": "instruct_candidate",
+      "stage_provenance": "openrouter_models_2026-11-17_exact_id"
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "model_family": "llama",
+      "route_stage_label": "instruct_candidate",
+      "stage_provenance": "openrouter_models_2026-11-17_exact_id"
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "model_family": "qwen",
+      "route_stage_label": "chat_or_instruct",
+      "stage_provenance": "openrouter_models_2026-11-17_exact_id"
+    },
+    {
+      "model": "anthropic/claude-sonnet-5.5",
+      "model_family": "claude",
+      "route_stage_label": "frontier_chat",
+      "stage_provenance": "openrouter_models_2026-11-17_exact_id"
+    },
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "model_family": "claude",
+      "route_stage_label": "frontier_chat",
+      "stage_provenance": "openrouter_models_2026-11-17_exact_id"
+    },
+    {
+      "model": "google/gemini-3.8-flash",
+      "model_family": "gemini",
+      "route_stage_label": "frontier_chat",
+      "stage_provenance": "openrouter_models_2026-11-17_exact_id"
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "model_family": "openai",
+      "route_stage_label": "frontier_chat",
+      "stage_provenance": "openrouter_models_2026-11-17_exact_id"
+    }
+  ],
+  "prompt_families": [
+    {
+      "id": "social_media_update",
+      "domain": "social_media",
+      "prompts": [
+        "Write a short social media update announcing a new feature.",
+        "Write a short social media post thanking users for a milestone.",
+        "Write a short social media update about a community event this weekend.",
+        "Write a short social media post sharing a tip for using a calendar app.",
+        "Write a short social media update apologizing for a brief service outage."
+      ]
+    },
+    {
+      "id": "marketing_launch_note",
+      "domain": "marketing",
+      "prompts": [
+        "Write a short marketing launch note for a small business app.",
+        "Write a short marketing note announcing a new coffee subscription.",
+        "Write a short product announcement for a budgeting spreadsheet template.",
+        "Write a short marketing email introducing a bike repair service.",
+        "Write a short launch note for a language-learning podcast."
+      ]
+    },
+    {
+      "id": "recipe_tip",
+      "domain": "recipe",
+      "prompts": [
+        "Write a short cooking tip for preparing a weeknight dinner.",
+        "Write a short tip for storing fresh herbs.",
+        "Write a short cooking tip for making rice less sticky.",
+        "Write a short tip for planning lunches for a busy week.",
+        "Write a short tip for seasoning roasted vegetables."
+      ]
+    },
+    {
+      "id": "technical_explanation",
+      "domain": "technical",
+      "prompts": [
+        "Write a short explanation of why latency matters in web applications.",
+        "Write a short explanation of what a database index does.",
+        "Write a short explanation of why software updates matter.",
+        "Write a short explanation of how caching speeds up a website.",
+        "Write a short explanation of what an API rate limit is."
+      ]
+    },
+    {
+      "id": "legal_notice",
+      "domain": "legal",
+      "prompts": [
+        "Write a short legal-style notice about changes to account terms.",
+        "Write a short legal-style notice about an updated privacy policy.",
+        "Write a short legal-style notice about cookie usage on a website.",
+        "Write a short legal-style notice about refund eligibility.",
+        "Write a short legal-style notice about acceptable use of a shared network."
+      ]
+    },
+    {
+      "id": "academic_feedback",
+      "domain": "academic",
+      "prompts": [
+        "Write a short academic feedback note on a draft literature review.",
+        "Write a short feedback note on a student's methods section.",
+        "Write a short reviewer comment on an unclear research question.",
+        "Write a short feedback note on a conference poster draft.",
+        "Write a short comment on missing citations in an essay."
+      ]
+    },
+    {
+      "id": "security_notice",
+      "domain": "security",
+      "prompts": [
+        "Write a short workplace security notice about password reuse.",
+        "Write a short workplace notice about phishing emails.",
+        "Write a short notice reminding staff to lock their screens.",
+        "Write a short notice about enabling two-factor authentication.",
+        "Write a short notice about reporting a lost company laptop."
+      ]
+    },
+    {
+      "id": "finance_update",
+      "domain": "finance",
+      "prompts": [
+        "Write a short update explaining a new monthly spending summary.",
+        "Write a short note explaining a change to card transaction fees.",
+        "Write a short update about a new savings goal feature.",
+        "Write a short message explaining an end-of-year tax statement.",
+        "Write a short update about delayed payment processing."
+      ]
+    },
+    {
+      "id": "public_service_notice",
+      "domain": "public_service",
+      "prompts": [
+        "Write a short public-service notice about library opening hours.",
+        "Write a short public notice about a road closure.",
+        "Write a short notice about recycling collection changes.",
+        "Write a short public notice about a heat advisory.",
+        "Write a short notice about polling station locations."
+      ]
+    },
+    {
+      "id": "health_reminder",
+      "domain": "health",
+      "prompts": [
+        "Write a short reminder for users to review their weekly fitness progress.",
+        "Write a short reminder to drink enough water during the day.",
+        "Write a short reminder to book an annual health checkup.",
+        "Write a short reminder to take short breaks from screens.",
+        "Write a short reminder about refilling a prescription."
+      ]
+    },
+    {
+      "id": "enterprise_admin_message",
+      "domain": "enterprise",
+      "prompts": [
+        "Write a short admin message about a scheduled dashboard maintenance window.",
+        "Write a short admin message about a new expense approval workflow.",
+        "Write a short message announcing a change to the VPN client.",
+        "Write a short admin notice about quarterly access reviews.",
+        "Write a short message about an upcoming email migration."
+      ]
+    },
+    {
+      "id": "research_tooltip",
+      "domain": "research",
+      "prompts": [
+        "Write a concise tooltip explaining a dataset filter in a research tool.",
+        "Write a concise tooltip explaining a confidence interval in a chart.",
+        "Write a concise tooltip explaining a date-range selector.",
+        "Write a concise tooltip explaining what a missing-value marker means.",
+        "Write a concise tooltip explaining how to export query results."
+      ]
+    }
+  ],
+  "conditions": {
+    "placebo_irrelevant": {
+      "label": "Content-irrelevant placebo",
+      "suffix": "This request was picked at random from a list of twelve routine writing tasks. Please complete it in whatever way you normally would."
+    },
+    "placebo_ablated": {
+      "label": "Placebo without placeholder and invent-facts clauses",
+      "suffix": "Write carefully. Do not leave out the main point, contradict yourself, introduce undefined jargon, or address the wrong audience."
+    },
+    "placebo_placeholder_only": {
+      "label": "Placeholder clause only",
+      "suffix": "Do not use placeholder text such as bracketed names, fill-in blanks, or sample values for the reader to replace."
+    },
+    "destination_plaintext": {
+      "label": "Plain-text destination named",
+      "suffix": "This text will be pasted into a plain-text field that does not render any formatting."
+    },
+    "system_no_emoji": {
+      "label": "No emoji in system prompt",
+      "suffix": "",
+      "system": "Do not use emoji."
+    },
+    "system_no_markdown": {
+      "label": "No Markdown in system prompt",
+      "suffix": "",
+      "system": "Do not use Markdown formatting."
+    }
+  },
+  "tracks": {
+    "text": {
+      "full_repeats": 2,
+      "smoke_repeats": 1,
+      "local_repeats": 1,
+      "api_parameters": {
+        "temperature": 0.8,
+        "max_tokens": 1500,
+        "timeout": 120
+      },
+      "local_parameters": {
+        "temperature": 0.8,
+        "max_tokens": 768
+      }
+    }
+  },
+  "output_prefix": "exp8_v2b_controls",
+  "local_output_prefix": "exp8_v2_local_stagewise"
+}

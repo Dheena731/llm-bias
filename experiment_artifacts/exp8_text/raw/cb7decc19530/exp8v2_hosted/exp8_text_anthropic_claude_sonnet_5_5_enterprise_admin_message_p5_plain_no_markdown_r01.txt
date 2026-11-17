@@ -1,0 +1,14 @@
+Subject: Upcoming Email Migration
+
+Hello everyone,
+
+We will be migrating our email system to a new platform this coming weekend, beginning Saturday at 8:00 p.m. and finishing by Sunday at noon. During this window, you may experience brief interruptions in sending and receiving messages, and you may not be able to access your mailbox for short periods.
+
+Before the migration, please take a few minutes to clean up your inbox by deleting old messages you no longer need, since this will help the transfer go more smoothly. You should also make sure any important attachments are saved elsewhere as a precaution. Your existing messages, folders, and contacts will be moved automatically, so no action is required to preserve them.
+
+When you log in on Monday morning, you may be asked to sign in again and set up multi-factor authentication. Your email address and password will stay the same. If you use email on your phone or tablet, you may need to remove and re-add your account to reconnect it.
+
+If you notice any missing messages or have trouble signing in after the migration, please contact the IT help desk and we will resolve it as quickly as possible. Thank you for your patience and cooperation.
+
+Best regards,
+The IT Team

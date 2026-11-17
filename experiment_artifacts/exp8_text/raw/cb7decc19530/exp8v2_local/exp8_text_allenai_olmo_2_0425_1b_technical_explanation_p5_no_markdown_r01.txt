@@ -1,0 +1,51 @@
+This question already has an answer here:
+
+I am a brand new joiner to the slack API.
+
+I am trying to get all the users of a specific project on my app.
+
+My code is like this:
+
+import slack
+from slack.api import SlackClient
+
+client = SlackClient(url="https://api.slack.com/incoming")
+
+for channel in client.sent_messages:
+    print('channel:')
+    for message in channel:
+        print(message)
+
+
+But it throws this error:
+
+TypeError: 'SlackLogger' object is not callable
+
+I don't know what this means and how to fix it. Thanks in advance for help.
+
+
+
+This is because you're calling the function directly. You need to use the @SlackClient.function decorator like this:
+
+import slack
+from slack.api import SlackClient
+
+client = SlackClient(url="https://api.slack.com/incoming")
+
+def get_messages():
+    for channel in client.sent_messages:
+        for message in channel:
+            print('channel:')
+            print(message)
+
+
+@SlackClient.function
+def get_all():
+    for channel in client.sent_messages:
+        for message in channel:
+            print('channel:')
+            print(message)
+    # Or just use the raw list
+    # for message in client.sent_messages:
+
+This will give you the message for each message in your sent_messages dict and print them to the console.

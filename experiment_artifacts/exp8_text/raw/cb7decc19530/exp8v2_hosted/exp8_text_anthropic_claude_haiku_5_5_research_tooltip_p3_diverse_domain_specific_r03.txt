@@ -1,0 +1,1 @@
+Dates are inclusive and use your account time zone. Hourly data is limited to 31 days per range.

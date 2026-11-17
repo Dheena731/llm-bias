@@ -1,0 +1,20 @@
+[<a class="external" href="https://www.t6.net/en/about/corporate-releases/">https://www.t6.net/en/about/corporate-releases/</a>]
+
+
+  • The election is scheduled to start at 00:00 (UTC)
+
+  • The polling location is located in New York City, United States.
+
+  • It was discovered that your polling location is located in a 3rd-party location that you do not control.
+
+  • You do not control any polling sites in total of 2 or more electoral districts.
+
+  • Due to continuous activities by 3rd party companies that have not been approved by the election authorities, you need to contact the election authorities immediately or you will lose your vote.
+
+  • Due to voting paper shortages, there are only 5 options available for you to choose.
+
+  • The election authorities have confirmed your vote and it has been submitted to the voting system.
+
+  • You have been found to have voted twice.
+
+As developers, it is important to prepare for all possible scenarios and provide your users with clear instructions. Make sure you consider all possible errors that may occur and handle them in a consistent and responsible manner.

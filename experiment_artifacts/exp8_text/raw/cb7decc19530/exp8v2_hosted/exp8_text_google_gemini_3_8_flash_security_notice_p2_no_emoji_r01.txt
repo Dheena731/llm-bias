@@ -1,0 +1,20 @@
+**SECURITY NOTICE: Phishing Awareness**
+
+Please remain vigilant regarding suspicious emails. Cybercriminals frequently impersonate company leadership, internal departments, or trusted vendors to compromise company data and systems.
+
+**Key warning signs to watch for:**
+* Urgent or threatening requests for sensitive information, password resets, or wire transfers.
+* Mismatched sender addresses or slight misspellings in domain names (e.g., @cornpany.com instead of @company.com).
+* Unexpected attachments, especially zip files or macro-enabled documents.
+* Generic greetings and poor grammar or spelling.
+* Hyperlinks that preview a different URL than what is displayed.
+
+**What to do:**
+If you receive an email that looks suspicious:
+1. Do not click any links or download attachments.
+2. Do not reply to the sender.
+3. Report the message immediately using the "Report Phishing" button in your email client, or forward it to the IT Help Desk.
+
+When in doubt, contact the sender through a known, separate communication channel (such as Slack or phone) to verify the request.
+
+— IT Security Team

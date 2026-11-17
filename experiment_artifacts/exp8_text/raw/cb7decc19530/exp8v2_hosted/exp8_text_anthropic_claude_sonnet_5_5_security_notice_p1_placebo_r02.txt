@@ -1,0 +1,20 @@
+**Security Notice: Do Not Reuse Passwords**
+
+**To all employees:**
+
+Please use a different password for every account, and never use your work password for personal accounts or websites.
+
+**Why this matters**
+When a website or service is breached, attackers can obtain the passwords stored there. They often try those same email-and-password combinations on other services, such as email, cloud storage, and workplace systems. If you reuse a password, one breach elsewhere can give an attacker access to your work accounts.
+
+**What to do**
+- **Use a unique password for each account.** This is most important for your work login and your email.
+- **Make passwords long and hard to guess.** A passphrase of several unrelated words works well. Avoid names, birthdays, and common words on their own.
+- **Use a password manager** to create and store your passwords, so you don't have to remember them all. If you're unsure which tools are approved for work use, ask your IT or security team before choosing one.
+- **Turn on multi-factor authentication** (a second step at login, such as a code from an app) wherever it is available.
+- **Change a password right away** if you think it has been exposed, or if you've used it on more than one account. Start with your work and email accounts.
+
+**If you think your account may be compromised**
+Change the password and report it to your IT or security team immediately. Reporting quickly helps limit any damage, and no one will be penalized for raising a concern in good faith.
+
+Thank you for helping keep our systems and information secure.

@@ -1,0 +1,24 @@
+Here is a short workplace security notice about password reuse:
+
+**Important Security Reminder**
+
+**Password Reuse: A Threat to Workplace Security**
+
+To protect our company's sensitive information and systems, we remind all employees to avoid reusing passwords across multiple accounts. Using the same password for personal and work accounts can compromise the security of our workplace.
+
+**Why is password reuse a risk?**
+
+* If a hacker gains access to your personal account, they may also gain access to our company's systems and data.
+* Weak passwords can be easily guessed or cracked, giving unauthorized individuals access to sensitive information.
+
+**Best practices for password management**
+
+* Use a unique and complex password for each account.
+* Avoid using easily guessable information, such as names, birthdates, or common words.
+* Consider using a password manager to securely store and generate unique passwords.
+
+**Report any security concerns**
+
+If you suspect a security breach or have concerns about password reuse, please contact our IT department immediately.
+
+Thank you for your cooperation in maintaining the security of our workplace.

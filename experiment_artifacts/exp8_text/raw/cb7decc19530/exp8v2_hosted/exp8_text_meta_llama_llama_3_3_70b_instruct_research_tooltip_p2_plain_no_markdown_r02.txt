@@ -1,0 +1,1 @@
+A confidence interval is a range of values within which we expect the true value to lie with a certain level of certainty, in this case 95 percent, meaning that if we repeated the same analysis many times, we would expect the true value to fall within this range 95 percent of the time.

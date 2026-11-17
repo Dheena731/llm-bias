@@ -1,0 +1,11 @@
+Here are two options tailored to specific data-intensive domains:
+
+### Option 1: Financial Analytics / Valuation
+**Marker:** `N/M` (or `—`)
+> **Not meaningful.** Excluded because negative net income invalidates the multiple—not an omission, restatement delay, or reporting failure.
+
+***
+
+### Option 2: Observability / System Telemetry
+**Marker:** `∅` (or dotted time-series gap)
+> **Ingestion gap.** Daemon failed to publish metrics between 04:12–04:15 UTC. Displayed as missing to prevent aggregations from interpreting dropped packets as 0% load.

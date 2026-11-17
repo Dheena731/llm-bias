@@ -1,0 +1,3 @@
+Here is a short message announcing a change to the VPN client:
+
+"Attention all remote access users: As part of our ongoing effort to enhance the security and stability of our network, we will be rolling out an updated version of the VPN client starting next Monday. The new client includes improved encryption protocols and better support for multi-factor authentication. Please note that you will be prompted to upgrade your client the next time you connect to the VPN. If you have any questions or concerns, please reach out to the IT support team for assistance."

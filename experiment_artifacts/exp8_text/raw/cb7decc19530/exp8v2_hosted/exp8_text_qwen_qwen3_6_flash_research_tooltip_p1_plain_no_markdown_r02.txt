@@ -1,0 +1,1 @@
+This filter restricts the dataset to show only records that meet your selected criteria. Use this tool to remove irrelevant entries and isolate the data necessary for your research.

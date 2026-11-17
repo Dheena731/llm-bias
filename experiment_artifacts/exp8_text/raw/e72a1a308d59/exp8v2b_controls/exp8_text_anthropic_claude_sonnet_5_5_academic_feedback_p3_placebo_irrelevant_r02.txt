@@ -1,0 +1,16 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is currently unclear, which makes it difficult to evaluate whether the study design, analysis, and conclusions are appropriate.
+
+The introduction describes the topic broadly (the relationship between remote work and employee well-being) but never states a specific, answerable question. Several different questions are implied at various points: whether remote work *improves* well-being, whether it *moderates* the effect of workload on burnout, and whether outcomes differ by job type. These are distinct questions requiring different designs and analyses, and the paper does not say which is primary. The abstract and the discussion also frame the contribution differently, which adds to the confusion.
+
+This ambiguity has downstream consequences. The hypotheses in Section 2 do not map clearly onto the analyses in Section 4, and it is unclear whether the subgroup comparisons are confirmatory or exploratory. Key constructs, such as "well-being," are also used inconsistently, sometimes meaning job satisfaction and at other times psychological distress.
+
+**Recommendations:**
+
+1. State one primary research question explicitly at the end of the introduction, ideally in a single sentence.
+2. Identify any secondary or exploratory questions as such.
+3. Define core constructs once and use them consistently throughout.
+4. Align the hypotheses, methods, and discussion with the revised question so the reader can trace a clear line from question to conclusion.
+
+Until the question is sharpened, I cannot judge whether the evidence presented supports the authors' claims. I would be glad to review a revised version.

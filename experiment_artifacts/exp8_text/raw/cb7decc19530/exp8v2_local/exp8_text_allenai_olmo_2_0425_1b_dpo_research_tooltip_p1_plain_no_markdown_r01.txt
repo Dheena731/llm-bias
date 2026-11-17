@@ -1,0 +1,1 @@
+In research tools, a dataset filter allows you to choose which datasets are shown in the results. This feature helps you work with specific information and excludes irrelevant data which can save time and minimize noise in your analysis. Selecting a filter lets you focus on relevant datasets and insights, making your work more efficient and focused.

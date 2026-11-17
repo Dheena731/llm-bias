@@ -1,0 +1,18 @@
+**Subject: Important Security Reminder: Identifying and Reporting Phishing Emails**
+
+Dear Team,
+
+Please be advised that phishing emails continue to pose a serious risk to our company’s security. Phishing consists of deceptive messages crafted to appear as if they come from trusted sources, such as colleagues, clients, or service providers. Their purpose is to trick recipients into revealing passwords, financial details, or confidential data.
+
+To protect yourself and our organization:
+• Verify the sender’s actual email address, not just the name shown on screen.
+• Exercise caution with messages that create urgency, request money or passwords, or include unexpected attachments or links.
+• Never enter login credentials or download files from an email. If you need to access a system, type the official web address directly into your browser.
+• Immediately report suspicious messages by forwarding them to security@company.com or using the “Report Phishing” button in your email client.
+
+If you mistakenly share information or suspect you have interacted with a fraudulent email, contact the IT Help Desk at ext. 5555 or helpdesk@company.com right away. Prompt reporting helps us contain threats quickly.
+
+Thank you for your attention and for helping us keep our workplace secure.
+
+Sincerely,  
+IT Security Team

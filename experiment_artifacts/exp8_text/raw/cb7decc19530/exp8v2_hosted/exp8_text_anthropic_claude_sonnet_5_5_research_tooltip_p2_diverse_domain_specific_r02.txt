@@ -1,0 +1,12 @@
+**Example: A/B test chart showing checkout conversion rate**
+
+> **95% confidence interval: 3.1%–3.9%**
+> The line is our measured rate (3.5%). The band is the range of true rates consistent with the sessions we sampled. If we reran this test many times, about 95% of bands built this way would contain the true rate. Fewer sessions make the band wider.
+
+**Variants for other domains**
+
+- **Polling:** "Shaded band = 95% CI (±3.1 pts). Candidate A's true support is plausibly anywhere from 44% to 50%. Where the bands overlap, the race is too close to call from this poll."
+- **Clinical trial:** "Bar = 95% CI for the hazard ratio (0.62–0.94). The interval excludes 1.0, so the data are inconsistent with no treatment effect. It doesn't tell you how large the benefit is for an individual patient."
+- **Manufacturing QC:** "Band = 95% CI for mean bolt diameter, from 30 sampled parts per batch. If the band crosses the spec limit, you can't tell whether this batch is in tolerance."
+
+If you tell me the chart's domain and the actual numbers, I can tailor it exactly.

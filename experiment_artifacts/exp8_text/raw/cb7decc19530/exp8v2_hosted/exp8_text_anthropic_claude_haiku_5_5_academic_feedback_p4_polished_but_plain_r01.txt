@@ -1,0 +1,9 @@
+Thank you for sharing the draft of your conference poster. The overall structure works well. The reader can move from the question to the method to the findings in a sensible order, and the central claim is visible from a few feet away, which is what a poster needs. The color scheme is restrained and the figures are large enough to read at a distance.
+
+The most important change is to the title and opening text. The title describes the topic but does not tell the viewer what you found. Consider rewording it so the main result appears in the title or in a one-sentence summary directly beneath it. Viewers at a busy session often decide within seconds whether to stop, and a clear claim helps them do so.
+
+The methods section is dense. Several paragraphs of procedural detail could be replaced with a simple labeled diagram and two or three sentences that cover the sample, the key measure, and the analysis. Readers who want the full protocol can be pointed to your paper or a handout.
+
+Two figures would benefit from clearer labeling. The axis titles on the results chart should include units, and the legend should be placed where the eye lands first rather than in the lower corner. The caption for the second figure should state what the reader should conclude from it, not only what is shown.
+
+Finally, add a short limitations statement and a contact line with your email or a QR code linking to your materials. Both signal rigor and make it easy for interested attendees to follow up.

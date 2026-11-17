@@ -1,0 +1,7 @@
+**v2.4.1 is live.**
+
+Default transport shifted from OpenVPN to WireGuard. Pre-existing profiles migrate automatically—no reauth required. 
+
+We adjusted the keepalive interval to match aggressive NAT timeout tables, added OS-level MTU sniffing to prevent fragmentation drops on asymmetric links, and patched a race condition where split-tunnel routes persisted after session teardown. Telemetry preferences now apply immediately at launch; background retry loops are disabled. 
+
+If you’re using custom CA bundles, legacy IPsec passthrough, or strict egress ACLs, run a quick connectivity check before shifting traffic to the new defaults. Tunnel failures or cert-validation errors → report to netops.

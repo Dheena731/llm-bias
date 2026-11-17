@@ -1,0 +1,17 @@
+**Important Update to Card Transaction Fees**
+
+Effective [Date], we will be implementing a change to our card transaction fees. As of this date, all merchants who accept our cards will be subject to a new fee structure.
+
+The new fee, known as the "Interchange Differential Rate" (IDR), will be a percentage of the transaction amount. The IDR will vary depending on the type of card used, with higher rates applying to premium cards and lower rates applying to standard cards.
+
+The IDR will replace our current "Swipe Fee" (SF), which will be discontinued as of the effective date. Merchants who accept our cards will no longer be required to pay the SF.
+
+We understand that this change may require adjustments to your business processes, and we are committed to supporting you through this transition. If you have any questions or concerns, please contact our Merchant Support Team.
+
+**Key Dates:**
+
+* Effective Date: [Date]
+* Discontinuation of Swipe Fee: [Date]
+* Implementation of Interchange Differential Rate: [Date]
+
+We appreciate your cooperation and understanding as we implement this change.

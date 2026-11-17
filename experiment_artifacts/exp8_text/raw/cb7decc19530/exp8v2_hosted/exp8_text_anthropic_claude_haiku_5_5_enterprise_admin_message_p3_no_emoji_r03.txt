@@ -1,0 +1,21 @@
+**Subject: VPN Client Update, Version 4.2 Now Available**
+
+Hello everyone,
+
+We are releasing version 4.2 of the company VPN client. The update is required for all users and will be pushed automatically the next time your device connects to the network.
+
+**What's changing:**
+- The client now uses the updated login screen, which supports single sign-on.
+- Connections reconnect automatically after a brief network interruption.
+- The old "Legacy Mode" setting has been removed. If you relied on it, contact IT before the update.
+
+**What you need to do:**
+- No action is required for most users. Restart the client if it prompts you.
+- If you see a certificate warning after updating, close the client and reopen it. If the warning persists, submit a ticket to the IT help desk.
+
+The previous version will stop working on March 31. Please update before then.
+
+Questions can go to helpdesk@example.com or the #it-support channel.
+
+Thank you,
+IT Department

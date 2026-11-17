@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter:
+
+"Filter: Select specific data to display by choosing from available categories (e.g. 'Year', 'Region', 'Variable'). Click to select or deselect. All options will be applied unless 'Any' or 'None' is chosen."

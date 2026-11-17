@@ -1,0 +1,17 @@
+NOTICE OF ACCEPTABLE USE OF SHARED NETWORK
+
+This Notice governs the use of the shared network, including all connected devices, wired and wireless access points, servers, and related services (together, the "Network"). By connecting to or using the Network, you agree to comply with this Notice. If you do not agree, you must not use the Network.
+
+The Network is provided for lawful, authorized purposes only. Access is a privilege and not a right, and it may be limited, suspended, or withdrawn at any time at the discretion of the Network administrator, with or without prior notice, where the administrator considers it necessary to protect the Network, its users, or third parties.
+
+Users shall not use the Network to violate any applicable law or regulation, including laws relating to intellectual property, privacy, data protection, harassment, fraud, or the distribution of unlawful content. Users shall not attempt to gain unauthorized access to any system, account, or data, whether on the Network or beyond it. Users shall not introduce malicious software, probe or scan for vulnerabilities without written permission, intercept traffic intended for others, or interfere with the normal operation of the Network, including by sending excessive traffic or consuming bandwidth in a manner that degrades service for other users.
+
+Each user is responsible for the security of their credentials and devices. Passwords and access codes must not be shared, and any suspected compromise must be reported to the administrator promptly. Users are responsible for all activity conducted under their accounts or from their devices, except where that activity results from circumstances outside their reasonable control and was reported without delay. Users must keep their devices reasonably protected with current security updates and must not connect equipment that poses a foreseeable risk to the Network.
+
+Users should have no expectation of absolute privacy when using the Network. To the extent permitted by law, the administrator may monitor, log, and review network activity and traffic data for the purposes of maintaining security, ensuring compliance with this Notice, diagnosing technical problems, and responding to lawful requests from authorities. Information collected will be handled in accordance with applicable data protection requirements and will be disclosed only where necessary for those purposes or where required by law.
+
+Where a violation of this Notice is suspected, the administrator may investigate, remove or block content, restrict or terminate access, and report the matter to law enforcement or other competent authorities. Depending on the circumstances, violations may also result in disciplinary action under any applicable employment, academic, or contractual terms, and users may be liable for resulting loss or damage.
+
+The Network is provided on an "as is" and "as available" basis. To the fullest extent permitted by law, the administrator does not warrant uninterrupted or error-free service and is not liable for loss of data, interruption of service, or any indirect or consequential loss arising from use of the Network.
+
+This Notice may be updated from time to time, and continued use of the Network after any update constitutes acceptance of the revised terms. Questions about this Notice, and reports of suspected misuse or security incidents, should be directed to the Network administrator.

@@ -1,0 +1,1 @@
+This filter allows you to select specific subsets of the data to analyze. It works by applying conditions to the data, such as date ranges, geographic locations, or categorical values. Once the filter is applied, the tool will only display the data that meets the specified conditions.

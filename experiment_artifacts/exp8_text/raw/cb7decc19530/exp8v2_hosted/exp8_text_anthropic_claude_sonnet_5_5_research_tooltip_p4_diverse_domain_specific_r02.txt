@@ -1,0 +1,13 @@
+**Lab results table (assumed domain):**
+
+> **— No result on file.** The test wasn't run, or the instrument never returned a value. It does not mean zero or "within range."
+
+Since you didn't name a domain, here are two others in the same style:
+
+**Survey responses:**
+> **Blank.** The respondent saw this question and skipped it. That's different from "N/A," which they chose on purpose. Skipped answers are left out of percentages.
+
+**Sensor log:**
+> **Gap.** The logger sent no reading for this interval. Averages skip it, and the chart line is not filled in between neighbors.
+
+If you tell me your actual domain and how your system treats these values (excluded, imputed, or counted), I can tailor the wording.

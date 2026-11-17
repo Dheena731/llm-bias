@@ -1,0 +1,22 @@
+**Subject: Expense reports change routing Monday, March 3**
+
+Hi all,
+
+Starting Monday, expense reports in Concur will route differently. Here's the new setup:
+
+- **Under $75 per line, with a receipt attached:** no approval step. These go straight into the Thursday reimbursement batch.
+- **$75 to $999.99:** your direct manager approves. Previously this went to two people, so it should be faster.
+- **$1,000 and up:** manager approval, then Finance (me or Ravi). We're aiming for two business days. If one is sitting longer, message me directly. Don't resubmit, because that resets the queue.
+
+Some things that will get reports bounced if you miss them:
+
+- Reports submitted before the 3rd stay on the old routing. If your approver has left or is out until mid-March, tell me this week and I'll reassign them.
+- Mileage lines need odometer start and end readings. A bare total gets rejected.
+- Client meals need attendee names in the description. "Team lunch" isn't enough for the auditors.
+
+Anything approved by the Tuesday before a Thursday payout goes out that week, as usual.
+
+Questions go to #expenses on Slack or to me at dokafor@. I'm at the Denver office March 3–5, so Slack will get a faster answer than my phone.
+
+Dana
+AP Team

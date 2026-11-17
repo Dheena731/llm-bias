@@ -1,0 +1,6 @@
+**Filter label:** Radiocarbon-dated cores only
+
+**Tooltip:**
+> Shows cores with at least 3 calibrated ¹⁴C dates in the age model. Cores dated only by tephra, varve counts, or interpolation from a neighboring site are hidden. Reservoir corrections are the ones the original authors applied. We don't recalculate them.
+
+I wrote it for a paleoclimate sediment-core archive. Tell me the field and filter you have in mind and I'll adapt it.

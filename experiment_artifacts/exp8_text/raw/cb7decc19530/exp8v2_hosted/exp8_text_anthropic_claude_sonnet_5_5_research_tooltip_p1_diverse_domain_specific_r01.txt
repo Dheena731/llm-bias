@@ -1,0 +1,5 @@
+**Filter: Min. read depth (per sample)**
+
+> **Minimum read depth (DP).** Hides calls backed by fewer than *N* reads at that site. Below about 10×, heterozygous variants are often miscalled as homozygous or missed. Applied per sample, so a site can pass in one sample and drop out in another. Default: 10.
+
+The tooltip assumes a variant-call browser. It gives the term as the user will see it in a VCF (DP), a concrete threshold with its reason, and a note on scope, which is the part people most often misread. It leaves out any claim about what the filter "helps you" do.

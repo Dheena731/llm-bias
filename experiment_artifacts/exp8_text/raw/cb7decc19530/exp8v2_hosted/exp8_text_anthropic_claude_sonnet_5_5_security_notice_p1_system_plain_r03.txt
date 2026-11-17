@@ -1,0 +1,16 @@
+Subject: Please Do Not Reuse Passwords
+
+Dear colleagues,
+
+We are writing to remind everyone that reusing the same password across multiple accounts is one of the most common ways that company and personal information is compromised. When a password is stolen from one website or service, attackers routinely try it against email, banking, and workplace systems. If you have used the same password in several places, a single breach elsewhere can give someone access to our network.
+
+Please make sure that your work password is unique and is not used for any personal account, including social media, online shopping, or streaming services. Your work password should be at least fourteen characters long. A passphrase made of several unrelated words is easier to remember and harder to guess than a short string of symbols. Avoid names, birthdays, company names, and seasonal patterns such as the month followed by the year.
+
+We strongly encourage you to use the approved password manager provided by the IT department. It can generate and store a different strong password for every account, so you only need to remember one master passphrase. Please also turn on multi-factor authentication wherever it is offered, since it adds protection even if a password is exposed.
+
+If you suspect that a password has been leaked, or you notice unusual activity on your account, change the password immediately and report it to the IT Security team. Reporting promptly is always welcome, and no one will be penalized for raising a concern in good faith.
+
+Thank you for helping keep our workplace and our information safe.
+
+Sincerely,
+The IT Security Team

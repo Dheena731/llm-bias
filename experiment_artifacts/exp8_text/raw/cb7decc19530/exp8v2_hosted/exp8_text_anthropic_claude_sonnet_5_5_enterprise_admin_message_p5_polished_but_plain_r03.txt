@@ -1,0 +1,18 @@
+Subject: Upcoming Email Migration
+
+Dear colleagues,
+
+We will be migrating our email system to a new platform over the weekend of the 14th and 15th. The move is designed to improve reliability, increase mailbox storage, and strengthen security across the organization.
+
+Migration will begin at 8:00 p.m. on Friday and is expected to finish by noon on Sunday. During that window, you may experience brief delays in sending and receiving messages, and some folders may appear incomplete until the transfer is finished. Please avoid making large changes to your mailbox, such as reorganizing folders or deleting many messages, while the migration is under way.
+
+Before the migration, we ask that you take a few simple steps. Clear out any old or unneeded messages to help the transfer run smoothly, and make sure you know your current password, since you will need it to sign in on Monday morning. If you have important messages saved locally on your computer, please back them up in a safe location.
+
+When you sign in on Monday, your existing messages, contacts, and calendar entries will be available as usual. Your email address will not change. You may be prompted to set up multi-factor authentication the first time you log in, which takes only a few minutes. Mobile devices and desktop email programs may need to be reconnected, and our support team will provide step-by-step instructions on Monday.
+
+If you have questions or concerns before the migration, please contact the IT help desk at your earliest convenience. Support will be available throughout the week following the move to help with any issues that arise.
+
+Thank you for your patience and cooperation as we make this improvement.
+
+Best regards,
+The IT Department

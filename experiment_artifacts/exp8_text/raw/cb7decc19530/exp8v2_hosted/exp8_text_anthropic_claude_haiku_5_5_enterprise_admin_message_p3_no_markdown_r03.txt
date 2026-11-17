@@ -1,0 +1,12 @@
+Subject: VPN Client Update Coming Next Week
+
+Hello everyone,
+
+We are updating the VPN client on all company laptops and workstations next Tuesday, March 11, starting at 9:00 AM. The update adds faster reconnection after network changes and fixes an issue where the connection would sometimes drop when switching between Wi-Fi and wired networks.
+
+You do not need to take any action. The update will install automatically and will require a restart of the VPN client, which takes about two minutes. If you are in the middle of a file transfer or a remote session, please save your work before 9:00 AM.
+
+If you notice any problems after the update, contact the IT help desk at extension 4400 or email helpdesk@company.com.
+
+Thank you,
+IT Department

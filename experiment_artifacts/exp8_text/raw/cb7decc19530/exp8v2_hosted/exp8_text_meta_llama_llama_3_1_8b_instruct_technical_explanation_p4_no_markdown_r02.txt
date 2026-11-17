@@ -1,0 +1,5 @@
+Caching is a technique used to speed up a website by storing frequently accessed data in a temporary storage area, known as a cache. When a user requests a webpage or resource, the cache is checked first to see if a copy of the requested data is already stored. If it is, the data is retrieved from the cache instead of being fetched from the original source. This process is called a cache hit.
+
+If the requested data is not in the cache, the cache is updated with the new data, and the next time the same data is requested, it will be retrieved from the cache, resulting in a cache hit. This process reduces the need to access the original source, such as a database or a server, which can be a slow process.
+
+Caching can significantly speed up a website by reducing the number of requests made to the server, decreasing the response time, and improving overall performance. It's especially effective for websites with high traffic or those that rely heavily on dynamic content.

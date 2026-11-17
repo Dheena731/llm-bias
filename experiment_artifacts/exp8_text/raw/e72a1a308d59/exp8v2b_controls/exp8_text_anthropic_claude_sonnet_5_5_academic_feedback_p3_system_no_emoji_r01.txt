@@ -1,0 +1,13 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript does not state its central research question clearly, which makes it difficult to judge whether the study design and conclusions are appropriate. The introduction describes several related topics, including user engagement, platform design, and long-term behavioral change, but it never specifies which relationship or phenomenon the study is meant to investigate. The aims listed at the end of the introduction ("to explore factors associated with engagement and to understand its implications") are broad and could describe many different studies.
+
+This ambiguity causes problems later in the paper. The hypotheses in the methods section do not map clearly onto the stated aims, and the choice of outcome variables seems to shift between sections. As a result, I could not tell whether the analysis was intended to be exploratory or confirmatory, or whether the reported findings answer the question the authors set out to address.
+
+I recommend that the authors:
+
+1. State one primary research question, ideally in a single sentence, at the end of the introduction.
+2. Specify the population, the key variables or constructs, and the type of relationship under investigation (descriptive, associative, or causal).
+3. Align the hypotheses, methods, and discussion explicitly with this question, and identify any secondary or exploratory questions as such.
+
+Until the research question is sharpened, the contribution of the work remains unclear. I believe the underlying data may be valuable, and a clearer framing would considerably strengthen the manuscript.

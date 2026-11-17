@@ -1,0 +1,7 @@
+Most software updates are quiet fixes for problems someone already knows about. When a vendor ships a security patch, the bug is now public in a specific sense: the patch itself shows where the flaw was. Attackers compare the old and new code to work out how to exploit machines that haven't updated yet. That gap between release and installation is where most damage happens.
+
+WannaCry, the 2017 ransomware outbreak, spread through a Windows flaw that Microsoft had patched in March of that year. Hospitals and factories hit by it were running systems that hadn't received the fix, some for reasons as ordinary as a server nobody thought to inventory. Equifax's 2017 breach followed a similar pattern. The Apache Struts vulnerability it was exploiting had a patch available for about two months before attackers got in.
+
+Updates also do less dramatic work. They rotate expired certificates before browsers start rejecting connections, retire old TLS versions, and change library behavior that other software depends on. Skipping them doesn't usually cause an immediate failure. It just means that when something finally breaks, the fix is larger and the cause is harder to find.
+
+Installing updates promptly is one of the cheaper forms of protection available. It doesn't require new tools or expertise, only that the update actually gets applied.

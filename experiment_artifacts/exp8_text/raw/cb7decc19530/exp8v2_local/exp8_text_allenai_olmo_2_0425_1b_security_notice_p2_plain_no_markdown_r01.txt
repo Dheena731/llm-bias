@@ -1,0 +1,41 @@
+Attackers often try to be very "cool" when they put their phishing emails together. The main point of an email is to get you to click on a link. If this email looks, smells, or sounds different than the others you've seen recently, then that's a red flag.
+
+  • The email is in a non-standard font.
+  • The email comes from someone you don't know.
+  • The email sounds "off" in some way.
+
+Write messages with 6-8 seconds of read time. A phishing email takes most people less than 6 seconds to read—but that's all the time it needs to get a response. Don't let attackers know how quickly you can see their email.
+
+If an email has a "5 minutes before you lose your access" timestamp, then you know you're reading a phishing email.
+
+  • Don't wait long before clicking on links.
+  • Don't click on links from unverified sources.
+  • Don't increase the password reset requirements.
+  • Ask the account holder to double-check the email before clicking on any link.
+
+If a message is too long, you'll probably stop reading it before getting to the bottom. Most phishing messages have a lot of text, and most of it is filler to make the message seem legitimate.
+
+If an email has a "this will expire soon" timestamp at the bottom, that's a red flag. That means it's a phishing email. Don't click on the link. Don't let the attacker know that you were looking at the email.
+
+More details:
+
+Develop a response plan for phishing emails
+
+Many phishing emails start with a victim being asked to click a link to reset a password, authenticate themselves, or change a password. If you receive an email like this, you can use a "response plan" to avoid clicking the link or opening an attachment. We'll come back to this later in the article.
+
+Having a response plan lets you respond quickly to the email. If you don't have a response plan, you might waste time thinking about what to do or not figuring out what to do until it's too late.
+
+A response plan stops the attacker from knowing that you've received the email. The attacker needs to know if you've received the email. If you don't respond, then the attacker knows that you haven't received it. If you do respond, then the attacker knows that you have.
+
+A response plan also helps you avoid losing access to your account if you do respond to the email. If you have no response plan, then you're more likely to click on the link in the email or open an attachment.
+
+Write a response plan
+
+Here are the main components to a response plan.
+
+  1. Think of a response: You can respond to an email in several different ways. Maybe the email uses an unusual password reset process. Maybe the email asks you to give a personal detail. Maybe the email has a "this will expire soon" timestamp at the bottom.
+    • If the email is from a friend, then you normally respond to your friend. If you're not sure what to do, you can always just reply back to them. You can also work with a friend to create a response plan together.
+  2. Decide what you're going to do: Maybe you're responding to the email. Maybe you're not responding. Maybe you're wondering what to do. Decide what you're going to do before you respond to the email.
+    • If the email is not from a trusted source, then you should not respond to it.
+    • If the email is from a trusted source, then you can use the response plan to make a decision.
+  3. Write the response: Create a response plan that you can use if you receive a phishing email.

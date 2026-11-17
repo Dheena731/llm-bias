@@ -1,0 +1,21 @@
+SECURITY NOTICE: Be Alert for Phishing Emails
+
+We have recently seen an increase in phishing attempts targeting our organization. Phishing emails are designed to look legitimate in order to steal passwords, financial information, or install malicious software.
+
+Common Red Flags to Watch For:
+1. Urgent or threatening language demanding immediate action.
+2. Slight misspellings in the sender email address or company domain.
+3. Unexpected attachments or requests to click on unfamiliar links.
+4. Requests for login credentials, personal data, or wire transfers.
+
+What You Should Do:
+1. Do not click links or open attachments from unknown or unverified sources.
+2. Never share your passwords or security codes via email.
+3. Verify suspicious requests directly with the sender through a separate, known communication channel like a phone call or chat message.
+4. Report any suspicious emails immediately using the Report Phishing button in your email client, or contact the IT Helpdesk directly.
+
+Thank you for your vigilance in keeping our network and data secure.
+
+IT Security Team
+Email: it-security@company.com
+Helpdesk Extension: 4357

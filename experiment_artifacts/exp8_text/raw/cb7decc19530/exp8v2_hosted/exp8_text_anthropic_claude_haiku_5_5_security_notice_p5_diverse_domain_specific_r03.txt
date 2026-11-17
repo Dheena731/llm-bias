@@ -1,0 +1,22 @@
+**Lost or Stolen Laptop: What to Do Now**
+
+If your company laptop is missing, tell the IT Service Desk within **two hours**, even if you think you may have left it in a taxi or at home. Our team can lock the device, revoke your sign-in sessions, and start a wipe before anyone can reach your files.
+
+**Call first, then ticket.** Ring the Service Desk on ext. 4417 (or 0800 555 0142 outside office hours). Don't wait to file the online form. Once you've called, log a ticket so there's a record.
+
+**Have these ready:**
+- Asset tag (the sticker on the underside, starting with "LT-")
+- Where and when you last had it, as precisely as you can
+- Whether you were signed in and whether any apps were open
+- Whether it was in a bag, case, or on a seat, since that affects how we describe it to the police
+
+**Theft:** Report it to the police and ask for a crime reference number. Send that number to the Service Desk and to security@ourcompany.example. We need it for the insurance claim and the data incident log.
+
+**Don't:**
+- Try to remote-wipe it yourself from a personal device
+- Post about it on social media or in client channels
+- Assume it's "probably fine" and wait until Monday
+
+**Replacement:** Loaners are available from the IT stockroom on Level 2 once your report is logged. Your manager will need to approve a replacement for a permanent device.
+
+Questions about this notice go to Kwame Asante, Endpoint Security, at kasante@ourcompany.example.

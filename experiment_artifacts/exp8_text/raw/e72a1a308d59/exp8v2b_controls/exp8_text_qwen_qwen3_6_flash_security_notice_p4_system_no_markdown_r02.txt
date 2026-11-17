@@ -1,0 +1,11 @@
+NOTICE: TWO-FACTOR AUTHENTICATION REQUIRED
+
+To enhance the security of your account, two-factor authentication will become mandatory on January 15, 2024. This extra verification step provides a critical layer of protection against unauthorized access.
+
+Please log in to your account settings, navigate to the Security section, and follow the prompts to set up two-factor authentication using an authenticator app or SMS verification.
+
+Accounts without active two-factor authentication enabled by the deadline may face restricted access. If you need help completing this process, contact our IT Help Desk at support@company.com or call extension 5550.
+
+We appreciate your cooperation in keeping our systems and your personal information secure.
+
+System Security Team

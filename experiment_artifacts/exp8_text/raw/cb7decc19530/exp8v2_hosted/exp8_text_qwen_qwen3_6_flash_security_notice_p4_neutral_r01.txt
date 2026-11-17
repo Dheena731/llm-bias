@@ -1,0 +1,10 @@
+**NOTICE: Mandatory Two-Factor Authentication (2FA) Activation**
+
+To strengthen account security and protect sensitive data, all users are required to enable Two-Factor Authentication (2FA). This added verification step ensures that even if your password is compromised, unauthorized access is blocked.
+
+**🔹 Action Required:** Please activate 2FA on your account by **[Insert Deadline]**.  
+**🔹 How to Set Up:** Log in to your account dashboard, go to **Security Settings**, and select an authentication method (recommended: authenticator app; alternatives: SMS or email code). Step-by-step instructions are available at **[Insert Link/Portal]**.
+
+Accounts without 2FA enabled after the deadline will be temporarily locked until configured. Need help? Contact IT Support at **[Email/Phone]** or visit the internal help desk.
+
+Thank you for your prompt attention and commitment to keeping our systems secure.

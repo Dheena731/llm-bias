@@ -1,0 +1,1 @@
+A missing-value marker indicates that no data was recorded for this field, so the cell is empty by design or because the value was unavailable, not because it equals zero or an empty string.

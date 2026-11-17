@@ -1,0 +1,10 @@
+Dear customers,
+
+We want to let you know that some payments are currently taking longer than usual to process. Our team has identified the cause, which is a temporary slowdown in one of our payment verification systems, and engineers are working to restore normal processing speeds. Most transactions are completing within the expected timeframe, but a portion may take up to two business days to appear in your account.
+
+There is no action required on your part. Please do not submit duplicate payments, as these will be reconciled automatically once processing resumes. If a payment you sent has not posted after two business days, please contact our support team with the transaction reference number so we can look into it directly.
+
+We apologize for the inconvenience and appreciate your patience. We will send another update once payment processing has returned to normal.
+
+Sincerely,
+The Payments Team

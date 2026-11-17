@@ -1,0 +1,11 @@
+Most software updates matter because of what happens right after they ship. When a vendor patches a vulnerability, the fix itself shows attackers exactly where the flaw was. Researchers and criminals routinely diff the old and new binaries to find the changed function, then write an exploit for anyone who hasn't updated. The patch becomes a map, and the gap between "fix released" and "exploit circulating" is sometimes only days.
+
+The big breaches usually follow this pattern. Equifax was compromised in 2017 through an Apache Struts flaw that had been patched two months earlier. WannaCry spread through Windows machines that were missing a patch Microsoft had issued weeks before. Neither attack was clever. They simply reached systems that were behind.
+
+Security is only part of it. Updates also carry fixes for things that quietly rot:
+
+- **Expiring trust.** When a root certificate expired in 2021, devices that hadn't received newer certificate stores began failing TLS connections to sites that were otherwise fine.
+- **Changing data.** Time zone rules, currency formats, and character-set handling all change. Old software gets dates wrong or mangles text.
+- **Dependency drift.** Skipping updates doesn't avoid risk, it defers it. Jumping across three years of library changes at once is far more likely to break something than taking small steps.
+
+Updates can break things too, which is why staging them, reading release notes, and keeping a rollback path are sensible. But those are arguments for updating carefully, not for putting it off indefinitely.

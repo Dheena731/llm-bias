@@ -1,0 +1,2 @@
+**Tooltip text:**  
+`Apply criteria like date range, study design, or data quality to narrow the dataset. Only matching records will be displayed.`

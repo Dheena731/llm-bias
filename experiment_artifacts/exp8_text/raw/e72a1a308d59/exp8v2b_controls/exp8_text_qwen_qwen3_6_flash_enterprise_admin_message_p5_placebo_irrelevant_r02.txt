@@ -1,0 +1,13 @@
+**Subject:** Upcoming Email System Migration – [Date]
+
+Hi Team,
+
+Please be aware that our company email system will be migrated to a new platform on **[Date]** between **[Start Time]** and **[End Time]**. During this window, email access may be temporarily unavailable.
+
+No action is required on your part. All existing messages, contacts, and calendar events will transfer automatically. After the migration completes, your devices may take up to 60 minutes to fully synchronize. If you encounter any issues or notice missing data within 24 hours, please contact IT Support at **[Email/Phone/Helpdesk Link]**.
+
+Thank you for your patience as we upgrade our communication infrastructure to improve reliability and performance.
+
+Best regards,  
+[Your Name/Title]  
+[Department/Company Name]

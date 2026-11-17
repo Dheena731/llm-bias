@@ -1,0 +1,2 @@
+**Export results**
+Click **Export** above the results table, choose a format (CSV, JSON, or Excel), and select **Download**. Only the rows currently shown are exported unless you choose **All results**. Large exports may take a moment to prepare.

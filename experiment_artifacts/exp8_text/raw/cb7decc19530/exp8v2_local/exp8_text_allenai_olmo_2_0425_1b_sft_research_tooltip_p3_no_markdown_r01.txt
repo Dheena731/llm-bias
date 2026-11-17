@@ -1,0 +1,1 @@
+This date-range selector allows you to choose a specific time period within a given range by entering the start and end dates.

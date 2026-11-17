@@ -1,0 +1,7 @@
+**Subject: Q3 2024 Access Review – Deadline 17 Oct**
+
+Data owners and system administrators: The quarterly entitlement audit is now active. Log into the Identity & Access Management console, open **My Assigned Reviews**, and evaluate every role assignment, group membership, and SaaS permission. Retain only what is necessary for current responsibilities. Revoke or archive accounts inactive for >90 days, including temporary elevated access, contractor aliases, and test/service credentials.
+
+Approved changes sync to AD, Okta, and the cloud provisioning pipeline within two business hours. If multiple staff share ownership, assign one primary reviewer in the **Accountable Owner** field to prevent duplicate workflows. 
+
+Per Security Policy §8.14, incomplete reviews will trigger automatic read-only restrictions on the associated accounts. Route configuration issues, orphaned assignments, or ambiguous resource tags to `id-access@internal` with the exact resource ID and screenshot of the error state.

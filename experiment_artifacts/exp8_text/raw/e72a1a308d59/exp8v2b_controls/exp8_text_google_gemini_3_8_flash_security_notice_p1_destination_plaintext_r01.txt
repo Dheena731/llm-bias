@@ -1,0 +1,17 @@
+SECURITY NOTICE: The Risks of Password Reuse
+
+Reusing passwords across multiple accounts creates a serious vulnerability for both you and our organization. 
+
+When an external site suffers a data breach, cybercriminals automatically test the exposed email and password combinations across hundreds of other services, including corporate networks and email systems. If you use the same password anywhere else, those accounts become instant targets.
+
+To keep our systems safe, please follow these guidelines:
+
+- Never use your work password for personal accounts or third-party websites.
+- Ensure every application and system has a unique, complex password.
+- Use our approved password manager to create and store your credentials securely.
+
+If you suspect any of your accounts have been compromised, please change your password immediately and notify the IT Security team.
+
+Thank you for your cooperation in keeping our workplace secure.
+
+IT Security Team

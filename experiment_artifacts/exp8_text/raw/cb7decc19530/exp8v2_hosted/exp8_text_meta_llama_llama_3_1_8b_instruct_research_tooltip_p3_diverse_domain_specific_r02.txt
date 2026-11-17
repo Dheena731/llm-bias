@@ -1,0 +1,3 @@
+Here's a concise tooltip explaining a date-range selector in a specific domain:
+
+"Select a window of time for your vehicle's maintenance history. Choose a start date and an end date to view service records, fuel consumption, and other metrics for your car between these dates."

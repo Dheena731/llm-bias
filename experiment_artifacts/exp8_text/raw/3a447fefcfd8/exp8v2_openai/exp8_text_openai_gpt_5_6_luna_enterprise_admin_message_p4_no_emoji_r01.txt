@@ -1,0 +1,5 @@
+**Quarterly Access Review Notice**
+
+All administrators must complete the quarterly review of user access permissions by **[deadline]**. Please verify that access is appropriate for each user’s current role and promptly remove or modify any unnecessary permissions.
+
+For questions or assistance, contact **[IT/Security contact]**.

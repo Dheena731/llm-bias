@@ -1,0 +1,7 @@
+Last night, the CLI quietly processed its 10 millionth schema diff. 
+
+When we pushed the first commit, the goal was just to stop ourselves from running destructive `ALTER TABLE` statements against production Postgres at midnight. 
+
+Seeing it end up in CI pipelines across weird monorepos, legacy SQLite setups, and edge cases we didn't even know the SQL standard allowed has been wild to watch from the issue tracker. 
+
+Thanks for breaking it in creative ways, sending pull requests for the gnarly parser bugs, and trusting it with your data. We're celebrating by fixing a composite key caching issue this afternoon.

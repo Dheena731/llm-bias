@@ -1,0 +1,17 @@
+It is a rate limit set by the company who's API is being used. DigitalOcean does not have an API rate limit, but companies like AWS and Google do.
+
+If you're using DigitalOcean's API, you will need to call your API endpoint while you're waiting for the rate limit to expire. This is a very common technique among developers.
+
+If you don't want to wait for the rate limit to expire, you'll have to try to create a bad request. This is done by adding a random character to the end of any request you make to the API endpoint.
+
+  • Do you have any other tips on dealing with rate limits? Do you have any other suggestions on how to work around rate limits? – Brooks Jan 24 '19 at 13:25
+
+Did you try requesting a rate limit reset on the API endpoint, or your provider?
+
+
+I know I read something about it in the DigitalOcean documentation, but I can't remember what it was exactly. I'll set up a test account and try again.
+
+  • Welcome to Stack Overflow! This question is not really a good one. Can you try asking about this in another Stack Exchange site? This one is for question of basic programming issues. – Thilo Mar 13 '16 at 16:50
+  • Thank you. I'll try to stick to my question in other Stack Exchange sites. – Brooks Mar 15 '16 at 2:48
+
+Your Answer

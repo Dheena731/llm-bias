@@ -1,0 +1,21 @@
+**Attention All Employees: Be Aware of Phishing Emails**
+
+We would like to remind you of the importance of being vigilant regarding phishing emails that may appear in your inbox from time to time. These types of malicious emails are commonly crafted to deceive employees into divulging sensitive information such as login credentials, financial details, or personal contact information. Here are some red flags to keep in mind when encountering a phishing email:
+
+1. **Unsolicited Requests**: If an email asks for personal information or requests immediate action, it's not coming from your company’s official channels. Legitimate organizations typically do not request sensitive information via email.
+
+2. **Poorly Constructed Emails**: Phishing emails often have spelling and grammatical errors, and they may come from an email address that looks similar to your company’s but is slightly corrupted (e.g., www instead of www.something.com might be used).
+
+3. **Suspicious Links and Attachments**: Hover over any links to see the actual URL and avoid clicking on links from unknown senders. Be cautious about opening attachments from emails you're not sure about, as they could contain malware designed to steal your information.
+
+To combat these threats:
+
+- Always verify the authenticity of the sender before responding or clicking on anything.
+- Save phishing emails, including the subject line and content, and report them to your IT Department immediately.
+- Educate your coworkers about recognizing phishing attempts and share this notice to ensure a greater awareness and collective defense against such threats.
+
+Thank you for your diligence and attention to this matter. Together, we can help maintain a safe and secure working environment. Should you have any questions or concerns, feel free to reach out to our IT support team.
+
+[Placeholder for contact information]
+
+#PhishingPrevention #CyberSafety #EmployeeSecurity #ITSecurity #CorporateAwareness

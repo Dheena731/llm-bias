@@ -1,0 +1,7 @@
+Thank you for sharing the draft of your conference poster. The overall structure works well: the reader can follow the path from motivation to methods to results, and the color scheme is restrained and easy on the eyes. The central finding in the results panel is clear, which is the most important thing a poster needs to deliver at a glance.
+
+The main concern is density. The introduction and methods sections are long enough that a passerby would likely stop reading before reaching the results. I would cut the background to two or three sentences and move any detailed procedural description into a supplementary handout or a QR code linking to the full paper. Your figures are doing the heavy lifting, so they deserve more space. Consider enlarging the primary results graph and making the axis labels readable from about two meters away.
+
+The title is informative but long. A shorter version that names the main finding would draw more attention. Finally, the conclusion section should state what the audience should take away and what you are asking of them, such as feedback on a method or interest in a collaboration. Ending with a specific invitation gives people a natural reason to start a conversation with you.
+
+Overall, this is a strong draft. Tightening the text and enlarging the key figure should make it considerably more effective in a busy poster session.

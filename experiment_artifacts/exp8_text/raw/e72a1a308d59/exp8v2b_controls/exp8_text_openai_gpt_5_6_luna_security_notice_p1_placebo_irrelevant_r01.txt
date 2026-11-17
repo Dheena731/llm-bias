@@ -1,0 +1,5 @@
+**Security Reminder: Don’t Reuse Passwords**
+
+Using the same password for multiple accounts increases the risk of a security breach. If one account is compromised, attackers may try that password elsewhere.
+
+Please use a unique, strong password for every work account and store passwords securely in the company-approved password manager. Enable multi-factor authentication whenever available.

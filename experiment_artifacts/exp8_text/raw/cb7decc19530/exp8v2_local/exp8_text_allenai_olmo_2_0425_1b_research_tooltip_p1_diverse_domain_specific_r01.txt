@@ -1,0 +1,69 @@
+Avoid jargon and buzzwords. 
+
+
+I made a table for the school. I wrote down the name of the school and its address next to it.
+
+For example, if something is a coding problem, make it in code and make sure it makes sense. If it’s a model, make sure it references specific components of the model. For example, if the model is called “Bloomberg”, then talk about “Bloomberg’s prediction score” or “Bloomberg’s accuracy on 1000 test data”. Example:
+
+I made a model to predict the weight of a person. The model uses features (height, weight, age, gender) to predict the weight.
+
+Categorize examples by scholarly domain. Avoid stock launch-copy language. There is nothing wrong with using personal anecdotes of your own work, but be authentic.
+
+
+This is a representative dataset.
+
+This is a dataset that has been anonymized for the privacy of the participants.
+
+This is a dataset that was collected from the web.
+
+This is a dataset that was collected by a participant.
+
+This is a dataset that was collected by a dataset owner.
+
+This is a dataset that was collected by a data collection agency.
+
+This is a dataset that was collected by a data collection agency that is paid by a research organization.
+
+This is a dataset that was collected by a research organization.
+
+This is a dataset that was collected by a research organization that was collected from a dataset owner.
+
+This is a dataset that was collected by a researcher who works at a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a research organization and who is paid by a research organization.
+
+This is a dataset that was collected by a researcher who works at a

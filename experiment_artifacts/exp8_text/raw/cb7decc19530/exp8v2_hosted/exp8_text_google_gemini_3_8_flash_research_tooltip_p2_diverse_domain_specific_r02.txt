@@ -1,0 +1,4 @@
+**Domain:** Product Experimentation / A/B Testing (Revenue per Visitor)
+
+> **Estimated true lift: +0.8% to +4.1% (95% CI)**  
+> The range of likely impact after accounting for sample noise. Because the lower bound remains above 0.0%, this variant's outperformance is statistically distinguishable from random traffic fluctuations.

@@ -1,0 +1,1 @@
+A missing-value marker indicates that a value is not available or not applicable for a particular data point, and it is used to distinguish such cases from those where the value is zero or empty. This marker helps to maintain data integrity and prevents incorrect assumptions or analyses that might result from treating missing values as actual data.

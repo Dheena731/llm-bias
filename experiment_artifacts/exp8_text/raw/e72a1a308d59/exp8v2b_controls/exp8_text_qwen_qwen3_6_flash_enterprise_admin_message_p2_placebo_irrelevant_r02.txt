@@ -1,0 +1,16 @@
+**Subject:** Update: New Expense Approval Workflow Effective [Date]
+
+Hi Team,
+
+To improve processing speed and maintain consistent compliance, we’re implementing a new expense approval workflow starting **[Effective Date]**.
+
+Going forward, all expense reports must be submitted via **[System/Portal Name]**. Supervisors will receive automated prompts for review and can approve directly in the system. Any single receipt over **$[Amount]** will automatically route to Finance for secondary approval.
+
+📖 A quick-reference guide and video walkthrough are available here: **[Link]**  
+❓ Questions or technical issues? Reply to this message or contact **[Email/Support Channel]**.
+
+Thank you for your patience and cooperation as we roll out this update. Your timely submissions will help us keep reimbursements moving smoothly.
+
+Best regards,  
+**[Your Name]**  
+Administration & Finance Operations

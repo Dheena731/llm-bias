@@ -1,0 +1,9 @@
+Caching speeds up a website by storing copies of data or pages so they don't have to be rebuilt or fetched from the original source every time someone visits. Without caching, each request may require the server to run database queries, process code, and transfer files over the network. With caching, the site can reuse saved results, which reduces work and delivers content faster.
+
+There are several common types of caching:
+
+- **Browser caching:** The visitor's browser saves static files such as images, stylesheets, and scripts. On a return visit, it loads these from local storage instead of downloading them again.
+- **Server-side caching:** The server stores generated pages or query results in memory, so it can respond to repeated requests without recalculating them.
+- **CDN (content delivery network) caching:** Copies of content are stored on servers distributed around the world, so users receive files from a location physically closer to them, which lowers latency.
+
+Together, these layers reduce server load, cut down on network travel time, and make pages load noticeably faster, which improves the user experience and can help the site handle more traffic.

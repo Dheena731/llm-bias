@@ -1,0 +1,32 @@
+ • Add a line break with two dots
+
+    .---"
+    1. **Do not reuse passwords!** Use at least 8 characters.
+    2. Use a different password for every site.
+  • Add a line break with three dots
+
+    .---."
+    1. **Do not reuse passwords!** Use at least 8 characters.
+    2. Use a different password for every site.
+  • Add a line break with four brackets
+
+    .---[Do not reuse passwords!]
+    [Use at least 8 characters.]
+    [Use a different password for every site.]
+  • Use brackets to create attachments
+
+    * [Do not reuse passwords!]
+    * Use at least 8 characters.
+    * Use a different password for every site.
+  • Add indentation to group information (optional)
+
+    **Do not reuse passwords!** Use at least
+    8 characters. Use a different
+    password for every site.
+  • Add a line break with a backslash
+
+    ***Do not reuse passwords!*** Use at least
+    8 characters. Use a
+    different password for every site.
+
+These are all the ways to create password policies. The next time you add an email address or a password policy to your site, you can check on this page.

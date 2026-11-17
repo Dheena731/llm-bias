@@ -1,0 +1,23 @@
+**Subject: Important Security Reminder: Avoid Password Reuse**
+
+**To:** All Employees  
+**From:** IT Security Team  
+**Date:** October 26, 2023  
+
+**Purpose:**  
+To protect our organization and your personal accounts, please ensure you do not reuse passwords across different services.
+
+**Why this matters:**  
+Attackers frequently harvest passwords from public data breaches and attempt to access corporate systems using those same credentials. If you use your personal email password for work, or the same password for multiple platforms, a single compromise can jeopardize our entire network. Think of it this way: if one door is picked, all doors with the same lock are open.
+
+**Action Items:**  
+*   **Unique Passwords:** Every account must have a distinct password. Never reuse a password from a personal site on a work system, or vice versa.  
+*   **Use a Password Manager:** Utilize the company-approved password manager to generate and store complex, unique passwords securely.  
+*   **Enable MFA:** Ensure Multi-Factor Authentication is active on all supported systems.  
+
+If you believe a password has been compromised, change it immediately and submit a ticket to the Help Desk.
+
+Thank you for helping keep our workplace secure.
+
+**IT Security Department**  
+*[Contact Information / Link to Policy]*

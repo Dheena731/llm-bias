@@ -1,0 +1,24 @@
+SUBJECT: Security Notice: Do Not Reuse Passwords
+
+Dear Team,
+
+We are reminding all employees about the risks of reusing passwords across work and personal accounts.
+
+Why this matters:
+When a password is reused, a breach at one website can give attackers access to every other account that shares it. Attackers routinely take stolen credentials from one breach and try them on corporate email, VPNs, and cloud services. This technique is called credential stuffing, and it is one of the most common ways company systems are compromised.
+
+What we ask you to do:
+1. Use a unique password for every account, especially those tied to company systems.
+2. Make passwords long. A passphrase of four or more random words is stronger and easier to remember than a short, complex string.
+3. Use the company-approved password manager to create and store your passwords so you do not need to memorize them.
+4. Turn on multi-factor authentication wherever it is available.
+5. Change your password right away if you suspect it has been exposed, and report it to the IT Security team.
+
+What to avoid:
+Do not use your work password for personal accounts such as social media, shopping, or streaming services. Do not store passwords in spreadsheets, sticky notes, or unsecured documents.
+
+If you have questions or need help setting up the password manager, please contact the IT Help Desk at helpdesk@company.example or ext. 5555.
+
+Thank you for helping keep our organization secure.
+
+IT Security Team

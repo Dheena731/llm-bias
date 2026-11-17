@@ -1,0 +1,1 @@
+Missing value: This cell has no data recorded. It is shown as a placeholder so you can tell an empty entry apart from a zero or blank string.

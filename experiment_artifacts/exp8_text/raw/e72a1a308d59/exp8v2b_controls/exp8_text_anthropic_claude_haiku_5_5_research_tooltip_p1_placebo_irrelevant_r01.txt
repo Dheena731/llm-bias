@@ -1,0 +1,3 @@
+Here's a concise tooltip for a dataset filter:
+
+**Filter by date range:** Shows only records collected between the selected start and end dates. Records without a date are excluded.

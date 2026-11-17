@@ -1,0 +1,27 @@
+**Subject: New Expense Approval Workflow Starting [Date]**
+
+Hi team,
+
+We're introducing a new expense approval workflow to make reimbursements faster and more transparent. It takes effect **[Date]**.
+
+**What's changing:**
+- All expenses must be submitted through [Expense Tool] within 30 days of purchase.
+- Receipts are required for every expense, regardless of amount.
+- Approvals will follow these tiers:
+  - **Under $250:** Direct manager approval
+  - **$250–$1,000:** Direct manager and department head approval
+  - **Over $1,000:** Department head and Finance approval
+- Approvers will have 3 business days to review each request. Approved expenses will be reimbursed in the next payroll cycle.
+
+**What you need to do:**
+1. Log in to [Expense Tool] and confirm your manager is listed correctly.
+2. Review the updated expense policy here: [Link].
+3. Submit any pending expenses under the old process by **[Cutoff Date]**.
+
+Questions? Contact [Name/Team] at [email] or join our Q&A session on **[Date/Time]**.
+
+Thanks for your help making this transition smooth!
+
+Best,
+[Your Name]
+[Title/Department]

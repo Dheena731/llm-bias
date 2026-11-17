@@ -1,0 +1,21 @@
+# Introducing Clearpath: The Budgeting Spreadsheet That Does the Math for You
+
+Tracking your money shouldn't feel like a second job. Clearpath is a budgeting spreadsheet template that turns scattered income and expenses into a clear monthly plan, with no accounting background required.
+
+**What's inside**
+
+- **One-page dashboard:** See income, spending, savings, and what's left at a glance.
+- **Automatic category totals:** Housing, food, transportation, debt, and more add up as you go.
+- **Savings goal tracker:** Watch progress toward an emergency fund, a trip, or a down payment.
+- **Debt payoff view:** Compare snowball and avalanche strategies side by side.
+- **12-month overview:** Spot trends and plan ahead with a full-year summary.
+
+**Built to be simple**
+
+Clearpath works in Excel, Google Sheets, and Numbers. Formulas are pre-built and protected, so nothing breaks when you start typing. Color-coded cells show you right away when a category is on track or over budget.
+
+**Availability**
+
+Clearpath is available now for a one-time price of $12, with free updates for life. Most people are up and running in under 15 minutes.
+
+Take control of your money one month at a time. Clearpath makes the first step easy.

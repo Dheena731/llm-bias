@@ -1,0 +1,13 @@
+**INTERNAL NOTICE: Reused Passwords Are Still Showing Up**
+*From IT Security, Dock 3 Office, ext. 4417*
+
+Last week our credential audit matched 38 employee work logins to passwords that also appear in a public breach list. Most of those passwords were the same ones people use for personal accounts, fantasy football, or the carrier portal that was compromised in March. Once a password leaks from one of those sites, attackers try it against everything else with your name on it, including the warehouse scheduler and the payroll login.
+
+What we need from you by **Friday, May 16**:
+
+- **Change any work password you have used anywhere else.** If you're not sure, change it. Takes about two minutes.
+- **Use a unique passphrase for work.** Four or more random words work well ("cobalt ferry lantern tundra"). Do not add a number and capital letter to a password you already use somewhere else.
+- **Install the company password manager** if you haven't. It's on the software portal under "Vault." Shared accounts like the dock scale login should go in the team vault, not on sticky notes or in a spreadsheet called "passwords FINAL."
+- **Turn on the authenticator app** for email and VPN. Texts are fine as a fallback, but do not approve a sign-in prompt you didn't initiate, even if it looks like it's from IT. We will never ask you for a code over the phone or in chat.
+
+If you get a locked-out message or think your account has already been used by someone else, call the Security desk at ext. 4417 right away. A quick call is far better than a late one, and nobody will be in trouble for reporting a problem they caused by accident.

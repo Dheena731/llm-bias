@@ -1,0 +1,33 @@
+**Lost Company Laptop - Security Incident Report**
+
+**Incident Type:** Lost/Lost/Not Recovered - Laptop
+
+**Employee Name:** [Insert Employee Name]
+
+**Employee ID:** [Insert Employee ID]
+
+**Date of Incident:** [Insert Date]
+
+**Location:** [Insert Location]
+
+**Details:** A company laptop was reported lost on [Insert Date]. The laptop, a [Insert Laptop Model], was last seen in [Insert Location]. The laptop was not secured with a cable lock, and the employee was not aware of any suspicious activity.
+
+**Security Measures:**
+
+*   The employee was instructed to report the incident immediately.
+*   The incident was reported to the [Insert Department/Team] within [Insert Timeframe].
+*   The laptop was not encrypted, but the company's IT department is reviewing all data stored on the device.
+
+**Consequences:**
+
+*   The incident has been reported to the relevant authorities, and an investigation is underway.
+*   The company will review its security policies and procedures to prevent similar incidents in the future.
+
+**Action Required:**
+
+*   The employee will cooperate with the investigation and provide any necessary information.
+*   The IT department will conduct a thorough review of all company laptops to ensure that all devices are properly secured and up-to-date.
+
+**Confidentiality:**
+
+This incident report is confidential and should not be shared with anyone outside of the company.

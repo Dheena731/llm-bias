@@ -1,0 +1,1 @@
+**NaN:** The source cell was blank or couldn't be read as a number. Mean and sum skip these rows, so a column average covers only the values that are present. Zero would be counted as data.

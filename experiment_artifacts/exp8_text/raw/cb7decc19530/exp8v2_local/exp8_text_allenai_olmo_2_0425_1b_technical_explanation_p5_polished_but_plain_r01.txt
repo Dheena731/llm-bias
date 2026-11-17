@@ -1,0 +1,27 @@
+Save this file as If this file exists, the content of file is truncated before WordPress sees it.
+
+If the file does not exist, this means that the post author did not provide an API rate limit. I will not edit this file, but you might need to remove the post and create a new one.
+
+Delete this file if it exists. If this file does not exist, the post author did not provide an API rate limit. I will not edit this file.
+
+Now create a new file called If this file exists, WordPress will see it if the post author did not provide an API rate limit. If it does not exist, it might indicate that the post author did not provide an API rate limit. I will not edit this file.
+
+Delete this file if it exists.
+
+The reason for this is that you do not want to have a lot of fake rates in the database, and this fake rate can be saved in the file.
+
+You can also show the post author that you are protecting their API rate limit, but not only with the example below. It is generally a good idea to ask the post author to provide an API rate limit by adding the following meta info to their post:
+
+<meta name="wp-api-ratelimit-config" content="true">
+
+If the post author does not provide an API rate limit, this meta info will be shown in the post metabox.
+
+Now return to your source code, and change the actual API rate limit to the one you want to use. You do not have to make it exactly the same as the one used by the example above, but as long as it’s the same order and it is a decimal between 0 and 1, you don’t have to do anything.
+
+Save your post. Refresh the page. You can see an API rate limit has been added.
+
+If you want to change the API rate limit, you can modify the meta info in the post metabox. Post authors are also allowed to change this meta info.
+
+Note that the number you provide in the meta info is only a number, and it has no effect if it does not match the API rate of the stable versions of WordPress. This number must be the same as the API rate of the stable WordPress version we are testing.
+
+© 2019, Dan Smith

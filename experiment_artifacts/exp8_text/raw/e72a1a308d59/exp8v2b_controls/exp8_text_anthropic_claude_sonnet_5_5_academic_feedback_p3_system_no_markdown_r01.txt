@@ -1,0 +1,9 @@
+Reviewer comment: Clarity of the research question
+
+The manuscript does not state its central research question clearly, and this weakens the rest of the paper. The introduction describes the general topic and several related concerns, including the effects of the intervention, differences across subgroups, and implications for policy. It never says which of these the study is actually designed to answer. Phrases such as "explores the relationship between" and "sheds light on" are used in place of a specific, answerable question.
+
+This ambiguity causes several problems. First, I could not tell whether the study is meant to be descriptive, explanatory, or causal. The methods section uses regression models, but the language of the discussion implies causal conclusions that the design does not appear to support. Second, the hypotheses, where they appear, do not map neatly onto the analyses. Some of the reported tests seem exploratory, and it is unclear whether they were planned in advance. Third, without a defined question, I cannot judge whether the sample, measures, and analytic strategy are appropriate.
+
+I recommend that the authors state one primary research question, ideally in a single sentence at the end of the introduction, and specify the population, variables, and type of relationship under investigation. Any secondary questions should be labeled as such, and exploratory analyses should be clearly distinguished from confirmatory ones. The title, abstract, and conclusion should then be revised to match the question as restated.
+
+I believe the underlying work may be valuable, but until the question is defined, the contribution of the paper remains difficult to assess.

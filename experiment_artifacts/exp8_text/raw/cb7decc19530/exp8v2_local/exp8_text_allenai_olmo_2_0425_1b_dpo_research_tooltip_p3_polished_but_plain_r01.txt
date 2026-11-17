@@ -1,0 +1,1 @@
+This date-range selector lets you choose specific dates within a given period. Simply click and drag to span multiple dates, or point and click for single dates. Adjust the start and end points to precisely define your selection. This feature is invaluable for tasks requiring precision over time, such as planning meetings, organizing events, or tracking progress on projects.

@@ -1,0 +1,9 @@
+**Subject: Action Required: Quarterly User Access Review**
+
+The quarterly access review cycle is now open. To maintain system security and support compliance standards, all managers, system owners, and team leads must review and recertify access permissions for their personnel.
+
+Please log in to the identity management portal to review the current access levels assigned to your team. Confirm that each user still requires their current permissions based on their active job responsibilities, and revoke any privileges that are no longer necessary.
+
+All reviews must be completed within fourteen days of this notice. Permissions that remain unconfirmed past the review deadline will be scheduled for automatic suspension to prevent unauthorized access.
+
+Thank you for your prompt attention to maintaining the security of company systems and data. Direct any questions regarding the recertification process to IT Support.

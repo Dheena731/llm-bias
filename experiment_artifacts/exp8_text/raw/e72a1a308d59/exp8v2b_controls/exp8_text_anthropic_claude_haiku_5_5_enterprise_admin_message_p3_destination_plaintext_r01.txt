@@ -1,0 +1,15 @@
+Subject: VPN Client Update: New Version Rolling Out
+
+Hello team,
+
+We are updating the VPN client to version 3.2 starting Monday, March 10. The update improves connection stability, reduces reconnect times, and adds support for the latest macOS and Windows releases.
+
+What you need to do:
+- The client will update automatically the next time you restart your computer.
+- If you prefer to update now, open the VPN app and select Check for Updates.
+- Please save your work before restarting.
+
+If you experience any issues after the update, contact the IT Help Desk at helpdesk@example.com or call extension 5555.
+
+Thank you,
+IT Department

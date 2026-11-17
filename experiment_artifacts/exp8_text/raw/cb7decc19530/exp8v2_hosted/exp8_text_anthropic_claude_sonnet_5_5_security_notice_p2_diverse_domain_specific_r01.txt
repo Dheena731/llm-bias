@@ -1,0 +1,19 @@
+**NOTICE: Fake rate confirmations and remit-to changes**
+Posted by IT, copied to Dispatch, Carrier Relations, and Accounting
+Tuesday, 9:40 a.m.
+
+Since Friday, 14 of us have received emails made to look like carrier paperwork. Three people opened the attachment. We've reset those passwords and nothing else appears to be affected, but more are likely to arrive.
+
+**What they look like**
+- Subject lines such as "Signed RC – Load 48213" or "BOL attached, pls confirm pickup." The load numbers are close to ours but don't match anything in the TMS.
+- Sender domains one character off from real carriers we use (for example, *tr1stateexpress.com*). The display name looks right, so check the address itself.
+- A PDF or "view document" link that asks you to sign in with your Microsoft account. Real rate cons come through the portal or from the carrier's dispatcher, not through a login page.
+
+**The one that costs real money**
+A request to update a carrier's bank details, usually phrased as "we've changed factoring companies, please use the attached remit-to." If you get one, do not reply to it. Call the carrier at the number already in their file, not the one in the email. Accounting will not change payment details based on email alone, and nobody should ask them to.
+
+**If you clicked or opened something**
+Tell IT right away at ext. 5150 or helpdesk@ourcompany.example. Speed matters more than being sure. Nobody gets in trouble for reporting, and the Friday reports are the reason we caught this early. Please don't delete the email first; we need the original to block the sender.
+
+**Other steps**
+Use the Report Phishing button in Outlook for anything suspicious. If a load looks real but the email doesn't, look the load up in the TMS yourself instead of using the link.

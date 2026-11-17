@@ -1,0 +1,18 @@
+Subject: Quarterly Access Review - Action Required
+
+All system administrators and department managers,
+
+The quarterly access review for this quarter opens on Monday, March 3, and all reviews must be completed by Friday, March 14.
+
+During this review, please:
+
+1. Verify that each user in your area still requires their current system access.
+2. Remove or flag any accounts for users who have changed roles or left the organization.
+3. Confirm that elevated or privileged permissions are still appropriate.
+4. Submit your completed review through the Identity Management portal.
+
+If you have questions about the process or need help accessing the portal, contact the IT Security team at security@yourcompany.com.
+
+Thank you for your prompt attention to this important control.
+
+IT Security Team

@@ -1,0 +1,18 @@
+SECURITY NOTICE: PROHIBITION ON PASSWORD REUSE
+
+To protect company systems and sensitive data, all employees are required to use unique passwords for every work-related account and application. Reusing passwords across multiple systems is strictly prohibited.
+
+Why this matters: A single compromised password can grant unauthorized access to additional accounts, increasing the risk of data breaches, operational disruption, and regulatory non-compliance. Attackers routinely test known passwords across different platforms to exploit weak credential practices.
+
+Required actions:
+- Generate a distinct, strong password for each workplace system.
+- Ensure all passwords are at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and symbols.
+- Immediately update any accounts that currently share credentials with previous, personal, or third-party services.
+- Use the company-approved password manager to securely generate, store, and auto-fill credentials.
+
+If you require technical assistance, need guidance on password manager setup, or encounter account lockouts after updating your credentials, contact the IT Security Helpdesk at [email/phone] or submit a request through the internal support portal.
+
+Your prompt compliance with this policy is essential to maintaining our collective security posture. Thank you for your cooperation.
+
+Issued by: Information Security Division  
+Date: [Insert Date]

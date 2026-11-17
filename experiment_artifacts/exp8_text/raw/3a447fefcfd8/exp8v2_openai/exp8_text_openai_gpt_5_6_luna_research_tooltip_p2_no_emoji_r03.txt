@@ -1,0 +1,1 @@
+Confidence interval: the range likely to contain the true value at the selected confidence level.

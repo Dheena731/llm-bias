@@ -1,0 +1,14 @@
+Subject: Update to the company VPN client
+
+Hello everyone,
+
+We are replacing the current VPN client with a newer version on Tuesday, March 12. The update improves connection stability, speeds up reconnection after network changes, and adds support for the latest operating system releases. The way you sign in will not change, and your existing credentials and multi-factor authentication method will continue to work.
+
+The new client will install automatically the next time your device restarts after the update goes live. If you are connected to the VPN when the installation begins, you may be disconnected briefly, so please save your work beforehand. Once the installation finishes, the familiar VPN icon will appear in the same place, though the window that opens will look slightly different.
+
+If you would rather not wait for the automatic installation, you can install the new version at any time before March 12 through the company software portal. Search for the VPN client and select the latest version. Please be aware that older versions will stop connecting to the network after March 19, so make sure your device has been updated by then.
+
+If you run into problems, restart your device first, since that resolves most installation issues. If the client still does not connect, contact the IT help desk with your device type and a brief description of what you see, and we will help you as quickly as we can. Thank you for your patience while we make this improvement.
+
+Best regards,
+The IT Support Team

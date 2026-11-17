@@ -1,0 +1,14 @@
+share|improve this answer
+This is a nice answer and I upvoted it. However, I think there is a fair bit of disagreement about the true meaning of "latency"... I have seen some comments discussing "transactional latency" which I think could be interpreted as meaning cycle latency, but have seen others say that the latency is actually the time between the user input and the server response. So I'd be interested in hearing your thoughts on what latency actually means in a web app. – Steve Sether Feb 20 '09 at 12:55
+Yes, I agree there are different levels of latency. My definition is the one that is important for this question, which is response time (the time between sending a request and receiving a response). – Derek Johnson Feb 20 '09 at 19:18
+Also, I have seen this definition of latency where it says "The time between when the client sends the request to the server, and the server responds with the HTTP response" and "The time between when the browser first sees the server's response and the browser can actually use that response." – Derek Johnson Feb 20 '09 at 19:20
+My definition is the time between sending the request and receiving a response. I take this definition to be the most appropriate for web applications. – Derek Johnson Mar 2 '09 at 0:42
+I would choose server-side as the target of latency. A web server is much more dependent on the latency than the client. – DanielFreein Dec 23 '10 at 17:18
+
+If you are talking about the time between sending the request and receiving a response I would also put transactional latency in that category.
+
+Also, I would prefer to use throughput to measure that.
+
+share|improve this answer
+
+Your Answer

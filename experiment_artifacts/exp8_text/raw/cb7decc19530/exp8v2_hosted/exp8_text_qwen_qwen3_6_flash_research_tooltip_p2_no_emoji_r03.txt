@@ -1,0 +1,1 @@
+Shows the range of values where the true result is expected to lie with a specified level of confidence.

@@ -1,0 +1,27 @@
+# NOTICE OF ACCEPTABLE USE
+**Millrace Lofts Tenants' Network (the "Network")**
+Operated by the Millrace Lofts Tenants' Association (the "Association")
+Revision 3, effective 1 March
+
+**1. Scope.** This Notice governs any device connected to the Network by Ethernet jack, the SSID "Millrace-Res," or the SSID "Millrace-Guest." Connecting a device constitutes acceptance. The Network is a single 1 Gbps symmetrical uplink shared by 48 units, and these terms exist to keep it usable for all of them.
+
+**2. One Unit, One Account.** Service is provided to the leaseholder of record and the unit's occupants. You shall not resell, sublet, or share credentials with persons outside the unit, including adjoining buildings. Guests may use Millrace-Guest, which is rate-limited to 10 Mbps and expires after 24 hours.
+
+**3. Prohibited Conduct.** You shall not:
+ (a) run an open relay, open proxy, or public-facing server without first registering it with the Association;
+ (b) scan, probe, or attempt to access any device or account that is not yours, including other units' devices on the same segment;
+ (c) send bulk unsolicited email. Outbound port 25 is blocked except through the Association's relay;
+ (d) connect your own router, switch, or access point in a way that bridges the Residential and Guest networks, or that serves DHCP to other ports;
+ (e) open, unplug, or relabel equipment in the riser closets on floors 1–4.
+
+**4. Capacity.** Sustained use above 100 Mbps for more than 20 consecutive minutes between 18:00 and 23:00 may be shaped without notice. Shaping is applied to the connection, not to any category of content. Large transfers scheduled outside those hours are not affected.
+
+**5. Copyright.** The Association will forward every infringement notice received from the upstream provider to the unit concerned. A unit that accumulates three notices in twelve months may be suspended pending a written response.
+
+**6. Records.** The Association retains DHCP lease logs and bandwidth totals per unit for 90 days. It does not inspect packet contents. Records will be disclosed only to the upstream provider as needed to answer an abuse complaint, or as required by valid legal process.
+
+**7. Enforcement.** For a first violation that is not an immediate security risk, the Association will give written notice and 72 hours to cure. Where a device is actively disrupting the Network, the Association may disconnect its port immediately and will give notice afterward.
+
+**8. No Warranty; Limitation.** The Network is provided as-is. The Association does not guarantee availability or speed and is not liable for lost data, lost income, or consequential loss arising from outages or maintenance. Nothing here limits liability that cannot lawfully be limited.
+
+**9. Contact.** Abuse reports and registration requests: netcommittee@millracelofts.example. Disputes under this Notice shall first be heard by the Association's board before any other procee

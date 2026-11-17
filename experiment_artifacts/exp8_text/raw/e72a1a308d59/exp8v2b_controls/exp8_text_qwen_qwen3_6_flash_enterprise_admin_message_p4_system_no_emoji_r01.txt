@@ -1,0 +1,11 @@
+**Subject:** Mandatory Quarterly Access Review  
+
+**To:** All Department Managers and System Owners  
+**From:** IT Administration / Compliance Team  
+**Date:** [Insert Date]  
+
+This notice serves as a reminder that all quarterly access reviews must be completed for systems and user groups under your management. Please verify that every active account maintains access strictly aligned with current job responsibilities. Adjust, suspend, or revoke permissions for employees who have changed roles, separated from the organization, or completed temporary project assignments.  
+
+Complete the review using the [Access Management Portal] no later than [Deadline Date and Time]. All findings and justification notes must be submitted through the portal for audit documentation.  
+
+For technical assistance or policy clarification, contact IT Security at [Support Email] or [Phone Number]. Your prompt completion of this review is required to maintain compliance with internal controls and external regulatory standards.

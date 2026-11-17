@@ -1,0 +1,31 @@
+**Feedback on Draft Literature Review: Remote Work and Employee Productivity**
+
+*(I haven't seen your draft, so this note is written for a hypothetical review on this topic. The points below are common issues in early drafts and may or may not apply to yours.)*
+
+**Overall impression**
+The draft shows solid familiarity with the field and a clear interest in the topic. The writing is generally readable, and the opening section does a good job of explaining why the question matters. At present, though, the review reads more like a sequence of study summaries than an argument about the state of knowledge.
+
+**Strengths**
+- The scope is well chosen, and the focus on post-2020 studies is justified.
+- Several key empirical papers are included, and the discussion of measurement problems in self-reported productivity is perceptive.
+- Section headings are clear and make the structure easy to follow.
+
+**Areas for improvement**
+
+1. **Synthesis over summary.** Many paragraphs describe one study after another ("Smith found… Jones found…"). Organize paragraphs around ideas, such as conflicting findings on collaboration quality, and bring in multiple sources to show where they agree, diverge, and why.
+
+2. **Critical evaluation.** The review rarely assesses the strength of the evidence. Note where findings rest on small samples, single industries, or cross-sectional designs, and say how these limits affect the conclusions.
+
+3. **Identifying the gap.** The conclusion points to "more research," which is too general. State precisely what is missing, for example long-term outcomes for hybrid arrangements, and explain how your project will address it.
+
+4. **Balance of sources.** The review leans heavily on survey-based studies from technology firms. Consider adding work from other sectors and from experimental or administrative-data designs, or explain why they are excluded.
+
+5. **Transitions and framing.** Short linking sentences at the end of each section would help the reader see how the themes connect to your research question.
+
+**Minor points**
+- Check citation formatting for consistency.
+- Replace some long block quotations with paraphrase.
+- Several sentences use vague terms such as "many scholars" without citations. Name the sources.
+
+**Next steps**
+Revise with a view to making a clear argument. A useful exercise is to write a two-sentence summary of what the literature collectively shows and where it falls short, then check that each section supports that claim. I'm happy to look at a second draft once you've restructured the main sections.

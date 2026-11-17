@@ -1,0 +1,15 @@
+**Feedback on Methods Section**
+
+Thank you for your methods section. Your description of the participant recruitment and the survey instrument is clear, and the table summarizing the variables helps the reader follow the design.
+
+**Strengths**
+- You state the research design and justify it in one sentence, which orients the reader well.
+- The data collection timeline is specific and easy to follow.
+
+**Areas to improve**
+- **Sampling:** Explain how you arrived at your sample size. A brief power calculation or a rationale based on prior studies would strengthen this.
+- **Procedures:** Some steps are described in the past tense and others in the present. Choose one and apply it consistently.
+- **Analysis:** Name the specific statistical tests and the software used, and state the significance threshold. Readers need this to evaluate and replicate your results.
+- **Limitations:** Briefly acknowledge any constraints in the design or data collection. This shows critical awareness and is expected in this section.
+
+**Next step:** Revise the analysis subsection first, since it has the largest gap in detail. Then check tense consistency throughout.

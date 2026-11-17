@@ -1,0 +1,87 @@
+Do not write in the imperative tense, or use the word "if" when the sentence could be rewritten in the present tense. The exception is if you are writing an essay in formal academic writing.
+
+Do not write in the past tense. Identify the past tense as "historical summary".
+
+Do not use Russian style colons (:) for "and", "but", "however", "therefore", "also", "moreover".
+
+Do not use French style commas to separate elements of a series. Instead, simply add a space between elements.
+
+Do not use Java style semicolons (;) at the end of each sentence.
+
+Do not use the word "And" as a filler word, nor should you use the word "As". Use the word "plus".
+
+Do not modify the word "sample" to the word "examples" in the first sentence of the methods section.
+
+Do not use "the" in the first sentence of the methods section, unless you are using it to refer to a well-known fact.
+
+Do not use "Figure 1". It is not mentioned in the standard, and it is redundant.
+
+Do not use "Figure 2". It is not referenced in the standard.
+
+Do not use the words "quantitative" or "qualitative" in the methods section.
+
+Do not use "measure" or "measurements" in the methods section.
+
+Do not use the word "sample". It is not mentioned in the standard.
+
+Do not use "table" instead of "figures".
+
+Do not assume the reader knows about the software used.
+
+Do not use the word "access" after a reference to Software X, unless it is used in a sentence in a couplet.
+
+Do not use the word "data" instead of "data".
+
+Do not use ellipses (...) as a "filler" word.
+
+Do not use "has", "are", "can", "may", "might", "would", "can", "for example", "also", "for instance", "also known as", "as", "which", "such" in the first sentence of the methods section.
+
+Do not use the word "model" instead of "simulation".
+
+Do not use the word "genes" in the methods section.
+
+Do not use the word "virtual" in the first sentence of the methods section.
+
+Do not use "simulation" instead of "model".
+
+Do not use a sentence structure that uses "however", "moreover", "therefore", "thus", or "likewise".
+
+Do not use "simulation" as a verb.
+
+Do not use the word "for" in the first sentence of the methods section.
+
+Do not use the word "select" in the first sentence of the methods section.
+
+Do not use "data" instead of "information".
+
+Do not use "by" in the first sentence of the methods section.
+
+Do not use "each" in the first sentence of the methods section.
+
+Do not use the word "which" in the first sentence of the methods section.
+
+Do not use "the" at the beginning of a sentence, unless you are using it to refer to a well-known fact.
+
+Do not use "left" instead of "numbers left".
+
+Do not use "right" instead of "numbers right".
+
+Do not use "right" before a number.
+
+Do not use "comma" after a number.
+
+Do not use "equals" instead of "equals sign".
+
+Do not use "equals" instead of "=".
+
+Do not use "greater than" instead of ">".
+
+Do not use "less than" instead of "<".
+
+Do not use "greater than or equal to" instead of "=gt".
+
+Do not use "less than or equal to" instead of "=le".
+
+Do not use a period instead of a comma.
+
+Do not

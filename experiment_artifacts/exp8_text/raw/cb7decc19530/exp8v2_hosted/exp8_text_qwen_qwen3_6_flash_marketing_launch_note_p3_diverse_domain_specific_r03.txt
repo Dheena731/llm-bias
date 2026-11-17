@@ -1,0 +1,5 @@
+Most personal finance spreadsheets break the moment you try to actually use them. Rows get added, formulas shift, categories drift into “miscellaneous,” and suddenly you’re spending more time debugging than budgeting. This template was built to stop that cycle. It’s a lightweight, dependency-free workbook designed for people who want their numbers to stay put through every pay period.
+
+Instead of chasing visual polish, the structure prioritizes mathematical stability. Dynamic named ranges absorb new expense lines without breaking your totals. All intermediate calculations surface in separate review tabs so you can trace exactly how each figure rolls up before it reaches your summary sheet. Fixed obligations are pinned to dedicated cells, while variable expenses sit in expandable tables with strict data validation to catch typos before they skew your balance. No macros, no scripts, no hidden cross-sheet references—just transparent formulas you can inspect line by line.
+
+The download includes a two-page setup sheet

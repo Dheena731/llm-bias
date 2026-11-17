@@ -1,0 +1,5 @@
+Here are a few options, depending on the filter's purpose:
+
+- **Show only records that match the selected criteria.** Records outside this range are hidden but not deleted.
+- **Filters the dataset to rows matching your selections. Clear all filters to view the full data.**
+- **Limits results to the selected date range. Use this to focus analysis on a specific period.**

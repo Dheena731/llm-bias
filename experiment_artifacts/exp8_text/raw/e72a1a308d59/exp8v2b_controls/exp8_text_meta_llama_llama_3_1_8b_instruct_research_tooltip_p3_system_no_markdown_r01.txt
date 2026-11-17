@@ -1,0 +1,8 @@
+A date-range selector is a graphical user interface component that allows users to select a range of dates, typically with start and end dates. It often includes features such as:
+
+* A calendar or date picker for selecting individual dates
+* A slider or range input for selecting a continuous range of dates
+* Ability to adjust the selected date range by dragging the start and end dates
+* Option to select a specific date range, such as "last 7 days" or "next month"
+
+This component is commonly used in applications where users need to select a range of dates for reporting, filtering, or data analysis purposes.

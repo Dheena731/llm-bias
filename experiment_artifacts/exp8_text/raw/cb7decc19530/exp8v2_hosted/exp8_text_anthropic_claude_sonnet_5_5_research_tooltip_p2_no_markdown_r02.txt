@@ -1,0 +1,1 @@
+The shaded band is the confidence interval. It shows the range where the true value likely falls. For a 95% interval, if we repeated this study many times, about 95% of the intervals would contain the true value. A wider band means more uncertainty.

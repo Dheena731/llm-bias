@@ -1,0 +1,30 @@
+Do you want to know the average salary of an IT professional, a salary rate of a director, an average salary of a consultant, a salary rate of a programmer etc.?
+
+Enter the level and the field from the drop-down list, and then click the button on the right. The calculation will begin automatically.
+
+Figure 1
+
+After the calculation, the resulting figure, obtained as the average value of the values, is displayed in the upper left corner of the result page.
+
+Figure 2
+
+You can also make a detailed calculation by choosing the detailed calculation in the drop-down list. The detail calculation will display a list of formulas that you can choose from.
+
+Figure 3
+
+Each formula has a reference number (from the lower left) to the name of the function.
+
+For example, if you want to calculate the salary of a manager, you can choose the formula that contains the word “manager”.
+
+Figure 4
+
+Again, you can choose the fields to be calculated, and enter them into the calculation form. If you want to calculate all of the fields, it is best to calculate all of the fields at the same time.
+
+Figure 5
+
+You can add a temporary field to the calculation if you do not have enough values for the field that you want to calculate.
+
+Figure 6
+
+Captcha image
+Please Enter Captcha

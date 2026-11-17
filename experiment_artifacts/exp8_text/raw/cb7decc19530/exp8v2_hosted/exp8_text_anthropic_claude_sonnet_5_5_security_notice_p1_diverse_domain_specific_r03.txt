@@ -1,0 +1,30 @@
+**Subject: Password reuse: what we found Tuesday, what to do by Friday**
+
+**To:** Dispatch, Carrier Sales, Accounts Receivable
+**From:** Dana Okafor, IT
+**Date:** Thursday
+
+On Tuesday, a login to one of our load board accounts came from an IP address in a country where we have no staff and no carriers. The password used was correct on the first try. We checked it against public breach lists, and it matched a password from an unrelated site (a fantasy football league) that was exposed in 2022. The employee had used the same password for both.
+
+Nothing was posted and no loads were touched. We caught it because the board flagged the unfamiliar location. Had it gone unnoticed, the person holding that login could have posted loads under our MC number, collected a deposit, and disappeared. We'd have been the name on the paperwork. Double-brokering fraud usually starts this way.
+
+**What we need from you by end of day Friday**
+
+1. **Make your load board password unique.** That means DAT, Truckstop, and any other board you use. It shouldn't be used anywhere else, including your email, your bank, or the portals of customers and carriers.
+2. **Do the same for the carrier onboarding portal and the customer EDI portals.** These hold rate confirmations and remittance details, which are worth more to a thief than a load listing.
+3. **Use the password manager.** Licenses are free to you. Ask Dana for an invite, or come by the desk by the break room on Wednesday or Thursday and we'll set it up in ten minutes. Don't want to use it? A written-down password in a locked drawer is still safer than the same one in five places.
+4. **Turn on two-step login** for every system that offers it. All the load boards do.
+
+**What not to do**
+
+- Don't add a number or "!" to your old password and call it new. Attackers try those variations automatically.
+- Don't share the dispatch login with a coworker "just for the weekend." Ask us for a second seat instead.
+- Don't email passwords to yourself.
+
+**If you think a password was reused or exposed,** tell us today. You won't be in trouble. A report on day one is a ten-minute fix, and one on day thirty can be a fraud claim.
+
+Questions: it@yourcompany.example or ext. 214.
+
+---
+
+*Company, names, and contact details are placeholders. Swap in your own, and adjust the systems named to match what your team actually uses.*

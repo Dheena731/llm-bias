@@ -1,0 +1,1 @@
+A missing-value marker is a symbol used to indicate that a value is unknown or not available for a particular data point. It can take the form of a blank space, a dash, or an asterisk, depending on the data format or convention. The presence of a missing-value marker signifies that the data point is either missing, unrecorded, or not applicable.

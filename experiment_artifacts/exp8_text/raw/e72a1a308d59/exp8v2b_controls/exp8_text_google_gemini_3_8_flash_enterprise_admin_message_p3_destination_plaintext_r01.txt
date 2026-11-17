@@ -1,0 +1,19 @@
+Subject: Upcoming Change to our VPN Client
+
+Hello Team,
+
+We are upgrading to a new VPN client to improve connection stability and security. 
+
+Key Dates:
+- New VPN available: [Date]
+- Old VPN shutdown: [Date]
+
+Action Required:
+Please install the new client prior to [Date] to ensure uninterrupted remote access. You can find download links and setup instructions here: [Insert Link]
+
+After [Date], the old VPN will no longer work. 
+
+If you have any questions or need help with the installation, please contact the IT Help Desk at [Help Desk Phone/Email].
+
+Thank you,
+IT Support Team

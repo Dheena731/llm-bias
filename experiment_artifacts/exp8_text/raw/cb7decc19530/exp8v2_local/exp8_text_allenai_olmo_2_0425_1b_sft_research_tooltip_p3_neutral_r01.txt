@@ -1,0 +1,1 @@
+This tool-tip explains the date-range selector function: Allows the user to select a specific date range to filter records.

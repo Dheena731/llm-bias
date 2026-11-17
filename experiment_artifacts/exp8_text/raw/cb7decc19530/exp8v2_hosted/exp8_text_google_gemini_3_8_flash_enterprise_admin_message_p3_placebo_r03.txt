@@ -1,0 +1,7 @@
+Hello team,
+
+We are updating the Virtual Private Network (VPN) software that you use to securely connect to our internal systems while working remotely. 
+
+During this transition, you may be prompted on your computer to accept the update and restart the application. Once the process is finished, you can log in as you normally do. 
+
+If you encounter any connection issues or have questions, please reach out to the technical support team for assistance.

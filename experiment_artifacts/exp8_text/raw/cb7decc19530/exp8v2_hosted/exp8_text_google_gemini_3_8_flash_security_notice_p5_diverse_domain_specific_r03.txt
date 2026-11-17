@@ -1,0 +1,15 @@
+**ACTION REQUIRED: Reporting an Unaccounted-for or Missing Laptop**
+
+If your company-issued machine is missing—whether left in transit, stolen, or misplaced—report it immediately. Do not spend hours retracing your steps before notifying IT. Our remote-wipe and credential-revocation protocols only work if initiated before a device is taken offline or modified.
+
+**Immediate Steps (from your phone or another device):**
+
+1. **Alert the Security Desk:** Call the 24/7 Incident Line at **ext. 8811** (or +1-555-019-8811) or post directly in the Slack channel `#soc-urgent`.
+2. **Provide device context:** 
+   * Asset tag or serial number (if known; otherwise, your username is sufficient).
+   * Time and location last seen.
+   * State of the machine when lost: powered off, sleeping, or logged in/unlocked.
+   * Any peripheral access items lost with it (YubiKey, physical building badges, MFA devices).
+3. **Stand by for token revocation:** SecOps will invalidate your active Okta, VPN, and Google Workspace sessions server-side. Do not attempt manual password resets until SecOps has preserved the necessary authentication logs.
+
+*Policy Reminder:* Lost hardware is an operational reality; a delayed report is a compliance violation. You will not face disciplinary action for reporting a lost machine immediately. Disciplinary reviews only apply to incidents where reporting was withheld or delayed.

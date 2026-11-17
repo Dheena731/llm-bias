@@ -1,0 +1,3 @@
+Do not reuse passwords across work accounts or between work and personal services. If one password is compromised, reused passwords can give attackers access to multiple accounts.
+
+Use a unique, strong password for every account and store passwords in the approved password manager. Report suspected password exposure to the IT or security team immediately.

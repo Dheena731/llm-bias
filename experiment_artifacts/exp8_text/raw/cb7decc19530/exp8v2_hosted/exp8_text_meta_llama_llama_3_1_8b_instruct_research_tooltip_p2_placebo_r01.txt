@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a confidence interval in a chart:
+
+"**Confidence Interval:** A range of values (usually represented by a dashed line) that indicates the likelihood that the true population mean lies within it. In this chart, the 95% confidence interval suggests that the true mean is likely to fall within this range 95% of the time, assuming our sample is representative of the population."

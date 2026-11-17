@@ -1,0 +1,9 @@
+Latency in web applications is fundamentally a problem of state synchronization governed by two rigid constraints: network physics and human perception.
+
+At the interface layer, the human threshold for perceived causality is roughly 100 milliseconds. When an action—like toggling a setting or submitting a form—exceeds this budget without optimistic UI updates, the user’s mental model breaks. They assume the input was dropped, prompting repeated clicks that trigger duplicate `POST` requests, race conditions, and corrupted client state. 
+
+On the network, latency compounds non-linearly through structural waterfalls. A 40ms round-trip time (RTT) between a client and an edge node seems trivial until an application requires sequential steps: DNS resolution, TLS negotiation, a CORS preflight `OPTIONS` check, authentication, and a database read. In an unoptimized architecture, that 40ms physical baseline easily becomes an 800ms delay before the browser can even begin evaluating JavaScript and painting the DOM.
+
+On the infrastructure side, latency directly dictates capacity. High latency increases the duration of open connections. A worker thread or database connection pool held for 250ms per request handles an order of magnitude less throughput than one held for 25ms. Under peak traffic, slow I/O doesn’t just degrade the user experience; it exhausts connection limits, inflates memory pressure, and turns a localized downstream bottleneck into a cascading system failure.
+
+Controlling latency is not about superficial polish. It is the practice of keeping client-server transactions short enough to preserve both human attention and backend resource limits.

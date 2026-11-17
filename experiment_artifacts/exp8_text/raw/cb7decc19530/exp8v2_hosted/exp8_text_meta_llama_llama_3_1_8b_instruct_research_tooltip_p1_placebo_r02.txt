@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+**Dataset Filter**
+
+Apply this filter to exclude or include specific data points based on their attributes. Select a filter type (e.g., "country", "age group") and enter a value or range of values to narrow down the dataset. This allows you to focus on specific subsets of data, making it easier to identify trends and patterns.

@@ -1,0 +1,13 @@
+Here is a short admin message about a scheduled dashboard maintenance window:
+
+"Attention all users,
+
+Please be advised that our dashboard will be undergoing scheduled maintenance on [insert date and time]. During this time, the dashboard will be unavailable for approximately [insert duration]. We apologize for any inconvenience this may cause and appreciate your patience as we perform this necessary maintenance.
+
+If you have any urgent needs or concerns, please reach out to our support team for assistance.
+
+Thank you for your understanding."
+
+Alternatively, you can make it shorter:
+
+"Attention users, our dashboard will be unavailable on [insert date and time] due to scheduled maintenance. We apologize for the inconvenience and appreciate your patience. If you have urgent needs, please contact our support team."

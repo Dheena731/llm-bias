@@ -1,0 +1,1 @@
+This filter allows you to narrow the dataset to specific records that meet your criteria. By selecting one or more categories from the available options, you can exclude records that do not match your chosen specifications. The filter can be used to isolate particular subsets of data, such as results from a specific location, time period, or demographic.

@@ -1,0 +1,3 @@
+The app is making a new feature: User Savings Goals. A savings goal is something a user sets as a target to save money. Simply put, it is a saving goal that a user sets to have a certain amount of money saved by a certain date. 
+
+The goal can be as simple as saving a certain amount of money. The user sets the goal, the app gets notified. The user can then set the date, and the app will track the progress and offer tips and reminders about saving money.

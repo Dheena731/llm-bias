@@ -1,0 +1,7 @@
+A small Google Calendar tweak if you work across time zones:
+
+When you enable a secondary time zone, don’t label it with the city or UTC offset. Label it with the person or team based there (e.g., “Priya / QA” instead of “IST”). 
+
+It removes the extra step of mentally converting geography into your team's actual working hours when you need to drop something on the grid.
+
+Settings → Time zone → Display secondary time zone → edit the “Label” field.

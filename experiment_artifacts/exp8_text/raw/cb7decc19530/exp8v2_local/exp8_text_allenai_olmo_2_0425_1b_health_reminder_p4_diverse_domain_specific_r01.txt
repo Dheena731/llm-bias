@@ -1,0 +1,3 @@
+Remember: this is not a grammar book. Chances are, there will be plenty of grammar mistakes in your examples. It's not the end of the world, but it'll make it harder for others to land because they'll have to work harder to figure out and decode your examples.
+
+Don't put much emphasis on the writing because someone may try to reverse engineer the domain to write some non-existent content.

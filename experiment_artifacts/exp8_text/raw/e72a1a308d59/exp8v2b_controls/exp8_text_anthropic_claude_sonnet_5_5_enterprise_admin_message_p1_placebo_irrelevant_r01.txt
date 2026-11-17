@@ -1,0 +1,18 @@
+**Subject: Scheduled Dashboard Maintenance: [Day, Date]**
+
+Hi everyone,
+
+We'll be performing scheduled maintenance on the analytics dashboard on **[Day, Date] from [Start Time] to [End Time] [Time Zone]**.
+
+**What to expect:**
+- The dashboard will be unavailable for the duration of the window.
+- Scheduled reports and data refreshes during this time will run once maintenance is complete.
+- No action is needed on your part, and your saved views and settings will not be affected.
+
+If you have a time-sensitive report due during this window, please export what you need beforehand. We'll send a brief note once everything is back online.
+
+Questions or concerns? Contact [Admin Name/Support Channel].
+
+Thanks for your patience,
+[Your Name]
+[Team/Department]

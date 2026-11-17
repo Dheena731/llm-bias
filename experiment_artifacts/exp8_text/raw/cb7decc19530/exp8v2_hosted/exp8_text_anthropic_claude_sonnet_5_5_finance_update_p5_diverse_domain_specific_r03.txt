@@ -1,0 +1,15 @@
+**Payments update: delayed settlement for card payouts (Tuesday, 3:40 PM ET)**
+
+Card payments are being authorized and captured normally. What's delayed is settlement: funds from captures made after 9:15 AM ET today are not yet appearing in merchant balances, and payouts scheduled for today may arrive a day late.
+
+**Cause:** Our acquiring bank rejected this morning's settlement file because of a header formatting error introduced in last night's batch-generation change. We've reverted the change and resubmitted. The bank has confirmed receipt but hasn't yet confirmed the file passed validation.
+
+**What this means for you:**
+- Customers are not being double-charged. Their authorizations and captures are intact.
+- Transactions will show as "captured" rather than "settled" in your dashboard until the file clears.
+- ACH payouts are unaffected. Card-funded payouts initiated today will go out on the next banking day once settlement completes.
+- Please don't refund and re-run charges to "fix" pending ones. That would create real duplicate transactions.
+
+**What we're doing:** Finance ops is reconciling today's captures against the resubmitted file line by line, so any mismatch is caught before funds are released.
+
+**Next update:** 6:00 PM ET, or sooner if the bank confirms. If your payout is still missing after Thursday morning, contact support with your merchant ID and we'll trace it directly.

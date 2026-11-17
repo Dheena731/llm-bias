@@ -1,0 +1,23 @@
+**NOTICE: TWO-FACTOR AUTHENTICATION REQUIRED**
+
+**To:** All Users  
+**From:** IT Security / Administration  
+**Date:** [Current Date]  
+**Effective:** [Deadline Date]  
+
+As part of our ongoing effort to strengthen account security and protect sensitive data, all users are required to enable Two-Factor Authentication (2FA) on their accounts.
+
+**Action Required:**  
+Please activate 2FA before [Deadline Date] by following these steps:
+1. Log in to your account.
+2. Go to **Settings → Security → Two-Factor Authentication**.
+3. Choose your preferred verification method (authenticator app recommended) and complete the setup.
+
+Accounts that remain unsecured after the deadline may be temporarily suspended pending review. 
+
+If you need assistance or encounter issues during setup, please contact IT Support at [support email/phone] or visit the internal help portal.
+
+Thank you for your prompt attention to this important security measure.
+
+[Sender Name/Title]  
+[Organization/Department]

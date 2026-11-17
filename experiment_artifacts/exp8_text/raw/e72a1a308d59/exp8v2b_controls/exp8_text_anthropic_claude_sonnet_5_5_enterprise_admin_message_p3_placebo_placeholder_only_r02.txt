@@ -1,0 +1,21 @@
+**Subject: Updated VPN client rolling out next week**
+
+Hello everyone,
+
+We're upgrading our VPN client to a newer version that offers faster connection times, more reliable reconnects when switching networks, and improved security.
+
+**What's changing**
+- The VPN app will update automatically the next time you restart your computer after the rollout begins next Monday.
+- The interface has a cleaner layout, and the connect button is now on the main screen.
+- Your saved login and connection settings will carry over, so you won't need to set anything up again.
+
+**What you need to do**
+Nothing, in most cases. Just restart your computer when prompted. If you're connected to the VPN when the update arrives, it will wait until you disconnect.
+
+**If something goes wrong**
+If the app doesn't open or you can't connect after updating, restart your computer first. If the problem continues, contact the IT Help Desk and we'll get you sorted quickly.
+
+Thanks for your patience as we make this improvement.
+
+Best regards,
+The IT Team

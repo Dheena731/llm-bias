@@ -1,0 +1,56 @@
+Tooltip Text
+
+(Please use a language-neutral, formal, and concise language, e.g., don't use contractions such as "y'day".)
+
+
+Be mindful that users expect tooltips to be short and to carry the same information as the label, so you should not make the tooltip longer than the label. Use a language-neutral, formal, and concise language.
+
+Information Density
+
+If you want to use a "strange-lookin' date" for the tooltip to emphasize a particular date, your users might not know what the date is. If you want to emphasize a "strange-lookin' date", choose a date that the users are familiar with, like a Monday or a Friday, so it can be associated with the correct date. You can customize the visual style of the date using CSS.
+
+How it works
+
+The tooltip text uses a text-transform rule, which makes the text uppercase. This is what makes the "انتباه" text appear as:
+
+anntb_e8iLQKxweYaLIYUeHB2wvYnJgR2wwiCv5x1noL8iDcsgKb9i8QPeL_21oRy1XxusWZn9zZMhUNwCmJ0ozLPX2n3i0Uw8p1vM7xW_2Wv7dM-wa1oQ8qPqg1U8y7Z0cAkN8S0Ny0vJbqyU
+
+Visual Style
+
+The tooltip text is styled with a custom color, font color, line-height, and background color. You can customize the visual style of the date with CSS. See the theme for an example.
+
+Date Range
+
+Add a space after the start of the date, then a caret C at the end of the date. An event starts at that point, and ends when the caret moves to the next hand-shaped character. For example, the following string is appended to the end of a string: "2014-12-25 01:12:13". Note that you can change the string to something else, if you want to add your own text to the end of the date.
+
+
+A date range selector may be a single element or an array of elements. Write a tooltip for each element of the range.
+
+
+#event__date__2014-12-25 01:12:13, 2014-12-25 01:13:13
+
+#event__date__2014-12-25 01:17:13
+
+#event__date__2014-12-25 01:20:13
+
+#event__date__2014-12-25 01:23:13
+
+
+#event__date__2014-12-25 01:29:13
+
+#event__date__2014-12-25 01:31:13
+
+#event__date__2014-12-25 01:33:13
+
+#event__date__2014-12-25 01:35:13
+
+
+#event__date__2014-12-25 01:37:13
+
+#event__date__2014-12-25 01:39:13
+
+#event__date__2014-12-25 01:41:13
+
+#event__date__2014-12-25 01:43:13
+
+#event__date__2014-12-25 01:45:13

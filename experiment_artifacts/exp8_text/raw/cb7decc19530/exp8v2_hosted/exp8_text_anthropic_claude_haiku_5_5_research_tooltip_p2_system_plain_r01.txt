@@ -1,0 +1,1 @@
+A confidence interval shows the range where the true value likely falls, based on the sample data. A 95% confidence interval means that if the same study were repeated many times, about 95% of the intervals calculated this way would contain the true value. Wider bars indicate more uncertainty, while narrower bars indicate more precision.

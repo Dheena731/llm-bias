@@ -1,0 +1,12 @@
+**Subject:** ⚙️ Scheduled Dashboard Maintenance Window
+
+Hello everyone,
+
+Please be advised that our dashboard will be temporarily unavailable for scheduled maintenance on **[Date]** from **[Start Time] to [End Time] [Timezone]**. During this window, we'll be performing backend upgrades to improve system performance and security.
+
+We apologize for the brief interruption and appreciate your patience. If you have urgent needs or encounter issues during this period, please contact **[Support Email/Help Desk Link]**.
+
+Thank you for your understanding.
+
+Best regards,  
+**System Administration Team**

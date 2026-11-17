@@ -1,0 +1,13 @@
+# How caching speeds up a website
+
+Every page view costs work: the server parses the request, runs application code, queries the database, builds HTML, and sends it across the network. Caching speeds things up by keeping the result of that work and reusing it, so most of those steps get skipped.
+
+Take a product page on a WordPress or Rails site. Rendering it might take 30 database queries and 200 ms of CPU time. The page only changes when someone edits the product, but without caching the server redoes that work for every visitor. With caching, it happens once, and the output is stored.
+
+The saved copy can live at several layers, each closer to the visitor:
+
+- **Browser cache.** A response header like `Cache-Control: max-age=31536000` tells the browser to keep your CSS, JavaScript, and images for a year. On the next page view, those files load from disk with no network request. Filenames with content hashes (`app.3f9a1c.js`) let you change a file by changing its name.
+- **CDN or edge cache.** A server in Frankfurt can answer a visitor in Berlin in a few milliseconds instead of sending the request to your origin in Virginia.
+- **Application cache.** Redis or Memcached hold expensive results, such as a rendered sidebar or a query for the top 10 articles, so the database isn't asked the same question every second.
+
+The tradeoff is staleness. A cached copy is right only until the underlying data changes, so you choose a time-to-live, or purge entries when content is edited. A price that stays wrong for an hour is a real bug, and deciding what can be stale, and for how long, is most of the work in caching.

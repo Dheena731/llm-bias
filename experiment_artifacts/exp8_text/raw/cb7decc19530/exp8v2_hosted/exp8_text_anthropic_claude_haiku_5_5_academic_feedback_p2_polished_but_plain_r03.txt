@@ -1,0 +1,9 @@
+Thank you for your methods section. The overall structure is clear, and the description of your participant recruitment is easy to follow. You also did well to state your inclusion criteria explicitly, since readers need that information to judge whom your findings apply to.
+
+The main area to strengthen is the justification for your analytic approach. At present, you describe the steps you took but not why you chose them. A sentence or two linking each major decision to your research question would make the section much more persuasive. For example, explaining why a particular statistical test suits your data type, or why you chose a semi-structured interview format over a survey, shows the reader that your design was deliberate.
+
+Some procedural details are also missing. Please specify the software or version you used, the threshold for statistical significance if applicable, and how you handled missing or excluded data. Readers should be able to replicate your procedure from the description alone.
+
+Finally, check your tense. Methods sections are conventionally written in the past tense, since they describe what you did. A few sentences drift into the present, which creates some confusion about whether a step was planned or completed.
+
+With these revisions, the section will be both more rigorous and easier to follow. I am happy to look at a revised draft.

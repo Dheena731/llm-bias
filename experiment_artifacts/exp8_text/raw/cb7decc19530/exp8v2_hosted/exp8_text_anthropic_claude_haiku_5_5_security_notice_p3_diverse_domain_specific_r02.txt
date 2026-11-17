@@ -1,0 +1,9 @@
+**Lock your screen when you step away**
+
+Facing the reception desk, the monitors on the second floor are visible from the client waiting area, and last Tuesday a client read a tax return summary on an unattended screen while waiting for a signature. Nothing left the building, but it shouldn't have been on display.
+
+Starting Monday, the screen timeout drops from 15 minutes to 5. That's a setting change, not a replacement for locking manually. If you're leaving your desk, even for the kitchen or the copier, press Windows+L (Cmd+Ctrl+Q on the Macs in the Hartley room).
+
+If you share a workstation during busy season, sign out instead of locking so the next person doesn't end up in your session.
+
+Questions to Dana in IT, ext. 214.

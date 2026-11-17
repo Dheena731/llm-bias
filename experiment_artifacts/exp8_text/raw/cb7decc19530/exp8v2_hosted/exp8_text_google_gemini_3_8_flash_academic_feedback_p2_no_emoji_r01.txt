@@ -1,0 +1,9 @@
+Overall, you have done a good job outlining the general procedure and the materials used in your study. The structure is logical, and the step-by-step progression of the experiment is easy to follow.
+
+To strengthen this section, focus on reproducibility:
+
+* Provide more specific details regarding your sample size and the criteria used for participant selection or data exclusion.
+* Clearly define the variables and specify the exact parameters, settings, or software versions used during data collection.
+* Add a brief subsection detailing the statistical analyses you performed, including the justification for each test.
+
+With these additional details, the reader will have all the necessary information to replicate your work accurately. Keep up the good effort.

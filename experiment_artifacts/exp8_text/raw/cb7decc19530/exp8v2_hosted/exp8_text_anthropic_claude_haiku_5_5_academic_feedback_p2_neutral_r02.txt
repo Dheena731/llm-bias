@@ -1,0 +1,25 @@
+Here's a sample feedback note for a methods section. Since I don't have the student's actual text, I've assumed a quantitative study on the effect of a reading intervention on test scores.
+
+---
+
+**Feedback on Methods Section: Draft 1**
+
+Thank you for a clear and well-organized methods section. Your participant description is detailed, and the step-by-step procedure is easy to follow, so another researcher could roughly replicate your study.
+
+**Strengths**
+- You describe your sample (size, age range, recruitment) in a logical order.
+- Your justification for the outcome measure is clear and cites appropriate literature.
+
+**Areas to strengthen**
+1. **Sampling rationale:** Explain why you chose convenience sampling over random selection, and acknowledge how this may limit generalizability.
+2. **Materials:** Report the reliability of your test instrument (e.g., Cronbach's alpha from prior studies or your pilot data).
+3. **Procedure timing:** Specify how many weeks the intervention lasted and how often sessions occurred. "Several weeks" is too vague.
+4. **Analysis plan:** You name a t-test but don't say why it's appropriate. State your assumptions (normality, equal variances) and how you checked them.
+
+**Priority for revision:** Start with item 4. Reviewers will look closely at whether your analysis matches your design, and currently the link is implied rather than stated.
+
+Overall, this is a solid foundation. With these additions, the section will be much more rigorous and transparent.
+
+---
+
+If you paste the student's actual methods section, I can tailor this feedback to their specific text.

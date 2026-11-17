@@ -1,0 +1,16 @@
+**Subject: Card processing fees changing March 1**
+
+Starting with statements dated March 1 and later, we're showing the card network assessment as its own line instead of folding it into your processing rate.
+
+Until now, your 2.6% + 10¢ rate covered both our fee and the assessments Visa and Mastercard charge on every sale. Those assessments are set by the networks, and they rose twice last year. Keeping them inside one rate meant we either absorbed the increases or repriced everyone at once. Itemizing them lets each change show up where it actually happens.
+
+Your statement will now show:
+
+- **Processing rate:** 2.30% + 10¢
+- **Network assessment:** passed through at cost, currently about 0.14% + 0.5¢ on standard credit sales
+
+For a $48.00 credit sale, the total is $1.27, down from $1.35 under the old rate. Most standard credit sales will cost slightly less. Rewards and premium cards carry higher network assessments, so those sales will cost more than they did, and debit transactions follow their own schedule. Your March statement will show the breakdown by card type.
+
+You don't need to do anything. If you run an older terminal that displays a fee on the receipt, check that it's updated to the new schedule before March 1. Questions about a specific transaction can go to merchantsupport@harborpay.example or 800-555-0142.
+
+Harbor Payments Merchant Accounts

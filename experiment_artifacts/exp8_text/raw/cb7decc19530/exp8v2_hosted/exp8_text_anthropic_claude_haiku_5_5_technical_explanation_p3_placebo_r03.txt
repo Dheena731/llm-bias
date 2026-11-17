@@ -1,0 +1,9 @@
+Software updates matter for three main reasons: security, reliability, and access to new features.
+
+**Security.** Software often contains vulnerabilities, which are flaws that attackers can exploit to steal data, take control of a device, or spread malware. When developers discover these flaws, they release patches. Installing updates closes these gaps, so an outdated device stays exposed to attacks that have already been fixed.
+
+**Reliability.** Updates also fix bugs that cause crashes, data loss, or poor performance. Even small fixes can make everyday tasks run more smoothly and prevent problems from getting worse over time.
+
+**New features and compatibility.** Updates can add useful capabilities and keep software working with other programs, devices, and services. Over time, older versions may stop receiving support or stop working with newer systems.
+
+In short, updating regularly protects your information, keeps your tools working properly, and gives you the latest improvements. Turning on automatic updates is an easy way to stay protected without having to remember.

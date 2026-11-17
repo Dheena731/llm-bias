@@ -1,0 +1,14 @@
+**Notice: Quarterly User Access Review**
+
+**To:** Department Managers and System Administrators
+
+The quarterly user access review is now officially underway. This process ensures that all personnel maintain only the system permissions necessary to perform their current job duties.
+
+**Required Actions:**
+1. Examine the current access lists and permission levels for all members of your team.
+2. Confirm and approve permissions for staff who still require their current access.
+3. Revoke permissions for any individuals who have transferred departments, changed roles, or left the organization.
+
+Please complete and submit your review approvals within fourteen calendar days of this notice. 
+
+If you have questions or require technical support during the review process, please contact the IT Help Desk.

@@ -1,0 +1,14 @@
+ADMIN NOTICE: Quarterly Access Review Cycle Open
+
+To all system owners and team managers:
+
+The quarterly user access review is now underway. To ensure our systems remain secure and compliant, all managers must review the current permissions assigned to their team members.
+
+Please complete the following actions:
+1. Verify that all listed users still require their assigned access levels.
+2. Flag and revoke permissions for any former employees or transferred staff.
+3. Submit your final approval through the Access Management Portal.
+
+Deadline for completion: Friday, [Insert Date], at 5:00 PM.
+
+Failure to complete the review by the deadline may result in the automatic suspension of unverified accounts. If you have any questions or require assistance, please contact the IT Security team.

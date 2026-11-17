@@ -1,0 +1,21 @@
+No poster draft came through with your message, so here is a sample feedback note you can adapt. If you paste or describe your draft, I can tailor it.
+
+---
+
+**Feedback on Poster Draft: "Effects of Soil Moisture on Seedling Emergence"**
+
+Thanks for sharing the draft. The central question is clear, and the layout moves logically from left to right. The results figure on the upper right is the strongest element: the color contrast is good and the axis labels are readable from a distance.
+
+**Strengths**
+- The title states the topic plainly and fits well within the header.
+- The methods panel is concise and uses numbered steps.
+- The main takeaway is easy to find.
+
+**Suggested revisions**
+1. **Increase the font size of figure captions.** At current sizes they will be hard to read beyond arm's length.
+2. **Shorten the introduction.** Aim for three sentences that state the gap, the question, and the hypothesis.
+3. **Add sample sizes to the figure legend** so viewers can judge the strength of the results.
+4. **Replace the dense results paragraph with two or three bullet points** to make the findings scannable.
+5. **Include a clear contact or QR code** for the full paper or data.
+
+Overall, this is a solid draft. Addressing the first three points would make the poster noticeably easier to read in a busy session.

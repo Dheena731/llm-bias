@@ -1,0 +1,10 @@
+**Latency** is the time delay between a user taking an action—such as clicking a button or loading a page—and the web application responding to that action. 
+
+Latency matters fundamentally because it directly influences human behavior and business outcomes:
+
+* **User Experience:** People expect web applications to feel instantaneous. Even slight delays of a few hundred milliseconds make an application feel sluggish and unresponsive, causing user frustration.
+* **Engagement and Retention:** When an application is slow, users are significantly more likely to abandon the site. Fast response times keep users engaged, while high latency leads to lost sales, incomplete registrations, and lower overall usage.
+* **Search Visibility:** Major search engines use page speed and responsiveness as ranking factors. High latency can cause a website to rank lower in search results, reducing organic traffic.
+* **Productivity:** For business and productivity tools, latency compounds over time. Responsive interfaces allow users to complete tasks quickly, while delays disrupt focus and slow down workflows.
+
+In short, low latency makes an application feel reliable and effortless to use, which is essential for retaining users and achieving business goals.

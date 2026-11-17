@@ -1,0 +1,17 @@
+**To: All staff, Halvorsen Packaging**
+**From: IT Helpdesk**
+**Re: Fake invoice and payroll emails this week**
+
+Three phishing emails reached inboxes on Tuesday and Wednesday. Two were caught by the filter. One got through to Accounts Payable.
+
+That one was titled "RE: Revised remittance, Q3 invoices" and came from a domain that reads halvorsen-packaqing.com, with a q where the g should be. It asked for the bank routing details to be changed before Friday's run. Nobody sent it. It was a bad guess at a live thread, and the sender knew our invoice schedule well enough to be dangerous.
+
+Two things to do:
+
+**If a message asks you to change bank details, pay something early, or log in to view a document,** call the vendor or colleague on a number you already have on file. Don't reply to the email or use a phone number inside it.
+
+**If you've already clicked a link or entered a password,** call the helpdesk at ext. 4410 right away. Don't wait to see if anything happens. We can reset the password and check for mail forwarding rules, which is how these attacks often stay hidden.
+
+To report a suspicious message, use the **Report Phish** button in the Outlook ribbon. Don't forward it to colleagues.
+
+Thanks to Priya in AP, who called the vendor before touching anything.

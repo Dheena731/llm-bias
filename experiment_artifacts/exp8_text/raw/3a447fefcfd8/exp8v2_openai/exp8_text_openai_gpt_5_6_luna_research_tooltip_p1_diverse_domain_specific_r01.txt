@@ -1,0 +1,1 @@
+What domain and filter behavior should the tooltip describe? For example: clinical-trial records filtered by recruitment status, or survey responses filtered by collection wave.

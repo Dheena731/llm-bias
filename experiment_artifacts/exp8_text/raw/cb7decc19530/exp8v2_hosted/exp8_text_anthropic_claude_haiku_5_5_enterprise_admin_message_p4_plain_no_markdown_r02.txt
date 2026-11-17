@@ -1,0 +1,7 @@
+Subject: Quarterly Access Review Begins Next Week
+
+All system owners and department managers are reminded that the quarterly access review for this cycle will open on Monday, and reviewers will have ten business days to complete it. During this period, each reviewer should confirm that every user listed under their area still requires the access they hold, and remove or flag any permissions that are no longer needed. Access requests for people who have changed roles or left the organization should be identified and submitted to the IT service desk for removal.
+
+The review is carried out through the identity management portal, where reviewers will find a list of accounts assigned to their systems. Please do not approve access on the basis of habit or past practice. Each entry should reflect a current business need. If you are unsure whether a user still requires a particular permission, contact the system owner or the security team before approving it.
+
+Completed reviews help us meet our audit obligations and reduce the risk of unauthorized access to sensitive data. Reviews not completed by the deadline will be escalated to the relevant department head. Questions about the process can be directed to the security team at the internal help desk.

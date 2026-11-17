@@ -1,0 +1,1 @@
+Confidence Interval: This range of values (95% CI) indicates the margin of error around the displayed statistic, accounting for random sampling variability.

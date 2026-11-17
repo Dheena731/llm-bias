@@ -1,0 +1,1 @@
+**Confidence interval:** The range where the true value probably lies, based on this data. Wider intervals mean more uncertainty. Overlapping intervals don't by themselves show that two values are the same.

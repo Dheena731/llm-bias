@@ -1,0 +1,4 @@
+Here's a concise tooltip explaining a confidence interval in a chart:
+
+**Confidence Interval (95%):**
+This range estimates the true population value with 95% certainty, assuming random sampling. It's calculated from a sample of [number] data points. If we repeated the sampling process many times, we'd expect the interval to contain the true population value about 95% of the time.

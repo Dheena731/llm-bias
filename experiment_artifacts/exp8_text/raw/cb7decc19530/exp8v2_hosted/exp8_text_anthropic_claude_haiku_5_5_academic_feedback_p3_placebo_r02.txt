@@ -1,0 +1,11 @@
+**Reviewer comment on the research question**
+
+The research question, as stated in the final paragraph of the Introduction, is "How does X affect Y?" It does not specify what X and Y mean in this study, what kind of effect is expected, or the population and setting to which the answer applies. As written, several different studies could claim to answer it, and the manuscript does not make clear which one was conducted.
+
+Specifically:
+
+1. **Key constructs are not defined.** Please state how each construct is measured and what observation would count as evidence of an effect.
+2. **The expected relationship is unstated.** Is the expectation a positive or negative association, a difference between groups, or a change over time?
+3. **The scope is missing.** The population, setting, and time frame should be stated explicitly.
+
+If the Methods address a narrower question than the Introduction suggests, the authors should either revise the research question to match what the design can answer or revise the design to match the question. A sharper formulation would name the variables, the population, and the comparison of interest. Once the question is fixed, the hypotheses, design, and analysis can be checked against it. I recommend a major revision on this point, since my assessment of the remaining sections depends on it.

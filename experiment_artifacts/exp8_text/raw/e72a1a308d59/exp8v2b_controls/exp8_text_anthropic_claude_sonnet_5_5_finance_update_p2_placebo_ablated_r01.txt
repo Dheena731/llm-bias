@@ -1,0 +1,21 @@
+**Subject: Change to our card payment fees from [date]**
+
+Hello [Customer name],
+
+From **[effective date]**, the fee we charge on each card payment you accept will change from **[old fee, e.g. 1.5% + 20p]** to **[new fee, e.g. 1.8% + 20p]**.
+
+**What this means for you:** On a £100 card payment, you will pay £[new amount] in fees instead of £[old amount]. Payments processed before [effective date] will be charged at the current rate.
+
+**Why we're making the change:** [One plain reason, e.g. "The banks that process card payments have raised the fees they charge us, and we need to pass part of that increase on."]
+
+**What you need to do:** Nothing. The new fee will apply automatically. If you would prefer not to continue at the new rate, you can close your account without penalty by [deadline] by contacting us at [contact method].
+
+You can see the full list of fees at [link or location]. If you have questions, contact us at [phone/email] and we'll be happy to help.
+
+Thank you for your business.
+
+[Name]
+[Company]
+
+---
+*I assumed the reader is a business that accepts card payments, and I used placeholders because I don't have the actual details. If your audience is cardholders instead, or you share the real figures and reason, I can rewrite it to fit.*

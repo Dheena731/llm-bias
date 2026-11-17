@@ -1,0 +1,26 @@
+**Acceptable Use Notice for the Shared Network**
+
+**1. Purpose.** This notice sets out the rules that govern use of the shared network and its connected devices, storage, and services. All users must comply with it as a condition of access.
+
+**2. Authorized Use.** The network is provided for work, study, and other activities that support its operation. Limited personal use is permitted provided it does not interfere with other users, consume excessive resources, or violate this notice or applicable law.
+
+**3. Prohibited Conduct.** Users must not:
+
+a. share login credentials or allow others to use their account;
+b. attempt to access files, accounts, or systems they are not authorized to use;
+c. install unlicensed software or disable security tools, monitoring software, or access controls;
+d. transmit malware, conduct unauthorized scanning or testing, or attempt to disrupt network services;
+e. download, store, or distribute unlawful, infringing, or abusive material;
+f. use the network for harassment, threats, or any activity prohibited by law.
+
+**4. Security Responsibilities.** Users must protect their credentials, lock unattended devices, report suspected security incidents promptly to the network administrator, and cooperate with any security review.
+
+**5. Monitoring.** To the extent permitted by applicable law, system administrators may monitor, log, and review network activity, including traffic, account activity, and stored data, for security, maintenance, and policy enforcement. Users should have no expectation of privacy in data stored on or transmitted across shared systems.
+
+**6. Enforcement.** Violations of this notice may result in suspension or revocation of network access, disciplinary action, and referral to law enforcement where appropriate. The network administrator may take immediate action without prior notice where necessary to protect the network or other users.
+
+**7. Reporting.** Suspected violations, security incidents, or misuse should be reported to the network administrator, who will review each report and take appropriate action.
+
+**8. Amendments.** The network administrator may amend this notice at any time. Continued use of the network after an amendment takes effect constitutes acceptance of the amended terms.
+
+**9. Acceptance.** Use of the shared network constitutes acceptance of this notice. Users who do not agree to these terms must not access the network.

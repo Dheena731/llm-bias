@@ -1,0 +1,16 @@
+**Introducing Your Monthly Spending Summary**
+
+We've added a Monthly Spending Summary to the Budget tab. At the start of each month, it gives you a clear picture of how your money was spent over the previous month.
+
+Each summary includes:
+
+- **Total spending** for the month, compared with the month before it
+- **Top categories**, ranked by how much you spent in each
+- **Budget progress**, showing which categories stayed within their limits and which went over
+- **Notable changes**, such as a category that rose sharply or a recurring charge we detected
+
+You'll get a notification when your summary is ready. You can also open any past summary from the Budget tab under History.
+
+Summaries are based only on transactions from linked accounts, so categories may shift if a transaction is miscategorized. You can correct any category directly in the transaction list, and future summaries will reflect the change.
+
+If you'd rather not receive the notification, you can turn it off in Settings under Notifications. The summaries will still be available in your History.

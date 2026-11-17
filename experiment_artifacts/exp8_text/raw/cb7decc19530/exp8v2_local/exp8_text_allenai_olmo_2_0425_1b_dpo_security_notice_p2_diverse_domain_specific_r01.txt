@@ -1,0 +1,26 @@
+Attention All Employees
+
+As of today, our organization has received information suggesting the potential use of phishing tactics in our communications. Phishing emails are malicious attempts to steal sensitive information and are strictly prohibited at [Your Company Name].
+
+We want to stress the importance of vigilance in detecting and avoiding phishing emails. Here are some common indicators that an email may be phishing:
+
+- Emails that ask for sensitive information, such as passwords, credit card numbers, or personal identification numbers, under false pretenses.
+- Emails with spelling and grammatical errors.
+- Emails that come from unfamiliar sources or sources that send spam.
+- Emails that contain urgent or threatening language.
+- Emails that request immediate action, such as clicking on a link to change personal information.
+- Emails that request personal information via email and don’t provide a secure method (such as a website address beginning with "https://").
+
+If you encounter such emails, do not click on any links or provide any personal information. If you suspect phishing, please report it to your IT department immediately.
+
+For further information on what constitutes phishing and how to protect yourself and your colleagues, please refer to our internal resource guide on cybersecurity and phishing awareness.
+
+Your safety and the security of your personal and corporate information are paramount. We appreciate your vigilance in protecting us from phishing and other cyber threats.
+
+Thank you for your ongoing dedication to the well-being of our organization.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Company Name]

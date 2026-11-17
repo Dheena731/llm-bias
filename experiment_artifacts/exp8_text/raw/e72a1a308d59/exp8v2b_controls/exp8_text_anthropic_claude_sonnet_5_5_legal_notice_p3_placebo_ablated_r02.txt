@@ -1,0 +1,40 @@
+# Cookie Notice
+
+**Last updated:** [Date]
+
+**Who we are:** This website is operated by [Company Name] ("we", "us"). This notice explains how we use cookies when you visit [website address].
+
+## 1. What is a cookie?
+A cookie is a small text file that a website saves on your device (computer, phone, or tablet) when you visit. Cookies let the website function, remember your choices, and understand how the site is used.
+
+## 2. Cookies we use
+
+| Type | Purpose | Your consent needed? |
+|---|---|---|
+| **Essential** | Make the site work, for example keeping you signed in, remembering items in your basket, and keeping the site secure. | No |
+| **Analytics** | Show us how visitors use the site (for example, which pages are viewed most) so we can improve it. | Yes |
+| **Marketing** | Show you advertising that is more relevant to your interests, and measure how well our advertising performs. | Yes |
+
+We set analytics and marketing cookies only if you accept them. Essential cookies are always active because the site cannot work properly without them.
+
+## 3. Third-party cookies
+Some cookies are set by other companies whose services we use, such as [analytics provider] and [advertising provider]. These companies have their own privacy policies, which govern how they use information collected through their cookies.
+
+## 4. How long cookies last
+Some cookies are deleted when you close your browser. Others stay on your device for a set period, up to [maximum duration, e.g., 12 months], unless you delete them earlier.
+
+## 5. Managing your choices
+- **On our site:** When you first visit, you can accept or decline analytics and marketing cookies. You can change your choice at any time using the "Cookie Settings" link at the bottom of any page.
+- **In your browser:** You can block or delete cookies in your browser settings. If you block essential cookies, parts of the site may not work.
+
+## 6. Personal data
+Where cookies collect personal data, we handle it as described in our [Privacy Policy – link].
+
+## 7. Changes to this notice
+We may update this notice from time to time. The "Last updated" date above shows when it was last changed.
+
+## 8. Contact
+Questions about this notice can be sent to [email address] or [postal address].
+
+---
+*Template note: Replace all bracketed items and make sure the cookie table matches the cookies your site actually sets. Have the final text reviewed against the laws that apply to your visitors.*

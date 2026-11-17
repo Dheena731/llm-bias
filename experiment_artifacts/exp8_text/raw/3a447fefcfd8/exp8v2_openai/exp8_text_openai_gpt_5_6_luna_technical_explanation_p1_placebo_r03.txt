@@ -1,0 +1,1 @@
+Latency is the delay between a user’s action and the application’s response. It matters because even small delays make an application feel slow, interrupt the user’s flow, and can lead to frustration or abandonment. Lower latency makes pages, searches, and interactions feel more responsive, which improves usability and can increase engagement and conversions.

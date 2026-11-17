@@ -1,0 +1,15 @@
+**INTERNAL NOTICE: CREDENTIAL SEPARATION POLICY**
+
+Using identical passwords across personal accounts, third-party services, and company systems creates a direct attack path. When external vendors suffer breaches, automated tools immediately test exposed username/password pairs against corporate logins. We have repeatedly traced internal compromises to this exact behavior, resulting in forced account suspensions and mandatory forensic audits.
+
+Effective immediately, all personnel must maintain strictly separate credentials for any work-issued platform, including identity providers, HRIS, ERP, collaboration suites, and cloud repositories. 
+
+Action required by Friday:
+1. Run a credential audit on your active accounts using the provided internal checklist.
+2. Change any duplicated passwords directly through SSO. Do not paste external credentials into system prompts.
+3. Activate MFA on all assigned roles; legacy token-only accounts will be decommissioned next quarter.
+4. Store new credentials exclusively in the enterprise password manager. Browser-save functions are disabled for corporate domains.
+
+Accounts detected with cross-domain reuse will be placed in temporary quarantine pending verification. Submit a request to SecOps via the internal ticket portal for assistance or to report suspected compromise.
+
+*Issued by Information Security & Access Management*

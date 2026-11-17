@@ -1,0 +1,7 @@
+**Reviewer comment: Research question**
+
+The manuscript does not state a clear research question, and this makes it difficult to judge whether the methods and conclusions are appropriate. The introduction says the study "explores the relationship between social media use and well-being," but this could mean several different things: whether heavier use predicts lower well-being, whether use causes changes in well-being, or whether the relationship differs across groups. These are different questions, and each requires different evidence. The analyses and discussion shift between them without saying which one the study is meant to answer. For example, the discussion uses causal language ("use reduces well-being"), while the design appears to support only an association.
+
+I ask the authors to state one specific, answerable question, ideally near the end of the introduction. It should define the key concepts, the population studied, and the type of relationship being tested (association, difference, or cause and effect). Any secondary questions should be clearly labeled as such. The authors should then check that the methods, results, and conclusions all address this question and claim no more than the design supports.
+
+Until the question is clarified, I cannot assess whether the study's conclusions follow from its evidence.

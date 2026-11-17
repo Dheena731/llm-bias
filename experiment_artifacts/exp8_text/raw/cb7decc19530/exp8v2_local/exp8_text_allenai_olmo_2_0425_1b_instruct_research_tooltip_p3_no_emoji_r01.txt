@@ -1,0 +1,1 @@
+This date-range selector allows you to choose specific dates within a given timeframe. After selecting dates, the tool highlights the selected dates for better visibility when using interactive elements.

@@ -1,0 +1,14 @@
+**Security Notice: Prohibition of Password Reuse**
+
+**To:** All Employees  
+**Subject:** Protecting Accounts by Using Unique Passwords  
+
+Reusing passwords across multiple accounts creates a significant security risk for our organization. When the same password is used for more than one service, a security breach on a single external website can allow unauthorized individuals to access your other accounts, including your workplace logins. 
+
+To protect company systems and sensitive data, please observe the following requirements:
+
+*   **Use a unique password for every account:** Your work credentials must never match passwords used for personal email, social media, financial services, or other external websites.
+*   **Do not share work passwords between internal tools:** Each workplace system should have its own distinct password.
+*   **Report compromised credentials:** If you suspect that any of your passwords have been exposed, change them immediately and contact the IT department.
+
+Thank you for your cooperation in keeping our workplace secure.

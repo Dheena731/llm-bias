@@ -1,0 +1,15 @@
+SECURITY NOTICE: Protect Your Accounts by Avoiding Password Reuse
+
+Reusing passwords across multiple accounts is one of the most common causes of security breaches. If an external website or personal account you use is compromised, attackers will often try those same credentials to access company systems.
+
+To keep our network safe, please follow these guidelines:
+
+1. Never use your company password for personal accounts, apps, or external websites.
+2. Ensure every work-related account has a unique, strong password.
+3. Use the company-approved password manager to safely generate and store your credentials.
+
+If you suspect any of your passwords have been exposed, change them immediately and notify the IT Security Team. 
+
+Thank you for your cooperation in keeping our workplace secure.
+
+IT Security Team

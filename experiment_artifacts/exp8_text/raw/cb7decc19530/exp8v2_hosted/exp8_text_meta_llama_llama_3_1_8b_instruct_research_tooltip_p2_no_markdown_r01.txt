@@ -1,0 +1,3 @@
+Hover over this chart to learn about the confidence interval:
+
+A confidence interval shows the range of values within which the true population parameter is likely to lie with a certain level of confidence. In this chart, the confidence interval represents the plausible range of values for the parameter being measured, based on the sample data.

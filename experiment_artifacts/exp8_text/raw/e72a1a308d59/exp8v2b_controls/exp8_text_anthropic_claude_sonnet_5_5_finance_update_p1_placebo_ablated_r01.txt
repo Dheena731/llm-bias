@@ -1,0 +1,26 @@
+**Subject: New: your monthly spending summary**
+
+Hi everyone,
+
+We've added a monthly spending summary that shows where your money went in the past month, so you can review your spending in one place instead of scrolling through individual transactions.
+
+**What's in it**
+- Your total spending for the month
+- Spending by category (for example groceries, transport, and bills)
+- How this month compares with last month, both overall and for each category
+- Your largest individual purchases
+
+**When you'll get it**
+The summary is ready on the first day of each month and covers the previous calendar month. You'll get a notification when it's available, and you can open it any time from the **Summary** tab. [Adjust to match your product.]
+
+**What to know**
+- The summary uses only the transactions already in your account. If you've linked a new account, its earlier transactions may not appear.
+- Categories are assigned automatically. If one looks wrong, you can change it, and the summary will update to reflect your change.
+
+**Your control**
+You can turn the monthly notification off in **Settings → Notifications**. The summary will still be available in the app.
+
+We'd like to hear what's useful and what's missing. Reply to this message or use the feedback button in the app.
+
+Thanks,
+[Team name]

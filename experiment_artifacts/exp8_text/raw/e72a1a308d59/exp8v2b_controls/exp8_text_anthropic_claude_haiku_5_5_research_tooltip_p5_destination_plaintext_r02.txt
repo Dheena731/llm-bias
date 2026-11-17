@@ -1,0 +1,1 @@
+Click "Export" above the results table to download them as a CSV or Excel file. The export includes all rows returned by the current query, not just the rows shown on this page.

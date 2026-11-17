@@ -1,0 +1,34 @@
+# Cookie Notice: Harrow Sound Ferries Ltd
+
+*Applies to www.harrowsoundferries.example ("the Site"). Last revised 14 March 2025.*
+
+**1. Cookies set without your consent**
+
+These are needed to deliver a service you have asked for, and are exempt from consent under regulation 6(4) of the Privacy and Electronic Communications Regulations 2003. They cannot be switched off on the Site.
+
+| Name | Purpose | Lifetime |
+|---|---|---|
+| `hsf_session` | Holds your basket and the 12-minute vehicle-deck or seat hold while you pay | Until browser closes |
+| `hsf_csrf` | Protects the payment form against forged requests | Until browser closes |
+| `hsf_consent` | Records your answers to this notice | 6 months |
+
+**2. Cookies set only if you accept them**
+
+| Name | Purpose | Lifetime |
+|---|---|---|
+| `hsf_route` | Remembers your usual crossing so that cancellation and delay notices for that route appear first | 90 days |
+| `hsf_stats` | First-party count of page visits and abandoned bookings. It is not shared and is not linked across other sites | 6 months |
+
+**3. Third-party content**
+
+The live vessel map is supplied by an independent AIS data provider. It is not loaded until you select "Load map." Once loaded, the provider may set its own cookies, which are governed by its own notice. We do not control them.
+
+**4. What we do not do**
+
+We set no advertising or remarketing cookies. We do not use device fingerprinting. No cookie on the Site contains your name, booking reference, or payment details.
+
+**5. If you refuse**
+
+Booking, payment, and manual check-in work as normal. The only difference is that service notices will show for all routes rather than your usual one.
+
+**6

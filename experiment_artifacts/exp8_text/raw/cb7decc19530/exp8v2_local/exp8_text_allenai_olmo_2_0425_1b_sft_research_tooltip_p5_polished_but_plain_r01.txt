@@ -1,0 +1,9 @@
+To export query results for further use, follow these steps:
+
+1. Open the web page containing the query results.
+2. Click the desired option, often labeled as "Export" or "Download," which is usually present in the top-right corner.
+3. Choose the location and format for the exported data, usually a file type like CSV or XLSX.
+4. Optionally, you can specify a label for the exported file, like a name or a category.
+5. Click "Export" or "Download" to initiate the process.
+
+This method allows you to retrieve and save the results of a web query in a convenient format for later use or reference.

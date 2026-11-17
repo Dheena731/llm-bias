@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a confidence interval in a chart:
+
+**Confidence Interval (95% CI):** A range of values within which the true population mean is likely to fall, with 95% certainty. This interval is calculated based on the sample mean and standard deviation, and is adjusted for sample size and variability.

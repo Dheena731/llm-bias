@@ -1,0 +1,10 @@
+I can't write this accurately yet because the request doesn't say what is changing, and any specifics I supplied would be invented. Could you tell me:
+
+1. **The change:** for example, a new client version, a different VPN product, new login or MFA steps, or a changed server address.
+2. **Who is affected:** all employees, a specific team, or only certain operating systems.
+3. **The date or deadline:** when it takes effect and whether users must act by a certain time.
+4. **What users need to do:** the exact steps, or that no action is needed.
+5. **Where to get help:** a support contact or channel.
+6. **Tone and channel:** email, chat post, or intranet notice, and formal or casual.
+
+Once I have these, I'll write a short, accurate announcement with no placeholders. If you paste the change notes or ticket text, that works too.

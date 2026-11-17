@@ -1,0 +1,11 @@
+**HARBORSIDE LOFTS: SHARED NETWORK ACCEPTABLE USE NOTICE**
+Effective March 1, 2025
+
+**1. Scope.** This notice governs the wired and wireless service on Floors 2 through 4 and in the Mill Street Annex, including the SSIDs *Harborside-Tenant* and *Harborside-Guest*, the shared file server NAS-03, and the second-floor print queue. It does not govern personal hotspots or mobile carrier service.
+
+**2. Who may connect.** *Harborside-Tenant* is available only to current tenants, their registered staff, and contractors with a written access request on file with building management. Devices must be registered by MAC address. Guest credentials are issued at the front desk, expire after 24 hours, and may not be shared.
+
+**3. Capacity.** Each suite is allotted twelve concurrent devices. Large backups, cloud syncs, and firmware updates should be scheduled between 11:00 p.m. and 6:00 a.m. Management may rate-limit any connection that materially degrades service to other tenants, without prior notice.
+
+**4. Prohibited use.** Without limiting Section 5, you may not:
+(a) install or

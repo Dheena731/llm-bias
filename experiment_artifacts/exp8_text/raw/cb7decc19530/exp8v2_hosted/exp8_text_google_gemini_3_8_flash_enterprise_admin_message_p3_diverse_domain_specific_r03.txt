@@ -1,0 +1,12 @@
+**Action required: Legacy VPN retirement and client cutover by Friday, Nov 10**
+
+On Friday, November 10 at 22:00 UTC, we are shutting down the old OpenVPN concentrators (`vpn.corp.net`). Access to internal staging VPCs, the CI build farm, and internal admin tooling will switch entirely to our new WireGuard-based client (**Tailscale**).
+
+**What changes for you:**
+* **Routing:** Split-tunneling is now hard-enforced. Only traffic targeting `10.120.0.0/16` and internal DNS zones (`*.corp.internal`) will route through the tunnel. Your public traffic and local network remain untouched.
+* **Auth:** Static profile certificates are gone. Authentication now runs through Okta SSO with a 7-day machine key expiry.
+* **Stability:** The client handles network and sleep/wake transitions automatically without dropping sessions or hung sockets.
+
+**What to do before Friday:**
+1. **macOS/Windows:** The new client has already been pushed to corporate laptops via Jamf/InTune. Look for the Tailscale icon in your menu bar/system tray and authenticate using your work email.
+2. **Linux:** Pull the updated configuration package from the internal apt/rpm mirror via `sudo apt update && sudo apt install corp

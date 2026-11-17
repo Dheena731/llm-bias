@@ -1,0 +1,1 @@
+A missing-value marker (also known as a placeholder or unsolved-variable symbol) indicates an empty or undisclosed data point in a dataset. It serves as a reminder for further analysis or to prompt filling in the missing information before drawing conclusions or making predictions based on the provided data.

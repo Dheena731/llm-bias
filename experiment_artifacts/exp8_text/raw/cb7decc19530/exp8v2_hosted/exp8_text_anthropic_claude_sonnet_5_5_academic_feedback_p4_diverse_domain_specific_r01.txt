@@ -1,0 +1,20 @@
+*(No draft was attached, so I've assumed a poster on groundwater-fed thermal refugia for brook trout in headwater streams. Swap in your own details.)*
+
+**Feedback on "Hyporheic Exchange as a Driver of Thermal Refugia in Headwater Brook Trout Habitat"**
+
+Maya, the data here is strong. The paired-logger design is the best thing on the poster, and right now it's buried in the lower-left corner.
+
+**Lead with the temperature contrast.** Your central result is that upwelling reaches stayed 3-4 °C below ambient during the July heat event. That deserves the biggest figure, not Fig. 3. Plot upwelling and non-upwelling loggers on one axis, with the 21 °C stress threshold as a dashed line. Someone passing at four feet should be able to see the gap.
+
+**Fix the map.** The site map has no scale bar and no flow direction, and the rainbow colormap for temperature makes the 14-16 °C range look like a dramatic jump. Use a sequential palette and label the loggers by ID so I can match them to the time series.
+
+**Trim the methods.** The slug test and seepage-meter descriptions take up about a quarter of the poster. Cut them to two lines and a small schematic. Anyone who wants the Darcy flux calculation will ask.
+
+**Soften the conclusion.** "Hyporheic exchange drives refugia use" goes beyond what you show. You have temperature and trout counts from snorkel surveys at 6 reaches, which supports co-occurrence, not mechanism. Try "Trout density was highest in reaches where upwelling held temperatures below 20 °C (n = 6)." Also say plainly that the survey was one season.
+
+**Smaller things:**
+- Report the snorkel detection probability, or say it wasn't estimated. Someone will ask.
+- The abstract-style paragraph under the title repeats your conclusions. Replace it with a one-sentence question.
+- The QR code should link to the logger dataset or preprint, not your lab homepage.
+
+Strong poster underneath. With the main figure promoted and the methods cut, I think it will hold a conversation.

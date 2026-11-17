@@ -1,0 +1,19 @@
+**Paycheck Months: a budget template that starts the month when you get paid**
+
+Most budget spreadsheets assume the month begins on the 1st. If you're paid on the 6th and the 21st, rent comes out before the money arrives, and the sheet shows a shortfall that isn't real. Paycheck Months budgets each pay period against what is actually in your account.
+
+**What's in it**
+
+- **Pay-period tabs** generated from the dates you enter. They work for biweekly pay, twice-monthly pay, or irregular freelance deposits.
+- **Sinking funds sheet.** Enter your annual costs (car registration, vet visits, December) and it divides each by the pay periods remaining. If you start in July, it shows how far behind you already are.
+- **Credit card handling.** Purchases are logged in the category where you spent them. The card payment is recorded as a transfer, so nothing is counted twice.
+- **Reconciliation cell.** It subtracts your bank balance from the total of your category balances. Zero turns green. Anything else shows the exact difference, so you know whether you're hunting for a $4.37 coffee or a missed bill.
+- **CSV paste-in tab** with column mapping for bank exports. Date, description, and amount can sit in any order.
+
+**What it doesn't do**
+
+There's no bank syncing. You paste or type transactions, which takes about ten minutes a week. It handles one currency. Two people can share it, but there are no separate permissions.
+
+**Details**
+
+$18, one time. Comes as an .xlsx file and a Google Sheets copy. Free updates for the current major version. A free sample with a single pay-period tab is on the product page if you want to try the layout first.

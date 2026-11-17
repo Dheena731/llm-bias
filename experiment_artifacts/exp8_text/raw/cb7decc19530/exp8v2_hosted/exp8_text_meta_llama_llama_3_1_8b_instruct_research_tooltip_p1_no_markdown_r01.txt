@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a dataset filter in a research tool:
+
+"Filter by: Select a field to narrow down the dataset to specific values or ranges. Choose from: [list of available fields]. For numerical fields, select a minimum and maximum value to filter. For categorical fields, select specific values to include."

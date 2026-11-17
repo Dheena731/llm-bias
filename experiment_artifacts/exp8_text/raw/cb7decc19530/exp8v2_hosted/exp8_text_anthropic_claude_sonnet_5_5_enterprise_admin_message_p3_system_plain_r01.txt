@@ -1,0 +1,16 @@
+Subject: Update to the company VPN client
+
+Hello everyone,
+
+We are updating the VPN client used to connect to our internal network. The new version will be rolled out beginning next Monday and will install automatically the next time you restart your computer. If you prefer not to wait, you can install it sooner through the Software Center on your device.
+
+The update brings faster connection times, better stability when switching between Wi-Fi networks, and an improved sign-in process that works with your existing single sign-on credentials. You will not need to set up a new profile, since your current settings will carry over.
+
+After the update, you may be asked to sign in once and approve a multi-factor prompt. If you run into any trouble connecting, please restart the client first, and if the problem continues, contact the IT Help Desk by email or by phone at extension 4100. Our team will be available for extra support during the first week of the rollout.
+
+The old client will stop working at the end of the month, so please make sure you have updated before then to avoid any interruption in your access.
+
+Thank you for your help, and please reach out with any questions.
+
+Best regards,
+The IT Support Team

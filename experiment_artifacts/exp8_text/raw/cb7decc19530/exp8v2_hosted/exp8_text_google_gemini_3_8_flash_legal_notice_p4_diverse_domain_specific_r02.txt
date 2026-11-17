@@ -1,0 +1,12 @@
+**NOTICE OF REMEDY AND LIQUIDATED CANCELLATION TERMS**  
+**Precision Machining & Additive Fabrication Services**
+
+Refund eligibility under executed Production Orders is governed strictly by the phase of material commitment at the time written notice of cancellation is received:
+
+1. **Pre-Procurement Cancellation:** If cancellation occurs prior to raw stock allocation or casting procurement, the Customer is eligible for a refund of prepaid production fees, less a non-refundable Non-Recurring Engineering (NRE) fee of 15% for CAM toolpath programming and setup validation.
+2. **In-Process Forfeiture:** Once metallurgical certification (MTR) is assigned, stock is cut, or machine spindle time has commenced, all material costs, specialty tooling charges, and committed machine-hour rates are fully vested and strictly non-refundable. 
+3. **Dimensional Non-Conformance Remedies:** Completed lots are ineligible for cash refund. In the event of out-of-spec deliverables exceeding geometric tolerances defined in the approved engineering drawing (ASME Y14.5M):
+   * Notice of defect and third-party Coordinate Measuring Machine (CMM) inspection data must be submitted within ten (10) business days of delivery.
+   * Seller’s sole liability, and Customer’s exclusive remedy, shall be limited to rework or replacement of non-conforming units at Seller’s expense, or a prorated credit toward subsequent production runs. Unaltered parts must be returned under an active Return Material Authorization (RMA).
+
+Unauthorized returns, scrap claims without verification data, or parts subjected to secondary post-processing by the Customer void all remedy eligibility.

@@ -1,0 +1,8 @@
+To export query results, follow these steps:
+
+1. Open the query result in your chosen data viewer.
+2. Locate the drop-down menu or button that allows you to export the data.
+3. Select the desired export format (CSV, Excel, etc.).
+4. Click the "export" button or option.
+5. Review and adjust your exports settings if needed before proceeding.
+6. Complete the export process to download your data.

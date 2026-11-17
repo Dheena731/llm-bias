@@ -1,0 +1,9 @@
+**Subject:** Update to card processing rates – effective Nov 15
+
+Starting next month, your card processing costs will align with the updated Visa and Mastercard interchange schedules. Network assessments on domestic debit have risen by 0.12%, and we’re applying that adjustment at the interchange-plus layer rather than blending it into a flat rate. 
+
+If you’re on interchange-plus, your per-transaction cost will now track the exact network + acquirer markup quoted at setup, with no tiered averaging or cross-subsidy. For clients on our flat-rate plan, the rate adjusts from 2.60% + $0.10 to 2.78% + $0.10 across Visa/MC. Amex remains at 3.15% + $0.15; their quarterly assessment cycle hasn’t shifted yet.
+
+Settlement windows, PCI compliance requirements, and chargeback workflows are unchanged. New calculations will appear on your January statement for any transactions settled after Nov 14.
+
+I’ve attached a side-by-side of your last quarter’s volume run through both schedules. Reply if you want to walk through the variance line-by-line before billing cycles close.

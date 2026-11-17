@@ -1,0 +1,16 @@
+**SECURITY NOTICE: Protect Your Accounts – Avoid Password Reuse**
+
+**To:** All Staff  
+**From:** IT Security  
+**Subject:** The Risks of Password Reuse  
+
+Reusing the same password across multiple accounts significantly increases the risk of a security breach. If a single external platform or personal website is compromised, attackers routinely use those stolen credentials to attempt unauthorized access to our corporate network and sensitive company data.
+
+To protect yourself and the organization, please follow these guidelines:
+
+* **Use Unique Passwords:** Never use your corporate password for personal accounts, and ensure every work-related application has a distinct password.
+* **Use a Password Manager:** Utilize the company-approved password manager to generate and securely store complex, unique passwords.
+* **Enable Multi-Factor Authentication (MFA):** Ensure MFA is active on all accounts where available to add a critical layer of defense.
+* **Change Compromised Passwords Immediately:** If you suspect an account has been compromised or if you receive an alert regarding a data breach on a service you use, update your password right away.
+
+If you have questions about password security or need assistance setting up the company password manager, please contact the IT Helpdesk at [Helpdesk Contact Information].

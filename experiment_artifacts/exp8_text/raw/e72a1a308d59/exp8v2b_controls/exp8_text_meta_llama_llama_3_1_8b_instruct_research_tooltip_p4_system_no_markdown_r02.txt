@@ -1,0 +1,1 @@
+Missing-value marker: A symbol or code used to indicate that a value is not available or has been suppressed in a dataset, often used to avoid distorting statistical analysis or to prevent disclosure of sensitive information.

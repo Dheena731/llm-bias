@@ -1,0 +1,48 @@
+Summary
+
+
+The last step in the Process is to submit the expense approval workflow for consideration and vote on.
+
+Go to the expense approval workflow
+
+Select Submissions
+
+On the Expense Approval Workflow screen, select Submissions from the Expense Approval workflow page.
+
+Submissions
+
+Scroll down to the bottom of the page to see all the submissions.
+
+Choose a submission to review by clicking its title.
+
+Review
+
+Review and comment on the submissions. Submit a comment for each selection.
+
+Enable
+
+Select the Enable option to approve or disapprove the submission. Select the option for the submitted workflow to approve or disapprove the workflow. Review the submitted workflow and make your decision.
+
+Approval
+
+Select the Approved option to approve the workflow.
+
+Disapproval
+
+Select the Unapproved option to disapprove the workflow.
+
+Next steps
+
+An admin can continue the approval process and/or perform other actions. For example, if the workflow is approved, you can import the approval into Caspio.
+
+Edit
+
+Privacy Settings
+
+Edit your privacy settings for the expense approval workflow.
+
+To do so, select the Privacy Settings tab, and select the desired setting.
+
+Settings
+
+Save your settings. The next time you visit the Expense Approval Workflow screen, your settings will be applied.

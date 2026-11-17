@@ -1,0 +1,9 @@
+Here's a short admin message about a scheduled dashboard maintenance window:
+
+"**Reminder: Upcoming Dashboard Maintenance**
+
+Our team will be conducting routine maintenance on the Acuity Insights dashboard on [Date and Time]. During this time, the dashboard will be unavailable for approximately 30 minutes. This scheduled downtime will allow us to update our data pipelines, ensure optimal performance, and improve the overall user experience.
+
+We apologize for any inconvenience this may cause and appreciate your patience as we work to enhance our platform. If you have any urgent requests, please reach out to your designated administrator for assistance.
+
+Thank you for your understanding and cooperation."

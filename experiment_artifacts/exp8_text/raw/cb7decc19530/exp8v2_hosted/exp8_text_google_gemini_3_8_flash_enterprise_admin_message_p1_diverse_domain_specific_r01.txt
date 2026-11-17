@@ -1,0 +1,11 @@
+**Scheduled Maintenance: Metrics UI & Query Nodes**  
+**Window:** Saturday, Oct 14, 02:00 – 03:30 UTC  
+
+We are upgrading the dashboard storage nodes and rebuilding partition indices.
+
+**Impact during this window:**
+* **Dashboard access:** The web UI will be unavailable; expect intermittent 503s.
+* **Telemetry & Ingestion:** Unaffected. Pipeline ingest, Kafka consumers, and long-term event sinks will continue running normally.
+* **Alerting:** PagerDuty and webhook triggers will evaluate against live streams as usual, but deep-links to historical charts will fail to load until nodes are back online.
+
+No action is required on your end. Live progress will be posted to `#platform-status`.

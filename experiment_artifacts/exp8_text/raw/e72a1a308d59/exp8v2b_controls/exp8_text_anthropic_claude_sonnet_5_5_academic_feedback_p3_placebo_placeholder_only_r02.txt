@@ -1,0 +1,14 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is difficult to identify and, where it can be inferred, is too vague to evaluate. The introduction states that the study "explores the relationship between social media use and well-being," but this wording does not specify what is being asked. It is unclear whether the authors are testing a causal effect, estimating an association, or describing patterns. The key constructs are also undefined. "Social media use" could mean time spent, frequency of posting, passive scrolling, or type of platform, and "well-being" could refer to life satisfaction, depressive symptoms, or loneliness. The population is never stated, and the hypotheses in the second section do not clearly follow from the stated aim. Two of them concern adolescents, while the sample description includes adults of all ages.
+
+This ambiguity affects the rest of the paper. Without a precise question, I cannot judge whether the design, measures, and analyses are appropriate. The discussion also draws causal conclusions that the cross-sectional data cannot support, which may reflect the same lack of focus at the outset.
+
+I recommend that the authors:
+
+1. State one explicit, answerable research question, ideally in a single sentence at the end of the introduction.
+2. Define each key construct and explain how it is operationalized.
+3. Specify the target population and the nature of the claim (descriptive, associational, or causal).
+4. Align the hypotheses, methods, and conclusions with that question.
+
+Until these points are addressed, the contribution of the study remains unclear. I would be glad to review a revised version.

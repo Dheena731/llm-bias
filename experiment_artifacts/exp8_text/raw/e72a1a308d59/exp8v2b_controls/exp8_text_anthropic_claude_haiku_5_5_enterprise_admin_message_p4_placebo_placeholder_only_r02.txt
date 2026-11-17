@@ -1,0 +1,18 @@
+**Notice: Quarterly Access Reviews**
+
+All system owners and department managers are required to complete the quarterly access review for their assigned systems by the end of this month. This review confirms that every user still has the access their current role requires.
+
+**What you need to do:**
+
+1. Open the access review report in the identity management portal under Compliance, then Access Reviews.
+2. For each user listed, mark the access as either **Approve** or **Revoke**.
+3. Revoke any access that is no longer needed, including access held by staff who have changed roles or left the team.
+4. Submit your completed review no later than the last business day of the month.
+
+Reviews not submitted by the deadline will be escalated to the Information Security team, and unreviewed accounts may be suspended until the review is completed.
+
+If you have questions about your review or need help identifying a user's role requirements, contact the IT Service Desk through the self-service portal or by calling the internal help line.
+
+Thank you for helping keep our systems secure and compliant.
+
+IT Administration

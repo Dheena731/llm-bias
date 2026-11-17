@@ -1,0 +1,9 @@
+NOTICE OF ACCEPTABLE USE POLICY FOR SHARED NETWORK RESOURCES
+
+THIS NOTICE GOVERNS ALL ACCESS TO THE SHARED NETWORK INFRASTRUCTURE PROVIDED BY THE ORGANIZATION. BY CONNECTING TO, ACCESSING, OR UTILIZING THIS NETWORK, YOU ACKNOWLEDGE AND AGREE TO COMPLY WITH THE TERMS SET FORTH BELOW. FAILURE TO COMPLY MAY RESULT IN IMMEDIATE TERMINATION OF ACCESS AND FURTHER DISCIPLINARY OR LEGAL ACTION.
+
+PERMITTED USE: The network is intended solely for lawful business, educational, or authorized operational activities consistent with organizational objectives. Users must maintain system integrity and ensure all transmissions comply with applicable laws and regulations.
+
+PROHIBITED ACTIVITIES: Unauthorized access, data interception, distribution of malicious software, intentional bandwidth consumption, hosting unlawful content, circumventing security controls, or engaging in harassment, fraud, or intellectual property violation is strictly forbidden. Sharing authentication credentials or attempting to escalate privileges is prohibited.
+
+MONITORING AND PRIVACY: ALL NETWORK TRAFFIC, FILE TRANSFERS, AND COMMUNICATIONS MAY BE LOGGED, MONITORED, AND REVIEWED WITHOUT PRIOR NOTICE. USERS SHALL HAVE NO EXPECTATION OF PRIVACY WHEN USING THIS SYSTEM. THE ORGANIZATION RESERVES THE RIGHT TO RETAIN RECORDS FOR SECURITY, AUDIT, AND COMPLIANCE

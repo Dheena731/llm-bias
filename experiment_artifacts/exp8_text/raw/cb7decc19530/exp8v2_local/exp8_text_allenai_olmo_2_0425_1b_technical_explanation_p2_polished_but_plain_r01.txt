@@ -1,0 +1,53 @@
+Link to answers from external resources
+
+If the answers to the question are not already on the site, link to the answers from external resources. This greatly improves the clarity of your question.
+
+Put the link in a sentence that explains what the link is about and why you are using it. For example:
+
+This question refers to answers from the following external website:
+
+  • http://www.ghostandgoblins.com/forums/
+
+Do not add anything to the link text except the primary keyword and the URL.
+
+Do not use an external link to a question that has an answer; instead, include the answer in your question text.
+
+If you want people to be able to click the link in your question, don't just put the link in the text. Instead, add a link to the external site; for example:
+
+External website: <a href="http://www.ghostandgoblins.com/forums/">Ghost and Goblins Forums</a>
+
+Do not use any tag but the primary tag
+
+Your question should not have any tags other than the primary tag. It is best to use the same tag as the question itself. This helps people search for the question again in the future.
+
+You can use the same primary tag as the question, so long as it is not deprecated.
+
+Do not use descriptive tags that have not been used in the past
+
+If a tag has not been used in the past, then that tag is not recommended for use on your question. As with the primary tag, it is best to use the same tag as the question itself.
+
+Do not delete the tag because it doesn't seem like the tag you're using
+
+If you aren't sure whether or not to use a tag, then you should not remove it. The tag should be there, and it is your responsibility to ask the community if you aren't sure it should be there.
+
+If you are not sure that the tag you're using is appropriate, please ask a moderator. Do not remove the tag yourself.
+
+Use the same tag as the question itself
+
+A tag that doesn't match the question is confusing for people. It is better to use the same tag as the question itself.
+
+Do not use an alias tag when there is a primary tag
+
+If there is a primary tag, then you should use the primary tag instead of an alias tag. An alias tag is not to be used for questions that already have a primary tag.
+
+Do not use a tag while writing the question
+
+When you're writing the question, you should not use the tag in the question text. Instead, you should use the tag in the question.
+
+Do not use an alias tag when there is a primary tag
+
+An alias tag is made by replacing the primary tag with an alias tag that goes with the question. An alias tag is not to be used for questions that already have a primary tag.
+
+Do not use a tag from a tag-wiki if it does not apply to the question
+
+A tag-wiki should describe how to use the tag, and how it should be used on the question. It should not be used to specify tags that do not apply to the question.

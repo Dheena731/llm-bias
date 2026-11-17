@@ -1,0 +1,5 @@
+Here is a concise tooltip explaining a date-range selector:
+
+"Select a start date and an end date to create a custom date range. Click and drag the handles to adjust the dates as needed."
+
+This tooltip clearly explains the main purpose of a date-range selector, provides a clear call to action, and is concise enough to be easily understood.

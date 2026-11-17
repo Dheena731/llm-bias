@@ -1,0 +1,31 @@
+Keep it clear, concise, and easy to understand. Use this style guide to help guide the writing of high-level contextual information about polling station locations. For example, allow the writing of instructions for how to call a polling station. If there are exceptions to the rules, such as not allowing the writing of geolocation information or accessibility requirements, be sure to add those exceptions to this style guide.
+
+Common areas. Those who design this style guide are confident that content creators can follow the general rules of writing without being explicitly told what to do and where. Common areas include the following:
+
+  • Entering addresses. Do not include abbreviations for zip codes, such as "ZIP" or "ZIP Code".
+  • Addressing physical locations. Do not use a street address with a tertiary locale.
+  • Addressing geographic locations. Do not include a city with a tertiary locale.
+  • Addressing electronic addresses. Do not use brackets or square brackets (such as "[email protected]") or parenthesis in the mail address.
+  • Addressing geographic locality. Do not include a zip code or country in the locality part of a postal address. Make sure that your address is in English.
+  • Addressing email addresses. Do not include an email address that uses an internal email header, such as "[email protected]".
+
+For example, instead of writing "2nd Floor, 1600 Pennsylvania Avenue, Washington, DC", write "1600 Pennsylvania Avenue, Washington, DC". Instead of writing "see [email protected]" or "[email protected]", write "see [email protected]".
+
+Use verbs in the style guide to make writing more clear. Third-person verbs are preferred, such as "was", "is", or "became".
+
+Avoid abbreviations. The shorter the better. The first word should be the main focus. For example, "times two" is preferable to "TWO".
+
+Double-check for spelling. Words should be spelled correctly. For example, "week" is preferable to "wke" or "w2k".
+
+
+Use spellcheck. If you have the ability to use spellcheck, do it. This style guide is not a virtual dictionary. If you get too caught up in spellchecking, you're likely to miss something else. If you think you may misspell a word in the style guide, do not worry -- use the content editor to create an issue, and we'll check it.
+
+
+Use American English (UK English) for consistency. Choose US English (UK English) if you're writing for international audiences, or choose British English (US English) if you're writing for US audiences. Do not mix and match.
+
+
+Avoid acronyms, such as having abbreviations for "[email protected]".
+
+Use a hyphen with compound modifiers to avoid ambiguity. For example, instead of writing "10-page report", write "10-page report". Multiple words to the left of a hyphen can be written without a hyphen; however, this is optional. For example, instead of writing "9-page report", write "9-page report". In cases where two words to the right of a hyphen are required, hyphens are still optional. For example, instead of writing "12-page report", write "12-page report". If one word to the right of the hyphen is optional, place it after the hyphen, but before the succeeding word. For example, instead of writing "20-page report", write "20-page report". After the hyphen, a word following a hyphen should not be surrounded by parentheses. For example, instead of writing "8-12-page report", write "8-12-page report".
+
+Do not use quotation marks, apostrophes, or dashes. Do not use or write "…",

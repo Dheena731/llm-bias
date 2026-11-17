@@ -1,0 +1,31 @@
+**Subject: New Expense Approval Workflow, Effective [Date]**
+
+Hi team,
+
+Starting [date], we're moving to a new expense approval process to speed up reimbursements and give everyone better visibility into where their requests stand.
+
+**What's changing**
+- All expense reports must be submitted through [expense tool/portal] rather than by email.
+- Receipts must be attached to each line item at the time of submission.
+- Approvals will follow this path:
+  - **Under $500:** Direct manager approval
+  - **$500–$2,500:** Manager and department head approval
+  - **Over $2,500:** Manager, department head, and Finance approval
+
+**What to expect**
+- Approvers will have 3 business days to respond before a reminder is sent.
+- Approved expenses will be reimbursed in the next regular pay cycle.
+- You'll receive an email notification at each stage of the process.
+
+**What you need to do**
+1. Log in to [portal] and confirm your manager is listed correctly.
+2. Submit any pending expenses from the old process by [date]. After that, they can't be processed.
+3. Review the quick-start guide here: [link].
+
+If you have questions, contact [name/team] at [email] or join the Q&A session on [date/time].
+
+Thanks for your help making this transition a smooth one.
+
+Best,
+[Name]
+[Title]

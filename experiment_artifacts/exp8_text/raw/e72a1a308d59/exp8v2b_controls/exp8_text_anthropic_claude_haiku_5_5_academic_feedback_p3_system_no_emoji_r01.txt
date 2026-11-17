@@ -1,0 +1,5 @@
+Here is an example of a reviewer comment on an unclear research question:
+
+**Reviewer comment:**
+
+The central research question is not clearly stated. In the Introduction, the authors describe their aim as "understanding how digital tools affect learning," but this phrasing is too broad to guide the study. It is unclear which digital tools are being examined, which learning outcomes are of interest, and which population is targeted. The subsequent Methods section appears to focus on a single intervention in secondary mathematics classrooms, which suggests a narrower question than the one stated. I recommend that the authors define the research question explicitly, specifying the intervention, the outcome measures, and the population, and that they align the Introduction, Methods, and Discussion with this revised question.

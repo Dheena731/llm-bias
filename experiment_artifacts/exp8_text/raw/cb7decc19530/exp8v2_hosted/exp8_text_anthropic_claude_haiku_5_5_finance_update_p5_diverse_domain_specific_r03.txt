@@ -1,0 +1,7 @@
+**Subject: Payout delays on Tuesday and Wednesday batches (resolved)**
+
+Payouts initiated Tuesday, March 11 were not sent to the ACH network until Wednesday afternoon. Of the 1,212 payouts in that batch ($386,410.18 total), 940 were scheduled for Wednesday morning and will now settle Thursday, March 13. The remaining 272 were set to settle Wednesday evening and should land Thursday as well.
+
+The cause was our file generator. It was still using the 3:30 p.m. ET cutoff for same-day submissions, but our receiving bank moved its cutoff to 2:45 p.m. on March 1. The batch we built at 3:30 was rejected at intake, and our retry didn't fire until the next morning because the rejection was logged as a warning, not an error. We've changed the cutoff, made intake rejections page the on-call engineer, and added a check that compares our cutoff to the bank's published schedule each morning.
+
+If you're a seller and a payout you expected Wednesday hasn't shown up by Thursday at noon ET, reply with the payout ID and we'll trace it directly. Bank holds on the receiving end can add a day, so please don't resubmit anything on your side.

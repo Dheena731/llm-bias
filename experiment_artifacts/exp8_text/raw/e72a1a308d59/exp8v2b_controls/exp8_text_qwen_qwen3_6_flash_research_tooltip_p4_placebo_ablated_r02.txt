@@ -1,0 +1,1 @@
+Indicates that the value for this entry is unavailable or not recorded. This is distinct from a zero value.

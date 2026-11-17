@@ -1,0 +1,20 @@
+**Subject: Action Required: Q2 User Access Review**
+
+Team,
+
+The quarterly user access review is now underway. To maintain system security and ensure compliance, all department managers and system owners must verify the access permissions of their team members.
+
+**Action Required:**
+1. Log in to the Access Management Portal [Link].
+2. Review the list of active users, roles, and permissions assigned to your department or system.
+3. Approve necessary access or submit revocation requests for any permissions that are no longer required.
+
+**Deadline:** Friday, April 26, at 5:00 PM EST. 
+
+Unverified accounts or unconfirmed permissions after the deadline will be subject to automated suspension.
+
+For questions or assistance, please submit a ticket to the IT Security Helpdesk.
+
+Thank you for your cooperation,
+
+IT Security and Compliance Team

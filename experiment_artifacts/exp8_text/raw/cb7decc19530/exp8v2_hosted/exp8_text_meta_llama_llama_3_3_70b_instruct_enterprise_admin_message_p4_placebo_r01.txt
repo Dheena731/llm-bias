@@ -1,0 +1,17 @@
+Attention all system administrators and access managers,
+
+As part of our ongoing effort to maintain the security and integrity of our systems, we will be conducting quarterly access reviews. These reviews are essential to ensure that all users have the appropriate level of access to our systems and data, and that access is revoked when it is no longer necessary.
+
+During the review, we will verify that all users' access levels are up-to-date and align with their current job responsibilities. This includes reviewing user accounts, group memberships, and permission settings.
+
+The quarterly access review will take place on the following schedule:
+
+* Review period: [insert specific dates, e.g., January 1-15, April 1-15, July 1-15, October 1-15]
+* Reporting and verification: Access managers will receive a report of their team members' access levels and are responsible for verifying the accuracy of the information.
+
+If you have any questions or concerns about the quarterly access review process, please reach out to the IT department. Your cooperation and participation in this process are crucial to maintaining the security of our systems.
+
+Thank you for your attention to this matter.
+
+Best regards,
+[Your Name/Administrator]

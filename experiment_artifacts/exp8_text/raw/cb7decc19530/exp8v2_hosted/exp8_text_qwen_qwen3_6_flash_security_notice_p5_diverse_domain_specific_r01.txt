@@ -1,0 +1,13 @@
+**Subject: REPORT LOST DEVICE: Immediate Action Required**
+
+Do not wait. Delayed reporting extends the window for unauthorized access and voids insurance protocols.
+
+If your company-issued laptop is missing, stolen, or cannot be located:
+
+1.  **Call the Service Desk immediately.** Do not send an email first. We need to trigger the MDM remote wipe before the device re-authenticates to any network.
+    *   Internal: x2200
+    *   Off-site/Mobile: 555-0199
+2.  **Prepare the following details before calling:**
+    *   Asset Tag ID (adhesive label on bottom bezel).
+    *   Timestamp and last verified location.
+    *   Status of local encryption (e.g., BitLocker key available?).

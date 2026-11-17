@@ -1,0 +1,3 @@
+**Security Notice: Don’t Reuse Passwords**
+
+Reusing passwords across work and personal accounts puts company data at risk. Use a unique, strong password for every account and store them in the approved password manager. Enable multi-factor authentication (MFA) wherever available. If you suspect a password has been exposed, change it immediately and notify IT/security.

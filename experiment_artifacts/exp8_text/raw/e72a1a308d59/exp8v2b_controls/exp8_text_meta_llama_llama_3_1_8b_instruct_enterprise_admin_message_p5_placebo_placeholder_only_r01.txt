@@ -1,0 +1,11 @@
+Here is a short message about an upcoming email migration:
+
+"Dear users,
+
+The organization's email system will be migrating to a new platform in the coming weeks. This change will improve email performance, security, and reliability. During the migration, you will be able to access your email accounts as usual, but you may notice some temporary disruptions. We will provide additional information and instructions in the coming days to help you prepare for the transition.
+
+If you have any questions or concerns, please don't hesitate to reach out to the IT department.
+
+Thank you for your cooperation and understanding.
+
+Sincerely, [IT Department]"

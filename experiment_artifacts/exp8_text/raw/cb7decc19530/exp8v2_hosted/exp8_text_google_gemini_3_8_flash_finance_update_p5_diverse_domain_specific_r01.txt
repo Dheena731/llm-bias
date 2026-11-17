@@ -1,0 +1,12 @@
+**Incident Notice: Delayed ACH Outbound Settlement**
+
+The 14:00 ET NACHA file transmission to our sponsor bank encountered a connection timeout during the payload handshake on their intake server. 
+
+Because the retry completed after the Federal Reserve’s afternoon settlement cut-off, roughly 3,800 outbound disbursements originally routed for Same-Day ACH have rolled into tonight's standard clearing window.
+
+**Operational Impact:**
+* **Settlement Window:** Impacted transfers will settle tomorrow morning (T+1) between 09:00 and 11:30 local time, depending on the receiving bank's posting schedule.
+* **API/Webhooks:** Automated `transfer.failed` webhooks have been temporarily suppressed to prevent partner systems from triggering duplicate retry payloads. Statuses will remain in `pending_settlement`.
+* **Unaffected Services:** Inbound card acquiring, merchant balance updates, and internal ledger transfers are operating normally.
+
+The resubmitted batch is queued for the 21:00 ET transmission window. We will post confirmation once the bank returns the file receipt acknowledgment (ACK).

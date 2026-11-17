@@ -1,0 +1,15 @@
+**Reviewer Comment: Clarity of the Research Question**
+
+The manuscript's central research question is not clearly articulated, which makes it difficult to judge whether the study design, analysis, and conclusions are appropriate.
+
+The introduction describes several related aims, including understanding the factors behind the phenomenon, evaluating the proposed intervention, and exploring broader implications. It never states which of these is the primary question. The abstract, the final paragraph of the introduction, and the discussion each frame the objective slightly differently. As a result, it is unclear whether the study is exploratory or confirmatory, and whether it seeks to describe, explain, or test a causal claim.
+
+Several terms in the question are also left undefined. For example, "effectiveness" and "engagement" are used without operational definitions, and the target population and comparison conditions are not specified. This ambiguity carries into the methods, where the choice of outcome measures and statistical tests cannot be clearly linked to a specific hypothesis.
+
+I recommend that the authors:
+
+1. State a single primary research question, with any secondary questions clearly labeled as such.
+2. Define key constructs and specify the population, context, and comparison of interest.
+3. Align the hypotheses, methods, and conclusions with that question, and state whether the analyses were planned in advance or exploratory.
+
+Until the question is clarified, the contribution of the study remains difficult to assess. A focused and well-defined question would substantially strengthen the manuscript.

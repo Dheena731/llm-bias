@@ -1,0 +1,7 @@
+**Introducing Savings Goals**
+
+You can now set savings goals directly in the app. Give a goal a name, such as "Emergency fund" or "Summer trip," and set a target amount. Then track your progress toward it as you save.
+
+To get started, open the Goals section and choose "New goal." Once you've created a goal, you can check how close you are at any time, and you can update or remove it whenever your plans change.
+
+We built this feature to make it easier to see your progress and stay motivated. If you have feedback, let us know through the Help menu.

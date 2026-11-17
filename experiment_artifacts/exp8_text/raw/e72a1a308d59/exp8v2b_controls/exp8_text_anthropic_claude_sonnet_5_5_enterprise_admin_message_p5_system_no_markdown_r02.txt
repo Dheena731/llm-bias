@@ -1,0 +1,22 @@
+Subject: Upcoming Email Migration This Weekend
+
+Hello everyone,
+
+We will be migrating our email system to a new platform this Saturday, June 14, beginning at 8:00 PM and finishing by approximately 6:00 AM on Sunday. During this window, you may experience delays in sending and receiving messages, and access to webmail may be briefly unavailable.
+
+What you need to do before the migration:
+- Sign out of email on all mobile devices and desktop apps by Friday evening.
+- Delete any old or unneeded messages to help the transfer go faster.
+- Make a note of any important calendar events, just in case of a temporary sync delay.
+
+What to expect afterward:
+- Your existing emails, folders, contacts, and calendar will be moved automatically.
+- On Monday morning, you will be asked to sign in with your current username and to set a new password.
+- Mobile devices and desktop apps may need to be reconfigured. Step-by-step instructions will be sent on Sunday evening.
+
+If you notice missing messages or have trouble signing in, please contact the IT Help Desk at helpdesk@example.com or call extension 4357. Extra support staff will be available on Monday from 7:00 AM to 7:00 PM.
+
+Thank you for your patience as we make this upgrade. The new system will bring improved security, more storage, and faster performance.
+
+Best regards,
+The IT Team

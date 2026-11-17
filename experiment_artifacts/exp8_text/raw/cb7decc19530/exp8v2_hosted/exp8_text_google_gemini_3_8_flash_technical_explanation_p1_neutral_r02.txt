@@ -1,0 +1,7 @@
+**Latency** is the time delay between a user taking an action (like clicking a button) and the web application responding. In modern web apps, low latency is critical for three main reasons:
+
+1. **User Experience & Perception:** Humans perceive delays as small as 100 milliseconds. When latency is low, an app feels seamless, responsive, and trustworthy. High latency makes an app feel sluggish, broken, and frustrating to use.
+2. **Business Revenue:** Speed directly impacts the bottom line. Countless studies show that even a fraction-of-a-second delay increases "bounce rates" (users leaving the site) and reduces conversion rates. (For example, Amazon famously calculated that every 100ms of latency cost them 1% in sales).
+3. **SEO and Discoverability:** Search engines like Google actively factor page speed and responsiveness (via metrics like Core Web Vitals) into their ranking algorithms. High latency pushes your application lower in search results, reducing organic traffic.
+
+In short, **lower latency means higher engagement, better retention, and more revenue.** Speed is not just a technical metric; it is a core feature.

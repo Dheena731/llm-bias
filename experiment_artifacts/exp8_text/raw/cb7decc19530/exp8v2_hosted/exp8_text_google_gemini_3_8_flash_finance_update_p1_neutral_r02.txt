@@ -1,0 +1,24 @@
+Here are a few options, depending on your audience and platform:
+
+**Option 1: For app users/customers (Email or Newsletter)**
+> **Subject:** New feature: Your Monthly Spending Summary is here! 📊
+> 
+> Keeping track of your money just got a whole lot easier. Starting this month, we’re rolling out your personalized **Monthly Spending Summary**. 
+> 
+> At the beginning of each month, you’ll receive a simple, visual breakdown of where your money went—including your top spending categories, budget progress, and how your habits compare to last month. 
+> 
+> Head over to the **[Analytics/Insights]** tab in the app to check out your latest summary today!
+
+***
+
+**Option 2: Quick in-app message or push notification**
+> **See where your money went this month 💳**  
+> We’ve launched a new Monthly Spending Summary! Tap here to see your top categories, track your trends, and stay on top of your financial goals. **[View My Summary]**
+
+***
+
+**Option 3: Internal / Workplace update (Slack or Team Email)**
+> **Hi Team,**  
+> To give everyone better visibility into our budgets, the Finance team is introducing a new **Monthly Spending Summary**. Starting on the 1st of each month, department leads will receive a clear overview of their team's expenses, current budget vs. actuals, and key cost trends. 
+> 
+> You can view your latest breakdown in the **[Finance Portal/Dashboard]**. Let us know if you have any questions!

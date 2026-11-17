@@ -1,0 +1,5 @@
+When you visit a website, your browser asks a remote server for all the text, images, and code required to display the page. Without caching, the server must process this request from scratch every single time, which involves querying databases, assembling files, and sending large amounts of data back across the internet. This repetitive process introduces noticeable delays for the visitor and places a heavy workload on the hosting infrastructure.
+
+Caching solves this problem by saving copies of frequently accessed files in a temporary storage location that is much faster to reach. This storage can exist in multiple places, such as within the user's web browser, on intermediary edge servers distributed around the world, or directly in the main server's high-speed memory. 
+
+The next time the page is requested, the system delivers the saved copy from this nearby cache instead of generating the data anew. By bypassing complex database lookups and eliminating long-distance data travel, caching allows web pages to load almost instantly, conserves bandwidth, and prevents the primary server from becoming overwhelmed during traffic spikes.

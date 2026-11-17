@@ -1,0 +1,28 @@
+**NOTICE OF REGULATORY AND ARCHITECTURAL AMENDMENT: TELEMETRY & SPATIAL PERCEPTION POLICY**
+
+**Document Identifier:** POL-AUT-2025-V4  
+**Supersedes:** Version 3.2 (rev. August 2023)  
+**Effective Date:** November 14, 2025  
+**Applicability:** All registered operators, fleet license holders, and Tier-1 integrators utilizing Telematics Control Units (TCUs) deployed on OS-Core v4.8 or higher.
+
+---
+
+Pursuant to Section 11.2 of the Master Enterprise Telematics Agreement and applicable statutory mandates governing continuous edge-capture sensors, this Notice specifies material revisions to our telemetry ingestion, localized buffer processing, and model-training data pipelines.
+
+### Summary of Material Amendments
+
+1. **Edge-to-Cloud Processing for Cabin Occupancy Sensor Suites**  
+   Nominal interior optical and infrared sensing will continue to operate under zero-persistence local ring buffers. However, under amended Section 4.1, **safety-critical trigger events** (defined as Autonomous Emergency Braking engagement, rollover sensor deployment, or structural impact thresholds exceeding 2.2G) will instantly serialize and transmit a 12-second rolling exterior-interior spatial array to our secure cold-storage infrastructure. This data is segregated from administrative account records and is cryptographically hashed to preserve post-incident evidentiary chain of custody.
+
+2. **LiDAR and Spatial Point-Cloud Downsampling**  
+   We have updated our retention schedules for external 3D point-cloud arrays used in active perception model training. Point-cloud captures ingested during non-nominal edge cases will no longer be stored as raw vertex data. Effective November 14, 2025, raw captures will undergo automated spatial quantization and semantic feature-masking prior to cloud aggregation, scrubbing identifiable architectural elevations, fixed residential coordinates, and pedestrian profiles.
+
+3. **Municipal Road-Condition Telemetry Sharing**  
+   Section 7.3 establishes a distinct classification for passive chassis-vibration metrics and wheel-slip coefficients. These metrics may be formatted and disclosed to designated jurisdictional road authorities solely for civil infrastructure monitoring. Transmission occurs strictly via an aggregated, differentially private pipeline ($\epsilon = 0.5$).
+
+### Operational Impact & Recourse
+
+* **Fleet Subscribers:** No administrative action is required if your existing deployment has executed Data Processing Addendum (DPA) Schedule E (Automated Spatial Data Processing). If your operating authority prohibits transmission of localized post-trigger cabin telemetry, your systems administrator must apply the `OVERRIDE_TELEMETRY_RESTRICTED` hardware flag via API before the Effective Date. Application of this flag may limit vehicle eligibility for autonomous depot transit and Level 3 driver-assist features.
+* **Individual Vehicle Operators:** You may review the full, unredacted redline comparing Version 3.2 to Version 4.0 via the diagnostic portal (`/legal/diff/telemetry-2025-v4`). 
+
+Continued deployment or operation of connected TCUs following November 14, 2025, constitutes formal operational acknowledgement of these processing protocols.

@@ -1,0 +1,20 @@
+**MEMORANDUM**  
+**TO:** All Department Heads & Team Managers  
+**FROM:** IT Security & Compliance Office  
+**DATE:** [Current Date]  
+**SUBJECT:** Q[Number] Quarterly Access Review – Action Required  
+
+As part of our continuous security posture and regulatory compliance obligations, we are initiating the next quarterly access review. This mandatory process verifies that all system, application, and network permissions align with current job roles and ensures timely revocation of outdated or excess access.
+
+**Action Required:**  
+• Log in to the Access Management Portal by **[Deadline Date]**  
+• Review the permission lists assigned to your direct reports  
+• Approve, modify, or revoke access as needed  
+• Submit your review for final audit trail logging  
+
+Reviews completed after the deadline may trigger automated access suspensions to maintain compliance. If you oversee a particularly large team or have complex permission structures, you may request a targeted review session by contacting IT Security at [email/phone].
+
+Your prompt attention to this task supports both organizational security and audit readiness. Thank you for your cooperation.
+
+**Contact:** IT Security Help Desk | [Email] | [Phone] | [Intranet Link]  
+**Policy Reference:** Company Data Security Policy §4.2 (Quarterly Access Certification)

@@ -1,0 +1,15 @@
+Latency, the delay between a user's action and the system's response, matters in web applications because it directly shapes how users perceive speed, trust, and quality.
+
+**User experience:** Users expect pages and interactions to respond almost instantly. Delays of even a few hundred milliseconds make an interface feel sluggish, and longer waits make users feel the app is broken.
+
+**Engagement and conversion:** Slow responses lead to abandoned page loads, fewer clicks, and lower conversion rates. Many e-commerce and media companies have measured measurable revenue drops from small increases in load time.
+
+**Search and discoverability:** Search engines factor page speed into rankings, so high latency can reduce organic traffic.
+
+**Accumulating delays:** Modern apps make many network requests for each page view, such as APIs, assets, and third-party scripts. Small delays per request add up, and a single slow dependency can hold up the entire experience.
+
+**Real-time and interactive features:** For chat, video calls, multiplayer games, collaborative editing, and live dashboards, latency determines whether the experience works at all. Even small delays can break the sense of immediacy these features depend on.
+
+**Operational cost:** High latency often signals inefficiencies such as unnecessary round trips, unoptimized queries, or poor geographic placement of servers. Reducing it can lower infrastructure load and improve scalability.
+
+In short, latency affects whether users feel an application is responsive, whether they stay and complete their goals, and whether the system can scale efficiently.

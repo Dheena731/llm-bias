@@ -1,0 +1,21 @@
+**Feedback on Poster Draft: "Microplastic Loads in Urban Stream Sediments: A Three-Season Survey"**
+
+Thanks for sharing the draft. The core story is clear and the layout is clean, and the map of sampling sites is the strongest element. A viewer can grasp the study area within seconds.
+
+**Strengths**
+- The title states the finding and the scope, so it works as a hook.
+- The color scheme is consistent and readable from a distance.
+- The sampling map and the seasonal bar chart support each other well.
+
+**Suggested revisions**
+1. **Lead with the takeaway.** The conclusion that sediment loads peaked after spring storms is buried in the lower right. Move it into a highlighted box near the top, or into the title's subtitle.
+2. **Shrink the methods.** The three paragraphs on extraction protocol are too dense for a poster. Keep the key steps in a short numbered list and link the full protocol through a QR code or a handout.
+3. **Label the chart axes with units.** The y-axis reads only "Particles," so specify particles per kilogram of dry sediment, and state the size cutoff in the caption.
+4. **Add error bars or sample sizes.** The seasonal comparison currently implies a clear difference, but the reader cannot judge its reliability without variability shown.
+5. **Cut the references list to three or four key citations.** The full list crowds the bottom edge and distracts from your own results.
+6. **Check the font size.** Body text at this size will be hard to read from more than an arm's length away. Aim for at least 24 pt for body text.
+
+**Priority**
+Items 1 and 4 matter most, since they affect whether viewers understand and trust the main result. The rest are polish.
+
+Overall, this is a solid draft with a clear message. Tightening the text and making the main finding more prominent should make it much more effective at a busy session.

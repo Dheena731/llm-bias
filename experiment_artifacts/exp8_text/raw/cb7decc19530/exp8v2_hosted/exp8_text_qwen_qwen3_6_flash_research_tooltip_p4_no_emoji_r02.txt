@@ -1,0 +1,1 @@
+Indicates that the corresponding data point is unavailable, unknown, or not recorded. Represents intentional data absence rather than a system or calculation error.

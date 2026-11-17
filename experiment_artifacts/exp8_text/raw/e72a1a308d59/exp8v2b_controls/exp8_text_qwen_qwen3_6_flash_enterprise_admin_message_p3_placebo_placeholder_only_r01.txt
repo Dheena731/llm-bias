@@ -1,0 +1,3 @@
+Subject: Action Required: Update Your VPN Client Immediately
+
+The VPN client has been updated to address performance issues and strengthen security protocols. Open the application menu and install the latest version right away. You must restart the VPN service after installation for the changes to take effect. Users who continue to run the old version will lose network access automatically. Direct any technical questions to the IT Help Desk.
