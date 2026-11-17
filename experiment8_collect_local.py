@@ -33,10 +33,15 @@ def ensure_safetensors(model_id: str) -> str:
 
     source = Path(snapshot_download(model_id, allow_patterns=["*.json", "*.bin", "*.txt", "*.model", "tokenizer*"]))
     target.mkdir(parents=True, exist_ok=True)
-    state = torch.load(source / "pytorch_model.bin", map_location="cpu", weights_only=True)
-    # Clone so tied tensors do not share storage, which save_file rejects.
-    save_file({name: tensor.contiguous().clone() for name, tensor in state.items()}, target / "model.safetensors",
-              metadata={"format": "pt"})
+    state = torch.load(source / "pytorch_model.bin", map_location="cpu", weights_only=True, mmap=True)
+    # save_file rejects tensors that share storage (tied embeddings); clone only those, so a 7B checkpoint
+    # is not held in memory twice.
+    seen, tensors = set(), {}
+    for name, tensor in state.items():
+        pointer = tensor.untyped_storage().data_ptr()
+        tensors[name] = tensor.contiguous().clone() if pointer in seen else tensor.contiguous()
+        seen.add(pointer)
+    save_file(tensors, target / "model.safetensors", metadata={"format": "pt"})
     for path in source.iterdir():
         if path.suffix != ".bin":
             shutil.copy(path, target / path.name)
@@ -44,11 +49,24 @@ def ensure_safetensors(model_id: str) -> str:
     return str(target)
 
 
+def quantized(model_path: str, model_id: str, bits: int) -> str:
+    """Quantize once (all stages of a family get the same treatment); 7B fp32/bf16 weights do not fit 32 GB RAM."""
+    from mlx_lm import convert
+
+    target = CONVERTED_DIR / f"{model_id.replace('/', '__')}-q{bits}"
+    if not (target / "config.json").exists():
+        convert(hf_path=model_path, mlx_path=str(target), quantize=True, q_bits=bits)
+    return str(target)
+
+
 def make_model_fn(model_id: str, is_base: bool, params: dict):
     from mlx_lm import generate, load
     from mlx_lm.sample_utils import make_sampler
 
-    model, tokenizer = load(ensure_safetensors(model_id))
+    path = ensure_safetensors(model_id)
+    if params.get("quantize_bits"):
+        path = quantized(path, model_id, int(params["quantize_bits"]))
+    model, tokenizer = load(path)
     sampler = make_sampler(temp=float(params.get("temperature", 0.8)))
     max_tokens = int(params.get("max_tokens", 768))
 
@@ -109,7 +127,8 @@ def main() -> None:
             if repo.repo_id == args.model:
                 shutil.rmtree(repo.repo_path)
                 print(f"Deleted cached {args.model}")
-        shutil.rmtree(CONVERTED_DIR / args.model.replace("/", "__"), ignore_errors=True)
+        for converted in CONVERTED_DIR.glob(f"{args.model.replace('/', '__')}*"):
+            shutil.rmtree(converted, ignore_errors=True)
 
 
 if __name__ == "__main__":
