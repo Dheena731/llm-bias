@@ -1,0 +1,81 @@
+Scalability
+
+Scalability is important. Keep a high emphasis on efficient use of resources. If the database or engine is unavailable, we can’t use it.
+
+Infer automated index configuration
+
+If you are using Wonder, it can infer what index is needed based on queries. The following figure shows the query plans using the database. If you see query plans with multiple columns and one or more indexes, it means the database automatically created an index for the query.
+
+Column and Index Name in SSMS
+
+To improve performance, you can ask Wonder to automatically configure the database schema. The configurations are schema creation candidates. For example, you can configure the following:
+
+  • Schema creation for table-level indexes
+  • Auto join indexes
+  • Autosize index sizes
+
+Schema creation for table-level indexes
+
+If you have a large amount of data in a database, it might be optimal to create index on columns.
+
+Create an index on a single column, which is called the primary key. The primary key index consists of columns and a unique index key identifier. The primary key index is usually smaller than the partition key index, and the data scans will be faster when the data is divided to different partitions.
+
+In the following figure, X1 is the partition key and X2 is the primary key, and Y1 is the partition key and Y2 is the primary key. You can use the partition key index and the primary key index interchangeably to improve the performance of data scans.
+
+Primary and Partition Key Index
+
+By default, the database automatically creates the primary index, which is called the primary key index. You can create multiple primary key indexes by specifying more than one column. You can also specify the partition key. To enable the partition key index, you can enable the perform partition pruning on partition key index with [ON] keyword.
+
+Auto join indexes
+
+If you have multiple columns in a table, it can be better to create an index automatically with a join operation to avoid scanning the table twice.
+
+To create a auto join index, specify the partition key plus the join column, as in the following query.
+
+Create index on PartitionKey + JoinColumn
+
+For example, when you want to create an auto join index on A1 and A2, you can create the following index.
+
+Create index on PartitionKey + join column
+
+For more information, see the CREATE INDEX (Transact-SQL) topic in SQL Server (Transact-SQL).
+
+Automacy sizing
+
+If the size is too large, the data is loaded to the storage and it takes time to retrieve it. It is a good practice to make sure that the size is small.
+
+You can reduce the size of data by using a partitioning scheme. You can also create the following indexes to reduce the size even more.
+
+  • Columnstore index
+  • Sparse columnstore index
+
+Columnstore index
+
+The columnstore compiles the data into columns and saves the data in columns. Columnstore indexes are useful for scenarios where an entire data set is stored in columns.
+
+If you want to create a columnstore index, you can use the following query:
+
+CREATE TABLE [MyTable]
+(   [Column1] int,
+    [Column2] int,
+    [Column3] int,
+    [Column4] int,
+    [Column5] int,
+    [Column6] int,
+    [Column7] int,
+    [Column8] int,
+    [Column9] int,
+    [Column10] int,
+    [Column11] int,
+    [Column12] int,
+    [Column13] int,
+    [Column14] int,
+    [Column15] int,
+    [Column16] int,
+    [Column17] int
+)
+GO
+
+The columnstore index is a partitioned index.
+
+As shown

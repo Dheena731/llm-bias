@@ -1,0 +1,15 @@
+Export Query Results
+
+To export your query results, follow these simple steps:
+
+1. **Access the Tool:** Ensure you're on the page containing your query results. This could be a spreadsheet, database interface, or specific analytics dashboard.
+
+2. **Locate the Export Option:** Look for an 'Export', 'Download', or 'Save' button usually located in the top-right corner or under the header menu.
+
+3. **Choose Your Format:** When the export options appear (e.g., CSV, Excel), select the format most suitable for your needs.
+
+4. **Initiate the Download:** Click on the chosen export button. Depending on your browser or software, you may see a prompt to either download directly or specify a save location.
+
+5. **Review the File:** Once the file is downloaded, check the contents to ensure your results are correctly captured and formatted.
+
+Remember, exporting queries ensures you have accurate records to analyze or share elsewhere.

@@ -1,0 +1,3 @@
+Make sure that your tooltips have the original <h2> heading. It is optional, but recommended, since it looks much cleaner.
+
+The "start date" and "end date" are in separate fields, but they must be on the same date range as well. (So if you have something like start_date="2011-06-01" end_date="2011-06-31", the "end date" should also be on "2011-06-31".)

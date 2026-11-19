@@ -1,0 +1,1 @@
+Password reuse causes security vulnerabilities, including the risk of an attacker gaining access to several accounts if they break just one. To protect your accounts, use a unique password for each account. If you use the same password across multiple accounts, the risk of your accounts being compromised increases. Be cautious about reusing passwords.

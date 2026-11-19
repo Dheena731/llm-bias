@@ -1,0 +1,23 @@
+Password Security
+
+Password management program
+
+Megan recommends:
+
+  • Lastpass and 1Password (Android)
+
+Password Reuse
+
+Password reuse is often used to gain access to accounts, and can be very dangerous. For instance, if you reuse your password on an old account to create new accounts, if that old account is compromised an attacker could gain access to all your new accounts.
+
+The ability to create long, unique passwords is very important, and easy to do. If you are feeling unsure, you can use a password generation app, or a password manager.
+
+Follow the best practices:
+
+  • Don't reuse passwords
+    • If you need to, use a Password Manager and generate passwords on your own.
+  • Use a passphrase to complete your password
+    • A passphrase is a longer password that uses words. Passphrases are much harder to crack than passwords, and you can remember them easily.
+    • This makes it harder for you to forget your passphrase.
+  • Don't open links in emails
+    • Phishing emails will often use links to trick you into visiting a website that will install malware in your browser, or send your information to a server elsewhere.

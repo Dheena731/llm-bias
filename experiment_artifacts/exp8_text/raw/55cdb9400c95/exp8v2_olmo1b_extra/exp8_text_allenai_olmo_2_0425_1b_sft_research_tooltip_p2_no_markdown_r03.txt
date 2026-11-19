@@ -1,0 +1,1 @@
+Under this confidence interval, the range of values around a statistic that likely contains a certain proportion of the population, typically 95%, is given.

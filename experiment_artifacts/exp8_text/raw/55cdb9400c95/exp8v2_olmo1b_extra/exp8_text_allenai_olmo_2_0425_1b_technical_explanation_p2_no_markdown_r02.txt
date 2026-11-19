@@ -1,0 +1,1 @@
+Output: As a simple explanation, a database index is a special kind of file that stores an index of the entries in the database. The index is used by the database to find the required data faster, by using it instead of sorting through the entire database.

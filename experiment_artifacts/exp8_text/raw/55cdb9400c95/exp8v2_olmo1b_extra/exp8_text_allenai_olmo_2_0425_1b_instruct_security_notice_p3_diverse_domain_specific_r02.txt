@@ -1,0 +1,18 @@
+Subject: Important Reminder: Lock Your Screens
+
+Attention, esteemed staff:
+
+Please remember to always lock your personal screens upon leaving your workstation. This practice not only secures your data from unauthorized access but also helps maintain the integrity and security of our shared resources. Here are some specific steps you can take:
+
+1. **Utilize the screen lock feature**: Many operating systems have a built-in option to lock your screen when you walk away from your desk.
+2. **Set up a password**: Customize the password to something unique and ensure it’s not easily guessed.
+3. **Assign a remote access token**: For the PALS team, we provide a secure browser-based remote access tool that automatically locks your screen when you exit the application.
+4. **Regular Audits**: Conduct regular audits of any open screens and lock them as soon as possible after leaving a workstation.
+
+This simple habit can significantly contribute to the overall security and reliability of our team's systems and data. Thank you for your attention to this matter.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Contact Information]

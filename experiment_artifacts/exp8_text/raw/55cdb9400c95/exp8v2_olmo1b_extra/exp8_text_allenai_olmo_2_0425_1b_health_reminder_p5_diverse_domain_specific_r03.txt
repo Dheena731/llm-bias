@@ -1,0 +1,33 @@
+Example for refills
+
+We’d like to automate the filling of a prescription for your medication based on the information you give us, a prescription you wrote for this medication for yourself, and a prescription you wrote for this medication for your child. The medication you write for yourself is a type of medication and comes in a specific kind of bottle. In this particular instance, you’ve written a prescription for this medication twice, once for yourself and once for your child. The medication we are filling is a type of medication that has multiple names. As part of our process, we’ve researched the names and the ingredient(s) of this medication. Because the medication requires multiple ingredients, we’re also getting your insurance information to ensure that you’re covered and that your insurance will pay for this medication.
+
+The subject of the example is an address. It’s easy to see that it’s a refilling query with a prescription and a result. It’s also a good example of a common refilling domain (prescriptions) and a common AI-generated question (the refill).
+
+Example for machine translation
+
+I spent a lot of time learning my native language and living in a foreign country. I don’t have the proper accent, but I’m going to improve my English. I need to improve my vocabulary so I can speak a lot and read a lot. I need to improve my grammar so I can understand what people are saying. I need to improve my pronunciation so I can speak fluent English. I need to improve my writing so that my grammar will be correct and my spelling will be correct.
+
+Example for a street address
+
+I live at 123 Main St. I need to find the nearest gas station #156, then I need to find the closest grocery store #133 to the nearest gas station #156. I need the phone number of the gas station closest to me, and then I need to know how to get to the grocery store #133.
+
+Example for a meal
+
+I will be having a grilled chicken sandwich with some chips and ranch dressing. Some peanut butter and jelly on toast for lunch. A Burrito with rice, beans, cheese, and guacamole for dinner. I want to eat some bananas before bed tonight.
+
+Example for a category
+
+I want to find the following categories: “Vacation” “Home” “Pets” “Kids” “Holidays”
+
+Example for a question
+
+What is the best way to clean a car? Are there any tools I can use to clean my car?
+
+Example for a question with an image
+
+I see a picture of a dog. What is the name of this dog?
+
+Example for a photo caption
+
+This photo shows an old man holding a wooden cane. It looks like he has a cane because he has arthritis. And he has arthritis because he was born with it or he developed it later in life because he was old. He is wearing a white robe so he is in heaven. I think this photo was taken in the Middle East or Eastern Europe because it’s a cold place where people don’t wear much clothing. And it may be cold because he was born in a cold place or he retreated there to stay warm. I don’t know what country he’s from, but I can’t tell by looking at the photo.

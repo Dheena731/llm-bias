@@ -1,0 +1,23 @@
+Caching is the process of storing frequently requested content on a local drive and then delivering it to a client. This speeds up page load times for users and creates a positive user experience.
+
+A caching strategy should be implemented to reduce the number of HTTP requests required to load a page. This can be done by:
+- Using an HTML5 cache manifest file
+- Using server-side rendering with frameworks like Express or Webpack
+- Using server configuration to map assets directly to the appropriate directory
+- Using a CDN
+
+3. Explain how the use of caching can be implemented in a small to medium-sized business website.
+
+In a small to medium-sized business website, the website might use a caching strategy to reduce the number of HTTP requests needed to load a page. For example, a caching strategy could be implemented with an HTML5 cache manifest file, which is a file that tells the browser how to cache parts of the website. The browser then only has to make a single HTTP request to load the page, instead of making multiple requests and waiting for the responses.
+
+Another way to implement caching in a small to medium-sized business website is with server-side rendering with frameworks like Express or Webpack. This allows for the website to be rendered directly to the client, which eliminates the need for the browser to make an HTTP request for the asset files.
+
+Lastly, a caching strategy can be implemented using server configuration to map assets directly to the appropriate directory on the website. This ensures that when the browser requests an asset, it will be served from the correct directory on the website.
+
+In conclusion, caching can be implemented in a small to medium-sized business website by reducing the number of HTTP requests needed to load a page, using an HTML5 cache manifest file, using server-side rendering with frameworks like Express or Webpack, and using server configuration to map assets directly to the appropriate directory on the website.
+
+4. Give an example of why caching can be useful in a large business website.
+
+Caching can be useful in a large business website because it can help to speed up the loading of content for users. Caching can be done in a variety of ways, including by storing frequently requested content on a local drive and then delivering it to a client, by using an HTML5 cache manifest file, by using server-side rendering with frameworks like Express or Webpack, or by using server configuration to map assets directly to the appropriate directory on the website.
+
+By caching content, a large business website can significantly improve the performance of their website, which will result in a positive user experience.

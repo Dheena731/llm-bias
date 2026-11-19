@@ -1,0 +1,68 @@
+Avoid complex terms and concepts.
+
+Ensure the example doesn't need to be repeated in the text. If the example is too long or complex, move it to a separate section.
+
+4.1 Explain the concept or idea in detail
+
+Write the explanation at a level that's appropriate for the audience. Explain the various concepts and ideas, starting with the most important and moving to the less important. If the explanation is too complex or difficult to understand, you can use the following guide to decide if you can go into more detail.
+
+4.1.1 Give background information
+
+You can start by explaining the context of the concept or idea. This is especially helpful if the concept is related to a large body of content that your students might not be familiar with.
+
+If your explanation requires a lot of background information, or if it's too long, you should start with this section to break the explanation into smaller chunks:
+
+  • What does the concept do? Why does it matter?
+  • What is the context for the concept?
+  • What are the key insights?
+
+4.1.2 Provide examples
+
+To make your explanation more concrete, it can help to provide examples of how the concept works in practice. After each example, explain what you learned from your experience with it.
+
+Example: Example 1
+
+Let's start by making a model to predict what the weather will be like tomorrow. We'll use a statistical method that uses historical data to make this prediction. You'll build a model to predict the temperature and even the chance of rain.
+
+Example: Example 2
+
+We've used data science to predict the future...but can we use data to decide what to do in the future?
+
+Example: Example 3
+
+This is the part where we share our predictions and how we use the data.
+
+4.1.3 Explain the solution
+
+Show the solution to the problem you explained in the previous step. Make sure to explain why the solution works and how it helps you achieve your goal. If the solution requires a lot of background information, you can use the following guide to decide if you can go into more detail:
+
+  • How does it work?
+  • Why does it work?
+
+If you need to provide a diagram or illustration to help explain the solution, make sure it's simple and easy to understand.
+
+Note: The example may have redundant text. If the solution is complex, you can just provide the solution text and leave the explanation of the solution for a separate section.
+
+4.1.4 Explain the limitation
+
+If there's a weakness of the solution, explain how you could improve it. If your model isn't perfect, explain why. Be sure to point out any potential limitations and discuss what you can do to make the solution better.
+
+Example: Example 4
+
+Our model successfully predicts the weather. However, it's not perfect because we used only one data set to develop the model. We need to get more data to make our model more accurate.
+
+Example: Example 5
+
+We used one data set to build our model. We should get more data sets to improve our model. We can use different datasets to develop a more accurate model.
+
+Example: Example 6
+
+We used one data set to develop the model. But there's another data set we could use to improve the model. We should use both data sets to develop a more accurate model.
+
+5. Conclusion
+
+In this section, you can summarize the key points of your article and explain the reason why your solution is important.
+
+6. References
+
+You can add a list of references to the end of your article to include more information.

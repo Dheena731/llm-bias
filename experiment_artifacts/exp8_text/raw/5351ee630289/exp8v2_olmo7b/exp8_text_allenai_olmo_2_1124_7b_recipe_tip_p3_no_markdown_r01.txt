@@ -1,0 +1,7 @@
+You can surround any line or block of text you want to mark as a tip with the following Markdown syntax:
+
+*Tip:*
+
+If you don't have a block of text but want to write a quick tip at the end of a line, you can use the following Markdown syntax:
+
+> Tip:

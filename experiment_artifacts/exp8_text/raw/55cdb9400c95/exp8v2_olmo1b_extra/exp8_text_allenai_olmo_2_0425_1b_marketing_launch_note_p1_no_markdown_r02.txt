@@ -1,0 +1,7 @@
+However, use LaTeX for the math, and get a LaTeX compiler (e.g. pandoc) to convert it into a web page that renders nicely.
+
+  • Look at https://www.movable-type.co.uk/downloads/doc/latex.pdf for examples if you have a question.
+    – hjpotter92
+    Apr 10 '18 at 15:41
+
+Your Answer

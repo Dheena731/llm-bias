@@ -1,0 +1,13 @@
+ d1) To calculate a 95% confidence interval for the total number of customers who bought a product in one month, follow these steps: 
+
+1. Find the sample proportion: Divide the number of customers who bought the product by the sample size (in this case, 2,000 customers). 
+
+2. Find the standard error: Divide the sample proportion by the square root of the sample size.
+
+3. Find the margin of error: Multiply the standard error by 1.96 (for a 95% confidence interval).
+
+4. Find the interval: Subtract the margin of error from the sample proportion, and then add the margin of error to the sample proportion.
+
+5. Interpret the result: The resulting interval represents a range of values that we can be 95% confident contains the true population proportion.
+
+Note: Confidence intervals are useful for estimating unknown population proportions when sample sizes are small. They provide a range of values within which we can be reasonably sure that the true population proportion lies.

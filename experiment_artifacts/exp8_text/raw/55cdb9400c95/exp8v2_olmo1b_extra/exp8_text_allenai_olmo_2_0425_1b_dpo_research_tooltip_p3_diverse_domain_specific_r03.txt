@@ -1,0 +1,5 @@
+Sure, here's a concise tooltip explaining a date-range selector tailored for a domain-specific audience:
+
+"In this date-range selector, [brand name], you can easily set filters to view data between specific time periods. This is perfect for [specific context], ensuring you only see relevant information and insights. For instance, if you're researching [industry], you might choose '2015-2020' to focus on the latest trends in [specific sector]. This selective view not only streamlines your data analysis but also enhances the accuracy of your findings."
+
+This tooltip is more personalized, reflecting the specific needs and context of your audience (e.g., a data analyst in the [specific industry]), while avoiding generic AI-generated copy. It emphasizes the practical benefits of using the date-range selector, and it is tied to the domain of your application (e.g., a specific industry or research focus) to make it relevant to your users.

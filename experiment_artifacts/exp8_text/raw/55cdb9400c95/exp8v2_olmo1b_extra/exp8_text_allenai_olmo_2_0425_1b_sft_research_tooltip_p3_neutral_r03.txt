@@ -1,0 +1,1 @@
+In the context of a date-range field, a tooltip explaining a date-range selector could be: "Select a range of dates to view events."

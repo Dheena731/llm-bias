@@ -1,0 +1,1 @@
+A missing-value marker is a symbol, often a dot or an asterisk, placed in a data record where a value is missing. This helps analysts or data processors to identify records that require additional information or correction.

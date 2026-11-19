@@ -1,0 +1,49 @@
+The heat is dangerous. But it's also a great opportunity to show off your work. It's also a great opportunity to get a few likes on your photo or video.
+
+Be creative, and don't worry about editing.
+
+Write a few paragraphs and the title in Markdown.
+
+Basic Markdown example:
+
+Linked Document
+
+Some Notes
+
+A few notes:
+
+Write a short brief about the linked document.
+
+Make sure it includes a link to the document.
+
+Write about the document as if you were describing the document to a friend.
+
+If you want to, you can also include images.
+
+Write an image and name it after the subject of the article. The image should ideally be at least 300px x 400px.
+
+Write the file name in Markdown, with special characters like % replaced with underscores, and with spaces replaced with hyphens. For example, the file name will be unit-1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1.
+
+Write a few sentences about the unit in your article.
+
+Write a short note about the document.
+
+Write another paragraph.
+
+Write the article in Markdown.
+
+Include images where appropriate.
+
+Write a short note about the document.
+
+Write a few sentences about the document.
+
+Include a link to the document.
+
+Make sure it includes a link to the document.
+
+Write the file name in a meaningful way.
+
+Write the file name in Markdown, with special characters like % replaced with underscores, and with spaces replaced with hyphens.
+
+For example, the file name will be unit-1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit1-unit

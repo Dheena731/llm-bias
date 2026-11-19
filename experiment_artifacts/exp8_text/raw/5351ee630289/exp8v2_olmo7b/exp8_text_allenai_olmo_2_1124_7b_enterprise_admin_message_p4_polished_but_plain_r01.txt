@@ -1,0 +1,37 @@
+The notice will only be seen by people who have administrative access to the wiki; they see the admin-only pages.
+
+To write the notice, edit the template Empty quarter access review template. It already contains the text of the notice.
+
+If you want to make any changes to that notice, you will need to copy the contents of the template into a new page, and then edit that copy. After you are done, you can copy it back into the template and save it.
+
+Here is a short example:
+
+Notice
+
+To be able to edit pages on this wiki, we give 
+one month's worth of access per quarter. This 
+access is automatically revoked after 30 days.
+
+If you feel that you need more time to edit the wiki, 
+please let us know in the wiki's admin noticeboard.
+
+= Quarterly admin notice: access review =
+:This page is to be used by the wiki administrators to keep track 
+of who has scheduled access reviews and when. 
+Be sure to keep this page up to date!
+
+To give someone access for 30 days, put their username in the 
+appropriate column. If they have already had one month of 
+access, be sure to put the date of their first access in the 
+"Given access" column, and the date of their current access in 
+the "Current access" column.
+
+:Wikimedia wiki|User:|Month|Date given access|Date of current access||
+
+Sajib
+
+See also
+
+{| align="right" style="padding-left:1em;"|'''RfC'':''' [[Help:Access review RfC]]
+
+'''RfD, RFD, and AfD'':''' [[Help:Deletion policy]] section: [[Help:Deletion policy#Requests_for_deletion]]

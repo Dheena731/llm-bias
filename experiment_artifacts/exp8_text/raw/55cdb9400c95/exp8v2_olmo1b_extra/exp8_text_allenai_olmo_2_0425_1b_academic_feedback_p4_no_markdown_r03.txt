@@ -1,0 +1,28 @@
+## Submission
+
+This is a blog post, as part of a series on the design of conference posters and other types of “slides” (e.g., introductions). These posts are designed to give you practice in following the principles we follow in academia and in my research group; see our other posts on designing academic writing.
+
+The point of this post is to give you some feedback on your draft (about a month later), going through the “five steps” that the author of the poster should follow. If you are not comfortable following the directions, please ask the author for feedback on specific aspects of your draft, and/or have them complete the five steps for you.
+
+## Outline
+
+For this draft, I will focus on the following two issues:
+
+1. The goal of your paper should be clear, and you should be able to restate that goal in the first sentence of your paper.
+2. Make sure you include enough (but not too much) information about what you will discuss.
+
+In this post, I will assume that you are writing a poster; your instructor should be able to give you specific feedback on your paper if you are writing a paper instead.
+
+### 1. The goal of your paper should be clear
+
+In your poster, you should restate the goal of your paper in the first sentence. This goal should be expressed in the form of a problem, or a limitation, or something along those lines. You should clearly identify which aspect of the problem you intend to resolve. For example, your poster might be about “Improving the scalability of parallel algorithms”. Your goal would be to make the problem scalable.
+
+What does this mean in terms of what you should include in your poster? It means that you should include some way of describing the problem. A good way to do this is to include a short story about the problem or the people who proposed it, and then evaluate how well your goal addresses the problem. So you might think that you want to “solve the FFT problem”, but in fact you are solving a slightly different problem, which is about speeding up algorithm execution time. Or you might think that you are trying to solve “the problem of designing parallel algorithms”, but in fact the problem you are trying to solve is “the problem of designing data structures for sorting”. You might think that you want to solve “the problem of designing parallel algorithms”, but in fact the problem you are trying to solve is “the problem of designing parallel algorithms that are efficient without restricting their applicability”. Or you might think that you are trying to solve “the problem of designing parallel algorithms”, but in fact the problem you are trying to solve is “the problem of designing parallel algorithms that are efficient without restricting their applicability, and for a problem that is broad enough to be worth solving”.
+
+The best way to make sure that you’re on the right track is to look over your goal and tell yourself “Is this a problem I would care about if I had the time to do it?” If you can’t answer that question, then you probably haven’t formulated a goal that is specific enough. It may be that you should look into what a problem is typically studied in parallel algorithms, and try to formulate your goal in that context. But as a first level of review, make sure that the goal you have formulated is specific enough to be worth addressing.
+
+### 2. Make sure you include enough information
+
+Once you have formulated a clear goal, you should make sure that you include enough information about your method and results to satisfy the audience. In other words, you should make sure that your work is complete enough that the audience can understand why they should care and what you did.
+
+You should make sure that the audience can tell what your method is. For example, saying that you are “using a parallel algorithm

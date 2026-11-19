@@ -1,0 +1,19 @@
+There are many nuances in the way the marker behaves, but the basic idea is that if a feature is missing, a user will likely be unaware that the feature exists, and will be confused when and where it’s not there. So write text that gives useful information to the user about the missing feature.
+
+The primary motivation of this design is user safety. Users should not be able to access critical features when they aren’t there. For example, users shouldn’t be able to delete a file they posted on the Internet, or commit a change to a database without authentication.
+
+So make sure that the message is as clear and comprehensible as possible. Make it easy for users to understand what the marker represents, and how to fix the problem.
+
+If you are writing a tooltip, you might also consider making the cursor highlight the hyperlinked element that is missing. This can help users easily understand what they are missing when they hover over it.
+
+Lastly, you might want to write the tooltip to the user’s screen language. For example, the Chinese language has a very different writing style than English does, so if the user is using Chinese, the message should be written in Chinese.
+
+Other Tools
+
+If you are designing an application, you might want to consider using a CSS tool, like bootstrap, which offers a wide variety of tooltips. If you are not writing CSS, you might want to consider using a CSS preprocessor, like Sass or Stylus, which makes it much easier to write CSS.
+
+You might also want to consider using a JavaScript library, like jquery, which makes it much simpler to write JavaScript. Or you might want to try out a tool, like bootstrap tooltip, which offers a simple, yet powerful, tool for writing tooltips.
+
+If you are designing a website, you might want to consider using a CSS tool, like bootstrap, which offers a wide variety of tooltips. Alternatively, you might want to consider using a JavaScript library, like jquery, which makes it much easier to write JavaScript.
+
+If you are writing CSS, it might be worth considering using a CSS preprocessor, like Sass or Stylus, which makes it much easier to write CSS. Or you might want to try out a tool, like bootstrap tooltip, which offers a simple, yet powerful, tool for writing tooltips.

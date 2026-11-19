@@ -1,0 +1,10 @@
+**Change to Card Transaction Fees**
+
+- **Introduction**: Recent changes in card transaction fees reflect efforts to balance card processor costs with consumer expenses.
+- **Impact on Fees**: New fees may be introduced for certain types of transactions or higher fees for larger transactions, aiming to mitigate the financial burden on consumers while encouraging financial responsibility.
+- **Fees Overview**: Key changes could include:
+  - Additional fees for international transactions or RTGS (Real-time gross settlement) transfers.
+  - Higher fees for higher-value or bulk purchases.
+  - Special fees for cashless payments that attract more digital transactions.
+- **Consumer Impact**: While these changes might increase overall transaction costs, they are designed to streamline payments and potentially reduce fees for small, frequent transactions.
+- **Balance**: The goal is to provide financial institutions and merchants with a more balanced revenue profile, encouraging more sustainable payment practices while protecting consumers from excessive fees.

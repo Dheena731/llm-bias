@@ -1,0 +1,3 @@
+Do not use all uppercase or all lowercase letters.
+
+Do not use symbols.

@@ -1,0 +1,15 @@
+An API rate limit is a protocol for controlling the number of requests an application can make to an API in a predefined time period. It's a mechanism designed to prevent abuse of the API service, ensure fairness for other users, and prevent overloading the backend system. Here are some key points about API rate limits:
+
+1. **Time Frame**: The rate limit defines a specific timeframe, commonly within minutes or hours, during which an API is open to receive requests from a single client or from a group of clients.
+
+2. **Exponential Decay**: The more requests a client sends, the more rapidly the rate limit decreases. This means after a certain threshold, requests start accumulating rather than being counted towards the limit.
+
+3. **Thresholds**: An API might have different rate limits for different types of requests (GET, POST, PUT, DELETE) or based on the IP address or origin of the request. There may also be special cases like idle timeouts, demand-response, or burst limits.
+
+4. **Provisional Rate Limits**: Some APIs initially allow a certain number of requests per hour, then incrementally increase this limit over time based on usage patterns.
+
+5. **Notification**: Often, a client that exceeds its allocated limit will receive an acknowledgment or a warning, such as a timer indicating that more requests will be throttled unless additional permissions are granted.
+
+6. **Flexibility**: API rate limits are not rigid; they can be adjusted to accommodate varying levels of traffic and ensure fairness. Some APIs might have different rules for API keys, registered accounts, or specific applications.
+
+Implementing rate limits effectively requires careful design and monitoring, as it can affect the user experience and the usability of APIs. Properly configured rate limits help maintain API quality by preventing DDoS attacks, throttling abusive or spammy traffic, and ensuring that the API remains responsive and reliable for the majority of legitimate user requests.

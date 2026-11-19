@@ -1,0 +1,1 @@
+When selecting a date-range selector, you can access a date range that determines the period of time you are viewing the calendar for. This can be used for tasks such as scheduling meetings, organizing events, or comparing historical data. To use this feature, simply click on the date range selector option, and the date range will appear on the selected date range.

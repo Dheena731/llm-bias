@@ -1,0 +1,21 @@
+ 1. Pattern 2: Read the Email Address
+
+Do you know what email address your reader will see? It is possible that your email address will not be included in the email. It will be read by the reader's mail server. So don't assume that every email address is a valid email address. Many of them are not.
+
+Test it. If you don't know the answer, ask. If you can't ask, invent a fake email address to try out your email.
+
+  1. Pattern 3: Curb Your Enthusiasm
+
+Think. What's the tone of your email? What does the reader expect from you? How do you want to be treated?
+
+  1. Pattern 4: Get to the Point
+
+Read your email. Delete any unnecessary words, sentences or paragraphs. Try to boil your message down to the 200 words or less.
+
+  1. Pattern 5: Test Your Email
+
+Send out a test email to a few people you are not related to. Does it make sense to them? Does it make sense for you? Is it the tone you want? If you need to change your email, go back to the first step and rethink your email.
+
+  1. Pattern 6: Test Your Email Again
+
+To know if your email is going to be read by a human being, you can test it on a email simulator. Although there are many simulators, we have tried out a few of them. Each of those simulators offers a different feature. One of them allows you to test the color of the subject line and the level of spam filters applied to your test message.

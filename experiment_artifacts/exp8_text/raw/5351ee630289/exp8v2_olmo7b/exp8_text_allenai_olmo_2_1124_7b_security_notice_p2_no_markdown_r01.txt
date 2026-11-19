@@ -1,0 +1,69 @@
+You work for a company that has been recently hacked by a group of hackers. They are planning to use phishing emails to steal login credentials from employees. You need to write a short workspace notice for your coworkers about phishing emails and how to recognize them.
+
+Here is some information about phishing emails that might help you write your notice:
+
+*Phishing emails often contain links to fake websites.
+*These websites may look similar to legitimate websites, logins and passwords can be stolen if entered.
+*The emails may also try to trick you into downloading attachments containing viruses or other malware.
+
+Some general guidelines for avoiding phishing scams are:
+*Do not respond to unsolicited emails asking for personal information (such. –Login and password, social security numbers, etc.).
+*Always check the sender’s email address before opening any attachments.
+*Scan all incoming emails with antivirus software to make sure they are safe.
+*If you suspect an email message might be dangerous, contact your IT department immediately.
+
+If you’re unsure about whether an email is safe to open or not, check its sender’s email address in the header of the message; this should help indicate whether it came from someone you know or not. And if there are any attachments in the message, don’t download them unless you trust the source.
+
+Related Questions
+
+What is the difference between phishing and spoofing?
+
+Spoofing is any type of attack that involves altering the sender’s identity in order to mislead. Phishing is a specific type of spoofing where the attacker tries to trick the recipient into providing sensitive information by posing as someone they trust, such as their bank or employer.
+
+How can you tell if an email is spam?
+
+There are a few different ways to tell if an email is spam. The most common way is if you receive multiple emails from the same sender within a short time frame. This may be spammy, but it’s not always a sign that what they’re sending is spam.
+
+What is the importance of cybersecurity?
+
+Cybersecurity is important because it protects our ability to access and use the internet, as well as our personal data. It also helps prevent cyberbullying, cyber fraud, and other crimes that can be committed online.
+
+What are some examples of cybersecurity threats?
+
+There are many different types of cybersecurity threats, but the most common are phishing, spyware, adware, malware, and viruses.
+
+What are some common scams?
+
+Some common scams include identity theft, credit card fraud, investment scams, and debt relief scams.
+
+How does phishing work?
+
+Phishing works by tricking people into giving up their personal information, which can then be used for identity theft. Phishing emails often contain links to fake websites that look like real ones, so users may give out their passwords or other sensitive information thinking they’re logging into a legitimate site.
+
+How to choose a password?
+
+There are many ways to choose a password, but one of the best ways is to use a complex combination of numbers, letters, and symbols.
+
+What are social engineering attacks?
+
+Social engineering attacks are a form of cybercrime that targets users by using psychological manipulation techniques to trick them into giving away their personal information.
+
+What are some signs that an email is spam?
+
+Signs that an email may be spam include:
+
+*It has a suspicious subject or text
+*It asks you to make a donation or purchase something
+*It contains unusual or confusing links
+*It tries to get you to click on a link without telling you what it will do
+*It includes a funny or insulting image
+*It claims to be from someone you do not know
+
+What are some examples of phishing scams?
+
+Some common phishing scams include:
+
+*Phishing emails that look like they’re from reputable organizations, such
+as banks or credit card companies, asking for personal information
+
+How does one recognize an

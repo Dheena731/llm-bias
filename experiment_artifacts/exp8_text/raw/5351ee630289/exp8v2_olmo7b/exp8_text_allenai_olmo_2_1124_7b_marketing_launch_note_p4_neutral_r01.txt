@@ -1,0 +1,42 @@
+Google have a great reCaptcha - a picture of words that you have to type to confirm that you are a human not a robot. This is about the ultimate in risk analysis in that you can’t ever write the wrong word. If you type the right word, going forward everything is great, no worries. If you type the wrong word, the whole system does not function, you are blocked and made to re-try. This is the mechanism by which millions of people are spending their online time transcribing pictures of words. The system can’t afford to be wrong.
+
+So far, so good, but there are a couple of things wrong with this.
+
+  1. The whole scheme is designed to work best with short texts, so you can’t be transcribing whole books or anything like that.
+  2. The system is not very good for people who don’t read the language, or who may have reading or other difficulties.
+  3. It is a terrible experience for people who don’t have access to the internet. (Many people around the world who would like to have access do not. Some who do have access are discouraged by thinking they need the internet to do something they thought they could already do, like open an account at a bank, apply for a job, pay their bills etc.)
+  4. The longer you have to type in the right answer the more likely that you will make a mistake, and have to retry.
+
+Useful though it may be for Google to have humans transcribe words from books that human eyes can’t read, it is not a good use of human effort. It is not a good use of the users internet connection either. Nor is it a good experience for the user. In fact, many people find it annoying.
+
+What if there was a better way?
+
+What if there was a really easy way to train computers to read text that the computers couldn’t read?
+
+What if there was a way to get a lot of people around the world learning to read, or improving their reading, or improving their language skills at the same time?
+
+What if there was a way to do all this in an engaging way?
+
+The answer could be reading and learning, and writing practice.
+
+We know that it is really hard to get people to do something just because it is good for them. You can’t just tell people they need to learn to read. You have to make it worth their while.
+
+What would that be worth to people?
+
+Everywhere there is access to the internet there is going to be work available that people can’t do because they can’t read or they need to improve their reading skills.
+
+A very simple way to improve reading skills is to practice writing.
+
+So let’s get people writing.
+
+Let’s get people writing about things they are interested in, and then let’s get them reading what others have written about the same things. Then let’s get them writing some more. And then let’s get them reading again.
+
+The big question is: How can we make this fun?
+
+The people who are willing to do this are people who have access to the internet, but don’t have full literacy, and are looking for a way to improve.
+
+The people who need it are people who are looking for work and don’t have full literacy yet, or people who have jobs and are looking to improve their skills to get better jobs. Or people who have jobs and want to improve their reading skills because it will help them do their jobs better.
+
+We are going to use the internet to connect the two groups. The people looking for work will write on the jobs page, and the people looking for work will read what is written on the jobs page, and write some responses.
+
+It only works if there is a way to ask people to write on the jobs

@@ -1,0 +1,36 @@
+**Workplace Notice: Phishing Scams and the Importance of Cyber Awareness**
+
+Dear [Your Company Name] Team,
+
+We are writing this notice to bring to your attention an increasing concern within our network: phishing emails. Phishing is a security threat that involves deceptive emails designed to trick employees into divulging sensitive information. As part of our commitment to maintaining the integrity and security of our systems and data, we are issuing the following important guidelines to help safeguard against phishing scams.
+
+**What Is Phishing?**
+Phishing refers to the act of attempting to acquire sensitive information such as usernames, passwords, credit card details, etc., by masquerading as a trustworthy entity in an electronic communication. The emails themselves are often crafted to look trustworthy by mimicking legitimate organizations and can contain links or attachments designed to exploit system vulnerabilities or install malware.
+
+**Recognizing Phishing Emails:**
+* **Exact Duplicate Content:** Look for emails that seem identical to those from our legitimate providers, but with minor differences that can be subtle. For example, spelling errors, unusual sender addresses, or lack of branding.
+* **Requests for Immediate Action:** Be cautious of emails that pressure you to take immediate action, such as clicking on links or downloading attachments.
+* **Poor Grammar and Spelling:** Legitimate organizations, especially those with a professional image, typically have excellent grammar and spelling.
+* **Requests for Sensitive Information:** Never share personal information like usernames, passwords, social security numbers, or financial details in an email unless you've verified the sender.
+
+**Prevention Measures:**
+To protect against phishing, we strongly advise:
+* **Do not click on links or download attachments from untrusted sources.**
+* **Verify the authenticity of any email by contacting the organization directly through official channels.**
+* **Keep your software and antivirus up-to-date to protect against known vulnerabilities.**
+* **Educate yourself and your team about common phishing tactics and encourage use of phishing filters and anti-phishing tools on all company devices and networks.**
+
+**Reporting Phishing Attempts:**
+If you encounter a phishing email:
+* **Do not respond.**
+* **Report it immediately to our Threat Intelligence team using the channels provided in our security awareness training.** This will help us take action to protect our company and our users from potential harm.
+
+In conclusion, phishing is a significant threat to the security and confidentiality of our business. By being vigilant and educated, we can collectively reinforce our defenses against these malicious attempts. Remember, cybersecurity is a shared responsibility, and every employee plays a critical role in maintaining our organizational and general safety online.
+
+Thank you for your attention to this matter.
+
+[Your Name]
+[Your Position]
+[Contact Information]
+
+**Placeholder Text:** Ensure you replace placeholders like "[Your Company Name]" with the actual name of your company, "[Your Name]" with your actual name, and "[Your Position]" with your actual position or role within the company. Phrases like "[cybersecurity team]" and "[threat intelligence team]" should be specific to your organization and the names of actual departments or teams tasked with handling cybersecurity matters.

@@ -1,0 +1,1 @@
+To export query results, open the Data Explorer and navigate to the Chart section. Click on the chart you wish to export, then click the "Download Chart to CSV" button. A CSV file containing your chart data will appear in your Downloads folder.

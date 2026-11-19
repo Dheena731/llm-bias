@@ -1,0 +1,20 @@
+We are alerting our employees to a potential phishing email threat that has been circulating our organization. To protect your personal information and prevent any unauthorized access or damage, please be on guard against phishing attempts.
+
+A phishing email is an attempt to trick you into revealing sensitive information like passwords, credit card details, or personal information by masquerading as a trustworthy entity such as a colleague, vendor, or legitimate company. Here are some key indicators to recognize a phishing attempt:
+
+- The sender is unfamiliar and uses generic greetings.
+- The email contains urgent requests to act immediately.
+- The email has poor grammar or looks unprofessional.
+- The sender claims to be from a source you know but has a typo or unusual spelling.
+- The request asks you to click on a link to a website that resembles a company website but has subtle variations.
+
+To help prevent falling victim to phishing attempts, we encourage the following actions:
+
+- Do not click on any links in unsolicited emails.
+- Verify the sender’s identity by contacting them directly through official channels.
+- Never provide sensitive information in response to unsolicited requests.
+- Keep software up to date to protect against known vulnerabilities.
+
+Should you receive a suspicious email, report it to our IT department at [IT Contact Information]. 
+
+Thank you for your vigilance and commitment to a secure workplace environment. Let's work together to keep our information safe and our communications trustworthy.

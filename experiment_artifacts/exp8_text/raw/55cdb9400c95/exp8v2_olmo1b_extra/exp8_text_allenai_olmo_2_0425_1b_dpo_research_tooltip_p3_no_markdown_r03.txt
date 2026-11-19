@@ -1,0 +1,1 @@
+This date-range selector lets you choose a specific date range by clicking within the inclusive range or clicking outside the range. The start date is highlighted in blue, and the end date is highlighted in red. To select a start date, click in the blue area. To select an end date, click outside the range.

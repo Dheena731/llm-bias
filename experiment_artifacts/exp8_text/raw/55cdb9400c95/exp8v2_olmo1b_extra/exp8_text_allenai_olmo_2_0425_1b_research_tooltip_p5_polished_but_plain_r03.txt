@@ -1,0 +1,68 @@
+Make your text easy to read by considering these tips:
+
+  1. Use white space to separate items.
+  2. Use headings to organize content.
+  3. Use bold text, italics, and links to improve readability.
+  4. Use a neutral tone.
+  5. Avoid jargon.
+  6. Use clear and specific language.
+  7. Avoid words with more than one syllable.
+
+Do not make the user click to read something. If the content is important enough, then provide links to the content. Do not make the user read it twice.
+
+If there is a single line of code that represents the query, do not include it in the body of the HTML. The code samples in the documentation should only be included on a single line, but where appropriate.
+
+
+The HTML code must be compatible with the latest version of HTML recommended by the W3C. The following is required:
+
+  • Title tag <title>Document title</title>
+  • <body>contents of the document</body>
+  • <h1>Heading level 1</h1>
+  • <h2>Heading level 2</h2>
+  • <h3>Heading level 3</h3>
+  • <h4>Heading level 4</h4>
+  • <h5>Heading level 5</h5>
+  • <h6>Heading level 6</h6>
+  • <div>some other div tag</div>
+  • <span>A link to the title</span>
+
+The heading level of the <h1> tag must be greater than or equal to 1.
+
+The <body> tag must contain the contents of the page.
+
+The <title> tag must be the first tag in the HTML document. It appears as the title of the browser window.
+
+The <body> tag is required to contain the content of the page. It can contain multiple <h1>, <h2>, <h3>, <h4> and <h5> tags, but only one <h6> tag. It can also contain <div>s, <span> tags, <img> tags, and sections of text.
+
+
+All hyperlinks must be the same size as the text that they represent.
+
+They must also be centered and embedded in the text. The <h1> tag is recommended as the starting point for a link, but the <div> tag can be used instead.
+
+
+You must use <a> tags to mark links. To create a link, add a closing </a> tag and fill in the remaining text with the text that the user will see. For example:
+
+<a href="page.html">The link text goes here</a>
+
+The link text must not be contained within the link text. It can be included once the user has clicked the link.
+
+The HTML code for the above link is as follows:
+
+<a href="page.html">Page</a>
+
+To create a link to the same page:
+
+<a href="page.html">This is the same as above</a>
+
+The hyperlink text should not include any punctuation, numbers, or special characters. The link text example above should not be hyphenated to avoid confusion. The link text example below is incorrect.
+
+
+The body of each page should contain a table of contents that links to each section of the page. This is required for accessibility.
+
+The table of contents must be the first section, and it must link to the header for that section.
+
+The table of contents may be displayed as a list of hyperlinks at the top of the page, or as a sidebar on the right hand side of the page.
+
+The table of content must not include any links to other pages.
+
+The <h1> tag

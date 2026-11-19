@@ -1,0 +1,71 @@
+Composer dependencies introduction
+
+Every Composer dependency that you use in your project should be listed in the composer.json file. It can be a single dependency, multiple dependencies or both.
+
+A project can have one or more dependencies. The list of dependencies is separated by semicolons (;) and added to the composer.json file. Composer knows how to resolve the dependencies, download them, and cache them locally.
+
+You can read more about understanding Composer's dependency resolution system in the composer documentation.
+
+Understanding Composer's dependency resolution
+
+Let's imagine you have this in your composer.json file:
+
+"repositories": [
+    "bin" {
+        "type": "vcs",
+        "url": "git://github.com/your/repo/master"
+
+"require": {
+    "your-project": "^1.0.0"
+
+The bin section above will be used to download the dependencies as source code when running composer install for the first time. The dependency your-project will be downloaded as well. It can be installed with composer install.
+
+If you run composer install again, the bin section will now have the following line:
+
+"repositories": [
+    "git://github.com/your/repo/master",
+    "vcs" {
+
+The vcs section contains the project's source code. Now if you run composer install you'll see that both dependencies are downloaded as source code. The dependencies will be executed in order to fetch the source code from the project repository.
+
+Let's add a second dependency:
+
+"dependencies": {
+    "your-project": "^1.0.0",
+    "example-project": "^3.0.0",
+    "google-api-nodejs-client": "^0.8.2"
+
+composer update will download the example-project from Github and the google-api-node.js from npm. The google-nodejs-client will be downloaded from npm as well, but its version will be set to the latest version from npm's registry.
+
+Composer can download the example-project and google-api-nodejs-client source code from Github and npm, and cache them locally to improve performance a lot. It will use this cache when upgrading any dependency.
+
+If you change your example-project's version to 2.0.0 or use the repository git://github.com/example/project.git, composer will download the source code from there instead of Github.
+
+For now, let's not talk about how Composer uses caching.
+
+Version minimum requirements
+
+The easiest way to understand what Composer's dependencies are and what they do is by looking at the minimum requirements for each dependency.
+
+As an example, let's take an open source project called Laravel. Its composer.json file contains this:
+
+"name": "laravel/framework",
+"require": {
+    "php": ">=5.4.0",
+    "laravel/framework": "^4.0.0"
+
+The require entry above will tell Composer that the framework package is required to be 4.0.0 or newer.
+
+It's important to understand that these are not the minimum versions. Composer will attempt to download the latest version but will also verify its compatibility based on the version minimum requirements.
+
+Composer's compliance check for Laravel's framework package is the following:
+
+"minimum-stability": "dev"
+
+This means that the package is considered compatible with a minimum version of 5.4.0 and has an API that is stable enough for that version.
+
+In this case, Composer will download and cache the latest Laravel framework in order to run composer install. It will then verify Laravel's API compatibility with 5.4.0 and if it passes, the composer update command will be run again to update the dependency.
+
+This is the same case with any other package you have installed. The next time you run composer update, it will run the same procedure of downloading the dependencies, verifying their API compatibility and executing composer update again.
+
+You can read

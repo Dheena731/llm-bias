@@ -1,0 +1,7 @@
+```markdown
+**Dataset Filter:**
+
+- **Select the Condition:** Choose which properties of the dataset to filter by selecting a category (e.g., "Name", "Age").
+- **Filter by Values:** Specify the criteria for filtering (e.g., "Less than 30" for age).
+- **Apply the Filter:** Click to apply the chosen conditions and filter the dataset for relevant results.
+```

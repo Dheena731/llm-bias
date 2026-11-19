@@ -1,0 +1,45 @@
+Final Code:
+
+# VPN-Client-Change
+
+## Subscriber Features
+
+Here are the features related to the subscriber.
+
+- **Full SSL/TLS support**
+- **Renewable IP**
+- **Server support**
+
+### Provider Features
+
+Here are the features related to the provider.
+
+- **Server monitoring**
+- **Server health features**
+- **Yubikey secure key support**
+- **Network monitoring**
+- **Renewable IP**
+- **Server support**
+- **Caching support**
+
+## Other
+
+Besides the above features, you can use this VPN client in the following ways.
+
+- **Mobile**
+- **Windows 10**
+- **Windows 8**
+
+### Related
+
+- [Windows 10 VPN client problem](http://forums.corp.microsoft.com/default.asp?forumid=100&threadid=1158504)
+- [Windows 10 VPN client problem - How can I use this client?](http://forums.corp.microsoft.com/default.asp?forumid=100&threadid=754183)
+
+These were the improvements we looked for in the developer community.
+
+You can decide whether you want to support or not.
+
+You can also run the weblogin command, where you will be notified of the closed and opened reviewer URLs.
+
+- [Flower](https://github.com/microsoft/vscode-flower)
+- [Open Reviewer](https://github.com/microsoft/open-reviewer)

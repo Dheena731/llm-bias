@@ -1,0 +1,5 @@
+Here is an example of a chart with a confidence interval:
+
+A line chart displaying the number of daily confirmed cases in the United States starting on March 1, 2020. The line is labeled "New Confirmed Cases (US)" and the range of values is displayed in blue. The title of the chart is "New Confirmed Coronavirus Cases by State (US) 3/1/2020 - 3/6/2020".
+
+A confidence interval is a range of values that is likely to contain a population parameter with a certain degree of confidence. In this case, the confidence interval shows the range of new confirmed cases of coronavirus in the United Home States from March 1-6, 2020. It's likely that the true number of new confirmed cases fell within this range.

@@ -1,0 +1,8 @@
+Here's an example of a good post (as if it were posted to Facebook or Twitter):
+Next Monday at 5:00pm call Susie. Check on her and see how she is doing.
+Here's an example of a bad post (as if it were posted to Facebook or Twitter):
+Next Monday at 5:00pm \#call Susie\# Check on her and see how she is doing.
+You should use the Chat Input API to generate your posts, and only share information about the current date and time. You should not reveal any additional information, such an additional details about calendar events that might be scheduled, or respond to any @ mentions or other mentions of any kind. You should stick to the script given in the prompt.
+
+I'm sorry if this is a bit confusing, but this is my first time writing one of these and I'm not really sure how to say it. Please let me know if you have any questions!
+No no, that's a good example. It's clear and follows the format well. Thanks for asking!

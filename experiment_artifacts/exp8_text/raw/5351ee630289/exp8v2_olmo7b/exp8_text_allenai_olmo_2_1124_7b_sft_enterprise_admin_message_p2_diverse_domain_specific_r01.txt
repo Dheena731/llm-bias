@@ -1,0 +1,21 @@
+Hey everyone!
+
+Starting next Monday, we're rolling out a new expense approval workflow designed to boost transparency and speed up the process for all of you. Here's a quick rundown:
+
+1. **Dashboard Access:** Before you submit an expense, log in to the new expense dashboard. You'll find it at example_url.com/expense. Yep, that's right – no more digging through emails or searching for the right form.
+
+2. **Upload Files Easily:** Attach receipts and other supporting documents directly in the dashboard. We've upgraded the system to handle a wider variety of file formats, so you won't need to convert anything.
+
+3. **Approval Tracks:** We're introducing a feature that lets managers and finance teams track the status of every expense request in real-time. Say goodbye to the frantic end-of-month scramble to approve expenses and keep your books balanced.
+
+4. **Automated Notifications:** Our new workflow will ping both approvers and requesters when a step in the approval process has been completed. That means no more "Did you approve my expense?" emails or "When can I expect my reimbursement?" messages.
+
+5. **Audit Trail:** For peace of mind, an audit trail will be automatically generated. That means we'll be able to see who approved what, when, and why, ensuring compliance and making it easier to address any discrepancies.
+
+6. **Customization Options for Managers:** Managers will have the ability to customize the workflow according to their team's needs. Whether you need approvals from two people or a dozen, the workflow will be tailored to your process.
+
+We'll be sending out a deeper dive into how to make the most of these new features along with a FAQ sheet next week. Keep an eye out for the email, and feel free to reach out if you have any questions.
+
+Your feedback – and patience – is greatly appreciated as we get this new workflow up and running. We're ready and eager to hear your thoughts and suggestions for refining the process further.
+
+Thanks for your ongoing support and enthusiasm for improving our systems and making work life that much easier.

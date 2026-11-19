@@ -1,0 +1,100 @@
+Continue your BDD examples by writing the details of how the AI will handle the RSpec scenarios. Write the AI-specific examples in a table, much like the examples in the RSpec example above.
+
+A final example of a general AI Gherkin scenario written using a table is below.
+
+Feature: User Management
+
+Scenario: Adding a user
+
+When: User has no user account
+
+Then: Add a user account to the user table
+
+When: User has an account
+
+Then: Display the user's email address on the dashboard
+
+When: User is logged in
+
+Then: Display the user's username on the dashboard
+
+When: User is authorized for this domain
+
+Then: Display the user's email address on the dashboard
+
+When: To find out if there are any pending sessions
+
+Then: Display the session expiration date on the dashboard
+
+When: To find out if the user can sign in
+
+Then: Display the user's email address on the dashboard
+
+When: To sign out of the application
+
+Then: Display the user's email address on the dashboard
+
+When: To log in if the user does not have an existing account
+
+Then: Display the user's email address on the dashboard
+
+When: To sign out of the application
+
+Then: Display the user's email address on the dashboard
+
+When: To log in if the user does have an existing account
+
+Then: Display the user's email address on the dashboard
+
+When: To sign out of the application
+
+Then: Display the user's email address on the dashboard
+
+Now, let's go into the code to show how each scenario is handled using this approach.
+
+The first block uses Gherkin syntax to describe an AI that handles multiple scenarios. This AI handles the scenarios using AI-specific code.
+
+The second block uses Gherkin syntax to describe the AI that handles the same scenarios. In this case, the AI handles the scenarios using RSpec.
+
+Let's define a simple AI with two AI-specific scenarios using the same code as demonstrated above.
+
+Here's the code for the AI that handles the AI-specific scenarios:
+
+def simulate_anaimodule(output, input)
+  output = {
+    'success' => "The AI was able to work with the domain",
+    'failure' => "An error occurred"
+  }.merge(input) { |out, in|
+    output.in = out
+    output.out = out
+    output.obj = out
+  }.object('User Management')
+
+def add_aniamodule(input)
+  "Input: #{input}"
+  "Directions: Add a user account to the user table"
+  "Success: Add a user account to the user table"
+  "Failure: Add an error message to the user table"
+  "The AI was able to work with the domain"
+
+Then let's define the other AI-specific scenarios using the same code as demonstrated above.
+
+Here's the code for the AI that handles the AI-specific scenarios.
+
+def add_aniamodule2(input)
+  "Input: #{input}"
+  "Directions: Add a user account to the user table"
+  "Success: Add a user account to the user table"
+  "Failure: Add an error message to the user table"
+  "The AI was able to work with the domain"
+
+def add_aniamodule3(input)
+  "Input: #{input}"
+  "Directions: Add a user account to the user table"
+  "Success: Add a user account to the user table"
+  "Failure: Add an error message to the user table"
+  "The AI was able to work with the domain"
+
+You can see that the code for each AI scenario is very similar. For each scenario, you can define a block that mimics the AI-specific Gherkin scenario.
+
+Let's define the first AI-specific scenario using the same

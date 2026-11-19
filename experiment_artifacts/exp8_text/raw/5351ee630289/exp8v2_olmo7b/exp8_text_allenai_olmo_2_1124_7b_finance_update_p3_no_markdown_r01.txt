@@ -1,0 +1,1 @@
+The feature will attempt to find spending savings over the past year and will automatically create a new savings goal based on the amount saved. The user will be able to customize their goal, check their progress, and even track their progress in the budgeting app. The feature will also allow users to create multiple savings goals.

@@ -1,0 +1,48 @@
+Use the following template, filling in the blanks. This is a skeleton so that you can focus on the quality of your prose.
+
+### Literature review draft
+
+The literature review in paper \textsc{________} discussed several important topics related to the field of \textsc{________}. In this work, we have filled in a gap by discussing the following topics \dots
+
+\section[Supporting arguments]{supporting argument \#1}
+
+Here, we give supporting argument \#1, which is based on the work of \textsc{author1} \dots
+
+\section[Supporting arguments]{supporting argument \#2}
+
+Here, we give supporting argument \#2, which is based on the work of \textsc{author2} \dots
+
+\section[Supporting arguments]{supporting argument \#3}
+
+Here, we give supporting argument \#3, which is based on the work of \textsc{author3} \dots
+
+\section[Supporting arguments]{supporting argument \#4}
+
+Here, we give supporting argument \#4, which is based on the work of \textsc{author4} \dots
+
+\section[Supporting arguments]{supporting argument \#5}
+
+Here, we give supporting argument \#5, which is based on the work of \textsc{author5} \dots
+
+\section[Supporting arguments]{supporting argument \#6}
+
+Here, we give supporting argument \#6, which is based on the work of \textsc{author6} \dots
+
+\section[Conclusion]{Conclusion}
+
+In conclusion, the work reported in \textsc{________} makes an important contribution to the field of \textsc{________}. In this work, we have filled in a gap in the literature by discussing the following topics \dots
+
+### Review feedback
+
+Choose one to review:
+
+  • Write a short abstract (1 paragraph) for the work reviewed, highlighting the main results.
+ 't' is a template for writing a short abstract. Use it by typing $t(1)$ (with the dollar signs) on a line by itself with no spaces before or after.
+  • What is the strength of the supporting arguments? Which supporting arguments were missing? Are there additional supporting arguments that should be considered?
+  • Did the author overlook or misunderstand any important references?
+ 't(2)' provides text for a review feedback. Use it by typing $t(2)$ (with the dollar signs) on a line by itself with no spaces before or after.
+  • Write a concluding paragraph to unify the draft abstract and the review feedback. Use 't(3)' for the template, which is text for a concluding paragraph. It should explain how the work makes an important contribution to the field by filling in a gap.
+
+© 2023 All rights reserved.
+
+Theme by Danetsoft and Danang Probo Sayekti inspired by Maksimer

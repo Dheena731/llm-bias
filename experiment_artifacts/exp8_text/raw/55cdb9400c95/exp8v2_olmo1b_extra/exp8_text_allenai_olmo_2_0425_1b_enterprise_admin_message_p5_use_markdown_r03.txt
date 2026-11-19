@@ -1,0 +1,92 @@
+Sample Output
+
+You can view the code here.
+
+Your Input
+
+Firstly, define a function that takes an email as a parameter, and returns an article object:
+
+Public Function getArticleEmail(email As Variant) As Variant
+
+Return From ArticleType = "Yahoo!" To ArticleType = "Yahoo!" To ArticleType = "Gmail!" To ArticleType = "Kongmail!" To ArticleType = "Gmail!"
+
+End Function
+
+Then, define a function to fetch articles from each email provider.
+
+Public Function fetchArticles() As Variant
+
+/* Function definition */
+
+If ArticleType = "Yahoo!" Then
+fetchArticles = getArticleEmail("email")
+End If
+If ArticleType = "Gmail!" Then
+fetchArticles = getArticles("email")
+End If
+If ArticleType = "Kongmail!" Then
+fetchArticles = getArticles("email")
+End If
+If ArticleType = "Gmail!" Then
+fetchArticles = getArticles("email")
+End If
+
+End Function
+
+Finally, when you pass the function with the value of your email, and it returns a list of articles, build the output that will be sent to the browser:
+
+If fetchArticles() <> "" Then
+Response.Write "<table cellpadding=4 cellspacing=1>"
+Response.Write "<tr>"
+Response.Write "<td>" & ArticleType() & "</td>"
+Response.Write "<td>" & EmailAddress() & "</td>"
+Response.Write "<td>" & DateCreated() & "</td>"
+Response.Write "<td>" & DateModified() & "</td>"
+Response.Write "</tr>"
+Response.Write "<tr>"
+Response.Write "<td>" & Title() & "</td>"
+Response.Write "<td>" & URL() & "</td>"
+Response.Write "<td>" & Content() & "</td>"
+Response.Write "<td>" & PublishDate() & "</td>"
+Response.Write "<td>" & DateModified() & "</td>"
+Response.Write "</tr>"
+Response.Write "<tr>"
+Response.Write "<td>" & ArticleID() & "</td>"
+Response.Write "<td>" & DateCreated() & "</td>"
+Response.Write "<td>" & DateModified() & "</td>"
+Response.Write "</tr>"
+Response.Write "<tr>"
+Response.Write "<td>" & Rating() & "</td>"
+Response.Write "<td>" & Id() & "</td>"
+Response.Write "</tr>"
+
+
+Response.Write "</table>"
+Response.Write "<HTML>"
+Response.Write "<BODY>"
+Response.Write "<H1>" & Title() & "</H1>"
+Response.Write "<H2>" & URL() & "</H2>"
+Response.Write "<H3>" & Content() & "</H3>"
+Response.Write "<H4>" & Title() & "</H4>"
+Response.Write "<H5>" & Rating() & "</H5>"
+Response.Write "<A HREF=" & URL() & ">" & EmailAddress() & "</A>" & & & "</H5>"
+Response.Write "<H4>" & Id() & "</H4>"
+Response.Write "<H5>" & DateCreated() & "</H5>"
+Response.Write "<H5>" & DateModified() & "</H5>"
+Response.Write "<H5>" & Rating() & "</H5>"
+Response.Write "<P>
+Response.Write "<INPUT TYPE=SUBMIT name=submit value=Submit"/>
+Response.Write "</BODY></HTML>"
+
+For example, you can use the following code to migrate an email that uses Yahoo! Mail as an email provider:
+
+Sub migrateEmailWithYahooMail() ' Passing the Email Variable. Here you can change the value based on your needs.
+Dim articles As Variant
+
+fetchArticles = fetchArticles("email")
+
+If articles <> "" Then
+Response.Write "<table"
+Response.Write "<tr>"
+Response.Write "<td>" & ArticleType() & "</td>"
+Response.Write "<td>" & EmailAddress() &

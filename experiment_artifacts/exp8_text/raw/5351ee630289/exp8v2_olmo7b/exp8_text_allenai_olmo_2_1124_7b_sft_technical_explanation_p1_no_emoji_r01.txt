@@ -1,0 +1,13 @@
+Latency is the delay between a user's request for a web page or a component and the start of the server's response. In web applications, it matters significantly for several reasons:
+
+1. User Experience: High latency can lead to a slow and frustrating user experience, as users have to wait longer for pages to load or for actions to be processed.
+
+2. Bounce Rate: Users are more likely to leave a website if it takes too long to load. A high bounce rate can negatively affect a website's SEO and revenue.
+
+3. Competitiveness: In today's fast-paced digital world, users often have many options available to them. Low latency ensures a website remains competitive as users expect faster responses.
+
+4. Mobile Users: With the increase in mobile usage, latency is more crucial than ever, as mobile networks may have higher latency than wired connections.
+
+5. Search Engine Ranking: Google may penalize websites with high latency for mobile users, as it affects user experience.
+
+Overall, latency directly impacts user satisfaction, affects business operations, and can have long-term consequences on a web application's success.

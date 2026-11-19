@@ -1,0 +1,61 @@
+p 179
+
+Note: "To describe the state of a cell or a node that has no information about its identity, we use the special symbol _."
+
+p 212 "Note: We use the symbol for "not" and the symbol for "takes on a value of exactly""
+
+Note: In Descriptive Statistics: "In computing a frequency table, the value of a missing-value marker is not included in the count"
+
+p 212 "Note: We use the symbol for "takes on a value of exactly" (in a frequency table)"
+
+Note: "If this is the case, you must also define a missing-value marker in the context of the frequency table."
+
+p 232 "Note: In the frequency table, the value of a missing-value marker is not included in the counts."
+
+Note: "If this is the case, you must also define a missing-value marker in the context of the frequency table."
+
+p 232 "Defining a missing-value marker: In the case of a frequency table, we will describe the state of a cell or a node where there is no information about its identity. We will use the marker —"
+
+p 232 "The definition of the missing-value marker: In the case of a frequency table, we will describe the state of a cell or a node where there is no information about its identity. The missing-value marker will be and will not be counted in the frequency table."
+
+Note: "In this case, we use the marker —"
+
+p 232 "Note: This is the definition of the missing-value marker"
+
+p 227 "Note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the count"
+
+p 224 "Note: In the context of Descriptive Statistics, the value of any single missing-value marker is not included in the counts"
+
+p 224 "Note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 224 "First note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 224 "Next note: Any single missing-value marker is not included in the counts"
+
+p 229 "Note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 229 "Next note: Any single missing-value marker is not included in the counts"
+
+p 229 "Note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 229 "Next note: Any single missing-value marker is not included in the counts"
+
+p 229 "Second note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 229 "Next note: Any single missing-value marker is not included in the counts"
+
+p 229 "Second note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 229 "Next note: Any single missing-value marker is not included in the counts"
+
+p 229 "Third note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 229 "Next note: Any single missing-value marker is not included in the counts"
+
+p 229 "Note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 229 "Next note: Any single missing-value marker is not included in the counts"
+
+p 229 "Second note: In the context of Descriptive Statistics, the value of a missing-value marker is not included in the counts"
+
+p 229

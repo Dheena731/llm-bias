@@ -1,0 +1,31 @@
+The guidelines for voting machines are here:
+
+With proper specifications — and voting machines that are compliant with those specifications — any voting machine system will be secure, reliable, and verifiable, i.e., the voting machine can't be compromised.
+
+We must ensure that the machine is secure for the following reasons:
+
+  1. To prevent the machine from being hacked during the vote. This means that the machine can't be hacked to change votes.
+
+  2. To prevent election officials from hacking the machine. This means that the machine can't be hacked to cause the election to be changed or discredited.
+
+Why can't the machine be hacked?
+
+If the machine is hacked, we can't be sure who voted and, in fact, the total number of votes cast could be manipulated.
+
+With an automated system for counting votes, the total number of votes cast can be known very accurately. A vote machine, on the other hand, could be hacked to change the number of votes cast.
+
+How does a voting machine work?
+
+A voting machine is an interactive device that allows voters to mark a paper ballot with a pen (the "punch"). Each voter casts one vote and then returns the ballots to the machine. The machines store the votes and tabulate them. The machine will print a count of the ballot on a piece of paper, and verify the vote by comparing the paper with an electronic record.
+
+To see how this works, watch this video:
+
+We can't be sure that a punch and vote machine keeps the votes it casts and compromises it can't be audited. Also, there happens to be plenty of examples of election machines being hacked in the news.
+
+Why are there so many voting machines?
+
+The election administrators prefer to use machines that they control to, in effect, control the vote. This is not really voting technology, but is more of a political technology.
+
+The most common voting machines are touch-screen machines in which voters select candidates for offices and/or propositions on a screen, and these machines cast the vote for each candidate. The machines also tabulate the votes.
+
+The most popular physical machine in use in the US is the optical scan machine. Voters can put their ballots into the optical scan machine, which scans the ballots into a central counting system. The ballots are automatically tabulated and printed on a paper ballot.

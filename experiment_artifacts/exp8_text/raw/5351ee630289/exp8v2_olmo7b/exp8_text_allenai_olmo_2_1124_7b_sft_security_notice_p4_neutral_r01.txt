@@ -1,0 +1,1 @@
+Starting today, we're enabling two-factor authentication as a standard part of our security measures. This requires you to enter a code sent to your phone in addition to your password when logging in to your account. This creates an extra layer of protection to help keep your information safe.

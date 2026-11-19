@@ -1,0 +1,36 @@
+For example, instead of writing:
+
+<%= html.get('sample') %>ین خصوصیات شما را در <%= html.get('confidence') %> لیوان بندی نمایید و روی <%= html.get('confidenceinterval') %>. شما را یک حداکثر <%= html.get('confidence') %>% در اصل <%= html.get('confidence') %> تبدیل می‌کنید.
+
+Write in plain prose.
+
+Provide short, clear, concise answers. Do not write dialog, describe a process, or use technical terminology.
+
+For example, instead of writing:
+
+In the sample graph, the confidence interval is 0.95. This means that we would expect that the confidence interval will contain the true population parameter 95% of the time. If this is your first time reading this, you may also be wondering why we aren’t using the more common “95% confidence interval” instead of “confidence interval of 95%” which is correct, but less common. The confidence interval is a more general term that includes all intervals that are determined by a confidence level. The terms confidence interval and confidence level are often spoken interchangeably, but it is important to remember that confidence implies that there is a known probability of the interval containing the true population parameter. If you are unsure, ask a professor or TA.
+
+Write in plain prose. Do not write dialog, describe a process, or use technical terminology.
+
+Use simple, standard English terms and phrases, not technical ones. Do not use jargon.
+
+For example, instead of writing:
+
+The confidence interval that was used was 95 percent, which means we would expect that the true population parameter would be found in the interval with a probability of 95 percent over the number of times we would expect something to fall in a randomly selected sample (for instance, how often a coin toss turns up heads).
+
+Write in plain prose.
+
+Do not use jargon.
+
+
+Do not use a combination of bold and italics or other typographic marks in the same text or on the same line. The exception is that scientific and statistical terms may be in bold.
+
+For example, instead of writing:
+
+When a mathematician says that a property holds in a “99.95 percent confidence interval” he means that a new sample of people would have to be drawn in order to find a different result in that same property.
+
+Write in plain prose.
+
+Do not use a combination of bold and italics or other typographic marks in the same text or on the same line. The exception is that scientific and statistical terms may be in bold.
+
+SITE MAP

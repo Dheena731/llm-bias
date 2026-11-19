@@ -1,0 +1,7 @@
+**How Caching Speeds Up a Website**
+
+* **Store Website Content Locally:** Caching stores a version of your website's content on the user's browser or a server, reducing the need to fetch it from the internet every time. 
+* **Minimize server load:** By cacheing frequently accessed pages, you decrease the burden on your server by not having to render and serve every page separately.
+* **Reduce loading time:** Once a cache is generated, it reduces the time it takes to render the page for the user, making the website appear faster and more responsive.
+* **Improve site reliability:** Caching reduces the likelihood of expensive and time-consuming database queries, ensuring that the site remains accessible even when the network is slow or there are many users simultaneously accessing it.
+* **Save bandwidth:** By not downloading content that hasn't changed, caching saves bandwidth, which is especially important for large websites and networks with many users.

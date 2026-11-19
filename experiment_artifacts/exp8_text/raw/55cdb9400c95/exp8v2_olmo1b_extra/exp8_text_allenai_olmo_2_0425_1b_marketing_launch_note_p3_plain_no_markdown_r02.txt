@@ -1,0 +1,15 @@
+Product announcement template
+
+# Title of the product
+### Description of the product
+#### Feature 1
+#### Feature 2
+#### Feature 3
+
+Finish the announcement with a call to action, such as "Click here to download the spreadsheet" or "Download our budgeting spreadsheet".
+
+Additional information
+
+© 2021
+Compose your product announcement in plain text only.
+License terms

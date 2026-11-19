@@ -1,0 +1,12 @@
+Write in active voice
+Using active voice makes what you're writing more direct and direct to the reader. It makes what you're writing more direct and more concise.
+
+Use the second person
+Second-person language ("you") makes what you're writing more direct and more concise. It also conveys a sense of immediacy, because it avoids the passive voice, which often makes what you're writing sound like an objective statement.
+
+Be specific
+When writing a label or tooltip for a date-range selector, be specific about what you're describing. Don't use generic terms such as "today" or "tomorrow" that don't give the user a clear image of the correct functionality.
+
+When using a span or a label element, use text-align: center; to center the label or span element in the div to which it belongs. The centering adds visual consistency to the width and alignment of your visual elements.
+
+Avoid using CSS properties that add secondary meaning to the label or form input, such as color, background-image, background-color, or border. This can confuse users and make your label or input element more distracting.

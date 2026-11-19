@@ -1,0 +1,18 @@
+Attention all staff,
+
+Please take a moment to ensure your screens are locked prior to exiting your workstations. This simple action significantly reduces the risk of unauthorized access to sensitive information. Here are a few specific points to remember:
+
+1. **Password Protection:** Always use strong, unique passwords for your accounts. These passwords should not be shared with anyone and should incorporate a mix of letters, numbers, and symbols.
+
+2. **Screen Lock Timer:** Consider setting a custom timeout period for your screen lock. For example, 10 minutes of inactivity will automatically lock your screen. This reduces the risk of someone accidentally leaving it unlocked.
+
+3. **Brute Force Protection:** If you encounter difficulty accessing your password, try changing it. Cybercriminals often use automated programs to try various combinations, so updating your password to something more complex can significantly increase your security.
+
+4. **Notification Settings:** If your company provides alerts for screen lock, ensure they are enabled. These notifications can help you remember to lock your screen and avoid accidental data leaks.
+
+5. **Educational Resources:** For further security awareness, please refer to our cybersecurity training resources. Regularly updated software and protocols can help safeguard your precious data. 
+
+Remember, small actions like locking your screens can prevent larger problems down the line. Thank you for your vigilance and commitment to company security.
+
+Best regards,
+[Your Company Name]

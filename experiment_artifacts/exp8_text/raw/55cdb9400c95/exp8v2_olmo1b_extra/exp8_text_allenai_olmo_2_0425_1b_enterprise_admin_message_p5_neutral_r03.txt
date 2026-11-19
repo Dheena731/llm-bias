@@ -1,0 +1,106 @@
+Using "")
+require 'sneaker'
+page = Sneaker.new('')
+page.login("admin", "password")
+page.login("admin", "password")
+
+Sending Mails
+
+The Sneaker class provides an API to send emails from an application. There are two methods that are used to retrieve the email queue data:
+
+  • sendEmail()
+  • sendEmailWithTemplate()
+
+The sendEmail() method takes two arguments:
+
+  • the context object
+  • template file
+
+The sendEmailWithTemplate() takes one argument:
+
+  • template file (string)
+
+The sendEmail() method will send the email to email recipients with the provided context object. The sendEmailWithTemplate() will be used to send the email with a template file included.
+
+Sending Emails
+
+Sneaker provides an email template generator that allows the user to easily create a template for sending emails. This template generator allows for content type customization and email subject customization.
+
+email_template = Sneaker.template("emails/email")
+require 'email'
+
+# username must be set as a data source
+username = ENV['EMAIL_USERNAME']
+email_template["from"] = "from@example"
+
+# username must be set as a data source
+email_template["from"] = "from@example"
+email_template["to"] = "to@example"
+
+# email template body
+email_template["content"] = 'Hello %s!'
+
+# email subject
+email_template["subject"] = 'Find My Sneaker'
+
+
+The Sneaker class can be used for converting email addresses using the Sneaker.template() method. This template is used to add, remove, and update email addresses in Sneaker.
+
+# using sneaker templates
+sneaker = Sneaker(template: [''])
+
+
+The Sneaker class will import the SneakerHelper class to assist you in converting email addresses to and from data sources. The SneakerHelper class provides the following methods:
+
+    # helper to verify if user is provided in sneaker context
+    def email_user?(context)
+        context['mail'] == email
+
+    # helper to extract email address from given data source
+    def email_from(data_source)
+        sneaker.sendEmail("user", context['email'])
+
+    # helper to extract email address from given data source
+    def email_to(data_source)
+        sneaker.sendEmail("user", data_source)
+
+    # helper to extract email address from given data source
+    def email_subject(data_source)
+
+    # helper to extract email from given data source
+    def email_body(data_source)
+        sneaker.sendEmail("user", data_source)
+
+# more methods
+
+
+The Sneaker class provides a SneakerHelper helper class for converting email addresses to and from data sources. The SneakerHelper class provides the following methods:
+
+    # helper to verify if user is provided in sneaker context
+    def email_user?(context)
+        context['mail'] ==
+
+    # helper to extract email address from given data source
+    def email_from(data_source)
+        sneaker.sendEmail("user", data_source)
+
+    # helper to extract email address from given data source
+    def email_to(data_source)
+        sneaker.sendEmail("user", data_source)
+
+    # helper to extract email address from given data source
+    def email_subject(data_source)
+        sneaker.sendEmail("user", data_source)
+
+
+The Sneaker class provides a SneakerHelper helper class to assist with generating more complex emails. The SneakerHelper class provides the following methods:
+
+    # helper to insert a link for support
+    def email_support
+        sneaker.sendEmail("support", "support@sneaker.io")
+
+    # helper to insert an attachment for support
+    def email_attachment
+        sneaker.sendEmail("support", "support@sneaker.io", 'email_attachment.html')
+
+    # helper to

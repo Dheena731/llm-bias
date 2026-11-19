@@ -1,0 +1,5 @@
+A missing-value marker refers to a symbol or numerical value placed in a dataset where a piece of information is missing or unknown. This marker serves as a placeholder, alerting analysts or data processors that additional data collection is necessary or that further processing is required to estimate or interpolate the missing data point. Common missing-value markers include: 
+1. **NaN (Not a Number)** in numerical datasets.
+2. **Null** in database management systems.
+3. **Empty strings** or **""** in textual data.
+These markers help to identify and handle missing data appropriately during data preprocessing and analysis, ensuring statistical analyses do not inadvertently include unaccounted-for values.

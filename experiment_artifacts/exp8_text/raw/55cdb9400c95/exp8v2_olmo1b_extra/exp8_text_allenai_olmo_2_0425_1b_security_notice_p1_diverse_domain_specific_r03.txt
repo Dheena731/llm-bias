@@ -1,0 +1,41 @@
+Use the following structure:
+
+  • Title: Password reuse
+    • Objective: Understand password reuse trends and the risks it presents.
+    • Audience: Corporate IT professionals across the enterprise.
+  • Overview: Password reuse is a common practice that is detrimental to your security in the long run, as it puts vital passwords and accounts at risk.
+  • Risks: Password reuse is just one of many types of password reuse. It also includes reusing passwords, password reuse when implementing a new password policy, and even reusing passwords over the course of time due to poor management.
+    • Password reuse is harmful for two reasons:
+      • It allows criminals to obtain your information.
+      • It creates a high risk of credential stuffing attacks.
+  • Solution: Make sure you have a strong password policy in place that requires regular password changes and password diversity.
+  • Outcomes: Educating employees on password reuse is key, as password reuse is a common practice. Encourage your employees to use a password manager with multi-factor authentication.
+  • Conclusion: Password reuse should be avoided at all costs.
+  • Conclusion: Password reuse should be avoided at all costs.
+
+See the following questions in the toolkit for more ideas:
+
+  • Do you have a password policy in place? What are its requirements?
+  • How many different sites and apps do you use on a daily basis?
+  • How often do you reuse passwords?
+  • How does your current password management system work?
+  • How often do you change your passwords?
+  • Does your company require multi-factor authentication?
+  • How do you share passwords with your coworkers?
+  • What new password requirements would you like your company to have in place?
+  • What steps could your company take to improve password reuse?
+  • How could your company make password reuse less likely to happen?
+
+
+Make sure to test the tool with different employees who have similar roles and roles in the business. You could start by using the tool on a development team or the team that is responsible for maintaining the software and apps that you use. For example, consider using the tool to test the password policies that the developers have.
+
+One of the most common misconceptions when it comes to password reuse is that everyone can reuse passwords as long as they have different passwords for different accounts. This is not true. For example, if your password reuse policy was to only use different passwords for different accounts and different services, then you have only limited protection against credential stuffing attacks. Consider the following example:
+
+  • Password reuse policy: Use a different password on each site.
+  • Password reuse policy: Use a different password for each email provider.
+  • Password reuse policy: Use a different password for each social media platform.
+  • Password reuse policy: Use a different password for each piece of software you use (e.g., the web browser or an app).
+  • Password reuse policy: Use a different password for each website or app (i.e., all services).
+  • Password reuse policy: Use a different password for each digital library, app, or digital platform (i.e., all services).
+
+While these policies are all valid, the last example shows that it is easy to have a password policy that is inconsistent with itself. This means that if you reuse all of your passwords across all of your accounts, then your password policy is in fact weak, as it has not provided you with a measure of protection against credential stuffing attacks. For example, if your password is stolen and the criminal is able to obtain all of your accounts and apps, the criminal is able to attempt to log into all of your different services with the same password because you have not provided any extra protection. Therefore, you should consider defining what accounts you reuse and what instances of password reuse are acceptable. For example, you

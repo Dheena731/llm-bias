@@ -1,0 +1,65 @@
+ • Try to validate that the AI did not come up with the writing style of a known author.
+  • Be specific about the cache mechanism - try to explain how a caching mechanism might speed up a website.
+  • Avoid simple, generic claims such as 'a website that uses caching will load faster'.
+
+
+  • You can run the workshop on your own website to make sure the AI did not replicate a human author's writing style, or vice versa.
+  • You can try to improve the AI results by including some hints.
+  • You can try to improve the AI results by training the AI model on a vast dataset.
+  • You can try to improve the AI results by using a larger number of different topics that are not part of the AI's training set.
+  • You can try to improve the AI results by including a more diverse set of actual website texts.
+  • You can try to improve the AI results by training the AI model on a diverse set of real website texts.
+  • You can try to improve the AI results by augmenting the machine learning corpus with real human works and feedback from domain experts.
+  • You can try to improve the AI results by including a more diverse set of real human works.
+  • You can try to improve the AI results by training the AI model with a larger number of real human works.
+  • You can try to improve the AI results by using some domain-specific text classification techniques.
+  • You can try to improve the AI results by integrating more human work into the training corpus.
+  • You can try to improve the AI results by providing feedback through a cognitive computing system.
+  • You can try to improve the AI results by making the model learn contextual and semantic information.
+  • You can try to improve the AI results by creating a rich corpus with text from different sources.
+  • You can try to improve the AI results by creating a domain model that integrates different sources.
+
+
+  • You can try to create a customization tool to enable advanced participants to control and play with the system and explore the effects of different parameters.
+  • You can create a YouTube channel with some real-life videos and improve AI results by including real-world data.
+  • You can try to create a custom corpus to help the AI learning process.
+  • You can try to create a custom training dataset to make the model learn efficiently and speed up the training process.
+
+
+  • You can try to create a custom corpus to help the AI learning process.
+  • You can try to create a custom training dataset to make the model learn efficiently and speed up the training process.
+
+Video of the workshop
+
+Watch this video to see the workshop in action:
+
+
+Evaluate the workshop in 3 different ways:
+
+  • Advanced Participants
+
+    Advanced participants had to evaluate the AI results. They could improve the results by:
+    • Creating a custom corpus.
+    • Creating a custom training dataset.
+    • Creating a custom training set.
+
+  • AI Experts
+
+    The AI experts had to evaluate the AI results. They could improve the results by:
+    • Integrating more human works.
+    • Adding more diverse topics to the AI training set.
+    • Including more real-world data.
+    • Training the model with more different topics.
+    • Training the model with more different domains.
+
+  • Data Scientists
+
+    The data scientists had to evaluate the AI results. They could improve the results by:
+    • Training the model with more different topics.
+    • Training the model with more different domains.
+    • Training the model with more different perspectives.
+    • Training the model with more different sources.
+    • Training the model with more different formats of text.
+    • Integrating human works into the training corpus.
+    • Creating a rich corpus with text from different sources.
+    • Creating

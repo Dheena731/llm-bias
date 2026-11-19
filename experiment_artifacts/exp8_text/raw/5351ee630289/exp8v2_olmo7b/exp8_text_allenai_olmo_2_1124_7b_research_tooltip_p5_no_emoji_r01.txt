@@ -1,0 +1,53 @@
+User Guide
+
+Any text that explains to users how to use a feature or how to interact with the organization's data or tools.
+
+Do not use jargon, or assume users have a certain amount of knowledge about how the organization functions.
+
+
+Page title to demonstrate the difference between title and intro
+
+
+The summary should be a short, one sentence summary of the page.
+
+
+The purpose is one sentence, and should primarily explain the "why" of the page.
+
+For example: Provides an aggregate listing of all users in the organization.
+
+Pages created in the Organizational Registry should be created with the "Group" type.
+
+If the page will be editable by multiple org groups or users, set to "Group" not "Organization" without group.
+
+
+This section is for sections that are required to be on all pages created in the Organizational Registry.
+
+The Organization Description
+
+This section is a short paragraph that describes the organization. It should answer any questions a user might have by clicking on the site.
+
+Organizations have a unique name and phone number that should be listed in the Organization Description section.
+
+The Organization Phone Number
+
+Standalone section that contains the phone number for the Organization.
+
+An example Organization Phone Number:
+
+Phone: 1-888-555-5555
+
+The Organization Web Sites
+
+List of web sites for the Organization.
+
+An example Organization Web Sites:
+
+Phone: 1-888-555-5555
+
+An organization must include a site that contains their listed phone number.
+
+The Phone number is the contact number for the organization.
+
+An example Organization Phone Number:
+
+Phone: 1-888-555-5555

@@ -1,0 +1,28 @@
+Don’t use unnatural expressions or correct grammar.
+
+Finally, provide a link to the corresponding documentation or installation instructions.
+
+Syntax
+
+Here’s an example of a Python code file that uses a few of the most common styles in the Jupyter Notebook:
+
+# First, we'll import the pandas data set
+import pandas as pd
+# We then define a variable called df that will hold a copy of the data
+df = pd.DataFrame()
+# This creates a new column on the dataframe called 'Name'
+df['Name'] = 'John Doe'
+# Now we have a new dataframe with a new column called 'Name'
+# Let's try to put the dataframe into a list
+tries = [df for name in df['Name'] for name in name]
+# We can now ask for a particular row of the dataframe
+# Try printing a few rows that don't have a comma
+print(df[0][0])
+# You can also try printing the whole dataframe
+print(df)
+
+Where to Go From Here?
+
+Now you have seen the basics of how to use a Jupyter Notebook to display some data and perform some calculations.
+
+Everyone learns at their own pace, so we hope this tutorial has been helpful to you. We encourage you to experiment with the tools you learned and explore the Jupyter website to learn more.

@@ -1,0 +1,1 @@
+To export query results, simply right-click on the desired data, then select "Export" or use the shortcut Ctrl+P on Windows or Cmd+P on Mac. Navigate to your desired export location and choose the desired export format.

@@ -1,0 +1,7 @@
+To export query results, follow these steps: 
+
+1. Run the desired query in the system. 
+2. Click on the 'Export' button that appears next to the search results. 
+3. Choose the format you want for the export, typically CSV or Excel. 
+4. Click 'Export' again to begin the process. 
+5. Save the file to your computer when it's finished.

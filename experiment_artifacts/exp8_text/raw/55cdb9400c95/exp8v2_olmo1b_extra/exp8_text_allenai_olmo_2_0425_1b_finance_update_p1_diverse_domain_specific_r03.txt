@@ -1,0 +1,35 @@
+When an update is introduced, explain how it impacts the budget given the previous updates. What is the total spending and the respective amount allocated to each category?
+
+
+You're the CEO of a tech startup. You're managing a growing team, and often find yourself scrambling to keep everyone on track with budget allocation. The CEO of a competing company has introduced a new monthly spending summary for their employees, which is causing some concern.
+
+You take a look at their latest update. The headline reads as follows: "Our Spending Summary Reveals How We're Using Our Budget." Detailing the breakdown of spending categories and the total amount used by each category, you're concerned about where your company is falling short...
+
+  • "Our Software Development Sub-Category: $23,759 (75% of total spending), includes salaries for development staff, media buy, and support tech."
+  • "Our Business Development Sub-Category: $16,000 (15% of total spending), includes marketing, sales, and operations tech."
+  • "Our Customer Experience Sub-Category: $16,000 (15% of total spending), includes customer service, sales, and operations tech."
+
+The update also highlights a specific expense category:
+
+  • "Our Operations Sub-Category: $25,627 (10% of total spending), includes human resources, maintenance, and technology maintenance."
+
+You've noticed that less than half of the $43,059 budget is allocated to the customer experience sub-category this month. What's the impact, and how should you adjust your budget?
+
+You decide to gather your team and brainstorm possible ways to allocate the remaining budget. As you gather everyone, they come up with a few ideas. Here's what they say:
+
+  • "We could use some of our marketing budget for a big marketing campaign." They list out six marketing campaigns that could be adjusted to save some money, but realize they won't be able to launch all of them at once.
+  • "We could go ahead and launch our new marketing campaign that's going to cost us more than we have left." The marketing department thinks this would be a good decision because they believe it will lead to more leads and sales for the company. However, this decision may increase costs for other departments who might experience a change in their budgets.
+  • "We could adjust our sales team to lower their salaries and more closely match the budget allocated to our customer experience sub-category."
+  • "We could realign our operations department expenses to better align with our operations and customer experience sub-categories."
+
+As you review the options, you realize your team is considering some drastic decisions. You ask them how they would maintain the same level of customer service while reducing costs. They mention that without proper training and support staff, their company is going to experience a large increase in customer requests for support.
+
+Your team starts to brainstorm ideas on how to maintain customer satisfaction while reducing their expenses. A couple start to say:
+
+  • "We could hire more sales and customer support staff."
+  • "We could revamp our tech infrastructure so that it can handle more customers at once."
+  • "We could use our marketing budget to advertise more frequently and produce new content to increase our customer base."
+
+Over the course of your meeting, you realize how difficult it is to maintain customer satisfaction while reducing expenses and maintaining the company's reputation. Your team decides to take a step back and reflect on what the company needs to accomplish for the next year. You realize your new monthly spending summary is going to highlight a need for improved customer experience and a need to reduce costs. You think these issues are pretty clear, but you'd like some feedback from your CEO.
+
+You run the numbers and see that your marketing department has $7,000 left over from their budget, while your customer support department is running

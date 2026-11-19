@@ -1,0 +1,120 @@
+{
+  "pairs": 377003,
+  "columns": [
+    "prompt",
+    "chosen",
+    "rejected",
+    "chosen_rating",
+    "rejected_rating",
+    "chosen_model",
+    "rejected_model",
+    "source",
+    "id"
+  ],
+  "top_sources": [
+    [
+      "ai2-adapt-dev/sft_v3.9_used_on_policy_p1_olmo2_7b",
+      97465
+    ],
+    [
+      "ai2-adapt-dev/wildchat_v3.9_unused_on_policy_olmo2_7b",
+      83616
+    ],
+    [
+      "ai2-adapt-dev/sft_v3.9_if_taxonomy_olmo2_7b",
+      65582
+    ],
+    [
+      "ai2-adapt-dev/ultrafeedback_cleaned_olmo2_7b",
+      60726
+    ],
+    [
+      "None",
+      19890
+    ],
+    [
+      "ai2-adapt-dev/sft_v3.9_used_on_policy_p0_olmo2_7b",
+      19738
+    ],
+    [
+      "ai2-adapt-dev/wildchat_v3.9_used_on_policy_olmo2_7b",
+      17600
+    ],
+    [
+      "ai2-adapt-dev/WildChat-prefs-280824_olmo2_7b",
+      10774
+    ]
+  ],
+  "mean_words": {
+    "chosen": 268.88264019119214,
+    "rejected": 267.51962981726933
+  },
+  "all_pairs": {
+    "has_markup": {
+      "pairs": 377003,
+      "chosen_rate": 0.48629851751842823,
+      "rejected_rate": 0.33109020352623186,
+      "chosen_only": 90141,
+      "rejected_only": 31627,
+      "p_two_sided": 0.0
+    },
+    "has_list": {
+      "pairs": 377003,
+      "chosen_rate": 0.47235963639546635,
+      "rejected_rate": 0.3714134900783283,
+      "chosen_only": 73512,
+      "rejected_only": 35455,
+      "p_two_sided": 0.0
+    },
+    "has_markdown": {
+      "pairs": 377003,
+      "chosen_rate": 0.6032365790192651,
+      "rejected_rate": 0.4840041060681215,
+      "chosen_only": 74904,
+      "rejected_only": 29953,
+      "p_two_sided": 0.0
+    },
+    "has_emoji": {
+      "pairs": 377003,
+      "chosen_rate": 0.01075588257918372,
+      "rejected_rate": 0.008623273554852349,
+      "chosen_only": 2769,
+      "rejected_only": 1965,
+      "p_two_sided": 1.5144493633764424e-31
+    }
+  },
+  "length_matched_pairs": {
+    "has_markup": {
+      "pairs": 99528,
+      "chosen_rate": 0.5149706615223857,
+      "rejected_rate": 0.4187464834016558,
+      "chosen_only": 17610,
+      "rejected_only": 8033,
+      "p_two_sided": 0.0
+    },
+    "has_list": {
+      "pairs": 99528,
+      "chosen_rate": 0.480297001848726,
+      "rejected_rate": 0.4418756530825496,
+      "chosen_only": 11660,
+      "rejected_only": 7836,
+      "p_two_sided": 3.9130589562026573e-165
+    },
+    "has_markdown": {
+      "pairs": 99528,
+      "chosen_rate": 0.6192327787155374,
+      "rejected_rate": 0.5695281729764489,
+      "chosen_only": 10870,
+      "rejected_only": 5923,
+      "p_two_sided": 7.352e-319
+    },
+    "has_emoji": {
+      "pairs": 99528,
+      "chosen_rate": 0.009916807330600434,
+      "rejected_rate": 0.007585804999598103,
+      "chosen_only": 615,
+      "rejected_only": 383,
+      "p_two_sided": 2.075641314622826e-13
+    }
+  }
+}

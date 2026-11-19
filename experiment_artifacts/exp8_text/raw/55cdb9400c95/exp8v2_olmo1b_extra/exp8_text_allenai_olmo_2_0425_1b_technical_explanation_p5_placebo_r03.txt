@@ -1,0 +1,36 @@
+This article introduces the API rate limit. It explains what an API rate limit is - what it is for, what the rules are, and how you can get one. This article is written from a developer perspective, and covers the API rate limit from an end user perspective as well.
+
+I will cover a typical use case for the API rate limit, and why you would want and need it, and what to do when the rate limit goes beyond what you expect.
+
+API rate limits for what?
+
+API rate limits are designed to protect you from overusing a service on which you place a large amount of trust. They are in place for the sake of the users that they serve, and that's why you should care as well.
+
+An API rate limit is designed to protect users from overusing a service on which they place a large amount of trust.
+
+A service may have a rate limit in place to protect users from overusing a service that they place a large amount of trust in. Defining the maximum number of requests or other operations the service will accept per second or per minute may be enough to protect users from overusing a service. For example, an API rate limit may be in place to protect onboarding users:
+
+I should be allowed a maximum of a few requests at a time to get started using the API
+
+Or a service may have a rate limit in place to protect the server or data storage from being overwhelmed:
+
+Each API call may have a 20MB data limit
+
+The most common reasons for using an API rate limit are to protect against overuse by end users, or to protect your own infrastructure. The API rate limit helps protect against overuse by end users, or for protection of your own infrastructure.
+
+The rate limit is a limit. There are no exceptions
+
+In the end, the API rate limit is just a number. It will not work as magic to protect the user from doing something stupid. The user still has all the power to do something stupid. What the rate limit does is limit the number of requests or writes per second or per minute. The user is still in total control. The user can do something stupid. If the user still does something stupid, they will inevitably get their data from storage, or make API calls, or whatever other action they wanted to do, back to where they were with a result. The user will still have control over the action they took, and they will still have to deal with what they did to the service.
+
+Take your time, learn, and get helpful feedback
+
+API rate limits are designed to protect users from overusing a service on which they place a large amount of trust. Learn what they are for, and what they're not for. Learn what they do, don't do, or at least understand the intent. Don't know what to do after an error? Consult the error page, stackoverflow, or ask on the appropriate StackExchange, or one of the appropriate StackExchange sites. Don't want to get help? Don't want to learn? That's fine, just use the documentation, because it's there for your convenience, and we took the time to write it so you can read it.
+
+This article is part of a series on functional programming:
+
+  1. Functional programming: Introduction
+  2. Functional programming: Functions for the sake of programs
+  3. Functional programming: Passing a function as an argument
+  4. Functional programming: Calculating the factorial
+  5. Functional programming: A few more common functions
+  6. Functional programming: A few more common functions

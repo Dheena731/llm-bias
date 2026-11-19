@@ -1,0 +1,18 @@
+Do not use a space after the period. Do not use italics, bold, underline, or all-caps.
+
+When it comes to style and formatting, the easiest way to write the code is with the markdown syntax.
+
+
+Use the word paragraph.
+
+Avoid blockquotes (blocks of code). Use a monospace font at the beginning of the line like it is this one, to indicate that it is actual code.
+
+Use words as a separator after the code. For example, you can separate some code with, for example, the word “and.” This will make it easier to read.
+
+Do not use any HTML, CSS, or inline JavaScript. Use pre tags to display pre-encoded text. The code will not be highlighted. Do not use a color theme. Use the default themes provided by WordPress instead of a custom one.
+
+Do not use themes that use CSS or JavaScript when writing your blog posts. The code will not be highlighted. The heading of the blog post will be the same color as it is on the website in case you are using a custom theme.
+
+Leave a Reply
+
+Your email address will not be published.

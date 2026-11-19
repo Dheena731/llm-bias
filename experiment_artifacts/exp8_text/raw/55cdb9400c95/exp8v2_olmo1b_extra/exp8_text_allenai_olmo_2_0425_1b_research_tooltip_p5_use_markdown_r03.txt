@@ -1,0 +1,19 @@
+To export a query result to JSON, add the following line to your query:
+
+select * from test where field = 'value';
+
+The shell will show you the query and tell you how to use the query. If you then click on the query text, it will import the query and display the results.
+
+The query looks like this:
+
+select * from test where field = 'value';
+
+and this is what it looks like in JSON:
+
+"query": {
+    "returns": [ {
+        "field": "value",
+        "value": [
+            [{"name": "1"},{"name": "2"},{"name": "3"}]
+
+[...] is a user-defined delimiter.

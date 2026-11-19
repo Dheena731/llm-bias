@@ -1,0 +1,45 @@
+Context and purpose
+
+The description of a dataset filter is a direct communication between a research tool and the researchers who use the tool. It is crucial to establish trust right away, so readers can trust that they can use the tool without having to worry about accidentally deleting data they did not mean to.
+
+The purpose of a filter is to narrow down the potential candidates for a certain action, such to be able to make the action faster. If, for example, someone wants to upload files to a research tool, they need to go through the files that they have access to. If the research tool contains 1000 files, it will take the user a long time to go through all the files manually. Instead, they could use the filter to narrow down the search to only, for example, the files with the .txt extension. This way they will save time and have access to the exact functionality that's needed.
+
+Purpose and outcome
+
+The filter is a way to find "good" data entries, and it is a crucial feature to keep in mind when designing a tool. The filter itself should be based on the structure of the tool, and it should be possible to execute the filter in different ways to quickly find and select the data entries that work well together.
+
+The name of the filter should be based on the function of the filter, the object that the filter is searching for, and the kind of filter it is.
+
+
+The following example is from the Datasets tab in the Norges forskarportal. In the example, the filter is called "Paradigmedik" and the function is to find datasets containing the key word "paradigmedik".
+
+The tooltips in the Norges forskarportal uses the word "Filter". In the existing tooltips it is not clear what the name of the filter is.
+
+Filter: Paradigmedik. Filter after keys, titles and subjects. The results will display all datasets that contain the key word 'paradigmedik'.
+
+We had to write "the key word" to make the text clearer and easier to understand. The wording in the tooltip will probably be different based on different times of the day and depending on what the user is searching for. Also, the word "the" can make the text feel more natural.
+
+When writing a tooltip, it is important to keep in mind that the content should be easy and quick to process. Here is an example of how the tooltip could be written:
+
+
+Filter: Paradigmedik. Filter after keys, titles and subjects. The results will display all datasets that contain the key word 'paradigmedik'.
+
+Filter: Paradigmedik - Subject: 'paradigmedik'
+
+Filter: Paradigmedik - Title: 'paradigmedik'
+
+Filter: Paradigmedik - Key words: 'paradigmedik'
+
+Filter: Paradigmedik - Keywords: 'paradigmedik'
+
+The word "Subject" seems a bit awkward in this context. It is clear from the example that we are looking at a filter which narrows down the list of datasets. It is easy to understand that there is some kind Math, History, and Education in this content. A user only needs to click "filter" to know that they are working with the "paradigmedik filter". The filter text needs to be clear and precise, and it should be obvious what function the filter serves. The tooltips (and other user feedback) should make it clear what is actually happening.
+
+The tooltip should answer the following questions:
+
+  • What is it?
+  • What is the purpose of the action?
+  • What is the result of the action?
+  • How can the action be executed?
+  • What is the outcome of the action?
+
+The tooltips need to

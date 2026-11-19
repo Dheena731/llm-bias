@@ -1,0 +1,9 @@
+**Why Latency Matters in Web Applications**
+
+- **Response Time**: Latency refers to the time it takes for data to travel from the user to the server and back. A high latency can make the application feel slow and unresponsive.
+- **User Experience (UX)**: A delay of a few milliseconds can significantly impact the user's perception of speed and reliability.
+- **Application Scalability**: High latency can limit the scalability of your application since each additional request adds to the delay.
+- **Congestion and Bottlenecking**: Constantly high latency can cause network congestion, making other requests wait unnecessarily, and can lead to throughput issues.
+- **Maintenance and Optimization**: High latency often indicates inefficiencies and bottlenecks in your infrastructure, making it harder to optimize and maintain a smooth experience.
+
+****In summary**,** **latency** matters in web applications because it directly affects the user's experience, limits scalability, and can impact the ability to optimize and maintain the system efficiently.

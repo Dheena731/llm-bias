@@ -1,0 +1,1 @@
+Do not break lines in a way that would be harder to read for a robot or a person.

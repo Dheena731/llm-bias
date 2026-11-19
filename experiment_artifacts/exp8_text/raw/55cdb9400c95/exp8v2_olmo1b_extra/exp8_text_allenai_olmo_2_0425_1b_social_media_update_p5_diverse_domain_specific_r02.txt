@@ -1,0 +1,81 @@
+B. Data
+
+
+Data is any information that can be collected, analyzed, and utilized to generate insight or A.I. output.
+
+In this exercise, you will be working with your own dataset.
+
+
+  1. You will collect several data points about your customer base. These data points will be used to develop a customer persona and to create your A.I. model.
+  2. Upload your data to the Google Docs sample spreadsheet template.
+  3. Create a new sheet for each data point and name it accordingly. (In the spreadsheet template, you can already see a data sheet example of the exercise.)
+  4. Add the data point information and finish the sheet (including a header and a final column using "Total".) Remember to include headings for each column and to keep the spreadsheet organized and easy to read.
+  5. Export the spreadsheet to CSV.
+  6. Upload the CSV file to the Google Sheets sample template.
+  7. Start developing your model with the data and the examples.
+
+C. Model
+
+This section will guide you through the steps needed to create an A.I. model to generate content for a social media update based on the data you collected.
+
+  1. Create a new blank document in Google Docs.
+  2. Copy and paste the following code and use the code block editor to complete the code.
+  3. Complete the model with the data collected in the social media update exercise.
+  4. Use the table below to test your model.
+
+Data Input Output
+
+Sourced Data
+Total Sentiments 3
+Average Sentiment 2.8
+
+Your Social Media Update
+
+Here is a piece of content that you may use for the social media update:
+
+Thank you for reaching out to us today. We hope that we have been of service. If you have any questions or would like more information, please feel free to reach out to us at or through the website below.
+
+Your Name
+
+
+Email Address
+
+Twitter handle
+
+Facebook Page
+
+
+Next Steps
+
+  1. Complete the A.I. model.
+  2. Clean the data. You may need to re-label the columns or add additional labels.
+  3. Save the document as a Google Doc with the name socialupdate.
+  4. Upload the updated document to the Google Doc sample template.
+  5. Use the table below to test your model.
+
+Data Input Output
+
+Sourced Data
+Total Sentiments 3
+Average Sentiment 2.7
+
+Your Social Media Update
+
+Here is a piece of content that you may use for the social media update:
+
+Thank you for reaching out to us today. We hope that we have been of service. If you have any questions or would like more information, please feel free to reach out to us at or through the website below.
+
+Your Name
+
+
+Email Address
+
+Twitter handle
+
+Facebook Page
+
+Detail the various ways the model can be used to generate content for the social media update. Provide the examples of content.
+
+Develop the A.I. model so that it can be used to generate any content for social media updates in the future.
+
+Develop an A.I. model that can be used to generate content for any social media update in the future.

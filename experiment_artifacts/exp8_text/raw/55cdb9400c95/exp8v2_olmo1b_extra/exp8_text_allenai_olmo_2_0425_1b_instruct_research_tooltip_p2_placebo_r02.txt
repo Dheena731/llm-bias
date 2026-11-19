@@ -1,0 +1,6 @@
+A concise tooltip explanation for a confidence interval in a chart might read: "Confidence Interval: In a chart, a confidence interval provides a range of plausible values for an unknown population parameter, based on the sample data. It encompasses the true value of the parameter with a specified level of confidence." 
+
+* Fact: Confidence intervals are a critical tool used in statistics to estimate population characteristics from sample data.
+* Placeholder Text: [For example, in a bar chart where there is a confidence interval around the average height of a group of people, you might see "(Estimated: [95% Confidence Interval])".]
+* Contradiction: It is not possible to exceed 100% confidence. A 100% confidence interval would imply the presence of certainty about the parameter that science cannot offer if it were completely certain.
+* Recommended Audience: Data visualization experts, statisticians, and anyone looking to understand how statistical analysis informs visual presentation of data.

@@ -1,0 +1,9 @@
+[EX Q]: who was the president on 1911 and 1912
+[EX A]: 1911, 1912
+
+[EX Q]: What is the year when the product was released
+[Kotlin: How do you get the product's release year?
+[EX A]: What is the year when the product was released
+
+[EX Q]: How can i put a time interval?
+[EX A]: How can I get the time interval?

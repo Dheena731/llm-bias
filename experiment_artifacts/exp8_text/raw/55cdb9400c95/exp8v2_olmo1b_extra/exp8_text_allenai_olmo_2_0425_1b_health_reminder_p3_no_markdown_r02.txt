@@ -1,0 +1,86 @@
+Chapters and sections
+
+Each chapter is a plain text file.
+
+Each section is a plain text file.
+
+Style guide
+
+The style guide is that of this documentation.
+
+The exception is that the first table of contents section in each chapter—for example, the section "Table of contents"—is a rendered HTML table. This table is rendered by the rst2html conversion script; it's not part of the source file.
+
+To be honest—there's no reason for this section! But if you'd like to know more about how to maintain the HTML version of this source, here's some background about the rst2html tool chain.
+
+
+Here is the template for a chapter, modified for this source code:
+
+    <title>Chapter 2</title>
+    <para>Second chapter of the documentation.</para><para>The purpose of the chapter is...</para><para>It contains a list of examples...<link>See <a href="examples">Chapter 3</a></para></section><section title="Table of contents">
+    <h1><center>Table of contents</center></h1>
+      <li><a href="chap03.html">Example 1</a></li>
+      <li><a href="chap04.html">Example 2</a></li>
+      <li><a href="chap05.html">Example 3</a></li>
+    <para>Second section of the chapter.</para>
+
+The important sections are:
+
+  • [title of the section](<link>section title</link>)
+  • <para>One or more paragraphs</para>
+  • [first section of the chapter](<link>chap title</link>)
+  • <link>section title</link>
+    • [examples of the section](<link>section title</link>)
+      • *Example 1*
+      • *Example 2*
+      • *Example 3*
+    • <link>section title</link>
+      • *end of example 1*
+      • *end of example 2*
+      • *end of example 3*
+
+The <link> section of a <link>section is shown as a heading in the table of contents. It contains some HTML markup so that the hypertext link is rendered as a hyperlink. For instance, the first section of the chapter is:
+
+  • The purpose of the chapter is...
+
+This is shown as a heading in the table of contents:
+
+  • Chapter 2
+  • Purpose of chapter 2
+
+This is a link to the content of the section (example 1), which is in the chapter 3 source:
+
+  • Example 1
+
+Hyperlinks can refer to content in a chapter, section, or another document. For example, here is another section of the chapter:
+
+  • Second section of the chapter.
+
+This is shown in the table of contents as:
+
+  • Second section of the chapter
+  • Examples of the section
+  • Second section of the chapter
+
+The second section of the chapter is a link to the content of the section (Example 2), which is in the chapter 3 source:
+
+  • Example 2
+  • End of example 2
+
+This is shown in the table of contents as:
+
+  • Example 2
+  • End of example 2
+
+The <para> section is an optional block of text, but it's useful for including a description of the example:
+
+  • Second section of the chapter.
+
+The "Second section of the chapter" text is shown as a heading in the table of contents:
+
+  • Second section of the chapter
+
+It's also useful if there are multiple examples of the same example:
+
+  • Second section of the chapter.
+  • Example 1
+  •

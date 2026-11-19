@@ -1,0 +1,57 @@
+Example Image
+
+Clicking on the export button opens a modal while at the same time refreshing the page's.
+
+Example Image
+
+Example Image
+
+*This would have to be done by the application that retrieves the data from the database.
+
+In my opinion I think it's best practice to fetch the data from the database as it's easier to maintain, but after all the data is fetched, I think it would be easy for the application to fetch the data in the format of a json, so that you can actually instruct the user on how to export the data. The reason why I think it would be easy for the application to fetch the data in a json format is because all the data fetched from the database would be in the same format.
+
+Answer #7
+
+I think it's important to use camel case when naming forms. It's easier to read and understand the code.
+
+I'm sure there's more.
+
+I like consistency and order. So when I name a function or property, I put the action first, then the type of action.
+
+In the code below, I have named a property "setOptions" and it's associated function "setOptions". Then I have a property "name" in the HTML template that has the model name. The code below is using common conventions that I think are best practices.
+
+*Note that I'm using light bulbs because that's what we are using at work.
+
+<button onclick="getOptions()">Get Options</button>
+function getOptions() {
+  //You can have a variable for this, but I'm just going to use a constant
+  var options = {
+    type: "Voucher",
+    description: "The name of the voucher",
+    value: 10
+  //Now you can put the options in here
+  //I also have an option to show the options on the page along with the Vue component
+  //and store the options in the same place they are on the page.
+  //You could also select which options to show
+
+  return options;
+
+/* HTML template for the component */
+<div class="vui" on="click" v-on:click="setOptions">
+  <button class="btn btn-default" onclick="getOptions()">Get Options</button>
+  <div class="vui-options" v-for="myOption in options">
+    <span class="vui-items" v-text="myOption.name"></span>
+    <span class="vui-values" v-text="myOption.value"></span>
+
+I don't feel like I'm violating the law of DRY when the functions are similar, but I believe they are semantically similar. I believe it's easier to read.
+
+I have one more tip to add. I think it's important to focus on the most important thing first. This means that it might not be the first thing to put in the HTML template, but use that as a place holder. Then focus on getting that to work. Then focus on the next most important thing. And so on.
+
+
+Answer #8
+
+Don't do it. It's not something that anyone will ever want to look at. Everyone will always want to see the end result.
+
+I think that, for one, it's bad to set up a workflow that is so repetitive that it takes two to three times as long to get something done. For instance, you might want to use a form to add new employee data into a database, and then validate that employee data to see if it's correct, and then save that data to the database to be added to the employee table. By putting it all into a form, you are essentially limiting yourself, because you don't know if you got everything right, and you don't know if you need to add more fields to it.
+
+You can make a form to

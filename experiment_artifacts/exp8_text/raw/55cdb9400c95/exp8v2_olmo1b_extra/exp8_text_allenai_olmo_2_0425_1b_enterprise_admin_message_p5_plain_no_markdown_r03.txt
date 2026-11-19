@@ -1,0 +1,7 @@
+ 1. I need to move my email address from one hosting provider to another. I've been running my email on a server that's been hacked, and I want to use a different provider. Can you help me?
+  2. I receive emails on another server, but that server has been hacked. I want to move my email address from that server to a different provider. Can you help me?
+  3. My email address has become disconnected from my domain. My new email address isn't working. Can you help me?
+
+Responses to this question should be concise and should address the primary question. For example, "I need to transfer my email address to another hosting provider" is too long and does not explicitly address the primary question. "I want to move my email address from one hosting provider to another" is too short and may be truncated. "I need to move my email address from one hosting provider to another" is too wordy.
+
+If you need help, please contact me.

@@ -1,0 +1,16 @@
+This is a complete example:
+
+We're updating our card processing fees based on the number of chargebacks a merchant's account has and the value of the transaction. Please see the attached document for details, or [ask customer service](mailto:contact@shop.com) if you have any questions.
+
+Good luck,
+David
+
+There are many possible answers. This is a good one.
+
+
+Another example:
+
+It has come to my attention that several accounts have been flagged as potentially fraudulent by our card processing service. I have asked them to explain the situation, so please do not be alarmed. [Keep calm and carry on](http://www.keepcalm.com/)!
+
+Good luck,
+David

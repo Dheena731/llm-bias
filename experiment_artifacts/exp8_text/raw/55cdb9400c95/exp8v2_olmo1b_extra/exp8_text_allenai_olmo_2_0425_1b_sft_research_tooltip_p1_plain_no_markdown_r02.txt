@@ -1,0 +1,1 @@
+This dataset filter allows users to choose specific categories or attributes from the dataset they are examining. By clicking on the drop-down menu, you can select or deselect columns to narrow down the data to only include relevant information. This can aid in making more focused and accurate observations or analyses.

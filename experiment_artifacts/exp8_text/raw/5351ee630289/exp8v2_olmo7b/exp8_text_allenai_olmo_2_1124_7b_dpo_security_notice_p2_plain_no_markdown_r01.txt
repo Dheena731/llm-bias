@@ -1,0 +1,24 @@
+To all employees:
+
+Please be cautious and vigilant when checking your emails as we have recently received reports of phishing attempts targeting our staff. These emails appear to come from familiar sources but contain suspicious links or attachments that could compromise our company's security and personal information.
+
+Phishing emails often ask for sensitive information such as passwords, account numbers, or social security numbers under false pretenses. They might create a sense of urgency or exploit current events to trick you into acting without thorough scrutiny.
+
+To protect our company and yourselves:
+
+- **Check the Sender Email Address:** Verify the email address carefully. Phishing attempts often have slight misspellings or unusual domain names that are not our usual correspondents.
+
+- **Do Not Click Links or Download Attachments:** If unsure about an email's legitimacy, contact our IT department directly before taking any action.
+
+- **Use Two-Factor Authentication:** When possible, use two-factor authentication to add an extra layer of security to your accounts.
+
+- **Stay Informed:** Keep yourself updated about common phishing tactics through our company's cybersecurity resources.
+
+If you receive an email that you suspect to be a phishing attempt, please do not respond or click on any links. Instead, forward the email to our IT department at it@ourcompany.com and delete it from your inbox.
+
+Thank you for your cooperation in maintaining a secure workplace environment. If you have any further questions, please reach out to IT directly.
+
+Best regards,
+
+[Your Name]
+[Your Position]

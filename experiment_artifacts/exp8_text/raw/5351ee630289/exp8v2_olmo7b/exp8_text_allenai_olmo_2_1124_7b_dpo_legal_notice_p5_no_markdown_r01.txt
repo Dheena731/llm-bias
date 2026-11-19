@@ -1,0 +1,31 @@
+** NOTICE OF ACCEPTABLE USE POLICY FOR SHARED NETWORK**
+
+ATTENTION NETWORK USERS:
+
+THIS NOTICE SETS FORTH THE ACCEPTABLE USE POLICY FOR THE SHARED NETWORK TO WHICH YOU HAVE BEEN GRANTED ACCESS. YOUR CONFORMITY WITH THIS POLICY IS ESSENTIAL TO MAINTAIN THE NETWORK’S RELIABILITY, SECURITY, AND INTEROPERABILITY. FAILURE TO ADEQUATELY FOLLOW THESE GUIDELINES MAY RESULT IN SERVICE SUSPENSION OR TERMINATION WITHOUT PRECEDENT.
+
+1. **ONOING AND AUTHORIZATION:**
+   Users are expected to obtain proper authorization from the network administrator before accessing the shared network. Unauthorized access and misuse will not be tolerated.
+
+2. **PROHIBITED ACTIVITIES:**
+   - **Malicious Activities:** Any form of malicious activity, including but not limited to hacking, phishing, spamming, and intrusions, is strictly prohibited.
+   - **Unauthorized Downloads and Distribution:** Illegal downloads, software piracy, and the distribution of copyrighted material are strictly forbidden.
+   - **Network Abuse:** Activities that degrade network performance or service, such as excessive network traffic generation, are prohibited.
+   - **Improper Use:** Misuse of the network for any purpose that significantly interferes with the normal operation of the network or negatively impacts other users.
+   - **Sharing of Network Resources:** The sharing of computing resources or user accounts without proper authorization is strictly prohibited.
+
+3. **SCOPE OF SERVICE:**
+   The shared network service is intended for use by authorized users for legitimate purposes including, but not limited to, email, data transfer, and authorized access to network resources and services.
+
+4. **RESPECT FOR OWNERSHIP AND PROPRIETY:**
+   Users must respect the intellectual property rights of others and refrain from any activities that infringe upon these rights.
+
+5. **POTENTIAL CONSEQUENCES:**
+   Infringement of this policy may lead to warning notices, temporary suspension, or permanent disconnection of network services.
+
+6. **UPDATES AND CHANGES:**
+   The network administrators reserve the right to update or modify this acceptable use policy at any time. Users are advised to periodically review this policy for any updates.
+
+By accepting this notice, you agree to comply with the above terms and conditions. Your continued access to the shared network is contingent upon your adherence to this acceptable use policy.
+
+**END OF NOTICE**

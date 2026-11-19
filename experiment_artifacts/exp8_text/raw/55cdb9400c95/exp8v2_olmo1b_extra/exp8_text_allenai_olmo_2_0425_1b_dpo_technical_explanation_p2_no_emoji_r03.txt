@@ -1,0 +1,13 @@
+A database index is a structured collection of pointers that speeds up database querying by reducing the amount of data that needs to be scanned. Instead of reading through every record to find the information needed, an index accesses only the records that are directly referenced by the index entries. This is particularly beneficial in scenarios where queries often involve searching for specific columns or when the same subset of records needs to be accessed frequently, as indices can significantly cut down on the time and resources required to retrieve data.
+
+Here's a short breakdown of how an index works:
+
+1. **Structure**: It's often a sorted list that underlies the actual data in the table, often clustered on a particular indexed column(s).
+
+2. **Search Optimisation**: When a query is made, the database reads the index, which provides a jump point to the relevant data record(s).
+
+3. **Reduced Data Scan**: Instead of scanning through the entire table to find the required data, indexes enable the database to skip directly to the relevant rows or records.
+
+4. **Query Performance**: This can lead to faster data retrieval, as indices can reduce the time needed for queries, especially those involving frequent searches or looking up specific values.
+
+In essence, an index acts as a pathway to efficiently locate the necessary data, minimizing the time taken to access and process the information when compared to a table scan.

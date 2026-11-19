@@ -1,0 +1,1 @@
+Latency matters because if the page load time is long, people will leave before the page is loaded. It is very important to have a fast response time of the server to reduce latency and making the page load faster. This reduces the rate of bounce and reduces the traffic to the website.

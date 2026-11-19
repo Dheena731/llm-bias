@@ -1,0 +1,1 @@
+Hashing is the process by which data is sorted and stored in a database. Caching is the process of storing copies of that data on the client's device, so it can quickly access it without having to go through the server or database. The result is faster site loading times than without caching. As HTTP headers are used to cache content, it increases the server's load.

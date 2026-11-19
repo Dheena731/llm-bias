@@ -1,0 +1,57 @@
+Sample Output
+
+App Store
+
+Budgeting is a crucial element of financial management. Every month or week or day, you are required to monitor, and ultimately run, your finances. You have multiple bills and multiple expenses. If you do not plan and budget your expenses, you'll be in a mess. Before you know it, you'll be scrounging for money to pay your bills and your debts, and that's not the way to go. Do not set yourself up for financial hardship. Instead, take the time to make a budget. This budgeting spreadsheet template is the perfect solution to your problem.
+
+This spreadsheet template offers numerous features to help you out, including:
+
+  • Healthy money management.
+  • Plan for your expenses.
+  • Manage your finances better.
+  • Track your income and expenses.
+  • Spend within your means.
+  • Customize it to your heart's content.
+  • Save money in the long run.
+
+So, don't wait any longer. Get this spreadsheet template today and start making the most of your finances.
+
+Sample Input
+
+This is the first example of a string.
+
+Sample Output
+
+First example of a string.
+
+Sample Input
+
+This is an example of a sentence.
+
+Sample Output
+
+This is an example of a sentence.
+
+Sample Input
+
+Here is an example of a line break in the middle of a sentence.
+
+Sample Output
+
+Here is an example of a line break in the middle of a sentence.
+
+Sample Input
+
+This is an example of a line break in the middle of a sentence. This is another line break in the same sentence. This is the final line break in the same sentence. 
+
+Sample Output
+
+This is an example of a line break in the middle of a sentence. This is another line break in the same sentence. This is the final line break in the same sentence.
+
+Sample Input
+
+My name is John Smith. I am from Boston. My email address is abc@example.com. 
+
+Sample Output
+
+My name is John Smith. I am from Boston. My email address is abc@example.com.

@@ -1,0 +1,12 @@
+# Password Reuse: A workplace security risk
+
+**Why Password Reuse is a Problem:**
+- **Increased Risk of Hacking:** Reusing passwords across multiple accounts makes it easier for hackers to gain access to one account and then propagate their access to others.
+- **Predictable Passwords:** Many users reuse passwords because it's convenient, resulting in predictable patterns like "password123" or "abcdefg".
+
+**Best Practices:**
+- **Use a Unique Password for Each Account:** Set up a unique and complex password for each of your accounts to reduce the risk of unauthorized access.
+- **Password Managers:** Consider using a reputable password manager to generate and store complex passwords for you.
+- **Educate Employees:** Regularly remind your team about the risks of password reuse and encourage the use of strong unique passwords.
+
+By following these guidelines, your workplace can better protect its digital assets and staff.

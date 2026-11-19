@@ -1,0 +1,28 @@
+MN-NA wants you to specify explicitly that you permit cookies for your website in your notice. You are inviting users to view your website in a way that they might not have otherwise.
+
+If you are not currently using cookies to allow users to use your website, you should do so in a notice on your website. If you do not currently use cookies, but would like to start using cookies, you should not place a notice on your website.
+
+For example, this is how Google's notice includes a cookie notice.
+
+Within this notice, use the following structure:
+
+  1. State your website name and address if you are not using a "no-website" policy.
+  2. Include a link back to the privacy policy notice on the website.
+  3. Mention what type of website you are using. For example, for a website that sells products, mention that you are using cookies to collect consumer data.
+  4. Mention that you are using cookies to collect consumer data.
+  5. Indicate whether you use 3rd party cookies. For example, if you are using Google, indicate whether you are using Google Analytics.
+  6. If you use 3rd party scripts to collect consumer data, mention the script name, version, and date it was added.
+
+Sample legal-style notice:
+
+I am the owner of the website and would like to inform users that I am using cookies and other technologies to collect data about them. While I am currently not using cookies, I would like to start using them in the future. If you have a good reason to object, please let me know. I will explain your objection in my notice.
+
+Please note: You should not use this notice as the basis for a cookie notice as stated by the European Union. The notice applies only to your website, not to any other websites.
+
+If you are using 3rd party scripts, give me their name and version. If you are using a 3rd party script, I should be given the consent code and given the chance to view it. Thus, I am giving you consent to use my website in this manner.
+
+**Name and address:** I am the owner of the website at the following address. Please visit this website to see my contact information.
+
+**Provider of third party services:** I am using the following service provider to collect data about my users: [Service name]. I specify whether I am using it to collect user data.
+
+**Additional information about cookies or other technologies:** I am using the following technologies: [Script name] version [Date added]. I use this technology to collect data about my users. In particular, I am collecting data via [script name], version 1.2, on [date]. I am using these technologies to collect data so that I can provide excellent services to my users. [Link to your privacy policy notice]

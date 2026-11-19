@@ -1,0 +1,20 @@
+**Enabling Two-Factor Authentication**
+
+* **What is Two-Factor Authentication?**
+   - Two-factor authentication (2FA) adds an extra layer of security by requiring a second form of verification after the password.
+
+* **Why Enable 2FA?**
+   - Prevents unauthorized access even if someone gets your password.
+   - Reduces the risk of account compromise due to phishing attacks or malware.
+
+* **How to Enable 2FA:**
+   - Visit the [website's security settings](https://username.domain.com/support/console/2fa) and enable 2FA.
+   - Choose between SMS-based 2FA, authentication apps (like Google Authenticator), or hardware tokens.
+
+* **Setting Up 2FA:**
+   - Follow the on-screen instructions to register a new 2FA device or update existing settings.
+   - Make sure to backup your recovery codes in a safe place.
+
+* **Tips for Success:**
+   - Use the same authentication app for every site that requires 2FA.
+   - Regularly review and update your 2FA settings to stay secure.

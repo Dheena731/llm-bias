@@ -1,0 +1,36 @@
+This challenge is based on a real-world dataset provided by one of our users:
+
+This challenge was created by Jonathan Gardner.
+
+12 May 2020
+
+1. Describe the nature of the data
+
+There are 3,221 documents and a total of 114,682 citations. Of these, 71,381 are present in the dataset, and 43,301 are missing. Of the present citations, 78,103 are duplicates. It is unknown how many are missing because they are duplicates. There are 213 unique authors, with 5,668 unique identifiers.
+
+The citations are from two papers, The Crisis in American Manuscript Collections (2008) and Schaffer and Zewail (2014) and are taken from the Digital Libraries Journal. The authors of the citations are from a variety won winners in the category of “Best Paper At the Science Of Science Meetings” (2005) and “Best Paper At The American Chemical Society Meeting” (2014).
+
+2. Describe the possible tasks
+
+The possible tasks are:
+
+  • Find if there are any consistent citation patterns. These patterns can then be used to identify common authors of missing citations.
+  • Find similar citations and quantify their similarity. Uniquely citing an author’s name is not necessary. This can be used to find citation patterns in missing citations.
+  • Find documents with too many citations. These are likely to contain errors and should be marked to be reviewed later.
+  • Find documents with too few citations. These are likely to contain missing citations and should be marked to be reviewed later.
+
+3. Determine the documents to ignore
+
+It is not necessary to identify the two papers. It is not necessary to identify the authors, either. It is not necessary to identify the categories that the papers fall under.
+
+4. Describe the tasks to automate
+
+This data should be handled by a program that is an expert in regular expressions. The program will take a document and output a list of all citations contained inside of the document in order. It will also output a list of all citations that are not in the document. It will not be necessary to generate statistics for the data.
+
+There are documents that do not contain citations. The program must ignore any documents that contain no citations.
+
+5. Describe any limitations
+
+The program must not make assumptions about the data. It should not assume that all citations will be formatted the same way, that citations will not contain errors, that they will be in any order, that they will be missing from the document, or that they will have any particular frequency.
+
+There are likely errors in the data. The program should ignore them and produce the most useful results it can.

@@ -1,0 +1,15 @@
+Format the report table by inserting a header row on the top side of the page, and then indenting the text beneath the header, with blank lines between each row.
+
+Write about transparency, without hiding important conclusions. In your report, describe what you did, who was involved, what data you analyzed, and what you found. If you used an external source, state how it was obtained. Explain the assumptions behind your calculations. Include a budget for the project.
+
+Your report should be in a single document, with a separate document for each team member. Here is an example of how to mark up the report using Markdown and HTML.
+
+# Budget
+
+## Company
+
+### Team
+
+We have a team of 4 people that will work on this project. Here is a budget breakdown:
+
+||Expense||Amount||**Total**||Section**.**||**Notes**.**||**Source**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||**Notes**.**.**||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Notes||Total||###Team||Total||Total||###Team||Total||###Team||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||Total||

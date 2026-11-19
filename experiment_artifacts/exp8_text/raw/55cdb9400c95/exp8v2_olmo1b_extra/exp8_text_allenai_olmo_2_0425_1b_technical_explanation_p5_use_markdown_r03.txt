@@ -1,0 +1,14 @@
+<!-- start example --><pre><code>---
+title: "What is a rate limit?"
+date: "June 26, 2017"
+link: "http://www.ipen.net/sketch"
+author: "Andrew Sokolov"
+---
+
+An API rate limit is the limit on how much data you can send.
+
+Imagine that you are playing a game on your phone and your phone is connected to the Internet. The game might have an API, which is how a game communicates with your phone. The API rate limit could be 1,000,000,000 bytes per second (that's 1 GB/s). This is the maximum amount of data your phone can send at one time.
+
+If you send more than 1 billion bytes at a time, the game will automatically slow down or stop responding so you can't send any more data. The game might display a message like "Your home is loaded with data! You can't send any more."
+
+It's also possible that the game could automatically replace some of your data with empty data packets or error messages. This is called "chattening." The idea is to make the game take as much of your time as possible. If you send a lot of empty data packets, you might get a message like "Your home is loaded with data! You can't send any more."

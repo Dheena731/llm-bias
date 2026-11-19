@@ -1,0 +1,13 @@
+**What Does a Database Index Do?**
+
+- **Enables faster access**: A database index acts as a table-level lookup table, speeding up data retrieval by minimizing the need for full table scans.
+  
+- **Avoids duplicate data**: By storing a subset of the data in a separate index, queries are faster as they don't need to scan the entire table.
+
+- **Favors predictable queries**: Indexes are designed to help with queries that occur frequently, such as sorts and joins, by organizing related data efficiently.
+
+- **Improves performance for insert/update operations**: When updating or inserting data, indexes help maintain fast performance by reducing the need to scan the entire table.
+
+- **Responsible for index fragmentation**: Over time, if not managed properly, indexes can become fragmented, leading to decreased performance due to inefficient use of available disk space and memory.
+
+- **Customizable for specific use cases**: Indexes can be created and tuned for specific types of queries or datasets, optimizing their performance. This customization is often done through index management tools.

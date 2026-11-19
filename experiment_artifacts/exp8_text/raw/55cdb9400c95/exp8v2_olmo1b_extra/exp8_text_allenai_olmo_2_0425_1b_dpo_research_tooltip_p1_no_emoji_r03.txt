@@ -1,0 +1,1 @@
+This dataset filter allows you to select specific characteristics or categories from your data to refine your analysis. By clicking on a category, you can limit the displayed data to only include records belonging to those chosen attributes, enabling more focused and relevant insights.

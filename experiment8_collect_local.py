@@ -121,7 +121,9 @@ def quantized(model_id: str, bits: int) -> str:
     target = quantized_path(model_id, bits)
     if not (target / "config.json").exists():
         source = stream_to_bf16(model_id)
-        convert(hf_path=source, mlx_path=str(target), quantize=True, q_bits=bits)
+        # dtype pinned: base checkpoints are published in float32 and post-trained ones in bfloat16; without it the
+        # scales and norms keep the source dtype and the stages differ in storage precision.
+        convert(hf_path=source, mlx_path=str(target), quantize=True, q_bits=bits, dtype="bfloat16")
         shutil.rmtree(source, ignore_errors=True)
         free_cached(model_id)
     return str(target)

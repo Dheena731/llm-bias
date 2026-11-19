@@ -1,0 +1,17 @@
+How can I visualize the data?
+
+You can visualize data using interactive plots, and import them into Excel to create charts, tables, and graphs. Excel's built-in tools will help you understand your data.
+
+The data comes as a CSV file, which means the data will appear as comma-separated values. CSV files are used widely in data analysis and many programs are designed to open them. CSV is a common, simple file format for storing and transferring data, including data from the Census.
+
+You can import Excel files into Google Sheets using a free Python script that we have added to the Google Cloud Console. From here, you can add your own columns, split your data, and reorganize it. You can also add your own columns and graphs.
+
+The Python script is free and open source (as is everything on Google Cloud).
+
+These tools will also help you understand the data, and allow you to easily compare columns of data.
+
+Learn more
+
+If you have any questions or need help, feel free to get in touch with us through the Google Cloud Help Center or contact me at alonso@cloud.google.com. I'm always happy to help answer questions around using Python and the Census API, as well as any other Python questions you have.
+
+Update: The Python script is no longer available as a Google Cloud Platform Marketplace service. It is now available on the Google Cloud Marketplace as a free Python program.

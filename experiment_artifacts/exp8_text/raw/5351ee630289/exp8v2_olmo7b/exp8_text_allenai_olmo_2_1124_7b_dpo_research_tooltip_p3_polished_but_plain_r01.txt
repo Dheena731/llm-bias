@@ -1,0 +1,1 @@
+Select a date range by choosing the start date and end date. The start date appears on the left and the end date on the right. You may adjust the date using the arrows or directly input the desired date in the respective fields. Ensure both dates are within the same year to form a valid range.

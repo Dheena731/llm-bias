@@ -1,0 +1,59 @@
+For example, you can use HTML for link formatting or HTML comments to mark up snippets. You can also use Markdown for formatting, or alternative formatting like Twitter Card.
+
+Text formatting
+
+  • Use asterisks to indicate emphasis, e.g. **bold**.
+
+  • Use underscores to indicate inline code, e.g. `code`.
+
+  • Use horizontal rules to build a table, e.g. this line is a table line.
+
+  • Use ended lines to indicate paragraph breaks, e.g. this is a paragraph.
+
+  • Use * in web links to indicate a link, e.g. https://*.*.
+
+  • Use single-caps in URLs to indicate a link https://*.
+
+  • Use **CE** in URL to link to a human-readable version of a URL https://*.
+
+  • Use * in text to mark a range of numbers, e.g. 1-2, A-5, 2-3 etc.
+
+  • Use % in URLs to escape a % character, e.g. %2B to create a + symbol, %0A to create a space.
+
+  • Use the tilde (~) character, followed by a space, to create a horizontal rule character. This is interpreted as a line break in a text file.
+
+Web Linking
+
+Use links to href attributes on your links. For example, you can link to a human-readable version of a URL https://*.
+
+You can also link to a specific text string in your text, e.g. you can link to a specific part of a URL https://*. When you use the link, the browser will retrieve the URL, and replace * with text in the URL, e.g. https://*.
+
+Linking to a URL can be important in some contexts for instance, if you want to tell the reader that the URL of this content is in a particular format. Linking can also be useful to show the reader where your information comes from or to ensure they have the correct context when retrieving the information they are reading.
+
+
+  • Use the orange sign to add bulleted lists, e.g. *this is a list*.
+
+  • Use the black sign to add numbered lists, e.g. 1. this is a list.
+
+  • Use the bullet sign to indicate an item within a list, e.g. *this is an item*.
+
+  • Use the plus sign to add a new item to a list, e.g. +this is another item.
+
+  • Use the ellipsis sign, followed by two dashes, to indicate a blank line in a list, e.g. 1. This is 1 item. 2. This is 2 item. 3. This is 3 item.
+
+  • Use the star sign to raise a complete list to a sublist, e.g. 1. This is a complete list. 2. This is a sublist. 3. This is another sublist.
+
+  • Use the underscore sign to indicate a single character in a word, e.g. this is _another word_.
+
+  • Use the question mark sign to indicate a variable in a name, e.g. ratio_error = 1.0 / 2.
+
+
+  • Use the small-caps sign to indicate a word in small-caps, e.g. aCAPTICAL is more readable than a capitalization.
+
+  • Use the A for emphasis sign to indicate text in bold, e.g. This is in bold.
+
+  • Use the Bold sign to indicate a word is bold, e.g. THIS WORD IS BOLD.
+
+  • Use the strong sign to indicate text is emphasized, e.g. This is emphasized.
+
+  • Use the italic sign to indicate text is italic, e.g. this is ital

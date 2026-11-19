@@ -1,0 +1,13 @@
+Attention domain users!
+
+Two-factor authentication (2FA) is now available for all accounts.
+
+This feature adds an additional layer of security to your account by requiring not only your password but also a code sent to your email or phone when logging in.
+
+To use two-factor authentication, please visit the “Settings” page under your profile menu, and look for the 2FA toggle switch.
+
+Please note, once enabled, you cannot disable 2FA without contacting support.
+
+We apologize for any inconvenience caused by this change, but the enhanced security measures are necessary to protect your account, and this feature is available at no additional cost.
+
+Remember, your account information is safe with us.

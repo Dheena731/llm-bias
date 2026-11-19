@@ -1,0 +1,8 @@
+## How to export query results
+
+- Open your query result in your preferred web browser or data viewer.
+- Right-click on the area where you want to display the exported data.
+- Choose `Export` from the context menu.
+- Select the format you prefer (e.g., CSV, Excel, JSON).
+- Customize your export settings if needed.
+- Click `Save` to download the exported data.

@@ -1,0 +1,67 @@
+Title: Delayed Payments Processing Scenarios
+
+Description: When a client does not pay on time, the bank is faced with a delayed payment processing scenario. While the bank can make a decision either to accept or reject the transaction, it is important to understand the implications of either decision for the bank’s relationship with the client.
+
+  1. Delayed Payments Processing Process
+
+  2. Pre-Approved Payment
+
+  3. Post-Approved Payment
+
+  4. Acceptance of Delayed Payment
+
+  5. Rejection of Delayed Payment
+
+
+Pre-Approved Payment Process
+
+  1. A bank has a client named Bob Maloney. Bob initially makes a deposit with an amount of $50,000, but the bank notices that Bob’s income is only $20,000 annually. The bank sends a pre-approved payment request to Bob’s fiscal agent. Bob’s fiscal agent, in turn, informs Bob.
+
+    Bob is aware of the transaction and agrees to it. He makes a deposit with the same amount of $50,000. Afterward, Bob’s initial account balance is $40,000.
+
+  2. Post-Approved Payment Process
+
+  3. After Bob makes the deposit, the bank processes the payment immediately. Bob receives his paycheck and transfers $50,000 to the bank. The bank processes the payment and debits Bob’s account balance by $50,000.
+
+    After six months, Bob makes another deposit of $50,000 to Bob’s account.
+
+  4. Acceptance of Delayed Payment
+
+  5. After six months, Bob receives his paycheck and makes a deposit of $50,000 to his account. The bank processes the payment immediately and debits Bob’s account by $50,000. The bank also makes the transfer to Bob’s bank account. Bob receives only $40,000 from the bank. Bob is aware of the transaction and decides to keep the extra money for later needs.
+
+  6. Rejection of Delayed Payment
+
+  7. After six months, Bob receives his paycheck and makes a deposit with the same amount of $50,000. The bank processes the payment immediately and debits Bob’s account by $50,000. The bank refuses the payment and transfers the money back to Bob’s bank account. Bob is also made aware of the transaction.
+
+A summary of the delayed payment processing scenerio is depicted in Figure 7.
+
+Figure 7: Delayed Payment Processing Scenerio
+
+
+Manual Processing
+
+  • Main proposed work
+  • Deposited by a client
+  • Processing and debiting
+  • Delayed payment processing
+  • Bank decides
+  • Acceptance
+  • Rejection
+  • Deposited by a client
+  • Processing
+
+  • Processing and debiting
+  • Delayed payment processing
+  • Bank decides
+  • Acceptance
+  • Rejection
+  • Deposited by a client
+  • Processing
+
+  • Processing and debiting
+  • Delayed payment processing
+  • Bank decides
+  • Acceptance
+  • Rejection
+
+Additional Information

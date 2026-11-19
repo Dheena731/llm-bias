@@ -1,0 +1,33 @@
+Here's an extract from a webpage:
+"# Math Help - Parametric equation
+
+1. ## Parametric equation
+
+Determine parametric equation of the curve that passes through the Origin and satisfies the given condition:
+$\frac{dy}{dx} = e^{3x}$
+
+2. Originally Posted by sarahh
+Determine parametric equation of the curve that passes through the Origin and satisfies the given condition:
+$\frac{dy}{dx} = e^{3x}$
+
+I'm assuming that you mean $\frac{dy}{dx}=e^{3x}$.
+Note that this is equivalent to $\frac{d\mathbf r}{dt}=e^{3t}$, and then you can write the curve as $\mathbf r(t)=\int e^{3t}\,dt$.
+
+Now, since the curve passes through the origin, this means that $\mathbf r(0)=\mathbf r'(0)\mathbf i=0$. Can you finish this off?
+
+3. Originally Posted by Prove It
+I'm assuming that you mean $\frac{dy}{dx}=e^{3x}$.
+Note that this is equivalent to $\frac{d\mathbf r}{dt}=e^{3t}$, and then you can write the curve as $\mathbf r(t)=\int e^{3t}\,dt$.
+
+Now, since the curve passes through the origin, this means that $\mathbf r(0)=\mathbf"
+
+Create an educational piece related to the snippet above targeted at grade-school students. Complex college-like topics such Electromagnetism and Integration shouldn't be used, as they aren't usually taught at grade-school. If that's what the snippet is about, look for a much simpler scientific alternative to explain, and use everyday examples. For instance, if the topic is 'Linear Algebra' you might discuss how arranging objects in rows and columns can help solve puzzles.
+Avoid technical terms and LaTeX and only discuss simple grade-school level topics. Start the educational piece right away. Hello young mathematicians! Today, let's learn about something called "parametric equations." You might have already learned about regular equations, like y = 2x + 3 or x^2 + y^2 = 9. But sometimes, it's easier to describe curves using two different equations, one for x and one for y, both depending on another variable, often called "t." These are parametric equations!
+
+Imagine you're taking a walk along a path that twists and turns in all sorts of directions. It would be hard to describe your position just with one coordinate, wouldn't it? Instead, you could say, "At time t, I am at position x(t) and have moved y(t) units up or down." That way, you don't need to think too hard about exactly how your path looks; you just care about where you are and where you've been.
+
+Let me show you an example. Suppose we want to find a curve whose slope changes according to the rule dy/dx = e^(3x). This means that the rate at which y changes as x increases is always equal to some exponential function of x. To make things even more interesting, let's also ask that this curve goes through the point (0,0), which is just fancy language for the origin – the point where both x and y are zero.
+
+So here's our challenge: using this information, can we find a pair of parametric equations for a curve that fits these requirements? Let's give it a shot!
+
+First, notice that dy/dx = e^(3x) is just saying that the slope is always equal to e^(3x). Now, imagine drawing a tiny segment of this curve at any value

@@ -1,0 +1,32 @@
+Use short paragraphs and use headings sparingly and only for emphasis.
+
+Use a large font with a small point size. The default text size is 14 pt.
+
+  • Use the 12pt breakpoint as a rough indication of where you should content in your email.
+  • 12 pt. is often too big for a few paragraphs but too small for a long paragraph.
+  • 10 pt. is often too small for a few paragraphs but too large for a long paragraph.
+
+Note: it is extremely rare to find the need for anything larger than 14 pt.
+
+If you absolutely must have a large font, consider using a different font like Lucida Grande.
+
+Use mostly sans-serif fonts, and be consistent with the typeface you choose for your emails.
+
+Use the same font when opening the new email. If you want to change the font later, or even if you want to link to an external site, please keep the font consistent to make the email more readable.
+
+Use the same font size for all body text. Avoid large variations in font size.
+
+Use a consistent font format. Usually text in body emails in plain text so you need to be consistent with the format you use for your website.
+
+Use title-separated links and retain underscore or hyphenation so you can make your email more readable.
+
+  • If you use underscores, hyphens, or em dashes, be consistent across all emails.
+  • Keep underscores, hyphens, and em dashes in the same places in your email.
+  • If you use an underscore, hyphen, or em dash in your link, also use the same format for the links in your email so you are consistent across all your emails.
+
+Use question marks to denote quotations, but only use question marks to denote emphasis. Use an asterisk (*), exclamation point (!) or forward slash (/) to denote emphasis.
+
+Use the same punctuation for quotations, but don’t use an asterisk, exclamation point, or forward slash to denote emphasis.
+
+  • Do not use a question mark for emphasis.
+  • Do not use an asterisk, exclamation point, or forward slash for emphasis.

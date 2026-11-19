@@ -1,0 +1,7 @@
+The specific task is: get domain expertise to write dev blogs
+We have a collection of specific blog posts that we need to write, 
+and we have some language models that we're going to use for that. 
+The model itself is really just a way of getting our expert 
+knowledge content from the domain, and then automatically 
+generating a blog post based on that domain knowledge and 
+the content.

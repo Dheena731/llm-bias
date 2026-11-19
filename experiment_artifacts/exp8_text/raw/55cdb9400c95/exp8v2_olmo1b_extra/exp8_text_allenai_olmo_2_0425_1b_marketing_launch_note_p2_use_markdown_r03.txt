@@ -1,0 +1,96 @@
+Dear Customer,
+
+We’re very pleased to announce that we’ve expanded our in-house roaster to provide a new coffee subscription.
+
+Each month, one of our three varieties will be available in your home for just £4.99. No minimum order, either. So enjoy our delicious coffee. And tell everyone to try it. (You’ll be glad you did.)
+
+To get started, email [email protected], and let us know that you want to sign up. We’ll send you a code to redeem on your first order. By the end of the month, we’ll send you the first monthly box.
+
+We look forward to seeing you in one of our coffee shops soon!
+
+Sincerely, The Starbucks Team
+
+Replies to this note
+
+Even if there's nothing to add to the note, we're going to change the order of the bullets and sometimes add a description for our emoji.
+
+First, we'll change the bullet to a hyphen with a plus sign.
+
+Next, we'll add a dash between the bullet and the description.
+
+Finally, we'll add an exclamation point after the last bullet. Here we use an exclamation point, because we're excited about the new product.
+
+The result of our Markdown document.
+
+A hyphen and a plus is no longer the right way to arrange a bullet.
+
+We'll try something else. First, we change the bullet to a hyphen.
+
+
+Next, we add another hyphen.
+
+Now, instead of the hyphen being the right spot to put our dash, we need to put it anywhere except at the start or end of the bullet.
+
+The result of our Markdown document.
+
+Hey, this looks a bit odd. Instead of closing the letter with a period, we're closing it with an underscore. We'll try something simpler.
+
+Another hyphen and another plus sign.
+
+Whatever we do, the final result should look something like this.
+
+A hyphen and a plus sign.
+
+Let's make sure this is right. We add a hyphen and a plus sign.
+
+Hey! There it is. That's as simple as you think it should be.
+
+Our document looks like this:
+
+A hyphen and a plus sign.
+
+The hyphen takes the spot of the dash. The plus sign is good as-is, but the hyphen should be between the dash and the period. We're changing our last bullet to a hyphen and adding a plus sign.
+
+The document looks like this:
+
+A dash.
+
+We're going to add an exclamation point in this case.
+
+Now, we have a hyphen, a plus sign, and an exclamation point.
+
+The document looks like this:
+
+A hyphen, a plus sign, and an exclamation point.
+
+Sometimes, we don't have enough room for a hyphen and a plus sign. If that's the case, we'll put the hyphen and the plus sign on the same line.
+
+Our final document looks like this:
+
+A hyphen and a plus sign.
+
+The closest we can get is to add a slash and a dash. We'll try that next.
+
+The document looks like this:
+
+A hyphen, a slash, and a dash.
+
+These aren't the right characters. We'll try something else. We'll add a dash and a period. Then we'll try something else.
+
+Our document looks like this:
+
+A dash, a period, and another dash.
+
+This doesn't work well either. We'll try replacing the dash with an underscore. What will happen?
+
+The document looks like this:
+
+A dash, an underscore, and a dash.
+
+That's not right either. We'll try what we can do. We'll change the dash to an underscore, and then put an exclamation point where it belongs.
+
+The document looks like this:
+
+An underscore, and an exclamation point.
+
+Yes,

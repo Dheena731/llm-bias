@@ -1,0 +1,11 @@
+We’ve all seen those pages that pop up when we visit a website, want to search for something, or just visit a page that has an advert on it. They typically say something along the lines of “By using this website you agree to the following terms and conditions” and then go on to list a load of boring legalese that all just says:
+
+“We make adverts pop up and other annoying things on your screen, we promise we won’t do it too often but we’re not really sorry if we do, and we won’t give you any money or anything else if you don’t like it. Oh and we might store your IP address somewhere too.”
+
+If this sounds like your website why not write a short legal-style notice so that users can see just how evil you’re being in a quick and easily understandable format?
+
+Before you start, it’s worth checking out this short write-up by the Mozilla Foundation. It’s aimed at users, but it’s also a great guide on what you should and shouldn’t be doing.
+
+Once you’ve prepared a draft, post it to your favourite social network and use the replies to answer questions or make corrections. Finally, post it to your website, Facebook page, Twitter account and in your email signature. It’s also worth giving it to your advisor or solicitor to check that you haven’t missed anything obvious.
+
+You should also read:

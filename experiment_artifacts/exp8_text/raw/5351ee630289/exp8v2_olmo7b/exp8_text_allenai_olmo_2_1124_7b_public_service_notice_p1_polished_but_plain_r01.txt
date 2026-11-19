@@ -1,0 +1,51 @@
+Do not pull in external information: no acronyms, abbreviations, or jargon. Focus on readers with little technical skill who already know that the acronym stands for (e.g. URL), and will struggle to cope with acronyms they don't know.
+
+Write the message in English, with common alternatives such as American English and British English.
+
+Write for a third-person audience. Do not include "I" or "you", but you may use words like "reader", "public", "user", or "one".
+
+The message should be crafted for a general audience. The library may be used by many different people: children, teenagers, adults, and the elderly. Write for a wide range of literacy levels.
+
+Your message may cover one or more of these topics:
+
+  • The opening times
+  • The opening hours during special times like Christmas and New Year's Day
+  • The opening hours during special events
+  • The closing times during special times like Christmas and New Year's Day
+  • The closing times during special events
+  • The library may be closed early due to circumstances such as an emergency
+  • The library may be closed for cleaning or renovation
+  • The opening hours during special events
+  • The closures for the public holidays in the following countries: Argentina, Australia, Austria, Belgium, Brazil, Canada, Cyprus, Denmark, Finland, France, Germany, Hong Kong, India, Ireland, Israel, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Mexico, Malta, New Zealand, Philippines, Poland, Portugal, Romania, Russia, Singapore, Slovakia, South Africa, Spain, Sweden, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States
+
+Good examples:
+
+
+
+Please note:
+
+  • Each example message is independent: no two example messages should interact.
+  • The example messages are for your reference: they are not part of the test data.
+  • The example messages are not exhaustive: you are encouraged to write your own example messages.
+
+Common rules:
+
+  • Each message must be exactly 20 words long.
+  • The message must include the following fourteen words: times, days, closing, opening, changed, early, special, public, holidays, Christmas, New, New's, Year's, and day.
+  • Each word must be used at least once.
+  • Each word must be used for one of its most common meanings. For example, you could use the word "public" to mean either "the general populace" or "open to the general populace", but not to mean "relating to the public sector" or "relating to a particular person" (as in "a public outrage").
+  • The words must be used with their most common spelling.
+  • The words must be used with their most common pronunciation (as spelled).
+  • The message must be grammatical.
+  • The message must be punctuated correctly.
+
+The one exception is that the message may use the words in any order (e.g. "the opening hours" and "the hours of opening").
+
+To ensure that the message is polished, here are some advanced guidelines:
+
+  • You can assume that the reader has a good command of English.
+  • You can assume that the reader understands the message without needing to look up anything in a dictionary.
+  • You can assume that the reader is familiar with the words of the message and the topics that they relate to.
+  • You can assume that the message is being read at leisure, i.e. the reader is not under any stress.
+  • You can assume that the reader is familiar with the topic of the message.
+  • You can use idioms (such as "early bird gets the worm") and sayings (such as "a stitch

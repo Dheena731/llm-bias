@@ -1,0 +1,27 @@
+Once the console can run on the stage, Gogs will be filled with the demands of the audience. The goal of the project is to create an interactive game console (and a game or two) that students will use in class and that will be part and parcel of the classroom environment.
+
+Start by writing the later stuff first! Use your established software practices, and get into the habit of writing tests and committing small, self-contained changes before sharing with your review base. You may also want to build a ‘literally splashless’ environment with a clean slate, in order to make sure that the whole experience is fresh and unbiased. Remember, programmers are all too easy to fall into the trap of adding new functionality over a period of months - and sometimes years! - of tinkering around with the existing codebase. Make sure that your incremental changes are actually adding to the overall functionality of the system and not just modifying existing code.
+
+Write a blog post about what you did today.
+
+Which of the following are valid uses of a switch statement?
+
+If you want to write a class that implements a particular interface, you need to use which keyword?
+
+What’s the difference between a topic and a question?
+
+What is the most important thing when attempting to create an object in Python?
+
+What’s the difference between a class and an instance?
+
+What’s the difference between a package and a module?
+
+Can you explain how Python uses callables?
+
+What is the best thing that you have ever built?
+
+When will you switch to Rust?
+
+How will you know when you have finished?
+
+What steps will you take towards making your project successful?

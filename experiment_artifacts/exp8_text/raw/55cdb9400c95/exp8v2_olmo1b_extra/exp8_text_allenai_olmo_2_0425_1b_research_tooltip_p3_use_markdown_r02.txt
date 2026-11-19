@@ -1,0 +1,7 @@
+It looks like there is a very short answer to this problem. You may want to summarize it in short paragraphs.
+
+It’s a date-range. This is a date range of some duration. It’s a piece of data to be used in some cases.
+
+It’s a double-parenthesis. You can use it to indicate an expression.
+
+You get a function that returns an array of dates. You use an array of dates.

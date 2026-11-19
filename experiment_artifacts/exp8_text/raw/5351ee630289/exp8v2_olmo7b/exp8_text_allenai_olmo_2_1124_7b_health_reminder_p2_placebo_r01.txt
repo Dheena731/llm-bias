@@ -1,0 +1,79 @@
+You might use placeholder text like **this** to indicate something should be inserted here before submission. It is better to leave such placeholder text out and to replace it with the intended message if you are writing a note to someone or a reminder for yourself.
+
+Do not write an entire novel or a whole newspaper article using this prompt!
+
+TASK 6 - Word count
+
+Compute the word count of the text you entered in task 2.
+
+You can use pyperclip or subprocess to do this. The pyperclip library is convenient, because you can pipe the text from task 2 directly to the pyperclip program with a simple call to pyperclip.copy().
+
+Here is an example of how to use pyperclip:
+
+from pyperclip import clip
+
+text = input('Text to be copied: ')
+print('The text is:', clip(), 'with', len(clip()), 'words')
+
+A simple way to use subprocess is as follows:
+
+from subprocess import call
+
+text = input('Text to be copied: ')
+call(['wc', '-w', text]).stdout
+
+If this is your first time using either of the above, you might have to install pyperclip with pip.
+
+pip install pyperclip
+
+Or you might have to install subprocess with pip.
+
+pip install subprocess
+
+What next?
+
+Now that you have completed a few tasks and gained a little more familiarity with the prompt, you might want to have a look at some of the things you can do with the prompt:
+
+Some questions and answers
+
+What is the software behind this prompt?
+
+The software behind this prompt is a simple web app written in Python and Flask.
+
+The code can be found at https://github.com/sebhurau/openschool-learning-prompt.
+
+Why is there an input prompt at the end of an exercise?
+
+The prompt provides a way to ask you which exercise you want to do next.
+
+The prompt can be used to select from a menu of options suchPROMPT 1, PROMPT 2, PROMPT 3, etc., and to select from a menu of options that might be numbered in this way: PROMPT 1A, PROMPT 1B, PROMPT 1C, etc.
+
+If you do not want to use the prompt, you can press the default key to go back to the home page.
+
+How do I install the prompt on my computer?
+
+This prompt is designed to work on Linux computers and on web browsers. A web browser should be able to reach the prompt directly, without the need for any additional installation.
+
+On a Linux computer, you can run the following commands to install the prompt:
+
+pip install prompt
+
+On a web browser, you can enter https://prompt.tld into your address bar.
+
+What is the enablement mode?
+
+The enablement mode is a feature that allows you to use the prompt while in a text editor.
+
+You can enable the enablement mode in the following ways:
+
+  • In the prompt itself, click the “Enable” button.
+  • In the prompt itself, click “Have fun!”.
+  • In the prompt itself, press the Ctrl + Enter key combination.
+
+How do I get help?
+
+If you ever feel stuck, confused, or have any questions related to the prompt, you can leave a question or feedback in the prompt.
+
+How do I translate the prompt?
+
+If you would like to translate this prompt, you can do so by opening the file prompt.html and modifying the text.

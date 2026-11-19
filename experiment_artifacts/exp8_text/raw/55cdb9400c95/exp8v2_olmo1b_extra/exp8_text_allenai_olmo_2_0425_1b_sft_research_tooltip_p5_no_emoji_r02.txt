@@ -1,0 +1,1 @@
+To export query results, select the result you would like to save and then click on the "Export" or "Copy" button. This will create a file containing your selected query results.

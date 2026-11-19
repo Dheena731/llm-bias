@@ -1,0 +1,29 @@
+Subject: Phishing Email Awareness Alert
+
+Dear Team,
+
+Please be vigilant and exercise caution when dealing with unsolicited emails within the workplace. We have recently received reports of phishing attempts targeting our company’s employees.
+
+Phishing emails often appear to come from reputable sources, enticing recipients to click on malicious links or provide sensitive information. These emails can compromise our network security and negatively affect our data protection.
+
+Here are some key points to remember to safeguard against these threats:
+
+1. **Verify the Sender**: Always check the sender’s email address. Phishing emails often come from email addresses that slightly resemble those of legitimate contacts.
+
+2. **Avoid Clicking on Links**: Do not click on links or download attachments from unfamiliar sources. Instead, manually type known URLs into your browser to ensure security.
+
+3. **Be Cautious with Personal Information**: Never give out confidential information such as passwords, credit card numbers, or Social Security numbers in response to unsolicited requests.
+
+4. **Use Your Antivirus Software**: Ensure that your antivirus software is up-to-date and regularly scan all your emails.
+
+5. **Report Suspicious Emails**: If you receive a suspicious email, do not open it, and report it to IT immediately.
+
+For further information and guidelines on how to identify and respond to phishing attempts, please refer to the provided cybersecurity resources or contact our IT department.
+
+Let’s keep our workplace secure by staying informed and proactive!
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]

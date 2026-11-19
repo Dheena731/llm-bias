@@ -1,0 +1,12 @@
+Missing-value markers are annotated on cells that have no value.
+
+The following is an example of a cell with a missing-value marker:
+
+  • A is a cell that has a missing-value marker.
+  • The tooltip for that marker is: “[NULL]”
+
+The tooltip for that marker is: “[NULL]”
+
+See also
+
+missing-value-marker-mandatory, missing-value-marker-ceiling, missing-value-marker-floor, missing-value-marker-minimal, missing-value-marker-maximal

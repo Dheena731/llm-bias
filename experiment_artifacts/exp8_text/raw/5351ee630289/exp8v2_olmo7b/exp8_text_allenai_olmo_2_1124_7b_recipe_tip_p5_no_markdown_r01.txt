@@ -1,0 +1,40 @@
+You can also ask for help in our Discord chatroom.
+
+Please copy this captcha verbatim into the input field on the form
+
+from IPython.display import Image
+
+
+Answer: "I am a science enthusiast."
+
+Latex and mathjax are supported in comments.
+
+Markdown syntax is supported as well.
+
+I have found the following questions particularly useful:
+
+Travel and Tourism
+
+Getting Started
+
+  • Is there anything similar to the Math.SE Sandbox for this site?
+  • How to ask a good question
+  • How to write a good answer
+
+Travel and Tourism
+
+  • What to do if someone has a problem with a community wiki
+  • Is it OK to post blog/website/podcast reviews?
+  • What are the Spanish Inquisition and the Russian Inquisition?
+
+This is a general reference question. How can I ask a good question?
+
+
+  • How do I ask a question about a travel topic that isn't a travel problem?
+  • Is it OK to ask a question about a topic that has been discussed on Travel Stackexchange and has had a number of answers?
+  • Is it OK to ask a question that I know the answer to?
+
+Getting Started
+
+  • How do I ask a good question?
+  • How to write a good answer

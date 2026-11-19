@@ -1,0 +1,14 @@
+Bold Heading:  
+- What are cookies?
+- Cookie explanation
+
+**Cookies** are small pieces of data sent from a website and stored on your computer by your web browser while you are browsing, or using, a particular website. They are used by most websites to:  
+- Track usage statistics  
+- Allow customization of website pages  
+- Remember your preference settings for future visits  
+
+**Legal Requirements:**  
+- **Ownership and Registration:** All users must be registered and own their devices to access this website.  
+- **Use of Cookies:** Cookies are used and created by the website owner and/or their affiliates.  
+- **Data Protection:** Users have the right to access, change, or delete their personal information that is stored in their cookies.  
+- **Consent:** The use of cookies is subject to the user’s consent, which can be revoked at any time. 

@@ -1,0 +1,7 @@
+Input: SELECT MONTH FROM "2017-01-01" TO "2017-12-31"
+Output: Select a year and month.
+   ^ Year selector: enter a 4-digit year and click on "OK" if correct.
+   ^ Month selector: enter the month from 1 to 12 and click on "OK" if correct.
+   ^ Time selector: enter the time from 0 to 23 and click on "OK" if correct.
+
+The year, month and time are selected by the user by clicking on "OK" if the format is correct. They can add a year by clicking on "OK" after entering the month and time. They can also select a month by clicking on "OK" after entering the year and time.

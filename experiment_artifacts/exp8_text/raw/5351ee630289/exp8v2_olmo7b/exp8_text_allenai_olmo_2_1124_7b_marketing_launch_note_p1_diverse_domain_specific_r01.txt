@@ -1,0 +1,19 @@
+Prompt: The goal of  <your company's name>  is simple: make payments easier for everyone. 
+
+ Message:  <your company's name>  offers a robust and efficient payment platform that is accessible to all users.
+
+Example Input: Prompt:  <your company's name>  was founded by  <your name>  in  <your company's founding year>  to bring affordable, high-quality <product or service offering> to men and women across the globe.
+
+ Message:  <your company's name>   has been helping women and men live their best lives for over 15 years. Our team is made up of some of the most talented and dedicated product designers, developers, marketers, and business strategists in the industry.
+
+Example Output: Prompt:  <your company's name>  <your product or service>  is the easiest way to  <your product's benefit> 
+
+ Message:  <your company's name>  is committed to making  <your product's benefit>  available to all users, everywhere. 
+
+Example Input: Prompt:  <your company's name>  is the only  <your product or service>  company that uses <your unique business process> to deliver  <your product or service's benefit>  to customers.
+
+ Message:  <your company's name>  is a leading  <your industry>  company with a proven track record of success in  <your industry>  and beyond.
+
+Example Output: Prompt:  <your company's name>  is the only  <your product>  on the market that incorporates <your product's unique feature>  and <your product's unique feature> .
+
+ Message:  <your company's name>  is a leading  <your industry>  innovator with a proven track record of success in  <your industry>  and beyond.

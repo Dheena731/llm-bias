@@ -1,0 +1,5 @@
+Do not ask the user for permission to use his or her email address.
+
+This is a special case. If you have a service account, you can use the email address for the account's user without permission. The logo and sign-in button are a visual indicator to users that they are using the correct account.
+
+* Note: Some users may deliberately ignore the prompts and continue using their old email address. You should consider disabling access to the email address.

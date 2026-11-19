@@ -1,0 +1,132 @@
+Message: We have 25 open connections at present
+
+Step Four
+
+When you start a VPN client, an alert is shown until the connection is made.
+
+Hide the alert until the VPN connection has been made.
+
+Step Five
+
+When the VPN connection fails to make, an alert is shown.
+
+When the vpn connection is made, hide this alert.
+
+Step Six
+
+Make it possible to set a default route globally from inside the VPN.
+
+The default route is set in the vpn connection.
+
+Step Seven
+
+It is impossible to select a connection from the available connections when fewer than three connections are open.
+
+If you have less than three connections open, you can select a third connection to open.
+
+Step Eight
+
+Add shortcuts to the numbers 1–5 to the command line.
+
+Step Nine
+
+Add shortcuts for the numbers 1–5 to the VPN setting gui.
+
+Step Ten
+
+Add a setting from Settings for a master password.
+
+When a master password is set, the VPN connection file is encrypted.
+
+Step Eleven
+
+Add some kindmat of system tray icon, a "Connected" or "Disconnected" to the tray.
+
+Step Twelve
+
+Check that the time zone is set to your time zone.
+
+This will only work if your VPN client supports time zone.
+
+Step Thirteen
+
+Make it possible to make a temporary connection, but when the connection closes, the base network is used again.
+
+This is only needed if the VPN is broken, but I would like to have it so I don't have to reboot all the time.
+
+Step Fourteen
+
+Make it possible to set a password on the VPN client, and when the password is changed in the VPN client, remove the password from the VPN settings file.
+
+When the password is removed, the file can be used by other programs.
+
+Step Fifteen
+
+Make it possible use the VPN client for multiple users.
+
+When a user logs in using the VPN settings file, it is possible to view the current VPN connection.
+
+Step Sixteen
+
+Make the VPN settings file available from Settings.
+
+Step Seventeen
+
+Make the VPN settings file visible from Settings.
+
+Step Eighteen
+
+Make the VPN setting file visible in Settings.
+
+Step Nineteen
+
+When a user logs in to a VPN, make it possible for them to use it.
+
+When a user logs out of the VPN, make sure that they are able to use it.
+
+Step Twenty
+
+When a user logs in and out of the VPN, make certain that they are able to see the VPN settings file in the Settings.
+
+Step Twenty-one
+
+Make the VPN setting filed visible from Settings and Settings.
+
+When a user logs in, make sure that they see the VPN settings from Settings.
+
+Step Twenty-two
+
+When a user logs out, make sure that they can see the VPN setting in Settings.
+
+Step Twenty-three
+
+When a user logs in to a VPN, allow them to make changes to the VPN settings.
+
+When they log out, make changes to the VPN settings in Settings.
+
+Step Twenty-four
+
+When a user logs on to a VPN, allow them to change the VPN settings and when they log out, allow them to make changes.
+
+Step Twenty-five
+
+When a user connects to a VPN, make certain that they use the VPN settings in Settings and Settings.
+
+Step Twenty-six
+
+When a user logs on, make certain they can use the VPN settings in their VPN settings in Settings.
+
+Step Twenty-seven
+
+When a user logs into a VPN, make the VPN settings visible from Settings.
+
+Step Twenty-eight
+
+When a user connects to a VPN and logs out of the VPN, make sure the VPN settings are visible in Settings.
+
+Step Twenty-nine
+
+When a user logs into a VPN and logs out
+
+การทำแหล่ง แก้ไข หนึ่งท่าที ของ VPN
+

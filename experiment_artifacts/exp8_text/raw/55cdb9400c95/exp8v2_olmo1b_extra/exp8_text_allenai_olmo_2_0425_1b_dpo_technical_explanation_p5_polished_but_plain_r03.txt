@@ -1,0 +1,15 @@
+An API rate limit is a constraint placed on the number of requests an API service can handle within a certain time frame or a predefined number of requests. This limitation is often invoked to prevent excessive use, maintain service stability, and prevent abuse. Here's a simple explanation in plain prose:
+
+Imagine you have a water dispenser at home that provides a limited amount of water per hour. The dispenser can't continuously fill bottles for you without running out; similarly, an API service has its cap on how many requests it can process continuously.
+
+Here are a few key points about API rate limits:
+
+1. **Purpose**: They act as a safeguard to ensure the reliability and fairness of the API service.
+2. **Timeframe**: They can be on a per-minute, per-hour, or per-day basis.
+3. **Frequency**: The rate limit might apply to all requests at once (bursty) or more steadily over time (gradual).
+4. **Exceeded Limits**: When you hit your rate limit, you may be blocked from making further requests until your balance clears or you request an exception or increased limit from your API provider.
+5. **Effect**: It can delay your requests, halt new connections, or forcibly disconnect existing ones, ultimately impacting the productivity of the application that depends on the API.
+
+For example, if an API service allows 1,000 requests per hour, and a developer's script makes 500 requests in the first minute and another 500 in the second minute, it will exceed the hour's limit. An API might then choose to either disconnect those sessions after the initial three requests or limit future requests to 300 per hour to prevent clogging of the system.
+
+It's important to understand rate limits when developing applications that consume APIs, as mismanaging them can lead to service disruptions and customer dissatisfaction. Many API providers also offer tools and mechanisms to monitor and sometimes manage these limits, allowing developers to implement rate limiting strategies that align with business needs and customer expectations.

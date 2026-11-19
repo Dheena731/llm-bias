@@ -1,0 +1,6 @@
+ • Add a subtitle that explains the change for new users
+  • Explain the change for existing users
+
+If the change is more significant, add a note beside the change.
+
+  • Add a note including all material that is a part of the change, but should not be documented by the bullet points above

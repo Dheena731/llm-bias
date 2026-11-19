@@ -1,0 +1,10 @@
+Enable two-factor authentication (2FA) 
+
+Two-factor authentication enhances account security by requiring a second form of verification besides your password. This additional step ensures that even if your password is compromised, the unauthorized user still cannot access your account without the second factor. To protect your online accounts, please enroll in two-factor authentication. Here’s why:
+
+- It adds an extra layer of security.
+- It prevents unauthorized access even if your password is stolen.
+- It saves you time because you don’t have to remember another code.
+- It reduces the risk of having accounts compromised due to phishing scams or malware.
+
+By enabling two-factor authentication, you’ll become a more secure online user. Make the protection of your accounts a priority.

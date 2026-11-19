@@ -1,0 +1,7 @@
+Input: Consider Input: Section III. Executive Summary 
+
+1. 2  2. 3  3. 4
+
+Output: Section III. Executive Summary 
+
+The first two sections are self-explan

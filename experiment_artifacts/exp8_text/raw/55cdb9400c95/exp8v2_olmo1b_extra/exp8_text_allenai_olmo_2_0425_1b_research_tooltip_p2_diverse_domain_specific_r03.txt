@@ -1,0 +1,16 @@
+Update
+
+A more complex example
+
+enter image description here
+
+The lowest value is IQR-3σ, but is that more significant than the 4.8σ? Why can't we say that there's 95% confidence that the average of the numbers is not more than 4.8σ? And what about including the interval, or at least a reference to why it's a confidence interval?
+
+The confidence interval is calculated as
+$$ IQR = \sqrt{\frac{s^2}{n-1}} $$
+
+with the standard deviation calculated as $$ s=\sqrt{\frac{\sigma^2}{n-1}} $$, where n is the number of observations and σ the standard deviation. This gives us an IQR of 3.56 and a standard deviation of 0.016.
+
+Obviously, we know that the 4.8σ is highly significant compared to 3.56σ, so we can say that there is 95% confidence that the average of the numbers is at most 4.8σ. For the interval alone, the best we can say is that there is 95% confidence that the average of the numbers is at least 4.8σ, but is that more meaningful than saying that the average of the numbers is at most 4.8σ?
+
+And how do we combine these two pieces? Which sentence is more specific? Which is easier to understand?

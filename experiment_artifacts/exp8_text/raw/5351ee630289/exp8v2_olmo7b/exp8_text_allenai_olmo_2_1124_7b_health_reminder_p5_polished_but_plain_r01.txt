@@ -1,0 +1,113 @@
+Read the style guide and see a sample of formatted writing.
+
+Write the draft
+
+Make a formatted draft of the article with a title, introductory paragraph, body paragraphs, and conclusion. The structure and length can vary depending fluency and the length of the article.
+
+Upload the example to your site.
+
+Write the article
+
+Use the formatted article as a template and fill in the content.
+
+If the topic is too narrow, work it into a more general article. If the topic is too general, narrow it down.
+
+Fill in the content.
+
+Edit and proofread
+
+Edit the article to make the content as accurate and useful as possible.
+
+If the text gets too long, split it into separate articles.
+
+Edit, edit, and edit again.
+
+Upload the article to your site.
+
+Edit and proofread
+
+Read the article carefully and fix mistakes in the content and formatting. If you have time, print the article and read it as a paper copy.
+
+Read the article aloud to catch mistakes.
+
+Upload the article to your site.
+
+Create the article
+
+Create an article in Markdown with the following structure:
+
+  1. Title: Write an article title that describes the topic.
+  2. Introduction: Write an introduction that explains the context and introduces the topic. Introduce immediately any terms that are crucial to the topic.
+  3. Body: Write the main content.
+  4. Conclusion: Write a summary section that summarizes the article and describes recommended actions. Also, add any links to related articles.
+
+Check for an example of a Markdown formatted article.
+
+The body text of the article is the most important part of the article. It should be mostly free of errors, and contain information that is useful and interesting.
+
+Upload the article to your site.
+
+Check for an example of an article.
+
+Create a web page
+
+Create a web page for the article with the following structure:
+
+  1. Headline: Write a headline that describes the topic.
+  2. Introductory text: Write a short text that describes the article.
+  3. Article: Write the article in plain text.
+  4. Related articles: Write a list of related articles with links to those articles.
+
+Upload the web page to your site.
+
+Check for an example of a page.
+
+Promote the article
+
+Promote the article to a suitable place on the site.
+
+Readers should be able to find the article easily. Put it in the right place on the site with an appropriate headline and introductory text.
+
+Upload the article to your site.
+
+Keep in mind
+
+Articles are supposed to be readable before they are published. Proofread the articles again and again.
+
+Readers will likely be attracted to articles with easy-to-read and interesting titles. So, make sure that you invest some time in the title and the introductory paragraph.
+
+Assume that readers will be using the site to help them solve a problem or answer a question. Write articles for the reader, not for yourself. Write what the reader needs to know, not what you want to write.
+
+Add the article to your blog's article list.
+
+Upload the article to your site.
+
+Share the article
+
+Promote the article by sharing it on social media.
+
+Share the article!
+
+Check for an example of sharing.
+
+Remove the draft
+
+Remove the draft.
+
+Delete the draft. Publish the blog and the page.
+
+The article should be the main content on the page.
+
+Check for an example of published writing.
+
+Write the article
+
+If the article is less than 50 articles, do not create a web page for the article. Instead, create a web page for a group of articles, containing related links to all the articles in the group.
+
+Catch errors and correct them
+
+Read the article carefully and fix mistakes in the content and formatting.
+
+Read the article aloud to catch mistakes.
+
+Upload the article to your

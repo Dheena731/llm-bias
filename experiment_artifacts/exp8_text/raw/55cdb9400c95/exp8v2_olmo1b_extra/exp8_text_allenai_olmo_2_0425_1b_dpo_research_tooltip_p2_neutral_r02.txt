@@ -1,0 +1,1 @@
+A confidence interval for a mean is a range of values calculated from a sample to estimate the true population mean. It includes the mean and an estimated range within which we are 95% confident the true population mean leans, based on the sample data. The width of the interval decreases as the sample size increases and approaches the population size.

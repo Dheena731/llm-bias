@@ -1,0 +1,50 @@
+If you need to use a placeholder story, consider replacing it with a description that makes sense. If your content is unclear, a better approach is to use a story.
+
+Always explain why a limitation exists. People are more likely to forgive a limitation if you explain why it exists.
+
+If it's not a technical limitation, explain the limitations of the story itself. (For example, "this story is too long.")
+
+Things that are not limitations
+— Do not include anything in your limitation that is not a limitation, unless it's the point of the story.
+— Do not claim that this limitation is not a limitation of the story itself, unless it's the point of the story.
+— Do not claim that this limitation is not a limitation of the system, unless it's the point of the story.
+— Do not claim that this limitation is not a limitation of the language, unless it's the point of the story.
+— Do not claim that this limitation is not a limitation of the operation, unless it's the point of the story.
+
+Avoid using the term "buffer."
+
+When a limitation is not a limitation of the story itself, but rather a limitation of the system, explain the limitations of the system. ("This story is longer than the limit due to system limitations.") or ("This story has a length limit of 4K, but this story has exceeded that limit.")
+
+Avoid using the term "limitation."
+
+Don't write a limitation statement unless you are representative of the system, language, or operation. ("This story is too long, nearly twice as long as the maximum allowed length.") or ("The system allows only 3,000 characters, but this story has exceeded that limit.").
+
+Use the term "limitation" if the limitation is the point of the story. ("This story is longer than the maximum allowed length, nearly twice as long as the maximum allowed length.") or ("This story has exceeded the limit [of the system, language, or operation].")
+
+Avoid using the term "limitation."
+
+Avoid writing a limitation statement unless the limitation is the point of the story. ("This story is longer than the maximum allowed length, nearly twice as long as the maximum allowed length.") or ("This story has exceeded the limit [of the system, language, or operation].")
+
+Don't write a limitation statement unless the limitation is the point of the story.
+
+Don't say, "This is a limitation."
+
+Don't say, "This story is too long."
+
+This story is too long
+
+Avoid writing a limitation unless the limitation is the point of the story. ("This story is longer than the maximum allowed length, nearly twice as long as the maximum allowed length.") or ("This story has exceeded the limit [of the system, language, or operation].")
+
+This story is longer than the maximum allowed length
+
+You can, however, write a limitation statement if the limitation is the point of the story. ("This story is longer than the maximum allowed length, nearly twice as long as the maximum allowed length.") or ("This story has exceeded the limit [of the system, language, or operation].")
+
+This story is longer than the maximum allowed length
+
+Avoid using the term "limitation" unless the limitation is the point of the story. ("This story is longer than the maximum allowed length, nearly twice as long as the maximum allowed length.") or ("This story has exceeded the limit [of the system, language, or operation].")
+
+Don't write a limitation statement unless the limitation is the point of the story.
+
+Avoid using the term "limitation."
+
+Avoid writing a limitation statement unless the limitation is the point of the story. ("This story is longer than the maximum allowed length, nearly twice as long as the maximum allowed length.") or ("This story has exceeded the limit [of the system

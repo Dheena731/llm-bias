@@ -1,0 +1,5 @@
+Missing-value markers are used when a data value in a dataset is missing or unknown, You can think of them like placeholders in a puzzle where a piece is missing, not yet identified, or wasn't captured in our data collection process.
+For example, in a dataset of data about people, their age could be missing if their birthdate was never collected or if it was never recorded in the documentation of the data.
+
+Input: 1729
+Output: 1729

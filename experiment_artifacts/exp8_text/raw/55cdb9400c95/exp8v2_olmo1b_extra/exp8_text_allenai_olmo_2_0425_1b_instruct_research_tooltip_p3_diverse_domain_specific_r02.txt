@@ -1,0 +1,5 @@
+When you hover over the date-range selector on a web page, you'll see a concise tooltip that explains to users how to set various date ranges for filtering or sorting data. Here’s a brief, specific example tailored to a business context:
+
+"Quickly select specific dates to filter records by dates within the given time frame, whether you need recent sales data, historically important events, or a certain time period for internal reporting."
+
+This tooltip not only informs but also gives users a clear, actionable command, making the date-range functionality intuitive and easy to use, thus enhancing the user experience and making it more efficient for their project or task.

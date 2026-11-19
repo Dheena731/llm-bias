@@ -1,0 +1,25 @@
+# End-of-Year Tax Statement
+
+* **Income Summary**  
+  - Total income for the year: $[TOTAL INCOME]  
+  - Source of income: [SOURCE]  
+  - Exclusions: [EXCULPATIONS]  
+
+* **Tax Calculations**  
+  - Total tax owed: $[TOTAL TAX OWED]  
+  - Standard deduction: [STANDARD DEDUCTION]  
+  - Itemized deductions: [ITEMIZED DEDUCTIONS]  
+  - Advance refunds: [ADVANCE REFUNDS]  
+
+* **Remaining Balance**  
+  - Amount remaining to be filed: $[AMOUNT REMAINING]  
+  - Estimated filing deadline: [ESTIMATED FILING DEADLINE]  
+
+* **Tips and Contributions**  
+  - Total tips and contributions: $[TOTAL CONTRIBUTIONS]  
+  - Summary of charitable donations: [CHARITABLE DONATIONS]  
+
+* **Total Taxes Fulfilled**  
+  - Final total of taxes paid: $[FINAL TOTAL TAXPAYED]  
+
+**Instructions**: Make sure all required information is accurate before filing your tax return. Consult with a tax professional if needed.

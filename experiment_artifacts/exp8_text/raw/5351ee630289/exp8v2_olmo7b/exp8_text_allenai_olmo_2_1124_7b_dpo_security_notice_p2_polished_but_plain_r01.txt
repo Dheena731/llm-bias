@@ -1,0 +1,22 @@
+Attention All Employees:
+
+We wish to remind you of the importance of vigilance in handling emails, especially those that seem to come from official sources. Phishing emails are still a common tactic used by individuals aiming to compromise personal and company data. These deceptive messages often mimic legitimate correspondence and can trick even the most cautious of us.
+
+Please remember to exercise caution when:
+
+- Receiving unsolicited emails from unknown senders.
+- Encountering emails with urgent requests for personal or sensitive information.
+- Clicking on links or downloading attachments not recognized as safe.
+
+If you receive any suspicious emails, do not respond, click on links, or download attachments. Instead, forward the email to our IT department at <PRESIDIO_ANONYMIZED_EMAIL_ADDRESS> and delete it from your inbox. Your discretion and attention to detail are invaluable in safeguarding our company's data.
+
+Stay safe and stay informed. If you have any questions or need further clarification on how to identify phishing attempts, please reach out to your supervisor or the IT department.
+
+Thank you for your continued cooperation and commitment to maintaining a secure work environment.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]
+[Contact Information]

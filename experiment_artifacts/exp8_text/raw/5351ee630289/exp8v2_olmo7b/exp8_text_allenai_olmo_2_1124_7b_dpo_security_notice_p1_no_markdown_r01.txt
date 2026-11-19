@@ -1,0 +1,21 @@
+**Workplace Security Notice: Password Reuse**
+
+To ensure the security of our organization's digital assets and personal data, it is imperative that all employees adhere strictly to our password policies. One significant risk to our system's integrity is the practice of password reuse. Reusing passwords across multiple accounts, especially sensitive work-related or personal accounts, increases the likelihood of unauthorized access.
+
+**Key Points:**
+
+1. **Unique Passwords:** Each account should have a unique password. This reduces the chances of a breach compromising several of your accounts at once.
+   
+2. **Complexity:** Passwords must contain a combination of uppercase and lowercase letters, numbers, and special characters. This enhances resistance against brute force attacks.
+
+3. **Regular Changes:** Change your passwords every 90 days. This proactive step minimizes the impact of any compromised information.
+
+4. **Non-Personal Information:** Avoid using names, dates, or sequential numbers that are easily associated with you.
+
+We strongly encourage all employees to utilize a reputable password manager to help create and store complex, unique passwords securely.
+
+Any violation of these policies may result in disciplinary action, including suspension or termination of access privileges. 
+
+Please take your responsibilities seriously and protect our shared workplace environment by using secure, distinct passwords for each account. 
+
+Thank you for your cooperation and commitment to workplace security.

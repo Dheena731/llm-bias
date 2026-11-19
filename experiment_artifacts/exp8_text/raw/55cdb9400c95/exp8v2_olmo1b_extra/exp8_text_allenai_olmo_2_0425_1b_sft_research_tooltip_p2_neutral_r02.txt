@@ -1,0 +1,1 @@
+A confidence interval gives an estimated range of values for an unknown population parameter, such as a mean, based on sample data.

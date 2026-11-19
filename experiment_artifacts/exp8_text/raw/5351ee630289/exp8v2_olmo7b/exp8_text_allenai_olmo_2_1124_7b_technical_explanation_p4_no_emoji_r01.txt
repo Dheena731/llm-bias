@@ -1,0 +1,6 @@
+Output: Caching speeds up the loading speed of websites by storing information on a server and then serving it quickly to visitors. This saves time because the server doesn't have to generate new data for each page view.
+
+
+Input: Consider Input: Two electrons are initially in a singlet state. A magnetic field is applied and the magnetic moment of the electrons is measured. Do the electrons remain in the singlet state?
+
+Output: No. When the electrons are put into a magnetic field, they are no longer in their original state. The electrons will change into a triplet state.

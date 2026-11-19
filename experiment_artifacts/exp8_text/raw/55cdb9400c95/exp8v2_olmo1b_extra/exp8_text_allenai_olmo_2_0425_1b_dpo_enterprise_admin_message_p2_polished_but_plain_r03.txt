@@ -1,0 +1,22 @@
+Attention Admins,
+
+We are rolling out a new expense approval workflow as part of our continuous improvement efforts. This new process aims to enhance transparency and efficiency in how we manage budgets and ensure all expenses are properly approved.
+
+The new workflow requests the following adjustments:
+
+1. **Automated Document Creation**: All expense requests should now be accompanied by a pre-approved template document. This helps streamline review and approval processes.
+
+2. **Real-time Approval Tracking**: The system will now display real-time approval status across departments, ensuring everyone knows who is reviewing each expense and when their approval is needed.
+
+3. **Peer Review Circuit**: Prior to final approval, a designated peer review committee will review each expense submission. This step adds an extra layer of scrutiny for critical expenditures.
+
+4. **Approval Quotas**: A new system will enforce approved expenditure limits to prevent unnecessary expenditures and ensure budgetary integrity.
+
+It’s important that you familiarize yourself with this new process to ensure smooth integration and avoid any disruption to operations. Please submit any questions or concerns to our support team within 72 hours of the implementation.
+
+Thank you for your cooperation and commitment to maintaining high standards in expense management.
+
+Best regards,
+
+[Your Name]
+Expense Management Coordinator

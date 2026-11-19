@@ -1,0 +1,91 @@
+You should not be asked to write an answer that has more than 100 words. You can use the example below to format your answer.
+
+  1. title
+
+    Item 1.
+
+    Item 2.
+
+    Item 3.
+
+  2. heading
+
+    Item 1.
+
+    Item 2.
+
+    Item 3.
+
+    Item 4.
+
+    Item 5.
+
+  3. bullet point list
+
+    Item 1.
+
+    Item 2.
+
+    Item 3.
+
+    Item 4.
+
+    Item 5.
+
+A common mistake is to use headings and bullet points, write the full answer in one line, and then use <br> to separate paragraphs. This is not how it is done in Markdown. For example:
+
+  1. heading
+
+    Item 1.
+
+    Item 2.
+
+    Item 3.
+
+    Item 4.
+
+    Item 5.
+
+  2. bullet point list
+
+    Item 1.
+
+    Item 2.
+
+    Item 3.
+
+    Item 4.
+
+    Item 5.
+
+
+A good description of what you can expect from a website should be the title of your answer.
+
+A common mistake is to write a full answer for a short question. This is not how it is done in Markdown. For example:
+
+I want to know how to make sure a website is secure.
+
+A good answer will describe a website and the main elements of a website. This is the title of your post.
+
+
+Example output, using the example above:
+
+I want to know how to make sure a website is secure.
+
+To make a website secure:
+
+  1. The website should have a secure certificate. The certificate will have a domain name and an IP address. If the domain name does not match the IP address, it is not secure. If the domain name and IP address match, then the certificate is secure.
+  2. The website should not have any links to other websites. Links can be dangerous. If you see a link, do not click on it.
+  3. The website should have a web browser. A web browser allows you to visit other websites. An example of a web browser is a computer or smartphone with an internet browser installed.
+  4. The website should be accessible. If you can not access the website, then you can not use it. For example, if the website is only accessible through a proxy server, you can not use it.
+  5. The website should have an SSL certificate. An SSL certificate is a special type of certificate that is only used by websites that are secure. An example of an SSL certificate is an email that has been sent by a secure email service. An example of an SSL certificate is a certificate that has been issued by a trusted certificate authority such as Verisign or Thawte.
+
+If you do not know what a certificate authority is, then you should not use an SSL certificate. This is because it is not secure, and you could be put at risk.
+
+Example output, using the full answer above:
+
+To make a website secure:
+
+  1. The website should use a secure certificate. The certificate will have a domain name and an IP address. If the domain name does not match the IP address, then the certificate is not secure. If the domain name and IP address match, then the certificate is secure. A secure certificate should be issued by a trusted certificate authority such as Verisign or Thawte.
+  2. The website should not have any links to other websites. Links can be dangerous. If you see a link, do not click on it. Do not share it on social media either.
+  3. The website should be accessible. If you can not access the website, then you can

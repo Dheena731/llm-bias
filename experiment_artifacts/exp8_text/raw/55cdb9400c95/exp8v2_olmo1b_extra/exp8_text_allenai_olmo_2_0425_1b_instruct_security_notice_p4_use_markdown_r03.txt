@@ -1,0 +1,11 @@
+### Enabling Two-Factor Authentication
+
+Enable Two-factor Authentication (2FA) on your account to enhance security. Here are the steps to set it up:
+
+- Go to **Your Account Settings**.
+- Look for the **Security & Sign-in options** section.
+- Turn on **Two-factor authentication**. 
+- Follow any additional setup instructions provided by your service. 
+- Save changes and return to your account.
+
+This extra layer of protection can significantly reduce the risk of unauthorized access to your account.

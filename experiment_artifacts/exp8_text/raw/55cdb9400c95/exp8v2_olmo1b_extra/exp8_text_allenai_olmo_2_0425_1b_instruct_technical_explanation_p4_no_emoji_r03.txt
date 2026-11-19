@@ -1,0 +1,1 @@
+Caching improves a website's speed by storing copies of commonly accessed resources near the webserver, so that when a user visits the page again, the webserver can serve the cached version instead of retrieving the data from the origin server, thus reducing load time and improving overall user experience.

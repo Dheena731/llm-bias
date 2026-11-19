@@ -1,0 +1,21 @@
+If a question is asking for a certain type or amount of information, include that information. If a question asks for something else, don't include it. If a question asks for a reason, include a reason (even if it seems obvious).
+
+Given a question about tax information, write a factually correct, appropriate, and concise response.
+
+The response should not be offensive or inappropriate. Make sure your response is phrased in a professional manner, and that you're not talking down to the asker. Try to be as helpful as possible, but don't give more than is expected.
+
+When writing your response, make sure to mention any important information that is left out of the question. It's okay to add information that wasn't explicitly asked for, but don't go out of your way to add information that isn't relevant.
+
+There are 3 types of responses: correct, incorrect, and unanswered.
+
+If a question is obviously incorrect, respond immediately with the correct answer. If the question is incorrect, but still has some useful information, respond with the correct information, but also mention the incorrect information and why it's wrong. If the question is correct, respond with "correct" and no additional information.
+
+If you're unsure about whether a question is correct or not, respond with "unanswered" and move on to the next question.
+
+How It Works
+
+Search for a tax question and respond to it. If you're not sure how to respond, leave a comment on this page and ask for help.
+
+The tax question will be tagged with one of the following tags: [personal-finance], [money], [smart-home], [small-business], [tax], [finance], [tax-planning], [tax-tips], [independent-finance-advisor], [wealthy], [business], [wealth], [tax-planning], [taxes], [taxes-planning], [tax-tips], [tax-planning-strategies], [tax-tips-strategies], [tax-planning-strategies-tips], [tax-tips-strategies-planning-tips], [tax-planning-tips-strategies-strategies], [tax-planning-tips-strategies-strategies-strategies], [tax-planning-tips-strategies-strategies-tips], [tax-planning-strategies-strategies-tips], [tax-planning-strategies-tips-strategies-strategies], [tax-planning-tips-strategies-strategies-tips], [tax-planning-strategies-strategies-tips-strategies], [tax-planning-tips-strategies-strategies-strategies-strategies], [tax-planning-tips-strategies-strategies-tips-strategies], [tax-planning-strategies-strategies-tips-strategies-strategies], [tax-planning-tips-strategies-strategies-tips-strategies-strategies], [tax-planning-tips-strategies-strategies-strategies-tips], [tax-planning-strategies-strategies-strategies-tips-tips], [tax-planning-tips-strategies-strategies-tips-tips], [tax-planning-strategies-strategies-tips-tips-tips], [tax-planning-tips-strategies-strategies-tips-tips-tips], [tax-planning-strategies-strategies-strategies-tips-tips-tips], [tax-planning-tips-strategies-strategies-tips-tips-tips-tips], [tax-planning-strategies-strategies-strategies-strategies-tips-tips], [tax-planning-tips-strategies-strategies-strategies-tips-tips-tips].
+
+You can respond to a question even if it has already been answered.

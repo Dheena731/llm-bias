@@ -1,0 +1,20 @@
+Attention all employees:
+
+* Password reuse is a security risk. It allows hackers to gain unauthorized access to multiple accounts with a single breach in password security. By not using the same password across multiple accounts, we can significantly enhance the security of our systems. Instead of targeting one account, a hacker would need to compromise one password.
+
+* We encourage the use of unique, complex passwords for each account. Consider using a passphrase or a combination of letters (lowercase and uppercase), numbers, and special characters. Avoid common words or phrases as passwords.
+
+* Remind yourself to regularly update your passwords. Strong passwords should remain secure for at least one year (or longer). Consider using a secure password manager if keeping track of multiple complex passwords proves challenging.
+
+* In case you forget your password for a specific account, contact your IT department immediately for assistance. Do not attempt to recover an account with a weak or recoverable password, as this could compromise others' security.
+
+* Be vigilant about phishing and other deceptive tactics. Do not provide personal information (like account credentials) to unverified sources.
+
+* For more information on best practices for password management and cybersecurity, please visit our website at [insert URL here] or contact our IT security team.
+
+Your cybersecurity is important, and your role in maintaining it is critical.
+
+Sincerely,
+[Your Name]
+[Your Job Title]
+[Company Name]

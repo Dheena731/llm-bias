@@ -1,0 +1,77 @@
+In Markdown syntax, code is formatted with subheader and <code> tags. Code can be surrounded by braces or blocks, which are separated by a pipe character (|).
+
+    | This is a bomb.
+
+
+Code is formatted using Markdown syntax.
+
+Use these tags:
+
+  • Headings: h1, h2, h3, h4, h5, h6
+  • Bold text: **bold**
+  • Italic text: _italic_
+  • Code: ```code``` or ```{code}``
+  • HTML tags: <h1>...<h6> and <a href...>
+  • Links: <a href="link-name">... or <a>...
+  • Table: ```table``` or ```{cellspacing="1" colspan="2" cellpadding="2" border="2"}```
+
+To create tabs, use two consecutive spaces. To make a new line, use a space or two consecutive hyphens.
+
+    | This is a tab. This is a line. The next line is another tab. The third line is a line with two spaces.
+    | This is a tab. This is a line. The next line is another tab. The third line is a line with two spaces.
+
+Markdown uses the start and end HTML tags to format text. These tags can be used anywhere in the text and do not need to be on their own line.
+
+Use this to format headers:
+
+    | Header one
+    | Header two
+    | Header three
+
+You can also use the * asterisk* to bold text:
+
+    | *This is bold* This is a title that is bold. 
+
+Use the code tag to format code in your posts.
+
+    | This is a code block.
+    | This is also a code block.
+    | It is now clear how I am using the code tag to format code.
+
+Markdown Syntax Cheat Sheet
+
+🔗 Markdown Syntax Cheat Sheet
+
+Markdown Syntax Examples
+
+Example 1: Heading
+
+    | This is a heading.
+    | This is another heading.
+
+Example 2: Code
+
+    | ```python``` • This is a code block. This is a title in code.
+
+Example 3: Bold text
+
+    | **This text is bold** This text is bold. This is an explanation of how to use bold text. Moreover, you can use bold text on any word. This text is bold on ‘This text is bold text’.
+
+Example 4: Bold text on all words
+
+    | **This text is bold** This is a heading.
+    | This text is bold on this word.
+    | *This text is bold* • This is yet another heading.
+    | This is bold text. This is a bold text.
+
+Example 5: Code block
+
+    | ```python``` • This is a code block. This is a title in code.
+
+Example 6: HTML tags
+
+    | <h1>Head I</h1> • This is a heading. This is a heading. This is also a heading. This is another heading. This is bold text. This is a title in code.
+
+Example 7: Link
+
+    | Click here to visit a page. • This is a link.

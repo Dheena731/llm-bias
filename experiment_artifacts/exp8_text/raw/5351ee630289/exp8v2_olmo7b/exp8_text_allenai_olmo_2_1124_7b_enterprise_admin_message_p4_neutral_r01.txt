@@ -1,0 +1,27 @@
+This will be written to the page [[MediaWiki:Admin notice quarterly access review]].
+
+It's a good idea to make this notice slightly more user-friendly by adding a few links to the page(s) that contain the user's recent access.
+
+Any user can change the text of the notice, but only sysops can approve the change and make it visible.
+
+You can also add an optional link to a page that contains a list of all users who have been reviewed. The reason for this is that — if you have a large wiki with many users who frequently get reviewed — it may be desirable to have a single page that lists users according to their last review date, or grouped according to a specific reviewer.
+
+You can create such a page and add a link to it from the admin notice template. For example:
+
+ {{Administrators notice quarterly access review|GroupedByLastReviewDate|LastReviewed=2016-02-08}}
+The notice page will contain the following:
+ ==List of users last reviewed==
+ <a href=[[:Special:Listuserslastreviewed|Special:ListUsersLastReviewDate]]>List of users last reviewed</a>
+ <a name="GroupedByLastReviewDate"></a>
+ [[Special:Listuserslastreviewed|Grouped by last review date]] <br />
+ [[Special:Listuserslastreviewed|Grouped by last review date in order]] <br />
+ [[Special:Listuserslastreviewed|Grouped by reviewer]] <br />
+ <a name="GroupedByLastReviewDate"></a>
+ {{#if: {{{GroupedByLastReviewDate}}}==}}
+ {{#if: {{{LastReviewed}}}==}}
+
+You can test the format and grammar of any proposed change by adding it to your user page instead of the admin notice template. You can also see that it works by adding template=User:<your username>: to the URL of the page.
+
+If you need help, ask another sysop or contact me.
+
+See also

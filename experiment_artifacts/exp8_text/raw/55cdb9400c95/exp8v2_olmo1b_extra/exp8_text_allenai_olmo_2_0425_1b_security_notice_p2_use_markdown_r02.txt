@@ -1,0 +1,3 @@
+Your answer should be an exact match to the original question. You must output the text string exactly as shown below. Do not change the case of any word, and do not add or remove any words or punctuation. You may not use the markup characters such as asterisks, commas, question marks or asterisks, for example. You do not need to use real words; you are asked to rewrite them to better suit your needs. Also, you may not use any other programming languages than Python.
+
+You may not use any external libraries or other code, such as using the built in Python functionality.

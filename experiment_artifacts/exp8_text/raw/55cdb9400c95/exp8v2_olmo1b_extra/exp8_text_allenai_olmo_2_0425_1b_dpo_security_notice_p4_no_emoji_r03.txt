@@ -1,0 +1,9 @@
+Enable two-factor authentication (2FA) for your online accounts to add an extra layer of security. This process typically involves receiving a text message with a code, validating it against your phone’s number, and then logging into your account. This method prevents unauthorized access even if your password is compromised, as typically the text message code is sent to a mobile number that is not publicly listed or reserved for account access only.
+
+Here are some benefits to enabling 2FA:
+
+* **Enhanced Security:** Even if someone has your password, they cannot gain access without the correct code.
+* **Easy to Set Up:** Most service providers offer straightforward instructions to enable 2FA.
+* **Peace of Mind:** Knowing you have additional security measures in place is reassuring.
+
+By taking just a moment to enable 2FA, you significantly strengthen the defense against unauthorized access to your personal information and accounts.

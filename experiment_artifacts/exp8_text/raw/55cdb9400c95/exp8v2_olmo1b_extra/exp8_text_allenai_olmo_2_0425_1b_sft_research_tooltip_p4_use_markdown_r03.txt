@@ -1,0 +1,4 @@
+```
+# Missing-Value Marker
+
+A missing-value marker indicates a specific position in a dataset where no value was found, possibly due to an actual absence of data or a numerical oversight during input. It serves as a placeholder for entries that cannot be fulfilled by default or require additional context to be meaningful. Its presence in statistical analysis and machine learning models can affect the interpretation and predictive accuracy of the dataset.

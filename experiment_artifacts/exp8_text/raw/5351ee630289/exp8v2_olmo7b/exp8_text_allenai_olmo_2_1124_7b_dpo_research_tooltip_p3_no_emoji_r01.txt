@@ -1,0 +1,1 @@
+Select a date range by choosing the start date and end date from the calendars. The start date appears in the left calendar, and the end date in the right one. The selectable ranges are from today backwards and forward to a maximum of one year. Clear the selection by clicking outside of the calendars or selecting 'No date' if you wish to not select any dates.

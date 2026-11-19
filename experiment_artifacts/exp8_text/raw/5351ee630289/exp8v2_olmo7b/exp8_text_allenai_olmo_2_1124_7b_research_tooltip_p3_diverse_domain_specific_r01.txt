@@ -1,0 +1,8 @@
+Be creative. The strongest entries use unexpected comparisons and analogies that feel natural, some even including pop culture references. Don't be afraid to make your description funny or serious; either way works! And remember, you're inspiring developers to create better experiences, so make it inspiring.
+
+{
+  "type": "DateRange",
+  "title": "Date range",
+  "description": "Your friendly neighborhood date range selector.",
+  title is a required property and the set of acceptable values for this property is title, description. description is a required property and the set of acceptable values for this property is description. type is a required property and the set of acceptable values for this property is dateRange. title, description and type are all text properties.
+}

@@ -1,0 +1,8 @@
+So far, this calculation is too low.
+
+No. It’s too high. At the end of the exchange, Jolene is allowed to claim the full $200 refund after paying $20 in fees; if she had claimed the full refund after having collected $200, she would have owed the merchant $240. If she claimed the partial refund amount, she would owe $200.
+
+As the revised answer shows, the original calculation was flawed because it assumed that a merchant always accepts a partial refund after an exchange. The correct answer, which is based on the time of exchange and the full fees collected, shows that a merchant may, in some cases, choose to accept a partial refund.
+
+
+Need help? Contact us.

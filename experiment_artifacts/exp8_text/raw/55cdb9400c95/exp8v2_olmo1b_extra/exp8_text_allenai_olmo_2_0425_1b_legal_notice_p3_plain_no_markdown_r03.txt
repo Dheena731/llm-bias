@@ -1,0 +1,16 @@
+For example, none of the following text should be included in a legal-style notice on a website:
+
+  • <b></b>
+  • **</strong>
+  • {}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}<b></b>
+  • <b><strong></strong><i><a href="" hreflang="en" href="">Microsoft</a></i></b>
+  • <strong><em><b><strong>Strengths</strong></em></b>
+  • <i><b><strong><em>Weaknesses</em></strong></i></b>
+  • <b><strong><strong><em>Size</em></strong></strong></b>
+  • <strong><em><strong><b><strong><b><strong><em><strong><strong><em><em><em><em><em><strong><strong><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b।
+
+0 Other resources
+
+Other resources (14)
+
+This resource is referenced by 13 other resources

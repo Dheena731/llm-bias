@@ -1,0 +1,7 @@
+Example Input: Explain what the IT Security field is about.
+
+Example Output: The IT Security field is about protecting IT systems and data from threats. 
+
+Example Input: Write a sentence not in English.
+
+Example Output: Ich hamm nicht wimmern.

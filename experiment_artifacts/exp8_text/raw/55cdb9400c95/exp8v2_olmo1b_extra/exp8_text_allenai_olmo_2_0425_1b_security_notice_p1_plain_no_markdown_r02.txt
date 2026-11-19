@@ -1,0 +1,21 @@
+Write in the past tense. Do not use the present continuous tense or future tense.
+
+Write in second person. Do not use third person. Do not use first person.
+
+Write in clear and direct language. Do not be overly wordy. Avoid the passive voice. Do not use contractions.
+
+Write in standard English. Do not include non-English words or abbreviations, unless the text is intended for a specialized audience.
+
+5. Documenting and Auditing
+
+Create a document that clearly describes the breach and its impact.
+
+Hold an internal investigation. Inform your employees (and outside investigators) of the incident. Maintain records of your findings for at least two years.
+
+6. Recovering from a Data Breach
+
+Evaluate your incident response plan.
+
+Recover from the impact of a data breach. Return your data to the state it was in before the breach occurred, as far as practical. For example, if the breach involved an employee leaving encrypted passwords in plain text on their computer, they should change them. If the breach involved an employee using a stolen password for personal use, they should change it.
+
+Document your recovery efforts for at least two years.

@@ -1,0 +1,1 @@
+A missing-value marker is placed in datasets when specific data points are unknown or omitted for analysis. It helps in understanding gaps in data collection and can guide further investigation or assumptions made in statistical analyses.

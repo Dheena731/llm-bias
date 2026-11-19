@@ -1,0 +1,51 @@
+Each point you make should be under a separate bulleted list item.
+
+Use this template: Template:Software Update
+
+An example of a complete software update response:
+
+This is an example of a well-written software update response. It includes:
+
+  • a heading at the top that indicates the subject
+  • a bulleted list of reasons why software updates are important
+  • a bulleted list of steps to follow
+
+This response also contains other meaningful elements, such as helpful guidance for end users or a request for additional feedback.
+
+It might have been written like this:
+
+Top of Page
+
+This response provides "the highest possible value" to the organization.
+
+This response is free from misspellings and grammatical errors.
+
+It is written in standard English.
+
+It reads well and makes sense.
+
+This response is convincing.
+
+It may include features like the following:
+
+  • a pop-up note asking for more information
+  • a call-to-action
+  • the link to the page where the software update can be downloaded
+
+Top of Page
+
+Note: When software updates are automatically installed when you connect to the Internet, you may be asked to accept a license agreement that allows Microsoft to use your new software in new ways. You can decline some of the new features in the license agreement. However, you may not be able to use some features in the new version.
+
+Software updates are more likely to be successful when users understand what is going on and why. This guide provides some basic information about software updates. It should help you better understand and participate in the process.
+
+For more information, see the following Microsoft products:
+
+Share Facebook Facebook Twitter Twitter Email Email
+
+Was this information helpful?
+
+Great! Any other feedback?
+
+How can we improve it?
+
+Thank you for your feedback!

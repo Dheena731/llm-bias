@@ -1,0 +1,33 @@
+A date-picker is a control that displays a list of dates, typically as a date-range picker with a single selection point, to allow users to select a date. A date-range picker is programmatically enabled, using an HTML input date element. The input’s value is a date-time string. For example, the string "2010-01-01 00:00:00.000 UTC" is a valid date-time string. The user can select a date from the calendar, and can either select multiple dates by clicking the button, or click the next button to start a new date selection. The user can then type in or paste a date-time string to manually select another date.
+
+Match against a string if you want to transform a date-time string to a date. This is useful for showing a date in user-friendly format, like the value of an HTML datetime element.
+
+Match against a range if you want to determine if a date is between two dates. This is useful for showing dates with a time, like the result of an API call.
+
+String matching
+
+If you want to match a date-time string to a date, just match against the string's characters. For example, the string 2010-01-01T00:00:00.000 UTC will return the date-time "2010-01-01T00:00:00.000 UTC".
+
+If you want to match against a range of dates, you should first convert the string to a date-time. For example, the string 2010-01-01T00:00:00.000 UTC will return the date-time "2010-01-01T00:00:00.000 UTC", if you convert it to a date-time.
+
+Date matching
+
+If you want to match against a date to validate a date-time string, you should convert the string to a date. For example, the string "2010-01-01T00:00:00.000 UTC" will return the date "2010-01-01". If you want to match against a range of dates, you should first convert the string to a date-time.
+
+Date range matching
+
+If you want to match against the range 2010-01-01T00:00:00.000 UTC - 2010-01-01T00:00:01.000 UTC, you should first convert the string to a date-time. For example, the string "2010-01-01T00:00:00.000 UTC" will return the date-time "2010-01-01". If you want to match against a range of dates, you should first convert the string to a date-time. For example, the string "2010-01-01T00:00:00.000 UTC - 2010-01-01T00:00:01.000 UTC" will return the date-time "2010-01-01".
+
+HTML date-range-pickers
+
+The following table shows how to get the value out of the HTML date-range-picker control, assuming it is a date-range picker that displays three dates.
+
+HTML date-range-picker (range)
+
+The following is a sample date-range-picker control, which displays three dates.
+
+<html lang="en">
+	<input type="text" id="tomorrow" name="tomorrow" />
+	<input type="text" id="yesterday" name="yesterday" />
+	<input type="text" id="today" name="today" />
+	<button onclick="location.href = 'https://www.google.com/search?q=November%202011&amp;ox=0&amp;oe=UTF-8&amp;sclient=psyapp2&amp;fs=1&amp;ved=0CBcQFjAA

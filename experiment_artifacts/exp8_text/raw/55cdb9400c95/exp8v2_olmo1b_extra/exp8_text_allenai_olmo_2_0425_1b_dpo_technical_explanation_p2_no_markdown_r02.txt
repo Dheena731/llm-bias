@@ -1,0 +1,13 @@
+An index in a database is a structure that provides quick access to data records in a table. It does this by storing a small portion of the actual data record (often the most frequently accessed fields or columns), enabling database systems to quickly locate and retrieve data without having to read through every row. Here’s how an index works and its main purposes:
+
+1. **Access Speed**: Indexes help improve the speed at which data is retrieved because they allow the database engine to skip directly to the relevant part of the table when fetching data. Without an index, database systems need to scan the entire table, which can be slow for large datasets.
+
+2. **Data Retrieval**: When you perform queries on a database, indexes can speed up the process by reducing the need to scan through every row. Instead, the database engine can use the index to find the data more efficiently.
+
+3. **Search Performance**: With indexes, searching for records that match a specific criterion becomes quicker because the database engine can more readily locate the relevant data blocks in the index.
+
+4. **Data Storage**: While indexes help speed up data retrieval, they consume some storage space, and they do need to be maintained and updated if the underlying data or indices change.
+
+5. **Priority and Retrieval Order**: In databases that support multiple indexes on the same table (such as SQL databases like PostgreSQL or SQL Server), indexes can have priorities or clustering columns that influence the order in which rows are retrieved when data is being fetched.
+
+In summary, an index is a specialized table that speeds up data access by providing a pathway to specific data points within a table. Without it, read performance can be significantly impacted by the necessity to scan through large datasets.

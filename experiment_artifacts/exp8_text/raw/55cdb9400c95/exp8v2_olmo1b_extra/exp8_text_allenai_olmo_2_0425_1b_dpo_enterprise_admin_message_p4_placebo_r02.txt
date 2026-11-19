@@ -1,0 +1,26 @@
+Admin Notice: Quarterly Access Review Schedule
+
+Dear valued [Your Organization Name] community members,
+
+We are approaching the close of our annual fiscal cycle, and as such, we will be conducting quarterly access reviews to ensure the continuity and integrity of our data systems. These reviews are essential for maintaining the security, accuracy, and availability of our data, and they will take place towards the middle of each quarter, i.e., in Q2 (second half) and Q4 (fourth quarter) of the fiscal year.
+
+Before your access periods begin to decline in these upcoming reviews, we kindly request that you prepare for the following considerations:
+1. **Review Your Access Permissions:** Ensure that you have the latest and correct permissions and roles assigned to your accounts. It's important to be ready to provide documentation or explanation for any prior access restrictions or terminations.
+   
+2. **Backup Your Data:** We recommend backing up your data before the review to safeguard it against any technical issues during the audit process. This step is especially pertinent if your work requires extensive data manipulation or analysis.
+
+3. **Review Account Activity:** Check your recent activity logs for any suspicious logins or attempts to access data you are not authorized to view. We'll review these logs for any red flags, and if necessary, we will take steps to ensure your access remains secure.
+
+4. **Stay Informed:** Participation in these quarterly reviews will help in reinforcing our practices regarding access management and data protection. Your insights and experience are invaluable to us in refining our security protocols and ensuring that our systems remain robust.
+
+Throughout these reviews, we will be documenting our findings and any necessary actions regarding access permissions. Rest assured, your privacy and security are our top priorities, and your feedback will be considered when determining outcomes of these assessments.
+
+We appreciate your cooperation and understand that adjusting to these changes might require some adjustments in your workflows. If you encounter any issues that arise from this notice or if you have any questions regarding access policies, do not hesitate to contact our IT Support team at [Contact Information].
+
+Thank you for your continued trust and commitment to [Organization Name]. We look forward to our collaborative efforts to maintain a secure and efficient environment for all members.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Contact Information]

@@ -1,0 +1,5 @@
+Two-Factor Authentication
+
+To enhance your security, we recommend that you enable two-factor authentication. Two-factor authentication is an easy way to add an extra layer of protection when logging into your account. It requires something you know (your username and password) and something you have (a one-time passcode to your phone). This ensures that even if someone gets your password, they will not be able to sign into your account unless they also have physical access to your phone.
+
+Make sure to set up two-factor authentication before signing into your account with the new password.

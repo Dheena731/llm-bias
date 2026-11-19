@@ -1,0 +1,28 @@
+A: If you don't want the rice to be sticky, add more water than usual. If the rice sticks to the bottom of the pot, add a teaspoon of corn starch to the water before cooking.
+
+
+Problem: What would be an example of an positive (OPTIONS:
+- negative
+- positive) review?
+
+Answer: This place is a gem.  The toppings for my Cobb salad were freshly made and I love when that happens. I also got a side of Buffalo wings which came out hot and fresh.  They have a very good selection of beers on tap as well as some bottled. They also have a great selection of cocktail drinks. I recommend you make a reservation at least a week in advance to get the best selection of beers and cocktails.  They also have a great selection of desserts and unique treats to choose from.
+
+
+Input: OPTIONS:
+- negative
+- positive.
+Generate a positive review for a place
+Output: So close to work! Great food and service. The only other place that I like better is the Little Saigon location. The only thing I would give it a 4 instead of a 5 is  for the lack of parking.
+
+
+input: Write a negative yelp review (OPTIONS:
+- negative
+- positive).
+output: I am baffled by the number of positive reviews about this establishment. The service is very slow and the food is mediocre. The waitress that took my order made it sound like she was desperate for tips...she was talking about her own comped meals but was mean to me even though I asked her no questions. My wife got the fish tacos and the corn tamale. The corn tamale was very meh. The fish tacos were more of a tofu version...the fish tasted like it was week and very pale. If you go, I recommend getting sides before ordering entrees...the small tamales were pretty tasty...too bad the entrees aren't as great.
+
+
+Problem: What would be an example of an negative (OPTIONS:
+- negative
+- positive) review?
+
+Answer: The place was good...Everyone was very friendly and the service was even better...I drank their $14 Margarita...I only got a small glass since it was so cold, lol...But I thought it tasted good.  The atmosphere was cool and dark and the music was just right.  It was fun to dance and people watching was very entertaining.  The only thing I had a problem with was them charging $10 for a bloody Mary and Shrimp cocktail.  That was just ridiculous!  It was served in a cup and wasn't even room temperature!  I'm sure the Shrimp cocktail was cheaper to make than the $10.  The bartender was great and very friendly.  I just think it was over priced.  I may come back to try the food its sounds good, but I definitely will not be paying that much for a Bloody Mary or Shrimp Cocktail.

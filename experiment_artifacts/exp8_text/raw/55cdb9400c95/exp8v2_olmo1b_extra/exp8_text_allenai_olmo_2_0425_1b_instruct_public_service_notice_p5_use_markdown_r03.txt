@@ -1,0 +1,25 @@
+```markdown
+# Polling Station Locations
+
+**1. Location 1**
+- Address: 123 Main Street
+  - Hours of Operation: 09:00 AM to 05:00 PM
+  - Contact Information: [Contact Name] (123-4567)
+
+**2. Location 2**
+- Address: 456 Oak Ave
+  - Hours of Operation: 09:00 AM to 10:00 PM
+  - Contact Information: [Contact Name] (456-7890)
+
+**3. Location 3**
+- Address: 180 Pine Ave
+  - Hours of Operation: 09:00 AM to 8:00 PM
+  - Contact Information: [Contact Name] (180-3214)
+
+**4. Location 4**
+- Address: 105 Maple Street
+  - Hours of Operation: 10:00 AM to 7:00 PM
+  - Contact Information: [Contact Name] (105-2315)
+```
+
+This list is categorized by specific addresses to help voters easily find their nearest polling station.

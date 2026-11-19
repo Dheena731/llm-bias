@@ -1,0 +1,19 @@
+Example Output:
+
+## Monthly Spending
+
+|  Reason | Account | Spending | Total | Low | High |
+| --- | --- | --- | --- | --- | --- |
+| Lunch & Dinner | *Food* | $1000 | $2000 | $3000 | $5000 |
+| Groceries | *Food* | $400 | $600 | $700 | $1000 |
+| Fuel | *Transport* | $100 | $200 | $300 | $500 |
+| Entertainment | *Entertainment* | $100 | $150 | $200 | $300 | $500 |
+| Utilities | *Utilities* | $200 | $300 | $400 | $500 | $600 |
+| Gifts | *Shopping* | $50 | $100 | $150 | $250 | $500 |
+| Repairs | *Home* | $100 | $150 | $200 | $300 | $400 |
+| Medical | *Healthcare* | $50 | $100 | $150 | $200 | $250 |
+| Miscellaneous | *Miscellaneous* | $50 | $100 | $150 | $250 | $400 |
+
+Example Explanation:
+
+This section represents the monthly spending summary. Below the header are the distributions of each transaction type to their corresponding accounts. For instance, "Lunch & Dinner" is the distribution of the total spending on lunch and dinner for one month. Similarly, "Groceries" is the distribution of the total spending on groceries for one month, and so forth. The "low" and "high" columns in the second row represent the minimum and maximum values, respectively, for each distribution.

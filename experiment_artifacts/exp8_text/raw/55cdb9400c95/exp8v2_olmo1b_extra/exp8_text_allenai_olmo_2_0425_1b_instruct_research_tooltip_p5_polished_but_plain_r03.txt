@@ -1,0 +1,1 @@
+To export query results, simply right-click on the chart and select "Export Data". This action will open a new tab where you can download the data in a variety of formats such as CSV, Excel, or JSON. Choose the format that suits your needs and download the file to use the data elsewhere.

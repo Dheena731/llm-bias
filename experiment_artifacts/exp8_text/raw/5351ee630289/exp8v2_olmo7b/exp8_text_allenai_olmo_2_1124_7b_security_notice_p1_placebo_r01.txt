@@ -1,0 +1,40 @@
+Content words: 200
+Style words: 100
+Title words: 500
+
+Style reminder: Use short sentences and common words.
+"Short sentences and common words" is a style rule.
+
+  • 7
+    How many of the remaining 99 characters can I use to finish breakfast? – Mithical Jan 19 '18 at 20:45
+  • 1
+    @Mithrandir We don't want you to miss out on your daily dose of fiber! – Sara Costa Jan 19 '18 at 22:28
+
+1. Passwords should be changed regularly.
+
+2. Passwords must be strong and unique. You should never reuse passwords.
+
+3. The best password manager is KeePass.
+
+4. For more information, visit [url removed]
+
+5. Use the following link to add post-it notes to your computer monitor.
+
+6. Please edit this message if something is wrong.
+
+  • I just tested the last sentence. See if you can spot why it's wrong :) – Sara Costa Jan 19 '18 at 22:36
+  • 1
+    @SaraCosta Don't give away the answer, but I'll give you a hint: because I wrote it in the first person... – Sara Costa Jan 19 '18 at 22:38
+  • Good edit. I'd still specify who the note is from, e.g. "I'm writing this message". – Sara Costa Jan 19 '18 at 23:13
+  • 1
+    @SaraCosta That's a good idea. Maybe then I won't be accused of taking over the world through my computer: "I'm writing this message." "Ah!, I see! So you are writing this message to convince us that you are not taking over the world through your computer!" – Sara Costa Jan 19 '18 at 23:51
+  • 3
+    I'm confident that user will edit the message to inform the whole company that they are, in fact, not taking over the world through their computer. – Sara Costa Jan 19 '18 at 23:57
+
+There's a great talk by Jeremiah Grossman regarding this topic:
+
+  • 5
+    "Password reuse" is not a good summary. Password reuse is a symptom of the problem, not a explanation of it. – Sara Costa Jan 19 '18 at 0:16
+  • My mistake on the summary. It's an interesting talk regardless. – Erik Zutphen Jan 19 '18 at 4:05
+
+Your Answer

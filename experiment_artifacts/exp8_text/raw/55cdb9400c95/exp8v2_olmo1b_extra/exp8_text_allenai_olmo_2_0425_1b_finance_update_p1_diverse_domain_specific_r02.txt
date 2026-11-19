@@ -1,0 +1,5 @@
+This month, we achieve our goal of achieving a 35% reduction in our monthly food expenses. This month, we had a special deal with our favorite restaurant, which we used for a large portion of our monthly food budget. By dining at this restaurant more frequently, we were able to reduce our dining expenses by 30%. We are excited to have achieved our goal of saving $35 each month on our monthly food expenses and look forward to continuing to save on dining expenses.
+
+Context: Monthly summaries of restaurant outings and meals.
+
+Output: Monthly summaries of restaurant outings and meals.

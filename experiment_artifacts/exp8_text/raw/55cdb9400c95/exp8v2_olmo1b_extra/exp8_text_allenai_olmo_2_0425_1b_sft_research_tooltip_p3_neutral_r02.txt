@@ -1,0 +1,1 @@
+When you hover over the date-range selector, it will show a tooltip that helps you understand how the date ranges are created and how you can customize them.

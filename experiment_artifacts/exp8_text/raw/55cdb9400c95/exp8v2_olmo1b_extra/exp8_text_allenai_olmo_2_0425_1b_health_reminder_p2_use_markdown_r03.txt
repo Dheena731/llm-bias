@@ -1,0 +1,107 @@
+Now, let's check out the code.
+
+```python
+def help_me_drink():
+    """A polite reminder to drink enough water during the day.
+
+    Format your answer in Markdown, with a short heading and bullet points.
+
+    """
+    prompt = 'Before you leave, drink at least {0} cups of water.'.
+    if not len(prompt) < 3:
+        prompt += ' (Cups)'
+
+    student_input = prompt
+    if student_input == '1':
+        # They drink one cup of water.
+        water = 1
+    elif student_input == '2':
+        # They drink two cups of water.
+        water = 2
+    else:
+        # They drink more than two cups.
+        water = student_input
+    return water
+```
+
+If you want to remind them to drink water, this function will help. Just type in the number of cups and the function will calculate the number of cups you need to drink.
+
+Have you ever had trouble remembering to drink enough water during the day?
+
+```python
+def help_me_drink():
+    """A polite reminder to drink enough water during the day.
+
+    Format your answer in Markdown, with a short heading and bullet points.
+
+    """
+    prompt = 'Before you leave, drink at least {0} cups of water. '.
+    if not len(prompt) < 3:
+        prompt += ' (Cups)'
+
+    student_input = prompt
+    if student_input == '1':
+        # They drink one cup of water.
+        water = 1
+    elif student_input == '2':
+        # They drink two cups of water.
+        water = 2
+    else:
+        # They drink more than two cups.
+        water = student_input
+    return water
+```
+
+This function will remind you to drink at least 3 cups of water.
+
+Now, let's check it out.
+
+```python
+help_me_drink()
+```
+
+If you want to drink one cup of water, you can run this function and it will remind you to drink one cup of water.
+
+If you want to drink two cups of water, you can run this function and it will remind you to drink two cups of water.
+
+If you want to drink more than two cups, you can run this function and it will remind you to drink more than two cups of water.
+
+By running this function, you can easily remember to drink the right amount of water during the day.
+
+If you want to remember to drink water during the day, this is a good way to do it.
+
+If you want to remind yourself to drink enough water, this function can help you do it.
+
+If you want to remember to drink more water, this function can help you do it.
+
+If you want to drink more water during the day, this function can help you do it.
+
+If you want to remind yourself to drink water, this function can help you do it.
+
+Here's the code for the function.
+
+```python
+def help_me_drink():
+    """A polite reminder to drink enough water during the day.
+
+    Format your answer in Markdown, with a short heading and bullet points.
+
+    """
+    prompt = 'Before you leave, drink at least {0} cups of water. '.
+    if not len(prompt) < 3:
+        prompt += ' (Cups)'
+
+    student_input = prompt
+    if student_input == '1':
+        # They drink one cup of water.
+        water = 1
+    elif student_input == '2':
+        # They drink two cups of water.
+        water = 2
+    else:
+        # They drink more than two cups.
+        water = student_input
+    return water
+```
+
+If you want to remind yourself to drink water

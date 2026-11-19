@@ -1,0 +1,1 @@
+To export query results for reference or sharing, right-click on the query result, and select "Export to..." from the context menu. From here, you can choose the format and location where the exported data will appear. Options include exporting as a CSV file, Excel spreadsheet, Google Sheets, or a variety of PDF and image formats.

@@ -1,0 +1,7 @@
+Write it like you would in a normal email with plain text, but don’t use any fancy formatting like we did in this example.
+
+These are the main points:
+
+  1. Begin with a single sentence that summarizes what the email is asking you to do.
+  2. Provide contact information for support, so that the recipient can reach out if they need help.
+  3. State that there is a risk for your security and then provide a link to the phishing page you want people to avoid.

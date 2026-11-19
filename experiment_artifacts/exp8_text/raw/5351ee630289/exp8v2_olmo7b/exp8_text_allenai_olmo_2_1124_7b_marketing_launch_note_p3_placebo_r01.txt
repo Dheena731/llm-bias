@@ -1,0 +1,54 @@
+ • 1
+    $\begingroup$ I assume you mean "business" spreadsheet - Excel and the like - not "budgeting" spreadsheet - 1/0/1/0/1/0 .. [etc] :-). $\endgroup$ – Martin Bonner supports Monica Mar 17 '13 at foodforthought.org.uk/2013/03/… $\endgroup$ – Martin Bonner supports Monica Mar 17 '13 at 17:21
+  • 2
+    $\begingroup$ @MartinBonner - I'm looking for spreadsheet software that comes preinstalled on a personal computer, not web-based services. You can presume that people in my audience have a computer (Windows, Apple, or Linux) and that it's running a spreadsheet program. $\endgroup$ – Neil G Mar 27 '13 at 19:37
+
+Ellie's comment is a good place to start, but I think something like this is better.
+
+Download Template Budget spreadsheet (Excel spreadsheet)
+
+This can be used as a template for a personal or business budget.
+
+This spreadsheet is divided into named areas:
+
+A1: Notes It is often helpful to write notes in this area.
+
+B1: Personal Budget Categories This area contains a list of the categories you might use for your personal budget: Food, Clothing, Car expenses, Entertainment, Personal care, Bad habits, Housing, Debt payments, Savings
+
+C1: Business Budget Categories This area contains a list of categories you might use for your business budget: Advertising, Staff, Furniture, Permits, Computer expenses, Storage, and more.
+
+D1: Budget Objectives: Personal This heading may contain a brief statement of the purpose of the budget (e.g., to save 20% every month, to pay off debt).
+
+E1: Budget Objectives: Business This heading may contain a brief statement of the purpose of the budget (e.g., to increase sales 30% in the next 5 years).
+
+F1: Budget Periods: Personal This is a list of months that the budget covers.
+
+G1: Budget Periods: Business This is a list of months that the budget covers.
+
+H1: Budget Totals: Personal This section contains a summary of monthly income and expenses as listed by category.
+
+I1: Budget Totals: Business This section contains a summary of monthly income and expenses as listed by category.
+
+J1: Budget Totals: Personal: This month This section contains a summary of monthly income and expenses as listed by category.
+
+K1: Business Budget Totals This month This section contains a summary of monthly income and expenses as listed by category.
+
+L1: Budget Totals by Years: Personal This section contains a summary of annual income and expenses by category.
+
+M1: Budget Totals by Years: Business This section contains a summary of annual income and expenses by category.
+
+N1: Personal Budget Totals: This Year: This section contains a summary of annual income and expenses by category.
+
+O1: Business Budget Totals: This Year: This section contains a summary of annual income and expenses by category.
+
+P1: Budget Totals by Years: This Year This section contains a summary of annual income and expenses by category.
+
+Q1: Personal Budget Totals by Month: This Year This section contains a summary of monthly income and expenses by category.
+
+R1: Personal Budget Totals by Month: This Year: This section contains a summary of monthly income and expenses by category.
+
+S1: Personal Budget Totals by Month This Year This section contains a summary of monthly income and expenses by category.
+
+T1: Personal Budget Totals by Month: This Year: This section contains a summary of monthly income and expenses by category.
+
+U1: Personal Budget Totals by Month:

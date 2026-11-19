@@ -1,0 +1,1 @@
+To export query results, use the export button in the sidebar to select the desired format and click "Export" to download the data in your preferred format.

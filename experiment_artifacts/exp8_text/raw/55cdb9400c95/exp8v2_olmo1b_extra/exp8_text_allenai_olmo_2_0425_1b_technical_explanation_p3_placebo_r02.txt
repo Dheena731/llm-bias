@@ -1,0 +1,53 @@
+Improve your app quality with small changes
+
+To be more precise, when we speak of software updates, we mean small changes. Small changes are changes that do not break the application and will be well accepted by the users.
+
+Small changes can be a simple correction of a typo, or minor bug fix. When we talk about small changes, the idea is to think of the small changes that can perform a lot of work. Small changes are continuous, mainly paid, and can be adopted by many users.
+
+Small changes are only different applications, not revolutionary new features. If you offer something revolutionary, you should use the big changes.
+
+If you have a small change to update your software, take the time to do so. If the change is not substantial, update the whole application.
+
+Our recommendation is to make small changes to the application. Then, if you need to update the application, make the big changes to the application.
+
+When the application is updated, make sure that the users are notified, they are not surprised by the updates, and that they understand what the updates are all about. This will make the updates successful.
+
+Do not offer small updates to the application unless you have the time and resources to do so. So, when the application is updated, users should be notified, and all updates should be explained to the users.
+
+Don't make macroscopic changes to the software, if you can just update the application.
+
+When you make a change to the software, please document it. When the users see the changes, document them as well. Do not hide the changes from the users.
+
+The documentation should include the motivation for the change. Include the new features and what they were incorporated into the application. Provide sufficient information so that the users can understand why you made the changes, when those changes were made, and how they can use the changes.
+
+Offer small updates, major changes should be avoided. Small changes should be only changes that do not affect the application application.
+
+Do not overdo it. If you have a change to do, do not assume the same amount of work for each change. If you have a small change to do, do the small change. If your change to-do list is the largest one of your life, stay on the right side.
+
+Advantages of software updates
+
+Software updates have many advantages for the software development process:
+
+Clocking in and out
+You will save time by clocking in when you need to update software and clocking out when you need to update software. Things you can do while clocking out are the following:
+
+  • Waiting for customers to call you.
+  • Waiting for feedback from your teammates.
+  • Asking them for some help.
+  • Sleeping.
+  • Waiting for something to happen.
+
+So, when you can, clock in and out. Use the time wisely.
+
+Use the time to continue working on the application.
+When you are planning to update the software, use the time to continue working on the application. Use the clocking out time to plan the update. Develop the plans carefully work on them. And, when the time is right, update the software.
+
+Avoid risk and uncertainty
+Software updates do not always work well. Sometimes, they do not work at all. We do not know why. So, we cannot always plan for updates. We cannot always know when an update is needed or how to implement the update.
+
+Software updates can fail. Even when you plan carefully, you can fail to update the software. This can happen. However, you can do some things to avoid the defects of the update:
+
+  • Test the update before you deploy it.
+  • Before the update, test it with different conditions and environments.
+  • Test it with different configurations of the application.
+  • Test it with different parameters, different data, or different

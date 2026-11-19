@@ -1,0 +1,4 @@
+Readme: Rummage through the code repositories and determine the most useful commit message for the developer. Make sure to exclude the following at the top of the write-up:
+
+  • Commit Messages should be a single sentence. (Remove the at the top of the readme unless you have a specific reason to keep it.)
+  • Ensure that the README is up-to-date with the current code base.

@@ -1,0 +1,22 @@
+Attention Everyone,
+
+We are introducing a new security feature to protect your accounts: Two-Factor Authentication. This additional layer of security requires you to verify your identity through two means before accessing your account.
+
+To enable this feature, follow these simple steps:
+
+1. Log in to your account using your usual credentials.
+2. Go to the "Settings" or "Account" section.
+3. Look for the "Two-Factor Authentication" option and activate it.
+4. Follow the on-screen instructions to set up your preferred method of receiving the verification code.
+
+By activating two-factor authentication, you significantly reduce the risk of unauthorized access to your account. We strongly encourage you to take this step to enhance your online security.
+
+For further assistance or questions, please refer to our help center or contact our support team.
+
+Thank you for your cooperation and commitment to keeping your information safe.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Company]

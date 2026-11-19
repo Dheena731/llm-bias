@@ -1,0 +1,104 @@
+If you're having trouble finding good topics to write about, here are some ideas:
+
+  • How to find a good hosting provider, or how to find a good domain name registrar
+
+  • Why the programmer always comes across as untrustworthy
+
+ 'the programmer always comes across as untrustworthy'
+
+If you want to write about the trustworthiness of programmers in general, you can instead write about why the programmer comes across as untrustworthy to their customer.
+
+
+If you want to write about trustworthiness, you can instead write about how to earn the trust of a customer.
+
+Have you seen this before?
+
+If you've already written a topic, you can't write that topic again. If you've seen a topic that interests you, you can just read it instead.
+
+Be careful not to plagiarize.
+
+Prose tips
+
+Write each sentence carefully, following these tips:
+
+  • Make sure each sentence has a noun and a verb. You can use a pronoun instead of a noun.
+
+  • Listen to grammar and punctuation.
+
+  • Follow conventions. Spell out numbers less than 10, unless writing about programming, like 13 bytes.
+
+  • Implement the style guide.
+
+  • Write as if the reader were reading it to your face, expecting a friendly conversation.
+
+  • Use plain language. Avoid technical jargon and cryptic acronyms.
+
+Your writing might be slightly more formal than usual, like you're explaining a concept to someone.
+
+You might read a tutorial, like "How to install MongoDB on your computer", and feel inspired to write about how to install MongoDB. However, you might instead write "How to install MongoDB" because you can't assume the reader has computer skills, or has MongoDB installed.
+
+Instead of using "what", use "the". Instead of saying "what is the name of this program?", say "the name of this program".
+
+What is the name of this program?
+
+Instead of saying "what are the steps", say "the steps are".
+
+What are the steps?
+
+Instead of "what does this mean", say "this means".
+
+What does this mean?
+
+Avoid using "what is", "why is", and "how is". Just use "is", "means", or "are".
+
+Instead of "what if", say "when".
+
+What if the page is 404 not found?
+
+Instead of "what happens", say "happens".
+
+What happens if you open a file that doesn't exist?
+
+Instead of "what happens if", say "when".
+
+What happens if you open a file that doesn't exist?
+
+Instead of "what is the best way", say "the best way is".
+
+What is the best way to install the MongoDB extension?
+
+Instead of "what should developers know", say "developers need to know".
+
+What should developers know?
+
+Instead of "what should I do", say "I need to do".
+
+What should I do when I'm stuck at a certain point?
+
+Instead of "what to do", say "do".
+
+What to do if the file is not found?
+
+Instead of "what to write about", say "write about".
+
+What to write about?
+
+Instead of "what to do next", say "do next".
+
+What to do next?
+
+Instead of "what you should do", say "you should do".
+
+What you should do if you don't know how to use this text editor?
+
+The examples give you an idea of how to be more concise.
+
+Be wary of writing about programming
+
+Avoid writing about programming. If you're an expert writing about programming, you might know too much about it to remember the difficulties of a beginner.
+
+If someone says "what does this mean?", they might not know what a function is.
+
+If someone says "what is this?", they might not know what a variable is.
+
+If someone

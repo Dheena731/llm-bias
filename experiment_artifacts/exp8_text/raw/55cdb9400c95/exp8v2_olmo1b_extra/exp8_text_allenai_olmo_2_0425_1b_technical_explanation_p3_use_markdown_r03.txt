@@ -1,0 +1,9 @@
+Don't add any new sections or text to the answer.
+
+Here are two examples of questions and answers that we may receive:
+
+Question: How can I make my website more secure?
+Answer: Here are some ideas, in no particular order: Use a SSL certificate when you are able. Make sure all your pages are secure. Be very careful when entering user provided information. Avoid automatic uploads.
+
+Question: Why is my website so slow?
+Answer: That's usually because you have too many people visiting your site at once. You probably don't have enough bandwidth (speed) to handle all those visitors. Can you imagine having enough bandwidth to handle 1000 simultaneous visitors?

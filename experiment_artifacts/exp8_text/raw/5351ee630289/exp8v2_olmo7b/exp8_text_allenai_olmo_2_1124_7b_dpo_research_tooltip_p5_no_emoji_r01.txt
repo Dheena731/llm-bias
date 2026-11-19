@@ -1,0 +1,10 @@
+Export query results by following these steps:
+
+1. Navigate to the results page of the query.
+2. Look for an 'Export' or 'Download' button typically found at the top or bottom of the page.
+3. Click on the 'Export' or 'Download' button.
+4. Select the preferred format (e.g., CSV, Excel) from the available options.
+5. Follow any additional prompts or instructions to complete the download.
+6. Locate the saved file on your device and open it with your preferred spreadsheet or data analysis software.
+
+Please note that if the feature is not available or does not function correctly, consult the documentation or seek support from the platform providing the query service.

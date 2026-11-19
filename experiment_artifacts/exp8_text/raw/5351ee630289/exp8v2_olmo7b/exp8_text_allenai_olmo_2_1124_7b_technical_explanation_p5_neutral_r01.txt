@@ -1,0 +1,11 @@
+An API rate limit is the maximum number of requests per unit time that can be made to an API.
+
+
+Problem: Given the following passage "Slow-neutron reactors can use unenriched natural uranium as fuel, Number 6, or "natural" fuel, rather than the low enriched uranium, enriched to usually 3.5%, which is required by light-water reactors. In a CANDU reactor, the natural uranium is in the form of uranium hydride which, along with being more reactive than the usual oxide form, has the important advantage that it modulates reactivity (in response to changes in temperature) itself, alleviating the need for external temperature control (usually by insertion of neutron absorbing rods into the core).",  answer the topic "Uranium hydride".
+
+A: uranium hydride
+
+
+Problem: Given the following passage  "Nishimura's force consisted of two old battlecruisers , Fuso and Yamashiro, which had suffered heavy damage at Savannah, and two cruisers, Abukuma and Harukata. As they passed north of Guadalcanal they were attacked by US aircraft, and Yamashiro was crippled by near-simultaneous hits which killed 111 of her crew. Back in Japanese waters she was scrapped the following year. The other three ships of Nishimura's force were also sunk.",  answer the Am I correct?
+
+A: Fuso and Yamashiro

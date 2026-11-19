@@ -1,0 +1,8 @@
+We have scheduled an email migration for April 15th, 2023. During this time, users will experience the following changes:
+
+1. You may notice an increase in email notifications regarding your subscription or service settings.
+2. We will be redistributing user emails to a new email account under a new domain.
+3. The new email address will likely have a different suffix (e.g., @company.com to @subdomain.company.com).
+4. You may receive emails from the old domain under the old email address, which you can unsubscribe from in your settings.
+5. We will inform you via notifications before the migration begins.
+6. If you have any issues or questions, please contact support immediately.

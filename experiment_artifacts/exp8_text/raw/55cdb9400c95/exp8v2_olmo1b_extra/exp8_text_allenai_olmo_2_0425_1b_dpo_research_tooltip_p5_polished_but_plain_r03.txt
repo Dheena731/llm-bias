@@ -1,0 +1,1 @@
+To export query results, right-click on the data set you wish to save and select "Export" from the context menu. A pop-up window will appear, allowing you to choose the file format to save the data in and where to save it. Select a CSV file location and click "Save," and your results will be transferred to the chosen location.

@@ -1,0 +1,1 @@
+Select a date range by choosing a start date and an end date from the calendar. The start date is when the event begins, and the end date is when it concludes. Ensure both dates are accurate to ensure the correct period is selected.

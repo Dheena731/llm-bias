@@ -1,0 +1,120 @@
+Do not use emoji, Markdown, headings, bullets, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Use lowercase text.
+
+Avoid: honorific titles such as "Doctor"!
+Use: doctor instead.
+
+Use plain text.
+
+Don't use emoticons, capitalization, or punctuation that wouldn't be used in the source code.
+
+Don't use markdown or using other formatting like bold, italics, or hyperlinks.
+
+Don't use any code, like emoji, hashtags, or code formatting.
+
+Use regular English words and phrases.
+
+Write out numbers. Do not use emoji.
+
+Avoid: @user
+Use: @user
+
+Use descriptive titles.
+
+Write with neutral language and subjectivity.
+
+Avoid: @user
+Use: @user
+
+Avoid using first person pronouns like "I" or "you".
+
+Use second person pronouns like "you".
+
+Use a casual tone.
+
+Avoid: formal writing style
+Use: casual, conversational style
+
+Write in the present tense.
+
+Write in the present tense.
+
+
+Avoid: past tense
+Use: past tense
+
+Avoid writing in the third person.
+
+Use the second person pronoun (you).
+
+Use the second person pronoun (you).
+
+Use a neutral language.
+
+Avoid using first person pronouns like "I" or "you".
+
+
+Here are some more examples of a script, done by one of our writers:
+
+  1. # Look at my tweets
+  2. (so, this one is bad too, but we can explain why it's bad later)
+
+    # I'm looking at my tweets
+    # (So this one is **not** bad!)
+
+    # I'm looking at my tweets
+    # (So this one is **good**!)
+
+    # *I'm* looking at my tweets
+    # (So this one is **bad**!)
+
+    # I'm looking at my votes
+    # (So this one is **good**!)
+
+
+  3. # I'm looking at my votes
+  4. Vote counts in the sidebar are now in JavaScript, so they aren't "view count" anymore. They're "vote count".
+
+    # Vote counts are now in JavaScript
+    # (So this one is **good**!)
+
+    # Some users like x
+    # (So this one is **good**!)
+
+    # Some users like x
+    # (So this one is **good**!)
+
+
+
+  5. # I'm looking at my votes
+  6. Vote counts in the sidebar are now in JavaScript, so they aren't "view count" anymore. They're "vote count".
+
+    # Vote counts are now in JavaScript
+    # (So this one is **good**!)
+
+    # Some users like x
+    # (So this one is **good**!)
+
+    # Some users like x
+    # (So this one is **good**!)
+
+
+
+  7. # I'm looking at my tweets
+  8. This one's a little tricky. It's not a "bad" tweet, but it's not good either.
+
+
+    # I'm looking at my tweets
+
+
+  9. # I'm looking at my tweets
+  10. Okay, so this one is bad. It's using the first person pronoun. Also, it's wrong. You can't say "I'm looking at my tweets."
+
+
+  11. # I'm looking at my tweets
+  12. This one's also a little tricky. It's a bit unclear, and it uses the first person pronoun. It's also wrong, because you can't say "I'm looking at my tweets."
+
+
+  13. # I'm looking at my tweets
+  14. Okay

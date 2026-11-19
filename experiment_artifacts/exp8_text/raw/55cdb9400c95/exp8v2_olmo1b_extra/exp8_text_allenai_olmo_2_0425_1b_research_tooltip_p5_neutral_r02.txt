@@ -1,0 +1,16 @@
+It is well documented here: https://developers.google.com/chart/interactive/docs/gallery/chart_export?hl=en
+
+Here's the Get Chart Data documentation sample:
+
+$myChart = Chart::Google::render('chart.svg', [
+    'data' => [
+        [100, 150],
+        [80, 190],
+        [30, 110],
+    ],
+    'titles' => ['first', 'second', 'third'],
+]);
+
+$myChart->getChartData()->export();
+
+It returns a new Chart::Google object, which can be further manipulated.

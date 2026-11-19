@@ -1,0 +1,1 @@
+An API rate limit is a maximum number of requests a user is allowed to make within a specified time period. It is a policy to prevent abuse, such as DDoS attacks, by restricting the number of requests a single user can make.

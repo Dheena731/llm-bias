@@ -1,0 +1,9 @@
+When the date-range selector is used on a news article, it allows users to easily view the publication date and its correspondences with specific time periods. This feature enhances user experience, as it enables readers to quickly grasp the context and freshness of the information presented, especially in fields where news relevance diminishes rapidly once published.
+
+For instance, consider a blog post about the latest tech trends. With the date-range selector, a user can click on a year and see articles from that specific year, thereby gaining insights into the prevailing tech trends and any significant events that year might have had.
+
+Incorporating placeholder text, this selector is often represented as a small icon or button next to the article title, possibly shaped like a calendar or a clock. The tooltip, when hovered, could explain something like: "Select a year to view articles published between [Start Date] and [End Date]. These articles may include the year's main tech news events and public sentiments."
+
+It's important to clarify that while this explanation aims to be concise, the tooltip itself should be as informative as defined by the content it describes. The invented term "undefined jargon" is not used; instead, terminology like "publication date" and "tech news events" are used to ensure the explanation is accessible and understandable regardless of the reader's familiarity with the specific domain, such as technology, journalism, or a specific industry's terminologies.
+
+Lastly, the assumption is that this is an interactive element on a webpage intended for internet users. The audience for this description includes anyone who encounters this web feature, from casual visitors to regular readers, and anyone who has any difficulty understanding how to use the date-range selector to uncover pertinent historical or current events details.

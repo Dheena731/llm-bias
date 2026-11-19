@@ -1,0 +1,15 @@
+**Date-Range Selector Guide**
+
+*Understand the date-range selector for selecting dates.*
+*Select dates between a specific start and end date.*
+*Use `inclusive` ( `start`, `end` ) or `exclusive` (`start` or `end` alone)*
+*Example: `start=2022 end=2023`* selects all dates in 2022 and 2023.*
+
+*For `inclusive`:*
+*Use `start` & `end` together:* `2022 end` or `2023 start`
+*Selects dates from start to end, including the end date.*
+
+*For `exclusive`:*
+*Use `start` or `end` alone:* `2022 start` or `2023 end` *selects dates before start but not including end.*
+
+*Tips:* Practice common abbreviations like `MM` for months and `YY` for years.*

@@ -1,0 +1,54 @@
+words
+
+A password reuse notice should
+
+  • be informative and explain the consequences of password reuse,
+  • list all the places where the passwords have been reused,
+  • be written in a concise and informal manner,
+  • include a title,
+  • have a "thank you" at the end,
+  • be concise and have no more than 50 words.
+
+I do not want the notice to be superfluous. The notice is viewed by users who are already my customers.
+
+I am looking for a way to write a concise and formal notice, without sounding like I am blaming the customer.
+
+An example thank you must not be assumed to be understood by the customer.
+
+Details
+
+If each password is reused five times, then there will be 50,000 places for reuse.
+
+I am looking for a title that addresses all 50,000 places.
+
+I am not opposed to making the users feel guilty about password reuse.
+
+Here is a
+
+Bad Example
+
+You have password reuse. For each of the 20,000 places where you reuse your passwords, I will be sending you a monthly email for one year.
+
+An Example
+
+I am looking for a way to inform without sounding like I am blaming the customer.
+
+Thank you for password reuse. Please stop.
+
+How do I write a short workplace security notice about password reuse?
+
+  • You should let your customers know that your passwords are not safe. – Cephalopod Jan 22 '19 at 18:24
+  • 8
+    If you have that many sources that you need to send an email to them, those aren't "passwords" they're "identities." – shannon was here Jan 23 '19 at 2:10
+  • 4
+    50,000 places doesn't seem reasonable. Seems more like 5,000 or 10,000. Unless you are storing your users' passwords on a list, each username will have at least one password that is used somewhere else, and maybe two. If you have more than that, then you're doing something wrong. – jmarcelino Jan 23 '19 at 12:22
+  • 5
+    "Here is a bad example": Why is this a bad example? – Greg Martin Jan 23 '19 at 17:25
+  • 3
+    @DKNguyen Not really. 1) that's like saying "she can't be feminist, she has breasts", and 2) she IS blaming the customer, for the same reason she's blaming herself when she sees a weight problem. She's not blaming the customer for "putting her weight on". She's blaming herself. She's blaming herself for "having those genes". She is not blaming the customer for "being born with those genes". You might just give this question another read. – Ertai87 Jan 23 '19 at 22:08
+
+The correct way to handle this is through education. You need to send a notice to all customers and explain why it is a bad thing and how to avoid it. For example:
+
+Due to the recent increase in hacking and identity theft we have decided to take steps to ensure your information is safe and secure. We are making sure that all of your passwords are encrypted so that they are safe from hackers. We will be sending a notification to you in the next few days explaining how to take steps to ensure your online safety. We apologize for any inconveniences this may cause.
+
+The next email should focus on educating users on why they need to use unique passwords. They should be provided with a list of websites they've used and educated on why they are important. The email should have a link showing users how to identify

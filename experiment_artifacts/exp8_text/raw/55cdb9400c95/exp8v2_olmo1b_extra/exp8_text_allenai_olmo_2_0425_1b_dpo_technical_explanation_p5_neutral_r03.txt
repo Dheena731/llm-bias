@@ -1,0 +1,13 @@
+An API rate limit is a management mechanism enforced by an API service to control the number of requests (either GET, POST, PUT, DELETE, etc.) that an authenticated client can make within a specific timeframe, usually per day or per hour. Here are a few key points about API rate limits:
+
+1. **Periodic Limiting**: The limit is typically applied on a periodic basis, such as daily, hourly, or session-based, to distribute the load across a network of servers and to prevent overwhelming the system with too many requests.
+
+2. **Exponential Growth**: With each request exceeding the limit, the rate of access can decrease exponentially. This means the first few requests are relatively unchained from one another, but as the requests pile up, the rate declines significantly.
+
+3. **Thresholds**: Some APIs may not have strict rate limits but have threshold limits. For instance, an API might allow a maximum of 1,000 requests per day without additional throttling, but once this is exceeded, the rate will decrease significantly until it reaches a minimum, possibly even resetting to zero (known as a squashing rate).
+
+4. **Timing**: Rate limits are often tied to the timing of requests. For example, an API might limit requests during certain hours (e.g., 3 PM to 4 PM), daylight savings time changes, or during busy seasonality periods.
+
+5. **Throttling Mechanisms**: API rate limits can be part of broader strategies to manage the service's overall health and reliability. Beyond rate limits, other measures might include bandwidth caps, connection poolings, and parameter limits to manage the frequency and volume of requests effectively.
+
+API developers should be aware of these limits to design their applications responsibly, ensuring they don't inadvertently violate service usage agreements and potentially incur charges or degrade service quality for legitimate users. APIs often provide documentation to inform developers of their specific rate limit policies along with guidance on how to protect against or work with rate limits in their applications.

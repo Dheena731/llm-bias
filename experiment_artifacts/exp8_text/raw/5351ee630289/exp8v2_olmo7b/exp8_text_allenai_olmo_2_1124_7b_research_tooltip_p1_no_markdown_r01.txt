@@ -1,0 +1,6 @@
+Possible assistance: The “How do I describe this feature?” guidance in the CRAFT Standards for Data Description section 2.5.
+
+
+This is the T1 dataset example from the CRAFT standards.
+
+Look for the dataset title and source. Then look for the title that starts with “Filter:”. That title is all you need to write a concise tooltip.

@@ -1,0 +1,58 @@
+Notice the capital letter e at the beginning.
+
+
+Which country is this for?
+
+The answer will provide a hint for the region of identifying many places from. For example, it is useful to know the answer will be Germany for Germany.
+
+Hint: The answer will be provided in the following format: [country-code] (\u0000 - \u0009 - \u000D - \u000A).
+
+Turn: 23:14
+
+Sneaky Chess
+
+Turn: 23:14
+
+Sneaky Chess
+
+Sneaky chess is a marvel played with a where the players tries to capture the king of the opponent by knocking him out of the board. However, in this article, we will see how to win the game by yourself with a set of conditions, that includes, missing pawn, missing king and the king falling off the board. So, the goal of the game is to finish the board by yourself and the king must not fall out of the board. In other words, the king must fall to its own iron. If the king fell out of the board, it will be given a score of zero. Now, let's see the conditions:
+
+  • A regular pawn must be placed on the first row, 1st rank, with the pawn's pawn.
+  • A pawn of the opponent can be played in the second row, 2nd rank only, with the pawn's pawn.
+  • The kings take their place in the 2nd row, 2nd rank, with the king's pawn.
+  • The king and the pawn must be played in the 2nd row, 2nd rank, with the king's pawn.
+  • You can play the king and the king, the monarch with the king's pawn.
+  • The king must be played by the king's pawn.
+
+Now, the question is, how can you win this game in the short time?
+
+The answer will be given in the following format: [pf1] (\u0000 - \u0009 - \u000D - \u000A) - \u000D (\u000D - \u000A). The way to win this game is to finish the board in a 3x2 board with king's pawn on the 2nd row, 2nd rank, and the king fell out of the board. In other words, the kings are placed on the 2nd row, 2nd rank, with the king's pawn. The king's pawn must be played in the second rank only with the pawn's pawn. The king took his position in the second row, 2nd rank, with the king's pawn. The king's pawn must be played by the king's pawn with the pawn's pawn.
+
+The bottom line is that you must win the game with the king's pawn on the 2nd row, 2nd rank, with the king fell out of the board. If you win this game, you will be given a score of zero.
+
+The answer will be given in the following format: [pf1] (\u0000 - \u0009 - \u000D - \u000A) - \u000D (\u000D - \u000A). The way to win this game is to finish the board in a 3x2 board with king's pawn on the 2nd row, 2nd rank, and the king fell out of the board.
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+
+Sneaky Chess
+

@@ -1,0 +1,11 @@
+Do not use contractions, as they are not supported.
+
+Do not use an image instead of a short description of the image, as it is not possible to show the image in the tooltip.
+
+Learn more about how to write good tooltips.
+
+This is a short example of a tooltip. It is a tooltip about ranking.
+
+The text "Ranking" explains how the tooltip works. It is not necessary to use this text, as it is already implied by the fact that there is a tooltip.
+
+The tooltip is a word document, with the text "Ranking" on the first line. The user can hover their mouse over this line to see the tooltip, as it is the only line that's the same on both the page and the tooltip.

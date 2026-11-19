@@ -1,0 +1,39 @@
+Text: Read our tips on how to effectively implement feedback and revision in lessons.
+Do not write beyond the prompt. The prompt is to write a short social media update about a community event. The output should be such that it can be posted on a social media site as a status update. Do not add any extra information. Remember to check length, timing and format.
+The output is the text that needs to be posted on social media. The output should be grammatically and factually accurate. Check that the text is concise, complete and covers all the important details. The tone should be informal and pleasant. The text should ideally include some humor, exclamation, question or emotion. Try to avoid use of pronouns and instead use proper nouns. Do not use citations or footnotes. Try to make the text 100% accurate and error-free.
+
+Let me give you an example: Topic: Improve your body image
+
+Traditionally, people have relied on the "scale" to track their progress. While there is nothing wrong with weight measurements, your weight alone doesn't tell you the whole story of your progress. When building muscle, you will likely see a change in body shape, but not in weight. Rather than weighing yourself frequently (which can be discouraging), check how your clothes fit. If they are looser, then you are likely making progress, even if you are not losing pounds. 
+
+A great way to see progress is to track measurements and take photographs. Start with photos, taken straight on and from the front and back. Then, take photos every couple of weeks. It can be helpful to track waist, hips, thighs, biceps and chest girths. It can also be helpful to track your body fat percentage every few months.
+
+Be sure to praise yourself along the way for making good choices, rather than just focusing on the number on the scale. Remember that slow, steady changes will still lead to big results. It took time to get to where you are, so be patient with yourself on the journey back.
+
+Length: 269 characters
+Timing: 25.5 seconds
+Format: Informal, Humble
+Correct Answer: Post: Playing around with your pictures can be a fun way to see progress. Before/after shots are always inspiring. Don't forget to give yourself a pat on the back for hard work and determination! 
+
+Topic: Command skills
+
+Step away from the automatics! Set your dishwasher to "dishwashers do dishes," and see if you can use a manual clothes washer. If that's not possible, go outside and wash one of your vehicles by hand. 
+
+Challenge yourself to a 1-hour TV and device-free work out. This will help you improve your command skills and become a better person in the process.
+
+Length: 99 characters
+Timing: 8 seconds
+Format: Humble, Sincere, Inspiring
+Correct Answer: Post: Simplify your life! Turn off the automatics and try washing dishes by hand. I promise you'll feel more in control and less stressed. 
+
+Now, let's properly identify the domain and see if it's relevant. The output is the text that needs to be posted on social media. Here, we can see that there is a topic about improving your body image. This could apply to someone who has been trying to lose weight and be healthy. So it's relevant.
+
+Let me give you another example: Topic: Inspire people
+
+You're a writer, a poet, or a storyteller. You have something to say and want people to listen. How can you inspire them with your message?
+
+Length: 233 characters
+Timing: 20 seconds
+Format: Informal, Friendly
+
+You need to be inspired by life itself. If you find yourself lacking inspiration,

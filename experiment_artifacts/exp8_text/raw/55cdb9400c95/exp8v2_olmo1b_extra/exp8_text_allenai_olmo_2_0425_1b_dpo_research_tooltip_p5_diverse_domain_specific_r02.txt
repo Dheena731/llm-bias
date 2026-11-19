@@ -1,0 +1,13 @@
+To export query results, first ensure you've saved the query results as a CSV file using a data extraction tool or service that supports CSV export, like Excel, Google Sheets, or a specific database export tool. Here's how you can do it:
+
+1. **Open the Data Extraction Tool/Service**: Navigate to the platform where your data resides, such as an SQL database, a data visualization tool like Tableau or PowerBI, or a spreadsheet editor like Google Sheets.
+   
+2. **Find the Results Query**: In the data extraction tool, locate the section or feature where you saved your query results. This could be a "Query" tool, "Results" panel, or similar feature.
+
+3. **Export to CSV**: Once you've found the results, right-click or click and drag to select "Export," "CSV," or a similar option. This will initiate the exporting process.
+
+4. **Navigate to the Export Destination**: A dialogue box will appear asking for the export location. Choose a location on your computer where the CSV file will be saved or directly upload the file if a web-based export option is available.
+
+5. **Configure the Export Settings**: If the tool allows customization, you may configure options such as file column headers, formatting, and any special fields to include in the exported file.
+
+By following these steps, you can export your query results effectively, ensuring they are ready for further analysis or storage in a different format. The key is to know exactly where your results are saved to avoid unnecessary steps and ensure the export process meets your specific needs.

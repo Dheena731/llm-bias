@@ -1,0 +1,21 @@
+Password reuse is a serious security threat in the workplace. If you use the same password for more than one account, such as email, online banking, your company's network, and company resources, it can be risky.
+
+Here are the reasons why this is a problem:
+
+1. If your password is compromised on one account, the threat can escalate as attackers may gain access to other accounts using the same credentials.
+
+2. Many security systems have mechanisms that identify and warn against password reuse. Repeatedly using the same password can trigger alerts, which can slow down or prevent unauthorized access.
+
+3. In the event of a data breach, if your password is reused across multiple accounts, the risk of the entire list of compromised passwords leaking into other systems increases exponentially.
+
+4. Password reuse contributes to a larger, more complex password management headache.
+
+To mitigate these risks:
+
+1. Use unique passwords for each of your important accounts.
+
+2. Set up multi-factor authentication (MFA) wherever it’s available and recommended.
+
+3. Regularly update your passwords and be mindful of the patterns in your passwords (e.g., sequential numbers, common words).
+
+By adopting these practices, you strengthen your digital defense and ensure the security of your workplace's critical data and systems. Remember that your security is everyone's security.

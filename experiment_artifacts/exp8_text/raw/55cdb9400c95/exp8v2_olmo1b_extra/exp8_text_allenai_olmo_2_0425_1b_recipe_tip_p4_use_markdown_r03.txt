@@ -1,0 +1,24 @@
+Each paragraph should be within the <p> tag:
+
+Code tip (via Reddit): Convert a list of tasks to a Task List.
+
+  1. Download an app for a task list (e.g. Wunderlist)
+  2. Launch Wunderlist
+  3. Start a new Task List
+  4. Click on the Settings icon
+  5. Click on the Task List Settings
+  6. Click the View icon
+  7. Select list view from dropdown
+  8. Click the New Task button
+  9. Enter task name
+  10. Click OK
+  11. Click the Save button
+
+Notes
+
+  • Since we don't have the benefit of Markdown, it's best to email the list of steps above to a co-worker and have them type the steps into a text editor.
+  • Some folks might do better with a topic list - i.e. Tasks 1, 2, 3, 4, 5, 6, etc.
+
+I know this math is hard for some of you, but if you can't write the steps out in plain English, then you probably don't want to be writing code.
+
+--Dave

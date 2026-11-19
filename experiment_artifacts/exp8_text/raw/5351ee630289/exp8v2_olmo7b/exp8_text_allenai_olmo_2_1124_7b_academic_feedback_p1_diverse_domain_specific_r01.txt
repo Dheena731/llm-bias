@@ -1,0 +1,6 @@
+You should be able to tell from the example that it was written by a human, not a computer. Output examples could include:
+
+  • Review of recent literature on feature selection techniques in face recognition systems.
+  • Review of constraint programming approaches for solving the scheduling of complex
+
+  • problems.

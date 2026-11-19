@@ -1,0 +1,41 @@
+Examples of feedback:
+
+  • You write that "differential privacy is a new area of research, which is not covered in our textbooks or other courses. You can learn more on this topic at [link]."
+
+  • "You include a lot of statistics and empirical results that may be of interest to domain experts, such as the concrete number of machine learning models and the machine learning models they trained. You can include more qualitative and concrete examples in your discussion."
+
+  • "You include a lot of ideas in your models; you show how your models are not necessarily equivalent to a trivial model (e.g. simple linear regression). This shows that the user can interpret your method and they will be able to evaluate the quality of the method and the contribution."
+
+  • "You explain the general ideas of the method in the methods section and explain the general approaches that you used, but here you need to go further. The reader wants to see concrete examples, how they are implemented, and how they can be applied to other problems and their relation with other techniques. However, you may not know how to do that yet; you can give an idea of the general work that you would like to do, and you can reference the work of others in this domain."
+
+  • "You have a lot of synthetic and theoretical results, which may be of interest to experts in the field, but the reader does not know how to proceed from these. They are not very practical. The reader wants to see a concrete example of how these ideas could be used to solve a particular problem."
+
+  • "You are introducing a new approach, but you do not describe how the reader can apply it. It is not clear how he/she can do that."
+
+  • "You include a lot of background information about the field, but you do not explain how to use such information. The reader is missing a concrete example of how this information could be used in practice."
+
+  • "You explain the general ideas of the method, but you do not provide concrete examples. The reader may think that the work in that domain is uninteresting for him/her."
+
+  • The title of the section is too general and you do not address the general topic of the section.
+
+  • "You have presented a method that may be of interest to domain experts, which explains the approach and problem. You have presented the method in a clear and precise way. There are many good examples and concrete applications. You have explained the difference between your approach and other approaches in the literature. The reader can understand how your method solves the problem and evaluates its performance. They can use your method to solve their problem. The reader could also use other methods to improve this method. There is no reason why the reader cannot do that. Your method may be interesting for a domain expert to understand the general method, but a domain expert may find other methods with greater practical value."
+
+This is the type of feedback I provided to my student, and it was well received. The student immediately accepted and then re-wrote the methods section.
+
+  • Make the paper more relevant to domain experts
+
+  • Make the paper more related to the domain
+
+Make your methods and results more applicable/useful to domain experts.
+
+Explain and discuss your techniques in more detail
+
+There are various ways to do this, such as examples
+
+Concrete examples of how your method is used. For example, you have performed experiments on a variety of data sets and show the relationships between the data and the predicted results.
+
+Here are some suggested examples
+
+Example 1
+
+Suppose that you are trying to study the relationship between the weight and height of people. The data is not perfectly available, but you have these data: weight (in kg) and height (in cm). You can fit a linear regression model to

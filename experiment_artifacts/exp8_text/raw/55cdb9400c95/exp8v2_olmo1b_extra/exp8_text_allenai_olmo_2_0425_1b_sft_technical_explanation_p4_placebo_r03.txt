@@ -1,0 +1,3 @@
+Content Caching speeds up a website by storing the results of expensive database queries in memory so they don't have to be re-computed every time a page is requested. In addition, it minimizes the number of database hits and the load time for users who return to the site. 
+
+However, the cache will fail if the database changes. Users should be aware of this, and the cache should be refreshed to ensure the validity of the cached data.

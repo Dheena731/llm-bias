@@ -1,0 +1,49 @@
+Tip text: A confidence interval is a range of values that is likely to contain the true value of a parameter with a given level of confidence. For example, a 95% confidence interval is a range of values that is likely to contain the true value of the mean population proportion of individuals who are intoxicated by alcohol 95% of the time. Confidence intervals are calculated from sample statistics and can be used to estimate the value of a parameter for the population.
+
+21.7.1 Confidence Interval for Measure of Central Tendency
+
+Here the confidence interval is used to describe the range of values that a data point is likely to take. This interpretation is important to remember when interpreting confidence intervals.
+
+Confidence Interval for Measure of Central Tendency
+
+The confidence interval for the mean of a normally distributed population can be obtained by the formula
+
+
+    where μ is the mean, σ is the standard deviation (which requires the population standard deviation), and z is the z-score for the desired confidence level (which requires the desired confidence level). The z-score can be obtained by the formula
+
+
+    where x is the observed value, and n is the sample size.
+
+Thus, if one knows the standard deviation, one can calculate the confidence interval for the mean of a normally distributed population in terms of the number of observations. If the population is not normally distributed, one can calculate the confidence interval in terms of the number of observations.
+
+21.7.2 Measures of Variability
+
+The confidence interval for a population standard deviation can be calculated from the sample standard deviation using the formula
+
+
+    where σ is the population standard deviation, and z is the z-score for the desired confidence level. The z-score can be obtained using the formula
+
+
+    where x is the measured value, and n is the sample size. The calculation is done assuming that the population is normally distributed.
+
+Thus, if one already knows the population standard deviation, one can calculate the confidence interval for the standard deviation of a normally distributed population in terms of the number of samples. If the population is not normally distributed, one can calculate the confidence interval in terms of the number of samples.
+
+21.7.3 Measures of Relative Deviation
+
+The confidence interval for the standard deviation of a normally distributed population can be calculated using the formula
+
+
+    where σ is the population standard deviation, and z is the z-score for the desired confidence level. Thus, the confidence interval can be obtained for relative deviations from the mean.
+
+21.7.4 Measures of Population Distribution Shape
+
+The confidence interval for the mean of a normally distributed population can be calculated from the sample mean in terms of the number of observations. The confidence interval for the mean of a normally distributed population can also be calculated in terms of the number of observations in terms of the standard deviation.
+
+If the number of observations is small, the standard deviation is large and the confidence interval is narrow. If the number of observations is large, the standard deviation is small and the confidence interval is wide.
+
+21.7.5 Measures of Statistical Independence
+
+The confidence interval for a statistic for a sample taken from a population can be calculated using the formula
+
+
+    where S is the sample statistic, n is the sample size, and z is the z-score for the desired confidence level. If the sample statistic is a mean, then σ is the population standard deviation. If the sample statistic is a proportion, then σ is the population standard deviation raised to the power of (1 - p) in terms of the z-score for the desired confidence level. If the sample statistic is a median, then σ is the population standard deviation raised to the power of (1 - p/2) in terms of the z-score for the desired confidence level. If the sample statistic is any other statistic, then σ is the population standard deviation raised to the power of

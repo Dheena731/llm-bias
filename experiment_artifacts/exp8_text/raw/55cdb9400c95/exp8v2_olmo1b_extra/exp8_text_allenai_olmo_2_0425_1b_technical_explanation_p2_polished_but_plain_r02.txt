@@ -1,0 +1,16 @@
+Basically, make it look like a normal, well edited WP post. Please.
+
+In case you were wondering, this is a tag, so it should be part of the documentation. It is also a Stack Overflow question, so it should have an accepted answer, if there is one.
+
+The question is:
+
+What is a database index?
+
+
+An index is a record that contains information about a row in a database table. It is often used for faster access to data in a table. If you can't get to the data you want, you can't display it or look at it, so it matters a lot.
+
+A Little Clarification
+
+In some databases (like SQLite), the index is a separate file that's located after the database file. In other databases (like MySQL and PostgreSQL), the index is stored in the same database file as the rest of the table. In PostgreSQL, you can view the index as /var/pgsql/data/index.db.
+
+In general, an index serves to reduce the number of times an operation has to be performed, which can save a lot of time.

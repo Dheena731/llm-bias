@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Study 3 (7B, 4-bit): markup rate (\%, with $n$) by output length in words and training stage, pooled over the conditions that do not target Markdown (neutral, no-emoji, placebo, diverse).}
+\label{tab:v2-length_7b}
+\begin{tabular}{lrrrr}
+\toprule
+Words & Base & SFT & DPO & Instruct (RLVR) \\
+\midrule
+0--100 & 0.0 (72) & 1.4 (143) & 5.6 (72) & 4.4 (91) \\
+100--150 & 0.0 (21) & 3.2 (31) & 15.2 (33) & 34.4 (32) \\
+150--250 & 6.1 (33) & 14.3 (42) & 51.1 (47) & 61.5 (52) \\
+250-- & 3.5 (114) & 33.3 (24) & 87.5 (88) & 83.1 (65) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,45 @@
+Use an external style guide, such as the W3C or the GitHub Style Guide
+
+Be sure to follow the current style guide. While the principles are not set in stone, there is a specific format for visual aspects of your documentation.
+
+Use a valid HTML5 doctype
+
+Use a doctype to validate your HTML5 source code. Validating your code helps get rid of invalid HTML5 elements and attributes, which, in turn, helps to keep your documentation full of valid markup.
+
+Start a new page when the documentation is ready
+
+We use the new page directive to create new HTML pages. A new page is started by a line of code that ends with a /, such as
+
+&lt;p&gt;One page&lt;/p&gt;
+
+If there is more than one page, the new page directive is used between each page.
+
+To create a new HTML page, you should use the new page directive. You can also use the HTML5 doctype, which is a doctype that starts the page with a doctype tag. When the page is opened in a web browser, the doctype tag will be replaced with the doctype and the start of the HTML document. You can also use the HTML5 doctype, which starts the page with the doctype tag.
+
+&lt;html&gt;&lt;head&gt;&lt;title&gt;HTML5 Doctype Head Tag&lt;/title&gt;&lt;body&gt;&lt;p&gt;HTML5 Doctype Head Tag&lt;/p&gt; &lt;/body&gt;End&lt;/html&gt;
+
+Instead of using the doctype, you can use a syntax that starts with <html> and ends with </html>. This will not have the same effect, but is valid.
+
+We then can use the new page directive to start a new HTML page. In order to do this, you will need to add a new page directive to the HTML5 doctype. This directive will look like this:
+
+&lt;html doctype&gt;&lt;head&gt;&lt;title&gt;HTML5 Doctype Head Tag&lt;/title&gt;&lt;body&gt;&lt;p&gt;HTML5 Doctype Head Tag&lt;/p&gt; &lt;/body&gt;&lt;/html&gt;
+
+By adding the new page directive in the HTML5 doctype, the HTML5 doctype will no longer be valid.
+
+Use the separation rule for everything
+
+Separation is a general term used to describe the practice of putting things into separate categories. In the case of documentation, the separation rule means you should place all your tags into groups.
+
+Separator tags are often used to keep all related tags in one group. We recommend using only one separator tag. The separator tag should be positioned so that it is always adjacent to the tag to be separated from.
+
+Separate your tags by using a separator tag
+
+Separation is one of the most important rules to follow. Separation is when you separate your tags by using a separator tag. A separator tag is used to separate the tags of your document. It is usually added to the <title> element of your HTML document.
+
+Separation is important because it helps to keep your code clean and readable. It also helps to separate the tags of your document. This allows the browser to keep track of the tags of your HTML document.
+
+Use a separator tag to separate the tags of the HTML document
+
+Separation is one of the most important rules to follow in documentation. Separation is when you separate the tags of your document. A tag is a tag that is used to separate the tags of the HTML document. Separation is important because it helps to keep your code clean and readable.
+
+There are many different ways to separate your HTML document. One of the most common ways to separate is with a separator tag. A separator tag

@@ -1,0 +1,12 @@
+Export Query Results
+
+To export your query results:
+
+1. **Prepare Your Query**: Input your search criteria into the designated query box.
+2. **Execute the Query**: Click the "Run Query" button to get your results.
+3. **Access Export Options**: Right-click on the result table and choose "Export".
+4. **Select a Format**: Decide whether you want your data as a CSV (comma-separated values), Excel, PDF, or another supported format.
+5. **Specify Output Filename**: Enter a name for your exported file and choose its location.
+6. **Start Export**: Click "Export" to generate the file and download it to your device.
+
+Note: Some options may vary based on your browser or query tool. Always ensure you have the latest version for compatibility and additional features.

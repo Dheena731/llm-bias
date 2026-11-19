@@ -1,0 +1,5 @@
+How to use this template
+
+  • Type in your contents exactly as you see it here.
+  • Delete the part in square brackets: [square brackets].
+  • Delete the "Click here to configure" part and the "Click here to disable" part: [square brackets] Click here to configure or Click here to disable.

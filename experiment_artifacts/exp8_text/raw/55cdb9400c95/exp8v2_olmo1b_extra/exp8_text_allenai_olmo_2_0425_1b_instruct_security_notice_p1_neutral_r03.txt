@@ -1,0 +1,19 @@
+**Employer: Please Note - Password Reuse is Not Recommended**
+
+We understand that in some instances, it can be convenient to reuse passwords across multiple applications. However, as a part of our commitment to maintaining a secure and protected workplace, we strongly advise against password reuse.
+
+Passwords serve as a strong line of defense against unauthorized access to our systems, networks, and sensitive data. Every user's password is assigned uniquely to prevent widespread compromise if a single password is compromised. Reusing passwords can significantly increase the risk of unauthorized access and data breaches.
+
+By reusing passwords, you risk having a single password entry point that can enable an intruder to access multiple systems, applications, or personal accounts with ease. Our system automatically logs users out after a prolonged inactivity period to prevent unauthorized system control, but if a reused password is guessed or determined through a dictionary attack, access can be immediately gained.
+
+To help you manage and secure your passwords effectively, we encourage the use of unique passwords for each account and account recovery options that do not compromise password security.
+
+For any questions regarding password security, security best practices, or accessing your account recovery options, please contact our IT support team.
+
+Thank you for your attention to this important security measure.
+
+Best regards,
+
+[Your Name] 
+[Your Title/Position]
+[Company Name] Security Team

@@ -1,0 +1,1 @@
+In this dataset filter tool you can choose which columns to display in your analysis by selecting or deselecting corresponding options. This helps narrow down the data to important information for your research query.

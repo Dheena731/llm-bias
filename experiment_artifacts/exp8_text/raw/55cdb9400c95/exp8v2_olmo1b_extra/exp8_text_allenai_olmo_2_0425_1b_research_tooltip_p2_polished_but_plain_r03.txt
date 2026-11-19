@@ -1,0 +1,35 @@
+Format
+
+Enter your answers in the box. Each question has one correct answer, and only one answer is correct. Only single-character answers, numbers, or lowercase letters, are allowed.
+
+There are no negative answers or repeated answers.
+
+Explain why each answer is correct. Include specific references to the text if needed.
+
+Example
+
+δ = 1.00
+β = 0.56
+
+# 1. What is the confidence interval for the mean weight of a person selected at random from the population?
+a) (2.6, 3.0)
+b) (2.4, 2.8)
+c) (2.5, 2.7)
+d) (2.4, 2.5)
+e) (2.6, 2.7)
+
+
+Example solution
+
+e) (2.6, 2.7)
+Explanation:
+
+Since we have a 95% confidence interval and it is symmetric, the 2.6, 2.7 actually also corresponds to the lower bound. The 2.7 is the lower bound and therefore the correct answer.
+
+To get the confidence interval, we use the formula:
+
+confidence interval = (sample mean - standard error, sample mean + standard error)
+
+In the above example,
+
+confidence interval = (3.6, 3.7)

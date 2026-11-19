@@ -1,0 +1,135 @@
+In this chart, blue bars represent the number of students in each class. The green lines show the confidence intervals for each class.
+
+You may use information from the tooltip text to generate the CSS selector.
+
+  • tip: tooltip text here
+
+  • The HTML of the tooltip.
+
+  • count: number of students in the class.
+
+  • bar: number of the class.
+
+  • min: minimum confidence interval.
+
+  • max: maximum confidence interval.
+
+  • count: number of students in the class.
+
+  • bar: number of the class.
+
+  • min: minimum confidence interval.
+
+  • max: maximum confidence interval.
+
+To recreate this tooltip, you need to use the bar and count attributes of the tooltip, and create the HTML with a div in the tooltip text.
+
+The tooltip is generated with js2.
+
+  • tip: created tooltip
+
+You can try to recreate this tooltip here.
+
+This tooltip is generated with js2.
+
+  • tip: 1st
+
+  • The HTML of the tooltip.
+
+  • count: 2nd
+
+  • bar: 3rd
+
+  • min is the minimum confidence interval.
+
+  • max is the maximum confidence interval.
+
+  • count: 2nd
+
+  • bar: 3rd
+
+  • min is the minimum confidence interval.
+
+  • max is the maximum confidence interval.
+
+  • count: 2nd
+
+  • bar: 3rd
+
+  • min is the minimum confidence interval.
+
+  • max is the maximum confidence interval.
+
+To create this tooltip, you need to use the counts and bars attributes of the tooltip, and create the HTML with a span in the tooltip text.
+
+  • tip: Count: {count} Bar: {bar}
+  • The HTML of the tooltip.
+
+  • count: number of students in the class.
+
+  • bar: number of the class.
+
+The tooltip is generated with js2.
+
+  • tip: created tooltip
+
+  • You need to recreate this tooltip with the counts and bars attributes of the tooltip, and create the HTML with a span in the tooltip text.
+
+  • tip: Count: 1st, Bar: 2nd
+
+  • The HTML of the tooltip.
+
+  • count: 1st
+
+  • bar: 2nd
+
+  • count: 1st
+
+  • bar: 2nd
+
+  • count: 3rd
+
+  • bar: 4th
+
+  • count: 4th
+
+  • bar: 5th
+
+To create this tooltip, you need to use the counts and bars attributes of the tooltip, and create the HTML with a span in the tooltip text.
+
+  • tip: Count: {count} Bar: {bar}
+  • The HTML of the tooltip.
+
+  • count: number of students in the class.
+
+  • bar: number of the class.
+
+The tooltip is generated with js2.
+
+  • tip: created tooltip
+
+  • You need to recreate this tooltip with the counts and bars attributes of the tooltip, and create the HTML with a span in the tooltip text.
+
+  • tip: Count: 1st, Bar: 2nd
+
+  • The HTML of the tooltip.
+
+  • count: 1st
+
+  • bar: 2nd
+
+  • count: 2nd
+
+  • bar: 3rd
+
+  • count: 3rd
+
+  • bar: 4th
+
+  • count: 4th
+
+  • bar: 5th
+
+To create this tooltip, you need to use the counts and bars attributes of the tooltip, and create the HTML with a span in the tooltip text.
+
+You need to create a tooltip that has a red box around the data, and a blue box around

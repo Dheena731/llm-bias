@@ -1,0 +1,54 @@
+In this section, we're going to learn how to use the Excel 2013 template from the Microsoft Word file type to create a basic budgeting spreadsheet. The Excel template contains all the important features to help you organize, plan and monitor your budget easily. Let's get started!
+
+Find the Excel template file and open it.
+
+  1. Go to the Microsoft Office website
+  2. Click Office File and select "Open"
+  3. The file will open in a new tab in your browser.
+  4. Go to the "Create" button on the page
+  5. Type "Budget" in the search box and select the Excel 2013 template file
+  6. Click on the blue "Open" button
+  7. The Office program will automatically download and install the file onto your computer
+  8. Go to the folder where you downloaded the file
+  9. Open the file with Excel and save it to a new file type
+
+Open and save the Excel 2013 budgeting spreadsheet template.
+
+  1. Go to the Office file and save to a new file type
+  2. The spreadsheet will open with a blank template (the sheets will not be colored)
+  3. Click on the blank spreadsheet
+  4. You should see a template with the same name as the file you opened
+  5. Right-click on the empty cells and select "Format Cells" and click on the "Number" tab
+  6. Choose the "General" option on the "Type" tab
+  7. You can add your own basic personal information by typing in the "Name" and "Date" fields
+  8. If you are using MS Word, you can add your personal budgeting information in the "Memo" field
+  9. You can use the "Calendar" or "Number" fields to create a set of days for your budget
+  10. Click on the "OK" button to close the new Excel file
+
+Add personal information to your Excel budgeting spreadsheet.
+
+  1. Go to the "Sheet2" tab
+  2. Click on the "Fields" button
+  3. Select the "Memo" field and type in your personal information
+  4. Click on the "OK" button to save your changes
+  5. You can now save the spreadsheet to a new file type
+
+Save the budgeting spreadsheet to a new file type.
+
+  1. Go to the Office File and click on the "Save" button
+  2. Choose the file type that you want to save the Excel template to
+  3. Click on "Save"
+  4. Name and save your new budgeting spreadsheet to your computer
+
+Save your budgeting spreadsheet.
+
+You have completed the section on how to create a basic budgeting spreadsheet. Now, you have all the information you need to start budgeting.
+
+Create a budget spreadsheet.
+
+Next, go to the Microsoft Excel website and click on the "File" button and select "New" and choose "Blank Workbook". This will create a blank Excel workbook. You will have the option to save your new workbook in the same file type as the one we used in this section. If you haven't been using a Microsoft Office file type, the new workbook will be saved in the "Microsoft Office 16X" file type. If you have already created the same workbook before, the file will be saved in the same file type. To save the file, choose "Save" from the File menu.
+
+Create a basic budget spreadsheet using the Microsoft Excel template.
+
+  1. Go on the Microsoft Office website
+  2. Click

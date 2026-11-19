@@ -1,0 +1,15 @@
+To export query results, follow these steps:
+
+1. **Open your query results:** Click on the table, list, or any dataset from your query result to reveal all the data.
+
+2. **Find the 'Export' dropdown:** In the top right corner or under a menu, look for an 'Export' option or a button labeled 'Export', 'Download', or 'Copy to Clipboard'.
+
+3. **Choose the format:** Select 'CSV' if you want to save the data in a Simplified Comma-Separated Values (CSV) format, compatible with many spreadsheet and data analysis tools. Other options may include 'XLSX', 'Excel', 'Pdf', or 'JSON', depending on your preference and what you plan to do with the exported data.
+
+4. **Enter a filename:** Provide a name for your exported data file. Make sure you name it correctly for easy recognition and future reference.
+
+5. **Save or download your data:** Click 'Save' to save the file, or click directly on the file URL if you're opening it in another tool, to download the data.
+
+6. **Inspect the export:** If exporting directly to a file, examine the settings to confirm the data was exported as expected, such as column headers, data types, and formatting.
+
+This concise explanation is strictly targeted to your specific domain and ensures language that is informative yet tailored to users who are familiar with the typical operations related to querying and exporting data, typically seen in a database query tool or spreadsheet app like MySQL, SQL Server, Google Sheets, or Tableau.

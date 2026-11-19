@@ -1,0 +1,1 @@
+To export query results, select the rows you wish to export, then click on the 'Export' button usually found near the 'Save' or 'Download' options at the top of the table view. Choose your preferred format such as CSV or Excel, and follow the prompts to save the file to your device.

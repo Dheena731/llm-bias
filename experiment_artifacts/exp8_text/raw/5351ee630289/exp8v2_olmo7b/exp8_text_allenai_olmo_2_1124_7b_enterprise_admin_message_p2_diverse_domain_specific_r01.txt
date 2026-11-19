@@ -1,0 +1,5 @@
+Can you generate a topic from the following story?
+Input: At the same time, John had a plan to tell her that he liked her. John built up the courage to tell her how he felt. John then told her that he liked her and wanted to go out with her. She said yes! John was thrilled.
+
+ Story: John and Jane had been best friends since they were kids. They went to the same school together and had been through everything together. One day, John decided to ask Jane out on a date. However, he was nervous and unsure of himself. He decided to ask her through a series
+Output: Romance

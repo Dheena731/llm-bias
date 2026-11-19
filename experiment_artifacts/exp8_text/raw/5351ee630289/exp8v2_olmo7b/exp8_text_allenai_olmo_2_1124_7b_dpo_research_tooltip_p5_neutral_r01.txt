@@ -1,0 +1,1 @@
+Hover over the "Results" table to view buttons for exporting your query results. Click the "Export to" button and choose the format you prefer (e.g., CSV, PDF, Excel). Follow any additional prompts to customize your export settings before initiating the download.

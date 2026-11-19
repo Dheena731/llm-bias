@@ -1,0 +1,17 @@
+# API Rate Limiting
+
+An API rate limit is a facility provided by service providers to manage the number of requests that can be sent to an API in a certain timeframe, typically to prevent abuse or excessive usage.
+
+- **Purpose:** To prevent overload and ensure the API's reliability and performance.
+- **Types:** There are two types of rate limits:
+  - **Time-limited rate limits:** Limit the number of requests made within a specific time frame.
+  - **Throttle limit:** Limit the number of requests made within a determined threshold over a certain period.
+- **Key Factors:**
+  - **Rate Limit:** The maximum number of requests that can be made within a defined period.
+  - **Threshold:** A minimum number of requests that will trigger a limit.
+  - **Reset Time:** When the limit resets after the given time period.
+- **Implementation:**
+  - The rate limiting mechanism can be enforced programmatically through server-side code.
+  - For manual limits, it can be set based on human input or user behavior such as log analysis.
+
+Rate limits are crucial for maintaining service quality, ensuring fair usage, and protecting the system from costly overuse.

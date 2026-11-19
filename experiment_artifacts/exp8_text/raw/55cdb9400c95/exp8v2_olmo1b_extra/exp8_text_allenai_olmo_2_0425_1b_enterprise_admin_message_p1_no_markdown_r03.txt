@@ -1,0 +1,10 @@
+---
+
+Fixing bugs
+
+We're fixing bugs:
+- `auto-checking` not working as expected (fixing nan tests)
+- `datetime` handling for `datetime.tzlocal` was inconsistent (fixing nan tests)
+
+
+Thanks!

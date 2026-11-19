@@ -1,0 +1,15 @@
+ • Please, don’t use HTML tags, instead use Markdown formatting to format the content. For example, to bold or italicise a word use *italics* or **bold**, to link to another Huron site use [Link]() or [Link](
+
+    You don’t need to use the html tags, but if the markdown formatting is not good enough you can always use the web input or email form.
+
+  • NB: use the [Citations]() function for linking to documents
+
+    You can also link to documents in your own site, for example:
+
+    • Link to your own site
+
+
+    • Link to another Huron user
+
+
+    If you are already logged in you do not need to create a username or password, simply click the Register button.

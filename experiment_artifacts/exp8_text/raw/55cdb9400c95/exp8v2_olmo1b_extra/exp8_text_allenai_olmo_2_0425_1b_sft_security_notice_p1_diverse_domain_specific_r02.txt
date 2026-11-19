@@ -1,0 +1,19 @@
+Attention all employees:
+
+The purpose of this notice is to educate and reinforce the importance of secure password practices within our organization. It's critical that we all understand the potential risks associated with password reuse across our computer systems. Reusing passwords on different accounts can compromise our entire network, erode the trust our users place in us, and lead to significant data breaches, which could harm our reputation and operations.
+
+Firstly, please be aware of the threats posed by password reuse. If one of your passwords is compromised, all of your other accounts that share the same password may be vulnerable too. For instance, if you've been using the same password across various platforms and one account is compromised, attackers may be able to access all your other accounts. 
+
+Secondly, consider the impact on our organization when you choose to reuse passwords. The breach incident we recently experienced was due to a compromised password. If our users are not respecting the guidelines of not reusing passwords, it would suggest we are not doing an effective job in educating them about the importance of secure password practices.
+
+To combat these issues, we have implemented specific policies and measures to ensure everyone understands the importance of using unique passwords for their accounts. We will provide you with a password manager tool that you should use to create and store your passwords securely. 
+
+You are now encouraged to change your passwords daily and avoid using the same password across multiple accounts. Please follow the password management instructions provided by our IT department and review our password policies regularly to ensure that you are maintaining a secure and privacy-enhancing user experience. 
+
+Thank you for your diligence and commitment to keeping our workplace safe and secure.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Contact Information]

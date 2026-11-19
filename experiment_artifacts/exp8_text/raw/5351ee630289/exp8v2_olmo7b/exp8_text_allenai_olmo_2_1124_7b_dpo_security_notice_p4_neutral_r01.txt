@@ -1,0 +1,41 @@
+Subject: Secure Your Account with Two-Factor Authentication
+
+Dear [User Name],
+
+We are excited to announce an enhanced security feature for your account: Two-Factor Authentication (2FA). This additional layer of security requires you to verify your identity in two ways before accessing your account. 
+
+**Why Enable 2FA?**
+
+- **Extra Security:** 2FA significantly reduces the risk of unauthorized access.
+- **Peace of Mind:** Protect your sensitive information and transactions.
+- **Compliance:** Many websites and services recommend 2FA for an added level of security.
+
+**How to Enable 2FA:**
+
+1. **Log in** to your account as usual.
+2. **Navigate to the Account Settings** page.
+3. Look for the 'Security' or 'Two-Factor Authentication' section.
+4. **Select Two-Factor Authentication** and follow the on-screen instructions to set it up.
+5. **Choose Your 2FA Method:** You can opt for SMS, authenticator app (e.g., Google Authenticator, Authy), or a hardware token.
+6. **Complete the Setup:** Follow the prompts to set up your 2FA method of choice.
+
+**Note:** Ensure you have a reliable phone or app to receive SMS notifications or the authentication codes.
+
+**Technical Support:**
+
+If you encounter any issues enabling 2FA, please visit our **FAQ page** or contact our support team at [support@domain.com] for assistance.
+
+Thank you for your continued trust and security awareness. Enabling 2FA is a simple step that can make a significant difference in protecting your account.
+
+Safeguard your online presence.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Company]
+[Contact Information]
+
+---
+
+**P.S.** Keep an eye out for more security enhancements coming your way to ensure your online safety and security.

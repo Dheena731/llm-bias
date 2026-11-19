@@ -1,0 +1,21 @@
+2. Write the message
+
+Write a short message using only plain prose and descriptive adjectives.
+
+3. Write the message in Markdown
+
+Format the message as though you intend to send it using email or a chat client.
+
+Feel free to use some Markdown features to make the message more readable. Make sure that it is still easy to understand and usable by someone who is not familiar with Markdown syntax.
+
+4. Make a blog
+
+Publish a blog post about your proposal, news item, or message that describes how and why the recipient might receive and understand your message. You can write this blog post in Markdown, HTML, or both.
+
+5. Write some documentation
+
+Write a message, or a set of messages, that describes some aspect of the company’s VPN client. Format the message as though you intend to send it using email or a chat client. You can use Markdown to make the message easier to read.
+
+Submit your work
+
+Once you have completed the tasks above, email your work to me at [email 2] with the subject line ISYAWT.

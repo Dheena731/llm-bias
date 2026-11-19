@@ -1,0 +1,1 @@
+Tooltip: "Select a date range to filter records between this date and the date."

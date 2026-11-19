@@ -1,0 +1,13 @@
+Caching speeds up a website by storing copies of frequently requested web pages on a server, so that when users navigate to those pages, the server can serve the cached version instead of fetching the information from the original source each time. Here are some key ways caching improves website performance:
+
+1. Reduces load time: When a page is cached, the server does not need to read the file from disk every time it's requested. Instead, it fetches the file from the cache, which is typically much faster than reading from disk.
+
+2. Decreases server burden: Caching reduces the number of I/O operations (reads from disk) your server needs to perform, which can be a significant drain on CPU resources and bandwidth.
+
+3. Reduces server maintenance: By storing copies of popular pages, less data needs to be constantly updated when the original content changes, which can be a time-consuming task.
+
+4. Popular content closer to the user: Caching can also ensure that popular content is very close to the user's location, minimizing the distance data has to travel over the network.
+
+5. Improves user experience: Faster load times translate to a smoother user experience, as the user won't have to wait for the page to fully load, which can be particularly important on mobile devices and for long pages.
+
+When done correctly, caching can be highly effective at improving website speed and reliability, as well as reducing costs by lowering server load and maintenance demands. However, it's not without its own set of challenges, such as deciding which content to cache, ensuring that cached copies are still relevant and accurate, and managing cache freshness and expiration.

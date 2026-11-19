@@ -1,0 +1,3 @@
+This tooltip explains what a confidence interval is:
+
+Confidence Interval: A range of values, typically expressed as a percentage, indicating the extent to which the observed data is likely to be representative of the true population value. A 95% confidence interval suggests the observed data would be accurate 95% of the time, while a 90% confidence interval suggests the observed data would be accurate 90% of the time, and so on. The higher the confidence level, the wider the confidence interval, and vice versa.

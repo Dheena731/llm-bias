@@ -1,0 +1,104 @@
+Do not use flags.
+
+Tooltips are text that appear when a user hovers their mouse over a dataset filter field.
+
+The tooltip should concis family friendly.
+
+Filter tooltip
+
+The tooltip text should be short and concise.
+
+Tooltips have a character limit that's likely 160 characters, but it should be clear what the title means. A tooltip may support placeholder text to help the user understand what the field does or how to fill it in.
+
+Keep the tooltip text sufficiently specific.
+
+The field filters the project type. Advanced users may understand that "Science" is a broader field and may be interested in many experiments and projects.
+
+Rather than "Based on research area," I think "Project type" is more specific and clear.
+
+Guide Link
+
+The purpose of a guide is to explain a tool's workflow or features. Guides may focus on a specific feature or workflow.
+
+A guide explains how to use a feature. Guides should be distinguished from tutorials, which explain how to use a tool as a whole.
+
+Does a guide explain a single workflow or feature?
+
+A guide explains a single workflow or feature.
+
+A guide explains how to use a feature or workflow, and guides may be specific to a feature.
+
+A tutorial has more information on a tutorial than a guide.
+
+What will a guide help the user do?
+
+A guide will help a user find, use, and create a project.
+
+A guide describes how to use a feature or workflow. The guide includes how to navigate different areas of the tool.
+
+A guide for a feature or workflow should have different sections focusing on navigating different areas of the tool.
+
+Guided Project
+
+A guided project is a project that teaches a tool, platform, or workflow.
+
+A guided project can teach users how to find, use, and create a project or inform them about a feature or workflow.
+
+A guided project teaches new users how to use a tool or platform by walking them through completing one or more actions.
+
+A guided project is usually a project type that users can create.
+
+In the Guides section, users can create both the project type and the project itself.
+
+The first section of a guided project is always the Intro page.
+
+The Intro page gives users the opportunity to learn about the project type and the platform.
+
+A guided project may have additional pages after the Intro page. A guided project type may have a Requirements page, which outlines the project requirements or prerequisites.
+
+The Requirements page is optional. It's typically used to outline project requirements or prerequisites before users begin working on the project.
+
+A guided project can have additional pages. At least one page should contain one or more examples of how to use the tool, platform, or workflow.
+
+Users can create both the project type and the project itself.
+
+Workflow Status
+
+A tool designer can make decisions about workflow states to help them organize or manage workflows.
+
+A workflow state can affect how a user sees a project, workflow, or item.
+
+Workflow states may include:
+
+  • "Active" (The project is actively being worked on.)
+  about the table below.
+
+A workflow state can affect how users see a tool.
+
+Workflow states can affect how you see a project
+
+A workflow state can affect how users see a project
+
+A workflow state can affect how you see a project
+
+A workflow state can affect how users see a project
+
+A workflow state can affect how you see a project
+
+A workflow state can affect how users see a project
+
+A workflow state can affect how you see a project
+
+A workflow state can affect how users see a project
+
+A workflow state can affect how you see a project
+
+A workflow state can affect how users see a project
+
+A workflow state can affect how you see a project
+
+A workflow state can affect how users see a project
+
+A workflow state can affect how you see a project
+
+A workflow state can affect how users see a

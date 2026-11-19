@@ -1,0 +1,3 @@
+Input: Consider Input: Sentence: When i informed her that she must pay me back for the loaned items she was very angry and broke the glass vase and attacked me with a vase. Was I right to be angry? 
+
+Output: No

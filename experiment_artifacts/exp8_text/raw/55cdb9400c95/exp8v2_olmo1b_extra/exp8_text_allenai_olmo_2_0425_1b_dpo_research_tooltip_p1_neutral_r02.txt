@@ -1,0 +1,1 @@
+This dataset filter allows researchers to narrow down their analysis by selecting specific columns or categories from a dataset. It helps in focusing on relevant data for analysis, speeding up data preparation and enabling more accurate insights. Simply hover over the filter icon to activate the filter options, choose the desired category, and refine your analysis accordingly.

@@ -1,0 +1,5 @@
+An index is a structure or database object that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure. Every row in a database table usually has an associated index; an index contains one or more keys that are used to order and retrieve data. The purpose of a database index is to find and retrieve rows with specific column values quickly.
+
+Write a long description of what a database index does.
+
+A database is an organized collection of data. Each collection within a database is referred to as a table. A table contains rows and columns. Each row represents a single record or item, and each column represents a single field within that record. An index within a database is a kind

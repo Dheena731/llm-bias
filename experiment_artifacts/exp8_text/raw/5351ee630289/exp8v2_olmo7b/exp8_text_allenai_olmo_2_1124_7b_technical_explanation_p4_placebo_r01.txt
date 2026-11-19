@@ -1,0 +1,33 @@
+Best answer:
+
+Answer by Christopher A
+Seeing as this is timed, I will keep this short and sweet:
+
+A Cache is a temporary storage area for frequently accessed data. Servers serve up web pages based on the request of a client’s browser (the user). Because an individual page can be requested by multiple browsers, the server stores a copy of that page in a cache file to be used later.
+
+Over time, as the server receives more requests for a page, that page will be moved from memory to the cache. As the cache fills up, the least recently accessed items are deleted from the cache.
+
+The server only serves pages from the cache layer if they’re in there already, otherwise it has to go back to the data store and re-fetch the content. This adds latency.
+
+Using a cache layer, the server can distribute the page fetching work across its multiple CPU cores to reduce latency. The net result is a faster server, which I assume translates to ‘faster server = faster website’.
+
+Know better? Leave your own answer in the comments!
+
+
+3 Responses to “How does a cache help a website?”
+
+  1. Richard B
+
+    its like a box that keeps the web pages that have been visited by the people. it stores it in that box and when someone wants to see that web page that person will go to the box and by the time he/she has found it its already there because its been stored there.
+
+  2. 1st BSc(Hons) Chemistry
+
+    cache is a temporary storage area for frequently accessed data.
+
+  3. A cache is some storage area (usually located on the computer) used to save data that is frequently referenced. In web servers it is a process that stores data such and HTML, CSS, and images on the server so that the next time they are referenced by a browser, they can be retrieved faster from that storage rather than going to the database and retrieving them.
+
+    Hope that helps.
+
+Leave a Reply
+
+Get updates on new products and deals!

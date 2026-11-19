@@ -1,0 +1,13 @@
+Example output: For an NFT sold on the OpenSea marketplace, a refund can be made within 14 days of the successful NFT sale. The refund amount will be paid up to the amount of cryptocurrency that was received for the sale of the NFT, less any transaction fees. Refunds can only be made by the original seller of the NFT.
+
+Example input: For an NFT minted on the OpenSea marketplace, a refund can be made within 14 days of the successful NFT sale. The refund amount will be paid up to the amount of cryptocurrency that was received for the sale of the NFT, less any transaction fees. The refund will be sent to the same cryptocurrency wallet address used to make the purchase. After 14 days the NFT will be removed from your collection and a refund will no longer be available. The refund will be reversed in full, including any gas fees associated with the refund transaction. Purchasers are responsible for covering their own transaction fees associated with the minting and selling of the NFT. OpenSea cannot guarantee the exact refund amount.
+Example solution: A refund can be made within 14 days of the successful NFT sale. The refund amount will be paid up to the amount of cryptocurrency that was received for the sale of the NFT, less any transaction fees. Refunds can only be made by the original seller of the NFT.
+Example explanation: This is a good example of an explanation as it provides the necessary information regarding when a refund can be made and how much will be refunded.
+
+Problem: On the Form S-3, you can only transfer shares to the same holder, the same entity or to an entity owned by the same holder (or any affiliate or general member of the group). You cannot transfer shares to someone else or to someone else owned by a common party (or a close associate).
+
+Example solution: You can only transfer shares to the same holder, the same entity or to an entity owned by the same holder (or any affiliate or general member of the group). You cannot transfer shares to someone else or to someone else owned by a common party (or a close associate).
+
+Problem: Please note that NFTs can be sold on the secondary market.
+
+Example solution: NFTs are non-fungible token or digital asset representing ownership of an asset such What is an NFT?

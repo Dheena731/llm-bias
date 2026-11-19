@@ -1,0 +1,1 @@
+A missing-value marker, also known as an "empty set marker," "drop-through mark," "hole," or "null indicator," denotes a position in a dataset that contains no specific value. It's used in various data analysis and visualization contexts to indicate the absence of data for certain elements.

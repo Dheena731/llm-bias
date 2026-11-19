@@ -1,0 +1,6 @@
+How It Works
+
+In a nutshell, caching stores frequently accessed content to speed up a server, because it doesn’t need to go back to the server for information. Basically, it is similar to how your home router caches the IP addresses of your network devices that you commonly use.
+
+
+You’ve probably seen the term “cache” in relation to web browsers in the context of “cache busting.” It’s the act of requesting a new version of a webpage to speed load time. When you add a new version of a webapp just to improve performance, you are not asking the browser to download the same thing over and over so it can cache it for future use. Instead, you are telling the browser that it should download the updated version and cache it.

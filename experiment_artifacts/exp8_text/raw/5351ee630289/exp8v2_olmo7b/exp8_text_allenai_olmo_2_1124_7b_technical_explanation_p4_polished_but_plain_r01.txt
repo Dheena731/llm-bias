@@ -1,0 +1,5 @@
+For example, here is a paragraph that meets these requirements:
+
+Caching is when a server stores a copy of a webpage in its memory, and when a user requests that page it only has to send the cached copy instead of retrieving it from the main server. This speeds up the response times and also reduces traffic on the main server. However, caching only works efficiently when the web page is updated regularly or contains mostly static content. If the web page contains a lot of dynamic content that changes frequently, then caching won't be very effective.
+
+Another good example:

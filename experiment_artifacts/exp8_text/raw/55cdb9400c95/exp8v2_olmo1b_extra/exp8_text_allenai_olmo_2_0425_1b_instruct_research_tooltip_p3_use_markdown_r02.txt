@@ -1,0 +1,14 @@
+```markdown
+**Date Range Selector**
+
+This selector allows you to choose specific dates within a given period. 
+- **Start Date**: Enter the beginning of the range here.
+- **End Date**: Insert the end of the range to select dates after this point.
+- **Include Dates**: Select dates that fall within the range by checking this box.
+```
+
+```
+**Tooltip Summary:**
+- A date range selector lets you specify a specific period of dates.
+- Use Start Date and End Date to define the scope of dates to display.
+- Check Include Dates to ensure dates within the selected range are visible.

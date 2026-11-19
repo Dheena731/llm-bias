@@ -1,0 +1,107 @@
+An example is at https://stackoverflow.com/questions/42686900.
+
+Write answers using the markdown formatting
+
+Each question should have a heading, two or three lines before the question, and a corresponding heading at the end.
+
+  1. Why do you need to answer this question?
+
+  2. What is this research question about?
+
+  3. What is your hypothesis?
+
+  4. What do you need to do (or have done) in order to address the hypothesis? Provide research question(s) and any assumptions you have made along the way.
+
+  5. What is the critical part of your research? It could be the predictor (e.g., is there a correlation between a particular variable and a different variable) or the outcome variable (e.g., how many people got stuck on a website and decided to uninstall it).
+
+  6. How are you going to test your hypothesis? Provide any assumptions you have made and your methodology or research question(s).
+
+  7. How did you go about the research? What were some problems you encountered? How did you fix those problems (or not)?
+
+  8. How did you find the answer to your research question(s)? How did you collect the data? What are the limitations of the research?
+
+  9. What is the validity of your findings? How valid are your data? Why (or why not) do you think your data is valid?
+
+  10. What have you learned about how to better research questions, hypotheses, methodologies, and research design?
+
+  11. What is the best answer (in your opinion) to this question?
+
+  12. Please provide a reference for this question, if you have one.
+
+Formatting questions with a heading
+
+  1. What is the definition of this research?
+
+  2. What are the assumptions of this research?
+
+  3. What is the hypothesis of this research?
+
+  4. What is the research question?
+
+  5. How will you go about the research?
+
+  6. What is the null hypothesis?
+
+  7. What is the research question?
+
+  8. How will you analyze your data?
+
+  9. What is the null hypothesis?
+
+  10. What is the alternative hypothesis?
+
+  11. What are the limitations of the research?
+
+  12. What is the best answer to this question?
+
+Formatting questions with a heading
+
+  1. What is the proposed definition of this research?
+
+  2. What are the assumptions of this research?
+
+  3. What is the definition of this research?
+
+  4. What are the assumptions of this research?
+
+  5. What is the hypothesis of this research?
+
+  6. What is the research question?
+
+  7. How will you go about the research?
+
+  8. What is the null hypothesis?
+
+  9. What is the alternative hypothesis?
+
+  10. What are the limitations of the research?
+
+  11. What is the best answer to this question?
+
+Formatting questions with a heading
+
+  1. What is the proposed definition of this research?
+
+  2. What are the assumptions of this research?
+
+  3. What is the definition of this research?
+
+  4. What are the assumptions of this research?
+
+  5. What is the hypothesis of this research?
+
+  6. What is the research question?
+
+  7. How will you go about the research?
+
+  8. What is the null hypothesis?
+
+  9. What is the alternative hypothesis?
+
+  10. What are the limitations of the research?
+
+  11. What is the best answer to this question?
+
+Formatting questions with a heading
+
+  1. What is

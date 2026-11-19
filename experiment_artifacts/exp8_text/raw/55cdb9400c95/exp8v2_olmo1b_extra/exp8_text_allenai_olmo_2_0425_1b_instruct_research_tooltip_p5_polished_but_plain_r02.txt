@@ -1,0 +1,1 @@
+Tooltip text: Click on the desired data point to view or export query results.

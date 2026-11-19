@@ -1,0 +1,13 @@
+Caching speeds up a website by storing copies of frequently accessed resources on the server so that they do not need to be retrieved from the database or server each time a user requests them. This is especially beneficial when the same content needs to be displayed repeatedly, such as when a user returns to a popular page after a logout or a period of inactivity.
+
+Here's a brief explanation:
+
+1. **Reduction of Database I/O:** Caching reduces the need for repeated database calls by storing a copy of the page's content in shared memory or a persistent storage space. This reduces the load on the database and minimizes the time spent serving new requests.
+
+2. **Improves Response Time:** When a user visits a page, their browser first looks in cache if the requested content is still there. If it is, the browser reads it directly from the cache, not from the original server, significantly reducing load times and making the page load faster.
+
+3. **Minimizes Resource Consumption:** Each database query is an overhead on the server's resources. By keeping frequently accessed items in cache, the server can serve those pages more efficiently without the processing burden of a new database query.
+
+4. **Reduction in Overhead:** The act of caching also minimizes the overhead of component loading, like styleheets, images, JavaScript files, and other assets. Once a resource is in cache, it decouples network requests and renders the page quicker.
+
+The effectiveness of caching can be highly optimized through intelligent caching strategies like Least Recently Used (LRU), cache expiration time management, and proper metadata (URL parameters and headers) that signal to caches when to refresh content, which can further speed up websites without adding significant additional server load.

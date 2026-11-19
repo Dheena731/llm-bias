@@ -1,0 +1,1 @@
+A missing-value marker is a small rectangle or circle placed on a chart or graph to indicate data that is not available or missing for specific values. This helps to draw attention to areas where information is missing, providing a clearer understanding of the data's completeness.

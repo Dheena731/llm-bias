@@ -1,0 +1,3 @@
+Tooltip:
+
+"Filter Dataset" - This feature allows you to refine your research by specifying criteria for selecting data from the dataset. By setting conditions based on variable values, time ranges, or other relevant attributes, you can focus your analysis on the data that is most pertinent to your study. Use this tool to exclude irrelevant information, enhance data quality, and discover relevant patterns or correlations faster. Remember, filtering is non-destructive, meaning your original dataset remains intact. Apply filters to narrow down your view for more targeted research exploration.

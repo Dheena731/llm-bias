@@ -1,0 +1,9 @@
+**What does a database index do?**
+
+- **olfaction**: Indexes help speed up data retrieval by creating a lookup table (known as an index) that points directly to the location of data in the main table.
+- **unique access**: Instead of scanning the entire table, the database engine uses the index to quickly narrow down the rows to be accessed.
+- **relevance**: For columns that are frequently queried, indexes can improve the speed of data retrieval by prioritizing those columns in the indexing process.
+- **readамnagement**: They help in maintaining partitioning of data and optimizing write operations by reducing the need to rewrite portions of the table.
+- **maintenance**: Regular maintenance tasks such as rebuilding or updating indexes can help preserve their benefit over time.
+
+****[End of explanation]**

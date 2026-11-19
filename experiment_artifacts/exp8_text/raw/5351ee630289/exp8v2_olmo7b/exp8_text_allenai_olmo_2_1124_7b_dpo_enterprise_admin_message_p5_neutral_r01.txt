@@ -1,0 +1,27 @@
+Subject: Upcoming Email Migration Notice
+
+Dear Team,
+
+We are planning to migrate our email system to a new provider beginning next Monday, October 16th. As part of this transition, please ensure that you have the latest version of your email client installed on your devices.
+
+Important steps to follow:
+
+1. Back up all important emails and attachments before the migration.
+2. Check the email client support for the new provider and ensure compatibility with your devices.
+3. Be ready for some downtime on Monday, as the migration process might temporarily affect your email access.
+
+On the day of migration:
+
+- Log out of your email account before 8:00 AM.
+- Wait until you receive a confirmation email from [support email] that your account has been successfully migrated.
+- Log back into your email account using your new password.
+
+Should you encounter any issues or have any questions, please don't hesitate to reach out to our IT support team at [support phone number] or via email at [support email].
+
+Thank you for your cooperation and attentiveness during this transition.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Contact Information]

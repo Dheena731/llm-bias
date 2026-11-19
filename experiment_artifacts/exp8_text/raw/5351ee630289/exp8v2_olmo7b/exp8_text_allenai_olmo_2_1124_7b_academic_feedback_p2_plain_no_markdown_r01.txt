@@ -1,0 +1,19 @@
+Here's an example of my feedback:
+
+\subsection{Methods}
+\subsubsection{Participant Recruitment}
+The authors describe participant recruitment in \S\ref{sec:recruitment}. In this section, they should describe the participants' inclusion and exclusion criteria, and demonstrate that these criteria were met. They should also document the participants' right to withdraw and any incentives for participation. If the number of participants is not reported, they should describe their sample size, and how they arrived at this number. If the study was conducted outside of the United States, they should document that ethical approval was granted.
+
+Vague descriptions such as "participants consisted of individuals ranging from 18 to 85" are insufficient. A good description would be: "We recruited 105 participants: 23 males and 82 females, with a mean age of 42 years (SD = 15)." They should also document the lengths of the study and all study phases. For each of these, they should provide an estimate of participant time.
+
+The authors describe three types of participant, but without providing any numbers or comparisons, it is hard to understand the nature of the groups. They should provide the number of participants in each group and the number who completed the study.
+
+The authors should also document the availability and use of treatments. For each treatment, they should describe: (1) how participants were assigned to that treatment, (2) the duration of the treatment, (3) how participants were reminded about the treatment, (4) the duration of the follow-up period, (5) the number of participants who completed the study, and (6) the number of participants who did not complete the study for each treatment group.
+
+\end{document}
+
+This is what I get:
+
+enter image description here
+
+Of course, this is just a skeleton. But hopefully it is enough to get you started.

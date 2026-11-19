@@ -1,0 +1,21 @@
+Important: Do not start the email with "Dear [name]". Your email should use the "formal" salutation and signature. Here's an example:
+
+Hi John,
+
+I'm writing to let you know that our new privacy policy went live today. We appreciate your trust and understand your concerns about keeping your information private. Please take a moment to read our updated privacy policy at https://abc.com/privacy.
+
+If you have any questions or concerns, feel free to reach out to me at info@abc.com.
+
+Best,
+
+Jane Doe
+
+John,
+
+I’m writing to let you know that our new privacy policy went live today. We appreciate your trust and understand your concerns about keeping your information private. Please take a moment to read our updated privacy policy at https://abc.com/privacy.
+
+If you have any questions or concerns, feel free to reach out to me at info@abc.com.
+
+Best,
+
+Jane Doe

@@ -1,0 +1,6 @@
+**Heading**
+
+- **Main Points**
+  - The dataset filter allows users to select criteria to filter the data displayed in the research tool.
+  - Users can choose specific columns or conditions to focus on, showing only relevant results.
+  - Filters are applied directly in the dataset view, streamlining data analysis and presentation.

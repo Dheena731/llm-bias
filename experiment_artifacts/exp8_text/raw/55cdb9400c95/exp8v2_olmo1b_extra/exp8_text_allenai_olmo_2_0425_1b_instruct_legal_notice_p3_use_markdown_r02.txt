@@ -1,0 +1,15 @@
+# Cookie Usage Notice
+
+This website uses **cookies** to improve your browsing experience. By continuing to use this website, you consent to the use of cookies. Cookies are small pieces of data sent from a website and stored on your device by your browser while you are browsing the site. Websites use cookies for various purposes, including tracking user activity, storing browsing preferences, and personalizing content for individual users.
+
+You can manage your cookie settings by adjusting your browser’s privacy settings. Cookies do not contain any information that identifies you personally, but rather, they contain anonymous information that allows the website to function correctly.
+
+***Why cookies are used:*** 
+- To improve user experience by remembering common preferences.
+- To track usage statistics and provide relevant content.
+- To personalize content based on user behavior.
+
+***How to manage cookies:*** 
+- Modify your browser’s settings to accept or reject cookies.
+- Use tools provided by your browser to block or monitor specific websites that use cookies.
+- Update your browser to the latest version to ensure it can handle cookies effectively.

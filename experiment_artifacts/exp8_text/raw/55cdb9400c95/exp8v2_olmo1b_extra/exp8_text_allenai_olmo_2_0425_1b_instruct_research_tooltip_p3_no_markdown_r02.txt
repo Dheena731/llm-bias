@@ -1,0 +1,1 @@
+Select dates between two time intervals to view or manipulate events within that period.

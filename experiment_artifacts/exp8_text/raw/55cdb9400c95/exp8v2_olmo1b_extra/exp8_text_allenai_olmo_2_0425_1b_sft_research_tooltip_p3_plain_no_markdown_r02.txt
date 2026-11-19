@@ -1,0 +1,1 @@
+This tooltip offers a concise explanation of the date-range selector. It is designed for quick reference when selecting a specific date range from various input fields.

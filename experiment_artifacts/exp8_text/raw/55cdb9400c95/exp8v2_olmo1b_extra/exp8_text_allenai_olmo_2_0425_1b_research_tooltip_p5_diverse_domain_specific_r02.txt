@@ -1,0 +1,91 @@
+ • The query was for users in the United States with multiple locations.
+
+  • The query was for users profiles we could access from the dashboard easily.
+
+This is a finance query. Make it a finance query
+
+
+
+
+To find the top performing stocks, we need to consider the two measures of performance: 1) Price and 2) Return over a certain period.
+
+  1. Use the currencies four data types: currency, language, date, and date-time.
+
+  2. Find the smallest and largest prices over the specified periods for each stock listed in your dataset.
+
+  3. Use the date and time to order by the smallest price over the longest period.
+
+  4. Sort the stocks in the lowest price order if the price to return is greater than the current price.
+
+  5. Find the stock with the highest price and largest return over a certain period.
+
+  6. Display the stock name.
+
+  7. Use the currency to find the currency associated with the stock.
+
+  8. Use the language to find the language associated with the stock.
+
+  9. Use the date to find the date associated with the stock.
+
+  10. Use the date-time to find the date-time associated with the stock.
+
+  11. Allow the users to select a checking or savings account to look at the balances of.
+
+  12. Add a tooltip explaining how to choose a checking or savings account
+
+  13. Optional: Create a dashboard so that the user can see a chart with the results for each stock.
+
+  14. Optional: Use the data to write the results to a file and download it to a log file.
+
+Create a dashboard to visualize the results for a single stock
+
+  1. Optional: Use the descriptions or notes to help users understand what the table tells them.
+
+  2. Use the data four data types: currency, language, date, and date-time.
+
+  3. Order by price.
+
+  4. Order by return.
+
+  5. Sort by price.
+
+  6. Sort by return.
+
+  7. Sort by price.
+
+  8. Sort by return.
+
+  9. Display the stock name.
+
+  10. Select a checking account.
+
+  11. Optional: Create a chart with the results for each stock.
+
+  12. Optional: Use the file to write a chart to a log file.
+
+  13. Optional: Use the data to write the results to a file and download it to a log file.
+
+  14. Optional: Create a dashboard so that the user can see a chart with the results for each stock.
+
+
+  • Invite users to select a checking or savings account. "Checking" and "Savings" are synonyms. "Checking" refers to the account for which the user is paying bills. A savings account is used for storing money.
+
+  • Use language to display the date associated with the stock.
+
+  • Use date-time to display the date-time associated with the stock.
+
+  • Use the currency field to find the currency with which the stock was purchased.
+
+  • Use the language field to find the language with which the stock was purchased.
+
+  • Use the date to find the date of purchase for the stock.
+
+  • Use the date-time to find the date-time of the stock.
+
+  • Set the currency, language, date, and date-time data types are grouped into currency, language, date, and date-time.
+
+  • The data type is the way the data is stored. It specifies how the data is stored.
+
+  • The value of the data type allows you to use the data for a specific purpose.
+
+  • The currency, language, date, and date-time data types allow you to use

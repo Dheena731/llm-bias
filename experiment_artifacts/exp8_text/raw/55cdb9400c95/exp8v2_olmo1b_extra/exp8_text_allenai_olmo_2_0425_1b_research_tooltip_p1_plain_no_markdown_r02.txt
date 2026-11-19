@@ -1,0 +1,20 @@
+How to write a tooltip?
+
+Use the tooltip to explain to your reader what the filtering or sorting on your page means - in plain English, not in too much detail but rather in a way that allows the reader to understand what the filtering or sorting means in essence. If you are using words similar to "filtering" or "sort", make sure you explain what they do, i.e., indicate how it works or what it does.
+
+Tips for writing a tooltip:
+  • Try to make your tooltip as short and concise as possible. Leave out inessential details, such as "according to", "because of", "or".
+  • Be clear and concise but not too short. You might miss out on important details. The reader might not understand the filter or the sorting, which could make the tool less useful or less understandable.
+  • Use friendly wording. Use the reader's name instead of "you", and avoid technical terms.
+  • Describe the effect of the filtering or sorting in a way that makes it clear to the reader what the effect is.
+  • Ensure that the tooltip is not too long and is not distracting.
+  • Try to avoid overusing the same sentence pattern.
+  • Use simple sentences and do not use a lot of words in the tooltip.
+  • Use plain English.
+  • If the reader doesn't understand the tooltips, try to ask for help.
+Example tooltip for "Filter by name": The filter by name allows you to filter the list by a specific name. To see the effect, click the filter icon for the name you want to use.
+
+How to write a tooltip?
+
+  • Write a tooltip that contains the key word or words in the filtering algorithm. Describe the effect of sorting in a sentence or two.
+  • Ask the reader for help if you have a hard time explaining it in the tooltip, especially if the tooltip is too long, or if it needs to be changed.

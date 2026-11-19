@@ -1,0 +1,1 @@
+Output: An index is a table that sorts data based on a key.

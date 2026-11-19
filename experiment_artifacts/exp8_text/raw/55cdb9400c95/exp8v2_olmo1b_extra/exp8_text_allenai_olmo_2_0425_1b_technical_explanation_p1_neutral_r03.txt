@@ -1,0 +1,11 @@
+4. (20%) Build a list of technologies (e.g. SQL, NoSQL, etc.) that you can find and use for a cloud database.
+
+5. (15%) Reflect on a recent project in your organization that had either low, medium, or high level of deployment on cloud technologies. What are the benefits and challenges of such a deployment of cloud technologies? Would it have been better to stay with the traditional on-premise configuration?
+
+6. (20%) Choose one of the technologies discussed in this chapter and design a simple web application using that technology. What is the target audience? What is the application for? Could it be the same application you are designing for an on-premise environment? What are the main challenges you are going to face?
+
+7. (20%) Research the tools you are going to use for your web application. How can you communicate these tools to the business stakeholders? How can you present a proof of concept (POC) for your application? Try to find information on the different cloud databases, as well as the possible environment where you will deploy your application. For example, a POC for a web application built with Glassfish can be demonstrated by building an application that allows users to register and maintain their profiles. You can easily prototype such an application using the Glassfish tutorials.
+
+8. Optional (20%) Design a database schema for the scenario presented in the previous question.
+
+9. Optional (20%) Reflect on your scenario and think about the scalability. Think about how could you scale the database using the technologies you have chosen to deploy your web application on cloud. If you do not have enough time, think about how could you build a service-oriented architecture to scale the database.

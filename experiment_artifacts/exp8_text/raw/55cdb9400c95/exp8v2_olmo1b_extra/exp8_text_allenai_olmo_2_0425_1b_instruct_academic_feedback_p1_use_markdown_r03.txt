@@ -1,0 +1,20 @@
+**Heading:**
+
+**Feedback Note: Literature Review Draft**
+
+*Introduction* - Brief overview of the field and the rationale for the review.  
+*Literature Review Structure* - Clarification of the review's approach (systematic, narrative, etc.) and its impact on the research field.  
+*Strengths* - Identification of the review's main strengths, such as comprehensive coverage or empirical depth.  
+*Weaknesses* - Discussion of areas that could be improved, such as clarity or logic in argumentation.  
+*Conclusion* - Summary of key findings and implications, along with a suggestion for further research.
+
+**Example Output:**
+
+*Heading:*
+- **Feedback Note: Literature Review Draft**
+
+*Introduction* - A brief overview of the field and the purpose of the literature review.
+- **Literature Review Structure** - An explanation of the review's methodology and its relevance to the field.
+- **Strengths** - Identification of the review's key strengths, such as its extensive coverage or rigorous analysis.
+- **Weaknesses** - Discussion of aspects where improvement is suggested, such as the clarity of arguments or the completeness of sources.
+- **Conclusion** - A summary of the review's main points and its potential impacts on future research, along with recommendations for future studies.

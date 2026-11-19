@@ -1,0 +1,69 @@
+Tooltips come in two basic flavours:
+
+  • Non-specific, general examples
+  • Within a date range, a specific example
+
+I will give an example of both of these types using the article for January, 2020. Let us start with a non-specific example. This is what the article’s summary looks like:
+
+The summary of the January, 2020 article.
+
+Here, the article’s summary is a non-specific example — in other words, it is not the actual article. It just tells you what it’s all about. That is very important. While this summary is no good by itself, it is very easy to understand.
+
+Now we have a specific example:
+
+The complete article's summary: Under support in Python everything else is workarounds.
+
+This is a specific example. Note that it does not have a key word to summarise the article, which is good and bad. The key word, which I’ve slightly adapted to fit the situation, is a sort of caption. When the article is down, this is how the summary should look like. If the article is up, this is what the summary should look like. But it is important that if this happens, the summary should not be directly translated into the article. It should be more like a description of the article.
+
+The summary of the January, 2020 article is a sum-up of the January, 2020 article.
+
+Now starting with the second type of tooltip. A date-range selector is a very common way to gather information about an article. Even I used it myself in this article. For this example, I will give you a non-specific example:
+
+The summary of the January, 2020 article.
+
+Here, the article’s summary is a non-specific example — it is the same article. But it exemplifies a date-range selector. This is also good. But it is important to make sure that the actual article is not a summary of itself. Sometimes this happens, for example when the article is a history article.
+
+I should now give you a specific example. I’ve split the article into 7 different parts. I will give you the summary of each part.
+
+1. "The summary of the January, 2020 article."
+
+The beginning of the January 2020 article.
+
+2. "Iceland."
+
+Iceland, where the article is based.
+
+3. "Gavin's history."
+
+Gavin's history.
+
+4. "The Icelanders."
+
+Icelanders, who are the main inhabitants of Iceland.
+
+5. "The Goðafoss waterfall."
+
+The Goðafoss waterfall, in Iceland.
+
+6. "The first settlement."
+
+The first settlement in Iceland.
+
+7. "The giants of Iceland."
+
+The giants of Iceland, who are mentioned in the article.
+
+In this specific example, the summary is a sum-up of the article. It is not the article — it is a specific example of a date range selector.
+
+Use “statement of fact”
+
+Sometimes, it is good to use a statement of fact. This is a clear, concise sentence. It summarizes the article and it is very easy to understand. It might even be a summary of the article’s body.
+
+For example, I did have a statement of fact in the article. I’ve used it to make sure that it is clear that the article is based on documents. I’ll write it down:
+
+The article is based on documents.
+
+Do not use a title
+
+A title is an article’s main heading. The title of the article is a summary of the article. It is often written in brackets after the article’s title. If you do not write a title, you end up with a date range selector. However, it is not a very good date range selector. You should write a title for your article.
+

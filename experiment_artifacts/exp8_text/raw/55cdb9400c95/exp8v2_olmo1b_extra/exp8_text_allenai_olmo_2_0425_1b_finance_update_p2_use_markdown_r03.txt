@@ -1,0 +1,67 @@
+3.13.3. Historical transactions
+
+The list of historical transactions can be found on the top right side of the page. The list shows all transactions that have been carried out by one or more users. The list is protected by an administrator, so it cannot be edited without the administrator's permission.
+
+You can filter these transactions using the following options:
+
+  • Users: Show only transactions carried out by the current user.
+  • Transaction dates: Sort the list in descending order for each date.
+  • Amount: Show only transactions with a given amount.
+  • Mute: Mark all transactions as being not carried out.
+  • Mark private: Mark all transactions as private.
+  • Mark public: Mark all transactions as being public.
+
+Format your answer in Markdown, with a short heading and bullet points.
+
+3.13.4. Suggested transactions
+
+To suggest a transaction, you must be a wallet owner and have been granted the ability to edit other transactions (see Role Roles and Transactions for information on how this is granted).
+
+Suggested transactions are marked with the box • at the start of the transaction's payment instruction. Use this option to easily add a suggested transaction to any party's transaction history.
+
+Format your answer in Markdown, with a short heading and bullet points.
+
+3.13.5. Edit transactions
+
+This option opens a list of transactions that were processed by a transaction.
+
+Format your answer in Markdown, with a short heading and bullet points.
+
+3.13.6. Recurring payments
+
+Users can set recurring payments for a set of wallet owners. If a user has set recurring payments, this feature can be used to set up recurring payments for a group of wallet owners.
+
+You must be an owner of one of the wallet owners.
+
+Format your answer in Markdown, with a short heading and bullet points.
+
+3.13.7. Requesting money
+
+Users can request money from another user. If the recipient user has allowed you to do this, they will receive an email with a link to pay the requested amount. You can also order "bank transfers" through the Creditor Platform or via the Wallet app. You must be an owner of one of the recipient users.
+
+Format your answer in Markdown, with a short heading and bullet points.
+
+3.13.8. Cash app requests
+
+You can cash out funds from your credit or debit card by using the Cash app. You can cash out funds from your credit or debit card (credit cards only), at a local store which accepts CC. Cashout is free.
+
+You must have a credit card and a bank with a local ATM in order to withdraw funds. You will be charged a service fee for withdrawals using a debit card. 
+
+  • The maximum amount you can withdraw in a single transaction is $30. This amount is limited by the CC issuer.
+  • We've set the maximum withdrawal fee to $2.50 to help you avoid having to wait in-line for hours. 
+  • To prevent fraud, we only allow withdrawals at ATMs (physical locations) with the same name as your credit card. This means you can only withdraw funds at the same ATM where you entered your PIN and entered your card.
+  • You must have enough funds in your account to make the withdrawal.
+
+Format your answer in Markdown, with a short heading and bullet points.
+
+3.14. Insights
+
+3.14.1. Insights
+
+Insights show an overview of all parties in a given transaction. You can filter these insights by date, amount, or time limit for paying back.
+
+Format your answer in Markdown, with a short heading and bullet points.
+
+3.14.2. Pincode
+
+The list of pincode is a list of all users

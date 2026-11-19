@@ -1,0 +1,99 @@
+Here’s an example of a good missing-value marker:
+
+There are 32 missing values in this column.
+
+Here’s an example of a bad missing-value marker:
+
+There are 32 missing values in this column.
+
+Here’s an example of a good missing-value marker:
+
+There are 32 missing values in this column.
+
+Here’s an example of a bad missing-value marker:
+
+There are 32 missing values in this column.
+
+How to add a missing-value marker
+
+To add a missing-value marker to a column or table, click the column or table title, then click Table > Add Missing-Value Marker.
+
+Missing values
+
+Once you add a missing-value marker, you can see it in the table.
+
+To open the table, click the marker.
+
+To remove a missing-value marker, click the marker, then click Table > Remove Missing-Value Marker.
+
+Missing values
+
+To remove a missing-value marker from a table, click the marker.
+
+To remove a missing-value marker from a table, click the marker.
+
+Missing values
+
+To remove a missing-value marker from a table, click the marker.
+
+To delete a column with a missing-value marker, click the column title, then click Column > Remove.
+
+Missing values
+
+To delete a column with a missing-value marker, click the column title, then click Column > Remove.
+
+Missing values
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value marker, click the column title, then click Delete.
+
+To delete a column with a missing-value

@@ -1,0 +1,56 @@
+When you are writing your notice, keep in mind that the message should be focused on giving the reader information they need to know: what is going on, what they should do about it, and how they can get more information if needed.
+
+For example, if the temperature is dropping from 85F to 50F overnight, you’d probably include the following information in your notice:
+
+  • the current temperature,
+  • increasing warnings about cold,
+  • the expected temperature overnight and the next day, making sure that your arithmetic is right,
+  • how quickly the temperature is falling, if applicable,
+  • warnings about frostbite,
+  • warnings about hypothermia if the temperature is going to drop a lot,
+  • the latest time that the temperature usually decreases,
+  • the latest time that the temperature usually rises,
+  • the time that the temperature will most likely drop,
+  • the time of day that the temperature will probably most likely rise,
+  • the time that the temperature will most likely be at its lowest (nighttime in your time zone),
+  • warnings if the temperature will be mainly below freezing,
+  • warnings if the temperature will be below freezing overnight,
+  • warnings if the temperature will be below freezing for 48 hours,
+  • a general note about what you expect in the coming days,
+  • a note about if the temperature will be below freezing over the next 48 hours,
+  • a note about if the temperature will be below freezing for the next 48 hours, and
+  • a link to your local weather station’s forecast for the next few days.
+
+If you need further information about writing short public notices, refer to the “Short public notices” chapter of [my book][].
+
+Here are public notices for the following fictional weather events:
+
+  • a heat advisory,
+  • an afternoon thunderstorm,
+  • an Arctic cold front in a temperate region,
+  • an approaching tropical storm,
+  • a winter weather advisory,
+  • a severe cold snap,
+  • a rainstorm, and
+  • a snowstorm.
+
+Sample public notices
+
+
+A heat advisory has been issued. The temperature will peak at 100F. The temperature is currently 85F. The temperature will decrease from 85F to 50F overnight. The temperature is expected to stay below 50F throughout the day tomorrow. The humidity is at 70%. Hydrating is recommended. Sun protection is recommended. The temperature will be at or below 50F for 48 hours.
+The weather service says that the temperature will be at or below 50F for 48 hours.
+
+Sample public notice for a heat advisory
+
+Sample public notice for an afternoon thunderstorm
+
+
+An Arctic cold front will be passing through in the afternoon. The temperature will drop from 80F to 70F within two hours. The temperature will be at or below 70F for 48 hours. Wear warm clothing. Carry an extra sweatshirt or coat. People experiencing a lot of stress or pain due to non-lethal injury should probably stay off the road. The temperature will be at or near 70F for 48 hours.
+The Arctic cold front will be passing through and the temperature will drop to 70F for 48 hours.
+
+Sample public notice for an Arctic cold front
+
+Sample public notice for an approaching tropical storm
+
+
+A severe cold snap has hit the area in the last two days, but it will end well within 48 hours. The temperature continued to drop from -5F to -15F this afternoon. The temperature is currently -15F and it will drop to -25F overnight. The temperature is expected to rise to 0F by tomorrow afternoon. Every day for the next 8 days, the temperature will rise by 5

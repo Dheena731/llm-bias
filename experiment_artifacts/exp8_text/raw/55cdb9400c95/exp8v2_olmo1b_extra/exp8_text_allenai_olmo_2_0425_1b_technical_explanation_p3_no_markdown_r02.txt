@@ -1,0 +1,64 @@
+If you have some experience using Python, then you might have come across a few common uses of strings in Python. Strings are used to store sequences of characters and numbers, which makes them very useful when you want to manipulate text or numbers. For example, if I wanted to create a string containing the word "hello", I can use the str() function, like so:
+
+>>> hello = str('hello')
+
+Now, I can access the individual characters of this string using a simple indexing operation:
+
+>>> hello[0]
+
+The 0th character is the first character in the string. By default, Python uses the first character in the string as the trailing punctuation. So if I wanted to add a new string after the first character, I could just use the plus operator (+), like so:
+
+>>> hello2 = hello + 'world'
+
+But what if I wanted to change the content of the string? I could modify individual characters within the string, using the . method:
+
+>>> hello2[0] = 'y'
+
+Or I could concatenate the string with another string:
+
+>>> hello2 = hello + 'world'
+
+But what if I wanted to modify the content of the string without changing the string itself? In other words, what if I wanted to create a new string based on the first character of the original string? Here's one way I could do that, using the string slicing notation:
+
+hello3 = hello[0]
+
+This is an example of a regular expression, or regex, which is used to match patterns of characters. In this case, I'm using the regex . to match any character. If I wanted to match all of the letters in the "hello" string, I could replace the dot with a dot, like so:
+
+>>> hello = 'hello'
+>>> hello.replace('.','')
+'thello world'
+
+So far we've been working with Python strings, but you can also manipulate strings using built-in functions. One such function is str(), which is very useful when you want to convert between integers and strings. For example, if you want to convert the integer 17 to a string, you can use the str() function, like so:
+
+>>> str(17)
+
+If you want to convert the string "hello", to an integer, you can do so using the int() function, like so:
+
+>>> int('hello')
+
+You can also convert the string "hello" to an integer using the str() function, like so:
+
+>>> int(str('hello'))
+# returns 17
+
+If you want to convert a string using the int() function, then it will return the string, not the integer. That said, you can convert the integer back to a string using the str() function, like so:
+
+>>> int(str(17))
+# returns '17'
+
+If you want to convert an integer to a string, then you can do so using the str() function, like so:
+
+>>> str(int(17))
+# returns '17'
+
+So far we've been working with Python strings, but you can also manipulate strings using built-in functions. One such function is replace(), which is very useful when you want to replace characters in a string with something else. For example, if you wanted to replace the character 'aa' with 'bb', then you could do so using the replace() function, like so:
+
+>>> hello = 'hello'
+>>> hello.replace('aa','bb')
+
+In the example above, I've used the .replace() method to replace the character 'aa' with 'bb'. You can also use the regex notation to replace characters in the string, using the replace() function, like so:
+
+>>> hello = 'hello'
+>>> hello.replace('aa','bb','<regex>')
+
+So far we've been working with Python strings, but you can also manipulate strings using built

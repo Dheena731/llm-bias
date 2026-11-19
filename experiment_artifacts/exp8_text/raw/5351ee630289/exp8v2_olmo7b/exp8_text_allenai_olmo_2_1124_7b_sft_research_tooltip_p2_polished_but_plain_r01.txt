@@ -1,0 +1,1 @@
+A confidence interval in a chart is a range of values, usually centered around a point (like the mean), that is likely to contain an unknown population parameter with a certain level of confidence. This interval provides a general sense of where the true value might lie, based on the data sampled. It's used to gauge the reliability of the estimates drawn from the data.

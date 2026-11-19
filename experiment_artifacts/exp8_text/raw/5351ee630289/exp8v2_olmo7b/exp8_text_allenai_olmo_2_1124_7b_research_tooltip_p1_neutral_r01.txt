@@ -1,0 +1,34 @@
+A visualization of Boston's heightmap
+
+Here's a heightmap visualization of Boston's topography (and some interesting annotations thrown in). The key is on the right.
+
+The node and edge ordering algorithm
+
+By default, my tool doesn't sort the nodes and edges by any criteria. However, it's easy to sort by the node labels and the edge labels. This is a bit confusing asDocx doesn't currently sort the edges by the node labels (but I will add this soon).
+
+The algorithm I use for sorting is to first sort the nodes by key. Then, it sorts the edges by source node, source key, target node, and target key. When there is no key, it uses the node labels.
+
+If you don't want to see an edge, click the right arrow button next to the edge. If you want to see an edge, click the left arrow. It's easier if you use the keyboard to skip over the edges by pressing the arrow keys. You can also hide the edges.
+
+Here's how to use the tool:
+
+  1. Go to the address bar and type in the address for the map. If the map is not yet online, just look for a update icon in the upper left corner and click it. Do this for all the maps you want to see, and then go to the next step.
+
+  2. Get the d3js library and put it in a folder you call "/js" or "/javascript". To do this, right click and "Save Link As ..." in Chrome. This is what it looks like for me:
+
+  3. Then, go to the address bar and type in the following:
+    and load it up in your browser. Click on the "load" button.
+
+  4. Now that this is set up, you type in the address of the map. Make sure that the url is in the following syntax:
+    where this is the address of the map and this is the address of the zip file (or maybe the name of the file itself).
+  5. If it loads up, you'll see the grey square. Click the green "GET MAP DATA" button. It will take a while for you to see the map. You will see a grey square that says something about this is loading. Then you'll get some text that looks like this:
+
+    Once this is loaded, you can go back and click the grey "GET MAP DATA" button. If you still see the grey square, then you didn't properly load the map.
+
+  6. If you're not sure if the map loaded, try going back to the end of step 4 and look at the address bar. If it now ends with a "zip" then you should be good to go.
+
+  7. To sort the nodes, click the "Node Labels" check box and then click the "Node Labels" arrow button (the right most of the bottom three buttons). If you click the left arrow, then you'll see the nodes sorted by the node labels. If you click the right arrow, then you'll see the nodes sorted by the node names. If you click the right arrow twice, then you'll see the nodes sorted by the node names in reverse order.
+
+  8. To sort the edges, click the "Edge Labels" check box and then click the "Edge Labels" arrow button (the right most of the bottom three buttons). If you click the left arrow, then you'll see the edges sorted by the edge labels. If you click the right arrow, then you'll see the edges sorted by the edge labels in reverse order.
+
+  9. To avoid showing the edges and nodes, click the "hide" button. To show them, click the "show"

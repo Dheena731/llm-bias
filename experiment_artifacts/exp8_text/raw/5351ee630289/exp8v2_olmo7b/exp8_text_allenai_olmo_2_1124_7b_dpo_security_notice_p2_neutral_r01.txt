@@ -1,0 +1,29 @@
+Subject: Important: Notice About Phishing Emails
+
+Dear Team,
+
+We want to draw your attention to a critical issue that affects the security of our organization: phishing emails. As you are aware, phishing attempts are deceptive emails or messages that aim to trick you into giving out sensitive information, such as login credentials or financial information.
+
+Recently, there have been reports of phishing attempts targeting our team. These emails may appear to come from reputable sources, like colleagues, clients, or even within our company, but they are designed to deceive. Please be extremely cautious about opening attachments, clicking on links, or providing any personal information in response to unsolicited emails.
+
+To protect our company and yourselves, we strongly advise the following:
+
+1. **Verify the Sender**: Always check the sender’s email address carefully. Phishing emails often come from email addresses that are slightly varied from legitimate ones.
+
+2. **Avoid Clicking on Links**: If you're unsure, do not click on any links. Instead, reach out to the sender directly through a known good contact method.
+
+3. **Report Suspicious Emails**: If you receive what you suspect to be a phishing email, please do not open it. Instead, report it to the IT department immediately.
+
+4. **Keep Your Software Updated**: Ensure your antivirus and email filters are up to date as they can help detect and block phishing attempts.
+
+5. **Educate Yourself and Others**: Stay informed about the latest phishing techniques. Sharing this information with your colleagues will help us all stay safer.
+
+Remember, security is everyone’s responsibility. Your vigilance is our first line of defense against cyber threats.
+
+Please remain cautious and keep reporting any suspicious activities. Thank you for your cooperation and continued dedication to maintaining a secure environment for all of us.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Contact Information]

@@ -1,0 +1,10 @@
+The code above produces the following output:
+
+  • A short heading, first level
+  • A short heading, second level
+  • A short heading, third level
+  • A bullet point
+
+You can use the full range of Markdown formatting, including rich text.
+
+You can also view an example in your browser, including the code you typed to produce the output, and the output itself.

@@ -1,0 +1,42 @@
+What do you mean when you say "Review"?
+"Review" should allow your users to go back and review their progress for the week. When your users see this week's progress, they should be able to add more details and review their behaviors by setting new fitness goals.
+
+Here are some design ideas on how you could implement this:
+
+- Add a section that your users can add their weekly goals in the top of the page, under the weekly achievements
+
+- An additional section can feature a weekly reminder of the exercise and a reminder of their weekly goals (where the goal is to hit a certain number of steps, say 10 thousand in a week, you can add a section to this workout module that shows the total number of steps taken in the week)
+
+This will then allow your users to go back and review their week and add additional details to their progress.
+
+You are planning to include a weekly summary page at the end of the week, so why not feature this summary within your weekly workout module?
+
+Your users should be able to go back and see their weekly progress and add more details. This will allow your users to review their workout in more depth.
+
+You can add an additional section to the top of the module that includes the weekly reminders of the goals and achievements.
+
+Review is the action the user needs to take as a reminder to do the workout.
+
+When you skim through your workout module, you see that there is a weekly goal to go for. It feels like it's around 10 thousand steps, but I am still under 5 thousand steps. I am not sure if I am being consistent with my fitness goals. Could you remind me to go for that 10k goal?
+
+Weekly reminders of the goals and achievements will remind your users to go back and review their workout. They will then be able to add more details and review their workout by setting new fitness goals.
+
+I wondered if you could include a section where your users can add comments on their workout and how they feel about their workout that week. It would be great if I can see this workout on a weekly basis and see the comments your users leave for their workouts as they review them.
+
+I am really unsure about my workout this week. I thought I was doing too many steps, but I only did 5 thousand steps. I feel like I cheated myself a little bit this week. Do you think I should go for a longer workout next week?
+
+Also, you could provide different exercises for your users to learn about and learn how to do them.
+
+I really liked your workout last week. I did a lot of HIIT exercises and I believe that the workout helped me improve my cardio and strength. I was unsure if I was able to do my workout correctly though, so I think I could learn how to do HIIT exercises from one of your other modules.
+
+You mentioned that HIIT exercises are important. It would be great if I could be able to access your HIIT exercises through your workout module. I will be able to see the different exercises and how to do them through the module.
+
+I would really appreciate your help with my workout because I really want to improve my health and wellbeing this year.
+
+It sounds like your users would be able to access your HIIT workout through your workout module. You can add these exercises as a section within your workout module. Your users can then review these exercises and practice them through your workout module.
+
+I feel that I am often too busy with my daily activities and it's hard for me to find time to exercise. I have noticed that when I have more time, I feel more motivated to take part in a workout.
+
+It would be great if your users could add this to their workout profiles where they can see the different time periods for their workout.
+
+I feel like your workout module helps me to feel

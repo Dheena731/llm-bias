@@ -1,0 +1,7 @@
+***Confidence Interval***
+This line illustrates the confidence interval in a chart. It provides a range (often shaded) within which we estimate a population parameter with a certain level of confidence, typically 95%. The width of the interval reflects the variability of the data and how precise our estimate is.
+
+- **Parameter**: The confidence interval refers to the interval around a statistic (e.g., mean, proportion).
+- **Confidence Level**: Specifies the level of certainty about the interval's contents; common levels are 95%.
+- **Width**: Represents the margin of error, calculated as a proportion of the standard deviation of the data.
+- **Purpose**: Communicates the precision of our estimate and helps in making informed decisions based on data.

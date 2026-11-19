@@ -1,0 +1,29 @@
+Subject: Important: VPN Client Update Scheduled
+
+Dear Team,
+
+We have an important announcement regarding a scheduled change to our VPN client.
+
+**Effective immediately**, an updated version of our VPN client will be deployed to all devices. This update will enhance security measures, improve connection stability, and introduce new features aimed at enhancing your remote work experience.
+
+**Key Changes Include:**
+
+- **Enhanced Encryption:** Improved data security protocols for safeguarding your information.
+- **Improved Connectivity:** Fixes for bugs that led to connection drops, offering a more reliable experience.
+- **New Features:** Access to more server locations, and support for new authentication methods.
+
+**What You Need to Do:**
+
+1. **Backup Your Data:** Ensure all important data is backed up before proceeding.
+2. **Update Instructions:** Follow the instructions provided via email to update your client smoothly.
+3. **Support Available:** Reach out to our IT support team (support@ourcompany.com) if you encounter any issues during the update process.
+
+Your cooperation and timely action in updating your VPN client are appreciated to ensure smooth operation of our network.
+
+**Stay Safe, Stay Connected**
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name] IT Team

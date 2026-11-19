@@ -1,0 +1,1 @@
+This dataset filter lets you quickly narrow down your research data to only include specific records based on your chosen criteria. Simply select the column you want to filter by and choose the conditions you desire. For example, you might choose to filter by date range, category, or any other relevant attribute to focus on the most relevant information for your analysis.

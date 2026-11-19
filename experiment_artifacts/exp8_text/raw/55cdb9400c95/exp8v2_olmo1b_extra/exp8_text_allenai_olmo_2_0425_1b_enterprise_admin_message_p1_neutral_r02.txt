@@ -1,0 +1,16 @@
+Admin email for scheduled dashboard maintenance window.
+
+Our scheduled maintenance window is as follows:
+
+Scheduled dashboard maintenance window.
+Click event to schedule dashboard maintenance window.
+
+When you've scheduled your event, we'll send you a notification. If you've forgotten your password, you can use the password reset tool to create a new password using the email address you used to set up your password.
+
+If you'd like to set one of your existing accounts as an administrator, you can do that too.
+
+Next step: The Dashboard
+
+Now that you've set up your administrator account, you can start setting up your dashboard.
+
+Was this page helpful?

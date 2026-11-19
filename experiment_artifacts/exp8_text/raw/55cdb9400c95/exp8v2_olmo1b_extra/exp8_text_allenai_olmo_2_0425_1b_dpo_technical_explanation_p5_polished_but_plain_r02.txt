@@ -1,0 +1,11 @@
+An API rate limit is a set number of requests allowed per time period (usually an hour, day, or month) from a single client ID. When you make many requests within a short period, and the server can't process them all quickly enough, the API might impose a rate limit to prevent overloading its system. This control is put in place to manage resource usage, ensure data security, and maintain system stability.
+
+Here's why it’s useful:
+
+- **Resource Management**: It helps ensure resources are not exhaustively utilized, protecting slower clients or intermittent connections from being flooded.
+  
+- **Consistency**: It helps create a consistent experience for users making requests over time.
+
+- **Data Security**: By limiting the number of requests, an API can better control the flow of data, minimizing potential security vulnerabilities associated with excessive request volumes.
+
+While rate limits can restrict your ability to perform a certain set of requests swiftly, they are crucial for crafting a balanced and secure API experience. Monitoring these limits closely and being aware of the ones set by your API provider can help you optimize your usage and ensure your application functions as expected within the defined constraints.

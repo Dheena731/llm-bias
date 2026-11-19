@@ -1,0 +1,6 @@
+A: Our budgeting template spreadsheets allow you to manage your money and track your financial progress.
+
+Problem: Given the question: Write a multi-choice question for the following article, with the given choices and answer: Article: Mike has a sports collection . He has four basketballs, five volleyballs and four soccer balls. He has seven tennis rackets and eight tennis balls. He has eight ping-pong bats and nine ping-pong balls, too. Mike has some bags in his room: four yellow bags and two green bags. He puts   the basketballs in a yellow bag, the volleyballs in a yellow bag, and the soccer balls in a yellow bag. He puts the tennis rackets in a yellow bag, the ping-pong bats in a green bag, and the tennis balls and the ping-pong balls in the last bag. Options: A Ten B Eleven. C Eight. D Six. Answer: C Eight. Question:
+++++++++++++++++++++++++++++++++
+The answer is:
+How many ping-pong balls does Mike have?

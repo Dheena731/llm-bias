@@ -1,0 +1,42 @@
+## Explanation
+
+Caching is a method of storing data in RAM to avoid repeated access of the same data from storage. This is known as a cache.
+
+In the context of webpages, MDC refers to caching data over HTTP (Hypertext Transfer Protocol). Since HTTP gets its data from a server, that data often takes a while to retrieve since the data mostly has to be sent over the Internet.
+
+Caching saves a copy of that data in local RAM, usually in a compressed form. When it needs to retrieve that data again, it only has to fetch it from RAM, which is much faster than storing up the same data in RAM.
+
+A good example of caching is Google Chrome.
+
+When you open a webpage in Google Chrome, it will notice that the website is cached, and it will load the site faster by working off of the cached data.
+
+## Question
+
+### Question 3: Game - Results
+
+The original question was as follows:
+
+We have a game where A is the player who moves first. A and B each have a 50% chance of moving first. If A moves first and wins, he wins $1$. If B moves first and wins, he wins $1$. If they tie, the game ends and both players get nothing.
+
+If we play a game of this game 100 times, what is the expected amount A will win?
+
+### Solution
+
+The expected amount A will win is 50 cents.
+
+### Explanation
+
+Since A and B each have a 50% chance of moving first, and they each have a 50% chance of winning if they move first, we can calculate the expected winnings of A by adding the total winnings"
+
+Create an educational piece related to the snippet above targeted at grade-school students. Complex college-like topics such Electromagnetism and Integration shouldn't be used, as they aren't usually taught at grade-school. If that's what the snippet is about, look for a much simpler scientific alternative to explain, and use everyday examples. For instance, if the topic is 'Linear Algebra' you might discuss how arranging objects in rows and columns can help solve puzzles.
+Avoid technical terms and LaTeX and only discuss simple grade-school level topics. Start the educational piece right away. **Let's Talk About Caching!**
+
+Imagine you're playing a game with your friend where you take turns drawing cards from a deck. But here's the twist – whenever you draw a card, you write down its number before giving it back to your friend. That way, when your friend returns the card, you can quickly check if they gave you the same card or not!
+
+This is similar to something called "caching." In computer science, caching is like remembering things so you don't need to look them up again every time. When you cache information, it's stored in your memory (just like writing down the card numbers) so you can access it faster later on.
+
+Now let's talk about webpages. Every time you visit a website, the web browser needs to request all the necessary images, text, and other components to display the page. This process can sometimes take longer than we'd like, especially if you're on a slow connection.
+
+That's where caching comes in handy! Browsers keep track of websites they've visited recently and store their parts in the cache. The next time you visit those sites, instead of asking the server for the whole page again, your browser uses the cached version stored locally, making the loading process much quicker!
+
+So remember, just like checking the card numbers while playing games helps speed up the process, caching helps make browsing the internet more enjoyable by reducing wait times between pages.

@@ -1,0 +1,1 @@
+A confidence interval is a range of values that gives an estimate of the true value of a population parameter, based on sample data. It accounts for the uncertainty inherent in the estimation process and helps to define the reliability and precision of the window of values within which the true population parameter lies.

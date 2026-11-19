@@ -1,0 +1,107 @@
+Note: The purpose of this exercise is to practice the art of writing a clear and precise announcement. You don't need to add any additional information, including your name and contact information. You may fix the existing text to improve the writing style. However, you are limited to spelling, grammar, punctuation, and syntax.
+
+Present the announcement in natural language. No technical jargon is allowed. The announcement should be easy for the rest of the team members to understand.
+
+A well-written and precise announcement will motivate the team to take the necessary actions to support a change. It should help to drive the next action items and milestones for the implementation.
+
+The writing should be succinct and clear. The writing should be appropriate for the audience, which is a group of well-qualified engineers who are responsible for the daily running of the system. In other words, the announcement should be written for a team that can be challenged.
+
+We normally get our announcements from a team leader or the project lead. If you don't have one, consider creating a post on the team forum so that the best of the team can write the announcement.
+
+Make sure to include the following information:
+
+  • The reason for the change
+  • The expected outcome (what is expected to happen)
+  • Details on how to proceed
+  • Information on when the change will be implemented
+
+In your announcement, use the following template:
+
+We're making the following change in X and Y.
+
+The intended outcome is that Z will be achieved by X.
+
+We're providing the following details:
+
+  • The reason for the change
+  • The expected outcome
+  • Documentation and any other required information
+
+The change will be implemented in the following timeline:
+
+  • [Future date]
+
+When the change is implemented, we will ensure that the following conditions are met:
+
+  • [Conditions]
+
+Here's the announcement template.
+
+A sample announcement template:
+
+
+
+
+In this announcement, the reason for the change is given as "we're making the following change in X and Y."
+
+The expected outcome is that "Z will be achieved by X."
+
+We're providing the following details:
+
+  • The reason for the change
+  • The expected outcome
+  • Documentation and any other required information
+
+The change will be implemented in the following timeline:
+
+  • [Future date]
+
+The change will be implemented in the following timeline:
+
+  • [Future date]
+
+When the change is implemented, we will ensure that the following conditions are met:
+
+  • [Conditions]
+
+Here's the announcement template.
+
+Sample announcement template:
+
+"As a part of our X improvement effort, we are making the following change in Y. We are providing the following details:
+
+  • The reason for the change
+  • The expected outcome
+  • Documentation and any other required information
+  • The change will be implemented in the following timeline:
+    • [Future date]
+    • [Future date]
+
+When the change is implemented, we will ensure that the following conditions are met:
+
+  • [Conditions]
+
+Here's the announcement template.
+
+Sample announcement template:
+
+"As a part of our X improvement effort, we are making the following change in Y. We are providing the following details:
+
+  • The reason for the change
+  • The expected outcome
+  • Documentation and any other required information
+  • The change will be implemented in the following timeline:
+    • [Future date]
+    • [Future date]
+
+When the change is implemented, we will ensure that the following conditions are met:
+
+  • [Conditions]
+
+Here's the announcement template.
+
+Sample announcement template:
+
+"As a project lead, I am making the following change in Y. The expected outcome is that we will be able to achieve Z by X."
+
+The announcement should be written in the past tense since the change is already done. If the change is going to

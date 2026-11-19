@@ -1,0 +1,5 @@
+Roughly, your annual expenses are divided into two categories: Large monthly expenses and Small monthly expenses.
+
+Large monthly expenses are larger than $500, $1000 or $2000.
+
+Small monthly expenses are smaller than $500, $1000 or $2000.

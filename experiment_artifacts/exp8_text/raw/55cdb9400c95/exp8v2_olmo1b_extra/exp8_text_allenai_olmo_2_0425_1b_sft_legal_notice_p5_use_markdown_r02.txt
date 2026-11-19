@@ -1,0 +1,33 @@
+**Shared Network Policy**
+
+1. **Respecting Privacy:** 
+Users must ensure they do not engage in any activities that violate privacy laws or regulations, such as sharing sensitive information or monitoring others.
+   
+2. **No Unauthorized Access:**
+Users must not gain unauthorized access to the network, including through hacking, or attempt to do so.
+   
+3. **No Malicious Activity:**
+Users must not use the network for any activities that interfere with the normal operation of the network or its applications, such as spreading malware.
+   
+4. **Network Monitoring:**
+Users must comply with all network monitoring policies and be aware that network administrators may monitor the network for these purposes.
+   
+5. **No Theft of Property:**
+Users must not unlawfully use, steal, or transfer network property, including data and network devices.
+   
+6. **No Unauthorized Software:**
+Users must not install, use, or distribute unauthorized software on the network.
+   
+7. **No Illegal Use of Resources:**
+Users must not use network resources in a manner that is illegal, including downloading copyrighted materials without permission.
+   
+8. **No Harassment or Incitement to Violence:**
+Users must not use the network to harass, intimidate, or incite violence against others.
+   
+9. **No Discrimination or Discrimination in the Workplace:**
+Users must not discriminate or discriminate in the workplace through their use of the network, including through email or messaging.
+   
+10. **No Unauthorized Backdoor Access:**
+Users must not set up unauthorized backdoor access to the network or its services.
+   
+SUSPECTED violators of these policies will be subject to disciplinary action, including the revocation of network access, fines, or other appropriate penalties as deemed appropriate.

@@ -1,0 +1,1 @@
+Choose your dataset filters carefully. The user should be able to take the measures of the dataset (e.g. average, median, standard deviation, etc.) and make judgements about the data in context with other data in the same dataset. In general, improve the richness of the dataset features.

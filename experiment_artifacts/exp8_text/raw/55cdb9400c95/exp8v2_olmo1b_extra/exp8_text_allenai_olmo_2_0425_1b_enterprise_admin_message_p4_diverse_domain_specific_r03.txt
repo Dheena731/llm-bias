@@ -1,0 +1,42 @@
+Be sure to verify that the content is factually correct and that it's appropriately characterized in the domain. Check the writing for what was actually written by the AI, and to what degree similarity exists to the original content.
+
+In other words, use the content of the AI-generated short notice as a starting point to investigate the authenticity and the potentially misleading nature of the entire content.
+
+Our Process
+
+To analyze an AI-generated short notice, we first look at the prompt and the description provided. For each of these, we map:
+
+  • Submit date and time of submission
+  • Date and time of original submission by human authors
+  • Submission date and duration of expected review period
+  • Submission date and duration of the actual review period
+  • Submission deadline and review date
+  • Review feedback and suitability criteria
+  • Language of AI-generated notice
+
+We then take this information and make a few arguments. These arguments attempt to illustrate:
+
+  • Whether the AI has correctly identified the submission date and time
+  • Whether the AI has correctly identified the submission deadline
+  • Whether the AI has correctly identified the submission date and duration of the review period
+  • Whether the AI has correctly identified the regulatory period of the submission
+  • Whether the AI has correctly identified the language of the notice
+  • Whether the AI has correctly identified the regulatory language of the notice
+
+Finally, we use this information to provide a clear and concise analysis.
+
+We then validate our arguments with an additional analysis that uses the information from the short notice to compare the original content with the AI intervention.
+
+A Sample AI Generated Short Notice
+
+The following is an example of an AI generated short notice. This example shows the detailed process for a review with a 3-month review period (the actual duration was approximately 2 weeks).
+
+Short Notice: The submission for THIS PRIORITY should be reviewed on or BEFORE August 1, 2019.
+
+The AI generated short notice was submitted on July 30 and was due to be reviewed on August 1, 2019. The submission was not reviewed until after the due date.
+
+The AI generated notice had a 3-month review period, which was originally specified as the deadline date for the submission.
+
+The AI generated notice uses the same language as the original content and has a similar level of similarity to the original content. However, the AI generated notice does not correctly identify the publication and review dates and the language of the notice.
+
+In the end, it appears that this AI is simply generating content that is similar to the original content. So, make sure you also review the original content.

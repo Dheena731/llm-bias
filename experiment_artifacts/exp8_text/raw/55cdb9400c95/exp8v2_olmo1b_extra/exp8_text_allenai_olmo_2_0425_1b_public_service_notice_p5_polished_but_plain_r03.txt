@@ -1,0 +1,44 @@
+The poll
+
+  1. A very small number of voters, possibly less than 3% of the electorate, need to be added to reach 50%
+
+    • The margin of error is 4%, therefore there will be 3% of voters who will vote for both parties. After this, a 4% margin of error is mathematically impossible, and the probability that both parties will win becomes very unlikely.
+  2. A very small number of voters, possibly less than 1%, can change the outcome of the election
+
+    • If this number is more than 150 or so, it is higher than the margin of error, and the result is probably a landslide, and it is unlikely that the voter count will break 3%.
+
+    • If it is fewer than 100, it is unlikely to change the result, but it is possible. It is mathematically possible that a very small number of voters could break the outcome, but even if 150 of them voted for one candidate, that’s only a 1% chance of it happening.
+
+    • If it is less than 50, then there simply is no way that the outcome of the election could be changed.
+
+    When 1% is reached, the results are likely to be close to 50%. From this point forward there is a 99.9% chance that the election result will not change.
+
+  3. The voting validity is very low
+
+    • 1% of voters are voting on both candidates, and there is a very high chance that the outcome will still be close to 50%, rather than being altered by a small number of voters.
+
+    • The election is invalid if the number of voters who are voting for both candidates is close to 2%, and the result is likely to be 50% or less.
+
+    2% of voters is a high level of voting validity, and the voting validity is low when it is less than 2%.
+
+  4. The vote has been counted multiple times, or the voter ID isn’t working
+
+    • If a vote has been counted multiple times, or the voter ID isn’t working, then the results are very unlikely to be 50% or change. However, there is a high probability that the results will be different from the result that was reported.
+
+    • It is doubtful that the results are the same if the result is close to 50% or less, it is very unlikely to be different.
+
+    • If the error is more than 2% of the vote, then the voting validity is low, and the election is invalid. However, if the error is lower than 2%, like 1%, then there is a high probability that the result will be different.
+
+    • If the results are close to 50% or less, then there is a high probability that the result will not change, however if it is close to 50%, it is likely to change.
+
+    • If the election is invalid, it must be counted again.
+
+    • The election is invalid if the result is between 40% and 50%.
+
+    • If it is close to 50%, then the voting validity is low, and the election is invalid.
+
+    • If the error is higher than 2%, then the voting validity is high, and the election is valid.
+
+    • If the error is lower than 2%, then the voting validity is low, and the election is invalid. However, a vote with an error of less than 2% is unlikely to give an outcome that is different from the result that was reported.
+
+    • If the result is between 40% and 50%, then there is a high probability that the voting validity is low, and the election is

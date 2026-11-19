@@ -1,0 +1,70 @@
+2. Go to the Expense Approval page.
+
+From the admin dashboard, find the Expense Approval page and add a new expense.
+
+3. Create a new expense.
+
+To create a new expense:
+
+  1. In the main spreadsheet, click the New Expense button to access the Expense form. 
+
+  2. Fill in the expense name, amount, and category.
+
+  3. Submit the form by clicking the New button.
+
+Notice that a new expense is created on the expense spreadsheet and a new task is created on the Expense Approvals page.
+
+4. Approve the new expense.
+
+To approve the new expense:
+
+  1. Click the Approve button next to the new expense. 
+
+  2. On the Review Task page, check the box next to the new task to approve it.
+
+  3. Click the Resolve button to mark the task as resolved.
+
+5. View the details of the approved expense.
+
+To view the details of the approved expense:
+
+  1. On the Expense Approval page, click the Approved link next to the new task.
+
+    The Expense Details page displays the details of the expense.
+
+  2. Click the Expense Id link to open the expense spreadsheet.
+
+    The new expense task is removed from the Expense Approvals page.
+
+What to do next
+
+Congrats on getting this far! Before moving on to the next exercise, let’s get some details about expenses right.
+
+Expense ID
+
+In our current setup, there is no unique identifier for expenses. However, each expense can have a unique identifier that is not exposed to users. To set this up, do the following:
+
+  1. In the expense spreadsheet, add a new column called Expense ID.
+
+  2. Add the id: expense_id:{{}} field to the Expense Details page.
+
+  3. Add an id: expense_id:{{task.valueProperty('id')}} to the Expense Approval page.
+
+Now, whenever a new expense is created, a new expense id is created (in the expense spreadsheet column). This id is displayed in the Expense Details page. Whenever an expense is approved, the corresponding expense id is deleted from the Expense Approval page.
+
+Expense Categories
+
+In our current setup, all expenses are placed into a single category. However, you may want to have multiple categories such as Expense, Development, Office Supplies, etc. To set this up, do the following:
+
+  1. Go to the expense spreadsheet, add a new column called Category.
+
+  2. Add the expense_category:{{}} field to the Expense Details page.
+
+  3. Add an expense_category:{{task.valueProperty('expense_category')}} field to the Expense Approval page.
+
+Now, when an expense is created, it is assigned a category (in the expense spreadsheet column). The expense category is displayed in the Expense Details page. Whenever an expense is approved, the corresponding category is deleted from the Expense Approval page.
+
+
+Exercise 3 will be released on April 13, 2022.
+
+And the third and final exercise will be available next week!

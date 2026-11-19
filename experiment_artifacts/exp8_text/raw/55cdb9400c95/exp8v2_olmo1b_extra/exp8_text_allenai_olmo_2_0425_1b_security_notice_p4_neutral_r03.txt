@@ -1,0 +1,13 @@
+TIP: In order to enable two-factor authentication, you have to login first with your username and password, and then go to
+
+What is two-factor authentication (2FA) and how does it work?
+
+Two-factor authentication (2FA) is a security measure that requires the user to provide two forms of proof to access an account. The two factors are a secret code, usually sent via text message or app, and something you know, such as a password. By using two-factor authentication, you can make your account more difficult to steal, and keep your account accounts safe from unauthorized access.
+
+In a nutshell, it’s really simple on our webmail: we send you a code that you enter in the password field of our webmail page when you try to log in. Once you’ve entered the code, you’ll be able to log in to your account.
+
+That’s all there is to it!
+
+To get started please visit our website or login with your username and password.
+
+Please sign in to leave a comment.

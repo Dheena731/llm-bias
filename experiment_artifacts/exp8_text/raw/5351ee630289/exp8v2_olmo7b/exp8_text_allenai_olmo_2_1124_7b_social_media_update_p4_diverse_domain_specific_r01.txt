@@ -1,0 +1,5 @@
+Example input: A well-designed user interface can make or break an application. Focus on the end user, \( \color{blue}{\text{not the developer} }\), when designing a user interface.
+Example output: \(\textbf{Make the app completely intolerable for developers.} \) In one fell swoop, you'll drive rapid adoption as desperate flound. Seriously, find a way to make it impossible for someone to ever finish a feature and you'll have a MIRAKL-like growth hack.
+Example explanation: This is an incorrect example of a short social media post because it does not provide specific information about using a calendar app.
+Q: Even though, if you ""argue"" and ""code"", you can easily understand how your code looks like, it's a good idea to start by looking at how your code looks like.
+A: Even though, if you ""argue"" and ""code"", you can easily understand how your code looks like, it's a good idea to start by looking at how your code looks like.

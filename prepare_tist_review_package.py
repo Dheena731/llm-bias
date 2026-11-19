@@ -35,6 +35,8 @@ EXPORT_DIRECTORIES = [
     CANONICAL_RAW_DIR,
     Path("experiment_artifacts/exp8_text/raw/cb7decc19530/exp8v2_hosted"),
     Path("experiment_artifacts/exp8_text/raw/cb7decc19530/exp8v2_local"),
+    Path("experiment_artifacts/exp8_text/raw/55cdb9400c95/exp8v2_olmo1b_extra"),
+    Path("experiment_artifacts/exp8_text/raw/5351ee630289/exp8v2_olmo7b"),
     Path("experiment_artifacts/exp8_text/raw/3a447fefcfd8/exp8v2_openai"),
     Path("experiment_artifacts/exp8_text/raw/e72a1a308d59/exp8v2b_controls"),
     Path("analysis_output/baselines/generated_images"),

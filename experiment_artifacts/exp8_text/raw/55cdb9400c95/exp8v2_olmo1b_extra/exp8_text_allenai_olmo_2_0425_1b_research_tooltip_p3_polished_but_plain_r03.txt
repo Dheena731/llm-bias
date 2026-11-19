@@ -1,0 +1,99 @@
+Ordered lists
+
+  • single-spaced
+  • use decimal numbers
+  • use 0 to 9 only for numbers
+  • do not use a bullet point
+  • do not use a number sign (#) or a hyphen (-)
+
+Do not use dashes (–), hyphens (-), or underscores (_).
+
+Do not use list markers such as asterisks (*) or numbers.
+
+	*Single-spaced list item1
+		*Second list item1
+		*Second list item2
+		*Third list item2
+
+If a list item is indented four spaces:
+
+	*Single-spaced list item1
+		*Second list item1
+		*Second list item2
+		*Third list item2
+		*Fourth list item2
+
+For lists that use a second line to separate items, do not flush the indent of the last line. In these cases, the first line is flush left and the subsequent lines are indented four spaces.
+
+  • Single-spaced list item1
+  • Single-spaced list item2
+  • Single-spaced list item3
+
+Indent only one space.
+
+  • 1
+  • 2
+  • 3
+  • 4
+  • 5
+
+Consider using a Markdown editor with syntax highlighting to help you with indentation.
+
+Table of contents
+
+  • [Example](name.html#example)
+  • [Example](name.html#example)
+  • [Example](name.html#example)
+  • [Example](name.html#example)
+  • [Example](name.html#example)
+
+Item titles must be fully capitalized and start with a lowercase letter unless they are part of a quote or dash. (Usually, periods and dashes are represented by asterisks.)
+
+For use in table, list, or code blocks, use two spaces to separate lines.
+
+**Item titles**
+
+italics **Item titles**
+bulleted **Item titles**
+numbered **Item titles**
+ordered **Item titles**
+code **Item titles**
+
+If a number is part of a list item, do not use bullet points.
+
+-- Item titles --
+
+
+  • single-spaced
+  • use decimal numbers
+  • do not use a hyphen (-)
+  • do not use a space after a comma
+  • do not use a space after a colon (:) or semicolon (;)
+  • do not use a space after a paragraph break
+  • do not use any of these indicators: —~, —-, ~~
+  • make sure that your headings are correct
+  • make sure that your subheadings are correct
+
+
+   Item 1
+   * Subheading 1
+   **Subheading 2
+   -- Subheading 3
+   -- Subheading 4
+   -- Subheading 5
+  • single-spaced
+  • use decimal numbers
+  • do not use a hyphen (-)
+  • do not use a space after a comma
+  • do not use a space after a colon (:) or semicolon (;)
+  • do not use a space after a paragraph break
+  • do not use any of these indicators: —~, —-, ~~
+  • make sure that your headings are correct
+  • make sure that your subheadings are correct
+
+If a heading is part of a quote or dash, use normal paragraph indents. Use a second indent if it is part of a list.
+
+Here are two examples of properly formatted header titles:
+  • "Here are two examples of properly formatted header titles: `Here are two examples of properly formatted header titles:`"
+  • -- "Here are two examples of properly formatted header titles: --"
+  • - "Here are two examples of properly formatted header

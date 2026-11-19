@@ -1,0 +1,11 @@
+For example: A database index is a data structure that is used to speed up the search, insert, and update operations in a database. Indexes can be used in multiple database systems, such as Microsoft SQL Server and Oracle. They are used to optimize the search process and make database access more efficient. The index is a tree-like structure that is maintained on a disk and stores pointer to the data. This structure is made up of pointers to the rows in the database, with the key as the value. Key is the column(s) that are used for indexing. In a clustered index, the index is clustered on the key, while in an index-only query, the index is non-clustered on the key.
+
+Use formal terminology and be precise. For example: An index is a mechanism used in a data storage system to speed up the access of a data item to a database in an efficient manner.
+
+It is read like a textbook, not a blog. Avoid colloquial language and informal phrasing. Rewrite to make it more academic and dense.
+
+For example: An index in database is a list of pointers to data records in the database. The index in MySQL stores the index in an internal format known as a B-tree. InnoDB indexes are stored in a separate tablespace from the rest of the data in the database.
+
+Present the material in a logical order. Be precise, clear, and accurate.
+
+For example: Database indexes are used to optimize the search process in a database. Indexes can be used in multiple database systems; for example, Microsoft SQL Server and Oracle. There are different types of database indexes, such as clustered, non-clustered, and indexed-only.

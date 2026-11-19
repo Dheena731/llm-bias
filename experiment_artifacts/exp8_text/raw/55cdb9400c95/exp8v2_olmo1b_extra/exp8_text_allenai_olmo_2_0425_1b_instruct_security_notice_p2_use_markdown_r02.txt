@@ -1,0 +1,16 @@
+### Warning about Phishing Emails
+
+* **Identify the Email:**
+  - Be cautious of emails asking for sensitive information or prompting immediate action by threatening consequences.
+  
+* **Check the Source:**
+  - Hover over any links in the email to verify the URL, and look for unusual domain extensions or spelling errors.
+  
+* **Do Not Click on Suspicious Links:**
+  - Avoid clicking on links in emails that appear suspicious, especially those claiming to be from your company's IT department or HR.
+  
+* **Report Phishing Attempts:**
+  - Document the phishing attempt and report it to your IT department immediately.
+  
+* **Educate Team:**
+  - Raise awareness about phishing emails within your team to prevent future incidents.

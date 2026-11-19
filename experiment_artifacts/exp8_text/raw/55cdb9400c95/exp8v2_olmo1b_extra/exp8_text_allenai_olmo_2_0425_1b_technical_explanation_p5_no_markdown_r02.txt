@@ -1,0 +1,37 @@
+In practical applications, this limitation usually manifests as a per-client limit on the number of simultaneous API calls. For example, a web app may have a rate limit of 50 requests per second, and a phone app may have a per-device rate limit of 100 requests per second.
+
+The following best practices for API rate limiting can help developers write secure APIs that adhere to this best practice.
+
+Do not rate limit services
+
+It is possible for an API to remove service quotas for users without their knowledge. For example, if an API always returns “no result,” then a user could make 50 API calls per second, unaware that they were consuming all of the service quotas. If users do not know that they are consuming all of their quotas, it is impossible for them to determine if they are using API quotas in an unsafe way.
+
+Do not rate limit APIs
+
+Do not rate limit underlying APIs
+
+Some service providers rate limit the services provided by the underlying APIs. For example, if an app needs to access a user’s email, the email service may have a quota of 50 per day. If the app uses an email service that is rate limited, the app may only be able to access the mail service’s 50 per day quota, even if it is acting as a client for another service with a different rate limit.
+
+Do not rate limit cross-origin APIs
+
+Cross-origin APIs are sometimes rate limited. For example, if an app that is calling an API needs to be hosted on a domain in a different domain than the API, the API may refuse to allow a rate limit for incoming requests for that domain. There are two possible approaches to this limitation: a consent-based approach, and a whitelisting approach. A consent-based approach requires the app to ask for the rate limit on each API call and handle rejection gracefully. A whitelisting approach allows the app to request the rate limit once, and if it is rejected, the app simply does not call the API.
+
+Do not rate limit HTTP methods
+
+HTTP Methods are the methods that a server would use to perform a transaction with a client. Common HTTP methods include GET, POST, PUT, and DELETE.
+
+Many services will have different quotas for each method. For example, cross-origin APIs may have different quotas for GET, POST, and PUT requests. When using an API with a rate limit, deciding which method to use is one of the decisions that a developer must make with a rate limit in mind.
+
+An alternative to rate limiting methods is to use the same rate limit for all methods. For example, a web app that needs to fetch some data may implement rate limiting based on the get method call, as well as the request method, and also may rate limit the request method across multiple different service endpoints. This informs the user that the rate limit is related to the request method.
+
+Do not use fake rate limits
+
+Rate limits for an API are usually set by the provider and may be manually specified or automatically determined. For example, an API developer may set a rate limit of 50 requests per second for all clients, and the provider may automatically adjust the rate limit based on the number of requests each client makes. If you need to rate limit an API, do not use a fake rate limit. A fake rate limit is an artificial limit that is not a function of the true number of requests and is not based on any underlying limit.
+
+The following best practices for implementing rate limiting help developers write secure APIs that adhere to this best practice:
+
+Do not use rate limits for other purposes
+
+A rate limit is a limit on the number of requests that can be made to an API. Rate limits exist to prevent abuse of the API, and should not be used for purposes such as managing access to an API internally.
+
+For example, a rate limit on number of requests

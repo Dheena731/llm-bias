@@ -1,0 +1,145 @@
+## Basic Operations
+
+### Maximum and Minimum
+
+#### Maximum
+
+The maximum value of a set represents the largest value in the set.
+
+#### Minimum
+
+The minimum value of a set represents the smallest value in the set.
+
+#### Absolute Difference and Equality
+
+The absolute difference between two sets is the difference between their maximum and minimum values. If the absolute difference is equal to zero, the two sets are equal in value.
+
+#### Symmetry
+
+The maximum and minimum values of a set may not be the same. If the maximum and minimum values are not the same, the set may not be symmetric.
+
+### Union and Intersection
+
+From the union and intersection of two sets, the following operations can be defined respectively.
+
+#### Union
+
+The union of two sets is the set of elements that are either in either set.
+
+#### Intersection
+
+The intersection of two sets is the set of elements that are in both sets.
+
+The union and intersection of two finite sets may not be sets.
+
+#### Empty Set
+
+The set of finite sets with only empty set as elements is called "the empty set".
+
+#### Empty Union
+
+The union of the empty set is the empty set.
+
+#### Empty Intersection
+
+The intersection of the empty set is the empty set.
+
+#### Empty Disjoint
+
+The empty set is disjoint with itself.
+
+#### Empty Set
+
+The empty set is disjoint with every set.
+
+#### Empty Intersection
+
+The empty set is disjoint with every set.
+
+#### Empty Union
+
+The union of the empty set is the empty set.
+
+### Complement
+
+The complement of a set is the set of elements that do not belong to the original set.
+
+#### Relative Complement
+
+The relative complement of the complement set is the original set.
+
+#### Defining Sets
+
+A set can be defined by the following three operations.
+
+#### Intersection
+
+The intersection of sets is the set of elements that belong to both sets.
+
+#### Difference
+
+The difference of sets is the set of elements that belong to the original set and the complement set.
+
+#### Union
+
+The union of sets is the set of elements that belong to at least one set.
+
+#### Complement
+
+The complement of a set is the set of elements that do not belong to the original set.
+
+#### Difference
+
+The difference of sets is the set of elements that belong to the original set and the complement set.
+
+## Equivalent Sets
+
+#### Example
+
+The following three sets are equivalent.
+
+### a)
+
+{1, 2, 3}
+
+### b)
+
+{1, 2, 3, 4, 5}
+
+### c)
+
+{1, 2, 3, 4, 5, 6}
+
+### d)
+
+{1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+#### Complement of a Set
+
+The complement of a set is a set of elements that do not belong to the original set.
+
+#### Example
+
+The complement of the set a) is b). The complement of the set c) is d). The complement of the set d) is e).
+
+#### Identity
+
+The identity of a set is a set consisting of exactly one element that belongs to the set and does not belong to any other set.
+
+The identity of the set is e) in the above example.
+
+#### Defining Sets
+
+The identity of a set is a set consisting of exactly one element that belongs to the set and does not belong to any other set.
+
+#### Examples
+
+1. The set of odd numbers is a.
+
+2. The set of natural numbers is b. The set of all even numbers is c.
+
+3. The set of even numbers is d. The set of all multiples of 2 is e.
+
+#### Example
+
+The set of odd numbers is a, the set of natural numbers is b, and the set of even numbers

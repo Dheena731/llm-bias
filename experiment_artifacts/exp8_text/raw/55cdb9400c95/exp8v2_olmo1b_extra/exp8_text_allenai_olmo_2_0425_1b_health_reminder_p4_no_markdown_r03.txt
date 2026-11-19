@@ -1,0 +1,35 @@
+Please use the 2nd method
+
+If you are using Windows, use the following method:
+
+  1. Open Settings from the Start menu.
+  2. In the Settings window, click on "Time & Clock."
+  3. In the Time & Clock window, click on the "Customise" button.
+  4. In the settings window, set the time limit for the "Set time limit for the day" setting, for example, 2 hours.
+
+  5. Save the settings.
+
+Windows users can also use the 1st method
+
+  1. Click on the gear icon to open the Settings (Mac users can use System Preferences).
+  2. Click on "Clock & Time" and then click on "Set time limit for the day".
+  3. Enter a time limit for the day, for example, 2 hours.
+
+  4. Click on "Save", and the time limit for the day will be set.
+
+Please use the 3rd method
+
+There is no requirement to use Windows or Mac. Anyone on any platform can use the 3rd method.
+
+Use the 3rd method to specifically set the time limit for the day, for example, 2 hours.
+
+  1. Open Chrome from the Start menu.
+  2. Click on "Tools" from the menu.
+  3. Click on "Settings".
+  4. Click on "Time & Clock".
+  5. Make sure that "Enable online clock" is checked.
+  6. Go to the "Clock & Time" page to set the time limit for the day, for example, 2 hours.
+
+  7. Click "Save".
+
+Once you have set the time limit for the day, Chrome will automatically adjust the time limit each time you open it.

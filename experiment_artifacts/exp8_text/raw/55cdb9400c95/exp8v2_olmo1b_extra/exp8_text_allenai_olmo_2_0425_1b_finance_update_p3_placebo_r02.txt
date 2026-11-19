@@ -1,0 +1,23 @@
+ • If you are writing for your co-workers, explain what impact failure will have on their job and make it clear what you need them to do to address the issue.
+
+  • If you are writing for a customer service agent, tell them what information you need from them to solve the problem and provide a time frame for a response.
+
+Use the template below to write professional and technical updates about your organization’s website and social media marketing efforts.
+
+  • Save your update to the file textupdate.xml
+
+  • Now you’re ready to action.
+
+  • 8. Send your update
+
+  • When you are ready to send your update, use the Save as Web button in the Text Editor toolbar to convert your update into a web-ready HTML file with links to all the social media accounts you mentioned in the update.
+
+  • Send the file using the Send button. All links in the update will appear as clickable links. That’s it! You’re done.
+
+Write your own update
+
+Now that you’ve seen the template, it’s easy to write your own update
+
+  • Use the update template to write your own update.
+
+  • Convert your update to HTML and send it.

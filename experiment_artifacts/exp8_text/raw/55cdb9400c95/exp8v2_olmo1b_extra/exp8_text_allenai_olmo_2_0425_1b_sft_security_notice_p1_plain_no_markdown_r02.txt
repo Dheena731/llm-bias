@@ -1,0 +1,3 @@
+Password reuse remains a significant threat to workplace security. Reusing passwords across multiple accounts not only puts your personal information at risk but also poses a risk to others. It allows attackers to gain unauthorized access to an account that has been compromised on one service and then access other services where the password is reused. This is a serious security issue that can lead to a data breach and steal sensitive information.
+
+In order to protect your personal information and prevent account compromise, please do not reuse passwords across multiple services. Instead, use unique, strong passwords for each account and enable two-factor authentication whenever possible. Remember: your password is your first line of defense against unauthorized access.

@@ -1,0 +1,5 @@
+We recommend scheduling maintenance windows immediately following business hours and on weekends. If possible, we recommend not scheduling maintenance windows during major holidays.
+
+To block the admin page, simply add the following to the file:
+
+@disallow /wp-admin/

@@ -1,0 +1,17 @@
+screenshot of the monthly spending summary screen
+
+What is the new feature?
+
+Rather than having a single page view with only a single summary, you’ll now have several pages: one for each month, with a detailed breakdown of the spending on each category.
+
+What are the benefits?
+
+In the old system, monthly financial tracking was written down on a single sheet of paper. This meant that there was a strong possibility that it would get lost somewhere, and it would be difficult to remember what was actually spent on a particular category. With the new feature, it’s easier to keep track of your spending, and you’ll have more information on the balance of your account.
+
+What are the limitations?
+
+There aren’t any limitations on the feature – it’s fully functional and is available for any account, as long as you’re listed as an owner on the site.
+
+What are the next steps?
+
+The next step is to enable the feature to be used on any account, by adding it to the site’s settings page. This will also enable those accounts to be listed as owners of the new page, so you can see your own monthly spending summary.

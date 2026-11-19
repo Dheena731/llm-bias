@@ -1,0 +1,72 @@
+Write text in the English language from 12 pm Eastern on November 8, 2020, until midnight on November 9, 2020. Do not edit this text after November 9, 2020.
+
+Use the following format for the lower half of tooltip text.
+
+  • Here is a heading.
+  • Here is some text.
+  • Here is some text.
+  • Here is some text.
+  • Here is some text.
+  • Here is some text.
+  • If this tool displays different text for the same data when the checkbox is checked, use a single linebreak after each word to make it easier to read for people who use screen readers.
+  • If you have a long tooltip that contains multiple lines, use a single linebreak after every four words to make it easier to understand for people who use screen readers.
+
+Use the following format for the upper half of tooltip text.
+
+  • Here is some text.
+
+Example text for tooltip
+
+Writing a tooltip that explains live data
+
+In a linked tool, such as a spreadsheet, an image, or a calendar, you can write the tooltip in the body of a cell or a table row. If you do this, make sure that the data source is live. See Live data sources for information about this.
+
+Writing a tooltip that explains a search result
+
+For search results, our search result description is a tooltip that tells the user about the reason that a given data source or data point was shown in the search. We use a custom approach (that is, not a simple table of data points) to ensure that the description is both meaningful and concise.
+
+For example, consider the following snippet of the search description for a data point.
+
+An example of a tooltip description. An example of a tooltip description.
+
+Here is a description of the tooltip text for this data point:
+
+Crystal Ball
+Created by a user named Brittany H.
+Data points are based on the average of a number of samples, which gives an average of the observed variation.
+Hover over the earlier data points to see their standard deviations.
+A measure of the variability in the data points.
+A measure of the dispersion of the data points.
+A measure of the distance of the data point from the mean value of the distribution.
+
+Writing text that explains a visual element
+
+We use tooltips and explanation tables to write descriptions for visual elements such as arrows, lists, border boxes, and color gradients. We always write the text in the body of a table, with no extra text outside of it. The table describes the data for each visual element.
+
+Here's an example of a tooltip that explains an arrow. We call it the "tooltip arrow" because it shows an arrow with small text underneath it.
+
+An example of a tooltip that explains an arrow. An example of a tooltip that explains an arrow.
+
+Writing tooltips for links to other tools
+
+We write tooltips that explain what a link does when it takes the user to another tool. We follow the same guidelines for the tooltip as we do for other tools that display data.
+
+For example, the tooltip text might say:
+
+Take me to the full version of our tool.
+
+Writing tooltips that explain a chart
+
+We write tooltips that explain the details of a chart when it contains visual elements such as bar graphs, pie charts, line graphs, and scatter plots. We follow the same guidelines as we do for other tools that display data.
+
+For example, the tooltip text might say:
+
+Here's an example of a pie chart. Here's an example of a pie chart.
+
+Writing tooltips that explain a spreadsheet
+
+We write tooltips that explain a list of data. We use them to explain the data that is in the spreadsheet or table. We follow the same guidelines as we do for other tools that display data.
+
+For example, the tooltip text might say:
+
+Hover

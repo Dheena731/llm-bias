@@ -1,0 +1,42 @@
+Format your tips using the Markdown syntax:
+
+Markdown Editing Environment
+
+You can edit your tip in the Wunderlist suggestion editor.
+
+  1. Open Wunderlist by clicking the Wunderlist icon on the taskbar.
+  2. Click the Suggestion Editor button near the bottom of the page.
+
+    Suggestion editor
+
+  3. Enter your tip in the text area.
+
+    Write your tip in plain text
+
+  4. Click the save button.
+
+Tip Tips
+
+Use the Suggestion Editor to add tips.
+
+You can add a tip to your Wunderlist to improve its experience. A tip is a short piece of advice you can give to a user.
+
+For example, you can add tips that help users organize their tasks or provide short hints that benefit the user. Note that not all tips are always useful, and you should not force other users to follow your tips.
+
+Tip Tips
+
+Submit Tips
+
+You can submit tips to Wunderlist by creating a new task.
+
+  1. Click the Suggestion Editor button near the bottom of the page.
+
+    Suggestion editor
+
+  2. Enter a task title and description, then click Save.
+
+    Tip Submission
+
+Tip Tips
+
+Thanks for your feedback!

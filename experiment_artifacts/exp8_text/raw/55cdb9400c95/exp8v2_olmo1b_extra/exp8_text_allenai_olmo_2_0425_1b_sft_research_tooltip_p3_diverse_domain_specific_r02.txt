@@ -1,0 +1,3 @@
+Date Range Selector Tooltip
+
+Navigate effortlessly between time spans with our Date Range Selector! Simply drag the slider to select any two dates, and the tool instantly finds the intersection, allowing you to compare or contrast events or performance data across different periods. Ideal for researchers, analysts, and bespoke applications, this user-friendly feature enhances your data examination experience, helping you elegantly interpret trends, and draw meaningful insights from your data.

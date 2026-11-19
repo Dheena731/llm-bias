@@ -1,0 +1,21 @@
+A phishing email is an email that appears to come from a legitimate source but is actually designed to trick you into giving up sensitive information. For example, if you see an email asking you to login to a website, it might be a phishing attempt to capture your username and password.
+
+There isn’t a single way to write a phishing email that accurately represents the risks and best practices of phishing. However, you can make the writing specific to your domain and distinct from generic AI-generated examples by focusing on the sender’s domain and avoiding generic language. Make sure you take a skeptical approach by asking yourself the following questions:
+
+  • Is the sender’s email domain familiar to me? Is it a real domain or a spoofed domain? If it’s a domain I recognize, are the emails from a real person or is this impersonation?
+  • Are the emails from a domain I recognize and did I give them my username and password?
+  • Does the sender ask for a specific action (e.g., log into a site or fill out a form)? If so, have I given this information to that person or domain before?
+  • Does the sender ask me to do something that I wouldn’t normally do? If so, what are the risks of doing so?
+  • Do the emails contain typos, spelling errors, or other grammatical mistakes?
+
+If the answers to these questions are no, then the email might be a phishing attempt. If the answers are yes, then the email might be a phishing attempt.
+
+Answering these questions doesn’t guarantee that you’re not being phished, but it can help you to be more confident that you aren’t being phished. You’re less likely to fall for a phishing attempt if you’re in control. To learn more about different types of phishing scams and the risks they pose, see our phishing overview.
+
+Your organization should have a clear and reliable way to report phishing emails in the event that you or someone else sees them. This will help you to know that the same emails are being reported and will reduce the likelihood that the organization gets spoofed in other ways.
+
+You should also have a strong email security policy in place that includes clear messaging about phishing attempts. This will help your employees to understand the risks and be more vigilant.
+
+Further Reading
+
+If you’re interested in learning more about phishing in the modern digital workplace, you can explore our videos, guides, and articles below.

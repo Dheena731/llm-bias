@@ -1,0 +1,11 @@
+- **Cache**: The storage of copies of data, such as files, in a way that reduces the need for repeat reads from the original source.
+
+- **Improving Performance**: By storing previously accessed data, a website can serve responses faster for the same requests, reducing server loads and enhancing user experience.
+
+- **Reduction of Latency**: Caching is faster than retrieving data from a slow database or an external server, which can result in quicker loading times for web pages.
+
+- **Saving Bandwidth**: Pre-loading content from distant servers reduces the need for frequent data transfers, which conserves bandwidth and lowers costs.
+
+- **Energy Efficiency**: By reducing the frequency of data transfers, caching contributes to lower energy usage as servers do not have to load and unload data as often.
+
+- **Increased Performance**: By reducing the server workload, caching enables the website to serve content more efficiently, leading to faster page load times and a more responsive experience for users.

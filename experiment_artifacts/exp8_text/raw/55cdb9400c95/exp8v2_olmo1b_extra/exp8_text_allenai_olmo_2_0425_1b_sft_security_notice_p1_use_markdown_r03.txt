@@ -1,0 +1,11 @@
+# Password Security: Password Reuse Warning
+
+In order to maintain the integrity of our employee password systems, we require all employees to create unique passwords for each account. Password reuse is not allowed, and if your password has been used on another account, please contact IT immediately to change your password.
+
+- **Avoid using the same password across multiple accounts**
+- **Keep your password confidential**
+- **Do not share your password with anyone**
+- **Remember your passwords are your responsibility**
+- **Regularly update your passwords**
+
+Remember, security starts with you!

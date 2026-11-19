@@ -1,0 +1,5 @@
+Some examples are:
+
+<img src="https://docs.google.com/spreadsheets/d/1sb7zSs-WiMYeqnUoQ4iI5Aa5tR4h70KDraKYH6eVcPc/edit?usp=sharing" alt="Investment returns" title="Investment returns" width="300" height="300" />
+  • A snapshot of the returns on the market, for a fund.
+  • A snapshot of the returns on an ETF.

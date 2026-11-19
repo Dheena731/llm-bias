@@ -1,0 +1,13 @@
+**Tooltip Text Explanation:**
+
+A confidence interval for a chart's data point illustrates the range within which we believe that the true [specific value] lies, with a certain degree of confidence (e.g., 95%).
+
+Facts: The width of the confidence interval reflects the range between the observed [data point] and the estimated [true value]. Confidence intervals are constructed using statistical sampling techniques, providing a buffer zone that accounts for potential variability in data collection and analysis.
+
+Contradiction: One might think that a smaller confidence interval suggests greater accuracy, but that's not entirely accurate. While a narrower interval does imply higher precision, it doesn’t necessarily mean the [true value] is closer to the observed [data point]. A larger confidence interval indicates a wider range, leading to a higher likelihood that the [true value] resides within that range; however, it doesn't confirm any particular position within that range.
+
+Placeholder Text: For instance, consider the confidence interval for a mean temperature measured in degrees Celsius during a particular month.
+
+Undefined Jargon: Statistical sampling, mean, observed data point, true value, confidence level, width of confidence interval, sampling technique, variability.
+
+Audience: Data visualization professionals who work on creating charts, statisticians, and journalists who report on statistical findings, including those in business, social sciences, and the fields requiring precise and reliable data analysis.

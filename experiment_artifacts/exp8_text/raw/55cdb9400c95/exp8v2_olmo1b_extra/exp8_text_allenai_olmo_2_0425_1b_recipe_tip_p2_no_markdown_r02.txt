@@ -1,0 +1,10 @@
+ 1. Yes, you can use Markdown to markup your article. For example:
+    * An asterisk is a markup for `bold`.
+    * A pound sign is a markup for `emphasized`.
+  2. No, the only supported markup in this page is the above Markdown syntax. Be sure to check the "Examples" section for syntax examples.
+  3. There is no limit on how many articles you can create, and we encourage you to make them.
+  4. Not yet.
+
+What experiences have you had with this site?
+
+More questions?

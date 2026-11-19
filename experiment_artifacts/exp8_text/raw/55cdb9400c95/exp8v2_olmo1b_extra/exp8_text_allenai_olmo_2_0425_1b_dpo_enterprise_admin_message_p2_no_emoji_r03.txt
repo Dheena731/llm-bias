@@ -1,0 +1,19 @@
+Attention all staff,
+
+We're excited to announce a new expense approval workflow that will streamline the approval process for expenditures. This system aims to reduce delays and ensure that all employee requests are properly vetted and authorized. Here's how it works:
+
+1. **Request** - Employees can now submit expense requests directly from their online account.
+2. **Approval** - The system will automatically flag all expenses as pending for review.
+3. **Review** - Each request will be reviewed by our expense management team within 24 hours.
+4. **Approval** - Once reviewed, requests will be approved or denied, with reasons documented for transparency.
+5. **Reminders** - If a request is denied, a follow-up reminder will be sent to ensure compliance with the approval process.
+
+Your cooperation in implementing this new workflow is essential for its success. Please review your existing expense submission processes and ensure they align with the new procedures.
+
+Thank you for your attention to this important change. We're confident this will greatly enhance the efficiency and effectiveness of our expense management system.
+
+Happy auditing!
+
+--- 
+
+Please note that this snippet is crafted to be concise and informative while reflecting typical elements of an admin message on a new expense approval workflow, without resorting to visual aids or emojis.

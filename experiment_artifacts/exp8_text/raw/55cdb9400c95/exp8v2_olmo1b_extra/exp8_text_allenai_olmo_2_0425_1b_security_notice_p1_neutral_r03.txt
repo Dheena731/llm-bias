@@ -1,0 +1,58 @@
+How to prevent password reuse: Avoid commonly used passwords, use a unique password for each site.
+
+3. Password reuse to avoid account takeover
+
+This one is a bit obvious. As explained previously, if a website is compromised, an attacker can gain access to your email account. It's possible to reset your password if you have a recovery email, but it's not the best thing to do. So we have a problem. How do we avoid losing access to our accounts?
+
+Solution: Using new passwords, avoid password reuse
+
+The best advice for this is to use unique passwords for every website, so you aren't leaving yourself vulnerable. By using a different password for each site, you'll never have access to both.
+
+Password reuse is a big deal, because the attacker only needs to guess one of the passwords to gain access to critical systems in all of your accounts. Using a unique password for each site is the best way to avoid account takeover, as well as reduce the impact of a successful attack.
+
+4. Don't reuse the same passwords, they're compromised
+
+Fraudsters have tools that can enable them to retrieve a password from a large database of compromised passwords. If your password is found on the list, it's useless. You can't choose a new password that is the same as the previous one, because you've used the same password for every account.
+
+Unfortunately, it's not possible to achieve this level of password security. If you've read the previous articles, you'll understand what I mean. We have to start somewhere.
+
+So how can we solve the problem of password reuse?
+
+Solution: Use a password manager
+
+Password managers are great because they create unique passwords for each account, and you don't have to remember any of them. There are many password managers that support your needs, from free ones to premium ones, so pick the one that's right for you.
+
+5. Password reuse: the state of the password manager
+
+Password managers are a great solution to avoid password reuse, because you don't have to remember any passwords. There are a couple of downsides:
+
+  • Password managers are typically not supported by browsers, so you have to download and install the app.
+  • Password managers are typically cloud-based, so if you're not using a computer to access your data, then the password manager doesn't work for you.
+  • Password reuse: the state of the password manager
+
+The best solution is to use the password manager on your desktop. The only downside is that you'll have to remember one password, which isn't that bad. There are ways to solve this problem, such as using a password manager on your smartphone as well (using the same password manager on both devices).
+
+6. Password reuse: using a password manager to get out of this problem
+
+So how can we use this to our advantage?
+
+First, we need to realize that we can't download a password manager to all of our devices. We need to have just one password manager on a small number of devices.
+
+This means it's easier to remember the password manager than the individual passwords. We could use this to solve the problem of password reuse, as long as we don't use the same password for multiple accounts.
+
+
+Password reuse is a big problem because it's really easy to fall for phishing. Phishing has a large impact on the businesses, governments, and society as a whole. It has an impact on you as well, as long as you're not using the same password for every website. Password reuse can be solved by creating unique passwords and using a password manager.
+
+If you enjoyed this article, you might also be interested in
+
+Password management: Setting up a password manager
+
+Should you use two-factor authentication?
+
+About the author
+Armand Wiebe
+
+Armand Wiebe
+
+
+View all my posts →

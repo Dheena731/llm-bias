@@ -1,0 +1,29 @@
+I would like to write a brief description in the tooltip of a date-range selector.
+
+It would be something like:
+
+"Starting from Monday, 1/1/2020 to Sunday, 3/31/2020"
+
+I've searched the documentation and did not find any tooltip suggestion for a date-range selector.
+
+I already have tooltip suggestions like:
+
+"End of..." and "Beginning of"
+
+
+If the date range is exactly 1 day, you can use the following:
+
+<%= date_range(1) %>
+
+but if you want to include something like "ending on Saturday, 1/1/2020" you need to adjust the way you include the date range.
+
+I suggest using the following format:
+
+<%= date_range(1) %> ...
+
+where the "..." is the placeholder for other values to be inserted in your date range. You can implement it as follows:
+
+<%= date_range(1) %>
+<%= date_range(1, 'Saturday') %>
+
+Note that a final '%>' renders as a single & symbol.

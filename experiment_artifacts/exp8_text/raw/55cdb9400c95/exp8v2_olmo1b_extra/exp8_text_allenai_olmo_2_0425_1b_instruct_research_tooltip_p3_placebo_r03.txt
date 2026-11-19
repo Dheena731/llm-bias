@@ -1,0 +1,14 @@
+A date-range selector lets users quickly filter through data based on dates. When you see a date-range picker inside a software application or web element like a dropdown list for selecting specific dates, this tool makes it simple for users to filter out records based on dates that fall within the given range. For instance, if users want to see all documents from a certain month of 2023, they simply select the "2023-04" option and the system will show only those records.
+
+**Key facts:**
+* **Selection Type:** The date-range selector usually appears as a dropdown list or a circle with a plus button.
+* **Functionality:** It enables swift filtering of content (like browsing through emails or invoices) based on a specified date range.
+* **Accessibility:** It's essential for creating accessible interfaces, as it helps users who rely on assistive technologies to understand their options.
+* **Usability:** Properly designed, it enhances usability, making it easier for users to find what they need quickly and confidently.
+
+**Jargon Explained:**
+- **Date Range Selector:** A feature embedded within an interface allowing users to select dates from a predefined span, typically used in applications for sorting, filtering, or organizing data.
+- **Accessibility:** Ensuring that the feature is compatible with different types of user assistance needs, including those with disabilities that may affect how they interact with this type of interactiveness.
+- **Undefined Jargon:** Terms such as "assistive technologies" and "jargon" are placeholders as the context of an actual tooltip using these terms would depend on the specific design and usage scenario.
+
+In summary, a date-range selector is a crucial interactive element in digital interfaces, empowering users to easily focus on relevant data and making navigation efficient and accessible.

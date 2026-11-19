@@ -1,0 +1,105 @@
+You may use this template to help you write the note:
+
+#### Business name: An app for this
+
+A short description of the app and its use case. 
+
+This is a great app for customers who want to do this and that.
+
+This app is available for iOS and Android.
+
+#### Features
+
+A list of features are here:
+
+- New
+- New
+- New
+- New
+- New
+
+#### Screenshots
+
+Screenshots are here:
+
+![Screenshot 1](img/screenshot-1.png)
+![Screenshot 2](img/screenshot-2.png)
+![Screenshot 3](img/screenshot-3.png)
+
+#### Availability
+
+This app is available in both the App Store and Google Play.
+
+#### Installation
+
+To install the app, first, visit [App Store](https://itunes.apple.com/us/app/blahblahblah/id1234567890) or [Google Play](https://play.google.com/store/apps/details?id=com.example.android) and then download the app.
+
+#### Rating
+
+This is a great app. It has received a 4.0 out of 5 stars rating.
+
+#### Pricing
+
+This app is free.
+
+#### Testimonials
+
+A quote from a customer:
+
+"I really like this app."
+
+[Insert link to where the customer said that]
+
+#### Contact
+
+If you have any questions about this app, please contact us at [email](mailto:http://email.com) or [phone](tel://phonenumber)
+
+### Example
+
+#### Example app: A calculator
+
+A short description of the app and its use case. This is a great app for customers who want to calculate numbers and perform simple math.
+
+This app is available for iOS and Android.
+
+#### Features
+
+- Add
+- Subtract
+- Multiply
+- Divide
+- Reset
+
+#### Screenshots
+
+![Screenshot 1](img/screenshot-1.png)
+![Screenshot 2](img/screenshot-2.png)
+![Screenshot 3](img/screenshot-3.png)
+
+#### Availability
+
+This app is available in both the App Store and Google Play.
+
+#### Installation
+
+To install the app, first, visit [App Store](https://itunes.apple.com/us/app/blahblahblah/id1234567890) or [Google Play](https://play.google.com/store/apps/details?id=com.example.android) and then download the app.
+
+#### Rating
+
+This is a great app. It has received a 4.0 out of 5 stars rating.
+
+#### Pricing
+
+This app is free.
+
+#### Testimonials
+
+A quote from a customer:
+
+"I really like this app."
+
+[Insert link to where the customer said that]
+
+#### Contact
+
+If you have any questions about this app, please contact us at [email](mailto:http://email.com) or [phone](tel://phonenumber)

@@ -1,0 +1,5 @@
+Example query results
+
+Page 1: A histogram with confidence intervals
+Page 2: A bar chart showing a confidence interval
+Page 3: A bar chart showing a confidence interval

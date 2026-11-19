@@ -1,0 +1,10 @@
+A database index serves as a structured lookup table within a database schema, optimizing data retrieval and manipulation by reducing the number of disk I/O operations necessary. It accomplishes this by storing a subset of the data rows from the main table, typically the columns that are frequently searched or segmented by those columns, and storing this information in a special structure called nodes. When a database query involves any of the indexed columns, the database engine can quickly retrieve the results because it has directly stored the data in the index, bypassing the need to scan the entire table.
+
+Here's a concise explanation:
+
+- An index on a column speeds up data retrieval.
+- Instead of scanning the entire table, the database engine uses the index entries to find the relevant rows.
+- This reduces the time needed for queries that involve specific columns.
+- The index can be created for columns that are frequently searched, improving data retrieval time and database performance.
+
+In summary, indexes are like a roadmap for your database, helping to expedite the process of finding and processing data.

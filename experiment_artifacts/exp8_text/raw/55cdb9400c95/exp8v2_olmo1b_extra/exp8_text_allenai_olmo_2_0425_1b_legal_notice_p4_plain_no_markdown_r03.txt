@@ -1,0 +1,20 @@
+Provide a brief explanation of each item in the list. Use the following as a guide:
+
+  • The text "It does not qualify for the full refund" is too short to provide the information necessary.
+  • You should describe why this item does not qualify for the full refund. This may include, for example, that the item has not been used, or that it has been used a certain amount.
+  • You should also explain why the item is eligible for the full refund, e.g. because it has not been used, or because it has been used a certain amount.
+
+
+
+Use a single line of text for each item in the list.
+
+Do not use a bulleted list.
+
+Provide explanation for every item in the list.
+
+
+The third party has agreed to the refund policy, but did not give a refund in this case.
+
+The item was not used, but it was not completely used.
+
+The item was used a certain amount.

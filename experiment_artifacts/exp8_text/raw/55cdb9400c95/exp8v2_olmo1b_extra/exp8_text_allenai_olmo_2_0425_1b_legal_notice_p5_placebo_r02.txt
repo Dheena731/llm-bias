@@ -1,0 +1,33 @@
+ • 1
+    The 2008 RICO Act example answer is a excellent exemplar for what I'm referring to: The U.S. Government, which controls the criminal and civil court systems, and who can be seen as a single entity (even though there are many different departments), is an example of a non-hierarchical organization. – Sergio Tulentsev May 19 '12 at 1:38
+
+I think there is something you can learn from your copy in the first place.
+
+
+I don't agree that you should remove the hierarchy because this is only one example and one way to think about the hierarchy. The fact that it is different from the rest of the document doesn't justify the assumption that the document should have a single structure (there are some). The reader will understand that that's only one example and maybe could infer that the rest of the document is organized in another way.
+
+Regarding the hierarchy of this page: I'd say you've made a mistake in the beginning. It's better to divide the text in paragraphs, divide the paragraphs in sections (with headings), divide the sections in subsections (with subheadings) and so on. This way you don't need to mention the hierarchy in the document. My example document is here:
+
+
+  • 1
+    +1: This is the most professional answer in the whole discussion. – Morten May 19 '12 at 12:10
+  • 1
+    I'd be happy to make it the top answer. – Morten May 19 '12 at 12:11
+
+A hierarchy is a fixed concept. It is not a property that is subject to change or variation. If you use more than one, then the document can be torn apart by anyone who knows what hierarchy is, and expects the document to be structured in a single structure.
+
+  • 7
+    +1 for the real answer. This: "A hierarchy is a fixed concept. It is not a property that is subject to change or variation." is very true, it is also the reason why hierarchy itself is a bad idea on the internet. – k3b May 19 '12 at 7:05
+
+The hierarchy is a restriction in how you organize a document. If you remove it, it is no longer a constrained hierarchy. The hierarchy is a way to constrain the structure of the document to a fixed form so that the reader (human or computer) can expect the document to have a certain structure.
+
+If you remove the hierarchy, you also remove the expectation that the document will have a certain structure. The resulting document may be in a completely different structure. There is no longer any meaning to the document's structure.
+
+  • 3
+    "The resulting document may be in a completely different structure." - Maybe, maybe not. You can remove all the non-essential hierarchy in the document and have it end up in the same place, because the reader is free to take note of the hierarchy only when necessary. – k3b May 19 '12 at 7:09
+  • 1
+    @k3b: The reader may make note of the hierarchy as it fits into the overall structure. For example, mentioning the page number when referring to a section that appears after it, or including a table where it is first mentioned. – Morten May 19 '12 at 12:13
+  • 1
+    Pointing to some element of a hierarchy or even to some element directly after it in a document is not an indication of hierarchy. – k3b May 19 '12 at 12:38
+  • 1
+    @k3b: Especially when it

@@ -1,0 +1,86 @@
+2. What is the difference between a web server and a web browser?
+
+Both the web server and the browser are responsible for delivering a user’s request to a website.
+
+The web server is the one that has a website on it. It is basically a computer that’s set up to receive requests from a browser.
+
+The browser is the software that sends requests to a web server. Typically, browsers are also used for other things like sending email and checking social media accounts.
+
+3. Can you explain how a web browser works?
+
+A web browser is a program designed to handle requests from web servers. There are a few different types of browsers:
+
+  • Browsers for the web: Firefox, Chrome, Safari, IE, Opera, and Edge
+  • Browsers for other things: Google Chrome Browser, Yahoo! Browser
+
+4. What are some examples of web browsers?
+
+Some examples of web browsers include:
+
+  • Google Chrome
+  • Mozilla Firefox
+  • Apple Safari
+  • Opera
+  • Microsoft Edge
+
+5. What are the different types of web browsers?
+
+There are a few different types of web browsers. Here are a few examples:
+
+  • Internet Explorer (IE)
+  • Apple Safari
+  • Mozilla Firefox (FF)
+  • Google Chrome
+  • Opera
+  • Microsoft Edge (formerly Internet Explorer)
+
+6. What is Microsoft Edge?
+
+Microsoft Edge is a type of web browser that comes with Windows 10.
+
+It’s often recommended over Internet Explorer 11 because it’s said to provide a better experience when it comes to security and performance.
+
+If you’re using a computer that was created in the last few years, it’s likely that you have Microsoft Edge installed on it.
+
+7. What is the difference between a web browser and a search engine?
+
+A search engine is a website that helps people find information about something online. It might be a website that helps people find websites that offer information about a certain topic.
+
+A web browser is the program that people use to visit websites. If you’re using a computer that’s connected to the internet, it may have a web browser installed on it.
+
+Some examples of web browsers include:
+
+  • Microsoft Edge
+  • Google Chrome
+  • Mozilla Firefox
+
+8. What is the purpose of a web browser?
+
+The purpose of a web browser is to allow users to visit websites and view information on them. Some examples of web browsers include:
+
+  • Firefox
+  • Chrome
+  • Safari
+  • Internet Explorer
+
+9. Why is it important to have a good web browser?
+
+Having a good web browser can be really important because it helps you access websites easily. It can also help you stay safe online.
+
+10. What are the main features of a web browser?
+
+The main features of a web browser include:
+
+  • Security – It prevents you from being hacked or attacked by malicious software.
+  • Support for various devices – It allows you to view content on devices like smartphones and tablets.
+  • Easy to use – It’s easy to navigate and get around on a web browser.
+
+Wrapping Up
+
+The best way to answer these questions about web browsers is to actually use them. Once you use them, you’ll find that they’re a lot easier to use and much more helpful than you thought they would be.
+
+If you’re still not sure about how to use a web browser, don’t worry! There are lots of tutorials online that can help you get started, or you can learn how to use a browser on your own by following some basic instructions.
+
+In the meantime, don’t forget to bookmark this article so that you can quickly find it whenever you need it. If you have any questions about web browsers, feel free to ask in the comments below!
+
+Leave a Reply

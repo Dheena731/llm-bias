@@ -1,0 +1,5 @@
+*Web application* performance is heavily influenced by **latency**, which is the measure of delay between a user's request and the delivery of a response from a web server. Here are some key reasons why latency matters:
+- **User Experience**: Long latency can lead to frustrating user experiences as pages load slowly, impacting patience and engagement.
+- **Session Duration**: Every millisecond counts in maintaining user sessions, as each one can be pivotal in decision-making (e.g., whether to stay on a page or leave due to slow loading).
+- **Traffic Handling**: Higher latency can lead to increased server load, potentially slowing down overall traffic handling and impacting scalability.
+- **Cost Efficiency**: Delays can significantly increase operational costs, as bandwidth usage and server response times factor into bandwidth and infrastructure expenses.

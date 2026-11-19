@@ -1,0 +1,34 @@
+Subject: Important: Beware of Phishing Emails
+
+Dear Team,
+
+Please be cautious and vigilant when receiving unsolicited emails, especially those claiming to be from external sources or containing urgent requests for sensitive information. These phishing attempts aim to trick you into revealing personal or financial details.
+
+Phishing emails often mimic legitimate sources, such as our company or trusted service providers, but they are fraudulent. Here are a few key points to remember:
+
+### Characteristics of Phishing Emails:
+
+- Urgency: Demands immediate action or threatens repercussions if ignored.
+- Lack of Personalization: Does not address you by your full name or contain specific job-related details.
+- Suspicious Links: Contains URLs that are not related to the claimed sender.
+- Attachments: Often sends unsolicited attachments, which could contain malware.
+
+### Protective Measures:
+
+- **Verify Sender:** Always check the sender's email address and compare it to official contacts you know are legitimate.
+- **Never Click on Links:** Hover over links to see the actual URL. If suspicious, go directly to the official website by typing the address into your browser.
+- **Don’t Open Attachments:** Avoid opening unexpected attachments from unknown sources.
+- **Use Two-Factor Authentication (2FA):** Add an extra layer of security to your accounts, making it harder for hackers to gain access.
+- **Stay Informed:** Stay updated on common phishing tactics by regularly reviewing our security resources and best practices.
+
+### Reporting Phishing Attempts:
+
+If you receive a phishing email, do not respond to it or click on any links. Forward the message to the IT department at `<PRESIDIO_ANONYMIZED_EMAIL_ADDRESS>` immediately.
+
+Thank you for your cooperation. We are committed to maintaining a secure and productive working environment.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Contact Information]

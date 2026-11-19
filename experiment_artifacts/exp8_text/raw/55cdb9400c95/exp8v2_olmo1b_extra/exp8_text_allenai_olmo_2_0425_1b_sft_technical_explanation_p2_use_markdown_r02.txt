@@ -1,0 +1,11 @@
+### What Does a Database Index Do?
+
+- **Facilitates Efficient Data retrieval:** An index acts as a shortcut for the database to quickly locate and retrieve specific data.
+- **Reduces Search Time:** As it enhances the speed of data retrieval, it reduces the search time.
+- **Saves Space:** Much less data needs to be stored for efficient retrieval.
+- **Improves Query Performance:** It speeds up data access by enabling faster data retrieval.
+- **Enhances Data Retrieval Speed:** The database can find the matching data more quickly.
+- **Data Consistency:** It helps maintain data consistency and accuracy.
+- **SQL Query Optimization:** Helps optimize SQL queries, resulting in more efficient database operations.
+- **Reduces Disk I/O:** By speeding up the data access process, it reduces the time and space needed for disk I/O operations.
+- **Boosts Database Performance:** It boosts the overall performance of the database system.

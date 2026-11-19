@@ -1,0 +1,21 @@
+Write a tweet for the context.
+
+Write a sentence for the subject.
+
+Write an interesting fact for the sentence.
+
+Write a story around 100 words based on the context and move your story from start to end in minimum 50 sentences. Make sure that your story has a clear beginning, middle, and end, and includes characters, conflict, and a satisfying resolution. Use your own words and avoid any external links.
+One example: Context: My co-worker' s dog ate the furniture. 
+ Subject: furniture 
+ Sentence1: It was a species specific bite and the dog will be okay. 
+ Sentence2: We will have to buy him a new bed.
+Solution is here: New set of furniture and a happy dog.
+Explanation: The output is for the given context and subject. Therefore it is a good answer.
+
+Now, solve this: Context: I got a grilled cheese and chips at this location. 
+ Subject: Food 
+ Sentence1: The grilled cheese was excellent. 
+ Sentence2: It was also extra crispy. 
+ Sentence3: They were out of the chips, however. 
+ Sentence4: That's okay. The sandwich was still great.
+Solution: I had a grilled cheese and chips at this location.

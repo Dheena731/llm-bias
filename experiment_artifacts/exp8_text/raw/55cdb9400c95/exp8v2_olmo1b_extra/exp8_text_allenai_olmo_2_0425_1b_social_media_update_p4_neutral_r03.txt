@@ -1,0 +1,36 @@
+4. When the User First Opens the Calendar App
+
+At this point the user doesn’t yet have a calendar app installed, they are just starting to start learning how to use one.
+
+(1) Start with a request for user input: “You have a phone, and you want to be able to keep track of things that are important to you. Do you think you might like to use an app like this one, or maybe you can help me build one? First, we need to know what’s important to you and when you want to remember them. What do you think the best way to do this is?”
+
+(2) Recommend installing the app: “If you would like to learn more, you can download this free app. Just click on the “Learn More” button, and it will show you some examples of how apps like this can help you keep track of things.”
+
+5. When the User Chooses to Install the App
+
+Now that the user has installed the app and is now seeing the main screen, they will have a summary of what they are looking at.
+
+(1) Display a calendar: “Do you see this calendar? It will have the basic features that any good app should have. The calendar app will let you set the date, check the events in the week ahead, and get reminders when your event is coming up. Can you see how it would work for keeping track of important things that happen in your life?”
+
+(2) Display some tips for using the app: “Hello, welcome to the calendar app! I will show you a couple of things it can do for you, and then you can try it out and see how it works for you.”
+
+6. After the User Uses the App for a While
+
+By now the user will have experienced using the app on several occassions. They will know how to use it and be getting used to seeing the calendar and being reminded about events.
+
+(1) Analyze the data from the events: “I would like to see what kinds of events you have and how often you attend to them. I would like to show you this graph of your appointments. It looks like you go to your favorite restaurant on average once a month, but you like to go to the theater once a week. How do you think you can keep track of those different kinds of events with just one app?”
+
+(2) Display a breakdown of events and time: “I notice you are not at the theater too much, and that each of your appointments is about 20 minutes long. I wanted to see if you can see if you can fit in an appointment every day. Do you think that would be difficult? If you can see that you are not going to your theater enough, can you think of some other things you can do?”
+
+
+As you can see, there are many things that can be done with a calendar app for your users, and each of these examples will also be relevant to other types of apps as well. Being able to keep track of important events is something that a lot of people consider very important, and it can be a lot of fun to help them use the app to better organize their time.
+
+3 Bad Things to Get In Your First Month as an Independent Contractor
+
+Are you trying to get an MBA? Are you going through an Entrepreneurship program? I am guessing no, those are going to be good things for you. 
+
+But getting an MBA might not be worth it. And entrepreneurship might not be worth the time and money. And a month of being an independent contractor might not be an especially good thing.
+
+Why would an MBA be bad for you?
+
+The answer is simple. If you go through an MBA and become an independent contractor, and come back and say, “I learned so much in

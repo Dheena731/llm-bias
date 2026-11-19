@@ -1,0 +1,9 @@
+Your message is not formatted correctly. Please check your formatting and input in plain text.
+The format should be: | Subject | Location | Time | Expense | Negotiated | Receipt | Amount | |:--:|---:|---:|---:|---:|---:|---:|
+The subject is not formatted correctly.
+The location is not formatted correctly.
+The time is not formatted correctly.
+The expense is not formatted correctly.
+The negotiation is not formatted correctly.
+The receipt is not formatted correctly.
+The amount is not formatted correctly.

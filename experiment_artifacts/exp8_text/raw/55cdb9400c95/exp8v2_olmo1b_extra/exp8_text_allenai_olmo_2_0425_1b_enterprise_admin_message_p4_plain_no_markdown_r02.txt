@@ -1,0 +1,1 @@
+Write a short maintenance notice about how to send an ERU for a PTF. Do not use emoji, Markdown, headings, bullets, numbered lists, bold text, italic text, tables, decorative symbols, or links. Copy and paste the text from the Office Assistant help article.

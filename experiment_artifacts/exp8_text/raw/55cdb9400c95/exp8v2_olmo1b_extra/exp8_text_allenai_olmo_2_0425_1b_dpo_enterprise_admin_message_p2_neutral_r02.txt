@@ -1,0 +1,38 @@
+**New Expense Approval Workflow**
+
+Attention all Admins,
+
+We have recently introduced a new expense approval workflow to enhance our financial management processes. Our new system, titled "CostArmor," automates and streamlines the verification and approval of all expenses reported by our teams.
+
+**Key Features:**
+
+1. **Automated Submission:** All expenses are now automatically flagged for review when submitted.
+   
+2. **Smart Defaults:** Our system applies intelligent defaults to help speed up the approval process. For example, if the authorized person is set and the expense type is generally approved, CostArmor automatically recommends approval.
+
+3. **Approval History:** Each expense is tagged with a trackable approval status, ensuring transparency and allowing for easy review history.
+
+4. **Multi-Step Approvals:** Our new workflow allows for multi-step approvals, where decisions can be set up to require two, three, or more approvals from different team members based on the nature of the expense.
+
+**How to Apply:**
+
+1. Log into your admin account.
+2. Navigate to the CostArmor dashboard.
+3. Click "Review & Approve" -> "New Expense".
+4. Fill out the necessary details.
+5. CostArmor will automatically suggest the appropriate approval steps and complete the initial verification.
+6. If needed, you can further review, confirm, or deny the expense and designate the appropriate person for the next step.
+
+Our goal with the CostArmor system is to increase the accuracy and efficiency of expense approvals while providing our teams with streamlined reporting and management tools.
+
+If you have any questions or need further assistance, please reach out to our support team.
+
+Thank you for your attention and cooperation in adopting this enhanced expense approval workflow.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]
+
+**Disclaimer:** This message is a hypothetical example crafted for illustrative purposes. Actual company communications might differ based on internal processes, language, and the specifics of the adoption of CostArmor or any other expense management software.

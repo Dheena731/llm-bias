@@ -1,0 +1,38 @@
+This template should work on the first attempt. The output is usually pretty good with a little editing.
+
+You will need to use your own email address to evaluate the results – and evaluate them you will!
+
+
+What is this task?
+
+You’re going (back) to work. Your first job is to draft a warning email to your colleagues about a phishing attack that’s been targeting your company.
+
+Take a look at the following email:
+
+Notice how the sender (bcc), IP address (from IP), and sender’s domain are different from the address displayed to you? That’s because it’s sent from a spoof email address. It looks like it’s coming from ‘’ but it’s actually from ‘’. It could also be from an address that looks like your own email address, but with one slight difference like ‘’ instead of ‘’.
+
+How do you spot these things when you’re dealing with a real email?
+
+Pay attention to the email address shown to you.
+
+The sender’s email address should be the same as the ‘From’ address. If it isn’t, the email is likely a spoof. The sender’s email address should also not be, for example, your own email address with a slight difference like ‘’ instead of ‘’.
+
+Analyse the email address
+
+If you receive a phishing email, check the email address of the sender.
+
+If the email address is obviously spoofed, like ‘’ instead of ‘’, that’s a good indication that it is a phishing email.
+
+Check to see if the email is coming from an unfamiliar email domain.
+
+Phishing emails often come from unfamiliar email domains (most often, email domains that are not legitimate businesses) or from email domains that are similar to the company you’re working for.
+
+Look for unusual and/or suspicious links
+
+Phishing emails often contain links to unusual or suspicious web addresses, so check the links in the email.
+
+If you have any doubts about the authenticity of a link, don’t click it. Instead, contact your IT department or a colleague who knows more about email so they can help you verify the link’s authenticity.
+
+Look for grammatical and spelling mistakes
+
+If the email contains grammatical and spelling mistakes, this is another good indication that it is a phishing email.

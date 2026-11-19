@@ -1,0 +1,21 @@
+You can use a single-line table to explain how the query works:
+
+   | Query | Results in textual form |
+   |--------|-------------------|
+   | query|                 |
+   | data |                 |
+   | data |                 |
+   | data |                 |
+   | data |                 |
+
+If the mapping is not very intuitive, use a more elaborate table:
+
+   | Query | Results |
+   |--------|---------|
+   | query|         |
+   | data    |         |
+   | data    |         |
+   | data    |         |
+   | data    |         |
+
+Don't use SPARQL.

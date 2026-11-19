@@ -1,0 +1,7 @@
+Formatting Requirements
+
+  1. Title: write your name, course, and the date
+  2. Heading: write one line with the heading text
+  3. Bullet points: write a new bullet point for each subheading
+  4. Each bullet point should be a link to a web page
+  5. Use 4-space indent and a double space after bullets and headings.

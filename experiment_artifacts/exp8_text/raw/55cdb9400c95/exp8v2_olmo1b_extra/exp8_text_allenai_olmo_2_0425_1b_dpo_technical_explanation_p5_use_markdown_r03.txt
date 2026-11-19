@@ -1,0 +1,19 @@
+# API Rate Limit Explained
+
+**What is an API Rate Limit?**
+An API rate limit is a policy imposed by an API provider to restrict the number of requests an authenticated user or a client can make within a given time period. This is designed to prevent overwhelming the system, manage resource usage, and ensure fair access to the API.
+
+**Key Points:**
+- **Authenticated Users:** Limits typically apply to users who have been granted access through authentication mechanisms such as API keys, tokens, or OAuth tokens.
+- **Requests Per Timeframe:** Common limits include 1,000 requests per hour, 5,000 requests per day, or 30,000 requests per 15 minutes.
+- **Excess Requests:** Violations of the limit may result in rate limiting fines, temporary bans, or increased latency.
+- **Configurable:** Service providers often have configurable settings allowing users to request higher limits for specific applications or user groups.
+- **Customization:** Some providers offer custom rate limits based on unique usage patterns, thus providing flexibility in managing access.
+
+---
+
+**Important Considerations:** 
+- **Understanding Limits:** It's crucial to read and understand the specific rate limit policy to avoid unexpected shutdowns or degradation of service.
+- **Logging:** Keeping track of requests can help in managing and optimizing your API usage within the limits.
+- **Grace Periods:** Some limits allow for a grace period in which requests are counted towards the limit after the time limit has started, especially during peak usage periods.
+- **Monitoring:** Implementing monitoring tools can help identify patterns of excessive requests and take preemptive measures before reaching the limit.

@@ -1,0 +1,47 @@
+If you want to keep all your notes in the same place, you can use a web application like Evernote. It's very easy to set up, so you simply create a notebook for each task you want to track and use it like any other notebook.
+
+You can write a note about a specific task you have to do or use it for general ideas. To enter a note, you just use the note keyboard shortcut (CTRL + N). If you do a web search from this note, the search won't be logged, so you can avoid accidentally sharing information from your security system.
+
+5. Set a default suspect
+
+Do you want to set a default suspect for a group of people? Are they all proven to be wrong for some reason? Use the tool below to create a suspect group.
+
+Alternatively, you can use a list of people who you consider to be the culprit, so use the tool below instead.
+
+6. Add a deadline
+
+As an end user, it's great to be able to know the deadline for certain tasks. With the Deadline tool, you can keep track of when the tasks should be finished.
+
+The tool is surprisingly easy to use. Just click the blue button and the date will automatically be inserted in the corresponding drop-down menu. The system will also automatically create an alarm if you don't finish your task by then.
+
+One thing to bear in mind is that there is no support for older versions of Firefox or earlier. However, the developers have been working hard to add support for older versions of the browser, so if you use an old version of the browser, you may be able to use the Deadline tool.
+
+7. Set up an event reminder
+
+One of the tools on the web that we've always wanted to see is an event reminder, a tool that allows you to set an event and receive an email whenever the task is due.
+
+While there are already a few different event reminder tools, none of them are free. So, we've decided to create our own for free. The tool is called Reminder, and it's really simple to use.
+
+When you create an event, all you need to do is set a task, the date and a reminder frequency. You can set up as many reminders as you need, and you can even set different levels for the reminders.
+
+Once you've set the reminders, you can receive an email whenever the task is due. Alternatively, you can use the desktop app to receive reminders on your computer.
+
+8. Know when a task is due
+
+Have you ever had to ask yourself: when am I supposed to do this task at work? If you want to have a better understanding of when tasks are due, there is a tool called Time Out (which is also a real-time chat software) that can help you.
+
+Basically, all you need to do is enter your tasks into the Time Out list and have a look at the due dates.
+
+You can also set a default due date for all the tasks, so if you have a deadline, you can use the tool to set it.
+
+9. Manage who sees your notes
+
+Do you want to keep your notes secret from your colleagues? There is a tool called Hide Notes that can help you do this. All you have to do is create a note, and then add the usernames of the people you want to keep the note secret from.
+
+Once you've added the usernames, you can perform tasks like deleting the note or editing it to show or hide the usernames. It's not as good as having a dedicated note manager, but it is a good way to keep your notes private.
+
+10. Create a join request
+
+Do you want to use your notes in a group discussion or collaboration? That's why there is also a tool called Join Request that can help you do this.
+
+All you need to

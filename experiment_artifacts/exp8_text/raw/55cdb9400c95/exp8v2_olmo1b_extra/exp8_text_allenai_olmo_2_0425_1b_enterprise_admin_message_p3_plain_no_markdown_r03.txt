@@ -1,0 +1,50 @@
+Write a short message announcing a change to the VPN server.
+
+Write a short message announcing a change to the VPN client.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write short messages announcing a change to the VPN client.
+
+Write short messages announcing a change to the VPN server.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write a short message with a link to a change page. The change pages should be:
+
+  • a __Change page__ should contain the following contents:
+    • a __Change link__ that looks like this: <a href="/docs/changes/3.0.0">Change to 3.0.0</a>
+  • a __Change page__ should contain the following contents:
+    • a __Change link__ that looks like this: <a href="/docs/changes/3.1.0">Change to 3.1.0</a>
+  • a __Change page__ should contain the following contents:
+    • a __Change link__ that looks like this: <a href="/docs/changes/3.2.0">Change to 3.2.0</a>
+  • a __Change page__ should contain the following contents:
+    • a __Change link__ that looks like this: <a href="/docs/changes/3.3.0">Change to 3.3.0</a>
+  • a __Change page__ should contain the following contents:
+    • a __Change link__ that looks like this: <a href="/docs/changes/3.4.0">Change to 3.4.0</a>
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+
+Write a short message announcing a change to the VPN client.
+
+Write a short message announcing a change to the VPN server.
+
+Write in plain prose. Do not use emoji, Markdown, headings, bullet points, numbered lists, bold text

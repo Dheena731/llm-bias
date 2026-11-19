@@ -1,0 +1,37 @@
+Remember the rule for the email address: https://nuxeo.io/docs/faq/i18n-email-address.html
+
+The subject line is the first subject of the email message. This should be in English and should not be a request for help. It should not include any special characters.
+
+Example:
+
+Subject: Thank you for your email, we'll migrate your email on Monday.
+
+The body of the email can include any content that you would otherwise include in the email.
+
+The body of the email should start with a link to the email notification page.
+
+Example:
+
+We are migrating your emails, please click the link below to monitor the progress.
+
+You can include a link to a progress table or to a progress graph. The table or graph can be on the same page, or it can be on a the same page as the email notification page. It should be accessible to the user and not be hidden by any other content.
+
+Example:
+
+Email migration queue:
+
+Progress data:
+
+https://nuxeo.io/docs/faq/complete-email-migration-datadatas/#step1
+
+The email can include any HTML content.
+
+However, we recommend to limit the HTML content and only include code that is necessary for the user to understand the migration.
+
+[Link]
+
+🔗 Migration support
+
+Email migrations are done on a daily basis. Therefore, your email migration will not be accepted for a couple of hours.
+
+Do not use "accept" or "reject" in the email migration process. We also suggest to not use any email subject line.

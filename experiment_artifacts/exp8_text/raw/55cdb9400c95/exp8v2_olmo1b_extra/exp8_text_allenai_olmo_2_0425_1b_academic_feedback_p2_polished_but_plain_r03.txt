@@ -1,0 +1,3 @@
+These features are best left to our sister platform Stack Exchange, where they do not interfere with the readability and usability of the student's work.
+
+While we have not run any performance tests, we expect that the use of these features should not degrade the overall experience.

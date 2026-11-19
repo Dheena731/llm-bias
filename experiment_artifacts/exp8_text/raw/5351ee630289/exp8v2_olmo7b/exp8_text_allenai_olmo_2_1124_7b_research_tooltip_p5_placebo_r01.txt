@@ -1,0 +1,37 @@
+Introductory sentence: To see the results of your search for organizations in Boston, you can click the Export tab in the Search Results page
+
+This shows results for organizations in Boston. To see these results in a spreadsheet, click the Export tab at the top of the page.
+
+To import data from this page into Excel, click the Export tab at the top of the page.
+
+To download the results of this search in CSV format, click Export at the top of this page.
+
+To download the results of this search in JSON format, click Export at the top of this page.
+
+To load the search results into a Google spreadsheet, click Export at the top of this page.
+
+To create a new spreadsheet with this data, click Export at the top of this page.
+
+To view the data from the JSON response, click Export at the top of this page.
+
+To extract the email addresses from this search, click Export at the top of this page.
+
+To create a report of these results, click Export at the top of this page.
+
+To view a list of the search results in plain text, click Export at the top of this page.
+
+To generate a list of search results based on the provided template, click Export at the top of this page.
+
+To create a report of these results, click Export at the top of this page.
+
+To get the list of these results in a different format, click Export at the top of this page.
+
+To get the list of these results in a Google spreadsheet, click Export at the top of this page.
+
+To get the list of these results in an Excel spreadsheet, click Export at the top of this page.
+
+To get the list of these results in a CSV file, click Export at the top of this page.
+
+To get the list of these results in a tab-delimited file, click Export at the top of this page.
+
+To get the list of these results in a JSON file, click Export at the

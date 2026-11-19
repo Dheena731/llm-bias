@@ -1,0 +1,13 @@
+Phishing emails are not part of acceptable workplace communication and will be treated as breaches of policy.
+
+Phishing emails are attempts to deceive users into revealing sensitive information by disguising as trustworthy sources. Such messages often mimic legitimate organizations and can arrive via email, instant messaging, or other communication channels. They typically contain links and attachments that, when clicked, can compromise personal data and login credentials, enable unauthorized access, or lead to malicious websites.
+
+The following actions will be taken to mitigate the risk of phishing attacks within our organization:
+
+- Employees are encouraged to be vigilant and critically examine all incoming communications for signs of phishing.
+- The use of email filtering and antivirus software will be enhanced to detect and block phishing attempts.
+- An internal training program will be rolled out to educate and reinforce awareness on recognizing and reporting suspicious activities.
+
+The safety and security of our organization's digital assets are paramount. We prioritize open communication among employees to identify and resolve potential security threats promptly. Any individual who recognizes a phishing attempt and decides not to report it can expect to be encouraged to do so by team leaders.
+
+We will continue to monitor phishing trends and adapt our security measures as necessary. Please report any phishing attempts or suspicious activity via the designated reporting system. Our commitment to preventing unauthorized access and maintaining the integrity of our information systems is without compromise.

@@ -1,0 +1,25 @@
+Again, use the links to see what others have written to help you develop your own workplace security policy.
+
+Make sure you make reasonable attempts to enforce password use, and that your form of enforcement does not intentionally leave loopholes. For example, you may consider requiring passwords that are not too long, or that are based on a combination of characters and a word, to help keep passwords from being trivial. But these limitations may make it difficult to log in to systems that use other mechanisms such as two-factor authentication.
+
+For encryption, make sure your hardware and software provide clear controls and usage instructions. Be sure that any security programs you buy protect sensitive information, and that they update automatically.
+
+Security vulnerabilities
+
+Some examples of security vulnerabilities are listed below. Other, more specific examples are available if you look at other links in this document.
+
+  • If you are a government employee, your contracts may require you to use a specific email address, and/or have a specific password (e.g., for your confidentiality work, or to access classified material). You may also be prohibited from using a password that others in your organization may easily guess, such as the name of your immediate supervisor, or the name of a town. You should ensure that you are not using these instructions. Even if you aren't using the specific address or password, you should still take precautions against others knowing your address or password.
+  • If you are running Windows, unless you are using an official Windows update, you may have some security vulnerabilities that other users of the system can use.
+  • If you are using a personal computer, make sure you're using a firewall on your computer, and that you have a modern anti-virus program.
+  • If you are using a smartphone, make sure that you have the latest model of your operating system and you are using the most recent version of your security software.
+  • If you are using a tablet or other mobile device, make sure that your software provider provides you with a device for accessing the device's operating system.
+  • If you are using a computer remotely from a public place, such as a hotel room, make sure your software provider provides you with an authentication method that you can access from a trusted location.
+  • If you are using a laptop, make sure that you are using a full-size laptop cover for protection against people who may try to crack your laptop.
+  • If you are using a laptop, make sure that you don't leave your computer on when you are not using it, and make sure that you turn on your laptop when you bring it into a room where you are going to use it.
+  • If you are using a laptop, make sure that you use the most recent version of your operating system, and make sure that you install any security updates when they become available. Make sure that you don't leave your computer running when you aren't using it, and make sure that you turn on your laptop when you bring it into a room where you are going to use it.
+
+If you are using a local area network or VPN, use security software. Limit the number of computers you log into, and only allow access when you need to access the computer. If you can use a local area network or VPN to access a computer that someone else uses, make sure that there is no way for the computer to be used to hack into your computer.
+
+Leave a comment
+
+Your email address will not be published.

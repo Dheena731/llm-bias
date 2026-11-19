@@ -1,0 +1,22 @@
+Subject: Enabling Two-Factor Authentication
+
+Dear [User],
+
+We want to ensure your account remains secure, which is why we are informing you about the enhancement of our security measures with the introduction of two-factor authentication (2FA). This additional layer of protection helps safeguard your account by requiring a second form of verification beyond just your password.
+
+To begin benefiting from this increased security, please follow these straightforward steps:
+
+1. Log in to your account as usual.
+2. Navigate to the "Settings" section.
+3. Locate and select the "Security" subsection.
+4. Find and activate the "Two-Factor Authentication" option.
+5. Choose the preferred method of additional verification (e.g., SMS, Authenticator App).
+
+After enabling 2FA, you will be prompted to set up your chosen verification method during your next login process. This will ensure that only you have access to your account, even if someone else obtains your password.
+
+By utilizing two-factor authentication, you are taking an important step towards preventing unauthorized access to your account. We encourage you to enable this feature for your peace of mind and the protection of your data.
+
+Thank you for your cooperation and continued trust in our services.
+
+Best Regards,
+[Your Company Name] Team

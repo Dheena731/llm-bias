@@ -1,0 +1,13 @@
+```markdown
+# Dataset Filter
+
+This dataset filter allows researchers to narrow down data exploration by selecting specific columns or filtering by conditions. 
+
+- **Select Columns**: Choose which columns (attributes) to include in your analysis by clicking and dragging them into the selected pane.
+  
+- **Filter Conditions**: Specify conditions using operators like `=`, `>=`, `<`, `>`, etc., to filter records based on criteria.
+
+- **Advanced Filters**: For more complex filtering, use boolean logic with `&` and `|`.
+
+This feature enhances data insights by enabling focused and targeted exploration.
+```

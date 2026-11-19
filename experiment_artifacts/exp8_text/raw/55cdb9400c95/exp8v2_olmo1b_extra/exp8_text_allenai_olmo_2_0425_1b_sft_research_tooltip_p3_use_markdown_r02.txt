@@ -1,0 +1,20 @@
+Tooltips are small pieces of text that appear on web pages when users hover over an element. Below is a concise tooltip explanation of a date-range selector:
+
+Tooltips are small pieces of text that appear on web pages when users hover over an element. Below is a concise tooltip explanation of a date-range selector:
+
+- **Format:** Tooltips can be formatted using HTML elements like `<title>` or `<h2>` tags, or CSS properties like `:hover` or `:focus` to control hover actions.
+- **Description:** If you want to explain the purpose or function of the date-range selector, you can do so using a brief description in the tooltip text. This can provide users with quick context before they interact with the date-range option.
+- **Example:** An example tooltip might look like this:
+  ```
+  Tooltips are small pieces of text that appear on web pages when users hover over an element.
+  - **Format:** Tooltips can be formatted using HTML elements like `<title>` or `<h2>` tags, or CSS properties like `:hover` or `:focus` to control hover actions.
+  - **Description:** If you want to explain the purpose or function of the date-range selector, use a brief description in the tooltip text. This can provide users with quick context before they interact with the date-range option.
+  - **Example:** An example tooltip might look like this:
+  ```
+
+In Markdown, you might write:
+```
+Tooltips are small pieces of text that appear on web pages when users hover over an element. If you want to explain the purpose or function of the date-range selector, use a brief description in the tooltip text. This can provide users with quick context before they interact with the date-range option.
+```
+
+If this question was meant for a different context or if you need additional information, please let me know!

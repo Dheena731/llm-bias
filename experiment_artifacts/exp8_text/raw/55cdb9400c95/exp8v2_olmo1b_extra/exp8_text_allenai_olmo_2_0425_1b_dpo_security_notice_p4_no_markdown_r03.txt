@@ -1,0 +1,8 @@
+Hello everyone! We are excited to announce that our website now offers two-factor authentication (2FA) as an additional layer of security for our users. With 2FA enabled, you will receive a unique code on your mobile device each time you log in, which you must enter on our website to complete the authentication process. This extra step will help protect your account even if your login information is somehow compromised.
+
+Enable 2FA now by visiting our settings page and clicking on the 'Additional Security' tab. No changes are required on your end; we handle all the necessary security measures for you. This feature is designed to enhance your privacy and security while using our services.
+
+Thank you for your commitment to protecting your personal information. We appreciate your support and appreciate your continued use of our platform.
+
+Best regards,
+[Your Company Name]

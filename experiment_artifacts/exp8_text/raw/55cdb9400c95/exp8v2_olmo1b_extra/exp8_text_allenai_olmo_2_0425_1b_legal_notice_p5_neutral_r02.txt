@@ -1,0 +1,17 @@
+If you have one or more computers in your office, you will probably use the facility for your own personal use, but you will also expect to share it with others, such as visitors with laptops.
+
+Make sure that you have obtained the appropriate permission from the Network Administrator before you do anything with the network. If a visitor is expected to share a computer with you, also obtain permission from your boss.
+
+Try to avoid adding additional computers to the network without asking permission first. Although you may not be sharing information with your employer, you may be sharing it with third parties (for example, your clients) in violation of company policy.
+
+If a visitor's computer becomes inoperable (e.g. because it had been used to download pornographic materials), have them turn it off and leave it alone until they can get it fixed. They should not be allowed back into the building until their computer has been repaired.
+
+Allow visitors to have the same privileges as you do on your network. Don't put your boss's password on their computer. Don't give them your password either.
+
+If you have too many people on the shared computer, you need to separate your jobs. One way to do that is to allow users to "tag" their jobs (similar to "triaging" in the medical field). Tagging is very simple: it is a way of saying that when you are using a computer for a certain job, you are the only one who can use that computer until you are done with it. This prevents all other users from using the computer until the job is done, thus reducing computer usage and keeping everyone happy.
+
+A system administrator usually polices the shared network. The Network Administrator should know what is allowed and what is not. For example, all users should have a valid username. A guest computer should not be allowed to use any of the shared services. If you have a small network, you may only need one Network Administrator to handle it. But in a larger organization, you may have many people working on different projects at the same time. This makes it difficult for a single person to keep track of everything.
+
+This is where a network configuration management system such as Nova comes in. A NCM is a software package that allows you to keep track of all users and their permissions. It helps you do more with less. For more information, see our article on Network Configuration Management
+
+This article has been adapted from the book "Hacking & Cracking Wireless Networks" by Richard Stiny and Bill Pribyl. Copyright 2004. Published by No Starch Press. Permission is granted to print and distribute this article as long as it is not edited or altered in any way.

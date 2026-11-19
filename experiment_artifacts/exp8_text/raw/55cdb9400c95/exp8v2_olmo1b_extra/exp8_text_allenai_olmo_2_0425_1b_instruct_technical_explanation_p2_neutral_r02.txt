@@ -1,0 +1,13 @@
+A database index is a data structure created during data retrieval operations that speeds up the search process for specific values within a table. Unlike tables themselves, which store data in rows (records) and columns (fields), indexes focus on the specific fields that are queried frequently. Here’s a short explanation of what an index does:
+
+1. **Speed Up Database Queries:** When a database query is issued, the query optimizer—a component of the database management system (DBMS)—applies various strategies to find and return the most efficient way to retrieve data. One of these strategies includes creating and improving indexes on data columns that are frequently searched for.
+
+2. **Organize Data:** Beyond speeding up searches, indexes organize the data within a table, making data retrieval more efficient. Instead of scanning through every row in a table to find a specific value, an index can quickly locate the row (or a subset of rows) where the queried value exists.
+
+3. **Reduce Disk Reads:** By enabling faster searches, indexes reduce the number of disk reads, which can be particularly beneficial in large tables or when the query involves multiple fields being searched.
+
+4. **Prevent Full Table Scans:** In some database systems, particularly with older database models or when tables grow large, full table scans occur where every row from the table is read into memory for processing. An index can mitigate this by allowing for more targeted scans, reducing the amount of data read.
+
+5. **Disk Space Efficiency:** Although indexes consume disk space, they are more efficient when used in conjunction with other optimization techniques like indexing and clustering, as they help reduce the need for full table scans.
+
+In summary, a database index improves the speed and efficiency of database searches by reducing the number of disk reads and minimizing the need for a complete scan of the entire data set. This is especially critical for large datasets or queries where speed and memory efficiency are paramount.

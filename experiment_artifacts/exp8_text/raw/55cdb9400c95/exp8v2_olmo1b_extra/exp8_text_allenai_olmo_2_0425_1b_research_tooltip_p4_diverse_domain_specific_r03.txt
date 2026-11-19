@@ -1,0 +1,97 @@
+Choose a style:
+
+* Bullet points are okay.
+* Do not use words like "hence" or "therefore".
+
+* A specific example of usage to explain the behavior. This could be from a Wikipedia:WikiProject or a formal patent application.
+* Explain what causes the behavior and what properties the user can specify.
+
+* Describe how to configure the behavior, without giving specific examples. This can be from a user manual.
+* Use “When <condition>, then <action>” if possible. This is a more specific format than a list of actions that happens upon the occurrence of the condition.
+
+Create a clear and concise tooltip that provides more information.
+
+Provide a link to the respective documentation.
+
+* Copy the exact text from the example (without names).
+* Copy the exact text of the action (without names).
+* Add the name of the condition and action, to make the tooltip more concise.
+
+* Add the name of the condition to the tooltip.
+* Add the name of the action to the tooltip.
+
+Provide further explanation about the expected behavior.
+
+* Provide an alternative example, to avoid the described behavior.
+* Provide a way to disable the described behavior.
+
+* Provide a link to the relevant documentation, to add more information.
+* Provide a way to remove the described behavior, to add more information.
+* Provide a way to send feedback, to add more information.
+* Provide a way to report an issue, to add more information.
+
+If you're just starting, take a look at the following examples:
+
+Create an object
+
+
+Create a new function
+
+
+Create a widget
+
+
+Now that we know what our app can do, let’s create a simple app with it. We’ll learn how to create a new application in Python and a new object in the application’s objects module, which will have the objects we created before.
+
+Start a new project in your code editor. Copy the following text and save it. This is the code for the new app.
+
+import Pensieve
+import Pensieve.pensieve
+
+class Login(object):
+    """The login class that will implement the login functionality."""
+
+    def __init__(self, login_email, login_password):
+        """The __init__ function initializes the object with the login email and password."""
+
+        Pensieve.pensieve.Login(self.login_email, self.login_password)
+
+    def sign_in(self):
+        """The sign_in function runs when the user is ready to login."""
+
+        Pensieve.pensieve.Login(self.login_email, self.login_password)
+
+    def logout(self):
+        """The logout function runs when the user is ready to log out."""
+
+        Pensieve.pensieve.Login(self.login_email, None)
+
+Note that the Pensieve.pensieve module is imported here. This gives us the functionality for the Pensieve library.
+
+Create a new object in the Pensieve library
+
+Now that we’ve created our app, let’s create a new object that is based on our app. Copy the following text and save it.
+
+import Pensieve
+
+class Login(object):
+    """The login object that will implement the login functionality."""
+
+    def __init__(self, login_email, login_password):
+        """The __init__ function initializes the object with the login email and password."""
+
+        Pensieve.pensieve.Login(self.login_email, self.login_password)
+
+    def sign_in(self):
+        """The sign_in function runs when the user is ready to login."""
+
+        Pensieve.pensieve.Login(self.login_email, self.login_password)
+
+    def logout(self):
+        """The logout function runs when the user is ready to log out."""
+
+        Pensieve.pensieve.Login(self.login_email, None)
+
+“Here’s what I learned from this piece”
+
+The Pensieve library — which you can use to control your app’s behavior — is based on the Pensieve framework that allows an app to

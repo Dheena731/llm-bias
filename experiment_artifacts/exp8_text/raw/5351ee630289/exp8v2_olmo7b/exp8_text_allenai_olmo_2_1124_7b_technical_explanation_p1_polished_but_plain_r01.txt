@@ -1,0 +1,44 @@
+There are no newlines between paragraphs. Please remove them and place each paragraph directly on the next line.
+
+Leaving PRs open when work isn't done
+
+I opened a PR on a repo from one of my peers and it was almost immediately closed as "Needs Review." A quick follow-up message revealed that he wanted me to finish the work before the PR could be approved. I was under the impression that reviewers were responsible for providing feedback on PRs, not approving them. I thought that was why we had a "Needs Review" status in our PRs. I understand that we aren't expected to do everything for you, but I don't understand why I can't open a PR and then call you over to approve it later.
+
+This is the second time this has happened with PRs from this peer. I understand that everyone might have different standards and expectations, but this kind of behaviour is pretty much the opposite of team work.
+
+I don't want to get in trouble or upset anyone, but I really would like a bit of clarity on this.
+
+
+It's all in the wording
+
+TL;DR: "Needs Review" means "Needs review if you plan to merge this". "Needs Merge" means "Needs review before you merge this". There's no such status as "Not yet reviewed" or "Needs feedback".
+
+The difference in wording is a reflection that you should be making your PRs mergeable. This means that when you open a PR, you should write it so that no further work is required to get it merged. This can be done a number of ways.
+
+  • Add all required documentation.
+
+  • Make sure all tests pass.
+
+  • If this is a breaking change, add a deprecation warning and/or migration guide.
+
+  • If this is a bugfix that changes API, make sure it is backwards compatible.
+
+  • If this is a feature, make sure it is backwards compatible.
+
+This wiki page from GitHub will give you more details about how to write good PRs.
+
+There are a few exceptions where mergeable PRs aren't possible. For example, if this is a breaking API change, you may want to hold off merging it until you've released a new major version. If this is a 3rd party dependency, you may not be able to add test coverage around it.
+
+Good contribution etiquette
+
+It's all about the community. If you are new to a project, read the community guidelines and make sure you understand how people work together.
+
+  • Before submitting a PR, ask for feedback in the issue.
+
+  • If the feedback is negative, then don't take it personally and make changes you think are needed.
+
+  • If the feedback is positive, then make the changes you need to make to get your PR merged.
+
+The goal is to make sure the community knows what your PR is doing, and that it's ready for merge.
+
+I would suggest asking your peer how he wants to work. Does he prefer code reviews? Does he prefer discussion? Does he prefer to pull in PRs that are ready for merge, or does he want to make changes to the PR while it's open? This will make it easier for him to work with you for the future.

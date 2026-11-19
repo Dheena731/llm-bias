@@ -1,0 +1,35 @@
+Do not write your own custom markup.
+
+The entire prose version of your documentation should not break Markdown compatibility.
+
+Use inline links to point to other sections of the documentation. To create a link, surround the text to be rendered as a link with the ampersand symbol (&) and follow the text with the targeted URL. For example:
+
+This is a link to the documentation on how to use the library.
+
+Links can be highlighted by using the escape character (e.g. &#38;) before the target URL. For example:
+
+This is a link&#38;to the documentation on how to use the library.
+
+You must not use nested links with backlinks. For example:
+
+This is a link&#38;to the documentation on how to use the library.&#38;to the documentation on how to use the library.
+
+If you would like to use images within your documentation, you can use the inline syntax to specify the URL of the image. For example:
+
+See our documentation&#38;on how to use the library&#38;for more information.
+
+Inline references don't render as links.
+
+Use the complete HTML syntax for images, links, and other inline elements. You must not use CSS or any other tools to create or modify the appearance of documentation.
+
+Do not add descriptions or explanations for images.
+
+Do not use numbered lists within the prose version of the documentation. Instead, use numbered lists within the markup.
+
+Do not use tables within the documentation. You can use ordered and unordered lists, for example, lists that are used to organize content in a list.
+
+Do not enter PDF or DOCX files into your documentation.
+
+Do not enter code blocks.
+
+Do not begin documentation with a heading.

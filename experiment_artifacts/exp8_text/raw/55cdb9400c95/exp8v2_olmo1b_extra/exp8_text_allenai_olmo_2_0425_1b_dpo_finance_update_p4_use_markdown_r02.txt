@@ -1,0 +1,23 @@
+# End-of-Year Tax Statement
+
+**Heading:**
+- **Total Income:** Reviewed and summarized for the year.
+- **Expenses:** Identified and categorized, including personal, business, and investment-related costs.
+- **Credits Owed:** List of any tax credits claimed, such as childcare or mortgage deductions.
+- **Total Tax Liability:** Calculated based on income and deductions, indicating the amount paid to the government.
+- **Refund or Balance:** Differences between the amount paid and the tax liability, if any.
+- **Notes:** Additional comments or explanations related to the year's financial activities.
+
+**Bullet Points:**
+
+* **Total Income:** $120,000
+* **Expenses:**
+  * Rent: $6,000
+  * Groceries: $1,800
+  * Professional Services: $3,000
+* **Credits Owed:**
+  * Childcare: $400
+  * Mortgage Interest: $1,000
+* **Total Tax Liability:** $5,000
+* **Refund/Balance:** $500 (Paid more than owed)
+* **Notes:** Paid $500 more than expected due to unexpected bonuses.

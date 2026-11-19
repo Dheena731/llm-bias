@@ -1,0 +1,5 @@
+Use prompt text as the very first sentence only, then continue with your own natural wording.
+
+Image description: A chart showing monthly spending. It is divided into 3 categories: rent $594, food $215, utilities & misc. $270, total $1089. For this budget there is a surplus of $1189 because total income is $1189.
+
+Example output: My monthly budget is looking great! My income is $1,189 and my expenses are only $1,089 so I have an extra $100 each month to save or spend on hobbies or whatever I want.

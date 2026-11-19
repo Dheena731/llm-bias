@@ -1,0 +1,9 @@
+Attention all users: 
+
+We have recently enabled two-factor authentication across all of our platforms. This additional layer of security requires a verification code sent to your phone in addition to your regular username and password. 
+
+To begin using two-factor authentication, you must visit the "Settings" page on our site and go to the "Security" tab. Here you will see an option labeled "Enable Two-Factor Authentication". Click the button to activate this feature. 
+
+If you do not see this option or have any trouble with your account, please contact our support team at help@mystore.com. 
+
+We hope you will find this additional security useful. Thank you for your continued trust in our service.

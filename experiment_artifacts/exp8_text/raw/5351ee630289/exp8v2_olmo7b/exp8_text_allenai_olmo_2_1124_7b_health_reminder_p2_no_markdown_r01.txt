@@ -1,0 +1,3 @@
+If you write a note, you should add a title and a reminder.
+
+Do not use Markdown formatting2.

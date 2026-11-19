@@ -1,0 +1,15 @@
+```
+# Date-Range Selector
+
+This tooltip describes the functionality of the date-range selector, allowing users to select a specific date range in the calendar view.
+
+- **Types**: Highlights two types of date ranges: 'All Dates' and 'Specific Date'.
+- **Filtering**: Users can filter dates to include or exclude specific time periods.
+- **Customize**: Allows users to manually adjust the start and end dates for more tailored selections.
+- **Search**: Features a search bar to quickly find dates in the selected date range.
+- **Select Start & End Dates**: Enables users to choose specific dates to view or apply to their task or event schedule.
+- **Clear Selection**: Clears the date range selections when multiple dates are selected, returning to the default view.
+- **Selection Color Coding**: Differentiates between dates for better visibility and easier navigation.
+- **Help Text**: Provides concise explanations of each option for accessibility.
+
+This tooltip is designed to be informative and easy to understand, offering quick guidance to users on how to effectively use the date-range selector.

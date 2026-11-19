@@ -1,0 +1,19 @@
+# Conference Poster Draft Feedback
+
+## General Comments
+- The poster's design is clean and professional.
+- The layout is organized, with clear headings and easy-to-read text.
+- Colors are consistent, but could benefit from some contrast for better readability.
+- Graphics are of good quality, but it would be helpful to have more context about their relevance.
+- The text blocks are concise, which is good for readability, but some areas could be shortened or simplified.
+
+## Specific Suggestions
+- Consider adding a subtitle for the top-left graphic to clarify its purpose.
+- Add clearer captions to the side images and legends to enhance understanding.
+- The call-to-action button should be prominent and visible to help guide attendees.
+- For the table, consider using a more standard format (e.g., numbered rows) to improve clarity.
+- Discuss the relevance of each infographic for the target audience and make adjustments accordingly.
+- Add a small legend or title for the infographics to avoid confusion and improve accessibility.
+- Ensure that all text within the poster is high-contrast and legible, especially in areas with minimal whitespace.
+- Provide a summary or quick overview of the poster's main points to aid in understanding on the first pass.
+- Note any additional materials or resources that should be included in a larger PDF version of the poster for attendees to easily access.

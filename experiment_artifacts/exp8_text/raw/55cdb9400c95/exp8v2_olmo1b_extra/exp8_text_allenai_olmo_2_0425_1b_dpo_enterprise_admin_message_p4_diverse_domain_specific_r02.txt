@@ -1,0 +1,34 @@
+Attention domain admins,
+
+As part of our ongoing commitment to ensuring the highest standards of service and security, we’re pleased to inform you of our quarterly access review process. These reviews are designed to identify and resolve any potential security risks or compliance issues that may arise over the course of the quarter.
+
+**When do our quarterly reviews take place?**
+
+Our quarterly access review processes occur every three months. Don’t worry; you won’t be overwhelmed by a tidal wave of notifications! Instead, this is a timely opportunity for us to meticulously assess access permissions, monitor user activity, and ensure that our systems remain secure and up-to-date with the latest best practices.
+
+**What can you expect during the review period?**
+
+During this time, you can expect the following:
+
+1. **Identification of Needs:** We will pinpoint any users or roles that might require additional scrutiny, ensuring any enhance monitoring or access control measures are in place.
+   
+2. **Audit of Access:** Detailed reviews of user permissions and the logic of your access controls will be conducted. This includes examining access routes, permissions granted, and the flow of data, ensuring it aligns with our security policy.
+
+3. **Resolution of Concerns:** Any identified issues will be addressed promptly. This could mean updating access levels, disabling unnecessary permissions, or in some cases, reassigning users to roles that better fit their responsibilities.
+
+**How can you prepare for the review?**
+
+To help us in our review process, we kindly request the following:
+
+- **Review Permissions:** Ensure that your user permissions and access logs are up to date and accessible for review.
+  
+- **Document Changes:** If you’ve made any changes to access controls in the last quarter, documentation is invaluable. This includes understanding the rationale behind each change.
+
+- **Notifications:** If you’ve received notifications from us related to access issues in previous quarters, please review these communications and provide any confirmed updates.
+
+**Your cooperation and attention to these important notices are greatly appreciated. We’re committed to safeguarding and enhancing our domain’s security and enjoying a seamless experience. Should you have any questions or concerns, please do not hesitate to contact our support team.
+
+Thank you for your dedication to maintaining the integrity and security of our domain, and we look forward to continuing our trustful partnership.
+
+Sincerely,
+[Your Domain Admin Name]

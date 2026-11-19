@@ -1,0 +1,11 @@
+New code is always better and faster than old code. But, going over old code, or new code that has not been tested enough, is a waste of time and a source of bugs. Make sure each code snippet is tested and production ready.
+
+When you write code, you should always write test code in addition to your production code. Write unit tests for each class (including any other classes it uses as dependencies. Write integration tests that verify the behavior of a class working with a large, complex system. And write end-to-end tests to verify the behavior of the entire system.
+
+When you write tests, you should always write unit tests in addition to your production code. Write integration tests for each subsystem (including any other subsystems it uses as dependencies), writing end-to-end tests for the entire system. Write JavaScript unit tests for your JS and CSS assets. Write unit tests for your HTML templates. Write unit tests for any user-facing error messages. In general, write tests for everything that could break. Do not test for things that you know won’t break, like the rendering of a basic page.
+
+Code should be readable and easy to understand. Do not use personal pronouns like “I” or “me” in place of proper names or class names. Do not use fancy, rare words or abbreviations in place of plain English. Avoid using HTML tags in your code. Write code that is as generic and simple as possible.
+
+Do not launch prod sites on dev sites. This behavior can introduce bugs and introduce security issues. Instead, launch prod sites on staging sites. Use staging sites to deploy the production code to. Use staging sites to test the deployment of prod sites. Avoid using prod sites for testing.
+
+Avoid using Twitter Bootstrap in production. No part of Bootstrap should be used in a production site. The Bootstrap CSS code must be stripped out before the site is deployed to prod.

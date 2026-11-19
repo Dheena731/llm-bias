@@ -1,0 +1,1 @@
+Suggested Output: In order to protect your account, enable two-factor authentication (2FA). With 2FA, you are required to provide an additional security factor when logging into your account. For instance, when logging into Gmail, go to your Google account settings and enable 2FA by clicking here.

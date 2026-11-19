@@ -1,0 +1,5 @@
+If you want to highlight a sentence, you can do that by putting it on a line by itself. To create a link, include the URL in single quotes. For example, if your post is at, you could write:
+
+If you want to create a link to a movie, instead of a URL, use a movie title. For example:
+
+You can get a list of all available formats by clicking on the "News Format Links" drop-down box in the right-hand sidebar and selecting the "All" option. All of the formats are described in some detail in the "News Format Links" section of the Default News Format layout.

@@ -1,0 +1,1 @@
+Do not use tabs or non-Microsoft syntax in the HTML file.

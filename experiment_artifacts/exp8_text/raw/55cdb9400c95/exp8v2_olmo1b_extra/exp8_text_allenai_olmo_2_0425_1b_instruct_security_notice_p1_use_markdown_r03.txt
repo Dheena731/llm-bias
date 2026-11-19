@@ -1,0 +1,17 @@
+# Workplace Security Notice: Password Reuse
+
+* **Understanding Password Reuse**
+  - Reusing passwords across multiple accounts is not secure and can lead to unauthorized access to your work, personal, and financial information.
+  - Employers require all employees to create unique passwords for each account.
+  - Password expiration dates are enforced to prevent reuse of previously used passwords.
+
+* **Why It Matters**
+  - Prolonged security breaches can result in significant data loss and brand damage.
+  - Increased risk of identity theft and unauthorized access to sensitive information.
+  - Upholds trust in our commitment to cybersecurity and data protection.
+
+* **Action Steps**
+  - Create and maintain unique passwords for each of your accounts.
+  - Regularly update passwords to prevent reuse.
+  - Report any signs of password reuse or account compromise to your IT department immediately.
+

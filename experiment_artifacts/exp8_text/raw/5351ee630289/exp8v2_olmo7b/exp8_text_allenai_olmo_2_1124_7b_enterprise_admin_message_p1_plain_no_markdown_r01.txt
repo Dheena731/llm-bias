@@ -1,0 +1,8 @@
+Over the course disease season, we will be updating our dashboards at scheduled intervals. Here's a quick rundown of what you can expect:
+- **Wednesday and Sunday:** We'll be updating the *New Cases* and *Deaths* plot at 9:00am PST.
+- **Tuesday:** We'll be updating the *Total Test Positives and Recovered* plot at 9:00am PST.
+- **Saturday:** We'll be updating the *Testing Capacity* plot at 9:00am PST.
+
+We typically perform these updates over the course of less than 10 minutes, so you can expect to see some minor downtime while we make our updates. Please bear with us during this time, and if you have any questions or concerns, please drop us a line at help@ammap.org.
+
+Thanks for understanding!

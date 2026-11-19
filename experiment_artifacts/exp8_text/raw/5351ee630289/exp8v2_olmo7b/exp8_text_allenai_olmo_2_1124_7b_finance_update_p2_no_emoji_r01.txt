@@ -1,0 +1,27 @@
+Is there a source that explains this the same way?
+
+I agree with this explanation, http://www.topdowngamedesign.com/learning/beginning-the-lessons/learn-to-use-a-cash-register.html
+
+Buy a card with 100 dkontos on it. To make this card work, you'll have to spend some amount, (let's say 2dkontos).
+
+Spend 2dkontos to buy the card. Card is activated.
+
+If you exit the card screen to the main screen you will lose the
+card, and you must buy another card. (Risk/reward)
+
+If you have less than 2dkontos you cannot buy the card
+
+If you have 49dkontos (49dkontos = 2dkontos + 2dkontos + 2dkontos + 2dkontos + 1dkontos), you can buy the card, and receive 4dkontos change (49dkontos - 2dkontos = 4dkontos change).
+
+If you have 5dkontos, you cannot buy the card, and you lose your 5dkontos (5dkontos - 2dkontos = -3dkontos).
+
+enter image description here
+
+enter image description here
+Note: This is wrong, and is no longer valid.
+
+With card transaction fees, it's now free to buy an active card, but you have to have at least 2dkontos to use it.
+
+Note: This is wrong and has been re-vised (see edit above).
+
+Cards are now used as currency, instead of being a seperate currency (as the previous explanation implies).

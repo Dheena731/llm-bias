@@ -1,0 +1,56 @@
+Example content
+
+First sentence: This spreadsheet will help you ...
+
+Second sentence: It will help you track your monthly salary ...
+
+Third sentence: It will help you save money ...
+
+Fourth sentence: It will help you spend money ...
+
+Last sentence: It will help you to budget ...
+
+Numbered list: 1. My last job had ...
+
+2. My current job doesn't pay enough ...
+
+3. I'm going back to school ...
+
+4. I work part-time.
+
+5. I have a part-time job.
+
+6. or I work at home.
+
+7. I have to budget because ...
+
+8. I have to budget ...
+
+9. I have to save money ...
+
+10. I have to save money ...
+
+Notice how we use words like "help", "helpful", and "helpful" in the last sentence. These words are great for increasing engagement and helping readers to stay engaged with the passage.
+
+Example source code
+
+Here's the source code for the Hello, world! passage from the above text.
+
+import re
+
+def hello_world():
+    re.compile(r"say \"Hello, world!\"")
+
+if __name__ == "__main__":
+
+    print("Hello, world!")
+
+We use re.compile() to create a regular expression pattern to match the phrase "Hello, world!", then we create a function that calls re.compile() and passes in the pattern, then we print out the result of calling the function.
+
+Writing Perfect Content
+
+So now you know what the most important aspect of writing perfect content is. It's not the amount or quality of content. It's the ability to work with words with purpose.
+
+The next article in this series will tell you how to craft words that show people what you do and how well you do it.
+
+Up Next: Workflows →

@@ -1,0 +1,20 @@
+ 1. The answer:
+
+    Partially completed the exercise, but missing something. You might help with that.
+
+  2. The explanation of the explanation:
+
+    We should have mentioned that `n` is not known and we need to find it.
+
+  3. The usage of the variable (inline formatting):
+
+    % missing value '%n'
+    >>> help(missing)
+    <function missing at 0x7f6e95e174c0>
+    >>> missing(n=4)
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ^
+    ValueError: can't build the expression 'missing(n)'
+
+The above Markdown examples were compiled with Sphinx, the documentation tool.

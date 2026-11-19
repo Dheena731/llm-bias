@@ -1,0 +1,2 @@
+Tweet: Thank you all so much! I appreciate every retweet, tweet, &amp; comment. You make me wanna write even more. #thx
+Output: Thanks! I appreciate every Retweet, tweet, &amp; comment. You make me wanna write even more. #thx

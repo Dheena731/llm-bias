@@ -1,0 +1,52 @@
+**Article Review Paper**
+
+Ivan and his colleagues conducted an interesting experiment to understand the effect of varying input frequency on the resonance frequency of a wire. They used a magnet attached to a spring, which moved in a loop made of wire. They applied two different frequencies to the loop, and observed different outcomes.
+
+The first condition involved applying 1000 Hz, which resulted in a resonance frequency of 300 Hz. However, when they increased the frequency to 2000 Hz, the resulting resonance frequency dropped to 250 Hz. This phenomenon demonstrates how altering the input frequency can affect the resonance frequency of a wire.
+
+This study has important implications for engineers designing electrical circuits, especially those using resonant circuits. By understanding how varying input frequencies affect the resonance frequency, designers can optimize their designs and achieve optimal performance.
+
+2.2 Organize a phase diagram
+
+The phase diagram of water reveals the phase transitions that occur when changing the temperature and pressure. It shows the liquid, solid, and gaseous phases of water at different temperatures and pressures.
+
+When plotting the corresponding points on the phase diagram, Ivan and his colleagues need to consider the critical point. The critical point occurs when the liquid-gas pressure boundary is at zero and the liquid-gas temperature boundary is at a high value.
+
+In this case, the critical point is when the liquid-gas pressure is at zero and the liquid-gas temperature is at 4.5 × 10³ K. This critical point is the transition between liquid and gas phases.
+
+2.3 Analyze the Boltzmann distribution
+
+Boltzmann distribution describes the probability distribution of the kinetic energy of particles in a system. In the context of a gas, the distribution represents the likelihood of finding a particle with a certain kinetic energy.
+
+Ivan and his colleagues have analyzed the Boltzmann distribution to understand the distribution of particle energies within a gas. They found that the Boltzmann distribution follows a Gaussian distribution.
+
+To calculate the mean and variance of the Boltzmann distribution, they used the following equation:
+
+mean = k * (1 / (2π)), variance = k² / (2π)²
+
+where k is a constant equal to 1/2.
+
+2.4 Discuss the statistical properties of a Gaussian distribution
+
+Gaussian distribution is a continuous probability distribution that describes a wide range of real-world phenomena. It is often used to model the normal distribution.
+
+The most common form of the Gaussian distribution is the normal distribution, which has a bell-shaped curve. This distribution has two parameters:
+
+- Mean (μ): represents the center of the distribution
+- Variance (σ²): represents the spread of the distribution
+
+The center of the normal distribution is given by μ = 0, and the variance of the normal distribution is given by σ² = 1.
+
+The mean and variance of a Gaussian distribution can be calculated using the following formulas:
+
+mean = ∫[f(x)] dx, where f(x) is the probability density function (pdf)
+
+variance = ∫[(f(x) - μ)^2] dx, where f(x) is the pdf
+
+2.5 Interpret the PDF plot
+
+PDF plots provide a visual representation of the probability density function (pdf). These plots allow users to quickly understand the shape and behavior of a distribution.
+
+The plot of the PDF for random variable X with support {1, 3, 5} displays a bell-shaped curve. This shape indicates that the distribution is symmetric and bell-shaped around its mean (μ = 5).
+
+Furthermore, the area under the curve of the PDF forms a cumulative distribution function (cdf), which gives the probability that the random variable X takes on a value less than or equal to a certain value. For example, the area under the curve from 1 to 3 forms the

@@ -1,0 +1,1 @@
+Tooltip: Select your desired date range by clicking and dragging the color-coded square below. You can choose to view a 1-day, 1-week, 1-month, or 1-year timeframe. Note that the date filter will not be updated if you cancel the drag-and-drop action.

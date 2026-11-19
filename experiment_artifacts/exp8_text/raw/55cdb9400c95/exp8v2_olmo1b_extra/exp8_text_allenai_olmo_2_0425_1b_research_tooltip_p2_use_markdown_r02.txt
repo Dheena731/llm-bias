@@ -1,0 +1,22 @@
+For example,
+
+*high confidence interval*: 70 - 95%
+*low confidence interval*: 30 - 70%
+
+In this example, the 30% and 70% interval are the 30% and 70% confidence intervals, respectively. The range above and below the interval shows how many standard errors away the values are from the middle.
+
+While we can specify an interval, the default is a range. You can select the interval with the confidence interval.
+
+For example:
+
+*High confidence interval*: 70 - 95%
+*Low confidence interval*: 30 - 70%
+
+The confidence interval is a range, not an interval. A range is always a subset of the numbers across the chart. The confidence interval is a range of values that are expected in the future.
+
+Here's the same example but with the confidence interval explicitly stated:
+
+*High confidence interval*: 70 - 95%
+*Low confidence interval*: 30 - 70%
+
+Note the addition of parentheses around the interval for clarity.

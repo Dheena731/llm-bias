@@ -1,0 +1,10 @@
+```markdown
+# Confidence Interval in a Chart
+
+**A confidence interval** is a statistical method used to estimate the unknown parameter of a population, in this case, the average age of people aged 18-65 from a specific city. Unlike a simple interval, a confidence interval provides a range within which the true population parameter (in this case, the average age) is assumed to lie with a certain level of confidence (commonly 95%). This helps gauge the reliability and precision of our estimates. Confidence intervals are crucial for understanding the variability and uncertainty in our data, allowing for more informed decision-making and analysis.
+
+- **Grapses the parameter's range** within a specific confidence level.
+- **Provides a basis for assessing the reliability** of population estimates.
+- **Encourages a deeper understanding** of how data is sampled and estimated.
+- **Facilitates the comparison** of different samples or groups against each other.
+```

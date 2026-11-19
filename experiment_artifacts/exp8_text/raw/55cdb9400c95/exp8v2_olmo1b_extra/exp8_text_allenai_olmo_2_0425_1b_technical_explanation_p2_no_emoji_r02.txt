@@ -1,0 +1,38 @@
+The compare method does the following:
+
+  • Compute the indexes by index number, then use the primary key index as the first index and the unique key index as the second index.
+  • The compare method uses the first unmodified index, and does a string comparison between the text contents of the two values.
+  • If the index contains more than one value, it cannot find a unique value and cannot compare the text contents. (For example, if there is an entry with the key "x" in the first index, but the value is "y", it will not work.)
+  • If the keys in the index are the same, but the values are different, it cannot find a match (for example, if there is an entry in the index "x" with the key "x", but the value is used in another index).
+
+You can reduce the number of indexes by removing the index with the most values. (This operation is called partial elimination of indexes.)
+
+You can reduce the number of indexes by eliminating entries and removing the indices for the entries.
+
+As a result of the partial elimination of indexes, the number of indexes can fall from one index to zero. This is called index fragmentation.
+
+You can reduce the number of indexes by removing entries and reducing the number of indexes.
+
+You can reduce the number of indexes by eliminating entries and removing the indexes for the entries. In other words, if an entry is removed from the table, the index for the entry becomes the index for other values of the same index number. For example, if you change the index "x" to index, the index becomes one index. Take a look at the example below.
+
+As you can see, the index numbers of the original table are 1-25. The index numbers of the modified table are 1-24. After the modification, the index numbers of the table are 1-24 −1, so the table has one index.
+
+Index fragmentation is an important factor in the effect of index maintenance. You should reduce the number of indexes by eliminating entries and reducing the number of indexes.
+
+If you need to change the search fields of a query, it may fail. If the number of indexes is too large, it will take a long time to search for the index.
+
+To reduce the number of indexes, it is advisable to eliminate entries with the same key values and reduce the number of indexes.
+
+For example, the table "students" has the following indexes.
+
+This table has two indexes: index 1 and index 4. But let's say that you will only use index 1, and you will not use index 4. Also, let's say that you need to change the search fields of the "name" field of the "students" table. In this case, you need to change the "name" field from a single-column index to a compound index. The reason is that the search fields are "first_name and last_name". If you change the "name" field from a single-column index to a compound index, you can change the way to search for a name. For example, the search can be done by using the first name and last name.
+
+You can reduce the number of indexes in the same field by using multiple indexes.
+
+If you have multiple indexes on the same column, you can do a search by using a compound index instead of multiple indexes. If you change the search fields, you can change the number of indexes and reduce the number of indexes.
+
+To reduce the number of indexes, you can use multiple indexes.
+
+You can reduce the number of indexes to two or three by using multiple indexes.
+
+It is often said that you can reduce the number of indexes to 8 or 9 using multiple indexes. In fact, you can reduce the number of indexes to two

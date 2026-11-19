@@ -1,0 +1,24 @@
+**Password Reuse: A Security Concern**
+
+Dear colleagues,
+
+We want to remind you to avoid reusing passwords across multiple accounts or platforms. Password reuse not only jeopardizes your data security but also makes it easier for cybercriminals to breach multiple systems if one account is compromised. It’s important to create unique and complex passwords for each of your accounts, and to regularly update them as necessary.
+
+Here are some best practices:
+
+* Keep your passwords secret. Do not share them with anyone, and do not write them down in plain sight.
+* Use a variety of characters (both uppercase and lowercase), numbers, and special symbols.
+* Avoid easily guessable information, such as birthdays, hometowns, or common words.
+* Consider using a reputable password manager to generate and store complex passwords for you.
+
+If you forget a password for an account, contact your IT department for assistance immediately because reentering the password through unauthorized means is not possible.
+
+Your cybersecurity is our top priority, so adhere to this policy and help us protect the integrity and confidentiality of our workplace’s network and data.
+
+Thank you for your attention to this important matter.
+
+Best regards,
+
+[Your Company’s Name]
+
+**Note:** This notice is intended to educate and reinforce a critical security practice. If writing this in a company context, ensure that the correct details (like company name, address, etc.) are accurate and up-to-date.

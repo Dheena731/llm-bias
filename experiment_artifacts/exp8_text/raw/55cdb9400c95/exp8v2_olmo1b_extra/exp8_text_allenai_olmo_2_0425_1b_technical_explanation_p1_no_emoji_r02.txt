@@ -1,0 +1,63 @@
+By writing a short article that contains a lot of text, you are going to be able to properly explain what latency means to your audience, as well as make it easier for them to understand.
+
+3. Share Examples
+
+Consider sharing examples to help your audience understand the concept of latency.
+
+What is latency in computing? Explain it to them by sharing examples.
+
+Do not use emoji.
+
+4. Write a Thesis Statement
+
+Use a unique thesis statement to help your audience understand the concept of latency in computing.
+
+A thesis statement for this topic should address the following:
+
+  • What is latency in computing?
+  • Why is latency important?
+  • How is latency measured?
+  • How do I measure latency in my code?
+
+
+  • Latency is a measurement of how long it takes for data to travel from source to destination.
+  • Latency is important because it affects the performance of applications.
+
+5. Provide Example Code
+
+Include a code snippet to help your audience understand the concept of latency in computing better.
+
+Do not use emoji.
+
+6. Create a Conclusion
+
+Create a conclusion that summarizes the lesson.
+
+Your final sentence should clearly state:
+
+  • what the audience should remember from the lesson
+  • what they learned from the article
+  • what they will do if they have any questions about the lesson
+
+Don't use emojis.
+
+7. Edit the Post
+
+Review your article and make any changes to make it better.
+
+Revision Checklist
+
+When editing, keep the following checklist in mind:
+
+  • Is the article easy to read (no emojis)?
+  • Is the content well organized and easy to understand (no emoji)?
+  • Is the language appropriate (no emoji)?
+  • Has the post been proofread (no emoji)?
+
+Congratulations! You've finished writing a web article about latency in computing!
+
+If you liked this article and want to learn more, check out these resources:
+
+Read through these tutorials and posts to learn more about latency in computing:
+
+Was this page helpful?

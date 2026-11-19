@@ -1,0 +1,20 @@
+New features
+
+If you want to keep your users up to date with the latest updates, you'll have to release the current version multiple times, just like we do. You'll also have to keep your users' expectations very high: on the one hand, they expect never to see a development version or a beta, but on the other hand, they must never be left with a broken app. This means that, in general terms, you'll have to release your app on different days than the date of release:
+
+Release day Release day Release day Release day Release day Release day
+Sunday Monday Tuesday Wednesday Thursday
+
+For this reason, you may want to release your app on more than one day. Release the stable version yourself, if possible, but ask a friend (or a colleague) to release it to your beta testers. Avoid making a release time of more than 24 hours, which will be really confusing.
+
+Explain what you've done in a blog post. This way, you'll also keep your users informed about the latest updates. Just don't publish too often: more than two times per week is enough to keep them present. Moreover, you may overwrite them by releasing a pre-release, or a generally better version, a stable one, or even a release candidate, in case your app is in the beta phase. If you don't believe in pre-releases and/or C/C++ processing, you can release an alpha version of your app, but be careful: this version will be no better than the previous one.
+
+Advertise your app. You may also try to send out messages to your users. Advertise the new features of your app. Make a new version, with the opportunity to try it out without a subscription, available for your users to download. Create a new post on social media, telling them about the new features of your app. Don't forget that you can also send out notifications to your users through your app, and that you may distribute a new version of your app through your app store or the app store of a competitor. To be honest, we've had to do this last one. Once your app becomes popular, your users will notice that you are releasing new versions of your app. They may be disappointed if you don't release it soon enough.
+
+Be careful with the app store. This isn't a replacement for the release day that we just described, but it's always a good idea, especially if your app is popular, to keep your users informed about the latest updates. During the first months of development, you'll probably be updating your app frequently. This is a good thing, and it's ok. However, after a few months, your users won't be as excited about the new features. Many of them will have already seen the new version, and they'll be starting to get annoyed if your app changes too often. This is why it's important to release only once a month or so, and to make sure that your users get the chance to try your new version before you announce it.
+
+I hope that this article will have been useful for you. If you have any questions or comments, please feel free to post them below and we'll do our best to answer them, or help you further if necessary.
+
+Thank you for reading.
+
+If you're interested in what we've done recently, you can have a look at the latest version of the Android app, which is still in beta, or have a look at our YouTube channel.

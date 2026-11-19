@@ -1,0 +1,33 @@
+Subject: Important: Counter Phishing Efforts Targeting Our Domain
+
+Dear Team,
+
+Please be vigilant and cautious with your email communications. We have recently received reports of phishing attempts that specifically target our domain users.
+
+The phishing emails in question aim to deceive employees into providing sensitive information by claiming to be from trusted sources, such as our IT department. They may sport official-looking headers and display names to mimic our domain's branding.
+
+Here are the key pointers to identify these phishing mails:
+
+- **Content:** Phishing emails often ask for personal or company data and sometimes mention unauthorized downloads or software updates.
+
+- **Sender Information:** Check the sender's email address closely. Phishers use addresses that are similar to ours but aren't an exact match.
+
+- **Requests for Immediate Action:** Phishing attempts typically create a sense of urgency or panic, requesting immediate action such as clicking a link or downloading an attachment.
+
+To stay safe, please consider the following actions:
+
+- **Verification:** If you are unsure, contact our IT department directly using the official phone number or by emailing <PRESIDIO_ANONYMIZED_EMAIL_ADDRESS>.
+
+- **Binoculars Icon:** Use the binoculars icon provided by Outlook to check the sender's details further.
+
+- **Subject Line:** Be wary of emails with subject lines asking for urgent action or containing unexpected attachments.
+
+- **Educate Others:** Share this information with your colleagues to ensure our entire team is informed and proactive.
+
+Your vigilance is our collective best defense against these fraudulent attempts. Thank you for your continued cooperation and proactive approach to safeguarding our workplace and personal data.
+
+Stay safe,
+
+[Your Name]
+[Your Position]
+[Company Name] IT Security Team

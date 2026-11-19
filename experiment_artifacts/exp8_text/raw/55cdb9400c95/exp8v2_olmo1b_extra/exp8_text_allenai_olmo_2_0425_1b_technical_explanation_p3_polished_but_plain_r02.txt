@@ -1,0 +1,18 @@
+Finally, know your audience. Your instructions need to be written such that a person who is not a software developer can understand them. This includes a person who is using the software for the first time, a person with very limited computer skills, or even a parent who has never installed software.
+
+Useful resources that can help you write good instructions
+
+Written instructions are complex and require a lot of planning and work. Here are some resources that you can refer to in order to help you write instructions easily and quickly:
+
+What are some common mistakes that people make when writing technical instructions?
+
+It is easy to make mistakes when writing technical instructions. Here are a few things that you need to keep in mind while writing instructions:
+
+  • Provide clarity: When writing instructions, make sure that you are giving the user enough information to perform the desired action. Do not assume that all users have the same knowledge of the topic.
+  • Be detailed: Provide specific instructions, rather than just telling the user what to do. For example, give the user a step-by-step guide on how to perform an action rather than just telling the user to do it.
+  • Be consistent: Maintain a consistent format and tone throughout your instructions. For example, use the same terminology throughout the instructions.
+  • Check your grammar: Use proper grammar, spelling, and punctuation when writing instructions.
+  • Proofread your instructions: Make sure that you have proofread and edited your instructions before you send them to users.
+
+
+Now that you know how to write good software update instructions, you can easily create these instructions for your own software package. You can also use the techniques we discussed here to write well-crafted instructions for other types of software, such as mobile apps, video games, and more. By following these best practices, you will be able to create high-quality instructions that are both easy to read and useful for users of your software package.

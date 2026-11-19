@@ -1,0 +1,46 @@
+Each paragraph should contain a single idea or topic, and should flow from the previous paragraph seamlessly. Each paragraph should have a topic sentence.
+
+Do not include code snippets or mathematical expressions in your text.
+
+Do not include images, tables, or figures in your text. However, you may include a brief description of your figure or image in the captions. If you need to include a figure or an image as part of the text, use \figure{<figure name>} or \figurenumber{<figure number or number of the figure>}(figure) format. The figure is automatically numbered until you place a comma after the number (e.g., \figure1, \figure2, \figure3). You can place a comma immediately after the number (e.g., \figure1, \figure2, \figure3) if you do not want to number the figure. Do not use this format to list the figure in the text; use the caption command instead, e.g., \caption{\textsf{Figure~\ref{xxx}}.} References must be placed between the \figure or \figurenumber command and the \caption command.
+
+If your figure or figure number has a colon (:) before the figure number or number of the figure, use \textsf{., #.}.
+
+If you want to reference the figure or figure number in the text, use \label{fig:xxx} or \ref{fig:xxx}. The figure number and the label (e.g., \label{fig:xxx}) must be separated by at least one space. The figure number must be in the format \textsf{.##} (e.g., \textsf{.1}) and any text after the figure number must be separated by at least one space.
+
+\section{Summary of Results} \newpage
+
+This is the summary of results section.
+
+\subsection{Subsection}
+
+This is the subsection.
+
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+    \item First point
+    \item Second point
+    \item Third point
+\end{itemize}
+\end{minipage}
+
+This is the paragraph.
+
+\subsection{Subsection}
+
+This is the subsection.
+
+\begin{itemize}
+    \item First point
+    \item Second point
+    \item Third point
+    \item Fourth point
+\end{itemize}
+
+This is the paragraph.
+
+\end{document}
+
+That's what I tried to achieve. To be honest, I have no idea what you mean by "plain prose". I have tried to write in plain prose. (In fact, I wrote "plain prose" right after I wrote the above paragraph) I have tried to write without using text formatting, but the codes you have explained seem to be necessary for me to be able to write in plain prose.
+
+I do not understand what you mean by "plain prose". I have tried to write without formatting codes.

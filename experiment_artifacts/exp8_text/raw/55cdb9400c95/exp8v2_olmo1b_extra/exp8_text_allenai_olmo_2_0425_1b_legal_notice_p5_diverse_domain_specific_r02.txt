@@ -1,0 +1,9 @@
+For example:
+
+Why should you use Netvibes as a Content Management System for your website? It's a user friendly and flexible system which is easy to set up and offers a large selection of templates to choose from. It's easy to tailor the system for your own purposes or to add and remove components. You can use scripts to customize some aspects of the look of your page and include capabilities such as a search box.
+
+Always specify exactly what content you want included. For example, don't ask Netvibes to catalog the books in your library. Your site needs to be able to display and access it, but it should be able to do so in a way that doesn't clutter up the work of your content management system (CMS).
+
+Don't expect any user interaction or user input, such as to page titles, to be taken into account in the search. (For example, a search request for "home" would yield no results in a CMS that allowed you to type in free-form page titles.)
+
+Don't ask Netvibes to generate any content. (For example, asking to have text generated such as "Netvibes is free, personal publishing that lets you share your work with the world, with a 100% guarantee that you won't be charged for, or lose any of, your work." would yield as much result as an AI-generated page.)

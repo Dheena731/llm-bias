@@ -1,0 +1,57 @@
+Do not include links.
+
+Note: The latest version of our documentation is available at https://docs.brew.sh.
+
+The documentation is generated automatically from the source code. If you have found a mistake, known issues or want to propose some improvements, please open issues in the homebrew/cask repository on GitHub.
+
+To open your terminal (command prompt) and enter a command, press and hold on the Home key and tap the key with the A/Euro sign (next to the ESC button). If you have a Mac, use Spotlight and type terminal.
+
+#1: brew update
+
+Check for updates to the software that is used to install homebrew applications.
+
+#2: brew install [package-name]
+
+Start with the most generic command of all: brew install. Install an application by including its name in the command (e.g. brew install wget or brew install zsh). The package manager will download and install the application from the internet and another directory in the file system. It may have dependencies to other software that also need to be downloaded and installed. It will also create a symbolic link in the command path to access the application from the shell.
+
+#3: brew info [package-name]
+
+To find out more information about a package, use brew info and the package name. For example, if you want to know why a specific package is being installed, run brew info [package-name] in the terminal.
+
+#4: brew doctor
+
+Check for the health of your local installation. This command will check if all your programs are installed correctly and the environment variables are in the right place. The command will also search for possible inconsistencies in the installation. It will also check for possible errors and broken links. If something is wrong, it will also give suggestions on how to fix and solve the problem.
+
+#5: brew list [package-name]
+
+List all applications that have been installed or are installed. You can also list all dependencies that are installed with the additional flag --devel.
+
+#6: brew uninstall [package-name]
+
+To uninstall an application, use the command brew uninstall. You can include the package name, such [#1] the package name or the name of the package from the list.
+
+#7: brew cask cleanup
+
+Using this command will delete previously installed applications that you have already removed from the command line. You can also delete all applications that are currently installed by using brew cask remove.
+
+#8: brew cleanup
+
+To delete all command line installed applications and their associated files, use brew cleanup
+
+#9: brew install --cask [package-name]
+
+To install a cask application and all its dependencies, use the command brew install --cask. If you want to install it without the dependencies, use brew install --cask --without-dependencies.
+
+#10: brew upgrade
+
+This command will upgrade all applications and their dependencies that are currently installed on your system.
+
+Now you can start working with the 10 most common commands to install and maintain software on your Mac. If you want to learn more, you can read the full documentation here.
+
+How To Become A Ruby Programmer
+
+For many aspiring developers, there is no better place to start than Ruby, the programming language that allows even a novice to create some pretty amazing things.
+
+A few years ago, to learn Ruby you had to work your way through a time-consuming book and spend hours reading through thick stacks of code. Now there are new Ruby learning methods that make the language more accessible to new users than ever before.
+
+In this post, we are going to show you the best way to learn Ruby from scratch. After you have finished this guide, you will know how to use Ruby to create your own web apps, games, and even to automate business processes. You will understand the fundamentals of the Ruby programming language in a way

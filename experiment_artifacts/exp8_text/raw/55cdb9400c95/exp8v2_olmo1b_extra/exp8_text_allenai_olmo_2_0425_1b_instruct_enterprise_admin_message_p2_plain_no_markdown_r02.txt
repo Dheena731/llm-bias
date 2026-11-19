@@ -1,0 +1,22 @@
+Hello team,
+
+We are excited to announce a new expense approval workflow that has been implemented. This change will streamline the approval process and ensure that every expense is properly reviewed and approved. 
+
+From now on, all expenses must be approved through our new system. To assist you, I have attached the detailed information regarding the new approval process below. Review this document carefully, and if you have any questions, please do not hesitate to reach out.
+
+Please follow these steps to approve expenses:
+
+1. Access the expense record by logging into our system.
+2. Verify the accurate information present in the expense record.
+3. Check that the expense is for an appropriate category.
+4. Review the description and amount for accuracy and relevance.
+5. Approval is granted or denied immediately after review.
+6. If you approve an expense, save your decision and confirm the action on the respective record.
+7. If you need any further clarification, please contact our support team.
+
+Your cooperation in implementing this new workflow is critical. Thank you for your attention to this matter and for your ongoing support.
+
+Best regards,
+
+[Your Name]
+Admin Coordinator

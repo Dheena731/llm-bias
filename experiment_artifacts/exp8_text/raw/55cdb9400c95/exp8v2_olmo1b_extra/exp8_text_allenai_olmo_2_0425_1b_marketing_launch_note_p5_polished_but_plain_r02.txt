@@ -1,0 +1,63 @@
+Podcast Transcript
+
+Phillip: Hi there, I'm Phillip.
+
+Phillip: And I'm from San Francisco, California, United States of America.
+
+Phillip: And this is Mondelect, a language-learning podcast.
+
+Phillip: I've been a language learner for a number of years, and I've been a podcast listener for even longer.
+
+Phillip: I hope you'll join me for this podcast.
+
+Phillip: I write a lot of language learning resources at
+
+Phillip: And the use of resource is that, is maybe a little unusual for most language learners.
+
+Phillip: I use the word "lurks". It's a little bit of a creepy term.
+
+Phillip: And my hope is that people who read these posts and the kind of care that I take in writing these posts will also apply that care to the resources that they obtain and that they use.
+
+Phillip: And this podcast is the same way. I don't know if anyone else is like me, but one of the things I'm really interested in is how language learning resources are made.
+
+Phillip: And I'm also interested in how they are consumed, and I'm a sucker for stories of how people use language learning resources.
+
+Phillip: So that's what I want to talk about today. I'm going to give you some details about how I write this podcast, and then I'm going to give you some details about how it's consumed, and I'll maybe wrap this up with a story that you might enjoy.
+
+Phillip: Before I get to that though, let me just say a little bit about me.
+
+Phillip: I'm a hacker. So I tend to write things for the web.
+
+Phillip: I have a degree in Computer Science. I was trained in computer science in 1996.
+
+Phillip: I've been programming professionally for 16 years, but I started long before.
+
+Phillip: And I've written a lot for the web in that time. My first real website came in 2002.
+
+Phillip: I've written many other websites and I've written a few books too, but it's interesting, I'd like to think that I've written for language learning somewhat.
+
+Phillip: And I've written except for the book that I just finished, in about nine languages, and I've written even more of those in their incomplete variants.
+
+Phillip: Very often, I'm very much a fan of creating things that people can use, and I would like to think that this shows up in this podcast.
+
+Phillip: So I hope you'll enjoy it.
+
+Phillip: Now I want to talk about how I write this podcast. I do this podcast with an audio editor that I built almost entirely by myself.
+
+Phillip: And it's over 13 years old. It's almost now 14 years old.
+
+Phillip: But it's still got a lot of code in it. And I'm going to try to spend a little bit of time talking about that code, because I think that it illustrates a lot about how people build things these days.
+
+Phillip: I started it simply. I started it completely by hand.
+
+Phillip: I did it entirely with a cheap old-enough copy of Audacity.
+
+Phillip: I had never used Audacity before the very first day I wrote this thing.
+
+Phillip: I think Audacity can do everything that I need to do, and that took me about a week to figure out.
+
+Phillip: And just about the entire thing was written in two weeks.
+
+Phillip: It was a little bit of a debacle, and I wasn't very happy with the outcome but the thing was written, and I was very happy with it.
+
+Phillip: But then I

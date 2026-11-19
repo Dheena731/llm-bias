@@ -1,0 +1,8 @@
+To export query results for further analysis or sharing, follow these steps:
+
+1. Run your SQL query in your data management tool or database management system.
+2. Select or right-click the query result set you wish to export.
+3. Choose an export option: Common choices include saving to a CSV file, Excel spreadsheet, PDF, or other formats.
+4. Choose your desired export format and location.
+
+Exporting query results ensures you have a backup or can share the insights from your analysis with stakeholders.

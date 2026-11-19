@@ -1,0 +1,13 @@
+Revised 2020-06-20
+
+Per our agreement to make the API public, we'd like to do a little explaining -- and maybe even a bit of apology -- about our recent change to the API rate limits. 
+
+The short answer is that the rate limits that we used to provide were flawed. They were based on the rate of successful API requests from our endpoints, which means that they were sometimes too liberal, sometimes too restrictive, and sometimes too infrequently updated. In addition, they changed over time, which made it difficult to understand the actual limits that were in place. The rate limits we've now adopted are more balanced and are guaranteed to remain constant over time. They will also be based on the number of requests from a single account over time, rather than just the number of successful API requests. 
+
+But we want to be clear about one thing: the API rate limits are not intended to prevent you from making vast numbers of API requests. For most use cases, we consider requests to be relatively small, and we want to encourage your use of our API. In fact, we want you to use our API as much as possible, and we'd like you to be able to use as many API requests as you'd like. The rate limits are meant to help us make sure that we can handle a large number of requests, and to help us make sure that your API requests are not taking up our resources.
+
+So the API rate limit is really about making sure that we can handle a large number of requests. In our case, that's about 1000 requests per account per day.
+
+For a long time, we have already been very liberal with the rate limits. We have had a large amount of slack, both in the API rate limits and in the request counts, and we have generally been more forgiving of errors or exceptions than we should have been. We are now giving ourselves a little more slack, and that provides a bit more breathing room for users. We are now recommending that you use up to 3 API requests per minute from any of our endpoints. In the past, we had recommended that you use up to 1 API request per minute from our endpoints. 
+
+We hope that this will allow you to gain the benefits of our API -- including the ability to make your own core data files with the contents of 1000 or more records -- without feeling like you're making a lot of API requests.

@@ -1,0 +1,13 @@
+Attention all admin users,
+
+Due to scheduled maintenance on our dashboard, we'll be unable to access or refresh the dashboard for the next 30 minutes starting [Timestamp]. During this period, please ensure your applications and reports are correctly configured to maintain their up-to-date data.
+
+Thank you for your understanding as we ensure the integrity and functionality of our shared insights and operational tools.
+
+The dashboard will be operational again at [Timestamp + 30 minutes].
+
+Should you encounter any issues during this time, please reach out to our support team for assistance.
+
+Best regards,
+[Your Name]
+[Your Position]

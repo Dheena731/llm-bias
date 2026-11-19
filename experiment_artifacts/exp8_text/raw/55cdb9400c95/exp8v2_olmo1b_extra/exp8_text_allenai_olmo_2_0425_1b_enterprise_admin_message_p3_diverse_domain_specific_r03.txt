@@ -1,0 +1,17 @@
+ • If you have a .com, .net or .org domain, and you're going to write to consumers, use a company name in the email address. For example, use "Carmine" instead of "carmine." If you can, use your company's name to avoid being associated with spam in the recipient's mind.
+  • If you have a .com, .net or .org domain in the domain name, and you're going to write to developers, use "developer" in the email address. You can likely use "developer" or "developer@domain.com" as the base. "developer@dev.servername.com" will work, too. (See "Domain Name Configuration" later for more information.)
+  • If you have a .mil, .gov, .edu or .us domain, and you're going to write to users of the service, use a description of the domain in the email address. For example, use "com" instead of "com" as the base.
+  • If you have a .mil, .gov, .edu or .us domain and you're going to write to developers, use "developer" in the email address. To work effectively, you'll probably need to give developers an email address that includes this domain. For example, if your email server is named "servername.edu," your developers probably need "developer.edu" or "developer@developer.com" in their email address.
+  • If you have a .mil, .gov, .edu or .us domain, and you're going to write to users of the service, you may want to give a code or contact information that will allow you to verify the email address. For example, if you describe your domain in the email address as ".edu," you might have a code or email address in the recipient's email address. For example, use "edu@servername.com" instead of "edu@mailservername.com." You also might be able to use something that includes the domain in the email address. For example, use "developer@servername.edu" instead of "developer@mailservername.com."
+
+Domain Name Configuration
+
+The Domain Name Server (DNS) is an important part of the network infrastructure. Domain name servers have a list of addresses that computers use to find each other. If they have a list of IP addresses for every computer, they would need around 10,000 IP addresses – just to find one computer by name. That's possible, but it would be expensive and difficult. By using a domain name, computers can find each other by the name, making them easier to manage.
+
+The domain name system does not have a list of IP addresses for all computers. It does have a list of IP addresses that you use to find domain name servers. The easiest way to find a domain name server is on the IP address of the DNS server. The IP address of the DNS server is usually in the last portion of the IP address, just before the final "1" in the IP address. To find the DNS server, you can use a system called the Internet Protocol Address Resolution Protocol (IPR), which is an inherent part of the Internet Protocol (IP).
+
+Domain Name Configuration
+
+You can create and manage a domain name. You can also manage the mapping between a domain name and an IP address. You can use an existing domain name server and modify or add records to the DNS. You can also select a generic domain name like "domainname.com" and create and configure a DNS for that domain.
+
+The default domain name server is named "search" and is used to look up a list of DNS servers for the specified domain. The domain name server is usually located at the address domainname.com or name.com.

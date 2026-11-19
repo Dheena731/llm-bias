@@ -1,0 +1,3 @@
+[Q]: Can you explain how caching speeds up a website?
+
+A: By caching, websites can speed up your browser load times - when you visit a website your browser first downloads the pages it needs before displaying them. This is especially helpful for websites that could host a lot of information, like a news site, but it applies to any website that uses dynamic content.

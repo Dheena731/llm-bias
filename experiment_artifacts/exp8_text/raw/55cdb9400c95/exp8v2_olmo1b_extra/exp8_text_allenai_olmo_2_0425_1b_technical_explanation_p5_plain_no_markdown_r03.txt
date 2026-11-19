@@ -1,0 +1,37 @@
+Please note that this is not a request for help. We'll be using these to help us improve our documentation.
+
+## Introduction
+
+API rate limits limit the number of requests that can be made within a certain amount of time. The number of requests allowed is measured in "requests per second".
+
+## How we define API rate limits
+
+After much discussion with the community, we've settled on this method of setting API rate limits. Our system should be flexible enough to be able to support any number of different methods of tracking requests.
+
+The reason for this being that requests can be made from different sources and at different times. For example, at 2:00AM, when a large amount of requests are made, the API server will be overloaded and we'll need to start throttling requests, which would prevent more requests from being made than the API rate limit allows.
+
+## Why we need a rate limit
+
+The primary purpose of setting an API rate limit is to prevent abusive or malicious use of the API service. It's important to note that this is not a security feature. A malicious actor can still be blocked from making API requests even if the rate limit is set to zero.
+
+If an API is setup to only allow requests from a specific IP address, we may be unintentionally limiting both legitimate and malicious users. Because of this, we would need to modify the rate limit to allow requests from any IP address.
+
+## API rate limits for specific requests
+
+In order for our system to be able to truly differentiate between malicious and legitimate requests, we would need to rate limit each individual request.
+
+## How we set API rate limits
+
+Every API request sent to the API server will be logged with its IP address. This will allow us to measure the rate at which requests are being made from a single IP address. If the rate from a single IP address exceeds the API rate limit, we'll need to limit that IP address' access by temporarily throttling that IP.
+
+We would then need to track the rate at which requests are being made from each IP in order to be able to apply the appropriate rate limit to the IP in question.
+
+Since we would be starting with an empty rate limit, it would be necessary to set an initial value for the rate limit. However, we would need to have a way of verifying that the IP in question is making legitimate requests, otherwise we'd be setting the upper bound to 0, which would result in a rate limit of 0.0, which would mean that there is no limit at all.
+
+If we set the rate limit to 0, we would want to reduce it to 0.01 within the first day. If it takes more than a day to process all requests from an IP address, we may want to reduce the rate limit further.
+
+We would then want to monitor the rate at which requests are being made from each IP. If the rate from a single IP address exceeds the API rate limit, we would then need to throttle that IP address until the rate falls below the limit.
+
+After monitoring for a period of time, we would then adjust the rate limit such that it remains within the range of 0.01 - 0.1. It would be possible that some of the IPs would be throttled for a shorter period of time (days) and other IPs would be throttled for a longer period of time (months).
+
+Again, since we would be starting with an empty rate limit, we would need to somehow verify that the requests are legitimate. If some of the requests are coming from an external source, they would need to be verified.

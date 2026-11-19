@@ -1,0 +1,1 @@
+This tool allows you to filter your dataset based on specific criteria. By adjusting the filters such as date range, location, or subject, you can narrow down the data to focus on the aspects most relevant to your research needs.

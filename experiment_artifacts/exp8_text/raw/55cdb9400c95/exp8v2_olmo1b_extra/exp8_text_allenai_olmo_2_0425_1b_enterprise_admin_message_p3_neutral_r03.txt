@@ -1,0 +1,1 @@
+c. Once a change is reflected in your VPN server, invoke the VPN client with its default settings and enter the new address information.

@@ -1,0 +1,40 @@
+Do not use any programming code. For example, do not write "" in place of "hello world."
+
+Do not write any code that is platform-specific or specific to a programming language. For example, do not write "" in place of "hello world." This includes any code used only in Python, JavaScript, Java, or HTML; code that relies on a specific framework or library; or any code that uses special characters like spaces or non-ASCII characters.
+
+Do not write any code that looks like it was written using a programming language. For example, do not write "" in place of "hello world." This includes writing code using any programming language functions or libraries, such as grep, sed, or os.system(), or using any syntax like loops, conditional statements, or functions.
+
+Do not write any code that contains emojis or other special characters. For example, do not write anything including "@", or "!" in place of "hello world".
+
+Do not write any code that contains links to external websites.
+
+Write the tutorial for the form using the same writing style as the rest of the tutorial. Do not use a different writing style for the form than you use elsewhere in the tutorial.
+
+If you choose to do so, you should include a link to the completion page for your form. The link should be to a page that contains a table of contents, and links to the following content:
+
+  • The top-level heading for your form.
+  • All of the headings below the top-level heading for your form.
+  • The complete form contents. This includes the form logic, form labels, form fields, form instructions, and the completion page.
+  • For forms that are mostly filled out by users, be sure to include a screenshot of the completed form as well as a screenshot of the form when it was submitted.
+  • The average submission times for each form field. This means the time it took to complete the form field at its minimum and maximum values.
+
+If you do not include a link to the completion page, an entry linking to the completion page will be added automatically to the experiment tutorial.
+
+Add a screenshot of the completed form to the tutorial. Add the screenshot to the experiment tutorial.
+
+There are a few ways to participate in this experiment. You can submit more than 100 successful form submissions. You can submit a new form or modify an existing form.
+
+The following are the steps to learn how to participate in this experiment:
+
+  1. Submit more than 100 successful form submissions.
+  2. When you have submitted more than 100 successful form submissions, add a new form to the experiment. You may submit as many unique forms as you want per experiment.
+  3. When you submit a new form to the experiment, it should appear on the tutorial. It will appear in the experiment tutorial after 24 hours.
+  4. When you have submitted a new form to the experiment, you can modify the experiment. You may submit as many unique forms as you want per experiment.
+  5. When you submit a new form to the experiment, it should appear on the tutorial. It will appear in the experiment tutorial after 12 hours.
+
+You can also choose to participate in a best-case scenario.
+
+  1. If you participate in a best-case scenario, you can submit one form that has at least 10 successful submissions.
+  2. You can submit one form that has at least 10 successful submissions, and all forms in the experiment will appear on the tutorial after 24 hours.
+  3. You can submit one form that has at least 10 successful submissions, and all forms in the experiment will appear on the tutorial after 12 hours.
+  4. You can submit one form that has at least 10 successful submissions, and all forms

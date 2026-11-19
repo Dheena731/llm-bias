@@ -1,0 +1,1 @@
+When you select a date-range selector, it lets you choose a specific time period within which an action or event will take place. By dragging the boundary lines between two dates, you can select different start and end dates, allowing you to narrow down the scope of a process or task, filter data, or plan events accordingly.

@@ -1,0 +1,5 @@
+In a chart illustrating confidence intervals, the tooltip should explain the concept in a manner that is informative and retained by data analysts and readers familiar with statistical concepts. Here’s a concise tooltip explanation tailored to your needs:
+
+"Confidence Interval: This line represents the range (here indicated by the width) within which we are 95% confident that the true population parameter (like mean or proportion) falls. The confidence level (e.g., 95%) specifies the degree of certainty we have that the true value lies within these bounds. Each data point on the chart contributes to the calculation of this interval, providing a statistical reassurance about the reliability of our estimate."
+
+This tooltip provides a clear explanation of what a confidence interval is, how it's depicted on a chart, and its relevance to confidence in statistical analysis. It differs from generic AI-generated examples by being specific to a domain – here, data visualization and statistics – and avoids the commonly used over-hyped or overly simplified language that might wash over the reader without providing meaningful insight.

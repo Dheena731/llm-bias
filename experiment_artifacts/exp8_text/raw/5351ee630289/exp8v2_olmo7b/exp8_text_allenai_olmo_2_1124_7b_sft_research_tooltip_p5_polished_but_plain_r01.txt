@@ -1,0 +1,1 @@
+Export your query results by clicking the 'Export' button, which is typically located at the bottom of the screen. Choose the format you want for your exported data, usually in CSV or Excel formats, depending on the tool you're using. Follow any instructions that appear, and you'll receive a file containing your results, ready for use elsewhere.

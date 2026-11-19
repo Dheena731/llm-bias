@@ -1,0 +1,1 @@
+This dataset filter enables users to select and view specific subsets of data in the research tool. By clicking and dragging across a dataset, you can pinpoint which records you want to focus on. This feature is particularly useful for researchers working on microdata, allowing them to select a subset of records to examine more closely.

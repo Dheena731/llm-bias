@@ -1,0 +1,25 @@
+A description that is too elaborate will be more easily overlooked and missed. If it is really important or not obvious in the context where it’s used, then you can add a footnote.
+
+Make it clear from the title of the page that a link is just a poor man’s hyperlink.
+
+Use headings to make information easier to scan at a glance.
+
+Use links sparingly, and use them correctly. Use links instead of headings to avoid creating a boring page. Do not use them as sentences, or as substitute for headings.
+
+Use the main / title to summarize the page. It should not be too long, as it is not read by most browsers, which will just show the title as the default after hovering over the link. In the case of an edit link, you only need a few words.
+
+Alternatively, you can use the hotlink to a relevant excerpt, but make sure you check that the excerpt doesn’t contradict the original page content. If it does, you can still link to the page with a reasonable link text, and add a footnote to explain under what circumstances the excerpt can be used instead of the whole page.
+
+Another option is to instead provide a list of links to parts of the page, or to redirect to an external source.
+
+Why do we have this?
+
+We have this in response to how the switch between light and dark mode has been handled in the past. If you have a page with a link to another page on the same site, that link will automatically be in light mode on desktop and dark mode on mobile.
+
+This has created two problems:
+
+  • It’s hard to tell what a link means in non-standard light mode. If the link is greyed-out in the email client, it’s generally hard to tell if it’s a link or a button, and there’s no way to distinguish between links and external links.
+
+  • It doesn’t work for dark mode, so you can’t distinguish external links from internal links.
+
+In response, we’re using hyperlinks to prevent links from having any special behaviour on mobile, so that the user can easily distinguish between them.

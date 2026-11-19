@@ -1,0 +1,75 @@
+A note on the text: In "the domain" there should be only one entity which the text is about. It's not about a shared idea or category like "artificial intelligence".
+
+The domain is specific and distinct from other AI fields. The text describes a specific process and entity without linking to a generic AI model.
+
+Here is a sample of a good example in the given format to get the idea:
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: Book an annual health checkup for your friend.
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: Book an annual health checkup for your friend.
+  • You could also make this a more formal grammatically correct sentence if you wanted, e.g. Prompt: Book an annual health checkup for your friend. is correct. For personal archives, you could also use the correct format with a comma, i.e. Book an annual health checkup, for your friend.
+  • This may also be better stated as Book their annual health checkup.
+  • Unless we specify otherwise, we expect this prompt to be used for the longest sentences. So long answers are preferred, but short answers are also acceptable.
+
+This prompt is for short answers. For longer answers, we also welcome other formats like a profile picture as a reply. But long answers are preferred over short answers.
+
+Here is a sample of a good example in the given format to get the idea:
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: As an author, I suggest that you do it. That is what I would do.
+  • The prompt has a link specifically telling the replies to be short.
+
+This is a good example. The prompt is specific and asks the user for a short answer. The example link is also in the prompt.
+
+Ask for a short answer. This format allows for longer replies such as a profile picture, but the prompt is short.
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: I would do it.
+  • The prompt is specific to the domain and asks a short answer.
+
+This is a good example. The prompt is specific to the domain and asks a short answer.
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: As an author, I suggest that you do it.
+  • The prompt is specific to the domain and asks a short answer.
+
+This is a good example. The prompt is specific to the domain and asks a short answer.
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: I would do it.
+  • The prompt is specific to the domain and asks a short answer.
+
+This is a good example. The prompt is specific to the domain and asks a short answer.
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: That is what I would do.
+  • The prompt is specific to the domain and asks a short answer.
+
+This is a good example. The prompt is specific to the domain and asks a short answer.
+
+Q. How do I remind my friends to book their annual health checkup?
+
+A: As an author I suggest that you do it.
+  • The prompt is specific to the domain and asks a short answer.
+
+This is a good example. The prompt is specific to the domain and asks a short answer.
+
+Q. As an author, I suggest that you do it.
+
+A: I would do it.
+  • The prompt is specific to the domain and asks a short answer.
+
+This is a good example. The prompt is specific to the domain and asks a short answer.
+
+Q. I would do it.
+
+A: Book an annual

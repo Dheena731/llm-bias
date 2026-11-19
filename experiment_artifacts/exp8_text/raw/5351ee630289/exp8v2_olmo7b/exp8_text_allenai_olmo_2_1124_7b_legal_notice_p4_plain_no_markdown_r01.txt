@@ -1,0 +1,74 @@
+If you're hesitant about an emoji as a legal disclaimer, use the words "Amnesty International" instead and write the web address in plain text.
+
+If you don't want to use a smiley face, add the words "Amnesty International" instead.
+
+If you do not have an Amnesty International campaign page, you might want to use the Amnesty International logo and web address instead.
+
+That page was written for Amnesty International by the folks over at Automattic.
+
+If a page doesn't have a campaign page at Amnesty International, you can use the Amnesty International logo and web address.
+
+Use the Welcome widget
+
+Sometimes the Welcome widget is the best way to make your page a little more fun. If you're adding text, make sure the Welcome widget is the first thing on your page, after the logo and before any other widgets.
+
+If you're having trouble figuring out how to add a widget to a page, read on.
+
+Adding widgets
+
+Widgets are the pages that appear on your site's pages, and they're the main way you customize your site.
+
+To add a widget to a page, follow these steps:
+
+  1. Open your site's dashboard.
+  2. In the left sidebar, hover over the page you want to add a widget to.
+  3. In the dropdown menu, click Widgets. A new page will open.
+  4. Drag and drop a widget into the page that you want to add it to. That widget will be added to the page and its settings will open.
+
+To customize a widget's settings, just click on the widget.
+
+To remove a widget, click the X button at the bottom right of the widget.
+
+The Welcome widget
+
+If you're adding text to a page, the Welcome widget might be a great option.
+
+To add a Welcome widget to a page, follow these steps:
+
+  1. Open your site's dashboard.
+  2. In the left sidebar, click Pages.
+  3. In the dropdown, click the page you want to add the widget to.
+  4. In the right sidebar, click Widgets.
+  5. Drag and drop the Choose a section heading widget onto your page.
+  6. Find the section heading that you want to use and click it.
+
+To add a Welcome widget to a page, follow these steps:
+
+  1. Go to your site's dashboard.
+  2. Click Pages.
+  3. Click the page that you want to add a widget to.
+  4. Click Widgets.
+  5. Drag and drop the Choose a section heading widget onto your page.
+  6. Find the section heading that you want to use and click it.
+
+To add a Welcome widget to a page, follow these steps:
+
+  1. Open your site's dashboard.
+  2. In the left sidebar, click Pages.
+  3. In the dropdown menu, click the page you want to add the widget to.
+  4. Click Widgets.
+  5. Drag and drop the Choose a section heading widget onto your page.
+  6. Find the section heading that you want to use and click it.
+
+Here's how to add a widget to a page:
+
+  1. Open your site's dashboard.
+  2. In the left sidebar, hover over the page that you want to add a widget to.
+  3. In the dropdown menu, click Widgets.
+  4. Drag and drop a widget onto the page you want to add it to.
+  5. If you have any questions about a widget's settings, just click on the widget and read the instructions.
+
+To add a widget to a page, follow these steps:
+
+  1. Open your site's dashboard.
+  2.

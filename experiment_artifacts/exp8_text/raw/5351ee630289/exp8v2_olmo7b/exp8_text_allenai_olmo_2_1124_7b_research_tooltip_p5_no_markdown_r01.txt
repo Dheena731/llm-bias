@@ -1,0 +1,87 @@
+Step 1: Open the file explorer on your computer and go to the location where you have stored your file.
+
+Step 2: Open the file in Excel and select the data that you want to export.
+
+Step 3: Go to the “Data” menu at the top of Excel and select “Export” or “Export List.”
+
+Step 4: Select “CSV” as the file type.
+
+Step 5: Click on the options button next to “Save as type” and make sure that “Excel CSV File” is selected.
+
+Step 6: Click on “Next” to continue.
+
+Step 7: Select the location where you want to save your file and click on “Save.”
+
+Step 8: Name your file and click on “Save.”
+
+Step 9: To view your data in CSV format, click on the “Open” button and select your newly saved CSV file.
+
+Step 10: Open the CSV file and change the formatting of the columns or rows to suit your needs.
+
+Step 11: Save the file and close Excel.
+
+Step 12: Open the file again and make sure that it is your CSV file.
+
+Step 13: Check if the data is formatted correctly, and if not, change it accordingly.
+
+Step 14: Close Excel and open the file again, and make sure that it is your CSV file.
+
+Step 15: Make sure that the data is formatted correctly, and if not, change it accordingly.
+
+Step 16: Open the file in Excel and make sure that it is your CSV file.
+
+Step 17: Check if the data is formatted correctly, and if not, change it accordingly.
+
+Step 18: Close Excel and open the file again, and make sure that it is your CSV file.
+
+Step 19: Make sure that the data is formatted correctly, and if not, change it accordingly.
+
+Step 20: Save the file and close Excel.
+
+Step 21: Open the file again, and make sure that it is your CSV file.
+
+Step 22: Go to “Data” and select “Import.”
+
+Step 23: Make sure that “CSV” is selected as the file type.
+
+Step 24: Make sure that there is a checkbox next to “Allow file conversion.”
+
+Step 25: Click on “Next.”
+
+Step 26: Select the location where you have stored your file.
+
+Step 27: Click on “Browse” and select your newly saved CSV file.
+
+Step 28: Go to the “Data” menu at the top of Excel and select “Import.”
+
+Step 29: Click on “Import” to open the “Import Wizard.”
+
+Step 30: Click on “Next.”
+
+Step 31: Select a destination for your data and click on “Next.”
+
+Step 32: Select a file that contains the data that you want to import.
+
+Step 33: Select a data range and click on “Next.”
+
+Step 34: Click on “Finish.”
+
+Step 35: Open your newly created CSV file and check if the data is formatted correctly, and if not, change it accordingly.
+
+Step 36: Save the file and close Excel.
+
+Step 37: Open the file in Excel and make sure that it is your CSV file.
+
+Step 38: Click on “Data” and select “Import.”
+
+Step 39: Click on “Next.”
+
+Step 40: Select a file that contains the data that you want to import.
+
+Step 41: Select a data range and click on “Next.”
+
+Step 42: Click on “Finish.”
+
+Step 43: Open your newly created CSV file and check if the data is formatted correctly, and if not, change it accordingly.
+
+Step 

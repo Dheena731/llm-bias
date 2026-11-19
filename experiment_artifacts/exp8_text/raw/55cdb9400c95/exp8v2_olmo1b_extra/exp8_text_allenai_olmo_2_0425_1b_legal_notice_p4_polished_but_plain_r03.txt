@@ -1,0 +1,123 @@
+Use this format:
+
+> {author}{date}{title}{{report}}{copy of {{report}}}
+
+Use this format:
+
+> {author}{date}{title}{{report}}{copy of {{report}}}
+
+Use the {{report}} template to link to the full report. If the report has been published, use the copy of {{report}} to link to a version that has not been published yet.
+
+Example report link: {{report}}.
+
+Example copy link: {{copy of {{report}}}}.
+
+To link to the PDF of the full report, use this code:
+
+> {author}{date}{title}{{report}}{PDF of {{report}}}
+
+To link to the full report version, use this code:
+
+> {author}{date}{title}{{report}}{copy of {{report}}}
+
+To link to a page within the report, use this code:
+
+> {author}{date}{title}{{report}}{copy of {{report}}}
+
+To link to the full report version within the report, use this code:
+
+> {author}{date}{title}{{report}}{copy of {{report}}}
+
+Use this template to link to a page in a court record (e.g., the Transcript) where the court report is located:
+
+> {{report}} in the record {{record name}}
+
+Use this template to link to a court record where a court report is located:
+
+> {{report}} in the record {{report name}}
+
+Use this template to link to a court record where a court report is located and where that report is a copy of the report in the court record:
+
+> {{report}} in the record {{report name}}{copy of {{copy of report}}}
+
+Use this template to create an anchor link that jumps to a location within the report:
+
+> {report#anchor}
+
+Use this template to create an anchor link that jumps to a location within the report and where that location is a copy of the report in the court record:
+
+> {report#anchor}{copy of {{copy of report}}}
+
+Use this template to create an anchor link that creates a shortcut for a location within the report:
+
+> {report}{#jump}
+
+For example:
+
+The report is located on page 26 of the transcript.
+
+> {report}{page 26}
+
+The report includes specific information about a specific name.
+
+> {report}{person name}
+
+The report includes specific information about a specific location.
+
+> {report}{address}
+
+The report starts at a specific page location.
+
+> {report}{page}
+
+Use this template to create an image link that opens a specific image in a new tab:
+
+> {report}{image}
+
+Use this template to create an image link that opens a specific image and where the image is located:
+
+> {report}{#image}
+
+For example:
+
+The report includes an image on page 40.
+
+> {report}{#image}
+
+The report includes an image of a court document.
+
+> {report}{#image}{court document}
+
+The report includes the original image.
+
+> {report}{#image}{original image}
+
+The report includes an image of a citation.
+
+> {report}{#image}{citation}
+
+The report includes a link to the report itself.
+
+> {report}{#link}
+
+The report includes a link to the report if you click the button.
+
+> {report}{#link}{author}
+
+The report includes a link to the report if you click the button.
+
+> {report}{#link}{number}
+
+The report includes a link to the report if you click the button.
+
+> {report}{#link}{paragraph}
+
+The report includes a link to the report if you click the button.
+
+> {report}{#link}{section}
+
+The report includes a link to the report if you click the button.
+
+> {report}{#link}{subsection}
+
+The

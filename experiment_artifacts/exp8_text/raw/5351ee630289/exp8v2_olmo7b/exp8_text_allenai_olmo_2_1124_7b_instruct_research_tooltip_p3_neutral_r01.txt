@@ -1,0 +1,1 @@
+Select a date range by choosing a start date and an end date; the time period includes all dates between these two dates, inclusive.

@@ -1,0 +1,27 @@
+```
+**Account Terms Update**
+
+* **Account Status:**
+  - As of [Effective Date], all current account users are encouraged to migrate to the [New Account] platform to ensure continued service and security.
+
+* **Account Access:**
+  - Current users with active accounts will need to verify and reconfigure their login details to access the new account format.
+
+* **Service Changes:**
+  - We regret to inform users that we will no longer support the [Old Account] system from [Start Date]. Please prepare to switch to the [New Account].
+
+- **Accounts & Transactions:**
+  - Please be aware that transaction records for [Old Account] users will be converted to the new [New Account] format.
+- **Privacy & Compliance:**
+  - We suggest users review the [New Account Privacy Policy] to ensure they are compliant with all data protection regulations.
+- **Contact & Support:**
+  - For any queries, issues, or support related to the [New Account], please contact our support team at [Contact Information].
+- **Disclaimer:**
+  - We remind users that [Old Account] systems may not be supported and any actions taken thereafter may be subject to change. Users are encouraged to ensure all services are migrated to the [New Account].
+
+Thank you for your understanding and cooperation as we update our platform.
+```
+
+* Note: Account migration is a process that may take up to [Migrate Time] days. Please ensure you have your account details ready for verification.*
+
+* Update date: [Update Date]

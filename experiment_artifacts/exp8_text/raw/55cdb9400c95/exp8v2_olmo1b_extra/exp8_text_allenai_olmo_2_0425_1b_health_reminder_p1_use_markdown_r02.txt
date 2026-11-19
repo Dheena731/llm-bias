@@ -1,0 +1,136 @@
+Heading: Weekly achievement!
+Blue: Muscle gain
+Red: Cardio
+Green: Fat loss
+
+Heading: Click here for a quick progress recap
+Blue: Achievements
+Red: Fitness goals
+Green: Positive feedback
+
+Heading: Email a summary of your sessions to me
+Blue: Highlights
+Red: High-calorie, low-impact sessions
+Green: Low-calorie, high-impact sessions
+Green: Intense high-intensity sessions
+
+Heading: I'd love to see it!
+Blue: Progress image
+Red: Progress video
+Green: Progress progress image
+
+Heading: I'd love to see it again!
+Blue: Progress image
+Red: Progress video
+Green: Progress progress image
+
+Heading: Tell me how it feels
+Blue: Nicely done
+Red: Needs improvement
+Green: Nothing to show
+
+Heading: I'd love to see you progress even more!
+Blue: Progress image
+Red: Progress video
+Green: Progress progress image
+
+Heading: Congratulations!
+Blue: Achievement image
+Red: Achievement video
+Green: Achievement progress image
+
+Heading: Thanks!
+Blue: Positive feedback
+Red: High-calorie, low-impact sessions
+Green: Low-calorie, high-impact sessions
+Green: Intense high-intensity sessions
+
+Heading: I'm a little bit upset about this behavior
+Blue: Excessive lifting
+Red: Overtraining
+Green: Good progress
+
+Heading: I'm worried about this behavior
+Blue: Overtraining
+Red: Excessive lifting
+Green: No progress, need a break
+
+Heading: I'm feeling confused about this behavior
+Blue: Excessive lifting
+Red: Overtraining
+Green: Excessive lifting
+
+Heading: I'm confused about this behavior
+Blue: Excessive lifting
+Red: Overtraining
+Green: Excessive lifting
+
+Heading: I need to change some behavior
+Blue: Excessive lifting
+Red: Overtraining
+Green: Excessive lifting
+
+Heading: I'm really bad at this behavior
+Blue: Excessive lifting
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm so confused about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm really confused about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm really not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm really not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm really not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm really not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining
+
+Heading: I'm really not sure about this behavior
+Blue: No progress, need a break
+Red: Overtraining
+Green: Overtraining

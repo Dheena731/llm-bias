@@ -1,0 +1,5 @@
+If the service is down, use the status tag to provide basic information about the outage and where people can find help. The status tag is written in plain prose. For example:
+
+  • Status: Service is down.
+
+  • Expected time of recovery: 4 hours.

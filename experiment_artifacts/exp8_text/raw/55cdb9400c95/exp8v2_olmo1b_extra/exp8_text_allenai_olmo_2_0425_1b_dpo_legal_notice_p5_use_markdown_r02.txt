@@ -1,0 +1,10 @@
+# Shared Network Acceptable Use Policy
+
+1. **No Unauthorized Access**: Access to the shared network is restricted to authorized users only. Unauthorized access, hacking, and tampering with network devices are strictly prohibited.
+2. **No Malicious Activity**: Engage in any form of malicious activity such as spreading viruses, conducting denial-of-service attacks, or engaging in any other harmful actions against the network or its users.
+3. **Data Confidentiality**: Ensure the confidentiality and integrity of shared data by not sharing sensitive information without proper authorization and by not storing data on the network without proper backup and security measures.
+4. **No File Sharing Without Consent**: File sharing of copyrighted materials or communal property without the consent of the rightful owner is not permissible.
+5. **Regular Maintenance**: Participate in the regular maintenance and upgradation of the network's hardware and software to ensure its proper functioning and security.
+6. **Responsible Use**: Consume network resources responsibly, avoiding overloading network servers or consuming excessive bandwidth, which can affect other users' access and performance.
+
+Failure to comply with any part of this policy may result in termination of network access and legal consequences.

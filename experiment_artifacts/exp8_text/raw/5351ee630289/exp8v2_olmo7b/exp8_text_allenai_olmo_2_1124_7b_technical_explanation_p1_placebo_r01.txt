@@ -1,0 +1,10 @@
+If you find yourself stumped, try reviewing the relevant section in the course material or asking for help in the Piazza discussion forum.
+
+A good explanation should demonstrate a thorough understanding of the material.
+
+  1. Write 2–5 sentences answering either of the following questions:
+    • HTTPS is used extensively for secure web communications because it uses an encryption layer on top of HTTP to scramble with ciphertext. However, it is increasingly being used by web sites that don't need to transmit sensitive data. Why does it matter?
+    • Millions of Internet users are denied the use of HTTPS web sites because their access is restricted by the authorities. Why does it matter?
+  2. Write 1–3 sentences explaining the main idea of one of the following papers:
+    1. [paper #1]: "A Simple Approach to Aggregation of Web Services"
+    2. [paper #2]: "The Impact of Web Browser Caching on Web Site Performance"

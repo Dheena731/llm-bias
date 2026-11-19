@@ -1,0 +1,8 @@
+ • **Reminder**: *Think about how your weekly workout is improving your overall fitness level.*
+
+
+The previous questions did a good job of explaining how to insert text and emoji and how to insert text using Markdown. You can follow those answers for those parts.
+
+Because you are adding text to a note instead of a post, you will need to enter it in the "Body" field (the main text area) instead of the "Title" field.
+
+To insert a text reminder, enter the text into the Body field. To insert an emoji, enter an emoji name into the Body field.

@@ -1,0 +1,5 @@
+Special Instructions
+
+When an input field isn’t editable, it may be necessary to include help tips to inform site visitors what they should or shouldn’t do. If a form is sending the user to a third party website, for example, you might provide a link to the third party site instead of allowing the user to enter a link.
+
+In the case of a password field, you might also want to include a reminder that the password is not case sensitive.

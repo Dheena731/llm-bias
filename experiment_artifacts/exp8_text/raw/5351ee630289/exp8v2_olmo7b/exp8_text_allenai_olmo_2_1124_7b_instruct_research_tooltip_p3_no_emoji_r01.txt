@@ -1,0 +1,1 @@
+Select a date range by choosing a start date and an end date. The interval between the two dates indicates the period you are interested in. Ensure that the start date is before the end date to form a valid range.

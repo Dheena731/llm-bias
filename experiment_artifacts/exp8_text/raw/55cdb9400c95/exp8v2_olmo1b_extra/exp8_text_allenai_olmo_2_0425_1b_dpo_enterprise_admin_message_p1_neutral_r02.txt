@@ -1,0 +1,17 @@
+Subject: Important Dashboard Maintenance Window
+
+Dear Team,
+
+We are currently running some necessary database and UI optimizations and performance enhancements during our scheduled maintenance window from [start time] to [end time]. During this time, we will not be available to assist with any critical tasks or updates.
+
+Please ensure any critical work that requires our immediate attention is handled prior to or during our open hours. Also, kindly report any system issues or disruptions to the support team [support email] so we can address them promptly after the maintenance window closes.
+
+Rest assured that your data and functionality are our top priorities, and we are working diligently to ensure a smooth and efficient experience for all users during this period.
+
+Thank you for your understanding and cooperation.
+
+Best regards,
+[Your Name]
+[Your Position]
+
+Please replace "[start time]" with the actual start time of your maintenance window and "[end time]" with the exact finish time.

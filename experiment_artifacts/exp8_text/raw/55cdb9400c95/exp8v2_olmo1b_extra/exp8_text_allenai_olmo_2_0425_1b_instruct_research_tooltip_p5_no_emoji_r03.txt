@@ -1,0 +1,1 @@
+Click the desired output field to export query results. Click the export button or choose an export format (e.g., CSV, Excel, PDF).

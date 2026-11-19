@@ -1,0 +1,118 @@
+Example
+
+## Monthly Spending Summary
+
+### New Spending
+
+- **$300** for car insurance
+- **$50** for clothes and accessories
+- **$10** for catering
+
+Notes:
+
+- I spent $250 for car insurance.
+- I spent $50 on clothes and accessories.
+- I spent $10 on catering.
+
+### Old Spending
+
+- **$100** for a computer purchase
+- **$10** for transportation
+- **$30** for dining out
+
+Notes:
+
+- I spent $100 on a computer purchase.
+- I spent $30 on dining out.
+- I spent $10 on transportation.
+- I spent $50 for clothes and accessories.
+
+### Net Change Over the Past Month
+
+- Net Change = New Spending - Old Spending
+- Net Change = $300 - $100 - $30 - $10 = $170
+
+### Monthly Spending Over the Past 3 Months
+
+- Total Spent = $300 + $50 + $10 + $300 + $50 + $10 + $100 + $30 + $10
+- Total Spent = $900
+
+### Gross Income Over the Past 3 Months
+
+- Total Income = $3,500 + $2,000 + $3,000 + $3,000 + $3,000 + $2,000 + $3,500 + $2,700 + $3,000
+- Total Income = $25,000
+
+### Monthly Savings Over the Past 3 Months
+
+- Monthly Savings = Net Change / Monthly Income
+- Monthly Savings = $170 / $25,000
+- Monthly Savings = $0.0068
+
+### Monthly Savings Goal
+
+- Monthly Savings Goal = Monthly Savings * 12
+- Monthly Savings Goal = $0.0068 * 12
+- Monthly Savings Goal = $0.068
+
+#### Monthly Savings Goal
+
+- Monthly Savings Goal = $0.068
+
+Example 2
+
+## Monthly Spending Summary
+
+### New Spending
+
+- **$150** for car insurance
+- **$20** for clothes and accessories
+- **$10** for catering
+
+Notes:
+
+- I spent $150 for car insurance.
+- I spent $20 on clothes and accessories.
+- I spent $10 on catering.
+
+### Old Spending
+
+- **$175** for a computer purchase
+- **$10** for transportation
+- **$30** for dining out
+
+Notes:
+
+- I spent $175 on a computer purchase.
+- I spent $10 on transportation.
+- I spent $30 on dining out.
+
+### Net Change Over the Past Month
+
+- Net Change = New Spending - Old Spending
+- Net Change = $150 - $175 - $10 - $10 - $30 = -$35
+
+### Monthly Spending Over the Past 3 Months
+
+- Total Spent = $300 + $50 + $10 + $300 + $50 + $10 + $100 + $10 + $10
+- Total Spent = $900
+
+### Gross Income Over the Past 3 Months
+
+- Total Income = $3,500 + $2,000 + $3,000 + $3,000 + $3,000 + $2,000 + $3,500 + $2,700 + $3,000
+- Total Income = $22,200
+
+### Monthly Savings Over the Past 3 Months
+
+- Monthly Savings = Net Change / Monthly Income
+- Monthly Savings = -$35 / $22,200
+- Monthly Savings = -$1.49
+
+### Monthly Savings Goal
+
+- Monthly Savings Goal = Monthly Savings * 12
+- Monthly Savings Goal = -$1.49 * 12
+- Monthly Savings Goal = -$16.18
+
+#### Monthly Savings Goal
+
+- Monthly Savings Goal = -$16

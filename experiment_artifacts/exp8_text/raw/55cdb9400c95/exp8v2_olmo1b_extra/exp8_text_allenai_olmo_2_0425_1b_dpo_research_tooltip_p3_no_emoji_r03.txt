@@ -1,0 +1,1 @@
+This date-range selector lets you choose a specific period of time on a calendar. When you hover over it, it displays the options: "Start On", "End On", "Previous Month", "Current Month", "Next Month", and "All".

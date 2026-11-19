@@ -1,0 +1,5 @@
+Please be aware that your explanation can be considered as a part of the official documentation of the tool.
+
+Here is an example for a hypothetical tool which takes a string parameter and decides whether to execute an action based on the parameter. The action could be “render a HTML page”, “return the next word from the string”, “return the previous word from the string” or anything else. However, it is prohibited to ask for the string length, the language tag, whether the string contains any other special characters, whether it contains a special character in the beginning or the end and so on.
+
+There is no acceptable reason to add these restrictions to the tool.

@@ -1,0 +1,41 @@
+What are the different types of database index?
+
+There are two main types of database indexes: clustered indexes and non-clustered indexes. The difference between these two types is their physical structure.
+
+What does a clustered index do?
+
+A clustered index is stored together with the data it references (the table rows) in the same file, and so clustered indexes are also known as “table index”.
+
+An important concept to understand is that an index is just another table like any other, with its own set of columns, and its own cardinality, number of rows, and data distribution across its rows. A clustered index dictates the physical order of the rows in the table, which is the opposite of a non-clustered index.
+
+A clustered index is more efficient at performing queries on tables since it has a more granular data distribution. When you modify a clustered index, all the data in that table is moved from the index to the actual table, which means you should keep the clustered index up to date and it should be the same across all versions of the table.
+
+What does a non-clustered index do?
+
+A non-clustered index is a set of lookup keys referenced by a column, which is called the “column name” (in this case, the column name is the clustered index column). The non-clustered index has the same cardinality as the clustered index, and it uses the same file position to store its rows in the same file as the table.
+
+A non-clustered index is not stored together with the data in the table, which is the opposite of a clustered index. The non-clustered index completely defines the data distribution of a table, and its format is independent of the table structure. In other words, the data from a table can be updated independently of the index definition.
+
+A non-clustered index is not as efficient as the clustered index, since it is not stored in the same physical file or directory that references a specific row in a table. When you modify a non-clustered index, new rows will not be physically moved to the index file. Instead, new rows will be added to the end of the index file. This means that if you have a table with 10 million rows, it will take 10 million times longer to add new rows to an index.
+
+What is a unique index?
+
+A unique index ensures that no row can have the same value for a specific column in a table. This is useful for preventing data duplication on a database table.
+
+When you declare a unique index, the index is applied to the primary key column(s) of a table, and all additional column(s) must be unique.
+
+What is a primary key?
+
+A primary key is a column which identifies each row of a table uniquely. Every table has a primary key, and the primary key is often used to reference the table.
+
+What is a foreign key?
+
+A foreign key is a column that references a primary key of another table. This type of relationship is used to link two tables together, and we say that one table is a “referent” of another table.
+
+Foreign keys are used to enforce data consistency in a database. For instance, a user cannot update a field that is referenced by a foreign key unless the foreign key has been updated as well.
+
+What are indexes and pointers?
+
+A pointer is a memory address of a data block that contains another data block. A pointer is very commonly used in database technology to store a pointer to a data block, but it can also be used to store the address of another pointer. A pointer can be used to store the address of an index, and an index can be used to store the address of a table. The range that pointers can reference is extremely limited.
+
+Indexes are data structures that are used to speed up data access. As we saw earlier, indexes store

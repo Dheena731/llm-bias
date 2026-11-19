@@ -1,0 +1,1 @@
+A missing-value marker in data analysis refers to a placeholder where values are absent or not provided. It helps identify areas where data is missing, aiding in understanding the distribution of data and making informed decisions based on the available information.

@@ -1,0 +1,70 @@
+For example, the following is an acceptable notice:
+
+
+Click this link for further instructions. If you have any questions, contact your local librarian. Call 555-5555.
+
+Make the notice as short as possible, but no shorter than four sentences. Use the same style as the other notices.
+
+All notices should end with a colon.
+
+How to submit a quarterly notice
+
+To submit a quarterly notice:
+
+  1. Select the notifications heading from the main navigation.
+  2. Select Create.
+  3. Enter the notice in the template, and select Save.
+  4. Optional: Select Create a link to the notice and add the link text to Facebook, Twitter, or Google+.
+
+    If you select Create a link, StrongArm will include the link text in the notice. If you select Create a language link, StrongArm will include the language link in the notice. This is useful for languages with a significant number of speakers, such as Spanish or Hebrew.
+
+  5. Select Download PDF.
+
+    This download will include the notice in a PDF file. If you are using Google Chrome to download the PDF, you can also copy the link from the notification and then paste it into a web browser.
+
+
+    You cannot download the PDF version of the notice when you click the link in the mobile version of the notice. This is because if you click the link in the mobile version of the notice, the mobile version of the notice opens instead of displaying the PDF version.
+
+  6. Accept the notice and click Save to save it.
+
+Notice templates
+
+StrongArm uses templates to help you create notices quickly.
+
+The templates are located in the Template section of the home page. If you are on the notice page, the templates are located in the Template section of the page.
+
+You can use these templates to save time and help you create notices that are well organized and always formatted the same way.
+
+To open a template:
+
+  1. Select one of the templates in the Templates section.
+  2. Select a language and a country from the drop-down menus.
+  3. Select Save.
+
+After you select Save, you will see a PDF file of the notice with the format you selected. If you want to change the notice, click the PDF file again. If you want to add text to the notice, select the Notice template.
+
+Notice templates can be used for both quarterly and annual notices. For example, you can use the following templates to create annual notices:
+
+  • United States - Annual Quarterly Notice Template
+  • United Kingdom - Annual Quarterly Notice Template
+  • Australia - Annual Quarterly Notice Template
+  • New Zealand - Annual Quarterly Notice Template
+  • Canada - Annual Quarterly Notice Template
+
+In this case, use the above template to create quarterly notices for each country, and then use the 3-months notice template to create annual notices.
+
+If you are not on the notice page, scroll to the top of the notice and click the Notice template to open the notice template.
+
+Notice categories
+
+StrongArm uses notice categories to help you create notices that are related to a specific category of work, such as access reviews, testing, or periodic notices. This helps you create notices that meet the needs of other staff and let others know what work StrongArm does. Notice categories are located in the Notifications page.
+
+To create a notice:
+
+  1. Open the Notifications page.
+  2. Select Notifications category, and select the notice category you want to use.
+  3. Select Create.
+
+    A notice template will open in a new browser window. If you are not on the new browser window, you can open it by clicking the notification icon at the top right of the page.
+
+    Notice categories allow you to create more than one notice with the

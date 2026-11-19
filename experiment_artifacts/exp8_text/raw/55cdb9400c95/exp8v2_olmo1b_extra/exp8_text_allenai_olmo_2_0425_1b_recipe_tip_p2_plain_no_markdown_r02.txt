@@ -1,0 +1,13 @@
+Avoid writing just the bare minimum. Be thorough.
+
+Don't care so much about formatting as we do about the content. Make sure you write with care, and then let things fall where they may.
+
+Avoid unnecessary jargon, buzzwords, or specialized terminology. Use common terminology in ordinary language. For example, rather than saying, “This needs to be linearly interpolated,” you could say, “This needs to be interpolated linearly.”
+
+Use the exact same terminology that exists in the literature, but use plain language, as described above. It is unfortunate that most scientific writing is so imprecise.
+
+Edit, edit, edit.
+It is best to have many drafts, and to edit and reedit and edit again. Remember the saying, “When you write, rewrite. When you rewrite, rewrite again.”
+
+
+Use an appropriate style and format for your writing.

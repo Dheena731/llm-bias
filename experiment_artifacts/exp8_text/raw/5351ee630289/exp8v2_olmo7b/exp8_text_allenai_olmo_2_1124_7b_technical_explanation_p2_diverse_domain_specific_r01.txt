@@ -1,0 +1,7 @@
+This database index is a type of data structure used to quickly access data from a database table. It points to a specific row based on the search key or keys (e.g. first name). This allows the query engine to quickly find the requested rows, rather than iterating over all the records in the table.
+
+The main purpose of a database index is to improve performance when searching for specific records within a table. Without it, the query engine would have to scan all the records one by one until it finds the desired one - which could take a long time, especially for large tables.
+
+The performance improvement comes from the fact that indexes are usually stored in-memory and optimized for fast access. They also allow the query engine to use more advanced algorithms to find the desired result in as little time as possible.
+
+In addition to improving performance, database indexes can also help enforce database integrity rules, such

@@ -1,0 +1,15 @@
+# Changes to Card Transaction Fees
+
+As of [Date] [Month—Year], the following changes have been implemented to the card transaction fees for cardholders:
+
+- **Increased Fees**: All card transactions have been increased by [percentage]% to cover the costs of providing consumer protection. 
+
+- **Transaction Limits**: The maximum daily limit for transactions has been raised to [new limit] to ensure safe and responsible transactions. 
+
+- **oref_Tax Rate**: The tax rate applied to transactions has been modified to [new tax rate] to better reflect the actual cost of transactions to merchants.
+
+- **Transaction Disputes**: There is a new process in place for resolving disputes regarding transactions. This includes [details on how to file a dispute].
+
+- **Penalty Fees**: Penalty fees for exceeding transaction limits have been introduced, with the fee set at [new penalty fee].
+
+Please refer to the [Merchant Assistance Page] for more details and resources on how to manage these changes.

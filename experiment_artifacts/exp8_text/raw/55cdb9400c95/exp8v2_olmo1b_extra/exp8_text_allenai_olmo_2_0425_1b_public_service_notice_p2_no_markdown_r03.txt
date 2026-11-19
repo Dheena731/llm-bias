@@ -1,0 +1,39 @@
+Each of these might be read by the different systems. Don't worry too much about the correct format, the important thing is that each story is somehow associated with a path. The system can "guess" the type based on the first words of each story (the title).
+
+Personally I have seen circumstances where the system does not know the classification of a route and sometimes the user has to explain it, mainly because this information is not available in the database.
+
+Also, if you are interested in using the system, you can test if it is working fine with the information provided below.
+The system has been tested with the following sample data.
+It is tested with the first steps, where you have to go through the whole process from entering the city to access everything you want to access. But you can test it with just a single step (say Access Primary Data).
+
+City
+
+This is the city that is described in the source. It can be edited by anyone, but usually it is just a quality check for the system and helps to understand the different scenarios for the system.
+
+Path Entry
+
+This is a path that starts from the city. It must contain one or more links. Each link can have a color that makes it visible in the UI. This can be just a link without a color (green or red in this case). Other colors can be implemented but they must be identical to the ones already implemented. This is the case you usually see on the map.
+
+Proceed to x
+
+This is the first step of the whole process. It contains an click, a walk, a drive or other type of action that is seen in the UI. The system should be able to distinguish between these types of actions. The information should not be mandatory but it would be nice for the system to suggest it. This information is useful for the system to guess the type. It also helps to offer suggestions on how to proceed if there is no specific information.
+
+Proceed to y
+
+This is the second step of the whole process. The information stored here should not be mandatory. It only helps the system to guess which type of action to perform. If it is optional, it is usually just a link that can be clicked to display more information about the action and the place. So, this information is useful for the system to guess the type of action to perform.
+
+Proceed to z
+
+This is the last step of the whole process. The system should be able to perform different types of actions at this point. For example, it can display a map, complete the process, or just display the details of the route. In this case, this information is useful to recognize the type of action to perform.
+
+Proceed to x
+
+This is a step that is similar to the Proceed to y step. It contains the same click, walk, drive or other type of action that is seen in the UI. The information stored here should not be mandatory, but the system should be able to recognize this type of information. It also helps to offer suggestions on how to proceed if there is no specific information. This information is useful to recognize the type of action to perform.
+
+Proceed to y
+
+This is a step that is similar to the Proceed to z step. It contains the same click, walk, drive or other type of action that is seen in the UI. The information stored here should not be mandatory, but the system should be able to recognize this type of information. It also helps to offer suggestions on how to proceed if there is no specific information. This information is useful to recognize the type of action to perform.
+
+Proceed to z
+
+This is the last step of the whole process. The system should be able to perform different types of actions at this point. For example, it can display a map, complete the process, or just display the details of

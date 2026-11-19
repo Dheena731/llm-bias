@@ -1,0 +1,3 @@
+Copyright © 2020 The Regents of the University of California, UC Berkeley. All rights reserved
+
+[6] There may be multiple RAs for a single class, if they differ based on the class' requirements.

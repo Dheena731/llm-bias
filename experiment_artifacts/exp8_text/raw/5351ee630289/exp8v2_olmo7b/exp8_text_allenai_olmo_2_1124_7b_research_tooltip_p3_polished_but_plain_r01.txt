@@ -1,0 +1,35 @@
+The tooltip should mention the feature or property that is being selected. The tooltip should be concise, yet explain enough distinctions to help the user make a good choice.
+
+Examples of good tooltip writing
+Property Type Method Text
+Display none
+Selector: type="button"
+For "display: none", the element is hidden. It will still take up space on the page. Any click events will not be triggered. This hides the element from the user and the layout.
+Display inline
+Selector: type="button"
+For "display: inline", the element is displayed in the flow of text. It will still take up space on the computer screen. The click event is triggered when the muscle button is pressed.
+Display block
+Selector: type="button"
+For "display: block", the element is displayed as a block on the page. This takes up the most screen space and the click event is triggered when the muscle button is pressed.
+
+In rare cases, the information in the tooltip is too big to fit in it, and the tooltip box cannot be expanded. In this case, you should still write concise, valuable information. Consider writing additional info that is helpful to the reader in the part of the page that is directly above the picker.
+
+The tooltip for display property
+
+Text description of the Text field
+
+How do I know if I should use a tooltip?
+
+Use a tooltip if any of the following are true:
+
+  • It's a long-form field. If the field has more than one entity in it, and each entity is longer than one word, you should probably use a tooltip.
+
+  • The field or combo box has a long name. If the name of the field or combo box is longer than 15 characters, you should probably use a tooltip.
+
+  • The field or combo box is a compound entity. If the field or combo box has a comma-separated list of entities within it, and each entity is longer than one word, you should probably use a tooltip.
+
+ :point_right: Inputs that can be complex or compound, but not long-form, do not need tooltips. Examples include the font-family selector for the "font-family" input, or the background-color selector for the "background-color" input.
+
+How do I write a good tooltip?
+
+Good tooltips have the following elements:

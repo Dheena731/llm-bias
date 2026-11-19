@@ -1,0 +1,19 @@
+Subject: Important: VPN Client Connection Changes
+
+Dear Valued Users,
+
+We are writing to inform you of an important change to the VPN client.
+
+As of October 15th, all users will be required to authenticate through the new VPN gateway. This change ensures enhanced security and optimized performance.
+
+Please update your connection settings by replacing 'old_vpn_gateway' with 'new_vpn_gateway' in your VPN client configuration.
+
+For step-by-step instructions and any potential impact on your service, please visit our support page or contact our helpdesk.
+
+Thank you for your cooperation and continued support.
+
+Best regards,
+
+[Your Name]
+[Your Company]
+VPN Support Team

@@ -1,0 +1,34 @@
+# A tooltip for Date Range
+
+A tooltip for this date range selector.
+
+You might need to make some changes to this tooltip to make it more appropriate for your context. Please think about the following questions in order
+to generate the most useful now: tooltip.
+
+* What are the valid values for this date range selector?
+* Will users need to be aware of any special constraints on these values?
+* Are there any other menu items that have a similar purpose?
+* What are the most common or most useful values for this date range selector?
+
+# A rationale for this tooltip
+
+The default label for this date range selector was "from" and "to". This label could be ambiguous, as it is commonly used to denote
+the interval between two dates. However, this date range selector is not a selector for an interval between
+dates. The option "from" does not have a meaning that is obviously related to the date range selector, but the word "to" might
+be confusing because it has that meaning, and it might also be confusing because it does not have that meaning.
+
+# A suggested label
+
+A suggested label for this date range selector is "Start".
+
+# A suggested tooltip
+
+A suggested tooltip for this date range selector is "Select the start date of the date range."
+
+# A rationale for the suggested label
+
+The word "start" is unambiguous, and it clearly relates to the selection of a date. It is not confusing.
+
+# A rationale for the suggested tooltip
+
+The suggested tooltip for this date range selector clearly explains its purpose.

@@ -1,0 +1,28 @@
+#1 Leaf a Reply to your personal banking app.
+
+What we’ve done is create a full app integration that allows you to interact with your bank’s mobile applications from the web browser. So you can sit down at your own desktop computer and just open up the web browser and write some 'API-speak' to send the requests and get the responses from whatever you're banking application is doing. This is exactly the kind of thing that a developer has to do to build a WordPress plugin. So you can get your banking app to do whatever you want it to do.
+We also used the ability to geolocate a user by using the IP address of the server their mobile device is connecting to. That way you can even specify that you only want to talk to the server at your home and school so you can build a location awareness application.
+
+The other way you can use our API is to send a POST request to a specific endpoint and then the system will respond to you with a JSON object. The endpoint will be specified by the API provider. For example, the standard bank account URL will use the following format:
+
+YourBank: Standard: YourAccount: YourBankID
+
+So you can write a program to fetch their data. It's just that simple.
+
+You can view our GitHub repository for our API here:
+
+You can view the documentation here:
+
+There is a blog post up here that goes into more details about how we implemented this feature:
+
+If you'd like to see how this works, please send us a tweet with the hashtag #banking and we'll send you a URL to a live demo using the API on your device.
+
+Some ideas for use:
+
+#1: You could use our API to write a tiny plugin that allows you to wirelessly connect to your bank account via a smartphone app that is on your mobile device. When you open that app you can wirelessly authenticate yourself and then just log into your account. No hassle with having to enter your login credentials into some little app. You can also write a simple JavaScript program that can wirelessly connect to your bank account on any kind of mobile device.
+#2: There is a lot of info about your bank. So you could write an app that gives you some information about your bank, or send you some information related to your bank based on the state of your bank account.
+#3: You could write an application that automatically makes transfers out of your bank based on some criteria you specify.
+#4: You could write a program that periodically checks to make sure your checking account balance is high enough to warrant making a cashier's check.
+
+Clone this wiki locally
+You can’t perform that action at this time.

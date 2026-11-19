@@ -1,0 +1,33 @@
+Rewrite Tools
+
+The rewrites feature is used to correct common mistakes, often resulting in easier to understand text. The scope of this feature is limited, but the tooling is pretty advanced. The rewrites rule is like a spell checker, only for writing about research. The rewrites stage involves reviewing of the text, and correcting common mistakes. In practice, the rewrites stage may be very important, as the authors are likely to make mistakes in the final version of their manuscript. The aim is to make the writing pleasant to read, and to avoid simple mistakes.
+
+The rewrites rule is as follows:
+
+  • 72% of the text should be error-free
+  • 12% of the text should be incorrect and has to be rewritten in full
+  • 9% of the text should be subtle mistakes
+  • 8% of the text should be ungrammatical
+
+The rewrites stage only reviews the text in the main writing mode. It does not review the text prior to submission. In practice, the rewrites stage is important to reduce the number of mistakes in the main writing mode, but it is unlikely that the text will be completely error-free.
+
+The rewrites stage is pretty advanced and is used by the authors to correct simple mistakes. It’s very likely that the text will be edited multiple times before submission.
+
+The main text in a manuscript is checked by the reviewing authors in the main writing mode.
+
+The rewrites rule is also used in the CiteULike version of a manuscript for a few editors. This is an advanced use of the rewrites rule. Essentially, we want to filter out a lot of the text in the manuscript that we don’t actually want to read. The rewrites rule is used to determine the content of the manuscript. The rewrites rule is based on a number of features that are compiled in a list. If a list item is present, the text matching the item is removed. If the list item is not present, the text is added.
+
+Schema and rule set
+
+The software uses the Ω meta language [b] to create a structure of the rules and schema. The schema is a set of rules in the Ω language that determine how the language should be processed [29]. The rules and schema are used by the rewrites rule (see below). The schema has to be generated using the Ω parser, where the sources of the schema should be the same as the sources of the text. In practice, the sources of the schema are the same as the sources of the text. The schema may be generated in different languages such as English, German, Polish, etc.
+
+
+The rewrites feature is available in the CiteULike software for free. If you want to use the rewrites feature, you must have an account with a valid email address. To apply the rewrites rule to your manuscript, please contact and provide a link to your manuscript.
+
+Report a bug
+
+You can report a bug by using the report a problem page [30] or by contacting [email protected] if the bug is related to a specific CiteULike feature.
+
+Further reading
+
+The rewrites feature is not offered in the main CiteULike software. However, you can use the CiteULike editor from the web. You can access the CiteULike editor when you sign in with a known email address and password. If you do not have a CiteULike account, you can sign up for free [31].

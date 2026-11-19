@@ -1,0 +1,1 @@
+A missing-value marker is a symbol or number added to a dataset to indicate that the corresponding data point was not available or was missing during the data collection process.

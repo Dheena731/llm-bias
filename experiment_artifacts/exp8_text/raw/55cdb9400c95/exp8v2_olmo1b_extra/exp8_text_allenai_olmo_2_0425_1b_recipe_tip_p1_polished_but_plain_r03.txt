@@ -1,0 +1,39 @@
+If you need to use or refer to the GitHub API for something, just say so. Avoid using GitHub-specific terms and abbreviations like “@,” “#,” “//,” “/repo/sub“ and “https://https://“ anyway. You can edit your README to include those if you absolutely have to.
+
+If you’re using an external library or service (like an external package manager or an API) you can say so. You can also say whether you expect the code to work in a different environment.
+
+Don’t use these tips to turn your README into a clone of another README at GitHub. It doesn’t matter if your readme follows a different template. It doesn’t matter if you use different language, or add a lot of hype. Just keep it concise and well written.
+
+Writing a Readme
+
+I’m a big fan of writing clear, readable documentation. I think everyone should strive for that.
+
+There are a number of text editors out there for writing and editing Markdown. They don’t all support all the features of GitHub’s Markdown, but you can use any one of them.
+
+Markdown can technically be used in any text editor. However, I recommend using an IDE or WYSIWYG editor for a couple of reasons. First, it will make validating your Markdown easier. Second, it will make updating your README or contributing to a project easier. WYSIWYG editors for markdown/LaTeX are still pretty new.
+
+Learning anything new, especially a new technology like GitHub, can be a daunting task. Sometimes you need a guide to help you along the way. If you’re new to the programming world, you might not even realize that you’re still a beginner. You can help others by providing that guidance.
+
+If your project has a README, add a link to the project’s documentation. If you’re using Open Source, add a link to the app, website or docs. If you’re using an API, make sure you link to its documentation and any documentation for your API.
+
+Do not promote your project by saying something like “Hey, I wrote this thing. Here it is. Here is my Github profile.” Either use your project’s README or something else for that purpose.
+
+It’s okay to use non-code snippets to explain or explain the project’s purpose and goals, if you want. Explain your project’s purpose or direction in a sentence or two. That’s all there is to it.
+
+If your project is a library or application, use Javadoc comments to help users understand what your project is and what it does. If you’re writing code, use comments to explain the logic behind your code. If you’re using Markdown, use it to format your comments.
+
+Learn How to Use Markdown
+
+Markdown is a simple way to format text for the web. It’s not the most powerful way to create code, but it can be used to highlight important parts of your code or explain what it does. Markdown is one of the easiest ways to share your thoughts with others.
+
+Markdown is one of the simplest ways to create a README file for a project or an API.
+
+For example, one way to use Markdown to format code is to use it for quotes or comments. Here is an example:
+
+Do not use Markdown to format code. It’s not a good idea.
+
+Markdown is a great tool for organizing and formatting your thoughts. It’s very easy to use and it supports a wide range of syntax that you can use to format your text.
+
+It’s very easy to use markdown to create a README file. You can use it for writing a product review, an announcement, or a description of what your project does. Markdown is one of the most popular tools for creating readme files, and you should use it to create the README for a project, an API, or a website.
+
+Tags:

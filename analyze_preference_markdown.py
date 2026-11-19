@@ -1,8 +1,9 @@
-"""Markdown and emoji in chosen vs rejected responses of the OLMo 2 1B preference mix (its DPO training data).
+"""Markdown and emoji in chosen vs rejected responses of an OLMo 2 preference mix (the DPO training data).
 
-Data: Hugging Face dataset allenai/olmo-2-0425-1b-preference-mix (data/*.parquet), downloaded separately.
+Data: Hugging Face dataset allenai/olmo-2-0425-1b-preference-mix or allenai/olmo-2-1124-7b-preference-mix
+(data/*.parquet), downloaded separately.
 Run (data dir passed as an argument; -I keeps the download dir off sys.path):
-  uv run --with pyarrow python -I analyze_preference_markdown.py --data /path/to/prefmix
+  uv run --with pyarrow python -I analyze_preference_markdown.py --data /path/to/prefmix [--size 7B]
 """
 
 from __future__ import annotations
@@ -54,6 +55,7 @@ def main() -> None:
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", required=True)
+    parser.add_argument("--size", default="1B", choices=["1B", "7B"])
     args = parser.parse_args()
     pairs, sources = [], Counter()
     for path in sorted(glob.glob(str(Path(args.data) / "data" / "*.parquet"))):
@@ -72,20 +74,21 @@ def main() -> None:
         "all_pairs": {m: paired(pairs, m) for m in METRICS},
         "length_matched_pairs": {m: paired(matched, m) for m in METRICS},
     }
+    suffix = "" if args.size == "1B" else "_" + args.size.lower()  # 1B keeps its original file names
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (OUT / f"summary{suffix}.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     rows = []
     for label, key in (("All pairs", "all_pairs"), ("Length-matched", "length_matched_pairs")):
         for metric, name in (("has_markup", "Markup"), ("has_list", "List lines"), ("has_emoji", "Emoji")):
             s = summary[key][metric]
             rows.append(f"{label} & {name} & {s['pairs']:,} & {100 * s['chosen_rate']:.1f} & {100 * s['rejected_rate']:.1f} & "
                         f"{s['chosen_only']:,} / {s['rejected_only']:,} \\\\")
-    (OUT / "table_preference_markdown.tex").write_text("\n".join([
+    (OUT / f"table_preference_markdown{suffix}.tex").write_text("\n".join([
         r"\begin{table}[t]", r"\centering", r"\small",
-        r"\caption{Markdown and emoji in the OLMo 2 1B preference mix used for DPO. Rates are the share of chosen and "
+        rf"\caption{{Markdown and emoji in the OLMo 2 {args.size} preference mix used for DPO. Rates are the share of chosen and "
         r"rejected responses with the feature; the last column counts pairs where only the chosen (or only the rejected) "
         r"response has it. Length-matched pairs differ in length by at most 25\%.}",
-        r"\label{tab:preference-markdown}", r"\begin{tabular}{llrrrr}", r"\toprule",
+        rf"\label{{tab:preference-markdown{suffix.replace('_', '-')}}}", r"\begin{tabular}{llrrrr}", r"\toprule",
         r"Pairs & Feature & $n$ & Chosen \% & Rejected \% & Chosen-only / rejected-only \\", r"\midrule",
         *rows, r"\bottomrule", r"\end{tabular}", r"\end{table}"]) + "\n", encoding="utf-8")
     print(json.dumps({k: summary[k] for k in ("pairs", "mean_words")}),

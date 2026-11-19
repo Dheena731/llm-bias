@@ -1,0 +1,96 @@
+Use your own words and examples. We recommend doing this by hand, rather than by using the Markdown syntax that you have learned from this document. Do not use additional vocabulary.
+
+Keep the tone friendly and non-technical, like a user manual or an instruction manual.
+
+
+Use a descriptive title for your article. If you don't own the domain name for your article, use a keyword relevant to your content.
+
+In cases where your article uses another title, you must also include your article's title in the article's URL.
+
+
+Use the same title formatting as the articles in your course.
+
+
+Don't use more than one heading. A heading is a paragraph that tells readers what the content is about. You don't need to explain what a heading is.
+
+Heading levels are numbered:
+
+  • 1.0
+  • 1.1
+  • 1.2
+  • 1.3
+
+Let's use HTML headings for an example. Note that you should not use any of the following in your article:
+
+  • Bold
+  • Bold text inside HTML headings
+  • Italic text
+  • Underline text
+  • Italics inside HTML headings
+  • Table of contents
+  • Tables
+  • Headings with a number
+  • Bullet points
+  • Bullet list items
+  • Checkmarks
+  • Checklists
+  • Tabular data
+  • Links to other websites
+
+
+Use subheadings to divide your article into sections. You can use headings in your article that are of the same level as your main headings.
+
+Subheadings are generally no more than a third of a line of text, and may be displayed or hidden. You can use normal, bold, italic, strike-through, and strike-through-through styles with headings.
+
+It's important to not make your subheadings too small, as this may confuse readers.
+
+Headings in an article do not need to be at the same level.
+
+Use subheadings to add additional context about the content. You can use subheadings on specific sections with the same level as main headings, or you can use subheadings with different levels.
+
+There is no requirement to use subheadings, but they can provide a clearer structure for your content.
+
+Bullets and numbers
+
+Use headings and subheadings for structure, and use bullets and numbers to clarify what you are about to say.
+
+Don't use bullet points when you are writing prose. You can use bullets to structure a list.
+
+Do not use bullet points that are too long. Make sure the bullets span multiple lines.
+
+Don't use bullets that are too short. Keep them between one and four letters long.
+
+Don't use bullets that are too long. Keep them between two and four letters long.
+
+
+Use lists when you want to make a point, even if you're not referring to a numerical list. You should avoid using lists whenever possible.
+
+Use bold, italics, strike-through, and strike-through-through styles for lists.
+
+
+Use numbers in your article for lists, and avoid using bold, italics, strike-through, and strike-through-through styles for lists.
+
+The recommended format is:
+
+  • A
+  • B
+
+The recommended order for numbers and letters is:
+
+  1. A
+  2. A and B
+  3. A and B and C
+  4. A, B, and C
+
+Using a lowercase list number starts a new list. Using an uppercase list number continues the list. The list item should be separated from the previous list item by a comma.
+
+You should never use a bullet point in a numeric list.
+
+
+Use the Markdown syntax for lists.
+
+  • A
+  • B
+  • A and B
+  • A and B and C
+  • A

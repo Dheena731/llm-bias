@@ -1,0 +1,7 @@
+DO NOT include any sort of explanation for your answer. We are only interested in the answer itself, not the thought process.
+
+Task: Given a confidence interval C(x), return the value of x. Accuracy of the interval can be as high as 10 digits precision. The confidence interval is: (0.5,1.0). The input x should be numeric. Return "x=3.4566"
+
+Output:
+
+3.4566

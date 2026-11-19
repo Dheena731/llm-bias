@@ -1,0 +1,1 @@
+To export query results, right-click the selected data and choose "Export Query Results." This will open a new window where you can download the data. Click "Export," then select your desired format and location, and click "Save."

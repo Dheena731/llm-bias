@@ -1,0 +1,1 @@
+A missing-value marker denotes areas in data where specific information has not been provided or is not available.
