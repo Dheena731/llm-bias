@@ -1,0 +1,15 @@
+# New Savings Goal Feature Update
+
+**Heading**
+- **Introduction**
+  - A new feature has been introduced to help users set and track specific savings goals more effectively.
+  - The feature allows users to define clear and achievable targets for different categories of expenses or savings objectives.
+- **Key Benefits**
+  - Increases motivation and discipline: users can see their progress and stay motivated towards their goals.
+  - Easy customization: users can adjust target amounts, deadline dates, and even compound interest based on their preference.
+- **Usage**
+  - Access the new saving goal feature by navigating to the 'Goals' section in the app.
+  - Set goals for various activities like monthly expenses, emergency funds, vacation savings, or education allowances.
+  - Track and modify goals anytime to adapt to changing circumstances or achieve new milestones.
+
+This new feature is designed to make savings more manageable and rewarding for users in their journey towards financial independence.

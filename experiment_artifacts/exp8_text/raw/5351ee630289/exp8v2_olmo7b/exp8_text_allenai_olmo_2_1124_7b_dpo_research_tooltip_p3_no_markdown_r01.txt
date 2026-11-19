@@ -1,0 +1,1 @@
+This date-range selector allows you to choose a specific date range by entering a start date and an end date. This tool is helpful when you want to filter or focus on data within a particular period from the past to the present or from a future date to another. Ensure the start date is earlier than or on the same date as the end date to reflect a valid range.

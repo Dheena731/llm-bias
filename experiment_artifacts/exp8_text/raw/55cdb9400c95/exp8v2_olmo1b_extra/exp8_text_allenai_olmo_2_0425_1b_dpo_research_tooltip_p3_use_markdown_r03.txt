@@ -1,0 +1,7 @@
+**Date Range Selector**
+
+- Allows you to filter data based on a specified date range.
+- You can select start and end dates to view or filter events within this interval.
+- Useful for focusing on specific periods of time, whether academic, professional, or personal.
+- Supports both inclusive & exclusive date ranges and supports year, month, and day with dd-mm-yyyy format.
+- Easily adjust the range to focus on a specific time frame or to exclude unwanted dates.

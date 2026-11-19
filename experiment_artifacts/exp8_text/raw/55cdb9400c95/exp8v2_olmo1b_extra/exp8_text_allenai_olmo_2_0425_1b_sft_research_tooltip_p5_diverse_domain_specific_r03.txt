@@ -1,0 +1,1 @@
+To export query results, select the desired output type (CSV, Excel, HTML, etc.) from the dropdown menu, then click the Export button. This will guide you through the conversion process, asking you to confirm each step. Note: This feature may not be available on all platforms or versions of the tool. Please consult your system's manual for more detailed instructions.

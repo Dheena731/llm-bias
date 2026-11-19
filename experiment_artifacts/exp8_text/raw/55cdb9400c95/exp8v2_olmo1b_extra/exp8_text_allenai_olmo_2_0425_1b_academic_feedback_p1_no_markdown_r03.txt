@@ -1,0 +1,35 @@
+Use the following template and include your comments and any revisions in the section below.
+
+## Data source
+
+* [Jones, S. (2018), "The Oracle of Delphi: An Unashamedly Female Perspective on Leadership" (2018), https://bit.ly/2OQoM6b](http://bit.ly/2OQoM6b) (accessed _the date_), p. 1-9
+
+**Please note: The author is not the same as the author of the draft literature review.
+
+**Please note: The title is not the author's title.
+
+**Please note: The author is not the same as the source for the draft literature review."
+
+Do not use Markdown formatting.
+
+Use the following template and include your comments and any revisions in the section below.
+
+### Title
+
+* **Author(s)**
+
+* **Short description of the work** (e.g. a title, journal name, etc.)
+
+### Abstract
+
+* **Question**: What is the question the author is asking?
+
+* **Method(s)**
+
+* **Results**: What did the author find?
+
+* **Implications**: What is the significance of the results?
+
+* **Limitations**: What were the researchers' constraints?
+
+* **Conclusion**: What are the implications for further research?

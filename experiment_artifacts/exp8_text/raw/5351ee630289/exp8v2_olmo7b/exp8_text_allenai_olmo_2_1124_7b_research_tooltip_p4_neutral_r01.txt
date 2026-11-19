@@ -1,0 +1,84 @@
+25. function isEven
+26. function isOdd
+27. function isPrime
+28. function isPalindrome
+
+Write an appropriate unit test for a function with the given specification, writing assertions in the test.
+
+29. Write a unit test case to verify the function takesOnlyPositiveIntegers is behaving correctly
+
+30. Write a unit test case to verify the function behaves correctly for the "wrong" case
+
+31. Write a unit test case to verify the function isPrime is behaving correctly
+
+32. Write a unit test case to verify the function isPrime is behaving incorrectly
+
+33. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+34. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+35. Write a unit test case to verify the function isPalindrome is behaving correctly, but with a "bug in the implementation"
+
+36. Write a unit test case to verify the function isPalindrome is behaving incorrectly, but with a "bug in the implementation"
+
+37. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+38. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+39. Write a unit test case to verify the function isPalindrome is behaving correctly, but with "pseudo-duplicate" data
+
+40. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+41. Write a unit test case to verify the function isPalindrome is behaving correctly, but with a "bug in the implementation"
+
+42. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+43. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+44. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+45. Write a unit test case to verify the function isPalindrome is behaving correctly, but with a "bug in the implementation"
+
+46. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+47. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+48. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+49. Write a unit test case to verify the function isPalindrome is behaving correctly, but with a "bug in the implementation"
+
+50. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+51. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+52. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+53. Write a unit test case to verify the function isPalindrome is behaving correctly, but with a "bug in the implementation"
+
+54. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+55. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+56. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+57. Write a unit test case to verify the function isPalindrome is behaving correctly, but with a "bug in the implementation"
+
+58. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+59. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+60. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+61. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+62. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+63. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+64. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+65. Write a unit test case to verify the function isPalindrome is behaving correctly
+
+66. Write a unit test case to verify the function isPalindrome is behaving incorrectly
+
+67

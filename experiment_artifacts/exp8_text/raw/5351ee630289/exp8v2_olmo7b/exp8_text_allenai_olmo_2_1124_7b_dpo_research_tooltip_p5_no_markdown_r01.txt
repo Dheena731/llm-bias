@@ -1,0 +1,1 @@
+Hover over the dataset to reveal a "Download" or "Export" button. Click this button to access various file formats like CSV, XLX, or PDF, depending on your data analysis tool or software. Choose the desired format that best fits your needs for further analysis or sharing of the query results outside the tool.

@@ -1,0 +1,82 @@
+Do not write everything in title case.
+
+Do not use any special formatting, *italics*, or *bold*.
+
+Do not include a title, use the first line of the book instead.
+
+Do not include any quotations or special formatting.
+
+This is what I did:
+
+Kafka on the Shore is a great book. This is a great book because it’s not possible to put down. It’s exciting and it’s interesting to read. I recommend it.
+
+This is what I got:
+
+Kafka on the Shore is a great book. This is a great book because it’s not possible to put down. It’s exciting and it’s interesting to read.
+
+This is a great book because it’s not possible to put down. I recommend it.
+
+The last part of the note is nonsense because it will copy the first sentence of the paragraph. How do I make sure that the book’s title is used?
+
+You can also use titles instead of first sentences or introductory phrases:
+
+Think and Grow Rich is the best book about self-improvement ever written. This is the best book about self-improvement ever written because it’s hard to put down. It’s exciting and it’s interesting to read. I recommend reading it.
+
+This is what I got:
+
+Think and Grow Rich is the best book about self-improvement ever written.
+
+This is the best book about self-improvement ever written because it’s hard to put down.
+
+It’s exciting and it’s interesting to read.
+
+I recommend reading it.
+
+This is the way I’m currently doing it in the code. Is there a better way?
+
+<!-- language: lang-1 -->
+
+<div class='col-md-3'>
+  <h2>BOOK</h2>
+  <p>This is what I did:</p>
+  <p>Think and Grow Rich is the best book about self-improvement ever written. -->
+  <p>This is what I got: <em>Think and Grow Rich is the best book about
+self-improvement ever written.</em> This is the best book about self-improvement
+evert written because it’s hard to put down. It’s exciting and it’s interesting to
+read. I recommend reading it.</p>
+  </div>
+
+Is there a way to improve the code shown above?
+
+
+Would this work? Maybe it's not very pretty but at least you only need to apply it once and it should work for any title.
+
+npm install adobe-otf unicode
+
+var adobe = require("adobe-otf");
+var usage = "Unicode-1.0";
+var font = {
+  "P": adobe("P", "Bookman Old Style", usage, "normal", 0, {
+    "weight": 600,
+    "units": "pt"
+  }),
+  "S": adobe("S", "Bookman Old Style", usage, "italic", 0, {
+    "weight": 600,
+    "units": "pt"
+  }),
+  "T": adobe("T", "Bookman Old Style", usage, "normal", 2, {
+    "weight": 600,
+    "units": "pt"
+  }),
+  "B": adobe("B", "Bookman Old Style", usage, "normal", 0, {
+    "weight": 600,
+    "units": "pt"
+  }),
+  "I": adobe("I", "Bookman Old Style", usage, "italic", 0, {
+    "weight": 600,
+    "units": "pt"
+  }),
+  "F": adobe("F", "Bookman Old Style", usage, "normal", 2, {
+    "weight": 600,
+    "units": "pt"
+  })

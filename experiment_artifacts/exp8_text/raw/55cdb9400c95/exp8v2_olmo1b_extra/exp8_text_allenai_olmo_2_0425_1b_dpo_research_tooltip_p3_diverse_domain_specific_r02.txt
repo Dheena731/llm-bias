@@ -1,0 +1,5 @@
+When you hover over the date-range selector on our website, you'll notice a concise tooltip that explains how to use this functionality. Here's what it says:
+
+"Select a date range to view events, products, or any other data that falls within those specific dates. Simply drag your mouse over the selector to start and end your chosen date range for a more focused view."
+
+This tooltip is written specifically for your domain, tailored to explain the function in a clear, concise manner that highlights its value for users. It doesn't use generic AI-generated language and is tailored to engage with your audience on a level of understanding that speaks directly to their needs and expectations.

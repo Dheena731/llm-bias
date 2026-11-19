@@ -1,0 +1,31 @@
+The email migration service will automatically move an existing email account to a new account. You will be given the option to delete your original emails before your migration takes place. If you choose to delete your emails before you migrate, you must also uncheck Notify.
+
+If you don’t delete your emails, your original emails will be deleted during the migration process. If you wish to keep your original emails in the inbox, you may delete them before the migration takes place.
+
+Email Migrations During The Migration Process
+
+When you sync your email accounts, the email migration service will move your old email messages to a new mailbox. However, you will not be able to access your original accounts until the migration process is complete. In addition, you may delete your original email accounts before the migration process is complete.
+
+If you want to move your email to a new mailbox during the migration process, you must also uncheck the Notify option. When you do this, the migration service will automatically delete the original email. To set up an email migration, you’ll need to create a new mailbox. Follow the instructions below to migrate your email.
+
+Email Migration Does Not Allow User To Delete Or Move The Original Email Folder
+
+The email migration service is a great way to transfer your old email. However, it is important to keep in mind that the email migration service does not allow you to delete or move the original email folder. By deleting the old emails, you can manage your mailbox and receive more mail in the new one. If you are unsure about how to migrate your email to a new address, take some time to prepare for the process.
+
+You can also use the email migration service to move your mailboxes to a new address. The migration service will automatically move old messages to a new mailbox. The email migration service will also notify you of any changes in your mailbox. During the transition period, your original email account will be deleted. If you want to keep your original emails, you must delete them before the migration process.
+
+Email Migrations Can Not Be Cancelled
+
+The email migration service is a great way to move your old email. However, you may not be able to delete or move the original mailboxes. This is because the email migration service is not a full-featured inbox. If you want to keep your original email, you should delete the original mailbox before the migration process. Alternatively, you can move the mailboxes to a new address.
+
+The email migration service is a great way to move your old emails to a new mailbox. However, it cannot be cancelled, as the migration service is only for the sync of inbox mailboxes. When you create a new mailbox, you must also delete the old one. You can do this by deleting the original email account. Then, you can move the message to a new one.
+
+Email Migrations Will Not Update Or Repair Old Emails
+
+If you’re switching email providers, you might be worried about losing some important emails. Fortunately, the email migration service is designed to help you move your old emails without any hassle. It will automatically move the messages to a new inbox. The migration service will also notify you if you’ve changed your password, so you never have to worry about losing your important emails. You can also delete your original email accounts before the migration process is complete.
+
+The email migration service will move your old emails to a new mailbox. However, you must uncheck the Notify option to keep the original mailbox. You can also move your emails to a new address if you want to keep your original mailbox. The migration service will also notify you of any changes in your email account. You can use the email migration service to move your old emails to a new mailbox.
+
+Email Migrations Can Be Cancelled
+
+If you want to cancel an email migration, you can do so by opting out of

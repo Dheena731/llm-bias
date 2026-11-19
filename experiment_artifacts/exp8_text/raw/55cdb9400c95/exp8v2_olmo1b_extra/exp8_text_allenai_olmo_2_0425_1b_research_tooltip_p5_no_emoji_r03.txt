@@ -1,0 +1,101 @@
+Figure 4: Note the strong similarity between the tooltip and the description of the query.
+
+Sets and querying
+
+The set operator is one of the most useful operators in the SQL language, used to select a subset of rows.
+
+Drop a query from the Databricks SQL Editor by right-clicking on it and selecting 'Drop Query'.
+
+Here, we'll create a simple set-based query. We'll select all rows from the table where Country = 'Israel'. This will result in '0' in the column 'Country'.
+
+Query: select * from country select * from country where Country = 'Israel'
+
+We can then export the results as JSON.
+
+Query: set Country to 'Israel'; export results as json
+
+Figure 5: Note the strong similarity between the query and the JSON output.
+
+Sets and querying
+
+Here we'll select all rows from the table where Country is either 'Canada', 'France' or 'Germany'. Let's use the 'or' operator instead of the 'and' operator.
+
+Query: select * from country where Country = 'Canada' or Country = 'France' or Country = 'Germany' export results as json
+
+Figure 6: The query and the JSON output are quite different in shape and structure.
+
+We can export the results as JSON.
+
+Query: select * from country where Country = 'Canada' or Country = 'France' or Country = 'Germany'; export results as json
+
+Figure 7: Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+We can use the 'where' operator with a nested subquery to export our results as JSON.
+
+Query: select * from country where Country = 'Canada' and country[1].[2] = 'Australia'; export results as json
+
+Now the JSON output is different from the query result.
+
+Figure 8: Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+If we use the 'and' operator instead of the 'or' operator, we'll get a new JSON object containing the lookup results.
+
+Query: select * from country where Country = 'Canada' and country[1].[2] = 'Australia'; export results as json
+
+Figure 9: Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+We can export the results as JSON.
+
+Query: select * from country where Country = 'Canada' and country[1].[2] = 'Australia'; export results as json
+
+Figure 10: Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+Query results contain an extra JSON object.
+
+SQL in Python
+
+We can query our table in Python too. Let's do a simple list-based query.
+
+We create a new variable called `countries` and assign the result of the query to the variable.
+
+Query: countries = [country[1] for country in country for country in country] countries
+
+We can then export our data as JSON.
+
+Query: countries = [country[1] for country in country for country in country] export results as json
+
+Figure 11: Here, the JSON output is still different from the query results.
+
+Query results contain an extra JSON object.

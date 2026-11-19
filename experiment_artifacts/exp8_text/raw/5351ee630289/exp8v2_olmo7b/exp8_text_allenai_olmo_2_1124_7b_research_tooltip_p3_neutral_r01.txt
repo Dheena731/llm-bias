@@ -1,0 +1,56 @@
+The behaviour should be intuitive and easy for users to understand.
+
+Any help?
+
+
+It sounds like you're thinking of a date range input.
+
+Date range selector
+
+Date range input elements use two select boxes, one for the start date and one for the end date. The advantage of this interface is that it lets the user change the start or end date independently, which is helpful if your users need to do that frequently (e.g. when they need to come back at a later time).
+
+However, this input element is only supported in Internet Explorer 11 and later, and at the time of writing, it's only supported in Firefox in its current development version and is not yet supported by other browsers.
+
+If your site must support older browsers, you'll need to use a less-ideal workaround such as two adjacent select boxes:
+
+Date range using select boxes
+
+Here I've also changed the styling so that the start date and end date are presented in a dashed box and the date range text is in bold.
+
+However, this approach doesn't let the user change the start or end date independently (the end date is always the same as the start date plus one day). It also doesn't make it easy to show the date range text for the currently selected dates, which is why I've used two labels (I'll explain how to do this properly below).
+
+If your browser supports the input method, I'd recommend using that instead. If not, you can use the workaround above, but keep in mind that the user won't get the benefit of independent date selection.
+
+To show the range for the currently selected dates, you can use two hidden select boxes that mirror the start and end dates:
+
+To do this, you should follow the styling advice from Microsoft when using their date input type:
+
+Select elements used for date range pickers must not show a value for either the selected or the current value unless the AcceptsUserInput property is set to true. The true state for this property causes a text field to be displayed instead of the value of the currently selected option.
+
+Another option is to use two hidden select boxes that use the current and minimum date and the maximum and current date (whichever is the most recent):
+
+<input type="text" id="start_date" />
+<input type="text" id="end_date" />
+
+To use this text input, you'll need to clear it and select the range of dates at the start or end of the date range picker.
+
+Note that this approach won't prevent the user from changing the dates independently.
+
+To show the range for the currently selected dates, you can use two hidden select boxes that mirror the start and end dates:
+
+To do this, you should follow the styling advice from Microsoft when using their date input type:
+
+Select elements used for date range pickers must not show a value for either the selected or the current value unless the AcceptsUserInput property is set to true. The true state for this property causes a text field to be displayed instead of the value of the currently selected option.
+
+Another option is to use two hidden select boxes that use the current and minimum date and the maximum and current date (whichever is the most recent):
+
+<input type="text" id="start_date" />
+<input type="text" id="end_date" />
+
+To use this text input, you'll need to clear it and select the range of dates at the start or end of the date range picker.
+
+One more option is to use JavaScript to reset the selected dates and then hide the select boxes.
+
+To do this, you'll need to follow the styling advice from Microsoft when using their date input type:
+
+Select elements used for date range pickers must not show a value for either the selected or the current value unless the AcceptsUserInput property is set to true. The true state for this

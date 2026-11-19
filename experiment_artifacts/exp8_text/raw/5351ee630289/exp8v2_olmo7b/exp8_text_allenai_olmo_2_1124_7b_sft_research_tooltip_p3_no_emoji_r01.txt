@@ -1,0 +1,1 @@
+Select a date range by clicking on the start and end dates. To add or remove individual days, drag the boundary lines or click the arrows on each side. The calendar controls will appear after selecting a range.

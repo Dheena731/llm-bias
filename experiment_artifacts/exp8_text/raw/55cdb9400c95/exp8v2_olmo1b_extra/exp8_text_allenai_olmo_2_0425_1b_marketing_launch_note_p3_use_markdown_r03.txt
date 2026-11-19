@@ -1,0 +1,19 @@
+[![Bokeh]((
+  title: Hello World
+  code: "import Bokeh; print(Bokeh.Bokeh.Jupyter`)
+[![Bokehj]((
+  title: Hello World
+  code: "import Bokehj; print(Bokehj.bokeh)
+[![Bosstrend]((
+  title: Hello World
+  code: "import Bosstrend; print(Bosstrend.Bosstrend")"
+
+Below is a link to your spreadsheet, along with the details of the calculation you've done.
+
+You can click on the link to open it in the Bokeh interactive notebook:
+
+[CITATION](https://doi.org/10.1371/journal.pone.0175365)
+
+### 2. Use the library to perform more complicated and/or interesting calculations
+
+Remember that your goal is to make a notebook that can be used by other people to perform more complicated calculations. So, beyond the examples above, compose a few more interesting and useful calculations.

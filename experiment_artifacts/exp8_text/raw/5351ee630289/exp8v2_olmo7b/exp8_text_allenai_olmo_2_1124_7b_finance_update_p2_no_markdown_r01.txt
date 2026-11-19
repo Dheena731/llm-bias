@@ -1,0 +1,31 @@
+## Solution
+
+### Short Answer
+
+a) A system with a load factor of 1/3 has one third as many transactions per unit time as does a system with a load factor of 1/9. In other words, a 1/3 load factor system has 3 times as long on average before a transaction occurs as a 1/9 load factor system.
+
+b) Assume the load factor for the system is 1/9. A transaction is a random variable that is uniformly distributed over the interval from 0 to 1. The probability that a transaction occurs before time t is the area under the curve over that interval. This is
+
+\begin{align*}\P\left(\text{return soon}\right) &= \left(1-\frac{1}{9}\right)^t \\ &= \left(\frac{8}{9}\right)^t.\end{align*}
+
+Thus, the probability that a transaction does not occur before time t is
+
+\begin{align*}\P\left(\text{no return soon}\right) &= 1 - \left(\frac{8}{9}\right)^t \\ &= \frac{1}{9}\left(\frac{1}{9}\right)^t \\ &= \frac{1}{9} \times 1 \times 1 \times 1 \times \cdots \times 1 \times 1 \times \cdots \times 1 \times 1 \times \cdots \times 1 \times 1 \times \cdots \times 1 \times 1 \end{align*}
+
+where the product of $t$ ones is the product of $t$ $9$s. In other words, the probability that a transaction does not occur before time $t$ is $\left(\frac{8}{9}\right)^t$.
+
+c) If the load factor is 8/9, that means that eight transactions occur on average for every nine units of time. If there are $T$ transactions in the time $t$, then
+
+\begin{align*} t &= 9 T / 8 \\ t &= \frac{9 T}{8} \text{ seconds.} \end{align*}
+
+d) If the load factor is 1/3, that means that one transaction occurs on average for every three units of time. If there are $T$ transactions in the time $t$, then
+
+\begin{align*} t &= 3 T / 1 \\ t &= 3 T \text{ seconds.} \end{align*}
+
+e) Suppose we want to find the time $t$ at which the probability of returning soon is 1/2. In other words,
+
+\begin{align*} \P\left(\text{return soon}\right) &= \frac{1}{2} \\ \left(\frac{8}{9}\right)^t &= \frac{1}{2} \\ \log\left(\frac{8}{9}\right)^t &= \log\frac{1}{2} \\ t \cdot \log\left(\frac{8}{9}\right) &= \log\frac{1}{2} \\ t &= \frac{\log\frac{1}{2}}{\log\frac{8}{9}} = \frac{\log2}{\log 8 - \log 9} \end{align*}
+
+This is $t$ seconds for every transaction, for every unit time. In terms of transactions per second, we get
+
+\begin{align*} \frac{1}{t} &= \frac{1}{\frac{\log 2}{\log 8 - \log

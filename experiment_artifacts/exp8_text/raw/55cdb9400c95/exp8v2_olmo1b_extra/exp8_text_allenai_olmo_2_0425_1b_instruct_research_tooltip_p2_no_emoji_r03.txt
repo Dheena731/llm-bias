@@ -1,0 +1,1 @@
+A confidence interval shows the range within which a population parameter is estimated to fall with a given level of confidence, for example 95%. It helps illustrate the uncertainty of our statistical estimates.

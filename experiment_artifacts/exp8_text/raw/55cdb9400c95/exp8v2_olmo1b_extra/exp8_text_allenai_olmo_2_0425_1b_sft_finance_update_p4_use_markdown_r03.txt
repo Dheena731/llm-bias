@@ -1,0 +1,22 @@
+# End-of-Year Tax Statement
+
+## Status Summary
+- **Filing Status**: [W-2] Employee, [CT-1090] Credit Shelter Trustee, or [W-8] Remittance Basis
+- **Tax Year**: 2023
+- **Tax Credits**: [EITC] Earned Income Tax Credit, [Child Tax Credit] $1200 for eligible filers, [NDTC] Non-Deductible Tax Credit
+- **Taxable Income**: [Total Income] - [Personal exemptions] - [Adjustments to Income]
+- **FICA** Contributions: $1,400, $3,000
+- **FICA Tax**: $280
+- **Total Tax Bills**: $1000
+- **Refund Available**: $400
+
+## Taxes Owed
+- **Total Tax Amount**: $1000
+- **Tax Brackets**: 10%, 15%, 25%, 28%, 33%, 36%, 37%
+- **Tax Rate**: To illustrate the brackets, and to help you prepare your tax return, the tax rate of 33% is used for income over $85,000.
+
+## Additional Information
+- **Schedule A**: [Form 1040-A] Schedule A, Tax Deductions and Credits for 2023.
+- **Link to IRS Website**: [www.irs.gov]
+
+If you need any further assistance, please contact our office.

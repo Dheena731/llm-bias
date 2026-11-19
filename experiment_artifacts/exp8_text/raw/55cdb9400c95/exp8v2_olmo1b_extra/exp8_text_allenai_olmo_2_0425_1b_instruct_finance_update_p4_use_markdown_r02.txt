@@ -1,0 +1,15 @@
+# End-of-Year Tax Statement
+
+* **Tax Year:** Dec 31, 2023
+* **Total Income:** $XXX
+* **Total Deductions:** $XXX
+* **Taxable Income:** $XXX
+* **Federal Taxes:** $XXX
+* **State Taxes:** $XXX
+* **Total Tax:** $XXX
+* **Refund Amount:** $YYY (If applicable)
+* **Notes:** Please review all sections to ensure all deductions and credits are accurately reported.
+
+--- 
+
+This summary provides a clear overview of your tax calculations for the end of the financial year, highlighting any refunds you may be entitled to.

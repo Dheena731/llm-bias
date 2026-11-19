@@ -1,0 +1,12 @@
+Criteria Scoring
+1. Methodology is clear and fully described, with an accurate demonstration of understanding of the scientific method. 4
+2. Methodology fits with data as presented and is described in a detailed, logical fashion. 3
+3. Method description is presented in a logical order. 2
+4. Methods are appropriate for the research question. 2
+5. Methods are described in technically accurate way. 1
+6. Citations for all referenced literature and methods. 1
+7. Formatting is consistent, and does not include any styling that is not permitted. 1
+
+Scoring: 8
+
+Example of a student’s methods section: Our study is based on a survey with 300 respondents across the state of California, USA. Respondents who participated in the survey were sampled from the population of all Cal State residents. Each respondent was given a form, which had various questions. We also added some demographics questions to the form. Out of the 300 sample, we had 70% participation rate. The survey took 10 minutes on average to complete. We conducted our experiments between mid-January and mid-February.

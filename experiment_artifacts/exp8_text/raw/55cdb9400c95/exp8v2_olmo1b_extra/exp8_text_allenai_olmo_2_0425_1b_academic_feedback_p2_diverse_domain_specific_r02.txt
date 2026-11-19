@@ -1,0 +1,35 @@
+Modeling of algorithms, data structures, and metrics
+
+In more advanced papers, there is a section devoted to describing the computational and statistical foundations that underlie the approach implemented.
+
+Provide references to the relevant literature. You will be writing papers that will be cited, and the more you can refer to the relevant literature, the more likely that your paper will be cited. Make sure that you're quoting from the right sources, and that you're properly referencing them. For example, if you're citing a paper by an author other than yourself, then you must include a reference to that author in your reference list. Avoid putting references in your text. This just makes it harder to find in the future.
+
+Mathematical rigor
+
+All that matters is not which paper you read, but that you have read a paper. The paper you read should be sufficiently rigorous and theorems sufficiently well-defined for you to be able to fully understand your results. You should also be able to reproduce any results that are not too complex from the paper. If you think your paper is very good but your results don't make sense or are not reproducible, then you need to review your paper and make corrections. However, your paper should also stand on its own, and if your paper is too rigorous and theorems are too complex, then your paper will need to be improved, maybe by adding some context or background, or by breaking things down into simpler pieces.
+
+Consider the following examples of papers:
+
+Example 1: The paper contains a number of theorems, but the arguments are not very detailed and hard to understand. The authors might be able to add some more details, or they might need to change their theorems.
+
+Example 2: The paper contains theorems, but the proofs use very technical ideas, which are difficult to follow. The authors might want to consider adding some more details, or they might want to change their theorems.
+
+Example 3: The paper contains a number of theorems, and for some of these theorems the proofs are complicated and the details are not described. The authors might consider adding more details to the proofs.
+
+Example 4: The paper contains a number of theorems, and for some of these theorems the proofs are not possible to describe due to the complexity of the ideas. In this case, the authors might want to consider adding some missing details to the paper.
+
+Example 5: The paper contains several theorems, and for some of these the proofs are not complete from the point of view of the original paper. The authors might want to consider adding details to the proofs and also consider making the theorems self-contained.
+
+Examples 1 and 4 are perhaps the easiest to fix. Examples 2 and 5 are perhaps the hardest to change.
+
+Here are some possible ways to change a paper, if you think that the paper is too rigorous or too complex.
+
+Add some background
+
+Adding some context or background makes the paper more interesting and easier to understand. The added context can be about the original work that inspired the paper, or it can be about other related work from the community.
+
+Consider example 1 above. Instead of just describing the results, the authors could write about the methods used by the authors, or they could write about the context in which the results make sense. For example, they could write about the fact that the results are of interest in data analysis or in deep learning. Instead of just describing the theorems and their proofs, the authors could write about the motivation for the theorems and their proofs.
+
+Change the theorems
+
+One way to make the proofs easier to understand is to change the theorems that the authors are proving. Instead of making the theorems too complex,

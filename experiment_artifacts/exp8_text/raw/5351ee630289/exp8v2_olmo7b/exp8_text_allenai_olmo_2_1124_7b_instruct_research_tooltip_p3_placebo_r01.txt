@@ -1,0 +1,1 @@
+Select a date range to filter results. Choose the start date by clicking on the calendar icon, and the end date by dragging the date picker or clicking on the calendar again. Your selection will affect all displayed data between these two dates.

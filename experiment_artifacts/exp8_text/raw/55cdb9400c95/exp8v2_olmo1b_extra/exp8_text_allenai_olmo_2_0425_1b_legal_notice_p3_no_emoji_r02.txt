@@ -1,0 +1,44 @@
+Each HTML5 file that is included on this site uses a number of <script> tags. The way these work is that the server creates a file (the server will then always be the server), and the site owner views the file with a text editor and then copies the text into the HTML that the site uses. The script file is then copied into the web server in its entirety (including both the <script> tags and the text from the text editor).
+
+Therefore, you need to make sure that when you copy the <script> tags, you make sure that they don't include all of the text from the text editor. You can use the following HTML5 tag for this purpose:
+
+
+Note that the actual text copied into the HTML by the server is still for legibility purposes only, and it should not be placed in the content of the <script> tags.
+
+A problem can arise if your site is with an ISP, or the proxy server that you use, that is not set up properly. If this happens, you may find that the site is not loading or that it is displaying all of the content from the text editor, including the script tags.
+
+How can I load cached files for an online site?
+
+Most modern browsers allow you to have your browser cache a web page. This will enable you to load the page faster on subsequent visits. Although you may want to first rely on your site owner's servers to provide cached versions of the pages, you may want to provide cached versions of your own pages also. Although it is neither recommended nor supported by us, it is possible to have a CPX server set up to cache your pages. This is very complex and involves multiple files (files are kept in a folder and a symlink is created for each file), so it is not recommended. The following document gives more details:
+
+How can I get a Spielberg or a Spielberg-style script?
+
+We recommend that you make your own, custom <script> tag to include your scripts. It is the only way to be totally sure that scripts are not loaded with the text from the text editor, or with other content. Here's an example:
+
+<script src='/scripts/yourfile.js' type="text/javascript"></script>
+
+Note that there is no need to use the type attribute of the <script> tag if you are relying only on the browser to do the right thing.
+
+How do I make a script for a website?
+
+If you are a site owner and you need a script, please let us know.
+
+How do I make a script using the 'Paste to Text' box?
+
+If you have a script in a text editor that you do not want to copy and paste back, then you can use the 'Paste to Text' box. You can do this in the browser or by using the applet below:
+
+How do I make a script larger?
+
+The <script> tag can be set to a larger size. So for example it would be:
+
+<script type="text/javascript" size="big">
+
+It's important that you do not use this in conjunction with the type attribute. If you use that, it will cause problems. Instead, use the size attribute to make sure that the page is not loaded from the text editor. We recommend that you do not use the size attribute if you are relying on the browser to do the right thing.
+
+Note that this applies to the size button on the edit page. You can also set the size of a browser-side script using the <meta> tag:
+
+<meta name="viewport" content="width=1000" />
+
+How do I fix a script that won't load?
+
+If you are trying to load a script, and it won't load, then it's very likely to be due to a problem with the script. It could be a problem with the script,

@@ -1,0 +1,3 @@
+An API rate limit refers to the maximum number of requests an API can handle within a specific time frame. APIs, or Application Programming Interfaces, are software components that enable two different applications to exchange data. They allow different software to interact with each other.
+
+When an API is overloaded with requests, it may not be able to process the requests as fast and efficiently as it might. This is where an API rate limit comes into play. It caps the amount of requests an API can handle per given timeframe to maintain a high level of performance and reduce the risk of a server crash or a delay in response times.

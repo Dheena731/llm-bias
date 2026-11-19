@@ -1,0 +1,8 @@
+```markdown
+# Export Query Results
+
+- Click the "Export" button
+- In the drop-down list, select the desired format
+- Select the desired output location
+- Click "Export" to generate the results
+```

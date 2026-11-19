@@ -1,0 +1,51 @@
+ 1. Explain how latency matters
+
+    If you want to get a better understanding of the concept of latency, this is a good place to start. Don’t worry, we’ll take it from there.
+
+  2. Give an example of latency in a web application
+
+    Regardless of whether you’re a developer or not, you encounter latency in real life on a daily basis. Here’s an example to help you visualize it.
+
+  3. Explain the implications of latency
+
+    If there’s one thing you should be aware of when it comes to latency, it’s that it fundamentally changes the nature of the web application as a whole.
+
+It’s not really the answer to any specific issue
+
+This is one of the best places to make sure you apply your knowledge of latency in a web application.
+
+If you don’t understand the implication, you won’t be able to effectively apply it to your web application. You might know that latency is important, and even how it affects your application, but that doesn’t help you if you have no idea how to fix it.
+
+And if you don’t know how to fix it, you don’t know how to apply it to your application. This is why it’s so important to formulate your answer in such a way that it can be easily adapted to work in specific contexts.
+
+You need to consider the types of applications you’re building
+
+This goes right along with the importance of knowing the difference between different types of web applications.
+
+You can find two types of applications online: those that live on the web, and those that don’t. They’re both the same fundamental concept, but they have different characteristics and different requirements.
+
+The first type of application is what you’d find on the World Wide Web, and the second type is what you’d find on most websites.
+
+A website is a web application that is primarily used for one purpose: to provide information. A typical website will have a sitemap, a home page, a search bar, and a contact page. It will also have a Contact Us page, a Terms of Service page, and a privacy policy page.
+
+These are the same types of applications that you find in the wild, but they are not the same as those on the Internet. They are more like simple websites, but they have a lot less information on the page.
+
+This is where the difference comes in. Most websites do not have a sitemap, a home page, or a search bar. They often have a Contact Us section but not a Terms of Service page or a privacy policy page.
+
+You need to know your audience
+
+You should be able to answer the question “why is latency important to web applications?” in the context of your audience. The answer to this question is complex, but it’s important to understand the context in which it will be applied.
+
+If you are writing for a general audience, it’s best to stick to the basics. If you are writing for a particular audience, it’s probably best to go back to basics and explain the concept in the context of that audience.
+
+You’ll use this answer to answer other questions about latency, like “how do I measure latency?” and “how do I mitigate latency?”
+
+You should also know how to mitigate latency within your application. Lots of things can cause latency, including network issues,  and lots of things can do it.
+
+If you know these things, then you can tailor your response to the situation. If you don’t know these things, then you might not be able to give a useful answer to the question.
+
+You should be able to explain the concepts of latency
+
+If you know how to explain latency in a web application, you should also be able to explain it in the following way:
+
+  • You can give an example of how latency is used in a

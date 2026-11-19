@@ -1,0 +1,30 @@
+Do not put questions in your text.
+
+Do not use all uppercase letters.
+
+Do not use text from other posts.
+
+Do not use ActiveRecord queries in your snippet.
+
+Do not reference other posts in your snippet.
+
+Do not use ryanrogers at your URL.
+
+
+We're interested in experimenting with longer snippets for announcements about longer time periods. These events tend to not fit into the 300 character limit that the SE engine allows, and it's still a little unclear if / how this would be interpreted. Longer snippets could be closed as "not a real question", but even so, maybe the content is good enough for a question.
+
+  • 1
+    If I may ask, what's your plan for testing out the "longer snippit" format? How will we know that it's a good format for longer announcements? – Ryan Robey Sep 23 '18 at 13:58
+  • 1
+    The current test page is a test that I've added in the past, and is located here: meta.stackoverflow.com/questions/421819/… – David Z Sep 24 '18 at 0:06
+  • 1
+    Are you thinking of using the "code block" format for code? I think that's not a good idea, because it has several disadvantages (e.g., code formatting won't apply), and it may look odd in some situations (for example, in a question body, not sure if it makes sense). – Andras Vass Oct 7 '18 at 19:42
+  • 2
+    @AndrasVass You know, I think I might use that idea (the longer SN inline code with code block formatting), but I'll probably have to test it with some users and hope for the best. I also think you might be right, that it could be a little odd, but I think it could still work. – David Z Oct 7 '18 at 20:57
+  • 1
+    @AndrasVass Actually, it sounds like we're converging on an answer - that's all code inline, and the code block is used for code blocks only. That's what I'm going to implement now. – David Z Oct 11 '18 at 23:23
+  • Looking forward to it! I hope it works out well! – Andras Vass Oct 11 '18 at 23:27
+
+You must log in to answer this question.
+
+Not the answer you're looking for? Browse other questions tagged .

@@ -1,0 +1,9 @@
+**Heading: What Does a Database Index Do?**
+
+- **Furthers committed read** - Indexes can significantly speed up read operations in a database by providing a more efficient path to the data.
+- **Decreases disk I/O** - Indexes reduce the number of disk seeks, as the database engine can access the needed data more quickly using the index.
+- **Avoids full table scans** - When an index is present, the database engine can usually retrieve data more quickly than it would with a full table scan.
+- **Enhances query performance** - Indexes are especially beneficial in scenarios where queries are frequent and dynamic, as they help mitigate the cost of scans.
+- **Preserves space** - In some systems, especially those with efficient indexing schemes, indexes can consume much less space than the actual data they contain.
+
+Note: The effectiveness of an index can vary based on the specific database management system (DBMS) and the dataset characteristics.

@@ -1,0 +1,71 @@
+Do not include file extensions or file paths to files that you've created as part
+of this challenge.
+
+Follow these rules when writing out file paths and file names:
+
+* File names are case-sensitive
+* For file names, use the forward slash (/) to separate directories
+* For paths, use the forward slash (/) to separate directories
+
+For example:
+`/usr/bin` is a valid path
+`/usr/bin` is a valid file name
+
+At the beginning of the file, add a CSE 140 identifier for your submission. It
+can be the first line of the file or at the bottom of the file. If your submission
+is part of a group, list the full names of all group members on a single line.
+
+### Models and Abstractions
+
+After reading about machine learning and classification in an introductory textbook or online material, consider the following research question:
+
+"In what ways have the influential ideas of formal methods in computer science, as formulated by Turing, denoted by Goedel, and realized by Church, influenced the development of modern machine learning and classification?"
+
+This question has several possible interpretations, and you should decide which you want to explore and address. You should first write a one or two sentence description of your interpretation of the question. This should explain what you will be measuring or testing to answer the question, or it should define one of the key terms in the question.
+
+Show a diagram or spreadsheet that you have designed to represent your interpretation. You may share your diagram or spreadsheet, or you may write a paragraph or two describing your interpretation and the diagram or spreadsheet you have designed.
+
+Use the diagram or spreadsheet to show and explain how symbolic abstraction and logical derivation from formal axioms are used to compute a function or generate new knowledge.
+
+Use the diagram or spreadsheet to show and explain how modern machine learning algorithms represent and compute functions or generate new knowledge.
+
+Use the diagram or spreadsheet to compare and contrast the two approaches.
+
+Share a link to your diagram and or spreadsheet including a short text description with your submission.
+
+In order to get full credit for this part of the challenge, your diagram and or spreadsheet should be clearly related to the question and should explain how symbolic abstraction and logical derivation from formal axioms are used to compute a function or generate new knowledge, and how modern machine learning algorithms represent and compute functions or generate new knowledge.
+
+After you make your submissions, answer the following questions:
+
+* What criteria did you use to select the research question?
+* How did you plan your work before submitting the question, and what were the results?
+* What did you learn from working on this challenge?
+* What did you like or not like about working on this challenge?
+
+This should be in the form of a single paragraph, no more than a couple of sentences long.
+
+Include your submissions in your challenge response.
+
+Grading
+
+The grader will not give you credit for this part of your submission if you do not address all the requirements or if your work is incomplete or unreadable.
+
+If you want to see if your submission passes the tests that we use for grading, you can run the following command.
+
+```python
+python3 cse140_challenge/challenge_check.py
+```
+
+This will print out a message if your submission does not pass the test. We use this same test to grade your submission.
+
+## 2. Text Classification
+
+After reading about machine learning and classification in the Keen and Rosenfeld textbook, or other online material, consider the following research question.
+
+"In what ways have influential ideas of formal methods in computer science, as formulated by Turing, denoted by Goedel, and realized by Church, influenced the development of modern text classification?"
+
+Repeat the steps in the previous section, replacing that question with this question.
+
+Grading
+
+The grader will not give you credit for this

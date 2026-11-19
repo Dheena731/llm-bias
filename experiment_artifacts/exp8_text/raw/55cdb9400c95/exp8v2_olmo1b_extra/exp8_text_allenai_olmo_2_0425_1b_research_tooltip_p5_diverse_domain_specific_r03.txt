@@ -1,0 +1,21 @@
+Example:
+
+Enterprise_Customer is exposed to issue X and wants to understand how their customers experience problems related to X. To do this, Enterprise_Customer must relate the issue to the customer group.
+
+The issue is related to the customer group, and must be understood by Enterprise_Customer.
+
+Related to or related to: enterprise_customer(cloud)
+
+Example (no card):
+
+Related to or related to: enterprise_customer(cloud)
+
+Note: a card that is related to a concept should not contain the concept itself. For example, the tag "reviews" should not be placed on a card describing reviews.
+
+The card should be located under the generic or domain-related tag.
+
+Related to or related to: enterprise_customer(cloud) reviews
+
+Example (no card):
+
+Related to or related to: enterprise_customer(cloud) reviews

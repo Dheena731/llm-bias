@@ -1,0 +1,1 @@
+This tool allows you to filter data by selecting specific criteria from dropdown menus. By adjusting these filters, you can refine your search to include or exclude particular variables, narrowing down the dataset to focus on relevant information for your research.

@@ -1,0 +1,14 @@
+Carefully proofread the translation. You are the best person to catch your own mistakes. Use a separate language reference to check the accuracy of grammatical constructions. Proofread the whole text, not just the context the autocorrect was suggested for.
+
+If necessary, ask someone who is not a native speaker to proofread the text and add their feedback to the translation.
+
+Proper names
+
+Always translate proper names literally, unless you are working with a translation management system. In most cases, a good translation will avoid changing the meaning of the original, and instead switch the new word to one that is equally clear. For example, if the original is “Ural-Kazakhstan”, then the translation can be “Arctic-Kazakhstan”, “Oural-Kazakhstan” or “Kazakh-Ural”. If you are using filter software, pick the word that is most likely to make sense to your customers.
+
+If the name is a common noun, then the name should be translated into the same noun in the target language. For example, “Kazakhstan” should be “Казахстан” instead of “Казань”, “Казахт” or “Казалин”. However, the name “Ravan” could be adequately translated as “Проектоведение” instead of “Казарм”. The same goes for the name “Англикасская община” (Anglicassia commune) in “Хитроу” and “Италия”.
+
+
+Older versions of Word may forget that certain words should be translated. For example, it may not recognize that the word “Support” (республиканец) is meant to be displayed in a particular language. When this happens, you will need to manually edit the translation and increase the size of the font (CTRL+SHIFT+SPACEBAR).
+
+In case your program is not updated, or it is not supported by the current version of your program, you can use a third-party translation tool to correct the problem.

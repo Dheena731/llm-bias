@@ -1,0 +1,1 @@
+A confidence interval in a chart represents the range within which a population parameter is estimated to fall with a certain level of confidence. It is calculated by adding and subtracting the standard error of the estimate from the sample statistic.

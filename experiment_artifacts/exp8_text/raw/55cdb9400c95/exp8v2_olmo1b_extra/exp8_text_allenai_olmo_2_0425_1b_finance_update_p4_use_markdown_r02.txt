@@ -1,0 +1,45 @@
+E.g. {{ tax statement }}
+You have {{ income }} in your tax statement, so you have to pay {{ income }} in taxes.
+In your tax statement you have {{ deduction }} to collect deducting from the income.
+
+Formatting
+
+In order to write your statement, use the following syntax:
+
+  • {{ text }}
+  • Bullet points: {{ bullet }} - {{ bullet }} - {{ bullet }}
+  • Heading: {{ heading }} - {{ heading }} - {{ heading }}
+  • Bold text: {{ bold text }} - {{ bold text }} - {{ bold text }}
+  • Horizontal rules: | - | - |
+  • Line breaks (<br>)
+
+The full syntax is:
+
+---
+Heading text
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text] - Bullet points
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text]
+[Heading text]
+
+Basic formatting
+
+To bold text, use {{ bold text }} - {{ bold text }}. To italic text, use {{ italic text }} - {{ italic text }}. To bold/italicize a line break, use {{ ~br ~}}.
+
+Bold text
+
+Bold text is used in headings, urls, and links. You can use {{ bold text }} - {{ bold text }} to make bold text bold, {{ ~br ~}} to include a line break.
+
+Bold/italicize a line break
+
+To bold/italicize a line break use {{ ~br ~}}. It will be used as a paragraph break and not as a line break. For a horizontal rule, use | - | |.

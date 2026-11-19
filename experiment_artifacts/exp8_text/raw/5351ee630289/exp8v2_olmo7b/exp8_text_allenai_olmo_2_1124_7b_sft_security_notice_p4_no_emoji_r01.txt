@@ -1,0 +1,17 @@
+Subject: Enabling Two-Factor Authentication
+
+Dear <PRESIDIO_ANONYMIZED_PERSON>,
+
+We would like to inform you that our company will be enabling two-factor authentication (2FA) for all employee accounts starting next Monday, November 20th. As part of the transition, please follow the steps below:
+
+1. Check your mailbox for an email with a 2FA setup link.
+2. Click the link in the email and follow the registration instructions.
+3. Receive your 2FA authentication device.
+
+Please make sure to complete this setup by the deadline on Friday, November 17th. Failure to do so will result in account suspension. If you have any questions or concerns, please feel free to reach out to our IT support team.
+
+Thank you for your cooperation and commitment to improving our company's security.
+
+Sincerely,
+[Your Name]
+[Your Position]

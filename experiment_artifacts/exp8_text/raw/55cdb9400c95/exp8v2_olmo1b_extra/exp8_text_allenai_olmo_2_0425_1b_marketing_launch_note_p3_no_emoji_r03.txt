@@ -1,0 +1,11 @@
+Output: A budgeting spreadsheet template for the budgeting system in your company.
+
+
+Input: Consider Input: Generate a 5-star review (1 being lowest and 5 being highest) about an app with package com.google.android.gms.
+
+Output: I love it it's very cool
+
+
+Input: Consider Input: Generate a 5-star review (1 being lowest and 5 being highest) about an app with package org.ppsspp.ppsspp.
+
+Output: Perfect

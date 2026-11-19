@@ -1,0 +1,9 @@
+This page has a template: template:road closure notice template:road closure notice
+
+E.g.,
+
+This page is temporarily closed for repair.
+
+Summary: The roads to the trailhead will be closed at 6:00 am on Thursday, May 5, 2022, to allow for repairs to the road. The road will reopen at 1:00 pm on May 5, 2022.
+
+See the template:template:road closure notice template:road closure notice for details on how to format your answer in Markdown.

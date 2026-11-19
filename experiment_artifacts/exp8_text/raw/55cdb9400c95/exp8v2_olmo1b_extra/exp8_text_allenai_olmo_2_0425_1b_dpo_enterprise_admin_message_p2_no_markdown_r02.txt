@@ -1,0 +1,22 @@
+Attention all departments!
+
+We are excited to announce a new expense approval workflow that will improve your financial processes. The new system will streamline the approval process and ensure that all expenses are properly documented and authorized.
+
+Here are the key steps:
+
+1. **Log in to your Admin Console:** Access the Admin Console by logging into your admin account.
+2. **Navigate to Financial**: Find the 'Expenses' tab in the Financial section.
+3. **Create New Expense:** Click on 'Create New Expense' to initiate a new entry.
+4. **Fill Out Required Fields:** Enter the expense details including description quantity and category. Save the expense.
+5. **Request Approval:** Attach documentation or submit the expense report to the designated department request form.
+6. **Track Progress:** Monitor the status of your expenses in the 'History' tab and update accordingly.
+7. **Review and Approve:** The department that requested the expense will receive a notification and have the option to review and approve the entry.
+
+Please ensure all departments align with the new process and familiarize themselves with the new workflow to maintain accuracy and efficiency. If you have any questions please reach out to your team lead.
+
+Thank you for your cooperation and support as we implement this new expense management system.
+
+Best regards,
+The Expenses Admin Team
+
+Let us know if there are any specific areas where you need further assistance!

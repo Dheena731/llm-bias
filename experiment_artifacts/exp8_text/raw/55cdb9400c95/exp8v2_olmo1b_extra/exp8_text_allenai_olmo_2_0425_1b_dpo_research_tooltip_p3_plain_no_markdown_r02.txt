@@ -1,0 +1,1 @@
+A date-range selector allows you to choose two specific dates from a given time frame. It appears as a slider with the ends specified, and displays options to select the start date, end date, or both. This feature is particularly useful for filters, sorting, and filtering data, ensuring you can precisely pinpoint the information that's relevant to your current needs.

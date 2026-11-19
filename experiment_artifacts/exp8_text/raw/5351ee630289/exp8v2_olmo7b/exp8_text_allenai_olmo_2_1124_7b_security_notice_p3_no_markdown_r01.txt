@@ -1,0 +1,26 @@
+The notice command can also be used to modify a message or string. For example, edit the welcome message to the staff:
+
+:welcomeproject adminsgroupnamegrouppurpose
+
+This results in the following in the staff channel:
+
+Welcome to the Staff channel. Project purpose is: `grouppurpose`.
+
+To edit a field other than a channel directive, you can use name=value markers to jump to that field in the template:
+
+:welcomeproject adminsgroupnamegrouppurpose
+
+This results in the following in the staff channel:
+
+Welcome to the Staff channel. Project purpose is: `grouppurpose`.
+
+:welcomeproject adminsgellotragichubotnamegrouppurpose
+
+It is possible to use the wiki syntax in the notice message, and it will be converted to Markdown on display. However, it is not possible to include Markdown formatted messages, such Personal Actions or Server Actions.
+
+Furthermore, the message cannot contain more than 30 lines when using the notice command. To edit a message that is longer than 30 lines, you can use the edit command instead.
+
+The usage of this command is as follows:
+
+:notice [<channel>]
+  <text to send to channel>

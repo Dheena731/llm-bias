@@ -1,0 +1,31 @@
+"In this workplace, employees must not reuse their passwords for both internal and external applications for security reasons. Passwords are required to be 8 characters or greater, consist of numbers, upper and lower case letters, and symbols. It is also recommended that passwords change frequently to reduce the risk of loss."
+
+If you are writing a warning about password reuse in your own organization, this is the part to focus on. The main point should be that the reason passwords must be unique is to prevent password reuse, and not some other reason such as password complexity requirements or password expiration. The warning itself should directly address password reuse. For example:
+
+"Employees must not reuse passwords for both internal and external applications for security reasons. Passwords are required to be 8 characters or greater, consist of numbers, upper and lower case letters, and symbols. It is also recommended that passwords change frequently to reduce the risk of loss."
+
+"Change your password!" The warning should not state that passwords should be changed because that defeats the purpose of password reuse. The warning should not state that passwords should not be reused because that defeats the purpose of password reuse. The warning should not state that passwords should not be reused on the internet because that defeats the purpose of password reuse. You get the idea. The warning should state that passwords must not be reused even on the internet for security reasons.
+
+Use words, not phrases. The best place for a warning is a password reminder message, not a password policy document. Use short phrases, not full sentences, or even short words. There are enough placeholders in English to make up a whole lot of short phrases.
+
+"Remember: your password is not a phrase, and it shouldn't be used as one."
+"Your System Name is not a word, and it shouldn't be used as a word."
+"Your password is not a sentence, and it shouldn't be used as one."
+
+"Your password is not a sentence, and it shouldn't be used as one."
+
+Use short password phrases. This is a small modification of the previous warning. Short phrases make it less likely that an offender will notice that two passwords they reuse happen to share a common word or phrase. Short phrases also provide a better balance between password reuse and password uniqueness.
+
+"Remember: your password is unique, and it's the only one you need for Internet access."
+"Your System Name is unique, and it's the only one you need for Internet access."
+
+Use password phrases that are pronounceable. This is a small modification of the previous warning. Pronounceable phrases make it less likely that an offender will notice that two passwords they reuse happen to share the same spoken word or phrase. Pronounceable phrases also provide a better balance between password reuse and password uniqueness.
+
+"Remember: your password is unique, and it's the only one you need for Internet access."
+"Your System Name is unique, and it's the only one you need for Internet access."
+
+Do not copy another organization's writing style. Other organizations may have taken the time and trouble to put together a well-written familiarity template. If so, do not copy their template. Your organization may have some reason to require all passwords to be 8 characters or greater, for example. If so, that needs to be stated in the document. Do not copy the familiarity template to address that requirement.
+
+1. Avoid overusing the words "password" and "password management." The first part of the warning should only mention passwords, and not the entire document. What you write in support of that part of the warning should be more than just a reminder to pick a good password.
+
+2. Avoid overusing the words "based security" and "security guidelines." You should not have to read a policy document to learn what a "secure password" is. Instead, the policy document should

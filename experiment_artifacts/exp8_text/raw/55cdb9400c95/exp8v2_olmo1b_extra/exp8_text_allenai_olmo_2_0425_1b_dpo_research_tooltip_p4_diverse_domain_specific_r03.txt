@@ -1,0 +1,15 @@
+A missing-value marker, also known as an "unknown value" or "unfilled data point," is a concept commonly found in datasets or reports that indicates a gap where specific information isn't available or exists without a specified value. This marker is crucial in data analysis and reporting for several reasons:
+
+### Explanation
+- **Visibility:** It serves as a visual or textual indicator that some data points are missing.
+- **Importance:** In the context of decision-making and modeling, missing value markers are important because they can influence statistical analysis, model training, and predictive accuracy.
+
+### Domain Specific Example
+Suppose you're working with a sales data set, and you're analyzing the impact of marketing efforts on sales. A missing-value marker might look like `Unlabeled Sales Amounts` for a particular month in your analysis. This means there are sales figures for that month that haven't been recorded or provided in the dataset.
+
+### Explicit Avoidance of Generic AI-Generational Language
+While AI tools are increasingly capable of generating human-like tooltips, it's important to ensure that the language used is specific to the context and not vague or generic. Here’s an example crafted to fit the scenario:
+
+"**Tooltip Explanation** 'In this analysis, we see a **missing-value marker** in the `Sales Amounts` category for October in our dataset. This placeholder data point suggests that sales data for this month were not recorded or provided, denoting an area of potential improvement or clarification in our data collection process.'"
+
+This example is concise, precise, and tailored to the sales dataset example, avoiding generic AI-generated slang and keeping the tooltip on-brand within the analysis of marketing sales performance.

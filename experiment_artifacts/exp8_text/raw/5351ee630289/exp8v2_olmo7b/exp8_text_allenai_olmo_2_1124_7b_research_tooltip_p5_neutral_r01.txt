@@ -1,0 +1,22 @@
+Solution:
+
+Here's my implementation: https://app.bettercoding.io/view/6a1c11b5b43d
+
+console.log("Starting test");
+const pg = require("pg");
+const config = { user: process.env.PG_USER, password: process.env.PG_PASSWORD, database: "db"}; // this is the test db
+
+try {
+  const pool = pg.createPool(config); 
+  pool.query("BEGIN; SELECT * FROM subjects", (err, result) => {
+    if (err) return console.log(err); 
+    console.log("rows: ", result.rows.length); 
+    for (let row of result.rows) {
+      console.log(row);
+    }
+  });
+  pool.end();
+} catch (err) {
+  console.log(err);
+}
+console.log("done");

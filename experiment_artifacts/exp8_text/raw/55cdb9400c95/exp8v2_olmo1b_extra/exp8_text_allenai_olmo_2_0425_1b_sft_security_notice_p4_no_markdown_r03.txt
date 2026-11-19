@@ -1,0 +1,5 @@
+*Two-factor authentication (2FA) is a security feature that adds an extra layer of protection to your account by requiring a second form of verification in addition to your password.
+
+*When enabling 2FA, you'll be asked to provide either a one-time code sent to your mobile phone or a secondary PIN. This code or PIN is sent to your phone and not to your computer. You'll then enter this code or PIN in the authentication field instead of your password.
+
+*By using 2FA, you can significantly increase the security of your account and prevent unauthorized access even if your password is compromised. Remember to enable 2FA whenever possible and stay vigilant for any suspicious login attempts.

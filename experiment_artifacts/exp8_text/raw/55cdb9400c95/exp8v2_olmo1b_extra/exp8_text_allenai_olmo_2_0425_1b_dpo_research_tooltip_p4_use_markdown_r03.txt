@@ -1,0 +1,14 @@
+```markdown
+*Missing-Value Marker*
+- Represents data points where a value is not provided.
+- Helps in identifying gaps in datasets.
+- Useful for statistical analysis and error detection.
+- Commonly used in research and data visualization.
+```
+```markdown
+*Missing-Value Marker*
+- Represents data points where a value is not provided.
+- Identifies gaps in datasets for statistical analysis.
+- Can aid in error detection in research and data visualization.
+- Used in various applications including accounting and social sciences.
+```

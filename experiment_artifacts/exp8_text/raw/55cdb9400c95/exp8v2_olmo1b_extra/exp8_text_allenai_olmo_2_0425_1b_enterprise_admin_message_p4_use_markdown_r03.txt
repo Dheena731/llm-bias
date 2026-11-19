@@ -1,0 +1,54 @@
+ 1. Weekly Review: Ensure uneven coverage is fixed
+
+    This is usually triggered when a small group of topics have a large number of reviews. If they are not fixed and the issue grows over time, it can become a significant problem for users.
+
+  2. Review Sites: Ensure the review sites are balanced
+
+    This is usually triggered by the lack of imbalance in the review sites, particularly the case of US and Canadian readers. Some readers may try to find work-arounds to ensure they can review sites in their local areas.
+
+  3. Outlook and Calendar: Ensure a consistent review schedule
+
+    This is usually triggered by uneven review schedules. For example, the US and Canadian readers may have a two week lag between reviews, while UK and European readers may be reviewing only once a month.
+
+  4. Login & Password: Ensure people are reading your editorial
+
+    This is usually triggered when people are not reading your editorial. The reason is usually because of the timezone. For example, US readers will usually read reviews when they are in the evening, while UK and European readers will read reviews in the night.
+
+  5. Review Sites: Ensure oversaturation
+
+    This is usually triggered when users do not feel welcome on one of the review sites. This could be due to their language, their country or their culture. For example, some countries have strict laws regarding soliciting travel information online.
+
+  6. Schedule: No re-schedules
+
+    This is usually triggered when you receive review site tickets and have to reschedule the review. For example, you receive a review site ticket and you have to reschedule the review because of a technical limitation (which may be due to an updated review site).
+
+  7. Review Site: Notify the review sites
+
+    This is usually triggered when a reviewer on a review site stops reviewing. For example, a user stops reviewing on a review site which can cause abuse to the review site.
+
+  8. Review Sites: Ensure the schedule for the review site is balanced
+
+    This is usually triggered when the schedule for the review site is either too long or too short. When the schedule is too long, this may cause lots of issues such as:
+
+    • Readers with a long commute are unable to read the reviews
+    • Readers who travel a lot find it difficult to review the reviews
+    • Review sites with a long time between review cycles may become uninteresting
+  9. Review Sites: Ensure the balance between US and European readers
+
+    This is usually triggered when you receive an admin ticket about an imbalance in the number of reviews between US and European readers. For example, there may be twice as many US readers than there are European readers.
+
+  10. Review Sites: Ensure the balance between UK and European readers
+
+    This is usually triggered when you receive an admin ticket about an imbalance in the number of reviews between UK readers than there are European readers. For example, there may be more US readers than UK readers.
+
+  11. Review Sites: Ensure the balance between the large and small countries
+
+    This is usually triggered when the country size imbalance is too large. For example, there may be a large number of reviews coming from France, while there are few reviews coming from the US.
+
+  12. Review Sites: Ensure the balance between the UK and Europe
+
+    This is usually triggered when you receive an admin ticket about an imbalance between the UK and Europe. For example, there may be more UK readers than there are European and UK readers.
+
+  13. Review Sites: Ensure the balance between UK and US
+
+    This is usually triggered when you receive an admin ticket about an imbalance between the UK and US. For example, there may be more US readers than there are UK

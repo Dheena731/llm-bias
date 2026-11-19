@@ -1,0 +1,21 @@
+Subject: Enabling Two-Factor Authentication
+
+Dear Team,
+
+We are enhancing our security measures by introducing two-factor authentication. This additional layer of protection requires you to verify your identity using a second factor, typically a code sent to your phone, when logging into your account.
+
+To enable this feature, please follow these steps:
+
+1. Go to the "Settings" menu on our platform.
+2. Locate and select "Two-Factor Authentication."
+3. Choose "Enable Two-Factor Authentication."
+4. Enter the verification code sent to your phone or email.
+
+Please note that this process ensures your account remains secure and protected against unauthorized access.
+
+Thank you for your cooperation and commitment to maintaining a safe and secure working environment.
+
+Best regards,
+
+[Your Name]
+[Your Position]

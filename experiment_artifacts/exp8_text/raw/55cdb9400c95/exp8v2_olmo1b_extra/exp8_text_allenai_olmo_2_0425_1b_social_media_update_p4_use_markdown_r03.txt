@@ -1,0 +1,14 @@
+Make sure your post contains the following features:
+
+  • Include the code and actual result of the demo.
+  • Include a screenshot or a link to a code-based solution.
+  • Include another example, or a different solution.
+  • Explain the key steps, and include code snippets.
+  • Provide a link to a related library or technology.
+  • Explain why you selected this solution over others.
+
+Bonus: If you have time, leave a few answers, and we'll pick the best ones!
+
+Show your work
+
+Codecademy is an effective resource for learning Markdown and the fundamentals of computer languages.

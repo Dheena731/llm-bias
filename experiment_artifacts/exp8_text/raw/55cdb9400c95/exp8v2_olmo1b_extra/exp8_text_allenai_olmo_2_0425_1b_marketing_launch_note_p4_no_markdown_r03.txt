@@ -1,0 +1,15 @@
+Markdown Reference
+
+  • **bold** is the same as _bold_
+  • _italic_ is the same as __italic__
+  • _bold_ with no preceding _is the same as __bold__
+  • __bold__ with no preceding _is the same as __bold__
+  • _italic_, __italic_, __italic__, and __italic__ are equivalent.
+  • The following are not recognized:
+
+    • *italic* text
+
+
+    • ```text``` should be escaped with backticks `
+
+  • Emojis are not supported.

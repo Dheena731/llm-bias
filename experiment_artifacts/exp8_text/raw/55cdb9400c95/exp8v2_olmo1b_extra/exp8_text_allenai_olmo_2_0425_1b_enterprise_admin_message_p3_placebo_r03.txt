@@ -1,0 +1,43 @@
+What happened?
+
+For whatever reason, a change was made to the client and things were broken for a certain group of users. The server response to the change was understood by some and not by others.
+
+How can I fix it?
+
+There are several ways to fix it, but if you want to fix it permanently, you need to implement a process of change propagation.
+
+Release notes
+
+Keep a list of release notes for each change, and keep them handy.
+
+On the server
+
+The release notes do not have to be written by the same person as the code that was changed, but they should flow naturally with the changes.
+
+The details are important, but they do not have to be written by the same person as the client.
+
+The release notes are meant to educate the user about what is changed.
+
+They can also serve as documentation of the changes for maintenance and development. The release notes can be used to mark important revisions, by either including a key word in the revision, or by placing the release notes in a revision history.
+
+On the client
+
+The client should support taking notes in the user interface.
+
+In a rich client, such as Firefox 3 or Thunderbird 3, it is easy to take the release notes directly from the user interface.
+
+In a web application, it is harder to provide a quick feedback mechanism, unless the users can be redirected to a page where they can take notes with the same UI.
+
+All notes should be taken into a database and published to a web site on a regular basis.
+
+Notes can be stored in a central repository, but there must be a process for handling the notes that are added in a given period of time.
+
+The notes should be taken as often as possible to ensure fast feedback.
+
+Separation of concerns
+
+Use a separate application, such as a wiki or checklist application, to handle the release notes.
+
+The wiki or checklist application should be independent of the code and the user interface.
+
+The wiki or checklist application should be independent of the server.

@@ -1,0 +1,47 @@
+Avoid abbreviations, acronyms, and jargon. Explain to the user what you expect. If you are marking up math, provide any missing math needed to explain what you are marking.
+
+Do not mark up tables and illustrations. Use a visual or textual description instead, and link to images in the HTML or descriptive text in the markdown.
+
+Use language that is as close as possible to the natural language of your site. Try to avoid esoteric mathematical notation. You may want to use a mathematical symbol font, like the one here.
+
+Do not use an incorrect markup language. Use one of these formats, not the plain text format.
+
+Do, however, use a markup language to mark up tables, illustrations, and images. Do not use plain text or raw HTML.
+
+The following is a list of HTML tags you can use for visual elements. The Markdown formatting below is verified by a validator.
+
+<div> (around text)
+
+Heading element
+
+<h1> (title, one line, heading 1)
+
+<h2> (title, two lines, heading 2)
+
+<h3> (title, three lines, heading 3)
+
+<h4> (title, four lines, heading 4)
+
+<h5> (title, five lines, heading 5)
+
+<h6> (title, six lines, heading 6)
+
+<p> (paragraph, plain text)
+
+<p> (paragraph, plain text)
+
+<i> (emphasis)
+
+<i> (emphasis)
+
+<strong> (strong emphasis)
+
+<h3> (for illustration)
+
+<h4> (for illustration)
+
+<span> (for emphasis)
+
+<div> (for emphasis)
+
+For further info, see

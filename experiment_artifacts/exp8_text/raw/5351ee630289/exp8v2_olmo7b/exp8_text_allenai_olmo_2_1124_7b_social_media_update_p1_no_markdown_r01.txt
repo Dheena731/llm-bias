@@ -1,0 +1,137 @@
+Start by creating a new file and “touch touch-me.json”. The first time you create a file or directory you can use the touch command. This creates an empty file that contains the current time. The touch command tells vim to create the file if it doesn’t exist.
+
+Now, in the terminal, run the following commands to create an object and add a property.
+
+# touch touch-me.json
+# vim +set nu +set bs=2 touch-me.json
+# vim +set nu +set bs=2 touch-me.json
+
+vim +set nu +set bs=2 touch-me.json
+
+Your file should look like this:
+
+{
+  "name": "himanshu",
+  "age": 20,
+  "email": "himanshu@example.com"
+}
+
+To launch the virtual machine, run:
+
+# vagrant ssh
+
+To get to the website you will need to attach the web-server. This will take a few minutes.
+
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant ssh
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+
+Make sure you upgrade your virtual machine:
+
+# vagrant halt
+# vagrant up --provision
+# vagrant ssh
+# cd /vagrant
+# vagrant update
+
+Now, create a branch.
+
+# git branch nameoffeature
+
+Next, run the test suite.
+
+# vagrant halt
+# vagrant up --provision
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+# vagrant up
+# vagrant ssh
+
+Now, log out.
+
+Log out of the virtual machine and back into your terminal.
+
+Log out of the virtual machine and back into your terminal.
+
+# vagrant halt
+# vagrant up --provision
+# vagrant ssh
+# cd /vagrant
+# vagrant halt
+
+Now go back to your code editor and add a property to the file.
+
+Next, add a property named status to the person object:
+
+# "name": "himanshu",
+# "age": 20,
+# "email": "himanshu@example.com",
+# "status

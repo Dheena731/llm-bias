@@ -1,0 +1,25 @@
+A real-life API rate limit example provided by cloud provider, Raftel
+
+Explain the concept of API rate limits in clear and simple terms. Explain how it works and why it exists. A real-life API rate limit example provided by cloud provider, Raftel
+
+Explain that your example API rate limit requirements should be defined in your rate limit policy. Break the policy into the following three parts: The rate limit, the purposes for which it is defined, and the rate limits set by the policy.
+
+Explain how to submit a request for an API rate limit waiver. Break this request into the following four parts: A reference to your policy, a request for a waiver, a description of the rate limit, and the purpose for which the rate limit needs to be waived.
+
+Explain what an API rate limit violation is. Break this into the following three parts: A reference to your policy, an identification of the rate limit violation, and a description of the violation.
+
+Explain why you may remove API rate limits. Break this into the following four parts: A reference to your policy, a description of the rate limit, a description of the reason why the rate limit should be removed, and an explanation of how this would improve the quality of your service.
+
+Example of explaining API rate limits in plain English
+
+Explain the concept of API rate limits in plain English
+
+API rate limits are a type of rate limit imposed upon the user of an API. The rate limits are designed to reduce the risk of abuse, and help to maintain the integrity of the API. One common type of API rate limit is the maximum number of calls that can be made per second. For example, if an API allows for 5000 calls per second, then a user who makes more than 5000 calls per second may be penalized. Another type of API rate limit is the maximum number of calls that can be made to a particular resource within a given amount of time. For example, if an API allows for 5000 calls per second to the /vehicle/locations endpoint, then a user who makes more than 5000 calls to the endpoint within one minute may be penalized.
+
+While API rate limits are intended to prevent abuse, they may also have unintended consequences. For example, if an API has a rate limit of 5000 calls per second, then a user who makes fewer than 5000 calls per second may be penalized. However, if the API is used by a large number of users, then the user who makes fewer than 5000 calls per second may be penalized due to unfair competition. In this scenario, the rate limit has not achieved its intended purpose of preventing abuse, but has instead created an artificial barrier to entry for otherwise legitimate users.
+
+Finally, it should be noted that API rate limits are typically imposed on the client side of the API, rather than the server side. In other words, the client must abide by the API rate limits before accessing the API. This means that the client must set up their own rate limit management system in order to be able to access the API with impunity. This can be a complex and resource-intensive task, and is often the reason why many developers choose to use third-party rate limit APIs instead of implementing their own rate limit systems from scratch.
+
+While it may be tempting to include a graphic image of a dialog box in your example, it is important to avoid using such images if you will be relying on third-party rate limit APIs to implement your rate limit system. This is because such images may not be readily available to third-party APIs, and may therefore prevent your users from accessing your rate limit system from within the API. As such, it is best to avoid using such images in order to simplify the implementation of your rate limit system.
+
+In

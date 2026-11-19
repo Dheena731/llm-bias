@@ -1,0 +1,22 @@
+**Phishing Emails Notice**
+
+- **What are phishing emails?**
+    - Phishing emails are deceptive emails that try to trick you into revealing sensitive information such as passwords or financial details.
+    - They often appear to come from legitimate sources like your bank or email provider.
+
+- **How to identify phishing emails:**
+    - **Suspicious links**
+        - Avoid clicking on links unless you are certain of their origin.
+    - **Poor spelling and grammar**
+        - Many phishing emails contain obvious errors.
+    - **Begrudging tone or urgent request**
+        - Be cautious of emails that create an urgent sense of needing immediate action.
+
+- **What to do if you receive a phishing email:**
+    - **Do not respond or click on any links**
+    - **Report it to your IT department or supervisor**
+    - **Contact the actual contact number or website of the claimed sender**
+
+---
+
+**Note:** Always verify the sender's identity through other channels before taking any action.

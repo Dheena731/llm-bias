@@ -1,0 +1,56 @@
+Improving cookie policy
+
+You can improve your cookie policy by making it compliant and more robust.
+
+Your cookie statement must describe how the website uses cookies and data. Keep in mind that the GDPR explicitly states that a user must be able to refuse all or some cookies. The EU Cookie Law applies to all Europeans, and regulations are changing in different countries. For example, China recently enacted a new regulation, which will require all companies to inform users about cookies.
+
+In particular, do not:
+
+  • Use double opt-in consent forms. This is not needed since user consent is implied by default.
+  • Use opt-out consent. Users cannot opt out of consent if they did not request it in the first place.
+  • Try to circumvent users’ refusal.
+
+We strongly advise against using a double opt-in consent form for cookies. Let your users choose what cookies they want to consent to.
+
+User preferences
+
+User preferences can be used to enable or disable cookies of all types. For example, you could enable cookies for all third-party sites, but not for your own pages. Users will be able to choose which cookies to accept and which to decline, or to refuse them completely altogether. This page gives you an idea of the scope of the problem. To avoid data breaches, you should think carefully before enabling cookies at all.
+
+When dealing with user preferences, you should:
+
+  • Mention in the cookie policy that users have the right to refuse cookies.
+  • Use the Privacy Control section of your website to give users the option to block/allow cookies.
+  • Make sure your service is compatible with all browsers.
+  • Be careful when you use third-party services. For example, you should not require your users to accept cookies from your third-party services.
+  • Provide clear instructions. If the user has cookies enabled, the privacy page should have a “contact us” link.
+
+Cookie banner
+
+To show the user a cookie banner, add a cookie policy header to your website. Both the EU Cookie Law and GDPR require a cookie banner. In addition, many countries require cookies to be displayed on the first page of a website, where they can be more easily ignored. The following instructions are for the JavaScript frameworks we recommend.
+
+Use the following code:
+
+<p>Thank you for your support. For more information, please read our privacy policy</p>
+<a href="example.com.cookie">Cookie policy</a>
+
+The following example shows how to use the Google Tag Manager (GTM) to display a cookie banner. The code is a conditional statement that checks if the user is on a mobile device. If so, a banner is displayed.
+
+// Set cookie banner on all pages
+ga().enableTag(); // Enable Google Analytics on all pages
+
+// Alerts when the cookie policy is visited
+window.addEventListener('message', function (msg) {
+  if (msg.data === 'ga-enableTag') {
+  // Show cookie policy on page load if cookie policy is visited
+  if (window.checkCookiePolicy === 'true') {
+
+
+Please do not use a cookie statement as your privacy policy, since this will confuse users. Instead, treat cookie policies as a legal / informational document as part of the website’s user-facing website.
+
+The cookie statement is included in the Contact page of the website. In addition, it can be included in web analytics reports.
+
+After you have written your cookie policy, you should review it at least once a month, especially when your privacy policy changes. In particular, remember that the GDPR applies to all European users, not just to Europeans. This means that you should not restrict the Internet access of users from non-EU countries.
+
+If you have any questions or you want more information about how we write cookie policies, please send an email to privacy@yandex.ru.
+
+Was this page useful?

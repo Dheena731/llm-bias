@@ -1,0 +1,28 @@
+Do not use “don’t reuse your password” as a buffer or substitute for actual password policy.
+
+Address password reuse as a practice area (i.e., “Do not reuse passwords for sensitive accounts such as to sensitive services like banking.”), not a technology policy.
+
+Avoid using a pronoun (e.g., “Never”) and buzzwords (e.g., “don’t reuse your password”).
+
+Personalization and Prevention
+
+The personalization and prevention method is often the most commonly used prevention strategy. Personalization recommends that users use strong passwords and frequently change them. When used correctly, the personalization and prevention method can reduce the risk of compromise, but it is not always the most effective.
+
+Some threat models see password reuse as an issue, and as a result, many organizations use personalization and prevention to reduce the risk of compromise by limiting the number of passwords that must be set in motion when a user’s password is compromised.
+
+However, the personalization and prevention method is only effective if there are no new passwords in the pool. In other words, if an attacker compromises a password, they will almost certainly also compromise other passwords in the same account. The personalization and prevention method is not effective because it does not prevent password re-use and reuse by default.
+
+Personalization and prevention should not be used if there is a risk of password reuse or password reuse by default.
+
+Further Work
+
+  • Study password reuse and its impact on a company’s security posture to learn how to reduce risk
+  • Research the true impact of password reuse, password reuse by default, and password complexity (e.g., How do password reuse, password reuse by default, and password complexity impact a company’s security posture?)
+
+Further Reading
+
+Password reuse and password reuse by default are fundamental risks to any organization. To mitigate these risks, organizations need to adopt a strong password policy (i.e., policies that require users to use strong passwords and enforce password reuse rules). Password complexity requirements are often the most popular types of passwords policies; however, an overly complex password policy may actually increase the risk of a compromise. Passwords policies should also include mandatory password change requirements and use cases (e.g., password reuse by default). Password policies may also be useful in encouraging use of two-factor authentication.
+
+Password reuse is most often due to human error (e.g., users forgetting their passwords or reusing passwords) and should not be considered malicious. Password reuse by default is more deliberate, but is still usually due to human error. Organizations can reduce the risk of password reuse and password reuse by default by educating their users on the importance of strong passwords and password reuse rules, as well as policies that enforce password reuse rules and use cases. Further reading on password reuse is available in the References section.
+
+Eliminating password reuse and by default is a difficult task for most organizations, and may lead to security incidents like credential compromise and data breaches. To mitigate these risks, organizations should be careful when implementing password reuse policies. Password reuse requirements should only be implemented if a new major risk has been identified and is unique from any other existing risks.

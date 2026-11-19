@@ -1,0 +1,70 @@
+Dealing with Files
+
+Files need to be downloaded from somewhere and stored somewhere on your device. They need to be accessed by components in the page.
+
+  • Media files like images and video need a file server from where they are served. Google Chrome and other browsers have built in file servers you can use with Media Source Extensions.
+  • Static files like CSS, JS, HTML and images all need to be served from a directory that's accessible on the server. You can use a CDN to serve static files from a network of servers.
+
+Working with HTML
+
+In this chapter, we will be working with a simple HTML file. You can see the full code for this file on GitHub.
+
+<!DOCTYPE html>
+   <title>This website is open source</title>
+     <link rel="stylesheet" href="style.css" media="screen" />
+     <link rel="stylesheet" media="screen" href="font.css" />
+     <script src="script.js"></script>
+   <h1>This website is open source</h1>
+   <p>Learn more about JavaScript at </p>
+   <!-- HTML comments can be used for any text or code that you do not want to render, such as scripts that aren't meant to run -->
+   <!-- Use HTML5 comments to highlight text -->
+   <div>Some text and other content in a div tag</div>
+  • As you can see, the code is very simple. The HTML is the actual content of the website.
+
+The HTML file is comprised of 5 elements:
+
+  • A title element that contains the title of the website
+  • 2 style elements
+    • One for making the font bold.
+    • One for making the text underlined.
+  • A script that contains a call to a script.js file.
+  • A heading element that contains the header of the website.
+  • A div element that contains content.
+
+Working with CSS
+
+CSS is another markup language, and it's used to style the website. The style tags that you see above is just one of many styles that can be defined in CSS.
+
+What are the different character entities in markup?
+
+What is the difference between a block element and a inline element?
+
+What is a selector and how do they work?
+
+Working with JS
+
+JS is used to provide interactive features and functionality to the site.
+
+What are the two types of JS?
+
+What are the different ways that JS is rendered in the browser?
+
+How do you transmit data using HTTP?
+
+When we use HTTP, we send a request. We receive a response. The request contains information that we want to send to the server.
+
+Once the data is received from the server, the server will process it, and then it will create a response and send it back to our client.
+
+
+HTTP is a great way to communicate with a server, but it's not ideal for many use cases. The basic problem with HTTP is that it's not very efficient when transmitting large blocks of data.
+
+Another problem with HTTP is that it's not very efficient when transmitting data with a high latency (for example, when transmitting data between devices that are relatively far away).
+
+HTTP is also not ideal for sending data that has to be sent to a server frequently and in bulk. For example, if you wanted to send a notification to the user that a new comment had been added to a blog post.
+
+Instead of sending a notification to the user every time the server receives a request, it would be better if the server sent the notification to the user only when it's ready.
+
+
+The most common way of transmitting data in a web page is with AJAX. AJAX stands for Asynchronous JavaScript and XML. AJAX is a technology that allows you to send data back to the client without having to wait for a full page to load.
+
+When we perform

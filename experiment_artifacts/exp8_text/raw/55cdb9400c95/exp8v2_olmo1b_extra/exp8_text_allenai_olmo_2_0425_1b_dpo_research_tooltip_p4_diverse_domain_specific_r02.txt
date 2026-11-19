@@ -1,0 +1,9 @@
+A missing-value marker, often denoted by an x, tally mark, or underscore symbol (`_`), is a visual indicator used in data visualization, statistical analysis, and data modeling to signify data points or categories that have been explicitly omitted from a dataset for various reasons, such as being unknown, left blank, or not recorded. This marker helps in understanding the data's structure, enabling analysts and decision-makers to make informed decisions based on complete and relevant information.
+
+In more specific terms often used in statistical contexts:
+
+- **X**: Often used when data points need to be filled in but are intentionally left blank.
+- **_**: More graphical or stylized representation indicating data points are missing.
+- **Indicator of Completeness**: These markers help in assessing whether data is complete and accurately reflects reality.
+
+Understanding these markers is crucial in data cleaning processes, in designing rosters for analysis, or when interpreting large datasets where certain categories might have variable or unknown values. In practice, this could mean excluding periods with no sales data, adjusting attendance records for attendance gaps, or filtering out customer records with missing contact information when compiling customer segmentation strategies.

@@ -1,0 +1,98 @@
+Dont repeat the question. Write a concise answer. Do not repeat the question. Some people do not know even the first sentence in question. Use a questionmark for discussion if you want to ask a question in the answer.
+
+Provide detailed examples. Write a short story describing how your solution implements the task. Do not use this space to explain how to use your solution. That is what the instructions are for. If you have not yet implemented your solution, write what you have. Use this space to explain how your solution works.
+
+Provide a concise description of the problem. You can describe the problem in many ways. Do not invent new ones. For example, you could explain the problem as follows:
+
+In this task, we have a large, growing collection of 1000+ items that we need to curate. Each item can be described with a textual and a visual description, a title, an image, a summary, a description. We need to ensure that each summary is unique to each item, each summary is found in the textual description, each title is found in the textual description and in the visual description, each selected image is found in the textual description, each selected summary is found in the textual description and in the visual description, each selected title is found in the textual description, and each selected image is found in the textual description.
+
+Do not write sentences with more than one question mark. Write the users answer into a textbox and get all the marks for a correct answer. Use a textbox for a correct answer.
+
+You can do better than this (or worse). What do you think is a more effective way to write this description of "test"? Do you think it is as good as the example above?
+
+2.50 marks if you use this in a test
+
+  • Write a blog post that describes what this solution does.
+  • Write a tutorial for a specific user group.
+  • Write a blog post about your solution. You can also use this opportunity to help community members that have a hard time to understand your solution.
+  • Write a blog post to answer a specific community questions.
+
+2.75 marks
+
+3.00 marks if you use this in a test
+
+3.00 marks
+
+3.00 marks if you write a blog post or tutorial
+
+3.50 marks if you use this in a test
+
+4.00 marks if you use this in a blog post or tutorial
+
+You can also write a description of a problem that is asked by a user group of your choice. You will receive a bonus if you have written it in a blog post.
+
+4.50 marks if you have written a blog post or tutorial or if you have answered community questions
+
+4.00 marks if you have written a blog post or tutorial or if you have answered community questions
+
+4.50 marks
+
+5.00 marks
+
+5.00 marks
+
+5.50 marks
+
+5.00 marks
+
+Each piece of writing can be up to 2000 words or 10 pages. In addition, you receive 5 marks for writing in a blog post, 10 marks for writing in a tutorial, and 15 marks for writing in a blog post or tutorial or answering community questions.
+
+5.50 marks
+
+5.50 marks
+
+5.50 marks
+
+6 marks
+
+6.00 marks
+
+6.00 marks
+
+6.00 marks
+
+6.00 marks
+
+6.00 marks
+
+6.00 marks
+
+6.00 marks
+
+6.00 marks
+
+6.00 marks
+
+6.50 marks
+
+6.50 marks
+
+6.50 marks
+
+7.00 marks
+
+7.00 marks
+
+7.50 marks
+
+7.50 marks
+
+7.50 marks
+
+7.50 marks
+
+7.50 marks
+
+7.50 marks
+
+7.

@@ -1,0 +1,18 @@
+# API Rate Limit Explanation
+
+- An API rate limit is a set number of requests allowed per unit of time (e.g., per hour, minute, or second) from an API key or client.
+- This restriction is in place to manage the load on the API and prevent abuse, ensuring reliability and performance for all users.
+- Rate limits can be implemented dynamically according to the observed usage patterns, adjusting dynamically to maintain service quality.
+- Exceeding the rate limit may result in service interruptions, increased latency, or other punitive actions, such as rate limiting further or limiting access altogether.
+
+**[Header]**
+
+- **What is an API rate limit?**
+  - Understanding the limits on API usage to prevent overloading the system.
+  
+**[Bullet Points]**
+
+- **Definition:** A specified limit on the number of requests an API handles within a given timeframe.
+- **Purpose:** To control the load on the API, preventing server overload and potential service degradation.
+- **Adaptiveness:** Can be adjusted dynamically to reflect actual usage patterns to maintain service quality.
+- **Consequences:** Failing to adhere to rate limits can lead to service disruptions, performance issues, or service termination.

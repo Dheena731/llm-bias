@@ -1,0 +1,48 @@
+Here are some examples: "Located at the exhibition centre on 61st street" or "polling stations located at 69th street" or "At the restaurant at 77th street".
+
+If you have more than one location, list them.
+
+The goal is to provide an informative message.
+
+The input is a list of strings that represent addresses
+The output is a single string of the form
+    "Address line 1: Location 1"
+    ", Address line 15: Location 2"
+    ", Address line n: Location n"
+
+Sample Input 1
+
+["2702 S Maine Ave","Everett","Washington","98103"]
+["250 S Wabash Ave","Chicago","Illinois","60607"]
+
+Sample Output 1
+
+"Wests 2702 S Maine Ave, Everett, Washington 98103","Wests 250 S Wabash Ave, Chicago, Illinois 60607"
+
+Sample Input 2
+
+["1701 E Griffith St","Fort Wayne","Indiana","46818"]
+["1401 W 3rd St","Austin","Texas","78703"]
+["1310 E D St","Beverly Hills","California","90212"]
+
+Sample Output 2
+
+"Fort Wayne 1701 E Griffith St, 46818, Austin 1401 W 3rd St, Texas 78703, Beverly Hills 1310 E D St, California 90212"
+
+Sample Input 3
+
+["6970 E 31st St","Allentown","Pennsylvania","18106-5801"]
+
+Sample Output 3
+
+"6970 E 31st St, Allentown, Pennsylvania 18106-5801"
+
+Note: Since the input is a list of data, it is possible that you'll find it easier to work on this problem by converting the list to a string and working on it this way.
+
+If you're interested in more problems like these, check out our problem set on web scraping.
+
+Problem Loading...
+
+Note Loading...
+
+Set Loading...

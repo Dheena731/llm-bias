@@ -1,0 +1,57 @@
+In general: Write a confidence interval like this:
+
+We are (99%) confident that the true value of falls between  and .
+
+If necessary, use a more specific confidence level, such as (95%). For more information, see "What is confidence interval?".
+
+Finally, write a headline for the tooltip as if it were a blog post: a subject followed by a colon and a sentence summarizing the rest of the tooltip.
+
+Here's an example:
+
+We are (99%) confident that falls between  and .
+
+You can find more examples in the chart-library/tooltip-confidence-interval/README.md.
+
+Writing a tooltip for a confidence interval is a good way to get started with writing.
+
+In general: Write a list of options like this:
+
+  • option
+  • option
+  • option
+
+If necessary, use a more specific list, such as:
+
+  • option
+  • option
+  • option
+
+For more information, see "What is a list?"
+
+Here is an example:
+
+  • 10:30 AM - 11:00 AM
+  • 11:00 AM - 11:30 AM
+
+You can find more examples in the chart-library/tooltip-list/README.md.
+
+Writing a list is a good way to get started with writing.
+
+Writing a list is usually easy, and you can quickly iterate on your writing.
+
+You'll find it helpful to use the RTD chart template for writing a list, which is an easy way to start.
+
+You can find more examples in the chart-library/tooltip-list/README.md.
+
+Writing an HTML tooltip is a good way to get started with writing.
+
+To write an HTML tooltip, it's helpful to use the RTD chart template for writing an HTML tooltip, which is an easy way to get started.
+
+You can find more examples in the chart-library/tooltip-html/README.md.
+
+To create an HTML tooltip, use the RTD chart template.
+
+You can run it like this:
+
+chart {
+  tooltip: chart.tooltips.html()

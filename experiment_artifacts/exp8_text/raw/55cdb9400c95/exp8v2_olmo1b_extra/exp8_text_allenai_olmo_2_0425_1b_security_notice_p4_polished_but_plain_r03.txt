@@ -1,0 +1,70 @@
+Useful Pseudocode
+
+As code samples, you'll be required to provide pseudo-code for a solution to a problem. This pseudo-code is not necessarily the same as what would be written in actual code, but it will be elegant, clear, and concise.
+
+Use a pseudocode Serve as a blueprint for the programmers. There is no expectation that you will follow the same conventions as real code. If there is some other way that is more natural for a particular language, then use it. These pseudocode samples are not a requirement, but are helpful for learning the basic structure of the problems involved.
+
+For the most part, you should refrain from using any complex functions unless they are critical to the solution of the problem. Instead, focus on the basic structure of the program.
+
+Sample Solution
+
+In this example, we are given a simple flowchart that solves the problem..parse(1, 2, 3). Here we are given three numbers: 1, 2, and 3. We want to see if the numbers are the same, and if they are, we want to return a boolean value indicating the end.
+
+The Solution
+
+function solve(num1, num2, num3) 
+  if (num1 = num2) 
+    if (num3 = num2) 
+      return true
+      return false
+
+If we input 1, 2, 3, here is the pseudo-code:
+
+function solve(num1, num2, num3) 
+  if (num1 = num2) 
+    if (num3 = num2) 
+      return true
+      return false
+
+  if (num1 = num3) 
+    return true
+    return false
+
+  return false
+
+This solution is natural in the following languages:
+
+  • Ruby
+  • Python
+  • Perl
+  • C/C++
+  • JavaScript
+
+This solution is not natural in the following languages:
+
+  • Java
+  • Go
+  • Scala
+  • PHP
+  • Rust
+
+If your solution is natural in several different languages, that is very good. You can use a mix of natural languages, or you can use a language like Ruby, Python, Perl, and JavaScript.
+
+This solution is almost always wrong in the following languages:
+
+  • Java
+  • Go
+  • Scala
+  • PHP
+  • Rust
+
+
+  1. Translate the functional tests provided to pseudo-code.
+  2. Return 5 from the function solves(1, 2, 3).
+  3. Return 10 from the function solves(1, 2, 3), but return zero from the function solves(2, 1, 3).
+  4. Return 11 from the function solves(1, 2, 3), but return three from the function solves(3, 1, 2).
+  5. Return 12 from the function solves(1, 2, 3), but return zero from the function solves(2, 3, 1).
+
+If you have adequate knowledge of the problem, and your solution is natural in several different languages, then you can use the pseudocode to create the function in those languages.
+
+Learn More

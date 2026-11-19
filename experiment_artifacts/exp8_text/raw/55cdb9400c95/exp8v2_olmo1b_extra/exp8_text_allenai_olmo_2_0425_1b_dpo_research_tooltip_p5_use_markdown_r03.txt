@@ -1,0 +1,7 @@
+*Export query results:*
+
+1. Right-click on the query tab.
+2. Choose `Copy` from the context menu.
+3. Paste the copied text into a spreadsheet program or use a tool like **Tableau Public** or **Power BI** to export the data.
+4. Customize the export settings (e.g., format, export location) as needed.
+5. Review the exported data to ensure it matches your expectations.

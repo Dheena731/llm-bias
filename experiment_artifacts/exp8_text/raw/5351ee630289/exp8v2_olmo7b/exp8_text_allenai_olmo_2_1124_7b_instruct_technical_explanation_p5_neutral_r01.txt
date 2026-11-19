@@ -1,0 +1,5 @@
+An API rate limit is a restriction placed by a service on how frequently a client can request data from their API. This limit is typically designed to prevent abuse and overloading of the service, ensuring fair usage and maintaining the stability and performance of the API. The rate limit might be specified as a fixed number of requests per hour, day, or it might be tiered, offering more requests for premium accounts.
+
+When a client exceeds the allowed rate, they may receive a response indicating that they have hit the limit, such as a 429 HTTP status code ("Too Many Requests"). Adhering to the rate limit policy is crucial for developers to ensure their applications can smoothly integrate with the API without getting temporarily blocked or disrupted.
+
+API providers calculate rate limits based on expected usage patterns, the capacity of their infrastructure, and the potential impact of high loads on their service. Some APIs allow users to increase their rate limit by becoming a paid subscriber, providing more access for a fee.

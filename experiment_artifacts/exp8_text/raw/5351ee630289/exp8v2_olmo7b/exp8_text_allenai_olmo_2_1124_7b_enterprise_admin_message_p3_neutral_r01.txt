@@ -1,0 +1,59 @@
+Run a batch file that installs some software.
+
+Right, I think we've got enough for now.
+
+To sum up this part, we've now got both a server and a client that we can use to send messages to each other.
+
+Part 3: Message encryption
+
+Now on to encryption. I want to encrypt the messages so that even though we've got a secure connection, the messages themselves are still safe. There are a few ways to do this, but the one that I'm going to use here is to use a key to encrypt the message.
+
+If we just used the pre-shared key to encrypt the message, then we'd be in trouble if someone intercepted the message while it was in transit. They'd just work out what the pre-shared key was, and they'd be able to decrypt it.
+
+So what we're going to do is a two step process. The first part is to create a symmetric key that only we know, and use that to encrypt the message. Then we'll encrypt the symmetric key with the pre-shared key.
+
+Why do we want to do this? Well, if someone intercepts the message, they can't decrypt it without knowing our symmetric key. If they knew our symmetric key, then they'd be able to decrypt it, but because they only have the encrypted symmetric key, they can't decrypt that.
+
+To do this, we need to use an encryption algorithm that is available in both the .NET framework and OpenSSL. We're going to use AES to encrypt the message, and RSA to encrypt the symmetric key.
+
+Okay, so the next thing that we'll do is add two functions to the client to do this for us. The first one is to encrypt a string with AES, and the second one is to encrypt a string with RSA.
+
+Let's start with the first one, because that's the easier one. We're going to use the AESClass that was created in the previous part. We need to create a couple of variables first.
+
+First, we need an RSA object that we can use to encrypt the symmetric key.
+
+Next, we need a Byte array to hold the symmetric key itself.
+
+Then, we need a Byte array to hold the encrypted symmetric key.
+
+Then, we need an AES object to encrypt the message.
+
+So that's everything that we need to encrypt a string. Now we'll just run through them all and do what needs to be done.
+
+First, we'll initialize the RSA object.
+
+Next, we'll initialize the AES object.
+
+Then we'll initialize the Byte array that we'll use to hold the symmetric key.
+
+Now we'll encrypt the symmetric key with the RSA object. Note that we didn't use the pre-shared key at all here - we'll use that in a moment.
+
+Now we'll encrypt the message with the AES object.
+
+Now we've got our fully encrypted message, we need to encrypt the symmetric key. We'll do this using the pre-shared key that we set up earlier.
+
+We'll initialize the RSA object again, so we can use it with the pre-shared key.
+
+Then we'll initialize the Byte array that we'll use to hold the encrypted symmetric key.
+
+Then we encrypt the symmetric key with the RSA object.
+
+Now we've got the encrypted symmetric key, we can send it to the server, along with the encrypted message.
+
+Now all we need to do is add a new function call to the message sending function, and we're done.
+
+Now, how do we decrypt this when we receive it? Well, that's really simple. We can just use the RSA object, and encrypt the symmetric key with the pre-shared key.
+
+Then we can decrypt the message by using the AES object and the previously encrypted symmetric key.
+
+Now, this is all well and good, but there's a few problems. Firstly, we can't

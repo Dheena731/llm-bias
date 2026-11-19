@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Study 3 (7B, 4-bit): OLMo 2 checkpoints by training stage. Neutral rates (\%) and median words; then change in markup versus neutral (percentage points, exact family sign-flip $p$, Holm-adjusted within the table) for the plain-prose instruction, the bare no-Markdown instruction. The base checkpoint is excluded from these contrasts because it continues the prompt rather than completing a task.}
+\label{tab:v2-stages_7b}
+\begin{tabular}{lrrrrrr}
+\toprule
+Stage & Markup & Lists & Emoji & Words & Plain & No-MD \\
+\midrule
+Base & 1.7 & 21.7 & 0.0 & 236 & -- & -- \\
+SFT & 1.7 & 16.7 & 1.7 & 68 & +0.0 (1.000) & +16.7 (0.250) \\
+DPO & 58.3 & 60.0 & 10.0 & 219 & -38.3 (0.020) & -23.3 (0.135) \\
+Instruct (RLVR) & 53.3 & 48.3 & 8.3 & 176 & -40.0 (0.012) & -20.0 (0.094) \\
+\bottomrule
+\end{tabular}
+\end{table}

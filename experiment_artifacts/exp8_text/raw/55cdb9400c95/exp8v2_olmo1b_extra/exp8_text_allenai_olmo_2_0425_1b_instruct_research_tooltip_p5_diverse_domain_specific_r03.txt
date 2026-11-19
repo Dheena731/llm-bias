@@ -1,0 +1,11 @@
+If you need to export query results, follow these steps:
+
+1. **Open the Query Results:** Ensure you're viewing the project's query results in a data viewer or dashboard.
+   
+2. **Right-Click on Results:** Select the desired result (e.g., a table, a specific row in a table).
+   
+3. **Choose 'Export...':** A drop-down menu will appear with options like export to Excel, CSV, or PDF. 
+   
+4. **Select and Configure:** Choose the format you need (Excel, CSV, etc.), then make any additional adjustments like source file locations or export settings as needed.
+   
+5. **Finish the Export:** Click 'Export' to download your data in the chosen format. Confirm your export choices and click 'OK' or 'Save' to complete the process.

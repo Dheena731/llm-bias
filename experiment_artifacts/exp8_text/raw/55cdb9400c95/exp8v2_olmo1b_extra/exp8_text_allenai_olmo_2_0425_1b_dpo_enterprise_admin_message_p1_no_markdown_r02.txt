@@ -1,0 +1,13 @@
+Attention all admin users,
+
+From: [Admin Name]
+To: <PRESIDIO_ANONYMIZED_EMAIL_ADDRESS>
+
+We are scheduling a maintenance window beginning at [Start Time] to update and optimize our dashboard features. Due to this schedule we recommend that no important data operations be conducted during this time.
+
+Please ensure all changes have been reviewed and approved before the window begins to prevent disruptions to your work flow.
+
+Thank you for your cooperation.
+
+Best regards,
+[Admin Name]

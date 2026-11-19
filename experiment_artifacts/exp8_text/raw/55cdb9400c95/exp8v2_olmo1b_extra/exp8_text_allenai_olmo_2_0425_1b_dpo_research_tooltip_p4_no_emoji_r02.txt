@@ -1,0 +1,1 @@
+A missing-value marker, often seen as an 'X' or a placeholder like #, indicates that the corresponding data point in a dataset is unknown or not provided. This is useful for highlighting areas where additional information or data is needed to complete the analysis or understanding of the data set.

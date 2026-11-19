@@ -1,0 +1,16 @@
+The [missing-value] and [not-a-number] markers for a range of numbers are very similar, but they are not the same. The only difference is that the missing-value marker is coloured red and the not-a-number marker is coloured blue.
+
+The not-a-number marker
+
+This marker is used when you have a range of numbers and you want to say that some of the numbers are not numbers at all. For example, you might be designing a list of animals and want some to be neither fish nor fowl; rather, you want them to be a bird. A similar example could be that a list of musical notes doesn't contain numbers, and so the [not-a-number] marker is used.
+
+The missing-value marker
+
+This marker is used when you have a range of numbers and you want to say that some of the numbers are missing data. This marker can also be used in a table, in which case it implies that all the other values in the table are missing. For example, let's say that we are doing a survey of the city of New York, asking people whether they live in Manhattan, the Bronx, or some other place. Some people might not provide an answer, so we might use a missing-value marker to say that. This marker can also be used if you need to represent numbers that are not integers, such as 16.0, 0.9998, or 0.25. For example, a bank balance might be 0.25, and the bank might have a policy toward dealing with 0.25 as missing data.
+
+In mathematics, numbers that have no value or that cannot be represented should be marked using the missing-value marker. In other areas of mathematics, it is normal to use other, more general, notations to represent missing data. In many cases, this can be done by using the [not-a-number] marker. However, there are cases where the [not-a-number] marker is considered too informal for mathematics, and so the [missing-value] marker is preferred.
+
+Bourne Shell Programming Guide
+Copyright © 1999-2015
+The New York Institute of Technology
+All Rights Reserved.

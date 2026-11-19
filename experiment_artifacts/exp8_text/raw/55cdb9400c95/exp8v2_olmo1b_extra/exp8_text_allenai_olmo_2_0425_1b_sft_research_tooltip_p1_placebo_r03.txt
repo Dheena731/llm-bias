@@ -1,0 +1,1 @@
+A dataset filter in a research tool allows users to control the data they can view, interact with, or analyze. With this ability, researchers can focus on specific subsets of data or narrow down their findings to only relevant sources, enhancing their understanding and analysis.

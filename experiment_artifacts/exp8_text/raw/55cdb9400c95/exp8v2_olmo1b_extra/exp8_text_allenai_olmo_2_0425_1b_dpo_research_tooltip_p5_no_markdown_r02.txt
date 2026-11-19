@@ -1,0 +1,1 @@
+To export query results, right-click on the query area and select "Export Results..." from the context menu. This will open a pop-up window where you can download your query results as a CSV file.

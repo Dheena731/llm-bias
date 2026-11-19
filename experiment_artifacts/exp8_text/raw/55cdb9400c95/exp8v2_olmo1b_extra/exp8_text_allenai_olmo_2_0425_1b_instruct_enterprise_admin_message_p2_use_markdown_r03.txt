@@ -1,0 +1,18 @@
+**New Expense Approval Workflow**
+
+*Welcome to the new expense approval workflow update.*
+
+*This update streamlines the approval process by introducing a centralized approval dashboard.*
+
+*Key Changes:
+  * Single Sign-On (SSO) integration for seamless authentication.*
+  * Automated alerts for approval requests within predefined timelines.*
+  * Enhanced audit trail for tracking and reviewing approvals.*
+
+*Instructions:
+  * Log in to the admin dashboard to access the new workflow.*
+  * Customize approval thresholds and priority levels if needed.*
+  * Review and approve expense requests directly from the dashboard.*
+  * Report any issues or suggest improvements to the team.*
+
+*For more details, visit our [support page](https://support cursofoffice.com/support/solutions/r/xxxxx/).*

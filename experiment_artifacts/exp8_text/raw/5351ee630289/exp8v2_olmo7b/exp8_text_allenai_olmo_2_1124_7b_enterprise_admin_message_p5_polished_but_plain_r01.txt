@@ -1,0 +1,50 @@
+Some possible messages:
+
+The migration team will be migrating all email addresses from oldhost to newhost from tonight at 9:00 PM until tomorrow morning.
+We're going to migrate all email addresses from oldhost to newhost starting tonight at 9:00 PM. We'll be done by tomorrow morning.
+Starting Friday, on-site users' email addresses will be migrated from oldhost to newhost.
+On Friday, all on-site users' email addresses will be migrated from oldhost to newhost. We'll send out more details soon.
+All email addresses on oldhost will be migrated to newhost, starting on Friday. You'll be notified when it's complete.
+There will be a two-week trial migration of all email addresses from oldhost to newhost starting on Friday. You'll be notified when it's complete.
+
+Since keeping the migration plan secret would make the migration easier to implement without notice, it's likely that the message will be sent out early. If you don't want to participate in this migration — or if you want to participate, but don't want to receive the message — you can opt out by sending the following reply to that first email:
+
+No, thank you.
+
+If you reply to one of the initial preparatory emails with the above message, you will not be migrated to the new host.
+
+
+If the migration is successful, your email directory will automatically be updated to include a new domain alias which points at the same inbox as your old domain alias. If it's unsuccessful, your email directory will not be updated and you will see no change. In either case, you will automatically continue to receive all email to your old address which was sent to the old host. This is the same behavior as if the migration had never happened.
+
+If you have any questions about this migration or need more information, you can contact the G0 team at any time by sending an email to
+
+
+If you have any questions or concerns about this migration, please reply to this email.
+
+The migration team will be migrating all email addresses from oldhost to newhost from tonight at 9:00PM until tomorrow morning.
+
+If, for whatever reason, you do not want to be migrated to newhost, you can opt out of the migration by replying to this email with "No, thank you" in the body of the message.
+
+[Optional instructions for opting out]
+
+Some new addresses will be automatically created, and you will receive email to these addresses. You will also automatically receive email to your old host addresses.
+
+[Optional instructions on how to change your to-address]
+
+Not migrating email addresses to newhost could result in the loss of email sent to that address. Therefore, please think carefully before opting out of the migration if you use that address to read email.
+
+This migration is part of a project to consolidate the G0 server and email infrastructure. For more information and a history of G0's email migrations, please read /server/email.
+
+
+This is the first mass migration of email addresses since G0's infrastructure upgrade in 2009. Previous migrations included either no mass migration (due to a lack of old address data) or all addresses from the old mail server being migrated to the new one (due to a lack of new address data). You can read more about the history of G0's email migrations in /server/email.
+
+You can also email the migration team with any questions or concerns; the migration email has been auto-generated and will include the migration team's email addresses. You can also contact the migration team via the G0 helpdesk: help at
+
+Thank you for your patience and understanding as this migration is carried out.
+
+""" mailinglist
+
+To: mailinglist
+Subject: Migrating all mailinglist members to subscriberid
+
+We're migrating all members of the mailinglist list to the subscriberid

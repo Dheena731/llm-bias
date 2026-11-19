@@ -1,0 +1,17 @@
+**Phishing Emails: A Work Hazard**
+
+- **What are phishing emails?**
+  - Phishing emails are deceptive messages designed to trick you into revealing sensitive information, such as login credentials or financial details.
+
+- **Identifying phishing attempts**
+  - Look out for suspicious emails with poor grammar, urgent requests, and links with unusual domain names.
+  - Emails requesting immediate action (e.g., click here to resolve issues) are often phishing attempts.
+
+- **Prevention tips**
+  - Never click on suspicious links or provide sensitive information in response to unverified emails.
+  - Keep your software updated to protect against known vulnerabilities.
+  - Report phishing attempts to your IT department or HR.
+
+---
+
+*Note:* Remember, safeguarding your personal information is paramount in the digital workplace. If you suspect a phishing attempt, report it immediately to maintain a secure environment for all.

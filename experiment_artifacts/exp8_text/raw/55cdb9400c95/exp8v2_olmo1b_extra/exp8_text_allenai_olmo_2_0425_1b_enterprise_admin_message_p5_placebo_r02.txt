@@ -1,0 +1,22 @@
+We’re looking forward to welcoming you to our new server. Thanks for the years of support you have given us, and we hope that choosing to work with us was the right decision. Take care of all your mail, make sure everything goes smoothly and enjoy the new server.
+
+The full list of the emails
+
+The full list of the emails is publicly available. If you are involved in a project that uses our server, you can find the list of mailboxes. You will find a list of all the machines that use the server, and their email addresses, on the machine page. You can also find the list on the server application page.
+
+The list of the emails is available in several formats. The most common one is a CSV file. If you have a CSV file in the format of Google’s spreadsheet, you can upload it to Google servers and export the list of your mailboxes to a CSV file. You can also use a list server, like /^mails/.
+
+What’s next
+
+If you are seeing the error, it means that our server isn’t able to find or identify your domain. This is usually because you are not using the correct domain. If you are sure that the domain is correct, you can check whether your mail is marked as spam by checking your spam folder at the end of each day. If you find messages that you didn’t send, try to find if you are listed negatively, that could be the case.
+
+For security reasons, you should check whether your domain is blacklisted. If it is, our server will signal it to you and recommend you to get in touch with the administrator of the mail server.
+
+If none of this helps, you should consider contacting us. Our team will be happy to help you.
+
+Thank you for using our service
+
+
+Was this article helpful?
+
+Related Articles

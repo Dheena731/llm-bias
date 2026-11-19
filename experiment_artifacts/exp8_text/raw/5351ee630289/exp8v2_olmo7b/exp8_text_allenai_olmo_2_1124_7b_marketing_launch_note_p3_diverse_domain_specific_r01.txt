@@ -1,0 +1,19 @@
+Results of discussions on the evaluation tasks are summarized in Table 1. In particular, the implementations of the BiDAF (specifically, the BiDAF‐BERT 12B) model for paragraph-level text classification consistently ranked first for all the datasets, with the exception of the 1.2 tasks where the best results are achieved by the FLAIR model. One of the crucial points is that the BiDAF model is better at exploiting the contextual information of text and thus is able to learn more from the heading with respect to the target class. Finally, in terms of the 3-class task, the best results are achieved by BERT 12 and the second-best ones by Flair. The Multi-BERT model achieves the best results on 7-class classification tasks, followed by BERT 12, BERT 12B, BERT XLM, and Flair models.
+
+The best results are achieved by BERT 12 and the second-best ones by Flair. The Multi-BERT model achieves the best results on 7-class classification tasks, followed by BERT 12, BERT 12B, BERT XLM, and Flair models.
+
+Results for the 8-class classification tasks are shown in Table 2. The best results are achieved by BERT 12, followed by BERT 12B, BERT XLM, BiDAF, and Flair models. Specifically, for the 13-class classification tasks, the best results are achieved by BERT 12B, followed by Flair, BERT 12, BiDAF, and BERT XLM models. One of the most impressive findings is that the BiDAF model is able to achieve high results on all of the tasks, with the exception of 3-class and 2-class classification tasks.
+
+The most impressive finding is that the BiDAF model is able to achieve high results on all of the tasks, with the exception of 3-class and 2-class classification tasks.
+
+To further evaluate the models on the 1.2, 1.5, and 1.7 tasks, we also include the results obtained by the BERT models and the Multi-BERT model. The best results are achieved by BERT 12, followed by BERT 12B, BERT XLM, BERT, and Flair models. The Multi-BERT model achieves the best results on all of the tasks, followed by the BERT models and the FLAIR models, with the exception of 3-class and 2-class classification tasks. Finally, for the 7-class classification tasks, the best results are achieved by BERT 12B, followed by BERT 12, BERT XLM, BERT, and BiDAF models. The Multi-BERT model achieves the best results on all of the tasks, followed by the BERT-XLM and BERT models, with the exception of 3-class and 2-class classification tasks.
+
+We have also performed the experiments on the 8-class classification tasks. The results are shown in Table 3. The best results are achieved by BERT 12, followed by FLAIR, BERT 12B, BERT 12, BERT XLM, and BERT models. The Multi-BERT model achieves the best results on all of the tasks, followed by the FLAIR models, except for 3-class and 2-class classification tasks.
+
+Table 3: Results for the 8-class classification tasks
+
+The most impressive finding is that the FLAIR model is able to achieve high results on all of the tasks, with the exception of 2-class classification tasks.
+
+Table 4: Results for the 9-class classification tasks
+
+The best results are achieved by the FLAIR model,

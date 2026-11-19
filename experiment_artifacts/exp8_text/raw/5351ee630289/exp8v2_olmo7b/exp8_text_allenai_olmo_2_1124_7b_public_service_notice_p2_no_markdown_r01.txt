@@ -1,0 +1,95 @@
+Numbers should be written like 1029.
+
+  • Highways, interstate routes, and major arterial streets should not be abbreviated (e.g., US 101 should be used instead of US 1).
+
+ 't[]' is a list of abbreviations for street names (e.g., 'Ave' for Avenue, 'Dr' for Drive):
+
+  • Street names can have abbreviations.
+
+'t[]' is a list of state name abbreviations (e.g., CA for California).
+
+
+  • Place names cannot have spaces.
+
+'t[]' is a list of abbreviations for US state names (e.g., CA for California).
+
+t['MN'] = 'MN' # Abbreviations for U.S. states
+
+Date Format
+
+Date formats follow the ISO standard.
+
+Examples of acceptable date formats:
+
+  • 2019-12-31
+  • 2019-12-31T15:00:00+00:00
+  • 2019-12-31T15:00:00-08:00
+
+  • 2019-12-31T15:00:00-07:00
+  • 2019-12-31T15:00:00-06:00
+
+Date formats listed above are acceptable for both input and output.
+
+  • YYYY-MM-DD
+
+  • YYYY-MM-DDTHH-MM-SS
+
+  • YYYY-MM-DDTHH:MM:SS
+
+  • YYY-MM-DD
+
+  • YY-MM-DD
+
+  • YY-MM-DDTHH:MM:SS
+
+  • YY-MM-DDTHH:MM:SS
+
+  • YY-MM-DDTHH:MM:SS
+
+  • YY-MM-DD
+
+  • YY-MM-DD
+
+  • HH:MM
+
+  • HH:MM
+
+  • HH:MM
+
+  • HH:MM
+
+  • MM
+
+  • MM
+
+  • MM
+
+  • MM
+
+  • MM
+
+The first 3 date formats use the T time zone indicator.
+
+The 4th date format uses the T time zone indicator.
+
+The 5th date format uses the T time zone indicator.
+
+The last 5 date formats use the : time zone indicator.
+
+Input/Output Format
+
+Input and output are in JSON format.
+
+There is no need to handle input or output in a specific language.
+
+Input will always be in array format:
+
+  • Input will always be a list of dictionaries in array format.
+  • Input will always be formatted as a list of dictionaries.
+  • Input will always be formatted as a list of dictionaries.
+  • Input will always be formatted as a list of dictionaries.
+  • Input will always be formatted as a list of lists of dictionaries.
+
+Input will always be formatted as a list of dictionaries.
+
+Output will always be in JSON format.

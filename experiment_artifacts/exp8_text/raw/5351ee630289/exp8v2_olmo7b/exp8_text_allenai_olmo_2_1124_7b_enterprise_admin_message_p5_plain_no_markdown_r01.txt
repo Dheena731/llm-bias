@@ -1,0 +1,16 @@
+A newline character is a way to introduce a new paragraph in an email. When you press RETURN you’ll end up with a paragraph break in your email. This is how you create a new paragraph in an email.
+
+Here’s an example:
+
+That’s all for now! We’ll be in touch soon.
+
+If you have any questions, please reach out at hello@do.com.
+
+Thanks again!
+
+- The Do Team
+
+
+The goal of this exercise is to make sure that you've understood the difference between writing plaintext or HTML and that you've got the skills to write a simple email using the plaintext format. You'll write an email about your experience with plaintext vs HTML while writing email.
+
+We recommend that you save a copy of your plaintext email file locally before you submit. You're welcome to write your email in your favourite text editor, or you can use the email templates provided by EmailOnDeck.

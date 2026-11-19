@@ -1,0 +1,3 @@
+Make sure the at-sign is at the beginning or the end of the text otherwise it might get filtered.
+
+Put the text in all lower case, if there are any meaningful words that are all lower case, then you can make it all caps too.

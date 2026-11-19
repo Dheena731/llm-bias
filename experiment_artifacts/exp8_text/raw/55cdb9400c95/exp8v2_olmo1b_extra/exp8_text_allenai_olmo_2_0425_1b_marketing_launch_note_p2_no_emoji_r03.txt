@@ -1,0 +1,5 @@
+In this task, you are given a sentence and a profession. The sentence mentions two professions: one's gender is identifiable using the gendered names (e.g., Female, Male) and the other's gender is unidentifiable. You are expected to return whether the given profession's gender is identifiable or unidentifiable.
+
+Sentence: The mover broke a vase and the mover's assistant paid for the repair.
+ Profession: mover
+Identifiable

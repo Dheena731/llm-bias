@@ -1,0 +1,7 @@
+**Important Change to [VPN Client Name]**
+
+* **Version Update:** Starting from [release date], our [VPN Client Name] will now require a username and password for initial connection. This change ensures better security and user control.*
+* **Compatibility:** Please ensure your system and drivers are updated to the latest version to avoid compatibility issues.**
+* **Support:** For assistance, visit our support page: [VPN Support Portal](https://support.example.com)
+
+**Thank you for your continued use of [VPN Client Name]!**

@@ -1,0 +1,1 @@
+A missing-value marker (often symbolized as a question mark) in statistical data indicates that there is an absence of a value for a specific field within the dataset. It's a placeholder for unspecified or unknown data points.

@@ -1,0 +1,9 @@
+When a website is cached, it means that the browser keeps a copy of part or all of the website's files on the user's device. This storage replaces the need to fetch and download these files from the internet every time the page is visited. Here are a few reasons how caching significantly speeds up a website:
+
+1. **Reduces Latency:** The next time a user visits a page that has been cached, the browser immediately looks in its local cache for the requested files instead of downloading them again from the internet, which can take much longer especially for pages with large files or those that change infrequently.
+
+2. **Guarantees Consistent Content:** Caching ensures that if the same content (like an image or an entire page) is requested again shortly after it has been initially loaded, the browser can quickly fetch it from the cache rather than having to retrieve it from the internet, which significantly speeds up loading times.
+
+3. **Minimizes Server Requests:** By caching, a server only needs to send the necessary updated files when the cache expires or when a user requests a significant change in the page content. Otherwise, the browser already has the version of the page cached, making further server requests unnecessary.
+
+Putting it all together, caching is like having a digital copybook of the website content that's stored on the user's device. When the next request comes for a page the user has visited before, the browser can check the cache quickly rather than waiting for the original file to be downloaded from the internet, thereby speeding up the website experience.

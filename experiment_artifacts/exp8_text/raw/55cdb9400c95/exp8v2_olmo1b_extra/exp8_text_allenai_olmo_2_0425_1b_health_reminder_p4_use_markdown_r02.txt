@@ -1,0 +1,32 @@
+Example output: <output>
+
+Example input:
+
+Title: This is a title for your project. It should be short.
+
+Heading: This is a heading. It should be under the title. Bullet points are great for breaking up text!
+
+  • One idea per bullet point.
+  • When listing more than one idea, use separate lines.
+  • Use an ellipsis (...) to show a continuation of a list (e.g. "Then I...").
+  • Feel free to include links to your work!
+
+Example output:
+
+This is a title for your project. It should be short.
+
+Heading: This is a heading. It should be under the title. Bullet points are great for breaking up text!
+
+  1. One idea per bullet point.
+  2. When listing more than one idea, use separate lines.
+  3. Use an ellipsis (...) to show a continuation of a list (e.g. "Then I...").
+
+
+This is a title for your project. It should be short.
+
+Heading: This is a heading. It should be under the title. Bullet points are great for breaking up text!
+
+  1. One idea per bullet point.
+  2. When listing more than one idea, use separate lines.
+  3. Use an ellipsis (...) to show a continuation of a list (e.g. "Then I...").
+  4. Feel free to include links to your work!

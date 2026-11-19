@@ -1,0 +1,28 @@
+## Production Release
+
+This seems to be something we were missing in the articles.
+
+The code is here: https://github.com/tiger1/brainstorm/tree/master/examples/goldrard%20&%20goldrath
+
+The database is here: https://gist.github.com/adelvo/6b84b039a1e378003a913c4433e57c84
+
+The typescript code you can find here: https://github.com/tiger1/brainstorm/blob/master/examples/goldrard%20&%20goldrath/src/goldrath.ts
+The typescript code you can find here: https://www.npmjs.com/package/brainstorm
+
+This is pretty much everything we need to get started! I think the idea of having a small tutorial on how to use this stuff is a good idea, so I will try and write one in the upcoming days! 
+
+### The Problem
+
+We need to get a production ready version of the project, that works on different machines with different configurations. Also we need to make sure that the project is very easy to use for the first time. The following are the steps we need to take to get the project ready for production 1. Write a CloudFormation template to remove the extra wsdl files 2. Create a Docker image version that we can run on AWS 3. Write some documentation on how to use the project. 4. Find some more developers to help us with the production stuff. 
+
+### The Solution
+
+1. Remove any extra wsdl files by using the CloudFormation template. 2. Create a Docker image that has the code that we need. 3. Write some documentation to explain how to use the project. 4. Find some more developers to help us with the production stuff. Now that you have a basic understanding of the project, you might be interested to know how to actually use it. Here are some common tasks that you can try out. 1. Send messages between different people in this project. 2. Create a mashup of different pieces of information in Brainstorm. 3. Write a simple brainstorm project in your own language. 4. Write a Brainstorm client in your language of choice. 
+
+### A quick start
+
+Let's quickly get started and create your first simple Brainstorm project. 1. Start a new project in Brainstorm. 2. Choose `New` under `New project` 3. Choose any of the templates. 4. In the `Create project` objective, choose the `CloudFormation` template. 5. The CloudFormation template that you just created is actually going to create a CloudFormation template that will get our brains running! 6. Choose `Edit` 7. Try to change the title of the project. 8. You can also change the name of the default package and the name of your repository. 9. Enable the instance. 10. Create a database. 11. Name the database and make sure `root` is your default user for the database. 12. Again, try to change the name of the database, the default user and the database name. 13. Click `Start` 14. Click on the `View Code` tab. 15. Copy the code and paste it in your editor. 
+
+### Creating a new project
+
+1. Start a new project in Brainstorm 2. Choose `New` under `New project` 3. Choose any of the templates. 4. In the `Create project` objective, choose the `CloudFormation` template. 5. The CloudFormation template that you just created is going to create a CloudFormation template that will get our brains running! 6.

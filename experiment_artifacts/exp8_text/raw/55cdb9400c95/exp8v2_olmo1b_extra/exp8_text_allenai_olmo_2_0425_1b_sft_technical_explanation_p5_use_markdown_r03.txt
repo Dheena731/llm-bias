@@ -1,0 +1,8 @@
+# API Rate Limiting
+
+- API rate limiting is the process of managing rate of access to APIs or services to ensure fair and efficient use.
+- It controls the number of requests an application can make within a certain time frame.
+- The purpose is to prevent abuse and prevent API service from being overwhelmed.
+- Rate limits may vary based on factors such as IP address, user experience, or usage duration.
+- Some APIs may have rate limits to prevent abuse or to encourage long-term usage.
+- API rate limiting can be implemented through server-side configurations or via client-side optimizations.

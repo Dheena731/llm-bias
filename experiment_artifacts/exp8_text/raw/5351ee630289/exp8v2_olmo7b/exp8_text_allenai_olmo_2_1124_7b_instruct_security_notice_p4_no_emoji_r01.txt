@@ -1,0 +1,25 @@
+Subject: Enabling Two-Factor Authentication
+
+Dear Valued Users,
+
+We would like to inform you that we have introduced an enhanced security feature to safeguard your accounts: Two-Factor Authentication (2FA). This additional layer of security requires an extra step during the login process, ensuring that only you have access to your account.
+
+To enable 2FA, please follow these steps:
+
+1. Sign in to your account using your current login credentials.
+2. Navigate to the 'Settings' or 'Account' section.
+3. Look for the 'Two-Factor Authentication' or 'Security' option and select 'Enable.'
+4. Choose the second factor method that suits you best, such as SMS or authenticator app.
+5. Verify the code sent to your selected method to complete the setup.
+
+We strongly encourage you to activate 2FA to protect your account against unauthorized access. 
+
+For further instructions or any assistance, please visit our dedicated help page or contact our support team.
+
+Thank you for your cooperation and commitment to maintaining a secure online environment.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]

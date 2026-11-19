@@ -1,0 +1,107 @@
+For other details about what to write in the message, or to learn what sort
+of information the message will contain, do the "Help" step outlined below.
+
+This page discusses how to add a message.
+
+Only do this if you have agreed to it with the systems administrator and
+the user who needs this change.
+
+The message will be displayed to users when they install VPN software.
+
+This page describes adding a message to the instructions in the set up
+steps of the vpnclient package and its various subpackages.
+
+For general information about making changes to messages, see the
+Policies page.
+
+1. Check out the source:
+
+   git clone ssh://$host/vpnclient/templates
+
+2. Edit the template:
+
+   cd vpnclient/templates
+
+3. Commit the change:
+
+   git commit -a
+
+4. Push the change:
+
+   git push
+
+5. Send a message to the systemd-journald mailing list:
+   You must be subscribed to this list to submit a message
+
+     To: systemd-journald@lists.freedesktop.org
+
+     Subject: [PATCH 07] Message for VPN setup
+
+     Handle: /usr/share/vpnc/README
+
+     Change: A new line has been added to the README file and the
+             first paragraph has been changed.  See the diff
+             below for the details.
+
+     Summary: "A new line has been added to the README file, and
+             the first paragraph has been changed, as shown by
+             the diff below."
+
+     Attach: A diff file showing the change.
+
+     Note that you must have subscribed to this list in order to
+     submit a message to it.
+
+6. Wait for the machines to be rebuilt.
+
+Note that if you modify the message file, you _must_ make sure that
+you have checked out the very latest version of the HEAD branch
+before making changes to the message.  The reason for this is that
+the message file is generated from the template, and the template
+may change from time to time.  For example, if the template changes
+and you have already modified the message file, you will see an
+error from the VPN client setup program when you try to run it, and
+you won't have any idea what's wrong.  So, make sure that you have
+the latest template.
+
+The template is based on Markdown, and the various steps to setup a
+VPN client are listed in order using headings for each step.  In
+order to keep things simple, it's best to add your message to the
+first heading that you want to stay put when the VPN client
+installation is run again.
+
+This is the template:
+
+Title: Welcome to the VPN client setup
+
+This setup information is for "THE SYSTEM THAT I AM USING".  The
+instructions for setting up the VPN client will vary depending
+on the operating system and the VPN client you are using.
+
+Before doing any of the following, you must have a username and
+password for your VPN server.
+
+
+
+In order to set up your VPN client, you will need to have
+superuser (root) access to your system (if not, use "sudo" to
+assume root privileges).  You must also have the necessary
+permissions for your username and group.
+
+You may be asked for a password for superuser access at some
+point.  This password would have been determined when you installed
+your operating system.
+
+
+## UNIQUE INFORMATION GOES HERE (and now)
+
+This is where the new line would go!  It will be displayed to
+users installing the client.
+
+This is what the new line would look like in the template:
+
+This text will be displayed at the beginning of step 1.
+
+7. Send us a message to give us the unique information.
+
+We will work

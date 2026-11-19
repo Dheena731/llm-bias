@@ -1,0 +1,38 @@
+The opening statement should convince the reader to proceed to the data exploration section. It should also be concise and to the point. Avoid writing a long introductory paragraph. Don't provide any additional information than the title or abstract require. Readers will typically skim your title and abstract, and you don't want to invite them to do more work than necessary.
+
+Data exploration is a fundamental step in the scientific process. Before you can sort, look, or visualize your data, you need to explore and understand it. When you have some understanding of the data, you can prepare it for further processing or create plots to visualize your data. You should feel comfortable with exploring data in both code and with a spreadsheet and a tool like Excel or Google Sheets. If you need to refresh your skills in these areas, before you write this section, you should read our Data Exploration and Visualization in R tutorial, and our Data Exploration in Excel tutorial.
+
+The remaining sections of the section will explain how to complete these tasks. You should read each section well before beginning to write. If you come across a section that you aren't familiar with, or don't think you'll use, you can simply skip it. Note that, if the section provides a link to an outside source, you should review the source, especially a link to a PDF or other high resolution file, for accuracy.
+
+Data exploration in simple R
+
+The first task you should perform in R is to check that your dataset is in the right format. This is done with the RStudio console, and the commands are highly variable. For example, to display all columns in a dataframe as a string, you could run:
+
+cat(dataframe$Name, collapse=" ")
+
+To get a summary of the dataset:
+
+summary(dataframe) # or summary(dataframe ~ .)
+
+To inspect the first column of the dataset:
+
+head(dataframe) # or head(dataframe, n=1)
+
+To get a description of the missing columns:
+
+names(dataframe) # or names(dataframe, unique=TRUE)
+
+The above RStudio commands will typically work for any R script, and will provide insights into the dataset itself. It's worth exploring the dataset in this manner in order to get a sense of the dataset, and to develop a mental model of how it was used and collected. When you are feeling comfortable with a dataset, you should enter the dataset into RStudio, and explore and understand it using the same methods as demonstrated above. If you don't know much about the dataset, then you should skip the above steps. You will save yourself time and frustration later if you understand your dataset at the outset.
+
+Quick Tip
+
+
+It's important to save your R scripts. RStudio provides a good interface for saving and loading R scripts. Once you've saved your script, you can simply load it with:
+
+
+Once you've loaded the script, you can then execute the script on the fly:
+
+
+The output of your R script will appear in the RStudio console. If you have any errors in your script, you will receive an error message. Each first line of your script should begin with #, and all of your code should be indented by 4 spaces. The command name should be followed by a period (.), and each subsequent line should be indented by 4 spaces.
+
+Your working environment is not the same as the RStudio console. The RStudio console is accessible through the RStudio menu and is sometimes used to interact with R and RStudio. Your working environment, on the other hand, is controlled by RStudio. You can set up RStudio so that you can work both inside RStudio and out of RStudio. Then, you can use RStudio to execute your scripts

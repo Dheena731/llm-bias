@@ -1,0 +1,26 @@
+Example:
+
+<selector>
+  <date-range>
+    <text>
+      <title>May 24, 2020</title>
+      <subtitle>May 24, 2020</subtitle>
+    </text>
+    <date-name>May 24</date-name>
+    <date-fixed>2020-05-24T13:00:00Z</date-fixed>
+  </date-range>
+  <text>
+    <title>May 24, 2020</title>
+    <subtitle>May 24, 2020</subtitle>
+  </text>
+</selector>
+
+Then, as a demo, use a date-range selector on a form with the time-ago selector:
+
+<form action="/mapping" method="post">
+  <input type="text" disabled="disabled" placeholder="You can also use the time-ago selector" />
+  <input type="date-range" name="date-range" value="accessed" />
+  <input type="submit" value="Submit" />
+</form>
+
+...then you can use the date selector elsewhere, e.g. for a date range input in a separate form, to use the date range selector with the time-ago selector on the date range selector.

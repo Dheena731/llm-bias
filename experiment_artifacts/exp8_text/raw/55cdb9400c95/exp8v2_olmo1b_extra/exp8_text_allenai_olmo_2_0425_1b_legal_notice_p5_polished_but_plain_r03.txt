@@ -1,0 +1,17 @@
+Make the author’s name prominent. Do not use initials for the author, and include information such as name, city, and state. For example, write “Author’s full name, city, state.”
+
+Provide contact information. Provide the author’s email address and telephone number.
+
+Keep the copyright notice brief and unambiguous. Do not include symbols or phrases such as © Copyright 2020. The author’s name and time should be sufficient. The copyright symbol is not necessary if the article is published under another license.
+
+Language and formatting
+
+Write clearly. Read each sentence aloud to ensure that it is understandable, free of jargon, and easy to read. Ask a colleague to review the text for clarity.
+
+Use consistent language throughout the text. Do not switch from one typeface to another within a single sentence. Do not use contractions or slang.
+
+Do not use headings. Headers make the text more difficult to read and can clog the page with unnecessary formatting. Editors may change your headings to make them more readable.
+
+Format the text with standard HTML. Do not use proprietary formatting or symbols. For example, do not use the <b> and <i> tags to italicize or boldface text. Instead, use the <b> and <i> tags to enclose text for emphasis, which is better suited for paragraphs of text.
+
+Proofread. Read the text aloud to detect typos and unclear phrasing. Read it backwards to look for sentences that don’t make sense or for awkward phrasing. Read it to yourself in your head to detect unconscious bias and unconscious bias, such as gender bias. Line up the sentences and paragraphs to ensure that the text flows logically. Look also for extra spaces between words and punctuation.

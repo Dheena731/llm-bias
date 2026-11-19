@@ -1,0 +1,155 @@
+$ /etc/sudoers.txt
+  username ALL=(ALL) ALL
+  root ALL=(ALL) ALL
+
+Run visudo
+
+Press Enter
+
+Turn on the autocompletion feature (Ctrl + P)
+
+Press Enter
+
+Navigate to your home directory
+
+Press Enter
+
+Find your file
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Find the file and enter it
+
+Press Enter
+
+Edit the file
+
+Press Enter
+
+Save the file
+
+Press Enter
+
+Navigate to the sudoers file
+
+Press Ctrl + P
+
+Press Enter
+
+Find your file
+
+Press Enter
+
+Press your Enter
+
+Find the file and enter it
+
+Press Enter
+
+Save the file
+
+Press Enter
+
+Turn off the autocompletion feature
+
+Press Ctrl + P
+
+Press Enter
+
+Change the permissions on the file
+
+Press Enter
+
+Switch to the root user
+
+Press Ctrl + P
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Switch to the root user
+
+You can stop the execution of sudo by pressing Ctrl + C.
+
+Rebooting
+
+Press Ctrl + K
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter (it lets you choose between three options)
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter (it lets you choose between three options)
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter (it lets you choose between three options)
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter (it lets you choose between three options)
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter (it lets you choose between three options)
+
+Press Enter
+
+Press your Enter
+
+Press your Enter
+
+Press your Enter
+
+General notes
+
+As you can see, it's not a very complicated process. But making a mistake with the wrong password can lead to trouble.
+
+There are a few things to take into consideration:
+
+  • You probably want to set up a strong password for your sudoers file
+  • If you lose a file, you can change the permissions on that file, but you'll have to recreate the file
+  • The output from visudo may be long. So, you may want to limit the listing to only those lines you care about
+
+You can find the full man page for visudo at man visudo

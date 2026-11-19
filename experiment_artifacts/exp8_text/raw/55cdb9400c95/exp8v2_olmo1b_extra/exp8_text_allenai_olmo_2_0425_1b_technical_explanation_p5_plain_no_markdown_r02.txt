@@ -1,0 +1,20 @@
+Don't translate the page verbatim. Instead, paraphrase the information and explain it in your own words. The goal is to make the page accessible to non-native English speakers, not to cherrypick the few best sentences that preserve the most important ideas. For short explanations, consider also providing an alternative translation in the <source> tag.
+
+Format the paragraph according to the given pattern. In general, paragraphs should be no more than 200 characters, including the <p> tag, its closing </p> tag, the paragraph header, and the newline before the first new line.
+
+When writing a paragraph, follow these guidelines:
+  • Each paragraph should be a separate item in the bulleted or numbered list. This makes it easier for readers to quickly scan the page.
+  • Start each paragraph with a unique number or letter, or with a sentence that clearly sets the context for the paragraph. This helps readers understand where the paragraph fits in the overall context of the page.
+  • Indent the first word of each paragraph. If the paragraph contains more than one sentence, indent the first line of each sentence. If there are six or more sentences in a paragraph, use a bullet point or numbered list for clarity.
+  • Wrap paragraphs at 200 characters. The maximum length of a paragraph is 200 characters, including the <p> tag, its closing </p> tag, the paragraph header, and the newline before the first new line.
+  • Use periods, question marks, exclamation points, dashes, and other punctuation marks sparingly. Commas, colons, semicolons, and parentheses should be avoided in articles and headers. Quotation marks should be used sparingly to emphasize words or quoted sentences. If the idea in a sentence requires clarification, do not use quotation marks; write a sentence that explains the idea.
+  • Capitalize the first word of a sentence only when it is the subject of the sentence. Do not capitalize the word "the" when it is used as an adjective.
+  • Capitalize the month name "May" when referring to a specific month. Use other month names in lowercase.
+  • Capitalize the name of the country or area when referring to it in an article. Otherwise, lower-case the name.
+  • Lower-case the word "a" when it is the first word of a sentence. Spell out the words "an" and "the" when they appear in a sentence that is part of a longer phrase. If the word "a" appears in a title under the header titles, use capital letters.
+  • Use a capital letter at the beginning of a new sentence. Do not use lowercase for the first letter of a sentence if it can be inferred from the paragraph or header.
+  • Use a period after the name of a person when referring to him or her in an article. Use the name "Mr." or "Ms." when referring to an anonymous person.
+  • Use a period after the name of an organization when referring to it in a table or list.
+  • Lower-case the word "he" when referring to a person if the person does not qualify.
+  • Do not capitalize the word "one" when it is the first word of a sentence.
+  • Do not end a sentence with a preposition, such as in "from where are you?" Do not end a sentence with a conjunction, such as "and we can go now."

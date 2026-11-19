@@ -1,0 +1,51 @@
+Create a new MailChimp message to introduce a team member.
+
+  1. Write a short message that tells people who the new member is.
+
+  2. Choose "Design" and select "Fluid layout" as your template.
+
+  3. Your message shouldn't include any images; you can use the default image template instead.
+
+  4. Your message must include at least one link to external content.
+
+  5. You must include a poll at the bottom of the message.
+
+This message should be more casual than a "welcome to the team" email. Help them feel at home by sharing a funny or lighthearted story that happens in your organization.
+
+Create a new Google Document, and add the following text:
+
+  1. Create a 2-column table in the document. Place 4 rows and 6 columns in the table.
+
+  2. Your table should contain the following:
+
+    • The first column should be headers for the letters "A" through "D".
+
+    • The second column should be headers for the numbers "0" through "9".
+
+    • The third column should contain a numbered list of the first 10 prime numbers
+
+    • The fourth column should contain a numbered list of the first 10 even numbers
+
+    • The fifth column should contain a numbered list of the first 10 odd numbers
+
+    • The sixth column should contain a bulleted list of 5 animals
+
+    • The seventh column should contain a bulleted list of 5 countries
+
+Write a new Yahoo! Help Center article that will help new users understand the most common ways that they can search for content in the Help Center.
+
+  1. Your article should contain at least 1 header and 3 bulleted lists.
+
+  2. Your article should teach users how to search for content in the Help Center, including how to search by topic. You should also include an example search query for each topic type.
+
+  3. You should provide at least 1 example of a search query that will not work.
+
+  4. You article should also teach users how to search for content in other sections of the Help Center, such as articles, guides, and video tutorials. You should include at least 3 examples of search queries.
+
+  5. Once you have written your article, you will need to create the search query that it contains. You will need to log in with your Yahoo! account and search for the exact phrase or phrase that is in your article.
+
+This module contains an example Yahoo! Help Center article. You should modify this article to include your own search queries and content.
+
+Code Challenge
+
+Complete this challenge: Authenticating Users

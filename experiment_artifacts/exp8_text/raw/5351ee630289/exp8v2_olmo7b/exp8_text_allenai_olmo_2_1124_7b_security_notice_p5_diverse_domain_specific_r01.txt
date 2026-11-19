@@ -1,0 +1,89 @@
+Challenge 3: Stilted Style
+
+This challenge tests the model’s ability to recognize the style of language that is typically seen in professional writing. The task is to identify if the given statement is written in a style found in professional writing.
+
+A newspaper publishes
+Your latest article
+
+Challenge 4: Avoiding Unnecessary Language
+
+This challenge requires avoiding saying something that is unnecessary and redundant. The task is to identify if a given sentence is unnecessary.
+
+Your company generated a PDF report.
+The PDF report is a printed copy of your latest article.
+
+Challenge 4: Using Appropriate Language
+
+This challenge requires the model to use language appropriate for generating business emails. The task is to identify if a given sentence is suitable for a business email.
+
+You can reach me at this email address: xxxxxxxxxxxxxxxx@example.com.
+
+Challenge 5: Removing Non-Professional Language
+
+This challenge tests if the model is able to recognize if a given sentence is not appropriate for writing a business email.
+
+Please do not hesitate to contact me.
+
+Challenge 6: Editing a Draft
+
+This challenge tests the model’s ability to recognize if the sentence is appropriately worded for a business email.
+
+I have a question for you.
+
+Challenge 7: Distinguishing Personal Sentences from Professional Sentences
+
+This challenge tests the model’s ability to recognize the difference between a personal and professional sentence. The task is to identify if a given sentence is professional or personal.
+
+We can discuss this further.
+
+Challenge 8: Removing Unnecessary Language
+
+This challenge involves removing unnecessary language. The task is to identify and classify the given sentence as necessary or unnecessary.
+
+To ensure our restaurant is functioning efficiently, we need to establish a new business plan.
+
+Challenge 9: Replacing Non-Professional Language
+
+This challenge is to replace the non-professional language with professional language. The task is to determine if the sentence is professional or non-professional and generate the corresponding professional language.
+
+We have a quarterly meeting scheduled for March 3rd at 10:00am.
+
+Challenge 10: Fixing a Draft Sentence
+
+This challenge involves recognizing and correctly fixing non-professional language. The task is to identify and correct the non-professional language.
+
+We has a quarterly meeting scheduled for March 3rd at 10:00 am.
+
+Challenge 11: Paragraph Generation
+
+This challenge is to write a full paragraph based on the given title. The task is to produce a paragraph based on the title provided. The paragraph must be grammatically correct and appropriate for a business email and should not be repetitive.
+
+Paragraph Title: Informing Employees of Management Changes
+
+Challenge 12: Generating an Email Body
+
+This challenge is to generate an email body based on the subject provided. The task is to produce an email body based on the subject provided, which should not be repetitive, grammatically correct and appropriate for a business email.
+
+Subject: Feedback
+
+Frequently Asked Questions
+
+What is Happiest Minds?
+
+Happiest Minds provides AI-powered software, data and engineering services for enterprises to automate their end-to-end processes. It is a leading AI-powered B2B software provider in India and is headquartered in Bengaluru.
+
+What are its products and services?
+
+Happiest Minds sells a number of products and services such constructed mobile apps, dashboard apps, and its AI-powered engine.
+
+What is AI-powered writing?
+
+AI-powered writing is a form of technology that uses AI to write sentences and paragraphs. It is used by businesses to automatically generate content for their marketing and sales teams that can be used in different types of documents.
+
+Is AI-powered writing good for business?
+
+AI-powered writing can be used in different ways by businesses to generate marketing and sales content for their marketing and sales teams.
+
+Can AI-powered writing write everything?
+
+AI-powered writing cannot write every type of content that businesses may need to use

@@ -1,0 +1,7 @@
+Write in present tense. Say “change the location” instead of “change the location changed”. Say “access a resource” instead of “access the resource accessed”. Say “create an agent” instead of “create the agent created”.
+
+Avoid the word “will” when talking about the future instead use “should”.
+
+
+
+bg-ru bg, es, en, en-gb, en-us, es-gt, es-peru, fr, fr-gc, fr-ca, it, nl, ru

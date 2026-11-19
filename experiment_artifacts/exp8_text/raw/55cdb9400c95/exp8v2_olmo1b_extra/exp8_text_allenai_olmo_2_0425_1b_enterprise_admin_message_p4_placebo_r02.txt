@@ -1,0 +1,56 @@
+“I am updating the access permissions on our server. While we already have block access on the server, we will also be adding resource access to unprivileged users. This will be publicized in two weeks.”
+
+You may also wish to specify what happens to existing resources. For example:
+
+“Existing users still have access to the server. All data is being migrated to a new server. Resources will be blocked after this is completed.”
+
+The goal of the notice is to give the lead-time for potential changes so the change can be planned and coordinated. A common way to accomplish this is to decide what the new access rules will be and outline that in a longer notice, which can be queued for a longer timeframe.
+
+Entry point for business requirements
+
+The required information is what a company must commit to in order to make use of a security system. It is not necessarily written in a formal business process, but it needs to be carefully researched and written in a way that describes the intention of the company’s decision clearly.
+
+Write directly for your target audience. Keep it short, to the point, and simple. Talk about the problem at hand and how the system will solve the problem.
+
+“Your business goal is to reduce the number of threats to the parts of the business system. The current security system has allowed the parts to be compromised, but has not reduced the number of threats. Please commit to a new security strategy and we can start work on implementing it.”
+
+The information provided in a business requirement must be separate from the access review notice, as they are intended to describe the requirement to stakeholders and will not be seen by the security team. The business requirement will contain a full list of the requirements from the access review notice, listed in the order they were presented by the security manager.
+
+Notice to security team
+
+Security team members should be notified when an access review is completed. Each security team member should receive a copy of the latest access review notice and a copy of the entry point for business requirements.
+
+The entry point should be emailed to security team members who are not directly involved in the review. For information about the current password reset process, see the section on password reset and security incidents.
+
+Any information that is sensitive to the company should be redacted or obfuscated in some way. Security managers and security team members should also be notified if access reviews are being conducted for a particular server.
+
+The notice should also contain the new password reset process and any business requirement.
+
+In some cases, like with a change to the password reset process, it will be appropriate to include a mail from the security manager in the notice. For example, the security manager may want to review the password reset process before it goes live.
+
+Notice to encryption keys kept at the public key infrastructure (PKI)
+
+Reasons to notify the public key infrastructure (PKI):
+
+  • You are replacing encryption keys in a PKI
+  • The PKI has been compromised and needs to be repaired
+  • You are adding a new PKI
+  • You are changing the encryption key used by a PKI
+
+Write a short notice to the PKI team. Include a description of what is happening, the expected impact, and the plan of action.
+
+“Public keys are being replaced in our security system. This will take place over the next two weeks. Until then, users will need to generate new keys.”
+
+Write in a format similar to the following:
+
+# Security incident, date, and author
+Notice to encryption keys kept at the public key infrastructure (PKI)
+
+# Description of the encryption keys being replaced
+Reason for change
+# Explanation of what will be affected by the change
+# Expected impact
+# Changes to be made, if necessary
+# How long the change will have an impact, if necessary
+# Who are impacted by the change
+# Action

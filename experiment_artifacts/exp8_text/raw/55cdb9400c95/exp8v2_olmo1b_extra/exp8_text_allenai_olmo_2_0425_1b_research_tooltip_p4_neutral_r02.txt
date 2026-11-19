@@ -1,0 +1,26 @@
+A tooltip is a small explanation that appears on the screen next to an item in a menu or a list. For example, you can create a menu of all the movies in a library. This metadata can be confusing to some people, so you can create a brief explanation, like "A complete list of movies in your library" or "View available movies", in a tooltip.
+
+Tip: You don't need to add fields to a field group to create a tooltip. You can set the tooltip's Override fields setting to No, and the tooltip will not affect the default values of any fields in the field group.
+
+Tip: Hover over the tooltip to display the text of the tooltip. Hover over a tooltip that you want to display to the user, instead of one that is hidden by default.
+
+  1. Select the navigation menu containing the field group.
+  2. Click the Fields tab.
+  3. In the Field group to link to, select the field group.
+  4. Click the Tooltips tab.
+  5. Select whether you want a tooltip to appear next to the field group's item in the menu.
+
+How tooltips work
+
+A tooltip is displayed when you hover over an item in the grid. You can create a tooltip for each item for different types of information:
+
+  • Non-field items. When you hover over a non-field item in a list, a tooltip displays the name of the field group, field, and the field's field name (the name that appears in the Data ribbon).
+  • Field items. When you hover over a field item in a list, a tooltip displays field group, field, the field's field name, and the field's default values.
+
+If a preferred field is not defined to the field group, the tooltip displays the name of the field group but not of the field. Hovering over the field displays the name of the field, its field name, and its default values.
+
+Tip: When you hover over a field, the tooltip displays the field's field name, from which you can choose a value by typing in the values drop-down box.
+
+Tip: You can use the Tooltip Properties dialog box to customize the color, font, and size of a tooltip. For information about how to use the properties dialog box, see the following topics:
+
+To create a tooltip for a non-field item in a list, add a tooltip to the list's item properties tab. If the tooltip is not displayed, use the Proximity tab in the Field properties dialog box, and choose Customize. If you want to display a tooltip for all non-field items in an item's list, make the field a non-field item and then select the item's list from the list's item properties tab.

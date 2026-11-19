@@ -1,0 +1,1 @@
+A confidence interval in a chart represents the range of values estimated to include the true population parameter with a specified level of confidence. By plotting data points within this interval, we can infer that the population characteristic we are studying is likely to fall within this range, assuming the sampling process was fair and random.

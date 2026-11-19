@@ -1,0 +1,5 @@
+Example input: Write a recipe for a healthy lunch that is simple, fast, and kid-approved.
+Example output: Chop one garlic clove into small pieces. Peel and chop one medium carrot into small pieces. Open a can of pink salmon and remove bones. Drain and mix with other ingredients. Serve over green salad or baked potato.
+Example explanation: This is a correct, concise, and practical recipe that a person can use to make a healthy lunch with common grocery-store items.
+Q: Write a short cooking tip for preparing a weeknight dinner.
+A: Make sure to prepare your meals in a timely fashion so that they are ready for dinner at 6pm.

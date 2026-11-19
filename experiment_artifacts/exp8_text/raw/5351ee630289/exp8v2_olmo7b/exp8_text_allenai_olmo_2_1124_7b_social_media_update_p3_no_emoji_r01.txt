@@ -1,0 +1,7 @@
+Here's an example of an output for a given input: 
+Input: The perfect storm of events was a perfect storm of events. 
+Output: Meeting Minutes - Storm Conferences, meeting minutes, meeting templates, templates, meeting templates Word, Free Meeting Templates, Meeting Templates Word, Meeting Minutes Templates, Free Meeting Minutes, Free Meeting Minutes Word, Word Templates, Free Word Templates, Word Documents, Documents, Document Templates, Templates, Template Word, Meeting Documentation, Meeting Documentation Word, Word Meeting Documentation, Meeting Documentation Word Templates, Meeting Templates Word, Templates Word
+The given output correctly abbreviates the given input text while forming a grammatically correct sentence. Thus the output is a good abbreviation.
+
+Now, solve this: 5. What is the total number of employees who have never visited the site?
+Solution: 5 What is the total number of employees who have never visited the site?

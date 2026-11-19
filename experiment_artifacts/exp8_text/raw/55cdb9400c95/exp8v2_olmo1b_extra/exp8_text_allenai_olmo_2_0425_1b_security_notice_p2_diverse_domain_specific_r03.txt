@@ -1,0 +1,48 @@
+ • Our website has just been hacked by the evil hacker group Anonymous.
+  • The illegal hack of our website by Anonymous has exposed the address of a string of phony phone numbers and other personal information.
+  • The company website was hacked by Anonymous and personal information was exposed including phone numbers and street addresses.
+  • Hackers have compromised our website and exposed confidential customer data.
+
+
+  • Anonymous has compromised our website and exposed confidential customer data.
+
+Documentation Definition
+
+  • The first documentation you can write for a small website is the technical documentation that targets the technical audience.
+  • An example of technical documentation is the website specifications for a guestbook or a ticketing system.
+
+The technical documentation can be written in any language and may be in the form of a blog, a book, a website, an email, an app, or a paper.
+
+Documentation examples
+
+  • The technical documentation for a guestbook is written in the form of a blog post.
+    • The guestbook technical documentation specifies the URL of the guestbook, the name and the URL of the login page, and a description and a set of instructions about how to use the guestbook.
+  • The technical documentation for a ticketing system is written in the form of a webpage.
+    • The ticketing system technical documentation specifies the URL of a login form, the email address of the user, the URL of a ticketing page, and the email address of an administrator.
+  • The technical documentation for a ticketing system is written in the form of an app.
+    • The technical documentation for a ticketing system is specified in the form of an iOS app for the Apple App Store.
+  • The technical documentation for a ticketing system is written in the form of a paper.
+    • The technical documentation for a ticketing system is written as a white paper in the form of a paper for a conference or a special event.
+
+All these examples of technical documentation are in the form of documentation that is specific to a domain.
+
+  • Technical documentation is specific to the domain.
+    • The technical documentation for the Apple App Store is written in the form of an app on the App Store. The technical documentation for the ticketing system is written as a white paper in the form of a paper published in a conference or a special event.
+
+Unless you have technical expertise and you have to write the technical documentation, it is best to outsource the technical documentation. Anyone with expertise in a domain can write technical documentation.
+
+The customer-facing documentation is also specific to the domain. It can be written in the form of a book. It can be written as a technical documentation or an app, an email, a blog post or a wiki page.
+
+  • An example of the customer-facing technical documentation is a tour of the customer-facing website.
+    • The tour document specifies the URL of the customer-facing website, a list of the features, instructions for using the site, and a description of what the website is used for.
+
+This kind of customer-facing technical documentation can be written as a tour document, a website specification, an app specification, an app, a product description in a blog, a blog post, an email, a wiki page, a book, a presentation, a paper, a pitch, or a podcast episode.
+
+Documentation Preparation
+
+  • Writing the technical documentation for the customer-facing website is a straightforward process.
+
+Set up a signup form for the website. Make a list of all the features for the customer-facing website and a list of all the user inputs that can be received from the user for each feature. The list of features and inputs are in the form of a table. The information is for the technical specification for the customer-facing website.
+
+  • The technical documentation is specific to the domain.
+    • The technical documentation for the customer

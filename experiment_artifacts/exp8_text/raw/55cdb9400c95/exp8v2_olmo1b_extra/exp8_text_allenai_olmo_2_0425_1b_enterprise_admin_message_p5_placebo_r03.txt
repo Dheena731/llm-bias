@@ -1,0 +1,28 @@
+Read about a recent data migration project that we conducted for a UK-based financial institution. The client had migrated their email data using SQL Server 2008 R2 and SQL Server 2012 databases. The process was carried out by our in-house database administrator, in three phases, targeting multiple production databases. The first phase was a data load, followed by data export from production, and then by a data import into a staging database. The final database was then decommissioned, along with its servers.
+
+The client was overjoyed with our service because of the amount of professional expertise we had brought on board and because we were able to successfully complete the migration in less than three weeks. 
+
+Preparing for a migration
+
+After a discussion with the customer and a review of their business use of the email data, we created a migration plan specifying which data was produced, how it was produced (e.g., old file formats), and what was going to happen after the migration. While the migration was succeeding, we were asked to create a procedure for when things didn’t go as planned, allowing us to abort the migration in case there was a problem. We also needed to create a backup of the staging database, in case we had to download data from the production server again at a later date.
+
+Data migration plan
+
+In addition, we needed to analyse the production database, to determine what data was manually entered into the database and what data was generated automatically, based on the system use of the database. This information helped us to understand the data that we needed to recreate during the migration. We also needed to define how much data was in the production database. For instance, we needed to determine the amount of data that we would migrate, how the data would be migrated, and what the performance implications of the migration process were. All of these questions were answered for us, because we worked with the client in the planning stage of the migration.
+
+During the data migration itself, we made sure to separate the production database into smaller chunks and migrate each chunk progressively to a staging database. This allows us to improve performance during the migration as the chunks of data are migrated individually to the staging database. In this way, we were able to re-create the data exactly as it was originally recorded in the production database.
+
+In the end, we were able to successfully complete the migration in under three weeks by the following process:
+
+  1. Testing the staging database against production data to ensure that the staging database was identical to production before data was migrated into it.
+  2. Setting up a new staging database on another physical machine, using the production data that we needed to migrate.
+  3. Completing the migration of data, one chunk at a time, to the production staging database.
+  4. Performing the same migration process in reverse, to the production database.
+  5. Logging the production data from the staging database and transferring that data to the staging database and then the production database.
+  6. Decommissioning the staging database and its physical server.
+
+We were actually really pleased with the delivery of this service, because the client was overjoyed with our service, because of the amount of professional expertise we had brought on board and because we were able to successfully complete the migration in less than three weeks.
+
+Transferring data
+
+We performed the migration using an SQL Server 2012 database, and we used the built-in features of SQL Server to copy data from one database to another. In SQL Server 2012, this can be achieved using a package called the Import and Export Wizard. This wizard performs a one-way migration of valid data, and the wizard can migrate data in either direction, as long as the source and destination data are created in one of the supported formats (e.g., CSV,

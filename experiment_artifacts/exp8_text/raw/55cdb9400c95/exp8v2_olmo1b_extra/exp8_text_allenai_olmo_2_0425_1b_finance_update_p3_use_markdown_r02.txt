@@ -1,0 +1,57 @@
+Screenshot of New Savings Goal Dialog
+
+For some ideas of what your heading and bullet points might look like, check out these examples:
+
+Hello world!
+
+With the default layout, Tweets and DMs can be entered at the same time. You can manually add the unread notifications count, or prioritize them in the list.
+
+Screenshot of default layout
+
+From the menu bar, you can select the maximum number of unread messages.
+
+Screenshot of top number of unread messages
+
+This is the same as what you currently see when you view the messages in your inbox.
+
+Screenshot of inbox layout
+
+If you find that you are still inundated with unread notifications, you can turn on the option to hide messages that are more than 15 minutes old. This can help keep things manageable, without having to be a constant slave to the Twitter app to see who has chimes in.
+
+Screenshot of options to hide old messages
+
+Set a 15 minute filter, and you won't see any messages older than that.
+
+Screenshot of 15 minute filter
+
+You can also set a maximum number of notifications you will receive in a day. This will take into account your personalized settings. Set your limit and you won't be bothered any longer. If you set it to three, for example, and someone sends you five notifications, it will be filtered as three.
+
+Screenshot of Notification limits
+
+You can also filter out people you don't follow and choose to see who you do follow. If you don't follow a person, you won't see their mentions.
+
+Screenshot of filters
+
+The implementation of filters is somewhat rudimentary, however. Currently, there aren't a lot of options. I can't see any option to block a user, or to customize the list order, but I'm happy to see that these have been considered.
+
+You can also increase the number of people you show in the list.
+
+Screenshot of options for number of people shown
+
+If you want to be shown only the new and important tweets, you can choose those.
+
+Screenshot of options to filter tweets
+
+If you want to see only links, you can choose just that.
+
+Screenshot of options to filter links
+
+If you want to see only references to your pinned tweet, you can do that, too.
+
+Screenshot of options to filter references to your pinned tweet
+
+I can't wait to see what possible options you might create. Also, your official Twitter account won't be tied to your personal account, so you can start using it right away.
+
+What I'm hoping for: I'd like to see a few more options for filtering. You can currently filter for chronological order or relevance to your favorite topics, but I'd like to see more options to filter for who you follow, or the things they post, and the number of new and important tweets. I also hope for an option to show just the replies to your tweet, rather than the entire thread. That way, it would be much easier to navigate (and read) tweets from people I follow, and to filter only the replies to my tweet, rather than having to look at every single mention that they make.
+
+If you have any other ideas for better filtering options, or ways to make this better, let us know in the comments.

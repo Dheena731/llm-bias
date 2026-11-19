@@ -1,0 +1,1 @@
+Date-range selector allows you to choose specific dates by clicking and dragging in a specific time frame.

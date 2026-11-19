@@ -1,0 +1,21 @@
+**Password Reuse: A Risk to Workplace Security**
+
+- **What is Password Reuse?**
+  - Reusing passwords across multiple accounts is insecure and can lead to unauthorized access.
+  - Many security breaches are caused by compromised passwords used across various systems.
+
+- **Why is Password Reuse Dangerous?**
+  - Reused passwords can be intercepted by hackers during password sharing, phishing attempts, or breaches.
+  - It increases the likelihood of significant data loss or identity theft.
+
+- **How to Secure Your Information:**
+  - Use a unique password for each account.
+  - Secure your device with a strong passcode or biometric authentication.
+  - Regularly update passwords to prevent compounding security risks.
+
+- **Conclusion**
+  - By avoiding password reuse, you protect yourself and your organization against potential cyber threats.
+  
+---
+
+*Note:* This notice is intended to inform and encourage a secure password practice. If you have concerns about your organization's password policies, consult your IT department.

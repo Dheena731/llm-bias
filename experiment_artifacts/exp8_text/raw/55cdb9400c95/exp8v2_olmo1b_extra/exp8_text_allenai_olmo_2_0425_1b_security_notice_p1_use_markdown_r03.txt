@@ -1,0 +1,31 @@
+Password reuse is a significant cybersecurity issue that doesn't get enough attention, but it's a serious problem that could easily cost you your job or hold your company at risk from data breaches. Don't become a victim.
+
+First, don't reuse the same password for multiple services or websites. If you do, it's a simple matter of phishing to get your password. For example, if your password is "password," send an email or make a phone call to your bank asking for your password. You will probably give it to them, and then the phisher will get your password. If you use the same password everywhere, all it takes is one successful phishing attack to access your bank.
+
+Second, if you have a password manager, use the one recommended by the organization you work for. Many have free versions that you can use for personal use as well.
+
+Finally, if you do reuse passwords, it's a lot easier to remember a password if you make a simple pattern out of letters, numbers and symbols. For example, 3a9s. This way, you remember the pattern but it's a lot harder to guess, and it won't be a simple task to see if someone is trying to crack your password.
+
+
+What's your score? Score anything from 1 to 5, then divide by 5. For example, if you scored 3.5, your score would be 3.5/5, which equals 0.7. Your interval is interval = 1 - 5. Your score is interval / 5. If your interval is 1, then your score is 1/5 = 0.2.
+
+
+1. Reset your password:
+
+  • If you know your password and it's easy enough to remember, you can reset it without having to type it in. For example, you can reset it on your bank website or Twitter.
+  • If you don't remember your password, you can reset it in most places. For example, you can reset it on your Facebook or LinkedIn accounts.
+  • If you are changing your password now, don't forget to retype it on your bank, LinkedIn and other accounts. If you do, you may be closing the door on your online safety. This issue is NOT about changing your password immediately after an obvious phishing attempt. There are legitimate reasons to change your password, but make sure you are changing it for the correct reason.
+
+2. Change your password manager:
+
+  1. If you use a banking website, you have the option to change your password manager. Go to the website and click a link. For example, "Change my password to be safer."
+  2. If you have a password manager like LastPass or Dashlane, the website will ask you to click a link to change your password information when it sees a phishing attempt. For example, "Click here to set a password manager safer." It will ask you to change your password to something that isn't used by other websites.
+  3. Whenever you click a link on a website, if the link takes you to a website that isn't the original, it's a phishing attempt.
+
+Make sure your password manager doesn't have the above options if you are on a free version. If you get a notification on your computer browser that says "Your password manager is about to change your password," click Yes, and then click to change your password on the website.
+
+Don't forget to change it here as well. If someone controls your Facebook, they can pretend to be you to a bank. Don't let them do that.
+
+3. Always use a VPN:
+
+  • A VPN is a virtual private network that encrypts your web traffic so that anyone watching your data can't understand what you are doing on the internet.

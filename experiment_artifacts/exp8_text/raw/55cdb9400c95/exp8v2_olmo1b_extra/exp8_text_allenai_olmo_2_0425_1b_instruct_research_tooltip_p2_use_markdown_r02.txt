@@ -1,0 +1,1 @@
+*Confidence Interval*: In a chart, this distinguishes the range within which the true population parameter (like mean) is believed to lie, with a certain level of confidence. This interval is calculated based on sample data, providing a range that includes the parameter with the specified confidence.

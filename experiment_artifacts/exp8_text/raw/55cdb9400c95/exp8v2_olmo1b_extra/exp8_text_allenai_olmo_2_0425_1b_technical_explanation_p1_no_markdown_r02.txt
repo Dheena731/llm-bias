@@ -1,0 +1,19 @@
+The quick answer: We spend about 80% of our time in the browser and for web apps, latency matters. That is 15ms plus or minus. If you are writing a web app, you need to think about latency. But, this answer is not going to be helpful to you if you are not the developer of the app. If you are still here, here is a deeper dive into the topic.
+
+Where does latency come from?
+
+Latency is caused by the network between you and the server. When you start up your app, you launch a network connection to the server that you are making. This is the first part of the latency equation.
+
+The second part of the equation is the browser. This is your web browser making a request to the server. This is the part where the browser waits for the network to return the data. As you increase the size of the data that you are requesting, the wait time will increase.
+
+The final part of the equation comes from the server. The server will send the data back to the browser. The server is going to send back the same data you requested. This is where the delay occurs.
+
+How do you reduce latency?
+
+The only way to remove latency is to change your server. If you have a high latency server, you can’t do anything to reduce the latency. To reduce latency, you need to make sure that your server is fast. You need to have minimal latency between the server and the network.
+
+A fast server will reduce the latency, but only when the server is fast. If the server is slow, it will not make a big difference.
+
+If you want to reduce the latency, you need to change the server. You can’t change the network or the browser. The only way to reduce latency is to change the server.
+
+Leave a Reply

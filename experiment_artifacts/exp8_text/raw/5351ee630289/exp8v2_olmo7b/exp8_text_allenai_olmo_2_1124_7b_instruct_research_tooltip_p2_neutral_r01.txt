@@ -1,0 +1,2 @@
+Tooltip: "Confidence Interval"
+Explanation: This tooltip provides information about the range of values (confidence interval) around the point estimate (e.g., mean or median) in the chart. It illustrates the degree of uncertainty associated with the statistic, indicating that if one were to repeat the measurement process multiple times, a certain percentage (e.g., 95%) of those samples would fall within this range. This interval helps assess how reliable the estimated parameter is and provides a range in which the true population parameter is likely to lie.

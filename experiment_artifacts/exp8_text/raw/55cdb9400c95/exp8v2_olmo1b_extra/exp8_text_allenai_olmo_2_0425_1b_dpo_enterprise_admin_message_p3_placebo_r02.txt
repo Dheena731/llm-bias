@@ -1,0 +1,13 @@
+Attention All Users!
+
+We are making some changes to our VPN client to enhance your online security and performance! As of now, we are reducing the latency and improving the encryption strength. For instance, we have introduced a cutting-edge protocol that promises a 30% faster connection speed and a significantly stronger encryption algorithm.
+
+To ensure your data security remains top-notch, we also recommend setting up our new 2-step authentication process, which includes an optional biometric verification step.
+
+**Important Note**: Please ensure you have backed up your current connection settings before making any changes. The VPN client is currently undergoing testing, and we appreciate your patience as we fine-tune these enhancements.
+
+Thank you for your continued trust and support.
+
+---
+
+**Our apologies for any inconvenience this may cause. We're committed to keeping your online experience secure and efficient, and your feedback is invaluable to us. Stay safe online!**

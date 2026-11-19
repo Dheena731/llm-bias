@@ -1,0 +1,11 @@
+Helpful hints
+
+  • Don't use fancy quotes or quotes that differentiate them from normal text (the size styling of quotation marks or quotes that have special formatting for emphasis, e.g. **bold**). You can use HTML markup like *bold* if it's appropriate. However, if you're not sure, no markup is better than bad markup.
+  • Avoid using invalid HTML that will break the highlighter.
+  • If you use an invalid markup, just leave the markup unwrapped rather than trying to fix it. Consider adding some text to explain the markup so other readers can understand.
+  • Don't use images or other non-text content unless the content you're highlighting is the image or non-text content itself. If you embed a link to an image or non-text content, please do not use the markup <img src="https://cdn.example.com/image.png" alt="alternate text" /> but rather use <img alt="alternate text" src="https://cdn.example.com/image.png" /> or include the text using a <span> element. The effect here is much the same as using alt text, so consider including the text in addition to the image.
+  • If you're using a mobile device and the link is embedded in the text, please link to the destination by name so that the person using the mobile device can read the link immediately, as the mobile device may not be able to read embedded links.
+  • If the link is in your text and you want to emphasis the link then you can use the HTML markup <a href="https://link/to/link"> and the text will be emphasized.
+
+
+This is a link to an open-source project, <a href="https://github.com/projectname">web project</a>.

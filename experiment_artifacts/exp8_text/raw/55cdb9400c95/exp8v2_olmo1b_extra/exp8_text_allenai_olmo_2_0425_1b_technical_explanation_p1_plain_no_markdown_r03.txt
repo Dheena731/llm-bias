@@ -1,0 +1,143 @@
+If you want to include code, write a plain-text description of it and then paste the code snippet. You can also use a code example in a numbered list.
+
+Use only paragraphs to describe the steps.
+
+Use title case for each step.
+
+If you want to explain a tool, write a short description of its purpose and then provide a link to its documentation. You can also use the example to explain the tool.
+
+Remember that the documentation of each tool can be found here.
+
+Write code
+
+If you want to write code, write it in plain text. Use Markdown syntax to format it. You can also use examples to explain your code. No fancy formatting is needed. For example, you can write:
+
+Open an empty directory.
+
+Create a new project with the command:
+
+npm init -y
+
+Enter a project name. For example, hello-world.
+
+Write a file named package.json with the following content:
+
+  'text-editor': 'text-editor',
+  'text-editor': 'text-editor',
+  'text-editor': 'text-editor',
+
+Save it and exit.
+
+Run npm install to install the text editor as a dependency.
+
+Write a script named hello-world with the following content:
+
+#!/usr/bin/env node
+
+const fs = require('fs');
+
+const package = 'hello-world';
+
+fs.writeFile('package.json', JSON.stringify({
+  'description': 'A simple package.json',
+  'name': 'hello-world',
+  'version': '1.0.0',
+
+Create a file named .env.example with the following content:
+
+PENDING | PORT = '6000'
+
+npm run start
+
+Open http://localhost:6000 in your browser.
+
+The README
+
+Write a new commit message for the README file. Describe how to install and use the project.
+
+Write an example section for each component.
+
+Send your code to the README repo for review.
+
+Send it to the mentor for review.
+
+Send a pull request to the original repo for review.
+
+Write a cover image for the README file.
+
+Include the following metadata:
+
+  • Author name
+  • Company
+  • Assignment name
+  • Class name
+  • Assignment number
+
+Configure cover image
+
+Write the following command in your terminal:
+
+git remote add origin
+
+Save and run it. The path to the repository is your GitHub username:next-year.
+
+Run it again to verify the command.
+
+Verify if the cover image is adding.
+
+Close the cover image.
+
+Preview the cover image on GitHub.
+
+Create the release
+
+Write the following command:
+
+npm run release
+
+Create new pull request
+
+Upload the files to the repository.
+
+Review it on GitHub before uploading them to the repo.
+
+Review the commit on the original project.
+
+Create new pull request
+
+Upload the files to the repository.
+
+Review it on GitHub before uploading them to the repo.
+
+Cite your sources
+
+Write the following command:
+
+npm i [package name]
+
+Write a link to the documentation of the package.
+
+Write a link to the package website.
+
+Write a link to the original project home page.
+
+Write a link to the original project repository.
+
+Write a link to the GitHub page of your repository.
+
+Write a link to the project page.
+
+Write a link to the project home page.
+
+Write a link to the project repository.
+
+Write a link to the project's repository.
+
+
+[1] Carolina Salvador, Michael A. Harbison, and Raffael Marty, Comparison of Free Programming Languages, http://www.ics.uci.edu/~martyp/complang/complang.html.
+
+[2] Richard O'Keefe, No-SQL is Perfect for Mature Applications, https://rosettacode.org/wiki/No-SQL_is_perfect_for_mature_applications.
+
+[3] Mark O'Neill, Python: the Right Tool, http://www.meandmore.com/programming/python-the-right-tool/.
+
+[4

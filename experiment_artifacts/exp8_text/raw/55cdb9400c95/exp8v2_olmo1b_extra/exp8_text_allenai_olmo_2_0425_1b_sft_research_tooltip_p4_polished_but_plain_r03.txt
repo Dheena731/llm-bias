@@ -1,0 +1,1 @@
+Missing-value markers indicate areas in a dataset where there is no corresponding value. When analyzing data, these markers help identify patterns or gaps that might require further investigation or correction to ensure the accuracy of the data.

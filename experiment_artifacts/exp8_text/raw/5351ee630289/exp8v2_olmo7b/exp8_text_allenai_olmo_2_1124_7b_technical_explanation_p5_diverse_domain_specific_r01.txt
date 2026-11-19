@@ -1,0 +1,15 @@
+An API (application programming interface) rate limit is a mechanism for controlling the number of requests a client can make to an API within a certain amount of time. This is done to prevent malicious or accidental abuse of the API, economy of effort, and to protect the API's availability. Rate limiting can also be used in other contexts, such:
+
+1.) To prevent spamming or resource abuse when login credentials are compromised
+
+2.) To prevent automated downloading of files
+
+3.) To protect an API from being used as a DDoS attack vector. 
+
+Rate limiting works by keeping track of how many requests have been made within a certain time frame and barring any additional requests within that window until the next allowed period begins. The most common form of rate limiting uses the rate limit timer method to cap the number of requests allowed over a specific period. 
+
+The rate limit timer method allows for a certain number of requests to be made within a given time frame (i.e., one request per second (1RPS) for 10 seconds would result in 10 requests). Once this limit is reached, it won't allow any further requests until either the next request period starts or it expires. 
+
+For example, if a user began submitting requests every five seconds for ten minutes continuously, they would reach their limit and not be able to submit any more requests until either their 10-minute period expired or their next attempt was made after that expiration point.
+
+Rate limiting can be a powerful tool for protecting the availability of your API and preventing malicious or resource-abusive behavior. By implementing proper rate limiting techniques, you can ensure that your API remains accessible and stable even under heavy load.

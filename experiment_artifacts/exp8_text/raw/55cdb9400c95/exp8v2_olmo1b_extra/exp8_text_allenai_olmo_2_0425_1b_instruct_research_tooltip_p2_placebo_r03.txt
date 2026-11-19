@@ -1,0 +1,10 @@
+Tooltip Explanation: 
+In the context of a chart, a confidence interval provides a range within which we believe a particular statistic, such as the mean or median, falls with a certain level of confidence. For example, if we calculate a 95% confidence interval for the average weight of all people in a study (let's call it X), it would look something like this: [Insert Confidence Interval here]. This interval tells us that, given our sample data and assuming the data is representative of the population it represents, we can be 95% confident that the true population mean weight falls within these bounds.
+
+Assumptions and Considerations:
+- The confidence interval does not prove the population parameter with absolute certainty but rather expresses the level of confidence we have in the estimate (typically 95% for many statistical applications).
+- It's constructed based on sample statistics and does not account for assumptions such as normality of the population distribution, independence of observations, or constant variance.
+- The confidence interval is not an estimator of the population's parameters itself; it merely gives an estimate regarding what parameters might be true given the observed data.
+- The width of the confidence interval (e.g., +/- 1.96 Standard Errors if dealing with a normal distribution) is determined by the chosen level of confidence and the sample size.
+
+In real-world use, it's crucial to understand that while a confidence interval provides valuable information about the reliability of our estimate, it cannot be used to definitively identify the population parameter outside the calculated interval. Confidence intervals should be used in conjunction with other statistical measures to make informed decisions.

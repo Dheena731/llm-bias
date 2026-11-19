@@ -1,0 +1,1 @@
+A missing-value marker represents an area or data point where no specific value is provided. It's often used in statistical analysis, data visualization, and signal processing to indicate potential gaps in data collection, to note when an observation is missing, or to highlight areas needing further exploration or analysis.

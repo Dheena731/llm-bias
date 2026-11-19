@@ -1,0 +1,26 @@
+Subject: Enabling Two-Factor Authentication for Enhanced Security
+
+Dear Team,
+
+We are committed to maintaining the highest levels of security for all our accounts. To enhance this, we are implementing a mandatory change to our account security protocols by enabling Two-Factor Authentication (2FA).
+
+Two-Factor Authentication is an additional layer of security that requires a user to provide two forms of identification before accessing their account. This significantly reduces the risk of unauthorized access even if passwords are compromised.
+
+To begin using 2FA:
+
+1. Visit the Google Authenticator or Microsoft Authenticator app on your mobile device.
+2. Follow the prompts to generate your unique authentication codes.
+3. Bookmark the provided QR code link for easy access in the future.
+4. Enter the code provided by the app during the account login process.
+
+Please note that 2FA will be mandatory for all account logins starting next week. Ensure you complete the setup process before then to avoid any disruption to your work.
+
+Should you encounter any difficulties during the setup process, please reach out to our IT Support team for assistance.
+
+Thank you for your cooperation and continued diligence in maintaining a secure work environment.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Your Contact Information]

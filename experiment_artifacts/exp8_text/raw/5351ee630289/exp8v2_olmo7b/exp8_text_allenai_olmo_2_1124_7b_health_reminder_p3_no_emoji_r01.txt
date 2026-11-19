@@ -1,0 +1,3 @@
+Do not use images. Use simple, holiday-friendly language, and avoid technical terms and Latin abbreviations (e.g. etc.).
+Input: I will be at the office till 2:00 PM tomorrow. I will confirm the next steps to finalize the project details when I return to office.
+Output: I will be at office till 2 : 00 PM tomorrow. I will confirm details for project finalizing when return to office.

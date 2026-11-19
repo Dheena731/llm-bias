@@ -1,0 +1,32 @@
+How might administrators manage their expenses?
+
+  birthday, travel, gift, anniversary, donation, event, donation_other
+1.  photo, video 
+2.  opening
+3.  email
+4.  post
+5.  opening
+6.  meeting, call, chat, zoom
+
+We'll use an open source microservice called Celery. Celery manages tasks, and is commonly used for asynchronous job processing. It has a built in task queue and allows us to publish and dispatch tasks to get them executed.
+
+The task is sent to the queue and executed by the worker. The worker is an application (or service) that runs in the background processing our tasks.
+
+Tasks should be named using underscores to separate words.
+
+Name your task: expense approve.
+
+Task functions and classes
+
+A task function is a function that gets executed and returns a string result, or raises an exception. Task functions always take no arguments, and return a TaskResult.
+
+A class can be an async function that raises a TaskResult, or has a __call__ method that does the same. Task classes are often used to organize related functions.
+
+Task function or Task class?
+
+A task function or Task class can contain:
+
+  • Async calls to other functions or objects.
+ 'task', 'queue', 'worker'
+
+Indices and tables

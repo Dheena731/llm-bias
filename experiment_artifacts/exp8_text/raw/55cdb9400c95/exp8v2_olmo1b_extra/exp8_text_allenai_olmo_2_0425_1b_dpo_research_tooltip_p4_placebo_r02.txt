@@ -1,0 +1,11 @@
+A missing-value marker, sometimes referred to as an "X," "star," "blank," or "tooltip placeholder," is a graphical element used in data visualization and statistical analysis to indicate where a specific value is not available in the dataset. Unlike active elements like links, icons, or buttons, missing-value markers serve as a static reminder that certain data points are not represented within a dataset, helping to highlight patterns, inconsistencies, or areas requiring further investigation. 
+
+Key points:
+- It's a visual cue in a data representation, not a functional one.
+- It does not itself contain missing data; it's a visual clue.
+- It serves to alert users to where data is not filled in.
+- It is a distinct element from areas like null values or empty strings, which represent actual absence of data.
+
+For example, consider a bar graph where the color of a bar represents a variable. If a bar is represented with an empty space where the color is absent, that's a missing-value marker. Unlike an "X" from an X-axis, this marker does not have a specific numeric value to indicate a missing point—it simply lacks the visual representation of data.
+
+This concept is crucial in data cleaning, statistical modeling, and data visualization where accurate representation and interpretation of data are paramount. It differs from placeholders in text where you might insert missing values or data points when they become known later in the analysis process. Missing-value markers remain static and do not carry semantic information—instead, they signal gaps in data records.

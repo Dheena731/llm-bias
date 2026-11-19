@@ -1,0 +1,8 @@
+To export query results, you can use the following steps:
+
+- Open your query in the query editor.
+- Click on the little arrow next to the "Result" button.
+- Select "Export Results" from the dropdown menu, and a new window will appear.
+- You can choose the file format you want to export the results as, e.g., "CSV" or "Excel".
+- Click "Export" to save the query results in the chosen format.
+- Close the export window to finish the process.

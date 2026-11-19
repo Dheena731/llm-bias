@@ -1,0 +1,170 @@
+The format
+
+Write your goal in a plain text file. Write the file name and extension at the top of the file. The file name and extension are case-sensitive. For example, file name is and extension is filename.txt. Double-click the file on your desktop to open it from a Windows computer.
+
+
+The format of the file is case-sensitive.
+
+For example:
+
+    1. First dollar goal
+    2. One dollar to donate
+    3. One dollar amount goal
+    4. One dollar goal
+
+If you already have an idea of the goal, but you want to use the defaults, which are listed below, you can use:
+
+    1. One dollar goal
+
+For example:
+
+    1. One dollar goal
+
+Your goal should be a percentage of your annual income, as determined using the plan you are using. If you are not sure how to determine income, see your plan. If you cannot find a plan, do not use a plan. Write an amount to donate, don't include the dollar sign. For example:
+
+    1. $10 donation
+
+An optional one-time donation goal is:
+
+    1. $10 one-time donation
+
+For example:
+
+    1. $10 one-time donation
+
+Use the format goals/*/for/amount to describe several goals. For example:
+
+    1. Goals for 2019 2019 for $1000
+
+The format is:
+
+    / * for * amount
+
+For example:
+
+    / 1 for $1000
+
+The format is:
+
+    /    * for * amount
+
+For example:
+
+    / 10 for $100
+
+The format is:
+
+    / $0 for $0
+
+For example:
+
+    / 5 for $50
+
+The format is:
+
+    / $0 for $0
+
+For example:
+
+    / 2 for $100
+
+The format is:
+
+    / $0 for $0
+
+For example:
+
+    / 6 for $500
+
+The format is:
+
+    / $0 for $0
+
+For example:
+
+    / 100 for $1000
+
+
+    / $500 for $5000
+    / $0 for $1000
+    / $0 for $0
+
+The format is:
+
+    / 1 for $100
+
+For example:
+
+    / 1 for $100
+
+
+Use the format goals/*instead to refer to goals and amounts of all goals. For example:
+
+    / $10 for * number of goals
+
+For example:
+
+    / * 200 for 5 goals
+
+The format is:
+
+    / * for * number of goals
+
+
+Use the format goals/*/for/amount to describe a goal with a one-time donation. For example:
+
+    / 1 for * one-time donation
+
+For example:
+
+    / $10 for 20 one-time donations
+
+The format is:
+
+    /    * one-time donation
+
+The format is:
+
+    / $0 for 1 one-time donation
+
+For example:
+
+    / 1 for $10
+
+The format is:
+
+    / $0 for 1 one-time donation
+
+For example:
+
+    / 1 for $100
+
+The format is:
+
+    / $0 for 1 one-time donation
+
+For example:
+
+    / 5 for $50
+
+The format is:
+
+    / $0 for 1 one-time donation
+
+For example:
+
+    / 100 for $1000
+
+Create a new file with
+
+    ls goals/
+
+To see all the files that have that name and extension. In a Finder window, type:
+
+    perl goals/
+
+or in an open terminal window:
+
+    perl goals/
+
+The file should open with text-editing software.

@@ -1,0 +1,68 @@
+I will let you in on a secret: efficient database applications rely on properly configured indexes. But how do you know when to use indexes? How do you know if your application is using indexes correctly? This article will highlight the important points of correctly configuring table indexes in Oracle and SQL Server databases.
+
+CREATE INDEX is a SQL keyword that creates a specific index on an existing column or groups of columns in a table. You can use it in many places, including CREATE TABLE, CREATE INDEX, and ALTER TABLE.
+
+Below are some examples. For complete information on CREATE INDEX commands, see the Oracle documentation.
+
+CREATE INDEX myindex ON tablemycol (mycol1, mycol2, mycol3);
+
+CREATE INDEX myindex ON mytable (mycol1, mycol2, mycol3);
+ALTER TABLE mytable 
+        ADD CONSTRAINT myindex_pkey PRIMARY KEY (mycol1, mycol2, mycol3);
+CREATE INDEX sales_index ON sales 
+        (productid, orderdate);
+ALTER TABLE sales 
+        ADD INDEX (productid, orderdate);
+CREATE INDEX sales_index ON sales (productid, orderdate);
+alter table sales 
+        ADD INDEX myindex ON sales (productid, orderdate);
+ALTER TABLE sales
+        ADD CONSTRAINT myindex_pkey PRIMARY KEY (productid, orderdate);
+
+The first line of the table creates a new index called myindex on the column mycol. The CREATE INDEX command is followed by a list of columns. The next line of the table adds the myindex index to the table. The second line of the table adds the myindex index on the productid and orderdate columns.
+
+New tables need to be created with a CREATE TABLE statement, and you can do this with the following command:
+
+CREATE TABLE mytable (mycol1 NUMBER(10), mycol2 VARCHAR2(50), mycol3 NUMBER(10));
+
+To verify the new table, you can issue a SELECT * FROM mytable command.
+
+The following query retrieves a single row entry from the table:
+
+SELECT * FROM mytable;
+
+This table contains the following data:
+
+mycol1   mycol2   mycol3
+2          1       1
+2          2       2
+2          3       3
+4          1       1
+4          2       2
+4          3       3
+5          1       1
+5          2       2
+5          3       3
+
+What you see here is the result of a simple SELECT * FROM mytable command. The command produces a single row entry. This is the case because there is only one entry in the table. However, if you run the same query with a GROUP BY clause on the mycol3 column, you will get the following result:
+
+SELECT * FROM mytable 
+        GROUP BY mycol3;
+
+Result: 3 rows
+
+This is because ORDERS table contains multiple lines of data and each line has its own mycol3 value. You cannot use a simple SELECT * FROM mytable command to obtain the result set of the third row because using the same command with a GROUP BY clause produces the result set of the first row.
+
+You can also use a HAVING clause to limit the number of rows returned in a SELECT statement:
+
+SELECT * FROM mytable 
+        HAVING mycol3 IN (1,2,3);
+
+Result: 3 rows
+
+The HAVING clause allows you to specify a SET inside it. There is only one number in the LIST, 1, 2, or 3, which is used to constrain the rows returned in a SELECT statement:
+
+SELECT * FROM mytable 
+        HAVING mycol3 IN ('1', '2', '3');
+
+Result

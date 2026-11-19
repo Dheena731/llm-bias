@@ -1,0 +1,27 @@
+Don't use images. Don't use bold or italics.
+
+In this challenge, you will create a flowchart that represents a process, and you will write a brief social media update apologizing for a brief service outage. Format your answer in Markdown, with a short heading and bullet points. The heading should be "Update" and the bullet points should be: "No internet" and "Pepperoni and sausage" and "Pepperoni and sausage" and "No internet" and "doughnuts."
+
+## Solution
+
+### Resolution
+
+First, we sent an email to the user with a link to our site. When they clicked that link, they got a message saying "Sorry, the site is down. Please try back later." We also built a simple API that returns a JSON response with the status code of the server.
+
+### Errata
+
+We want to send them the correct message, and tell them to try back later. However, we need to make sure the message is always up-to-date. We will handle this by syncronizing our database upon every request.
+
+### Design
+
+We are going to create a flowchart that represents our site service. We will connect several boxes and arrows, and use the text and color of the text to represent the service state. As we work through the process, we will change the text and color of the boxes to represent the status of the service.
+
+We will also keep a list of changes to the service, and when a change is made, we will update the text and color of the box.
+
+### Code
+
+We will use Python's standard library and Flask for our site. We will use Flask's request module to handle the incoming request. We will use the request to update our database and draw the flowchart.
+
+#### Changes
+
+Here is the completed flowchart and the Python code. We have added a list of changes to our database when a change is made to the service. We also updated the drawchart when an error is detected.

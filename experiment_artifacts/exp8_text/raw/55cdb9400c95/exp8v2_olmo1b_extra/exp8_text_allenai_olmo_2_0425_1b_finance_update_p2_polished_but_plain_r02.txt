@@ -1,0 +1,11 @@
+Include information about why the change was made, how much was involved, and what the new rates will be. For instance, we may have ended single line card transaction fees at $0.20, but the new rate will be $0.25. You can include a screenshot of a card transaction fee if you'd like a visual reference.
+
+If there are other changes to the card transaction process that are also part of the bill, create a separate section and a separate copy for each change. For example, a change to a payment method that is part of the bill can be addressed in the bill's section on card payment methods, and a change to an itemized fee that is part of the bill itself can be addressed in the bill's section on itemized fees.
+
+2. Add a section titled "Notes" that includes information about the bill and a link to the card transaction change page.
+
+This section is optional.
+
+3. Add a section titled "Additional Information" that includes a link to the information you would like included in the bill's footnotes.
+
+This section is optional.

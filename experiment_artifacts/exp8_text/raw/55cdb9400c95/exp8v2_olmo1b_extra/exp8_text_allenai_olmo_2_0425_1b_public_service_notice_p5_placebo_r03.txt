@@ -1,0 +1,102 @@
+Voters can choose to vote at the polling station they live closest to, or at a voting centre.
+
+Place an address or a postal code where voters can find nearby polling stations. This will make it easier for voters to know where the nearest polling station is located.
+
+Provide information about voting centres
+
+Voting centres have logos, phone numbers and addresses. You can find the address, phone number and operators on the voting centre’s website. If you don’t have access to a website or the address, phone number and operators are also listed on a separate page. You can also contact the local electoral office, the local government, or the polling division of the Public Service Centre if you need more information.
+
+Example: see below
+
+Voting centre
+
+Mailing list information
+
+The mailing list information provides the mailing address and phone number of the service provider.
+
+Example: see below
+
+Mailing list information
+
+Write an address or a postal code for the service provider. This information will help voters to contact the service provider if they have questions or want to vote online. Write at least the email address and phone number. You can write more information if you have it, for example, a website address and a personal assistant number.
+
+The postal code should be for the whole country, for example, the province or the region plus the postal code. If you don’t have a postal address, list the contact details of the service provider. This way, voters can easily find the exact service provider.
+
+Example: see below
+
+Write an address or a postal code for the service provider. This information will help voters to find the exact service provider if they have questions or want to vote online.
+
+Voting preferences
+
+In the voting preferences section, you can choose one or more of the statements that will be read to voters during the election.
+
+The statements and the voting preferences can be switched in the voting preferences section at any time during the election.
+
+Write instructions for voters
+
+If you have information for voters, it is important that you write it in a clear and simple way. You can write instructions in the voting preferences section, but remember to consider the size of the text and the layout of the page. Text with too many lines or too small font can be difficult to read, also on mobile devices.
+
+If you have more than one voting preferences, you can move the instructions for each preference to a separate page. Or you can write instructions in a separate text file, for example, a .pdf file.
+
+Example: see below
+
+Write instructions for voters
+
+Voting preferences
+
+The instructions can be as short as a single line, but you should always consider the length. You can also link to other pages that provide more information.
+
+Voting preferences
+
+Add a line to make it clear which statement is which
+
+If you have several statements, you could use a line to separate them and make it clear in what order you want voters to read them.
+
+Example: see below
+
+The voting preferences can be separated with a line.
+
+Voting preferences
+
+Add a line to make it clear which statement is which
+
+Voting preferences
+
+Voting preferences can be separated with a line.
+
+Voting preferences
+
+Add a line to make it clear which statement is which
+
+Voting preferences
+
+Voting preferences can be separated with a line.
+
+Voting preferences
+
+Add a line to make it clear which statement is which
+
+Voting preferences
+
+Voting preferences can be separated with a line.
+
+Voting preferences
+
+Add a line to make it clear which statement is which
+
+Voting preferences
+
+Voting preferences can be separated with a line.
+
+Voting preferences
+
+Add a line to make it clear which statement is which
+
+Voting preferences
+
+Voting preferences can be separated with a line.
+
+Voting preferences
+
+Add a line to make it clear which statement is which
+

@@ -1,0 +1,74 @@
+Do not use negative language.
+
+
+Example Input: Your Head: The crowded, noisy bar in the back of the restaurant.
+Your Body: Nervous because there are way too many people, and it's loud.
+Your Heart: Pumping faster, getting ready for the actual event.
+Your Immune System: Not being very active.
+Your Skin: Red, as if you cut yourself.
+
+Example Input: Your Head: It seems like you are about to get into a fight with someone.
+Your Body: Clenched fists, clenched jaw. You are tensing up.
+Your Heart: Beat a little faster, as if you're a little anxious.
+Your Immune System: Low, you are vulnerable to getting sick.
+Your Skin: You are tense, and you can feel the chills.
+
+Example Input: Your Head: You are at a party and everyone else is dancing.
+Your Body: You feel awkward.
+Your Heart: Your heart is beating faster than normal.
+Your Immune System: You can feel the chills coming, and your throat is closing up.
+
+Example Input: Your Head: You are thinking about someone that you really like.
+Your Body: Your head is pounding, and you are sweating.
+Your Heart: Your heart is throbbing. It's beating faster than normal.
+Your Immune System: You are fighting for your life. You are fighting an infection.
+
+Example Input: Your Head: You are stuck in traffic.
+Your Body: Your heart is beating faster and your muscles are tense.
+Your Immune System: You have tonsillitis and your throat is very sore.
+
+Example Input: Your Head: You are in a crowd where you can't escape from people you don't like.
+Your Body: You are catching everyone's colds.
+Your Heart: Your heart is beating faster and you are dizzy or light-headed.
+Your Immune System: You have the flu, and you are getting sick.
+
+Example Input: Your Head: You are feeling sad.
+Your Body: Your skin is a little pale and you may be flushing or turning bright red.
+Your Heart: You are feeling very nervous.
+
+Example Input: Your Head: You are talking to a person you don't like.
+Your Body: You are feeling nauseous, and your stomach is churning.
+Your Heart: Your heart is beating faster than it should be.
+Your Immune System: You are getting sick more easily than usual.
+
+Example Input: Your Head: You want to go somewhere special.
+Your Body: You are feeling tense and you can't relax.
+Your Heart: Your heart is beating faster than it should.
+Your Immune System: You may be getting a cold.
+
+Example Input: Your Head: You are feeling anxious.
+Your Body: Your face is flushing. You may feel dizzy.
+Your Heart: Your heart is beating faster than normal.
+Your Immune System: You are getting sick more easily than usual.
+
+Example Input: Your Head: You are delivering a speech.
+Your Body: Your blood pressure is rising. You are sweating.
+Your Heart: Your heart is racing. Your pulse is fast.
+
+Example Input: Your Head: You are having a misunderstanding with someone you care about.
+Your Body: Your palms are sweating.
+Your Heart: Your heart is beating more quickly than normal.
+Your Immune System: You are getting sick.
+
+Example Input: Your Head: You are waiting for something.
+Your Body: You are feeling cold.
+Your Heart: Your heart is beating faster than normal.
+Your Immune System: You are getting sick.
+
+Example Input: Your Head: You are thirsty.
+Your Body: Your skin feels dry.
+Your Heart: Your heart is beating faster than normal.
+Your Immune System: You are getting sick.
+
+Example Input: Your Head: You are holding a grudge against someone.
+Your Body

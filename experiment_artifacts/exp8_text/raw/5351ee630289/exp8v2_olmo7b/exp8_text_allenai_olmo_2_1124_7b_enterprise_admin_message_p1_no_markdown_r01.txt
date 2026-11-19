@@ -1,0 +1,13 @@
+Do not write anything in this field that will be rendered into the email. Remember that this will be sent to the whole site, and there’s lots of people who never use the english language in that site.
+
+Value added by editor
+
+If an editor is modifying this page, then he or worksheet questions he or she might want to answer in order to get a good feeling of how to work with this page.
+
+Display this value as a banner above the page contents.
+
+etc …
+
+A note about templates
+
+The above two fields are useful for auto-generated pages, but they’re not much use for manually written pages. If you want to write email content or an admin message related to a manually written page, then use the page template.

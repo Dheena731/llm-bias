@@ -1,0 +1,1 @@
+Dataset filter allows you to narrow down your research data to specific records based on defined criteria. By clicking on the filter icon, you can choose fields like 'Name', 'Age', 'Gender', etc. to refine your search and explore only relevant data points. The filter is dynamic and changes as your search criteria evolve.

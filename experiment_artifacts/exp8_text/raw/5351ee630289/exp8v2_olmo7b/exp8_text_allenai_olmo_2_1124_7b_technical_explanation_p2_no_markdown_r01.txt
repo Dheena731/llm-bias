@@ -1,0 +1,11 @@
+A database index is a set of records that allow a database management system (DBMS) to quickly locate and access information. Indexes are created automatically by the DBMS for tables with a large number (thousands or more) of records. An index is a data structure that stores frequently accessed data in order to facilitate faster data access and retrieval.
+
+An index consists of a key, which is a collection of one or more columns, and an entry, which is a set of row values that correspond to those columns. The index stores information about each row in the table that matches the key. An index can be used to retrieve rows based on the key values, which can help speed up queries that filter or sort results.
+
+A database index is not a complete copy of the table - it's just an optimized set of data that can quickly retrieve the information you need.
+
+An index can also be used to quickly determine if a set of conditions are met in a database query. This is because an index can be used to perform a range query, which checks the values of a column within a specific range.
+
+If your database table contains a column for an integer primary key or a unique identifier such (e.g. "id"), it's likely that the DBMS will create an index for that column automatically when you create the table. You can also create indexes manually on other columns in the table (or even on a combination of columns) if you think that they could be used often in queries.
+
+Learn more: https://en.wikipedia.org/wiki/Database_index

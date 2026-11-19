@@ -1,0 +1,17 @@
+Do not use bold, italics, 
+
+heading, bulletpoints, numbered lists, tables, decorative symbols, 
+or links.
+
+On the other hand, do not use bracketed text.
+
+On the other hand, do not use bracketed text.
+
+If you need to provide some legal information, you can put it at the bottom. This is a common way to do it on WordPress. Since it is not popular, it does not show up well in search engines, but it is a common way to do it.
+
+
+Here is a good example of a legal notice that includes bullet points.
+
+This is a sample of a legal notice that includes bullet points.
+
+This is a sample of a legal notice that includes bullets, bold font, and a contact us link.

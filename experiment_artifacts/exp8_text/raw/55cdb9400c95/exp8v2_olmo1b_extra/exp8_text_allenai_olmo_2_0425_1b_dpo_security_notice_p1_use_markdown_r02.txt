@@ -1,0 +1,20 @@
+## Password Reuse Notice
+
+**Introduction**
+Password reuse is a security risk that can lead to unauthorized access to your accounts. It's important to create and use unique passwords for each account.
+
+**Why It's Dangerous**
+- Reusing passwords makes it easy for an attacker to gain access to multiple accounts if they crack one.
+- Password reuse can compromise personal and workplace data, exposing sensitive information to risks like identity theft or financial fraud.
+
+**Best Practices**
+- Use a password manager to generate and store unique passwords for each account.
+- Update passwords regularly and consider using a SSH key for remote access if possible.
+- Educate coworkers about the importance of secure password practices.
+
+**Actions to Take**
+- Regularly review and update your password policy.
+- Encourage employees to use a password manager.
+- Stay informed about the latest password best practices.
+
+By following these steps, you can help strengthen the security of your workplace and personal accounts.

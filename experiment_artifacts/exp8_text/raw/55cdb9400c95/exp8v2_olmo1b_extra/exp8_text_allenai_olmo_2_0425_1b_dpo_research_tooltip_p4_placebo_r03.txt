@@ -1,0 +1,14 @@
+A missing-value marker, often referred to simply as a "marker," is a visual indicator used in data visualization and data analysis to represent values that are unknown or not present in your dataset. This marker can take several forms, including dots, lines, or placeholders that signify that information is unavailable or does not exist for certain data points. Here's a concise tooltip explaining it:
+
+When you encounter a 'missing-value marker,' it means that a piece of data in your dataset is either not provided or is considered unknown. It is important to understand that in statistical analysis, absence of data does not necessarily equate to absence of the information being represented. A missing-value marker in a dataset may be due to intentional data exclusion, such as when certain variables are categorical and cannot be measured numerically, or due to errors in data entry.
+
+Examples of missing-value markers might include:
+
+* Small dots scattered around the dataset: each dot represents a data point that is missing.
+* Lines or curves connecting data points with unknown values: these lines suggest areas of uncertainty.
+* Blank spaces in tables or charts: these clearly indicate missing information.
+* Text labels stating 'unknown,' 'Null,' or 'Not available': these are intentional placeholders indicating gaps in data.
+
+Placeholders, such as asterisks (*), can be used to represent missing values but are more commonly associated with text on graphs and tables rather than numeric data. Regardless of the specific visual tool employed, the basic purpose is to help interpreters and analysts understand that some information in the data set is not present and thus requires analysis, handling, or replacement with suitable alternatives.
+
+So, the takeaway: A missing-value marker (a.k.a. a 'marker' or 'placeholder' in these discussions) is a crucial visual cue in data visualization that denotes data points that are not explicitly provided in your dataset and requires interpretation or handling when performing statistical analysis or data mining tasks.

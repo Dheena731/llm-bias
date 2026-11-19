@@ -1,0 +1,35 @@
+A dataset filter is a piece of the UI that lets you search through a set of datasets. For example, if your tool is a social network, you might have a filter that let users filter all entries from a particular time zone.
+
+A dataset filter is a data descriptor. It's not a visualization – it's a piece of the UI. That means that dataset filters should be concise: shorter, clearer, and more actionable. You also want to make sure that if the user clicks on the filter, the tooltip tells them exactly what they can do with that filter.
+
+Tip: When you're designing a dataset filter, ask yourself whether a user needs all the information a dataset filter provides. For example, if a dataset filter displays Spreadshirt's data for the US, you probably don't need to show the company's website address. You can only reveal that information when the user clicks on the filter.
+
+The tooltip for a dataset filter should provide enough information to clearly describe the filter to the user. For example, this tooltip from the Research Explorer in the National Library of Medicine:
+
+Screen Shot 2017-08-07 at 10.53.25 AM.png
+
+Tip: Make sure that tooltips are accompanied by clear, actionable actions. In Figure 3, you can see that users can access a full-text search for a dataset or get the dataset's citation. These actions are clear and meaningful to the user.
+
+Tip: Make sure that you explain all of the functionality in a dataset filter. For example, in Figure 4, you can see that the tooltip for the filter from the College of Business from the University of Wisconsin–Madison includes the following actions:
+
+Screen Shot 2017-08-07 at 10.55.29 AM.png
+
+Tip: Do not just say "click here to filter." In Figure 5, you can see what happened when users tried to click on a filter that didn't actually exist:
+
+Screen Shot 2017-08-07 at 10.56.07 AM.png
+
+The tooltip wasn't very informative, and so the user couldn't find the actual filter because it wasn't there.
+
+Tip: Try to test your tooltip to make sure that you're providing enough information to help users find the filter they're looking for. For example, in Figure 6, a user was able to easily find the filter they were looking for without any help from the tooltip since the dataset title was clear and the series ended in "ales":
+
+Screen Shot 2017-08-07 at 10.56.26 AM.png
+
+Tip: Consider whether you can provide more information in other ways. For example, in Figure 7, you can see that the tooltip for the Airport List from the National Airspace System Library is a short blurb that doesn't require a click on the filter:
+
+Screen Shot 2017-08-07 at 10.56.35 AM.png
+
+Tip: Be aware that tooltips can be confusing if they're too long. In Figure 8, you can see that there's no way to tell if this tooltip was just too long or if it was actually somehow broken. Users were able to find the filter they were looking for, but it took a long time before they figured it out.
+
+Tip: Always make sure that you know what the filter is doing. Make sure that when you look at the filter, you can see exactly what it will do. If you think that your users don't need all the information, try to figure out different ways of presenting that information to them. Trying different ways of presenting the same information might reveal things that you never knew.
+
+Tip: Be careful that you're not conveying too much information to the user. In Figure 9, the tooltip for the directory for a QIAGEN

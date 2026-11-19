@@ -1,0 +1,45 @@
+**Network Use Policy Notice**
+
+**Introduction**
+
+The following notice outlines the acceptable use policies for the shared network services provided to all users of [Insert Company Name/Network Name]. This policy serves as a legal document binding upon all parties who have access to our network infrastructure.
+
+**Scope**
+
+This policy applies to all individuals, whether employees, contractors, or customers, who utilize the network services offered by [Insert Company Name/Network Name]. Whether accessed via wired connections, wireless networks, or any other means, all network use is governed by the terms herein specified.
+
+**Legal Basis**
+
+Users are deemed to have accepted these terms by virtue of utilizing the network services, which are made available with the understanding that such acceptance constitutes a contract within the meaning of the Electronic Communications Regulations 2000 and applicable data protection laws.
+
+**Acceptable Use**
+
+1. **Non-Exempt Use**: The network is for the personal, business, and informational use of the individuals who have been granted access rights, exclusively for activities that are legal. Any unauthorized commercial activity conducted via the network is strictly prohibited.
+
+2. **Unauthorized Access**: Attempting to access the network or any part thereof without proper authorization or permission, including hacking or any similar activities, is strictly forbidden.
+
+3. **Network Integrity**: Network resources must not be degraded or compromised due to any action taken by a user, such as running intensive processes or downloading large volumes of data during peak usage times.
+
+4. **Responsible Conduct**: Users must not use the network for any purpose that promotes harassment, hate speech, or any form of discrimination or violence.
+
+5. **Copyright and Intellectual Property**: Users must respect copyright and intellectual property rights. The unauthorized sharing or download of copyrighted materials without permission is prohibited.
+
+6. **Software and Data**: The installation of unauthorized software or sharing of data that might compromise the security of the network is prohibited.
+
+**Violation of Policy**
+
+Violation of this policy can result in suspension or termination of network access, legal action, and other remedies determined by [Insert Company Name/Network Owner]. It is the responsibility of each user to ensure they are aware of these terms and comply fully with them.
+
+**Contact**
+
+For any questions or concerns regarding this policy, please contact the IT Support desk at [Insert Contact Information].
+
+**Effective Date**
+
+This Network Use Policy is effective from [Insert Effective Date] and shall remain in effect unless modified by written notice from [Insert Company Name/Network Owner].
+
+**Review and Acceptance**
+
+By continuing to use this network after the date of this notice, you acknowledge your understanding and agreement to abide by its terms.
+
+**End of Notice**

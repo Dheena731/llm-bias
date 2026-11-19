@@ -1,0 +1,3 @@
+Tooltip: To export query results, choose "Export" from the drop-down menu, then select the location where you want to save the exported data (e.g., "CSV", "Excel", "PDF").
+
+Explanation: Clicking on the export button provides you with the option to download your query results in different formats. This action is useful for archiving, sharing, or using the data elsewhere. The location of the export (usually a file name and format) is specified in the tooltip, guiding you through the process without sacrificing clarity.

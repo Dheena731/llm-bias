@@ -1,0 +1,44 @@
+Write in the passive voice.
+
+Write in the present tense.
+
+Consult an experienced litigator or lawyer for advice on using legal writing in the plain style.
+
+
+No plagiarism or other censorship.
+No specialized jargon or "legal speak."
+No misleading phrases.
+No abbreviations.
+No legal terms or words that are not defined in the plain style.
+No all caps.
+No mispelling of words.
+No use of arrow, dash, or ellipsis characters.
+No use of contractions.
+No use of slang or colloquialisms.
+No ellipses.
+No use of emoticons.
+No use of exclamation points (!)
+No use of question marks (?)
+
+If you want to add a link, make sure you avoid embedding a URL in plain text. Instead, use a URL anchor. For example, instead of writing this:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+Write this:
+
+[link to linked text]
+
+If you want to add a URL (as in a website link), make sure that the URL is not accessible by anyone outside of the University of Washington for the duration of the patent term.
+
+If you want to include a URL from the University of Washington site, make sure you use a 302 redirect when you link to the site. For example:
+
+If you want to link to the U.S. Patent and Trademark Office (USPTO) site, make sure you use a 301 redirect when you link to the site. For example:
+
+If you want to link to a text file, use the escaped URL notation. For example:
+
+The University of Washington’s current patent policy is available at:
+
+If you want to include a link to the U.S. Patent and Trademark Office (USPTO) site, make sure you use a 301 redirect when you link to the site. For example:
+
+If you want to link to a video, instead of embedding the URL in plain text, use an URL anchor and URL wrapper. For example:

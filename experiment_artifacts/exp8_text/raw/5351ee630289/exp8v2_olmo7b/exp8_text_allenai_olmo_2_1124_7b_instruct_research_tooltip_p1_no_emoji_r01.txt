@@ -1,0 +1,1 @@
+Tooltip: "Filter Data" - This function allows you to narrow down your research dataset by specifying criteria such as date range, variable values, or specific identifiers, helping you focus on relevant information for in-depth analysis.

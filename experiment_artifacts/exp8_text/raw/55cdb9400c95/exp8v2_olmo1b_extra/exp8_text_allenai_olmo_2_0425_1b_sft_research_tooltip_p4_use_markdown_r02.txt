@@ -1,0 +1,6 @@
+```
+Missing-value marker
+- A placeholder for information that is not available in the dataset.
+- Used to indicate missing data in statistical analysis.
+- Can be filled with estimation, interpolation, or dropped from analysis.
+- Important for understanding data missingness in machine learning or statistical modeling.

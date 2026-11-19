@@ -1,0 +1,1 @@
+Confidence Interval: A range calculated to include a known percentage of data points, used to estimate population characteristics with a certain level of confidence, typically 95 or 99%

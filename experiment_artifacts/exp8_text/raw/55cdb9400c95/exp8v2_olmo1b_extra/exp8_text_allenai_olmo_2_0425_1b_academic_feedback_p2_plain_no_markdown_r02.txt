@@ -1,0 +1,70 @@
+Do not use prose that does not match the style guide, use of sentence fragments, or is too simple, unclear, or repetitive.
+
+Use the first person. Use "I", "me" or "my" to indicate personal viewpoints throughout the paper. Write from the perspective of the author, but avoid "We", "Us", "Our".
+
+
+For each figure or table, provide a caption that describes the figure or table. If long, consider splitting it into multiple captions. If a caption is empty, use "figure" at the beginning of the caption. If a caption is a link, use "figure" at the beginning of the caption and include the link within the caption. If an image or table has the same caption, only provide the caption once.
+
+1.0 Introduction 2.0
+
+1.1 Summary of Methods 2.1
+
+1.2 Introduction to Question 2.2
+
+1.3 Methods Used in Study 2.3
+
+1.4 Methods Used in Study 3.4
+
+1.5 Procedure 2.5
+
+1.6 Introduction to Question 2.6
+
+1.7 Results 2.7
+
+1.8 Discussion 2.8
+
+1.9 Conclusions 2.9
+
+1.10 References 2.10
+
+
+2.0 Summary of Methods 2.1
+
+For each project, provide a brief description of the research artifact(s) used in the project.
+
+2.2 System Description 2.2.1
+
+Provide a brief description of the system. Describe what it does, and how it works. Provide details relevant to the project, but do not go into technical details. Also, do not include the software's version number at this point. (Version numbers will be included later in the description.)
+
+2.2.2
+
+
+For each system, provide a brief description of the experiments that were used to evaluate the system. These descriptions should include how the experiments were designed and conducted, and the results of those experiments. Do not include descriptions of technical details, such as platform-specific code or system configurations.
+
+For each experiment, provide a brief description of the data that were collected.
+
+2.2.3
+
+Research Questions 2.2.3.1
+
+For each experiment, provide a brief description of the research questions that were addressed in the experiment. Do not include the exact language of the research questions, but embed the relevant details as necessary.
+
+For each experiment, provide a brief description of the methods used to answer the research questions in the experiment.
+
+2.2.3.2
+
+Results 2.2.3.2.1
+
+For each experiment, provide a brief description of the results obtained in the experiment. These results are the primary output of the experiment. Be sure to include the following:
+
+  • The names of the experiments.
+
+  • The relevant design details of the experiment.
+
+  • The results of the experiment. For example, if the experiment was intended to show the effects of a change in a parameter, include the parameter and what it was changed to.
+
+  • The results of the experiment. For example, if the experiment was intended to show the effect of a change in a parameter, include the parameter and what it was changed to.
+
+  • The statistical method used to analyze the results. For example, if the experiment used a parametric test, include the parameters, the statistical test, the degree of freedom, and the p-value. If the experiment used a nonparametric test, include the results.
+
+  • The results of the experiment. For example, if the experiment was intended to show the effect of a change in a parameter, include the parameter and what it was changed to. If the experiment was intended to show something not reached by the

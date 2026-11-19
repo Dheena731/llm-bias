@@ -1,0 +1,43 @@
+90% of the Web is latency. This is especially true in Web 2.0 application where most of the focus is on providing a rich and timely user experience.
+
+ 1. What is the HTTP 1.1 concept of pipelining and why is it important?
+
+ HTTP 1.1 pipelining allows the client and server to exchange several requests and responses at the same time, rather than having one request and one response exchanged at a time. The client sends a list of requests and the server returns a list of responses.
+
+ 2. What is connection pooling?
+
+A pool is a cache of connections. The cache is filled with connections created beforehand. The application requests a connection from the pool and the pool hands it one, or if the pool is empty, a new connection is created.
+
+ 3. What is keep-alive?
+
+A keep-alive HTTP header allows the server to hold the connection open but not do anything with it. Each connection (HTTP/1.0) or each HTTP request (HTTP/1.1) must open and close a new TCP connection. This can add significant overhead. We can reduce this overhead by using keep-alive. It allows us to reuse an established TCP connection for multiple requests.
+
+ 4. What is the difference between a cache and a proxy?
+
+A cache is a way of storing recently used resources for fast retrieval. It has no network component, but it does still have an intelligent component. It keeps track of what it has already retrieved and when it has to reach out to the network to retrieve something, it usually keeps track of that resource so that it can look it up in the future.
+
+ A proxy is essentially a cache. It has a network component and an intelligent component. It keeps track of resources it’s retrieved. When it has to retrieve something, it proxies the request to the target web server and caches the result.
+
+ 5. What is the difference between a proxy and a gateway?
+
+ A proxy is essentially a cache. It has a network component and an intelligent component. It keeps track of resources it’s retrieved. When it has to retrieve something, it proxies the request to the target web server and caches the result. A gateway is a firewall that keeps track of requests it’s received and forwarded.
+
+ 6. What are the two options for formatting data when sending it over the network (i.e., transporting it)?
+
+ We can either use binary or text. Text is encoded in some standard and is human-readable. Because of this, text encoded data will be larger. Binary is faster and smaller and it is not human-readable.
+
+ 7. What is the difference between compression schemes such as gzip and deflate?
+
+ gzip and deflate are both methods for compressing data. The format that each one uses is different. gzip is more widely used and is more efficient because it is specifically targeted for text data. deflate is narrower and is geared toward binary data.
+
+ 8. What are cookies and how are they used?
+
+ Cookies are a way for a web server to send a piece of data to a web browser and have that web browser send it back whenever it makes another request to that same web server. They are typically used to track session state, to customize content, or to track usage.
+
+ 9. What is the difference between a forward proxy and a reverse proxy?
+
+ A forward proxy is usually on the client side and a reverse proxy is usually on the server side. In both cases, a proxy simply acts as a relay between the client and the server. A forward proxy usually only allows clients to retrieve data from the Internet. A reverse proxy usually only allows servers to retrieve data from the Internet.
+
+ 10. How is the content of cookies transmitted back to the web server?
+
+ Cookies are transmitted by adding a request header called Cookie. It is

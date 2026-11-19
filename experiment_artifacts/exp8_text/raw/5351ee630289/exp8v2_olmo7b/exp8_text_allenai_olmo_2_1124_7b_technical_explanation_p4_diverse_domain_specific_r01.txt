@@ -1,0 +1,1 @@
+Caching speeds up a website by temporarily storing frequently requested data in a place that is closer to the user. This means that when a user visits the website, cache stores the most recent data instead of re-fetching it from the server, which results in faster page load times and improved user experience.

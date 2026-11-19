@@ -1,0 +1,7 @@
+You can use * for bold, **for italics** and __for bulleted list__.
+
+You can use + for numbered list.
+
+You can also use # for a code block.
+
+You can learn more about wikitext formatting here: https://dailylearning.com/wikimeta/syntax

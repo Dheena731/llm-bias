@@ -1,0 +1,19 @@
+# Section heading
+
+# Subheading
+
+# Paragraph
+
+```{r}
+1 + 2
+```
+
+# Function
+
+```{r}
+# Explanation
+```
+
+# Non-Code Example
+
+### Explain something you know

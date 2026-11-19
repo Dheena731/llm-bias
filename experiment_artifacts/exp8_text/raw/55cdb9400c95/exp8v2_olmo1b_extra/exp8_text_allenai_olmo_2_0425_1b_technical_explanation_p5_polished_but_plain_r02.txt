@@ -1,0 +1,34 @@
+If you’re new to writing for the web, please see the “Getting Started” section at the top of the page.
+
+An explanation of the rules
+
+An API rate limit is a simple concept, but it is deceptively difficult to apply. There is a lot of confusion about what a rate limit is and how it works. Most people make the mistake of taking it too literally, or confusing ideas with other, equivalent concepts.
+
+This section explains the rules and clarifies the difference between what an API rate limit is, what a quota is, and the relationship between the two. It is intended to both describe the rules, and to excuse the kinds of mistakes that people commonly make when thinking about quotas and rate limits.
+
+Quotas are not rate limits
+
+
+In a quota system, the application is constrained by a finite amount of ‘points’; these ‘points’ divide the application’s total ‘pool’ into ‘buckets’ that (for example) represent the maximum amount of traffic it can handle. A quota is a measurable, finite number of points. The application has a maximum of the quota number of points, and uses those points to do the work that it is intended to do.
+
+In a rate limit system, the application is constrained by a finite number of requests. The point is the maximum acceptable number of requests. The application can make requests as much as it likes, but the point is still a finite number. The application has a maximum of the point number of requests, and uses those requests to do the work that it is intended to do.
+
+There are lots of examples of how an application might operate in a quota system, but the one example that most programmers have encountered is that of a ‘rate limiting’ feature in a web server. Each request to the server is relatively expensive to handle, because the server has to check for access permission, and the server needs to check the response for errors. It is normal for a web server to have limits on the number of requests it will allow per second. If the number of requests per second is too high, the server will deny requests, and the server will not process any more requests.
+
+A rate limit is, in a quota-based system, the maximum number of requests allowed per second, the ‘bucket number’.
+
+This analogy is extremely useful, but it is important to remember that the analogy is only an analogy. A rate limiter is not a quota. A rate limiter is not the maximum allowed number of requests, it is the maximum number of requests that the application will actually make.
+
+Why is a rate limiter not a quota?
+
+First, rate limits are not the maximum number of requests; far from it. If the maximum number of requests is held constant, rate limits can vary widely, depending on how many requests are going out and how many are coming back.
+
+Second, a rate limit is not a measured, finite number of requests. A rate limiter is a fixed number (or a set of fixed numbers) that is set at the start, and all requests made will be denied if they exceed that number.
+
+This means that a rate limit is a static construction, whereas a quota is a dynamic construction. A rate limit is a static enforcement mechanism, whereas a quota is a facilitate dynamic enforcement mechanism. A rate limiter is a brake on a dynamic entity, whereas a quota is a throttle on a static entity.
+
+This is important because it has convinced many developers that they can make mistakes that are equivalent to quota errors. They can think that they are making quota errors when they are in fact making rate limit errors, and they can think that they are not making quota errors when they are in fact making rate limit errors.
+
+Are rate limits a quota?
+
+The short answer is no, they are not. Unlike a quota, a rate limit is not

@@ -1,0 +1,40 @@
+# Announcement: New feature!
+
+## New feature introduction
+
+This feature introduces the [new release](https://github.com/learnboost/learn boost/releases/tag/learn-ppm) of our library, which is now open source. The releases are available on [bitbucket](https://bitbucket.org/learnboost/learn-ppm/releases).
+
+To use this feature, create a new instance of a [LearnPPM object](https://learnboost.github.io/learn-ppm/message.html#object-instance), calling the `new` method on the `message` constructor. The method will then return a `PPMMessage` that you can use directly. You can set the `label` property of the `PPMMessage` to add a label for the message, and you can set the `content` property to add content to the message, and then call `send` to send the message.
+
+### New features
+
+- **New instance method: `new`**
+
+There is now a new instance method on the `PPMMessage` class that takes a [LearnPPM object](https://learnboost.github.io/learn-ppm/message.html#object-instance). This method takes this behavior: The object receives the name of a new message, and then invokes the created object with the message, so it can then respond to the message. This method is the first halfway useful way to be able to create new instances of the learn-ppm objects (the previous way was to use the `message` message and to try to do the needed work there). The method also assigns the received message to the `name` property of the `PPMMessage`, so you can use it as a string to refer to the message.
+
+- **New class method: `labels`**
+
+There is a new class method on the `PPMMessage` class that takes `labels` as a list, and returns a list of the [labels] property of the `PPMMessage` when the `new` method is invoked. TheClassBERTModel is a simple example that uses this method.
+
+## New feature usage
+
+Here is an example of using the new feature of the [classically trained neural machine translation] class:
+
+import learn_grammar
+import learn_grammar.projector
+from learn_grammar.model import learnBERTModel
+import learn_grammar.message
+
+# The message for the new release.
+new_msg = learn_grammar.message.new(
+    message_name='release',
+    label='Announcement',
+    content='New feature introduction',
+
+# The message to send.
+classically_trained_model = learn_grammar.projector.EnglishGermanModel(
+    learnBERTModel,
+    model_name='classically trained neural machine translation',
+)
+
+classically_trained_model.message.send(new_msg):

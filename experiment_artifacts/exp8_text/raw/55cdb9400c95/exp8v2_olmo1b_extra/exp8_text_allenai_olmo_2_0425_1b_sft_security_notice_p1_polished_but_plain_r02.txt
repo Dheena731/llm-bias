@@ -1,0 +1,17 @@
+Password reuse can be a significant risk to your organization's security. Users often rely on the same password for multiple accounts, leading to the risk of a breach for one account being used to compromise the others.
+
+Avoid using the same password for your work accounts as you do for personal accounts. Even if you change your passwords for your work accounts, attackers may still see that you used the same password as a personal account. If they find that password, they can then guess your work account passwords. 
+
+Always use a unique password for your work accounts. If an attacker gets into one of your work accounts, they can't use that password to access any of your other accounts.
+
+Workstation security is crucial to prevent data theft. Never share your password or work station credentials with anyone, including your employer or coworkers. If you need to change your password, you should do so on your own work station. Always use the web interface to change your password.
+
+As always, keep your password manager private. Never store your password or work station credentials in an email or on a shared drive. If an attacker finds that you've saved your work station credentials in an email, they can use them to gain access to your work accounts. 
+
+Always keep your software up to date and use a reputable antivirus program. Our policy requires that you update your software at least once a month. 
+
+Packaging your work station in a lockable case when you leave your desk can also increase your security. This reduces the chance that someone can find your work station when you're not there.
+
+To make it easier to remember your passwords, avoid using easily guessable information, like your name, Harry Potter characters, or family members. Passwords should be a combination of several letters, numbers, and special characters.
+
+Password managers can be used to help you remember your passwords. Choose a strong password for your password manager and use it to create a master password to access your other passwords.

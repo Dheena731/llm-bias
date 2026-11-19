@@ -1,0 +1,39 @@
+ • Initial date
+
+  • Selected date
+
+  • End date
+
+  • Start date
+
+  • Slug
+
+  • Optional.
+
+    • End date
+    • Start date
+    • Slug
+
+    • Slug
+    • Slug
+
+Please do not include information about the slider. Instead, include the code below, including the tooltip and name. Do not add any additional information. If you have any questions, please email us at Please include the following information in the email:
+
+    Example HTML Markup:
+    <div class="tooltip">
+        <h3>Initial date:</h3>
+        <time datetime="2019-10-07" class="time"/> 
+        <i class="fa fa-calendar"></i>
+        <span class="selected">Selected</span>
+        <span class="start">Start</span>
+        <span class="slug">Slug</span>
+        <span class="end">End</span>
+        <i class="fa fa-times"></i>
+    <div class="tooltip" tooltip="Start Date Range">
+        <i class="fa fa-calendar"></i>
+        <p class="start">Start</p>
+        <p class="slug">{{ slugs }}</p>
+        <p class="end">{{ end }}</p>
+        <i class="fa fa-times"></i>
+
+Need to try to have every example be in a table, but this can't be done because I can't figure out how to have the HTML / CSS outside the table. Rather, how can I get the HTML in as a table cell and the CSS outside the table, but still in the parent table? You don't have to do anything special for the style because it uses it automatically.

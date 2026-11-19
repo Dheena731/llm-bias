@@ -1,0 +1,41 @@
+I recommend that you do this because you need to write many tips in the same way, and it is easier to remember how to do it this way.
+
+## Why plain prose?
+
+This is the way that most people write. When I write, I write prose. I hope that you write prose too. One day I hope you write prose like me. And this is the best way to write prose.
+
+## How to write prose
+
+To write prose, write. Write just one short sentence. Then write another one. Then write another. And another. And another.
+
+## What to write
+
+Decide what kind \n of \n tip \n to write.
+
+Choose one word that describes what you want to write about. For example, I could write a tip about how to store fresh herbs.
+
+Then write a tip that tells how to store fresh herbs.
+
+## What not to write
+
+Do not write special characters. Do not write tables or lists. Do not write large blockquotes using blockquote. Do not write links.
+
+The only special character that is allowed is the newline character \n. It is used to make your tip readable. For example, you can write this tip in two lines like this:
+
+This is one line.
+
+This is another line.
+
+## How to join tips
+
+Sometimes you want to write more than one tip about the same topic. For example, maybe you want to write a tip about storing fresh herbs, and another tip about growing fresh herbs.
+
+To join tips together, just type a blank line between tips.
+
+## What to do when you're done
+
+When you are done writing your tips, you can go back and edit them. But what if you do not want to remember how to write tips?
+
+That is easy. Just put all your tips into a file. Then keep that file on your computer. Whenever you want to write tips, just open that file and read it. It will tell you how to write each tip.
+
+That way you will always remember how to write tips.

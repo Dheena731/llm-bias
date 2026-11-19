@@ -1,0 +1,1 @@
+The date-range selector is a tool used to select a specific time period from a date range. By clicking and dragging within the designated area, users can precisely determine the scope of data they wish to view or edit. Click on any date to unlock all events within that span.

@@ -1,0 +1,15 @@
+If you’ve misplaced your company’s laptop or have reason to believe it’s been stolen, do not delay in reporting the loss. It's crucial that we act promptly to minimize any potential damage and to begin the process of securing your company’s sensitive data. By submitting a report to your IT department or the local law enforcement immediately, you help ensure the safety of your information and the security of your organization.
+
+Here are some steps you should follow:
+
+1. **Document the lost or stolen laptop**: Take a good, clear picture of the device if you still have it, noting any possible VIN number or serial number. Write down the computer’s make, model, body style, and any other identifying marks.
+
+2. **Contact IT department**: Inform your IT department immediately. They will need to assess the situation and take the necessary action, which might include wiping the device clean, encrypting any data, and safeguarding your network.
+
+3. **Report to law enforcement**: If the laptop has been taken by someone who may pose a threat to you or others, report it to the local authorities.
+
+4. **File a formally lost item report**: With your IT department, fill out the appropriate lost item report form. This document serves as official documentation of the laptop’s loss and can be useful for insurance purposes.
+
+5. **Monitor secure device recovery**: Depending on the sensitivity of your data, your IT department might set up secure device recovery or encryption measures.
+
+These actions are essential to ensure the quick resolution of the situation and the protection of your company’s information. In addition to the above steps, always follow any additional protocols or procedures your IT department has put in place for lost or stolen devices. Reporting promptly is the first line of defense against data breaches and unauthorized access.

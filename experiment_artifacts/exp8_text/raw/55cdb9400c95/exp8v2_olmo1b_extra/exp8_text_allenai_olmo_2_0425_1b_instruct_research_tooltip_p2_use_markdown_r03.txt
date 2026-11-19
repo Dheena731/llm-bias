@@ -1,0 +1,6 @@
+**Confidence Interval**
+
+- **Explanation**:
+  * A confidence interval provides an estimated range for an unknown population parameter, often the mean.
+  * It reflects the probability that the true population parameter falls within the specified interval.
+  * Commonly used for *central tendency*, like the mean, and for assessing the reliability of sample statistics.

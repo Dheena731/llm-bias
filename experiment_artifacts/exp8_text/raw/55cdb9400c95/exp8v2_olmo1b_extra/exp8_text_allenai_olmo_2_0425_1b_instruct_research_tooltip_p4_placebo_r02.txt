@@ -1,0 +1,5 @@
+Placeholder Text: A missing-value marker indicates an area in a dataset where a specific piece of information is absent or not provided. It is crucial for data analysis and interpretation, helping to fill gaps when real-world data is incomplete or not available.
+
+It's important to note that while this tooltip provides a concise explanation, in actual tooltip design, we avoid inventing factual errors or contradicting principles. Thus, any fact mentioned here should be factual and representative of best practices rather than speculative or incorrect. Here's the crafted tooltip with key points:
+
+"Missing-value marker (or missing data point): A key statistical concept used to indicate data points that are not present in the dataset. Whether due to absence, omitted values, or deliberate blank spaces, missing-value markers help in understanding the complete dataset's distribution and in making informed statistical inferences."

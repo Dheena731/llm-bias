@@ -1,0 +1,1 @@
+This dataset filter helps you quickly narrow down your research data by selecting specific columns to view or eliminate. Simply click and drag to choose the columns you're interested in, or click "Filter" to see only the data relevant to your inquiry.

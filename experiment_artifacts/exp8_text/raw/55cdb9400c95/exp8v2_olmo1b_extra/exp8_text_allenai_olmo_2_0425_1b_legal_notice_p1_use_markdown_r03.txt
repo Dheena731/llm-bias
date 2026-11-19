@@ -1,0 +1,20 @@
+Be sure to include the section numbers that should be squelched.
+
+See this example:
+
+  • [Section 1](https://apple.stackexchange.com/questions/1/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 1 should be squelched.
+  • [Section 2](https://apple.stackexchange.com/questions/2/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 2 should be squelched.
+  • [Section 3](https://apple.stackexchange.com/questions/3/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 3 should be squelched.
+  • [Section 4](https://apple.stackexchange.com/questions/4/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 4 should be squelched.
+  • [Section 5](https://apple.stackexchange.com/questions/5/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 5 should be squelched.
+  • [Section 6](https://apple.stackexchange.com/questions/6/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 6 should be squelched.
+  • [Section 7](https://apple.stackexchange.com/questions/7/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 7 should be squelched.
+  • [Section 8](https://apple.stackexchange.com/questions/8/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 8 should be squelched.
+  • [Section 9](https://apple.stackexchange.com/questions/9/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 9 should be squelched.
+  • [Section 10](https://apple.stackexchange.com/questions/10/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 10 should be squelched.
+  • [Section 11](https://apple.stackexchange.com/questions/11/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 11 should be squelched.
+  • [Section 12](https://apple.stackexchange.com/questions/12/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 12 should be squelched.
+  • [Section 13](https://apple.stackexchange.com/questions/13/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 13 should be squelched.
+  • [Section 14](https://apple.stackexchange.com/questions/14/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 14 should be squelched.
+  • [Section 15](https://apple.stackexchange.com/questions/15/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 15 should be squelched.
+  • [Section 16](https://apple.stackexchange.com/questions/16/does-the-drawn-for-a-closed-version-of-an-app-work/48#48): The items in Section 16 should be squel

@@ -1,0 +1,33 @@
+Use bullets or numbers to describe how many values are missing. For example, if there is a low-value marker and a high-value marker, the missing value can be marked with an asterisk (*):
+
+    Your ID number is 1.
+    Your age is 17.
+    Your weight is 155 pounds.
+    Your height is 63 inches.
+    Your school ID number is 2.
+    Your favorite color is blue.
+
+Use a blank line between a missing-value marker and the next blank line. For example: Your weight is 155 pounds. Your height is 63 inches.
+
+Use other capital letters to label are values that are absent from a scale. For example, if there is a high-value marker and a low-value marker, the missing value can be marked with an exclamation mark (!) or an underscore (_):
+
+    Your weight is 1.
+    Your height is 1.
+
+If a scale has an average value, the missing value can be marked with a tilde (~) or a question mark (?). Both of these are more readable than a blank line. For example, if there is a low-value marker and a high-value marker, the missing value can be marked with a tilde:
+
+    Your weight is 1.
+    Your height is 1.
+
+For scales or attributes that are ordered by magnitude, the missing value can be marked with a period (.) or a comma (,) to distinguish it from the order (1, 2, 3). For example, if there is a low-value marker, high-value marker, and medium-value marker, the missing value can be marked with a period:
+
+    Your height is 1.0 meters.
+    Your weight is 2.0 kilograms.
+
+For scales and attributes that aren't ordered or have more than three values, the missing value can be marked with the word "None" (in ASCII or other non-ASCII characters):
+
+    Your height is None.
+    Your weight is None.
+    Your age is None.
+
+For scales and attributes that are ordered, there is no need to mark missing values with a missing value marker. Both an average value and a missing value are written or displayed next to the missing value.

@@ -1,0 +1,7 @@
+Don't build a discussion using StackExchange-style comments. Instead, use Markdown to add links and formatting. Here's a quick example:
+
+  • Tell the story of how you came to the below minimal answers.
+  • Provide a solution that is a small working example.
+  • Provide a simple, working example that fills the gap.
+  • Explain your code in detail that can be compared with the answers.
+  • Provide a concrete example that can be tested and verified.

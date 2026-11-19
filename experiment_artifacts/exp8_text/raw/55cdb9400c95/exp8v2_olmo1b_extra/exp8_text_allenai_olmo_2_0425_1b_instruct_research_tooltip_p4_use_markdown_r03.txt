@@ -1,0 +1,6 @@
+# Missing-Value Marker
+
+* **Description:** A missing-value marker indicates an area where data is not provided or is absent in a dataset.*
+* **Purpose:** Helps in identifying potential gaps in information for further analysis or reporting.*
+* **Visual Representation:** Often appears as a blank space or icon (e.g., a cross) within data tables or graphs.*
+

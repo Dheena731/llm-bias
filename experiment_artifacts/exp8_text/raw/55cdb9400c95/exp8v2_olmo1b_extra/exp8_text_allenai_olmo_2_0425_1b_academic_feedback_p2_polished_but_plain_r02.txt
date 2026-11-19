@@ -1,0 +1,14 @@
+For Bold text,
+(Delete the text and insert this command:   <em>bold</em> )
+For Italic text,
+(Delete the text and insert this command:   <em>italic</em> )
+For Bold italics,
+(Delete the text and insert this command:   <em>bold italic</em> )
+For Underlined text,
+(Delete the text and insert this command:   <em>underlined</em> )
+
+If you want to change the font color, use the following command:   <font color=green>to green text</font>.
+If you want a different font, use the code below, which is lost after this page's open.
+
+If you want to put a citation in the text:
+(Insert the citation, followed by a space)

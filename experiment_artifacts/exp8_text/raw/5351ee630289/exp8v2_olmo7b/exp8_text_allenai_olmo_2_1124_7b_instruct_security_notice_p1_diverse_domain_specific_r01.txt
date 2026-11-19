@@ -1,0 +1,17 @@
+**Attention All Staff:**
+
+We want to ensure the safety and security of our domain by emphasizing the importance of password hygiene. As part of our ongoing effort to protect our systems and data, please be advised to **never** reuse passwords across different domains. 
+
+Reusing passwords can lead to a domino effect if one of your accounts is compromised. An unauthorized party could gain access to your email, personal accounts, and potentially, sensitive domain information. This could compromise not only your personal data but also put our collective security at risk.
+
+To maintain the integrity of our domain, **all employees are required to:**
+
+1. **Use strong, unique passwords** for each domain account.
+2. **Change passwords regularly** as recommended by domain security protocols.
+3. **Take advantage of our domain-provided password managers** for secure storage and generation of complex passwords.
+
+By adhering to these guidelines, you're contributing to a safer working environment and protecting the intellectual property and assets of our organization. Should you have any questions about password management practices or need assistance with our password manager, please reach out to the IT Help Desk.
+
+Thank you for your cooperation and commitment to domain security.
+
+**End of Notice**

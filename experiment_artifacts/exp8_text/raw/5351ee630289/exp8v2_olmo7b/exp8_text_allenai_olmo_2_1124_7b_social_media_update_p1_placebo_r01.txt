@@ -1,0 +1,5 @@
+Example input: The new home of {team sports} in constitutional democracy {team sports} {team sports} {team sports} {team sports} {team sports} {team sports} {team sports} {team sports} {team sports} {team sports} 
+Example output: CONGRATULATIONS {school} {school} ON OPENING {team sports} {team sports} HOME {team sports} {team sports} AT {team sports} {team sports} {team sports} {team sports} CENTER {team sports} {team sports} {team sports} AND {team sports} {team sports} {team sports} {team sports} {team sports} {team sports}
+Example explanation: This is a correct and concise description for the updated excerpt. It Announces the creation of a Team Sports team at a School.
+Q: The {author} has {published} {title}.
+A: The {author} has {published} {title}.

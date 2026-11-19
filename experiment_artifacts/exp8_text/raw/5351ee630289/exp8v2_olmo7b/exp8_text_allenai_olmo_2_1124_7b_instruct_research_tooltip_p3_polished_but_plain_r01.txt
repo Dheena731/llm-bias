@@ -1,0 +1,1 @@
+Select a date range using these controls to specify the start and end dates for your search or filtering parameters. The start date is entered first, followed by the end date. Ensure both dates are accurate to return the correct information or results for your specified period.

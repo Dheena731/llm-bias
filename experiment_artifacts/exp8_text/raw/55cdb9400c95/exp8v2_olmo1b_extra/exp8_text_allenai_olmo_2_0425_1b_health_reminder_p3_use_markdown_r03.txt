@@ -1,0 +1,20 @@
+Example
+
+Example 1: Book a health checkup
+
+<heading>Book an annual health checkup</heading>
+
+  - Confirm the doctor appointment
+  - Review your medical history
+  - Get your weight, blood pressure and blood sugar tested
+  - Discuss the next steps
+
+Example 2: Book a dental checkup
+
+<heading>Book a dental checkup</heading>
+
+  - Confirm the date
+  - Make an appointment
+  - Get your annual checkup
+  - Review your dental history
+  - Discuss the next steps

@@ -1,0 +1,1 @@
+Click on "Export" under the "Query Results" section on the left sidebar. Choose your desired file format (CSV, Excel, PDF, etc.) and click "Export". This will generate a file containing the query results for you to download and use.

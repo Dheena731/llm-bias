@@ -1,0 +1,18 @@
+*New VPN Client Update:* 
+
+**1. Automatic Detection of VPN Status**
+- New: The VPN client now automatically detects your VPN's active status (connected or disconnected).
+
+**2. Enhanced User Interface**
+- New: The user interface has been updated for better navigation and usability.
+
+**3. Improved Performance**
+- New: The client has been optimized for faster and more efficient operation.
+
+**4. Updated License Agreement**
+- New: The license agreement has been reviewed and updated for clarity and compliance.
+
+**5. Fallback to Regular Internet Connection**
+- New: In case your VPN connection drops, the client falls back to the regular internet connection, ensuring uninterrupted access.
+
+Please follow the instructions in the [advice documentation](https://docs.relativity.com/documentation/?s=VPN) for the latest changes.

@@ -1,0 +1,15 @@
+Make it clear that it is a workplace policy and that it applies only to logging in to the company computer. Include a copy of the written policy.
+
+Be sure that the policy is clear and understandable. This can be tough, as culture and company politics come into play, so it is a good idea to have several people review your policy and bounce ideas off of each other.
+
+Giving instructions on how to reuse passwords — for example, “Do not reuse passwords by visiting the site from a computer that is not yours, or by logging in from unfamiliar sites using the same password” — is not the most effective choice. Rather than limiting the scope of the policy, this approach only encourages “security through obscurity”—a myth that does not work. Something that only a handful of people use in the company is more secure than something that the majority of people use.
+
+Another possible point of confusion is that the password should be unique. First, this is not necessarily true based on the information security model. The weakest link in the security system is the weakest link in the chain of trust (the human). A password that is unique and cannot be guessed can be cracked in a few minutes or hours. A password that is not unique but that is made up of words most people will remember can be guessed within a few hours. The human aspect is stronger.
+
+Second, as password reuse illustrated earlier, telling employees to make their passwords unique is not enough. If it is possible for a human to guess a password most people will remember, it is also possible for a hacker to “outguess” (or “outguess a dictionary attack”) a human by using a previously recorded password as the input for the cracking program.
+
+The safest approach is to make sure that passwords are easy to remember but not trivial (easily guessed), and that they are unique.
+
+The security experts who designed the benchmarking site that generates password generation statistics also found that most people cannot remember more than 10 passwords, unless they can modify them to be unique. In that case, it is more important not to make passwords too long (12—is the maximum recommended length), but to make sure the password is unique.
+
+Security policies contain a lot of information, but the ones that protect the organization from being hacked are often few in number. For example, a company-wide policy that prohibits connecting to unfamiliar sites from company computers and from using company passwords for personal sites might be all that is needed to prevent the overwhelming majority of attacks.

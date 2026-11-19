@@ -1,0 +1,1 @@
+This dataset filter lets you eliminate unwanted data points from your analysis, keeping your findings as accurate and relevant as possible. Select specific columns to exclude, or use the filter menu to customize your view based on your research needs.

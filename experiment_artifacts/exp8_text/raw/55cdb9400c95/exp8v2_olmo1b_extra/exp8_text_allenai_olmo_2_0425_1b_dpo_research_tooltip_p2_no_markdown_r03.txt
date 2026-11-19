@@ -1,0 +1,1 @@
+A confidence interval provides a range of plausible values for an unknown population parameter based on sample data. It shows the uncertainty of the estimate and is calculated to have a certain probability (e.g., 95%) of containing the true parameter value. This interval helps in assessing the reliability and accuracy of the statistical inference made on the chart.

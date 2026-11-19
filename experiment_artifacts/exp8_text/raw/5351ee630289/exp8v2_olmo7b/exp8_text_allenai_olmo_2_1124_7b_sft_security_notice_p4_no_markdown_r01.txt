@@ -1,0 +1,25 @@
+Subject: Important Update: Two-Factor Authentication Enabled
+
+Dear [Name],
+
+We have recently implemented an enhancement to our security protocols by enabling two-factor authentication for all user accounts. This measure is designed to provide an additional layer of protection for your account and ensure the safety of your personal information.
+
+To activate two-factor authentication, please follow these simple steps:
+
+1. Sign in to your account using your usual credentials.
+2. In the account settings menu, navigate to the "Security" section.
+3. Look for the option to "Enable Two-Factor Authentication" and click on it.
+4. Follow the on-screen instructions to set up your preferred authentication method. You can choose between receiving a code via SMS or using an authenticator app on your mobile device.
+
+Once you have completed the setup, your account will be protected by an additional verification step. This means that whenever you log in from a new device or location, you will receive a code via SMS or authenticator app that you must enter to verify your identity.
+
+We understand that this may be a minor inconvenience, but the security benefits significantly outweigh the drawbacks. Please make sure to activate this feature as soon as possible to ensure the continued protection of your account.
+
+Thank you for your cooperation and understanding. Should you have any questions or concerns, please do not hesitate to contact our support team.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]
+[Contact Information]

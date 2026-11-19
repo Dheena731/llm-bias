@@ -1,0 +1,4 @@
+Markdown helps you write by using simple formatting techniques. You can find the complete list of these tags here.
+
+
+In this example, you want to turn the text into a bulleted list. You do this with the asterisk character.

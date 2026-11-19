@@ -1,0 +1,15 @@
+At [Domain Name], we understand that security is paramount to our users' and the integrity of our systems. That's why we're excited to roll out two-factor authentication to our community. 
+
+Two-factor authentication (2FA) is an additional layer of security that complements our existing user authentication methods. It introduces an extra layer of verification, making it significantly more difficult for unauthorized individuals to access your accounts. 
+
+Key features of our 2FA service include:
+- **Authenticating your identity through a code sent to your mobile device:** This ensures that the person attempting to log in genuinely holds the information related to the login attempt. We text or email these verification codes to your pre-set phone number or email address, which is then used to confirm your identity.
+- **Flexibility:** It adapts to various devices (smartphone, tablet, computer) and is compatible with multiple authenticator apps like Google Authenticator, Authy, or YubiKey.
+  
+By enabling 2FA, you affirm that you're invested in the protection of your account and personal information. It's a proactive step towards safeguarding your digital identity against escalating threats.
+
+Remember, your security is our priority, and we're committed to ensuring that your online experience is secure and uninterrupted.
+
+Go to your account settings and enable 2FA today. If you have any questions or need assistance, our support team is here to help.
+
+Stay safe online!

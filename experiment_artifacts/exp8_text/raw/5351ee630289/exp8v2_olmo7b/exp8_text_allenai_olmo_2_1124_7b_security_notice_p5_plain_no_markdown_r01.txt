@@ -1,0 +1,70 @@
+For example, this table:
+
+|                 | yes | no  | maybe                  |
+|:----------------:|---:| ---:|------------------------:|
+| should be shown  | 1  | 0   | 0                     |
+| should not be   | 0  | 1   | 0                     |
+
+...will show up as:
+
+Should be shown Yes No Maybe
+
+Should not be shown
+
+Body text
+
+Use paragraphs to structure your content. Paragraphs should be separated by an empty line. Paragraphs are separated by line breaks.
+
+Use line breaks to make text narrower, but don't rely on them for structure.
+
+
+Create multiple paragraphs to make it easier to understand.
+
+Add links to your content, so it's easy to find and navigate.
+
+Be gentle. Don't overuse headings and bullet points.
+
+Use bold or italic text only when necessary. This is a good way to draw attention to something important.
+
+If you want to make a small edit, like adding a space, consider doing it inline.
+
+For example, instead of:
+
+The item was short listed for the festival.
+
+You could write:
+
+The item was short listed for the festival .
+
+Paste-detective tool
+
+This tool is optimized for regular text, like news articles, stories, or web content.
+
+It's not optimized for code, maps, tables, or images.
+
+The text you paste into this tool should already be formatted. If it's not, you can use the CopyAsText and CopyAsHTML tools above.
+
+This tool is not capable of detecting every type of common mistake.
+
+For example:
+
+Incorrect Paste
+
+This should be: She looked at me, but I ignored her and walked away.
+
+Correct Paste
+
+The word "me" should be lowercase, not uppercase.
+
+Other mistakes
+
+You can also see the following mistakes:
+
+  1. Missing spaces
+ 'this should be " She looked at me, but I ignored her" and walked away."
+  2. Extra spaces
+'this should be " She looked at me,  but I ignored her" and  walked away."
+  3. Extra new lines
+'this should be " She looked at me,  but I ignored her" and walked away."
+
+This tool should work with all the languages, but it should be especially useful for English and Spanish. Other languages may not be supported.

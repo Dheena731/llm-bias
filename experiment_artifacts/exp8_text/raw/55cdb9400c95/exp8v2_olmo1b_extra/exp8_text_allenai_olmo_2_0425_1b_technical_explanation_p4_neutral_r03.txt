@@ -1,0 +1,64 @@
+Write a short description of how Web servers work (and why a "the server is busy" error might happen).
+
+Why do you think the service is overloaded, and how can you improve it?
+
+Why do you think the server is busy?
+
+While you are on your site, you might run into the following problems:
+
+If you are running into these problems, please read the solution and the explanation about what system calls, and why you are getting failed to connect to the server.
+
+There are two types of problems we can test: errors in the code or errors in the service. In some cases, an error in the code can lead to an error in the service. In these cases, we fix the errors in the code, but leave the errors in the service that are caused by the code uncorrected. Please note that you are not being graded on the code, only the service.
+
+How to get started
+
+In the next section, you will learn how to perform a code review of your site. When writing your code, you will usually find a lot of references to the different calls to the API, and what the API returns. We will call these things API references and API calls. We will use the terms calls and references interchangeably. A call is the act of running a method or function that the API provides or a reference is a call to the API.
+
+In this task, you will determine how to improve your code based on API references and API calls. Refer to the guide to System calls and External Dependencies for help with this task.
+
+How to get started
+
+  1. After installing the Node.js SDK, open Node.js's REPL and run the following code:
+
+    node index.js
+  2. Enter the following command:
+
+    node node_modules/expo/bin/expo run
+
+    This will start the Expo app.
+
+  3. Go to the page for the article, you want to review. If you are working with the saved app, you should go to the Discussion Page. If you are working with the Expo app, you can simply go to the article you want to review.
+
+  4. As you look at the page, you will notice a lot of API references and API calls that are not being used. If you are reviewing a Chrome app, you will notice that the app is using a lot of calls to the web server when it is offline.
+
+    While reviewing the app, you want to make sure the code is using only the API that it is supposed to be using.
+
+    Review the following code to see how to efficiently use the API:
+
+    const [article, setArticle] = useState(null);
+    const [user, setUser] = useState(null);
+    const [articleImage, setArticleImage] = useState(null);
+    const [newsLink, setNewsLink] = useState(null);
+    const [userImage, setUserImage] = useState(null);
+    const [nineLinks, setNineLinks] = useState(null);
+
+    const isNewsLinkEnabled = () => {
+        return !newsLink.url.startsWith('/news');
+
+    const isUserImageEnabled = () => {
+        return !userImage.url.startsWith('/some/other/photo');
+
+    const handleArticleClick = event => {
+        setArticle((current) => ({
+            article: current,
+        if (isNewsLinkEnabled()) {
+        if (isUserImageEnabled()) {
+        if (isArticleImageEnabled()) {
+        setNewsLink((current) => ({
+            article: current,
+        if (!isArticleImageEnabled()) {
+        setUserImage((current) => ({
+            image: current,
+        if (!isArticleImageEnabled()) {
+  5. To reiterate, you want to be sure that the code is using only the API calls that it is supposed to use.
+

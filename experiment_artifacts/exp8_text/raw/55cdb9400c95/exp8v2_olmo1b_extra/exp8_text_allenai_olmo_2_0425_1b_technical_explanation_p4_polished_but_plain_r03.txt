@@ -1,0 +1,53 @@
+Be generous with your praise. Do not spend more than 5 seconds answering the question. To do this, briefly acknowledge the questioner while providing the information they requested, then quickly move on to the next question.
+
+Do not use any kind of special formatting, such as bold text, lists, or headings. Using these formatting options makes you look lazy and immature.
+
+Reference the source of your answers. If you can, provide a link to the question that you answered so others can read your source. Otherwise, write your answer in your own words. If you don't know the answer, don't write a useless answer.
+
+Rate the difficulty of your answer. Give a number from 1 to 5 to indicate how difficult your answer is to understand. Remember, low-fidelity answers are easier to understand. People with rudimentary knowledge will not be confused by them.
+
+State any assumptions you made. Explain what you know and what you don't know. If you made an assumption, explain it in your answer. If you have evidence to support your assumption, provide a link to the source. If you made a mistake, you can fix it in a comment, but if you don't you should edit your answer to fix the mistake.
+
+Don't be afraid to disclose that you are a beginner. If we're all here to learn, there's no need to shroud your knowledge in anonymity. Anyhow, this guideline is really just common sense, and even though I thought of it, it's really easy to overlook it :)
+
+
+All right, I'm adding my own version, which is written in markdown. I hope it's OK.
+
+Write short, idiomatic answers
+  • Do not go off on long tangents or digressions. 
+  • Do not use acronyms.
+  • Do not include unnecessary background information.
+
+Be concise and clear
+  • Do not use too many words. Write short, idiomatic answers.
+  • Do not use special formatting.
+
+Tell the truth
+  • Do not use any kind of special formatting.
+  • Do not use links.
+
+Do not use links
+  • Do not use bold text or italic text.
+  • Do not use headings or lists.
+  • Do not use numbered lists.
+  • Do not use tables.
+  • Do not use decoration symbols.
+
+Provide references to your sources
+  • If you are not sure about the correctness of your answer, provide a link to the source.
+
+Be clear about what you know and what you do not
+  • If you have evidence to support your assumption, provide a link to the source.
+  • If you made a mistake, edit your answer to fix the mistake.
+
+Edit your answer to correct mistakes
+  • If you made a mistake, edit your answer to correct it.
+
+Do not be afraid to reply to criticism
+  • When someone points out a mistake, reply to them.
+  • When someone criticizes your answer, reply to them.
+  • When someone points out an error, reply to them.
+  • When someone criticizes your answer, reply to them.
+  • When someone points out an error, reply to them.
+  • When someone points out a mistake, reply to them.
+  • Reply to everyone.

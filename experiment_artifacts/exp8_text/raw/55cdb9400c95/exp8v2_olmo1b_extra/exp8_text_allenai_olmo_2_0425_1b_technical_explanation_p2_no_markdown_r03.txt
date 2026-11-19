@@ -1,0 +1,16 @@
+DB Indexes
+
+There are a variety of different data structures that you can use for a database index depending on what the database organizes data on. You may have seen users talking about a "data type" when they're referring to a database's data structure.
+
+Data Type
+
+You'll see this often in Google App Engine when they describe what kind of data the database can store. For example, the Python blog datastore uses FDB (Field/Field Binary) data type. The data is stored as a series of name/value pairs, similar to how XML data is stored in JSON.
+
+There are four data types you can use for a database index:
+
+  • Hash: Stores data in a hash table. Each time a record is inserted into a table, a hash table is created that stores the record. The index is typically used to retrieve records from a table, not to insert or modify records, which makes it a good choice for databases that don't persist data.
+  • Btree: Stores data in a binary search tree (i.e. a tree-shaped data structure). Records are stored in order, and the tree is searched from the root to the leaves of the tree. Btree indexes can be used to both insert and modify records, which makes it a good choice for databases that persist data. How does the Btree index compare to the Hash index? The Btree index searches in linear order (i.e. one record at a time). The Hash index searches by index, which means that each record in the index is compared to each other individual record in the database, resulting in better performance for searches of small tables (i.e. < 4k records.
+  • Bitmap: Stores data as a bitmap which is essentially a binary number where the values of the bits represent the presence of a record. The bits are not indexed in a specific order in the Bitmap index, making them useful for searches of large tables with many records. Bitmap indexes can also be used to both insert and modify records.
+  • B+Tree: Stores data in a binary tree where each node represents the existence of a record in the table. As with Btree indexes, B+Tree indexes are useful for databases that persist data.
+
+There are more data types available for other databases, but these are the four that GAE uses. There is a list of supported data types here.

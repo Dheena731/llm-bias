@@ -1,0 +1,60 @@
+Write in a conversational tone. Avoid complex sentence structures and technical jargon.
+
+Use proper spelling and grammar. Make sure your work is free of errors.
+
+Remember, when writing code, it’s essential to be concise and clear. By focusing on the most important features of your program while eliminating unnecessary information, you can reduce the overall size of your code and make it easier for others to understand.
+
+Here’s an example of good code formatting:
+
+```python
+def simple_math_problem() -> int:
+    """
+    A car travels at an average speed of 50 mph.
+    How long will it take to travel 150 miles?
+    """
+
+    speed = 50
+    distance = 150
+    time = distance / speed # time == 3.0
+    result = time # result == 3.0
+
+    return result
+
+```
+
+In this snippet, the code you’ve written is correctly formatted, making it easy to read and understand. The indentation helps keep the code organized and easy to follow.
+
+However, here’s an example of poor code formatting:
+
+```scss
+// good
+function hello() {
+    console.log('hi');
+}
+
+// bad
+function hello() {
+    console.log('hi');
+    // bad
+}
+
+// good
+console.log('hello');
+
+// bad
+console.log('hello");
+```
+
+In both cases, the code contains comments or unnecessary code. While these lines don’t affect the functionality of the function, they make the code less readable and easier to mistake for something else.
+
+When writing code, follow these guidelines to ensure your code is well-formatted and easy to read:
+
+1. Use whitespace to separate different parts of the code.
+2. Indent blocks within the code.
+3. Use descriptive variable names and functions.
+4. Avoid using unnecessary code comments.
+5. Use snake_case for variable names.
+
+By following these guidelines, you can write clean, clear, and easy-to-read code that others will be able to understand and maintain easily.
+
+Remember, when writing code, short, simple, and clear is always better than long, complex, and confusing.

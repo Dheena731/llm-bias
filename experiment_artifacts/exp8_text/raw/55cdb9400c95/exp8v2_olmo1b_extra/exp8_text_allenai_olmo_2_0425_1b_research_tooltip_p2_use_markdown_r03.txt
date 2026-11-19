@@ -1,0 +1,12 @@
+You can find the Markdown syntax for our ChartType in the Introductions and Help Guides.
+
+
+Let's say you're creating a dashboard for your store, and you want to show the discount rate on products. You calculate the discount rate as a percentage of the sale price. However, you also want to show the confidence interval for the discount rate, which is a range or range of possible values. Here's an example of the two values in a chart.
+
+In this case, you want your answer to be 0.20 and -0.10 in a chart. Your answer should be formatted with a short heading and bullet points, like this:
+
+Here's a link to our chart documentation. As you write your answer, you can also find the Markdown syntax in our ChartType.
+
+To get a better idea of how this looks, you can also watch this intuitive demo.
+
+What's next?

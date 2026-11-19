@@ -1,0 +1,53 @@
+Use solid paragraphs to separate each topic. Don't use HTML tags, including boldface. Instead, use italics.
+
+Don't use the headings on the wiki page, as they will not be preserved for translation. Instead, use the headings on the file or page, where they will be preserved.
+
+Tag your translation with the translator's name, preferably in the first sentence.
+
+Tag your translation with the language it is in.
+
+The following tags and phrases are only supported by the wiki software and will not be understood by translators. Do not use them in the translation:
+
+  • [chars]
+
+  • [url]
+
+  • [image]
+
+  • [img]
+
+  • [code]
+
+  • [table]
+
+  • [code][table]
+
+  • [code][table][x]
+
+  • [code][x][table]
+
+  • [code][x][table][x][thread][x][x][x]
+
+  • [code]
+
+  • [code][x][code][x][thread][x][x][x]
+
+  • [code][x][code][x][thread][x][x][x][x][x][x][x]
+
+  • [code]
+
+  • [code][x][code][x][thread][x][x][x][x][x][x][x][x][x][x][x][x]
+
+  • [code][x][code][x][thread][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+
+  • [x], [x][x][x], or [x][x][x]
+
+  • [x][x][x]
+
+  • [x][x][x]
+
+  • [x][x][x]
+
+  • [x][x][x]
+
+  • [x][x][x]

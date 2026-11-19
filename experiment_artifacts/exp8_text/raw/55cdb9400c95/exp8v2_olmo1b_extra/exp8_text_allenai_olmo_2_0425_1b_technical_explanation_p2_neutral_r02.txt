@@ -1,0 +1,10 @@
+7 Summary
+
+The first 60 channels of this broadcast are stored in the local machine. The second 60 channels are stored “out there” somewhere. It takes place in two steps:
+
+  1. The first step is to store the local channel data in a database index, which is stored in an independent file system
+  2. The second step is to store the data that is needed to make the database query work. This is stored in a database. This database is stored in a file system as well. However, the file system has to take care of the file’s access and seek times. This is also called a buffer pool.
+
+The database can be in a RAM buffer cache or in a database server on a separate machine. The file system is in RAM, the database server is on a separate machine, and a RAM buffer cache.
+
+The database index is stored in a separate file system and called a database. The database is then always in RAM. Usually this data is also cached in the RAM buffer cache. For example, the figure shows that the database is the database, the buffer cache is the local machine, and the file system is the file server.

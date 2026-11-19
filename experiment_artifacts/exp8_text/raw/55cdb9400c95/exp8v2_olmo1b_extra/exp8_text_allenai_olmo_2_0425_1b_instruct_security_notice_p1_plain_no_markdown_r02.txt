@@ -1,0 +1,10 @@
+Password reuse is a serious cybersecurity issue that can compromise the safety and security of your workplace’s network and data. When you reuse passwords across multiple accounts the risk of your credentials being compromised increases. If one account is breached hackers can easily access others where you have previously used the same password. It is important to create unique and complex passwords for each of your accounts to safeguard them against unauthorized access and potential data breaches.
+
+Here are some tips to help you manage and secure your passwords:
+
+1. Use a password manager tool to generate and store unique passwords for each account.
+2. Avoid using easily guessable information as your password such as pets' names birthdays or common words.
+3. Update your passwords regularly to ensure they remain secure.
+4. Educate yourself and your colleagues about the importance of strong password practices and the implications of password reuse.
+
+By following these guidelines you can help create a safer and more secure work environment for all.

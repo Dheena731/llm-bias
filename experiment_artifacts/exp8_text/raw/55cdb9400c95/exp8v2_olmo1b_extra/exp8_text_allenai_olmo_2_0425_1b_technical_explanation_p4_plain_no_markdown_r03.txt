@@ -1,0 +1,4 @@
+Format your answer as follows: [A paragraph](/spoiler/example) about solving this problem.
+  • Explain your method in plain language without using any mathematical symbols.
+  • Use examples and real-world applications to better illustrate your solution.
+  • Be sure to include references in case you used any external sources for your answer.

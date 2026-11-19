@@ -1,0 +1,43 @@
+What is a missing-value marker?
+
+A missing-value marker is the dot, dash, or circle you place over a missing value in an expression to indicate that it is missing. For example, in the following expression, the missing value of L is represented by the missing-value marker: L = x + 2.
+
+Missing-value markers (such as the dot, dash, or circle) are used in several places in expressions and are most commonly used in the following places:
+
+  • Within parenthesis. They indicate missing values in the operands:
+     L = x + sqrt (x2 - 4)
+
+  • Within an algebraic operator. This is the most common place in expressions where missing-value markers are used. They indicate missing values in the result of an evaluation. For example, this expression evaluates to a missing value:
+     1 + x = x + 1
+
+  • Within an algebraic operator and the result of an evaluation. They indicate missing values in both the operands and the result of the evaluation. For example, the result of this expression is missing-value-marked:
+     a + x = a + x + 1
+
+  • Within the input lines of a worksheet. They indicate missing values in the data in the cells to the right of the input line.
+
+  • Within a formula. They indicate missing values found in the input line of a formula or in the cells above the input line.
+
+    For example, this formula calculates the value of x + 2. The missing-value marker indicates that the value of the variable x is missing:
+    =(A1 + 2)
+
+  • Within a formula that calculates the value of a cell. They indicate missing values in the input line of the formula.
+    For example, this formula calculates the value of x2 - 4. The missing-value marker indicates that the value of the variable x is missing in the second term of the expression:
+    =(A1 + 2)2 - 4
+
+  • Within a formula that evaluates to a value that is not defined. They indicate missing values in the input line of the formula that are not defined with =.
+    For example, this formula evaluates to a missing-value-marked value:
+    =(A1 + 2)
+
+  • Within a formula that uses an input cell that is not defined. They indicate missing values in the input cell.
+    For example, this formula evaluates to a missing-value-marked value:
+    =SUM(A:A) + 2
+
+  • Within an input cell. They indicate missing values that do not appear in the input cell. The missing-value-marked value indicates that the data is missing in the input cell.
+
+Was this information helpful?
+
+Great! Any other feedback?
+
+How can we improve it?
+
+Thank you for your feedback!

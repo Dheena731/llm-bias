@@ -1,0 +1,1 @@
+In a bar chart, a "confidence interval" indicates the range in which we believe a given statistic lies with a certain level of confidence. This helps the viewer to understand the precision and reliability of the data.

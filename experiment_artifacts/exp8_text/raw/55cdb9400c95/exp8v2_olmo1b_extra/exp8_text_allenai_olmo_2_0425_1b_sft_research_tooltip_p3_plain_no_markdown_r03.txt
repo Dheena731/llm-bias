@@ -1,0 +1,1 @@
+Welcome to our date-range selector! This tool allows you to specify the start and end dates of your search within a specific timeframe. Simply type the start date, followed by the end date in the order "Start Date", "End Date". The system will then display all documents and entities that fall within this range.

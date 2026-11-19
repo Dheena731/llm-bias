@@ -1,0 +1,13 @@
+Your notice must remain up for at least 10 days.
+
+After that time, you can remove the notification, or you can replace it with a new notice.
+
+Your notice must not contain any identifying information such Conspiracy Company or the other parties to your account. You must not mention their personal names or business names.
+
+This example explains the format and style of the notice and how to keep it short.
+
+This example explains the content of the notice and how to keep it legal. You should not use emoji, Markdown, etc. to make this kind of notice.
+
+Optional: Add a time limit to your notification, saying that after three months the information will no longer be valid.
+
+Then you must update the notification every month.

@@ -1,0 +1,41 @@
+What is a database index.
+
+
+
+
+MySQL uses a tree structure to access its index. The structure is called B-tree. Indexes are typically made up of a leaf node. This is the node where the data row is located. The leaf node can have one or many rows, depending on how wide the index is. It also has keys. Keys are specified values. By examining the keys, the database is able to determine how many rows in the index are matched with a row in the table. The node then references the table row holding that value.
+
+
+
+
+The index is maintained like a tree. At the leaf level, each value and key in the tree is direct access. This allows the database to quickly find the row in the table that the key is associated with. As we descend down the tree, the tree branches off. This is an example of a child.
+
+In the example above, the index for Account, is divided into two branches. This is because the index is in the first part of the key. The key ID is 5. The index can only show the values that match this key ID in the first part of the leaf node. The second branch gives us the other values in the index, but is not part of the index. This is called a level. In this example, two levels are shown.
+
+The first level is the key ID, and the value. The second is a range. The range is the range of values that match the key ID, plus the values in the range for each of the other keys.
+
+The leaf node at the top is both the value and the range. The database selects the values from the range. To select values from the range, the database checks the branch as well. If the value in the branch is not the value, the branch is not part of the index.
+
+In the case of the index for Account, the index is 5. These values are in the range of 5 to 10. The database only selects values from 5 to 10.
+
+The branch that is not part of the index in the example above is 9 to 11. This branch is in the tree. In this case, the value 9.9 is in the range, but not in the index. The value in the branch is 10.1, which is a value in the range.
+
+The second branch in the example is 7 to 10. This value is not in the index.
+
+The index is shown as a series of steps. The path to the leaf node is the key, and then the branch from there.
+
+
+Trees are great for indexing. They are used for all sorts of things, including memory chips, and the index for the database. Take a second to think about this. When you create an index on a database, you are creating a string of numbers that matches a row in the database, or one key that relates to another.
+
+It is the key, or the value of the key. It is the key that is used for searching within the database. Each key is a value that can be indexed, so each key is like a small database.
+
+It is a small database.
+
+The index can be used to either search for matches in the table rows, or to search for rows that match a key. In either case, the index is a shortcut to the matching rows in the database. It provides a tiny database of information.
+
+
+Tree Indexes and B-Trees
+
+A tree database is a good way to add speed to your database. Large databases can take a long time to search and return results. This is particularly true when you have thousands of rows with many different values in a single row. A tree index can greatly speed up your search.
+
+Treetop indexes are B-trees. B-trees are another way

@@ -1,0 +1,1 @@
+When you hover over the date-range selector, a concise tooltip will appear giving you a specific, domain-inclusive explanation of its function.

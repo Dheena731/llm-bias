@@ -1,0 +1,26 @@
+Subject: Important: Be Aware of Phishing Emails
+
+Dear Team,
+
+Please be advised that we have recently come across several phishing emails circulating in our organization. These unauthorized emails aim to deceive employees into revealing sensitive information, such as passwords and account details.
+
+To ensure our company's data security and protect our employees from potential risks, it is crucial to adhere to the following guidelines:
+
+1. **Verify the Sender's Identity:** Before responding to any email, please confirm the sender's identity by contacting them through official channels.
+
+2. **Avoid Clicking on Suspicious Links:** Do not click on any links within these emails. If you are unsure about a link's legitimacy, please forward the email to the IT department for verification.
+
+3. **Use Two-Factor Authentication:** Enable two-factor authentication on your work accounts. This additional layer of security helps prevent unauthorized access even if your password is compromised.
+
+4. **Regular Training:** We will be scheduling regular training sessions to enhance awareness of phishing tactics. Attendance and participation are mandatory for all employees.
+
+Should you suspect that you have received a phishing email, please do not respond or click on any links. Instead, forward the email to IT immediately. Our IT department is here to assist you with any concerns related to suspected phishing attempts.
+
+Thank you for your cooperation in maintaining a secure and safe work environment.
+
+Best regards,
+
+[Your Name]  
+[Your Title]  
+[Company Name]  
+[Contact Information]

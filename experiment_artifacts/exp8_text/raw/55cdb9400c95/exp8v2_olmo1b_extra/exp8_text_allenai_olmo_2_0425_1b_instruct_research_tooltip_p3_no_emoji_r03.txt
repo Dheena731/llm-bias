@@ -1,0 +1,1 @@
+This date-range selector allows you to choose a starting date and an ending date to view events within that time frame.

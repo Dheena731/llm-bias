@@ -1,0 +1,51 @@
+2. Show an image icon for the notification.
+
+Do not use emoji.
+
+
+For this task you are required to build and run a few programs from the GNU C Compiler (gcc). The questions are not based on any particular programming language, but rather on using tools provided by the GCC.
+
+You will not be graded on a programming language, but you can get extra credit for using C++ and/or the GNU Autotools. You can submit your answers to the questions below as a single file, or by answering each question individually in a batch file. Be sure to also answer each question and provide detailed comments for each of the answers.
+
+1. Submit a sample of the files you have attempted to compile with the following commands. In order to submit these files, you may submit them directly to the web server, or you can submit a zip file that contains all of the files you attempted to compile. Then submit the zip file directly to the course server.
+
+The files should include:
+
+  • A sample of all files that were compiled with the default configuration.
+  • A sample of ALL files that were compiled with the default configuration, but with a different compiler, such as gcc.
+
+The sample files should be compiled with the same configuration as the default sample. This means that you should use the same compiler options and the same options that were used to compile the sample default. For example, the following command line should compile all of the files in the default sample:
+
+gcc -o test test.c
+
+After you have submitted the files, go to the course web server and check that the files are properly submitted. You may also download the files to your own computer and give them to the instructor.
+
+2. Build the sample programs listed below with the default configuration of the GNU Compiler Collection (GCC). For each program you will need to do the following:
+
+  • Run the program.
+  • Optionally, use the debugger to step through the program.
+  • Answer the questions below.
+
+You can use any compiler, including g++, but the following are suggested:
+
+gcc -Wall
+
+gcc -o main test.c
+  1. Run the program and display the output. If the program does not run, you will receive points for the program run only.
+  2. If the program did not run, you will receive points for the program run only.
+  3. Use the debugger to step through the program. If the program does not step through the debugger, you will receive points for the program run only.
+  • How long did the program run?
+  • What was the length of the stack?
+  • What was the value of the register? What did you expect the value of the register to be?
+  1. Optional: Use the debugger to step through the program. If the program does not step through the debugger, you will receive points for the program run only.
+
+3. Use the debugger to step through the sample program from the previous question. Let us assume that you stepped through the program to the point where it prints the literal 4. Then you proceed to step through the program one step at a time to see what happens. You may need to use the Step Over command in the debugger to advance to a new location. You can use the Step In command to advance to the location of interest.
+
+  • What is the value of the variable after the instruction set? In other words, what is the value of the variable before the instruction and then after the instruction?
+  • What is the value of the variable after the instruction is executed?
+  • What are the values of the registers after the instruction is executed?
+
+4. When you finish with the sample program, answer the following questions:
+
+  • What did you learn?
+  • What errors did you see? (Errors are just messages from

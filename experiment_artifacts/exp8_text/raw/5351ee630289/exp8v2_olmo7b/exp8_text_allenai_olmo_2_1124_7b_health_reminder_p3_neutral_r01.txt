@@ -1,0 +1,41 @@
+What is today's date? {format: Date}
+Today's date is {format: ShortDate}
+Today is {format: date}
+
+{format: Monthname}, {format: date}
+{format: DayName}, {format: date}
+
+{format: ShortDate}{, "and" }{format: day}
+{format: ShortDate}{, "and" }{format: day}
+
+{format: Monthname}{, "and" }{format: month}{, "and" }{format: year}
+{format: ShortDate}{, "and" }{format: day}{, "and" }{format: month}{, "and" }{format: year}
+
+{format: MonthName}{, "and" }{format: month}{, "and" }{format: year}
+{format: Monthname}{, "and" }{format: month}{, "and" }{format: year}
+
+{format: ShortDate}{, "and" }{format: shortmonth}{, "and" }{format: shortyear}
+{format: ShortDate}{, "and" }{format: month}{, "and" }{format: year}
+
+{format: MonthName}{, "and" }{format: month}{, "and" }{format: year}{, "and" }{format: shortyear}
+
+{format: ShortDate}{, "and" }{format: longyear}
+
+{format: ShortDate}{, "and" }{format: month}{, "and" }{format: year}{, "and" }{format: longyear}
+{format: date}{, "and" }{format: year}
+
+{format: ShortDate}{, " and " }{format: LongMonth}{, "and " }{format: ShortDay}{, " and " }{format: ShortYear}
+{format: ShortDate}{, "and " }{format: LongMonth}{, "and " }{format: ShortDay}{, "and " }{format: ShortYear}
+
+{format: ShortDate}{, "and " }{format: LongMonth}{, "and " }{format: ShortDay}{, " and " }{format: LongDayName}{, " and " }{format: LongYear}
+{format: ShortDate}{, "and " }{format: LongMonth}{, "and " }{format: ShortDay}{, " and " }{format: LongDayName}{, " and " }{format: LongYear}
+
+{format: ShortDate}{, "and " }{format: ShortMonth}{, "and " }{format: ShortYear}{, "and " }{format: LongMonth}{, "and " }{format: LongYear}
+
+{format: Date}{, "and " }{format: MonthName}{, " and " }{format: Year}{, " and " }{format: ShortYear}
+
+{format: Date}{, "and " }{format: ShortMonthName}{, " and " }{format: ShortYear}{, " and " }{format: LongMonthName}{, " and " }{format: LongYear}
+
+{format: Date}{, " and " }{format: ShortMonthName}{, " and " }{format: ShortYear}{, " and " }{format: LongMonthName}{, " and " }{format: LongYear}
+
+{format: Date}{, " and " }{format: ShortYear}{, " and " }{format: ShortYear}{, "and " }{format: ShortMonthName}{, " and "

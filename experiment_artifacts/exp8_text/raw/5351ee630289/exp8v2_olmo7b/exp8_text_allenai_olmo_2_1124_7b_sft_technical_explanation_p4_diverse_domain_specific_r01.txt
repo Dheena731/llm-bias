@@ -1,0 +1,3 @@
+The use of caching improves the performance of a web page when a user accesses or revisits it. When a user connects to a website, the server sends the requested page to the user's internet browser. If the page is cached, the server does not need to load the page again when the user accesses it again. Instead, the server sends a copy of the page from its cache.
+
+This leads to faster loading times and less demand on the server, which enhances the user experience. Caching also reduces the likelihood of server overload and downtime, which can happen when many users try to access the same resources at the same time.

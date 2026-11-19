@@ -1,0 +1,3 @@
+To export query results, navigate to the "Export Results" tab within your Adonis.js application. Simply select the desired options and click the "Export" button to create a CSV file of your data.
+
+Note: It's important to verify that the exported CSV file contains the correct data by using a tool like Excel. Keep in mind that Adonis.js is a serverless framework, so make sure to follow any specific instructions provided by your host.

@@ -1,0 +1,6 @@
+**Tooltip for date-range selector**
+
+- Select a specific date range by entering start and end dates in the following format: `YYYY-MM-DD` and `YYYY-MM-DD`.
+- `[YYYY-MM-DD]` denotes the start date.
+- `[YYYY-MM-DD]` denotes the end date.
+- For example, `2022-01-01` and `2022-12-31` selects all dates in January 2022 to December 2022.

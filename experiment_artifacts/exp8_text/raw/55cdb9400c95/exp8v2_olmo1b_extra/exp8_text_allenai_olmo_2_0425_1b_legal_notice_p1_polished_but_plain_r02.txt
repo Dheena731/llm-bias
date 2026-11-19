@@ -1,0 +1,67 @@
+Describe the kind of changes to account terms. If the changes are limited to a single account, or if the changes are limited to one particular type of account, explain how they should apply to every account on that account. If the changes are limited to only one transaction, explain how they should apply to the transaction. If the changes are limited to fees for a single transaction, explain how they should apply to the fees for all transactions in the account. If the changes are limited to charges for a specific date or for a specific time period, explain how they should apply to all transactions after that date or for all sessions after the time period.
+
+Explain how to deal with any issues or problems that are likely to happen as a result of your changes. Explain what the account terms mean exactly and how to use the account. If the user must do anything special to make the account terms work as intended, explain all the steps to follow.
+
+If you make any additional changes to account terms in the future, they should be updated in the same notice and should not be included separately.
+
+Account terms, for example, are normally updated with a new version of a payment application before the previous version of a payment application is deleted.
+
+Different types of payment applications may use different account terms.
+
+Use the same word choices and terms for payment applications that use the same account terms.
+
+Describe how the new account terms will work with all existing accounts on the account.
+
+Make sure that all the applicable accounts on the account are included in the notice.
+
+List all the existing accounts on the account.
+
+If your payment account contains multiple payment applications, list all the accounts on the account in the following format:
+
+AccountNumber [:=] [AccountNumber] [:=] [AccountNumber]
+
+If the payment application you are describing uses multiple payment applications, include information about the transactions that use each payment application.
+
+If possible, include the name of the payment application that uses the account.
+
+Obey the rules for account terms and account numbers.
+
+Listing accounts on an account list is optional. You can include account numbers for your payment applications in the account terms.
+
+Describe how the new account terms will work with all transactions on the account.
+
+Make sure that all the applicable transactions on the account are included in the notice.
+
+List all the transactions on the account.
+
+If your payment application uses multiple transactions, include information about the transactions that use each transaction.
+
+Include all the new account terms on the account.
+
+Your payment application may require that you include a notice that shows how to activate the account, or to receive account information by email.
+
+Do not include a notice for a payment application that supports a notice.
+
+Your payment application may require you to provide information about your account to support account terms.
+
+Do not include a notice for a payment application that does not support an account terms notice.
+
+Your payment application may require you to provide information about your account to support account terms notices.
+
+Do not include a notice for a payment application that does not support account terms notices.
+
+Your payment application may require you to provide information about your account to support account terms notices that use more than one payment application.
+
+Do not include a notice for a payment application that does not support account terms notices that use more than one payment application.
+
+Your payment application may require you to provide a notice to support account terms notices that use more than one payment application.
+
+Do not include a notice for a payment application that does not support account terms notices that use more than one payment application.
+
+Your payment application may require you to provide a notice to support account terms notices that use more than one payment application.
+
+Do not include a notice for a payment application that does not support account terms notices that use more than one payment application.
+
+Your payment application may require you to provide a notice to support account terms notices that use more than one payment application.
+
+Do not include a

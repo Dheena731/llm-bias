@@ -1,0 +1,42 @@
+An example:
+
+                      <date-range>December 30 - January 4</date-range>
+            <data>January 1</data>
+            <data>January 2</data>
+            <data>January 3</data>
+
+Use anchor links to link to the date ranges used in the header:
+
+            <link rel="next" href="#January">Next</link>
+            <link rel="prev" href="#December">Previous</link>
+            <link rel="date-range" href="#January">January</link>
+            <link rel="date-range" href="#December">December</link>
+
+Your markup should be structured so that the date ranges are encased in <date-range> tag, and the anchor links are outermost tags.
+
+If you are looking for inspiration, take a look at the markup for articles on the Stack Exchange network.
+
+Do not hard-code date ranges
+
+If you hard-code date ranges, they will break when an article is updated on the server.
+
+Use the date-range templates
+
+The date-range templates are really easy to use. Since they're templates, you don't have to write it all yourself. This will let you concentrate on the details.
+
+    <date-range>December 30 - January 4</date-range>
+
+Use an output filter
+
+The HTML output for a question, answer, or comment must be output using a template. In doing so, it's easy to output date ranges. By default, the date-range templates are not rendered by default. This means they must be output using an output filter.
+
+You can find an example output filter for the date-range templates on GitHub, here.
+
+
+January 4 - January 12
+
+More information
+
+
+  1. Make sure you have a way to propagate changes to the date-range templates when your changes are deployed to the server.
+  2. Make sure you have a way to merge changes from other developers when your changes are deployed to the server.

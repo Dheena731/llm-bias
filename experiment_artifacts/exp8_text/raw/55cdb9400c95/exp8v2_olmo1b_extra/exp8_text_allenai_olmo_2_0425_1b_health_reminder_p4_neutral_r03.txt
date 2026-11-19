@@ -1,0 +1,14 @@
+Ans:No
+-----
+Ques:Here is a review left by a customer on a product. Would you say he was satisfied or dissatisfied? Title: Junk Review: DO NOT BUY. I purchased two of these and about a month later, both developed huge leaks. The construction is junk.
+
+Ans:dissatisfied
+-----
+Ques:Here is a review left by a customer on a product. Would you say he was satisfied or dissatisfied? Title: A gem of a book Review: This book is an excellant introduction to the world of art and artists and includes the student and the novice in its overview. It includes easy to follow activities for the beginner and the more sophisticated for the more experienced artist. A must for your library.
+
+Ans:satisfied
+-----
+Ques:Here is a review left by a customer on a product. Would you say he was satisfied or dissatisfied? Title: Don't let the shed look like this - or look like this at all! Review: I love this stand - so much so that I spent $20 more on a matching set.It's a good idea that can go so wrong. It's not robust, it's unstable, it's a little too big for my 35x55 with a long filter attached, and it's not attractive.The good news is that if you replace the black stand with a black wood set, the whole can go back to being usable.
+
+Ans: satisfied
+-----

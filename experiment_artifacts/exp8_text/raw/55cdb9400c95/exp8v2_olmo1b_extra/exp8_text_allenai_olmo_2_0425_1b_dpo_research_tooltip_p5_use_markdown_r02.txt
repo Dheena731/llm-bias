@@ -1,0 +1,11 @@
+```markdown
+**Export Query Results**
+
+*right-click on the query result*  
+*choose `Export` from the context menu  
+*select `CSV` as the file type  
+*enter a name for the export file  
+*hit `OK` to download the result
+```
+
+Explanation: Right-click on the query result to open the context menu. From the context menu, choose `Export`. Select `CSV` as the file type to create a formatted csv file. Enter a name for the file for tracking purposes. Click `OK` to save and download the results.

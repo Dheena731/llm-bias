@@ -1,0 +1,144 @@
+Do not use tables or pictures. You can use them, but they will be kept to a minimum.
+Do not add images directly in the body of your text; instead use [![alt text here][1]][1]
+1. The first "![alt text here][1]][1]
+
+Do not use [![alt text here][1]][1] unless it is absolutely necessary.
+
+1. The first "![alt text here][1]][1]
+
+Do not add any images to the text. You can use them, but they will be kept to a minimum. If you need to add an image, use the [![alt text here][1]][1] notation to introduce the image and use the link to show the image.
+
+1. The first "[![alt text here][1]][1]"
+
+Do not put public links in the body of the text. If you need to have a link that is accessible to the public, use the footnote style. Link to external resources using [hyperlink here][2].
+
+1. Hyperlink here
+2. [Hyperlink here][2]
+
+Do not use text formatting in the body of the text. Formatting should only be used in the header. You can use links in the body of the text; simply put the link in brackets ([] and []). Do not add any additional formatting.
+
+1. Use this as a link
+
+2. Use this as a link
+
+3. Do not use this as a link
+
+4. Use this as a link
+
+5. Use this as a link
+
+6. Do not use this as a link
+7. Use this as a link
+8. Do not use this as a link
+9. Use this as a link
+
+10. Do not use this as a link
+
+11. Do not use this as a link
+
+12. This is the correct way to use links
+
+13. You cannot use links in the body of the text
+14. Link inside the text that is part of the heading
+15. Link in the text that is part of the heading
+16. Use inline links
+17. Use inline links
+
+18. Use inline links
+
+19. Use inline links
+
+20. Use inline links
+
+21. Do not use inline links
+
+22. Use inline links
+
+23. Do not use inline links
+
+24. Use inline links
+
+25. Do not use inline links
+
+26. Use inline links
+
+27. Use inline links
+
+28. Do not use inline links
+
+29. Use inline links
+
+30. Use inline links
+
+31. Use inline links
+
+32. Do not use inline links
+
+33. Use inline links
+
+34. Do not use inline links
+
+35. Use inline links
+
+36. Do not use inline links
+
+37. Use inline links
+
+38. Use inline links
+
+39. Do not use inline links
+
+40. Use inline links
+
+41. Do not use inline links
+
+42. Use inline links
+
+43. Do not use inline links
+
+44. Use inline links
+
+45. Do not use inline links
+
+46. Use inline links
+
+47. Do not use inline links
+
+48. Use inline links
+
+49. Do not use inline links
+
+50. Use inline links
+
+51. Do not use inline links
+
+52. Use inline links
+
+53. Do not use inline links
+
+54. Use inline links
+
+55. Do not use inline links
+
+56. Use inline links
+
+57. Do not use inline links
+
+58. Use inline links
+
+59. Do not use inline links
+
+60. Use inline links
+
+61. Do not use inline links
+
+62. Use inline links
+
+63. Do not use inline links
+
+64. Use inline links
+
+65. Do not use inline links
+
+66. Use inline links
+

@@ -1,0 +1,49 @@
+Write a few words about the feature to give it context, and list out what the feature is intended to accomplish. This helps your readers get all the details they need to use the feature without needing to read further.
+
+Examples of a good feature announcement:
+
+  • "User can now create self-contained URL shortening services using our URL shortening API."
+    • Write the announcement in your own words.
+  • "Now you can use our URL shortening service with a single Ajax request to shorten any URL."
+    • Write a few words to give context.
+  • "You can now shorten URLs by adding a + sign character to the front of the URL."
+    • Write a few words to give context.
+  • "Now you can use our URL shortening service with a single Ajax request to shorten any URL. You can also omit the + sign and still shorten the URL."
+    • Write a few words to give context.
+  • "You can now shorten URLs by adding a + sign character to the front of the URL."
+    • Write a few words to give context.
+  • "You can now shorten URLs by adding a + sign character to the front of the URL."
+    • Write a few words to give context.
+  • "You can now shorten URLs by adding a + sign character to the front of the URL."
+    • Write a few words to give context.
+
+Provide examples if appropriate, but don't overuse them. A few examples of a URL being shortened:
+
+  • "" shortened to "".
+  • "a+shortened+url+" shortened to
+  • "" shortened to ""
+  • "" shortened to "/en/BBQ-roast-bacon-beer-recipe/afp/3/".
+
+If successful, make sure to follow:
+
+  • The writing should be concise and clear. Don't be tempted to write a long-form article in a tweet. Use the format.
+  • The article should be useful and concise. Stop halfway through and reread it. If it reads like a long-form article, it probably isn't appropriate for a tweet.
+  • The article should be well-written and polished. Don't use emoji, Markdown, headings, bullet points, numbered lists, bold text, italic text, tables, decorative symbols, or links.
+  • The article should be accurate, and not contain grammatical or spelling errors.
+  • The writing should be simple and easy to read. Don't use fancy formatting.
+  • Hard caps are preferred over regular caps.
+
+
+  • Explain the feature's use and how it works. Don't provide too much detail - some users may lack the context to understand.
+  • Provide an example of the feature in action. Write a few words to give context.
+  • Include a link to the feature page in the announcement. If your feature is available in additional languages, link to the feature page in each language.
+  • Use correct grammar and punctuation. Don't use slang or emoji.
+
+
+Make the writing accessible to the widest possible audience. Use natural language. If the feature is available only to a certain type of user, don't write about it in the style of a natural language article. If your feature is available to a wide range of users, use natural language.
+
+Also, remember that you are writing for an audience that uses social media. Provide examples. Ask a few clarifying questions, and answer them with a few sentences. Don't write in a way that requires the reader to read the entire article. Write simply and clearly to keep your readers engaged.
+
+In addition, make sure your announcement topic is relevant and relatable to your users. Don't use events that are not relevant to your users, or write about features that are not in your product.
+
+Don't write an announcement that is focused

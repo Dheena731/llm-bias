@@ -1,0 +1,25 @@
+Subject: Important: Be Alert for Phishing Emails!
+
+Dear Team,
+
+We want to remind you to be cautious and vigilant when you encounter emails that seem suspicious or request personal information and login credentials. Phishing emails are attempts by malicious individuals to deceive you into revealing sensitive information or to install malware on your computer.
+
+Please keep the following pointers in mind to help you identify phishing attempts:
+
+1. **Sender Information**: Verify the email address carefully. Phishing emails often come from addresses that mimic legitimate ones but with slightly misspelled domains or suffixes.
+
+2. **Urgency and Threats**: Be wary of emails that create a sense of urgency or use threats to prompt immediate action.
+
+3. **Attachments or Links**: Do not click on any attachments or links in the email unless you are certain about its origin. These can lead to malicious sites or download malware onto your device.
+
+4. **Unsolicited Requests**: Think twice before providing any personal or financial information, especially if the request seems unexpected.
+
+If you believe you have received a phishing email, please do not interact with it and report it directly to our IT department at support@ourcompany.com. Your cooperation in preventing phishing attacks is crucial to maintaining the security of our workplace.
+
+Stay safe and vigilant!
+
+Best regards,
+
+[Your Name]
+[Your Title]
+[Your Contact Information]

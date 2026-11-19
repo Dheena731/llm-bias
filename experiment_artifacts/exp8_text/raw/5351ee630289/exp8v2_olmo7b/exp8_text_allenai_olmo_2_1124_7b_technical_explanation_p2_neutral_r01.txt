@@ -1,0 +1,35 @@
+Database indexes are a structure implemented by a database system that can be used to speed up data access. When data is stored, an index can be used to quickly lookup data by the index field values. Indexes can also be used to quickly look up a range of key values and can be used for efficiently implementing many-to-many relationships.
+
+What is the difference between a primary key and a unique key?
+
+A primary key is the unique identifier for an entity. A foreign key is the primary key for another table in the database and is used to establish relationships between the two tables. A unique key is a column or set of columns that must have unique values in the row. When a primary key is used to link tables, a unique key is used to ensure that a row cannot be updated or inserted to have duplicate values.
+
+What is a primary key? When might you use one?
+
+A primary key is a value used to uniquely identify a row within a table. It is conventionally called the “id” or “id” property of a table and it is a type of unique key. A primary key is often used to establish relationships between tables and is often used in conjunction with a foreign key in other tables.
+
+What is a candidate key? When might you use one?
+
+A candidate key is a property that all rows in a table must have. It is a unique identifier for each row in the table and a candidate key can be thought of as a unique property that is required by each row.
+
+What is a composite key? When might you use one?
+
+A composite key is a property that is a combination of two or more unique properties. For example, a person name and date of birth might be used as a composite key if the data of interest is about a group of people.
+
+When might you feel the need for a foreign key? Does it always need to be an index?
+
+Foreign keys are used to link tables together. For example, if you have a table of employees and a table of expenses, you might want to have a foreign key in the employee table linking the employee to the expenses table. Foreign keys are used to ensure the integrity of data in the database and it is not always necessary to have an index.
+
+What is a natural key? When might you use one?
+
+A natural key is a property that occurs naturally in data. For example, a person’s social security number might be used as a natural key for a table of people.
+
+What is a surrogate key? When might you want to use one?
+
+A surrogate key is a property that is added to an entity to uniquely identify it. Surrogate keys are often used in data warehousing applications and are often used in conjunction with natural keys.
+
+What is a bitmap index? When might you want to use one?
+
+A bitmap index is a very low-level index that is used to index a large amount of data. A bitmap index can be used to quickly find a small number of rows in a very large table.
+
+Comments are closed.

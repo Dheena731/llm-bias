@@ -1,0 +1,13 @@
+**Workplace Security Notice: Password Reuse**
+
+**Introduction:** This notice is to inform all employees and visitors about the practice of password reuse and the risks associated with it. Reusing passwords across multiple accounts on the same or different networks can lead to significant security vulnerabilities. To maintain a secure and safe environment, we recommend the following:
+
+1. **Choose Strong Passwords:** Each time you sign up for a new account, choose a strong, unique password. Avoid using easily guessable information such as your name or birthdate. Consider using a combination of uppercase and lowercase letters, numbers, and symbols.
+
+2. **Implement Password Management Tools:** If you find it challenging to remember numerous passwords, consider using password management tools or services. Many of these tools can securely store your passwords and help you create and manage a variety of accounts.
+
+3. **Limit Password Sharing:** Avoid sharing your passwords with others. If you need to share your password with someone, password sharing capabilities should be disabled on the systems you are using.
+
+4. **Regularly Update Passwords:** Make it a habit to regularly update your passwords. Periodically changing your passwords can help prevent unauthorized access to your accounts.
+
+**Conclusion:** By following these guidelines, we can help protect our workplace from potential security breaches and maintain a secure environment. Remember, maintaining strong, unique passwords is essential in securing your accounts and protecting your personal information.

@@ -1,0 +1,1 @@
+Select a date range by choosing the start date and end date from the calendar provided. The selected dates will determine the time period for which you can view or filter data.

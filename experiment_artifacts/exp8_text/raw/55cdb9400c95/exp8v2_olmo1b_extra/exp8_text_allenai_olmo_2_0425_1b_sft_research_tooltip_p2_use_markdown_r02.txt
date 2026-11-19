@@ -1,0 +1,10 @@
+```markdown
+# Confidence Interval in a Chart
+
+A confidence interval is a range of values that estimates the unknown population parameter by calculating the average of a sample's values along with a margin of error. It provides a measure of uncertainty about the precise value of the parameter. The confidence interval demonstrates how sure we can be that the true population parameter falls within the interval.
+
+- Formula: Confidence Interval = Sample Mean ± Margin of Error
+- Margin of Error is calculated using the z-score and the desired confidence level (e.g., 95%).
+- A smaller z-score means a larger margin of error, indicating less confidence in the estimate.
+- The confidence interval indicates the variability around the mean, suggesting that the population parameter is likely to fall within this interval with a certain degree of confidence.
+```

@@ -1,0 +1,29 @@
+# Using R
+    c <- rep(1:9, {2}.rep(10, 5, 1))
+
+    # Create a barplot with titles and labels
+    barplot(c, col = "grey", labels = TRUE, main = "1", 
+          xlab = "",
+          ylab = "",
+          main = "")
+
+
+    # Add a confidence interval
+    # Create the special columns for the confidence intervals
+    # Create a table of the confidence interval
+    t <- setNames(c, c[-1]);
+
+    # Make the plot
+    plot(c, main = "", xlim = c(-4, 4), ylim = c(-4, 4), 
+          xlab = "", ylab = "", 
+          main = "")
+   axis(1, at=c(0, 0.25, 0.5, 0.75, 0.9))
+    axis(2, at=c(-4, 0, 1, 2, 3))
+
+
+    # Add the confidence interval and plot
+    addplot(t, pch = 16, col = "red", cex = 0.7)
+    abline(0,0, col = "red", lty = 2)
+    # legend(x = 1, y = 1.5, legend = c("1", "2", "3"), lty = 16, lwd = 0.25)
+
+[Package ggplot2 version 2.2.1 Index]

@@ -1,0 +1,1 @@
+A database index is a data structure that is used to speed up data retrieval from a database. It does this by providing a path to the data, similar to how a file indexer works at the start of a document.

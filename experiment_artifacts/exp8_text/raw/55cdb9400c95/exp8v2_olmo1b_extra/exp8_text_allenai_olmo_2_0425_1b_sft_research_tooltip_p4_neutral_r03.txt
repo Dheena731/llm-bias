@@ -1,0 +1,1 @@
+A missing-value marker, also known as a "na" or "NaN" in programming, signifies a value that is not available or is "not a number" in a dataset. It often represents an error or unidentified data point.

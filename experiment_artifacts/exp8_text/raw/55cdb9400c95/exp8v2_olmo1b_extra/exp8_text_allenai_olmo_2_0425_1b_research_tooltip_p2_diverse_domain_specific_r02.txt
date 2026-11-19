@@ -1,0 +1,25 @@
+Ensure the text is not longer than 150 characters.
+
+1) Summary
+
+This summary is the aim of your analysis, and should start with a clear sentence that summarizes the main question(s) you are answering in your analysis. This should be long enough to give the reader an idea of what your analysis will cover, but not too long that it is distracting for a non-expert reader. In particular, do not try to include every important detail: good summaries make the most important information stand out by being the most condensed.
+
+2) Motivation
+
+This section needs to convince the reader to continue reading your analysis. Your motivation should consist of a brief paragraph explaining why the question you are answering is important to the field, or why the results are relevant to the problems the researchers are trying to solve. This paragraph can contain a lot of background information, but be sure to use this time to describe how the work in this analysis connects to what was done in the previous analyses, and why they’re important.
+
+3) Method
+
+This section has two parts, a method section and a discussion section. The method section should summarize the steps you took to answer the question in the summary section. You should include any additional analysis you did to answer this question, but keep it brief and to the point. The discussion section is where you should talk about what you learned from the data and how it impacts the problem at hand.
+
+4) Results
+
+This section is the core of your analysis. It should be presented in a way that is clear enough for a non-expert reader to understand what you found, but detailed enough that a specialist can learn something new. It should be long enough to explain your results, but not so long that it feels like a paper.  If your results are fairly straightforward, your discussion section might be shorter than the rest of your analysis, but you should still include it.
+
+5) Immediacy and Relevance of Results
+
+This is the phrase that is usually used to describe a takeaway from the analysis. For example, “In this analysis we evaluated the impact of CXOs’ social media presence on their firm’s share price” or “The results of this analysis show that social media presence does not have a statistically significant impact on the firm’s share price.” It’s rare to see it used in academic papers, but for applications it usually gets the attention of the reader.
+
+6) Conclusions
+
+This is the last part of your analysis, and you should try to frame it with a question that makes the reader ask more questions. For example, “What do these findings imply for the firms involved in this analysis? Do CXOs with a social media presence have an advantage over those who don’t?” or “If our results hold true, what implications do these conclusions have for firms that invest in social media?”

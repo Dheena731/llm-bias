@@ -1,0 +1,18 @@
+If the notice is too long, consider splitting it up into multiple paragraphs.
+
+Do not forget to add the date of the notice. It is usually mentioned in the body of the notice itself.
+
+In case you are making a collection notice for the first time, it's recommended that you prepare the material as a table and write a basic notice.
+
+## Material
+
+The material for the notice should include:
+
+- **Name of the material**: the item that is going to be recycled
+- **Material, description**: the list of materials and products the notice is about
+- **Collection date**: the date on which collection will take place
+- **Collection time**: the time
+- **Collection location**: the address, URL, or phone number of the collection
+- **Recycling policy**: the list of materials and products accepted in your recycling system
+- **Actions**: what you can do after the notice is done
+- **Updated** or **Additional details**: the updated contact details or any additional information

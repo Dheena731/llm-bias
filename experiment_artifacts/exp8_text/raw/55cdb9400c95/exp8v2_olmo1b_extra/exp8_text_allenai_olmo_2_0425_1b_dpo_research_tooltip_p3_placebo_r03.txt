@@ -1,0 +1,19 @@
+Tooltip text: This date-range selector lets you quickly and efficiently choose a specific period of time from the current date all the way through to a specific day in the future, including days, months, weeks, and years.
+
+---
+
+### How to use the date-range selector:
+1. **Hover over the date picker:** The tooltip will provide guidance on how to utilize the date range feature.
+2. **Choose a start date:** Type the exact day you want to begin your selection, e.g., "2023-01-01".
+3. **Choose an end date:** Enter the day you want to end your selection, for instance, "2023-12-31".
+4. **Select a unit:** If you wish to specify weeks instead of days, choose "weeks" from the dropdown menu.
+5. **View the results:** Once you've selected a range, the selected date range will be highlighted in the your selected date band. For example, "from 2023-01-01 to 2023-12-31".
+
+### Important points:
+- **Exact Dates:** The selection is precise from the exact date entered (without leap years consideration).
+- **Weeks vs. Days:** The selection includes days, but you can opt for weeks if you prefer to think in terms of weekly blocks.
+- **Usage in Applications:** This date-range selector is commonly integrated into online calendars, spreadsheet tools, and other applications where date selection is a frequent task.
+
+---
+
+Remember, although the description was made with creativity, it should align with the functionality and help users understand how to use the date range feature correctly.

@@ -1,0 +1,12 @@
+### Scheduled Dashboard Maintenance Window
+
+Due to ongoing system optimization and security enhancements, we will be conducting a scheduled maintenance window for our dashboard services starting [Time]. The maintenance window will be open from [Start Time] to [End Time]. This time is set to ensure our systems receive the necessary updates and enhancements without affecting operational availability.
+
+**Please ensure all necessary tasks are completed before the maintenance window begins.**
+
+We appreciate your understanding and cooperation during this period. If you have any urgent issues that cannot be resolved during this window, please contact our support team. Thank you for your understanding!
+
+**[End Time]**
+
+* **[Start Time]**
+* **Scheduled for **[Date]**

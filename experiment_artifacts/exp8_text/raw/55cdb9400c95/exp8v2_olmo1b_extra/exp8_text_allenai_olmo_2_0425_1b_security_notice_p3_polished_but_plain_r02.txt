@@ -1,0 +1,63 @@
+If this creates too much hassle for developers, try to use a simple alternative and just add the code directly.
+
+We have provided a list of examples for common bugs.
+
+Clean code for OutOfMemoryError
+
+A very common cause of OutOfMemoryError is OutOfMemoryError is OutOfMemoryError because you are storing too much information using Objects, Map, and List.
+
+Readers of the code should understand that when you (or junior developers) use these collections, they are allocating a lot of memory to these Objects, Map, and List. This causes OutOfMemoryError because the program eventually runs out of memory.
+
+You can fix this by:
+
+  • Explain the reason why you used these Objects, Map, and List. If you are doing anything like this:
+
+    foo.put((String) null);
+    
+
+    This is because you want to use an ArrayList to store some Strings, but you do not know how many Strings will be stored. So you use null as an integer argument to indicate that this is a special object.
+
+    The reader should understand why this is a good idea. The reader should also understand that this is not obvious. See https://stackoverflow.com/questions/387418/mixing-serializable-and-not-serializable-objects.
+
+  • Consider how you can redesign your code to avoid this.
+
+Fix Java Memory Leaks
+
+A Java program that runs for a long time will leak memory. It will keep allocating memory to objects, and keeping these objects alive. Over time, the memory allocated to these objects will keep increasing.
+
+Fix your programs by:
+
+  • Consider how you can design your program to prevent this.
+  • When you change the code, follow best practices, as well as standard Java best practices.
+  • Fix the code.
+  • And keep watching the memory usage.
+  • And keep checking for OutOfMemoryErrors until it is fixed.
+
+Fix your code to use fewer Strings
+
+A Java program will use Strings a lot. Strings are one of the most used languages in Java.
+
+When you use Strings in your code, you will encounter a lot of errors. For example, you will probably encounter the following errors:
+
+  • String is immutable: A String object can be replaced by a different String object. This means that if you use the same String object to pass into a method in a class, you might get different results.
+  • String is not null safe: A String object is not null safe. This means that you cannot use a String object to pass into a method in a class, unless you have checked whether the String is null.
+  • String is not immutable: A String object is not immutable. This means that you cannot use a String object to pass into a method in a class, unless you have checked whether the String is null, and you have checked that the String is not null.
+  • String is not a class: A String object is not a class. This means that you cannot use a String object to pass into a method in a class, unless you have checked whether the String is null, and you have checked that the String is not null.
+
+Fix your code to avoid these errors.
+
+Fix your code to write better comments
+
+A Java program is a lot of code. It is very hard to read a Java program with good comments because it is so much code.
+
+You should fix this by:
+
+  • Writing better comments.
+  • Removing comments.
+  • Writing more comments.
+  • Understanding what is going on in the code.
+
+You should write comments that describe:
+
+  • The purpose of the method. This will help the reader understand what the method is trying to do.
+  • The reason why the code is not working correctly. This will help the reader understand why the code is wrong, and how to correct it.

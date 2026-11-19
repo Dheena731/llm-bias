@@ -1,0 +1,4 @@
+An API rate limit is when an application limits its response rate to requests or calls from other applications.
+Example: If your web application processes 100 calls or requests from other applications per minute, you have an API rate limit of 100 requests per minute.
+
+Use common sense to judge whether the answer is factually correct and if it would be considered offensive if delivered to a young child. If so, report it!

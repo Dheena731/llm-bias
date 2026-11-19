@@ -1,0 +1,30 @@
+See this Stack Overflow tutorial for an example.
+
+
+Yes, you can do that. You can use the Markdown syntax in plain text, such as headers and bullet points, and any of the inline codes are just a different way to enter the same thing. One such way, the single code below, is to use sans serif fonts. If you want to use a body text font, just add the special code to the top of your text and the font will be the body text font. You can check out the standard Markdown examples to learn more on how to use such formatting.
+
+Since this is a network question, I'll leave the formatting to someone else to answer that part of the question, but I will give you the formatting I do use for my answers.
+
+I use a lot of bold and italic font and a highlighter font, esp. when quoting someone's words. The text below is as close to what I use as I can get, but you might want to try it out first.
+
+This format shows the body of text and then a highlighted word, a bolded word, or a italicized word. The surrounding text is the regular font.
+
+Intext Citations
+
+This is a highlighted word or a bolded word. See how the word is highlighted above. I use a color for the font and underline for the word underlining. Italicized word is just set to an italic font.
+
+This is part of a quote from someone else.
+
+This is a bolded word. Note the bolded word is in italics.
+
+This is a highlighted word. See the word? It is highlighted.
+
+This is a bolded word. See the bolded word? And it is highlighted.
+
+This is a bolded and italicized word. See the bolded and italicized word?
+
+This italicized word is not highlighted. That is the normal font.
+
+This is a bolded and italicized word. See the bolded and italicized word? And note the highlighted word.
+
+This italicized word is not highlighted. It is in italics.

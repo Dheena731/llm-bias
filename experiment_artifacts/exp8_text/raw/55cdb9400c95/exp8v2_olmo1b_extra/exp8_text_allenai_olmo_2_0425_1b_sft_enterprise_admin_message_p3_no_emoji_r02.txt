@@ -1,0 +1,3 @@
+ATTENTION ALL USERS:
+
+A SWIFT and SAFE UPDATE to our VPN CLIENT is now available. Since this change, you will need to restart the VPN CLIENT before it will function properly.

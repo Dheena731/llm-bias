@@ -1,0 +1,45 @@
+Q2
+
+I suddenly realized that I don’t know how to rate tasks in progress by milestone.
+
+How would I do this?
+
+The only way I know to do it is to mark progress as complete so it is not a milestone, but it is incomplete. If I do this, then I lost any progress information about tasks that were not yet complete.
+
+A2
+
+With the new Tasks (1) add progress information (2) make a new milestone (3) mark the task as complete (4) set the new milestone as the current milestone (5) remove the previous milestone.
+
+A1
+
+I have a quick question about the 4 levels of milestones.
+
+What is the difference between a milestone and a task?
+
+In the task workflow it seems that milestones help find the tasks to be completed. By clicking on a milestone in the tasks view you can see the tasks that are contained in the selected milestone.
+
+If I have 10 tasks and 3 of them have milestones in them, how do I find the tasks that are in the milestones?
+
+Would I have to click on each milestone to find these tasks? Let's say milestone 2 has a task in it with the ID of "task1" and milestone 3 has a task in it with the ID of "task2" and milestone 4 has a task in it with the ID of "task3".
+
+How then do I find all 3 tasks that I need?
+
+A2
+
+Would I have to click on each milestone to find these tasks?
+
+This is not possible. There is not a way to filter by milestone. So, if you only have 3 tasks in milestone with unique IDs, the only way to find them is to check the 3 milestones.
+
+If you have 10 tasks in milestones with unique IDs, it would be a lot to check.
+
+The only solution is to use the "search" feature. Create a special field that will list the task by ID. Include the "search" feature in the task description. When you click on the task, it will search for tasks that match the search criteria.
+
+A1
+
+What is the difference between a milestone and a task?
+
+A milestone is a group of tasks. You can have 1 milestone with 10 tasks or 10 milestones with 1 task.
+
+A task can have a milestone as a parent task and it is the task that will be completed in priority order.
+
+A milestone is a group of tasks completed. You can create milestones in a task workflow and a milestone can have subtasks.

@@ -1,0 +1,49 @@
+You remove the necessity for cookie consent and get full compliance by default.
+
+
+In addition to in the browser, the cookie consent cookie can be added to the cookies.txt file that is already present in the C:\Windows\System32\Drivers\etc directory.
+
+
+You can manually add the consent cookie to it, or you can install the consent cookie installer to automatically update it.
+
+
+Install the cookie consent with the following URL:
+
+Change the consent cookie file name to your preference, e.g.,
+
+
+Tell me more about the cookie consent
+
+You’ll see the following information about the cookie consent when you access the consent cookie.
+
+  • Cookie: db.bwcp.abc
+  • Created: 2013-03-15 17:25:50.327
+  • Expiration: 2018-03-15 17:25:50.327
+  • Expires when.
+  • Consent Cookie.
+  • Cookies.txt. Database: Cookies.txt
+  • Website: db.bwcp.abc
+  • Website URL: http://www.bwcp.co.uk
+  • Enabled.
+  • Enabled by default.
+  • Administering Consent Cookies.
+
+In addition, the consent cookie contains information about the website where the consent currently exists, e.g.,
+
+  • Website: db.bwcp.abc
+  • Website URL: http://www.bwcp.co.uk
+
+The consent cookie only knows about the cookie consent itself, and not the full context of the website where it was set.
+
+
+The consent cookie communicates with the main cookie consent https://www.bwcp.co.uk/cookies.txt to activate and deactivate the cookie consent.
+
+The consent cookie is responsible for running a JavaScript function to process whether consent exists, and which of the cookie consent websites needs to be shown.
+
+The cookie consent runs JavaScript that subscribes to the cookie consent.
+
+When you access the cookie consent, it communicates with the cookie consent and shows you a list of cookie consent websites that need to be seen.
+
+The consent cookie can be used on any website to inform users about the cookie consent and enable consent to be activated or deactivated.
+
+Once the cookie consent is activated, users do not need to consent again as long as the consent cookie itself is effectively running.

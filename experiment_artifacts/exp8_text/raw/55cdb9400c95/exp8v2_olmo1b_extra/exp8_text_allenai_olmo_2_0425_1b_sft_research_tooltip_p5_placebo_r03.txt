@@ -1,0 +1,1 @@
+Tooltip: To export query results, navigate to the 'Results' tab in the 'Query' menu. Click 'Export Results' under the 'Query' section. Select the format you prefer (CSV, XLS, or PDF) and click 'Export'.

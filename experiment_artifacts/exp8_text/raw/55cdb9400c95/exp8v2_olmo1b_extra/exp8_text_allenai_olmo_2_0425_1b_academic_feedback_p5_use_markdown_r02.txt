@@ -1,0 +1,33 @@
+If you have already verified that you understand how to create a table in Markdown, see the tutorials listed below.
+
+What is Markdown?
+
+Markdown is a simple markup language, that is, a system for adding markup to a text document to indicate how it should be displayed.
+
+For example, the markup <em>bold</em> has the same effect as the text <em>EM-BC</em>.
+
+Markdown is used on the Internet to create web pages, discussion forums, and blogs.
+
+It is much simpler than HTML, and easier to write.
+
+However, it is still used for some of the same purposes.
+
+Markdown simplifies the writing process by allowing you to write just the content that you want to read, without having to create a full copy.
+
+You can use Markdown to create an essay by simply typing in the text of your essay.
+
+For example: The essay is written in Markdown.
+
+The essay has been written by me in Markdown.
+
+The title of the essay, “The Essay”, has been added to the title of my essay.
+
+I have added the text “I have written this essay in Markdown”.
+
+The title “I have written” has now been added.
+
+In this example, I have added a title, “This is a title”, which is the first line of the title of my essay.
+
+In Markdown, you can put content in a variety of formats.
+
+For example, the following two lines of a paragraph in Markdown are identical: Paragraph 1: Line 1: Line two: Line 3: Line 4: Line 5: Line 6: Line7: Line 8: Line 9: Line 10: Line 11: Line 12: Line 13: Line 14: Line 15: Line 16: Line 17: Line 18: Line 19: Line20: Line 21: Line22: Line23: Line24: Line25: Line26: Line27: Line28: Line29: Line30: Line31: Line32: Line33: Line34: Line35: Line36: Line37: Line38: Line39: Line40: Line41: Line42: Line43: Line44: Line45: Line46: Line47: Line48: Line49: Line50: Line51: Line52: Line53: Line54: Line55: Line56: Line57: Line58: Line59: Line60: Line61: Line62: Line63: Line64: Line65: Line66: Line67: Line68: Line69: Line70: Line71: Line72: Line73: Line74: Line75: Line76: Line77: Line78: Line79: Line80: Line81: Line82: Line83: Line84: Line85: Line86: Line87: Line88: Line89: Line90: Line91: Line92: Line93: Line94: Line95: Line96: Line97: Line98: Line99: Line100: Line101: Line102: Line103: Line104: Line105: Line106: Line107: Line108: Line109: Line110: Line111: Line112: Line113: Line114: Line115: Line116: Line117: Line118: Line119: Line120: Line121: Line122: Line123: Line124: Line125: Line126: Line127: Line128: Line129: Line130: Line131: Line132: Line133: Line134: Line135: Line136: Line137: Line138: Line139: Line140: Line141: Line142: Line143: Line144: Line145: Line146: Line147: Line148: Line149: Line150: Line151: Line152

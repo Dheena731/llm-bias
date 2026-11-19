@@ -1,0 +1,32 @@
+If you get stuck, think carefully about the kinds details the legal notice would provide. It might try to:
+
+  • describe which uses are prohibited
+  • describe the consequences of violating the rules
+  • explain how the rules can be changed
+  • explain how to make a formal request for changes
+  • describe the dispute resolution process
+
+You could start writing your notice by creating these lists, and then re-write your lists into a single notice. A simple format for a legal notice might be:
+
+IRVIGNIR, Inc. hereby grants you permission to use IRVIGNIR's shared network for the following purposes:
+
+  1. You shall not use the shared network to access or transfer the following content:
+    1. content that is copyrighted by someone else
+    2. pornographic content
+    3. illegal content
+    4. code that violates the law (e.g. exploits or unlicensed software)
+  2. You shall not use the shared network to run the following programs:
+    1. computer games
+    2. instant messengers
+    3. peer to peer download programs
+  3. You may use the shared network for the following purposes:
+    1. accessing, downloading to, and uploading from the web
+    2. sending and receiving email
+    3. running software that is necessary to use the computer
+
+Violation of the above terms of use may result in the termination of your account and the prosecution of up to one year in jail.
+
+If you have any questions about these rules, or would like to make a formal request to change or add to this set of rules, please contact our customer service department.
+
+
+Write a detailed set of rules about acceptable use of a shared network. Do not be sloppy or contradictory. Do not address the intended audience with your rules.

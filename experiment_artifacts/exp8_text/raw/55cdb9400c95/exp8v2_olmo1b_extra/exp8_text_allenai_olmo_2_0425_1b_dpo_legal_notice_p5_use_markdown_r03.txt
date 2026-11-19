@@ -1,0 +1,16 @@
+**Shared Network Usage Guidelines**
+
+* **Respect Individual bandwidth:** 
+   * Use the network only when necessary and ensure your activities don’t negatively impact others.
+* **Limit simultaneous connections:**
+   * Avoid running multiple applications with high bandwidth use on the same session.
+* **Use file-sharing judiciously:**
+   * Share files only when necessary and be mindful of the size and frequency of uploads/Downloads.
+* **Contribute to the network:**
+   * Curb excessive downloading and uploading to foster a efficient environment.
+* **Support network security:**
+   * Keep software updated to protect against vulnerabilities.
+* **Abide by legal restrictions:**
+   * Respect copyright and use the network strictly for legal purposes.
+
+Failure to adhere to these guidelines may result in network restrictions or consequences.

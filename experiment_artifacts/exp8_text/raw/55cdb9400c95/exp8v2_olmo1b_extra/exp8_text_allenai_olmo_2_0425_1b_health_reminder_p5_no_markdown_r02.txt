@@ -1,0 +1,5 @@
+If you would like to view your code formatted, use one of the other available options.
+
+## How to learn all of this?
+
+Writing a small code base is a great way to get a better understanding of the concepts of functional programming. There are tons of online resources like notebooks that make it easy to write and run functional programs.

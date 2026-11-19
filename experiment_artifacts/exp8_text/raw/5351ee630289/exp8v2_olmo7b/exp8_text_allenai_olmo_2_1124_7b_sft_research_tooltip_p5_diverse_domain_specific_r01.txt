@@ -1,0 +1,5 @@
+Export Query Results
+
+Tooltip:
+
+Quickly export your search results to a CSV file to easily review, share, or analyze the data on your preferred platform. Simply click the "Export" button located at the top of this page, select CSV as your file format, and download your results.

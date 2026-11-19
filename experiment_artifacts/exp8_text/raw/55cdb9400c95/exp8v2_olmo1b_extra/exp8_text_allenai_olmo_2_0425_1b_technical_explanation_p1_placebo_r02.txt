@@ -1,0 +1,47 @@
+If you have any questions about this example, feel free to ask.
+
+This is a good entry point into the subject. If you need more detail, I suggest reading some introductory articles on latency in web applications or some insightful books like the one below. This is just a starting point, so don't be surprised if you have more questions after reading it.
+
+What is latency?
+
+Latency is the delay between when you press a button and when it is recognized by the system. On the web, this delay is measurable in milliseconds (ms) or microseconds (us). The system will usually react to your actions within 50 to 100 ms. You might be surprised by how much your latency is, but experience shows that most users are not.
+
+There are multiple reasons for latency, and they vary a lot depending on the complexity of the code you use to render your site. We are going to focus on three elements, which mainly determine the latency of web sites:
+
+  1. Network latency
+  2. Different kinds of HTTP
+  3. DOM and rendering performance when using JavaScript
+
+Network latency
+
+The network latency is the biggest culprit when it comes to web page performance. The longer it takes for a web page to download, the worse it performs on the user's machine.
+
+As we are going to see, different network protocols have different latencies, which can have a big impact on the end user experience.
+
+In the next sections, we are going to cover:
+
+  • When to use HTTP/2
+  • When to not
+  • Why use gzip and why not
+  • How to increase the download speed using TCP
+  • How to use HTTP/2 and the nio package
+
+HTTP/2 and when to use it
+
+HTTP/2 is a protocol that promises to double the download speed of web pages. It requires that HTTP servers deliver your web pages in HTML and CSS as static files, which are cached and don't need to be downloaded again. This means that your web server will not need to serve your static files from memory, but instead it will serve the HTML and CSS files from the hard disk, which is much slower and consumes more power.
+
+We are going to cover the advantages of HTTP/2 below:
+
+  • You can cache static HTML and CSS files in production and serve them directly from your hard disk instead of the memory, which is much slower and consumes more power.
+  • Your web server does not need to be installed on the same server as the client to deliver the files to the user. This means you get greater availability and performance
+  • You reduce your server load and your server will not be impacted by the high traffic your web site has.
+  • You receive faster downloads. Your pages will load faster and faster.
+  • You can see that your website is very responsive through your browser. The page loads fast and responds quickly to user interactions.
+
+However, minifying JavaScript, CSS and images is not a viable option when you use HTTP/2. This is because HTTP/2 does not matter how many files you minify, they will still be cached in the web browser. This means that your pages will still be slow, as the user will download the content again in HTTP/2.
+
+When to not use HTTP/2
+
+You should avoid HTTP/2 as the fallback option when you have static files. You will waste time and money on upgrading your server to support HTTP/2 even though it will not bring a measurable performance gain to your users. Additionally, with HTTP/2 you will be blocking your customers from upgrading to the latest version of their browsers.
+
+That being said, as I mentioned earlier, you can cache static HTML and CSS in production and serve them directly from the hard disk instead of the memory, which is much

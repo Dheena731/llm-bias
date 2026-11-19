@@ -1,0 +1,21 @@
+# Enable Two-Factor Authentication (2FA)
+
+- **Gather Your Information**
+  - Identify your email address and other required account information required for 2FA setup.
+
+- **Register an Option**
+  - Choose the method of 2FA you prefer (e.g., SMS, authenticator app, or hardware token).
+
+- **Set Up 2FA**
+  - Practice setting up the 2FA option in your preferred app, so you’re comfortable with the process.
+
+- **Securing Your Account**
+  - Review the steps to recover or change your 2FA settings in case something happens to your chosen method.
+
+- **Review and Set Up**
+  - Assess your new 2FA settings and ensure any changes are implemented correctly.
+
+  - Revisit your account settings to ensure all necessary applications have 2FA enabled.
+
+- **Keep Your Account Safe**
+  - Monitor your notifications for new 2FA entries or instructions to reset or change settings to prevent unauthorized access.

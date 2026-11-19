@@ -1,0 +1,27 @@
+To follow conventions and to be properly citing, you should use the following boilerplate:
+
+[short text]
+
+[summary]
+
+[works cited]
+
+[reference]
+
+[author]
+[year]
+[Title]
+[edition] and
+[ISBN]
+[DOI]
+
+
+
+For example, your let's assume a short notice about opening hours:
+
+* Monday and Thursday 8am-5pm
+    * Wednesday 12pm-8pm
+* Tuesday
+    * Friday 8am-11am
+    * Saturday 10am-6pm
+    * Sunday

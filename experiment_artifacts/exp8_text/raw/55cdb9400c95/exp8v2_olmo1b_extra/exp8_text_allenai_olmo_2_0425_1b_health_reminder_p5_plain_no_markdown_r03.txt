@@ -1,0 +1,17 @@
+Here is how you might write the answer to the question for the first prompt:
+Example text: Here's a link to the original post: <http://blog.interactivelearn.com/live/2011/10/25/reading-a-book-but-not-knowing/>, and here are the source files used to generate a live version of the blog.
+
+Here's how you might write the answer to the second prompt:
+Example text: Here's a link to the original post: <http://blog.interactivelearn.com/live/2012/03/26/self-taught-questions>, and here are the source files used to generate a live version of the blog.
+
+Here is how you might write the answer for the third prompt:
+Example text: Here's a link to the original post: <https://www.washingtonpost.com/news searcher/wp/2014/12/27/why-do-business-coops-disappoint-so-many-mid-size-businesses/?utm_term=.cd99f1c7b2d7>, and here are the source files used to generate a live version of the blog.
+
+How do we know if our answer is correct?
+Example: You can find a snapshot of the generated output at <https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDswQFjAA&url=http%3A%2F%2Fwww.google.com%2Furl%3Fsa%3Dt&rct=j&q=&frm%3D1&ei=CYTYVx8-LgKOHxe5QfjDYg&usg=AFQjCNF1LISWv5JklosuIhxa0u9PIF6f4Q&sig2=9vpL5JtlGJYX3TV5RZCkDQ&bvm=bv.57079960,d.ZGU>.
+
+Here is the correct answer to the question for the second prompt:
+Example text: Here's a link to the original post: <http://www.bloomberg.com/news/2012-02-26/why-do-business-coops-disappoint-so-many-middle-size-businesses.html>, and here are the source files used to generate a live version of the blog.
+
+The following are some resources you can use to learn more about the term refilling a prescription:
+Example text: Here are some links you might find helpful:

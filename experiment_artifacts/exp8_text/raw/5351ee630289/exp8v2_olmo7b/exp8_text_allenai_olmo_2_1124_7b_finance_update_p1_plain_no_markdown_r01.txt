@@ -1,0 +1,4 @@
+To write an article, edit the content in this text box and click "submit" when finished. Describe it in a sentence or less. This article contains too many examples or listings. Your article included unformatted text with ill-effects. Individual subjects were covered in too much depth. Your article didn't provide enough context for this listing to be useful. (Learn how to write a great listing.)
+
+citation needed
+Inline citations should be formatted like so: <ref>Smith <nowiki>(2006)</nowiki> When using the new reference style, a footnote should be added at the bottom of the page, like so: <ref name="Smith">Smith (2006) has shown that ... </ref> When citing a web page, use the "URL" template. "John Smith. Online posting</nowiki>."

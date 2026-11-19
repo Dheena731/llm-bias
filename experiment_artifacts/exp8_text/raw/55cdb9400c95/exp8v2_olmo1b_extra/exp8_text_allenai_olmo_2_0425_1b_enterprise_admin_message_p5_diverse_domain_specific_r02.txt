@@ -1,0 +1,5 @@
+The message should be brief and to the point; without additional information it should be easy to execute. For a human to read the text and think he or she is receiving an email, it should be short, easy to understand, and not confusing.
+Example: "From: John Doe [JohnDoe@XYZ.com] ~ Applying for Promotion XYZ" is a meaningless sentence.
+
+Example
+Note: When writing text for an email, we want to include an alternative option for the user. This can be shown in a send to channel where we have journalists that have to sign up for channels and write articles. LiveChat comes in handy for this scenario. It allows us to send a message out to all journalists and include a simple opportunity to contact the author of the message.

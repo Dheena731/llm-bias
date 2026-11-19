@@ -1,0 +1,27 @@
+Subject: Important: Beware of Phishing Emails
+
+Dear Team,
+
+We want to remind you all of the critical importance of staying vigilant against phishing emails, which can pose a serious risk to our company's security and your personal information. Phishing emails are designed to deceive you into divulging sensitive information such as your login credentials, social security numbers, or financial information.
+
+Here are some key points to remember:
+
+- **Do Not Click:** Avoid clicking on any links or downloading attachments from emails that seem suspicious. These could lead to fake websites created to steal your information.
+
+- **Verify the Sender:** Always check the sender's email address carefully. Cybercriminals often use email addresses that look similar to legitimate ones but with slight variations.
+
+- **Check for Urgency:** Phishing attempts often create a sense of urgency or fear to prompt immediate action. Slow down and do not respond to any requests for personal information without verifying the source.
+
+- **Use Two-Factor Authentication:** Adding an extra layer of security with 2FA can protect your accounts even if your password is compromised.
+
+If you receive an email that you suspect to be a phishing attempt, please do not reply, click any links, or download anything. Instead, forward it to our security team at <PRESIDIO_ANONYMIZED_EMAIL_ADDRESS> for investigation.
+
+Remember, it is crucial to stay informed and report any suspicious activity promptly. Our collective efforts can significantly reduce the risk of falling victim to these scams.
+
+Thank you for your cooperation and attention to this matter.
+
+Best regards,
+[Your Name]
+[Your Position]
+[Company Name]
+[Contact Information]

@@ -1,0 +1,1 @@
+A missing-value marker, also known as a blank marker or a NaN (Not a Number) placeholder, indicates that a particular measurement or data point is missing or undefined in the dataset. It serves as a warning that this value should be filled with appropriate data to avoid misrepresentation or calculation errors in analysis or modeling.

@@ -1,0 +1,31 @@
+Explanation of Latency
+
+Latency influences the speed and efficiency of web applications, and the speed of those applications matters to users and businesses alike. While latency is a fundamental aspect of any application, its impact on real-world applications varies greatly. To fully understand the impact of latency on web applications, it’s important to consider the specific elements of the application and how they impact performance.
+
+In most cases, latency is easiest to understand by looking at the life-cycle of a user interaction. A user moves through the life cycle on a site from a web page to a web form to a web app to an e-commerce transaction. The following figure provides a simplified overview of these stages.
+
+In this scenario, latency impacts all stages of the user interaction and the entire web experience.
+
+When the user enters the web page, latency impacts the HTTP request and response times. When the form submits, latency influences the request and response time of the web application. As the user completes the web app, latency influences the request and response time of the web apps, and when the web app has completed the transaction, latency impacts the request and response time of the e-commerce transaction.
+
+Relevant Links
+
+Latency Diagram
+
+The MarkLogic web application requires a front-end HTTP request to be made when a user enters the web page. This request initiates a TCP session that lasts for a minimum of 700ms (or 10 HTTP requests). The web page is then parsed by the web server, and a request is made to the web app. When using the web app in an AR experience, there may be a further HTTP request to an external source, such as a database. This request is initiated when the user clicks the button, and then the webpage is refreshed to include the response in the HTML.
+
+The 10 HTTP requests initiate a TCP session for a minimum of 700ms. If a web page is refreshed, that request will be initiated again.
+
+As the user moves through the web page, the HTTP request in the background is being made. This causes a second TCP session with the web app. Each HTML page reload pushes a new HTTP request to the web app. The front-end and back-end requests are linked together and interdependent, so changes in one will cause changes in the other.
+
+This diagram illustrates the impact of changing the web app latency.
+
+Web application latency is not only related to the back-end performance, but also to the client and server performance. Clients have no direct impact on latency. As long as the client is communicating with the server, latency is intrinsic to the interaction. The client’s performance will only be relevant when latency is causing poor user performance. For example, if latency is causing the user to feel slow, that will be the performance metric that matters.
+
+A good example of this is the browser. As the user navigates from one web page to the next, the browser is making a series of HTTP requests. The browser response time is a key performance metric that the user will think about. The browser responsiveness is less important, but still has an impact on the user experience.
+
+The server’s performance has a direct impact on latency. In general, a server that is underutilized will have a higher latency than a server that is overloaded. In a scenario where the server is idle, but the client is requesting data from the server, the client will experience a low latency while the server will be performing high bandwidth operations.
+
+If the client is requesting data from the server (requiring a server response), the client will experience a high latency while the server might be performing low bandwidth operation. This is just one example where the wrong server configuration can result in a higher latency.
+
+A user’s load is influenced by latency. As the user makes requests to different parts of a page or page refreshes, the load will change.

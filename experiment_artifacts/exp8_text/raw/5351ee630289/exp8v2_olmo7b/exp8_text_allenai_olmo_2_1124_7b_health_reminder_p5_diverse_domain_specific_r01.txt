@@ -1,0 +1,11 @@
+[Q]: Generate a sentence using the above characters: doctor, behavior, refusal, patient, treatment, happy
+[A]: happy patient refuses treatment after consultation with doctor
+
+
+[Q]: Generate a sentence using the above characters: government, policy, promote, economy, politician, party
+[A://
+[A]: the main purpose of the government is to promote the economy by policy and to make politician and party leaders implement their program
+
+
+[Q]: Generate a sentence using the publishing, successful, email, promote, newsletter
+[A]: successful marketing campaigns are going viral and promoting your email newsletters

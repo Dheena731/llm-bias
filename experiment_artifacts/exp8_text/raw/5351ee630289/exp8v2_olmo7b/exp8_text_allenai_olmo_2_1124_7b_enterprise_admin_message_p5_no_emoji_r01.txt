@@ -1,0 +1,66 @@
+Some of the most popular email providers today have started adding the capability to use emoji in emails. For the most part, people are against this. I researched this topic in an earlier blog post here. The bottom line is that the old text, though it may look like ASCII art, is often still preferable to the new emoji art for communicating key information in an email.
+
+Here is one sample email migration task definition that you may want to use.
+
+Use this when you want to write a short message about an upcoming email migration.
+
+An email migration task
+
+The task will be executed on 8/15/2014 at 2:00am
+
+Here is what we can do with our new task.
+
+  1. Create a task: we can see that in the above image, I have selected “My Tasks” and then clicked on “New Task” and filled in the fields to create my task.
+  2. Add task as a task dependency: in the above image, I have added a task dependency for my new task. I have selected the email that I want to change to use ASCII art and then selected “Add Task Dependency”. I have chosen the migration task and pressed OK.
+  3. Define the task: now we can see that I have successfully added my task. The task is now associated with the email message that I have selected.
+
+I hope you have enjoyed this blog post. Email is a key communication channel for many businesses, and a key element of a good email migration plan is automating the tasks necessary to move the email. I hope that this blog post will help you create the tasks necessary to help you migrate email.
+
+Let me know if you have any questions about this blog post, and I will be happy to help.
+
+Contact Scott Vasquez, Sr. Technical Consultant
+
+Add a Comment
+
+Popular posts from this blog
+
+Sending an email with ASP.NET and C#
+
+Sending an email with ASP.NET and C#.NET is relatively easy.
+
+1. Add a reference to System.Web.Mail in your ASP.NET project.
+2. Add a reference to System.XML to the ASP.NET project.
+3. Import the System.Web.Mail namespace into your ASP.NET page.
+4. Create a MailMessage object.
+5. Create a new instance of MailMessage.
+6. Set a few properties on the MailMessage object.
+
+7. Create a new instance of SmtpMail and set the properties.
+8. Create a new instance of SmtpMail.
+9. Set the properties on SmtpMail.
+10. Create a new instance of MailAttachment.
+11. Set the properties on the MailAttachment.
+12. Create a new instance of MailAttachment.
+13. Set the properties on the MailAttachment.
+14. Create a new instance of MailAttachment.
+15. Set the properties on the MailAttachment.
+16: Create the MailMessage.
+17. Send the email.
+
+Imports System.Web.Mail
+Public Class Form1
+   Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+   End Sub
+End Class
+
+Email Migration: The People Side
+
+There is a people side to email migration.
+
+I have written about the technical side of email migration in earlier blog posts.
+
+Email migration is difficult because we must move the email that employees use to communicate in a company. This is often a very disruptive and negative experience for employees.
+
+It is important that employees understand the email migration project. They need to understand that no email is going to be deleted and that email is just being moved. They need to understand that they will have to click on the new email link that will be sent to them.
+
+It is important that employees feel like they have a voice in the email migration project. It is important to allow employees to give us feedback about the email

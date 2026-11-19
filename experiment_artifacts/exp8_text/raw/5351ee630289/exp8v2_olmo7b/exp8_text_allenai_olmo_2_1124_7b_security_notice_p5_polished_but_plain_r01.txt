@@ -1,0 +1,85 @@
+The notice should be concise: no more than 250 words.
+
+Subtly suggest that viewers should check the lost laptop’s serial number.
+
+Your submission should be a file named noob-report.txt. The file should be encoded in UTF-10 and formatted as plain text.
+
+Make a file named noob-report.txt that contains your submission.
+
+Lesson 3: Get the most out of Git
+
+
+GitHub is a website and service for hosting and sharing code. GitHub’s homepage has great introductions to how to use it, so take a look around.
+
+We’re going to use the same file we used in the previous lessons. Make a file named noob-report.txt that contains your submission and put the file on your personal GitHub page.
+
+Once on your page, make a new branch called noob-report.
+
+You don’t need to commit the file yet.
+
+On the GitHub page for the repository, click the “Pull Request” button on the left-hand side of the page. Fill out the pull request as follows:
+
+  • Title: Noobs reporting a lost laptop
+
+  • Description: The noob report from the previous lesson.
+
+  • Head: noob-report
+
+Click “Create pull request”.
+
+The pull request will get created and GitHub will show the file you uploaded. If you have doubts, you can open the file to see it.
+
+Make sure the contents of the file are the same as what you wrote in the previous lesson. If it’s not, fix it.
+
+Making a pull request will not change the contents of the file you already uploaded. You need to make a new commit.
+
+Add the file to a new commit, with the message: “git report lesson 3” and click “Create commit”.
+
+The file will be updated to reflect the new contents.
+
+Now that you have a commit, you can make the current branch track the commit.
+
+From your GitHub page, click the “Commits” button and click on the commit you made.
+
+Now you should see that the file you uploaded has the “noob-report” label.
+
+Click the “compare” button.
+
+Now you should see a comparison of the current branch and noob-report.
+
+Now you have successfully created a pull request.
+
+Now it’s time to review the first pull request. The first reviewer is you.
+
+Make sure that the file shown in the pull request is the same as what you wrote in the previous lesson. If it’s not, fix it.
+
+Once you have made sure it’s correct, click “Review and comment” and then “Approve”.
+
+When the pull request gets approved, the work will be merged and added to the main branch.
+
+Now that the work was merged, you should see “noob-report” show up under the “Branches” heading.
+
+Now you have successfully merged your work.
+
+For the second pull request, you should review your own work.
+
+Make sure that the file shown in the pull request is the same as what you wrote in the previous lesson. If it’s not, fix it.
+
+Once you have made sure it’s correct, click “Review and comment” and then “Approve”.
+
+Make sure that the file shown in the pull request is the same as what you wrote in the previous lesson. If it’s not, fix it.
+
+Once you have made sure it’s correct, click “Review and comment” and then “Approve”.
+
+Lesson 4: Plop some code into your repo
+
+
+We’re going to use the new repository we just made to upload some code.
+
+The first task is to make a new repository named wip.
+
+GitHub shows a list of repositories you have created.
+
+Click “New repository” and give it the name wip and click “Create repository”.
+
+We’re going to create a new file in the newly created repository and name it 0000.wip

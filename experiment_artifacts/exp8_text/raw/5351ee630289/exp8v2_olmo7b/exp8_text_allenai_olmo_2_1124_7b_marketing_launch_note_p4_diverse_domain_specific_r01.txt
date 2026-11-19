@@ -1,0 +1,9 @@
+Newbie-friendly: Design a support FAQ for a mobile app targetting beginners. The difficulty level should be such that a 5-year old child can understand it.
+Pro-friendly: Help users to setup their first VPN instance in 2 minutes.
+
+Example input: Context: None Question: how do i factory reset my baby locked?
+Example output: A factory data reset is the last resort when your baby locked. This will erase all of your data, including apps, messages, contacts, and more. If you're unable to access your phone or tablet, you can use a USB cable to connect it to a computer running Windows or Mac OS. Then, go to Settings > System > Advanced > Storage & Reset > Reset Options and choose Erase Everything. Wait for the reset to complete, then set up your baby locked again.
+Example explanation: The output is concise and correctly reset the baby locked system.
+Q: Context: You need to make sure that the chicken is at a safe temperature before you start grilling. You should also keep an eye on it while it's cooking, and remove it from the heat if it starts to get too hot.
+Question: how long should i cook chicken breast on grill?
+A: On a standard chicken breast, you will cook each side for about 3 minutes, then flip the chicken and cook for another 3 minutes. At this point, you should be able to tell if you like the browning on your chicken. If not, you can keep cooking it until it reaches the desired level of doneness. Once cooked to your liking, remove the chicken from the grill and place it on a plate to rest for at least 5 minutes before serving. If you don’t have a grill, you can also cook the chicken over direct heat by placing it in a preheated 400 degrees F oven for 15 minutes.

@@ -1,0 +1,18 @@
+Unless you're talking about the game, personal pronouns should be avoided on this wiki, as the articles are meant to be objective and impersonal.
+
+Games (e.g. wiki articles) that aren't at the class level that the class system is organized around will be a special case. They will treated as though they are the class they are closest to, and filters will be applied to them to remove access to classes not meant to exist for that level. For example, the game Elder Scrolls Online is class-based and has a structured leveling system. For it, the most-relevant class will be chosen based on its level. If its level is in the 1-9 range, it will be treated as though it is a class of that level. If its level is in the 10-19 range, it will be treated as though it is a class of that level. If its level is in the 20-39 range, it will be treated as though it is a class of that level. If its level is 40 or higher, it will be treated as though it is a class of that level.
+
+Some games may have classes that don't have levels. In such cases, it is recommended that the article in question be given the level of the highest level class within the game.
+
+
+  • A new wiki feature called classes has been added to this wiki, but it is not yet active.
+ 'tis me, the Rep.jpg
+Class,class access
+
+A class is a template. Class:Template:Class is a class, Class:Template:Class:A is a class, and Class:Template:Class:A:B is a class.
+
+You can see which class a page belongs to by going to the page's edit page and clicking on the associated tab(s) in the top-right-hand corner. Then, look at the contents of the first box (the class box).
+
+If you're looking for class-related information, go here: Class:Template:Class.
+
+If you're looking for information about classes, go here: Class:Template:Class:Class

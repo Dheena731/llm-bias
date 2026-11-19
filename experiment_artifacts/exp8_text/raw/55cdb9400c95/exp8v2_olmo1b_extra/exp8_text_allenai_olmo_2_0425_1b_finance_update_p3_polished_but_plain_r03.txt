@@ -1,0 +1,32 @@
+You can use any additional formatting tool that you prefer, along with the Markdown editor. The key is to use a tool that does not interfere with the Markdown syntax, and to use the tool sparingly. You do not want to use every formatting tool available, and you do not want to overuse Markdown formatting.
+
+If you do use formatting tools, you should be able to toggle between the formatted text and the unformatted text using the Toggle Forms button. If the Toggle Forms button does not show up, then your formatting tool is interfering with the Markdown syntax. If you use a formatting tool that is not supported by Firefox or the Electron app, then the Toggle Forms button will not show up.
+
+  1. Use a Markdown editor. Here are links to two Markdown editors that you can use at no cost.
+
+    1. LibreOffice Writer
+    2. Proofedit by Christoph Bock
+
+  2. Edit the Markdown file. Once the Markdown editor is open, you can edit the Markdown file. If using Proofedit or another Markdown editor, you should configure it to generate a new file every time you save, so that you can see the new code.
+
+    1. Under "Preferences → Code Editor → Use" select the "New file on save" option.
+
+  3. Make sure all of your formatting tools are set to show the unformatted version.
+
+  4. Use the Toggle Forms button to toggle between the unformatted text and the formatted text. Make sure that there are no formatting errors in the unformatted text.
+
+  5. Test the markdown file using the proofread button in the editor.
+
+  6. If the proofreading is complete, save and upload the file.
+
+    1. Use the Save and publish button.
+
+    2. Click the blue Check for errors button.
+
+    3. Navigate to the file in the Files screen.
+
+    4. Check the status of the file in the File status indicator.
+
+    5. Make the changes and Save the file.
+
+    6. Click the blue Publish button.

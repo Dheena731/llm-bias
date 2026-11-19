@@ -1,0 +1,26 @@
+Subject: New Expense Approval Workflow
+
+Dear Team,
+
+We're enhancing our expense approval process by implementing a new workflow. This change is designed to streamline approvals and ensure a more efficient flow of financial transactions.
+
+Key features of the new workflow include:
+
+1. **Automated Requests**: All expense requests will be routed to the appropriate team members via our intranet for approval. This reduces manual work and speeds up decision-making.
+
+2. **Integrated Approval Tools**: Each team member will have access to a centralized dashboard for viewing approved or pending expenses, making it easier to track and manage expenses.
+
+3. **Approval Timeframes**: We’ve set specific approval deadlines to ensure that all expenses are reviewed within the agreed timeframe, reducing the risk of unauthorised expenditures.
+
+4. **Merge Requests**: If two requests are identical, they will be merged automatically to save time and prevent redundant approvals.
+
+5. **Approval Logging**: A complete record of who approved what, when, and why will be maintained, providing clarity and accountability.
+
+We encourage all team members to familiarize themselves with the new workflow and explore the accompanying documentation. Your engagement and active participation are crucial to the success of this change.
+
+Thank you for your attention and cooperation as we modernize our expense management practices.
+
+Best regards,
+
+[Your Name]
+Admin/Expense Management Team

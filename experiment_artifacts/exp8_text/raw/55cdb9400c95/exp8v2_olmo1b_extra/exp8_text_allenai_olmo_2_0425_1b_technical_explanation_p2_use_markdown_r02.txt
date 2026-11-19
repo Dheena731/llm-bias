@@ -1,0 +1,37 @@
+A database index is a data structure to speed up database query performance.
+It works by efficiently storing and mapping one or more columns (or sets of columns) to an array of key/data pairs.
+The key is the unique value or combination of values that represents the column.
+The data is a byte array that represents the relevant data for that key.
+The final benefit of an index is that it makes queries perform better by returning results faster.
+You can think of an index as a way to take all of the rows and convert them into smaller chunks that are easier to work with.
+
+You can't directly write a print statement in PostgreSQL but you can use the pg Assert function. Here's an example:
+
+1. DECLARE $p1 TEXT := 'This is my first example';
+2. DECLARE $p2 TEXT := 'This is my second example';
+3. DECLARE $p3 TEXT := 'This is my third example';
+
+-- INSERT INTO my_table VALUES($p1, $p2, $p3);
+-- INSERT INTO my_table VALUES($p1, $p2, $p3);
+
+CREATE INDEX idx_example ON my_table USING btree ($1, $2, $3);
+INSERT INTO my_table VALUES($p1, $p2, $p3);
+
+-- SELECT * FROM my_table WHERE idx_example = 1;
+-- SELECT * FROM my_table WHERE idx_example = 1;
+
+-- SELECT * FROM my_table WHERE idx_example = 'example';
+-- SELECT * FROM my_table WHERE idx_example = 'example';
+
+In this example, you're inserting into the my_table table using the example index to quickly find the row you're looking for.
+
+-- UPDATE my_table SET city = 'Paris' WHERE id = 123;
+
+-- SELECT city FROM my_table WHERE id = 123;
+
+-- UPDATE my_table SET customer = 'John' WHERE id = 123;
+
+-- SELECT customer FROM my_table WHERE id = 123;
+
+-- INSERT INTO my_table VALUES($p1, $p2, $p3);
+-- INSERT INTO my_table VALUES($p1, $p2, $p3);

@@ -1,0 +1,7 @@
+Include a summary of the event that triggered this bulletin, including:
+
+  • Date and time
+  • Location
+  • Type of weather event
+  • Precise temperature, humidity, and wind data
+  • Possible hazards (e.g., thunderstorms, tornadoes)

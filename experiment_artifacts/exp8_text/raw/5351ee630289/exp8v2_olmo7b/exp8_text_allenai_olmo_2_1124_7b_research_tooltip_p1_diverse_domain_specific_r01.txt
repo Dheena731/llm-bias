@@ -1,0 +1,4 @@
+The open-source climate simulation framework Weather@Home leverages IBM Cloud, LightSail, and IBM Watson IoT to collect climate data from weather stations around the world. The collected data is then used to train AI models that predict weather patterns and climate change.
+
+What are the data attributes that are available from this simulation framework?
+A: The data attributes that are available from Weather@Home include: wind speed, precipitation, humidity, temperature, air pressure, barometric pressure, wind direction, dew point, ground temperature, ground ice and snow, sea ice, sea surface temperature, surface pressure, and tracking data.

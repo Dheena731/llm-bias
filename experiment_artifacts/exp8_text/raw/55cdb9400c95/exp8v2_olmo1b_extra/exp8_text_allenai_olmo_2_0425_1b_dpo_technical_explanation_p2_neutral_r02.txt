@@ -1,0 +1,13 @@
+An index on a database table provides a lookup mechanism that speeds up data retrieval operations by enabling the database engine to find specific data more efficiently than a table scan would allow. Here’s a short explanation of what a database index does:
+
+1. **Speed up data retrieval:** An index is a data structure that is specially created for a specific table. It organizes data so that rows with similar attributes are grouped together, making it much faster to find specific pieces of data. For example, if you are often searching for rows containing a specific value in a column (let's say "employee_name"), an index on that column can significantly reduce the time it takes to find those rows by avoiding the need for a full table scan.
+
+2. **Reduce disk I/O:** Instead of scanning every row in the table, an index allows the database engine to skip over large portions of the table's rows when performing a query. This greatly reduces the amount of data that needs to be read from disk, which can be crucial in large databases with many rows.
+
+3. **Preserve sorted order:** An index on a sorted column (one that naturally appears in a particular order, such as ascending or descending) preserves that order. This is particularly useful for applications that depend on data being sorted after retrieval, such as database management systems, search engines, and analytical applications.
+
+4. **Borrowed space:** An index consumes some disk space, but it pays off by speeding up read operations. The trade-off is somewhat larger for write operations, as indexes must be updated whenever data is changed.
+
+5. **Database design considerations:** The decision to create an index should be based on the queries that will be executed most frequently against the table. Avoiding redundant (repeated) data and ensuring indexes are properly indexed based on frequently queried fields can improve overall database performance.
+
+In summary, an index effectively marks selected columns on a table as areas of the database to focus on, making it possible to efficiently locate and process data. This is particularly beneficial for high-performance database systems and applications that require quick data access.

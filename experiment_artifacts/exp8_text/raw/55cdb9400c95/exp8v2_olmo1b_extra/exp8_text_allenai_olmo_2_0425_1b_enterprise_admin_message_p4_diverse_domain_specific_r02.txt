@@ -1,0 +1,42 @@
+ • This is an AI-based access control system. The system can be used in many offices, and the review of access requests is automated.
+  • The application allows users to access restricted areas and can be used in large offices with hundreds of employees.
+
+The example above is an admin note about access control that is written generically about an AI-based access control system. It does not have enough information to show the specific use case, and it does not show why that use case is unique.
+
+Compare the previous example to the second example below, which is much more specific and readable. Although it uses the same terminology, the new example has enough detail to show the specifics of the use case.
+
+  • This is an application for an AI-based access control system. The system can be used in large offices with hundreds of employees, and it can be used to manage access to restricted areas.
+  • This application allows users to access restricted areas and can be used in large offices with hundreds of employees.
+
+The second example is written in a more specific way, describing the application's use case and its advantages.
+
+Use specific language
+
+Use technical vocabulary when describing an application that is intended for a technical audience. Use plain language when writing for a non-technical audience.
+
+Use technical terms when the audience is knowledgeable about the subject. For example, when explaining the use of AI in a healthcare application, it might be appropriate to use technical terminology (e.g., physician friendly AI).
+
+If the audience is not familiar with the subject, use plain language. You can use technical language in the context of the application, but use plain language in the context of the overall description of the application. The following example uses technical language in the context of the application, but describes the use of plain language in the context of the overall description of the application.
+
+  • This is an application for an AI-based access control system, which can be used in large offices with hundreds of employees.
+  • The application allows users to access restricted areas and can be used in large offices with hundreds of employees.
+
+In the example above, the plain language is used in the context of the overall description of the application. The technical language is used in the context of the specific application. The following example is wrong because it does not use the correct language in the context of the application and does not use the correct language in the context of the overall description of the application.
+
+  • This is an AI-based access control system. The system can be used in large offices with hundreds of employees. It can be used to manage access to restricted areas and allows users to access restricted areas.
+
+The second example is incorrect because it does not use the correct language in the context of the application and does not use the correct language in the context of the overall description of the application. The first example is correct because it uses the correct language in the context of the application and the correct language in the context of the overall description of the application.
+
+Use nouns
+
+Use nouns when describing an application, and avoid using verbs and adjectives.
+
+Use nouns when describing an application. For example, use the words "collaborate," "manage," and "share" when talking about the application. Avoid using verbs and adjectives when describing an application. For example, use the words "share," "collaborate," and "manage" when talking about the application.
+
+The following example uses nouns when describing the application.
+
+  • This is an application for an AI-based access control system. It can be used to manage access to restricted areas and allows users to share with others.
+
+The second example uses verbs and adjectives when describing the application. The first example is correct because it uses the right words to describe the application. The second example is incorrect because it uses the wrong words to describe the application.
+
+Use

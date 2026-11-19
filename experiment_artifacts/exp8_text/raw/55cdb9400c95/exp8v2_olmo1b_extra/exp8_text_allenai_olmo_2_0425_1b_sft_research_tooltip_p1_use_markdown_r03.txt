@@ -1,0 +1,12 @@
+```markdown
+# Dataset Filter Tool
+
+## What is a Dataset Filter?
+A dataset filter allows users to select specific criteria for data analysis, such as filtering data by a particular column (e.g., age), selecting only data from certain datasets, or excluding outliers. This feature enables researchers to focus on relevant data for their analysis.
+
+## How Does It Work?
+1. **Select the Column:** Choose which columns you want to filter your data by (e.g., age, gender).
+2. **Select the Filter Type:** Decide if you want to filter by one or multiple columns (e.g., both age and gender).
+3. **Choose the Options:** Set the criteria for the filter (e.g., keep only values within a specific range).
+
+By utilizing a dataset filter, researchers can enhance the accuracy and relevance of their findings by ensuring that only relevant data is included in their analysis.

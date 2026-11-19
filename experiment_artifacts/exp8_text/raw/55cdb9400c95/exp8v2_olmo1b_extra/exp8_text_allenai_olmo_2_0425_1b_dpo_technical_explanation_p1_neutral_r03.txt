@@ -1,0 +1,13 @@
+Latency refers to the time it takes for data to travel from the source to the destination. In the context of web applications, latency matters for several reasons:
+
+1. User Experience: Fast and responsive web applications are essential for a good user experience. When users are waiting for data to load or for the application to process requests, they might lose interest or frustration can set in quickly.
+
+2. Performance: High latency can negatively impact the performance of a web application. Slow responses can deter users from engaging with the application or lead to a poor overall user experience. In competitive industries, such as e-commerce or real-time gaming, even a small delay can be considered unacceptable.
+
+3. Scalability: As the number of users or the complexity of the application grows, latency can become a critical issue. A web application with high latency will struggle to handle more concurrent users and might become unresponsive or slow down significantly under load.
+
+4. Application Reliability: High latency can also impact the reliability of a web application. In environments with intermittent connectivity or unreliable networks, even small delays can cause the application to behave unpredictably or fail entirely.
+
+5. Cost: High latency can increase costs, both directly through higher processing power utilization and indirectly through issues such as increased server load and higher internet service provider costs.
+
+In summary, latency is critical for maintaining an engaging and responsive user experience, ensuring scalability and reliability, and conserving costs in the competitive world of web applications.

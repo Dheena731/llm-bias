@@ -1,0 +1,7 @@
+[![Juniper ClickOnce Logo](https://www.juniper.net/office/office-logos/microsoft/images/juniper-logo.png)](https://www.juniper.net/office/office-products/software-products/juno/office-software-select/microsoft-office) [![Microsoft Office Logo](https://www.juniper.net/office/office-logos/microsoft/images/microsoft-office-logo.png)](https://www.juniper.net/office/office-products/software-products/microsoft-office)
+
+Juniper OLAP is a breakthrough in open-source big data platform that provides scalable, high-performance, open source analytics and data munging. Juniper OLAP is ideal for new business use cases that are common in today’s enterprise data warehouse environments. With Juniper OLAP, you can quickly develop innovative analytics and business dashboards, and then share them with your entire organization.
+
+Juniper OLAP provides a high level of integration with SQL as well as MapReduce and Pig on the Hadoop platform.
+
+Juniper OLAP is free and open source software and is licensed under the Apache License, Version 2.0 (see: [License][license]) Juniper OLAP is in active development and is released under a Permissive open source license. Juniper OLAP is a member of the Apache Software Foundation.

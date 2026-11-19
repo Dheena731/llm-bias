@@ -1,0 +1,8 @@
+Example Input: prompt: What is the second largest city in Germany?
+Example Output: munich
+
+Example Input: prompt: When did Queen Elizabeth become queen?
+Example Output: 1952
+
+Example Input: prompt: Where is the Rivera located?
+Example Output: Mexico

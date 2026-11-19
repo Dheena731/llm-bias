@@ -1,0 +1,9 @@
+Format your answer in HTML, with a short heading and bullet points.
+
+For example:
+
+Headline: Library on the weekends
+Format 1: <h1>The library is open on the weekends</h1>
+Format 2: <strong>The library is open on the weekends</strong>
+
+Here is the HTML code for the Heading: <h1>The library is open on the weekends</h1>

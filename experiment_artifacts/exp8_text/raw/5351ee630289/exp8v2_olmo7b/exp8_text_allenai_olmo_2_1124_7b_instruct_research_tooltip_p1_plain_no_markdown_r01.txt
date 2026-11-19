@@ -1,0 +1,1 @@
+This tool allows you to filter the dataset by selecting specific criteria from dropdown menus. Choose the variable you want to focus on, then select the condition (e.g., greater than, less than) to narrow down your results. Use the toggles for each option to refine your search and view only the data that meets your defined standards.

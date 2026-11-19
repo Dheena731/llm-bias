@@ -1,0 +1,3 @@
+**Dataset Filter in Research Tool**
+
+This dataset filter enables you to tailor and narrow down the dataset to specific criteria, enhancing precision and accuracy in your research. By enabling you to filter data by specific attributes, such as color, shape, or size, you gain greater control over the content of your analysis, ensuring that your results reflect your specific research questions. This feature is particularly useful for conducting detailed exploratory research or targeted analysis, where the diversity and volume of data can sometimes overwhelm the investigator.

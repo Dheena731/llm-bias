@@ -1,0 +1,1 @@
+Select a date range by choosing the start date, end date, or both. The interface visually displays the selected range on a calendar, allowing users to easily adjust the dates by clicking and dragging the displayed bars or typing directly into the date fields.

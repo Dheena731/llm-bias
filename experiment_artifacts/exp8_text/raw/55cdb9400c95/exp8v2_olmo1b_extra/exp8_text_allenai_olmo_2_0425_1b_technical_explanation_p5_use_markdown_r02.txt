@@ -1,0 +1,39 @@
+Example output:
+
+An API rate limit is a limit on how much of an API (like a web API) a user can make in a given time period.
+
+A common rate limit is 100 requests in a given hour. API providers might have a different rate limit for a single API method, and you might have a different rate limit for different API methods in a given endpoint or set of endpoints.
+
+The rate limit is usually enforced by a server-side rate limiting mechanism. For example, a rate limit might be enforced by checking the request count of the API method, or the total number of requests for the endpoint.
+
+## API Rate Limiting in Practice
+
+### Let’s Start With a Hello World Example
+
+Let's say you have a "Hello World" API that returns a simple "Hello World" string to a browser. The API is pretty straightforward, but it relies on writing a few lines of Javascript code using some popular libraries for web development, like the JavaScript SDK for Axios.
+
+You want to build a crawler that makes a request to this API endpoint. When I first built my crawler, I did not think to do rate limiting on my requests and was surprised to see my crawler get an error.
+
+### How Can We Avoid Getting an Error?
+
+There are a few ways we can address this:
+
+### Request Token
+
+The simplest way to address this is to use an API token, which is a unique identifier that you can use to limit the number of requests you make to an API endpoint. By default, APIs (and custom libraries like Axios) will not send requests to an endpoint unless you provide a token. Once you provide a token, the armada’s API will only make a request to the endpoint with the provided token. By providing your token, you are, in effect, telling the armada to not send any requests to the endpoint.
+
+### HTTP Headers
+
+HTTP headers might be a more powerful way to address this problem. You can always add a custom header to your request that will then be sent with every request you make to the armada’s API endpoint. This header could be something as simple as a "limit" header that tells the armada you want to make requests using a rate limit.
+
+### Use Rate Limiting Libraries
+
+There are some libraries, like the Armada Rate Limiting Library, that can do rate limiting for you. You can simply add your API endpoints to these libraries and let the library enforce rate limits on your behalf. These libraries will generate the HTTP headers you need to make a request to a API endpoint with an appropriate rate limit.
+
+### General Advice
+
+The general rules of thumb are:
+
+*    Use a request token. This provides the easiest way to address rate limiting issues.
+*    If you are using a custom library, like the Armada Rate Limiting Library, that is doing the rate limiting for you, be sure to check for a rate limit header in the API response.
+*    If not using a rate limiting library, or if you are using a library that does not provide a rate limiting header, consider using HTTP headers to address this problem.

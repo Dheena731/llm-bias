@@ -1,0 +1,1 @@
+This chart displays the confidence interval for our study. The confidence interval represents the range within which we can be fairly sure that the true population parameter lies, based on the sample data. In this case, we have calculated the confidence interval for the mean age of the population to be 36 to 40 years.

@@ -1,0 +1,153 @@
+The following are good examples of the widget:
+
+  • 2004 and after
+  • 2004
+
+The following are not good examples of the widget:
+
+  • 2004 or later
+  • 2004 or above
+  • later than 2004
+  • 2004 or after that
+
+
+There are several ways to render a date range selector and all of them are valid in different circumstances and all of them are also valid to be used in the same page, we can use the most convenient one for each circumstance.
+
+It is a good practice to use the same widget in every page with the same date input.
+
+As a general rule, any of the following widgets are allowed by the tool Tip:
+
+  • Calendar
+  • Date range
+  • Calendar + date range
+  • Date picker
+  • Date range picker
+
+Date range selector
+
+This widget is used in most of the cases.
+
+This widget is composed by two input fields placed side by side, the first one is focused by default and has an empty text by default.
+
+When a value is selected in the first input field, the second input field is filled with the same value and then becomes focused.
+
+The selected value in the first input field is only shown as a tooltip in the second input field.
+
+If the second input field has a value, it is always shown as a tooltip in the first input field.
+
+Date range selector widget
+
+This is the best widget to handle a date selector in most of the cases because it gives the user two possibilities to work with dates: choosing a date or choosing a date range.
+
+This widget also has the advantage that the date selected in the first input field is shown as a tooltip in the second input field.
+
+If the second input field is empty, this widget has the same behavior as the date range widget explained in the following section.
+
+Date range widget
+
+This widget is composed by two input fields, the first one is focused by default and has an empty text by default.
+
+When a value is selected in the first input field, the second input field is filled with the same value and then becomes focused.
+
+The selected value in the first input field is only shown as a tooltip in the second input field.
+
+Date range widget
+
+A date range selector is similar in behavior to a date range widget with a date picker instead of the date range picker.
+
+The difference is that when the two inputs fields are equal, the user can easily compare the dates and choose one.
+
+This is also the most used widget in the tool tip because it matches the way the users usually interact with the calendar, choosing a date and then the range of days around that date.
+
+Date picker widget
+
+This widget is similar to the date picker widget described in the previous section.
+
+The difference is that when the first input field is empty and then the date picker opens, the second input field is filled with a date that is not specific and is only shown as a tooltip.
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+
+Date picker widget
+

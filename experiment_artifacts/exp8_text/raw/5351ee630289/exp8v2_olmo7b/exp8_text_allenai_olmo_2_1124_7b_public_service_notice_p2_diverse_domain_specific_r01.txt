@@ -1,0 +1,13 @@
+Who are we building this for?
+
+To put it in the words of co-founder and AI researcher Joelle Pineau, "I want to promote the vision of distributed AI research so that a few people aren't responsible for the majority of AI research and we have lots of people with lots of different ideas collaborating on a project. And doing so in a way that is ethically sound and safe."
+
+There are countless benefits to getting a team of researchers together to pool their resources and tackle a problem, and a distributed system like Ensemble lends itself to collaboration and sharing. At the one-year anniversary of the project, a new system enabled Ensemble members to share source code, and all of the resulting projects will be made available on GitHub. For anyone who's ever dreamed of collaborating on AI research, Ensemble acts as an incubator, with the team hoping to see who from this distributed system will ultimately create new systems, products, and services.
+
+One example of how Ensemble members might collaborate is the task of building a robust language model. In this case, a core model could be built by a team of researchers, and then distributed across the network, with each node adding or changing its own parameters or improving upon an initial algorithm. The beauty of the system is that the parameters added by these independent nodes can be then combined to build a single, robust model.
+
+Another potential use case is in city planning, where Ensemble members might build models to help simulate future developments and urban growth. Assuming that Ensemble members' models are safely constrained so that they won't build a dystopian downtown, Ensemble members could then pool their models to simulate a hundred different futures.
+
+This model-pooling would allow cities to adopt the best possible plans based on collaborative research, without having to rely on experts in every field. For example, Ensemble members might build models to simulate the best possible city layouts, pollution levels, and traffic patterns, and then pool these models together to advise city developers. On a more practical level, Ensemble members might share models to help identify the best COVID-19 hotspots and predict the locations of outbreaks.
+
+The Ensemble project has released source code under a permissive license, and the team is calling on developers to further explore the project, improve upon it, and make it even more useful for the AI community.

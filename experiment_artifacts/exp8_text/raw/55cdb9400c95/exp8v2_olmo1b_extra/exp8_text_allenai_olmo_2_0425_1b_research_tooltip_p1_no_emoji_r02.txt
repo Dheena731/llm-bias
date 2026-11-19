@@ -1,0 +1,32 @@
+Note
+
+This article is intended to provide a little background or explanation. It is not a tutorial or a complete reference, nor does it include an exhaustive list of all available options. You may wish to start with the tutorial to learn more about the benefits of cookies, and can also refer to the reference documentation for more details about available attributes.
+
+Dataset filters are described in the following ways:
+
+Filter type Description
+Text Filter Text. This filter allows you to determine if a given property is equal to a text value. For example, if you wanted to find the datasets that have a specific topic a researcher may be investigating, you could create a filter that selects datasets with the word “social” in their title.
+Geographical Filter A geographical filter is a spatial filter. It allows you to select datasets that have a specific bounding box, or set of bounding boxes, that are within the provided bounds.
+Time Filter A time filter allows you to select datasets that were created in a specific date range. For example, if you wanted to find all the datasets created between November 1, 2017, and April 1, 2018, you could create a time filter that selects datasets that had their creation date between those two dates.
+Filtering a set of datasets can help you to narrow down the data set you are using, or to help create a quick overview list of the most relevant datasets for a certain topic. Additionally, filters can help to combine datasets to better support your analysis, by filtering datasets that meet several criteria together.
+
+You can define a dataset filter as follows:
+
+  • Create a new filter by clicking on the filter icon found in the upper-right corner of the visualization page. This will open a new page with a toolbar that offers various options regarding the dataset filter you are creating.
+  • Define a dataset filter as follows:
+    • Enter a dataset title.
+    • If you want to select more than one dataset, you can use the multiple select option to select multiple datasets by clicking on the checkbox next to each dataset you wish to include.
+    • If you wish to select datasets that meet only one of the criteria below, you can create a filter using the ‘and’ button. You can define an additional criteria using the ‘or’ button, or you can use the ‘greater than’ or ‘less than’ button to specify an upper or lower limit on the dataset’s properties.
+
+Dataset filter configuration options
+
+**and:**
+
+  • An OR filter allows you to select datasets that meet one of the properties you provide below. For example, if you wish to select datasets that have a “water” in their dataset title or that have a “global health” as one of the attributes in their metadata, you would specify “water” OR “global health” as an additional criterion.
+  • To define a list of values you wish to include using the ‘or’ button, you can specify a value in curly brackets, as follows: {{dataset:title}} AND {{dataset:MeSH}} OR {{dataset:water}}
+  • To specify that a dataset does not meet any of the criteria below, you can specify the value no in curly brackets, as follows: {{dataset:title}} AND {{dataset:MeSH}} OR {{dataset:water}} AND no {{dataset:filter}}.
+
+**greater than**::
+
+  • Using a threshold can help you to determine if a dataset is interesting to include in your visualization. For example, if you are interested in datasets published in the last 5 years, you could create a filter that specifies 5 as your threshold. This could be useful if you are working with an interdisciplinary dataset, but are unsure of how recent the data is, or if a dataset is unpublished.
+  • If you wish to select datasets that meet more than one of the criteria below

@@ -1,0 +1,10 @@
+**Password Reuse Notice**
+
+It is important to reiterate that password reuse is a major security risk in the workplace. Reusing passwords across multiple accounts or services increases the likelihood of one compromised password leading to unauthorized access to other accounts and sensitive information. Password managers can be used to generate and store complex passwords for each account. Implementing a company-wide policy to enforce the use of unique passwords across all accounts and regularly updating these passwords can significantly enhance the security of our workplace.
+
+In the event of password theft or a successful phishing attack our ability to secure sensitive information is greatly diminished. Therefore we encourage all employees to adhere strictly to this policy and to never reuse passwords across different accounts.
+
+Should you suspect your password has been compromised or you encounter suspicious activity on your account please contact your HR representative or our IT support team immediately.
+
+Thank you for your attention to this matter.
+

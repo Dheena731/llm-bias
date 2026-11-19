@@ -1,0 +1,37 @@
+Don’t bother to personally email a poster presenter, but do ask them to please send corrections to the poster. If the poster is not available, add the contact information in the poster description box. Use the template below to write a simplified email draft, and then send it.
+
+Dear [Presenter’s name], I’m looking forward to seeing your presentation at the conference. I sure hope you are able to attend! I do have an unusual question: is the poster paper available electronically? If not, could you send the paper to me by email? Please send me the PDF files of your poster as soon as possible. Thank you!
+
+Summary
+
+  • General Instructions
+    • Multiple times in every paper, make a comment that says “This paper is submitted for [conference].” Then publish the paper on the website or make a conference poster.
+
+  • Publish the paper
+    • Summarize the paper
+    • Include your name, department
+    • Identify a referee (if available)
+    • Add a link to the conference website (if there is one)
+    • Add other associated documents
+    • Publish the paper
+
+After making the submission to the website, make a conference poster. To do this on Linux:
+
+  1. Go to the website
+  2. Click the paper, then “Submit Poster” button
+  3. Fill out the form and click “Submit Poster”
+  4. Add a title to the poster
+  5. Open the latest version of the paper in a new window
+  6. On the paper, make the following changes to the text:
+    • Replace the paper title with a title that is not too long
+    • Remove all references to “internal references and acknowledgements”
+    • Remove all references to “Introduction”
+    • Remove all references to “Conclusions”
+    • Replace all references to “References” with a link to the “References” page in the paper
+    • Replace all references to “Supplemental Information” with links to the “Supplemental Information” on the conference website
+  7. Close the paper window, and save the new version of the poster
+  8. Submit the new poster
+  9. Double check the poster, include your contact information, and email the poster presenter
+
+If you do not have enough time to make a paper poster, or can afford a paper poster, you can use a website like Open Canvas to do a better job. See the Open Canvas blog for more information on making a website, and to see more examples.
+Some conference papers have been published online before the conference began. In that case, you should submit your paper to the conference website, and not publish it online elsewhere. Note: Most conference websites will not let authors publish their papers on their website.

@@ -1,0 +1,23 @@
+## Overview
+
+The overview is the first thing the user should see after the "Introduction" page is loaded. Since this page is the first the user will see, it should contain enough information to orient the user. This part of the page should be written in a concise manner and should be kept short and to the point. In the production version, the overview is pinned to the top of the page. The summary should be at least 30 words, but should be kept concise.
+
+Do not use Markdown formatting.
+
+## What happens if we run out of water?
+
+The water section of this page is written from the perspective of a 10-year-old child in a drought-hit village. The child's parents tell him various stories to scare him. However, the child is told the exact number of liters of water that his parents have planned to use and he has to figure out how long his parents can last without any water. This section should be written in a way that is simple to understand.
+
+Do not use Markdown formatting.
+
+## Internet of things
+
+The internet of things (IoT) is a concept that describes the connection of everyday objects, such as toys, lamps, or mobile gadgets, with the internet. The focus of this section is on three ways that IoT is being used to improve the quality of life around the world. It should be written in simple language and should be 100 words long.
+
+Do not use Markdown formatting.
+
+## Alleviating hunger
+
+The perspective of this section is that of a mother who has a child who is hungry. The mother's name is Emily and she lives in a small village in Africa. She has 6 children and she has no time to cook for them. She spends most of her time tending to her children and working on the farm. She is concerned about the future and wants to provide her children with good food. This section should be written in simple language.
+
+Do not use Markdown formatting.

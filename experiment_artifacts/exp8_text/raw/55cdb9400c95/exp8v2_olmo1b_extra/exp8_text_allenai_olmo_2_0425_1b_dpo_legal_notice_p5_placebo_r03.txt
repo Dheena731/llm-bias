@@ -1,0 +1,25 @@
+**Notice of Acceptable Use of Shared Network**
+
+We, [Company Name], are providing you with access to our shared network, which is designed to facilitate the efficient flow of information and work among our employees. To ensure the continued smooth operation and security of our network, we have established the following acceptable use policies. Please review and adhere to these guidelines to avoid any disruptions.
+
+1. **Responsible File Sharing:** Sharing files that are copyrighted or confidential is strictly prohibited. Any file sharing must be authorized and named appropriately. 
+
+2. **Ethical Programming Practices:** The use of our network and the programs installed on it should align with ethical standards. We discourage any activities that compromise the integrity of our system or the privacy of our users.
+
+3. **Anti-virus and Anti-malware Measures:** Regularly scanning your devices for viruses and other malware is required. You are responsible for ensuring that all your connections remain clean and secure.
+
+4. **No Suspicious Activity:** Engaging in or facilitating any form of suspicious, illegal, or unethical activity, including but not limited to hacking, phishing, or any form of cybercrime, is strictly forbidden.
+
+5. **Network Monitoring and Management:** We monitor network traffic and logging to detect any irregularities. If applicable, you may be subject to audit logs for monthly review.
+
+By using our network as intended, you agree to abide by these terms and conditions. Any violation of these rules will result in disciplinary action, including the potential suspension of network access or more severe consequences as deemed necessary by management.
+
+Placeholders:
+- [Company Name], [shared network], [concerning operations], [cybersecurity], [ethical programming practices]
+- [anti-virus and anti-malware measures], [regular scanning], [suspicious activity], [Network Monitoring and Management], [audit logs]
+
+Management reserves the right to make periodic revisions to these terms at its discretion, and we encourage everyone to stay informed about any changes.
+
+DISCLAIMER: This notice is intended for informational purposes and should not be construed as a legal or enforceable document. Any actual use of the network must be in compliance with the laws of [Your Jurisdiction].
+
+For further clarification or any questions regarding these guidelines, please reach out to our IT Department at [IT Contact Information].

@@ -1,16 +1,16 @@
 \begin{table}[t]
 \centering
 \footnotesize
-\caption{Study 3: OLMo 2 checkpoints by training stage. Neutral rates (\%) and median words; then change in markup versus neutral (percentage points, exact family sign-flip $p$) for the plain-prose instruction, the bare no-Markdown instruction. The base checkpoint is excluded from these contrasts because it continues the prompt rather than completing a task.}
+\caption{Study 3 (1B): OLMo 2 checkpoints by training stage. Neutral rates (\%) and median words; then change in markup versus neutral (percentage points, exact family sign-flip $p$, Holm-adjusted within the table) for the plain-prose instruction, the bare no-Markdown instruction, an instruction to use Markdown. The base checkpoint is excluded from these contrasts because it continues the prompt rather than completing a task.}
 \label{tab:v2-stages}
-\begin{tabular}{lrrrrrr}
+\begin{tabular}{lrrrrrrr}
 \toprule
-Stage & Markup & Lists & Emoji & Words & Plain & No-MD \\
+Stage & Markup & Lists & Emoji & Words & Plain & No-MD & Use MD \\
 \midrule
-Base & 0.0 & 33.3 & 0.0 & 236 & -- & -- \\
-SFT & 3.3 & 11.7 & 1.7 & 58 & +1.7 (1.000) & +0.0 (1.000) \\
-DPO & 50.0 & 40.0 & 6.7 & 172 & -35.0 (0.002) & -28.3 (<0.001) \\
-Instruct (RLVR) & 46.7 & 46.7 & 6.7 & 141 & -40.0 (0.002) & -36.7 (0.006) \\
+Base & 2.2 & 35.6 & 0.0 & 260 & -- & -- & -- \\
+SFT & 2.2 & 11.1 & 2.2 & 61 & +1.7 (0.594) & +3.3 (0.438) & +92.8 (0.004) \\
+DPO & 46.1 & 45.0 & 5.6 & 172 & -33.3 (0.004) & -25.0 (0.004) & +53.9 (0.004) \\
+Instruct (RLVR) & 38.3 & 41.1 & 6.1 & 128 & -34.4 (0.004) & -29.4 (0.012) & +60.8 (0.004) \\
 \bottomrule
 \end{tabular}
 \end{table}

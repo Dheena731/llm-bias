@@ -1,0 +1,1 @@
+To export query results, you can use the `export` command in your query editor. Just highlight the results you want to export, and then press `Ctrl + C` on your keyboard to copy them. Then, in your editor, type `export` in the command bar, press enter, and use the paste button to import them.

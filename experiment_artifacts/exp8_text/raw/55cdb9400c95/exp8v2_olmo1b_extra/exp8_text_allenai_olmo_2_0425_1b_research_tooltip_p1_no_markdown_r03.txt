@@ -1,0 +1,33 @@
+This is an example of a tooltip - click on an object in a data set in any of the tool's views and you'll see the tooltip.
+
+The tooltip is shown as you hover over an object. It provides an explanation of the term which was selected. (Note that the tooltip is only shown if you already have selected the term - if you still have the object selected, no tooltip will appear.)
+
+For example, in the following example, if I mouse over the term "New York", the tooltip is shown:
+
+enter image description here
+
+I've chosen to use a simple style of tooltip - the text is white, the word "New York" is in a blue box, and under the blue box is a black outline box. If I instead used a tooltip style that shows a list of link options, it would look something like this:
+
+enter image description here
+
+For more information on the tooltips, see the docs:
+
+https://d3po.com/documentation/developers/developers-tips-and-tricks/developer-tip-d3-pendo-visualization-development-tool/developer-tips-and-tricks/d3pendo-visualization-development-tool-visualization-tool/tooltip
+
+You can use the same technique to add a tooltip to a button or other element:
+
+enter image description here
+
+Note that the button itself is not selected when you hover over it, but you can still see the tooltip underneath the button.
+
+Note that the tooltip is only shown if you already have selected the term - if you still have the object selected, no tooltip will appear.
+
+You can also use the same technique as the tooltip on an object to make a tooltip that shows a list of options, such as is shown in the following example:
+
+enter image description here
+
+You can also add a tooltip to a chart, which is shown in the following example:
+
+enter image description here
+
+You can add a tooltip to a slider, which is shown in the following example:

@@ -1,0 +1,3 @@
+# Confidence interval
+
+A confidence interval provides an estimate of the value of a population parameter with a specified confidence level. For example, if we want to estimate the mean of a population based on a random sample, then we would like to know how much variation we expect in the sample mean if we took a new sample. This variation is known as 95% confidence interval.

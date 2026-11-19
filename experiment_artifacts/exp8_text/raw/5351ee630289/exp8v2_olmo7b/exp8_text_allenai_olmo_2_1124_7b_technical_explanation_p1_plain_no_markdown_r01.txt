@@ -1,0 +1,5 @@
+When a user requests a page from a website, the page they receive back is not generated at the moment they submit the request. It usually takes some time for the server to process the request, and in the meantime, the user sees a blank page or a loading spinner.
+
+If a web application takes too long to process a request, users will become impatient and leave. This is especially true in the mobile era, where users are accustomed to expecting pages to load instantly, or at most within a second.
+
+Therefore it's important for web applications to keep latency as low as possible.

@@ -1,0 +1,1 @@
+A confidence interval provides a range of values within which a population parameter is believed to fall, based on the sample data. This range is calculated with a certain level of confidence, typically 95%, and is used to estimate the true value of the population parameter.

@@ -1,0 +1,29 @@
+Use the native types of text formatting and formatting that is common on the web. Do not use a different type of formatting or use a different browser's default formatting.
+
+Do not open-source a program. Do not include programs or reference sources.
+
+Write for the most senior of the senior management. Be tactful and brief. Use the shortest words appropriate to your audience's level of experience and technical skill.
+
+Avoid being too specific. The goal is to create a summary that people who are not familiar with the topic can understand. This accentuates the need for a generalist approach.
+
+Use the taxonomy of the professional discipline. This can include:
+
+  • List other people who can answer questions.
+  • Give credit to other people and projects.
+  • Use the correct terms in reference to the data.
+
+Use the name of the industry if you regularly contribute to the information. Examples include software products, internet domains, and marketing.
+
+Use the name of the company or organization that publishes the data. Examples include the Congressional Budget Office, the US Department of Commerce, and a data aggregator.
+
+Use the name of the governmental department that releases the data. Examples include the US Census Bureau, the US Geological Survey, and the US Census.
+
+Use the name of the company or organization that publishes the data. Examples include the US Bureau of Labor Statistics, the Google Analytics API, and the Facebook API.
+
+Use the name of the company or organization that created the data. Examples include the US Census Bureau, the US Bureau of Labor Statistics, and the United States Department of Labor.
+
+Use the company or organization that publishes the data. Examples include the US Census Bureau, the US Bureau of Labor Statistics, and the Bureau of Labor Statistics.
+
+Include the name of the project you are writing about.
+
+By using plain language and avoiding jargon, you can help your users and other developers understand a subject without a vast knowledge of the technical details.

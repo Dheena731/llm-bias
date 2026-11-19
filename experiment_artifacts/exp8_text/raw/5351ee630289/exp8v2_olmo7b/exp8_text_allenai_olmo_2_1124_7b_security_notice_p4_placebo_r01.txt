@@ -1,0 +1,49 @@
+Two-factor authentication is a method for verifying a user's identity. It requires the user to provide two pieces of evidence to prove they are who they say they are.
+
+How to set up two-factor authentication
+
+Log in to your account
+
+Click My Settings in the top right corner.
+
+Select Two-Factor Authentication
+
+You will be taken to the settings page for two-factor authentication. Enable it by checking the box, and then select "Get Started with a Verification Code".
+
+Enter the code that is sent to you
+
+You will receive a verification code by SMS. Enter that into the box, and then click "Verify".
+
+Now you can continue to set up two-factor authentication. This will guide you through setting up your second factor.
+
+Two-factor authentication adds an extra layer of security to your accounts. It helps protect against attacks and malicious actors who might gain access to your account. Once you enable two-factor authentication, you will need to provide an additional verification code when logging in from new devices or after resetting your password.
+
+When you need to log in from a different device
+
+If you want to access your account from a new device, your phone will send you a verification code via SMS once you enter your username and password. You will need to enter the verification code to complete the sign-in.
+
+When you want to reset your password
+
+If you want to reset your password, you will first need to verify your identity using your second factor. This can be done by entering a verification code sent to your phone via SMS, or by scanning a QR code that you have created and saved on the two-factor authentication settings page.
+
+Why two-factor authentication is important
+
+Two-factor authentication is a great way to protect your online accounts in the event that someone finds out your password. When you enable two-factor authentication, you will be required to provide an additional verification code when logging in from new devices or after resetting your password.
+
+This extra step makes it harder for people to gain access to your accounts without you knowing, and could save you from a lot of trouble.
+
+Two-factor authentication is important because it helps protect your accounts from being hacked and your data being stolen by malicious actors. When you enable two-factor authentication, you will need to provide an additional verification code when logging in from new devices or after resetting your password. This extra step makes it harder for people to gain access to your accounts without you knowing, and could save you from a lot of trouble.
+
+Two-factor authentication is very important nowadays because we live in a digital world, and our online accounts are one of the most attacked things on the internet. Many people have accounts on multiple social media websites and e-mail services where they store important information about themselves like their name, address and phone number. The only way for you to prevent attackers from obtaining this information is by using two factor authentication.
+
+We all know that it is important to protect our personal information from being obtained by malicious actors, and one of the easiest ways to do so is by using two-factor authentication. When you log in to your account, you will be asked to enter a verification code that is sent to you via text message or email.
+
+For example, if you want to log in to your email account and use it to pay bills, you will be asked to enter a verification code that is sent to you via text message or email. This code is known as two-factor authentication.
+
+How to use two-factor authentication
+
+Two-factor authentication is a security feature that helps protect your accounts from being hacked. It requires you to enter a verification code in addition to your username and password when logging in from new devices or after resetting your password.
+
+To use two-factor authentication, you'll need to sign up for it by going into your Google account settings and clicking on account security. Then, scroll down and click on the two-factor authentication section.
+
+From

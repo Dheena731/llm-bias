@@ -1,0 +1,1 @@
+To export query results, click on the desired table cell to highlight it. Then, right-click, and choose "Export" from the context menu. Choose the file format you prefer and hit "Save" to download your query results.

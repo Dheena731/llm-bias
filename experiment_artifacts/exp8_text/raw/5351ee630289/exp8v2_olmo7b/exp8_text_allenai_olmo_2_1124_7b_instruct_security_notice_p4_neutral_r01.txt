@@ -1,0 +1,30 @@
+Subject: Enhance Your Account Security with Two-Factor Authentication!
+
+Dear [Your Username],
+
+We are excited to inform you about a new feature aimed at strengthening the security of your account: Two-Factor Authentication (2FA)! By enabling 2FA, you add an extra layer of protection to your account, making it significantly harder for unauthorized persons to access your data.
+
+**What is Two-Factor Authentication?**
+Two-Factor Authentication requires not only your password but also something that only you have on you – typically your phone. When 2FA is enabled, in addition to entering your password, you will receive a unique code to your phone or email that you must enter to complete the login process.
+
+**Why Should I Enable 2FA?**
+- **Enhanced Security**: It significantly reduces the risk of unauthorized access.
+- **Peace of Mind**: Knowing your account is protected adds an extra layer of security.
+- **Compliance**: Many service providers are encouraging its use to comply with security standards.
+
+**How to Enable 2FA:**
+1. **Visit Settings**: Go to 'Settings' on our platform.
+2. **Locate 2FA Option**: Find and select the 'Two-Factor Authentication' link.
+3. **Follow the Guide**: Follow the step-by-step instructions to set up your 2FA preferences.
+4. **Get Your Codes**: Use the app or the method you choose to receive your verification codes.
+
+We understand that change can be a bit disruptive, but enabling 2FA is a proactive step towards safeguarding your account. After enabling, you'll have quick access to your 2FA codes via a trusted app or email.
+
+Please enable 2FA soon! It’s simple, secure, and an excellent way to protect your account. If you encounter any issues or need further assistance, our support team is here to help.
+
+Stay safe and keep your account secure!
+
+Best regards,
+
+[Your Platform's Name]
+[Your Platform's Contact Information]

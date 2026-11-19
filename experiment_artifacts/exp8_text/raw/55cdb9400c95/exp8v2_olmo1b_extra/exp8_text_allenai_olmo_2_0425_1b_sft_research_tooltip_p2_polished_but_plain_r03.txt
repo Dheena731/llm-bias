@@ -1,0 +1,1 @@
+A confidence interval in a chart gives you an approximation of where we can expect the true value of a population parameter to fall, with a certain degree of confidence. Just like a shadow, the length depends on the size of the object casting it. In this case, the range around the mean of the observed data represents our estimate of what the true average might be.

@@ -1,0 +1,41 @@
+Move a sales forecast from a workbook to a different workbook.
+
+
+Your organization wants to provide for its employees a flexible spending account that allows employees to choose how much, $20 or $30, to have deducted from their pay and directed to a health savings account. You want to create a form that employees can use to tell you how much to deduct. Use a form in Excel to collect this information.
+
+Standardize the form so that the input value is consistent. For example, if an employee chooses $20, you want the form to reject that input and require the employee to choose either $20 or $30.
+
+Use validation rules to limit the choices that can be made. For example, if you want to limit the choices to $20 and $30, you can use the Validation Wizard to create validation rules to limit the choices.
+
+Allowing employees to enter information incorrectly can lead to problems and costly mistakes. Use the Data Validation Wizard to create validation rules to limit the number of error messages an employee receives.
+
+Ensure that if the employee does not have enough income deducted for the health savings account, that the employee receives the health savings account deduction that is correct. For example, if an employee's monthly amount is $20, but the employee selected $30, the employee's monthly amount should be $22.
+
+
+Your organization wants to estimate the long-term cost of a new product that you are considering introducing to the market. The estimate should be based on the sales forecast and a few other factors. Use a formula and the three-step process to estimate the long-term cost.
+
+Use formulas involving the following data: the sales forecast; a baseline number of 500 units per month; the cost of the components; the number of other components; overhead cost.
+
+Use the three-step process to estimate long-term cost.
+
+Interviews and Surveys
+
+Standardize the process of sending an e-mail survey to employees about the benefits of your organization. Use only one e-mail address to send the survey to all employees.
+
+Create a survey that asks employees to rank the five most important benefits of your organization.
+
+Create a form in Excel to collect the answers to the survey.
+
+Use the form and information in a database to create a report showing how employees ranked the five most important benefits.
+
+Create a file showing employees' responses to the survey. Instead of using a separate file, use Excel formulas to create the report and merge all of the information into one file.
+
+Perform what-if analyses with the data you collected.
+
+Experiments and Contests
+
+Standardize the process of distributing a contest about a new product in your organization.
+
+Use Excel formulas to determine the winner of the contest.
+
+Create and modify your contest as your organization continues to grow and expand.

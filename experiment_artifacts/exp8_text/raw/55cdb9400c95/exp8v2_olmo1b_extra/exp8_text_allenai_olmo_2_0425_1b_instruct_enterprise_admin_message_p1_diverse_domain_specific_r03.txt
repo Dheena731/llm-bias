@@ -1,0 +1,16 @@
+Attention All Admins and Support Teams:
+
+We are pleased to inform you that our Dashboard Management system is undergoing a scheduled maintenance window starting this Friday afternoon (02/24/2023) at 2 PM MST. During this time, we'll be performing essential updates, security checks, and system optimizations to ensure your dashboard experience is as robust and reliable as always.
+
+Please note any critical or ongoing tasks that require your immediate attention should be prioritized during this maintenance period. We also recommend ensuring that your external plugins or any integrating services are configured to withstand downtime as we will perform server consolidations and testing during this window.
+
+We appreciate your understanding and cooperation. Feedback and any issues you encounter during this period are highly valued and will be addressed promptly post-maintenance.
+
+Thank you for your continued support and trust in our systems.
+
+Best regards,
+
+[Your Name]
+Dashboard Admin Team
+
+[Moreover, include any unique features or functionalities related to the maintenance window if applicable.]

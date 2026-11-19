@@ -1,0 +1,15 @@
+ • Do not use any abbreviations or acronomices.
+
+  • Do not use technical language. Use every day language instead.
+
+  • Do not use any words that aren't mentioned in the dataset's title.
+
+  • Do not use punctuation that isn't a . or a space.
+
+  • Do not use references to other tool's tooltips.
+
+  • Do not use contractions.
+
+You are writing the tooltip for a research tool. The dataset used in this research tool is called "grouphug_a9b4c1".
+
+grouphug_a9b4c1's name tooltip

@@ -1,0 +1,1 @@
+Hover over the data table to see export options. Click on "Export" to download the table as CSV, Excel, or another format. Choose your file format and select "Export" from the menu to download the results.

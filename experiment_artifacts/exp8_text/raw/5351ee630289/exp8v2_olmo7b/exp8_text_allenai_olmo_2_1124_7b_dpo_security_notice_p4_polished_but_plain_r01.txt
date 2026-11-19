@@ -1,0 +1,29 @@
+Subject: Important: Two-Factor Authentication Now Available
+
+Dear Team,
+
+We are excited to announce the availability of Two-Factor Authentication (2FA) for all your online accounts. This additional layer of security enhances your account protection by requiring a second form of verification, typically a code sent to your phone, in addition to your password.
+
+**How to Enable 2FA:**
+
+1. Begin by visiting the official Two-Factor Authentication webpage linked in this email.
+2. Follow the on-screen prompts to connect your phone number or use an authenticator app.
+3. Next, you will receive a unique code via SMS or through the authenticator app.
+4. Enter this code to complete the 2FA setup.
+
+**Why enable 2FA:**
+
+- **Increased Security:** Reduces the risk of unauthorized access.
+- **Compliance:** Adheres to best practices in cybersecurity.
+- **Peace of Mind:** Added protection for your personal and professional data.
+
+Please enable 2FA as soon as possible. Remember, your account security is paramount, and 2FA is a crucial step in safeguarding your digital presence.
+
+For more information or if you encounter any troubles during setup, please contact our IT support team.
+
+Thank you for your cooperation and commitment to maintaining a secure workplace environment.
+
+Best regards,
+
+[Your Name]
+[Your Title]

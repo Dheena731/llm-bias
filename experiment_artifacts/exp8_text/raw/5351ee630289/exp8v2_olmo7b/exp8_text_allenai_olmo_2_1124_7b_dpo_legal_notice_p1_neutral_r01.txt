@@ -1,0 +1,34 @@
+[Company Name],  
+[Company Address],  
+[City, State, Zip Code]  
+[Email Address]  
+[Phone Number]  
+[Date]
+
+Dear [Customer/Account Holder],
+
+RE: NOTICE OF CHANGE IN ACCOUNT TERMS
+
+We would like to inform you that effective [Effective Date], the terms and conditions applicable to your [type of account e.g., "standard checking account"] will be subject to the following changes:
+
+1. **Account Fees:** The monthly maintenance fee for this account will increase from [Current Fee] to [New Fee], unless you maintain a minimum average monthly balance of [Minimum Balance], in which case the fee will remain at [Current Fee].
+
+2. **Interest Rates:** The interest rate on your account will change to [New Interest Rate] (%) from [Current Interest Rate], as outlined in our new terms.
+
+3. **Product Features:** Certain features and services, such as online banking, mobile alerts, and bill pay, will become standard offerings without additional charge, effective immediately. Other optional services will remain available but may incur additional fees as specified in the new terms.
+
+4. **Termination Policy:** We have revised our termination policy, which now outlines a two-week notice period for closing your account. Full details of this policy are included in the attached document.
+
+These changes are intended to enhance our product offerings and ensure that our service remains competitive. Please review the attached document titled "[Attachment Name] for a detailed summary of these changes.
+
+If you do not agree to the new terms and conditions, you have the option to close your account within thirty (30) days of the [Effective Date] without incurring any early termination fees, provided that you notify us in writing of your decision to close.
+
+We encourage you to review the new terms and conditions carefully and to reach out to us should you have any questions or require further clarification. You can contact us at [Phone Number] or via email at [Email Address].
+
+In compliance with [Applicable Regulatory Authority],
+
+Sincerely,
+
+[Your Name]  
+[Your Title]  
+[Company Name]

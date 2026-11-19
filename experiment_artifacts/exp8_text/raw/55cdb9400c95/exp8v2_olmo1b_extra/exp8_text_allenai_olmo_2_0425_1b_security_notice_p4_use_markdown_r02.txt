@@ -1,0 +1,55 @@
+Two-factor auth is a bold statement of confidence that the server and client have been vetted and are the real deal. It's also a pretty impressive statement of laziness. Instead of remembering your password, you can rely on how "phishy" a site feels and trust your sense of judgement.
+
+The in-depth article Better security: The case for two-factor authentication by Brice Gassé provides a greater level of detail on this topic, but at least you now know what it is.
+
+Please read this useful document to learn more about enabling two-factor authentication.
+
+Other Resources
+
+Two-factor authentication (2FA) is defined as “the use of two or more independent security elements to verify user identity” and is now widely adopted across the world, including in the United States.
+
+The United States Department of Homeland Security (DHS) offers this useful definition:
+
+Two factor authentication is a process that requires a user to provide more than one form of identification. In many cases, two-factor authentication includes a second method of authentication that relies on something a user has (e.g., a token, mobile phone, physical object) and something a user knows (e.g., a password).
+
+This useful guide covers the benefits of two-factor authentication, including the safety it provides, ease of use, and cost savings.
+
+Two-factor authentication (2FA) is a security measure that applies to any online account that requires a password for access.
+
+This guide covers how 2FA works, the benefits of using it, the 2FA types available, and the differences between 2FA and 2-step verification (2SV).
+
+This guide on the Microsoft website describes how to set up 2FA and gives examples of the two types of authentication.
+
+This article also explains that 2FA can also be referred to as 2-step verification, 2SV, multi-factor authentication (MFA), or 2-step verification.
+
+This article on the Norton website explains how 2FA works.
+
+This article on the Computer Science Research website explains how the 2FA process works, whether it's needed for this website, and what to do if you're unsure.
+
+This page on the Georgia Tech website explains how the 2FA process works and what to do if you're unsure.
+
+This guide by GlobalSign explains how 2FA works and the benefits of enabling 2FA for your website.
+
+This is a resource from the University of Pittsburgh's Department of Computer Science that explains how two-factor authentication (2FA) works.
+
+This is a resource from MocoLearn that explains how two-factor authentication (2FA) works and why you should implement it on your website.
+
+This document from Microsoft provides an enhanced description of how two-factor authentication works and why you should enable it at the website level.
+
+This document from the Microsoft website explains how 2FA works and the benefits of using this security feature.
+
+This document from the University of California, Los Angeles, explains how 2FA works and why you should enable it for your website.
+
+This article from the University of Berkeley explains how 2FA works and why you should enable this security feature for your website.
+
+Microsoft provides a resource that explains how two-factor authentication works for websites.
+
+This guide from the University of Florida explains how two-factor authentication works for websites and smartphones, as well as how to enable it.
+
+This resource from NIST provides a detailed explanation of an authentication scheme for two-factor authentication for websites and applications.
+
+This article from the University of California, Los Angeles, explains how two-factor authentication works for websites and applications, as well as how to enable it.
+
+This article on the Computer Science Research website explains how two-factor authentication works for websites and applications and why you should enable it.
+
+This article on the University of California, Los Angeles, explains how two-factor authentication works and why you

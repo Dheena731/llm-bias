@@ -1,0 +1,11 @@
+Export query results is a straightforward process. Here's how you do it:
+
+1. Open your query result in the software or tool you're using.
+2. Right-click on the selected area of the result.
+3. Look for the option to "Copy" or "Copy Link Address."
+4. Click on "Copy" to save the link to the query result.
+5. Open a new document or tab in your preferred word processor or spreadsheet program.
+6. Paste the copied link into the new document or tab where you want to view the query results.
+7. Begin editing the new document or tab to view and distribute the query results as you need.  
+
+Remember, you can always come back to the query results by right-clicking on the page and selecting "Copy Link Address" to paste the link back into the document where you were viewing the results.

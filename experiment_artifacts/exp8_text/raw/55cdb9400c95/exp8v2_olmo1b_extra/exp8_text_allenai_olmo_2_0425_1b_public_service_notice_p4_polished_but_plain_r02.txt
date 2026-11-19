@@ -1,0 +1,17 @@
+For example, instead of an emoji, use the code [emoji] to denote it.
+
+Explain exactly what you mean. Avoid an ambiguous or overly broad term.
+
+For example, instead of using “do not contact”, explain the nature of the contact with a specific example. For instance, use the code [email] to denote a contact.
+
+Use a heading to name a group of people or a specific person. This can also be called a person’s “title”, but avoid using the term!
+
+  • If you’re talking about a single person, use their first and last name.
+  • If you’re talking about multiple people, add a comma between each person. Examples: “John, Jimmy, Ted, and Bob,” or “John, James, Peter, and Michael.”
+  • If you’re talking about multiple groups of people, use “and/or” between each group. Examples: “John and/or James,” or “John, James and/or Peter.”
+
+If you’re addressing a group of people, include their first and last names. For example, use their first and last name, or use their “title” (e.g. “Manager,” “Director,” “Chair”), or just their “name” if you’re not sure.
+
+This is an example of a public notice that is formatted correctly.
+
+To learn how to create and publish a public notice, go to our guide on how to create a public notice.

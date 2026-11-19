@@ -1,0 +1,11 @@
+# New Expense Approval Workflow
+
+* **Introduction**: This message introduces the new expense approval process designed to streamline budgeting and ensure transparency.
+* **Process Overview**: The workflow follows these steps:
+  - **Request**: Users can submit expense requests via our new expense portal.
+  - **Approval**: A designated team reviews and approves requests within 48 hours.
+  - **Approval Confirmation**: Approval is logged, and requested parties are notified.
+* **Benefits**: This process enhances accountability and compliance, reducing friction in the approval cycle.
+* **Next Steps**: Please review the documentation at [expense portal](https://support.domain.com/dashboard/expense-triggers) for more details.
+
+# Support Contact: For any questions or concerns, please reach out to [support.domain.com](mailto:support.domain.com).

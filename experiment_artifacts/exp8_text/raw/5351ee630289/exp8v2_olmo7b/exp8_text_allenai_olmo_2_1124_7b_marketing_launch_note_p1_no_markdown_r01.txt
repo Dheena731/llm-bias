@@ -1,0 +1,64 @@
+Basic Idea
+
+We're going to be investigating the idea of variable fonts.
+A variable font is a single font file that does the work of a whole family of fonts.
+It's like a typeface that can be adjusted to fit different sizes, weights, and widths.
+Not only that, but the idea of variable fonts also allows for a great deal of creative expression in type design that we previously couldn't get.
+
+What We're Going To Do
+
+  1. First, we're going to use an existing variable font to get a feel for what's possible with these fonts. We're going to look at multiple versions of Gotham and how they can adapt to different layouts.
+  2. Then, we're going to use the Variable Fonts editor to explore the design space of the Gotham variable font and get a feel for how you can go about defining types within these fonts.
+  3. After that, we're going to go ahead and design our own font, using the Variable Fonts editor.
+  4. Finally, we're going to use the font we've created in a real-world design context.
+
+What We're Not Going To Do
+
+  1. We're not going to go into variable fonts in great depth - we want to understand what they're about and how to use them, but we're not going to be defining our own variable font from scratch. There's a time and a place for that, but we'll leave it to those who want to do more with variable fonts to learn about things like font parameters.
+  2. We're not going to go into typeface design in a great depth - we want to understand the principles and ideas behind the design of variable fonts, but we're not going to be doing a deep dive into the design of typefaces. We'll be focusing on the ideas behind variable fonts, not the specific details.
+
+Why We're Doing This
+
+The first thing we need to do is understand what a variable font actually is.
+It's a font that can be adjusted to fit different sizes, weights, and widths.
+The question then becomes, how do we do that?
+It's quite simple, really: you pick one value out of a set of parameters and adjust it to fit your needs.
+That's what we're going to do in this workshop.
+
+What We'll Be Using
+
+From now on, we'll be using the following on-screen fonts:
+
+  • Gotham by Hoefler and Frere-Jones
+ 'the original font family for the web'
+'gives you the look and feel of a typeface without any typeface'
+
+This is a ‘regular’ font, one you’d use if you were creating a logo or a sign or something like that.
+
+Now let's see a set of the variations that come with our chosen font family:
+
+  • Gotham Rounded
+  • Gotham Bold
+  • Gotham Sans
+  • Gotham Expanded
+
+These are all variations of the original Gotham font, but here's the thing: they're all variations of the same font.
+
+All of these fonts are part of the same family - they're all Gotham.
+The font itself is the same, but it's being used in different ways.
+
+We'll be working with these fonts throughout the workshop.
+
+Workflow of Creating & Using Variable Fonts
+
+First of all, we're going to need to install the variable fonts we'll be using.
+Once we have them installed, we'll be using the Variable Fonts editor to make changes to the font and create new versions of it.
+
+Once we have our font edited, we'll be able to use it in a variety of different ways.
+
+For those of you who are wondering how to get the fonts in the first place, here's how:
+You can download them from here!
+
+The Basic Idea
+
+Like '

@@ -1,0 +1,12 @@
+Example Program
+
+Here is a very simple program. It is a reinforced chain for a simple repeat:
+
+(defn chain []
+  (let [chain (repeatedly 4 #(repeat 4 %))]
+    (if (= 4 (count chain))
+      (start (first chain))
+      (chain (rest chain))))
+This program will print out the word "HELLO" one million times.
+
+Image: Simple reinforced chain

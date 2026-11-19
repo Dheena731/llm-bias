@@ -1,0 +1,16 @@
+# Enabling Two-Factor Authentication
+
+**Understanding Two-Factor Authentication**
+Two-factor authentication (2FA) adds an extra layer of security to your accounts by requiring a second form of verification in addition to your password. This is typically a code sent to your mobile phone or sent to a hardware token.
+
+**Why Enable 2FA?**
+- **Improves Security:** Reduces the risk of account breaches by requiring more than just a password.
+- **Leverages Existing Devices:** Utilizes your phone or authenticator app, reducing the need for complicated set-up processes.
+- **Enforces Consistent Security Measures:** Ensures that your accounts remain secure across devices and locations.
+
+**How to Enable 2FA:**
+1. Visit [your account's authentication page](https://help Modalflow.com/two-factor-authentication).
+2. Follow the on-screen instructions to enable two-factor authentication.
+3. Check notifications to receive the 2FA code when it's required.
+
+By enabling two-factor authentication, you take a proactive step towards securing your account and protecting your personal information.

@@ -1,0 +1,7 @@
+In order to export query results, please follow these steps: 
+
+1. Open the query results in the specified database.
+2. Click 'Export' or access the 'Export' option in the context menu from the right-click menu on the results table.
+3. Choose a file format from the available options, such as CSV, Excel, or SQL.
+4. Enter a name and description for the exported file.
+5. Click 'Export' to save the file.

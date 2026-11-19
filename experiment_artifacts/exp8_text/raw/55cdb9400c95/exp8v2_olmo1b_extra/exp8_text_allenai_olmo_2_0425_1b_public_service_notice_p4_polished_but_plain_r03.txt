@@ -1,0 +1,31 @@
+Summarize the current weather and/or forecast for the next 24 hours. If the weather is changing rapidly, state that within the next 6 hours. Note that you will not always have the entire forecast available for the next 24 hours. If you have confidence in your forecasts, and if your target audience is weather savvy, state that within the next 6 hours.
+
+For example:
+
+The current temperature is 69° F (20° C). The high temperature for the next 24 hours is 90° F (32° C). There is a slight chance of water spouts occurring within the next 6 hours. Within the next 12 hours, the high temperature is expected to be 100° F (38° C).
+
+Remember that these forecasts and warnings are based on the current weather and not the upcoming weather. If the upcoming weather is more severe than the current weather, state that in a separate sentence. If there's a change in the forecast where the next weather is different than the current weather, state that in a separate sentence. For example:
+
+Current temperature: 69° F. Forecast temperature: 90° F. Current forecast: 100° F. Next 6 hours: a slight chance of water spouts. Next 12 hours: a slight chance of severe weather.
+
+Use the word "warning" if you are issuing a warning. If you are simply summarizing the weather, use the word "forecast." You should also use the word "expected" if the next weather is going to be expected to be different than the current weather. For example:
+
+Current temperature: 69° F. Forecast temperature: 90° F. Next 6 hours: a slight chance of spouts. Next 12 hours: a slight chance of severe weather. Expected temperature: 100° F.
+
+Don't include too much information in your public notice. If you have to dig through the forecast to find more information, that's not easy for your readers to digest. Try to summarize the forecast in one or two sentences. For example:
+
+Current temperature: 69° F. Forecast temperature: 90° F. Next 6 hours: a slight chance of water spouts. Next 12 hours: a slight chance of severe weather.
+
+Calling out a specific weather phenomenon is fine, but avoid general statements like "severe weather is coming." If you have confidence that this is indeed the case, state that in one sentence.
+
+Don't make your readers wait for longer than they need to. If the forecast is changing rapidly, or the forecast is otherwise unclear, give your readers as much information as you have available. If it will take longer than 15 minutes for your forecast to become more accurate, give your readers an estimate of time. For example:
+
+This forecast is based on an initial estimate of the high temperature at 6:50 AM. As forecast data becomes available we will re-evaluate the current temperature and update the forecast. Within the next 15 minutes we will re-evaluate the current temperature and update the forecast.
+
+Check your forecast
+
+If you have a large audience, there may be weather forecast apps available. If you have a limited audience, check your local weather reports and your favorite weather website.
+
+  • Be sure to check the forecast for the area you are writing about. Different areas may be affected by the same weather system, but have different local conditions.
+  • There is a lot of information available now that wasn't available 10 years ago. There were fewer smartphones, fewer weather apps, and fewer people logging their daily weather data. That data is now being collected and it is being used to improve weather forecasts.
+  • There are many climate scenarios available now that weren't available 10 years ago. This has improved weather forecasts for severe

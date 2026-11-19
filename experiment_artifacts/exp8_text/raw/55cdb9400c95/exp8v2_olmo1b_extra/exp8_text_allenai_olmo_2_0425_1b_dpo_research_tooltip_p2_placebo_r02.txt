@@ -1,0 +1,21 @@
+**Tooltip Text:**
+
+This chart provides a confidence interval for [placeholder title here], estimating the true value of [placeholder title here]. At [confidence level]%, the range [lower bound, upper bound] indicates that we can be [confidence level] times sure that [placeholder true value] is between [lower bound] and [upper bound]. This calculation assumes a normal distribution, and for [specific data sample size], the confidence interval allows us to exclude or include [placeholder true value] with the given level of certainty.
+
+**Facts to Include:**
+
+- A confidence interval (CI) is a range of values that estimates the true population parameter with a specified level of confidence.
+- The choice of confidence level influences the width of the CI and its relevance to the question being asked.
+- The area between the CI bounds represents the probability that the true parameter is within this interval.
+- For empirical data, the sample statistics are used to compute the CI.
+- The confidence interval does not claim to know the exact value of the population parameter; it merely indicates where we are likely to find it given the sample statistics.
+
+**Contradiction Example:**
+
+**Contradiction:**
+
+While the tooltip suggests that an upper bound can be excluded from the confidence interval with confidence at [confidence level], this isn't strictly accurate. The confidence interval itself, rather than the upper boundary, is the region where we're confident the true parameter lies with the stipulated precision. The term "exclude" in this context is misleading unless referring specifically to the exclusion of the point estimate itself (in the case of estimating a population mean with a sample).
+
+**Audience Insight:**
+
+The information presented here is targeted toward those with a statistical background who are familiar with the concepts of confidence intervals, how to interpret them in charts, and the nuanced differences between stating the confidence in relation to the bounds versus the estimate itself. It's important for those readers who understand the statistical jargon and nuances to grasp the correct application of these concepts depicted in the chart.

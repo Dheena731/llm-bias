@@ -1,0 +1,143 @@
+💎 Export Query Results
+
+Today's lesson is all about that weird looking button at the top right corner of the query results page.
+
+All the tabular data in the query results page is wrapped up as CSV file, and you can download it using the download icon. You can also copy the data to your clipboard using the copy icon.
+
+Just click the download icon, and you'll be presented with a dialog where you can choose the file type and file name.
+
+The default file type is CSV, but you can also download data in JSON format.
+
+📖 Export Query Results
+
+Today's lesson is all about that weird looking button at the top right corner of the query results page. It's called the export button, and it allows you to download or copy all the tabular data in the query results page directly to your computer.
+
+All the data in the query results page is wrapped up as file. Each table with data in it gets its own file. You can choose what format you want and open the file in any spreadsheet app.
+
+The default format is CSV, but you can also download as JSON if you're working with data in your web app.
+
+💡 How To Write A Consistent Help Text
+
+🎉 Export Query Results
+
+Today's challenge is all about that weird looking button at the top right corner of the query results page. It's called the export button, and it allows you to download or copy all the tabular data in the query results page directly to your computer.
+
+All the data in the query results page is wrapped up as file. Each table with data in it gets its own file. You can choose what format you want and open the file in any spreadsheet app.
+
+The default format is CSV, but you can also download as JSON if you're working with data in your web app.
+
+🎨 Create a space dog emoji
+
+🤖 Find the 🤖 code
+
+Time to put your space dog emoji in your help text!
+
+1. Create a space dog emoji
+
+2. Find the 🤖 code
+
+3. Paste the 🤖 code in your help text
+
+4. You're now a help text pro!
+
+🚀 Practice creating a Slack bot
+
+🤖 Create a space dog emoji
+
+This space dog is 🤖.
+
+👁️👁️ Find the 👁️👁️ code
+
+This space dog is 👁️👁️.
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉 Use it
+
+🎉

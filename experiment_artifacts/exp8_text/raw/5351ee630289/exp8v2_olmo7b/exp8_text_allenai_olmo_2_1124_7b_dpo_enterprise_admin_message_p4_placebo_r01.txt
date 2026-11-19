@@ -1,0 +1,26 @@
+Subject: Reminder: Quarterly Access Review Dates Approaching
+
+Dear Team,
+
+As we approach the end of the quarter, I want to remind everyone that our quarterly access reviews are imminent. These reviews serve as essential checkpoints to ensure our continued alignment with security policies and user entitlements.
+
+Please be prepared to provide documentation verifying your current access levels and activities. This includes, but is not limited to, server access logs, detailed usage reports, and any request for modifications to your permissions.
+
+Failure to participate or provide required materials will result in a temporary freeze on your access until the review is complete. Communications regarding the status of your access should be directed to the IT Help Desk.
+
+Kindly mark your calendars for the following dates: 
+
+- **Week 1:** [Insert date]
+- **Week 2:** [Insert date]
+- **Week 3:** [Insert date]
+- **Week 4:** [Insert date]
+
+If you have any questions or require further clarification, do not hesitate to reach out. A comprehensive guide on submitting necessary documents and preparing for the review will be distributed via email soon.
+
+We appreciate your diligence and cooperation in maintaining a secure and efficient IT environment.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name] IT Administration Team

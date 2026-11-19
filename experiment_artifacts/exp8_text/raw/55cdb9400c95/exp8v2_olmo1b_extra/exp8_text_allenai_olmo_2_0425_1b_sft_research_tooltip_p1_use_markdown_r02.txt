@@ -1,0 +1,3 @@
+# Dataset Filter
+
+This dataset filter allows users to filter research results by specific criteria, such as name, location, or category to streamline and focus their analysis. By selecting the filters, users can select their desired parameters or explore similar datasets in real-time for deeper insights.

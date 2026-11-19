@@ -1,0 +1,25 @@
+Subject: Enabling Two-Factor Authentication for Enhanced Security
+
+Dear Team and Employees,
+
+As part of our ongoing commitment to safeguarding our digital environment and protecting sensitive information, we are implementing a new layer of security - Two-Factor Authentication (2FA).
+
+Starting from next Monday, we will enable 2FA for all user accounts, which will require an additional form of verification beyond just your password when signing in to any system or accessing applications. This will significantly reduce the risk of unauthorized access to your accounts.
+
+Here is what you need to know:
+
+1. **When:** Two-Factor Authentication will be available from [Start Date] and mandatory by [End Date].
+2. **How it Works:** Upon login, in addition to your password, you will receive a unique code via SMS, email, or an authentication app. This code must be entered to complete your login.
+3. **Setup:** You will receive instructions on how to set up 2FA for your specific login preferences. The process is simple and only takes a few minutes to complete.
+4. **Exceptions:** There are very few cases where 2FA might not be required, such as when resetting your password. In such scenarios, you will receive specific instructions.
+
+We understand that implementing 2FA is a change in your daily routine, but we believe it is a necessary step to protect our collective digital footprint. Your cooperation is greatly appreciated and will help keep our data secure.
+
+For any questions or concerns regarding this implementation, please contact our IT Support team at [Contact Information].
+
+Thank you for your support and understanding.
+
+Best regards,
+
+[Your Name]
+[Your Position]

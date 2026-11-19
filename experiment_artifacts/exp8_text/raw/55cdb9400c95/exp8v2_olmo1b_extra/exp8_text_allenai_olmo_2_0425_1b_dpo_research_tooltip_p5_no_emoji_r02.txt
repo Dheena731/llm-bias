@@ -1,0 +1,1 @@
+This tooltip explains how to export query results. Go to the database settings, select the desired table, and click on the dropdown menu labeled "Export query results". This will create a CSV file containing the data from your selected table, ready for offline processing or sharing.

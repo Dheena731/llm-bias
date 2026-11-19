@@ -1,0 +1,5 @@
+Caching is a technique used to expedite website loading times by storing copies of the website's data and resources on the user's device or a server closer to the user. When a user visits a website for the first time, the website's server sends a portion of its content, such as HTML pages, images, and scripts, to the user’s web browser. 
+
+The browser then stores these pieces in its cache memory. On subsequent visits to the same website, instead of fetching the same data from the website's original server again (which might be located far away and hence slow), the browser retrieves it from its local cache. This significantly reduces load times because fetching data from cache is much faster than from an external server.
+
+The stored cache persists for a certain period, or until it is automatically removed by the browser to free up space, and can be refreshed manually by the user or the website administrator. By leveraging caching, websites can provide a smoother user experience by minimizing wait times and reducing server load, which can lead to better performance and increased user satisfaction.

@@ -1,0 +1,1 @@
+This date-range selector lets you choose a specific time period by selecting dates within the provided boundaries. Simply click on the arrows to narrow down your choice or use the handle at the bottom to create a custom range.

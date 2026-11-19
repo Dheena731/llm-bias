@@ -1,0 +1,43 @@
+Use clear and concise (but not too short) sentences. Avoid wordy language, technical jargon, and idioms. Make sure the message is clear and straightforward.
+
+Avoid vague or ambiguous wording. Here are some examples of common problems with writing tooltips:
+
+Example Problem: "This icon means "save" or "load" or "cancel."""This icon means 'save' or 'load' or 'cancel'."
+
+Explanation: This message is too wordy, lacks specificity, and may confuse the user. What does "load" or "save" or "cancel" mean?
+
+Example Problem: "Click on the image to make the text bigger.""Click on the image to make the text bigger."
+
+Explanation: This message is unclear, lacks formalism, and may not be easy to understand. What does "click on the image" mean?
+
+Example Problem: "Great — now you can see the code!""Great — now you can see the code!"
+
+Explanation: This message is too wordy, lacks formality, and is worded in a way that may confuse the user. In addition to being wordy, "Great" is not necessary in this context.
+
+What is a tooltip?
+
+A tooltip is a small box that appears above an element on a webpage to provide additional information. They're often used to clarify what an icon or button means, or what a specific link refers to.
+
+In contrast to other rich-media forms of conveying information (such as screenshots, text descriptions, or fully interactive experiences), tooltips provide only very limited information about what it is that the user is viewing or experiencing.
+
+Example: Click on the example image above to see what a tooltip looks like.
+
+How can I create a tooltip?
+
+There are many ways to generate tooltips, depending on the tool you're using and the purpose at hand. In general, though, there are a few common elements that all good tooltips share:
+
+1. **Content**: The first thing that should be considered is the content of the tooltip. What exactly does the user need to know? How will they benefit from knowing this particular piece of information? It's highly important that the content is clear, concise, and easily understood.
+
+2. **Highlighting**: Another important aspect of a good tooltip is its appearance. How can it be made visually appealing? Is there a way to emphasize the important details? Using a combination of colors, shapes, and fonts can go a long way towards making a tooltip stand out from the rest of the webpage.
+
+3. **Size**: The last thing to consider when creating a tooltip is its size. What is the optimal size for the text, image, or icon being displayed within it? While many tools offer different sized options, it's often best to choose a size that allows the content to be read easily without being too small or too large.
+
+How can I test my tooltip?
+
+To test your tooltip, you can use a tool like the Chrome Developer Tools. To open the developer tools, you can either right-click on the address bar and select "Chrome Developer Tools", or press CTRL+SHIFT+I to open the developer tools in Chrome.
+
+Once in the developer tools, you can right-click on any element on the page and select "Inspect Element." This will open a new window with information about that element. You can then use the "Inspect" tab to view the HTML code for that element.
+
+If you're working with specific markup or CSS styles, you can look for the "Style" tab and "CSS Properties" section to see how the element is being rendered.
+
+Once you have your HTML and CSS code, you can use a tool like Firebug or Webkit Inspector to see what a tooltip would look like. These tools provide a preview of what a tooltip will look like based on the HTML and CSS you've

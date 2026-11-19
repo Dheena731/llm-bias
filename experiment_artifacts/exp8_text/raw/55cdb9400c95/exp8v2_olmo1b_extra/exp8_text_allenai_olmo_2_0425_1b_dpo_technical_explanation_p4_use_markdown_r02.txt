@@ -1,0 +1,7 @@
+**Headline: How Caching Speeds Up a Website**
+
+- **Cache Retrieval Algorithms**: Caching employs basic algorithms to retrieve previously accessed data from a storage, significantly speeding up initial load times.
+- **Reduces Initial Load Time**: By storing copies of static resources like images, videos, and style sheets, the website can serve these resources from the cache instead of loading them from the origin server every time the page is requested.
+- **Minimizes Round-Trip Time**: Whenever a user visits a page, the website initially fetches and renders the content from the cache. This minimizes the round-trip time to the origin server, resulting in faster response times.
+- **Improves Responsiveness**: Caching helps maintain a consistent load time across different devices and networks, making the website appear faster and more responsive to users, even on slower networks.
+- **Reduces Bandwidth Usage**: By storing frequently accessed data locally, the overall bandwidth usage of the website is reduced, making it more efficient and cost-effective over time.

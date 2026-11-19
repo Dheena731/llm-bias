@@ -1,0 +1,30 @@
+**Reporting a Lost Company Laptop**
+
+If you've stumbled upon a lost company laptop, whether it's been left behind at the office coffee machine or pilfered by an employee's desk mate, it's crucial to take immediate action. Losing a company laptop not only poses a significant information security risk but can also have direct financial repercussions for the company. Here's a concise guide on how to report such an incident:
+
+**First Steps: Locate the Laptop**
+
+- **If you've found the laptop:** Make note of its location, any residual data it may contain (e.g., encrypted files, saved work, passwords), and internal and external hardware details like make, model, serial numbers, and any security stickers or labels.
+
+**Identify the Lapse**
+
+- **Check Security Logs:** Access any password protection and security logs to understand when the laptop was last accessed and by whom.
+- **Internal Communication:** Contact your IT department or IT support to triangulate the information from your access logs and any previous discussions about lost items.
+
+**Internal Reporting**
+
+- **Who to Contact:** Report the incident to your IT department or the person in charge of information technology security. They should have the authority to handle the disposal or recovery of lost devices.
+
+**External Action: Document Further Steps**
+
+- **File a Formal Report:** In addition to reporting it internally, document the lost laptop incident thoroughly with dates, times, and descriptions. Attach photographs or physical descriptions where applicable.
+- **Notify Relevant Departments:** Inform finance, human resources, and any other departments that may be affected by the missing data.
+
+**Action Plan**
+
+- **Search for Backup Copies:** If the laptop was frequently used for work-related activities, it might have backups or cloud storage solutions. Check these to ensure there are no recent copies of sensitive data.
+- **Recovery or Disposal:** If the laptop cannot be recovered and poses a threat, it will need to be disposed of securely. Follow guidelines provided by your organization for device disposal to obfuscate information and prevent data breaches.
+
+**Conclusion**
+
+In sum, reporting a lost company laptop is a critical step in safeguarding sensitive company data and maintaining organizational integrity. By swiftly alerting your IT department and following organizational protocols, you can prevent potential information leaks and mitigate the fallout of such a loss. Remember to be diligent in documenting the incident for future reference and for internal use should any similar losses occur in the future.

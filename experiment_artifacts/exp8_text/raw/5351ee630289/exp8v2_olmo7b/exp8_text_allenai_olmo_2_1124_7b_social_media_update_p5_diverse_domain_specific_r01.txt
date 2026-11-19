@@ -1,0 +1,11 @@
+Start the conversation
+
+Write an email that would kick off a conversation among multiple recipients about a new programming language.
+
+Create a short email exchange between two or more people that starts with a message from you introducing the topic, and at least one response.
+
+The prompt should be related to the work of the recipient; for example, if the recipient is a co-worker, the email should include work-related terminology specific to your organization.
+
+If the recipient is not a person you know directly, make it someone who would be interested in discussing the topic with you.
+
+The text should appear to be written by a native speaker of English.

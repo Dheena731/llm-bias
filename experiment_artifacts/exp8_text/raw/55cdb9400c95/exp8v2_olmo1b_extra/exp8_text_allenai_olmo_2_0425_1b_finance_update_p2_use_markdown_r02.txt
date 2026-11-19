@@ -1,0 +1,23 @@
+Then, write the note in your REPL. To locate the note, run the following command:
+
+$ echo "<Head>Transaction Rate: " | mysql $MYSQL
+
+Next, switch to the card transactions table:
+
+$ mysql -u $USER --password=YOUR_PASSWORD -p
+
+This command should give the same output as the MySQL console example, but with a table with transactions instead of a table with cards.
+
+To change the transaction rate, you can update the rate:
+
+mysql> UPDATE card_transactions SET transaction_rate = 0.50 WHERE card_number = '1234567890';
+
+If you wanted to change the average transaction amount, you could use the same methodology but replace the value of transaction_rate with the percentage of your choice.
+
+Debugging the sample code
+
+If you’ve changed anything in the sample code, including the database file, let us know by opening a pull request on GitHub.
+
+Did you solve the problem? Let us know!
+
+The challenge was created by Baidu Information Security Research.

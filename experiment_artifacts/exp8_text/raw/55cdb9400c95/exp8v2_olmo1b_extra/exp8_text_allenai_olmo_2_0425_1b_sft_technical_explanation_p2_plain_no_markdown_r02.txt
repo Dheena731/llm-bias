@@ -1,0 +1,1 @@
+A database index serves as a lookup table that helps the database software locate and retrieve data efficiently. It's like a roadmap to the database's tables, making it quicker and easier for the database to find what you're looking for, especially when there's a lot of data. An index speeds up data retrieval, especially when searching on columns that have many unique values.

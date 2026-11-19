@@ -1,0 +1,66 @@
+Example
+
+        confidence interval: 7.11--7.31
+
+
+The Confidence interval is a range of values that are likely to contain the true population mean. In other words, the Confidence interval is likely to give us the true population mean. The Confidence interval contains both the value of the population mean and the standard deviation which is the amount of variation in the data set. Standard deviation is used to measure how spread out the data is. The higher the standard deviation the more spread out the data is.
+
+Example
+
+        confidence interval: 7.11--7.31 %
+
+
+The Confidence interval is a range of values that are likely to contain the true population mean. In other words, the Confidence interval contains both the value of the population mean and the Standard deviation which is the amount of variation in the data set. Standard deviation is used to measure how spread out the data is. The higher the standard deviation the more spread out the data is.
+
+Confidence intervals are usually reported as a probability. If the Confidence interval is 7.11--7.31, then 68% of the time the true population mean would fall between 7.11 and 7.31. Below we can see a distributionplot of the data.
+
+
+
+Histogram of the data, with the 95% Confidence interval
+
+
+3--5
+
+In the above figure we can see that the Confidence interval contains the true population mean. In the above figure 95% of the time, the upper and lower 95% limits the value of the true population mean will fall within the Confidence interval. This means that 95% of the time, the value of the true population mean will fall within this range of values.
+
+If the Confidence interval is 7.11--7.31, then 95% of the time the true population mean will fall within this range of values. This is a highly accurate measurement of a population mean.
+
+Confidence intervals usually cannot be made for data that is a point value. This means that a Confidence interval cannot be calculated if the population standard deviation is not known.
+
+Note that the sample size does not appear in any of the above figures. This is because the sample size does not affect the Confidence interval and thus the calculation of the Confidence interval is independent of the sample size.
+
+Confidence intervals always represent the upper and lower limits of the true population mean. In the case of the above figure, the true population mean would fall between 3 and 5.
+
+Confidence intervals in regression output
+
+The following can be found in the output of a regression analysis.
+
+        95% confidence interval:   3.42--8.78
+
+In the above figure we can see that the Confidence interval contains the true population mean. In the above figure 95% of the time the true population mean will fall within this range of values.
+
+Confidence interval in the output of a regression analysis
+
+The output of a regression analysis is a table of results. The above results table contains the Confidence interval.
+
+Confidence interval in a regression output
+
+In the output of a regression analysis there are two confidence intervals that are listed in the output table. These are the upper and lower 95% limits of the true population mean.
+
+Confidence interval in a regression output
+
+Suppose we have the following line of best fit regression.
+
+          OLS Regression Results
+
+Dep. Variable:   Rss       Fitted Value: 4.419
+
+Model:   Number of Observations:  55
+
+Method:    Least Squares  R-squared:  0.57
+
+Adj. R-squared:  0.54
+
+Formula:   Y = -15.052 + 0.800*Rss + 0.640*Rss^2
+
+Pr(>|t|

@@ -1,0 +1,20 @@
+Subject: Important: Enabling Two-Factor Authentication for Enhanced Security
+
+Dear [Employee/Student/Member],
+
+We are writing to inform you about an essential security enhancement that has been implemented to protect your account: two-factor authentication (2FA). Enabling 2FA adds an extra layer of security by requiring not just a password and username but also something that only you have on you—their mobile device.
+
+To enable this feature:
+
+1. Visit the provided link: [Insert 2FA Link Here].
+2. Follow the on-screen instructions to complete the setup process.
+
+Please activate 2FA as soon as possible to ensure your account remains secure. If you encounter any difficulties during the setup process, please contact our support team at [Support Email/Phone Number].
+
+Thank you for your cooperation and attention to enhancing your online security.
+
+Best regards,
+
+[Your Name]
+[Your Title]
+[Your Contact Information]

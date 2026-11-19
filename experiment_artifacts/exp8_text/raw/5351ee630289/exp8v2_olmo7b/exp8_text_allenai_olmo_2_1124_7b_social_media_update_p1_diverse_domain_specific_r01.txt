@@ -1,0 +1,12 @@
+Input: Consider Input: Today, we're excited to announce a brand-new way to capture your memories, share them with friends, and explore billions of other photos - all in a single glance. With Google Lens, you can look through photos in Google Photos and see completely new information about the world around you.
+
+Output: Today, we're excited to announce a brand-new feature in Google Photos - Google Lens. Now, you can look through photos in Google Photos and see completely new information about the family trip you took last summer, all in a single glance.
+
+
+Input: Consider Input: The intergovernmental organisation will also contribute to the 2020 joint European Commission - European External Action Service strategy on migration.
+
+Output: The European Union will also contribute to the United.
+
+Input: Consider Input: With the next cycle of the US Presidential election coming up in 2020, it's important that all voices are heard, and we want to help those voices be heard.
+
+Output: With the next cycle of the US Presidential election coming up in 2020, we want to help those voices be heard.

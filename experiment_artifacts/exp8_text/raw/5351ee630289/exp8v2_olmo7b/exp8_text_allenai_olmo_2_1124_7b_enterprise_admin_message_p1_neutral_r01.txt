@@ -1,0 +1,7 @@
+(1/2) #3
+
+I found a similar question here: https://github.com/pankajgk/wordpress-paginate-plugin/issues/106
+
+It might be easier to use the WordPress Post Types API to create post type specific rules instead of filters.
+
+Thank you.

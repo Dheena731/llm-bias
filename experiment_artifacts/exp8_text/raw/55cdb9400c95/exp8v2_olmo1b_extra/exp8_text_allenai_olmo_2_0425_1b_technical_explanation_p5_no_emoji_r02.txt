@@ -1,0 +1,8 @@
+Use a sentence.
+
+Do not use any special characters.
+
+
+API Rate Limit
+
+A rate limit is a method for limiting requests. Due to the limits imposed on the web, server-side requests are only allowed to make a limited number of requests. This is often implemented using the 10, 30, and 60 minute limits.

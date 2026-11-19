@@ -1,0 +1,24 @@
+# Important Notice: Phishing Emails
+
+**What is a Phishing Email?**
+
+Phishing emails are deceptive messages that pretend to come from legitimate sources to trick you into revealing personal or sensitive information, such as your login credentials, financial details, or personal contact information.
+
+**How to Identify a Phishing Email**
+
+- **Unsolicited Email:** It's usually sent out of the blue, with a generic greeting or message.
+- **Poor Grammar and Spelling:** Legitimate emails from reputable organizations are usually well-written.
+- **Attachments:** Be cautious of emails asking you to download attachments from unknown sources.
+- **Exclamation Points or Urgency:** These can often be a sign of a scam.
+- **Request for Immediate Action:** If you're pressured to act quickly, it's likely a trap.
+- **Sender's Email Address:** Check the sender's email to ensure it's the official domain of the supposed sender.
+
+**What to Do If You Receive a Phishing Email**
+
+1. Do not click on any links or download any attachments.
+2. Delete the email immediately.
+3. Notify your IT department immediately.
+4. Avoid responding to the email, as this can confirm your identity to the attacker.
+5. Report the phishing attempt to the appropriate email service provider.
+
+Remember, protecting yourself from phishing emails is essential in maintaining a secure workplace. Stay vigilant and keep your workplace informed about potential threats.

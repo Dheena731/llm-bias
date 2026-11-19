@@ -1,0 +1,1 @@
+An index on a database table is a collection of fields that can be quickly searched and matched with other field values in another table.

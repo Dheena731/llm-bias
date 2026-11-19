@@ -1,0 +1,1 @@
+Enter two dates to select a time frame within this period. For example, `2023-01-15` to `2023-12-31` selects everything from January 15, 2023, through December 31, 2023. Adjust the start and end dates to choose different periods.

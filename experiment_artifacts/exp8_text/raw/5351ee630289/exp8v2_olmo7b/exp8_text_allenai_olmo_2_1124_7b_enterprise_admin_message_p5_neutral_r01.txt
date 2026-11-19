@@ -1,0 +1,5 @@
+Generate a tweet that has the following sentiment: positive
+
+Generate a tweet that has the... positive
+
+Write a negative tweet. negative

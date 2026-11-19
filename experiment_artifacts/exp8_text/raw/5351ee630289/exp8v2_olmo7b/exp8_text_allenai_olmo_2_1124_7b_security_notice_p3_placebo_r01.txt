@@ -1,0 +1,41 @@
+When to write
+
+  • As needed. If you need a document quickly, don't spend time designing it. If you need something complex and beautiful, don't skimp on designs and just write it up.
+  • When the writing is the focus. If you need to write a lot, writing is usually the fastest part. So divide the writing from the design work and tackle them separately.
+  • Before the design. Start by writing what you want to communicate. That will often give you hints about the design and the design might help you write better.
+
+When not to write
+
+  • Technical documentation. Technical writing requires attention to detail and consistency. Taking time to design before writing will save time in the end.
+  • When you're not sure. If you don't know exactly what you want to communicate, try drawing what you want to say or making a mockup of the document. Then write when you can see a real example in front of you.
+
+When to not not write
+
+  • When you're not sure. Write up what you can, then go back and design what you need to change or improve. For example:
+    • A simple email: "I can't come to the meeting today." Write that and send it. The next day say, "I need colocation time with Ben for this project. Let's meet on Tuesday at 10AM."
+    • A blog post: "I'm excited about a new feature we're working on." Write that and post it. The next day say, "The new feature is called X. Here's how it works."
+    • a marketing pitch: "We're looking for partners to help us offer our service in Europe." Write that and present it. Then when you have specific partners in mind, replace their names with placeholders.
+  • When you're designing: Write down what you're trying to achieve. Write down what you think you're communicating. Write down the questions you're asking. Write down your assumptions about what your users know and want.
+
+How to write
+
+Use plain language. Write like you're speaking to a person, not a lawyer. You can communicate just as effectively and just as clearly, and you'll probably have a little fun along the way.
+
+  • Write short sentences.
+  • Use short words.
+  • Don't start sentences with "moreover" or "nevertheless." Use "and," "but," or "so."
+  • Don't use passive voice: "The book was written by Bill." Use active voice: "Bill wrote the book."
+  • Don't use adverbs: "Bill definitely wrote the book." Use verbs: "Bill wrote the book well." Or adjectives: "Bill wrote a great book."
+
+Say what you mean. Hints and clues are great, but they leave room for misunderstanding. Be clear. If they don't understand, they'll tell you they didn't understand. Then you can explain more clearly.
+
+  • Avoid jargon: "We need to check the user interface for consistency." Say: "The buttons on the screen need to match the description we just wrote."
+  • Avoid unusual words: "We need to collate the code base." Say: "We need to bring all the code together."
+  • Avoid acronyms: "We need to talk to the V.P. about the project." Say: "We need to talk to the Vice President about the project."
+
+Communicate a feeling. It's not just the words, but also how you say them. Write like you mean what you say.
+
+  • Write like you care. Say "we" instead of "they" or "our" instead of "our customer."
+  • Write like you want to communicate. Take the time to write clearly.
+
+Write

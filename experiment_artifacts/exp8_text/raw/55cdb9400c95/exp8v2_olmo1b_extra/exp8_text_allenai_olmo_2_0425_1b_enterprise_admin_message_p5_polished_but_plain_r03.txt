@@ -1,0 +1,54 @@
+Example emails sent to the new email address by @gmail.com and by @google.com
+
+Example emails sent to the new email address by @discord.com and by @facebook.com
+
+1. Copy your old email address
+
+This step is a bit counterintuitive. To migrate email addresses, you have to export your email address from one service and import it to another. To do so, copy your email address, paste it into the "Add new email address" field of the new email account, then click "Save & Continue".
+
+2. Copy your old password
+
+This step is a bit counterintuitive. To migrate your accounts, you have to show your old password to the new email account. In the "Add new email address" field of the new email account, type your old password then click "Request password".
+
+3. Create a new account
+
+This step is also a bit counterintuitive. To migrate email addresses, you must create a new email account with a new email address. The process is similar to what we did in the previous step: copy and paste your old email address, paste it into the "Add email address" field, then click "Save & Continue".
+
+4. Generate a master password
+
+This step is a bit counterintuitive. To migrate email accounts, you have to create a master password to encrypt your account. The process is the same as what we did in the previous step: copy your old password, paste it into the "Add new account password" field, then click "Request password".
+
+5. Enter your password
+
+This step is also a bit counterintuitive. To migrate email accounts, you have to make sure you enter your new password in the "Verify password" field of the new email account. Then, click "Save & Continue".
+
+6. Export your old accounts
+
+This step is also a bit counterintuitive. To migrate email addresses, you have to export your account from one service and import it to another. To do so, copy your old email address, click "Export", then click "Add to Export List".
+
+7. Import your old accounts
+
+This step is also a bit counterintuitive. To migrate email addresses, you have to import your account from one service and import it to another. To do so, copy your old email address, click "Import", then click "Add to Import List".
+
+8. Create your new account
+
+This step is also a bit counterintuitive. To migrate email accounts, you have to create a new email account with a new email address. The process is similar to what we did in the previous step: copy your new email address, paste it into the "Add email address" field, then click "Save & Continue".
+
+9. Export your new accounts
+
+This step is also a bit counterintuitive. To migrate email addresses, you have to export your new account from one service and import it to another. To do so, click "Export", click "Delete this account", and click "Add to Export List".
+
+10. Import your new accounts
+
+This step is also a bit counterintuitive. To migrate email addresses, you have to import your new account from one service and import it to another. To do so, click "Edit", click "Add to Import List", then click the "Import now" button.
+
+11. Configure your website
+
+Make sure you have a website and an email address.
+
+12. Create a new domain name
+
+This step is also a bit counterintuitive. To migrate email accounts, you have to create a new domain name. The process is similar to what we did in the previous step: click "Add New Domain", click "Add new email addresses", click "Install mail configuration", then click "Continue".
+
+13. Configure your email server
+

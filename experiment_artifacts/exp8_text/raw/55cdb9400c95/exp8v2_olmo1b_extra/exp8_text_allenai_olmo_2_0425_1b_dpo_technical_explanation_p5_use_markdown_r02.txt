@@ -1,0 +1,19 @@
+```markdown
+# API Rate Limit Explanation
+
+- **Definition**: An API rate limit is a restriction imposed by web services on how many requests an application can make within a specific time frame.
+  
+- ** purpose**: To manage service access and avoid overloads which can cause service disruptions.
+
+- **types**: Common types include *fixed-rate*, *time-based*, and * generous/slow start* limits.
+
+- **fixed-rate**: A set number of requests allowed, regardless of usage.
+  
+- **time-based**: Limits based on the time taken to complete a request, often enforced per minute or hour.
+  
+- **generous/slow start**: Initially allows more requests and scales down as usage increases.
+
+- **applications**: Can apply to any API service, including web scraping tools, automated testing frameworks, and social media platforms.
+```
+
+This explanation highlights the purpose of API rate limits, their common types, and how they can impact application usage and service integrity.

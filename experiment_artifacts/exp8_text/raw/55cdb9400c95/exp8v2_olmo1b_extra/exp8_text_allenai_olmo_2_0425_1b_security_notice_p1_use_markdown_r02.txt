@@ -1,0 +1,6 @@
+*Note: *
+This is a security notice. You must not reuse passwords with the same username. If your password is reused, your account can be compromised. Reuse of passwords can compromise all other accounts on your computer, as well as your personal account if you do not change your password.
+
+Follow up by linking to a password manager, password utility, password generator, or similar.
+
+Detecting attempted password reuse is not easy. As such, the best solution is to use a password manager that allows for completely unique passwords, and to use a password utility to generate longer, more secure passwords. If you do not have a password manager or utility, consider installing one on your machine.

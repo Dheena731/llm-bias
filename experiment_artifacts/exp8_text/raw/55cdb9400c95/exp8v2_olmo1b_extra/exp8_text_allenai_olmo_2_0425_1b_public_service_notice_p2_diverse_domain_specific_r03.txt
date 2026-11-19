@@ -1,0 +1,25 @@
+Occurrences of use of route closure: 4
+
+
+E.g.:
+
+The section of route X will be closed to motorised traffic on Friday 10th to Sunday 12th between 12:00 and 22:00.
+
+Other examples:
+
+Due to roadworks on the section of route X to Y, the section of route Y will be closed to motorised traffic between Z and W between 12:00 and 22:00.
+
+
+
+If users are properly informed about route closures, they will be able to re-plan their journeys. They will not be surprised to find out that the section of route X they were planning to take is now closed to motorised traffic on Friday 10th to Sunday 12th between 12:00 and 22:00.
+
+Contextuals
+
+
+E.g.:
+
+The section of route X will be closed to motorised traffic from Z to W between 12:00 and 22:00.
+
+Other examples:
+
+Route X will be closed to motorised traffic from Z to W between 12:00 and 22:00.

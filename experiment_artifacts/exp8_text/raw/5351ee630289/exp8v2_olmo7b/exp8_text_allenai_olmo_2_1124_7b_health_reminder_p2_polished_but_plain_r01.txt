@@ -1,0 +1,31 @@
+When you are done, commit and push your changes.
+
+
+  • You can write the reminder in a file called after the prompt, or you can write it directly on the command line. Both methods are accepted as long as the reminder is formatted correctly.
+  • Don’t use text language like "lol", "omg", or "brb". Write like a human being, not like a teenager texting a friend.
+  • Use the same keyboard layout you used to type this example. You can verify your output using the keyboard layout you specified earlier with setxkbmap <layout> -option compose:menu, for example, setxkbmap en_US -option compose:menu; alias latin compose:menu will set the US English keyboard layout with menu-composing enabled, and use the latin alias instead of setxkbmap.
+
+  • If you can’t figure out the keyboard layout you are using, you can list all your current configurations with setxkbmap -query and you can list the keyboard layouts available with setxkbmap -list.
+  • Use an apostrophe (') instead of a quote (") to type a single quote (‘). In this example, you should use an apostrophe to type ‘I’.
+  • You can write the reminder in several lines for better readability. Just make sure it is in a single paragraph. You don’t have to type the linebreak itself (press Enter) or use \n at the end of the line, just like you do when you type on a normal keyboard.
+  • Use the word "reminder" instead of "reminder: drink water". The hint is only a sentence, and you should write it right after the prompt.
+  • Use the language available in your current context to write the reminder, not English. If your current language is German, use German, and not English. For example, if your prompt is auf Deutsch, you should write Ihr habt noch immer keine Erinnerung, wenn es um Wasser geht, then your hint would be Erinnerung: Trinken Sie Wasser.
+  • The hint will be accepted only if it is formatted correctly. If you enter it incorrectly, you will see an error and you will have to start again.
+  • Take only 30 seconds to write the hint. It is not a test, and it is not an exam, it is just a fun challenge. If you fail, you can restart the exercise as many times as you need.
+
+You can write the hint on the command line and press Ctrl+D to send it, or use a file. In this example, you would write the hint on the command line in response to the prompt:
+
+auf Deutsch: Ihr habt noch immer keine Erinnerung, wenn es um Wasser geht
+
+And press Ctrl+D to send it, then run the test with setxkbmap fr -option compose:menu; alias latin compose:menu; . In the example above, you should have typed the hint in French.
+
+cat /tmp/hint
+
+auf Deutsch: Ihr habt noch immer keine Erinnerung, wenn es um Wasser geht
+
+The hint is written correctly, and you should see the results:
+
+auf Deutsch: Ihr habt noch immer keine Erinnerung, wenn es um Wasser geht
+Time: 1.34s
+
+After completing the puzzle, commit and push your changes.

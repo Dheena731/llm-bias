@@ -1,0 +1,26 @@
+Attention all team members,
+
+We are aware that phishing emails have been making their rounds recently, targeting both our internal and external systems. These attempts are not only a breach of our company’s security protocols but also a direct threat to our data and operational integrity. Our security team has identified several recent instances of phishing attempts our way, all of which have been successfully blocked by our robust detection systems.
+
+In light of these concerns, it is imperative that everyone remains vigilant and cautious of suspicious emails. Always verify the sender’s email address before clicking on any links or downloading any attachments. Our email system will automatically flag any suspicious emails, but it is up to each of us to ensure we do not inadvertently become part of an attack.
+
+Here are some actionable steps to stay secure:
+
+1. **Be Skeptical:** Do not click on links or download attachments from untrusted sources.
+2. **Verify sender’s identity:** Look closely at the sender's email address. Verify it with the appropriate department or contact person before taking any action.
+3. **Keep software updated:** Ensure all your systems, including email clients, are up to date with the latest security patches.
+4. **Educate your colleagues:** Share this notice with your peers to help elevate awareness and prevent further incidents.
+5. **Report immediately:** Should you encounter any phishing attempts, please report them to your IT support team without hesitation.
+
+Our security and integrity are of paramount importance, and we want to ensure everyone’s digital participation contributes positively to our workplace environment.
+
+We appreciate your continued vigilance and commitment to our collective security and will continue to offer support and training as needed.
+
+Thank you for your cooperation and dedication.
+
+Best regards,
+
+[Your Name]
+Security Team
+
+(Note: This notice is crafted with a focus on being specific to the organizational context, avoiding generic AI-generated language, and ensuring the communication aligns with the seriousness of the issue and the company’s security culture.)

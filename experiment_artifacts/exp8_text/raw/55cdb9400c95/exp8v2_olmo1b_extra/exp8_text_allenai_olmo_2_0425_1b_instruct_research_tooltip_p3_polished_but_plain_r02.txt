@@ -1,0 +1,1 @@
+This date-range selector lets you choose a specific period of time between two dates. Simply drag the visual boundary across your desired dates, and the control will automatically narrow to show days, weeks, or months within that interval.

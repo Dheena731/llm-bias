@@ -1,0 +1,1 @@
+This dataset filter allows you to quickly narrow down your research data to only include specific columns or records. By clicking on this button, you can choose which information should be shown in your analysis. This can help you focus on relevant data for your study and avoid overwhelming your results with unnecessary information.

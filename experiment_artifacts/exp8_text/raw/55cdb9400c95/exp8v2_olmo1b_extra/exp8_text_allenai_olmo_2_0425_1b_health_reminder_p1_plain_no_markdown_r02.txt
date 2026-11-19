@@ -1,0 +1,43 @@
+This is a short, useful reminder intended for people who are checking in with their weekly fitness progress. It should be a concise message that can be read quickly, not require any context or scrolling, and not take up much space in the user's timeline. It should also be easily readable by people with visual impairments. The language used here is the default, but users can select a language from the dropdown menu on the right.
+
+Provide user feedback based on whether the user has met or missed the goal. If the goal was missed, explain that and why. If the goal was met, explain what the user needs to do in order to continue meeting the goal (for example, if the goal is to weigh .00000001 pounds less than their last weigh in, list the steps to get there).
+
+Avoid using too many data points. Keep it brief and to the point. If you need additional information, send an email or gather the data from another source (for example, an exercise log).
+
+Here are some examples of what not to do:
+
+Don't use the same reminder for multiple goals.
+
+Don't make assumptions about users' knowledge or preferences. If the user is an elite athlete, they may have a different workout routine than someone who works out sporadically. If the user is female and wants to lose weight, they may also have different goals or preferences than a male user.
+
+Don't send a reminder too soon or too late. Exercising regularly is important, but it's not always necessary to send a reminder every day. The frequency of your reminders should depend on the person's goal and their current level of fitness.
+
+Don't send a reminder at the same time every day. While it's easy to think of sending a reminder as a daily task, it's important to consider the user's schedule and their preferences.
+
+Don't make assumptions about the user's motivation or ability to follow through. If the user seems to be struggling with their exercise routine, don't send them a reminder right away. Wait a couple of days and see if they improve before sending another reminder.
+
+Do include a link to the user's workout log.
+
+This is a simple reminder for a user to review their weekly fitness progress. It should include a link to the user's workout log so that they can see how they're doing. This can be especially helpful for people who are struggling to meet their goals.
+
+Here are some examples of what to include in the reminder:
+
+Goal: Lose 5 pounds
+Your current weight is 190 pounds. You currently weigh 5 pounds less than your goal weight.
+
+Goal: Reduce body fat percentage
+Your current body fat percentage is 24%. You need to reduce it to 8% or less in order to meet your goal.
+
+This is a reminder that you've missed your goal and what you need to do to meet it. It can include links to resources that can help you achieve your goal or encourage you to continue reaching it.
+
+Do include a link to your workout log so that the user can see how they're doing.
+
+This is a short and sweet reminder to review your weekly fitness progress. It should include a link to the user's workout log so that they can see how they're doing, and it may include a link to resources that can help you reach your goal.
+
+Here are some examples of what not to do:
+
+Don't make assumptions about the user's knowledge or preferences. If the user is male, for example, they may have different goals or preferences than a female user.
+
+Don't send a reminder too soon or too late. Exercising regularly is important, but it's not always necessary to send a reminder every day. The frequency of your reminders should depend on the person's goal and their current level of fitness.
+
+Don't send a reminder at the same time

@@ -1,0 +1,30 @@
+The aim of this exercise is to:
+
+  • understand the features and characteristics of phishing email
+  • to get a better understanding of the threats that could be associated with phishing emails
+  • to get an idea of the techniques that can be used by phishing attackers to target your organisation.
+
+What is phishing?
+
+Phishing is a cyber attack in which the attacker pretends to be someone else in order to trick you into revealing sensitive information such as your password or bank details. Phishing emails are designed to appear to come from a reputable source, and to trick you into clicking on a link or downloading a file that allows them to infect your computer with malware. The dangers are grave as criminals can use your PC to send out spam, steal your money, carry out DDoS attacks, and spread malware. Phishing attacks cost the UK economy £1.3 billion a year according to the Office of National Statistics. And phishing emails are still a growing threat. In 2018, 320 million phishing emails were sent out daily.
+
+How do they work?
+
+Phishing emails are sent from a source that looks like it is from a trustworthy source in order to trick you into clicking on a link or downloading a file that allows them to infect your computer with malware. For example, you may receive an email that purports to be from your bank, asking you to take immediate action as your account has been compromised. Or you may receive an email asking you to update your account details so you can complete your online banking transactions. You may even receive an email asking you to click on a link in an email which will launch a malicious program when you do so. For instance, if you click on a link that takes you to a fake website purportedly belonging to your bank, you may be tricked into typing your login details such as your username and password into a fake window on the fake website. From that moment on, your account details can be accessed using your username and password by hackers and used to withdraw money from your accounts. Or attackers could use your PC to send out spam.
+
+What are the symptoms of a phishing email? How do you spot one?
+
+  • Phishing emails tend to be unsolicited, and can arrive in your inbox without any prior notification
+  • Phishing emails are often badly worded and have obvious typographical errors
+  • Phishing emails are often sent out using a generic email address and don’t look like they have come from the genuine organisation
+  • Phishing emails often use a logo or add a picture that looks similar to the genuine company logo
+  • Phishing emails often claim that they have to be dealt with urgently as a result of a significant event which has happened, such as a new product launch, or confirmations of a change of bank details
+  • Phishing emails often claim that an important person or government organisation has emailed you, and you need to take action to ensure the organisation’s security and wellbeing
+  • Phishing emails often include links that look like they are from reputable people and organisations, but when you click on the link, you drop directly into a malicious website or download a malicious program
+  • Phishing emails often contain links or attachments which you should not download or open
+
+What can you do to avoid phishing emails?
+
+  • Treat any emails you receive as untrustworthy and suspicious unless you are certain that the sender is legitimate. If you are not 100% certain that the email is safe, then don’t open any file attachments or click on any links.
+  • If you are unsure about the legitimacy of an email from your bank, contact the bank using the contact details that are included in the email.
+  • If you’ve received a link or attachment in an email, never click on it. Instead, first use

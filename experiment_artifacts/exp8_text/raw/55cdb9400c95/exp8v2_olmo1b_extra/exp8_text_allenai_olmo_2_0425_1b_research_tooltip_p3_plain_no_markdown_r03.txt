@@ -1,0 +1,41 @@
+A tooltip is displayed when you hover over a date-range selector. Use it to provide additional context for a date-range selector. Do not provide notes that are similar to the tooltips in the question. For example, if a date-range selector is a week-day range, don't use a tooltip to also explain when the boundary is.
+
+Use a date range selector to indicate all dates that are within a specified range. For example, if a date-range selector is a week-day range, all dates that are between Monday and Sunday are within the range.
+
+Do not use a date range selector to indicate which dates are not within a specified range. For example, if a date-range selector is a week-day range, days that are not between Monday and Sunday are not within the range.
+
+Do not use a date range selector to indicate which dates are before or after the specified date. For example, if a date-range selector is a week-day range, dates that are before the specified date are not within the range.
+
+Use a date range selector to indicate all dates that occur between the start date and the end date. For example, if the start date is before the end date, all dates that occur between the start date and the end date are within the range.
+
+Use a date range selector to indicate all dates that occur before the specified date. For example, if the start date is before the end date, all dates that occur before the start date are within the range.
+
+Do not use a date range selector to indicate which dates are after the specified date. For example, if the end date is before the start date, all dates that occur after the start date are within the range.
+
+When using a date range selector, we recommend that each date-range selector be a separate element in a table row. This ensures that the date-range selection is entirely contained within the date-range selector element, and that it uses the date-range selector's default language.
+
+Do not use a date-range selector to explicitly indicate the start or end date. Instead, use the start and end dates any other way that is more appropriate and works with your data. For example, if the start date is January 1, 2022, and the end date is Sunday, February 2, 2022, the date-range selection can be written as:
+
+<dates date-range-start="2022-01-01" date-range-end="2022-02-02" class="calendar default-date-range">
+
+For collections of dates, there is no need to provide a date-range selector. Instead, use the range collections API. For example, if you have a collection of dates that begin on January 1, 2022 and end on February 2, 2022, the following nested date ranges are equivalent:
+
+<dates date-range-start="2022-01-01" date-range-end="2022-02-02">
+    <dates date-range-start="2022-01-01" date-range-end="2022-02-03">
+        <date converted-start="2022-01-01" converted-end="2022-02-03">
+            <date>2022-01-01</date>
+            <date>2022-02-03</date>
+
+If you cannot use a date-range selector, consider a range collection or a date picker.
+
+Tips
+
+You can make your date range selector more clear by highlighting it with a custom class, such as btn-day-range. To do this, you can use the following markup:
+
+<date-range class="btn-day-range selected"></date-range>
+
+Then, apply the selected class when you hover over the date-range selector:
+
+<date-range class="btn-day-range selected">...</date-range>
+
+This markup is valid, but do not use it for HTML5 date range

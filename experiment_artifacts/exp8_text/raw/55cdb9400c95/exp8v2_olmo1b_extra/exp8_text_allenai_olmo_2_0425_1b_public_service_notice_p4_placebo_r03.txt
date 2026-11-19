@@ -1,0 +1,28 @@
+The heat advisory includes the following elements:
+
+  • 1. Location
+  • 2. Temperature
+  • 3. Duration
+  • 4. Heat index
+  • 5. Any hyphens
+
+    6. Forecast for the next 3-7 days
+
+  • 7. Potential hazards
+    • Do not list potential hazards that are not likely to affect the public.
+    • Include only hazards that are of public concern.
+    • The list may include the following:
+      • Extreme heat, heat stress, heat stroke
+      • Dehydration
+      • Heat exhaustion
+      • Heat cramps
+      • Heat rash
+      • Heatstroke
+      • Water shortages
+      • Other heat-related hazards such as wildfires
+
+  • 8. Productivity loss
+    • Include the following:
+      • Lost work time
+      • Increased number of on-the-job accidents
+      • How workers can deal with heat-related hazards.

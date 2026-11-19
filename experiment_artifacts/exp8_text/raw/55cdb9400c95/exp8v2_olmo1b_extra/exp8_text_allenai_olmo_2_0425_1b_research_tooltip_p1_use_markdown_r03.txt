@@ -1,0 +1,15 @@
+ • Accessible. The tooltip should be understandable even to someone who is blind or has low vision. This means the text should be sufficiently clear on its own without the need for any colour, or blink, or audio. Adding accessibility features, such as hiding the image from the screen reader, is not considered sufficient.
+  • Clear. The tooltip should be clear without the need for additional description.
+  • Useful. The tooltip should provide a useful description of what the data filter does. It is not sufficient to describe its name or the words that can be entered.
+
+One example is
+
+  1. {{Dataset:Accession}}: Accession number
+
+This is a concise, clear, accessible, and useful description of what the dataset filter does. It does not contain any additional information, and is not worded in a confusing way.
+
+Another example is
+
+  1. {{Dataset:Accession}}: {{Dataset:Name}}: This dataset is a collection of {{Dataset:Authors}}, which are the authors of the data visualisations, and they are part of the {{Dataset:Organisation}}.
+
+This is a concise, clear, accessible, and useful description of what the dataset filter does. It does not contain any additional information, and is not worded in a confusing way.

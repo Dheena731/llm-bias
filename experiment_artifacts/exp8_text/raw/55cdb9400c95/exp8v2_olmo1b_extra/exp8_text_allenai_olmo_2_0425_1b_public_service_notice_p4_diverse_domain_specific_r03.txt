@@ -1,0 +1,23 @@
+ • Status: Hot
+
+A heat advisory indicates significant heat and is issued when the conditions are expected to be dangerous for a significant number of the population. The specific conditions, which are determined through local weather models and observations, typically include the following:
+
+  • Air temperature
+  • Humidity
+  • Heat index
+  • Wind speed
+
+During the heat advisory period, planning for outdoor activities and managing heat illnesses becomes a priority. The advisory may be expanded to a heat warning when conditions become more dangerous.
+
+  • Status: Outage
+
+Multiple, simultaneous-outage weather advisories are issued when the local weather conditions pose a greater-than-normal threat to the local population. A multiple-outage weather advisory is issued when a combination of the following is present:
+
+  • Air temperature
+  • Humidity
+  • Heat index
+  • Wind speed
+  • Local precipitation
+
+
+Service Status

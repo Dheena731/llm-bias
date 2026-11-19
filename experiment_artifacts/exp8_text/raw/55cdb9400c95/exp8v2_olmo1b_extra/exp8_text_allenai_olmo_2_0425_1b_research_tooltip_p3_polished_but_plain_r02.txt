@@ -1,0 +1,29 @@
+Additionally, the text should include a link to a documentation page for the API method used in the tooltip, using the link function as follows:
+
+  • The element must contain the link function, the method being used, the tooltip text, and the link text.
+
+  • The link text should already be some useful description of what the tooltip is about
+
+  1. The API methods listed in the tooltip should be the ones that are most relevant to the users, while the others are shown in the tooltip.
+
+  2. Use vocabulary with the correct plural and singular forms for all the resources in the API.
+
+  3. Describe the API method in the tooltip, based on its first parameters.
+
+  4. The measures displayed in the tooltip should be the ones that are most relevant for describing the API method being used. In most cases the tool will use the first parameter of the API method to display the measure.
+
+  5. The descrambler is only relevant for the API method "Scrambler". It must be present in all the tooltips.
+
+  6. "Scrambler" is only relevant for the API methods for this audit. Other methods and measures should not be mentioned in the tooltip.
+
+  7. The labels "Scrambler" and "Scrambler for" should be used only for the API methods in this audit rather than everywhere, to avoid confusion with other API methods. Each API method should have one of the two labels, but the label can change between audits.
+
+  8. Although the term "Scrambler" is used in the guide, the terms "Scrambler" and "Scrambler for" can be used in the tool as well. It is recommended that they be used in the tool to explicitly indicate that the tool reports on a different thing from the "Scrambler" API method. For example, in "Scrambler for package", it is correct to say "Scrambler for package", but if the label is "Scrambler for", it is incorrect to say "Scrambler".
+
+  9. There is no need to include a link in the tooltip, but it can be useful.
+
+  10. Do not use the link function for anything other than the API methods shown in this audit. The tooltips should include actual links to documentation.
+
+Bugs and Feature Requests
+
+  1. Bugs should be filed on GitHub.

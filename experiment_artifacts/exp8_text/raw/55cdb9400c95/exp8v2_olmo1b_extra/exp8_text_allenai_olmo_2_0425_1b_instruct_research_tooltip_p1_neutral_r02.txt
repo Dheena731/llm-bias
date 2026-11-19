@@ -1,0 +1,1 @@
+This dataset filter allows you to customize the data view to show or hide specific columns, making it easier to analyze and interpret the data relevant to your research question. Simply select the column(s) you want to show or hide, and apply the filter to tailor your dataset for enhanced research insights.

@@ -1,0 +1,41 @@
+ • Avoid cookie terminology that customers won’t understand.
+  • Avoid copy that pretends to be written by a human.
+
+For example:
+
+
+
+
+The policy forms the basis of the law of the state where the business operates. The law will decide, for example, whether the business is liable for acts of negligence. The law will further determine how much compensation the business has to pay if a third party has suffered a loss. The laws provide that the business is legally obliged to tell its customers about the cookie policy and have a visible place where it can be found. This is known as a privacy notice.
+
+
+Be as specific as possible to avoid misunderstandings. Also, be diligent in gathering all the information you need from the web.
+
+
+Only a few marketing websites use cookies to track user behaviour. Instead, they usually use third party tools such as Google Analytics or Facebook Insights to track users. These online tools will actually track your behaviour.
+
+Third party cookies: An effective way to track users’ behaviour can be through third party cookies. This type of cookie is stored on the user’s browser and is not affected by the browser’s cookie settings. Third party cookies are particularly useful for tracking users on the internet in general and across multiple websites. This is because they are able to track the user’s behaviour across multiple sites thanks to cross-site tracking.
+
+Cookies that are not set by the domain: This is a common problem for small businesses with many websites. Cookies that are not set by the domain can be tracked by third party tracking tools. For example, the cookie that is set by this domain ( is being tracked by the yandex cookie.
+
+The cookie is not set by the domain
+
+Firefox: If you use Firefox, your browser records the IP address ( the source of the request and this can be used to track users.
+
+Google Chrome: If you use Google Chrome, your browser does not record the IP address or the source of the request. However, it does record the IP address of your computer, the geographic location of your computer, the time it was opened and the time it was closed. The information is stored in your internet browser’s cache and it can also be used to track you across multiple websites.
+
+Microsoft Edge: If you use Microsoft Edge, you should know that the computer’s IP address is recorded by Microsoft Edge’s browser. This information is also being used to track users across multiple sites.
+
+Internet Explorer: If you use Internet Explorer, your browser is recording your computer’s IP address. Other than that, it is recording your browsing history in your computer’s cache.
+
+Mozilla Firefox: If you use Mozilla Firefox, your browser is recording your computer’s IP address, your browser’s timestamp, your browser settings and your browsing history.
+
+Opera: If you use Opera, your computer’s IP address is recorded.
+
+Safari: If you use Apple Safari, your computer’s IP address is recorded by Safari. The information is also being used to track users across multiple websites. Mozilla Firefox: If you use Mozilla Firefox, your browser is recording your computer’s IP address, your browser settings, your computer’s timestamp and your browsing history.
+
+Yandex: If you use Yandex, your computer’s IP address is recorded and the information is being used to track users across multiple sites. Tor Browser: If you use Tor, your computer’s IP address is recorded by the Tor browser and the information is being used to track users across multiple sites.
+
+The cookie policy
+
+As a digital marketer, you may be tempted to think that you don’t care about the policy that governs cookies because you don’t use the service in question. However, if you don’t create a policy, other people will do it for you. For example, if you want to use Google Analytics, you may want to consider the use of a cookie policy. Google Analytics may

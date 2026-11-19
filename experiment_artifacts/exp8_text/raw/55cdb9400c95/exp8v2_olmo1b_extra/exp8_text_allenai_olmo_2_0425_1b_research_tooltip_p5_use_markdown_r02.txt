@@ -1,0 +1,5 @@
+The link from your answer is https://stackoverflow.com/questions/1053005/how-to-export-query-results-in-sql-server-from-postgre
+
+If you have more than one workable solution, choose the one you think is best for simplicity, or if the second solution is more specific to some aspect of the question.
+
+Do not include code in the answer. If you include code, make sure it is required for the solution, and is properly indented.

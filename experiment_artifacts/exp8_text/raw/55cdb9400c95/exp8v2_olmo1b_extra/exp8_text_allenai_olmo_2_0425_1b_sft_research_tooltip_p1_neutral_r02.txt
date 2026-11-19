@@ -1,0 +1,1 @@
+"In this dataset filter, you can select specific columns to view, modify, or delete data in your research tool. Simply choose the row corresponding to the column you want to act upon, and adjust the data as needed before making any changes."

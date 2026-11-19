@@ -1,0 +1,36 @@
+Attention Employees:
+
+We are writing to inform you about a new phishing scam targeting our company. As of now, no reported incidents have been documented, but it is important for all of us to remain vigilant and take necessary precautions to protect our personal and company information. Here’s what we know so far:
+
+**What is Phishing?**
+Phishing is a type of social engineering attack where an attacker attempts to deceive users into revealing sensitive information, such as login credentials, financial information, or personal details by disguising themselves as a trustworthy entity in electronic communications.
+
+**How to Recognize Phishing Emails:**
+- **Spoofed Sender**: Phishing emails often mimic our company’s official communications, including emails from our IT department, management, or HR.
+- **Urgency or Fear Tactics**: The email may urge you to act quickly, threaten consequences for not complying, or use fear (e.g., "Your account will be permanently disabled if you don’t respond.").
+- **Lack of Identity**: The sender’s email address may appear suspicious, not matching the usual sender information of our company’s emails.
+- **Poor Grammar and Spelling**: Even if you’re not an English major, poor grammar and spelling can be a red flag.
+- **Attachments and Links**: Do not click on suspicious links or download attachments from unknown senders.
+- **Verify Source**: If unsure about the origin of an email, contact the supposed sender directly through a verified contact channel.
+
+**What to Do if You Receive a Phishing Email:**
+- Do not respond or click on any links or attachments. These actions could compromise your personal information or system security.
+- Report the phishing email to our IT department immediately. Follow the procedure documented in our phishing response email (inserted in your mailbox upon discovery).
+- Educate yourselves and your colleagues about phishing and how to avoid such scams. Enroll in our Cybersecurity Awareness training for regular updates and information.
+
+**Reminder:**
+Phishing attacks can happen to anyone, regardless of the size of your role. It’s important to maintain a high level of vigilance and to act promptly if you encounter such emails. Your vigilance is crucial in protecting our company’s sensitive information.
+
+For further information, including how to report phishing attempts and preventative tips, please visit our cybersecurity resources page at [Cybersecurity Resource Page](https://cybersecurity.ourcompanyname.com/).
+
+We appreciate your cooperation and commitment to maintaining the safety and security of our workplace.
+
+Best regards,
+
+[Your Name]
+[Your Title/Position]
+[Company Name]
+
+---
+
+**Note:** The above notice aims to raise awareness about phishing emails and is intended to provide guidance on how to handle such threats. It should be considered a proactive measure rather than an announcement of an existing incident. Actual phishing attempts can vary in their sophistication and may involve more than just the warning signs mentioned above. Please ensure you follow your company's specific protocols for handling such situations.

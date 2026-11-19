@@ -1,0 +1,34 @@
+Subject: Enabling Two-Factor Authentication for Enhanced Security
+
+Dear [Employee/Student/Faculty Member],
+
+We are writing to inform you about the upcoming implementation of Two-Factor Authentication (2FA) as part of our ongoing commitment to safeguarding your digital information. Starting [Start Date], enabling 2FA on your account will be mandatory.
+
+This additional layer of security requires you to authenticate your identity in two ways:
+
+1. Something you know (your password)
+2. Something you have (a 2FA device or mobile app)
+
+By using 2FA, your account becomes significantly more secure against unauthorized access, reducing the risk of sensitive data breaches.
+
+Here's how to enable 2FA:
+
+1. Log in to your account using your usual credentials.
+2. Navigate to the 'Settings' or 'Account' section.
+3. Look for 'Two-Factor Authentication' or 'Security Settings'.
+4. Follow the on-screen instructions to connect your mobile phone or generate a hardware token.
+
+We've prepared a brief guide that will assist you with the setup process: [Guidance Document Link]
+
+Kindly ensure that you complete this setup by [Deadline Date] to maintain uninterrupted access to your account and services.
+
+If you encounter any difficulty while setting up 2FA or have questions, please contact our support team at [Support Contact Information].
+
+Thank you for contributing to a safer online environment. Your proactive engagement in maintaining security benefits us all.
+
+Best regards,
+
+[Your Name]
+[Your Title]
+[Organization Name]
+[Contact Information]

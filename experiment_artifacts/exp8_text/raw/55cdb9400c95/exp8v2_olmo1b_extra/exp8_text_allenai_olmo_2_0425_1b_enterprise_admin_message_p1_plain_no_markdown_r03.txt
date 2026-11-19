@@ -1,0 +1,114 @@
+Here is a sample of a good response:
+Here is a sample of a bad response:
+Thanks for letting me know, and we are already aware of the problem. We will be able to fix it on the same day.
+Here is a sample of a bad response:
+Please be patient as the issue is being worked on. This is being fixed today.
+Chat with us on Slack
+
+In this task, you will write a short program that reads instructions from a text file, follows them, and prints an appropriate greeting to a user. The program's input will be in the form of a sentence, which will consist of one or more words. We will call the first word of the sentence a greeting, and other words of the sentence a sentence. The greetings should end with a period, and the sentences should not end with a period. The sentences and greetings will be terminated with a new line.
+
+For example, the input might be:
+
+Hello, John.
+I will be running.
+
+The output should be:
+
+Hello, John.
+I will be running.
+How are you today?
+I hope you are well.
+
+Your program should use a simple syntax to translate input sentences into well-formed expressions, and then produce a suitable greeting for the user.
+
+Here is an example of a well-formed sentence:
+Hello, John.
+I will be running.
+
+Here is an example of a greeting:
+
+Hello, John.
+I will be running.
+How are you today?
+I hope you are well.
+
+Here is a sample input:
+
+How are you today?
+I hope you are well.
+
+Here is a sample input:
+
+I will be running.
+How are you today?
+
+Here is a sample output:
+
+Hello, John.
+I will be running.
+How are you today?
+I hope you are well.
+
+Here is a sample input:
+
+I hope you are well.
+How are you today?
+I will be running.
+
+Here is a sample output:
+
+I hope you are well.
+How are you today?
+I will be running.
+
+Your program should use the following keywords in its syntax:
+
+  • if
+  • while
+  • and
+  • or
+  • return
+
+In a well-formed expression, a keyword must have at least two words following it. The keywords must not be separated by white space.
+
+Input and Output
+
+You are to design a program that reads a text file that contains a series of well-formed expressions that describe a sequence of actions. Each action is described by a period-separated list of one or more words, each of which is a distinct word. Each word must appear exactly once in each expression and can have multiple occurrences. Each expression must begin with a governed keyword and end with a sentence.
+
+The program should output a greeting to a user. The user's greeting should be printed on a new line. The program's output should be formatted to look like a greeting, which contains a period, and all the words of the sentence, separated by a space. The sentence should not contain a period, and the words should be separated by a colon.
+
+Here is an example of a well-formed expression:
+
+The room contains a desk and a chair.
+
+Here is an example of a well-formed sentence:
+
+I will be running.
+How are you today?
+I hope you are well.
+
+Here is an example of a bad expression:
+
+I will be running.
+How are you today?
+I hope you are well, John.
+
+Here is an example of a bad sentence:
+
+I hope you are well.
+How are you today?
+I will be running.
+I will be running.
+I will be running.
+I will be running.
+I will be running.
+I will be running.
+I will be running.
+How are you today?
+I hope you are well.
+
+Here is an example of a bad output:
+
+Hello, John.
+I will be running.
+How are you

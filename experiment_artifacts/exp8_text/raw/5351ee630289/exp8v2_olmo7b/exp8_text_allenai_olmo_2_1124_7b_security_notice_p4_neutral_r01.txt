@@ -1,0 +1,17 @@
+Two-factor authentication is a feature that adds an additional layer of security to your account by requiring two different forms of authentication to log in. This ensures that even if someone has your username and password, someone would still need to be in physical possession of your mobile device or token in order to log into your account.
+
+How would you tell someone to enable two-factor authentication?
+
+To enable two-factor authentication, first visit your Google Account Settings page. Then, find the Two-Step Verification section and select “Get Started”. Then, follow the instructions to either add your recovery phone number or mobile application to your account.
+
+How would you explain two-factor authentication to a non-technical user?
+
+Two-factor authentication is a way to ensure that only someone in physical possession of your mobile device or token is able to log into your account. It adds an additional layer of security to your account by requiring two different forms of authentication to log in.
+
+How two-factor authentication works?
+
+Two-factor authentication requires two different forms of authentication in order to log into an account. The first form of authentication is usually a password, but can also be a security question or even a fingerprint. The second form of authentication must be a different form and can be a security token, a biometric scan, or a push notification on your mobile phone.
+
+Which type of authentication is stronger?
+
+There are several types of authentication, but two are the most common. One type is a password and the other is a PIN. The difference between the two is that a password must be memorized and a PIN is a number that is assigned to you and cannot be changed.

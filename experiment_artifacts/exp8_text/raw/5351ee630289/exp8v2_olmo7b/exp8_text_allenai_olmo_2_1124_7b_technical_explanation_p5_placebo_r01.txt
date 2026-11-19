@@ -1,0 +1,7 @@
+Here is an example of a good answer to this question:
+
+A rate limit is a restriction on how often a resource can be accessed. This is enforced by throttling requests that exceed the limit. Rate limiting is a way for APIs to control abuse and protect themselves from DoS (Denial of Service) attacks.
+
+Here is an example of a poor answer to this film school:
+
+An API is a pile of stuff that comes out of a tube and you can put on an action figure. The rate limit is the limit at which the pile comes out of the tube before you have to hit it with a hammer to make it come out faster.

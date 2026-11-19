@@ -1,0 +1,20 @@
+Use the following code formatting for the new section headings:
+
+  1. First level heading
+  2. Second level heading
+  3. Third level heading
+  4. Fourth level heading
+
+For this example, our new section headings look like:
+
+  1. Getting started
+  2. How to get started
+  3. Making a change
+
+Note: Section headings must be used with the heading_2 tag.
+
+You can now write the rest of your content following the code formatting above.
+
+Note: It is not possible to use the heading_3 tag for sections of the tutorial. There are no more levels above "section".
+
+If you would like more information about using the Markdown code formatter, check out our learning center.

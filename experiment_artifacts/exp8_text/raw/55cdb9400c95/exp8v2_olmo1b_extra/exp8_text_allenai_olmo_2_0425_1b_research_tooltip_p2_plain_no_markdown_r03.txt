@@ -1,0 +1,39 @@
+Example:
+
+A confidence interval is a range of values that is likely to contain the true population parameter. It is typically expressed as a percentage that represents the confidence level of the interval.
+
+In this case, a confidence interval of 0 to 2.5 indicates that, based on the sample data, it is likely that the true population mean lies somewhere between 0 and 2.5 standard deviations from the sample mean.
+
+This confidence interval does not indicate the exact value of the true population mean, nor does it provide a precise measurement of the uncertainty associated with the estimate.
+
+Instead, a confidence interval provides a range of values that is likely to contain the true population parameter.
+
+Example, without a confidence interval:
+
+A sample of 100 people has an average income of $50,000 per year, with a standard deviation of $8,000 per year. Based on this sample, it is likely that the true population mean is between $48,000 and $58,000.
+
+Example, with a confidence interval:
+
+A confidence interval of 0 to 2.5 indicates that, based on the sample data, it is likely that the true population mean lies between 0 and 2.5 standard deviations from the sample mean.
+
+The confidence interval does not contain the exact value of the true population mean, nor does it provide a precise measurement of the uncertainty associated with the estimate.
+
+Example, with a confidence interval, and a statistic:
+
+A sample of 100 people has an average income of $50,000 per year, with a standard deviation of $8,000 per year. Based on this sample, it is likely that the true population mean lies within the range of $48,000 and $58,000.
+
+The sample standard deviation is used to calculate a confidence interval. The 95% confidence interval is 0 to 2.5.
+
+Example, without a confidence interval:
+
+A sample of 100 people has an average income of $50,000 per year, with a standard deviation of $8,000 per year. Based on this sample, it is likely that the true population mean lies between $48,000 and $58,000.
+
+The confidence interval does not contain the exact value of the true population mean, nor does it provide a precise measurement of the uncertainty associated with the estimate.
+
+Example, with a confidence interval, and a statistic, and a calculation:
+
+A sample of 100 people has an average income of $50,000 per year, with a standard deviation of $8,000 per year. Based on this sample, it is likely that the true population mean lies within the range of $48,000 and $58,000. To calculate the confidence interval, we use the sample standard deviation (s). However, since the sample size is small, we need to adjust our standard error (SE) using the formula SE = \sqrt{s^2 \frac{1}{N}}. Plugging in the given values, we have SE = \sqrt{s^2 \frac{1}{100}} \approx 2.4. We can now calculate the confidence interval as follows: CI = (50 – 2.4 \frac{1}{2.4} \times 1000$,$50 + 2.4 \times 1000$). Calculating this out gives us a confidence interval of (48,000, 58,000].
+
+Confidence intervals are often used in statistics to provide a range of possible values for a population parameter. They are calculated based on sample data and a specified level of confidence.
+
+Confidence intervals are typically expressed using percentages, which indicate what proportion of the time a confidence interval will contain the true population parameter. For example, a 95% confidence interval indicates that, if the same sample were repeated many

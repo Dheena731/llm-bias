@@ -1,0 +1,1 @@
+A missing-value marker, sometimes known as a placeholder or stub, is used in datasets or databases to indicate that there is no specific value available for a particular record at a given time, often serving as a temporary substitute until a proper value can be added. This marker helps to preserve the integrity of the data set and maintain data consistency across entries.

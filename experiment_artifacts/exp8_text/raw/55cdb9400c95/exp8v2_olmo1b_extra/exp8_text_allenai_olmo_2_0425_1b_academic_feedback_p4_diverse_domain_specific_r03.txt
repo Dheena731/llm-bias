@@ -1,0 +1,24 @@
+In the future, you may want to invite the relevant people to contribute to the chat, and/or use the chat to conduct informal experiments with writing contents. For instance, you can conduct some interviews (or just ask a few questions) and/or lead a small writing workshop (with a few selected participants in the chat) with the corresponding people in the chat.
+
+If you are interested, there are a few chat rooms for this domain available on the Google Discord server. You can, for example, follow this channel to read what academics are writing and discuss how to translate their writing to AI-related content.
+
+Furthermore, if you would like to talk to an AI researcher in your field for a face-to-face discussion, please find our list of AI research groups here. If there is one in your city, you may want to go to their office hours.
+
+In the end, we are always keen to hear from you. Feedback is always welcome!
+
+
+1.1.2. What are the differences between text-to-text machine translation (MT) and text-to-image synthesis (TIS)?
+
+Text-to-text machine translation (MT) has been around for decades, and it is known for its relatively low quality. The framework of MT has been recently improved, for example, for large-scale text generation with neural machine translation. The latest state-of-the-art MT systems can handle 1,100-word comments in a conversation, or 9,000-word manuals in a paragraph.
+
+Text-to-image synthesis (TIS), on the other hand, is relatively new. It is still in the experimental stage, but it converges and shows great potential for further development. TIS is mainly used for two main tasks. One is to generate images to replace text (text-to-image synthesis), and the other is to generate images to augment text input (image-text generation). At the moment, TIS is already better than MT in the case of text-to-image synthesis, and is still at the same level in the image text generation. For example, compared to MT, TIS has been shown to improve the fluency of text-to-image synthesis.
+
+In addition to these major differences, TIS has an extra component that MT does not have, which is the ability to generate images on a scene-level. This may lead to higher quality images because the structure of scene is not represented in the model. We believe that the TIS paradigm is a promising method to map texts to images rather than just images to text, which is a more challenging task.
+
+1.2. How do you translate a table into images?
+
+The main components of the TIS framework are the text encoder and the skeleton decoder. The text encoder maps textual parts to visual parts, and the skeleton decoder converts textual parts to image parts. The main idea of this framework is to use the skeleton decoder to translate a table into images. Specifically, the skeleton decoder is used to extract the skeleton of a table, and these extracted skeletons are used as input to the model to generate images.
+
+The text encoder and skeleton decoder of the TIS framework were inspired by the work of P. Arbib and I. Shu et al. in 2005 and 2006 respectively.
+
+The text encoder in the TIS framework first encodes the textual input into a sequence of tokens using the Transformer. Then, we map each token in the sequence of tokens to a representation with GloVe vector which represents the content of a token. The representation vector is then converted to a bag-of-words representation to convert to the basic part of the text representation. For example, the representation vector of the word ‘apple’ is 0.7965487318140854, and the representation vector of ‘apple pie’ is 0.7918768077214249. We then use these representations to

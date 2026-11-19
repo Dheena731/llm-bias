@@ -1,0 +1,17 @@
+The cookies used on the www.example.co.uk website include:
+
+Cookie Name Description
+example_cookie_user An essential session cookie that stores a unique identifier for each visiting user, JSESSIONID
+website_visitor_count This cookie is used to count users' visits to the homepage so that we can analyse their interest in the website.
+
+This notice should also be included in a privacy notice page.
+
+Using session cookies
+
+Session cookies are used by the Java servlet container when dealing with HTTP requests that are sent by clients to the servlets. The container uses session cookies to identify the client who sent the request, and so that it knows what data to send back to the client (as per a HTTP GET request or HTTP POST request that the client sent earlier).
+
+The session cookie is also a way for the client to identify itself to the server, and is used to avoid the server having to re-read its entire memory state for every HTTP request. The session cookie is supplied by the web browser for each request, and so the servlet container can use the cookie to identify the client and retrieve its necessary data from memory.
+
+The session cookie is an essential part: in fact it is not possible to build a website using only servlets and JSP pages (the two main web application components) without using session cookies.
+
+One common error occurs when using JavaBeans from JSP pages to display information about the user who is currently logged in. This is a common task and the way to do it is to use the session cookie values. However, for security reasons, if you are using a web application that you have installed on your local computer, you should disable the session cookies.

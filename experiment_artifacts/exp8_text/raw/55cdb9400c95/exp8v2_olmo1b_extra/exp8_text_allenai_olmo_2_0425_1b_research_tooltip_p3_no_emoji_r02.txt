@@ -1,0 +1,62 @@
+3. Support for different input sources
+
+This section describes how the input sources can be configured for the Date Range Picker. This section is not required, if you do not want to have support for different input sources.
+
+3.1. HTML input type text
+
+The HTML input type text is used to select a date range from an HTML <input> element. It is not allowed to be used with a <select> element because it is not required. The HTML date picker will always be placed below the input element. The input element can contain another <input> element. The HTML date picker supports internationalization. The language of the date picker can be specified with the input element's type attribute. The language can be specified with the ISO8601 international date format.
+
+The following examples show how to use the HTML date picker with the input type text:
+
+<input type="text" id="date-example">
+<input type="text" id="date-example" language="fr" pattern="[0-9]{4} [0-9]{2} [0-9][0-9]{2}">
+
+
+The date picker will be placed below the input element.
+
+The date picker will be placed below the input element.
+
+<input type="text" id="date-example" pattern="[0-9]{4} [0-9]{2} [0-9][0-9]{2}">
+<input type="text" id="date-example" language="fr">
+
+
+The date picker can contain another input element.
+
+The date picker can contain another input element.
+
+3.2. The JavaScript date picker plugin
+
+The JavaScript date picker plugin provides support for the following input types:
+
+  • datetime-local - This input type selects a date range with an unambiguous ISO-8601 date format, such as "2013-01-03T00:00:00Z".
+
+  • month-day-local - This input type selects a date range with a local date format, such as "2014-01-07".
+
+  • month-day-range - This input type allows selecting a date range with a normal date format, such as "2014-01".
+
+  • month-day-local-range - This input type allows selecting a date range with a local date format, such as "2014-01".
+
+  • date-time-local - This input type selects a date range with an unambiguous ISO-8601 date format, such as "2013-01-03T00:00:00Z".
+
+The JavaScript date picker plugin handles the following input source types:
+
+  • time-only - This input source type provides support for the input type time-only. An input element with this input source type can be used to select a date range or a date. The date will be selected with the date-time pair in format: "YYYY-MM-DD HH:mm:ss" (for example, "2013-01-03 00:00:00").
+
+    The date range is selected as follows:
+
+    <input type="time-only" id="date-example">
+    <input type="time-only" id="dateExample" language="fr"></input>
+
+    The date is selected as follows:
+
+    <input type="time-only" id="dateExample" pattern="YYYY-MM-DD HH:mm:ss">
+    <input type="time-only" id="dateExample" pattern="YYYY-MM-DD">
+
+    The date range is selected as follows:
+
+    <input type="time-only" id="dateExample">
+    <input type="time-only" id="dateExample" language="fr" type="range">
+
+    If you want to select a date range with different time zones, you have to use the time-only input type instead of the date-only input type.
+
+  • date-only - This input type provides support for the date

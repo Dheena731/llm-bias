@@ -1,0 +1,60 @@
+A valid sentence is of the form:
+
+  {class} {method} {example} {more info}
+
+
+  • {class} is a class name.
+  \classname{C++} is a programming language.
+  \classname{Quine} is a type of program.
+  \classname{Crossword Puzzle} is a type of puzzle.
+  \classname{} is a web site.
+  \classname{LaTeX} is a typesetting system.
+  \classname{Spenserian Sonnet} is a type of poetry.
+  \classname{Wordnet} is a type of database.
+  \classname{English} is a type of language.
+  \classname{CSS} is a type of markup language.
+\classname{Visual Basic for Applications} is a type of programming language.
+\classname{Trac} is a type of software.
+\classname{Poem} is a type of writing.
+\classname{Formal Language} is a type of language.
+\classname{PC} is a type of family of computers.
+\classname{Parody Song} is a type of recording.
+\classname{Indy} is a programming language.
+\classname{XML} is a type of language.
+\classname{Google} is a type of search engine.
+\classname{MHDD} is a type of file format.
+\classname{Policy Debate} is a type of debate round.
+\classname{Enhanced Battery Standard} is a type of battery technology.
+\classname{Unicode Character} is a type of character.
+\classname{MIDI} is a type of file format.
+\classname{text} is a type of language.
+\classname{Hexadecimal} is a type of number.
+\classname{HTML} is a type of markup language.
+\classname{Baker's Percentage} is a type of percentage.
+\classname{Unicode String} is a type of string.
+\classname{Maya} is a type of software.
+\classname{MS-DOS Prompt} is a type of interface.
+\classname{Unicode Font} is a type of font.
+\classname{Delphi} is a type of programming language.
+\classname{Wikipedia} is a type of website.
+\classname{Graduation} is a type of ceremony.
+\classname{email} is a type of communication.
+\classname{Octave} is a type of interval.
+\classname{Philosophy} is a type of study.
+\classname{Peter Pan Syndrome} is a type of personality disorder.
+\classname{WebTone} is a type of sound effect.
+\classname{Internet Explorer} is a type of web browser.
+\classname{French Revolution} is a type of revolution.
+\classname{C++} is a programming language.
+\classname{Usenet} is a type of electronic messaging.
+\classname{} is a type of website.
+\classname{LDAP} is a type of protocol.
+\classname{Python} is a type of programming language.
+\classname{POP} is a type of transport protocols.
+\classname{Sunny Side Up} is a type of food preparation.
+\classname{Arabesque} is a type of dance.
+\classname{Dante's Inferno} is a type of literary work.
+\classname{Amiga} is a type of computer.
+\classname{Thessalonian Epistles} is a type of writing.
+\classname{Apostle Paul} is a type of person.
+\classname{Real-time Operating System} is

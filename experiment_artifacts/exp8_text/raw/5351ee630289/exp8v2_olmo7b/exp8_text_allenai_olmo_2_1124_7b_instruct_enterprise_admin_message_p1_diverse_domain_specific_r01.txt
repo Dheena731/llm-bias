@@ -1,0 +1,17 @@
+Hello Team,
+
+**Attention All Users: Dashboard Maintenance Window**
+We anticipate a brief interruption in service starting at 10:00 PM tonight (November 15, 2023) lasting approximately 45 minutes. This planned maintenance is necessary to upgrade system performance and ensure the continued smooth operation of our platform.
+
+During this period, you may experience temporary unavailability of the dashboard. We assure you that all data and ongoing operations will be securely backed up before the maintenance begins. Upon completion, the dashboard will be restored, and full functionality will be immediately available.
+
+*Please ensure that all teams are aware and ready to adapt as necessary, using alternative communication channels until service is restored.*
+
+Your patience and understanding are immensely appreciated. If you encounter any issues during this time, do not hesitate to reach out to our support team via <PRESIDIO_ANONYMIZED_EMAIL_ADDRESS>.
+
+Thank you for your cooperation.
+
+Best regards,
+
+[Your Name]
+Platform Administration Team

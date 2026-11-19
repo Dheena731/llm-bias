@@ -1,0 +1,6 @@
+**Export Query Results**
+
+* Right-click on the chart or data table after running a query.*
+* Choose `Export` from the context menu.*
+* Select `Excel` or `CSV` from the dropdown menu based on your preferred format.*
+* Click `Download` to save the results to your chosen file format.*

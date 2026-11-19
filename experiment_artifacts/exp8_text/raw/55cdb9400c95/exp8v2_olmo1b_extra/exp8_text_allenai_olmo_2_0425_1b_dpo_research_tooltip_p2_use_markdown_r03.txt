@@ -1,0 +1,9 @@
+**Tooltip Header**: Confidence Interval in Chart
+
+**Bullet Points:**
+
+- A confidence interval provides a range of plausible values for an unknown population parameter.
+- It's calculated as the survey sample statistic ±(standard error of the sample statistic).
+- Confidence levels (e.g., 95%) specify the degree of certainty about the interval.
+- In a chart, it's often displayed as a range between two points, indicating the margin of error.
+- Confidence intervals help visualize and communicate the precision of a statistic related to a population parameter.

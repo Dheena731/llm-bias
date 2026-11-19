@@ -1,0 +1,63 @@
+Write in first person, present tense, and be casual. For example, use "I will" instead of "This job needs".
+
+The flowcharts are intended to be simple - if they are too complicated, they are probably not the right tool for this project.
+
+Please limit the number of flowcharts to about 20. Keep in mind that each flowchart will need to be reviewed by multiple people in order to be usable.
+
+The flowcharts should focus only on the most important decisions - there will be an opportunity to add details when the flowcharts are used.
+
+The flowcharts are intended to be used by people who understand the system, and that's okay. They are also intended to help the development team quickly understand where they need to get additional context or clarifications.
+
+If a flowchart shows a dependent decision, the decision should be made earlier in the flowchart. For example, if the decision is "do you have a membership?" and the next decision is "do you want to pay your monthly expense?" then the "pay monthly expense" should be the previous decision.
+
+If a decision is mandatory, make sure that the flowchart goes to the error state when the decision is not met.
+
+In order to keep the number of flowcharts reasonable, try not to add more than one decision to each step in the flowchart.
+
+When adding a decision to a flowchart, add a description of the decision in the comments section. The description should be short and to the point, and should be written in plain English.
+
+The following are the template flowcharts that will be used for each decision:
+1. The person with the information
+2. The organization name
+3. The organization address
+4. The job title
+5. The street address
+6. The person who did the job
+7. The person who requested the expense
+8. The person who did the research
+9. The person who identified the problem
+10. The expense type
+11. The start date
+12. The end date
+13. The start time
+14. The end time
+15. The expense amount
+16. The expense description
+17. The field notes
+18. The field status
+19. The field type
+20. The field name
+21. The field description
+22. The field lookup
+23. The field code
+24. The field notes
+25. The project
+26. The location
+27. The project name
+28. The project description
+
+The following are the template error messages that will be used for each error:
+1. The decision could not be made because you did not have the information.
+2. The organization name could not be found. Please check your spelling and try again.
+3. The address could not be found. Please check your spelling and try again.
+4. The street address could not be found. Please check your spelling and try again.
+5. The person with the information could not be found. Please check your spelling and try again.
+6. The organization name could not be found. Please check your spelling and try again.
+7. The organization address could not be found. Please check your spelling and try again.
+8. The job title could not be found. Please check your spelling and try again.
+9. The person who did the job could not be found. Please check your spelling and try again.
+10. The street address could not be found. Please check your spelling and try again.
+11. The person who requested the expense could not be found. Please check your spelling and try again.
+12. The person who did the research could not be found. Please check your spelling and try again.
+13. The person who identified the problem could not be found. Please check your spelling and try again.
+14. The expense type could not

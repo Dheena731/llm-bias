@@ -1,0 +1,1 @@
+The date-range selector allows you to filter calendar data based on a start and end date.

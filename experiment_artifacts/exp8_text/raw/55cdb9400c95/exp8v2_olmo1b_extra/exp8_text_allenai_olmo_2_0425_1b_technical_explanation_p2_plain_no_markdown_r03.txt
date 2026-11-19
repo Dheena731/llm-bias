@@ -1,0 +1,22 @@
+This is an example of a database index: A less than perfect database index.
+A less than perfect database index.
+
+What is a database link?
+
+A database link is a row in the database that references another table in the same database. The database link appears in the source table as a link to the target table. When the source table is updated, the target table's linked rows are updated automatically. The original values are not updated as in a SQL INSERT statement.
+
+A database link defines a one-to-many relationship. You can have a database link with any number of source tables. The target table can be a linked table or a table that doesn't exist. You can also create database links to external databases and connect them to SQL Server. A database link can be created in either the Database Link Wizard or the Database Link Properties dialog box.
+
+In the following example, a user logs into the AdventureWorks database using AdventureWorksBI. The user navigates the AdventureWorks database and finds the Sales.SalesOrderHeader table.
+
+The user creates a table in the AdventureWorks database using a CREATE TABLE statement. The user specifies that the table will be referenced by a linked table in the AdventureWorks database. The user creates a linked table in the AdventureWorks database using a CREATE TABLE statement. The user specifies that the table will be referenced by a linked table in the AdventureWorks database.
+
+The AdventureWorks database link has updatable target tables.
+
+Source table: Sales.SalesOrderHeader
+Linked table: Sales.SalesOrderDetail
+
+Source table: PLAN_TABLE
+Linked table: AdventureWorks.Sales.SalesOrderDetail
+
+The AdventureWorks database link has too many target tables.

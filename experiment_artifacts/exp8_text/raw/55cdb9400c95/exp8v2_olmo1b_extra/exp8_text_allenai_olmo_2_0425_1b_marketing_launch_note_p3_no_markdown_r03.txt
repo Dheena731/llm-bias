@@ -1,0 +1,10 @@
+Please submit your solution along with a detailed explanation.
+
+Example Input: How to Get in the Game: An Intro to PBL
+Example Output: How to Get in the Game: An Intro to PBL
+
+Example Input: Write a 100-250 word review of "The Quest".
+Example Output: How to Get in the Game: An Intro to PBL
+
+Example Input: I loved this book! It has so many twists and surprises. I can't wait to read the rest of them.
+Example Output: I loved this book! It has so many twists and surprises. I can't wait to read the rest of them.

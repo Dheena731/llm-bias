@@ -1,0 +1,1 @@
+To export query results you can use the `export` query option available in the Results panel located at the top of the browser. Simply select the desired options and click Export. The results will be saved in the specified file format.

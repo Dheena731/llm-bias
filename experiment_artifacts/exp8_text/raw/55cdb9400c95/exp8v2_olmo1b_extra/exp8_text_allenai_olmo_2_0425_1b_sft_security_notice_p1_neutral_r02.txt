@@ -1,0 +1,7 @@
+Education and awareness are key in preventing cybersecurity issues like password reuse. It is important to remind your employees to regularly change their passwords and avoid using the same password across multiple services. Password reuse not only exposes them to potential breaches, but it also exposes their personal data. Here are some additional tips to help you educate your team: 
+
+1. Make sure your passwords are unique for every account.
+2. Do not use personal information (like birthdays, names, or significant dates) as part of your passwords.
+3. Avoid using common words or phrases as passwords, such as "123456" or "password". Consider a mixture of letters, numbers, and special characters.
+4. Consider using a password manager to generate and store complex passwords.
+5. Always change your password as soon as you become aware of a data breach that uses your login information.

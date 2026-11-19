@@ -1,0 +1,89 @@
+Example
+
+One primer on writing good tooltips is found in the documentation for tooltips.txt (see here). It lists "What not to do" and "What to do". Here's an example of "What not to do":
+
+Last modified: $Date: 2012/12/19 00:36:27 $ by $Author: tkoski $
+
+Here's an example of "What to do":
+
+Last modified: $Date: 2012/12/19 00:36:27$ by $Author: tkoski $
+
+
+Use a decimal point to separate numbers.
+
+Example
+
+Use a decimal point to separate numbers from values (like $ currency symbols) rather than an underscore.
+
+Example
+
+When including a variable in your value, use a decimal point to separate the variable from the value. For example, <INPUT TYPE=submit VALUE="$username" onblur="somefunction()">.
+
+Example
+
+When including a variable in your value, use a decimal point to separate the variable from the value. For example, <INPUT TYPE=submit VALUE="$username" onblur="somefunction()">.
+
+Examples
+
+Use a period to separate identifiers.
+
+Example
+
+Use a period to separate identifiers. For example, you could include a variable in your value like this: <input type="text" name="bob" value="taco" onkeystroke="\[value\]"/>.
+
+Examples
+
+Use a period to separate other types of values.
+
+Example
+
+Use a period to separate other types of values. For example, you could include a range of values in your value like this: <input type="radio" name="show" value="1" value="2" value="3" type="radio" onkeystroke="\[value\]"/>.
+
+Examples
+
+Use a period to separate different types of values.
+
+Example
+
+Use a period to separate different types of values. For example, you could include a range of values in your value like this: <input type="radio" name="show" value="1" value="2" value="3" type="radio" onkeystroke="\[value\]"/>.
+
+Examples
+
+Separate amounts in decimal format
+
+Example
+
+Use a decimal point to separate amounts in decimal format. For example, one output value could be <input type="number" name="amount" value="$50.00" onkeystroke="\[value\]"/>.
+
+Examples
+
+Use a decimal point to separate amounts in comma format.
+
+Example
+
+Use a decimal point to separate amounts in comma format. For example, one output value could be <input type="number" name="amount" value="$50.00" onkeystroke="\[value\]"/>.
+
+Examples
+
+Center text within a label.
+
+Example
+
+
+More details of the anchor.
+
+Example
+
+One document linking to another can include an anchor like this: <A HREF="http://site.com/anchor.html">Anchor</A>.
+
+Example
+
+The anchor can be formatted to the appropriate size by inserting the anchor tag into the <A> element. One format is like this: <A HREF="http://site.com/anchor.html">Anchor</A> <A HREF="http://site.com/anchor.html" height="2">Anchor</A>
+
+Example
+
+The anchor can also be formatted to the proper size by inserting an element like <A HREF="http://site.com/anchor.html">Anchor</A> <A HREF="http://site.com/anchor.html" height="2">Anchor</A>.
+
+Example
+
+The anchor can also be formatted to the proper size by inserting an element like <A HREF="http://site.com/anchor.html">Anchor</A> <A HREF="http://site.com

@@ -1,0 +1,20 @@
+# Tax Statement Summary
+
+This is a summary of your tax return for the year. Please review the details provided above and contact me if you have any inquiries or need further assistance.
+
+- Total tax liability: $[Amount]
+- Total refundable credits: $[Amount]
+- Total taxable income: $[Amount]
+- Standard deduction: $[Amount]
+- Personal exemptions: 2
+- Qualified education expenses: $[Amount]
+- Married Filing Jointly
+- Filings: 1
+- Individual Tax Payer
+- Tax year: 2022
+
+Helpful Links:
+
+- https://www.irs.gov/tax-topics/understanding-the-irs-education-credit
+- https://www.irs.gov/tax-resources/tax-credit-calculators
+- https://www.irs.gov/tax-library/tree/irs-guint-education-credit-calculator

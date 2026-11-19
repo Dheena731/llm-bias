@@ -1,0 +1,11 @@
+One example: 1, 2
+
+Not: 1; 2
+
+Now, solve this: Paragraph 1: Mr. White's mother, Mrs. White, had a very different personality from his father.
+
+Example output: Mr. White and his mom had different personalities.
+
+Example input: Paragraph 1: Fiercely loyal to his brother, Luis XVI was imprisoned by France instead of Luxembourg.
+
+Example output: Luis XVI was brutally loyal to his brother, he was imprisoned by France instead of Luxembourg.

@@ -1,0 +1,11 @@
+# acceptable use of the shared network
+
+This document outlines the terms and conditions for the use of the shared network by all users. Violations of these rules may result in termination of service, and legal action may be taken. Please ensure that your actions comply with these rules, and do not engage in any harmful, illegal, or unethical behavior. 
+
+- **Unauthorized access** is prohibited. Only authorized users are permitted to access the network.
+- **Unauthorized installation of software** is prohibited. Unauthorized modifications to the network or the equipment used to access it are also prohibited.
+- **Unauthorized use of network resources** such as computing power, storage space, or bandwidth is prohibited. Frequent and excessive use of these resources is discouraged.
+- **Unauthorized alteration of network equipment** such as routers or switches is prohibited. Attempting to alter such equipment may result in shutdown of the network.
+- **Unauthorized sharing of sensitive information** is prohibited. Do not share any sensitive or confidential information with network users.
+
+Failure to adhere to these rules may result in the suspension or termination of your access to the network. If you have any questions, please contact the network administrator for clarification.

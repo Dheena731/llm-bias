@@ -1,0 +1,1 @@
+When a user makes a request to a server, that server can be overloaded with a large number of requests. To prevent an API from being overloaded, an API rate limit is introduced. The rate limit is the maximum number of requests a server will accept from a user in a specified period of time.

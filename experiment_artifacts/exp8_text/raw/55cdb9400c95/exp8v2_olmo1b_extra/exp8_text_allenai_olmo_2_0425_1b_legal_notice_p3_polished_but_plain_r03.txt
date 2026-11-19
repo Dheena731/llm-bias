@@ -1,0 +1,46 @@
+Write a short introductory paragraph about your cookies. In it, explain the purpose of your website and why you’re using cookies. Tell the person reading your notice that this is a legal requirement and what it means for them.
+
+Cookies must be properly labelled in accordance with Article 29 of the GDPR and must be clearly described to users. Do not use vague terms like "tracking technology" or "user tracking" to describe cookies.
+
+5.2.3. Keep records
+
+Make sure you keep logs and records of all cookies and information you collect or use, including the following:
+
+  • a list of all cookies on your website;
+  • a list of the date and source of the information that you collect;
+  • a notice that states how long the cookies are valid for, including the expiration date and a statement that they will expire after a certain period of time;
+  • a statement that the information collected is being stored and a description of where it’s being stored.
+
+You can opt out of getting cookies by using a pop-up message, a link to a privacy statement, or a page where the user can deactivate cookies and browser detection. Just make sure to keep the pop-up message, link, or page visible to users at all times, in case they forget about it.
+
+5.2.4. Tell the user how to choose whether to accept cookies
+
+Once you’ve set your cookies, you must tell users how to opt in or opt out of them. If they want, they can choose not to use your website because of the cookies, otherwise, you’ll need to allow users to accept, refuse, or delete them.
+
+5.3. Limiting storage of data
+
+Article 29 of the GDPR mandates that you use the storage or use of data only for the purposes for which it’s being processed. This means that you must take steps to limit the amount of data you store.
+
+To do this, you should track and analyze only the data that you have a legal right to collect, and analyze only the data you need to get your job done, and limit the data you store by using general-purpose cookies, storage-related cookies, or cookies that are only active when a user is browsing your website.
+
+5.4. Limit the information you collect
+
+This section is fairly self-explanatory. You must limit the information you collect, and not collect more than you need to get your job done. Collecting more information than you need to get your job done is called "data mining" or "big data".
+
+If you don't need to get a user's location history or browsing history, don't even ask for it. Do not ask for them unless it's for an essential purpose like maintaining the website, for example.
+
+6. Links to other websites
+
+You must give visitors a clear choice about whether they want to use links that take them to other websites that you have set up. Make sure your website is robust enough so that you don't have to rely on external websites for any essential functionality of the website.
+
+7. User consent
+
+Before a user can accept a cookie or other type of data that's being saved, they must be able to give consent after being informed about what cookies are, how they’re used, and what they’re used for.
+
+You must have clear and easy-to-understand controls that allow users to explicitly allow or disallow cookies, and you must inform users about how to opt out of cookies and data collection, for example, through a link to a privacy statement.
+
+If you want to collect a user’s name or e-mail address, having consent from them is different. Most often, when you collect personal data, you must have explicit consent from the user.
+
+8. Consent forms
+
+You cannot make users give consent if you’re not using consent forms. Consent forms

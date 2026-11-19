@@ -1,0 +1,16 @@
+### What a Database Index Does
+
+**-** Facilitates faster data retrieval: 
+  Indexes help speed up data retrieval by reducing the time needed to search through large tables for the desired data.
+  
+**-** Reduces query time: 
+  Queries on an index-organized table (Ohio) are generally faster than those on a non-indexed table (Northstar), because the database engine can directly locate the data based on the index.
+
+**-** Accelerates data modification: 
+  Updates and deletes on an indexed table are generally faster than on a non-indexed table because the database engine can update the index efficiently.
+
+**-** Ensures data consistency: 
+  Indexes ensure data integrity and consistency by allowing the database engine to verify the existence of data before processing a query.
+
+**-** Supports data manipulation: 
+  Indexes support advanced operations like joins, aggregation, and sorting, making them essential for efficient data manipulation tasks.

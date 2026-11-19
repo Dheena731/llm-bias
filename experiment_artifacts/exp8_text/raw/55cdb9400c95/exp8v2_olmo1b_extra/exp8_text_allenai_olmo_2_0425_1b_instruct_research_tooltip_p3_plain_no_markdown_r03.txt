@@ -1,0 +1,1 @@
+The date-range selector allows users to easily choose specific time periods from a predefined list. With this tool, you can select ranges like "2022-2023" to view events occurring between those years, or "January 1, 2020" to see details from January 1st, 2020, to the end of the year.

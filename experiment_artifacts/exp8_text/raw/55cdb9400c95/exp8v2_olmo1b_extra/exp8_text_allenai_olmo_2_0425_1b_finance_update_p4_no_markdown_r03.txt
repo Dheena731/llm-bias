@@ -1,0 +1,11 @@
+You can use the following HTML tags in your comment:
+
+[ins] Short quote[ins]
+
+[del] Short quote[del]
+
+[quote] Blockquote with HTML code[quote] Blockquote with HTML code
+
+[quote=William Shakespeare] Blockquote with HTML code[quote=William Shakespeare]
+
+[quote=It's a bird! It's a plane! It's Superman!] Blockquote with HTML code[quote=It's a bird! It's a plane! It's Superman!]

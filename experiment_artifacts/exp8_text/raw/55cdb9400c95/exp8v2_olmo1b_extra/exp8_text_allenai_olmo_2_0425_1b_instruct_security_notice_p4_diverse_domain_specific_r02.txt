@@ -1,0 +1,29 @@
+Hey Team,
+
+We're rolling out a major enhancement across our platforms: enabling Multi-Factor Authentication (MFA) for every user account. This exciting change isn't just about security—it's the foundation of a more robust and user-centric experience for your community.
+
+**What is MFA?**
+MFA adds an extra layer of security to your accounts by requiring two separate forms of verification before granting access. As of now, this option is available only for selected premium accounts and business accounts; we're expanding it to all accounts to further safeguard your digital footprint and our community.
+
+**How does it Work?**
+Once enabled, you'll receive a unique code sent to your mobile number or via an authenticator app. You'll need to enter this code in tandem with your username and password to gain access. This means no longer needing to worry about common account hacks; the odds of someone guessing your password or intercepting your details are significantly diminished.
+
+**Why Now?**
+We've analyzed our data and user experiences, and MFA is a critical step toward securing our platform and creating a safer online space for all our users. It's also a testament to our commitment to your privacy and security.
+
+**What's Next?**
+Enabling MFA is the first step. We’ve got you covered on what to expect, including the process for enabling MFA on your account, tips for securely accessing your account, and any known bugs. Stay tuned for our post-enrollment support as we iron out any kinks.
+
+Let’s elevate our security to new heights together. MFA is not just a security feature; it's our pledge to you—our users—that we value your privacy and security above all else.
+
+Remember, your data matters. Protect it with MFA.
+
+Best,
+
+[Your Name]
+[Your Position]
+[Company Name] Team
+
+---
+
+This notice is tailored to a specific domain and company culture, reflecting responsiveness to user needs and a commitment to security without resorting to generic company boilerplate.

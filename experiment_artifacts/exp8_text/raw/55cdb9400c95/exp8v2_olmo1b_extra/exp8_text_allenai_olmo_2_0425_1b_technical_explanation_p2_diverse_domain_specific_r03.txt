@@ -1,0 +1,9 @@
+Instead of
+
+The database indexes item name. This means that search queries will be faster, and the database will be more efficient.
+
+How about
+
+Indexes of the name of the item are made faster because of this database design. This will make queries much faster when searching for items.
+
+The key concepts here are that there are multiple ways to say the same thing, and saying it in a way that emphasizes the only relevant keyword is more specific. Since we use the word "search" as a search query (as in "search the database for items whose names include the word X"), saying that the database has a search engine is redundant and just adds noise.

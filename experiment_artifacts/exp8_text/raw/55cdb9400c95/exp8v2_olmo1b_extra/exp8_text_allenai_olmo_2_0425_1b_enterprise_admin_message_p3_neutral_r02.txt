@@ -1,0 +1,13 @@
+ 1. Check a log for the VA password and confirm it.
+
+  2. Identify configurations on the server that use the VPN and see if the password matches the one from the log.
+
+  3. Active Directory has a feature called Rights Management Protection, which restricts access to resources based on the member's rights. If you author a fake account in Active Directory, you can bind it to the VPN client. An administrator can then grant this account access to resources, which will be enforced when a member connects to the VPN.
+
+  4. Bind an account to the VPN client. (Use the Active Directory Users and Computers console or the Active Directory Users and Computers MMC snap-in.)
+
+  5. Identify a member who is authenticated to the VPN client that is able to access resources.
+
+  6. Deny access to the VPN client to the fake account.
+
+  7. When the member attempts to connect to the VPN, the account is rejected.

@@ -1,0 +1,5 @@
+The boss is trying to keep us working 8 hours a day when we should only be here for 7. We're going to need to quickly update the VPN client to change this time to the actual hours worked.
+
+https://jsfiddle.net/8kjxrkdd/3/
+
+P.S. If you're curious, I'm using .NET Core 3.1 and Windows 10 Enterprise SP.

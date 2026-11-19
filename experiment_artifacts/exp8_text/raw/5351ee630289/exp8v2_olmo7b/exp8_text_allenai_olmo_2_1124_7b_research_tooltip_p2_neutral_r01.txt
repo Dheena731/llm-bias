@@ -1,0 +1,7 @@
+It is a range of values which likely contains the actual value of the population parameter. [It’s a range of values that is likely to contain the parameter value of the population, pop is a big group of subjects, parameter is a characteristic of the pop, so it’s like a general characteristic of the whole group.]
+
+Values in a confidence interval are chosen such that they can contain the parameter of the population with a certain probability, usually 95%. It is a range of values which is likely to contain the actual value of the population parameter. The narrower the confidence interval is, the less likely it is to contain the parameter value. The confidence interval’s width is directly related to the size of the sample, so it is bigger for smaller samples. The result is that confidence intervals of parameters are narrower for larger samples.
+
+The length of a confidence interval is directly related to the sample size.
+
+The length of a confidence interval is directly related to the sample size. The bigger the sample size, the smaller the confidence interval, because it has a smaller margin of error. The standard error is the standard deviation of the original distribution divided by the square root of the sample size, so the larger the sample size, the smaller the standard error.

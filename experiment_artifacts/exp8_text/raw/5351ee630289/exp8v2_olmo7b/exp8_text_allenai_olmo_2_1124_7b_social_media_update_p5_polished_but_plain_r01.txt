@@ -1,0 +1,53 @@
+More info
+
+If you read our blog regularly, you know how we feel about SaaS: it's the right tool for the job day in and day out.
+
+However, we also know that the occasional large data import session or one-off data cleanup needs happen. To help you out on that, we've just released Importer.
+
+Put simply, Importer lets you upload and automatically run multiple SQL queries against your database. If you've ever done a bulk data import in the past, then you know how useful this feature can be.
+
+And, if you've been following us on social media, then you're probably already aware of the fact that we've already been using Importer for our own internal tasks.
+
+We've been so excited about this feature, that we decided to release it to the public this weekend!
+
+This is a major preview release: all of the functionality is here, but it's still missing some bells and whistles that we're working on. However, if you're interested in trying it out, we hope you'll jump in and let us know what you think.
+
+We're working on providing support for both SQL Server 2016 and Azure SQL Database. We'll be releasing support for Azure SQL Database first, and then support for SQL Server 2016 will follow shortly after.
+
+Here's the link to Importer in Product Settings: https://product.iph1.com/integrations/importer
+
+Our distributor will be adding full documentation for Importer to the product page soon.
+
+We hope you find this new feature useful!
+
+More info
+
+We're proud to announce the release of Importer, a new feature in the product page of any database you've saved under the integrations section.
+
+Essentially, Importer lets you upload a bunch of SQL statements and then run them against your database. It's perfect for handling the occasional bulk data import task.
+
+We've been using Importer internally for quite awhile now, and we're excited to finally be releasing it to the public!
+
+We're working on providing support for both SQL Server 2016 and Azure SQL Database. We'll be releasing support for Azure SQL Database first, and then support for SQL Server 1999 will follow shortly after.
+
+Here's the link to Importer in Product Settings: https://product.iph1.com/integrations/importer
+
+Our distributor will be adding full documentation for Importer to the product page soon.
+
+We hope you enjoy trying it out!
+
+More info
+
+You've probably heard about CAPTCHA by now. At its core, it's a kind an interactive challenge that a user has to solve to prove they're not a robot. For example, below is a CAPTCHA that you've probably seen before:
+
+It's important to understand what CAPTCHA is and isn't. It's a good tool for determining whether a human being is interacting with a website, but it's not a good tool for determining account ownership. There are all sorts of methods that malicious actors can use to bypass CAPTCHA, and even a large CAPTCHA provider like Google is unable to effectively block all of them.
+
+This is why we've never recommended using CAPTCHA for account verification purposes. If you need to confirm that a human being is interacting with your site, then we recommend using an email confirmation prompt instead.
+
+More info
+
+We recently worked with our partner SecureData to help their customers implement an encryption strategy called "data at rest encryption" (DARE). It's a powerful strategy that's often used by credit card companies to protect the data stored in a database by encrypting it. You've probably used it many times before without even realizing it.
+
+Here's how it works: the data is encrypted and decrypted before it ever goes into a database. This means that even if the database gets compromised, the data remains secure.
+
+Here's

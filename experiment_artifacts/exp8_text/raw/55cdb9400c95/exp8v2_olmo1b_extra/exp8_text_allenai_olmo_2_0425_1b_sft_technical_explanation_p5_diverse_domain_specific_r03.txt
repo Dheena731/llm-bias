@@ -1,0 +1,5 @@
+An API rate limit is a practical mechanism established by servers (websites, applications, or systems) to control the rate at which a client (like a user's browser, an application, or a service request) can send HTTP requests to an API. 
+
+This restriction is commonly used to prevent a client from overwhelming the server with requests, which could impair the server's ability to process, respond to, or even deliver the desired features to the user. 
+
+Essentially, an API rate limit acts as a response to the principle of demand-side control, where servers manage access based on the demand or load. It helps distribute requests and resources more evenly, ensuring a better user experience and keeping the server (or the target system) operational.

@@ -1,0 +1,7 @@
+We use cookies to enhance your browsing experience. Cookies are small pieces of data stored on your computer by a website's server. They are used to identify your browser and track user behavior for purposes such as remembering your preferred language or directing you to frequently visited pages. 
+
+By continuing to use our website you agree to the use of cookies. If you do not wish to receive cookies we advise you to disable your browser's cookie functionality. Our website will not function properly without cookies.
+
+Cookie names begin with "__requests_" and are used to track visitor behavior. Some examples include "__visits__" and "__activeCatalog__".
+
+To see what cookies we use and their purposes you can visit our privacy policy found at [privacy policy](https://www.yourwebsite.com/privacy-policy).

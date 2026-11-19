@@ -1,0 +1,41 @@
+PLEASE READ CAREFULLY
+
+Welcome to the [Your Company Name] Shared Network
+
+This notice outlines the acceptable use policies for our shared network, intended for use by employees, affiliates, and approved guests. This is a living document, subject to change with legal notice. The use of this network is a privilege, not a right, conditioned upon your adherence to these terms.
+
+**Acceptable Use**
+
+1. **Business-Related Activities**: Use the network for business-related mail, communications, and data processing that is consistent with your role at [Your Company Name]. Non-business use is prohibited.
+
+2. **No Illegal Activities**: Engaging in, promoting, or supporting illegal activities, including but not limited to, copyright infringement, hacking, drug trafficking, and child pornography, is strictly prohibited.
+
+3. **No Spam**: Sending unsolicited emails, messages, or promotional materials to parties not known to you personally or professionally is forbidden.
+
+4. **Respect Intellectual Property**: Do not download, distribute, or use pirated software or media. Respect all intellectual property rights by not infringing on the work of others without permission.
+
+5. **Security**: Maintain the integrity of the network by avoiding actions that might compromise security, such as opening port 80 on your device, using unauthorized network attachment devices, or running personal servers.
+
+6. **No Harassment**: Do not use the network to send messages that harass, libel, slander, or threaten others. 
+
+7. **Network Management**: Refrain from any activity that adversely affects the performance of the network, including excessive use, bandwidth hogging, or running network-intensive tasks.
+
+**Misuse and Sanctions**
+
+Failure to comply with these rules may result in warnings, suspension of network privileges, and in extreme cases, immediate dismissal. Unauthorized monitoring or interference with the network is allowed and may be conducted at any time.
+
+**Changes to Policy**
+
+[Your Company Name] reserves the right to change or modify these rules at any time, providing notice via this document or through other directives from management.
+
+**Contact**
+
+Should you have any questions or require clarification about this policy, please contact the IT department at [phone number] or by email to [your_email@example.com].
+
+By using this network, you acknowledge having read and agreed to these terms.
+
+[Date] 
+
+[Your Name]
+[Your Title]
+[Your Company Name]

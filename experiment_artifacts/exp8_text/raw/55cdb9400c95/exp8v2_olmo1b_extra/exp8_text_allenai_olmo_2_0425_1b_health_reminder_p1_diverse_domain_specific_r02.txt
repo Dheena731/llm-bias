@@ -1,0 +1,20 @@
+ • "You've achieved your daily workout goal for the week!"
+
+
+The Write Your First Echo Card example shows how to write a simple Echo card.
+
+This example is recorded, the spoken version is in the Read Aloud section.
+
+  1. Get set: You'll need an Echo to record your spoken instructions. For this example, we'll use Audello, a stand-alone Echo that you can find for $30 at Best Buy.
+
+  2. On the Amazon Echo screen, move the cursor to the text field where you want to start a new command. Here, we're starting a new Echo card.
+
+  3. Type in the words you want your Echo to speak. For this example, we'll start the card with "Sit" and continue with the spoken command, "Sit, stand, and close your eyes."
+
+  4. Press the button on the Echo to say the word. Your Echo will respond with the spoken word.
+
+The Write Your First Echo Card example is saved as an Echo card named Hello from Amazon that you can access for recording instructions.
+
+See also
+
+This page was last updated September 20, 2021.

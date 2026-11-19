@@ -1,0 +1,16 @@
+(2.5) The page uses cookies.
+
+(3) Cookies are small files that a web server can save on a user’s computer. They can be used to identify the user, analyze user behavior, and customize the website for the user.
+
+(4) This page may save cookie files for several purposes, including serving ads, tracking browsing behavior, and personalizing the website.
+
+Cookie files are saved to a user’s computer by visiting a web page that uses cookies. They contain information such by which a web server can identify the user, analyze the user’s behavior, and personalize the user’s experience based on past interactions with the website. Cookie files can also be used to serve targeted advertisements based on a user’s behavior.
+
+The page does not use cookies for authentication purposes. Authentication cookies are used to verify a user’s identity when a website requires login, such as a bank website. These types of cookies cannot be used for advertising and analytics, but they can be used to track a user’s movements across a website.
+
+(6) The cookie files are stored on the user’s computer for up to 90 days. However, they are deleted immediately after the user’s session on the website ends.
+
+Enormous quantities of personal data have been obtained without our permission by many sites which are either owned by the same companies or are particulary trusted by their owners.
+— Edward Snowden
+
+Last updated on 2022-05-21 23:00:02 UTC

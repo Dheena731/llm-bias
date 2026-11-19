@@ -1,0 +1,17 @@
+**New Savings Goal Feature Update**
+
+* Goal Description:**
+   - A new savings goal called "Monthly Emergency Fund" has been introduced aimed at encouraging users to save for unexpected expenses.
+
+* Benefits:**
+   - Increases user awareness of financial preparedness.
+   - Motivates regular saving by setting a specific, achievable target.
+
+* New Features:**
+   - Automated reminder emails to remind users to check their progress.
+   - Dynamic tooltip on the mobile app showing the current amount towards the goal.
+   - Customizable goal colors to personalize the savings plan.
+
+* Implementation:**
+   - The new feature is rolled out in the latest version of the mobile app.
+   - Users are encouraged to visit the app store to install and activate the new feature.

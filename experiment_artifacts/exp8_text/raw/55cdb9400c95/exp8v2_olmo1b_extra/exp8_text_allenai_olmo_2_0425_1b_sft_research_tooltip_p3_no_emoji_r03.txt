@@ -1,0 +1,1 @@
+This tool-tip explains a date-range selector: "Select a date range to view events, durations, or anniversaries within this time span."

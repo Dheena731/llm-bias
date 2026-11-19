@@ -1,0 +1,3 @@
+Filter Tooltip:
+
+"Using this filter allows you to narrow down your dataset by selecting specific criteria. Choose from various options such as time period, location, data type, or any custom variable you have designated. This feature helps you focus on the most relevant information for your research, ensuring you spend your time analyzing pertinent data and making more accurate conclusions. Remember, using filters enhances the efficiency and accuracy of your analysis."

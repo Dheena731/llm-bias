@@ -1,0 +1,241 @@
+This is an example of a single-line comment.
+
+It’s possible to write lines that are longer than the screen.
+
+You can use the line continuation character (\) to continue writing.
+
+This is an example of a multiline comment.
+
+In order writing a multiline comment,
+
+  • Write the first line like a single-line comment.
+  • Write multiple lines for the comment text.
+  • Write the comment text in the same way as above.
+
+Commenting in the middle of a line
+
+You can write comments in the middle of a line.
+
+This is an example.
+
+This is an example.
+
+You can write comments in the middle of a line.
+
+This is an example.
+
+The period (.) at the beginning of the line
+
+If you write a period (.) at the beginning of the line,
+
+  • the text that follows is ignored (treated as a comment).
+  • the period (.) is not treated as a period (.) but as a part of the comment.
+
+This is an example.
+
+dask.el also respects this special syntax:
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This means that the comment is automatically indented to the current tab level.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+The left arrow key
+
+You can quickly access the comment shortcuts that can be invoked by pressing keys.
+
+If you press Shift while pressing the desired key, you can insert the comment shortcut as is.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+Comment shortcuts on parentheses
+
+A parenthesis and the comment shortcuts that follow are converted to a comment when the cursor is inside a parenthesis.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example.
+
+This is an example

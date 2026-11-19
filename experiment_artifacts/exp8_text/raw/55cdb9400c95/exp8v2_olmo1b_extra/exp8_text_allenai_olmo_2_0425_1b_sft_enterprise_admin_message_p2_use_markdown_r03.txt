@@ -1,0 +1,17 @@
+**New Expense Approval Workflow**
+
+Welcome to the new expense approval workflow designed to streamline our financial processes. As of [date], we are implementing a streamlined approval process for all expenses. Please ensure you update your expense reports as required, and submit new requests via [the approved expense tracking system]. All approved expenses will be processed within [Timeframe]% and will reflect within your accounts within [Timeframe]% of approval. 
+
+- **Notification:** New expense requests will be sent automatically to all designated approvers within [Notification Duration].
+- **Approval Status:** Requests will be reviewed by senior management within [Review Window].
+- **Approval Process:**
+  - Each expense report will be reviewed by one or more approvers.
+  - A decision will be made on whether to approve or deny the request.
+  - If approved, the expense will be processed and the associated expense report updated.
+  - If denied, the request will be forwarded to the decision-making team for further review.
+- **Notification Parameters:**
+  - **Approval Status:** Approving | Denying | Pending | Not Granted
+  - **Decision Status:** Pending | Denied | Approving
+  - **Actions Required:** Update expense report, submit new request
+
+Our goal is to make this process as efficient as possible, thereby minimizing delays and ensuring compliance with our financial policies.

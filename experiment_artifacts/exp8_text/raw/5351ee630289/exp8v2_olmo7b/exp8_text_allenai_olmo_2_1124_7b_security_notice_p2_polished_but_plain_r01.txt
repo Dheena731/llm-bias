@@ -1,0 +1,53 @@
+The notices are triggered by a GitHub Action, which is why you'll need to include the word "trigger" somewhere in the text.
+
+The action is triggered by an issue being created in a specific repository, so you'll also need to include the name of that repo (including the organization) somewhere in the text. Feel free to use spaces, dashes, and other characters to make it readable.
+
+The prompt gives you some text and required fields. Use that text to help you decide what to write.
+
+The text contains information about the user who triggered the action and that user's GitHub account. This information is available as variables named $NAME in the text, $USER_EMAIL and $USER_USERNAME in the prompt, and $EMAIL in the text.
+
+The prompt contains information about the issue that was triggered, including the issue number and title and the relevant GitHub repository, the name of the user who created the issue, and the SHA of the commit that was made to the repository when the issue was created.
+
+The prompt contains information about the workflow that triggered the action, including the name of the workflow, the branch name, the repository, and which commit triggered the workflow. This information is available as variables named $BRANCH, $OWNER, and $COMMIT_ID in the prompt and as $WBEAT_branch, $WBEAT_owner, and $WBEAST_commit in the text.
+
+The prompt contains information about the location from which the action was triggered, including the location's name and ID.
+
+The prompt contains the text of the issue that was created. This information is available as variables name $BODY in the prompt and $ISSUE_BODY in the text.
+
+The prompt contains information about the user who triggered the action, including the user's name, email, and avatar.
+
+The prompt contains the commit message that was made at the time the action was triggered. This information is available as variables named $COMMIT_MSG in the prompt and $WBEAT_commit in the text.
+
+The prompt contains information about the action that was triggered, including the action's name, URL, and name of the user who triggered the action.
+
+The text contains information about the user who triggered the action, including the user's name, email, and avatar.
+
+The prompt contains information about the issue that was created, including the issue's number and title and the relevant GitHub repository.
+
+The prompt contains information about the workflow that triggered the action, including the name of the workflow, the branch name, the repository, and which commit triggered the workflow.
+
+The prompt contains information about the location from which the action was triggered, including the location's name and ID.
+
+The prompt contains the issue title.
+
+The prompt contains information about the action that was triggered, including the action's name, URL, and name of the user who triggered the action.
+
+The text contains the user's name, email, avatar, organization, username, geoloc, and avatar.
+
+The prompt contains the issue title.
+
+The prompt contains information about the issue that was created, including the issue's number and title and the relevant GitHub repository.
+
+The prompt contains information about the workflow that triggered the action, including the name of the workflow, the branch name, the repository, and which commit triggered the workflow.
+
+The prompt contains information about the location from which the action was triggered, including the location's name and ID.
+
+The prompt contains the issue title.
+
+The prompt contains information about the issue that was created, including the issue's number and title and the relevant GitHub repository.
+
+The prompt contains information about the workflow that triggered the action, including the name of the workflow, the branch name, the repository, and which commit triggered the workflow.
+
+The prompt contains information about the location from which the action was triggered, including the location's name and ID.
+
+The prompt contains information about the issue

@@ -1,0 +1,25 @@
+Italicize links. When linking to a page, use the following code instead of creating a link:
+https://.../ (Include your link and the page here).
+And when linking to a category, use the following code instead:
+## Category name (link to the page of category)
+
+Include your link and the page here.
+
+In most cases, including your link and the page here is enough. However, if you are linking to an empty page (such as a new category) that has only an [about us](https://.../ about us) page, simply include the page and the link. If the page has a search bar, you may need to add your link within in the search bar.
+
+Write the name and page number of the book you're reviewing. Write the page number of the book on which the quote is found, preceded by a semicolon, e.g. "page 19, Chapter 1, Section 1." If you're reviewing a quote from a book, don't include the name of the book. Instead, include the year and page number of the quote.
+
+For example, if I'm reviewing the book "The Great Gatsby" and I find the quote "The wind went by us, covering us, making me aware that we were like a feather bobbing in a breeze, and no one could ever hurt us" (page 43), I would write "page 43, Chapter 1, Section 3."
+
+Readability (mixed language)
+
+Avoid mixed language, i.e. mixing Latin and English words in the same sentence. Latin expressions are preferred. For example, you can say "Rebus sic stantibus" instead of "It is so standing." Use of the latter is usually reserved for the language of the law. If you must use the latter, however, be sure to include it in quotation marks, like this: "It is so standing." See Latin expressions.
+
+Write legibly. The person reading your work needs to be able to discern what you are saying.
+
+Write clearly and concisely. Think about how you would say something to a friend. Write for a layperson. If you're describing a complex idea, give a brief overview of the idea and then proceed to explain things in more detail. For example, instead of writing, "The first dog was a German Shepherd. The second dog was an American Bulldog. The third dog was a Border Collie," write, "The first dog was a German Shepherd. The second dog was an American Bulldog. The third dog was a Border Collie." And instead of writing, "The first dog was a German Shepherd. The second dog was an Alsatian. The third dog was a German Shepherd," write, "The first dog was a German Shepherd. The second dog was an Alsatian. The third dog was a German Shepherd."
+
+Be sure to follow spelling and punctuation rules. For example, use a comma after a coordinating conjunction (and, but, or, nor, for, yet, so) or after a semicolon. Use a period, question mark, or exclamation point at the end of a sentence, but remember that a semicolon is often acceptable in place of a period or question mark at the end of a sentence. For example, instead of writing, "The boy, Benny, ran swiftly toward the store," write, "The boy, Benny, ran swiftly toward the store." When writing a document, be sure to check the rules of capitalization. If you're writing a contract, check the rules of capitalization in a contract. A contract, you'll note, does not capitalize words like "and" or "or." See Capitalization.
+
+
+Do not capitalize the second word of the first sentences ("Do not capitalize") or

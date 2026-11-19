@@ -1,0 +1,13 @@
+# Password Reuse: A Security Risk
+
+Password reuse is a major security risk that can compromise your company’s data and personal identities. Here's what you need to know:
+
+- **What is Password Reuse?** Password reuse involves using the same password for multiple accounts, which increases the risk of unauthorized access to your accounts.
+- **Why is it a Problem?** Password reuse has the potential to lead to unauthorized access, data breaches, and identity theft.
+- **How to Mitigate the Risk**:
+  - **Use Strong Passwords:** Create complex passwords for each account that are difficult to guess.
+  - **Enable Two-Factor Authentication (2FA)**: This doubles the security by requiring a second verification step.
+  - **Limit Account Access**: Only allow access to essential accounts and disable secondary accounts.
+  - **Regularly Update Passwords**: Change passwords regularly, especially after system updates or system vulnerabilities.
+  - **Implement a Password Policy**: Set guidelines for password length, complexity, and uniqueness.
+  - **Encourage Employees to Educate Themselves**: Promote awareness about password security and encourage employees to practice good security habits.

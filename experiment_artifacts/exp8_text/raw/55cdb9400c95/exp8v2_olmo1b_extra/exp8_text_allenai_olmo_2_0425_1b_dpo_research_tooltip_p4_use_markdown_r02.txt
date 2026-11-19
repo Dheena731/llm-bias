@@ -1,0 +1,17 @@
+```markdown
+**Missing-Value Marker**
+
+***Description:**
+A missing-value marker is a symbol used in data analysis and visualization to indicate places where data is not available or unknown.*
+
+***Purpose:**
+- Highlight gaps in datasets for detection and addressing missingness.
+
+***Uses:**
+- Pre-processing data before analysis.
+- Identifying patterns in missing data.
+- Facilitating informed data imputation.
+
+***Example:**
+In a dataset, a missing-value marker might appear as `NaN` (Not a Number) or as a specific placeholder like `***`.
+````

@@ -222,18 +222,28 @@ def robustness(hosted: list[dict], controls: list[dict], write_table) -> dict:
 
 def stage_tables(local: list[dict], label: str, write_table) -> dict:
     stages = [s for s in STAGES if select(local, route_stage_label=s)]
-    out = {"neutral": {}, "vs_neutral": {}, "adjacent": {}, "length_bins": {}}
+    out = {"neutral": {}, "vs_neutral": {}, "condition_rates": {}, "adjacent": {}, "adjacent_emoji": {}, "length_bins": {}}
     for s in stages:
         neutral = select(local, route_stage_label=s, condition="neutral")
         out["neutral"][s] = {k: rate(neutral, k) for k in ("has_markup", "has_list", "has_emoji", "word_count")}
         out["neutral"][s]["median_words"] = median(r["m"]["word_count"] for r in neutral)
+        stage_rows = select(local, route_stage_label=s)
+        out["neutral"][s]["outputs_over_450_words"] = [sum(r["m"]["word_count"] > 450 for r in stage_rows), len(stage_rows)]
         for condition in ("plain_no_markdown", "no_markdown", "use_markdown"):
             rows = select(local, route_stage_label=s, condition=condition)
             if rows:
                 out["vs_neutral"][f"{s}|{condition}"] = contrast(rows, neutral, "has_markup")
-    for earlier, later in zip(stages, stages[1:]):
-        out["adjacent"][f"{earlier}->{later}"] = contrast(select(local, route_stage_label=later, condition="neutral"),
-                                                          select(local, route_stage_label=earlier, condition="neutral"), "has_markup")
+                out["condition_rates"][f"{s}|{condition}"] = rate(rows, "has_markup")
+    # Holm within the table (base excluded, as in the table) and across the three adjacent steps.
+    shown = [k for k in out["vs_neutral"] if not k.startswith("base|")]
+    for k, adjusted in zip(shown, holm([out["vs_neutral"][k]["p"] for k in shown])):
+        out["vs_neutral"][k]["p_holm"] = adjusted
+    for key, metric in (("adjacent", "has_markup"), ("adjacent_emoji", "has_emoji")):
+        for earlier, later in zip(stages, stages[1:]):
+            out[key][f"{earlier}->{later}"] = contrast(select(local, route_stage_label=later, condition="neutral"),
+                                                       select(local, route_stage_label=earlier, condition="neutral"), metric)
+        for k, adjusted in zip(list(out[key]), holm([c["p"] for c in out[key].values()])):
+            out[key][k]["p_holm"] = adjusted
     bins = [(0, 100), (100, 150), (150, 250), (250, 10**6)]
     pool = [r for r in local if r["condition"] in NON_MARKDOWN_CONDITIONS]
     for lo, hi in bins:
@@ -247,13 +257,13 @@ def stage_tables(local: list[dict], label: str, write_table) -> dict:
         row = [STAGE_NAMES[s], f"{100 * n['has_markup']:.1f}", f"{100 * n['has_list']:.1f}", f"{100 * n['has_emoji']:.1f}", f"{n['median_words']:.0f}"]
         for condition in conditions:
             c = out["vs_neutral"].get(f"{s}|{condition}")
-            row.append("--" if not c or s == "base" else f"{100 * c['delta']:+.1f} ({fmt_p(c['p'])})")
+            row.append("--" if not c or s == "base" else f"{100 * c['delta']:+.1f} ({fmt_p(c['p_holm'])})")
         body.append(row)
     names = {"plain_no_markdown": ("Plain", "the plain-prose instruction"), "no_markdown": ("No-MD", "the bare no-Markdown instruction"),
              "use_markdown": ("Use MD", "an instruction to use Markdown")}
     write_table(OUT / f"table_v2_stages{label}.tex",
-                f"Study 3{' (7B, 4-bit)' if label else ''}: OLMo 2 checkpoints by training stage. Neutral rates (\\%) and median "
-                "words; then change in markup versus neutral (percentage points, exact family sign-flip $p$) for "
+                f"Study 3 ({'7B, 4-bit' if label else '1B'}): OLMo 2 checkpoints by training stage. Neutral rates (\\%) and median "
+                "words; then change in markup versus neutral (percentage points, exact family sign-flip $p$, Holm-adjusted within the table) for "
                 + ", ".join(names[c][1] for c in conditions) + ". The base checkpoint is excluded from these contrasts because "
                 "it continues the prompt rather than completing a task.",
                 f"tab:v2-stages{label}", ["Stage", "Markup", "Lists", "Emoji", "Words", *[names[c][0] for c in conditions]],
@@ -261,7 +271,7 @@ def stage_tables(local: list[dict], label: str, write_table) -> dict:
     body = [[f"{lo}--{hi if hi < 10**6 else ''}"] + [f"{100 * out['length_bins'][f'{lo}-{hi}'][s]['markup']:.1f} ({out['length_bins'][f'{lo}-{hi}'][s]['n']})"
                                                   for s in stages] for lo, hi in bins]
     write_table(OUT / f"table_v2_length{label}.tex",
-                "Markup rate (\\%, with $n$) by output length in words and training stage, pooled over the conditions that do "
+                f"Study 3 ({'7B, 4-bit' if label else '1B'}): markup rate (\\%, with $n$) by output length in words and training stage, pooled over the conditions that do "
                 "not target Markdown (neutral, no-emoji, placebo, diverse).",
                 f"tab:v2-length{label}", ["Words", *[STAGE_NAMES[s] for s in stages]], body, "l" + "r" * len(stages), size=r"\footnotesize")
     return out

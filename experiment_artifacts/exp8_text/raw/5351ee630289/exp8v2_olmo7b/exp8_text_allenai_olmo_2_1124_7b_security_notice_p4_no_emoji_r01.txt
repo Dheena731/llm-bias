@@ -1,0 +1,81 @@
+Facebook login
+
+Answer all the questions below:
+
+  1. Write a paragraph about how to enable two-factor authentication in Facebook.
+
+  2. Write a paragraph on how to enable Facebook Login for a website.
+
+Facebook Graph API
+
+Answer all the questions below:
+
+  1. Write a short procedure on how to use the Facebook Graph API to get all the photos posted by a user.
+
+  2. Write a short procedure on how to use the Facebook Graph API to get all the posts made by a user.
+
+  3. Write a short paragraph about how you would get all the posts made by a group.
+
+  4. Write a short paragraph about how you would get all the posts made by a page.
+
+  5. Write a short paragraph about how you would implement a post by a user to a group.
+
+  6. Write a short paragraph about how you would post a post by a user to a page.
+
+  7. Write a short paragraph about how you would implement a post by a user to an event.
+
+  8. Write a short paragraph about how you would post a post by a user to an event.
+
+  9. Write a short paragraph about how you would post a post by a user to a place.
+
+  10. Write a short paragraph about how you would post a post by a user to a place.
+
+  11. Write a short paragraph about how you would post a post by a user to an action.
+
+  12. Write a short paragraph about how you would post a post by a user to an action.
+
+  13. Write a short paragraph about how you would update a user post.
+
+  14. Write a short paragraph about how you would update a user post with comments.
+
+  15. Write a short paragraph about how you would update a user post with comments.
+
+  16. Write a short paragraph about how you would update a place post.
+
+  17. Write a short paragraph about how you would update a place post with comments.
+
+  18. Write a short paragraph about how you would update an event post.
+
+  19. Write a short paragraph about how you would update an event post with comments.
+
+  20. Write a short paragraph about how you would post a post to a group.
+
+  21. Write a short paragraph about how you would post a comment to a group page.
+
+  22. Write a short paragraph about how you would post a comment to a group place.
+
+  23. Write a short paragraph about how you could use a Facebook wall to display posts.
+
+  24. Write a short paragraph about how you could use a Facebook wall to display comments.
+
+  25. Write a short paragraph about how you could use a Facebook wall to display posts.
+
+  26. Write a short paragraph about how you could use a Facebook wall to display comments.
+
+  27. Write a short paragraph about how you could use both a Facebook wall and activity feed to display comments.
+
+  28. Write a short paragraph about how you could use both a Facebook wall and activity feed to display posts.
+
+  29. Write a short paragraph about how you could use both a Facebook wall and activity feed to display posts and comments.
+
+  30. Write a short paragraph about how to use Facebook Graph API with JavaScript.
+
+  31. Write a short paragraph about how to use Facebook Graph API with Python.
+
+  32. Write a short paragraph about how to use Facebook Graph API with PHP.
+
+  33. Write a short paragraph about how to use Facebook Object Call with JavaScript.
+
+  34. Write a short paragraph about how to use Facebook Object Call with Python.
+
+  35. Write a short paragraph about how to use Facebook Object Call

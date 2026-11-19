@@ -1,0 +1,29 @@
+Subject: Important: Phishing Email Alert - Attention [Department Name] Team
+
+Dear [Department Name] Team,
+
+We wish to bring your attention to an urgent matter regarding the safety of our domain's email accounts. In recent days, your vigilance has been put to the test with targeted phishing attempts directed specifically at our organization.
+
+These emails, designed to mimic official correspondence, aim to trick recipients into revealing sensitive information such as login credentials. Please be extremely cautious, as compromising this information could lead to unauthorized access to our domain's systems and data.
+
+Here are some key points to remember:
+
+- **Check the Sender**: Phishing attempts often come from addresses that slightly resemble our domain but are not official. Always verify the sender’s email address.
+
+- **Verify the Link**: Do not click on links in suspicious emails. Instead, navigate to your departmental website or login page directly to confirm the email's authenticity.
+
+- **Beware of Urgency**: Phishing emails often create a sense of urgency, insisting on immediate action. Take a moment to verify the email's legitimacy before responding.
+
+- **Contact IT Support**: If you're unsure about an email, consult with our IT support team before taking any action.
+
+For further guidance on identifying phishing attempts and protecting our domain, please refer to the online training module available on our intranet under "Cybersecurity" → "Phishing Awareness".
+
+Your keen awareness and adherence to our cybersecurity protocols are paramount. Let’s keep our domain safe by staying one step ahead of these fraudulent schemes.
+
+Thank you for your cooperation and continuous vigilance.
+
+Best regards,
+
+[Your Name]
+[Your Title]
+[Contact Information]

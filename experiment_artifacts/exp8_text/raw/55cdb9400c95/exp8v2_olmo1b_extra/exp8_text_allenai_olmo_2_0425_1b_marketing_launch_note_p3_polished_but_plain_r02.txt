@@ -1,0 +1,22 @@
+## Ensure your templates are Valid
+
+We strongly recommend validating your templates before using them. Here are a few suggestions for finding templates that don't validate:
+
+* Use the "Invalid" search to highlight errors.
+* "Show any errors" helps find all errors regardless of whether they are in the validation language for your browser or not.
+* Use "show details" to see the error message if you don't like the changes made to your template.
+
+Here are a few things you can do, once you find one, to make it valid:
+
+* Find the error (such as wordy text or an invalid formula) and quickly fix it, then run again.
+* Find the error (such as a formula with a formula error or an incorrect syntax) and edit it. Run again.
+* Let us know if you have suggestions for improving the error message for any formula errors.
+* Rewrite the formula if it is complex or difficult to understand. We may need to rewrite the whole template if we can't do a good job on it.
+
+The goal is to make your template as useful as possible, not just to make it look good or match our template. If something is mostly correct but not perfect, it's okay to submit it anyway. Here are some other tips for making it more perfect:
+
+* The template should be simple and readable. For example, the formula "A / B" should be a formula, not "A / B". Do not use HTML or other code in your template.
+* Do not use links or dynamic content, for example, a product in a store.
+* Do not include a "Comments" section in your template. It is not needed.
+* Do not use a "If you have questions, Contact Us" section. If your question is about how to use the template, consider creating an issue on Issues and adding it to the template. If you want to write a tutorial on how to use the template, please create an issue on Issues and add it to the template.
+* Do not include a "Contact us" section. If you want to write a tutorial on how to use the template, please create an issue on Issues and add it to the template. If you have questions about the template or the template language, please add them to Issues.

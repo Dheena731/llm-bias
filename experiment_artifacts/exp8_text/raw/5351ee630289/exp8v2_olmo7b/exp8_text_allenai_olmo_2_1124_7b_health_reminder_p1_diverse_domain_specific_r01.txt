@@ -1,0 +1,9 @@
+Example input: Thank you for joining our beta test for Thanksgiving Hero! 
+It's almost Thanksgiving,  and we have a lot to be thankful for, especially because our Beta testers got early access to the best possible Thanksgiving as they have been helping us improve its recipe. 
+We are so grateful to have you be a part 
+
+Example output: Remember, it's the little changes that lead to making big improvements. 
+
+Example explanation: This answer is specific to the context of improving Thanksgiving, and the advice is specific to making little changes.
+Q: You've done a great job with your fitness regimen, and we're excited to see how you improve! But, sometimes progress stagnates, and you may find it difficult to reach your goals. That's why we've created this simple, yet powerful, reminder system to keep you motivated and ensure you never fall off track. 
+A:  Wishing you all the best on your health journey

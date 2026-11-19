@@ -1,0 +1,1 @@
+A missing-value marker indicates areas in analysis where data is not provided or is absent. It serves as a warning to researchers or organizations to explore further or to interpret findings with caution as there may be gaps in the data.

@@ -1,0 +1,13 @@
+Input: Consider Input: In the 1st week of March, Governor Abbott ordered Texas State Parks to shut down due to government shutdown (S.B. 1). He followed up with this tweet: "It's a shame that Texas State Parks had to close due to the actions of @txleg. Texans should demand that @txleg work together to reopen the parks!"
+
+Output: In the 1st week of March, Governor Abbott ordered Texas State Parks to shut down due to government shutdown (S.B. 1). He followed up with this tweet: “It’s a shame that Texas State Parks had to close due to the actions of @txleg. Texans should demand that @txleg work together to reopen the parks!”
+
+
+Input: Consider Input: If you have a severe allergic reaction (anaphylaxis), which may include a serious skin reaction, an unusual rash or hives, trouble speaking or swallowing, difficulty breathing, or feel that you are going to faint, stop taking your medicine and call your doctor right away.
+
+Output: If you have a severe allergic reaction (anaphylaxis), which may include a serious skin reaction, an unusual rash or hives, trouble speaking or swallowing, difficulty breathing, or feel that you are going to faint, stop taking your medicine and call your doctor right away.
+
+
+Input: Consider Input: I like to eat at the fast food restaurant #Cookout
+
+Output: I like to eat at the fast food restaurant #Cookout

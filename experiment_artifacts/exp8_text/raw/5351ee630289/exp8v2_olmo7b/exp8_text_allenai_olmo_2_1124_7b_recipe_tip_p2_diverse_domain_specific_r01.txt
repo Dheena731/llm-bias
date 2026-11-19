@@ -1,0 +1,10 @@
+[Q]: You can enter the first 2 digits of the year, the month, and the day of the month.
+[A]: Enter the first 2 digits of the year, the month, and the day of the month.
+
+
+[Q]: First, determine how long you want to go from the entrance to the exit. Then, estimate how far you will walk during this time.
+[A. Find out how long you want to stay in a room, then estimate how much time it will take to walk around the room.
+
+
+[Q]: Set the ETA to 15 minutes before you are scheduled to be there.
+[A]: Set the ETA to 15 minutes before you are scheduled to be there.

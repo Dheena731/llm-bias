@@ -1,0 +1,1 @@
+To export query results, select the data you want to export in a data viewer and click an export icon or right-click and choose "Export" or "Export to" followed by your desired file extension.

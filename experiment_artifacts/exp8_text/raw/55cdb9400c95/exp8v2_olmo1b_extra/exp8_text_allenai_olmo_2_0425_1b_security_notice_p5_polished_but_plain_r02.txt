@@ -1,0 +1,92 @@
+Use the standard language used by your programming language. Use the same type (e.g. string) as the type of the field. If necessary, adjust the field type.
+
+Use a colon and a space to separate logical elements.
+
+Try to avoid using abbreviations and acronyms. It's best to define them in the documentation.
+
+    • This section contains
+      • a list
+      • of the
+      • most common
+
+Use a sectioning system so that the table of contents is less complicated. Use a clear header to group the information. For example:
+
+    • This section contains
+      • a list
+      • of the
+      • most common
+      • jobs for
+      • this field.
+    • This section contains
+      • another lists
+      • for the
+      • same field.
+    • This section
+      • contains a list
+      • for the
+      • most common
+      • jobs for
+      • this field.
+
+
+  • Describe the field in detail.
+
+  • Describe the data type.
+
+  • Describe the data range.
+
+  • Describe the data values.
+
+  • Describe the allowed values.
+
+  • Describe the format.
+
+  • Describe the format's expected range of values.
+
+  • Describe the format's expected scale.
+
+  • Describe the format's expected precision.
+
+
+  • Describe the format's internal representation.
+
+  • Describe the format's limits.
+
+  • Describe the format's errors.
+
+It's important to carefully consider the writing. Depending on the size of your data, you might get a different impression of the data than others. For example, if your data is big, you will probably get an impression of lots of data when you're looking at it, but you'll only get one row when you're checking it in a table. Take care to write your documentation in such a way that it makes sense to the audience.
+
+Documenting the data format
+
+It is important to document the format of the data. The format can change over time, so this documentation should be kept up-to-date.
+
+If the format is not clear from the comments already, it is recommended to write a manual. A manual is a handy document that contains high-level information about a file (e.g. what it is) and how to use it (e.g. where to find it, how to open it). A manual is useful for all files, even if they are not related to the use of the field. You can use a simple text editor to create the manual.
+
+When to document
+
+For most fields, documentation is neither necessary nor wanted. But there are a few exceptions:
+
+  • When the format of the data changes, you should document the change.
+  • When a new field is added, you should document the change.
+  • When a field at the lower level is removed, you should document the change.
+  • When a new format is changed, you should document the change.
+  • When a new format is added, you should document the change.
+  • When a new field is added, you should document the change.
+
+How to get started
+
+Create a tool to collect field names and data types:
+
+  1. Create a template for each field. For example, a template that contains the name of the field, its data type, data range, and format.
+
+  2. Write a testing script that converts the data in some form into the format of the template.
+
+  3. Write a script that retrieves the data from the database and test the script.
+
+If the data type is complex, you can also create a custom data type, and document it separately.
+
+How to fill in the documentation
+
+There are several ways to document a field.
+
+  1. Document the field using a custom text field type,

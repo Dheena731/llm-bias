@@ -1,0 +1,3 @@
+Here is a concise tooltip explaining a confidence interval in a chart:
+
+"Confidence Interval: This line graph includes estimates of a population parameter (like average, median, mode) with a specified level of confidence. The width of this band indicates the range where the actual population value lies with a certain degree of confidence, typically 95%. The color and bar alignment help differentiate between different data points or groups, providing a clearer picture of variability and consistency within the data sample."

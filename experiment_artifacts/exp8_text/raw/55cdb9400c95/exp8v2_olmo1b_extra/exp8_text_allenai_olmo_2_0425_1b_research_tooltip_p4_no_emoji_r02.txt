@@ -1,0 +1,70 @@
+#4: Adding extra info to types
+
+There are two ways to tell a template that the input does not have a particular type. One is to use the "type" attribute on the element. For example:
+
+<template>
+  <input type="number" value="3" />
+</template>
+
+However, if the input is not a number, this would cause a TypeError to be thrown. For this reason, it is better to add a type="number" attribute to the input, but you should be careful doing so, since the input is now constrained to be a number:
+
+#5: Removing extra info
+
+In some cases, you may want to remove the "type" attribute on your input element. You can do this by setting the value attribute of the input to "number":
+
+#6: Selecting the right value type
+
+The reason why you need to choose the right value type is because, for some template inputs, JavaScript relies on the type.
+
+So, for example, you could try to create a number input with the value attribute, but when you select text from the input, you'll receive a TypeError, because JavaScript would expect a number:
+
+#7: Mobile form inputs
+
+Even though it's not the most relevant issue, even though I've already discussed it in one of the previous sections, I'll still explain it here since it might really help you.
+
+The thing is, platform-specific input will be created differently depending of the platform the website is running on.
+
+For example, in mobile versions of the browser, a text input will be displayed in a small box (some of them in a very tiny box), so JavaScript will not have access to the input. To solve this, you can try to wrap your input within another input, which will appear bigger than the one that you originally used. For example:
+
+<input type="text" name="foo" placeholder="foobar" />
+<input type="text" name="foo" hide-input="true" />
+
+#8: Adding a placeholder
+
+A placeholder is a nice little piece of information you can give to your users that it should not appear in the final result, but will appear in their browser's viewport while they're filling out the form. The placeholder should hide the placeholder when the user selects the element.
+
+You should use a placeholder for multi-line text, and also explains the text content to the user.
+
+Here are the rules for placeholders:
+
+  • It should not be the same as the input value
+
+  • It should not contain the value that the user will enter
+
+  • It should not contain the data represented by the input
+
+  • You should take care not to block users by placing too many placeholder.
+
+  • The placeholder should be visible even if the input is hidden.
+
+A placeholder should be placed inside an element of the input type, such as a label or a text input.
+
+Here is a quick example of how that looks:
+
+<form>
+  <input type="text" placeholder="Enter your first name" name=" peterName" />
+  <label for="peterName">Your name</label>
+  <input type="text" name=" peterName" placeholder="Enter your last name" />
+</form>
+
+#9: Validation (optional)
+
+Validation is a very important aspect of forms, and it can help a lot to your users. You can use a validation rule based on a property of the input, such as the type. For example, here is an example of using the type property:
+
+#10: Error messages (optional)
+
+You can provide error messages in your forms, indicating an error that your users might have. It's a great way to help improve your site's UX.
+
+You can do this by setting the error attribute on the input.
+
+The error attribute is a JavaScript specific attribute, therefore

@@ -1,0 +1,19 @@
+Assume your reader has a great deal of knowledge of the problem area, but very little knowledge of the proposed solution.
+
+The most important thing is to state your contribution clearly. This is your chance to convince others that your solution is valuable, so do not assume that your solution is already understood.
+
+Do not assume that your reviewer has read all of the material you cite or referenced. Your reviewer is likely to read only the abstracts, the introduction and the conclusions.
+
+Explain the problem as clearly as possible. Demonstrate that the problem is important, and that the existing solutions are inadequate.
+
+If you are going to extend an existing solution, then characterize it carefully, classifying the approaches to the problem that have been used. Explain what's lacking in the existing approaches, and why what you propose is better.
+
+If you are proposing a brand new approach to a problem, then explain why the problem is important, and why a completely novel approach is necessary.
+
+If you are proposing a new system, then characterize the systems of the problem domain. If the system is a new architecture or a framework, then explain how your system compares to existing systems.
+
+If your system is a new implementation of an existing architecture or framework, then explain why the existing implementation is insufficient, and why a new implementation is necessary.
+
+Be conservative. Feel free to describe your system in superlative terms, but check back with the current state of the art, and avoid making generalizations that can't be backed up.
+
+Go through a couple of practice poster reviews with a skeptic in mind. Consider the many ways a reviewer might misunderstand your poster.
