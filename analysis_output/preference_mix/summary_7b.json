@@ -116,5 +116,140 @@
       "rejected_only": 383,
       "p_two_sided": 2.075641314622826e-13
     }
-  }
+  },
+  "same_model_pairs": {
+    "has_markup": {
+      "pairs": 19937,
+      "chosen_rate": 0.4631087926969955,
+      "rejected_rate": 0.47564829212017856,
+      "chosen_only": 1662,
+      "rejected_only": 1912,
+      "p_two_sided": 2.892167386025818e-05
+    },
+    "has_list": {
+      "pairs": 19937,
+      "chosen_rate": 0.2588654260921904,
+      "rejected_rate": 0.33224657671665747,
+      "chosen_only": 577,
+      "rejected_only": 2040,
+      "p_two_sided": 7.024054866183046e-180
+    },
+    "has_markdown": {
+      "pairs": 19937,
+      "chosen_rate": 0.5342328334252897,
+      "rejected_rate": 0.5322265135175803,
+      "chosen_only": 1540,
+      "rejected_only": 1500,
+      "p_two_sided": 0.4681599098544281
+    },
+    "has_emoji": {
+      "pairs": 19937,
+      "chosen_rate": 0.004564377790038622,
+      "rejected_rate": 0.006119275718513317,
+      "chosen_only": 24,
+      "rejected_only": 55,
+      "p_two_sided": 0.0004870623291880347
+    }
+  },
+  "conditional_logit": {
+    "features": {
+      "has_markup": {
+        "odds_ratio": 2.8466913702752525,
+        "ci_low": 2.8104393969584733,
+        "ci_high": 2.883410959286141
+      },
+      "has_emoji": {
+        "odds_ratio": 1.164938832094752,
+        "ci_low": 1.0968940089642962,
+        "ci_high": 1.2372047539977564
+      },
+      "responding_models": 0
+    },
+    "length": {
+      "has_markup": {
+        "odds_ratio": 2.536645333969775,
+        "ci_low": 2.503596254424531,
+        "ci_high": 2.5701306826046766
+      },
+      "has_emoji": {
+        "odds_ratio": 1.1820050904561752,
+        "ci_low": 1.1122350523329398,
+        "ci_high": 1.2561517737943833
+      },
+      "log_length_ratio": {
+        "odds_ratio": 1.2539235660613497,
+        "ci_low": 1.247268636561199,
+        "ci_high": 1.2606140036191507
+      },
+      "responding_models": 0
+    },
+    "length_model": {
+      "has_markup": {
+        "odds_ratio": 1.283720272491098,
+        "ci_low": 1.2625419210579973,
+        "ci_high": 1.3052538775295985
+      },
+      "has_emoji": {
+        "odds_ratio": 0.8130071095801625,
+        "ci_low": 0.7592829588439114,
+        "ci_high": 0.8705325893712974
+      },
+      "log_length_ratio": {
+        "odds_ratio": 1.1464075292502376,
+        "ci_low": 1.1388310199107,
+        "ci_high": 1.1540344442186774
+      },
+      "responding_models": 25
+    }
+  },
+  "top_responding_models": [
+    [
+      "Qwen/Qwen2.5-32B-Instruct",
+      41748
+    ],
+    [
+      "Qwen/Qwen2.5-14B-Instruct",
+      40763
+    ],
+    [
+      "google/gemma-2-27b-it",
+      40330
+    ],
+    [
+      "gpt-4o",
+      39780
+    ],
+    [
+      "Qwen/Qwen2.5-7B-Instruct",
+      38936
+    ],
+    [
+      "google/gemma-2-9b-it",
+      38745
+    ],
+    [
+      "internlm/internlm2_5-20b-chat",
+      37037
+    ],
+    [
+      "Qwen/Qwen2.5-3B-Instruct",
+      34430
+    ],
+    [
+      "internlm/internlm2_5-7b-chat",
+      34052
+    ],
+    [
+      "gpt-4",
+      32252
+    ],
+    [
+      "numind/NuExtract-1.5",
+      30547
+    ],
+    [
+      "microsoft/Phi-3-mini-128k-instruct",
+      29276
+    ]
+  ]
 }
