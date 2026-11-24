@@ -13,7 +13,7 @@ claude-sonnet-5.5,system_no_emoji,120,0.9083,0.5750,0.9167,0.0000,0.2417,0.1000,
 claude-sonnet-5.5,system_no_markdown,120,0.0000,0.2000,0.2000,0.0583,0.1833,0.1417,176.6583
 gemini-3.8-flash,destination_plaintext,120,0.0000,0.2417,0.2417,0.0000,0.3000,0.2333,84.7333
 gemini-3.8-flash,placebo_ablated,120,0.5833,0.3667,0.5667,0.0583,0.2583,0.2083,100.7167
-gemini-3.8-flash,placebo_irrelevant,120,0.9083,0.6250,0.9083,0.2000,0.4500,0.3250,137.5833
+gemini-3.8-flash,placebo_irrelevant,120,0.9083,0.6250,0.9083,0.2000,0.4417,0.3250,137.5833
 gemini-3.8-flash,placebo_placeholder_only,120,0.4833,0.2917,0.4833,0.0583,0.0000,0.2250,108.6167
 gemini-3.8-flash,system_no_emoji,120,0.4333,0.3917,0.5167,0.0000,0.3333,0.1167,99.6500
 gemini-3.8-flash,system_no_markdown,120,0.0000,0.1750,0.1750,0.0083,0.1583,0.3000,94.8583
@@ -38,6 +38,6 @@ llama-3.3-70b-instruct,system_no_markdown,120,0.0000,0.0667,0.0667,0.0000,0.0417
 qwen3.6-flash,destination_plaintext,120,0.0000,0.2167,0.2167,0.0333,0.4083,0.2250,85.5083
 qwen3.6-flash,placebo_ablated,120,0.5417,0.1750,0.5500,0.0750,0.3083,0.1333,101.9000
 qwen3.6-flash,placebo_irrelevant,120,0.8500,0.3417,0.8583,0.3250,0.5667,0.3333,110.5750
-qwen3.6-flash,placebo_placeholder_only,120,0.3167,0.0917,0.3250,0.0917,0.0083,0.2417,95.7000
+qwen3.6-flash,placebo_placeholder_only,120,0.3167,0.0917,0.3250,0.0917,0.0000,0.2417,95.7000
 qwen3.6-flash,system_no_emoji,120,0.1583,0.2250,0.2917,0.0000,0.4167,0.1167,107.0417
 qwen3.6-flash,system_no_markdown,120,0.0000,0.0500,0.0500,0.0333,0.1083,0.2000,97.7917

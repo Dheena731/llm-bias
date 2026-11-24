@@ -40,7 +40,7 @@ NAMES = {"claude-sonnet-5.5": "Claude Sonnet 5.5", "claude-haiku-5.5": "Claude H
          "qwen3.6-flash": "Qwen 3.6 Flash", "gpt-5.6-luna": "GPT-5.6 Luna", "llama-3.1-8b-instruct": "Llama 3.1 8B",
          "llama-3.3-70b-instruct": "Llama 3.3 70B"}
 # Bracketed or braced fill-ins such as [Feature Name] or {product}: marks a template rather than a finished text.
-PLACEHOLDER = re.compile(r"\[[A-Z][^\]\n]{0,40}\]|\{[A-Za-z_ ]{2,30}\}")
+PLACEHOLDER = re.compile(r"\[[A-Z][^\]\n]{0,40}\](?!\()|\{[A-Za-z_ ]{2,30}\}")  # (?!\() skips Markdown link text
 # Conditions that do not target Markdown; used for the length-stratified stage comparison.
 NON_MARKDOWN_CONDITIONS = {"neutral", "no_emoji", "placebo", "diverse_domain_specific"}
 
@@ -144,9 +144,9 @@ def hosted_tables(hosted: list[dict], controls: list[dict], write_table) -> dict
                 "Study 1 (60 prompts in 12 families, 3 repeats per cell). Neutral rates (\\%) for markup syntax (headings, "
                 "emphasis, code, links, tables), list lines, and emoji. Other columns: change versus neutral in percentage "
                 "points, computed within prompt and averaged within family; * marks Holm-adjusted $p<0.05$ (exact sign-flip "
-                "test over the 12 families, 35 tests). NE, NM, Plain: markup change under the no-emoji, bare no-Markdown, and "
+                "test over the 12 families, 35 tests). NE, No-MD, Plain: markup change under the no-emoji, bare no-Markdown, and "
                 "enumerated plain-prose instructions; P: mk and P: em: markup and emoji change under the placebo.",
-                "tab:v2-routes", ["Model", "Markup", "Lists", "Emoji", "NE", "NM", "Plain", "P: mk", "P: em"], body, "lrrrrrrrr",
+                "tab:v2-routes", ["Model", "Markup", "Lists", "Emoji", "NE", "No-MD", "Plain", "P: mk", "P: em"], body, "lrrrrrrrr",
                 size=r"\footnotesize")
     out = {"routes": {f"{short(m)}|{c}|{k}": {**results[(m, c, k)], "p_holm": adjusted[(m, c, k)]} for m, c, k in flat}}
 
@@ -168,17 +168,21 @@ def hosted_tables(hosted: list[dict], controls: list[dict], write_table) -> dict
                 cres[(m, condition, metric)] = contrast(select(controls, model=m, condition=condition),
                                                         select(hosted, model=m, condition=user), metric)
                 cflat.append((m, condition, metric))
-        cadj = dict(zip(cflat, holm([cres[k]["p"] for k in cflat])))
+        # The Orig. columns repeat Table 1's placebo contrasts: they keep Table 1's adjustment and are not re-tested here.
+        new = [k for k in cflat if k[1] != "placebo"]
+        cadj = {**{k: adjusted[k] for k in cflat if k[1] == "placebo"}, **dict(zip(new, holm([cres[k]["p"] for k in new])))}
         body = [[NAMES.get(short(m), short(m))] + [cell(cres[(m, c, k)], cadj[(m, c, k)]) for c, k, _ in cspec]
                 + [cell(cres[(m, "system_no_emoji", "has_emoji")], cadj[(m, "system_no_emoji", "has_emoji")]),
                    cell(cres[(m, "system_no_markdown", "has_markup")], cadj[(m, "system_no_markdown", "has_markup")])]
                 for m in cmodels]
         write_table(OUT / "table_v2_controls.tex",
-                    "Placebo and placement controls (change in percentage points; Holm-adjusted * as in Table~\\ref{tab:v2-routes}). "
-                    "Placebo columns compare with neutral: the original placebo (Orig.), a content-irrelevant instruction (Irr.), "
-                    "the original without its placeholder and invent-facts clauses (Abl.), and the placeholder clause alone (Ph.). "
-                    "Dest.: the prompt names a plain-text destination. Sys: the bare prohibition in the system prompt minus the "
-                    "same prohibition in the user prompt.",
+                    "Placebo and placement controls (change in percentage points). The first four columns are emoji changes and "
+                    "the next five markup changes, each versus neutral: the original placebo (Orig., repeated from "
+                    "Table~\\ref{tab:v2-routes} with its adjustment there), a content-irrelevant instruction (Irr.), the original "
+                    "without its placeholder and invent-facts clauses (Abl.), the placeholder clause alone (Ph.), and a named "
+                    "plain-text destination (Dest.). Sys: the bare prohibition in the system prompt minus the same prohibition in "
+                    f"the user prompt. * marks Holm-adjusted $p<0.05$ (exact family sign-flip test) over the {len(new)} tests new "
+                    "to this table.",
                     "tab:v2-controls", ["Model", "Orig.", "Irr.", "Abl.", "Ph.", "Orig.", "Irr.", "Abl.", "Ph.", "Dest.",
                                         "Sys: emoji", "Sys: markup"], body, "l" + "r" * 11, size=r"\scriptsize")
         out["controls"] = {f"{short(m)}|{c}|{k}": {**cres[(m, c, k)], "p_holm": cadj[(m, c, k)]} for m, c, k in cflat}
@@ -264,7 +268,8 @@ def stage_tables(local: list[dict], label: str, write_table) -> dict:
     write_table(OUT / f"table_v2_stages{label}.tex",
                 f"Study 3 ({'7B, 4-bit' if label else '1B'}): OLMo 2 checkpoints by training stage. Neutral rates (\\%) and median "
                 "words; then change in markup versus neutral (percentage points, exact family sign-flip $p$, Holm-adjusted within the table) for "
-                + ", ".join(names[c][1] for c in conditions) + ". The base checkpoint is excluded from these contrasts because "
+                + (", ".join(names[c][1] for c in conditions[:-1]) + (", and " if len(conditions) > 2 else " and ")
+                   + names[conditions[-1]][1]) + ". The base checkpoint is excluded from these contrasts because "
                 "it continues the prompt rather than completing a task.",
                 f"tab:v2-stages{label}", ["Stage", "Markup", "Lists", "Emoji", "Words", *[names[c][0] for c in conditions]],
                 body, "lrrrr" + "r" * len(conditions), size=r"\footnotesize")

@@ -118,6 +118,7 @@ REQUIRED_FILES = [
     Path("analysis_output/preference_mix/table_preference_markdown.tex"),
     Path("analysis_output/preference_mix/summary_7b.json"),
     Path("analysis_output/preference_mix/table_preference_markdown_7b.tex"),
+    Path("analysis_output/preference_mix/table_preference_adjusted.tex"),
     Path("configs/exp8_v2_openai.json"),
     Path("configs/exp8_v2b_controls.json"),
     Path("configs/exp8_v2_olmo7b.json"),

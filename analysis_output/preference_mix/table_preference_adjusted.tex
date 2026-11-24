@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Which response in a pair is chosen, OLMo 2 preference mixes: odds ratios (95\% Wald interval) from a pairwise conditional logit with markup and emoji as features. Adjustments add the log ratio of the two responses' word counts and indicators for the model that wrote each response (models with at least 500 responses; the rest pooled).}
+\label{tab:preference-adjusted}
+\begin{tabular}{llrr}
+\toprule
+Mix & Adjustment & Markup & Emoji \\
+\midrule
+1B & None & 1.93 (1.90--1.95) & 1.05 (0.98--1.11) \\
+1B & Length & 1.79 (1.77--1.82) & 1.04 (0.97--1.11) \\
+1B & Length + responding model & 1.14 (1.12--1.15) & 0.84 (0.79--0.90) \\
+7B & None & 2.85 (2.81--2.88) & 1.16 (1.10--1.24) \\
+7B & Length & 2.54 (2.50--2.57) & 1.18 (1.11--1.26) \\
+7B & Length + responding model & 1.28 (1.26--1.31) & 0.81 (0.76--0.87) \\
+\bottomrule
+\end{tabular}
+\end{table}
